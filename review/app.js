@@ -1123,6 +1123,46 @@ function hasPendingChanges() {
   return state.files.some((file) => file.modified) || !compareProofreadStatus(state.proofreadStatus, state.proofreadBaseStatus);
 }
 
+async function captureLocalOverlay() {
+  const allRecords = await getAllFileRecords();
+  const modifiedZhRecords = allRecords
+    .filter((record) => record.lang === "zh" && record.modified)
+    .map((record) => ({
+      name: record.name,
+      text: record.text,
+      trailingNewline: record.trailingNewline,
+      updatedAt: record.updatedAt,
+    }));
+
+  return {
+    modifiedZhRecords,
+    proofreadStatus: JSON.parse(JSON.stringify(state.proofreadStatus || {})),
+    proofreadBaseStatus: JSON.parse(JSON.stringify(state.proofreadBaseStatus || {})),
+  };
+}
+
+async function restoreLocalOverlay(overlay) {
+  for (const record of overlay.modifiedZhRecords) {
+    const remoteRecord = await getFileRecord("zh", record.name);
+    if (!remoteRecord) {
+      continue;
+    }
+
+    await putFileRecord({
+      ...remoteRecord,
+      text: record.text,
+      trailingNewline: record.trailingNewline,
+      modified: true,
+      updatedAt: record.updatedAt || new Date().toISOString(),
+    });
+  }
+
+  state.proofreadStatus = overlay.proofreadStatus;
+  state.proofreadBaseStatus = overlay.proofreadBaseStatus;
+  await putMeta("proofreadStatus", state.proofreadStatus);
+  await putMeta("proofreadBaseStatus", state.proofreadBaseStatus);
+}
+
 async function syncRemote() {
   if (hasPendingChanges()) {
     throw new Error("本機還有未推送的變更，請先推送 GitHub 或重新整理後再同步。");
@@ -1140,12 +1180,37 @@ async function syncRemote() {
   });
 }
 
+async function syncRemoteWithOverlay() {
+  const overlay = await captureLocalOverlay();
+  const hasOverlay = overlay.modifiedZhRecords.length > 0
+    || !compareProofreadStatus(overlay.proofreadStatus, overlay.proofreadBaseStatus);
+
+  await bootstrapCache((status) => {
+    updateStartupBar(status);
+    setProgressState({
+      title: "?郊?脩垢",
+      message: status.detail ? `${status.message}嚗?{status.detail}` : status.message,
+      log: "",
+      busy: status.busy,
+      closable: !status.busy,
+    });
+  });
+
+  if (hasOverlay) {
+    // Keep local edits on top after refreshing from remote.
+    await restoreLocalOverlay(overlay);
+  }
+}
+
 async function pushChanges() {
   if (!state.repoConfig.token) {
     throw new Error("請先在 GitHub 設定中填入 Personal Access Token。");
   }
 
   const latestRef = await getBranchRef();
+  if (state.bootstrap?.commitSha && latestRef.object.sha !== state.bootstrap.commitSha) {
+    await syncRemoteWithOverlay();
+  }
   if (state.bootstrap?.commitSha && latestRef.object.sha !== state.bootstrap.commitSha) {
     throw new Error("遠端分支已有新變更，請先按「同步雲端」更新本機快取後再推送。");
   }
@@ -1315,7 +1380,7 @@ function bindEvents() {
       closable: false,
     });
     try {
-      await syncRemote();
+      await syncRemoteWithOverlay();
       setProgressState({
         title: "同步雲端",
         message: "雲端內容已更新到本機快取。",
