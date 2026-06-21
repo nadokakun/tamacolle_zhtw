@@ -1,6 +1,6 @@
 >>10000/
 @剝皮鬼
-食物不好ーーー！ ！ ！[wait 3]
+有沒有壞小孩呀ーーー！ ！ ！[wait 3]
 怎麼，被我嚇到了嗎？　[autotap]/
 [delay 6]
 [flow]
@@ -34,7 +34,7 @@
 [talk A]
 [-]
 [serif on]
-好吧，今天的蔬菜也不錯。[face A 10][move A Y 5 0.2][delay 0.2 move A Y -5 0.2]
+很好很好，今天的蔬菜也不錯。[face A 10][move A Y 5 0.2][delay 0.2 move A Y -5 0.2]
 哦。$B:A不是嗎？/
 [face A 01]
 [face B 01]
