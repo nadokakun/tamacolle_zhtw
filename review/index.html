@@ -73,11 +73,19 @@
     }
 
     .toolbar-top {
-      grid-template-columns: minmax(260px, 420px) 1fr auto auto auto auto;
+      grid-template-columns: minmax(260px, 420px) 1fr auto;
     }
 
     .toolbar-bottom {
       grid-template-columns: minmax(180px, 1fr) minmax(180px, 1fr) 140px auto auto auto auto 220px;
+    }
+
+    .repo-actions {
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 10px;
+      align-items: center;
     }
 
     .title {
@@ -629,11 +637,13 @@
           <span>已校對 <strong id="proofreadCount">0</strong></span>
           <span>已修改 <strong id="modifiedCount">0</strong></span>
         </div>
-        <span class="repo-summary" id="repoSummary"></span>
-        <button id="refreshBtn" type="button">重新整理</button>
-        <button id="syncRemoteBtn" class="button-warn" type="button">同步雲端</button>
-        <button id="pushBtn" class="button-strong" type="button">推送 GitHub</button>
-        <button id="configBtn" type="button">GitHub 設定</button>
+        <div class="repo-actions">
+          <span class="repo-summary" id="repoSummary"></span>
+          <button id="refreshBtn" type="button">重新整理</button>
+          <button id="syncRemoteBtn" class="button-warn" type="button">同步雲端</button>
+          <button id="pushBtn" class="button-strong" type="button">推送 GitHub</button>
+          <button id="configBtn" type="button">GitHub 設定</button>
+        </div>
       </div>
       <div class="toolbar-bottom">
         <input id="replaceFind" type="text" placeholder="快速取代: 尋找">
