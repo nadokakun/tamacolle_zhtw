@@ -2,5 +2,10 @@
   "scenario_a001.txt": {
     "done": true,
     "updatedAt": "2026-06-21T15:59:39.301Z"
+  },
+  "scenario_r004_1.txt": {
+    "state": "wip",
+    "done": false,
+    "updatedAt": "2026-06-21T23:01:40.371Z"
   }
 }
