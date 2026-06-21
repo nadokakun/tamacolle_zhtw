@@ -19,6 +19,7 @@
     }
 
     * { box-sizing: border-box; }
+
     body {
       margin: 0;
       font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
@@ -35,7 +36,7 @@
 
     .app {
       display: grid;
-      grid-template-rows: auto 1fr;
+      grid-template-rows: auto auto 1fr;
       min-height: 100vh;
     }
 
@@ -60,7 +61,7 @@
     }
 
     .toolbar-top {
-      grid-template-columns: minmax(200px, 320px) 1fr auto auto auto;
+      grid-template-columns: minmax(220px, 360px) 1fr auto auto auto;
     }
 
     .toolbar-bottom {
@@ -80,25 +81,101 @@
     .meta {
       color: var(--muted);
       font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .startup-status {
+      position: sticky;
+      top: 110px;
+      z-index: 4;
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      padding: 8px 16px;
+      background: rgba(255, 250, 243, 0.92);
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      backdrop-filter: blur(8px);
+    }
+
+    .startup-status.is-busy {
+      color: var(--ink);
+    }
+
+    .startup-status.is-ready {
+      color: var(--success);
+    }
+
+    .startup-status-main {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .startup-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.12);
+      flex: 0 0 auto;
+    }
+
+    .startup-status.is-busy .startup-dot {
+      animation: pulse 1.2s ease-in-out infinite;
+    }
+
+    .startup-status.is-ready .startup-dot {
+      background: var(--success);
+      box-shadow: 0 0 0 4px rgba(22, 101, 52, 0.12);
+      animation: none;
+    }
+
+    .startup-text {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .startup-text strong,
+    .startup-text span {
+      min-width: 0;
+      word-break: break-word;
+    }
+
+    .startup-progress {
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
     }
 
     .main {
       display: grid;
-      grid-template-columns: 320px 1fr 1fr;
+      grid-template-columns: 320px 1fr;
       gap: 14px;
       padding: 14px;
       min-height: 0;
     }
 
     .main.is-sidebar-collapsed {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
     }
 
     .sidebar-reopen {
       display: none;
       position: fixed;
       left: 14px;
-      top: 150px;
+      top: 180px;
       z-index: 6;
       box-shadow: var(--shadow);
       background: rgba(255, 250, 243, 0.96);
@@ -201,14 +278,6 @@
       color: #8a4b10;
     }
 
-    .stats {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
     .toggle-inline {
       display: inline-flex;
       align-items: center;
@@ -278,27 +347,58 @@
     .content {
       overflow: auto;
       min-height: 0;
-      padding: 8px 0;
+      padding: 0;
     }
 
-    .line-list {
+    .compare-header {
+      display: grid;
+      grid-template-columns: minmax(280px, 1fr) minmax(320px, 1fr);
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,0.32);
+    }
+
+    .compare-head-cell {
+      padding: 10px 14px;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: center;
+      font-weight: 700;
+    }
+
+    .compare-head-cell + .compare-head-cell {
+      border-left: 1px solid rgba(216, 204, 189, 0.7);
+    }
+
+    .compare-list {
       display: grid;
     }
 
-    .line-row {
+    .compare-row {
       display: grid;
-      grid-template-columns: 44px 1fr;
+      grid-template-columns: minmax(280px, 1fr) minmax(320px, 1fr);
+      border-bottom: 1px solid rgba(216, 204, 189, 0.55);
+      align-items: stretch;
+    }
+
+    .compare-cell {
+      min-width: 0;
+      display: grid;
+      grid-template-columns: 44px minmax(0, 1fr);
       gap: 10px;
       padding: 6px 12px;
-      border-bottom: 1px solid rgba(216, 204, 189, 0.55);
       align-items: start;
+    }
+
+    .compare-cell + .compare-cell {
+      border-left: 1px solid rgba(216, 204, 189, 0.45);
     }
 
     .line-no {
       color: var(--muted);
       font-variant-numeric: tabular-nums;
       user-select: none;
-      padding-top: 7px;
+      padding-top: 9px;
       text-align: right;
     }
 
@@ -306,18 +406,19 @@
       white-space: pre-wrap;
       line-height: 1.6;
       word-break: break-word;
-      padding: 6px 0;
+      padding: 8px 0;
+      min-height: 42px;
     }
 
-    .line-input-wrap {
+    .line-editor {
       display: grid;
       grid-template-columns: minmax(0, 1fr) auto;
       gap: 8px;
-      align-items: center;
+      align-items: start;
     }
 
     .line-input {
-      min-height: 34px;
+      min-height: 42px;
       resize: none;
       line-height: 1.6;
       overflow: hidden;
@@ -330,15 +431,11 @@
       color: var(--muted);
       white-space: nowrap;
       align-self: center;
-      padding: 6px 0;
+      padding-top: 10px;
     }
 
     .save-state[data-pending="true"] {
       color: var(--danger);
-    }
-
-    .save-state[data-state="saved"] {
-      color: var(--muted);
     }
 
     .save-state[data-state="saving"] {
@@ -451,38 +548,51 @@
       to { transform: rotate(360deg); }
     }
 
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(0.72); opacity: 0.65; }
+    }
+
     @media (max-width: 1400px) {
-      .main {
-        grid-template-columns: 280px 1fr 1fr;
-      }
       .toolbar-top {
         grid-template-columns: 1fr repeat(3, auto) auto;
       }
+
       .toolbar-bottom {
         grid-template-columns: 1fr 1fr 120px repeat(4, auto) 180px;
+      }
+
+      .startup-status {
+        top: 142px;
       }
     }
 
     @media (max-width: 1100px) {
-      .toolbar {
+      .toolbar,
+      .startup-status {
         position: static;
       }
-      .toolbar-top {
-        grid-template-columns: 1fr 1fr;
-      }
-      .toolbar-bottom {
-        grid-template-columns: 1fr 1fr;
-      }
-      .main {
+
+      .toolbar-top,
+      .toolbar-bottom,
+      .main,
+      .compare-row,
+      .compare-header,
+      .startup-status {
         grid-template-columns: 1fr;
-        grid-template-rows: 220px 42vh 42vh;
       }
-      .title {
-        grid-column: 1 / -1;
-      }
+
+      .title,
       .stats {
         grid-column: 1 / -1;
       }
+
+      .compare-head-cell + .compare-head-cell,
+      .compare-cell + .compare-cell {
+        border-left: 0;
+        border-top: 1px solid rgba(216, 204, 189, 0.45);
+      }
+
       .sidebar-reopen {
         top: auto;
         bottom: 20px;
@@ -497,7 +607,7 @@
       <div class="toolbar-top">
         <div class="title">
           <strong>Tamacolle 翻譯校對工具</strong>
-          <span class="meta">右側可直接編輯，按 Enter 儲存。首次啟動會在本機建立中文快照。</span>
+          <span class="meta">右側可直接編輯，按 Enter 儲存。首次啟動會先在本機建立中日文快照。</span>
         </div>
         <div class="stats">
           <span>檔案 <strong id="fileCount">0</strong></span>
@@ -514,7 +624,7 @@
         <input id="replaceTo" type="text" placeholder="快速取代: 取代成">
         <select id="replaceScope">
           <option value="current">目前檔案</option>
-          <option value="all">所有檔案</option>
+          <option value="all">全部檔案</option>
         </select>
         <label class="toggle-inline"><input id="caseSensitive" type="checkbox" checked><span>大小寫區分</span></label>
         <label class="toggle-inline"><input id="useRegex" type="checkbox"><span>Regex</span></label>
@@ -526,6 +636,18 @@
       <div class="meta" id="replaceStatus">快速取代會先顯示預覽，正式執行時會建立本機備份。</div>
     </section>
 
+    <section class="startup-status is-busy" id="startupStatusBar" data-phase="boot">
+      <div class="startup-status-main">
+        <div class="startup-dot" aria-hidden="true"></div>
+        <div class="startup-text">
+          <strong id="startupStatusText">初始化中</strong>
+          <span id="startupStatusDetail">正在準備本機快照...</span>
+        </div>
+      </div>
+      <div></div>
+      <strong class="startup-progress" id="startupStatusProgress"></strong>
+    </section>
+
     <button id="reopenSidebarBtn" class="collapse-btn sidebar-reopen" type="button" aria-expanded="false">展開檔案列表</button>
 
     <main class="main">
@@ -533,7 +655,7 @@
         <header>
           <div class="panel-title">
             <strong>檔案清單</strong>
-            <button id="toggleSidebarBtn" class="collapse-btn" type="button" aria-expanded="true">收起</button>
+            <button id="toggleSidebarBtn" class="collapse-btn" type="button" aria-expanded="true">收合</button>
           </div>
           <span id="currentFile">尚未選擇檔案</span>
         </header>
@@ -541,9 +663,9 @@
           <input id="fileSearch" type="search" placeholder="搜尋檔名">
           <select id="proofreadFilter">
             <option value="all">全部檔案</option>
-            <option value="todo">只看未校對</option>
-            <option value="done">只看已校對</option>
-            <option value="modified">只看已修改</option>
+            <option value="todo">未校對</option>
+            <option value="done">已校對</option>
+            <option value="modified">已修改</option>
           </select>
           <div class="stats">
             <button id="markDoneBtn" class="button-alt" type="button">標記已校對</button>
@@ -556,18 +678,20 @@
 
       <section class="panel">
         <header>
-          <strong>日文原文</strong>
-          <span>ja_noruby/raw</span>
+          <strong>原文與翻譯對照</strong>
+          <span>ja_noruby/raw ↔ zh_tw/raw</span>
         </header>
-        <div class="content" id="jpPane"></div>
-      </section>
-
-      <section class="panel">
-        <header>
-          <strong>中文翻譯</strong>
-          <span>zh_tw/raw</span>
-        </header>
-        <div class="content" id="zhPane"></div>
+        <div class="compare-header">
+          <div class="compare-head-cell">
+            <span>日文原文</span>
+            <span>ja_noruby/raw</span>
+          </div>
+          <div class="compare-head-cell">
+            <span>中文翻譯</span>
+            <span>zh_tw/raw</span>
+          </div>
+        </div>
+        <div class="content" id="comparePane"></div>
       </section>
     </main>
   </div>
@@ -579,13 +703,14 @@
         <div class="spinner" id="progressSpinner"></div>
         <h2 id="progressTitle">處理中</h2>
       </div>
-      <div class="progress-message" id="progressMessage">請稍候...</div>
-      <div class="progress-log" id="progressLog" hidden></div>
+      <div class="progress-message" id="progressMessage"></div>
+      <pre class="progress-log" id="progressLog" hidden></pre>
       <div class="progress-actions">
         <button id="progressCloseBtn" type="button" hidden>關閉</button>
       </div>
     </div>
   </div>
-  <script src="./app.js"></script>
+
+  <script src="./app.js" type="module"></script>
 </body>
 </html>

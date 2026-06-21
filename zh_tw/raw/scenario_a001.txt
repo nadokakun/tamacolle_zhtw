@@ -54,8 +54,8 @@
 [face A 02]
 [effect fr kira 6000 0 0]
 [se kira_01]
-你覺得怎麼樣？挺好吃的，哈哈
-自己種的菜特別好吃。/
+你覺得怎麼樣？挺好吃的吧，哈哈
+自己種的菜總是特別好吃。/
 >>5/
 [set A s_a001_r ナモミハギ]
 [randomset B r @地魂男児 @あやかし -a001]
@@ -77,7 +77,7 @@
 [autotap]/
 [face A 01]
 我做的食物是每個人都會喜歡的。
-哈哈，我很期待。[face B 01]/
+哈哈，好好期待吧。[face B 01]/
 >>6/
 [set A s_a001_r ナモミハギ]
 [randomset B r @地魂男児 @あやかし -a001]
@@ -97,16 +97,16 @@
 [serif on]
 [say A]
 哦？　$B:A，你剛才有碰俺嗎？
-[shake A]很癢。母親。[shake A][face A 02]/
+[shake A]有點癢，哈哈。[shake A][face A 02]/
 [face A 02]
 [face B 05]
 [move A X 50 0.3]
-這就是回報！
+看我怎麼回敬你！
 嘿，這是怎麼回事？[rotate B 10 0.5][shake B][se cloth_06][face B 01]/
 [face A 01]
 [face B 02]
-……我希望你笑得那麼開心
-你也會幸福的！[shake A][shake B]/
+……你笑得那麼開心
+俺也覺得很高興呢！[shake A][shake B]/
 >>7/
 /
 /
@@ -126,8 +126,8 @@
 [effect fr syutyu a 0 0]
 [serif on]
 [say A]
-請吃不好的食物！[se taiko_02][shake A][wait 0.2]　……天啊。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0][face A 02][effect off a]
-當其他人都睡覺時，你必須保持安靜。[face A 00]/
+有沒有不乖的孩子啊ー！[se taiko_02][shake A][wait 0.2]　……開玩笑的。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0][face A 02][effect off a]
+當大家睡覺的時候要保持安靜呀。[face A 00]/
 [serif off]
 [scale A 1 0.5]
 [move A Y 140 0.5]
@@ -141,8 +141,8 @@
 [delay 0.1 move A Y -10 0.1]
 [-]
 [serif on]
-你好？你醒了嗎？[face A 01][shake A]
-你再不睡的話，我就帶你去山裡。[face B 05][shake B][se zukkoke_02]/
+你啊，怎麼又爬起來了？[face A 01][shake A]
+你再不睡的話，我就把你抓去山裡囉～[face B 05][shake B][se zukkoke_02]/
 >>10/
 [set A s_a001_r ナモミハギ]
 [randomset B r @地魂男児 @あやかし -a001]
@@ -160,7 +160,7 @@
 [serif on]
 [say A]
 今晚的星星很美。
-$B:A,要一起看嗎?[face A 01][face B 01]/
+$B:A、要一起看嗎？[face A 01][face B 01]/
 [setline 0.5 A B]
 [move B Y -100 0.5]
 [se cloth_01]
@@ -171,15 +171,15 @@ $B:A,要一起看嗎?[face A 01][face B 01]/
 [-]
 [serif on]
 當俺作為來訪之神旅行時
-我一直指望著星星。/
+我總是只能望著星星。/
 [face A 02]
 [face B 06]
 [effect fr kira a 0 0]
 [se kira_01]
 [move A Y 10 0.4]
 [delay 0.4 move A Y -10 1.0]
-……但現在我很高興能和大家在一起。
-你並不孤單。[face A 06]/
+……但現在我，很高興能和大家在一起。
+我並不孤單。[face A 06]/
 [effect off a]
 [light off 0.5]
 [autotap]/
@@ -193,20 +193,20 @@ $B:A,要一起看嗎?[face A 01][face B 01]/
 [serif on]
 [say A]
 對於那些努力工作到深夜的人來說，
-我想我會做一些當晚餐。/
+我想為他們做一些晚餐。/
 [move A X 100 0.5]
 [delay 0.5 move A X -100 0.5]
 [autotap]/
 [face A 00]
 [se cloth_01]
-在田野裡被抓到[=大根 人参 白菜 キャベツ ジャガイモ 玉ねぎ ネギ ゴボウ カボチャ ナス トマト きゅうり しいたけ えのき なめこ]還放...
+在田裡採收[=大根 人参 白菜 キャベツ ジャガイモ 玉ねぎ ネギ ゴボウ カボチャ ナス トマト きゅうり しいたけ えのき なめこ]還有...
 [face A 01]好吧好吧，感覺不錯。/
 [face A 02]
 [effect fr kira a 0 0]
 [se kira_01]
 [scale A 1.3 0.3]
 [move A Y -60 0.3]
-一切都完成了。
+嘿，一切都完成了。
 呵呵，相信大家都會喜歡的。/
 >>12/
 /
@@ -224,11 +224,11 @@ $B:A,要一起看嗎?[face A 01][face B 01]/
 [serif on]
 [say A]
 不知為什麼……雖然我獨自一人很長一段時間，
-與所有這些人共度時光.../
+但與大家共度的時光.../
 [face A 02]
 [shake A]
-另一方面，獨自一人很難做到的事...
-我的身體……刺痛……/
+感覺很難回到一個人的時候了...
+我的身體……總感覺坐立不安……/
 [move A Y 10 0.4]
 [delay 0.4 move A Y -10 1.0]
 [delay 0.5 rotate A 0 0.5]
@@ -256,7 +256,7 @@ $B:A,要一起看嗎?[face A 01][face B 01]/
 [-]
 [serif on]
 [say A]
-哦，$B:A……我訓練得很好。
+哦，$B:A……體魄不錯嘛。
 看著就感覺很好。[face A 02]/
 [move A Y 100 0.1]
 [delay 0.1 move A Y -100 0.2]
@@ -267,8 +267,8 @@ $B:A,要一起看嗎?[face A 01][face B 01]/
 [face B 01]
 [effect fr syutyu a 0 0]
 [se taiko_01]
-好吧，那我就來了
-我支援你！祝你好運！[face A 02]/
+好吧，那我就在這裡
+好好地為你應援！祝你好運！[face A 02]/
 >>16/
 [set A s_a001_r ナモミハギ]
 [randomset B r @地魂男児 @あやかし -a001]
@@ -325,8 +325,8 @@ $B:A……[show B R][face B 05]/
 [shake A]
 [move A Y 10 0.1]
 [delay 0.1 move A Y -10 0.1]
-我明白了……太大了。
-可怕吧？[face B 06]/
+我明白了……俺太大了是吧。
+你覺得我可怕嗎？[face B 06]/
 >>18/
 [set A s_a001_b ナモミハギ]
 [randomset B b @地魂男児 @あやかし -a001]
@@ -354,7 +354,7 @@ $B:A……[show B R][face B 05]/
 [face A 06]
 [shake A]
 和某人在一起是什麼感覺？
-我感到緊張。[se bath_04][shake A]/
+總覺得特別的緊張。[se bath_04][shake A]/
 >>19/
 [set A s_a001_b ナモミハギ]
 [randomset B b @地魂男児 @あやかし -a001]
@@ -368,7 +368,7 @@ $B:A……[show B R][face B 05]/
 [serif on]
 [say A]
 ……呼……是因為這裡的餐點好吃嗎？
-我體重增加了嗎？/
+好像稍微變胖了點？/
 [se door_03]
 [serif off]
 [show B R]
@@ -381,7 +381,7 @@ $B:A……[show B R][face B 05]/
 [-]
 [serif on]
 哦，$B:A，...嗯，最近，
-你也變圓了嗎？哪一個.../
+你也變圓了嗎？讓我看看.../
 [move A X 50 0.3]
 [scale A 1.6 0.5]
 [scale B 1.6 0.5]
@@ -395,7 +395,7 @@ $B:A……[show B R][face B 05]/
 [face A 02]
 [face B 06]
 正如預期的那樣，這[=腹 体 胸 尻 太もも]也
-這是豐盛的祝福。謝謝。/
+真是豐盛的祝福。謝謝。/
 >>20/
 [set A s_a001_r ナモミハギ]
 [show A C]
@@ -412,7 +412,7 @@ $B:A……[show B R][face B 05]/
 [-]
 [serif on]
 [say A]
-嘿嘿，我來得正是時候…
+好險，千鈞一髮趕上了…
 ……呼呼，感覺很清爽啊。[face A 06]/
 [move A Y -10 0.2]
 [delay 0.2 move A Y 10 0.2]
@@ -452,8 +452,8 @@ $B:A……[show B R][face B 05]/
 [effect bk waveout 6000 00 0]
 [effect fr kira a 0 0]
 [se kira_01]
-我不知道它會採取什麼形式
-我會給你一些生育的力量。/
+我不知道它會以什麼形式顯現
+但我會給你一些豐穰的力量。/
 >>22/
 [set A s_a001_r ナモミハギ]
 [randomset B r @地魂男児 @あやかし -a001]
@@ -507,13 +507,13 @@ $B:A……[show B R][face B 05]/
 [serif on]
 [say A]
 嗯？這是什麼...
-這不是一本《順伽》書嗎？ ！[face A 05][shake A][se zukkoke_02]/
+這不是一本《春畫集》嗎？ ！[face A 05][shake A][se zukkoke_02]/
 [face A 06]
 [se paper_01]
 [move A Y 5 0.2]
 [delay 0.2 move A Y -5 0.2]
-……呵呵，現在這種事，
-這還不錯。我的心在狂跳…/
+……呵呵，不愧是現代，
+感覺不錯。真是刺激…/
 [show B R]
 [face A 02]
 [face B 05]
@@ -522,7 +522,7 @@ $B:A……[show B R][face B 05]/
 [move B X -200 0.5]
 [shake A 2 5 5]
 哇哦，$B:A！ ？呵呵...
-我看到了一些尷尬的事情.../
+我看到了一些尷尬的東西.../
 >>24/
 [set A s_a001_r ナモミハギ]
 [show A C]
@@ -554,10 +554,10 @@ $B:A……[show B R][face B 05]/
 [-]
 [serif on]
 [say A]
-俺在保護我...
-嘿嘿，沒關係的.../
+你有俺在保護...
+絕對，沒問題的.../
 [talkend]
-他繼續睡覺，臉上的表情非常平靜。/
+看著他睡著，臉上的表情非常平靜。/
 >>26/
 [set A s_a001_r ナモミハギ]
 [show A C]
@@ -569,20 +569,20 @@ $B:A……[show B R][face B 05]/
 [-]
 [serif on]
 [say A]
-我想知道那是什麼...
+到底是什麼呢...
 我不敢相信我會做這樣的夢.../
 [shake A 2 5 5]
 [move A Y 5 0.2]
 [delay 0.2 move A Y -5 0.2]
 [autotap]/
 [face A 02]
-我的身體感覺奇怪地泛紅
-我半夜就遇到這樣的麻煩.../
+我感覺身體有點火辣辣的
+在這大半夜的，真是麻煩呀.../
 [face A 06]
 [se cloth_01]
 [move A Y 100 0.2]
 [move A X -300 0.5]
 [hide A]
 [se fusuma_01]
-我是不是應該偷偷溜出去一段時間？
+偷偷溜出去一下吧？
 我得盡量不吵醒大家。/

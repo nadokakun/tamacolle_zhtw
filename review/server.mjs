@@ -14,7 +14,8 @@ const zhDir = path.join(repoRoot, "zh_tw", "raw");
 const jpDir = path.join(repoRoot, "ja_noruby", "raw");
 const proofreadPath = path.join(reviewDir, "proofread-status.json");
 const cacheRoot = path.join(repoRoot, ".review-cache");
-const snapshotDir = path.join(cacheRoot, "zh_tw_snapshot");
+const zhSnapshotDir = path.join(cacheRoot, "zh_tw_snapshot");
+const jpSnapshotDir = path.join(cacheRoot, "ja_noruby_snapshot");
 const backupRoot = path.join(cacheRoot, "backups");
 const bootstrapPath = path.join(cacheRoot, "bootstrap.json");
 
@@ -22,6 +23,28 @@ const host = process.env.TAMACOLLE_REVIEW_HOST || "127.0.0.1";
 const port = Number(process.env.TAMACOLLE_REVIEW_PORT || "8767");
 
 const textEncoder = new TextEncoder();
+
+let bootstrapPromise = null;
+const startupStatus = {
+  phase: "idle",
+  message: "等待初始化",
+  detail: "",
+  current: 0,
+  total: 0,
+  busy: true,
+  updatedAt: new Date().toISOString(),
+};
+
+function setStartupStatus(next) {
+  Object.assign(startupStatus, next, { updatedAt: new Date().toISOString() });
+}
+
+function getStartupStatus() {
+  return {
+    ...startupStatus,
+    ready: !startupStatus.busy,
+  };
+}
 
 function jsonResponse(res, statusCode, payload) {
   const body = textEncoder.encode(JSON.stringify(payload, null, 2));
@@ -31,16 +54,6 @@ function jsonResponse(res, statusCode, payload) {
     "Cache-Control": "no-store",
   });
   res.end(body);
-}
-
-function textResponse(res, statusCode, body, contentType) {
-  const encoded = textEncoder.encode(body);
-  res.writeHead(statusCode, {
-    "Content-Type": contentType,
-    "Content-Length": String(encoded.length),
-    "Cache-Control": "no-store",
-  });
-  res.end(encoded);
 }
 
 async function exists(targetPath) {
@@ -116,34 +129,135 @@ async function writeProofreadStatus(status) {
   await writeUtf8(proofreadPath, `${JSON.stringify(status, null, 2)}\n`);
 }
 
-async function ensureBootstrap() {
+async function runBootstrap() {
+  setStartupStatus({
+    phase: "prepare",
+    message: "準備初始化快照",
+    detail: "建立本機快取資料夾中...",
+    current: 0,
+    total: 0,
+    busy: true,
+  });
+
   await ensureDir(cacheRoot);
   await ensureDir(backupRoot);
+  await ensureDir(zhSnapshotDir);
+  await ensureDir(jpSnapshotDir);
 
-  if (await exists(bootstrapPath)) {
-    const raw = await readUtf8(bootstrapPath);
-    return JSON.parse(raw);
-  }
+  setStartupStatus({
+    phase: "scan",
+    message: "掃描翻譯檔案",
+    detail: "正在整理日文與中文檔名...",
+  });
 
-  await ensureDir(snapshotDir);
   const files = await listScenarioFiles();
 
-  for (const name of files) {
-    const source = path.join(zhDir, name);
-    if (await exists(source)) {
-      await copyFile(source, path.join(snapshotDir, name));
+  setStartupStatus({
+    phase: "snapshot-zh",
+    message: "建立中文快照",
+    detail: "正在複製 zh_tw/raw 到本機快取...",
+    current: 0,
+    total: files.length,
+  });
+
+  for (let index = 0; index < files.length; index += 1) {
+    const name = files[index];
+    const zhSource = path.join(zhDir, name);
+    if (await exists(zhSource)) {
+      await copyFile(zhSource, path.join(zhSnapshotDir, name));
+    }
+    setStartupStatus({
+      phase: "snapshot-zh",
+      message: "建立中文快照",
+      detail: name,
+      current: index + 1,
+      total: files.length,
+    });
+  }
+
+  setStartupStatus({
+    phase: "snapshot-jp",
+    message: "建立日文快照",
+    detail: "正在複製 ja_noruby/raw 到本機快取...",
+    current: 0,
+    total: files.length,
+  });
+
+  for (let index = 0; index < files.length; index += 1) {
+    const name = files[index];
+    const jpSource = path.join(jpDir, name);
+    if (await exists(jpSource)) {
+      await copyFile(jpSource, path.join(jpSnapshotDir, name));
+    }
+    setStartupStatus({
+      phase: "snapshot-jp",
+      message: "建立日文快照",
+      detail: name,
+      current: index + 1,
+      total: files.length,
+    });
+  }
+
+  setStartupStatus({
+    phase: "finalize",
+    message: "寫入初始化資訊",
+    detail: "更新 bootstrap.json...",
+    current: files.length,
+    total: files.length,
+  });
+
+  let previousBootstrap = {};
+  if (await exists(bootstrapPath)) {
+    try {
+      previousBootstrap = JSON.parse(await readUtf8(bootstrapPath));
+    } catch {
+      previousBootstrap = {};
     }
   }
 
   const bootstrap = {
-    createdAt: new Date().toISOString(),
-    zhSnapshotDir: path.relative(repoRoot, snapshotDir).replace(/\\/g, "/"),
+    createdAt: previousBootstrap.createdAt || new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    zhSnapshotDir: path.relative(repoRoot, zhSnapshotDir).replace(/\\/g, "/"),
+    jpSnapshotDir: path.relative(repoRoot, jpSnapshotDir).replace(/\\/g, "/"),
     fileCount: files.length,
-    note: "First-use snapshot of zh_tw/raw.",
+    note: "Local snapshots of zh_tw/raw and ja_noruby/raw.",
   };
 
   await writeUtf8(bootstrapPath, `${JSON.stringify(bootstrap, null, 2)}\n`);
+
+  setStartupStatus({
+    phase: "ready",
+    message: "初始化完成",
+    detail: `已建立 ${files.length} 個檔案的中日文快照。`,
+    current: files.length,
+    total: files.length,
+    busy: false,
+  });
+
   return bootstrap;
+}
+
+async function ensureBootstrap() {
+  if (!bootstrapPromise) {
+    bootstrapPromise = runBootstrap().catch((error) => {
+      setStartupStatus({
+        phase: "error",
+        message: "初始化失敗",
+        detail: error instanceof Error ? error.message : String(error),
+        busy: false,
+      });
+      bootstrapPromise = null;
+      throw error;
+    });
+  }
+
+  return bootstrapPromise;
+}
+
+async function resolveSnapshotPath(dirPath, snapshotPath, name) {
+  const snapshotFile = path.join(snapshotPath, name);
+  return (await exists(snapshotFile)) ? snapshotFile : path.join(dirPath, name);
 }
 
 async function runGit(args, options = {}) {
@@ -205,24 +319,23 @@ async function buildFileSummary() {
   const items = [];
 
   for (const name of files) {
-    const [jpExists, zhExists] = await Promise.all([
-      exists(path.join(jpDir, name)),
-      exists(path.join(zhDir, name)),
+    const [jpPath, zhPath] = await Promise.all([
+      resolveSnapshotPath(jpDir, jpSnapshotDir, name),
+      resolveSnapshotPath(zhDir, zhSnapshotDir, name),
     ]);
 
+    const [jpExists, zhExists] = await Promise.all([exists(jpPath), exists(zhPath)]);
     const [jpText, zhText] = await Promise.all([
-      jpExists ? readUtf8(path.join(jpDir, name)) : "",
-      zhExists ? readUtf8(path.join(zhDir, name)) : "",
+      jpExists ? readUtf8(jpPath) : "",
+      zhExists ? readUtf8(zhPath) : "",
     ]);
 
-    const jpLines = jpText ? splitLines(jpText).length : 0;
-    const zhLines = zhText ? splitLines(zhText).length : 0;
     const proofread = proofreadStatus[name] || {};
 
     items.push({
       name,
-      jpLines,
-      zhLines,
+      jpLines: jpText ? splitLines(jpText).length : 0,
+      zhLines: zhText ? splitLines(zhText).length : 0,
       proofread: Boolean(proofread.done),
       proofreadAt: proofread.updatedAt || null,
       modified: modifiedSet.has(name),
@@ -245,8 +358,11 @@ async function readScenario(name) {
     throw new Error("Invalid file name.");
   }
 
-  const jpPath = path.join(jpDir, name);
-  const zhPath = path.join(zhDir, name);
+  await ensureBootstrap();
+  const [jpPath, zhPath] = await Promise.all([
+    resolveSnapshotPath(jpDir, jpSnapshotDir, name),
+    resolveSnapshotPath(zhDir, zhSnapshotDir, name),
+  ]);
 
   const [jpText, zhText] = await Promise.all([
     exists(jpPath).then((ok) => (ok ? readUtf8(jpPath) : "")),
@@ -425,7 +541,7 @@ async function setProofread(payload) {
 async function syncRemote() {
   const gitStatus = await getGitStatus();
   if (gitStatus.dirty) {
-    throw new Error("本機有未提交的翻譯或校對標記，請先提交或推送後再同步。");
+    throw new Error("工作樹有未提交變更，請先整理後再同步雲端。");
   }
 
   const pullResult = await runGit(["pull", "--ff-only", "--autostash", "origin", gitStatus.branch]);
@@ -536,6 +652,11 @@ async function handleApi(req, res, url) {
     return;
   }
 
+  if (req.method === "GET" && url.pathname === "/api/startup-status") {
+    jsonResponse(res, 200, getStartupStatus());
+    return;
+  }
+
   if (req.method === "GET" && url.pathname === "/api/files") {
     jsonResponse(res, 200, await buildFileSummary());
     return;
@@ -603,8 +724,6 @@ async function handleRequest(req, res) {
   }
 }
 
-await ensureBootstrap();
-
 createServer((req, res) => {
   handleRequest(req, res).catch((error) => {
     jsonResponse(res, 500, { error: error instanceof Error ? error.message : String(error) });
@@ -612,4 +731,8 @@ createServer((req, res) => {
 }).listen(port, host, () => {
   console.log(`Tamacolle review server: http://${host}:${port}/`);
   console.log(`Repo root: ${repoRoot}`);
+});
+
+ensureBootstrap().catch((error) => {
+  console.error("Bootstrap failed:", error);
 });
