@@ -6,16 +6,16 @@
   <title>Tamacolle 翻譯校對工具</title>
   <style>
     :root {
-      --bg: #f3eee5;
-      --panel: #fffaf3;
-      --line: #d8ccbd;
-      --ink: #1d1814;
-      --muted: #6c6258;
-      --accent: #0f766e;
-      --accent-2: #1d4ed8;
-      --danger: #b45309;
-      --success: #166534;
-      --shadow: 0 12px 32px rgba(61, 42, 27, 0.08);
+      --bg: #10161c;
+      --panel: #18212b;
+      --line: #2c3947;
+      --ink: #edf3f8;
+      --muted: #98a7b6;
+      --accent: #14b8a6;
+      --accent-2: #60a5fa;
+      --danger: #f59e0b;
+      --success: #4ade80;
+      --shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
     }
 
     * { box-sizing: border-box; }
@@ -31,8 +31,9 @@
       font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
       color: var(--ink);
       background:
-        radial-gradient(circle at top left, rgba(255, 255, 255, 0.88), transparent 28%),
-        linear-gradient(180deg, #ece3d6 0%, var(--bg) 38%, #efe8dd 100%);
+        radial-gradient(circle at top left, rgba(96, 165, 250, 0.12), transparent 26%),
+        radial-gradient(circle at top right, rgba(20, 184, 166, 0.08), transparent 24%),
+        linear-gradient(180deg, #0b1117 0%, var(--bg) 42%, #0e151c 100%);
     }
 
     button, input, select, textarea {
@@ -59,7 +60,7 @@
       display: grid;
       gap: 10px;
       padding: 12px 16px;
-      background: rgba(255, 250, 243, 0.95);
+      background: rgba(16, 22, 28, 0.94);
       border-bottom: 1px solid var(--line);
       backdrop-filter: blur(12px);
       box-shadow: var(--shadow);
@@ -128,7 +129,7 @@
       gap: 10px;
       align-items: center;
       padding: 8px 16px;
-      background: rgba(255, 250, 243, 0.92);
+      background: rgba(19, 27, 35, 0.94);
       border-bottom: 1px solid var(--line);
       color: var(--muted);
       backdrop-filter: blur(8px);
@@ -207,7 +208,7 @@
       top: 180px;
       z-index: 6;
       box-shadow: var(--shadow);
-      background: rgba(255, 250, 243, 0.96);
+      background: rgba(24, 33, 43, 0.96);
     }
 
     .sidebar-reopen.is-visible {
@@ -216,7 +217,7 @@
 
     .panel {
       min-height: 0;
-      background: rgba(255, 250, 243, 0.96);
+      background: rgba(24, 33, 43, 0.96);
       border: 1px solid var(--line);
       border-radius: 16px;
       box-shadow: var(--shadow);
@@ -228,7 +229,7 @@
     .panel header {
       padding: 12px 14px;
       border-bottom: 1px solid var(--line);
-      background: rgba(255,255,255,0.42);
+      background: rgba(255, 255, 255, 0.03);
       display: flex;
       justify-content: space-between;
       gap: 10px;
@@ -268,7 +269,7 @@
       border: 1px solid var(--line);
       border-radius: 10px;
       padding: 9px 11px;
-      background: #fffdf8;
+      background: #111922;
     }
 
     input[type="checkbox"] {
@@ -280,12 +281,27 @@
       border: 1px solid var(--line);
       border-radius: 10px;
       padding: 9px 12px;
-      background: #fffdf8;
+      background: #111922;
       cursor: pointer;
     }
 
     button:hover {
       border-color: var(--accent);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #738395;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus-visible {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.18);
     }
 
     .button-strong {
@@ -301,9 +317,9 @@
     }
 
     .button-warn {
-      background: #fff4e5;
-      border-color: #f0c48b;
-      color: #8a4b10;
+      background: rgba(245, 158, 11, 0.12);
+      border-color: rgba(245, 158, 11, 0.35);
+      color: #ffd089;
     }
 
     .toggle-inline {
@@ -330,7 +346,7 @@
       padding: 12px;
       border: 1px solid var(--line);
       border-radius: 12px;
-      background: rgba(255,255,255,0.6);
+      background: rgba(255, 255, 255, 0.03);
     }
 
     .file-item strong {
@@ -345,7 +361,7 @@
 
     .file-item.is-active {
       border-color: var(--accent);
-      background: rgba(15, 118, 110, 0.08);
+      background: rgba(20, 184, 166, 0.16);
     }
 
     .pill {
@@ -354,22 +370,22 @@
       border-radius: 999px;
       padding: 3px 8px;
       font-size: 12px;
-      background: #f0ebe4;
+      background: rgba(255, 255, 255, 0.06);
     }
 
     .pill.is-done {
-      background: #dcfce7;
-      color: var(--success);
+      background: rgba(74, 222, 128, 0.16);
+      color: #9df4b9;
     }
 
     .pill.is-todo {
-      background: #fef3c7;
-      color: var(--danger);
+      background: rgba(245, 158, 11, 0.16);
+      color: #ffd089;
     }
 
     .pill.is-modified {
-      background: #dbeafe;
-      color: var(--accent-2);
+      background: rgba(96, 165, 250, 0.16);
+      color: #a7d0ff;
     }
 
     .content {
@@ -382,7 +398,7 @@
       display: grid;
       grid-template-columns: minmax(280px, 1fr) minmax(320px, 1fr);
       border-bottom: 1px solid var(--line);
-      background: rgba(255,255,255,0.32);
+      background: rgba(255, 255, 255, 0.03);
     }
 
     .compare-head-cell {
@@ -449,6 +465,7 @@
       resize: vertical;
       line-height: 1.8;
       overflow: hidden;
+      color: var(--ink);
     }
 
     .save-state {
@@ -483,7 +500,7 @@
       z-index: 20;
       padding: 10px 14px;
       border-radius: 12px;
-      background: rgba(29, 24, 20, 0.92);
+      background: rgba(8, 12, 16, 0.96);
       color: #fff;
       box-shadow: var(--shadow);
     }
@@ -504,7 +521,7 @@
       display: grid;
       place-items: center;
       padding: 20px;
-      background: rgba(29, 24, 20, 0.28);
+      background: rgba(3, 6, 9, 0.62);
       backdrop-filter: blur(5px);
     }
 
@@ -549,7 +566,8 @@
       overflow: auto;
       border: 1px solid var(--line);
       border-radius: 12px;
-      background: #fffdf8;
+      background: #111922;
+      color: var(--ink);
       white-space: pre-wrap;
       word-break: break-word;
     }
