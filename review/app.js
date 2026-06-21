@@ -28,6 +28,7 @@ const state = {
   savingLine: new Set(),
   sidebarCollapsed: false,
   renderToken: 0,
+  renderTimer: 0,
   repoConfig: loadRepoConfig(),
   db: null,
   proofreadStatus: {},
@@ -35,7 +36,7 @@ const state = {
   bootstrap: null,
   autoGrowQueue: new Set(),
   autoGrowRaf: 0,
-  renderTimer: 0,
+  compareLoadState: null,
 };
 
 const elements = {
@@ -85,6 +86,7 @@ const elements = {
   configToken: document.getElementById("configToken"),
   configCloseBtn: document.getElementById("configCloseBtn"),
   configStatus: document.getElementById("configStatus"),
+  markWipBtn: document.getElementById("markWipBtn"),
   markDoneBtn: document.getElementById("markDoneBtn"),
   markTodoBtn: document.getElementById("markTodoBtn"),
 };
@@ -165,22 +167,14 @@ function getReviewStage(proofread) {
 }
 
 function getReviewLabel(stage) {
-  if (stage === "wip") {
-    return "校對中";
-  }
-  if (stage === "done") {
-    return "已校對";
-  }
+  if (stage === "wip") return "校對中";
+  if (stage === "done") return "已校對";
   return "未校對";
 }
 
 function getReviewClass(stage) {
-  if (stage === "wip") {
-    return "is-wip";
-  }
-  if (stage === "done") {
-    return "is-done";
-  }
+  if (stage === "wip") return "is-wip";
+  if (stage === "done") return "is-done";
   return "is-todo";
 }
 
@@ -270,12 +264,7 @@ function queueAutoGrow(textarea) {
   state.autoGrowRaf = requestAnimationFrame(() => {
     for (const item of state.autoGrowQueue) {
       item.style.height = "auto";
-      const nextHeight = Math.max(item.scrollHeight, LINE_INPUT_MIN_HEIGHT);
-      if (Number.parseInt(item.style.height || "0", 10) !== nextHeight) {
-        item.style.height = `${nextHeight}px`;
-      } else {
-        item.style.height = `${nextHeight}px`;
-      }
+      item.style.height = `${Math.max(item.scrollHeight, LINE_INPUT_MIN_HEIGHT)}px`;
     }
     state.autoGrowQueue.clear();
     state.autoGrowRaf = 0;
@@ -471,14 +460,7 @@ function scenarioNameFromPath(pathname) {
 }
 
 async function bootstrapCache(onProgress = () => {}) {
-  onProgress({
-    message: "連線 GitHub 中",
-    detail: "正在讀取分支與檔案樹…",
-    current: 0,
-    total: 0,
-    busy: true,
-  });
-
+  onProgress({ message: "連線 GitHub 中", detail: "正在讀取分支與檔案樹…", current: 0, total: 0, busy: true });
   const ref = await getBranchRef();
   const commit = await getCommit(ref.object.sha);
   const tree = await getTree(commit.tree.sha);
@@ -501,9 +483,7 @@ async function bootstrapCache(onProgress = () => {}) {
   async function worker() {
     while (queue.length > 0) {
       const entry = queue.shift();
-      if (!entry) {
-        return;
-      }
+      if (!entry) return;
       onProgress({
         message: entry.lang === "jp" ? "下載日文快照" : "下載中文快照",
         detail: entry.name,
@@ -537,7 +517,6 @@ async function bootstrapCache(onProgress = () => {}) {
   }
 
   await Promise.all(Array.from({ length: 6 }, () => worker()));
-
   state.proofreadStatus = proofreadStatus;
   state.proofreadBaseStatus = JSON.parse(JSON.stringify(proofreadStatus));
   state.bootstrap = {
@@ -552,7 +531,6 @@ async function bootstrapCache(onProgress = () => {}) {
   await putMeta("proofreadStatus", state.proofreadStatus);
   await putMeta("proofreadBaseStatus", state.proofreadBaseStatus);
   await putMeta("bootstrap", state.bootstrap);
-
   onProgress({
     message: "初始化完成",
     detail: `已快取 ${state.bootstrap.fileCount} 個檔案。`,
@@ -569,7 +547,6 @@ async function ensureCacheReady(forceRemote = false) {
     || bootstrap.owner !== state.repoConfig.owner
     || bootstrap.repo !== state.repoConfig.repo
     || bootstrap.branch !== state.repoConfig.branch;
-
   if (!forceRemote && bootstrap && !configChanged) {
     updateStartupBar({
       message: "已使用本機快取",
@@ -580,7 +557,6 @@ async function ensureCacheReady(forceRemote = false) {
     });
     return;
   }
-
   await bootstrapCache((status) => updateStartupBar(status));
 }
 
@@ -605,17 +581,15 @@ async function buildFileSummary() {
   const names = Array.from(byName.keys()).sort((a, b) => a.localeCompare(b, "en"));
   const files = names.map((name) => {
     const current = byName.get(name) || {};
-    const jpRecord = current.jp;
-    const zhRecord = current.zh;
     const stage = getReviewStage(state.proofreadStatus[name]);
     return {
       name,
-      jpLines: jpRecord ? splitLines(jpRecord.text).length : 0,
-      zhLines: zhRecord ? splitLines(zhRecord.text).length : 0,
-      proofread: stage === "done",
+      jpLines: current.jp ? splitLines(current.jp.text).length : 0,
+      zhLines: current.zh ? splitLines(current.zh.text).length : 0,
       reviewStage: stage,
+      proofread: stage === "done",
       proofreadAt: state.proofreadStatus[name]?.updatedAt || null,
-      modified: Boolean(zhRecord?.modified) || fileHasProofreadChange(name),
+      modified: Boolean(current.zh?.modified) || fileHasProofreadChange(name),
     };
   });
   files.sort(compareFiles);
@@ -655,9 +629,7 @@ function updateCountersFromState() {
 
 function updateFileStateEntry(name, changes) {
   const target = state.files.find((file) => file.name === name);
-  if (!target) {
-    return;
-  }
+  if (!target) return;
   Object.assign(target, changes);
   state.files.sort(compareFiles);
   updateCountersFromState();
@@ -715,16 +687,12 @@ async function searchZhFiles(keyword) {
   const records = await getAllFileRecords();
   const matches = [];
   for (const record of records) {
-    if (record.lang !== "zh") {
-      continue;
-    }
+    if (record.lang !== "zh") continue;
     let count = 0;
     let cursor = 0;
     while (true) {
       const found = record.text.indexOf(normalizedKeyword, cursor);
-      if (found === -1) {
-        break;
-      }
+      if (found === -1) break;
       count += 1;
       cursor = found + normalizedKeyword.length;
     }
@@ -803,7 +771,6 @@ function createCompareRow(lineNo, jpLine, zhLine) {
       queueAutoGrow(input);
     }
   });
-
   input.addEventListener("focus", () => queueAutoGrow(input));
   input.addEventListener("keydown", async (event) => {
     if (event.key === "Enter" && !event.shiftKey) {
@@ -827,13 +794,63 @@ function createCompareRow(lineNo, jpLine, zhLine) {
   return row;
 }
 
-async function renderScenario() {
-  const scenario = state.currentScenario;
-  const renderToken = ++state.renderToken;
+function clearCompareRenderState() {
   if (state.renderTimer) {
     clearTimeout(state.renderTimer);
     state.renderTimer = 0;
   }
+  state.compareLoadState = null;
+  elements.comparePane.onscroll = null;
+}
+
+function updateCompareMeta() {
+  const loadState = state.compareLoadState;
+  if (!loadState || !state.currentScenario) return;
+  const maxLines = loadState.maxLines;
+  if (loadState.rendered < maxLines) {
+    elements.currentMeta.textContent = `日文 ${state.currentScenario.jp.length} 行 | 中文 ${state.currentScenario.zh.length} 行 | 已載入 ${loadState.rendered}/${maxLines}`;
+  } else {
+    elements.currentMeta.textContent = `日文 ${state.currentScenario.jp.length} 行 | 中文 ${state.currentScenario.zh.length} 行`;
+  }
+}
+
+function scheduleMoreCompareRows() {
+  const loadState = state.compareLoadState;
+  if (!loadState || loadState.loading || loadState.rendered >= loadState.maxLines) {
+    return;
+  }
+  const pane = elements.comparePane;
+  const remaining = pane.scrollHeight - pane.scrollTop - pane.clientHeight;
+  if (remaining > 1200 && loadState.rendered > 0) {
+    return;
+  }
+  loadState.loading = true;
+  state.renderTimer = setTimeout(() => {
+    const current = state.compareLoadState;
+    if (!current) {
+      return;
+    }
+    current.loading = false;
+    const fragment = document.createDocumentFragment();
+    const end = Math.min(current.rendered + current.batchSize, current.maxLines);
+    for (let index = current.rendered; index < end; index += 1) {
+      fragment.appendChild(createCompareRow(index + 1, current.scenario.jp[index] ?? "", current.scenario.zh[index] ?? ""));
+    }
+    current.list.appendChild(fragment);
+    current.rendered = end;
+    updateCompareMeta();
+    if (current.rendered < current.maxLines) {
+      scheduleMoreCompareRows();
+    } else {
+      state.renderTimer = 0;
+    }
+  }, 0);
+}
+
+async function renderScenario() {
+  const scenario = state.currentScenario;
+  const renderToken = ++state.renderToken;
+  clearCompareRenderState();
   if (!scenario) {
     elements.currentFile.textContent = "尚未選取檔案";
     elements.currentMeta.textContent = "";
@@ -841,54 +858,40 @@ async function renderScenario() {
     return;
   }
   elements.currentFile.textContent = scenario.name;
-  const maxLines = Math.max(scenario.jp.length, scenario.zh.length);
   elements.currentMeta.textContent = `日文 ${scenario.jp.length} 行 | 中文 ${scenario.zh.length} 行`;
   elements.comparePane.innerHTML = '<div class="empty">載入比對內容中…</div>';
+
+  const maxLines = Math.max(scenario.jp.length, scenario.zh.length);
   const list = document.createElement("div");
   list.className = "compare-list";
   elements.comparePane.innerHTML = "";
   elements.comparePane.appendChild(list);
 
-  const firstBatchSize = maxLines > 12000 ? 40 : 80;
-  const batchSize = maxLines > 12000 ? 80 : 160;
-
-  function appendRange(start, size) {
-    if (renderToken !== state.renderToken) {
-      return start;
-    }
-    const fragment = document.createDocumentFragment();
-    const end = Math.min(start + size, maxLines);
-    for (let index = start; index < end; index += 1) {
-      fragment.appendChild(createCompareRow(index + 1, scenario.jp[index] ?? "", scenario.zh[index] ?? ""));
-    }
-    list.appendChild(fragment);
-    elements.currentMeta.textContent = `日文 ${scenario.jp.length} 行 | 中文 ${scenario.zh.length} 行 | 已載入 ${end}/${maxLines}`;
-    return end;
-  }
-
-  let rendered = appendRange(0, firstBatchSize);
-  if (renderToken !== state.renderToken) {
-    return;
-  }
-
-  const appendDeferred = () => {
-    if (renderToken !== state.renderToken) {
-      return;
-    }
-    rendered = appendRange(rendered, batchSize);
-    if (rendered < maxLines) {
-      state.renderTimer = setTimeout(appendDeferred, 0);
-      return;
-    }
-    state.renderTimer = 0;
-    elements.currentMeta.textContent = `日文 ${scenario.jp.length} 行 | 中文 ${scenario.zh.length} 行`;
+  state.compareLoadState = {
+    token: renderToken,
+    scenario,
+    list,
+    maxLines,
+    rendered: 0,
+    firstBatchSize: maxLines > 12000 ? 50 : 120,
+    batchSize: maxLines > 12000 ? 80 : 140,
+    loading: false,
   };
 
-  if (rendered < maxLines) {
-    state.renderTimer = setTimeout(appendDeferred, 0);
-  } else {
-    elements.currentMeta.textContent = `日文 ${scenario.jp.length} 行 | 中文 ${scenario.zh.length} 行`;
+  const initialEnd = Math.min(state.compareLoadState.firstBatchSize, maxLines);
+  const fragment = document.createDocumentFragment();
+  for (let index = 0; index < initialEnd; index += 1) {
+    fragment.appendChild(createCompareRow(index + 1, scenario.jp[index] ?? "", scenario.zh[index] ?? ""));
   }
+  list.appendChild(fragment);
+  state.compareLoadState.rendered = initialEnd;
+  updateCompareMeta();
+
+  elements.comparePane.onscroll = () => {
+    if (!state.compareLoadState || state.compareLoadState.token !== renderToken) return;
+    scheduleMoreCompareRows();
+  };
+  scheduleMoreCompareRows();
 }
 
 async function loadScenario(name) {
@@ -916,21 +919,15 @@ async function persistZhScenario(name, nextText, trailingNewline) {
 
 async function saveLine(lineNo, input, saveState) {
   const key = `${state.currentName}:${lineNo}`;
-  if (state.savingLine.has(key)) {
-    return;
-  }
+  if (state.savingLine.has(key)) return;
   state.savingLine.add(key);
   saveState.textContent = "儲存中…";
   saveState.dataset.state = "saving";
   try {
     const record = await getFileRecord("zh", state.currentName);
-    if (!record) {
-      throw new Error("找不到中文檔案快取。");
-    }
+    if (!record) throw new Error("找不到中文檔案快取。");
     const lines = splitLines(record.text);
-    while (lines.length < lineNo) {
-      lines.push("");
-    }
+    while (lines.length < lineNo) lines.push("");
     lines[lineNo - 1] = input.value;
     const nextText = joinLines(lines, record.trailingNewline);
     await persistZhScenario(state.currentName, nextText, record.trailingNewline);
@@ -950,9 +947,7 @@ async function saveLine(lineNo, input, saveState) {
 }
 
 function createMatcher(findText, replaceText, caseSensitive, useRegex) {
-  if (!findText) {
-    throw new Error("請先輸入要尋找的內容。");
-  }
+  if (!findText) throw new Error("請先輸入要尋找的內容。");
   if (useRegex) {
     const pattern = new RegExp(findText, caseSensitive ? "g" : "gi");
     return (text) => {
@@ -987,13 +982,9 @@ async function previewReplace() {
   let matchCount = 0;
   for (const name of new Set(targetNames)) {
     const record = await getFileRecord("zh", name);
-    if (!record) {
-      continue;
-    }
+    if (!record) continue;
     let fileMatches = 0;
-    for (const line of splitLines(record.text)) {
-      fileMatches += matcher(line).count;
-    }
+    for (const line of splitLines(record.text)) fileMatches += matcher(line).count;
     if (fileMatches > 0) {
       filesMatched += 1;
       matchCount += fileMatches;
@@ -1011,9 +1002,7 @@ async function runReplace() {
   let matchCount = 0;
   for (const name of new Set(targetNames)) {
     const record = await getFileRecord("zh", name);
-    if (!record) {
-      continue;
-    }
+    if (!record) continue;
     let fileMatches = 0;
     const nextLines = splitLines(record.text).map((line) => {
       const result = matcher(line);
@@ -1035,9 +1024,7 @@ async function runReplace() {
 }
 
 async function setReviewStage(stage) {
-  if (!state.currentName) {
-    return;
-  }
+  if (!state.currentName) return;
   state.proofreadStatus = {
     ...state.proofreadStatus,
     [state.currentName]: {
@@ -1053,10 +1040,6 @@ async function setReviewStage(stage) {
     modified: fileHasProofreadChange(state.currentName) || state.files.find((file) => file.name === state.currentName)?.modified,
   });
   renderFileList();
-}
-
-function hasPendingChanges() {
-  return state.files.some((file) => file.modified) || !compareObjects(state.proofreadStatus, state.proofreadBaseStatus);
 }
 
 async function captureLocalOverlay() {
@@ -1078,9 +1061,7 @@ async function captureLocalOverlay() {
 async function restoreLocalOverlay(overlay) {
   for (const record of overlay.modifiedZhRecords) {
     const remoteRecord = await getFileRecord("zh", record.name);
-    if (!remoteRecord) {
-      continue;
-    }
+    if (!remoteRecord) continue;
     await putFileRecord({
       ...remoteRecord,
       text: record.text,
@@ -1122,7 +1103,6 @@ async function pushChanges() {
     await syncRemoteWithOverlay();
     latestRef = await getBranchRef();
   }
-
   const allRecords = await getAllFileRecords();
   const modifiedRecords = allRecords.filter((record) => record.lang === "zh" && record.modified);
   const proofreadChanged = !compareObjects(state.proofreadStatus, state.proofreadBaseStatus);
@@ -1224,6 +1204,7 @@ function bindEvents() {
       await applyContentSearch();
     }
   });
+
   elements.fileSearch.addEventListener("input", async () => {
     if (!elements.fileSearch.value.trim()) {
       state.appliedSearchKeyword = "";
@@ -1244,8 +1225,6 @@ function bindEvents() {
       await loadScenario(state.currentName);
     } else if (summary.files[0]) {
       await loadScenario(summary.files[0].name);
-    } else {
-      await renderScenario();
     }
     showToast("已重新整理本機快取畫面", "success");
   });
@@ -1307,13 +1286,9 @@ function bindEvents() {
 
   elements.replacePreviewBtn.addEventListener("click", previewReplace);
   elements.replaceRunBtn.addEventListener("click", runReplace);
+  elements.markWipBtn.addEventListener("click", () => setReviewStage("wip"));
   elements.markDoneBtn.addEventListener("click", () => setReviewStage("done"));
   elements.markTodoBtn.addEventListener("click", () => setReviewStage("todo"));
-
-  const markWipBtn = document.getElementById("markWipBtn");
-  if (markWipBtn) {
-    markWipBtn.addEventListener("click", () => setReviewStage("wip"));
-  }
 
   elements.configForm.addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -1326,12 +1301,11 @@ function bindEvents() {
     };
     saveRepoConfig();
     updateRepoSummary();
-    elements.configStatus.textContent = "設定已儲存。";
     closeConfigModal();
     state.bootstrap = null;
     await putMeta("bootstrap", null);
     showToast("GitHub 設定已更新", "success");
-  }, { capture: true });
+  });
 }
 
 async function init() {
