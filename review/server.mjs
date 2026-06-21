@@ -353,6 +353,58 @@ async function buildFileSummary() {
   };
 }
 
+async function searchZhFiles(keyword) {
+  const normalizedKeyword = String(keyword || "").trim();
+  if (!normalizedKeyword) {
+    return {
+      keyword: "",
+      files: [],
+      fileCount: 0,
+    };
+  }
+
+  await ensureBootstrap();
+  const files = await listScenarioFiles();
+  const matches = [];
+
+  for (const name of files) {
+    const zhPath = await resolveSnapshotPath(zhDir, zhSnapshotDir, name);
+    if (!(await exists(zhPath))) {
+      continue;
+    }
+
+    const zhText = await readUtf8(zhPath);
+    let matchCount = 0;
+    let startIndex = 0;
+
+    while (true) {
+      const foundIndex = zhText.indexOf(normalizedKeyword, startIndex);
+      if (foundIndex === -1) {
+        break;
+      }
+      matchCount += 1;
+      startIndex = foundIndex + normalizedKeyword.length;
+    }
+
+    if (matchCount > 0) {
+      matches.push({ name, matchCount });
+    }
+  }
+
+  matches.sort((left, right) => {
+    if (right.matchCount !== left.matchCount) {
+      return right.matchCount - left.matchCount;
+    }
+    return left.name.localeCompare(right.name, "en");
+  });
+
+  return {
+    keyword: normalizedKeyword,
+    files: matches,
+    fileCount: matches.length,
+  };
+}
+
 async function readScenario(name) {
   if (!/^scenario_[A-Za-z0-9_]+\.txt$/.test(name)) {
     throw new Error("Invalid file name.");
@@ -669,6 +721,12 @@ async function handleApi(req, res, url) {
       return;
     }
     jsonResponse(res, 200, await readScenario(name));
+    return;
+  }
+
+  if (req.method === "GET" && url.pathname === "/api/search-files") {
+    const keyword = url.searchParams.get("keyword") || "";
+    jsonResponse(res, 200, await searchZhFiles(keyword));
     return;
   }
 

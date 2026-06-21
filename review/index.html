@@ -20,12 +20,18 @@
 
     * { box-sizing: border-box; }
 
+    html, body {
+      height: 100%;
+    }
+
     body {
       margin: 0;
+      height: 100%;
+      overflow: hidden;
       font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
       color: var(--ink);
       background:
-        radial-gradient(circle at top left, rgba(255,255,255,0.88), transparent 28%),
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.88), transparent 28%),
         linear-gradient(180deg, #ece3d6 0%, var(--bg) 38%, #efe8dd 100%);
     }
 
@@ -37,7 +43,9 @@
     .app {
       display: grid;
       grid-template-rows: auto auto 1fr;
+      height: 100vh;
       min-height: 100vh;
+      overflow: hidden;
     }
 
     .toolbar {
@@ -61,7 +69,7 @@
     }
 
     .toolbar-top {
-      grid-template-columns: minmax(220px, 360px) 1fr auto auto auto;
+      grid-template-columns: minmax(260px, 420px) 1fr auto auto auto auto;
     }
 
     .toolbar-bottom {
@@ -90,6 +98,13 @@
       gap: 12px;
       color: var(--muted);
       font-size: 13px;
+    }
+
+    .repo-summary {
+      font-size: 13px;
+      color: var(--muted);
+      justify-self: end;
+      white-space: nowrap;
     }
 
     .startup-status {
@@ -164,7 +179,9 @@
       grid-template-columns: 320px 1fr;
       gap: 14px;
       padding: 14px;
+      height: 100%;
       min-height: 0;
+      overflow: hidden;
     }
 
     .main.is-sidebar-collapsed {
@@ -220,7 +237,6 @@
     .collapse-btn {
       padding: 6px 10px;
       line-height: 1;
-      min-width: 0;
       white-space: nowrap;
     }
 
@@ -377,64 +393,61 @@
     .compare-row {
       display: grid;
       grid-template-columns: minmax(280px, 1fr) minmax(320px, 1fr);
-      border-bottom: 1px solid rgba(216, 204, 189, 0.55);
-      align-items: stretch;
+      border-bottom: 1px solid rgba(216, 204, 189, 0.7);
     }
 
     .compare-cell {
       min-width: 0;
+      padding: 10px 14px;
       display: grid;
       grid-template-columns: 44px minmax(0, 1fr);
-      gap: 10px;
-      padding: 6px 12px;
+      gap: 12px;
       align-items: start;
     }
 
     .compare-cell + .compare-cell {
-      border-left: 1px solid rgba(216, 204, 189, 0.45);
+      border-left: 1px solid rgba(216, 204, 189, 0.7);
     }
 
     .line-no {
+      text-align: right;
       color: var(--muted);
       font-variant-numeric: tabular-nums;
-      user-select: none;
-      padding-top: 9px;
-      text-align: right;
+      line-height: 1.8;
+      padding-top: 2px;
     }
 
     .line-text {
-      white-space: pre-wrap;
-      line-height: 1.6;
-      word-break: break-word;
-      padding: 8px 0;
       min-height: 42px;
+      line-height: 1.8;
+      white-space: pre-wrap;
+      word-break: break-word;
+      padding: 4px 0;
     }
 
     .line-editor {
       display: grid;
       grid-template-columns: minmax(0, 1fr) auto;
-      gap: 8px;
+      gap: 10px;
       align-items: start;
     }
 
     .line-input {
       min-height: 42px;
-      resize: none;
-      line-height: 1.6;
+      resize: vertical;
+      line-height: 1.8;
       overflow: hidden;
-      background: #fff;
-      padding: 8px 12px;
     }
 
     .save-state {
+      align-self: center;
+      min-width: 54px;
       font-size: 12px;
       color: var(--muted);
       white-space: nowrap;
-      align-self: center;
-      padding-top: 10px;
     }
 
-    .save-state[data-pending="true"] {
+    .save-state[data-state="error"] {
       color: var(--danger);
     }
 
@@ -442,106 +455,130 @@
       color: var(--accent-2);
     }
 
-    .save-state[data-state="error"] {
-      color: #991b1b;
+    .save-state[data-state="pending"] {
+      color: var(--danger);
     }
 
     .empty {
+      padding: 20px;
       color: var(--muted);
-      text-align: center;
-      padding: 32px 20px;
     }
 
     .toast {
       position: fixed;
-      right: 20px;
-      bottom: 20px;
-      max-width: 420px;
-      padding: 12px 14px;
+      right: 16px;
+      bottom: 16px;
+      z-index: 20;
+      padding: 10px 14px;
       border-radius: 12px;
+      background: rgba(29, 24, 20, 0.92);
       color: #fff;
-      background: rgba(29, 24, 20, 0.9);
       box-shadow: var(--shadow);
     }
 
     .toast[data-type="success"] {
-      background: rgba(22, 101, 52, 0.92);
+      background: rgba(22, 101, 52, 0.94);
     }
 
     .toast[data-type="error"] {
-      background: rgba(153, 27, 27, 0.92);
+      background: rgba(180, 83, 9, 0.96);
     }
 
-    .progress-modal[hidden] {
-      display: none;
-    }
-
-    .progress-modal {
+    .progress-modal,
+    .config-modal {
       position: fixed;
       inset: 0;
-      z-index: 20;
+      z-index: 18;
       display: grid;
       place-items: center;
       padding: 20px;
-      background: rgba(29, 24, 20, 0.26);
-      backdrop-filter: blur(4px);
+      background: rgba(29, 24, 20, 0.28);
+      backdrop-filter: blur(5px);
     }
 
-    .progress-card {
-      width: min(560px, 100%);
-      display: grid;
-      gap: 12px;
-      padding: 20px;
+    .progress-card,
+    .config-card {
+      width: min(720px, calc(100vw - 32px));
+      max-height: calc(100vh - 48px);
+      overflow: auto;
+      background: var(--panel);
       border: 1px solid var(--line);
-      border-radius: 16px;
-      background: rgba(255, 250, 243, 0.98);
+      border-radius: 18px;
       box-shadow: var(--shadow);
+      padding: 18px;
+      display: grid;
+      gap: 14px;
     }
 
-    .progress-card h2 {
+    .progress-head,
+    .config-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .progress-head h2,
+    .config-head h2 {
       margin: 0;
       font-size: 20px;
     }
 
-    .progress-message {
+    .progress-message,
+    .config-help {
       color: var(--muted);
       line-height: 1.6;
-      white-space: pre-wrap;
-      word-break: break-word;
     }
 
     .progress-log {
-      max-height: 240px;
+      margin: 0;
+      padding: 12px;
+      max-height: 320px;
       overflow: auto;
-      padding: 10px 12px;
       border: 1px solid var(--line);
       border-radius: 12px;
       background: #fffdf8;
-      color: var(--ink);
-      font-size: 13px;
-      line-height: 1.55;
       white-space: pre-wrap;
       word-break: break-word;
     }
 
-    .progress-actions {
+    .progress-actions,
+    .config-actions {
       display: flex;
       justify-content: flex-end;
+      gap: 10px;
+    }
+
+    .config-form {
+      display: grid;
+      gap: 12px;
+    }
+
+    .config-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .config-form label {
+      display: grid;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .config-status {
+      font-size: 13px;
+      color: var(--muted);
     }
 
     .spinner {
-      width: 18px;
-      height: 18px;
-      border: 2px solid rgba(15, 118, 110, 0.2);
-      border-top-color: var(--accent);
+      width: 20px;
+      height: 20px;
       border-radius: 999px;
-      animation: spin 0.8s linear infinite;
-    }
-
-    .progress-head {
-      display: flex;
-      align-items: center;
-      gap: 10px;
+      border: 3px solid rgba(15, 118, 110, 0.18);
+      border-top-color: var(--accent);
+      animation: spin 0.9s linear infinite;
     }
 
     @keyframes spin {
@@ -550,53 +587,27 @@
 
     @keyframes pulse {
       0%, 100% { transform: scale(1); opacity: 1; }
-      50% { transform: scale(0.72); opacity: 0.65; }
+      50% { transform: scale(0.88); opacity: 0.72; }
     }
 
-    @media (max-width: 1400px) {
-      .toolbar-top {
-        grid-template-columns: 1fr repeat(3, auto) auto;
-      }
-
-      .toolbar-bottom {
-        grid-template-columns: 1fr 1fr 120px repeat(4, auto) 180px;
-      }
-
-      .startup-status {
-        top: 142px;
-      }
-    }
-
-    @media (max-width: 1100px) {
-      .toolbar,
-      .startup-status {
-        position: static;
-      }
-
+    @media (max-width: 1120px) {
       .toolbar-top,
       .toolbar-bottom,
       .main,
-      .compare-row,
       .compare-header,
-      .startup-status {
+      .compare-row,
+      .config-grid {
         grid-template-columns: 1fr;
       }
 
-      .title,
-      .stats {
-        grid-column: 1 / -1;
+      .repo-summary {
+        justify-self: start;
       }
 
-      .compare-head-cell + .compare-head-cell,
-      .compare-cell + .compare-cell {
+      .compare-cell + .compare-cell,
+      .compare-head-cell + .compare-head-cell {
         border-left: 0;
-        border-top: 1px solid rgba(216, 204, 189, 0.45);
-      }
-
-      .sidebar-reopen {
-        top: auto;
-        bottom: 20px;
-        left: 20px;
+        border-top: 1px solid rgba(216, 204, 189, 0.7);
       }
     }
   </style>
@@ -607,18 +618,19 @@
       <div class="toolbar-top">
         <div class="title">
           <strong>Tamacolle 翻譯校對工具</strong>
-          <span class="meta">右側可直接編輯，按 Enter 儲存。首次啟動會先在本機建立中日文快照。</span>
+          <span class="meta">GitHub Pages 版。首次啟動會下載中日文快取到目前瀏覽器，右側可直接編輯，按 Enter 儲存。</span>
         </div>
         <div class="stats">
           <span>檔案 <strong id="fileCount">0</strong></span>
           <span>已校對 <strong id="proofreadCount">0</strong></span>
           <span>已修改 <strong id="modifiedCount">0</strong></span>
         </div>
+        <span class="repo-summary" id="repoSummary"></span>
         <button id="refreshBtn" type="button">重新整理</button>
         <button id="syncRemoteBtn" class="button-warn" type="button">同步雲端</button>
         <button id="pushBtn" class="button-strong" type="button">推送 GitHub</button>
+        <button id="configBtn" type="button">GitHub 設定</button>
       </div>
-
       <div class="toolbar-bottom">
         <input id="replaceFind" type="text" placeholder="快速取代: 尋找">
         <input id="replaceTo" type="text" placeholder="快速取代: 取代成">
@@ -626,22 +638,21 @@
           <option value="current">目前檔案</option>
           <option value="all">全部檔案</option>
         </select>
-        <label class="toggle-inline"><input id="caseSensitive" type="checkbox" checked><span>大小寫區分</span></label>
-        <label class="toggle-inline"><input id="useRegex" type="checkbox"><span>Regex</span></label>
+        <label class="toggle-inline"><input id="caseSensitive" type="checkbox" checked>大小寫區分</label>
+        <label class="toggle-inline"><input id="useRegex" type="checkbox">Regex</label>
         <button id="replacePreviewBtn" type="button">預覽</button>
         <button id="replaceRunBtn" type="button">全部取代</button>
         <input id="commitMessage" type="text" placeholder="提交訊息，可留空">
       </div>
-
-      <div class="meta" id="replaceStatus">快速取代會先顯示預覽，正式執行時會建立本機備份。</div>
+      <div class="meta" id="replaceStatus">快速取代會先顯示預覽，正式推送前仍只會先修改本機快取。</div>
     </section>
 
-    <section class="startup-status is-busy" id="startupStatusBar" data-phase="boot">
+    <section class="startup-status is-busy" id="startupStatusBar">
       <div class="startup-status-main">
         <div class="startup-dot" aria-hidden="true"></div>
         <div class="startup-text">
-          <strong id="startupStatusText">初始化中</strong>
-          <span id="startupStatusDetail">正在準備本機快照...</span>
+          <strong id="startupStatusText">準備中</strong>
+          <span id="startupStatusDetail">正在檢查快取與 GitHub 內容…</span>
         </div>
       </div>
       <div></div>
@@ -657,10 +668,10 @@
             <strong>檔案清單</strong>
             <button id="toggleSidebarBtn" class="collapse-btn" type="button" aria-expanded="true">收合</button>
           </div>
-          <span id="currentFile">尚未選擇檔案</span>
+          <span id="currentFile">尚未選取檔案</span>
         </header>
         <div class="side-tools">
-          <input id="fileSearch" type="search" placeholder="搜尋檔名">
+          <input id="fileSearch" type="text" inputmode="search" autocomplete="off" placeholder="搜尋中文內容，按 Enter 執行">
           <select id="proofreadFilter">
             <option value="all">全部檔案</option>
             <option value="todo">未校對</option>
@@ -678,7 +689,7 @@
 
       <section class="panel">
         <header>
-          <strong>原文與翻譯對照</strong>
+          <strong>日文原文與中文翻譯</strong>
           <span>ja_noruby/raw ↔ zh_tw/raw</span>
         </header>
         <div class="compare-header">
@@ -697,17 +708,50 @@
   </div>
 
   <div class="toast" id="toast" hidden></div>
+
   <div class="progress-modal" id="progressModal" hidden>
     <div class="progress-card">
       <div class="progress-head">
-        <div class="spinner" id="progressSpinner"></div>
-        <h2 id="progressTitle">處理中</h2>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <div class="spinner" id="progressSpinner"></div>
+          <h2 id="progressTitle">處理中</h2>
+        </div>
       </div>
       <div class="progress-message" id="progressMessage"></div>
       <pre class="progress-log" id="progressLog" hidden></pre>
       <div class="progress-actions">
         <button id="progressCloseBtn" type="button" hidden>關閉</button>
       </div>
+    </div>
+  </div>
+
+  <div class="config-modal" id="configModal" hidden>
+    <div class="config-card">
+      <div class="config-head">
+        <h2>GitHub 設定</h2>
+        <button id="configCloseBtn" type="button">關閉</button>
+      </div>
+      <div class="config-help">若要在 GitHub Pages 版直接推送翻譯，請填入有 repo contents 寫入權限的 Personal Access Token。權杖只會存在你目前的瀏覽器。</div>
+      <form class="config-form" id="configForm">
+        <div class="config-grid">
+          <label>Owner
+            <input id="configOwner" type="text" autocomplete="off">
+          </label>
+          <label>Repository
+            <input id="configRepo" type="text" autocomplete="off">
+          </label>
+          <label>Branch
+            <input id="configBranch" type="text" autocomplete="off">
+          </label>
+          <label>Token
+            <input id="configToken" type="password" autocomplete="off" placeholder="ghp_... / github_pat_...">
+          </label>
+        </div>
+        <div class="config-status" id="configStatus">權杖只會儲存在目前瀏覽器。</div>
+        <div class="config-actions">
+          <button id="configSaveBtn" class="button-strong" type="submit">儲存設定</button>
+        </div>
+      </form>
     </div>
   </div>
 
