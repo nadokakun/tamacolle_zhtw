@@ -378,6 +378,11 @@
       color: #9df4b9;
     }
 
+    .pill.is-wip {
+      background: rgba(168, 85, 247, 0.18);
+      color: #dfb8ff;
+    }
+
     .pill.is-todo {
       background: rgba(245, 158, 11, 0.16);
       color: #ffd089;
@@ -706,11 +711,13 @@
           <input id="fileSearch" type="text" inputmode="search" autocomplete="off" placeholder="搜尋中文內容，按 Enter 執行">
           <select id="proofreadFilter">
             <option value="all">全部檔案</option>
+            <option value="wip">校對中</option>
             <option value="todo">未校對</option>
             <option value="done">已校對</option>
             <option value="modified">已修改</option>
           </select>
           <div class="stats">
+            <button id="markWipBtn" class="button-warn" type="button">標記為校對中</button>
             <button id="markDoneBtn" class="button-alt" type="button">標記已校對</button>
             <button id="markTodoBtn" type="button">取消校對</button>
           </div>
