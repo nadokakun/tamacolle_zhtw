@@ -1,0 +1,666 @@
+>>10000/
+@若狭
+北陸道、若狭だ。[autotap]/
+[delay 1.6]
+[flow]
+[-]
+@若狭
+主の腹は、オレが満たしてやるよ。/
+>>10001/
+@若狭
+なんだ、寂しくなっちまったのか？[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@若狭
+こっち来い。[wait 1.5]
+いつでも呼んでくれよ。/
+>>1/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+よお、主！　[wait 0.3]今日の献立は彩りが良いだろ？
+梅丈岳から見た三方五湖を思い出しちまったよ。/
+[face A 02]
+[flow]
+五つの湖それぞれの湖面の色合いが
+違って、きれいなところなんだ。/
+[face A 00]
+なんだ、主、見にいきたいのか？
+まぁ……別に連れていってやってもいいけど……/
+[face A 06]
+[flow]
+ただ、[wait 0.3]あそこは最近、[wait 0.2]恋人のなんとか[wait 0.2]とか……[wait 0.5]
+いや、なんでもないっての！[shake A]/
+>>2/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+うーん、もっといろいろな種類の野菜があれば
+献立が増やせるんだけどな……/
+[face A 02]
+あ、そうだ！
+主！　夏の終りに「松上げ」をやろうぜ！！/
+[face A 07]
+家内安全、それに「豊作」を願うお祭りだ。
+少し準備が大変だけど……/
+[face A 02]
+[flow]
+オレたちには大切なことだろ？　
+よし！[wait 0.5]　これで来年は庭の畑が充実するぜ。/
+>>3/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+主。今日は若狭湾の新鮮な鯖が手に入ったぞ。
+うちの国では鯖がよくとれるんだ。/
+[face A 09]
+[flow]
+昔から若狭から京都へ荷を運ぶ街道は
+「鯖街道」なんて呼ばれてたくらいなんだぜ。/
+[face A 02]
+[flow]
+今晩はほかにも御食国ならではの美味い食材、
+腹いっぱい食わせてやるからな！/
+[face A 09]
+それじゃ、
+待ってる間にお膳の周り片付けといてくれるか？/
+>>4/
+[set A s_wak_r 若狭]
+[randomset B r @地魂男児 @あやかし -wak -@NPC]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+おーい！　洗濯物集めて回るぞー。
+ほらみんなー、カゴに入れろー。/
+[face A 01]
+[show B L]
+[order A 5]
+[order B 0]
+[move B X 50 0.3]
+[face B 01]
+お、$B:A、手伝ってくれんのか？
+ありがとな。　偉いぞ。/
+>>5/
+[set A s_wak_r 若狭]
+[randomset B r @地魂男児 @あやかし -wak -@NPC]
+[randomset C r @地魂男児 @あやかし -wak -@NPC -@NOW]
+[show B]
+[show C]
+[face B 03]
+[face C 03]
+[setline B C]
+[-]
+[shake B]
+[shake C]
+[wait 0.5]
+[-]
+[show A C]
+[setline 0.5 B A C]
+[face A 08]
+[talk A]
+[-]
+[serif on]
+おいおいおい。
+どうした？　お前ら、落ち着けって。/
+[face A 04]
+[face B 04]
+[face C 08]
+どうして喧嘩なんかしてんだ？
+一から話してみろよ。オレが聞いてやるからさ。/
+[fadein BLACK 1.0]
+[serif off]
+[-]
+[wait 0.5]
+[face B 01]
+[face C 01]
+[face A 01]
+[move A C]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+よし！　仲直りできたみたいだな。
+……じゃあ、昼飯の支度はじめよっか！/
+>>6/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 09]
+[serif on]
+[talk A]
+今日はいい天気だ～！
+これなら、洗濯物もよく乾いてるだろうな。/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+んーーーっ！　思ったとおりだ！
+パリッとしてて気持ちがいいぜ！！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_wak_r 若狭]
+[randomset B r @地魂男児 @あやかし -wak]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+おーい、晩飯の準備できたぞー！
+誰か配膳手伝ってくれ～！/
+[show B L]
+[move B X 100 0.5]
+[face A 01]
+[face B 01]
+[talk A]
+お、$B:A、ありがとな！
+熱いから気をつけるんだぞ。/
+>>10/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+食べた後すぐに横になるのはいいけどよ。
+本当に寝ちゃうと胃に負担をかけるからな……/
+[face A 01]
+みんな、適度にゴロゴロするんだぞ～。/
+>>11/
+[set A s_wak_r 若狭]
+[randomset B r @地魂男児 @あやかし -wak -@NPC]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+さて、洗い物洗い物……っと。[move A Y -10 0.2][delay 0.2 move A Y 10 0.5][-][move A Y -10 0.2][delay 0.2 move A Y 10 0.5]
+…………………………………………ふぅ。/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+こんだけ人数がいると、
+さすがに一人で片付けるのは大変だな。/
+[show B R]
+[face A 00]
+[face B 00]
+[order B 0]
+[order A 1]
+[say A]
+お、ちょうど良いところに……
+なぁ、$B:A！/
+[move A X 100 0.5]
+悪いんだけどさ、手伝ってくれないか？[wait 0.5]
+……[face A 02][face B 01]ありがとう。助かるよ！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+[talk A]
+わぁっ！
+い、いま誰か触っただろ！？/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+料理中にあぶないじゃないか……まったく。
+/
+>>15/
+[set A s_wak_m 若狭]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+おーい、みんな！
+「九里四里うまい」甘藷を蒸してきたぞー！/
+[face A 01]
+[move A Y -20 0.4]
+[delay 0.6 move A Y 20 0.2]
+よいしょっ！　[wait 0.5]ここに置いとくからー！
+稽古後の糖分補給につまんでってくれー！/
+>>16/
+[set A s_wak_m 若狭]
+[randomset B m @地魂男児 @あやかし -wak -@NPC]
+[show A C]
+[show B L]
+[face A 03]
+[face B 05]
+[serif on]
+[talk A]
+おい、$B:A！　[wait 0.3]紐がほどけてるぞ。
+そのままだと危ないから、ちょっとこっち来い。/
+[move B X 100 0.3]
+[move A Y -100 0.4]
+[se cloth_02]
+[delay 0.4 move A Y 10 0.5]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 110 0.5]
+[-]
+[move A X 50 0.5]
+[order A 1]
+[order B 0]
+こうして……これでよし。っと！[face A 01][face B 01]
+さ、稽古頑張れよ！/
+>>17/
+[set A s_wak_b 若狭]
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+またみんなこんなに脱ぎ散らかして……
+だらしないったらねぇな。/
+[face A 00]
+[move A X 100 0.6]
+とはいえ、脱衣所にもう少し
+使いやすいカゴがあった方がいいよな。/
+とりあえず……明日買ってくるか。[wait 0.5]
+百個[face A 02]くらいあれば足りるよな！/
+>>18/
+[set A s_wak_b 若狭]
+[show A C]
+[face A 01]
+[se amb_12]
+[effect fr yuge A]
+[se bath_05]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[serif on]
+[talk A]
+風呂のついでに掃除……っと♪
+ま、こんなもんだろ。/
+[face A 02]
+[effect fr kira 2000]
+よーっし。
+それじゃあ身体流して湯船に浸かるか！[se bath_01]/
+>>19/
+[set A s_wak_b 若狭]
+[show A C]
+[face A 07]
+[se amb_12]
+[effect fr yuge A]
+[move A Y -100]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se bath_02]
+[-]
+[serif on]
+[talk A]
+ふぁ～……
+全身の疲れがとれるぜぇ～……/
+[face A 04]
+結構肩とか凝ってるもんだなぁ……
+後で誰かに揉んでもらうかぁ。[se bath_01]/
+>>20/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+[se pee_01]
+便器がちょっと汚れてきたな……
+こういうの、用を足してる時に気づくんだよな。/
+[face A 02]
+[effect fr kira 2000]
+[se kira_01]
+しつこい汚れも、重曹を使って落とせば
+またピッカピカになるぞ♪/
+>>21/
+[set A s_wak_r 若狭]
+[show A L]
+[face A 01]
+[move A C 0.6]
+[-]
+[serif on]
+[talk A]
+手洗い用の石鹸の減りは……
+うん、まだ大丈夫だな。/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……おしっこの後、
+みんなちゃんと手洗ってるんだろうな……？/
+>>22/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 07]
+[move A Y -50]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅー……/
+[face A 09]
+[flow]
+中々一人になる時間ってないんだよなぁ……
+たまにはゆっくりしたいぜ……/
+>>23/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[serif name]
+[move A Y -50]
+またカワイイって言われちまった……[wait 0.5]
+くそぉ！[shake A]　[wait 0.5]どうやったら舐められずに済むんだ！[se doka_01][shakebg][effect fr syutyu 2000]/
+[face A 05]
+あ……[wait 0.5]
+誰か隣に入ってたらすまん！/
+>>24/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+[serif name]
+今日もできたこと、できなかったこと
+色々あるけど……/
+[face A 09]
+「昨日の非は根悔すべからず」……さ。/
+[face A 07]
+[rotate A -50 0.4]
+[move A XY 40 -30 0.5]
+さぁ、寝ちまおっと。
+おやすみぃ。/
+>>25/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 07]
+[move A Y -100]
+[-]
+[se cloth_01]
+[move A Y 100 0.6]
+[face A 00]
+[-]
+[serif on]
+[talk A]
+[serif name]
+……ん、[wait 0.5]もうこんな時間か。
+起きて朝飯の準備しなきゃな。/
+[fadein BLACK 0.5]
+[serif off]
+[-]
+[hide A]
+[-]
+[fadeout 0.5]
+[-]
+[show A L]
+[serif on]
+あとは出陣する奴らの弁当と、着替えの準備と[move A X 150 0.8]
+……あー、[wait 0.5]出陣表どこだっけ……[face A 07]ふあぁ。/
+>>26/
+[set A s_wak_r 若狭]
+[show A C]
+[face A 06]
+[serif on]
+[se cloth_01]
+（もぞもぞ……）[move A Y -10 0.4][delay 0.4 move A Y 10 1.0][-][move A Y -10 0.4][delay 0.4 move A Y 10 1.0]/
+[face A 04]
+[talk A]
+なんだか寝付けないな……/
+[serif noname]
+[talkend]
+[se cloth_01]
+（もぞもぞ…………）[move A Y -10 0.4][delay 0.4 move A Y 10 1.0][-][move A Y -10 0.4][delay 0.4 move A Y 10 1.0]/
+[face A 06]
+[talk A]
+こういうとき、誰かの手とか握ると……
+安心するんだろうなぁ……はぁ……/
+/
+>>100/
+[set A s_wak_r 若狭]
+[fadein BLACK 0]
+[serif off]
+[bgm off]
+[-]
+[bg bg_rouka_day]
+[-]
+[title 絆 若狭は料理上手]
+[-]
+[fadeout 1.0]
+[-]
+[se amb_01]
+[bgm home]
+[serif on 0.5]
+[textcolor ARUJI]
+早朝、まだ肌寒い廊下を歩いていると
+ほのかに美味しそうな香りがただよってきた。/
+[fadein BLACK 0.3]
+[serif off]
+[-]
+[se fusuma_01]
+[minibg tyubo]
+[bg mbg_map]
+[-]
+[fadeout 0.4]
+[-]
+[serif on]
+[textcolor ARUJI]
+香りをたどり厨房へ入ると、
+そこには小さな体で調理台に向かう若狭の姿が。/
+[serif off]
+?若狭/
+[show A C]
+[face A 01]
+[talk A]
+[-]
+[serif on]
+おっ主。おはよ～！
+今日は早起きだな。/
+[flow]
+[face A 09]
+それとも何か～？
+匂いに釣られてきたのか？　[wait 0.3][face A 02]食いしん坊だなぁ。/
+[face A 01]
+今ちょうど朝食用に浜焼き鯖汁を作った所だ。
+鯖の頭で出汁を取ってあるんだぜ！/
+[serif off]
+[face A 00]
+[flow]
+[move A X 50 0.5]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+……よっと。
+ほら、味見してみろよ。熱いから気をつけてな。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+そう言って汁を小皿にとって差し出す若狭。
+鯖と昆布だしの芳醇な香りが鼻孔をくすぐる。/
+[hide A]
+[se kira_01]
+[textcolor ARUJI]
+ふーっと息を吹きかけてから汁をすすると、[effect fr kira 3000]旨味
+たっぷりの温かな味わいが口いっぱいに広がった。/
+[serif off]
+?美味しい/
+[show A C]
+[face A 01]
+[talk A]
+[serif on]
+ふふっ。
+口にあってよかったよ。/
+[face A 00]
+みんなが起きてくるまであと三十分くらいか……
+主はこのあと用事とかあるのか？/
+[serif off]
+?若狭とお喋りする/
+[face A 01]
+[serif on]
+あぁ、ありがとう。
+主とゆっくり話したかったんだ。/
+[face A 01]
+[flow]
+ほら、好きなものは、とか、[wait 0.2]あれるぎぃは、とか。
+主に美味しく楽しくごはんを食べて欲しいからな。[face A 02]/
+[fadein BLACK 2.0]
+[serif off]
+[-]
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[talk A]
+[face A 00]
+[-]
+[fadeout 2.0]
+[-]
+[serif on]
+……ふんふん。[wait 0.3]大体把握したぜ。/
+[face A 08]
+主のいう[wait 0.3]「ふぁあすとふうど」[wait 0.3]っていうやつ
+そんなに美味しいのか？/
+[serif off]
+?結構人気ジャンルだよ。ハンバーガー。/
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+そうか……よかったら今度オレも一度
+食べに連れてってくれないか？[face A 02]/
+[face A 01]
+[flow]
+味を覚えたら荘園でも再現できるかも
+しれないからさ！/
+[serif off]
+?今度一緒に行こう/
+[serif on]
+[face A 01]
+[flow]
+あぁ。ありがとな主！
+……[face A 02]ふふふ、腕がなるぜ！/
+[serif off]
+?若狭は料理が好きなんだね/
+[face A 00]
+[serif on]
+まぁな。[wait 0.5]特に魚料理は得意だぜ！
+若狭湾は美味しい海の幸に恵まれてるしな。/
+[face A 04]
+[flow]
+まぁ、現代っ子は肉も食べたいだろうし……
+もちろん野菜も必要だよな。/
+[serif off]
+?おにく大好き/
+[face A 01]
+[serif on]
+そうかそうか。
+肉料理も腕によりをかけて作ってやるよ！/
+[face A 09]
+[flow]
+でも、好き嫌いは駄目だぞ！/
+[face A 02]
+[flow]
+栄養の釣り合いのとれた
+美味しいごはんを作ってやるからさ。/
+[serif off]
+?はーい！/
+[face A 01]
+[serif on]
+よしよし。[wait 0.5]
+お、[wait 0.3]もうこんな時間か。/
+悪い主、そろそろみんなの
+寝床の片付けを手伝ってくるよ。/
+[serif off]
+?みんなの面倒見てくれてるんだね/
+[serif on]
+[face A 02]
+いや、まぁ……[wait 0.3]性分なんだよな。ははは。/
+[face A 00]
+主も……[wait 0.3]そうだな、困ったことや
+心配事があれば声をかけてくれよな。/
+[face A 01]
+いつでも相談に乗るぜ！/
+[serif off]
+?ありがとう/
+[face A 02]
+[serif on]
+へへっ。
+じゃあ行ってくるぜ！/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+っと……その前に……/
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[face A 01]
+主。改めてよろしくな。/
+[serif off]
+?若狭と握手する/
+[se cloth_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[serif on]
+……へへ。
+じゃあまたご飯ができたら呼びに行くな。/
+[serif off]
+[face A 01]
+[move A X 350 0.5]
+[delay 0.5 shake A]
+[-]
+[move A X -150 0.3]
+[rotate A 10 0.3]
+[-]
+[serif on]
+[face A 00]
+あ、洗濯物があったら出しといてくれよ！
+あと明日使うものとかあったら早めに言ってくれ！/
+[move A X 200 1]
+[delay 0.5 se fusuma_01]
+[autotap]/
+[face A 02]
+[flow]
+出かけるなら忘れ物ないようにな！
+オレにできることがあれば何でも言ってくれよ。/
+[se fusuma_03]
+[move A X 200 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+手を振り厨房を後にする若狭。/
+[serif off]
+?お母さんみたいだ……/
+[fadein black 2]
+[textcolor ARUJI]
+[-]
+[serif on]
+一見小さく見える若狭だが、
+その背中は何だか頼もしく思えた。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

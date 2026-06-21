@@ -1,0 +1,662 @@
+>>10000/
+@三河
+東海道、上国、[wait 2.0]三河だ。[autotap]/
+[delay 2.0]
+[flow]
+[-]
+@三河
+身の回りの警護はオレに任せてくれ。/
+>>10001/
+@三河
+また、オレの声を聞いてくれたのか。[autotap]/
+[delay 2.8]
+[flow]
+[-]
+@三河
+嬉しい、わけじゃ…ない…/
+>>1/
+[set A s_mik_r 三河]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+鳳来寺は山全体が名勝……
+岩肌が特徴的だ……樹齢八百年の傘杉もある。/
+[face A 01]
+徳川家光が建てた仁王像もある……主が、興味が
+あれば……オレが案内しても……いい……/
+[face A 08]
+……1425段の階段……登れるように、
+主は……今から鍛えた方がいい……[se walk_01][move A X -200 0.5][hide A]/
+>>2/
+[set A s_mik_r 三河]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+伊勢物語で、在原業平が詠った
+カキツバタの歌で有名な、三河八橋……/
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+歌など……オレにはわからないが……[wait 0.5]
+誰かを想う気持ちは……わからなくは、ない。/
+[face A 09]
+京都の銘菓「生八ツ橋」は、この三河八橋が語源
+らしい……まだ食べたことがないんだが……[shake A]/
+>>3/
+[set A s_mik_r 三河]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+武田軍との戦いの舞台……
+長篠古戦場……/
+[face A 03]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+この話をすると……
+尾張の奴がでしゃばってくる……/
+[face A 08]
+[move A X 100 1.0]
+三段撃ち、三段撃ち……[wait 0.5]
+なんとかのひとつ覚えだ……ふぅ。[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]/
+>>4/
+[set A s_mik_r 三河]
+[show A R]
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+……！！[wait 0.5]
+誰だ。/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……猫……か。
+侵入者には変わらない。外まで連行する。[move A C 0.5][delay 0.2 move A Y -50 0.3]/
+[face A 08]
+抵抗するな。[move A Y -100 0.3][rotate A 30 0.3]……
+……！？[shake A 3]/
+[face A 05]
+[move A Y 150 1.0]
+[rotate A -15 0.8]
+[-]
+猫とは……こんなに伸びるものか……/
+>>5/
+[set A s_mik_r 三河]
+[randomset B r @地魂男児 @あやかし @NPC -mik -owr]
+[show A C]
+[show B C]
+[face A 08]
+[face B 00]
+[serif on]
+[talk A]
+[setline 0 B A]
+$B:A……
+古紙を捨てるのか……？　[wait 0.5]少し待ってくれ。[move A X -100 0.5][face B 01]/
+[face A 09]
+[rotate A 10 0.5]
+[move A Y -50 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[se paper_01]
+……軍議の資料……[se paper_01][wait 0.5]これは裏が白いな……
+まだ書き物に使える。/
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.4]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.4]
+この紙袋は……[wait 0.3]まだごみ袋にでも使える……
+こっちもまだ使える……[wait 0.3]もったいない……/
+[face B 04]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.4]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.4]
+これも……もったいない……
+もったいない……/
+>>6/
+[set A s_mik_r 三河]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+これは……[move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]
+小銭が落ちている……/
+[face A 01]
+[talk A]
+……荘園の貯金箱に入れておこう。[move A X -500 1.0][hide A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_mik_r 三河]
+[show A C]
+[face A 03]
+[move A X 100]
+[move A X -100 0.3]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+……道具を使ったら元に戻す、という
+るーるがあるのに、守らない者がいる……/
+[face A 09]
+守らせるにはどうすれば……[wait 0.5]
+やはり、厳しい罰を与えるしかないのか……[move A X -200 0.5][hide A]/
+>>10/
+[set A s_mik_r 三河]
+[randomset B r @地魂男児 @あやかし @NPC -mik -owr]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+日本三大珍味の一つ
+「このわた」を手に入れてしまった……[shake A 5]/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+まさか$B:Aがみやげにくれるなんて……
+……あいつはいい奴だ。/
+>>11/
+[set A s_mik_r 三河]
+[randomset B r @地魂男児 @あやかし -@NPC -mik -owr]
+[show A C]
+[show B]
+[face B 00]
+[face A 08]
+[setline A B]
+[serif on]
+[talk A]
+夜……[wait 0.5]か。
+見回りをしてくる。/
+[face A 09]
+[face B 05]
+皆は先に休んでいてくれ。[move A X -600 1.0][delay 0.3 hide A][se fusuma_01]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_mik_r 三河]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+気持ちが昂ぶっている時は……
+不思議と体まで反応する……/
+[shake A]
+ん……[wait 0.5]こんな状態を誰かに見られると……困る。
+早急に手を……打たねば……/
+>>15/
+[set A s_mik_m 三河]
+[show A C]
+[face A 08]
+[move A Y -100]
+[serif on]
+[talk A]
+戦場では武器を落とすこともある。そんな時には
+その場にあるもので戦うことも必要だ……/
+[face A 09]
+槍や包丁、縄や石、木……
+あらゆるものが戦うための道具となりうる……/
+[face A 03]
+よし……やってみるか……[move A Y 100 0.2]/
+>>16/
+[set A s_mik_m 三河]
+[show A C]
+[face A 04]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[serif on]
+[talk A]
+はぁ……はぁ……
+体がえらい……/
+[face A 07]
+今日は朝からずっと訓練に明け暮れていた……
+……はぁ……はぁ……限界だ。/
+>>17/
+[set A s_mik_b 三河]
+[randomset B b -@ケモノ -@NPC -mik -owr]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+[shake A]
+……オレは毛深いの……か……？/
+[face A 09]
+[show B L]
+[move B X -200]
+[move B X 100 0.5]
+[scale B 0.8]
+[move B Y 10]
+[color B talk]
+[face B 00]
+[move A X 150 0.5]
+皆はどうしているんだ……
+元からあんなにつるつる……なのか……？[move A X -60 0.5]/
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+どちらかと言うと……
+オレは獣側に近いのかもしれない……[face B 05]/
+[face A 06]
+きっとそうだ……[shake A]
+[face B 04]/
+>>18/
+[set A s_mik_b 三河]
+[randomset B b @地魂男児 @あやかし @NPC -mik -owr]
+[show A L]
+[show B R]
+[face A 09]
+[face B 00]
+[se amb_12]
+[move B L 2.0]
+[se door_01]
+[move A X 350 1.8]
+[talk A]
+[effect fr yuge a 0 0]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+おい、$B:A。
+気をつけろ。/
+[face A 03]
+[se bath_03]
+ちんちん[face B 05]だぞ。[move B Y 20 0.1][delay 0.1 move B Y -20 0.1]/
+[face B 06]
+[shake B]
+[-]
+[move B X -400 0.3]
+[hide B]
+[move A X -100 0.5]
+[face A 04]
+……？　[wait 0.5]ちんちんな風呂に入って火傷しないよう
+気をつけろと言いたかっただけなのだが……/
+>>19/
+[set A s_mik_b 三河]
+[show A C]
+[move A Y -100]
+[se amb_12]
+[face A 09]
+[serif on]
+[talk A]
+[effect fr yuge a 0 0]
+[se water_06]
+隠すやつがちらほらいるが……
+何か見られて困ることがあるのか……？/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+なにかわからないが……
+あそこを隠しているようだ……/
+[face A 06]
+[move A Y -20 1.0]
+毛……か……[wait 0.5]
+オレも隠した方が、いいのか……？/
+>>20/
+[set A s_mik_r 三河]
+[show A R]
+[face A 09]
+[move A X -500 0.5]
+[se door_01]
+[-]
+[serif on]
+[talk A]
+よし、誰も……いないな……ふぅ。/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+背後に立たれると、
+少し、緊張するからな……/
+>>21/
+[set A s_mik_r 三河]
+[randomset B r @地魂男児 @あやかし @NPC -mik -owr]
+[show A R]
+[show B C]
+[scale A 0.8]
+[move A XY 200 20]
+[face A 08]
+[face B 00]
+[talk A]
+[order B 1]
+[order A 0]
+[move A X -100 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+む……$B:Aか……/
+[face A 09]
+[move A X -650 1.0]
+[-]
+[se fusuma_04]
+[move A X -50 1.0]
+[hide A]
+仕方ない。今は個室を使わせてもらう。/
+>>22/
+[set A s_mik_r 三河]
+[show A C]
+[move A Y -50]
+[face A 08]
+[serif on]
+[talk A]
+いつどこで何が起きるかわからない……
+排泄はできる時にしっかりしておかねば……/
+[face A 06]
+くうぅっ……！[shake A 5]/
+>>23/
+[set A s_mik_r 三河]
+[show A C]
+[move A Y -50]
+[face A 04]
+[serif on]
+[talk A]
+大切な時に、集中できないようでは困る……
+面倒だが、できる時に収めてやらねば。/
+[face A 06]
+…………んっ。[shake A]/
+>>24/
+[set A s_mik_r 三河]
+[randomset B r @地魂男児 @あやかし @NPC -mik -owr]
+[show A C]
+[show B R]
+[move A Y -50]
+[move B Y -50]
+[rotate B 40]
+[face B 07]
+[face A 03]
+[talk A]
+[order A 0]
+[order B 1]
+[-]
+[se cloth_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+皆の寝相が悪くて
+領域侵犯が多発している……/
+[face A 09]
+[move A Y 50 1.0]
+[delay 0.5 move B X 50 0.6]
+[delay 0.5 rotate B 20 0.6]
+この大部屋……
+馬防柵でも設けた方がいいのか……？/
+>>25/
+[set A s_mik_r 三河]
+[show A C]
+[face A 07]
+[move A Y -100]
+[serif on]
+[talk A]
+すー……すー……[wait 0.5]
+何者……！！[face A 09][move A Y 100 0.1]/
+……ただの猫か。[move A Y -100 1.0][face A 07]
+すー……すー……/
+>>26/
+[set A s_mik_r 三河]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+今日は、いい夢を見た。
+気分もいい……/
+[face A 09]
+任務でも結果を残せそうだ。[move A X -500 1.0][hide A]/
+/
+>>100/
+[set A s_mik_r 三河]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 三河、警戒する]
+[-]
+[bg niwa_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+庭を散歩中、ふと思い立って
+あまり行ったことのない裏手の方を回ってみた。/
+[textcolor ARUJI]
+荘園の中でも特に人気がなく静かだ。そうして
+しばらく目新しい景色を楽しんでいると――/
+[talkend]
+@？？？
+動くな。何者だ。/
+[se katana_05]
+[textcolor ARUJI]
+突然後ろから刀を突きつけられた。/
+[serif off]
+?……！　み、三河！？/
+[show A C]
+[scale A 2.0]
+[move A Y -150]
+[face A 05]
+[scale A 1.0 0.3]
+[move A Y 200 0.2]
+[delay 0.2 move A Y -50 0.1]
+[se walk_04]
+[-]
+[serif on]
+[talk A]
+！
+主だったか……[face A 04]驚かせてすまなかった。/
+[talkend]
+[se katana_05]
+[textcolor ARUJI]
+刀を降ろし鞘に納める三河。/
+[face A 08]
+[talk A]
+主、こんな所で何をしている？
+新たな任務か？/
+[serif off]
+?散歩してただけだよ/
+[face A 09]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+散歩か……なるほど、適度な運動も必要だ。
+……だが、/
+[face A 08]
+主、あんたにはもう少し自覚を持って欲しい。/
+[serif off]
+?え？/
+[face A 03]
+[move A X 10 1.0]
+[-]
+[serif on]
+主は、オレたち地魂男児を束ねる男だ。
+誰がどんな思惑で主の命を狙うかわからない。/
+[face A 09]
+無防備な装いで人気のない所を
+一人出歩くのは危険だ。/
+[talkend]
+[textcolor ARUJI]
+鋭い目つきで辺りを見回す三河。/
+[serif off]
+?き、気をつける/
+[face A 01]
+[talk A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+うん……それがいい。
+……！！[shakebg]
+[face A 08]
+[bgm departure]/
+[se gasa_01]
+[talkend]
+[textcolor ARUJI]
+三河の目つきが鋭くなる。[effect fr syutyu a 0 0]
+直後に脇の草むらが小さく音を立てて揺れた。/
+[say A]
+[face A 03]
+主……！/
+[serif off]
+[scale A 2.0 0.3]
+[move A Y -200 0.3]
+[hide A 0.3]
+[-]
+[shakebg]
+[se dosa_01]
+[wait 0.5]
+[talkend]
+[-]
+[serif on 0.5]
+[effect off a]
+[textcolor ARUJI]
+気づけば体が浮く感覚。そして温かい……
+すぐ隣には三河の顔が。/
+[serif off]
+?（だ、抱き上げられてる！？）/
+[serif on]
+[se animal_04]
+[se gasa_01]
+[textcolor ARUJI]
+草むらから親猫と数匹の子猫が出てきた。
+親猫は尾を立て、威嚇しているようだ。/
+[show A]
+[scale A 2.0]
+[move A Y -200]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 08]
+[-]
+[bgm home]
+[serif on]
+[say A]
+[face A 01]
+……猫か。
+この殺気は、子猫を想ってのものだったんだな。/
+[face A 02]
+もう行け。お前も、最後まで守り抜け。/
+[hide A]
+[serif off]
+[se animal_05]
+[wait 1]
+[-]
+[se gasa_01]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+三河に応えるように一鳴きして
+猫たちは去っていった。/
+[show A]
+[face A 09]
+[scale A 1.5]
+[move A Y -100]
+[say A]
+……[wait 0.5]
+主、[face A 00]安全は確認できた。下ろすぞ。/
+[serif off]
+?お姫様抱っこ……お、重くない！？/
+[face A 09]
+[say A]
+[serif on]
+これくらい、問題ない。/
+[serif off]
+[move A Y -50 0.4]
+[delay 1 move A Y 50 0.5]
+[talkend]
+[-]
+[se dosa_01]
+[serif on]
+[textcolor ARUJI]
+確かに三河の腕は太く、がっちりとしていて
+軽々と自分を地面に下ろしてくれた。/
+[hide A]
+[serif off]
+?三河はどうしてここに？/
+[serif on]
+[show A]
+[face A 00]
+[move A X 10 0.5]
+[say A]
+オレは、見回りをしていた所だ。
+誰がいつ入り込んでくるか、わからないからな。/
+[face A 09]
+[move A X 200 1.0]
+特にこの辺りは人がめったに通らない。
+だからこそ、より注意を向けねばならない。[move A X -200 1.0]/
+[serif off]
+?頼りになるね/
+[serif on]
+[face A 01]
+……/
+[talkend]
+[textcolor ARUJI]
+口には出さないが、
+心なしか三河は嬉しそうに見えた。/
+[face A 08]
+[talk A]
+……主、これからは、
+身の回りの警護はオレに任せてほしい。/
+だから、次に散歩に行く時はオレを呼んでくれ。
+いつでも主についていく。/
+[talkend]
+[textcolor ARUJI]
+三河の目は真剣そのものだ。/
+[serif off]
+?じゃあ今からでもいい？/
+[face A 09]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[talk A]
+[serif on]
+……もちろん、構わない。
+主が行きたいところ、どこにでもついていく。/
+[face A 01]
+オレが主を守るから……安心していい。/
+[hide A]
+[serif off]
+[se walk_01]
+[bg black 2.0]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+それからしばらくの間
+三河と一緒に散歩を楽しんだ。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

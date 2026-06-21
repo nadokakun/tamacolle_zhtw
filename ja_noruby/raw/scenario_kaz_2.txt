@@ -1,0 +1,1568 @@
+>>10000/
+@上総
+はい、主さん、こんにちは。[wait 2]
+私は東海道、上総です。
+[autotap]/
+[delay 3]
+[flow]
+[-]
+@上総
+下総は[wait 2.5]いい子にしてますか？/
+>>10001/
+@上総
+こんばんは、主さん。[wait 2]
+少し…疲れてそうですね。
+[autotap]/
+[delay 3]
+[flow]
+[-]
+@上総
+私の膝でよければ、お貸ししますよ。/
+>>1/
+[set A s_kaz_r 上総]
+[show A C]
+[face A 00]
+[-]
+[serif on]
+[say A]
+主さん、お休みの日には
+養老渓谷で滝めぐりはいかがですか？/
+[face A 07]
+特に緩やかに広々と流れる粟又の滝の
+美しさといったら……/
+[flow]
+[face A 02]
+紅葉の季節に、ぜひ訪れてみてくださいね。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+えっ……私と一緒に……ですか？[face A 01]
+ふふっ、喜んでご案内しますよ。/
+>>2/
+[set A s_kaz_r 上総]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[say A]
+主さん。上総の裸祭りとも言われる
+「上総十二社祭り」には、/
+[face A 00]
+[flow]
+玉依姫命の一族の神々を祀る神社から
+たくさんの神輿が集結するんです。/
+[face A 02]
+男たちが神輿を担ぎ、九十九里の
+波打ち際を走る姿[shake A]…[wait 0.2]…[wait 0.2]激マブですよ！[shake A 2]/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……あら、主さん？
+私、何か変なこと言いましたか……？/
+>>3/
+[set A s_kaz_r 上総]
+[show A C]
+[face A 07]
+[se paper_01]
+[-]
+[serif on]
+[say A]
+ふむふむ……[wait 0.5][move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face A 01]
+あら、主さん。ごきげんよう。/
+[face A 00]
+実は今、旅に便利そうな「がいどぶっく」という
+案内書を読んでいたんですけど、/
+[face A 02]
+現代では牧場が遊び場になるんですね。
+中では牛の乳搾りを楽しんだりもできるとか。/
+[serif off]
+[scale A 1.6 1]
+[move A Y -30 1]
+[-]
+[wait 1]
+[face A 06]
+[move A Y -150 1.5]
+[-]
+[serif on]
+……主さん？
+私の胸元をじっと見てどうしたんですか？/
+>>4/
+[set A s_kaz_r 上総]
+[randomset B r -kaz]
+[show A C]
+[face A 01]
+[move A Y -50]
+[-]
+[serif on]
+[say A]
+ふぅ……ごちそうさまでした。[show B R][face B 00][color B talk]
+あら、$B:A、お片付けですか？/
+[se cloth_01]
+[move A Y 50 0.5]
+[face B 01]
+私もお手伝いします。
+みんなでやればすぐ終わりますからね。/
+>>5/
+[set A s_kaz_r 上総]
+[randomset B r -kaz]
+[show A C]
+[show B C]
+[setline A B]
+[face A 04]
+[face B 04]
+[-]
+[serif on]
+[say A]
+$B:A、
+少し顔色が優れませんね。/
+[face A 01]
+[face B 04]
+体調が良くないのでしたら
+私の角を少し煎じてさしあげましょう。[face B 05][shake B]/
+[face A 02]
+[face B 05]
+ふふっ。実はこれは漢方薬になるんですよ。/
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+…………はい、どうぞ。[face B 01]
+では、お大事に。/
+>>6/
+[set A s_kaz_r 上総]
+[se katana_03]
+[shakebg]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[-]
+[show A C]
+[face A 05]
+[-]
+[serif on]
+[say A]
+あっ……カボチャを切ろうとしたら
+包丁がポッキリと折れてしまいました……/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+やっぱりこういうのは
+素手でやった方が安全ですね。/
+[face A 08]
+[move A Y 50 0.3]
+よいしょっ！/
+[serif off]
+[move A Y -100 0.2]
+[shakebg]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[se wood_03]
+[-]
+[move A Y 50 0.6]
+[-]
+[serif on]
+[face A 02]
+ふぅ。きれいに割れましたっ♪/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_kaz_r 上総]
+[randomset B r -kaz -@NPC]
+[show A C]
+[show B C]
+[setline A B]
+[face A 01]
+[face B 01]
+[-]
+[serif on]
+[say A]
+$B:A、今日の任務ご苦労さまです。
+それで……少しお時間あります？/
+[face A 06]
+[face B 00]
+その……よかったら、
+旅先のお話を聞かせていただけませんか？/
+[face B 02]
+いつか旅行に行く時の参考にさせていただけたらと[move B Y 5 0.2][delay 0.2 move B Y -10 0.6][delay 0.8 move B Y 5 0.5][face A 02]
+……ふふ、ありがとうございます。/
+>>10/
+[set A s_kaz_r 上総]
+[randomset B r -kaz]
+[show A C]
+[face A 10]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふぅ……お仕事完了ですね。
+今日もたくさん働きました♪/
+[show B R]
+[face B 06]
+[color B talk]
+[say A]
+[face A 05]
+[setline 0.5 A B]
+あら、$B:A？
+そんなに見つめてどうかしました？/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、いけない。
+汗でシャツが張り付いて……/
+[face A 09]
+[shake A]
+もう……
+あんまり見ないでくださいっ。/
+>>11/
+[set A s_kaz_r 上総]
+[randomset B r -kaz -@NPC]
+[show A C]
+[show B C]
+[move A X -800]
+[setline 0.5 A B]
+[face A 05]
+[face B 05]
+[-]
+[serif on]
+[say A]
+あら、$B:A。
+まだ起きてたんですか？/
+[face A 10]
+[face B 04]
+[say A]
+夜ふかしが楽しいのもわかりますけど、/
+[face A 01]
+[face B 01]
+[flow]
+明日の任務で主さんに迷惑かけないように、
+そろそろ寝ましょうね。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_kaz_r 上総]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+はぁ……今日も揉まれてしまいました……/
+[face A 09]
+もう……どうして男の子は
+おっぱいが好きなんでしょうか……[shake A]/
+>>15/
+[set A s_kaz_m 上総]
+[randomset B m -kaz -@NPC]
+[show A C]
+[show B C]
+[move A X 1000]
+[shakebg]
+[effect fr katanas 3000 0 0]
+[se katana_01]
+[delay 0.5 se doka_01]
+[face A 01]
+[face B 08]
+[-]
+[wait 1.0]
+[moveline A B -1000 0 1]
+[-]
+[serif on]
+[say A]
+ふふ、みんな頑張ってますね。
+私も負けていられません。/
+[serif off]
+[face A 08]
+[setline 1 B A]
+[-]
+[serif on]
+あの、$B:A……
+手合わせをひとつ、お願いできますか？/
+[serif off]
+[face B 01]
+[-]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[face A 01]
+[-]
+[serif on]
+……ふふ、ではお手柔らかにどうぞ。
+行きますね。[face A 08][face B 08]/
+>>16/
+[set A s_kaz_m 上総]
+[randomset B m -kaz -@NPC]
+[se zukkoke_01]
+[shakebg]
+[-]
+[serif on]
+$Bが上総との
+訓練中に転んでしまった。/
+[show A]
+[face A 05]
+[say A]
+$B:A！
+大丈夫ですか！？/
+[serif off]
+[show B C]
+[face B 04]
+[move B XY 100 -100]
+[move B Y 50 1.0]
+[color B talk]
+[-]
+[serif on]
+……少し膝をうったようですね。
+私がお部屋まで運んであげましょう。/
+[move A XY -10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[rotate B -50 0.5]
+[delay 0.4 move B Y 150 0.3]
+[face A 02]
+[face B 06]
+よいしょっと♪[shake B]/
+>>17/
+[set A s_kaz_r 上総]
+[show A C]
+[face A 06]
+[-]
+[serif on]
+[say A]
+普段から皆さん、
+とても堂々と男らしく脱いでいますが……/
+[face A 09]
+私はどうも人前で裸になるのは苦手です……/
+[face A 04]
+[talkend]
+チラチラ。/
+[face A 06]
+[say A]
+[se cloth_01]
+この時間ならまだ利用してる方も
+少なそうですし……今のうちに……[shake A]/
+>>18/
+[set A s_kaz_b 上総]
+[show A C]
+[face A 02]
+[effect fr yuge a 0 0]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+[say A]
+[se amb_12]
+まぁ……っ。
+この石鹸、とってもいい香り♪/
+[face A 00]
+そうだ、
+下総にも今度使わせてあげましょう。/
+>>19/
+[set A s_kaz_b 上総]
+[show A C]
+[face A 09]
+[effect fr yuge a 0 0]
+[se amb_12]
+[-]
+[serif on]
+[say A]
+うう……
+このタオルでは……隠しきれませんね。/
+[face A 06]
+主さんに大きいものを買っていただくように、
+頼んでみましょうか……/
+>>20/
+[set A s_kaz_r 上総]
+[show A C]
+[face A 02]
+[-]
+[serif on]
+[say A]
+わ～♪　今日のお手洗い、
+お掃除が行き届いていてとってもきれいですねぇ。/
+[face A 01]
+ふふ、私も見習わないと。/
+>>21/
+[set A s_kaz_r 上総]
+[show A C]
+[face A 04]
+[-]
+[serif on]
+[talk A]
+ん……ん～……[shake A]
+胸が邪魔で手元が見づらいです……/
+>>22/
+[set A s_kaz_r 上総]
+[randomset B r -kaz]
+[show A R]
+[face A 04]
+[-]
+[move A X -400 0.5]
+[-]
+[shake A]
+[se goto_01]
+[-]
+[serif on]
+[say A]
+あら、個室の戸が開きませんね……[face A 02]
+ん、んっ……[shake A]よいしょっ♪/
+[move A XY 10 10 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY 10 -10 0.3]
+[delay 0.5 rotate A 0 0.3]
+[talkend]
+[face A 01]
+[shakebg]
+[se wood_03]
+（バキッ！）/
+[face A 02]
+[say A]
+開きました～。[show B C][orderline A B][color B talk][setline 1 B A][face B 05]
+……あら、$B:Aが入ってたんですね。/
+[face A 07]
+[flow]
+どうりで開かないわけです。
+ふふふ、失礼しました。/
+[move A X 300 1]
+[hide A]
+[face B 04]
+[shake B]
+[serif off 0.5]
+[-]
+[autotap]/
+>>23/
+[set A s_kaz_r 上総]
+[show A C]
+[face A 07]
+[move A Y -50]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[serif on]
+[say A]
+もみ……もみ……/
+[face A 06]
+[effect fr love a 0 100]
+自分で言うのもなんですが……
+柔らかいですね……/
+>>24/
+[set A s_kaz_r 上総]
+[show A C]
+[face A 02]
+[-]
+[serif on]
+[say A]
+皆さん、歯磨きは済ませましたか？
+……はい、そしたら明かりを消しますよ。/
+[face A 07]
+[se cloth_01]
+[rotate A -60 0.5]
+[move A Y -150 0.5]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+……今日もお疲れ様です。
+おやすみなさい。[rotate A -90 0.5]/
+>>25/
+[set A s_kaz_r 上総]
+[randomset B r -kaz]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[say A]
+すやすや……$B:A……
+……タイマンするなら表で…………/
+[flow]
+……素手喧嘩でやりましょうね……すやすや……/
+[talkend]
+何か夢をみているようだ。/
+>>26/
+[set A s_kaz_r 上総]
+[randomset B r -kaz]
+[show A C]
+[show B C]
+[face A 07]
+[face B 07]
+[move B XY 80 -30]
+[orderline B A]
+[-]
+[serif on]
+[say A]
+[face A 05]
+あんっ！[shake A]/
+[face A 06]
+……もう、$B:Aったら、
+寝ぼけちゃって……/
+[face A 09]
+[shake A]
+これは枕じゃないですよ……！/
+/
+>>100/
+[set A s_kaz_r 上総]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 上総とお話]
+[-]
+[bg gozasyo_day]
+[bgm home]
+[-]
+[fadeout 1]
+[-]
+[serif on 0.5]
+お昼過ぎ――/
+[flow]
+[textcolor ARUJI]
+御座所で書類に目を通していると、
+戸の向こうから穏やかな声がした。/
+@？？？
+主さん、少しお時間ありますか？/
+[serif off]
+?上総？　入って/
+[se fusuma_01]
+[show A L]
+[move A C 1]
+[face A 00]
+[say A]
+[-]
+[serif on]
+失礼します。お疲れ様です。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[delay 1 hide A]
+[talkend]
+[textcolor ARUJI]
+ペコリと頭を下げる上総。/
+[show A C]
+[face A 02]
+[say A]
+お邪魔じゃなければ、少し休憩にしませんか？/
+[face A 01]
+[flow]
+実は美味しいお饅頭が手に入ったので、
+よかったら……と思って持ってきたんです。/
+[serif off]
+?上総と少し休憩する/
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+……え？　私も一緒に、ですか？[wait 0.5][face A 02]
+はい、喜んでお受けいたします。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[delay 1.0 hide A]
+[talkend]
+[delay1 se dosa_01]
+[textcolor ARUJI]
+上総は床に正座の姿勢で座った。/
+[serif off]
+?椅子があるよ/
+[show A C]
+[scale A 1.4]
+[move A Y -150]
+[face A 05]
+[say A]
+[-]
+[serif on]
+あら、
+お気遣いありがとうございます。[face A 01]/
+[face A 10]
+でも、主さんと同じ高さで
+座ることなんてできません。/
+[serif off]
+?せめて楽にして/
+[face A 05]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+まぁ……ほんとに主さんったら……
+わかりました。/
+[face A 00]
+[flow]
+では、少し足を崩させていただきますね。
+……ふぅ……/
+[serif off]
+[talkend]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[light def 1]
+[lightcolor blue]
+[wait 1]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+窓から差し込むあたたかな日差しに、
+上総の毛がきらきらと光る。/
+[hide A]
+[serif off]
+[-]
+[playeryes]
+[se eat_01]
+[-]
+[wait 1]
+[-]
+[serif on]
+[textcolor ARUJI]
+上総が持ってきた饅頭を口にすると、
+中にはあんこがたっぷりと入っていて――/
+[flow]
+[textcolor ARUJI]
+滑らかで上品な
+甘みが口いっぱいに広がった。/
+[show A C]
+[face A 07]
+[scale A 1.4]
+[move A Y -150]
+[say A]
+私、この荘園に呼ばれてからずっと、主さんと
+ゆっくりとお話したいと思っていたんです。/
+[face A 04]
+[flow]
+でも、せっかく機会に恵まれたというのに、
+いざとなると何を話したらいいのか……/
+[serif off]
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y- 5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -5 0.1]
+[-]
+[wait 1]
+[-]
+[serif on]
+私、少し緊張しているかもしれません。/
+[talkend]
+[textcolor ARUJI]
+そう言って上総は微笑む。/
+[serif off]
+?上総のことを教えて/
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+私のこと……ですか？
+そうですね……/
+[face A 00]
+[flow]
+私の国、上総国は、元は総国といいまして、
+そこから後に分かれてできた国なんです。/
+[serif off]
+?総国？/
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+ええ。フサフサの総国、
+と覚えていただけたら……ふふっ。[face A 02]/
+[face A 00]
+[flow]
+下総国と安房国も同じく総国が元になっています。
+だから、下総や安房とは兄弟関係なんです。/
+[serif off]
+?なるほどね/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+その……下総は……
+すごく手のかかる子なんですけど……/
+[face A 10]
+[flow]
+根は優しい子なので……
+ぜひ使ってやってくださいね。/
+[face A 08]
+[flow]
+私たち兄弟は、主さんの地魂男児として
+お役に立てるよう、精一杯がんばりますので。/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[delay 1 hide A]
+[-]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+上総は深々と頭を下げる。/
+[serif off]
+?ありがとう。よろしくね/
+[light off 1]
+[show A C]
+[move A Y -100]
+[face A 07]
+[say A]
+[serif on]
+ふふっ。
+こちらこそ夜露死苦お願いします。/
+[serif off]
+[color A talk]
+[wait 1]
+[-]
+[wait 0.5]
+?（今何か妙な語彙が挟まった気がしたような……）/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[say A]
+[serif on]
+[face A 00]
+そういえば、お饅頭はお口に合いましたか？/
+[serif off]
+?美味しいよ/
+[face A 01]
+[serif on]
+ふふ、よかった。
+では、私もひとつ…[se eat_01]………[wait 0.5]んっ。[face A 05][shake A]/
+[bgm fun]
+[face A 04]
+[flow]
+あっ、私ったら、[shake A]
+あんこをこぼしちゃいました……/
+[talkend]
+[textcolor ARUJI]
+しっかりと着込んだ服の襟元から覗く
+胸の谷間に、饅頭のあんこがこぼれている。/
+[serif off]
+?（谷間……）/
+[face A 03]
+[say A]
+[serif on]
+うーん……
+毛先に絡むと、取りにくいんですよね……/
+[face A 04]
+[flow]
+すみません、少し席を外しますね。
+汚れを落としてきます。/
+[move A Y 50 0.5]
+[hide A]
+[se fusuma_01]
+[talkend]
+[textcolor ARUJI]
+上総は床にあんこをこぼさないよう、
+胸もとを抑えながら部屋をあとにした。[se walk_01]/
+[serif off]
+[waku on 0.5]
+?……/
+[serif on]
+[textcolor ARUJI]
+あんこの落ちた胸元の光景が
+頭から離れない。/
+[textcolor ARUJI]
+あの大きさはこの荘園内でも
+中々いないのでは……/
+[textcolor ARUJI]
+などと、
+つい考えてしまうのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_kaz_r 上総]
+[set B s_kaz_r 上総]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 上総の苦手なもの]
+[-]
+[bg rouka_day]
+[bgm home]
+[se walk_01]
+[-]
+[fadeout 1]
+[-]
+?見つからないなぁ……/
+[serif on 0.5]
+[textcolor ARUJI]
+お昼過ぎのこと――/
+[flow]
+[textcolor ARUJI]
+食事当番の地魂男児が、夕食に使うための
+大根がなくなったと相談してきた。/
+[flow]
+[textcolor ARUJI]
+当人曰く、大根は確かに購入した記憶があるので、
+荘園のどこかで落としたのではないか――/
+[flow]
+[textcolor ARUJI]
+とのことだったので、
+廊下を歩きがてら探していたのだ。/
+[serif off]
+?まさかこんな部屋にはないよなぁ/
+[serif on]
+[textcolor ARUJI]
+試しに通りがった空き部屋を覗こうと、
+戸を開けてみる。/
+[serif off]
+[-]
+[se fusuma_01]
+[bg heya_day 0.5]
+[-]
+[wait 0.5]
+[-]
+[show A C]
+[face A 01]
+[say A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+あら、主さん。こんにちは。/
+[talkend]
+[textcolor ARUJI]
+すると、中に上総がいた。/
+[serif off]
+?上総/
+[face A 10]
+[say A]
+[serif on]
+どうしたんです？
+こちらに御用ですか？/
+[talkend]
+[textcolor ARUJI]
+いつものように穏やかな笑みを浮かべる上総。/
+[serif off]
+?上総こそ、どうしてこんな所に？/
+[face A 00]
+[say A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+あぁ、私はお掃除のために
+来たところなんですよ。/
+[face A 10]
+[flow]
+使っていない部屋もたまには
+こうしてお掃除しないと塵や埃がたまりますし、/
+[face A 04]
+[flow]
+ひどい時はカビついたり、
+虫がいついたりしてしまいますから。/
+[serif off]
+?実は今探しものをしていて……/
+[face A 00]
+[serif on]
+あら、私でよければお手伝いしますよ。
+いったい何をお探しですか？/
+[serif off]
+?おかしな話だけど、大根なんだ/
+[face A 04]
+[-]
+[bgm off]
+[wait 1]
+[-]
+[serif on]
+……/
+[face A 03]
+[flow]
+大根……ですか。/
+[talkend]
+[textcolor ARUJI]
+上総の表情が少し曇った。/
+[serif off]
+?夕食に使う予定らしいんだけど、見かけてない？/
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[-]
+[serif on 0.5]
+なるほど…………はぁ……/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[hide A]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+上総は大きくため息をついた。/
+[show A C]
+[face A 09]
+[say A]
+……/
+[face A 04]
+[flow]
+[bgm unrest]
+主さん。
+私[wait 0.2]…[wait 0.2]…[wait 0.2]謝らなければいけません……/
+[serif off]
+?というと？/
+[serif on]
+[face A 08]
+私は主さんを裏切ることはできませんから、
+ばっくれずに白状いたします。/
+[face A 09]
+[shake A]
+ごめんなさい……私……本当に……
+我慢がならなくて……/
+[serif off]
+?？？　うん……/
+[serif on]
+でも、主さんがどうしても……
+どうしても大根が必要だと言うのなら……！[shake A]/
+[serif off]
+[se fusuma_01]
+[move A X 150 0.5]
+[hide A]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+上総が背後の押入れをスーッと開ける。/
+[flow]
+[shakebg]
+[bgm fun]
+[se zukkoke_01]
+[effect fr syutyu 5000 0 0]
+[textcolor ARUJI]
+その中には数本の大根が
+積まれていたのだった。/
+[serif off]
+?大根だ/
+[effect off]
+[serif on]
+[show A C]
+[face A 06]
+[say A]
+……/
+[face A 09]
+[flow]
+たまたま、廊下を歩いていたら、
+大根の入った袋が落ちているのを見つけました。/
+[face A 04]
+[flow]
+[shake A]
+私、私は……それを見たら、
+いてもたってもいられなくなって……/
+[face A 08]
+ここにこうして奉納いたしました。/
+[se zukkoke_02]
+[serif off]
+?なんで！？/
+[face A 09]
+[scale A 1.6 0.3]
+[move A Y -150 0.3]
+[shakebg]
+[-]
+[se cloth_01]
+[serif on]
+あ、主さん！[shake A 2 5 5]
+気をつけてください！　相手は大根です！/
+[flow]
+[say A]
+[face A 06]
+大根に激しく突かれてしまうかもしれませんっ。
+そんなことになったら私……/
+[shake A]
+[effect fr syutyu a 0 0]
+[face A 04]
+普通じゃいられませんっ。/
+[serif off]
+[se zukkoke_02]
+?大根に突かれるって何！？/
+[talkend]
+[effect off a]
+[serif on]
+[textcolor ARUJI]
+上総は大根に手を伸ばしたこちらの腕を掴み
+引き寄せた。/
+[flow]
+[textcolor ARUJI]
+柔らかく豊かな上総の身体に密着する。
+優しく掴まれているのに身じろぎ一つできない。/
+[serif on]
+[face A 05]
+[say A]
+主さん、[face A 06]少し……
+もう少し心の準備をさせてくださいっ。/
+[face A 09]
+私は大丈夫……！　大根に屈したりしません！[shake A]
+相手がどんなに太い大根だろうと……！　[face A 08]/
+[serif off]
+?説明を求める/
+[face A 06]
+[serif on]
+[effect off a]
+私の国には……/
+[flow]
+[face A 03]
+かつて明神様が大根につまづいて目を
+突いてしまった恐ろしい伝説があるんです。/
+[face A 09]
+[say A]
+だから私、大根を目にすると
+ほんと不安で……不安で……/
+[serif off]
+?そんなことある！？/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[hideall]
+[-]
+[talkend]
+[fadeout 1.5]
+[-]
+[show B C]
+[face B 09]
+[-]
+[se cloth_01]
+[wait 0.5]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+大根を袋に戻していく間、上総はものすごく
+申し訳なさそうな表情でうつむいていた。/
+[serif off]
+?誰でも苦手なものはあるよ/
+[face B 06]
+[say B]
+[effect B kira 4000 0 150]
+[se kira_01]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+あ、主さん……
+なんて心の広いことでしょう……/
+[flow]
+私……焼きを入れられる
+覚悟はしていましたのに。/
+[serif off]
+[color B talk]
+[-]
+[wait 0.5]
+?焼き……を入れ？/
+[face B 09]
+[serif on]
+[say B]
+ええ、だって……/
+[face B 06]
+[flow]
+主さんのようなマブいお方の前で
+こんなシャバい姿を晒してしまって……/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+前々から思っていたことではあるが……/
+[serif off]
+?上総の語彙、たまに少し変じゃない？/
+[show A C]
+[face A 05]
+[say A]
+[serif on]
+えっ！？[shake A]
+そ、そうでしょうか……？/
+[face A 09]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+き、気をつけているつもり、
+なんですけど……/
+[face A 06]
+[flow]
+下総の影響でしょうか……恥ずかしいです。/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[hideall]
+[bg rouka_day]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[show A C]
+[face A 09]
+[talkend]
+[textcolor ARUJI]
+大根をつめた袋を抱える上総。
+その表情はまだ曇っている。/
+[face A 06]
+[say A]
+ご迷惑をおかけしました。
+厨房にはこれから謝罪に参ります。/
+[serif off]
+?一緒に行こう/
+[face A 05]
+[serif on]
+あ、主さん……/
+[-]
+[hideall]
+[se walk_01]
+[talkend]
+[-]
+[textcolor ARUJI]
+それから、少し涙ぐむ上総と一緒に
+厨房へと向かった。/
+[flow]
+[textcolor ARUJI]
+上総はいつもおっとりと丁寧で
+完璧だと思っていたが――/
+[flow]
+[textcolor ARUJI]
+今日は少し意外な一面を知ることが
+できたのだった。/
+[se walk_01]
+[serif off 0.5]
+[-]
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+[face A 00]
+[-]
+[wait 0.5]
+[serif on 0.5]
+主さん、本当にありがとうございます。[shake A]
+…[wait 0.2]…[wait 0.2]私[wait 0.2]…[wait 0.2]…[wait 0.2][face A 06]/
+[face A 07]
+[flow]
+主さんと一緒なら、大根も平気に
+なれるかもしれません……/
+[serif off 0.5]
+[face A 00]
+[wait 1]
+[-]
+[face A 02]
+[-]
+[serif on 0.5]
+……いつか、[wait 0.2]きっと。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>201/
+[set A s_kaz_r 上総]
+[set B s_kaz_r 上総]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 上総と秘密の時間]
+[-]
+[bg rouka_night]
+[bgm home]
+[se walk_01]
+[-]
+[fadeout 1]
+[-]
+[se amb_05]
+[wait 1.5]
+[-]
+[fadein BLACK 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg mbg_syouen]
+[minibg ima]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on 0.5]
+チョコレートパーティのあとしばらくして
+居間に行くと――……/
+[show A C]
+[move A Y -50]
+[face A 07]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[orderline A]
+[textcolor ARUJI]
+誰もいなくなった居間で
+上総が静かに湯呑を傾けながら腰掛けていた。/
+[serif off]
+?上総/
+[face A 01]
+[say A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あら主さん。
+こちらのお部屋をお使いですか？/
+[face A 10]
+[flow]
+[move A Y 50 0.5]
+[se cloth_01]
+すぐに片付けてしまいますね。/
+[serif off]
+?ただ来ただけだけど、一緒に片付けるよ/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+ありがとうございます。/
+[face A 04]
+[se gasa_01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+あらあら。こちらはまだ食べられそうですね。
+明日に取っておきましょう。/
+[se cloth_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+上総は余ったお菓子を集め
+ラップをかけていく。/
+[show A C]
+[face A 04]
+[scale A 1.6]
+[move A Y -140]
+[orderline A]
+[textcolor ARUJI]
+[flow]
+空になったお椀や小皿を集め重ねて渡すと、
+上総はお皿に残った包装紙を見つめていた。/
+[face A 10]
+[say A]
+パーティのあとって、少し寂しいですよね。
+さっきまであんなに賑わっていたのに。/
+[face A 07]
+[flow]
+今はこんなにも静かで。
+でも、楽しさの名残だけはあって。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+[flow]
+片付けてしまうのが少し
+惜しい気がしていたんです。/
+[serif off]
+?その分、来年も楽しみ/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+……そうですよね。
+今から来年が楽しみです！/
+[face A 00]
+[flow]
+さあ、運んでしまいましょうか。/
+[hide A]
+[se goto_01]
+[talkend]
+[bgm fun]
+[textcolor ARUJI]
+上総は四足膳をいくつも重ね、物置に
+運んでいく。/
+[textcolor ARUJI]
+[flow]
+手伝うと言うと
+ひとつだけ渡してくれた。/
+[serif off]
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[scale A 1.6]
+[move A Y -240]
+[-]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 140 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+よいしょ。っと。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+数十個の膳を一度に運んでしまう上総の力は
+相変わらずすごい。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[minibg off]
+[bg rouka_night]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[show A C]
+[face A 10]
+[say A]
+[orderline A]
+[serif on]
+パーティでは、兄弟が……
+主さんに迷惑をかけませんでしたか？/
+[face A 00]
+[flow]
+安房や下総も癖が強い子たちですから
+なにかあったら私に言ってくださいましね。/
+[face A 03]
+メッ、[shake A]しておきますから。/
+[serif off]
+?大丈夫だよ/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[serif on]
+よかったです。
+ふたりとも頼りにしてやってくださいね。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se fusuma_01]
+[hideall]
+[bg mbg_syouen]
+[minibg syouen_monooki]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on]
+[talkend]
+物置には色々な季節のものが
+雑多に積まれていた。/
+[show A C]
+[face A 07]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se dosa_01]
+[orderline A]
+[textcolor ARUJI]
+上総は運んだ四足膳を元の位置に戻すと
+物置の様々な道具たちを愛おしそうに眺める。/
+[face A 00]
+[say A]
+これらの道具には、これからも
+思い出が積み重なっていくのでしょうね。/
+[face A 07]
+[flow]
+私も、主さんと共に月日を過ごして……
+たくさんの思い出を残していきたいです。/
+[face A 02]
+[flow]
+今日のパーティーは本当に楽しかったですよ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[bgm departure]
+物置の道具をじっくり見ようとして近づくと
+隣に積まれた道具の山に足が当たってしまった。[shakebg][se doka_01]/
+[textcolor ARUJI]
+ゆらりとバランスを崩した大鍋が
+こちらにむかって倒れてきた。/
+[bgm off]
+[serif off]
+[show A C]
+[face A 09]
+[scale A 2 0.5]
+[move A Y -40 0.5]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+[wait 1]
+[-]
+[move A Y -150 0.5]
+[-]
+[say A]
+[serif on 0.5]
+[orderline A]
+主さん……大丈夫ですか？/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+上総はこちらを壁側に押し付ける形で
+倒れた荷物から守ってくれていた。/
+[textcolor ARUJI]
+[flow]
+[bgm night]
+上総の柔らかな胸とお腹に圧迫されるが
+不思議と苦しくはなかった。/
+[move A Y -100 3]
+[autotap]/
+[face A 02]
+[say A]
+[serif on]
+こんなところにお連れして、怪我をさせては
+いけませんから。/
+[talkend]
+[textcolor ARUJI]
+そう言って微笑む上総の胸の
+ふさふさの毛が鼻をくすぐる。/
+[face A 00]
+[textcolor ARUJI]
+視線をあげると優しく微笑む上総と
+目があった。/
+[face A 09]
+[say A]
+主さん。
+ここは物が多くて危ないですから、戻りましょう。/
+[hide A]
+[talkend]
+[serif off]
+?物置を出ようとする/
+[show A C]
+[face A 09]
+[say A]
+[serif on]
+[orderline A]
+…………/
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[autotap]/
+[face A 06]
+あのっ、主さん。/
+[face A 09]
+[flow]
+……主さん、もうチョコレートは
+たくさん召し上がられたと思いますが……/
+[face A 10]
+[flow]
+その、もうひとつ、いかがですか？[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+こんなところでもなければ
+堂々と渡すことが難しくて……/
+[flow]
+[face A 06]
+恥ずかしいのですけれど……/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+上総は小さな包を差し出してきた。/
+[serif off]
+?受け取る/
+[serif on]
+[se cloth_02]
+[textcolor ARUJI]
+包を受け取り、開くと……
+シンプルなハート型のチョコレートが入っていた。/
+[textcolor ARUJI]
+[flow]
+しかし、そのチョコレートは
+真ん中でパキッと割れてしまっている。/
+[textcolor ARUJI]
+[flow]
+先程、かばってくれた際に
+割れてしまったのだろう。/
+[show A C]
+[face A 09]
+[say A]
+[orderline A]
+すみません。私ったら……
+お尻のポッケに入れていたんですけど……/
+[face A 04]
+[textcolor ARUJI]
+[talkend]
+上総は悲しそうに俯いている。/
+[hide A]
+[talkend]
+[serif off]
+?チョコを食べる/
+[playeryes]
+[se eat_01]
+[-]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+上総のチョコはミルクたっぷりのチョコレートだ。
+甘くて優しい口当たりがとても美味しい。/
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -140]
+[orderline A]
+[textcolor ARUJI]
+割れた半分を上総に差し出した。/
+[serif off]
+?一緒に食べられるから、割れてちょうどいいね/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+[serif on]
+主さんたら……ふふ……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+狭い物置の中、ふたりだけの秘密の時間を
+共有しているようでどこかワクワクしてくる。/
+[textcolor ARUJI]
+[flow]
+上総の隣で濃厚なミルクチョコを味わいながら、
+ゆっくりとふたりの時間を過ごしたのだった。/
+[textcolor ARUJI]
+[flow]
+甘くてとろりとした上総のミルクチョコレート。/
+[textcolor ARUJI]
+[flow]
+ふたりで食べたその味は
+きっといつまでも忘れないだろう。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

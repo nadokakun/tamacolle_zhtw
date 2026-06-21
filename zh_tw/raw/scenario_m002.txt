@@ -1,0 +1,1140 @@
+>>0/
+((s))
+[set W s_san_m 讚岐]
+[set A s_n007_m ？？？]
+[set B s_n007_m ？？？]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 幻の店、あずきや]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[fadeout]
+[bgm home]
+[-]
+[place ロクハラ3F　商業施設エリア]
+[-]
+[autotap]/
+((m))
+[set W s_mus_m 武藏]
+[set A s_n007_m ？？？]
+[set B s_n007_m ？？？]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 幻の店、あずきや]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[fadeout]
+[bgm home]
+[-]
+[place ロクハラ3F　商業施設エリア]
+[-]
+[autotap]/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n007_m ？？？]
+[set B s_n007_m ？？？]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 幻の店、あずきや]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[fadeout]
+[bgm home]
+[-]
+[place ロクハラ3F　商業施設エリア]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+早上，我在六原接受了健康檢查，然後直接去了醫院。
+我去了商業設施區。/
+這裡設有供六原總部員工使用的餐廳和餐廳。
+有很多便利店和雜貨店。/
+時間已經快到中午了。
+午休時間，這裡擠滿了員工。/
+如果你看看電梯廳前的資訊板
+看來要見的人已經到了。/
+[serif off]
+？謝謝您的等待/
+((s))
+[show W C]
+[face W 02]
+[move W Y 100 0.2]
+[delay 0.2 move W Y -100 0.2]
+[talk W]
+[-]
+[serif on]
+啊，師父！就在這裡！ ！/
+((m))
+[auto]
+嘿，將軍！是這樣的！/
+((e))
+[auto]
+師父！ ！這裡是！ ！/
+((s))
+[scale W 1.5 0.5]
+[move W Y -100 0.5]
+[face W 12]
+呃呃…一小時前我玩得很開心
+我到了。/
+((m))
+[auto]
+呵呵……我有點緊張，所以還蠻快的。
+我們到了。/
+((e))
+[auto]
+呵呵……我等主人的時候就在這裡修練。
+我做到了！所以才過得這麼快！/
+((s))
+[face W 00]
+主人，今天早上我正在準備體檢。
+你吃的很少……你餓了，對吧？/
+((m))
+[auto]
+總的來說，你今天早上吃得很少，為健康檢查做準備。
+……你餓了吧？/
+((e))
+[auto]
+主人，您的早餐有點少了。健康檢查
+太好了。 ……你餓了吧？/
+((s))
+[face W 12]
+店裡看起來很擁擠，不過見到師傅我還是很高興。
+我可以讓他們排隊幾個小時！我們吃很多吧！/
+((m))
+[auto]
+現在是午餐時間，所以可能很擁擠。如果你耐心排隊
+不是嗎？好吧，我們走吧！
+
+/
+((e))
+[auto]
+那麼，直到master滿了
+我們吃很多吧！我陪你！/
+[serif off]
+?$W尋找一家商店/
+((s))
+[fadein BLACK 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.0]
+[-]
+[show W C]
+[face W 01]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[talk W]
+[-]
+[serif on]
+哦，看看這個老人。
+包子！　[shake W]可以邊走邊吃！/
+((m))
+[auto]
+噢，看，將軍。這是團子。
+不是可以邊走邊吃嗎？/
+((e))
+[auto]
+啊，主人！那是一個餃子！
+如果有團子，就可以邊走邊吃！/
+[serif off]
+?買點餃子/
+[hide W]
+[talkend]
+[-]
+[serif on]
+@職員
+是的，梅多~！/
+((s))
+[show W C]
+[face W 12]
+[talk W]
+誒嘿嘿……我就收下吧！
+嗯。御手洗團子好吃！[shake W]/
+((m))
+[auto]
+嗯……我就收下吧！嗯...
+嗯。御手洗團子好吃！/
+((e))
+[auto]
+嗯……我要了！喃喃自語……！　
+御手洗團子……好吃！/
+((s))
+[serif off]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[face W 04]
+[serif on]
+...座敷童子喜歡包子。/
+((m))
+[auto]
+……座敷童子軍那個傢伙，
+聽說你喜歡吃餃子/
+((e))
+[auto]
+……大師。座敷童子說他喜歡團子。
+我就是這麼說的。/
+((s))
+[face W 12]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+如果用同樣的麵粉做的話，油是最好的。
+我喜歡烏龍麵，但.../
+((m))
+[auto]
+江戶有很多著名的餃子。
+永泰團子、龜團子、鳶尾團子、木八團子。/
+((e))
+[auto]
+越後在日本有一種團子叫做sasadango。
+用米做的餃子。/
+((s))
+[face W 01]
+據說，烏龍麵誕生於較薄的包子。
+因為它就在那裡，我不能忽視麵包！/
+((m))
+[auto]
+所以說起團子，我就不能忽視它。
+什麼！/
+((e))
+[auto]
+有一天我也會在座敷童子吃越後的Sasa Dango。
+我想餵你。/
+((s))
+[face W 00]
+[wait 0.2]…[wait 0.2]…[wait 0.5]之後是座敷童子和流。
+你能吃到餃子嗎？/
+((m))
+[auto]
+……座敷童子，然後流
+我就想知道能不能吃點餃子…/
+((e))
+[auto]
+……座敷童子，然後流
+可以吃餃子嗎.../
+[serif off]
+？我確定/
+[face W 01]
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[serif on]
+是啊！/
+((m))
+[auto]
+啊！/
+((e))
+[auto]
+是的！/
+((s))
+[face W 08]
+綾香和人類一樣
+我的生活充滿了許多不同的想法。/
+((m))
+[auto]
+嘿，將軍。綾香和人類一樣
+你生活在各種各樣的想法中。/
+((e))
+[auto]
+我想是的。綾香和人類一樣
+我的生活充滿了許多不同的想法。/
+((s))
+[face W 04]
+[flow]
+偽裝或攻擊他人
+綾香常常很有名，但是…/
+((m))
+[auto]
+只有可怕的故事和把人變成怪物的人。
+我已經出名了.../
+((e))
+[auto]
+留下來的故事可能會困擾或嚇到人們。
+諸如此類的事情越來越出名....../
+((s))
+[flow]
+與人共同生活並給予他們力量
+我確信也有很多妖怪。/
+((m))
+[auto]
+就像與人共處、互相幫助......
+我想知道這樣的妖怪是否存在。/
+((e))
+[auto]
+我覺得我在幫助別人，被人幫助，並與人一起生活。
+我確信這樣的妖怪有很多。/
+((s))
+[face W 08]
+[flow]
+當我去過去的世界執行任務時...
+哦天哪.../
+((m))
+[auto]
+當我再次回到過去的世界時，那些人
+如果你看起來有麻煩了。/
+((e))
+[auto]
+當你執行任務前往過去的世界...
+我.../
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[flow]
+我想幫助人類和妖怪。/
+((m))
+[auto]
+人類和妖怪……沒關係。
+請幫助我。/
+((e))
+[auto]
+人類和妖妖……如果他們遇到麻煩了。
+我想幫助你。/
+[serif off]
+？點點頭/
+((s))
+[face W 01]
+[playeryes]
+[-]
+[wait 0.5]
+[-]
+[face W 13]
+[serif on]
+啊？/
+((m))
+[auto]
+哦？/
+((e))
+[auto]
+……嗯？/
+[serif off]
+[hide W]
+[wait 0.5]
+[-]
+[serif on]
+[talkend]
+$W當我好奇地看向我目光轉向的地方時，
+有一個商店的入口。/
+[flow]
+混凝土牆的一部分突然變成了古老的木結構。
+它有一扇木製滑動門。/
+[flow]
+窗簾上寫著「小豆屋」。
+看起來這只是另一個空間。/
+((s))
+[serif off]
+[show W C]
+[face W 00]
+[talk W]
+[-]
+[serif on]
+這種地方有商店嗎？
+是新店嗎？/
+((m))
+[auto]
+這裡有商店嗎？
+是新店嗎？/
+((e))
+[auto]
+這是一家我不認識的商店。
+是新店嗎？/
+[serif off]
+？我們進去吧。/
+((s))
+[fadein BLACK 1.5]
+[serif off 1.5]
+[se fusuma_01]
+[-]
+[hideall]
+[minibg azukiya_hokori]
+[bg mbg_map]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[show W]
+[face W 12]
+對不起。/
+((m))
+[auto]
+請原諒。/
+((e))
+[auto]
+對不起！/
+[hide W]
+[talkend]
+[bgm unrest]
+拉開拉門走進去，卻不見人影。
+這是一片漆黑、佈滿灰塵的泥土地板，根本沒有空間。/
+一排排的桌子和架子上都鋪滿了布。
+我不認為它是開放的。/
+((s))
+[show W C]
+[face W 13]
+[talk W]
+嗯……估計沒人吧…
+店面也很小……啊。/
+((m))
+[auto]
+嗯……沒有人嗎？
+店內也滿是灰塵……啊。/
+((e))
+[auto]
+嗯…我猜這裡沒有人…
+店裡好像也很亂…/
+[hide W]
+[talkend]
+[se doka_01]
+[delay 0.2 se dosa_01]
+[delay 0.5 se crash_04]
+[delay 0.8 se crash_01]
+[shakebg]
+多加！
+很嘎吱嘎吱！ ！/
+一聲巨響，原本裝好的行李倒塌了。
+地上散落著各種雜物。/
+((s))
+[show W C]
+[face W 11]
+[talk W]
+[shake W]
+哇！我把行李打翻了...
+抱歉.../
+((m))
+[auto]
+哇！我的行李丟了...
+瓦里.../
+((e))
+[auto]
+哇！對不起！
+那裡很窄，我就撞到了…/
+[hide W]
+[bg black 0.5]
+[talkend]
+訣竅是科隆科隆...../
+((s))
+[show W C]
+[face W 13]
+[talk W]
+[move W XY -10 -40 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 40 0.3]
+[delay 0.5 rotate W 0 0.3]
+啊？有什麼小東西掉下來了。
+嗯，這……是……/
+((m))
+[auto]
+嗯？有一些小顆粒在周圍滾動。
+嗯……這是……/
+((e))
+[auto]
+嗯，小顆粒滾落下來。
+這是.../
+[serif off]
+？小豆？/
+[hide W]
+[minibg emo_donyori 1.0]
+[-]
+[show A C]
+[talk A]
+[color A BLACK]
+[face A 00]
+[bgm eerie]
+[-]
+[textsize 40]
+[serif on]
+我拿過來吃它...[shake A]/
+((s))
+[hide A]
+[-]
+[show W C]
+[face W 11]
+[talk W]
+[shake W]
+嘿嘿嘿嘿！ ！
+噢，鬼……！ ！/
+((m))
+[auto]
+嗚嗚嗚！ ！ ？
+噢，鬼……！ ？/
+((e))
+[auto]
+哇！
+噢，是鬼！ ？/
+((s))
+[scale W 1.5 0.3]
+[move W Y -100 0.3]
+啊啊啊師父，在我後面！/
+((m))
+[auto]
+T、將軍！哦哦哦，在我後面！/
+((e))
+[auto]
+把這個交給我的肌肉吧！
+師父就在我身後！/
+[serif off]
+[hide W]
+[se walk_01]
+[-]
+[show B C]
+[color B BLACK]
+[wait 1.0]
+[-]
+[show A C]
+[face A 03]
+[order A 5]
+[order B 1]
+[bg mbg_map 0.5]
+[-]
+[hide B]
+[-]
+[bgm fun]
+[talk A]
+[serif on]
+都是你的錯，我一定會再收拾乾淨！ ！[shake A]
+還有.../
+[minibg emo_ikari 0.5]
+[effect fr syutyu 3000]
+[shakebg]
+如果你想吃餃子，就試試Tsubuan吧！ ！ ！[shake A]
+我拿過來吃它！ ！ ！[shake A 2 10 10]/
+[minibg azukiya_hokori 0.5]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.3]
+你怎麼進我店的？ ？
+應該已經設定好了，所以你現在無法進入.../
+[face A 04]
+[se pi_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[se pi_01]
+[delay 0.2 se pi_01]
+什麼，這已經壞了嗎？/
+[talkend]
+店主？瞪了一眼手中的機器，
+操作按鈕和旋鈕。/
+((s))
+[hide A]
+[-]
+[show W C]
+[face W 13]
+[talk W]
+啊，綾香[wait 0.2]…[wait 0.2]…[wait 0.2]什麼？ ？/
+((m))
+[auto]
+另外，也許...
+綾香…？/
+((e))
+[auto]
+啊，綾……ssu？/
+[serif off]
+[hide W]
+[-]
+[show A C]
+[face A 03]
+[talk A]
+[scale A 1.5 0.3]
+[move A Y -30 0.3]
+[-]
+[serif on]
+未經允許就進來了，發生了什麼事？[shake A]
+我正在洗紅豆！ ！[name A 小豆洗い]/
+[face A 01]
+[scale A 1.0 0.5]
+[move A Y 30 0.5]
+嗯，這是我的商店。小豆！ ！你們
+看起來像新的語音監聽器嗎？休克休基！[shake A]/
+((s))
+[show W L]
+[face W 08]
+[talk W]
+[setline 0.5 W A]
+洗紅豆……果然……綾！[shake W]
+綾香怎麼會在這裡？ ？/
+((m))
+[auto]
+紅豆洗淨……這不是著名的妖怪嗎？
+為什麼想在這樣的地方？ ？/
+((e))
+[auto]
+洗紅豆……果然是綾香！
+綾香怎麼會在這裡？ ？/
+[face A 03]
+[talk A]
+[shake A]
+在你們來之前我已經去過六原了。
+我住那兒！瓦里卡！[shake A]/
+[move W X -50 1.0]
+[face W 10]
+[autotap]/
+((s))
+[talk W]
+哦，原來如此…
+抱歉。/
+((m))
+[auto]
+哦，是這樣嗎？
+這是瓦里.../
+((e))
+[auto]
+哦，原來如此…
+抱歉……！/
+((s))
+[face W 13]
+加油工路過...
+裡面有簾子，所以我就進去了…/
+((m))
+[auto]
+我們當時經過...
+我忍不住進去，因為上面掛著簾子。/
+((e))
+[auto]
+我們碰巧被窗簾遮住了
+我只是路過，順便看了一眼。/
+[serif off]
+？是的。因為「門簾」掛著。/
+[face A 03]
+[talk A]
+[serif on]
+尼亞尼[wait 0.2]…[wait 0.2]…[wait 0.2]諾倫加[wait 0.2]…[wait 0.2]…[wait 0.2]？
+啊！ ！[face A 05][shake A 3 10 10]/
+[hide W]
+[-]
+[move A C 1.0]
+[face A 05]
+我嘗試Noren來嘗試一下，當商店開業時。
+我很高興想像它會是什麼樣子....../
+[face A 06]
+我想我就這樣離開了......！ ！ ！[shake A]/
+[serif off]
+？新井小豆想開店嗎？/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+好吧！　
+我要在這裡開一家專門店。/
+[face A 00]
+找到合適的老民宅，從實驗室開始。
+我用自己刮來的工具，終於找到靈脈了……/
+[face A 04]
+[shake A]
+……無論如何……無論如何……
+我終於到這裡了！/
+((s))
+[hide A]
+[-]
+[show W C]
+[face W 13]
+[talk W]
+從六原進入莊園
+我想知道它是否以同樣的方式工作。/
+((m))
+[auto]
+從六原進入莊園
+效果一樣嗎？/
+((e))
+[auto]
+從六原一側進入莊園
+是同樣的機制嗎？/
+[serif off]
+？你是說這是你一直在使用的工具.../
+[show A R]
+[move A X 500]
+[setline 0.3 W A]
+[face A 03]
+[talk A]
+[-]
+[serif on]
+....我收到的工具！[shake A]
+……我剛剛說錯了！ ！/
+[hide W]
+[-]
+[move A C 1.0]
+[face A 04]
+一旦開啟，它就在這裡！
+我本來打算事後請六原批准的。/
+[face A 03]
+如果我現在找到它，我會
+我很困惑！ ！ ！[shake A]　....咕咕咕。[shake A 3 10 10]/
+((s))
+[hide A]
+[-]
+[show W C]
+[face W 12]
+[talk W]
+但看來離開業還有很長一段路要走。/
+((m))
+[auto]
+即便如此，距離開店還有很長的路要走。
+那似乎很遙遠。/
+((e))
+[auto]
+不過看來距離開店還有很長一段時間…/
+[hide W]
+[serif off]
+[-]
+[show A C]
+[face A 06]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+當然。
+不只是內飾，還有購買！　/
+[face A 04]
+[move A Y -100 1.0]
+所以，我現在不能讓我的存在洩漏給外界。
+我不去.../
+[face A 03]
+[minibg emo_ikari 0.5]
+[bgm boss]
+[scale A 1.6 0.5]
+你們...[wait 0.5]我拿過來吃它！ ！ ！/
+((s))
+[hide A]
+[minibg azukiya_hokori 0.5]
+[-]
+[show W C]
+[face W 08]
+[talk W]
+[shake W]
+……！！！/
+((m))
+[auto]
+……！！！/
+((e))
+[auto]
+……！！！/
+[serif off]
+？我不喜歡被吃掉。/
+[hide W]
+[-]
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -100]
+[talk A]
+[-]
+[serif on]
+你不想被吃掉嗎…
+然後還有條件！ ！/
+[face A 01]
+[effect A syutyu a 0 100]
+[bgm off]
+[se taiko_02]
+幫我清理這裡！ ！/
+((s))
+[effect off a]
+[hide A]
+[-]
+[show W C]
+[scale W 1.6]
+[move W Y -100]
+[face W 05]
+[talk W]
+哈！ ？/
+((m))
+[auto]
+哈！ ？/
+((e))
+[auto]
+哈！ ？/
+[hide W]
+[-]
+[show A]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[face A 03]
+[say A]
+[autotap]/
+[serif on]
+[bgm fun]
+如果你不喜歡它...[shake A]我馬上就抓起來吃掉！ ！/
+((s))
+[hide A]
+[-]
+[show W]
+[face W 10]
+[talk W]
+我該怎麼辦？
+師父.../
+((m))
+[auto]
+我生病了……我該怎麼辦？
+一般.../
+((e))
+[auto]
+師父。我該怎麼辦...？　
+/
+[serif off]
+？我來幫你/
+[face W 12]
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[serif on]
+是的。如果師父這麼說的話
+哦，沒關係！/
+((m))
+[auto]
+哦。如果將軍都這麼說，我也沒什麼好抱怨的。
+讓我們一起來做吧！/
+((e))
+[auto]
+是的！本來，是我負責把事情搞得一團糟。
+因為有！這就是我想去的地方！/
+[show A C]
+[setline 0.5 W A]
+[face A 03]
+[talk A]
+嗯，如果是這樣的話，那就是閃閃發光的商店了。
+做吧！ ！[shake A]　快點！ ！[shake A]/
+((s))
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[se cloth_01]
+[delay 0.3 dosa_01]
+[delay 0.5 se cloth_02]
+[delay 0.8 se dosa_01]
+[minibg azukiya]
+[hideall]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[fadeout 1.0]
+[-]
+[wait 1.0]
+[-]
+[effect off a]
+[show W C]
+[face W 12]
+[talk W]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+呼……我想快要完成了。
+老師你流汗了！/
+((m))
+[auto]
+呼……有這樣的事嗎？
+我出很多汗了。一般的！/
+((e))
+[auto]
+呼……我想這差不多就結束了。
+我的肌肉很高興！掌握！/
+[serif off]
+？紅豆要洗嗎？/
+((s))
+[face W 06]
+[talk W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[-]
+[serif on]
+啊？現在我想起來...[wait 0.5]....嗯...[shake W]
+坤坤…[face W 12]....聞起來很香.../
+((m))
+[auto]
+哦？現在想想……嗯……
+坤坤……不是很好聞嗎？/
+((e))
+[auto]
+哈！我確信我看不見你...嗯。
+坤坤……味道好香啊…/
+[hide W]
+[-]
+[show A C]
+[face A 01]
+[talk A]
+呵呵呵。呵呵呵。
+哦！　你把它清理得很好。/
+[face A 01]
+你們比我想像的還要好！
+……我是個商人！這是給予和索取！/
+[face A 00]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+所以吃這個吧！/
+[hide A]
+[talkend]
+[se taiko_01]
+清洗紅豆時，將杯麵放在託盤上。
+我帶來了。/
+((s))
+[show W C]
+[face W 09]
+[scale W 1.6]
+[move W Y -100]
+[talk W]
+[effect W kira a 0 100]
+[se kira_01]
+這是拉麵！ ！ ！[shake W]/
+((m))
+[show W C]
+[face W 09]
+[scale W 1.6]
+[move W Y -150]
+[talk W]
+[effect W kira a 0 100]
+[se kira_01]
+這是拉麵！ ！/
+((e))
+[show W C]
+[face W 09]
+[scale W 1.6]
+[move W Y -150]
+[talk W]
+[effect W kira a 0 100]
+[se kira_01]
+拉麵！ ！/
+[serif off]
+？這不像小豆。/
+[hide W]
+[effect off a]
+[-]
+[show A C]
+[face A 06]
+[talk A]
+[-]
+[serif on]
+煮紅豆需要時間。在現代
+非常方便。 ...Shokishoki。/
+[face A 02]
+[flow]
+只需新增熱水即可在家中製作正宗拉麵
+你可以吃它......這是一個很棒的專案！[shake A]/
+((s))
+[hide A]
+[-]
+[show W C]
+[face W 02]
+[talk W]
+[effect W kira a 0 100]
+我只是餓了，師父。
+讓我們得到它！/
+((m))
+[auto]
+嗯，我只是餓了。一般的。
+讓我們來吧！/
+((e))
+[auto]
+我只是餓了！掌握！
+讓我們來吧！/
+[serif off]
+？點點頭/
+((s))
+[playeryes]
+[-]
+[fadein BLACK 1.5]
+[-]
+[hideall]
+[effect off a]
+[-]
+[fadeout 1.0]
+[-]
+[show W C]
+[face W 12]
+[talk W]
+[-]
+[serif on]
+謝謝你的飯菜！
+很好吃！/
+((m))
+[auto]
+普哈~謝謝你的餐點！
+很好吃！/
+((e))
+[auto]
+謝謝你的飯菜！
+……真的很好吃……/
+[hide W]
+[talkend]
+雖然是普通的杯麵，但Ayakashiya
+對一個地魂少年來說一定覺得很陌生吧。/
+[serif off]
+[se pi_01]
+[show A C]
+[face A 01]
+[talk A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+好的，機器已經重置了！現在從外面看
+它應該變得不可見。/
+[face A 02]
+[flow]
+我的行李已經收拾好了，店裡也乾淨了！
+已經快到了盛大開幕的時間了。/
+((s))
+[hide A]
+[-]
+[show W C]
+[face W 00]
+[talk W]
+對你有好處，洗紅豆。/
+((m))
+[auto]
+對你有好處，小豆洗。/
+((e))
+[auto]
+太好了。紅豆洗淨。/
+[hide W]
+[-]
+[show A C]
+[face A 01]
+[talk A]
+……你們救了我。
+好的，我特意證明你是老顧客了！/
+[face A 01]
+商店開門時請再來。[face A 03]
+不過，如果我兩手空空，我就會抓起牠吃。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+如果大家發現什麼好東西
+我會把它換成我的特殊物品！/
+[scale A 1.5 0.5]
+[move A Y -30 0.5]
+[face A 03]
+如果你明白的話，就出去吧！[shake A]
+我要去買一些！ ！[se doka_01][shakebg]/
+[fadein BLACK 0.3]
+[serif off 0.3]
+[-]
+[hideall]
+[minibg rokuhara_rouka]
+[se fusuma_04]
+[bg mbg_rokuhara]
+[-]
+[fadeout 0.3]
+[-]
+[talkend]
+[serif on]
+我被趕出商店就像被趕出去一樣
+回頭一看，紅豆屋的入口已經不在了。/
+((s))
+[show W C]
+[face W 13]
+[talk W]
+店沒了…
+這不是夢，對吧？/
+((m))
+[auto]
+為什麼？商店沒了…
+這不只是一個夢……對吧？/
+((e))
+[auto]
+店家已經消失了…
+這不是夢吧？/
+[serif off]
+？綾卡西住在六原？/
+((s))
+[face W 12]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+……我感覺自己經歷了一次奇怪的經驗。
+師父。/
+((m))
+[auto]
+……我感覺自己經歷了一次奇怪的經驗。
+一般。/
+((e))
+[auto]
+……就像被狐狸掐了一樣。
+感覺很奇怪。掌握。/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[face W 01]
+但也有像我這樣的地魂男孩。
+如果綾香在的話，也許不奇怪！/
+((m))
+[auto]
+但是，好吧，還有像我們這樣的地球靈魂男孩。
+如果綾香在的話，也不會奇怪。/
+((e))
+[auto]
+但也有像我們這樣的地魂男孩。
+如果綾香在的話，也不會奇怪。/
+[serif off]
+？很有趣/
+[hide W]
+[talkend]
+[-]
+[se gaya_01]
+[serif on]
+這裡是平常的六原，有很多員工來來去去。
+屋簷外的店裡飄出一股好聞的香氣。/
+((s))
+[show W C]
+[face W 12]
+[talk W]
+……不過我吃了拉麵。
+你還想吃更多嗎？/
+((m))
+[auto]
+我吃了拉麵，你還餓吧？
+我們想要更多嗎？/
+((e))
+[auto]
+我吃了拉麵，但...
+你還想吃嗎？/
+[serif off]
+？點點頭/
+((s))
+[playeryes]
+[-]
+[face W 02]
+[move W Y 100 0.2]
+[delay 0.2 move W Y -100 0.2]
+[-]
+[serif on]
+耶！
+師父！我們來吃那個吧！/
+((m))
+[auto]
+我做到了！
+將軍！我們來吃那個吧！/
+((e))
+[auto]
+……是的！
+那麼，師父！我們來吃那個吧！　/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

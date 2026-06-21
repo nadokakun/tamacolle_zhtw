@@ -1,0 +1,521 @@
+>>10000/
+@藍色安燈
+奧雷奇·奧安東！[autotap]/
+[delay 1.4]
+[flow]
+@藍色安燈
+來吧，來吧。
+來來來，我們一起講一百個故事！/
+>>1/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+哦，你真調皮！
+謝謝你邀請我來這裡！/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[se cloth_01]
+[autotap]/
+[face A 06]
+嘿嘿嘿你真調皮[= 瞳 横顔 声 笑顔 眼差し 優しさ]……
+[= 彷徨える死者の魂 夜道に咲く彼岸花 地獄の窯の炎 飛び散った生き血の雫 深夜の霊園の石塔 窪んだ幽霊の眼窩 火葬場に漂う線香の香り 百物語の最後の一話]喜歡[= キレイ 輝いてる 心に響く かわいい 優雅 惹かれる ドキドキする]對了！/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+那個！ ？我們既緊張又奇怪…
+但我想我已經明白你的感受了！ ？[shake A]/
+>>2/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+這個莊園真溫馨！
+我記得那年夏天最開心的時光。/
+[effect A kira a 0 0]
+[se kira_01]
+[face A 00]
+一起生活真是太有趣了！
+嘿，我很高興你來到這裡！/
+[effect off a]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……不知在這裡也能找到情人嗎？
+讓我們盡力而為吧！[shake A][face A 01]/
+>>3/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+每個人都跟我講100個故事很難…
+我很傷心，因為花了這麼長時間.../
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+你也想演百物語對吧？
+然後，就大膽嘗試，只由你們兩個一起完成吧！ ？/
+[face A 02]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+我每集50集，你就可以了！
+讓我們慢慢地、徹底地談談吧！[shake A][se taiko_02]/
+>>4/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 06]
+[show B R]
+[face B 05]
+[setline A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+[talk A]
+哇！已經到那個時候了...
+本來想早起的，結果卻熬夜了。[face A 04]/
+[face A 01]
+[face B 01]
+但是，$B:A一直聊到凌晨。
+太有趣了，我一點也不介意！/
+>>5/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+今天睡得很好，明天早上就會好起來的！
+開啟窗戶，深吸一口氣，嗯！
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]/
+[show B C]
+[face A 00]
+[face B 00]
+[setline 0.5 A B]
+[effect A kira a 0 0]
+[se kira_01]
+感覺真好！哦，$B:A，我們去吃飯吧？
+我也是！明天早上我們再來一份幫忙吧！[shake A]/
+>>6/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[randomset C r @地魂男児 @あやかし @NPC -@NOW -a012]
+[show A L]
+[show B R]
+[face A 02]
+[face B 00]
+[setline 0.5 A B]
+[serif on]
+[talk A]
+$B:A，我們一起泡妞吧！
+一個人的時候感覺有點焦慮/
+[face B 01]
+[face A 00]
+[flow]
+無論你的對手選擇哪一邊，都不要記仇！好的！/
+[show C R]
+[move C X 1000]
+[face C 00]
+[moveline A B C -1000 0 1]
+[-]
+[setline 0.5 A B C]
+[face A 06]
+[face B 06]
+嘿嘿，$C:A,您想和我們談談嗎？[shake A][face C 05][shake C]/
+>>7/
+/
+>>8/
+/
+>>9/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+時間還早，我還有空閒時間呢！
+你要在 Sumahot 機器上看東西嗎？/
+[face A 05]
+哦，這太棒了！
+…………/
+[show B C]
+[face A 06]
+[face B 00]
+[setline 0.5 A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+就是這樣！ ？哇！　$B:A、
+也許你有興趣？一起來看看吧！[shake A]/
+>>10/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 05]
+[show B C]
+[face B 00]
+[setline A B]
+[serif on]
+[talk A]
+呃，我已經等不及了！我不敢相信我正在廚房值班！
+我以前沒做過飯.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face B 01]
+[face A 06]
+但是，$B:A如果你能告訴我…我明白了！
+給大家做點吃的吧！/
+>>11/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+今天快結束了……我感到孤單。
+但我做很多事情都很開心.../
+[face A 05]
+我在想明天我該做什麼...
+我太興奮了！[effect fr kira a 0 0][se kira_01][face A 01][shake A]/
+[show B R]
+[face B 01]
+[face A 02]
+[setline 0.5 A B]
+$B:A，你也這麼認為嗎？　
+幹得好！[shake A]/
+>>12/
+/
+>>13/
+/
+>>14/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[randomset C r 
+地球靈魂男孩 
+綾香-a012-
+NOW]
+[show A C]
+[face A 05]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+呵呵，今晚我們有一個特別的活動…
+標題是100個骯髒的故事！/
+[show B C]
+[show C C]
+[face B 00]
+[face C 00]
+[setline 0.5 A B C]
+大家來說說我們的經驗吧！
+哦，$B:A、$C:A，你會參加嗎！ ？/
+[face A 02]
+[effect A kira a 0 0]
+[se kira_01]
+耶！我真的很期待！
+現在就開始收集素材吧！[shake A]/
+>>15/
+[set A s_a012_m 青行燈]
+[randomset B m @地魂男児 @あやかし -a012]
+[show A C]
+[show B C]
+[setline 0.5 A B]
+[face A 08]
+[face B 08]
+[move A X -300 0.3]
+[se fire_01]
+[effect fr waveout 4000 0 0]
+[wait 0.3]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[move B X 300 0.3]
+[delay 0.3 move B X -200 0.2]
+[delay 0.3 move A X 200 0.2]
+[se katana_02]
+[effect fr slash 4000 0 0]
+[delay 0.3 shakebg]
+[face A 05]
+[face B 09]
+[delay 0.5 se cloth_06]
+[delay 0.5 move A X 200 0.3]
+[delay 0.5 move B X -200 0.3]
+[delay 0.8 quake 1]
+[delay 0.5 effect fr wavein 4000 0 0]
+[delay 1.0 fadein WHITE 0.2]
+[delay 1.2 fadeout 0.3]
+[delay 1.2 move A X -200 0.5]
+[delay 1.2 move B X 200 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[quake off]
+[serif on]
+[talk A]
+呼，我真的好累…
+但是，$B:A訓練很有趣！[face A 01]/
+[face A 02]
+[face B 01]
+我喜歡慢慢地說話，但我也喜歡這樣使用我的身體。
+一起流汗的感覺真好！/
+>>16/
+[set A s_a012_m 青行燈]
+[randomset B m @地魂男児 @あやかし -a012]
+[show A C]
+[show B C]
+[face B 04]
+[face A 00]
+[move A X 300]
+[setline 0.5 B A]
+[serif on]
+[talk A]
+$B:A，你看起來很難…
+想要更精準地瞄準攻擊目標嗎？嗯嗯/
+[face A 02]
+[face B 00]
+沒錯！讓我的火焰蓬鬆地飄浮…
+讓我們練習使用它作為移動目標！/
+[move A X -200 0.3]
+[move B X 600 0.3]
+[se fire_01]
+[effect fr waveout 3000 0 0]
+[delay 0.4 move B X -600 0.2]
+[delay 0.8 se fire_01]
+[delay 0.4 effect fr allow 3000 0 0]
+[face A 05]
+[face B 08]
+[-]
+[setline 0.5]
+哇，$B:A讓我們開始吧！
+讓我們竭盡全力，達到目標！這是一個遊戲！[shake A][face A 08]/
+>>17/
+[set A s_a012_b 青行燈]
+[randomset B b @地魂男児 @あやかし -a012]
+[randomset C b @地魂男児 @あやかし -@NOW -a012]
+[show B L]
+[show A C]
+[show C R]
+[face A 06]
+[face B 00]
+[face C 00]
+[setline 0.5 B A C]
+[serif on]
+[talk A]
+啊啊啊……我想就是這個感覺吧……
+藏起來，不藏起來，各種事情…/
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+但我們...冒險一試
+我決定不再隱瞞！[shake A][se cloth_06]/
+>>18/
+[set A s_a012_b 青行燈]
+[show A C]
+[face A 06]
+[move A Y -100]
+[serif on]
+[talk A]
+[se amb_12]
+[effect fr yuge A]
+[se bath_04]
+洗澡水很暖和，感覺真好…
+漸漸深入你的身體…/
+[face A 05]
+[move A Y 100 0.3]
+[se water_02]
+……哇！感覺真好
+看來我要睡覺了！[shake A]/
+>>19/
+[set A s_a012_b 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[show B R]
+[move B X 300]
+[face A 02]
+[face B 00]
+[setline 0.5 A B]
+[se amb_12]
+[effect fr yuge A]
+[serif on]
+[talk A]
+哦，$B:A，過來吧。
+我會把它從你背上洗掉！/
+[face B 06]
+[face A 00]
+不要猶豫，
+我也是$B:A我們也是男人啊！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 01]
+互相洗身體有點尷尬。
+我覺得我們可以互相認識，這真是太有趣了！/
+>>20/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 06]
+[move A X 400]
+[move A X -400 0.4]
+[serif on]
+[talk A]
+這麼多人排隊…好危險啊…/
+[show B R]
+[move B X 250]
+[face B 04]
+[face A 05]
+啊，$B:A，一定很艱難，加油！[shake A][face B 05]/
+[setline 0.3 A B]
+[rotate A 5 0.3]
+[rotate B -5 0.3]
+[scale A 1.6 0.3]
+[scale B 1.6 0.3]
+[moveline A B 0 -120 0.3]
+[se cloth_01]
+[face A 02]
+[face B 06]
+[orderline B A]
+共用同一個馬桶
+這是友誼的證明！讓我們一起來做吧！[shake A][se pee_01][delay 0.2 se pee_01][shakeB]/
+>>21/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[se pee_01]
+哦不！我今天心情不安。
+我連小便都不能正常...！[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+不過，我還是能夠成為一名成熟的藍色安燈。
+這樣的事情，自古以來就沒有改變過…/
+[show B R]
+[move B X 300]
+[move B X -300 0.5]
+[se cloth_06]
+[face A 06]
+[face B 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+哇，$B:A！？
+嗯，我現在真的很尷尬！[se cloth_01][move A X -500 0.3][hide A][face B 05]/
+>>22/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+唷，我喜歡和每個人說話。
+當我一個人的時候我感覺更自在。/
+[face A 05]
+當我這樣做時...哇！就在這裡！/
+[face A 02]
+[effect A kira a 0 0]
+[se kira_01]
+[se write_01]
+我想出了一個新的鬼故事！
+在你忘記之前記下來......！[shake A]/
+>>23/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 02]
+[se door_01]
+[move A X -300]
+[move A X 300 0.5]
+[serif on]
+[talk A]
+噗……真是爽啊！
+圖書館裡有各種各樣的書籍，真是太有用了！/
+[face A 05]
+我們不明白。這個莊園有
+高層一定有很多髒話的…/
+[face A 02]
+[se taiko_01]
+[effect A syutyu a 0 100]
+我們都需要獲得更多的經驗和知識。
+讓我們成為莊園裡髒話三劍客之一吧！[shake A]/
+>>24/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 06]
+[show B]
+[face B 00]
+[setline A B]
+[serif on]
+[talk A]
+嘿嘿，$B:A。
+我們為什麼不睡在同一個房間？晚上好孤獨！/
+[face A 02]
+[face B 06]
+[se cloth_06]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+這樣，被子就緊緊地貼在了一起…/
+[face A 02]
+[face B 01]
+現在我們可以安靜地交談了。
+當然還有其他的事情......天哪！[shake A][face B 06][shake B][face A 06]/
+>>25/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+……嗯，很高興能和大家一起度過。
+每天都這麼開心…庫卡…[se cloth_01][shake A]/
+[talkend]
+看來我正在做一個幸福的夢。/
+>>26/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+今天我有種奇怪的想念人的感覺…
+不知道我出去的時候有沒有人醒著…/
+[face A 05]
+[show B R]
+[face B 07]
+[move B X -50 0.5]
+[rotate B 10 0.5]
+[rotate A 20 0.4]
+[se cloth_01]
+[orderline B A]
+啊，$B:A！？[shake A]　.....
+我以為他醒了，但也許他只是沒睡好…[face A 02]/
+[face A 06]
+[effect A love a 0 0]
+但如果我們團結在一起
+我更加興奮了！[shake A]/

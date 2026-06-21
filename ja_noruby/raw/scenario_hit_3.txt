@@ -1,0 +1,1567 @@
+>>10000/
+@常陸
+東海道、常陸だ[wait 1.0]……
+………[wait 0.5]………[wait 2.0]……[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@常陸
+これ以上、言うことはない。/
+>>10001/
+@常陸
+……またオレを選ぶとは……[wait 2.0]
+…………[autotap]/
+[delay 0.8]
+[flow]
+[-]
+@常陸
+まぁ、[wait 0.5]付き合ってやる。/
+>>1/
+[set A s_hit_r 常陸]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+なんだ主……
+何？　……変わった祭りが知りたい？/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+そうだな…………
+「悪態祭り」は……どうだ？/
+[face A 02]
+天狗に扮した者に、皆が悪口を浴びせるもので、
+オレは変わった祭りだと思うのだが………/
+[face A 04]
+[shake A]
+その……
+思ってたものと違ってたら……すまん……/
+>>2/
+[set A s_hit_r 常陸]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+主、筑波山は……とても、美しい山だ。
+西の富士、東の筑波……などと言われてもいる。/
+ん……なんだ主？[face A 05][move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+……なっ、オレと行ってみたいだと！？/
+[face A 06]
+[scale A 1.5 0.5]
+[move A Y -200 0.5]
+わかった……[wait 0.5]……結婚しよう。/
+[face A 05]
+[scale A 1.0 0.2]
+[move A Y 200 0.2]
+……！[shake A 5 1 5]　すまん、
+勘違いをしたようだ……忘れてくれ……[move A X 500 0.5][hide A]/
+>>3/
+[set A s_hit_r 常陸]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+「偕楽園」は日本三名園のひとつと
+言われている歴史ある日本庭園だ。/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+あそこの梅林の香りをかぐと、
+春の訪れを感じる………/
+[face A 05]
+……主は……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]花が……好きか？/
+[face A 06]
+……興味があるなら行ってみるといい。[shake A 1 2 1]
+お、オレが……案内してやる……/
+>>4/
+[set A s_hit_r 常陸]
+[randomset B r @地魂男児 -hit -@NPC]
+[show A C]
+[face A 04]
+[move A Y -100]
+[move A Y 100 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅ…………もう朝か。/
+[face A 07]
+[move A X 20 1.0]
+…………眠いな……
+もう一眠りしたい所だが……/
+[face A 04]
+（今朝は$B:Aと朝稽古の約束をしていた。
+　……遅刻するわけにはいかん。）/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+…………行くか。/
+>>5/
+[set A s_hit_r 常陸]
+[randomset B r @地魂男児 @あやかし @NPC -hit -ymt -kaz]
+[show A L]
+[show B R]
+[move A C 1.0]
+[delay 0.5 move B C 0.5]
+[-]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.1]
+[se doka_01]
+[shakebg]
+[move A X -100 0.2]
+[move B X 200 0.2]
+[delay 0.1 move B Y -50 0.1]
+[face A 04]
+[face B 04]
+[-]
+[serif on]
+[talkend]
+廊下を歩いている常陸と$Bが
+ぶつかってしまったようだ。/
+[waku on]
+[face A 05]
+[talk A]
+[order A 0]
+[order B 1]
+（お……$B:A、大丈夫か？[wait 0.5]　オレの体が大きい
+　せいか……痛くはなかっただろうか……？）/
+[face A 04]
+[shake A]
+（だが、やはり危ない。
+　廊下を歩くときはきちんと……）/
+[waku off]
+[face A 08]
+――前を見ろ……[face B 05][shake B]/
+>>6/
+[set A s_hit_r 常陸]
+[randomset B r @地魂男児 -hit -@NPC]
+[show A C]
+[show B C]
+[face A 00]
+[face B 00]
+[serif on]
+[setline 0 B A]
+[order A 5]
+[order B 0]
+[talkend]
+厨房で食器の準備を手伝っている常陸に
+調理当番の$Bが声をかけた。/
+[face A 04]
+[talk A]
+なんだ？　味見……をしろと……？
+いいだろう。/
+[face A 08]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[talkend]
+パク。/
+[talk A]
+[se eat_01]
+……[wait 0.5]……[wait 0.5]………うまい。[effect A kira a][face B 01][face A 01]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_hit_r 常陸]
+[randomset B r @地魂男児 -hit]
+[show A L]
+[show B R]
+[face A 08]
+[move A Y -150]
+[move A Y 150 0.5]
+[talk A]
+[-]
+[serif on]
+（……む、もう飯の時間か……）/
+[face A 00]
+おい、$B:A……何をしている。[face B 05][move B Y 10 0.1][delay 0.1 move B Y -10 0.1]飯だ。
+遊びの時間は終わりだ。/
+[face A 08]
+居間に急げ。遅刻は許さん……[shaek B][face B 04]/
+[move B X 500 0.2]
+[hide B]
+[move A X 400 0.5]
+（納豆は早いもの勝ちだからな）[move A X 500 0.5][hide A]/
+>>10/
+[set A s_hit_r 常陸]
+[randomset B r @地魂男児 -hit -ymt -awt]
+[show A C]
+[waku on]
+[face A 08]
+[se paper_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+（この本によると、友好関係を深めるには、自分
+　から話のきっかけを作るのが大切らしい……）/
+[move A X -100 0.5]
+[show B R]
+[order B 1]
+[order A 0]
+[face A 02]
+[face B 00]
+[talk A]
+（勉強になるな……[wait 0.5]ん？　$B:Aか。
+　丁度いい、早速話しかけてみよう……）/
+[waku off]
+[move A X 100 0.2]
+[face A 03]
+[face B 05]
+[shakebg]
+[effect A syutyu a 0 200]
+[textsize 40]
+おい$B:A！！！/
+[move B X 800 0.3]
+[se walk_03]
+[hide B]
+[move A X 50 0.2]
+[effect off a]
+[face A 05]
+[talkend]
+$Bは驚いて逃げてしまった。/
+[face A 04]
+[talk A]
+な、なぜだ……[shake A]/
+>>11/
+[set A s_hit_r 常陸]
+[randomset B r @地魂男児 -hit]
+[show A C]
+[show B C]
+[face A 00]
+[face B 00]
+[serif on]
+[talk A]
+[setline 0 B A]
+ん……？　$B:Aか。
+……なんだ。/
+[talk B]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[-]
+[talkend]
+[wait 0.5]
+[-]
+[talk A]
+[face A 05]
+……！？[shake A]
+お、オレも一緒に電子遊戯を……だと？/
+[face A 04]
+[move A X 50 1.0]
+い、嫌ではない…………[wait 0.5]
+その…………なんだ…………/
+[face A 01]
+……嬉しい。[face B 01]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_hit_r 常陸]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+ここには、やたら「大きい」「大きい」と騒いで
+抱きついてきたりする者がいるが……/
+[face A 08]
+（大きいからといって何がいいというのだ……
+　そんなもの、いちいち触る理由にならんだろ）/
+ふぅ…………[face A 07][move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+/
+[face A 06]
+[effect A love a 0 150]
+（やはりオレと結婚したいと
+　いうことなのだろうか……）/
+>>15/
+[set A s_hit_m 常陸]
+[randomset B m @地魂男児 -hit -awt -ymt -@NPC]
+[effect fr katana]
+[se doka_01]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.1]
+[show B R]
+[face B 04]
+[shakebg]
+[move B X -500 0.3]
+[move B Y 100 0.1]
+[move B Y -150 0.2]
+[color B TALK]
+[-]
+[show A R]
+[se walk _04]
+[move A X -100 1.0]
+[face A 08]
+[talk A]
+[-]
+[serif on]
+……それがお前の全力か。
+まだまだだ。/
+[face A 01]
+[face B 04]
+[waku on]
+（だが、いい線はいっている。[wait 0.5]
+　その調子で続けてくれ。）/
+[waku off]
+[effect bk syutyu a]
+[face A 03]
+[face B 08]
+立て。[move B Y 50 1.0]/
+>>16/
+[set A s_hit_m 常陸]
+[se fusuma_02]
+[show A L]
+[move A X 200 1.0]
+[-]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.1]
+[se doka_01]
+[shakebg]
+[face A 05]
+[move A XY -10 -50 0.2]
+[rotate A 5 0.2]
+[delay 0.2 rotate A 0 0.1]
+[-]
+[shake A]
+[serif on]
+[talk A]
+う…………[wait 0.5][face A 04]
+また戸の縁に頭をぶつけてしまった……/
+[move A Y 50 1.0]
+[face A 03]
+……大きいばかりで、不便な身体だ。/
+>>17/
+[set A s_hit_b 常陸]
+[randomset B b @地魂男児 -hit]
+[show A L]
+[move A X 250 1.0]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+[-]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+[talk A]
+[face A 08]
+……む？/
+[face A 06]
+[waku on]
+（これは、誰のものだ……？[wait 0.5]　布が……
+　薄い……[wait 0.5]それに随分と派手だな……）/
+[serif off]
+[wait 1.0]
+[move A X 100 0.5]
+[-]
+[serif on]
+[face A 01]
+（とりあえず、隣の$B:Aの
+　籠に入れておくか……）/
+>>18/
+[set A s_hit_b 常陸]
+[show A C]
+[face A 00]
+[effect fr yuge A]
+[se amb_12]
+[move A X -50 0.5]
+[-]
+[move A Y -100 0.5]
+[se water_03]
+[-]
+[serif on]
+[talkend]
+（ざぶーーーん。）/
+[face A 05]
+[talk A]
+[effect fr yuge a]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+む……/
+[talkend]
+[se bath_01]
+常陸が湯船に入ると湯が一気に溢れ出て、
+何人かの地魂男児が流されてしまった。/
+[face A 04]
+[move A Y -50 1.0]
+[se water_06]
+…………すまん……
+（本当に不便な体だ……）/
+>>19/
+[set A s_hit_b 常陸]
+[randomset B b @地魂男児 @あやかし -hit]
+[show A C]
+[show B C]
+[effect fr yuge a]
+[se amb_12]
+[move A Y -100]
+[move B Y -100]
+[face A 05]
+[face B 06]
+[serif on]
+[talk A]
+[setline 0 A B]
+突然なんだ$B:A？
+ん？[wait 0.5]　オレのが……デカイ…………？[shake B]/
+[face A 01]
+[se bath_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+まぁ……オレは身体が
+大きいからそう見えるのだろう。/
+[face A 06]
+それだけだ……
+だからどうというものでもない。気にするな。[se water_06]/
+>>20/
+[set A s_hit_r 常陸]
+[randomset B r @地魂男児 -hit]
+[show A C]
+[show B R]
+[face A 08]
+[order B 0]
+[order A 1]
+[move B X 100]
+[waku on]
+[move A X 10 0.5]
+[delay 0.6 move A -X 20 0.5]
+[talk A]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+（……ここの小便器は小さいな……
+　狙いを外さぬよう、いつも緊張する……）/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[face A 04]
+（くっ……もう少し……
+　大きくてもいいだろう……落ち着いてできんぞ）/
+[face A 03]
+[waku off]
+[shake A]
+……チッ。[face B 05][move B Y 10 0.1][delay 0.1 move B Y -10 0.1]/
+>>21/
+[set A s_hit_r 常陸]
+[randomset B r @地魂男児 -hit -@NPC N004 N005]
+[show A C]
+[show B R]
+[face A 08]
+[face B 06]
+[setline 0 A B]
+[move B X 100]
+[order B 0]
+[order A 1]
+[waku on 0.5]
+[-]
+[serif on]
+[talk A]
+（さっきから隣の小便器に立っている
+　$B:Aの視線を感じる……）/
+[face A 04]
+[waku off 0.5]
+…………/
+[face A 06]
+[waku on 0.5]
+[shake A]
+（そんなにオレの体が
+　珍しいのだろうか……）/
+>>22/
+[set A s_hit_r 常陸]
+[show A C]
+[move A Y -100]
+[face A 07]
+[serif on]
+[talk A]
+[serif name]
+…………/
+[face A 01]
+……ここは落ち着くな……/
+>>23/
+[set A s_hit_r 常陸]
+[show A C]
+[move A Y -100]
+[serif on]
+[talk A]
+ふぅ…………[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+んんっ！？[shake A][face A 05]/
+[face A 06]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+（くっ……便器をもう少し
+　深くはできないのだろうか）/
+[shake A]
+（先の方がついてしまうではないか……）/
+>>24/
+[set A s_hit_r 常陸]
+[randomset B r @地魂男児 -hit -@NPC]
+[show A C]
+[face A 08]
+[show B R]
+[serif on]
+[talk A]
+なんだ……？
+寝る場所を決める、だと？/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……好きにしろ。[face B 04]
+（……皆が好きなところを選び、オレは残りでいい）/
+>>25/
+[set A s_hit_r 常陸]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+ぐー……ぐー……/
+ぐー……けっこん……しよ……う……ぐー……/
+>>26/
+[set A s_hit_r 常陸]
+[show A C]
+[move A Y -100]
+[face A 07]
+[serif on]
+[talk A]
+う……んんっ……[shake A]/
+[face A 06]
+（さっきから大ナマズが暴れている……）/
+[serif off]
+[face A 04]
+[move A Y 100 1.0]
+[talkend]
+[-]
+[serif on]
+…………キョロキョロ。/
+[face A 06]
+[talk A]
+[se cloth_01]
+[move A Y -100 0.5]
+（皆が眠っているうちに
+　なんとか鎮めねば……）/
+>>100/
+[set A s_hit_r 常陸]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 常陸とおしゃべり（？）]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+休憩がてら荘園の中を散歩していると
+廊下を歩く大きな背中が見えた。/
+[serif off]
+?常陸/
+[show A C]
+[face A 05]
+[talk A]
+[serif on]
+！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show A]
+[face A 00]
+…………なんだ。/
+[talkend]
+[textcolor ARUJI]
+常陸はゆっくりと振り向き
+こちらをじっと睨みつける。/
+[textcolor ARUJI]
+大きな身体とその表情から放たれる
+存在感に少し圧倒される。/
+[serif off]
+?お喋りしようと思って/
+[face A 08]
+[talk A]
+[serif on]
+……そうか……いや……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+…………/
+[face A 04]
+…………/
+[talkend]
+[textcolor ARUJI]
+何か考えている様子の常陸。/
+[talk A]
+すまん……[shake A]/
+[serif off]
+[bgm off]
+?え！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[serif on]
+[bgm fun]
+何か、任務で失敗をしたのだろう。/
+[face A 08]
+……お前がわざわざ、
+オレに声をかけてきたのだから。/
+[face A 04]
+すまない……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0][delay 0.8 hide A]/
+[talkend]
+[textcolor ARUJI]
+そう言って常陸は頭を下げた。/
+[serif off]
+?違う違う/
+[show A C]
+[move A Y -50]
+[move A Y 50 0.5]
+[face A 00]
+[talk A]
+[-]
+[serif on]
+……
+………………/
+[talkend]
+[textcolor ARUJI]
+再び何か考えている様子の常陸。/
+[face A 08]
+[talk A]
+すまん……[wait 0.5]では――/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+おそらく……
+飯を食いすぎたこと……だろう。/
+……オレが一人で釜一つ平らげたせいで、
+米が足りなくなって困ったと聞いている。/
+[face A 00]
+次からは気をつける。 [move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[serif off]
+?そうじゃなくてー！/
+[face A 05]
+[serif on]
+……違う？[shake A]/
+[face A 04]
+……[wait 0.5]……そうか。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+わかった。感謝する。/
+[hide A]
+[talkend]
+[se walk_01]
+[textcolor ARUJI]
+常陸は軽く頭を下げて、
+その場から立ち去ろうとする。/
+[serif off]
+?待って、何に感謝されたの！？/
+[show A C]
+[face A 05]
+[talk A]
+[serif on]
+……何？[shake A]　それも違う……[wait 0.5]のか？/
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……お前の話は、難しいな…………/
+[face A 04]
+……オレは……[wait 0.5]お前の地魂男児として、
+やっていけるだろうか……/
+[talkend]
+[textcolor ARUJI]
+常陸は険しい表情で悩んでいる。/
+[serif off]
+?ゆっくり、話そう/
+[face A 08]
+[talk A]
+[serif on]
+…………/
+[face A 01]
+………[wait 0.5][move A Y 5 0.2][delay 0.2 move A Y -10 0.6][delay 0.8 move A Y 5 0.5]………わかった。/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[scale A 1.6]
+[move A Y -150]
+[face A 00]
+[-]
+[fadeout 1.5]
+[autotap]/
+[say A]
+[serif on]
+……………………
+……………………/
+[talkend]
+[textcolor ARUJI]
+なんとか引き止めたものの、色々と話題を
+振ってみるがイマイチ盛り上がらない。/
+[flow]
+[textcolor ARUJI]
+常陸はほとんど黙って頷いたりするだけだ。/
+[serif off]
+?常陸のことも聞きたいな/
+[say A]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+………………オレの？
+…………そうだな…………[face A 04]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+…………/
+[talkend]
+[textcolor ARUJI]
+なにやら考え込む常陸。/
+[say A]
+[face A 00]
+…………オレは……
+納豆が好きだ。[se taiko_02]/
+[talkend]
+[textcolor ARUJI]
+延々と考え、常陸がようやく口にした言葉は
+納豆だった。/
+[serif off]
+?有名だもんね。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+[say A]
+……ああ。/
+[talkend]
+[textcolor ARUJI]
+やっと少し会話のキャッチボールが成立した
+ような気がした。/
+[flow]
+[textcolor ARUJI]
+ふと時計を見ると、夏人との打ち合わせの
+時間が迫っていた。/
+[serif off]
+?それじゃあ常陸。またね。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[serif on]
+[say A]
+…………ああ。/
+[serif off]
+[hide A]
+[se walk_01]
+[wait 0.5]
+[-]
+[serif on]
+@常陸
+…………主。/
+[serif off]
+?？/
+[show A]
+[face A 00]
+[wait 0.5]
+[-]
+[serif on]
+[say A]
+…………今日は、楽しかった。
+また……話をしよう。[face A 02]/
+[hide A]
+[se walk_01]
+[talkend]
+[textcolor ARUJI]
+常陸はそう言って大きな体を揺らしながら
+去っていった。/
+[flow]
+[textcolor ARUJI]
+全然会話が成立していないと思っていたが
+案外と常陸は楽しんでいたようだ。/
+[bg black 2.0]
+[textcolor ARUJI]
+また常陸とゆっくり話してみたいと
+思ったのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_hit_r 常陸]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 常陸の悩み]
+[-]
+[bg rouka_night]
+[bgm night]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+夜、廊下を歩いていると、
+縁側に常陸が座っていた。/
+[serif off]
+?常陸/
+[show A C]
+[move A Y -50]
+[move A Y 50 1.0]
+[face A 00]
+[talk A]
+[-]
+[serif on]
+……お前か。/
+[serif off]
+?常陸とおしゃべりを試みる/
+[face A 08]
+[serif on]
+……[wait 0.5]
+……なんだ。[shake A]/
+[flow]
+話したいことがあるなら、
+さっさと話せ。/
+[talkend]
+[textcolor ARUJI]
+ぶっきらぼうに言っているが、
+話を聞こうという姿勢が感じられる。/
+[serif off]
+?自分のことを話してみる/
+[fadein BLACK 1.0]
+[-]
+[hideall]
+[wait 1]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[face A 01]
+[textcolor ARUJI]
+しばらく常陸に自分のことを話した。
+常陸はそれをじっと黙って聞いていた。/
+[show A]
+[face A 02]
+[talk A]
+……[wait 0.5]……そうか。[move A Y 5 0.2][delay 0.2 move A Y -10 0.6][delay 0.8 move A Y 5 0.5]
+お前のことはなんとなく……わかった。/
+[serif off]
+?常陸が話したいことはある？/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+……オレが？/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……/
+[face A 00]
+……そうだな……[wait 0.5]
+お前になら話しても……いいか……/
+[face A 04]
+[talk A]
+……いや、しかし……/
+[talkend]
+[textcolor ARUJI]
+常陸は話そうか悩んでいるようだ。/
+[serif off]
+?常陸の話を促す/
+[face A 04]
+[talk A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+……そうか。/
+[move A X 50 1.0]
+[flow]
+…………その、[wait 0.5]なんだ……/
+[flow]
+[face A 08]
+……/
+[face A 04]
+[flow]
+……オレは……[wait 0.5]皆に嫌われている……/
+[serif off]
+?えっ？/
+[serif on]
+……[wait 0.5]……と、思う。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[talkend]
+[textcolor ARUJI]
+そう言って常陸はうつむく。/
+[serif off]
+?どうしてそう思うの？/
+[face A 05]
+[talk A]
+[serif on]
+何故か……だと……？[shake A]
+そうだな…………/
+[talkend]
+[textcolor ARUJI]
+考え込む常陸。/
+[face A 00]
+[talk A]
+……オレは……器用ではない。
+話すのも…………苦手だ。/
+[face A 03]
+[flow]
+それに……[wait 0.5]デカイ。だから……/
+[flow]
+オレは……[move A X -50 1.0]たぶん、
+皆に怖がられている……[wait 0.5]だろう……/
+[serif off]
+?たしかに大きい/
+[face A 04]
+[shake A]
+[serif on]
+……そう……[wait 0.5]だろう……な……[move A Y 10 0.4][delay 0.4 move A Y -50 1.5]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+常陸がしょんぼりとして、
+体を少し縮めたように見えた。/
+[serif off]
+?――でも、大きくて安心する/
+[show A]
+[face A 05]
+[talk A]
+[shake A]
+[-]
+[serif on]
+……！/
+[face A 04]
+[flow]
+……そう……[wait 0.5]なのか……？/
+[flow]
+[face A 03]
+だが……/
+[serif off]
+[move A Y -150 0.5]
+[scale A 1.6 0.5]
+[talkend]
+[-]
+[serif on]
+[se cloth_01]
+[textcolor ARUJI]
+突然、常陸はずいっと、
+こちらに迫ってきた。/
+[serif off]
+?！？/
+[face A 08]
+[talk A]
+[serif on]
+どうだ、
+これだけ……近づくと……[wait 0.5]威圧感があるだろう。/
+[flow]
+……手も、大きくて……[wait 0.5]爪は鋭い。/
+[face A 03]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[flow]
+お前も……恐ろしい[wait 0.5]だろう？/
+[serif off]
+?常陸の手をにぎる/
+[face A 06]
+[serif on]
+……！？[shake A]/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+常陸の手は分厚く、大きかった。
+本気を出せば人間の体など容易く引き裂けるだろう。/
+[talkend]
+[textcolor ARUJI]
+だがそれと同時に、暖かく握り心地も良く
+大きな手のひらは安心感さえあった。/
+[serif off]
+?怖くないよ/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+常陸は目を丸くして驚いている。/
+[bgm off]
+[effect A syutyu a 0 500]
+[textsize 40]
+[say A]
+…………結婚しよう。[shakebg][se taiko_02]/
+[serif off]
+?！！！？/
+[effect off a]
+[scale A 1.0 0.2]
+[move A Y 150 0.2]
+[face A 05]
+[se cloth_06]
+[-]
+[serif on]
+！/
+[flow]
+[face A 04]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+……いや……[wait 0.5]すまん……
+なんでもない。忘れてくれ。
+/
+[bgm night]
+[face A 06]
+……………………
+…………………………/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+気まずい沈黙が流れ、
+慌てたように常陸が口を開いた。/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+[face A 08]
+……お前が怖くなくとも……
+皆が怖がっていない証明にはならない……だろう。/
+[serif off]
+?……直接聞いてみるとか？/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+常陸は絶対に嫌われてなんていない。
+その自信はあった。/
+[say A]
+[face A 04]
+[serif on]
+……………………
+…………………………それは……/
+[face A 01]
+[serif off]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+………………考えておく。/
+[talkend]
+[textcolor ARUJI]
+せっかくお前が提案してくれたのだからな――
+/
+[serif off]
+?常陸の頭の中がわかるようになってきた気がする/
+[face A 00]
+[wait 1]
+[-]
+[serif on]
+[say A]
+[face A 08]
+………………
+…………何を言ってる……？/
+[face A 06]
+………………まあ、いい。
+オレは風呂に行く。[face A 01]/
+[hide A 1]
+[autotap]/
+[talkend]
+[se walk_01]
+[textcolor ARUJI]
+常陸はふっと笑みを浮かべ、
+大きな体を揺らしながら去っていった。/
+[fadein black 2.0]
+[autotap]/
+[textcolor ARUJI]
+[flow]
+その足取りは心なしか軽く見えた。/
+[textcolor ARUJI]
+[flow]
+大きくて不器用な常陸が少しずつ心を
+開いてきてくれているのを感じたのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>27/
+[set A s_hit_r 常陸]
+[show A C]
+[face A 00]
+[talk A]
+?常陸、ハレの日おめでとう/
+[face A 05]
+[say A]
+[serif on]
+……む、お前か……
+…………ああ。[face A 01]/
+[face A 04]
+………………
+………………/
+[scale A 1.6 0.5]
+[move A Y -160 0.5]
+[waku on 0.5]
+（主は……なぜオレが今日をハレの日に選んだか
+　知らないだろう……）/
+[flow]
+[face A 05]
+（だが、わざわざ言うようなことだろうか……
+　特に興味はないかもしれないしな……）/
+[flow]
+[face A 01]
+（主はオレのハレの日を祝ってくれた。
+　それだけで充分だろう）/
+[scale A 1 0.5]
+[move A Y 160 0.5]
+[waku off 0.5]
+[serif off]
+?今日は、納豆の日だよね/
+[serif on]
+[face A 05]
+……ッ！！！！？[shake A 3 5 5]/
+[face A 06]
+……知っていたのか……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+……そうだ。
+オレは……納豆が……好きだからな。/
+[face A 02]
+自分のハレの日を選ぶなら……
+この日だろうと思った。/
+[face A 08]
+[move A X -100 0.3]
+（……確か水戸納豆がまだ厨房に残っていたな……）
+……ここで待ってろ。/
+[waku on 0.5]
+[face A 02]
+（お前と一緒に納豆を食べたいからな……
+　いいハレの日になりそうだ）/
+[waku off 0.5]
+[move A X -500 0.5]
+[hide A]
+[autotap]/
+>>202/
+[set A s_hit_r 常陸]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 常陸と夏の散歩]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+[se gaya_01]
+今日は常陸と一緒に浴衣姿で
+ロクハラに出かけることになった。/
+[flow]
+[textcolor ARUJI]
+しばらくロクハラ内の施設で買い物をしたり、
+お茶をしたりして過ごしていたが――/
+[show A C]
+[face A 04]
+[say A]
+主……、これから……外へ行かないか？/
+[serif off]
+[playeryes]
+[-]
+[face A 01]
+[wait 1]
+[-]
+[serif on]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+常陸の提案でロクハラの外に出ることにした。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg sky_sunset]
+[bg black]
+[hideall]
+[bgm night]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 04]
+[say A]
+[serif on]
+[se walk_01]
+…………/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+…………すまない。/
+[serif off]
+?え？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[face A 04]
+……いや。/
+[face A 08]
+休日の相手がオレでは……
+退屈なのではないかと、思ってな。/
+[face A 04]
+今も、別に……行きたいところが
+あったわけじゃない。/
+[face A 06]
+ただ……少し、歩きたかっただけだ。/
+[serif off]
+?気にしないよ/
+[serif on]
+[face A 00]
+そうか。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+何を話すでもなく、
+常陸とゆったりと散歩を続けた。/
+[show A]
+[scale A 1.6]
+[move A Y -140]
+[textcolor ARUJI]
+[face A 05]
+隣に立つと、想像以上に常陸は大きい。/
+[textcolor ARUJI]
+[face A 00]
+自分の目線からかなり高い位置にある
+常陸の横顔がとても凛々しく見えた。/
+[face A 08]
+[say A]
+ん……？　この音は……/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+[se gaya_01]
+耳を澄ますと離れた場所からかすかに
+祭りの喧騒が聞こえてきた。/
+[show A C]
+[face A 00]
+[say A]
+[scale A 1.6]
+[move A Y -140]
+祭りか。
+この辺りでもやっているのだな。/
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……荘園のあの夏祭り、悪くなかった。/
+[face A 02]
+[talkend]
+[serif off]
+?楽しかったね/
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[light def]
+[lightcolor orange]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on]
+駅側から離れ、
+山側の方へ進むんでいくと――/
+[textcolor ARUJI]
+[se amb_06]
+とある小さな川へと辿りついた。/
+[show A C]
+[face A 00]
+[say A]
+……疲れただろう。
+少し、座るか。/
+[move A Y -100 0.5]
+[delay 0.5 se dosa_01]
+[textcolor ARUJI]
+[hide A]
+[se amb_07]
+[talkend]
+常陸と二人、川のほとりの岩の上に座る。/
+[textcolor ARUJI]
+[se amb_04]
+夏虫の鳴き声と川のせせらぎが
+静かに響いている。/
+[textcolor ARUJI]
+日も少し傾いてきて、
+ほのかに涼しさを感じる時分だ。/
+[textcolor ARUJI]
+なんとなく手元の石を川に向かって
+放ってみる。/
+[serif off]
+[textcolor ARUJI]
+[se syu_02]
+[delay 1 se water_06]
+[wait 1]
+[-]
+[serif on]
+ぱちゃ、ぱちゃん[wait 0.2]…[wait 0.2]…[wait 0.2]一回跳ねた。[se water_06]/
+[serif off]
+?やった/
+[serif on]
+[show A C]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -150]
+うまいものだな。/
+[textcolor ARUJI]
+[face A 05]
+[talkend]
+[-]
+[move A Y 30 0.5]
+感心する常陸にやってみるよう促すと、
+常陸は立ち上がり――/
+[textcolor ARUJI]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se dosa_01]
+川岸にあった大きな岩をもちあげる。/
+[effect fr syutyu a 0 0]
+[effect bk wavein 3000 0 0]
+[face A 08]
+[say A]
+はぁ！！/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+[effect off a]
+[effect fr splash 4000 0 100]
+[se water_01]
+[shakebg]
+どぼーん！　っと大きな水しぶきがあがる。/
+[show A C]
+[face A 04]
+[scale A 1.6]
+[move A Y -140]
+[say A]
+お前のように跳ねないな……/
+[serif off]
+?そんな岩じゃ無理だよ！/
+[face A 05]
+[serif on]
+！？[shake A]　なるほど。[face A 08]
+石選びの時点から始まっているわけだな。/
+[face A 00]
+[flow]
+どういうのがいいんだ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 04]
+…………薄くて軽いやつ、か……
+なるほど……/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[face A 06]
+これはどうだ？
+……デカいか。ならば……/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+常陸と一緒に石を探すことにした。/
+[textcolor ARUJI]
+手頃な石を見つけたので
+手に取ろうとした時――/
+[textcolor ARUJI]
+[flow]
+ちょうど同じ石を取ろうとした常陸の手と触れた。/
+[show A C]
+[face A 05]
+[say A]
+[scale A 2]
+[move A Y -260]
+[shakebg]
+……！/
+[textcolor ARUJI]
+[talkend]
+手が触れあったまま固まる常陸。/
+[face A 06]
+[say A]
+[scale A 1.6 0.5]
+[move A Y 120 0.5]
+……………………っ！/
+[flow]
+この石は……お前にやる！
+オレの手には……小さすぎるからな。/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+常陸は拾った石を手渡すと、
+背を向け石探しを続けた。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se amb_06]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 01]
+[say A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+この石なら問題ないだろう。/
+[face A 08]
+[flow]
+よし、同時に投げるぞ。/
+[hide A]
+[talkend]
+[serif off]
+?せーの……あっ/
+[textcolor ARUJI]
+[serif on]
+川に向かって石を投げようと
+構えた時に足を滑らせてしまった。/
+[effect fr syutyu a]
+[show A C]
+[face A 03]
+[say A]
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+！！！[se cloth_06]/
+[textcolor ARUJI]
+[talkend]
+[hide A]
+[effect fr splash 0 0]
+[se water_07]
+川に落ちる寸前でグッと抱き寄せられ、
+常陸の大きな体に包まれる。/
+[textcolor ARUJI]
+[effect off a]
+胸元から出たふわふわした毛並みが
+鼻をくすぐった。/
+[show A]
+[scale A 2]
+[move A Y -260]
+[face A 03]
+[say A]
+……気をつけろ。この辺りはよく滑る。/
+[textcolor ARUJI]
+[talkend]
+[se water_06]
+そう言う常陸の足はすっかり川に
+浸かってしまっていた。/
+[face A 00]
+[say A]
+足？　問題ない。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+今日も暑いからな。
+川の水は……冷たくて気持ちいい。/
+[serif off]
+?そうなの？/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+[serif on]
+せっかくなので自分も浴衣の裾を捲って、
+川の水に浸かろうとする。/
+[show A C]
+[scale A 1.6]
+[move A Y -140]
+[face A 08]
+[say A]
+……待て。/
+[face A 04]
+[waku on 0.5]
+（また滑って転んでは危ない。
+　だから、もしもの時のために、その……）/
+[face A 01]
+[waku off 0.5]
+………………[wait 0.5]手を握っておく。/
+[textcolor ARUJI]
+[talkend]
+[se cloth_01]
+そう言って常陸は手を
+がっちりとつかんだ。/
+[se water_06]
+[serif off]
+?川の水、本当に冷たいね/
+[se amb_06]
+[face A 02]
+[say A]
+[serif on]
+……そうだな。/
+[textcolor ARUJI]
+[talkend]
+でも常陸の大きな手は
+とてもあたたかかった。/
+[textcolor ARUJI]
+手を握ったまま遠くを見つめる
+常陸の横顔を夕日が照らす。/
+[fadein black 2]
+[textcolor ARUJI]
+それから日暮れまで一緒に川遊びをした。/
+[textcolor ARUJI]
+楽しい夏の思い出になった。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

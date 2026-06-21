@@ -1,0 +1,1473 @@
+>>10000/
+@武藏
+天啊！[wait 0.5]
+說到責任和人性，我們是日本最好的！[wait 1.0]　如果它叫起來，那就是東海第一！[autotap]/
+[delay 1.0]
+[flow]
+[-]
+@武藏
+地魂男孩最好的消防員，[wait 1.0]武藏taa
+是關於我的！/
+>>10001/
+@武藏
+發生了什麼事？一般的。[wait 0.6]
+你還需要我的力量嗎？[autotap]/
+[delay 1.2]
+[flow]
+[-]
+@武藏
+是時候把它留給你了！/
+>>1/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 08]
+[-]
+[serif on]
+[talk A]
+身為消防員的“蔬果商大七”
+但我不能原諒你放火燒江戶。/
+[face A 06]
+想要見到自己愛的人的感覺很悲傷…
+[face A 04]嗚嗚嗚嗚嗚嗚嗚嗚嗚[shake A 3]我覺得我明白這一點。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+什、為什麼，將軍！
+[face A 02]我想你可能會說它非常精緻。/
+>>2/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[talk A]
+戲真的很好看！[wait 0.4]　有歡笑也有淚水
+這個關於責任和人性的故事是不可抗拒的！ ！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 00]
+下次我應該帶將軍去看歌舞伎！
+[wait 0.5][face A 08]什麼？[wait 0.5]　奇克特？/
+[face A 12]
+……那是什麼？/
+>>3/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 08]
+[-]
+[serif on]
+[talk A]
+東京鐵塔、天空釣魚…/
+[face A 02]
+哇，江戶的街道也變得相當時尚了！
+[wait 0.3][face A 09]就像在看一個你不認識的城市.../
+[face A 06]
+但是……但是，即使在那樣的城市
+如果將軍在我身邊…我…[scale A 1.5 1.3][move A Y -100 1.3]　/
+[scale A 1.0 0.2]
+[move A Y 100 0.2]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 11]
+那很危險！[shake A 2]　[face A 10]一些不尋常的事情
+我差點就說出來了……！　[move A X 1000 0.5]別擔心！/
+>>4/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+嗯，無論從什麼角度看，莊園的花園都打理得很好。
+太棒了！真是太優雅了！/
+[flow]
+[face A 00]
+……有人照顧嗎？
+我甚至成了他的徒弟。/
+>>5/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+將軍給了我一些零用錢。
+[wait 0.4]不過我並沒有做什麼大事。/
+[face A 02]
+嗯，是的！
+[wait 0.4]我馬上就用它！ ！[move A Y 100 0.1][delay 0.1 move A Y -100 0.2][delay 0.3 move A X 1000 0.6]　/
+>>6/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 11]
+[-]
+[shake A 3]
+[-]
+[serif on]
+[talk A]
+咕咕...[wait 0.5]店裡的田樂看起來很美味
+我明白了。/
+[face A 01]
+[move A X 200 0.5]
+如果你有一杯這個作為配菜，
+那一定很精緻.../
+[move A X -200 0.5]
+[face A 10]
+[-]
+[face A 04]
+但我想我一個人在田樂上就花光了所有的錢......
+[wait 0.6]我該怎麼辦...[move A Y 10 0.4][delay 0.4 move A Y -20 1.0]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 00]
+[-]
+[serif on]
+[talk A]
+畢竟，防火很重要！
+[face A 07][wait 0.5]今晚我還要再去逛逛！/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[wait 0.5]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[wait 0.5]
+[move A X 50 0.5]
+火的[wait 0.3]小心！
+[move A X 50 0.5][wait 0.5]一場比賽，[wait 0.3]火的來源！[move A X 50 0.5]/
+>>10/
+[set A s_mus_r 武藏]
+[randomset B r @地魂男児 -mus -@NPC]
+[show A L]
+[show B R]
+[se fusuma_01]
+[move A X -400]
+[face A 00]
+[talk A]
+[order A 5]
+[order B 10]
+[-]
+[move A X 600 0.4]
+[serif name]
+[serif on]
+[face B 05]
+廚房！別打擾我！
+檢查火源！/
+[shake A 2]
+[face A 06]
+[face B 01]
+嗯，味道不錯！
+[wait 0.4][face A 02]……稍微嚐嚐不就好了嗎？/
+>>11/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 11]
+[-]
+[serif on]
+[talk A]
+哇，天黑的時候
+我開始想念人們了.../
+[face A 13]
+嘿嘿，看來不是這樣啊！/
+[face A 09]
+在這樣的時候，
+讓我們放一些煙火吧！ ！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+呃，這個人不能走…[shake A]
+看來我的大砲著火了。/
+[move A X 500 0.5]
+[se walk_11]
+哈，我得趕緊去馬廄了…/
+>>15/
+[set A s_mus_m 武藏]
+[show A C]
+[face A 08]
+[-]
+[serif on]
+[talk A]
+果然，這裡有一顆砲彈
+我不能就這樣放手。/
+[face A 01]
+今天的基礎訓練會很混亂！/
+>>16/
+[set A s_mus_m 武藏]
+[randomset B m -mus -@NPC]
+[show B]
+[show A C]
+[face A 00]
+[face B 00]
+[setline A B]
+[serif on]
+[talk A]
+訓練不僅僅是放手。
+你必須妥善保管你的武器！/
+[face A 01]
+[face B 01]
+首先，我們來好好打磨一下大砲吧！
+吱吱作響♪[shake A 3 0 5]/
+>>17/
+[set A s_mus_b 武藏]
+[show A C]
+[face A 00]
+[move A Y -60]
+[-]
+[move A Y 40 0.2]
+[delay 0.3 move A Y -10 0.2]
+[-]
+[serif name]
+[serif on]
+[talk A]
+畢竟，江戶人都穿腰布！/
+[face A 11]
+好緊[shake A 2]在屁股和尾巴上
+深入其中的感覺真是難以抗拒！/
+>>18/
+[set A s_mus_b 武藏]
+[randomset B b -mus]
+[show B L]
+[face B 00]
+[move B Y -50]
+[show A C]
+[effect fr yuge A]
+[se amb_12]
+[move A Y -50]
+[face A 00]
+[se bath_03]
+[talk A]
+[-]
+[serif on]
+現在我已經洗完身體了
+我們去洗澡吧？/
+[move A Y 50 0.3]
+[delay 0.3 move A X 200 0.4]
+[face A 08]
+[se bath_02]
+[face B 05]
+我江戶哥不能泡溫水…
+[wait 0.5]好吧。[move A Y -100 0.4]札文...[se water_03][wait 0.1][face A 05]………[shake A 3]什麼？[face A 04]～～～！！！/
+[face A 06]
+[shake A 5]
+[face B 04]
+嘿嘿嘿，這個程度還是不溫不火！
+[wait 0.5]但是[face A 09]對於其他人來說可能有點太熱了。/
+[face A 11]
+[se water_07]
+[face B 01]
+[move A X 800 0.5]
+……用水喝吧！
+[wait 0.3]不過我很好！/
+>>19/
+[set A s_mus_b 武藏]
+[effect fr yuge A]
+[show A C]
+[face A 06]
+[se amb_12]
+[serif on]
+[talk A]
+我今天無法擺脫潮熱。
+精力太旺盛也是一個問題。/
+[face A 11]
+[se bath_02]
+嘿，我們用水蓋住它吧！[move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3][se water_07]
+…………[face A 05]嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿[shake A 10 10 10]，T緊！ ！/
+>>20/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+[-]
+[se pee_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+消防員順本
+看到消防車噴水真是太神奇了！/
+[move A X -15 0.1]
+[delay 0.1 move A X 30 0.2]
+[delay 0.3 move A X -30 0.2]
+[delay 0.5 move A X 15 0.1]
+[face A 11]
+唷
+[wait 0.5]真爽啊！/
+>>21/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+我是地魂少年中最優秀的消防員！
+無論如何都不要錯過你的目標！/
+[face A 05]
+[shake A]
+……什麼啊啊啊啊啊啊！ ？/
+>>22/
+[set A s_mus_r 武藏]
+[show A C]
+[move A Y -40]
+[face A 00]
+[serif on]
+[talk A]
+這裡的Sogo架子非常漂亮。
+因為清潔工們辛苦了。/
+[face A 12]
+下次去崇光貨架值班的時候，我會用心去做的。
+我得擦亮它！[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]　呼……冷靜點。/
+>>23/
+[set A s_mus_r 武藏]
+[show A C]
+[move A Y -40]
+[face A 11]
+[serif on]
+[talk A]
+呃……不……啊，啊啊。[shake W]/
+[face A 09]
+[shake A]
+那很危險。
+我差點就開始吠叫了…/
+>>24/
+[set A s_mus_r 武藏]
+[randomset B r @地魂男児 -mus -@NPC]
+[show B R]
+[move B X 200]
+[show A C]
+[face A 10]
+[order A 5]
+[order B 10]
+[serif on]
+[talk A]
+是時候睡覺了...[wait 0.3]桃子[wait 0.1]深呼吸
+不會被吸收嗎？[shake A 2]我好擔心我睡不著.../
+[move A X 200 0.3]
+[move B X 20 0.2]
+[face A 04]
+[face B 05]
+有人願意輪流跟我睡嗎？
+[move A X -50 0.1][order A 0][order B 1][delay 0.1 move A X 150 0.3][delay 0.1 move B X -50 0.2][delay 0.3 rotate B -5 0.2][face A 04][wait 0.3]什麼？[wait 0.3]不是很好嗎？/
+>>25/
+[set A s_mus_r 武藏]
+[show A C]
+[face A 13]
+[-]
+[serif on]
+[talk A]
+哦，該死……如果太熱的話。[shake A]
+[wait 0.2][face A 00]……你現在睡了嗎？/
+[move A Y -150 0.5]
+[-]
+[face A 06]
+[se cloth_01]
+[move A X -15 0.1]
+[delay 0.1 move A X 30 0.2]
+[delay 0.3 move A X -30 0.2]
+[delay 0.5 move A X 15 0.1]
+全身赤裸...
+[face A 12]哈，冷靜點！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+看來我可以睡個安穩覺了…
+[wait 0.4][face A 07]咕嚕.../
+>>26/
+[set A s_mus_b 武藏]
+[show A C]
+[face A 06]
+[serif name]
+[serif on]
+[talk A]
+當你裸睡時，
+蒲團的摩擦感出奇的好。/
+[face A 11]
+[shake A]
+呃……我受不了了……！/
+>>27/
+[set A s_mus_b 武藏]
+[show A C]
+[face A 00]
+[wait 0.5]
+[-]
+？ 武藏，生日快樂！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+[say A]
+哦！謝謝將軍！[shake A]/
+[face A 00]
+今天是煙火日。
+當天是兩國川燃放煙火的日子。/
+[face A 02]
+煙火是江戶的傳統特色！
+這意味著你應該在我的特殊日子來！/
+[face A 01]
+這就是我剛才製作煙火球的原因。
+順便說一下。/
+[face A 00]
+你有最喜歡的煙火嗎？
+菊花、牡丹、柳花也不錯。[face A 12]/
+[face A 09]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+哦，將軍……你能和我一起完成嗎？
+好吧，讓我們從一些更小的事情開始。[face A 00]/
+[face A 06]
+…………[wait 0.5]這樣，我們就可以和將軍一起欣賞煙火了。
+這不是你能輕易做出來的。/
+[face A 00]
+[flow]
+謝謝你。一般的。
+我很高興我是你的地球靈魂男孩。/
+[face A 11]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+天啊！呵呵，那麼。
+首先我想知道要用什麼煙火.../
+>>100/
+[set A s_mus_r 武藏]
+[set B s_mus_r 武藏]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 武藏とある夜]
+[-]
+[bg bg_rouka_night]
+[fadeout]
+[se amb_05]
+[-]
+[bgm home]
+[talkend]
+[serif on 0.5]
+[textcolor ARUJI]
+[se walk_01]
+午夜。我餓了，所以
+我去廚房找點吃的。/
+[serif off]
+？嗯？燈亮了/
+[minibg tyubo 0.5]
+[bg mbg_map 0.5]
+[textcolor ARUJI]
+[se goso_01]
+[serif on]
+冰箱前蹲著的影子——
+當我走近時，武藏似乎在做什麼。/
+[serif off]
+？ 武藏/
+[show A]
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[talk A]
+[-]
+[serif on]
+哇！ ！/
+[flow]
+[face A 09]
+T、將軍！ ？你會感到驚訝的！
+別突然從後面叫我！/
+[serif off]
+？ 武藏你也餓了嗎？/
+[flow]
+[face A 06]
+[serif on]
+啊？
+哦，不！/
+[flow]
+[face A 00]
+我認為這裡的攤位佈置得不好。
+因為有人諮詢過我。/
+[flow]
+[face A 01]
+我想我現在就解決它！/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se dosa_01]
+[face A 00]
+你看，它搖搖晃晃的。
+現在已經穩定了吧？/
+[face A 01]
+[flow]
+之後，只需加強臨時修復即可！/
+[serif off]
+？你很擅長木工，不是嗎？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+呵呵，手的靈巧程度和皮毛的品質都讓人驚嘆。
+我有點自信了！/
+[serif off]
+？外套……哪一件？/
+[face A 11]
+[flow]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[-]
+[serif on]
+哦，哦。[wait 0.5][face A 06]
+來吧，摸摸它！/
+[talkend]
+[textcolor ARUJI]
+[se cloth_01]
+我觸控武藏伸出的手臂。
+整齊排列的頭髮光滑的手感很舒服。/
+[flow]
+[textcolor ARUJI]
+[se cloth_05]
+撫摸了一會兒後，
+我的手心微微感覺到了武藏的體溫。/
+[talk A]
+[face A 06]
+[shake A]
+呃……呃……[shake A]
+……哎喲，你一碰我，我就尷尬了！/
+[serif off]
+?漂亮的外套/
+[face A 02]
+[scale A 1.0 0.5]
+[move A Y 100 0.5]
+[-]
+[serif on]
+呵呵。
+就算你誇我，你也不會做什麼。/
+[fadein BLACK 2.0]
+[serif off]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+和修完桌子的武藏一起，
+我們喝了茶和剩下的零食。/
+[textcolor ARUJI]
+[se amb_04]
+莊園裡的人想必都已經睡著了。
+外面只能聽到蟲鳴聲。/
+[serif name]
+[show B]
+[face B 01]
+[talk B]
+……嘿，將軍。
+有可以互相幫助的朋友真是太好了。/
+[serif off]
+?？/
+[face B 00]
+[serif on]
+很多人都在為了一個使命而共同努力…
+好吧，我能說什麼，我喜歡這裡的那種地方。/
+[face A 12]
+不過，我不擅長使用我的頭腦。
+我以為我會為了將軍和我的朋友們冒著生命危險。/
+[serif off]
+[hide B 0.5]
+[-]
+[show A 0.5]
+[scale A 1.5]
+[move A Y -100]
+[face A 08]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+武藏一臉嚴肅
+直視前方。/
+[talk A]
+其中，將軍發揮著巨大的作用，
+我想你有很多值得思考和擔心的事情.../
+[face A 01]
+[flow]
+在這樣的時候，
+你永遠可以信賴我！/
+[serif off]
+？然後讓我們馬上變得更蓬鬆一點。/
+[shake A]
+[face A 09]
+[-]
+[serif on]
+噢，噢……！[shake A]
+快點！[face A 06]/
+[serif off]
+[scale A 2.0 1]
+[move A Y -100 1]
+[delay 0.5 hide A]
+[delay 0.5 se dosa_01]
+[delay 0.6 se cloth_01]
+[-]
+[fadein black 0.5]
+[waku on 0.5]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+當我擁抱武藏時，我注意到他蓬鬆的皮毛和身體。
+我感覺到一種柔軟和堅實的穩定性。/
+[flow]
+[textcolor ARUJI]
+我覺得累積的疲勞一下子就被治癒了。/
+[show A]
+[scale A 2.5]
+[move A Y -100]
+[face A 11]
+[say A]
+[fadeout 0.5]
+……………………/
+[talkend]
+[textcolor ARUJI]
+我看不到武藏的臉，但是
+他似乎因為緊張而變得僵硬。/
+[serif off]
+[waku off 0.5]
+？謝謝。痊癒了/
+[scale A 1.5 0.5]
+[move A Y 50 0.5]
+[serif on]
+[say A]
+呵呵。如果這足夠了
+隨時告訴我！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+……雖然很累，但真的很不好意思…
+不要對你不習慣的東西吠叫！/
+[face A 00]
+我們走吧！
+將軍，早點睡吧！/
+[serif off]
+[talkend]
+[se fusuma_03]
+[hide A]
+[-]
+[minibg off 2.0]
+[bg black 2.0]
+[-]
+[serif on]
+[textcolor ARUJI]
+武藏一口氣喝完了剩下的茶。
+他走出廚房，一臉尷尬。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_mus_r 武藏]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 武藏とお勉強]
+[-]
+[bg bg_shirei_day]
+[fadeout]
+[-]
+[bgm home]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+一天下午，指揮室。/
+[se fusuma_01]
+[show A C]
+[face A 00]
+[talk A]
+將軍喲！我已經煮了一些茶。
+你的學習有進步嗎？/
+[serif off]
+？我想還可以/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[-]
+[face A 01]
+[serif on]
+海茶！天熱了，慢慢喝。
+對四卡西將軍來說，這也很艱難。[face A 00]/
+[flow]
+同時照顧我們並領導使命。
+我不敢相信我竟然參加了課堂考試。/
+[hide A]
+[textcolor ARUJI]
+[talkend]
+很快就會有定期的聽力測試。
+聲音治療師需要很多知識。/
+[textcolor ARUJI]
+[flow]
+除了處理符咒之外，還可以處理曆法、歷史、地理等。
+涵蓋各個領域。/
+[show A C]
+[scale A 1.6]
+[move A Y -200 0.5]
+[se dosa_01]
+[talk A]
+[face A 00]
+嗯，我也在這裡學習。
+據說，地魂童子也盡責。/
+[serif off]
+？那我們一起複習備考吧。/
+[say A]
+[face A 02]
+[serif on]
+我們走吧！/
+[serif off]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se paper_01]
+[-]
+[wait 1]
+[autotap]/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+[-]
+[serif on 0.5]
+武藏開啟課本，默默翻看。
+我也不甘示弱，用筆在筆記本上劃過。[se write_01]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg shirei_night]
+[bgm night]
+[-]
+[fadeout 2]
+[-]
+[serif on]
+………………/
+[textcolor ARUJI]
+已經過了多少時間？
+一看錶，已經是晚上12點多了。/
+[serif off]
+[show A]
+[scale A 1.6]
+[move A Y -200]
+[face A 08]
+[waite 0.5]
+[-]
+[textcolor ARUJI]
+[serif on]
+我突然看向坐在我對面的武藏。/
+[se write_01]
+[flow]
+[textcolor ARUJI]
+武藏還在看課本，一臉嚴肅。
+看起來他正在筆記本上總結要點。/
+[flow]
+[textcolor ARUJI]
+我手臂上的頭髮蓬鬆地放在桌上。
+看起來摸起來很好。/
+[serif off]
+？ @@撫摸P21@@的皮毛/
+[shakebg]
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+[say A]
+哇！ ？什、為什麼，將軍！
+你會突然感到驚訝！[face A 11]/
+[face A 06]
+呵呵，如果你這麼喜歡我的皮毛的話。
+只要你給我一聲呼喊，我將不勝感激……！/
+[serif off]
+？ 武藏出奇的嚴肅。/
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+為什麼是現在？
+我總是很嚴肅。/
+[flow]
+讓我們和將軍一起使任務成功。
+在感情上我不能輸給任何人。/
+[serif off]
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+我有點累了，今天就到此為止吧！[face A 00]
+是的。剩下的茶已經變得不冷不熱了。/
+[scale A 1.8 0.5]
+[face A 12]
+將軍，你的學習怎麼樣？
+哦？下次考試不是歷史嗎？/
+[serif off]
+[se paper_01]
+？我對地理也很有興趣。/
+[hide A]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+看日本地圖
+我注意到了一些事情。/
+[serif off]
+？ 武藏 現代地名很多。/
+[show A]
+[face A 02]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+[-]
+[serif on]
+嘿！這是真的！
+無論過去或現在，我們都是緊密相連的。/
+[face A 00]
+[talk A]
+呵呵，不過還好。
+老實說我很高興。/
+[serif off]
+？嗯？/
+[face A 00]
+[serif on]
+我的意思是，將軍來自過去的地理。
+學習歷史.../
+他們試圖更好地瞭解我們。
+這不是同一件事嗎？/
+[serif off]
+？當然...也許是這樣/
+[face A 11]
+[serif on]
+這就是為什麼…我…
+我有點感動……嗚！[shake A]/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 00]
+[-]
+[serif on]
+[flow]
+將軍，武藏我會教你有關這個國家的知識。/
+[flow]
+[face A 06]
+有一天，
+將軍能帶我參觀一下現代城市景觀嗎？/
+[face A 01]
+武藏這個時代的國家與將軍
+嘗試步行！/
+[serif off]
+？當然。/
+[serif on]
+[face A 02]
+耶！[shake A]/
+[textcolor ARUJI]
+[face A 05]
+[talkend]
+咕咕~/
+[face A 11]
+[say A]
+哇，這種時候我就胃病了！[shake A]
+我已經向你展示了我有多酷。[face A 06]/
+[face A 00]
+好吧，我們去廚房吃點東西吧。
+你也想和將軍一起吃點東西嗎？/
+[serif off]
+？宵夜，不錯！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+幹得好！
+當你喝茶的時候，我會為你泡一杯新茶。/
+[face A 00]
+你知道嗎？　江戶時代nya
+我正在茶壺裡煮茶。/
+[flow]
+他們過去常在茶館裡提供這種茶。/
+[serif off]
+?武藏 作為海報男孩是完美的。/
+[face A 02]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+武藏Hayoseyai！我害羞地笑了。/
+[fadein black 2]
+[autotap]/
+[textcolor ARUJI]
+我和武藏一起吃了宵夜，一直待到那天早上。
+我們一起學習。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>202/
+[set A s_mus_r 武藏]
+[set B s_mus_r 武藏]
+[set C s_m005_oji 爺さん]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 武藏と夏の香り]
+[-]
+[bg sky_day]
+[fadeout]
+[se amb_06]
+[-]
+[bgm home]
+[talkend]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+今天我要和武藏出去。/
+[textcolor ARUJI]
+[flow]
+與武藏 一起遊覽東京一天。
+火車帶我去市中心。/
+[textcolor ARUJI]
+[flow]
+位於現代東京的摩天大樓區
+武藏 很驚訝。/
+[delay 0.2 bg black 0.5]
+[minibg sky_day 0.5]
+[textcolor ARUJI]
+喝果汁並短暫休息時
+武藏一臉困惑地拿出一個小包。/
+[show A]
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[say A]
+將此交給將軍！
+你會接受嗎？[se cloth_06]/
+[serif off]
+[se cloth_01]
+？這是……？你之前是在商店買的嗎？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 02]
+我們走吧。嘿嘿，是Furegransutsu吧？
+顯然你也可以將它塗抹在手背上。[face A 00]/
+[hide A]
+[textcolor ARUJI]
+[talkend]
+當我快速瀏覽商店時，武藏有多種香味。
+我記得我對此很好奇。/
+[textcolor ARUJI]
+武藏給我的香膏型nerika。
+嘗試立即將其塗抹在手背上。/
+[show A]
+[say A]
+[face A 12]
+哦，這是一種令人耳目一新的香味，不是嗎？一切都很現代
+工作人員說這是夏季主食。柑橘混合。/
+[serif off]
+？聞起來好香！謝謝。我會好好珍惜的/
+[face A 06]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+呵呵。如果你這麼說
+我翻新了一個甲斐。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg off]
+[bg sky_sunset]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+隨後，一邊品嚐美食一邊遊覽觀光。
+正當我們玩得很開心的時候，太陽很快就下山了。/
+[bg black 0.5]
+[minibg sky_sunset 0.5]
+[show A C]
+[face A 00]
+[say A]
+是時候了.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+從現在起我要去一個特別的地方。
+期待吧，將軍！/
+[face A 00]
+[flow]
+距離這裡僅幾步之遙。/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……嗯？/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+當我和武藏一起散步時，我蹲在路邊。
+我找到了一位老人。/
+[show A C]
+[face A 01]
+[say A]
+你還好嗎？爺爺。
+你覺得不舒服嗎？/
+[show C L]
+[face C 00]
+[say C]
+[setline 0.5 C A]
+哦...對不起...
+我有點渴了…我正在休息…/
+[face A 04]
+[say A]
+就是這個熱度。如果你沒有喝足夠的水
+這很危險，老頭子。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 12]
+[flow]
+嗯，我剛從自動販賣機買的。
+我們來泡這茶吧！來了，別猶豫，喝吧！/
+[say C]
+[move C XY 10 -40 0.4]
+[rotate C -10 0.3]
+[delay 0.4 move C XY -10 40 0.3]
+[delay 0.5 rotate C 0 0.3]
+非常...非常...
+嘆息...這對我有幫助.../
+[face A 01]
+[say A]
+太棒了！
+你家在附近嗎？當心！/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[move A X 200 0.5]
+[hide A]
+[move C C 0.5]
+[say C]
+哦，謝謝。
+兩個年輕人。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif off]
+？ 武藏自然會幫助別人，對嗎？/
+[show A C]
+[face A 11]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+我的本性是，當別人有困難時，我不會袖手旁觀！/
+[face A 08]
+但你必須快點！[shake A]
+啊，[face A 05]嘿，老太太，你的行李看起來很重！/
+[move A X -300 0.5]
+[textcolor ARUJI]
+[hide A]
+[talkend]
+武藏適合那些想慢慢爬樓梯的老人。
+我喊了他一聲，幫他搬行李。/
+[flow]
+[textcolor ARUJI]
+即使你說你必須快點也要幫助別人
+我覺得它看起來很武藏。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm fun]
+[hideall]
+[minibg gendai_kawa_night]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 06]
+[say A]
+[serif on]
+唷，我準時到了。/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+[se gaya_01]
+武藏帶我去隅田川煙火大會。
+河床上擠滿了大批觀眾。/
+[show A C]
+[face A 05]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+這是一個驚人的人數...
+將軍，不要離開我。[face A 01]/
+[face A 00]
+日本最古老的煙火大會在隅田川開始。
+最初是為了紀念死者而發起的。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+當然，到處都擠滿了人。
+沒地方坐了.../
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[autotap]/
+[flow]
+[face A 11]
+哪裡空了，哪裡空了…
+我不厭其煩地跟將軍一起來了…/
+[flow]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦！看來這區域是空的！
+將軍！在這裡，這裡！這很有幫助。[face A 01]/
+[hide A]
+[talkend]
+@保全人員
+我去查一下票。/
+[show A C]
+[face A 12]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+奇克特？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[face A 10]
+[-]
+[fadeout 1.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on]
+嘆息...
+沒有門票是不能進去的.../
+[serif off]
+？你可以從遠處看到它/
+[serif on]
+[face A 04]
+但是.../
+[textcolor ARUJI]
+[hide A]
+[talkend]
+武藏失望地垂下肩膀。
+我感到沮喪。/
+[show C C]
+[face C 00]
+[say C]
+[bgm night]
+如果。你……啊，我想是這樣。
+它早些時候對我有幫助。/
+[serif off]
+？ 武藏救了老人！/
+[serif on]
+我正準備回家...
+你是來看煙火的嗎？/
+[show A C]
+[face A 13]
+[say A]
+[setline 0.5 A C]
+這就是我的意思.../
+[say C]
+如果你想看煙火，就來我家吧。
+因為它就在那裡！/
+[move C X 250 0.5]
+[delay 0.2 move A C 0.5]
+[hide C]
+[face A 05]
+[say A]
+哈！ ？將軍，我們該怎麼辦…
+[face A 04]/
+[serif off]
+？我們走吧？/
+[face A 01]
+[wait 0.5]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg off]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[hide A]
+[serif on]
+[se door_01]
+[talkend]
+老人住在隅田川河畔的公寓裡。
+我住在頂樓。帶到了陽臺。/
+[minibg sky_star]
+[show A C]
+[face A 09]
+[say A]
+哇……這麼貴真是太神奇了。
+我害怕……將軍，小心點。[shake A]/
+[light def 1]
+[lightcolor red]
+[delay 1.5 light off 1]
+[delay 3 light def 0.6]
+[delay 3 lightcolor pink]
+[delay 5 light off 1]
+[delay 7 light def 0.4]
+[delay 7 lightcolor orange]
+[delay 9 light off 2]
+[delay 12 light def 1]
+[delay 12 lightcolor red]
+[delay 14 light off 2]
+[autotap]/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+[shakebg]
+[se hanabi_01]
+黎明！當我抬頭仰望天空，聽到空氣震動的聲音時，
+巨大而明亮的煙火在夜空中綻放。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[say A]
+哦哦哦！
+這傢伙是不是很閃！/
+[face A 00]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[flow]
+……從這個與將軍一起的特殊座位上
+我希望我能看到煙花....../
+[face A 12]
+[flow]
+自己放煙火固然很好，但是
+很高興看到這樣的情況。/
+[face A 01]
+[flow]
+畢竟，煙火是夏季的傳統。/
+[hide A]
+[talkend]
+[serif off]
+？這就是今天的重頭戲！/
+[show A C]
+[face A 11]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+好吧，好吧，但是對我來說。
+最好的事情就是與將軍共度時光.../
+[light def 1]
+[lightcolor red]
+[delay 1.5 light off 1]
+[delay 3 light def 0.6]
+[delay 3 lightcolor pink]
+[delay 5 light off 1]
+[delay 7 light def 0.4]
+[delay 7 lightcolor orange]
+[delay 9 light off 2]
+[delay 12 light def 1]
+[delay 12 lightcolor red]
+[delay 14 light off 2]
+[se hanabi_02]
+[autotap]/
+[textcolor ARUJI]
+[face A 05]
+[talkend]
+[shakebg]
+繁榮！/
+[textcolor ARUJI]
+[hide A]
+當特別大的煙火燃放時
+武藏嘟囔著什麼。/
+[serif off]
+？嗯？抱歉，什麼？/
+[textcolor ARUJI]
+[serif on]
+因為煙火的緣故我聽不清楚。/
+[show A C]
+[face A 09]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+哈！不，那個……嗯！[shake A]
+媽的~不好意思再說一次了…[face A 06]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[flow]
+嗯……我就是這個意思……[wait 0.5]
+煙火雖然好看，但對我來說就一般了。[wait 0.2][autotap]/
+[effect fr syutyu a 0 0]
+[show C R]
+[se door_01]
+[setline 0.5 A C]
+[move C X 150 0.5]
+[orderline A C]
+[face A 05]
+[face C 00]
+[say C]
+謝謝您的等待！我們有酒和小吃！
+我們還有生魚片！/
+[hide A]
+[hide C]
+[-]
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+[se dosa_01]
+老人坐在陽臺的桌子上。
+我留下了大量的罐裝啤酒和零食。/
+[show C C]
+[face C 00]
+[say C]
+你知道，我們都還年輕。越吃越多！
+我也來喝！[shake C]/
+[hide C]
+[-]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 12]
+[say A]
+……哦，哦！
+謝謝你，老鐵！/
+[face A 11]
+咕咕咕！[shake A]/
+[talkend]
+[textcolor ARUJI]
+武藏 看起來很沮喪。/
+[textcolor ARUJI]
+[hide A]
+我聽不清楚
+我明白了我想說的話。/
+[serif off]
+？在桌子底下偷偷牽手/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[scale A 2 0.5]
+[move A Y -120 0.5]
+[face A 09]
+[say A]
+[effect kira a 0 0]
+[se kira_01]
+[serif on]
+忠翔……！/
+[face A 06]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+武藏也顯得害羞。
+他緊緊地握住我的手。/
+[serif off]
+？ （啊……這個味道……）/
+[serif on]
+[textcolor ARUJI]
+也許是因為我握著你的手，手上有點流汗。
+我從武藏收到的柑橘混合物的香味蔓延開來。/
+[hide A]
+[-]
+[effect off a]
+[effect fr syutyu 4000 0 0]
+[show C C]
+[face C 00]
+[say C]
+來吧，玩得開心！[shakebg][se taiko_01]/
+[show A C]
+[face A 02]
+[say A]
+[setline 0.5 A C]
+哦，祝你好運！/
+[light def 1]
+[lightcolor red]
+[delay 1.5 light off 1]
+[delay 3 light def 0.6]
+[delay 3 lightcolor pink]
+[delay 5 light off 1]
+[delay 7 light def 0.4]
+[delay 7 lightcolor orange]
+[delay 9 light off 2]
+[delay 12 light def 1]
+[delay 12 lightcolor red]
+[delay 14 light off 2]
+[se hanabi_02]
+[autotap]/
+[hide A]
+[hide C]
+[talkend]
+[textcolor ARUJI]
+在一個大汗淋漓的夏夜
+大大小小的煙火在頭頂上閃閃發光。/
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+塔瑪亞！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+包括爺爺的存在。
+這是一個難忘的夏天的美好回憶。/
+[flow]
+[textcolor ARUJI]
+酸甜的柑橘香味。每當我聞到這種香味
+我想這讓我想起了今天。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

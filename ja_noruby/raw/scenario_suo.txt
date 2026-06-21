@@ -1,0 +1,539 @@
+>>10000/
+@周防
+よぉ、俺は山陽道、周防！[wait 3]
+主、さあ任務をくれよ。[autotap]/
+[delay 3]
+[flow]
+[-]
+@周防
+体がうずいちまって仕方ねーぜ！/
+>>10001/
+@周防
+おう、また呼んでくれたんだな。[wait 3]
+頼ってもらえると嬉しくなっちまうぜ。[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@周防
+ほらほら、なんでも言ってくれよ！/
+>>1/
+[set A s_suo_r 周防]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+[serif on]
+ん？　あー、へへ。[face A 01]荘園の庭の橋を見てるとさ
+オレの国の錦帯橋を思い出すんだよな。/
+[flow]
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+木だけで組まれてて釘を一本も使ってねーんだ。
+下には錦川が流れてて、景色も最高でさ。/
+[flow]
+[face A 02]
+……今度一緒に橋を渡りに行こうぜ。
+へへ、主の手、引いてやっからよ！[shake A]/
+>>2/
+[set A s_suo_r 周防]
+[show A C]
+[face A 02]
+[say A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+主、この荘園はたくさん仲間がいて
+すげー楽しいぜ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 01]
+よーし、今度みんなに岩国寿司を作ってやるかぁ。
+オレの国のごちそうなんだ。/
+[flow]
+[face A 06]
+酢飯と具材を何層にも重ねたでっけぇ寿司でさ
+みんなと食べるとうめぇんだ。/
+[flow]
+[face A 01]
+[shake A]
+もちろん主も食べてくれよな！/
+>>3/
+[set A s_suo_r 周防]
+[show A C]
+[face A 08]
+[say A]
+[move A Y -40 0.2]
+[delay 0.3 move A Y 40 0.4]
+[delay 0.8 move A Y -40 0.2]
+[delay 1.1 move A Y 40 0.5]
+[autotap]/
+[serif on]
+いっちにっと……[wait 0.5]お、主じゃねぇか。
+どうした、仕事疲れか～？[face A 01]/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 01]
+[face A 00]
+ゆっくりしたかったら、周防大島はオススメだぜ。
+なんでも、「はわい」ってとこに似てるらしいぜ。/
+[flow]
+[face A 02]
+[shake A]
+オレもあののんびりした空気は病みつきになる
+くらい好きなんだ。一緒に砂浜に寝転ぼうぜ！/
+>>4/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[show B]
+[face B 04]
+[setline A B]
+[face A 11]
+[say A]
+[serif on]
+お、$B:Aどうした？
+悩み事か？　うんうん……そんで？　…………[face A 08]/
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 10]
+……う……うぅ、くぅう……うぉお……[shake A]
+涙が溢れてきて仕方ねぇよ……！[face B 05][se zukkoke_02][shake B]/
+[flow]
+[face A 08]
+[face B 01]
+オレにできることがあったら
+なんでも言ってくれよ！[shake A]/
+>>5/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[bgm off]
+[serif off]
+[show A C]
+[show B R]
+[move B X 150]
+[face B 05]
+[orderline A B]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[say A]
+[se paper_03]
+[shakebg]
+[serif on]
+うおっ！？[shake A]　ボタンが弾けちまった！！[shake A]/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 09]
+……オレ、太ってねぇよな？[shake A]　そうだよな
+筋肉が増えただけだ。うん、セーフ！　はっはっは！[face A 02][shake A][face B 04]/
+>>6/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[face A 09]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+えーっと、この書類でいいのかぁ？[se paper_01]
+オレ、こーゆうの苦手なんだよなぁ……/
+[flow]
+[show B R]
+[move B X 500]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face B 05]
+[-]
+[se cloth_06]
+[setline 0.3 A B]
+[face A 01]
+すまん、$B:A、教えてくれ！　
+この書類の書き方、これで合ってるかぁ？/
+[flow]
+[face B 04]
+[face A 05]
+……え、全然違う！？　マジか……[shake A][se zukkoke_02]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[move A X 500]
+[move A X -500]
+[face A 00]
+[say A]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+寝る前にちと腹ごしらえすっかぁ……
+なんかねぇーかなぁ～っと……おっ！[shake A][face A 01]/
+[flow]
+[show B R]
+[face B 05]
+[setline 0.5 A B]
+[face A 02]
+この[= 握り飯 残り物のカレー 手頃なサンドイッチ 爆弾おにぎり 夜食っぽいの 鍋の残り]いただきー！[shake A]
+って、え、$B:A、おまえのだったの！？[face A 05][se zukkoke_02]/
+[flow]
+[face B 03]
+[move B X 500 0.5]
+[face A 09]
+悪かったって！　まだ食ってねぇんだから
+許してくれよ～！[move A X 1000 0.5][shakebg]/
+>>10/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし -@NPC -suo]
+[serif on]
+[show A C]
+[face A 09]
+[say A]
+明日の任務のこと思うと、なんだか体が
+ウズウズしちまって眠れなさそうだぜ……/
+[show B R]
+[face B 00]
+[flow]
+[setline 0.5 A B]
+[face A 01]
+よーし、$B:A、一緒にもうひと汗かこうぜ！　
+したらぐっすり眠れんだろ！/
+>>11/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[show B]
+[face B 04]
+[setline B A]
+[face A 11]
+[say A]
+[serif on]
+おう、$B:Aどうした？
+ふんふん……おう、それくらい朝飯前だぜ！[face A 02][shake A]/
+[flow]
+[face B 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 06]
+考えるのは苦手だけどよ、この体でできることなら
+なんだってやってやるぜ。/
+[flow]
+[face A 01]
+[shake A]
+頼ってもらえるのすげー嬉しいんだ。へへっ。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[face A 09]
+[say A]
+ん～、なんか最近あんまスッキリ
+しねーんだよなぁ……/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[flow]
+[face A 00]
+やっぱひとりじゃ限界あるかぁ？　
+誰かいねーかなー……っと。/
+[flow]
+[show B R]
+[setline 0.5 A B]
+[face A 06]
+[face B 00]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+おっ、$B:A、ちょっとこのあとさ
+一緒に運動でもしね？　へへへっ。[face B 01]/
+>>15/
+[set A s_suo_m 周防]
+[randomset B m @地魂男児 @あやかし -@NPC -suo]
+[serif on]
+[show A C]
+[show B]
+[setline B A]
+[face B 08]
+[face A 08]
+[say A]
+[effect fr waveout 6000 0 0]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+おらぁ！！　[se crash_01]
+お、いまのかなりいいセンいってたろ！？[face A 00]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 02]
+[face B 01]
+お前の動きもすげー刺激になったぜ。
+もっと強くなって、仲間たちを守ってやるぜ！/
+>>16/
+[set A s_suo_m 周防]
+[randomset B m @地魂男児 @あやかし -@NPC -suo]
+[show A C]
+[show B C]
+[move B X -1000]
+[setline 0.3 B A]
+[shakebg]
+[se doka_01]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[face B 08]
+[scale B 1.6]
+[move B Y -120]
+[say A]
+[-]
+[effect fr waveout 6000 0 0]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[-]
+[serif on]
+はぁっ！　とぅ！　[shake A]
+――うぉ！？[face A 05][se zukkoke_02][rotate A 15 0.3]/
+[flow]
+[face B 05]
+[face A 09]
+[move A Y -100 0.3]
+くぅぅ……た、たまがつぶれるかと思ったぜ……
+カップがついてて助かった……[shake A]/
+[flow]
+[face A 10]
+でも、いてぇぇ～～～……！！[shake A 3 10 10]/
+>>17/
+[set A s_suo_b 周防]
+[randomset B b @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[se door_01]
+[show A C]
+[move A X 500]
+[move A X -500 0.5]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[se amb_12]
+[effect fr yuge a 0 0]
+[say A]
+ふぅ～、いい湯だったなぁ。
+お、オレみたいに隠さねぇやつもいるな！/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 06]
+開放的でいいよなぁ～。へへ、体が冷めるまで
+しばらくこのままでいよ～っと。/
+>>18/
+[set A s_suo_b 周防]
+[randomset B b @地魂男児 @あやかし @NPC -suo]
+[randomset C b @地魂男児 @あやかし @NPC -suo -@NOW]
+[serif on]
+[show A C]
+[show B C]
+[show C]
+[face A 01]
+[face B 00]
+[setline C A B]
+[se amb_12]
+[orderline A B C]
+[se bath_03]
+[face C 06]
+[effect fr yuge a 0 0]
+[say A]
+なぁなぁ、みんな！　オレの[= 腕 太もも 尻 ふくらはぎ 下半身 上半身 胸]
+前より太く、結構良い感じになったと思わねぇ！？/
+[flow]
+[face A 06]
+[shake A]
+なぁなぁほら、ここらへんとか特にさ！
+お、$B:A、見てくれよ～！　触ってもいいぜ！[face B 06]/
+>>19/
+[set A s_suo_b 周防]
+[randomset B b @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[show B L]
+[orderline A B]
+[face B 06]
+[move A Y -50]
+[se bath_05]
+[face A 06]
+[se amb_12]
+[effect fr yuge a 0 0]
+[say A]
+[se bath_02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ、やべ……洗ってる刺激のせいかなぁ……
+へへへ……/
+[flow]
+[face A 05]
+あっ、$B:A、いや、男ならこういうこと
+誰だってあんだろ～！？/
+[flow]
+[face B 03]
+[shake A]
+[face A 09]
+変な意味じゃねぇって～！/
+>>20/
+[set A s_suo_r 周防]
+[serif on]
+[show A L]
+[face A 05]
+[move A X -600]
+[move A C 0.5]
+[se cloth_01]
+[say A]
+うおっ、便所便所！
+ってカップがはずれねぇっ、くっ、んっ……！[shake A]/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 09]
+[se pee_01]
+はぁ、間に合ったぁ……おー出る出る
+めちゃくちゃ溜まっちまってたからなぁ……/
+[flow]
+[face A 06]
+はぁ、最高だぜ～……/
+>>21/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[show B C]
+[face A 07]
+[face B 00]
+[setline A B]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[say A]
+ふわぁぁぁ、ねみぃ……
+んー、起きたての小便やりづらすぎるぜ……[face A 09][se cloth_01][shake A][face B 06]/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[flow]
+[face B 06]
+[face A 06]
+って、みんな一緒だな！
+ははは。/
+>>22/
+[set A s_suo_r 周防]
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -170]
+[face A 00]
+[say A]
+んんっ……ふー……
+へへっ、今日も絶好調だぜ！/
+[flow]
+[face A 05]
+[shake A]
+[effect bk splash 6000 0 0]
+[se water_01]
+ってうぉっ！　水の勢いが強ぇぇ！/
+>>23/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[se door_01]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+ふぅ、個室空いてた。
+遠征長かったから、もうやばいぜ……/
+[flow]
+[se cloth_01]
+[move A X -250 0.5]
+[move A Y -50 0.5]
+[show B R]
+[face B 04]
+[move B X 200]
+[move B X -200 0.5]
+[orderline A B]
+んじゃ早速……[shake A][face A 05]
+ってうお、ノック！？/
+[flow]
+[face B 06]
+[face A 10]
+[shake A]
+ちょっと待っててくれね！？
+すぐ済ませるからぁ、頼むってぇ！[shake A]/
+>>24/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[show B]
+[face B 04]
+[setline A B]
+[face A 11]
+[say A]
+[serif on]
+……なんだ、$B:Aどうした？
+眠れねぇのか？　……うんうん……そんで？[face A 08]/
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 10]
+[shake A]
+……うぅ、くぅぅ……うぉお、涙が溢れてきて
+しかたねぇ……/
+[flow]
+[orderline B A]
+[move A X 100 0.3]
+[se cloth_06]
+[face B 01]
+[face A 08]
+オレにできることがあったら、
+なんでも言えよな！[shake A][se cloth_01]/
+>>25/
+[set A s_suo_r 周防]
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 07]
+[say A]
+ぐごごご、ぐごごご、兄弟、ワッショーイ！[shake A 2 15 15]
+ぐごご……/

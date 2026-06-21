@@ -1,0 +1,997 @@
+>>10000/
+@丹波
+僕は、丹波。[wait 2]
+お兄さんが主……だよね……[autotap]/
+[delay 2]
+[flow]
+[-]
+@丹波
+よろしく。/
+>>10001/
+@丹波
+わ、お兄さん……[wait 1]
+そんなに褒めても、何も出ないよ……/
+>>1/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 01]
+[talk A]
+[serif on]
+[serif name]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ヨーオイ……ヨーオイ……[wait 0.5]
+うーん……こんな感じかな……/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ヨーオイ……ヨーオイ[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]……デ……カンショ……
+うん、うまくできそう……ふふっ。/
+[face A 02]
+[move A Y 30 0.4]
+[delay 0.6 move A Y -30 0.2]
+ア、ヨーオイ、ヨーオイ、デッカンショ～！[move A Y 30 0.4][delay 0.6 move A Y -30 0.2]
+……[wait 0.5]って[shake A 3][face A 05]あっ、お兄さんっ！？/
+[face A 06]
+[move A X -30 0.1]
+[delay 0.1 move A X 70 0.2]
+[delay 0.3 move A X -70 0.2]
+[delay 0.5 move A X 30 0.1]
+もしかして、今の見てたの……？
+うぅ……恥ずかしい……/
+>>2/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 00]
+[talk A]
+[serif name]
+[serif on]
+丹波国の一宮、出雲大神宮は
+縁結びですごく有名なんだって……/
+[face A 04]
+[flow]
+僕……縁結びとかそういうのは
+よく分からないけど……/
+[face A 01]
+[flow]
+お兄さんが行きたいなら……
+連れていってあげてもいいよ……/
+>>3/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 00]
+[serif on]
+[serif name]
+[talk A]
+亀岡盆地はね、秋から春にかけて
+よく霧がでるんだ……/
+[face A 04]
+[flow]
+丹波霧っていうんだけど……[wait 0.5]
+辺り一帯ががぼやけてて……[face A 01][wait 0.5]僕は結構好き。/
+>>4/
+[set A s_tnb_r 丹波]
+[show A C]
+[move A Y -100]
+[face A 04]
+[talk A]
+[serif on]
+[serif name]
+……朝ごはん、ごちそうさま。[move A Y 100 0.5]
+今日はこの後、特に用事はないから……/
+[face A 01]
+よし、倉庫に行って
+腹筋と腕立て、がんばろ……[move A X 300 0.5][hide A]/
+>>5/
+[set A s_tnb_r 丹波]
+[randomset B r @地魂男児 @あやかし -tnb]
+[show A L]
+[face A 08]
+[talk A]
+[serif on]
+[serif name]
+すんすん……なんだろ、この匂い？
+すんすん……[move A X 100 0.5][face A 07]……こっちかな……すんすん……[move A X 200 0.5]/
+[show B C]
+[face A 05]
+[face B 05]
+[se dosa_01]
+[move A X -200 0.2]
+[move B X 50 0.2]
+[talk A]
+ってうわ、$B:A！？　ご、ごめん。
+いい匂いしたから……つい気になって……/
+[face A 04]
+[face B 01]
+@丹波
+え？　お風呂の石鹸……？
+でも……あ、そうか……/
+[face A 01]
+[talk A]
+（$B:Aの匂いと混ざって、
+　初めて嗅いだ匂いになってたんだ）/
+>>6/
+[set A s_tnb_r 丹波]
+[randomset B r @地魂男児 @あやかし -tnb]
+[show A C]
+[face A 04]
+[talk A]
+[serif on]
+[serif name]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+困ったなぁ……
+なぜか$B:Aに訓練の相手を頼まれちゃった……/
+[face A 03]
+[move A X -200 0.6]
+うーん……僕なんかより
+ふさわしい相手がいると思うんだけど……[move A X -150 0.5][hide A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 04]
+[talk A]
+[serif name]
+[serif on]
+すんすん……今日ずっと任務だったからかな。
+身体がすごく汗臭いや……/
+[face A 06]
+こんなの、お兄さんや
+みんなに気づかれちゃったらどうしよう……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+うぅ……
+早く着替えて服も洗っちゃいたいなぁ。/
+>>10/
+[set A s_tnb_r 丹波]
+[randomset B r @地魂男児 @あやかし -tnb -wak -sim]
+[show A L]
+[face A 00]
+[talk A]
+[serif name]
+[serif on]
+すんすん……栗の匂いがする。
+あ、$B:Aが剥いてるのか……/
+[face A 05]
+[show B R]
+[talk A]
+[move B X 200]
+[move A X 50 0.5]
+あれ？　すんすん……あ、あの栗……
+傷んでるみたい……/
+[face A 04]
+[move A X -50 0.7]
+ちゃ、ちゃんと教えてあげた方がいいのかな……
+どうしよう……でも……/
+[serif off]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -20 0.1]
+[delay 0.3 move B Y 15 0.5]
+[face B 01]
+[shake A]
+[face A 05]
+[move A X 100 0.3]
+[-]
+[serif on]
+あ……
+食べちゃった……/
+>>11/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 01]
+[talk A]
+[serif name]
+[serif on]
+ふふっ。戦いで頑張ったのを、
+お兄さんに褒められちゃった……/
+[face A 02]
+やっぱり、毎日やってる
+筋トレの成果が出てきたのかな。/
+明日もがんばろ……
+ちょっと負荷、上げてみようかな……へへっ。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_tnb_r 丹波]
+[randomset B r @地魂男児 @あやかし -tnb]
+[show A C]
+[show B L]
+[face A 00]
+[face B 00]
+[talk A]
+[serif on]
+[move B R 1.0]
+あ、[face A 05]今日の洗濯当番は$B:Aなんだ……
+お願いしようかな……どうしよう……/
+[waku on 0.5]
+[face A 04]
+洗ってくれるのは助かるんだけど
+……下着を見られるのは、ちょっと……/
+[face A 00]
+[move B X 150 0.5]
+[hide B]
+でも、まとめて洗われたら
+どれが僕のかなんてわからないかな……/
+[waku off]
+[face A 04]
+うーん、どうしよう……/
+>>15/
+[set A s_tnb_m 丹波]
+[show A C]
+[move A Y -200]
+[face A 03]
+[talk A]
+[serif name]
+[-]
+[serif on]
+[move A Y 200 1.0]
+はぁ……はぁ……[wait 0.5]
+（しまった……また読み間違えちゃった……）/
+[face A 08]
+（次は負けない……[wait 0.5]強くなるためには……
+　練習あるのみ……だ！）/
+[face A 08]
+もう一回！[effect fr katana][shakebg][shake A][se doka_01][-][move A XY 200 -100 0.3][delay 0.5 move A XY -200 100 0.8]
+もう一回……！/
+[effect fr katana]
+[shakebg]
+[shake A]
+[se doka_01]
+[-]
+[move A XY -300 -100 0.3]
+[delay 0.4 move A XY 300 100 0.8]
+もう……一回……！[effect fr katana][se katana_02][shakebg][move A Y -50][move A Y 50 1.0]
+もう……一回……/
+>>16/
+[set A s_tnb_m 丹波]
+[show A C]
+[face A 04]
+[talk A]
+[serif name]
+[serif on]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+はぁ……
+またちびっこたちが修練場で騒いでる……/
+[face A 03]
+[flow]
+ここは遊び場じゃないのにな……/
+[face A 08]
+[flow]
+仕方ない。
+みんなが帰ってからまた来よう。/
+>>17/
+[set A s_tnb_b 丹波]
+[show A C]
+[face A 06]
+[talk A]
+[serif name]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[serif on]
+うぅ……
+脱衣所の匂い……すごくクラクラする……/
+[flow]
+色んな匂いが入り混じってて
+みんなの汗とか……石鹸とか、手ぬぐいとか……/
+[face A 01]
+[flow]
+なんだか……
+大人な感じの匂いもするし。/
+[face A 06]
+[flow]
+んんっ……[shake A]
+鼻が利きすぎるのも、あんまりよくないね……/
+>>18/
+[set A s_tnb_b 丹波]
+[effect fr yuge A]
+[show A C]
+[face A 05]
+[talk A]
+[serif name]
+[move A Y -100]
+[serif on]
+はぁ……
+大人っぽい人は、やっぱりカッコいいな……/
+[face A 06]
+あの大きな背中……
+すごく、憧れちゃうな……/
+[flow]
+[move A Y -150 1.0]
+ぶくぶく。/
+>>19/
+[set A s_tnb_b 丹波]
+[effect fr yuge A]
+[show A L]
+[face A 06]
+[talk A]
+[serif name]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+ふぅー……
+いい湯だったなぁ。そろそろ上がろう。/
+[move A C 0.6]
+[-]
+[move A Y -80 0.2]
+[rotate A -10 0.1]
+[delay 0.2 move A Y 80 0.2]
+[delay 0.2 rotate A 0 0.2]
+[face A 05]
+ズルッ。/
+[face A 06]
+[shake A]
+あっ……！
+わわわわわっっ。/
+[face A 09]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+い、いまタオル落としたところ……
+誰かに見られてないよね……？/
+>>20/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 00]
+[talk A]
+[serif name]
+[serif on]
+と、隣に誰かいると、
+緊張しちゃうから……/
+[face A 01]
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+こうやって誰もいない時を狙って、
+用を足すんだ……/
+>>21/
+[set A s_tnb_r 丹波]
+[show A L]
+[move A X -200]
+[face A 00]
+[talk A]
+[serif on]
+[serif name]
+…………/
+[face A 04]
+[move A X 100 0.6]
+うーん……
+中々人が途切れないなぁ。個室でしようかな……/
+>>22/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 05]
+[talk A]
+[serif name]
+[serif on]
+あ、お香が炊いてある。
+すんすん……すごくいい香りだぁ……/
+[face A 01]
+[flow]
+掃除も行き届いてるし、すごく居心地がいいな……
+僕も掃除当番の時、がんばろ……/
+[face A 00]
+[move A Y -100 0.5]
+ぬぎぬぎ。/
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ふぅ……/
+>>23/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 00]
+[talk A]
+[serif name]
+[serif on]
+[move A Y -100]
+すんすん……なんか……
+変な匂いがする……/
+[face A 05]
+[flow]
+前に入ってた人……長かったと思ったけど……
+これって、もしかして……/
+[face A 06]
+[shake A]
+な、なんかドキドキしてきた……/
+>>24/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 02]
+[talk A]
+[serif name]
+[move A Y 10 0.4]
+[serif on]
+[delay 0.4 move A Y -10 1.0]
+わぁ……お布団ふかふかで気持ちいい……
+おやすみなさい……/
+>>25/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 07]
+[talk A]
+[serif name]
+[serif on]
+すーすー……おにい……さん……すーすー……/
+>>26/
+[set A s_tnb_r 丹波]
+[randomset B r @地魂男児 @あやかし -tnb]
+[show A C]
+[face A 04]
+[talk A]
+[serif on]
+ふぅ……今日は朝から忙しかったな……
+ちょっと、お昼寝……[rotate A -30 0.4][move A XY 40 -30 0.5]/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+あ、この匂い……$B:Aのだ……
+なんだろう……少し、ドキドキする……/
+>>100/
+[set A s_tnb_r 丹波]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 丹波とお喋り]
+[-]
+[bg bg_gozasyo_day]
+[fadeout]
+[-]
+[bgm home]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+御座所で報告書を書いていると、廊下に
+大きめの人影があるのに気づいた。/
+[serif off]
+[bg rouka_day 0.5]
+[-]
+[show A C]
+[face A 07]
+[talk A]
+[serif on]
+すんすん……大人のにおい……
+ここが、お兄さんの仕事場かな……/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+[se walk_01]
+あれは丹波だ。何か用事かもしれない。
+丹波のもとに向かった。/
+[show A]
+[face A 05]
+[say A]
+あ、お兄さん……/
+[serif off]
+?丹波と少しお喋りする/
+[say A]
+[face A 04]
+[serif on]
+え……や、やだ……/
+[se walk_01]
+[move A X 50 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+そう言って丹波はそそくさと
+立ち去……/
+[shakebg]
+[effect fr syutyu 2000]
+[serif off]
+[bgm fun]
+?えっ！？　待って、なんで？/
+[show A]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[say A]
+[serif on]
+お兄さんのお仕事、邪魔したくないし……/
+[face A 00]
+[shake A]
+それに、僕よりもっと強くて役に立てる人と
+話したほうがいいと思うし……/
+[serif off]
+?丹波と話したい/
+[serif on]
+[face A 05]
+[say A]
+え、ほ、ほんとに？
+じゃあ……[face A 01]/
+[serif off]
+[talkend]
+[se fusuma_01]
+[hide A]
+[bg gozasyo_day 0.5]
+[textcolor ARUJI]
+[-]
+[bgm home]
+[serif on]
+[se cloth_01]
+丹波は部屋に上がると、正座になった。
+むっちりした足が少し窮屈そうだ。/
+[serif off]
+?丹波、もっとリラックスしていいんだよ/
+[show A]
+[face A 06]
+[scale A 1.5]
+[move A Y -100]
+[say A]
+[serif on]
+そうなの？こうするのが、大人なのかなって
+思ってたから……[shake A][se cloth_01]/
+[face A 00]
+お兄さん、あのね……/
+[face A 06]
+[talkend]
+[textcolor ARUJI]
+丹波はもじもじしながら話し始めた。[shake A]/
+[face A 01]
+[say A]
+その、ぼ、僕
+お兄さんに話しておきたいことがあるんだ。/
+[serif off]
+?どうしたの？/
+[face A 04]
+[talk A]
+[serif on]
+この荘園って、いろんな人がいるけど……
+僕……静かに過ごすのが好きなんだ……/
+[face A 00]
+[flow]
+だから、部屋割りとか当番とか……
+できたら大人の人と一緒がいいなって/
+[face A 06]
+大人の人って、一緒にいると落ち着くし
+安心できるんだ……/
+[talkend]
+丹波はチラリとこちらを見た。/
+[serif off]
+?丹波は大人っぽいところがあるんだね/
+[face A 06]
+[talk A]
+[shake A]
+[serif on]
+えっ？　ぼ、僕は……まだまだ
+大人だなんて言えないけど……/
+[face A 00]
+[flow]
+早く大人になりたいから、騒いだりしないで
+訓練も真面目にやるよ！/
+[serif off]
+[flow]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+[face A 01]
+実は、筋肉を鍛える訓練を増やしてて……
+ほら、少しは腕、太くなったんだ！[face A 02]/
+[textcolor ARUJI]
+[talkend]
+丹波は力こぶを作った。もともと太い腕だが
+確かに、ぽっこりしてるところがある。/
+[serif off]
+?丹波の一番太いところを触る/
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[-]
+[face A 06]
+[shake A]
+[-]
+[serif on]
+[say A]
+ひゃっ！　お、お兄さん……
+ちょっとびっくりした……くすぐったいよ……[face A 02]/
+[textcolor ARUJI]
+[talkend]
+[face A 03]
+握ると固く、弾力があり、しっかりと
+芯を感じるようだった/
+?すごく立派だね！/
+[face A 05]
+[shake A]
+[say A]
+[serif on]
+えっ！？　あ、ありが……とう、へへ……[face A 02]/
+[face A 01]
+お兄さんに褒められると、なんだか
+嬉しいな……/
+[face A 07]
+僕も早く、お兄さんみたいになりたい……
+この部屋からも、大人の人のにおいがするし……[shake A]/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+部屋に何か臭うものがあるかと少し心配だったが
+丹波は大人というものに憧れているのだろう。/
+[serif off]
+[show A]
+[face A 00]
+[scale A 1.5]
+[move A Y -100]
+[-]
+[move A Y -30 0.2]
+[delay 0.2 move A Y 130 0.5]
+[-]
+[serif on]
+[say A]
+それじゃあ、僕、そろそろ行くね……
+お兄さん、今日はありがとう。/
+[face A 01]
+よかったらさっきのこと、考えておいてね……
+それと、これから、よろしく……！[face A 02]/
+[move A X 100 0.4]
+[hide A]
+[talkend]
+[se fusuma_02]
+[-]
+[textcolor ARUJI]
+[bg bg_black 2.0]
+丹波は照れくさそうに
+そう言い残し、去っていった。/
+[textcolor ARUJI]
+[flow]
+できるかはわからないけど、大人らしさを
+伝えてあげられたらいいなと思った。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_tnb_r 丹波]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 負けず嫌いな丹波]
+[-]
+[bg bg_heya_light]
+[fadeout]
+[bgm night]
+[-]
+[se fusuma_01]
+[show A]
+[face A 00]
+[-]
+[say A]
+[serif on 0.5]
+お兄さん……任務の報告書、持ってきたよ。
+あ、忙しかったかな……？/
+[talkend]
+[hide A]
+[se jara_01]
+[textcolor ARUJI]
+ロクハラの購買でオセロを買ったので
+試しに一人で盤面を並べていたところだった。/
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[face A 01]
+[say A]
+これ、初めて見る……
+現代の大人の遊びなのかな……/
+[effect fr kira a 0 0]
+[se kira_01]
+なんだかおもしろそう……
+お兄さん、僕にやりかた、教えてくれる……？/
+[serif off]
+[hideall]
+?丹波にルールを教えてあげる/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[effect off a]
+[-]
+[autotap]/
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[face A 08]
+[fadeout 1.0]
+[-]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+……っくぅ、もっと……こう？[shake A]
+ここが、いいかな……
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+[talkend]
+[textcolor ARUJI]
+丹波はすぐに遊び方を理解した。
+だが……/
+[say A]
+[face A 05]
+[shake A]
+あっ、あっ、そんなとこ……
+だめっ……あぁっ……/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ま、負けちゃった……/
+[talkend]
+[textcolor ARUJI]
+やはり覚えたてだからか、今のところ
+実力は自分のほうが上みたいだ。/
+[say A]
+……うう……/
+[face A 03]
+……[wait 0.5]お兄さん、もう一回。/
+[talkend]
+[textcolor ARUJI]
+丹波の瞳には闘志が満ちていて
+気軽に断れない雰囲気だ。/
+[face A 04]
+[flow]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、そうだ……今度は僕が先手でもいい？
+さっきは、お兄さんが先で、負けちゃったし……/
+[serif off]
+?いいよ/
+[bgm battle]
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+それじゃあ、いくよ。/
+[serif off]
+[talkend]
+[textcolor ARUJI]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+丹波は一手ごとに、
+じっくり考えながら黒石を置いていく。/
+[face A 03]
+[talk A]
+[serif name]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[say A]
+次は、はじっこ…………[wait 1.0]……えっと次は……[move A Y -10 0.4][delay 0.4 move A Y 10 1.0][wait 0.5][face A 02]ここ！
+へへ、上手くめくれた……！/
+[talkend]
+[textcolor ARUJI]
+勝負は黒石の丹波が優勢に見えた……が。/
+[serif off]
+?もらった/
+[face A 05]
+[talk A]
+[shake A]
+[say A]
+[se taiko_02]
+[-]
+[serif on]
+あっあっあっ！[shake A]
+だめ、そこ……っ。/
+[talkend]
+[shakebg]
+[hide A]
+[textcolor ARUJI]
+盤面の黒石が次々と白石に変わっていく。/
+[serif off]
+[effect fr syutyu a 0 0]
+[show A]
+[scale A 1.5]
+[move A Y -100]
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[face A 06]
+[talk A]
+[-]
+[serif on]
+[shake A]
+[say A]
+そ、それも……！？[wait 0.5]
+あ、ああっ……、[wait 0.5]………[wait 0.5]………/
+[hide A]
+[talkend]
+[bgm off]
+[effect off a]
+[textcolor ARUJI]
+そのまま丹波は状況をひっくり返せず、
+ゲームは終了した。/
+[serif off]
+?（また勝った）/
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[face A 03]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[say A]
+[serif on]
+はぁ、はぁ、く、くそぉ……/
+[face A 09]
+[bgm battle]
+お、お兄さん！[shake A]　もう一回、したい……/
+[serif off]
+?えっ/
+[shakebg]
+[serif on]
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[effect fr syutyu 2000]
+負けたまま終われない……お兄さん、もう一回！[shakebg][se taiko_02]/
+[serif off]
+?（勝たせてあげようかな……）/
+[bg black 0.5]
+[minibg emo_donyori 0.5]
+[serif on]
+お兄さん、
+わざと負けたら、許さないから……/
+[flow]
+[face A 08]
+大人同士でするみたいに、
+僕と本気で勝負してね……！/
+[hide A]
+[serif off]
+?……/
+[quake 1]
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[bg heya_light 0.5]
+[minibg off 0.5]
+[face A 09]
+[-]
+[serif on]
+[effect fr syutyu a 0 0]
+あっ！　お兄さん、なんで、そんな
+僕の弱いところわかるの……/
+[flow]
+[face A 06]
+あ、だめ、まって……[shake A]
+ああ～～～っ[shake A 3 5 5]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[quake off]
+[effect off a]
+[scale A 1.0]
+[move A Y 100]
+[bgm night]
+[face A 04]
+[wait 1]
+[-]
+[fadeout 1.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on 0.5]
+また負けちゃった……
+お兄さん、やっぱりすごいんだね……/
+[face A 06]
+僕、大人のひとたちみたいになりたくて、
+いっぱい鍛えてるけど……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+こういう遊びは、頭も鍛えなきゃいけないんだね。
+すごく……大変だな……[face A 04]/
+[serif off]
+?すぐ丹波の方が強くなるよ/
+[face A 05]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[-]
+[serif on]
+ほんと？[shake A]
+……ほんとに、そう思う？/
+[flow]
+[face A 01]
+じゃあ、強くなる秘訣……教えてよ。
+どうしてそんなに強いの？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+それはもちろん、コツやセオリーなんかも
+あるにはあるが……/
+[serif off]
+?丹波のこと考えてるからかな/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[shake A]
+[face A 05]
+[serif on]
+[say A]
+えっ！
+ぼ、僕のこと……？/
+[serif off]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+…………じゃ、じゃあ僕も……
+お兄さんのこと考えながらやれば強くなれるかな。/
+[face A 07]
+[flow]
+………………/
+[talkend]
+[textcolor ARUJI]
+目を閉じて何か考えている様子の丹波。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+…………すぅ……/
+[serif off]
+[shakebg]
+?突然部屋の匂い嗅がないで……！？/
+[shakebg]
+[face A 06]
+[say A]
+[serif on]
+だ、大事なことなんだ。[shake A]
+お兄さんのこともっと知りたいし……/
+[flow]
+[face A 08]
+お兄さんに勝つためにはお兄さんのことを
+考えながらじゃないと駄目だから……/
+[face A 02]
+次は勝てる気がする……
+お兄さん、もう一回勝負しよ。/
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[face A 01]
+約束通り、真剣勝負だよ。
+勝てるまで僕……諦めないから……[face A 02]/
+[fadein black 2]
+[autotap]/
+[quake off]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+[-]
+果たして丹波とのオセロ勝負は、
+いつまで続くのだろうか……/
+[textcolor ARUJI]
+そう思いつつも、丹波と過ごすこの時間を
+とても楽しく感じていたのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

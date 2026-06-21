@@ -1,0 +1,462 @@
+>>10000/
+[serif on]
+@白布
+ぼくは白布！　[wait 2]
+いつかこの世界をぼくの純白の衣で満たしてやんぜ。　[autotap]/
+[delay 4.1]
+[flow]
+[-]
+@白布
+って、おぉぉ！？　きみ、いい体型してんな……[autotap]/
+[delay 6.1]
+[flow]
+[-]
+@白布
+ぐふっ、ぐふふっ、
+インスピレーションが湧いてきたぜぇっ！　/
+>>1/
+/
+/
+/
+>>2/
+/
+/
+/
+>>3/
+/
+/
+/
+>>4/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[show B]
+[setline A B]
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぁーおはよ……
+布団をたたんで、っと、おおお！[shake A][se cloth_06][face A 05]/
+[flow]
+[face B 05]
+[face A 01]
+この真っ白で身を優しく包んでくれるシーツ……
+こういう服はどうだろう。アイデアが湧いてきた！[se taiko_02]/
+[rotate B -10 0.5]
+[move B X 100 0.5]
+[effect fr syutyu a 0 0]
+[face A 03]
+[move A X 200 0.3]
+[face B 03]
+[se cloth_01]
+この布、使わせてもらってもいいか！？
+すぐ作りたいんだ！[shake A][shake B]/
+>>5/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし -a019]
+[show A C]
+[show B]
+[setline A B]
+[face B 00]
+[face A 00]
+[serif on]
+[talk A]
+$B:A、これから任務か？
+おおっ、それはぼくの新作の[= 下着 ぶりぃふ 肌着 パンツ]！[face B 06][face A 01][move A X 100 0.3][move B X 50 0.5]/
+[face A 01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[se cloth_06]
+履いてるところをもっと見せてくれ！
+ぐふふ……っ。こんなに使い込んでくれて嬉しいぜ！/
+[face A 02]
+[shake A]
+[se cloth_01]
+また作ってやるからな！/
+>>6/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[show B]
+[moveline A B 1000 0 0]
+[move B X -2000 1]
+[face B 05]
+[-]
+[move A X -1000 0.5]
+[face A 03]
+[-]
+[serif on]
+[talk A]
+$B:A、なんで逃げるんだ〜！[shake A]/
+[face A 06]
+みんなぼくの口が悪いっていうけどさ、
+いいものはちゃんと「いい」って認めるぞ！/
+[face A 03]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[se cloth_06]
+だからファッションチェックさせろ〜！[shake A 2 5 5]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_a019_r 白布]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+炊き立ての白いご飯、美しいぜ。
+いただきまーす！！/
+[face A 02]
+お、卵かけご飯もうまそうだな。
+よーし、卵をかけて……っと。/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ああっ！　真っ白なご飯が卵で黄色く
+なっちゃったぜぇ！！[se zukkoke_02]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[se eat_01]
+……でもうめぇ……/
+>>10/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[face A 01]
+[show B]
+[setline B A]
+[face B 06]
+[serif on]
+[talk A]
+ほんといい体型だよな。ぐふふ。
+さぁきみの最高の一着を作ってやる！/
+[face B 05]
+[move B X -200 0.3]
+[face A 03]
+もっと正確に測りたいから全部脱げ！[shake A]
+下履きもだ！　ぐふっ、ぐふふっ。[face A 01][face B 06]/
+>>11/
+[set A s_a019_r 白布]
+[randomset B r @ショタ -a019]
+[randomset C r -@ショタ -a019]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+ぼくの白ぶりぃふが一番似合うのは誰かな？
+うーん……/
+[show B L]
+[show C R]
+[face B 00]
+[face C 00]
+[face A 01]
+[talk A]
+小さい子に履かせるのも王道だけど
+大きい子に履かせるのも、またおつなもんだよなぁ！/
+[face B 06]
+[face C 06]
+[face A 02]
+[shake A]
+ぐふ、[shake A]ぐふふ……[shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_a019_r 白布]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+こんなに周りに他人がいて、どうやって
+発散しろってんだ〜？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+絹太郎とふたりのときは楽だったんだけどな……/
+>>15/
+[set A s_a019_m 白布]
+[randomset B m @地魂男児 @あやかし -@NPC -a019]
+[randomset C m @地魂男児 @あやかし -@NPC -a019 -@NOW]
+[show B]
+[show C]
+[setline B C]
+[face B 08]
+[face C 03]
+[scale B 1.6]
+[scale C 1.6]
+[moveline B C 0 -120 0]
+[effect fr katanas 6000 0 0]
+[shakebg]
+[se katna_02]
+[delay 0.3 se katana_03]
+[-]
+[wait 0.5]
+[show A C]
+[move A X 1000]
+[moveline A B C -1000 0 0.5]
+[face A 02]
+[-]
+[serif on]
+[talk A]
+[shake A]
+おお。ふたりともいい感じじゃないか！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+ふたりの服をちょっと調整してやったんだ。
+格段に動きがよくなったぜ。さすがぼくだ！/
+>>16/
+[set A s_a019_m 白布]
+[randomset B m @地魂男児 @あやかし -a019]
+[show A C]
+[show B]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[face B 08]
+[face A 08]
+[effect fr syutyu a]
+[setline B A]
+[rotate A 15]
+[rotate B -15]
+[shakebg]
+[se doka_01]
+[orderline A B]
+[delay 0.3 se doka_01]
+[delay 0.3 fadein WHITE 0.2]
+[delay 0.5 fadeout 0.3]
+[-]
+[se cloth_06]
+[serif on]
+[talk A]
+[se cloth_01]
+ぼくだって戦えるんだからな。へへ。/
+[scale A 1 0.5]
+[scale B 1 0.5]
+[moveline A B 0 120 0.5]
+[face A 06]
+[face B 00]
+[rotate A 0 0.5]
+[rotate B 0 0.5]
+[effect off a]
+[move A X 100 0.5]
+[move B X -100 0.5]
+[face B 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ！　中断！　$B:Aの服、ほつれがあるぜ！
+ちょっと縫わせてもらうぜ！　ちくちくちくっと！/
+>>17/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[move A Y -50 0.5]
+むむっ、白ぶりぃふが脱ぎ捨てられてやがる！
+誰のだ〜？　うーん。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 02]
+[se cloth_01]
+この大きさ、この匂い、この感じ……ぐふふ……
+きっと$B:Aだな！[se taiko_02][shakebg]/
+>>18/
+[set A s_a019_r 白布]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[se amb_12]
+[effect fr yuge a 0 0]
+[se bath_01]
+この荘園はいい匂いの入浴剤が多いからな
+毎日楽しいぜ！/
+[face A 02]
+[se bath_01]
+おお、[= ひのき ラベンダー ジャスミン 森]の香りかぁ！
+うっとりしちまうぜぇ！/
+>>19/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A]
+[show B C]
+[face A 01]
+[face B 00]
+[se amb_12]
+[effect fr yuge a 0 0]
+[serif on]
+[se bath_05]
+[talk A]
+[setline A B]
+[moveline A B 0 -100 0]
+[orderline A B]
+ぼくの体もちゃんと全身綺麗に洗うんだっ。
+ふふん！/
+[face B 06]
+[face A 06]
+えっ、ちゃ、ちゃんと洗ってるだろ。[shake A]
+刺激が強いから優しくやってるだけで……/
+[face A 03]
+[face B 05]
+[move A X 159 0.3]
+[move B X 50 0.3]
+[se bath_05]
+きみこそ、こうやって洗わないとだめなんだぞ〜
+うりゃうりゃあ！[shake A]/
+>>20/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[face A 08]
+[se pee_01]
+[scale A 1.6]
+[move A Y -120]
+[show B R]
+[scale B 1.6]
+[move B Y -120]
+[setline A B]
+[face B 00]
+[talk A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふりふりっと……これでよし。
+/
+[face A 01]
+[face B 05]
+きみ。もっとしっかりと水を切らないと前当てが
+汚れちまうぞ？　[se zukkoke_01]ま、それも侘び寂びだけど。[face B 06]/
+>>21/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[move A X 1000]
+[move A X -1000 0.3]
+わぁあ、あ、あぶない、間に合ったぜ……
+ふぅーすっきり！[se pee_01][shake A]/
+[show B R]
+[move B X 100]
+[face A 00]
+[face B 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ん？　$B:A、なんでこんなとこで白ぶりぃふを
+洗ってんだ？/
+[setline 0.5 A B]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 06]
+へへ、もしかして〜〜！　ぐふふ。
+そんな慌てなくたって、普通のことだって！/
+>>22/
+[set A s_a019_r 白布]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -160]
+[serif on]
+[talk A]
+おお、この水が出てくるやつ、すげぇじゃねぇか！
+ぐふふ……現代人の執念だな。/
+[face A 06]
+綺麗なものが汚れていくのもまた味わいがあるけど
+現代の人間はとにかく綺麗に整えたがるよなぁ。/
+[face A 02]
+[shake A]
+[se water_01]
+もっと水の勢い強くしてみよっと。
+うおぉお！[effect bk splash 6000 0 0]/
+>>23/
+[set A s_a019_r 白布]
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 06]
+[serif on]
+[talk A]
+こ、この本はなんだぁ！？[shake A][se paper_01]
+おお、おお……ぐふ、ぐふふ……[face A 01]/
+[face A 03]
+[effect bk waveout 6000 0 0]
+現代には刺激が多すぎるぜ。
+インスピレーション沸きまくりだぁ！[se fire_01]/
+>>24/
+[set A s_a019_r 白布]
+[show A C]
+[face A 01]
+[serif on]
+[rotate A 30 0.5]
+[se dosa_01]
+[move A Y -100 0.5]
+[talk A]
+まっしろな布団、気持ちいいぜ〜。
+はぁ、今日も頑張ったなぁ……/
+[face A 07]
+[se cloth_01]
+寝てる間にいいアイディア浮かんでこいよ〜。
+明日が楽しみだぜ、おやすみぃ。ぐぅ……/
+>>25/
+[set A s_a019_r 白布]
+[show A C]
+[face A 02]
+[serif on]
+[rotate A 30]
+[move A Y -50]
+[talk A]
+うわぁ、ロクハラのみんなが、ぼくの白ぶりぃふを
+履いているぞぉ！　ぐふ、ぐふふふ……[shake A]/
+[face A 07]
+[talkend]
+いい夢を見ているようだ。/
+>>26/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[face A 06]
+[serif on]
+[show B R]
+[face B 07]
+[rotate B -50]
+[move B Y -50]
+[talk A]
+んん〜？　あっ、$B:A……！[shake A][se cloth_01]
+寝巻きがはだけてて、ぱんつが丸見えじゃねぇか。/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 03]
+こんなの見てたら落ちつかねぇって〜！[shake A]/
+[se cloth_06]
+[face A 06]
+[move A XY 10 -50 0.4]
+[rotate A -10 0.3]
+もっと近くで見てやる！
+はだけさせてるお前が悪いんだからなぁ！[shake A]/

@@ -1,0 +1,1732 @@
+>>10000/
+@甲斐
+我是甲斐，來自東海道。你是誰？[wait 3.2]
+啊？老闆？
+[autotap]/
+[delay 1.8]
+[flow]
+[-]
+@甲斐
+哦，嘿，這是甲斐。
+呵呵，我會努力的。/
+>>10001/
+@甲斐
+老闆！　[wait 0.5]最[wait 1.0]
+你可以叫我甲斐！[wait 1]　誒嘿嘿。/
+>>1/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 11]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[scale A 1.3 0.3]
+[move A Y -50 0.3]
+[-]
+[serif on]
+[talk A]
+哦，老闆！要不要我揉你的肩膀？
+[face A 10]真是相當詳盡啊！/
+[face A 12]
+你一定很累了，不是嗎？
+[face A 14]我需要泡個溫泉放鬆一下。/
+[scale A 1.5 0.1]
+[move A Y -50 0.1]
+[face A 10]
+順便問一下，你知道信玄君的隱藏溫泉嗎？
+[face A 14]下次我會告訴你最適合你的溫泉。/
+>>2/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 10]
+[serif on]
+[talk A]
+說到日本最高的山峰，
+這是富士山！/
+[face A 14]
+它又大又酷......！
+[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]嘆息.../
+[effect fr syutyu 2000 0 0]
+[scale A 1.5 0.1]
+[move A Y -60 0.1]
+[-]
+[shake A 3]
+[face A 11]
+對甲斐來說，老闆就像富士山。
+它存在...[face A 10]誒嘿嘿……！/
+>>3/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 10]
+[serif on]
+[talk A]
+在竹川町實相寺境內，[wait 0.1]它的名字叫神大櫻。
+有一棵美麗的櫻花樹，據說已有2000年的歷史。/
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+它是由大和武命種植的。
+也有傳說。/
+[face A 14]
+甲斐的櫻花與傳奇英雄有關。
+如果我能和我的英雄老闆一起看的話...[wait 0.2]什麼.../
+[scale A 1.5 0.1]
+[move A Y -60 0.1]
+[face A 05]
+啊？[wait 0.2]　一起？/
+[face A 11]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+哦，我太高興了！ ！[shake A 3]/
+[face A 10]
+那你什麼時候去？無論明天或現在
+甲斐 準備好了！/
+>>4/
+[set A s_kai_r 甲斐]
+[randomset B r -kai -@NPC]
+[show B]
+[show A C]
+[setline A B]
+[face A 08]
+[face B 00]
+[-]
+[serif on]
+[talk A]
+嘿。$B:A。給我一點麻煩吧。[shake B][face B 05]
+就是這樣！[face A 03]　那很好！ ！[shake A]/
+[move A X 50 0.2]
+[face A 09]
+[face B 04]
+....前幾天你的老闆稱讚你了。
+嗯，你是怎麼做到的？[face A 03][shake A]　告訴我！請！[face A 13][shake A]/
+>>5/
+[set A s_kai_r 甲斐]
+[randomset B r -kai]
+[show A C]
+[face A 04]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+[talk A]
+這是什麼？$B:A難道是遺失的物品…？
+[face A 06]有很多人聞起來像腐爛的人。/
+[flow]
+[face A 00]
+嗯，沒關係。畢竟...
+我[face A 01]我會保護你。/
+>>6/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[shake A 2]
+啊……我餓了……
+浩哥正在吃…/
+[flow]
+[face A 11]
+真希望能跟老闆一起吃啊……！
+[wait 0.5]....我們走吧...[face A 02][wait 0.3]我在笑！/
+>>7/
+/
+/
+>>8/
+/
+9/
+>>9/
+[set A s_kai_r 甲斐]
+[randomset B r -kai]
+[show A C]
+[show B]
+[face B 01]
+[setline B A]
+[orderline A B]
+[face A 05]
+[talk A]
+[-]
+[serif on]
+哦，這茶
+非常好吃，不是嗎？/
+[flow]
+[face B 02]
+[face A 02]
+謝謝！
+$B:A！我再問你一下！/
+>>10/
+[set A s_kai_r 甲斐]
+[randomset B r -kai]
+[show A C]
+[face A 05]
+[-]
+[effect fr kira 4000 0 0]
+[se kira_01]
+[serif on]
+[talk A]
+……哦……等一下$B:A攜帶行李
+如果你幫了我，我就得到一些零用錢…/
+[flow]
+[face A 01]
+[shake A 2]
+也許這...
+[wait 0.3]說不定還能賺點錢呢……！ ？/
+>>11/
+[set A s_kai_r 甲斐]
+[randomset B r -kai]
+[show A C]
+[show B C]
+[face A 00]
+[face B 04]
+[say A]
+[setline B A]
+[orderline A B]
+[-]
+[serif on]
+啊？　$B:A你在做什麼？/
+[face A 08]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[= 缶切りが見つからねぇ 栓抜きが見つからねぇ ハサミが見つからねぇ 箱が開かねぇ 箱の鍵を失くした]？
+……哈，沒關係。借給我吧。/
+[move B X 100 0.5]
+[delay 0.2 move A XY -10 -20 0.4]
+[delay 0.2 rotate A 10 0.3]
+[delay 0.6 move A XY 10 20 0.3]
+[delay 0.7 rotate A 0 0.3]
+[-]
+[face A 03]
+[face B 05]
+噢耶！ ！ ！[shake A 2 5 5][se crash_04][shakebg]/
+[face A 00]
+[face B 01]
+[effect B kira a 0 0]
+[se kira_01]
+嗯。
+我不可能這麼容易開啟它。/
+[face A 06]
+[move A X 100 0.2]
+什麼？這也是為了老闆著想啊！
+再見！/
+[move A X 600 0.3]
+[hide A]
+[se walk_03]
+[-]
+[autotap]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_kai_r 甲斐]
+[randomset B r -kai]
+[show A R]
+[face A 06]
+[move A X -400 0.3]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+嘆息...[wait 0.3]這樣的……老闆……
+/
+[flow]
+[face A 04]
+$B:A和
+氣氛異常的好…/
+[flow]
+[face A 13]
+我永遠不會輸……！
+我是老闆最寵愛的老虎！[shake A 3]/
+>>15/
+[set A s_kai_m 甲斐]
+[show A C]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+耶！
+您想緩解平日的煩惱嗎？/
+[flow]
+[face A 03]
+稻草人從一側
+我會把你吹走！/
+[face A 10]
+[flow]
+老闆！[shake A]　甲斐辛苦了...
+請注意！ ！/
+>>16/
+[set A s_kai_m 甲斐]
+[randomset B m -kai -@NPC -@あやかし]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[talk A]
+嘿！有人請來處理我吧！
+我幫你擦！/
+[flow]
+[show B R]
+[move B X 400]
+[moveline A B -400 0 1]
+[face B 08]
+[face A 08]
+[-]
+[move A X 150 0.5]
+$B:A或者...
+儘管我們在練習，[face A 03]我不會偷工減料。[shakebg]/
+>>17/
+[set A s_kai_b 甲斐]
+[randomset B b -kai -@NPC]
+[show A C]
+[face A 04]
+[show B]
+[face B 01]
+[setline A B]
+[talk A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+就是這樣...
+洗完澡後.../
+[flow]
+[face A 02]
+……我拿著斧頭仰望你嗎？[face B 05][shake B]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+[face B 04]
+[flow]
+什麼？　$B:A。
+你看起來也很熱。我要仰視你嗎？[face A 01]/
+[flow]
+[face A 02]
+[face B 05]
+[move B X 60 0.3]
+[move A X 50 0.2]
+別害羞！嘿！[shake A]　嘿！[shake A]/
+[move B X 400 0.5]
+[move A X 300 0.5]
+[hide B]
+[hide A]
+[autotap]/
+>>18/
+[set A s_kai_b 甲斐]
+[randomset B b -kai]
+[randomset C b -@NOW]
+[show A C]
+[show B]
+[show C]
+[face A 02]
+[face B 01]
+[face C 01]
+[setline B A C]
+[moveline A B C 0 -50 0]
+[effect fr yuge a 0 0]
+[se amb_12]
+[talk A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+嘆息[wait 0.3]熱水真好...
+[wait 0.3]....所以...[se water_07][face A 13][shake A 3 40 40][shakebg][face B 05][face C 05]繼續吧！ ！/
+[flow]
+[face B 05]
+[face C 05]
+[se bath_02]
+[face A 03]
+[move A Y 50 0.1]
+剛才有人踩到我的尾巴了！ ！
+[move A Y 100 0.1][delay 0.1 move A Y -100 0.2]挺身而出！ ！該死的！/
+>>19/
+[set A s_kai_b 甲斐]
+[show A C]
+[move A Y -50]
+[face A 00]
+[move A Y -50 0.8]
+[effect fr yuge a 0 0]
+[se amb_12]
+[-]
+[serif on]
+[talk A]
+……噗噗噗噗……/
+[flow]
+[face A 06]
+（嗯……不是今天。
+　我根本無法集中註意力…）/
+[flow]
+[face A 02]
+（我不能讓別人看到我這麼可憐的樣子，
+　看來我要先去洗澡了……）/
+[move A Y -10 0.5]
+布布布庫布庫.../
+>>20/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 12]
+[scale A 1.6]
+[move A Y -100]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se pee_01]
+[serif on]
+[talk A]
+嘆息...
+一下子就又要回來了…/
+[flow]
+[face A 10]
+請快點完成
+我得回去見我的老闆了！/
+>>21/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+嘆息……嘆息……
+媽的……我的身體……好熱……/
+[flow]
+[face A 09]
+我感覺自己的身體深處開始泛紅…
+媽的，好麻煩啊……這身體……/
+>>22/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 10]
+[move A Y -50]
+[-]
+[serif on]
+[talk A]
+不出所料，我的想法是
+僅限甲州山.../
+[flow]
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+我還放了空氣清新劑...[wait 0.3]好吧。
+[face A 10][move A Y 10 0.4][delay 0.4 move A Y -10 1.0]嘆氣…冷靜點…/
+>>23/
+[set A s_kai_r 甲斐]
+[-]
+[se door_01]
+[show A L]
+[face A 00]
+[move A X 300 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 10]
+[serif on]
+[talk A]
+[se kira_01]
+[effect fr kira 2000 0 0]
+……我覺得神清氣爽。/
+>>24/
+[set A s_kai_r 甲斐]
+[randomset B b -kai -@NPC]
+[show A C]
+[show B C]
+[setline A B]
+[rotate B 10]
+[move B Y -150]
+[orderline B A]
+[face B 07]
+[face A 12]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[say A]
+[-]
+[serif on]
+嘆息...
+只好睡在老闆不在的房間…/
+[flow]
+[face A 11]
+老大，甲斐永遠在你身邊。
+請打電話給我！/
+[face A 03]
+[move A X 150 0.5]
+[delay 0.2 move B X 100 0.5]
+[delay 0.7 shake B]
+[se cloth_01]
+$B:A，再靠近一點！
+它在我的蒲團裡！　哞！ ！[shake A][face A 13]/
+>>25/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[talk A]
+早安...
+辣.../
+[talkend]
+[shake A 2]
+他看起來睡得很香。/
+>>26/
+[set A s_kai_r 甲斐]
+[randomset B r -kai -@NPC]
+[show A C]
+[face A 13]
+[-]
+[serif on]
+[talk A]
+哈哈……老大……什麼時候啊？
+你會和甲斐一起睡嗎.../
+呃……這些無處可去的感情，
+甲斐 我該怎麼發洩…我沒辦法。[face A 09]。/
+[show B L]
+[orderline A B]
+[setline 0.5 B A]
+[say A]
+[face A 03]
+[face B 05]
+[-]
+[shake B]
+嘿嘿$B:A，如果他還沒醒，就對付他！
+我來揉揉你的蛋蛋吧！ ！/
+>>27/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 00]
+[-]
+[talk A]
+？ 甲斐，生日快樂！/
+[face A 11]
+[serif on]
+[effect fr bond a 0 0]
+[se kira_01]
+[shakebg]
+親！
+非常感謝！/
+[face A 10]
+[flow]
+[effect off a]
+其實今天是甲斐的特別日子，同時
+這也是甲斐的老虎武田信玄的生日！/
+[face A 12]
+[flow]
+看來這個日曆和現代日曆不一樣啊
+畢竟，我認為這個約會對甲斐來說是好事！/
+[face A 14]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+甲斐也是...高信玄的風林火山
+繼承我的思想.../
+[face A 11]
+[flow]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+我要永遠保護我的老闆。
+我在想！/
+[serif off]
+？謝謝你/
+[serif on]
+[face A 10]
+誒嘿嘿...不敢相信老闆竟然在感謝甲斐...
+深深感謝甲斐！/
+[face A 14]
+[se cloth_06]
+[scale A 1.6 0.2]
+[move A Y -120 0.2]
+... 老闆！今天是甲斐的特別日子...
+你介意只問我一件事嗎？/
+[face A 10]
+[talkend]
+[textcolor aruji]
+甲斐說著，張開雙手。
+我閉上了眼睛。/
+[serif off]
+？ 甲斐的頭/
+[playeryes]
+[se cloth_01]
+[shake A]
+[wait 0.2]
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 11]
+[say A]
+哇！哦，老闆的手掌！
+真暖和啊！/
+[face A 14]
+[effect off a]
+但是，呃...
+午餐！[shake A]/
+[face A 10]
+[talkend]
+[se cloth_01]
+[textcolor aruji]
+然後，這次我閉上眼睛
+他朝我微微抬起頭。/
+[serif off]
+？用雙手撫摸甲斐的臉頰/
+[playeryes]
+[se cloth_01]
+[shake A]
+[wait 0.2]
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 11]
+[say A]
+呵呵，老大！
+甲斐的臉頰感覺怎麼樣…/
+[effect off a]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 14]
+唉，甲斐，甲斐好幸福…
+不過老大，你再說一次！/
+[face A 10]
+[talkend]
+[textcolor aruji]
+甲斐閉著眼睛說。
+他轉向我，張開雙手。/
+[serif off]
+擁抱？ 甲斐/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[face A 05]
+[-]
+[shake A]
+[wait 0.5]
+[serif on]
+[say A]
+~~~~~~~~~！哦，哦...[face A 11][effect fr bond 5000 0 0]
+呀呀呀呀呀呀呀呀呀呀！ ！ ！[shake A 3 10 10]/
+[talkend]
+[se cloth_01]
+[textcolor aruji]
+甲斐也用手臂摟住你。
+他緊緊地擁抱著我。/
+[face A 10]
+[flow]
+[say A]
+[se kira_01]
+其實我本來是想接吻的，但是…
+儘管如此，甲斐還是個幸福的人！ ！[shake A]/
+>>100/
+[set A s_kai_r 甲斐]
+[set B s_n000_r 猫乃屋]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 甲斐の裏表]
+[-]
+[bg shirei_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+下午晚些時候。
+他正在和貓之屋一起打掃指揮室。/
+[talkend]
+[shakebg]
+[textsize 40]
+@？？？
+啊？
+到底是什麼啊！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[textcolor ARUJI]
+[serif on]
+我聽到走廊傳來一聲叫喊。
+我去看的時候.../
+[show A C]
+[show B C]
+[setline A B]
+[face A 08]
+[face B 08]
+[bgm fun]
+[wait 0.5]
+[-]
+[say B]
+那很好。只是提著稍微重一點的東西
+請幫助我。這是一個地魂少年！/
+[effect fr syutyu a 0 0]
+[face A 03]
+[say A]
+我不訓練，所以我很忙！[shake A]/
+[flow]
+我沒時間擔心這點！
+閉嘴！ ！[shake A][se zukkoke_01]/
+[effect off a]
+[hide A]
+[face B 10]
+[say B]
+你睡在走廊！
+嘿，小弟，也請幫我一個忙。[face B 04][shake B]/
+[serif off]
+？嗯.../
+[hide B]
+[-]
+[show A C]
+[face A 08]
+[say A]
+[-]
+[serif on]
+哦？你是誰？[wait 0.3]
+好像在哪裡看過...[face A 09]/
+[serif off]
+？我是你的主人！/
+[shake A 3 5 5]
+[autotap]/
+[serif on]
+[face A 05]
+嘿！ ？
+噢，老大……！ ？/
+[face A 13]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+嘿，對此感到抱歉！這是來自東海道的甲斐！/
+[se kira_01]
+[effect bk kira a 0 0]
+[face A 10]
+老闆，今天過得怎麼樣？　
+我也來揉揉你的肩膀吧？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 14]
+甚至更多...甲斐的嚼勁
+玩得開心.../
+[face A 10]
+[flow]
+呵呵，甲斐總是可以的！/
+[serif off]
+？你能幫我暫時搬運一下行李嗎？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[effect off a]
+[serif on]
+[face A 10]
+當然！
+很便宜！好的！
+[move A XY 10 -100 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 100 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_04]/
+[show B C]
+[face B 05]
+[move B X 1000]
+[moveline A B -1000 0 1]
+[hide A]
+[-]
+[say B]
+哇，太棒了。
+輕鬆搬運堆積如山的行李…/
+[serif off]
+？ 甲斐很強。/
+[hide B]
+[-]
+[show A C]
+[face A 11]
+[say A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[serif on]
+這麼多錢對我老闆來說算什麼？
+老闆，你要去哪裡？/
+[show B C]
+[orderline A B]
+[move B X 800]
+[move B X -400 0.5]
+[face B 01]
+[say B]
+那麼，就帶著它去吧！/
+[move A X -400 0.5]
+[autotap]/
+[face A 10]
+[say A]
+是的♪/
+[scale A 1.6 0.3]
+[scale B 1.6 0.3]
+[setline 0.3 A B]
+[rotate B -20 0.4]
+[moveline A B 0 -130 0.3]
+[quake 2]
+[effect fr syutyu a 0 0]
+[face A 03]
+[face B 05]
+[se crash_03]
+嘿嘿！別聽我的！
+我才不帶你呢！/
+[face B 04]
+[say B]
+[shake B]
+哎呀，我好害怕，這傢伙到底是啥啊……/
+[face A 12]
+[say A]
+[move A X 100 0.3]
+[move B X 30 0.4]
+[rotate B -25 0.4]
+我是說，你是誰？
+不要打擾你和老闆在一起的寶貴時間！/
+[quake off]
+[effect off a]
+[serif off]
+？以防萬一……學長？/
+[rotate B 0 0.5]
+[move A X -50 0.5]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[serif on]
+[face B 09]
+[face A 05]
+[say B]
+沒錯！我是你們老闆的前輩！
+尊重我！/
+[face A 12]
+[say A]
+是啊…
+……嘖！[face A 09][shake A]/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 10]
+[say B]
+你一定已經多次咂舌了吧…/
+[serif off]
+?小心不要損壞你的行李。/
+[face B 08]
+[serif on]
+[face A 10]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+是的♪
+老闆的貴重行李！我會好好帶著它的！/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[hideall]
+[bg shirei_day]
+[-]
+[bgm home]
+[fadeout 1.5]
+[-]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+超出我的預期，感謝甲斐
+收拾工作很快就完成了。 ]/
+[serif off]
+？ 甲斐，謝謝/
+[serif on]
+[show A C]
+[face A 10]
+[say A]
+請隨時使用！/
+[face A 11]
+獻給甲斐的老闆
+這個甲斐會賭上性命拼盡全力！/
+[effect bk love a]
+[scale A 1.6 1]
+[move A Y -130 1]
+[autotap]/
+[face A 14]
+所以，無論如何，請告訴我吧♡/
+[face A 10]
+那麼，從今晚開始，我就去boss的房間。
+我們走吧？/
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[autotap]/
+[face A 11]
+甲斐是老虎，體溫很高，不需要加熱！
+你看……請檢查一下。[face A 14]/
+[serif off]
+？ H-如果需要的話我會打電話給你！/
+[effect off a]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[face A 12]
+哎呀，我跟老闆合不來…
+但甲斐正在等待！[face A 11]/
+[se fusuma_01]
+[hide A]
+[-]
+[show B L]
+[move B C 0.5]
+[face B 01]
+[say B]
+哦*P。
+我已經報告了清理工作。/
+[serif off]
+？謝謝你的辛勤工作。/
+[serif on]
+[face B 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哎，甲斐也累了！
+感謝你，我得救了！/
+[show A R]
+[move A X 500]
+[move A X -300 0.5]
+[face A 08]
+[say A]
+[orderline A B]
+………………/
+[quake 2]
+[bgm fun]
+[bg black 0.3]
+[minibg emo_ikari 0.3]
+[light down 0.3]
+[lightcolor red 0.3]
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.3]
+[scale B 1.6 0.3]
+[setline 0.3 B A]
+[rotate B 20 0.4]
+[move A X -150 0.3]
+[moveline A B 0 -130 0.3]
+[face A 03]
+[face B 05]
+[se crash_03]
+嘿，你是我老闆的前輩，並不代表你的身體狀況就很好。
+嘿！因為我是最好的老闆！哼！/
+[quake off 0.5]
+[hide A]
+[bg shirei_day 0.5]
+[minibg off 0.5]
+[light off 0.5]
+[lotate B 0 0.5]
+[autotap]/
+[face B 04]
+[talkend]
+這就是為什麼聲音很大！為什麼說*P？
+請叫我可愛！ ？/
+[hide B]
+[effect off a]
+[-]
+[show A C]
+[face A 03]
+[say A]
+只有老闆是特別的！[shake A]
+嘿老闆♡[face A 10][effect bk bond 4000 0 0][scale A 1.6 0.5][move A Y -130 0.5][se kira_01]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+甲斐顯然有兩面性。
+這很有趣。/
+[textcolor ARUJI]
+——因為這是一件大事。
+我想也許下次我應該問她一些事情。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_kai_r 甲斐]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 甲斐とピクニック]
+[-]
+[bg gozasyo_day]
+[bgm journey]
+[-]
+[fadeout 1.0]
+[-]
+[wait 1.5]
+[-]
+[fadein BLACK 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+今天我鍛鍊了身體，到後山散步。
+我本來想去.../
+[show A C]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[effect fr syutyu a 0 0]
+[face A 11]
+[say A]
+老闆！你要去哪裡？ ？
+甲斐陪你一起！/
+[fadein BLACK 0.5]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+於是，我突然
+我最後和甲斐一起野餐。/
+[serif off 1.5]
+[-]
+[hideall]
+[bg sandou]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[se amb_10]
+[show A C]
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[say A]
+[serif on]
+老闆。我們快到山頂了！
+誒嘿嘿嘿嘿.../
+[talkend]
+[textcolor ARUJI]
+雖然我只是在爬山
+甲斐 笑得比以前更開心了。/
+[face A 11]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[say A]
+老闆！是不是很累啊！ ？
+甲斐隨時給你擁抱！/
+[face A 14]
+[flow]
+我會帶你直達山頂
+你能做到！/
+[serif off]
+？那麼散步就沒有意義了。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 10]
+誒嘿嘿，原來如此。 甲斐是老大
+只要一起走我就很開心了/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[face A 05]
+啊，當我這麼說的時候…[move A X 800 0.6]/
+[fadein BLACK 0.6]
+[serif off 0.6]
+[-]
+[light def]
+[lightcolor blue]
+[bg mbg_syouen]
+[minibg sky_day]
+[move A C]
+[scale A 1]
+[face A 11]
+[-]
+[fadeout 1.5]
+[se amb_13]
+[-]
+[serif on]
+[move A Y 120 0.5]
+哈哈，多麼好的景色啊！
+就可以看到莊園了！瞧，老闆。/
+[hide A]
+[talkend]
+確實，從這裡看到的景色是
+景色相當不錯。/
+[serif off]
+？我們現在吃午餐吧。/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+大樹下有樹蔭，
+看起來是個休息的好地方。/
+[talkend]
+[textcolor ARUJI]
+為了攤開便當盒，
+當我試著坐在一塊大小合適的岩石上時.../
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[move A X 1000]
+[move A X -1000 0.5]
+[delay 0.5 shake A]
+[face A 10]
+[say A]
+是的！那就坐到甲斐的腿上吧！[shake A][se taiko_01]/
+[talkend]
+[textcolor ARUJI]
+甲斐繼續前進，坐在岩石上。
+他把它拍在腿上。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 12]
+[say A]
+地面很髒，石頭上都是泥巴
+坐下來也沒什麼問題！/
+[serif off]
+？在石頭上沒關係。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+果然，坐在甲斐的腿上的是
+我為自己感到難過，於是我坐在附近的另一塊岩石上。/
+[show A C]
+[move A X 400]
+[move A X -400 0.5]
+[face A 13]
+[say A]
+啊啊啊~老大~已經…[face A 12]
+老闆是個很害羞的人.../
+[serif off]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.8 scale A 1.6 0.5]
+[delay o.8 move A Y -120 0.5]
+[-]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+[autotap]/
+[face A 08]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+甲斐抬起他坐的岩石，
+他坐在我旁邊。/
+[scale A 2 1.5]
+[move A Y -80 1.5]
+[autotap]/
+[face A 12]
+[say A]
+這裡只有老大和甲斐。
+不是有嗎？/
+[face A 14]
+如果你變得更主動一點就好了……？/
+[serif off]
+？關閉，關閉/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[serif on]
+是的！ 甲斐比誰都好
+我會在你身邊，老闆！/
+[talkend]
+[textcolor ARUJI]
+我不知道對話是否有效
+甲斐 看起來他很開心並且微笑著。/
+[serif off]
+[bgm off]
+？是的？在甲斐的肩膀上…/
+[face A 05]
+[say A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊？肩膀上.../
+[hide A]
+[talkend]
+[textcolor ARUJI]
+甲斐的肩膀上有一隻毛毛蟲。
+甲斐似乎是由於移動岩石的衝擊而從上面掉下來的。/
+[show A C]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[quake 2]
+[effect fr syutyu a 0 0]
+[say A]
+[bgm departure]
+[textsize 40]
+嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿嘿！ ！ ！
+我、我、我是毛毛蟲！ ！ ！ ！[shake A 3 10 10]/
+[flow]
+[move A X 400 0.3]
+哦哦，老闆！請幫我！ ！
+嗯嗯，動起來了！[move A X -600 0.3]/
+[effect off a]
+[quake off]
+[hide A]
+[talkend]
+[serif off]
+？是嗎？是這樣的反應嗎？/
+[show A C]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[quake 2]
+[effect fr syutyu a 0 0]
+[say A]
+[serif on]
+不！[shake A]　不！只有毛毛蟲！　
+連信玄大人也不擅長對付毛毛蟲！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 06]
+快點，快點！啊啊啊我不想看！
+但我能看到它在動！/
+[face A 13]
+老大~~~~！ ！ ！ ！[shake A 5 40 40]/
+[effect off a]
+[quake off]
+[hide A]
+[talkend]
+[serif off]
+？我想再看一點.../
+[show A C]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[quake 2]
+[effect fr syutyu a 0 0]
+[say A]
+[serif on]
+啊啊啊啊啊啊啊啊啊！ ？
+就是這樣！　你真是無可救藥！ ！ ！/
+[flow]
+啊啊啊啊啊啊！ ！[shake A 5 40 40]/
+[talkend]
+[serif off]
+？我來幫你/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[effect off a]
+[quake off]
+[bgm journey]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A]
+[face A 13]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[say A]
+[serif on]
+哈哈哈……啊，謝謝你……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+平常的甲斐我無法想像
+我看到了一些罕見的東西。/
+[show A C]
+[face A 12]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+哇！[shake A]　請快點幫我吧！
+老闆在逗我！[shake A 3 5 5]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 13]
+當boss遇到危險的時候甲斐比什麼都重要。
+我會比誰都更快的衝過去保護你…/
+[serif off]
+？對不起/
+[face A 12]
+[serif on]
+[move A X -150 0.5]
+嗯，就是這樣。/
+[serif off]
+？ 甲斐的手/
+[scale A 2 0.5]
+[move A Y -80 0.5]
+[se cloth_01]
+[face A 05]
+[-]
+[shake A]
+[wait 1]
+[serif on]
+啊？什麼，什麼，老闆…
+能夠握住甲斐的手…嘆氣。[face A 11][effect fr kira a 0 0][se kira_01]/
+[hide A]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+甲斐並坐在岩石上
+我把它放在腿上。/
+[textcolor ARUJI]
+[flow]
+然後我把便當攤在甲斐的腿上。/
+[show A C]
+[scale A 2]
+[move A Y -200]
+[face A 05]
+[say A]
+哇哦，[shake A]老闆！ ？ 甲斐，看起來像這樣
+還蠻重的！ ！ ？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+但是……我現在連下車都下不了。
+既然不能……我們吃午餐吧！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+用筷子從便當盒夾起配菜，
+把它送到甲斐的嘴裡。/
+[textcolor ARUJI]
+[se eat_01]
+甲斐坐在他的腿上，高興地張大嘴。
+觀看起來真的很有趣。/
+[textcolor ARUJI]
+這是一個愉快的假期。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>202/
+[set A s_kai_r 甲斐]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 甲斐と夜空を見上げて]
+[-]
+[bg sky_star]
+[bgm night]
+[-]
+[fadeout 1.0]
+[-]
+[se amb_04]
+[wait 1]
+[-]
+[bg black 1]
+[minibg sky_star]
+[-]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+莊園夏日祭典後數天，及甲斐
+我決定今天去泡溫泉。/
+[textcolor ARUJI]
+回家路上.../
+[se walk_01]
+[show A C]
+[face A 10]
+[say A]
+老闆，洗個澡真舒服！/
+[face A 14]
+和老闆單獨泡溫泉，
+我給老闆洗了很多背...♥/
+[face A 10]
+唉，我和老闆的溫泉一日遊就是這樣的。
+我真的很高興我能享受它。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 11]
+啊，老闆！
+之前買的溫泉包子想吃嗎？/
+[face A 10]
+來吧，我們喝杯茶吧！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+一起吃溫泉包子的時候，
+沿著路走到車站。/
+[textcolor ARUJI]
+帶著溫暖的身體，
+夜風吹過的感覺真好。/
+[effect fr syutyu a 0 0]
+[show A C]
+[face A 05]
+[say A]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+啊！老大有危險了！/
+[hide A]
+[effect off a]
+[se car_01]
+[se cloth_01]
+[shakebg]
+[talkend]
+[textcolor ARUJI]
+說完，甲斐突然收回了手。
+一輛汽車正好駛過。/
+[show A C]
+[effect fr syutyu a 0 0]
+[quake 2]
+[scale A 2]
+[move A Y -200]
+[face A 03]
+[say A]
+[textsize 40]
+你往哪裡跑？哦！ ！ ！/
+[face A 12]
+[quake off]
+[effect off a]
+[scale A 1.6 0.5]
+[move A Y 80 0.5]
+老闆！你有打東西嗎？ ？/
+[serif off]
+？沒關係。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 06]
+哈~，好.../
+[face A 09]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[move A X -250 0.5]
+那個司機，如果老闆出了什麼事…
+我想知道如何新增滴管......我抱怨道。/
+[face A 11]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[move A X 500 0.5]
+喔老大，甲斐要走在路邊了！
+莎莎。/
+[serif off]
+？謝謝你/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[serif on]
+[face A 10]
+呵呵，老大身上只有一處刮痕。
+我不會讓你傷害我的！/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊……！/
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+甲斐保護我
+他一直握著我的手。/
+[textcolor ARUJI]
+[hide A]
+小小的身體卻擁有足夠的力量，
+甲斐的雙手結實而穩定。/
+[serif off]
+？ 甲斐的手被牢牢握住。/
+[se cloth_01]
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 11]
+[say A]
+……！[shake A 3 10 10]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on 0.5]
+[talkend]
+隨著車站燈的臨近，
+甲斐的腳步漸漸沉重起來。/
+[show A C]
+[face A 13]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+哈，還跟老闆約會。
+已經結束了.../
+[face A 12]
+多麼有機會獨享老闆的待遇啊
+沒有那麼多.../
+[talkend]
+[textcolor ARUJI]
+甲斐看起來有點孤獨。/
+[hide A]
+[textcolor ARUJI]
+距離六原指定的宵禁還有時間。
+因為這是一件大事.../
+[serif off]
+？你想繞個小彎路嗎？/
+[serif on]
+[show A C]
+[face A 11]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+呃！可以嗎？ ？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg conveni]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+我走進附近的一家商店買東西來喝。/
+[show A C]
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[say A]
+老闆！請看一下！/
+[face A 14]
+[move A X -250 0.3]
+這家店還有各種紀念品！
+這是劍玩具嗎？/
+[move A X 500 0.3]
+[face A 11]
+啊，這個小娃娃是一隻老虎！
+這是本地鑰匙鏈！/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+鑰匙圈上的老虎吉祥物
+我覺得有點像甲斐。/
+[show A C]
+[scale A 1.6]
+[move A Y -220]
+[move A Y 200 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 10]
+[say A]
+老闆，這是您旅途中美好的回憶。
+我們去買吧！/
+[serif off]
+？點點頭/
+[playeryes]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[light def]
+[lightcolor blue]
+[hideall]
+[minibg sky_star]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[se amb_04]
+[serif on 0.5]
+[talkend]
+我買完東西就到處閒晃。/
+[textcolor ARUJI]
+[talkend]
+離溫泉小鎮有點遠
+建築物很少，該地區很安靜。/
+[show A C]
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[say A]
+老闆！這裡的河床看起來不錯！
+我們先坐下來休息一會兒吧！/
+[hide A]
+[talkend]
+[se amb_07]
+[textcolor ARUJI]
+我走到附近的河岸，
+甲斐坐在岩石上，@@放了一條毛巾。/
+[textcolor ARUJI]
+[se amb_04]
+你可以聽到河水輕柔的聲音和昆蟲的聲音。
+微風撫過我的臉頰，涼爽而舒緩。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 10]
+[say A]
+不知何故[wait 0.2]…[wait 0.2]…[wait 0.2]我該怎麼說呢？[wait 0.2]…[wait 0.2]…
+好[wait 0.2]…[wait 0.2]…[wait 0.2]感覺就像.../
+[face A 14]
+周圍沒有人…
+只有我和我的老闆.../
+[hide A]
+[talkend]
+[textcolor ARUJI]
+甲斐的臉頰微微泛紅。/
+[serif off]
+?甲斐的手放在肩膀上/
+[se cloth_01]
+[serif on]
+[show A C]
+[face A 11]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+……！/
+[scale A 2 1]
+[move A Y -80 1]
+[autotap]/
+[face A 10]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+甲斐什麼也沒說，
+我在這裡放了一些重量。/
+[textcolor ARUJI]
+暖暖甲斐的體溫正逐漸升高。
+它即將透過。/
+[hide A]
+[serif off]
+[-]
+[bg sky_star 1]
+[delay 0.5 minibg off 0.5]
+[-]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+當我突然抬頭望向天空時，
+那裡有一片佈滿星星的天空。/
+@甲斐
+哇，真漂亮！/
+@甲斐
+啊，這是一顆流星！老闆！/
+@甲斐
+希望老闆身體健康
+我希望老闆更愛我[wait 0.5][autotap]/
+@甲斐
+我希望你能成為我老闆的抱枕
+我希望你繼續成為最好的[wait 0.5][autotap]/
+@甲斐
+我希望我能永遠和你在一起
+老大……啊，他已經走了！[shakebg]/
+[delay 0.5 bg black 0.5]
+[minibg sky_star 0.5]
+[show A C]
+[scale A 2]
+[move A Y -200]
+[scale A 1.6 0.5]
+[move A Y 80 0.5]
+[face A 10]
+[say A]
+老闆有問你什麼嗎？
+嘿嘿，請告訴我~老大~！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+如果這是你老闆的願望，你不必向星星許願。
+這位甲斐將竭盡全力去實現它！ ！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 12]
+老闆你笑什麼？
+甲斐是認真的~！ ！/
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+看看甲斐幸福的笑容，
+我很慶幸自己走了一條彎路。/
+[serif off 1.5]
+[fadein BLACK 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on 0.5]
+從那時起直到回家的時候
+我們兩個人一起度過了一段輕鬆的時光。/
+[textcolor ARUJI]
+成為了夏天美好的回憶。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

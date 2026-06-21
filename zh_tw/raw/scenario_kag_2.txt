@@ -1,0 +1,996 @@
+>>10000/
+@加賀
+北陸高速公路加賀。[autotap]/
+[delay 1.0]
+[flow]
+[-]
+@加賀
+如果你想用百萬石頭來對待我
+它還需要一定的智力水平。/
+>>10001/
+@加賀
+嗯？　[wait 1.0]你打電話給我多少次？
+嗯，我對此並不感到難過。/
+>>1/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+主人，您想欣賞日本花園嗎？
+[face A 01]那我推薦兼六園。/
+花園不僅美麗，而且還是一個噴泉。
+俯瞰遠處金澤市的景色非常壯觀。/
+[face A 02]
+這確實是一個結合了六場勝利的風景。
+[wait 0.5][move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face A 05]呃，跟我一起…？/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+說實話，還好吧…
+[wait 0.2][face A 06]……[wait 0.3]嘿，你什麼時候去？/
+>>2/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 10]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+噢，主啊，不要突然碰我！
+[wait 0.3][face A 06]……人們會看到的。/
+[face A 01]
+像東茶屋區的茶館一樣的隱私
+在被保護的同時.../
+[face A 02]
+充滿三味線聲音的優雅空間
+不過這可能會讓我感覺好一點.../
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……嗯，現在好像變成旅遊勝地了。
+太可惜了。[wait 0.5][face A 10]我不會再碰它了！[shake A 3]/
+>>3/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+主啊，食物並不總是充足的。/
+[face A 01]
+最好也準備一些醃製食品。
+我想沒關係。/
+[face A 05]
+啊？　[wait 0.5]嗯，我也知道怎麼做。
+[face A 01]這是 Nare 壽司的一種，稱為 Kabura 壽司。/
+[face A 02]
+如果您需要，請告訴我。/
+>>4/
+[set A s_kag_r 加賀]
+[randomset B r @地魂男児 @あやかし @NPC -kag]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+我從來沒想過我可以和這個莊園裡的人交談。
+我不這麼認為。/
+[flow]
+[face A 04]
+好吧，我希望有人可以陪我聊一會兒。
+……這是一個崇高的目標，不是嗎？[face A 09]我認為讀書是最好的。/
+[show B R]
+[move B X 200]
+[move B X -200 1.5]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[face A 06]
+[move A X -100 1.0]
+啊，$B:A……啊，嗯……[shake A]
+你需要什麼東西嗎？[face A 09]/
+[face A 06]
+好吧，如果沒什麼事可做的話，我就走了。[face B 05]
+我必須讀這本書。[move A X -300 0.5][hide A]/
+>>5/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+嘆息。這就像一個動物園。什麼是智力？
+它沒有裝備。/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 06]
+……為什麼大家都開這麼低俗下流的玩笑？
+他一定是在開那些愚蠢的玩笑。/
+[flow]
+[face A 04]
+……[wait 0.5]　
+[face A 00]這對我來說並不重要。/
+>>6/
+[set A s_kag_r 加賀]
+[show A L]
+[face A 00]
+[-]
+[move A X 200 0.6]
+[serif on]
+[talk A]
+我一直生活在一個和平的世界裡
+我想看書。/
+[flow]
+[move A X 200 0.6]
+[-]
+[face A 04]
+……[wait 0.5]我想知道是否有人會理解.../
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+我們一起吃的飯
+我無法平靜.../
+[flow]
+[face A 09]
+每個人都非常興奮。/
+>>10/
+[set A s_kag_r 加賀]
+[randomset B r @地魂男児 @あやかし @NPC -kag]
+[show A C]
+[face A 09]
+[serif on]
+[talk A]
+……$B:A我談過，但是
+[wait 0.5][face A 06]令人驚訝的是，我們竟然能夠正常交談…/
+[flow]
+[face A 00]
+……[wait 0.5]　
+[face A 01]我有點高興.../
+>>11/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+啊，那小瓶金粉快沒了…
+[face A 00]補貨……看來明天就到了。/
+[flow]
+[face A 04]
+明天只吃早餐
+你只需要耐心等待...[shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 10]
+[-]
+[shake A 0.4]
+[serif on]
+[talk A]
+為什麼你們都在比較…！/
+[flow]
+[face A 06]
+[shake A 0.5]
+哎，只是因為我的身體成長緩慢。
+沒有理由被取笑……！/
+[flow]
+[face A 08]
+……我是，是的。
+[wait 0.3]加賀因為是百萬石…！ ！/
+>>15/
+[set A s_kag_m 加賀]
+[show A C]
+[face A 00]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+稱其為訓練是野蠻的。/
+[flow]
+[face A 04]
+我是一個聰明人，所以我會做這樣的事情。
+應該沒有必要吧.../
+>>16/
+[set A s_kag_m 加賀]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+（我喜歡射箭。
+　只要盯著一點並集中註意力...）/
+[flow]
+[se yumi_01]
+[scale A 2.0]
+[move A Y -150]
+[face A 03]
+（面對自己，平靜心情。
+　直接開槍就好了…） /
+[flow]
+[serif off]
+[talkend]
+[fadein BLACK 0.4]
+[-]
+[wait 0.5]
+[se yumi_02]
+[fadecolor WHITE 0.1]
+[delay 0.1 fadeout 0.1]
+[shake A 2]
+[-]
+[scale A 1.0 0.3]
+[move A Y 150 0.3]
+[-]
+[serif on]
+[-]
+[talk A]
+[face A 01]
+正是適合我的武器
+[face A 02][wait 0.5]……沒錯。/
+>>17/
+[set A s_kag_b 加賀]
+[randomset B b @地魂男児 @あやかし @NPC -kag]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+洗完澡後吃冰淇淋
+嘆息……多麼美味。/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 02]
+這是一天中最幸福的時刻/
+[show B R]
+[face B 05]
+[face A 05]
+[setline 0.5 A B]
+啊，$B:A……[shake A]/
+[face A 09]
+[face B 01]
+……喲，不介意的話，要吃嗎？
+如果不需要的話就好了.../
+[move B X -100 0.5]
+[face A 10]
+哦，原來是剩下的啊！[shake A]
+只是因為一個人的時候吃不飽！/
+>>18/
+[set A s_kag_b 加賀]
+[randomset B b @地魂男児 @あやかし @NPC -kag]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[se amb_12]
+[effect fr yuge a 0 0]
+我想一個人慢慢進去。
+何必那麼麻煩呢.../
+[flow]
+[se bath_01]
+[show B]
+[setline 0.5 A B]
+[talk A]
+[face A 05]
+……啊，$B:A……[shake A][face A 09][wait 0.3]好吧，沒什麼特別的...
+[wait 0.6][face A 06][face B 01]並不是我不喜歡.../
+>>19/
+[set A s_kag_b 加賀]
+[show A C]
+[face A 03]
+[se amb_12]
+[se bath_02]
+[effect fr yuge a 0 0]
+[serif on]
+[talk A]
+不隱藏的型別
+那種威嚴的感覺是什麼……！/
+[flow]
+[face A 06]
+[move A Y -100 0.6]
+他不是野孩子，至少給他一條毛巾吧。
+包起來不是很有禮貌嗎...[se water_06][move A Y -50 0.5]冒泡...[se bath_04]/
+>>20/
+[set A s_kag_r 加賀]
+[show A L]
+[face A 05]
+[move A X -600]
+[-]
+[move A X 950 0.5]
+[-]
+[move A X -80 0.1]
+[-]
+[serif on]
+[talk A]
+唷……！[face A 04][shake A]
+那是一個危險的地方。/
+[flow]
+[face A 03]
+我從沒想過我會自己尿尿
+[shake A 3]……我不能這麼做……！[se pee_01]/
+>>21/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[shake A 2]
+咕……！如果由我來決定的話
+在任何情況下都像撒尿一樣容易......[se pee_01]/
+[flow]
+[scale A 2.3]
+[move A Y -200]
+[face A 05]
+....！ ！[shake A 5]/
+>>22/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+您可以立即用熱水清洗屁股。
+衛洗麗非常好.../
+[flow]
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+嘿！
+[wait 0.5][face A 10]誰把它調高了，你這個白痴？ ！/
+>>23/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+哈，我喜歡這本書。
+為什麼要把它帶進廁所…/
+[flow]
+[se paper_01]
+……
+[wait 0.5]……/
+[flow]
+[move A Y -100 0.8]
+哈，這就是它的樣子
+我無法向任何人展示它...[shake A 2]/
+>>24/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……唷，今天。
+讀到這裡，我們去睡吧。/
+[flow]
+[face A 01]
+即使在月光下也能輕鬆閱讀的內容
+它是什麼？/
+>>25/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+……主啊，更多…
+嗯，嗚嗚嗚…/
+[talkend]
+就像在睡夢中說話一樣。/
+>>26/
+[set A s_kag_r 加賀]
+[randomset B r @地魂男児 @あやかし -kag -@NPC]
+[se fusuma_03]
+[show A R]
+[face A 06]
+[move A X -300 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+……哈。/
+[face A 06]
+$B:A當它突然接管時我感到很驚訝...
+還有...[wait 0.5]啊，這樣的感動…[shake A]/
+[flow]
+[face A 04]
+……反正我大概是半夢半醒……
+[face A 06][shake A 3]呃……你會很痛苦的……！/
+>>27/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 00]
+？ 加賀，生日快樂！/
+[face A 05]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+啊，主啊…[wait 0.5]是的。謝謝。[face A 01]/
+[face A 09]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+事實上，我本來想要更優雅的一天...
+越後 說他度過了美好的一天.../
+[face A 10]
+B-我隨時都可以做到，[shake A]
+加賀確實是金箔。[face A 08]/
+[face A 04]
+特別的日子是你自己決定的，
+沒想到這一天還有什麼意義…/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+但大家還是紛紛表示祝賀
+被告知[wait 0.2]…[wait 0.2]…[wait 0.2]今天感覺有點癢.../
+[face A 01]
+[flow]
+這是一種奇怪的感覺。/
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……什麼？那張臉…/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[face A 10]
+我很高興主祝福我。
+不是我想的那樣！ ？[shake A]/
+[face A 03]
+我不想讓你誤會我！
+嗯。/
+[move A X -400 0.5]
+[hide A]
+[autotap]/
+>>100/
+[set A s_kag_r 加賀]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 加賀と本]
+[-]
+[bgm home]
+[bg mbg_map]
+[minibg syouen_syoko]
+[-]
+[fadeout]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+位於莊園一角的圖書館。
+它的圖書館很大。/
+[flow]
+[textcolor ARUJI]
+從歷史書到傳記，從專業書到實用書，甚至娛樂書。
+它涵蓋了所有型別的書籍。/
+[flow]
+[textcolor ARUJI]
+即使只是以電子書形式發行，這個莊園
+看起來它們就像真正的書一樣排列在書架上。/
+[serif off]
+？你是怎麼收集這麼多的？/
+[serif on]
+[textcolor ARUJI]
+今天閒暇時看的漫畫
+我是來找輕小說的。/
+[flow]
+[textcolor ARUJI]
+挑選幾本自己有興趣的書，然後拿起來。/
+[se paper_01]
+[wait 0.5]
+[show A C 1.0]
+[move A Y -50]
+[face A 09]
+[serif off]
+[wait 1.0]
+[serif on]
+[textcolor ARUJI]
+然後我坐在椅子上
+我看到加賀在看書。[se paper_01]/
+[serif off]
+？ 加賀/
+[face A 00]
+[wait 1.0]
+[-]
+[serif on]
+[talk A]
+嗯...？你好，主。/
+[talkend]
+[textcolor ARUJI]
+加賀抬起頭看著我。/
+[serif off]
+？讀書？/
+[face A 09]
+[talk A]
+[serif on]
+好吧。
+這裡是莊園裡最安靜的地方。/
+[serif off]
+與加賀 聊聊/
+[face A 03]
+[serif on]
+愚蠢的主。[shake A]
+在圖書館裡說話是不禮貌的。/
+[serif off]
+？這是一個圖書館。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 00]
+[serif on]
+那是無稽之談。
+……嗯，沒關係。如果只是一點點的話。/
+[talkend]
+[textcolor ARUJI]
+加賀折起手上的書，
+我把它放在桌子上。/
+[face A 01]
+[talk A]
+順便說一下，
+難道主來這裡是為了借書嗎？/
+[serif off]
+？是的，休息時讀一些東西。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 00]
+[serif on]
+嗯。/
+[talkend]
+[textcolor ARUJI]
+加賀舉起眼鏡，
+我看著手上的書。/
+[face A 08]
+[talk A]
+……嘿。
+這就是我喜歡的。/
+[serif off]
+？不，不……？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 00]
+[talk A]
+[serif on]
+我認為這一點都不好。書本上沒有尊嚴。
+我有時也會讀到類似的東西。
+/
+[face A 01]
+而且，從任何一本書來看，
+有東西要學。/
+[face A 09]
+但是.../
+[move A Y 50 1.0]
+[move A X 250 2.0]
+[talkend]
+[textcolor ARUJI]
+加賀從椅子上站起來。/
+[face A 01]
+[talk A]
+更何況現在你也成為我的主人
+我需要讓他們學習廣泛的領域。/
+[flow]
+跟我來。[move A X 300 1.0][delay 0.3 hide A][se walk_01]/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[talkend]
+[hideall]
+[se walk_06]
+[-]
+[fadeout 1]
+[-]
+[serif on]
+[textcolor ARUJI]
+跟隨加賀到檔案的後面。/
+[serif off]
+？我感覺我要迷路了....../
+[show A]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on]
+沒關係，因為我是直接來的。
+但是……不要離開我身邊。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+我不想迷路，所以小加賀
+我決定緊緊跟在他身後走。/
+[show A 1.6]
+[scale A 1.6]
+[move A Y -100]
+[face A 10]
+[say A]
+嘿嘿，太近了！[shake A]
+這是主，請保重自己！　哞……！[face A 03]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+……當然。
+因為我不能依賴它.../
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[light def]
+[lightcolor blue]
+[show A]
+[face A 09]
+[fadeout 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+這個和這個...[wait 0.5]....好吧。/
+[scale A 1.5 1.0]
+[move A Y -100 1.5]
+[face A 01]
+是的。[se dosa_01]
+我挑選了我丈夫現在需要的 5 本書。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+給加賀的書籍包括戰術指導、自然科學等。
+這些都是專業書籍，看起來又厚又難…/
+[show A C]
+[scale A 1.5]
+[move A Y -100]
+[face A 01]
+[talk A]
+請在休息時閱讀。
+我會再選 5 本書，明天再帶。/
+[serif off]
+？是啊.../
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+都是入門書籍。就這麼多
+我需要牢記這些知識。/
+[face A 01]
+好吧，既然你是我的主人，
+我相信我能做到這麼多。[move A X -100 1.0]/
+[face A 09]
+那麼，我想讀剩下的部分。/
+[move A X -300 1.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+說完，加賀又坐到了椅子上。
+我開啟了手上的書。[se paper_01]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+？我不知道我是否可以在一天之內讀完它....../
+[serif on]
+@加賀
+……別讓我失望，好嗎？主。/
+[fadein black 2]
+[autotap]/
+[textcolor ARUJI]
+我聽到背後有加賀的聲音。/
+[textcolor ARUJI]
+為了滿足加賀的期望，
+我決定今晚興奮地閱讀它。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_kag_r 加賀]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 加賀の勘違い]
+[-]
+[bgm home]
+[bg rouka_day]
+[-]
+[se walk_01]
+[fadeout]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+走在走廊上的時候，
+我發現加賀正在門廊上看書。/
+[textcolor ARUJI]
+[flow]
+當我試著和加賀的褲子說話。
+我注意到上面有一些絨毛。/
+[serif off]
+？我替你拿。/
+[show A C]
+[move A Y -100]
+[move A Y 200 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 05]
+[talk A]
+[bgm off]
+[shakebg]
+[-]
+[serif on]
+哇！ ！
+啊，主啊！ ？你在幹什麼！ ？/
+[serif off]
+？呃？/
+[talkend]
+[face A 06]
+[bgm departure]
+[textcolor ARUJI]
+[serif on]
+加賀的臉很快就紅了。[shake A]/
+[textcolor ARUJI]
+顯然...我在去除線頭的時候手碰到了它，
+我覺得我碰她的屁股被誤解了。/
+[face A 10]
+[talk A]
+[scale A 1.5 0.2]
+[move A Y -70 0.2]
+[effect A syutyu a 0 100]
+[shakebg]
+[textsize 40]
+……你這個白痴！ ！ ！/
+[shake A]
+變態！ ！沒有歧視！
+所以，這就是你接觸任何人的方式，無論他們是誰！/
+[serif off]
+？切，這不是真的！/
+[effect off a]
+[face A 03]
+[move A X 200 0.2]
+[-]
+[serif on]
+哼！
+我不想聽到任何藉口！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+你怎麼突然碰我的身體？
+我想知道你有什麼樣的神經.../
+[flow]
+因為.../
+[face A 06]
+這種事...[move A X -10 1.0]
+……哦，當我們熟悉之後……！/
+[talkend]
+[textcolor ARUJI]
+為了澄清加賀的誤會，這裡.../
+[serif off]
+[bgm off]
+？然後讓我們更瞭解彼此/
+[face A 05]
+[talk A]
+[shake A]
+[serif on]
+呃，現在！ ？/
+[face A 09]
+我現在不想談論它或類似的事情。
+我不是這麼說的，但…/
+[serif off]
+？現在我們來談談吧/
+[face A 00]
+[move A C 1.0]
+[move A Y -70 1]
+[talk A]
+[bgm home]
+[-]
+[serif on]
+哦，我明白了。那麼...
+可以請您介紹一下師傅嗎？/
+[face A 08]
+……你出生在哪裡？　[wait 0.5]你的成績是多少？[wait 0.5]
+你的家人呢？[wait 0.5]　你擅長什麼？/
+[flow]
+你是如何成為一名聲音聆聽者的？/
+[serif off]
+？這就像一次採訪。/
+[face A 10]
+[serif on]
+....！　[shake A]如果你不喜歡它，那也沒關係。[move A X 200 0.2]
+我不必談論它。/
+[face A 03]
+如果我在讀一本書
+這就是為什麼我很滿意。/
+[serif off]
+？別生氣/
+[face A 10]
+[shake A]
+[serif on]
+啊，我沒有生氣……！ ？[wait 0.5]
+只是.../
+[serif off]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……像其他人一樣隨意地說話……
+我不擅長.../
+[serif off]
+？ @@讓我們以P8的速度說話@@/
+[face A 06]
+[talk A]
+[serif on]
+....！ ！[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+……我無能為力。[wair 0.5][face A 10]
+哦，這不是為了主的緣故。/
+[fadein BLACK 2.0]
+[serif off 02.0]
+[-]
+[show A]
+[face A 01]
+[bgm fun]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+....如果上面有一些絨毛怎麼辦？
+我希望你從一開始就這麼說。/
+[serif off]
+？ （你沒讓我這麼說…！）/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+輪流互相提問和回答問題。
+這就是我繼續與加賀對話的方式。/
+[talkend]
+[textcolor ARUJI]
+[flow]
+和加賀的對話持續了一段時間，
+不知不覺間，氣氛變得平靜起來。/
+[serif off]
+？ 加賀除了看書之外最喜歡的消遣是什麼？/
+[show A]
+[face A 05]
+[serif on]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+哈！　[shake A]哦，除了書…？
+……當然有！[face A 10]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+……嗯……是這樣的……
+當你在浴缸裡舒展手臂和腿時…/
+[face A 01]
+[flow]
+結束了一天的工作和訓練後，
+吃完飯後…洗澡的時候…也許吧/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+那種感覺太好了，無法用言語來表達…
+所以.../
+[talkend]
+[textcolor ARUJI]
+加賀還記得你洗澡的時候嗎？
+真是令人著迷。/
+[flow]
+[textcolor ARUJI]
+平常很酷的加賀表情好溫柔啊
+看著它讓我很高興。/
+[say A]
+[face A 06]
+[effect off a]
+……什麼？[shake A]
+為什麼笑得這麼開心？/
+[face A 03]
+[flow]
+這是關於主的事，所以無論如何這是一個蹩腳的理由。
+我想不是。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+我轉過頭去，但還是像以前一樣。
+看起來他並沒有生氣。/
+[serif off]
+？現在輪到加賀提問了。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[talk A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嗯嗯……我明白了……呃……
+那麼，[face A 00]接下來.../
+[face A 09]
+[move A X 100 1.0]
+嗯……是這樣的……
+嘿，我的愛人...[wait 0.5]你在嗎？[face A 06][bgm off]/
+[serif off]
+？呃？/
+[bgm comical]
+[face A 05]
+[move A Y 20 0.1]
+[delay 0.1 move A Y -20 0.1]
+[-]
+[serif on]
+啊，不，這是一個簡單、基本的問題！[shake A 3 10 10]/
+[face A 06]
+[shake A]
+因為主人到底是個什麼樣的人啊…
+好吧，如果你對此瞭解不多……這就是為什麼……[shake A 3 10 10]/
+[face A 10]
+[move A C 0.3]
+[move A Y -120 0.3]
+好吧，好吧？這看起來不像是個瘋狂的故事，主啊。
+我想我根本不用問！/
+[face A 03]
+[bgm departure]
+……什麼？[shake A]
+那張臉是想說什麼嗎？/
+[effect fr syutyu a 0 0]
+[scale A 2 0.3]
+[move A Y -80 0.3]
+我告訴你，主。/
+[face A 10]
+所有地球靈魂男孩，
+它可以高舉主，/
+[flow]
+這只是主僕關係。/
+[face A 01]
+“我很受歡迎！”[wait 0.2]或類似的東西。[face A 10]
+不要犯這個愚蠢的錯誤！ ！/
+[face A 03]
+哼！
+好吧，我就在房間裡繼續看書吧。[se walk_02][move A X 800 0.5][hide A]/
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+加賀突然生氣了。
+我離開了。/
+[fadein black 2]
+[autotap]/
+[textcolor ARUJI]
+但加賀總有一種知性的氣息。
+我感覺我看到了很多不同的面孔。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

@@ -1,0 +1,2090 @@
+>>0/
+((s))
+[set W s_san_m 讃岐]
+[set A s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 雲龍院りく]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[bgm home]
+[fadeout 1]
+[se gaya_01]
+[-]
+[serif on 0.5]
+それは$Wが声聞されてからほどなくして、
+ロクハラの商業施設へ買い物に出たときのこと。/
+((m))
+[set W s_mus_m 武蔵]
+[set A s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 雲龍院りく]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[bgm home]
+[fadeout 1]
+[se gaya_01]
+[-]
+[serif on 0.5]
+それは$Wが声聞されてからほどなくして、
+ロクハラの商業施設へ買い物に出たときのこと。/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 雲龍院りく]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[bgm home]
+[fadeout 1]
+[se gaya_01]
+[-]
+[serif on 0.5]
+それは$Wが声聞されてからほどなくして、
+ロクハラの商業施設へ買い物に出たときのこと。/
+((s))
+[show W C]
+[face W 01]
+[say W]
+[se walk_06]
+お買い物ってなんだかワクワクするね！　
+あるじさま！/
+((m))
+[auto]
+買い物ってやつぁなんでか知らねぇが
+心踊るよなぁ！　大将！/
+((e))
+[auto]
+オレも連れて来てくれてありがとうございます！
+荷物持ちなら任せてください！/
+[fadein white 0.3]
+[serif off 0.3]
+[-]
+[talkend]
+[hideall]
+[waku on]
+[bg gozasyo_day]
+[minibg off]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+荘園には電気・水道などの基本的な
+ライフラインは整っているものの、/
+[bg rouka_day 0.5]
+[flow]
+消耗品や食品などは最低限のものしか
+置かれていない。/
+[bg mbg_syouen 0.5]
+[minibg ima 0.5]
+[flow]
+そのため追加の生活用品や嗜好品の類は
+自分で買い出しに行かなくてはならないのだ。/
+[fadein white 0.3]
+[serif off 0.3]
+[-]
+[hideall]
+[waku off]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+――しかし、ロクハラから支給された
+予算はそう多くない。/
+[serif off]
+?（やりくりはちゃんと考えなきゃな……）/
+((s))
+[show W C]
+[face W 08]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[serif on]
+あ、見て。あるじさま、
+あれ！/
+((m))
+[auto]
+お。見ろよ大将。
+妙な奴らがいるぜぃ。/
+((e))
+[auto]
+む、師匠……下がってください！
+妙な出で立ちの人たちがいます……/
+[hide W]
+[talkend]
+$Wの指差す方向を見ると、全身黒ずくめで
+スーツにサングラスのいかつい男たちが数人。/
+[flow]
+周囲を警戒するように立っていた。/
+[serif off]
+?要人警護かな？/
+[serif on]
+@スーツの男A
+……いたか？/
+@スーツの男B
+いや……見つからない……/
+@スーツの男A
+探せ！　何かあってからじゃあ遅いぞ！/
+@スーツの男B
+はいっ。/
+((s))
+[serif off]
+[se walk_07]
+[wait 1.5]
+[-]
+[show W C]
+[face W 13]
+[say W]
+[-]
+[move W Y 20 0.4]
+[delay 0.6 move W Y -20 0.2]
+[-]
+[serif on]
+どうしたんだろうね[wait 0.2]…[wait 0.2]…[wait 0.2]あ、[face W 01]お店到着！
+さぁあるじさま！　買い物しよ！/
+((m))
+[auto]
+なんだってんだろうな[wait 0.2]…[wait 0.2]…[wait 0.2]お、[face W 01]店に到着だ。
+さぁ大将！　買い物しちまおうぜ！/
+((e))
+[auto]
+何か……あったんでしょうか[wait 0.2]…[wait 0.2]…[wait 0.2]あ、[face W 01]ここが
+お店ですね！　師匠、買い物しましょう！/
+[serif off]
+?うなずく/
+((s))
+[playeryes]
+[-]
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[minibg off]
+[bg shop]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[show W]
+[face W 12]
+[-]
+[serif on]
+このお店、大きいし、何でも売ってるんだね。
+すごいなぁ。/
+((m))
+[auto]
+っか～～。この店でけぇし、何でも売って
+やがんだなぁ。すげぇなぁ。/
+((e))
+[auto]
+ふぅ……このお店は広いし、品揃えも抜群ですね。
+すごいッスね……/
+((s))
+[face W 03]
+[flow]
+つい色々欲しくなっちゃうけど、お金が
+かかるもんね。オイラ無駄遣いはしないよ……！[shake W]/
+((m))
+[auto]
+色々興味はあるが、銭がかかるからなぁ。
+まずは必要なもんを揃えてからだな！/
+((e))
+[auto]
+あれもこれも興味がありますが……我慢我慢。
+無駄遣いはしません……/
+((s))
+[face W 00]
+[scale W 1.6 0.5]
+[move W Y -100 0.5]
+あとは何か買い忘れはない？
+あるじさま。/
+((m))
+[face W 00]
+[scale W 1.6 0.5]
+[move W Y -150 0.5]
+あとは何か買い忘れはねぇか？
+大将。/
+((e))
+[face W 00]
+[scale W 1.6 0.5]
+[move W Y -150 0.5]
+他に買い忘れはありませんか？
+師匠。/
+[serif off]
+?そういえば、$Wのパンツ……/
+((s))
+[face W 06]
+[shake W]
+[serif on]
+え！？　[face W 11]それは自分で選んで買ってくるから！
+あるじさまはちょっと待ってて！/
+((m))
+[auto]
+げっ！？[face W 11]　そいつぁ自分で選んでくるぜ！
+大将はちょっと待ってろ！/
+((e))
+[auto]
+いっ！？[face W 11]　それは自分で選んで買ってきます！
+師匠はちょっと待っててください！/
+((s))
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[show W C]
+[face W 00]
+[say W]
+[move W X 150 0.5]
+[-]
+[move W Y 20 0.4]
+[delay 0.6 move W Y -20 0.2]
+[-]
+[serif on]
+えーっと、わぁ……[face W 05]下履きでさえ
+こんなに種類があるなんて……/
+((m))
+[auto]
+ん～っと、ここか？　[face W 05]下履きでさえ
+こんなに種類があんのか……ひぇぇ……/
+((e))
+[auto]
+えーっと、わっ……[face W 05]下履きだけでこんなに
+たくさん種類があるんスね……/
+[move W X -50 0.1]
+[delay 0.1 move W X 100 0.2]
+[delay 0.3 move W X -100 0.2]
+[delay 0.5 move W X 50 0.1]
+[autotap]/
+((s))
+[face W 06]
+うぅ……大きさで探せばいいのかな……
+オイラどれくらいなんだろ……/
+((m))
+[auto]
+大きさで探せばいいのか？　えむ、える……
+オレの大きさってってどれくらいなんだ……/
+((e))
+[auto]
+大きさも色々あるんスね。とりあえず大きさで
+選ぶとして……オレはどの大きさなんスかね……/
+((s))
+[serif off]
+[move W XY -10 -40 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 40 0.3]
+[delay 0.5 rotate W 0 0.3]
+[-]
+[se cloth_01]
+[-]
+[shake W]
+[serif on]
+わっ、この下履き、柄がおしゃれな感じ……
+肌触りもいいなぁ！[effect W kira 2000 0 0][se kira_01]
+[face W 01]/
+((m))
+[auto]
+おっ、この下履き、柄が洒落てるねぇ。
+肌触りも……いいじゃねぇか！[effect W kira 2000 0 0][se kira_01]
+[face W 01]/
+((e))
+[serif off]
+[face W 08]
+[move W XY -10 -40 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 40 0.3]
+[delay 0.5 rotate W 0 0.3]
+[-]
+[se cloth_01]
+[-]
+[shake W]
+[serif on]
+おぉっ。この下履き、いい生地ッスね！
+柄も入ってておしゃれな感じッス……[effect W kira 2000 0 0][se kira_01]
+[face W 01]/
+[talkend]
+[color W talk]
+@？？？
+わ～っそれすっごくいいね！
+かっこいい！！/
+((s))
+[face W 05]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+えっ？/
+((m))
+[auto]
+んっ？/
+((e))
+[auto]
+えっ？/
+[serif off]
+[hide W]
+[-]
+[bgm fun]
+[show A C]
+[face A 00]
+[talkend]
+[-]
+[serif on]
+かけられた声に$Wが振り返ると、
+そこには車椅子に座る少年の姿があった。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[say A]
+ぼく、りく！
+きみもパンツ買いに来たの？/
+((s))
+[show W C]
+[orderline A W]
+[setline 0.5 W A]
+[face W 01]
+[say W]
+オイラは讃岐だよ。[wait 0.5][face W 06]
+う、うん……ぱんつ、だけじゃないけど……/
+((m))
+[auto]
+オレぁ、武蔵だ。[wait 0.5][face W 06]
+お、おう。まあな。ぱんつだけじゃねぇけど……/
+((e))
+[auto]
+オレは越後ッス。[wait 0.5][face W 06]ま、まあその……
+ぱんつ、だけじゃないッスけど……/
+[face A 09]
+[say A]
+それ、フロントの生地に余裕があって、履くと
+大きめにもっこりするみたいだね！　ほら！[shake A]/
+[serif off]
+[moveline W A -1000 0 1]
+[talkend]
+[-]
+[serif on]
+りくの目線の先には、$Wが選んだ
+パンツを履いたディスプレイ人形があった/
+((s))
+[serif off]
+[scale W 1.5]
+[scale A 1.5]
+[face W 06]
+[moveline W A 0 -200 0 0]
+[-]
+[moveline W A 1300 0 1]
+[-]
+[say W]
+[serif on]
+ほんとだ……ちょっと恥ずかしいかも……
+あ、りくくんもぱんつ選んだんだね。/
+((m))
+[serif off]
+[scale W 1.5]
+[scale A 1.5]
+[face W 06]
+[moveline W A 0 -200 0 0]
+[move W Y -50]
+[-]
+[moveline W A 1300 0 1]
+[-]
+[say W]
+[serif on]
+ほんとだな……確かに立派な股間だけどよぉ……
+お、りくもぱんつ選んでたのか？/
+((e))
+[serif off]
+[scale W 1.5]
+[scale A 1.5]
+[face W 06]
+[moveline W A 0 -200 0 0]
+[move W Y -50]
+[-]
+[moveline W A 1300 0 1]
+[-]
+[say W]
+[serif on]
+自分が履いてるの想像すると恥ずかしいッス……
+あ、りくもぱんつを選んでたんスね。/
+[talkend]
+[moveline A W -300 50 1]
+りくの手に握られたパンツを見て
+$Wは尋ねたが……/
+[face A 12]
+[scale A 2.5 0.2]
+[scale W 2.5 0.2]
+[move W X -200 0.2]
+[quake 2]
+[effect fr syutyu a 0 0]
+[se zukkoke_01]
+よくよく見るとそのパンツはスケスケの
+ものすごく攻めたデザインの下着だった！/
+((s))
+[hideall]
+[serif off]
+[effect off a]
+[quake off]
+[wait 0.5]
+[-]
+[show A]
+[show W]
+[setline W A]
+[face W 06]
+[face A 00]
+[-]
+[say W]
+[serif on]
+わ……[shake W]その、結構大胆な形だね……/
+((m))
+[auto]
+お、おぉ……[shake W]ちょっと大胆すぎやしねぇか！？/
+((e))
+[auto]
+わっ……[shake W]そ、それいいんスか？
+大事なとこが見えちゃいそうッスけど……/
+[face A 12]
+[move A Y -10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[say A]
+へっへっへ、すごいよね。僕も初めて見た～！
+ロクハラの売店でこんなの売ってるんだね。/
+[face A 13]
+[flow]
+履いてみたいなぁ、でも、買ったらすぐ
+じいやに見つかっちゃうからなぁ……/
+((s))
+[face W 00]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+じいや……？/
+((m))
+[auto]
+じいや？/
+((e))
+[auto]
+じいや……/
+[serif off]
+[se walk_06]
+?パンツ決まった？/
+((s))
+[face W 02]
+[say W]
+[move W Y 100 0.2]
+[delay 0.2 move W Y -100 0.2]
+[-]
+[serif on]
+あ、あるじさま！/
+((m))
+[auto]
+お、大将！/
+((e))
+[auto]
+師匠！/
+[serif off]
+[face A 05]
+[scale A 1.6 1]
+[scale W 1.6 1]
+[move W X -100 1]
+[moveline W A -250 -100 1]
+[talkend]
+[wait 1]
+[-]
+[scale A 1 1]
+[scale W 1 1]
+[move W X 100 1]
+[moveline W A 250 100 1]
+?ともだち？/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[face W 01]
+[say W]
+[serif on]
+うん！　りくくん。
+ぱんつを買おうと思ってるんだって。/
+((m))
+[auto]
+あぁ、りくって言うんだ。
+ぱんつを買おうとしてるんだってよぉ。/
+((e))
+[auto]
+はい！　りくッス！
+ぱんつを買うところだったみたいッス。/
+((s))
+[say A]
+[shake A 2 10 10]
+あ、あ～～！　声聞士の兄ちゃん！　でしょ！？
+あ、じゃあ$Wって、地魂男児？/
+((m))
+[say A]
+[shake A 2 10 10]
+あ、あ～～！　声聞士の兄ちゃん！　でしょ！？
+じゃあ$Wって、地魂男児？　[face A 01]やった！　会えた！/
+((e))
+[say A]
+[shake A 2 10 10]
+あ、あ～～！　声聞士の兄ちゃん！　でしょ！？
+あ、じゃあ$Wって、地魂男児？/
+((s))
+[face W 00]
+[say W]
+えっ、オイラたちのこと知ってるの？/
+((m))
+[auto]
+あん？　オレたちのこと
+知ってんのか？/
+((e))
+[auto]
+えっ、オレと師匠のこと……
+知ってるんスか？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+((s))
+[face A 14]
+[say A]
+知ってるよ～！　兄ちゃんと$Wに会いたくて
+わざわざ来たんだもん！/
+((m))
+[auto]
+もちろん！　どうりでふさふさで犬みたい
+だなーって思った！[face W 06]　本物なんだ！　すごーい！！[shake A]/
+((e))
+[auto]
+知ってるよ～！　兄ちゃんと$Wに会いたくて
+わざわざ来たんだもん！/
+[face A 02]
+[say A]
+そういうことならさ、出会いの記念ってことで
+$Wのパンツは僕がプレゼントしてあげるよ！/
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+店員さーん！　お会計お願い～！/
+((s))
+[face W 05]
+[say W]
+ぷれぜんと……って、買ってくれるってこと！？[shake W]/
+((m))
+[auto]
+ぷれぜんと……って
+買ってくれるってことかよ！？/
+((e))
+[auto]
+ぷれぜんと……って
+買ってくれるってことッスか！？/
+[face A 12]
+[say A]
+[move A X 100 0.5]
+ついでに兄ちゃんのも選んじゃお！　[shake A]うわ～っ
+これたぶん、兄ちゃんのはみだしちゃうかな！/
+((s))
+[face W 06]
+[say W]
+[shake W]
+わわわ、すごく布面積が少ないような……って
+買ってもらうなんて悪いよ。値段も高いし……/
+((m))
+[auto]
+どひゃーっ、こいつぁ布面積が少なくねぇか！？
+しかも結構いい値段すんぜ、こりゃあ。/
+((e))
+[auto]
+あわわ……これじゃあ隠せる部分が少ないッス！
+それに、悪いッスよ。値段も高いですし……/
+[face A 09]
+[say A]
+[move A X -150 0.3]
+お金のことなら心配しないで！
+僕、こう見えても雲龍院家の当主なんだ！/
+[face A 02]
+成人するまでは動かせるお金は多くないけど、
+それでもお小遣い用のカードがあるし！/
+[hide W]
+[hide A]
+[-]
+[se taiko_03]
+[se cloth_01]
+[talkend]
+りくはポケットに手をつっこむと
+高級感のある黒いカードを取り出した。/
+[serif off]
+?セレブ……/
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 00]
+[say A]
+[-]
+[serif on]
+雲龍院家はロクハラにも資金を
+提供してるんだよ！/
+[face A 09]
+[flow]
+だからイ・ロ・イ・ロ
+裏情報も知ってるんだ。/
+[face A 03]
+[shake A]
+ねぇねぇ、今度兄ちゃんたちのしょーえん？
+ってとこに遊びに行ってもいい！？/
+[face A 02]
+$Wとももっと仲良くなりたいし、仕事も見に
+行きたいし、知りたいこといっぱいあるんだ！/
+[face A 04]
+それに[wait 0.2]…[wait 0.2]…[wait 0.2]じいやに、兄ちゃんのところなら
+ひとりで行ってもいいって言われてるからさ。/
+((s))
+[hide A]
+[-]
+[show W]
+[face W 00]
+[say W]
+ひとりで……？/
+((m))
+[auto]
+ひとりで？/
+((e))
+[auto]
+ひとりで……？/
+[hide W]
+[-]
+[se walk_07]
+[talkend]
+[shakebg]
+@スーツの男C
+坊っちゃん！/
+@スーツの男B
+坊っちゃん発見！
+ショップでパンツを漁っている！/
+[show W C]
+[show A C]
+[setline W A]
+[face W 05]
+[face A 05]
+[say A]
+[shake A]
+[shake W]
+わっ、見つかった……！/
+[hide W]
+[move A C 0.5]
+@スーツの男C
+坊っちゃん、勝手に行動されると困ります！/
+@スーツの男B
+坊っちゃんの身に何かあったら
+我々が叱られます！/
+[serif off]
+?さっき見たボディガードみたいな人たちだ/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+[say A]
+[serif on]
+ちぇ少しくらい、いいじゃん……[move A X -250 1]
+あー、[face A 04]椅子押さないでよー！[shake A]/
+[serif off]
+[move A X -100 0.5]
+[-]
+[face A 02]
+[say A]
+[rotate A -20 0.5]
+[-]
+[serif on]
+兄ちゃん！[shake A]　日曜日！
+日曜日に行くからね～！/
+((s))
+[hide A]
+[-]
+[show W C]
+[face W 12]
+[say W]
+りくくん！[shake W]　またねー！/
+((m))
+[auto]
+おう、りくー！
+またなー！/
+((e))
+[auto]
+りくー！
+お気をつけてー！/
+[serif off]
+?手をふる/
+[se walk_06]
+[delay 0.2 se walk_06]
+[hideall]
+[talkend]
+[serif on]
+りくは黒服の男たちに周囲をがっちりと囲まれ
+どこかに連れて行かれてしまった。/
+((s))
+[show W C]
+[face W 00]
+[say W]
+りくくん、お金持ちなんだね……！　でも
+もしかしたら、もっと自由に過ごしたいのかな。/
+((m))
+[auto]
+りくのヤツ、金持ちってヤツだな……でも
+もっと自由に過ごしてぇのかもな。/
+((e))
+[auto]
+りく、お金持ちなんスね……でもひょっとしたら、
+もっと自由に過ごしたいのかもしれないッスね。/
+((s))
+[face W 12]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+ね、あるじさま。荘園だったら、安全だし、
+遊びに来てもらっても……いいかもね！/
+((m))
+[auto]
+な、大将。荘園だったら安全だしよ、
+遊びに来させても、いいかもな！/
+((e))
+[auto]
+師匠。荘園だったら安全ですし……
+遊びに来てもらっても……いいかもしれませんね！/
+[serif off]
+?うなずく/
+[face W 00]
+[serif off]
+[playeryes]
+[talkend]
+[-]
+[face W 01]
+[-]
+[wait 1]
+[-]
+[hide W 1]
+[-]
+[serif on 0.5]
+それが雲龍院りくとの出会いだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>1/
+[set A s_n005_r りく]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[say A]
+やっほーにいちゃん！
+遊びにきたよ～！/
+[face A 02]
+今日学校[= で体育の授業があって楽しかったんだ～！
+え？　椅子はもちろん降りたよ！ の給食が大好きなカレーでラッキー！
+おかわり3回しちゃった～！ の美術の授業で地魂男児の絵を描いたよ！
+みんなかっこいいねって言ってたよ！ の家庭科の授業でクッキー作りを
+したんだ～！　完成品、食べてみるー？ の保健の授業で大人の身体について勉強
+したよ！　にいちゃんは……大人みたいだね！]/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+にいちゃんは今何してんの？
+暇なら遊ぼうよ～！/
+>>2/
+[set A s_n005_r りく]
+[show A C]
+[face A 12]
+[-]
+[serif on]
+[say A]
+じゃーん！　ボクが作ってる自由研究！
+テーマは「キミに似合うパンツはどのタイプ？」[shakebg]/
+[face A 00]
+[flow]
+体型や性格、狙いや気分なんかにあわせて――/
+[face A 01]
+[flow]
+[effect fr kira 4000 0 0]
+[se kira_01]
+ピッタリの形や色、柄を見つけられる
+おすすめパンツガイドを作ってるんだー！/
+[face A 09]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+いろんな人のを参考にしたいから……
+にいちゃんの今穿いてるパンツ見せて♪/
+参考用に写真も……[face A 05][move A Y 10 0.1][delay 0.1 move A Y -10 0.1]あっ、どこ行くの！？
+待ってよ[face A 04]にいちゃーーーん！[shake A]/
+>>3/
+[set A s_n005_r りく]
+[show A R]
+[face A 02]
+[move A X -350 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[move A C 0.5]
+[-]
+[serif on]
+[say A]
+にいちゃん見て！　ボクの車椅子についてる
+モニター、タッチパネルなんだよ！[se pi_04]/
+[face A 01]
+[effect fr kira 4000 0 0]
+[se kira_01]
+座ったまま使えてすっごく便利なんだ～！/
+[face A 03]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+でもじいやにフィルターかけられてて、
+見れないサイトが結構あるんだよね。/
+[face A 12]
+だから、にいちゃんのスマホで
+いろいろ見せてもらいたいなーって！/
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+ねぇねぇ、いいでしょ～！？/
+>>4/
+[set A s_n005_r りく]
+[randomset B r -n005 -@NPC]
+[show A R]
+[face A 03]
+[-]
+[move A X -600 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+暇だな～。誰かいないかなぁ～～。[show B R][face B 00][orderline A B][color B talk]
+あ、$B:Aだ！[setline 0.5 A B][face A 02]　ねぇ遊ぼうよ～！/
+[face A 04]
+[face B 04]
+[shake B]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+え～、これから訓練～～？
+残念だなぁ……/
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+え、終わったら遊んでくれる？
+わかった、[face A 02]待ってるね！[shake A]/
+>>5/
+[set A s_n005_r りく]
+[randomset B r -n005 -n000]
+[show A C]
+[face A 04]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+もう～、壮ちゃん最近忙しいとか言って、
+全然遊んでくれないんだもんな。ちぇ～寂しいなぁ。/
+[move A X 200 1]
+[show B L]
+[face B 00]
+[orderline A B]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 02]
+あ、$B:A～！[setline 0.5 B A]　おしゃべりしようよ～！！[face B 01]/
+>>6/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A L]
+[show B R]
+[face A 00]
+[face B 00]
+[move A X 600 1.5]
+[move B X -350 1]
+[talk A]
+[-]
+[setline 0.5  B A]
+[-]
+[serif on]
+んっ？　$B:A、どうしたの？
+え、この車椅子に乗ってみたいの？[face B 01]/
+[face A 01]
+へへっ、ちょっとだけならいいよ～！/
+[face A 09]
+[face B 01]
+[move A X -100 0.5]
+僕がいろいろカスタムしてるから、
+操作の仕方教えてあげるね！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A C]
+[face A 03]
+[-]
+[shake A]
+[-]
+[shake A 3 4 4]
+[-]
+[serif on]
+[say A]
+あれ？　車椅子の調子が悪いなぁ……
+あれっ、[face A 04]あれれ！？/
+[face A 05]
+[effect fr syutyu 4000 0 0]
+[shake A 3 5 5]
+げー！　動かなくなっちゃったっ。
+どどど、どうしよう……[shake A]/
+[show B R]
+[face A 06]
+[face B 05]
+[talk A]
+あ、$B:Aちょうどよかった！
+急いでトイレまで押してくれない？/
+[face A 04]
+[face B 04]
+[move B X -50 0.5]
+早くしないと……漏れちゃう……！[moveline A B -300 0 0.5][hideall]/
+>>10/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A C]
+[show B C]
+[face A 00]
+[setline A B]
+[face B 04]
+[talk A]
+[-]
+[serif on]
+あっ、$B:A任務帰り？
+おかえり～！/
+[face A 01]
+なんだかへとへとそうだね。
+喉乾いてるならこれ飲みなよ。[face B 01]/
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[-]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[-]
+[se kira_01]
+[effect B kira a 0 0]
+[face A 02]
+[face B 02]
+じいやが取り寄せた最高級のお茶！
+美味しいでしょ、全部飲んじゃっていいよ。/
+[face A 00]
+え、このお茶の値段？[effect off a]
+えーっと、たしか、■■■円くらいだっけ。[se zukkoke_02][face B 05][shake B]/
+>>11/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A C]
+[face A 03]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+宿題やらなきゃじいやに怒られる……
+うーんめんどくさいし、よくわかんないや。/
+[show B R]
+[face A 01]
+[face B 00]
+[talk A]
+ねぇ$B:A、この答えわかる～？　教えてよ～！/
+[face A 05]
+[face B 01]
+[setline 0.5 A B]
+え、いいの？[face A 00]
+うんうん……うんうん……/
+[face A 02]
+[effect A kira 3000 0 0]
+[se kira_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face B 02]
+へー、そうなんだ！
+助かった～ありがと！！/
+>>/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_n005_r りく]
+[randomset B r -n005 -@NPC]
+[show A C]
+[face A 06]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[serif on]
+[say A]
+新しくゲットしたパンツ、
+モッコリがすごくよく見えるやつなんだよね～。/
+[effect off a]
+[face A 02]
+へへへ、誰に穿いてもらおうかな。[show B R][move B X 200][face B 00][talk A][moveline A B -200 0 1]
+あっ、$B:Aだ。お～い！[shake A][face B 05]/
+>>15/
+[set A s_n005_m りく]
+[randomset B m -n001 -@NPC]
+[show B C]
+[face B 08]
+[shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[color B talk]
+[-]
+[show A C]
+[face A 05]
+[move A X 1000]
+[moveline A B -1000 0 1]
+[-]
+[serif on]
+[say A]
+わー！[shake A]
+これが地魂男児の手合わせかぁ！/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+かっこいいー！！
+本物の迫力はすごいや！/
+[face A 05]
+[shake A]
+わっ、そこだ！[face A 02]　いけー！！[shake A]/
+>>16/
+[set A s_n005_m りく]
+[randomset B m -n005 -@NPC]
+[show A C]
+[show B C]
+[face A 03]
+[face B 01]
+[setline A B]
+[talk A]
+[-]
+[serif on]
+$B:Aってさ、すっごく強そうだよね！/
+[face A 02]
+でもさ、僕が持ってきたこのパンツ！
+穿いたらもっと強くなったりしない[face B 05]？/
+[move A X 100 0.3]
+[move B X 50 0.5]
+[face A 12]
+[face B 06]
+[= スケスケの ミニサイズの モッコリが強調される 派手な柄がかっこいい 和テイストの キラキラかがやく]特別なパンツなんだよ～！/
+[move B X 50 0.5]
+[face A 14]
+[delay 0.3 move A X 50 0.3]
+ねぇねぇ、ちょっと穿いてみてよぉ～！！/
+>>17/
+[set A s_n005_b りく]
+[show A C]
+[face A 02]
+[-]
+[serif on]
+[say A]
+フンフン～♪
+今日は新しいパンツを持ってきたんだ～。/
+[se cloth_01]
+[face A 06]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+へへ、この柄イカしてるよね～。
+穿くのが楽しみ♪/
+>>18/
+[set A s_n005_b りく]
+[show A C]
+[face A 03]
+[amb_12]
+[se bath_04]
+[move A Y -100]
+[effect fr yuge a 0 0]
+[-]
+[serif on]
+[say A]
+ごじゅーさん、ごじゅーし……/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se bath_04]
+じいやに100数えるまで入れって言われてるけど、
+もうのぼせてきちゃったよ～……/
+>>19/
+[set A s_n005_b りく]
+[randomset B b -n005 -@NPC -@あやかし]
+[show A C]
+[face A 03]
+[amb_12]
+[se bath_04]
+[move A Y -100]
+[effect fr yuge a 0 0]
+[-]
+[serif on]
+[say A]
+じぃ～っ。[show B C][move B Y -100][face B 08][orderline A B][move A X -150 1][move B X 150 1][color B talk]
+えっ？　[face A 05]何してるかって？/
+[face A 09]
+やっぱり地魂男児でも、
+色々個人差があるんだなぁ～って思って！[face B 05][shake B]/
+[face A 12]
+[face B 06]
+$B:Aはどうかな～？[move B X 300 0.5][hide B][se bath_02]
+あ、どこ行くの！[face A 05]　待って～～～！[shake A]/
+>>20/
+[set A s_n005_r りく]
+[show A L]
+[face A 02]
+[se door_01]
+[move A C 1]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふうーすっきりした！/
+[face A 03]
+[effect off a]
+でも、わざわざ椅子から降りてするの
+めんどくさ～。/
+[face A 06]
+こんどトイレ機能も追加してもらおうかなぁ。/
+>>21/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A L]
+[show B C]
+[face A 01]
+[face B 05]
+[talk A]
+[setline 0.5 A B]
+[-]
+[serif on]
+$B:A～！　くらべっこしようよ！
+ボク、成長期な気がするんだよね！/
+[face A 02]
+[face B 01]
+ほらボクのはこんな感じ！/
+>>22/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A C]
+[face A 03]
+[move A Y -150]
+[scale A 1.6]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふぅ……それにしても……/
+[flow]
+こんな狭いトイレじゃ、体の大きい地魂男児は
+入れないんじゃない？/
+[face A 04]
+僕の車椅子も入らなかったし……/
+[face A 03]
+ん～、車椅子勝手に触られないか心配だから、
+ちょっと扉開けておこうっと……
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se door_01]/
+[show B C]
+[color B talk]
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[face A 05]
+[face B 05]
+[orderline A B]
+[move B X 200 0.5]
+[move A X -200 0.5]
+わあー！[shake A 4 10 10][shake B 3 5 5]/
+>>23/
+[set A s_n005_r りく]
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -100]
+[-]
+[serif on]
+[say A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ひゃっ！　えっ、あれ！？　ウォシュレットの
+水ってどうやって止めるの！？/
+[face A 06]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.4 se pi_04]
+このスイッチかな？[shake A]
+わわわっ、強くなっちゃったっ！！/
+[face A 04]
+[shake A 5 0 10]
+強い強い、お尻の穴が～～！！
+誰か助けて～！！/
+>>24/
+[set A s_n005_r りく]
+[randomset B r -n005 -@NPC]
+[show A C]
+[show B C]
+[face A 02]
+[face B 01]
+[setline B A]
+[talk A]
+[-]
+[serif on]
+$B:A～電気消すね。[se pi_03][fadein black 0.4][waku on 0.5][se cloth_01]
+へへっ、それじゃ寝るまで話そうよ！[scale A 1.6][scale B 1.6][move A XY -10 -100][move B XY 10 -120][fadeout 0.5]/
+[face A 01]
+[face B 02]
+こうやって秘密の話するのって
+すごい楽しいよね！/
+[face A 02]
+じゃあさ、
+[= $B:Aのちんこは何センチなの？ $B:Aは好きな人いるの？ 地魂男児で一番ちんこデカイのって誰？ $B:Aはにいちゃんの裸見たことある？ $B:Aはどんなパンツが好き？][shake B 3 5 5][face B 06]/
+>>25/
+[set A s_n005_r りく]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[say A]
+ん～…くか～……んん～っ……/
+[hide A]
+[se cloth_01]
+[talkend]
+汗をかいているようだ。
+布団が合わないのか、なんだか寝苦しそうだ。/
+>>26/
+[set A s_n005_r りく]
+[randomset B r -n005 -@NPC]
+[show A C]
+[face A 06]
+[move A Y -100]
+[move A Y 100 0.5]
+[se cloth_01]
+[-]
+[serif on]
+[say A]
+みんなどっかにエロ本とか隠してないのかな～！
+$B:Aが寝てる間に探しちゃおうっと……/
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se goso_01]
+うーん……ここかな……それとも、ここかな？
+[move A X 150 0.4]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se goso_01]/
+[shake A]
+[face A 05]
+え！？
+こ、これ……！！[show B L][rotate B 60][rotate B 0 0.5][move B X 50 0.5][color B talk][face B 05][se cloth_01][orderline A B]/
+>>27/
+[set A s_n005_r りく]
+[show A]
+[face A 02]
+[say A]
+[serif on]
+兄ちゃ～ん♪
+見てみて、ちゃんと今日の宿題終わらせたよ！/
+[serif off]
+?りく、誕生日おめでとう！/
+[serif on]
+[face A 05]
+ええっ！？[shake A]　覚えててくれたの！？
+わ～っ嬉しいな～っ！[face A 12]/
+[face A 09]
+今日は僕の誕生日だけど……
+パンツの日でもあるよね。/
+[face A 02]
+だから、兄ちゃんにいい感じのパンツも
+用意してあるよ！　はい♪[shake A]　プレゼント♪[face A 14]/
+[serif off]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+今日はお昼には帰らないといけないんだ。
+屋敷で誕生日パーティするんだって。/
+[face A 03]
+でも知らない大人もいっぱい来るし、
+超めんどくさいんだよね……/
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[autotap]/
+[face A 04]
+だから帰りたくないよ～。
+夏休みはずーーーっとここで暮らしたーい！/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[face A 14]
+そうだ！　兄ちゃんと地魂男児たちも
+僕の誕生日パーティに来てよ！/
+[face A 02]
+美味しいご飯やデザートもいーっぱいあるよ！
+ねっねっ♪　いいでしょ？/
+[face A 12]
+へへっ。約束だからね！
+パンツの誕プレも期待してるよ♪/
+>>100/
+((s))
+[set A s_n005_r りく]
+[set W s_san_r 讃岐]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 りくとピクニックへ]
+[-]
+[bg heya_day]
+[bgm home]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+((m))
+[set A s_n005_r りく]
+[set W s_mus_r 武蔵]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 りくとピクニックへ]
+[-]
+[bg heya_day]
+[bgm home]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+((e))
+[set A s_n005_r りく]
+[set W s_ecg_r 越後]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 りくとピクニックへ]
+[-]
+[bg heya_day]
+[bgm home]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[se fusuma_01]
+[show A C]
+[face A 02]
+[say A]
+[orderline A]
+[serif on 0.5]
+おじゃましまーす！/
+[hide A]
+[-]
+[talkend]
+[textcolor ARUJI]
+[se paper_01]
+部屋で次の任務の資料を確認していると
+堂々とした様子でりくが入ってきた。/
+[serif off]
+?りく？/
+[show A C]
+[face A 14]
+[say A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[orderline A]
+[serif on]
+あ、にいちゃんみっけ！
+遊びにきたよ～！/
+[face A 03]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+地魂男児たちは鍛錬の時間だからって
+誰も遊んでくれなくてさぁ。/
+[face A 00]
+[flow]
+にいちゃんは今日暇？
+暇って言ってよぉ……[face A 04]/
+[move A X -150 0.3]
+[delay 0.4 move A X 200 0.6]
+[delay 1.1 move A X -200 0.6]
+[delay 1.8 move A X 150 0.3]
+[autotap]/
+[face A 12]
+[flow]
+もしにいちゃんが相手してくれないなら
+……この部屋の中を探検しちゃおっかな～。/
+[serif off]
+?時間あるよ/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 09]
+[serif on]
+やったー！　そうこなくっちゃ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+りくはこうやってふらっと荘園にやってきては
+遊んで帰る。/
+[textcolor ARUJI]
+[flow]
+地魂男児たちにとっても
+りくとの交流はいい息抜きになっているようだ。/
+[serif off]
+?差し入れを渡す/
+[show A C]
+[face A 05]
+[say A]
+[orderline A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+えっ！？　僕に……？/
+[face A 13]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[se cloth_01]
+なんだろ……
+にいちゃんからのプレゼント……う～ん……/
+[flow]
+[face A 12]
+[effect fr kira a 0 0]
+[se kira_01]
+あっ！　パンツかな……
+大抵のは、僕もう持ってるかもだけど！/
+[hide A]
+[effect off a ]
+[se paper_03]
+[talkend]
+[textcolor ARUJI]
+りくが包を開けると……/
+[show A C]
+[face A 11]
+[say A]
+[orderline A]
+えっ！？
+これって……[shake A]/
+[hide A]
+[bgm night]
+[talkend]
+[textcolor ARUJI]
+それは以前りくが泊まりに来たときに撮った
+写真がいくつも入った写真立てだ。/
+[textcolor ARUJI]
+[flow]
+地魂男児たちとご飯を食べたり
+お風呂に入ったり、布団で雑魚寝になったり……/
+[textcolor ARUJI]
+[flow]
+どの写真もりくのいい笑顔が写っている。/
+[serif off]
+?これを渡したかったんだ/
+[show A C]
+[face A 14]
+[say A]
+[orderline A]
+[serif on]
+[move A Y 100 0.1]
+[scale A 1.6]
+[move A Y -120]
+[delay 0.1 move A Y -100 0.2]
+おぉぉ！！　印刷された写真って
+レトロな感じがしてカッコイー！！/
+[serif off]
+?（レトロ……）/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+……すっごく嬉しいよ！　にいちゃん！
+ありがと！　大事にするね！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 12]
+はぁ～～僕も荘園に住みたいなーっ。
+大家族って感じでいいよね～。/
+[face A 03]
+[flow]
+毎日、$Wたちと一緒に寝て起きてご飯食べて……
+住めたら絶対楽しいのにな～。/
+[serif off]
+?もっと美味しいもの食べてるんじゃ？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[serif on]
+うーーん……どうかな～。/
+[face A 04]
+[flow]
+家では料理長がご飯を作ってくれるけど
+食べるのはひとりっきりでだし……/
+[face A 04]
+[flow]
+友達と遊びにも行けないし……
+どこに行ってもじいやに監視されるし……/
+[face A 15]
+[effect fr syutyu a 0 0]
+[shakebg]
+[bgm fun]
+もっと自由に遊びたいなぁ……
+可愛い子には足袋を履かせろ……って言うのにね！/
+[serif off]
+?旅をさせろ、ね/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[effect off a]
+[face A 12]
+[serif on]
+えっ、そうだっけ？
+僕は、パンツを履かせろ、でもいいけど！/
+[hide A]
+[talkend]
+[serif off]
+?りく、どこか行きたいところある？/
+[show A C]
+[face A 02]
+[say A]
+[orderline A]
+[serif on]
+行きたいところかぁ……えっと……
+やっぱり外かな！[shake A]　じいやが見てないとこで。/
+[face A 12]
+[flow]
+それで、外でごはんを食べてみたいなぁ。
+おにぎりみたいなシンプルなやつ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+それはピクニックだな……と思い、裏山に
+連れて行ってあげるのはどうかと考えた。/
+[textcolor ARUJI]
+[flow]
+荘園内ならりくも自由に行動できるというし
+ちょうどよさそうだ。/
+[serif off]
+?じゃあ準備して出かけよう/
+[show A C]
+[face A 14]
+[say A]
+[orderline A]
+[serif on]
+えっ……これから行くの？
+ほんとに！？　わーい、やったー！
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 02]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg sandou]
+[se amb_10]
+[bgm journey]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A]
+[face A 04]
+[say A]
+[-]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……わ、忘れてたぁ……[shake A]
+外って地面がガタガタで走りにくいんだった……/
+[flow]
+[move A Y 100 0.1]
+[rotate A 10 0.1]
+[delay 0.2 rotate A 0 0.2]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.3 shake A]
+[se doka_01]
+[talkend]
+[textcolor ARUJI]
+りくは石ころと泥の道に苦戦しながら
+車椅子の上で揺られている。/
+[hide A]
+[serif off]
+?この上が見晴らしいいポイントだよ/
+[serif on]
+[textcolor ARUJI]
+目の前には小さな丘。その頂上で、
+何度か地魂男児たちと過ごしたことがあるのだ。/
+[show A]
+[face A 05]
+[say A]
+えっ、この上っ！？
+車椅子じゃ、無理だよね……[face A 03]/
+[serif off]
+?じゃあここでお弁当食べる？/
+[serif on]
+[face A 04]
+う、うぅ……/
+[face A 15]
+わかったよ、僕、登るよ！
+うわぁぁぁ！[face A 04][shake A]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se walk_01]
+[hideall]
+[bg sandou]
+[se amb_10]
+[bgm journey]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+荘園の裏山の頂上付近まで歩いてきた。
+緩やかな坂が続き、山慣れしてなくても歩きやすい。/
+[textcolor ARUJI]
+[flow]
+春の野花が咲き誇り、爽やかな風が優しい香りを
+届けてくれる。実にのどかだ。[se amb_13]/
+[se walk_01]
+@りく
+はぁ……はぁ……はぁ……/
+[textcolor ARUJI]
+隣で息を切らすりくは、車椅子を降り
+ぷにぷにの足で歩いてここまで登ってきたのだ。/
+[bg sky_day 0.5]
+@りく
+わぁーーーー……わぁ～～～～……
+広いんだねーーっ/
+[flow]
+@りく
+頑張ったかいがある～！
+……じゃあお弁当を……/
+[flow]
+[shakebg]
+[se cloth_01]
+@りく
+あれっ？　あれ～～～？/
+[flow]
+@りく
+お弁当……車椅子に置いてきちゃったー！[se zukkoke_02]/
+[serif off]
+?ええーーーー/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg mbg_syouen]
+[minibg sky_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[se amb_10]
+[textcolor ARUJI]
+[serif on]
+せっかく山の頂上まで登ってきたが
+車椅子の置いてあるところまで降りてきた。/
+[serif off]
+?頑張ったね/
+[show A C]
+[face A 02]
+[say A]
+[orderline A]
+[serif on]
+はぁ、はぁ、うんっ！　頑張ったよ！
+でももう登らないからね。[face A 03]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+幸い、頂上ほどではないが、このあたりも
+少し丘になっていて見晴らしがよかった。/
+[textcolor ARUJI]
+[flow]
+[se cloth_06]
+レジャーシートを敷いて、ふたりで座った。/
+[show A C]
+[face A 06]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[orderline A]
+にいちゃん、足揉んでよ～
+疲れちゃった……/
+[serif off]
+?足をマッサージしてあげる/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[serif on]
+わ、いいの！？　ありがと！
+じっくりやってね！[face A 12]/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+りくは両足を投げ出し、
+あぐらをかくこちらの膝の上に乗せてきた。/
+[textcolor ARUJI]
+[se cloth_01]
+足の裏を揉むと、ぷにぷにとした
+柔らかな感触が伝わってきた。/
+[se kira_01]
+[effect off a 0 0]
+[show A]
+[face A 12]
+[scale A 1.6]
+[move A Y -120]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+あ～、そのへんそのへん
+効くなぁ……/
+[textcolor ARUJI]
+[talkend]
+[hide A]
+もっと歩いたほうがいいよ……と思いながら
+両足交互に足の裏からふくらはぎへと進める。/
+[textcolor ARUJI]
+[flow]
+持ち上げると意外と重みがあるんだなぁと
+思いつつ、他愛もない話をした。/
+[serif off]
+?学校のことを聞く/
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[serif on]
+[scale A 1.6]
+[move A Y -120]
+僕ねー学校は結構好き。通ってるのは
+私立の中高一貫の男子校だよ。/
+[face A 01]
+[flow]
+普段は制服だって着るんだ～。/
+[shake A]
+[face A 13]
+あ、そこすごくいいかも……
+もっと揉んで！[shake A][face A 02]/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+ふくらはぎの裏をぷにぷにしてやると
+りくは心地よさそうに目を閉じていた。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+[flow]
+[say A]
+でも勉強は……あんまり好きじゃないかな……
+今から期末のテストが憂鬱だよ～。/
+[face A 00]
+[flow]
+にいちゃんは勉強はできる方なの？
+あ、あんな任務やってるなら得意そうだよね……/
+[face A 01]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+でも僕も、地魂男児たちと遊ぶようになってからは
+地理とかはちょっと得意になったかな！/
+[serif off]
+?部活は？/
+[face A 06]
+[say A]
+[serif on]
+ん～入ってないや……
+授業が終わったら、すぐ家に帰るから。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[serif on]
+ほら僕ってさ、超御曹司だから
+怪我とかしちゃだめなんだって！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[se cloth_01]
+意外としっかりした太ももをきゅっと掴んで
+少しずつぷにぷにと揉み進めていく。/
+[show A]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+あははっ！[shake A]　に、にいちゃん……[face A 13]
+ちょっとくすぐったいかも……[shake A]うう……[face A 06]/
+[face A 13]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ、も、もういいよ！　なんか照れるし……
+ありがとね、にいちゃん。[face A 06]/
+[serif off]
+?どういたしまして/
+[face A 13]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+少し顔を赤らめながら[shake A]
+足をもじもじしているりくが微笑ましかった。/
+[face A 06]
+[flow]
+[say A]
+……部活は体験入部はしたんだけど
+じいやがついてきて恥ずかしくて……/
+[face A 04]
+[flow]
+でも、家に帰ってもうるさいんだよー。
+自由なのは寝るときくらいなんだ。/
+[face A 03]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+壮ちゃんがうちにいた頃は
+学校から帰った後も楽しかったんだけどなぁ～。/
+[serif off]
+?猫乃屋さん？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+うん。壮ちゃん、昔はうちで暮らしてたんだよ！/
+[face A 12]
+[flow]
+うちで住み込みながら使用人の仕事してて、
+いっつもじいやに怒られてたな～。/
+[face A 13]
+初めて会ったときはさ、ヤンキーって感じで
+こわ……[face A 04][shake A]って思ってたんだけど……/
+[face A 02]
+[flow]
+まあそこは僕の持ち前のコミュ力で
+打ち解けたんだよね！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+でも……壮ちゃん、出て行ったんだ。
+なんでって聞いても教えてくれなくて……/
+[face A 03]
+[flow]
+なんだか、思い詰めてるみたいで……
+いなくなってから、僕、寂しかったなぁ。/
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ロクハラの声聞士になったって
+あとから知ったんだけど……/
+[face A 03]
+[flow]
+なにかあったなら
+僕に話してくれてもいいのにな……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[flow]
+僕、壮ちゃんに信頼されてないのかな～……/
+[hide A]
+[talkend]
+[serif off]
+?きっと事情があるんだよ/
+[show A C]
+[face A 08]
+[say A]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[orderline A]
+[se cloth_01]
+[serif on]
+そうだね……うん、ごちそうさま！[face A 02]
+お弁当美味しかった～。[shake A]/
+[face A 00]
+…………/
+[serif off]
+[rotate A 50 0.5]
+[move A Y -100 0.5]
+[hide A]
+[delay 0.3 se dosa_01]
+[delay 0.4 shakebg]
+[-]
+[wait 0.5]
+[light def 0.5]
+[lightcolor orange]
+[bg sky_day 0.5]
+[minibg off 0.5]
+[se amb_13]
+[-]
+[serif on]
+@りく
+はぁ～～。自由だなぁ。
+こんなにのびのびしたの久しぶり！/
+[flow]
+[se amb_10]
+@りく
+空気いいよね、ここって。
+木が揺れる音も、風も、気持ちいいな～！/
+[textcolor ARUJI]
+[se cloth_01]
+[talkend]
+りくはシートの上に大の字になって
+空を見上げながらそう言った。/
+[bg sky_sunset 3]
+[autotap]/
+[flow]
+[textcolor ARUJI]
+気がつけば日が傾いてきている。/
+[serif off]
+?そろそろ戻ろうか/
+[bg mbg_syouen 0.5]
+[minibg sky_sunset 0.5]
+[show A]
+[face A 04]
+[serif on]
+[scale A 1.6]
+[move A Y -220]
+[move A Y 100 0.5]
+[se cloth_01]
+[say A]
+ええーー……
+また連れてきてくれる？/
+[hide A]
+[-]
+[talkend]
+[textcolor ARUJI]
+りくはごろりと寝返りを打って
+寂しそうにしがみついてきた。/
+[serif off]
+?いつでもいいよ/
+[show A C]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[orderline A]
+[serif on]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+やったー！　じゃあ明日も来るよ！/
+[face A 03]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+なにその顔～……
+いつでもいいって言ったじゃん！/
+[hide A]
+[talkend]
+[serif off]
+?学校があるでしょ/
+[show A C]
+[face A 03]
+[say A]
+[orderline A]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+ぶー。[shake A]また来週来るもんね！/
+[flow]
+[face A 02]
+……にいちゃん、ありがとう！　楽しかった！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+りくと楽しい休日を過ごしたのだった。/

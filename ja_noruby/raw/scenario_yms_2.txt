@@ -1,0 +1,796 @@
+>>10000/
+@山城
+ボクは京の都を擁する畿内の山城どす。[wait 4]
+ふぅん、おまはんが声聞士なんや。[autotap]/
+[delay 3.0]
+[flow]
+[-]
+@山城
+一見さんお断りやねんけど…まぁ、ボクが面倒みたるわ。
+それが高貴たる者の責任やさかいな！　ふふん！[autotap]/
+[delay 9.0]
+[flow]
+[-]
+@山城
+……決まったわ！/
+>>10001/
+@山城
+なんやまた呼ばはったん？　
+気軽に呼ばれてええ身分やないんやけど……[autotap]/
+[delay 5.0]
+[flow]
+[-]
+@山城
+まぁ、おはまはんは特別に許したるわ。
+えへへ…………[wait 4]よ、喜んでへんから！/
+>>1/
+[set A s_yms_r 山城]
+[show A C]
+[face A 14]
+[-]
+[serif on]
+[talk A]
+なんやおまはん、京の見どころが多すぎて、
+どこ行けばええかわからへんの？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+それやったら、まずは伏見稲荷どす。ふふんっ。
+全国にある稲荷社の総本宮やさかい、格が違う。/
+[face A 16]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+朱色の千本鳥居の中を歩いてると、
+あたりの空気まで凛としてくるんや。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 13]
+[flow]
+高貴なボクが特別に案内したるさかい。
+まあまあ歩くけど、しんどいとか言わんときや？/
+[face A 16]
+ほな、行こか！/
+>>2/
+[set A s_yms_r 山城]
+[show A C]
+[face A 14]
+[say A]
+[serif on]
+お茶淹れたんやけど、おまはんもどない？
+……そのへんのお茶と一緒にしたらあきまへんえ。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+宇治のお抹茶に生八つ橋、ちゃんと揃えてるあるんや。
+都の嗜みっちゅうもんを、教えたろ思てな。ふふんっ。/
+[face A 09]
+[flow]
+ほら、遠慮せんとおあがり。
+よう味わっとくれやす。 ……へへっ。[move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face A 16]/
+>>3/
+[set A s_yms_r 山城]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[say A]
+[serif on]
+おまはん、祇園祭は観たことあるん
+都の祭っちゅうんは、ひと味もふた味も違うんや。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+鉾が並ぶ姿はほんま見事やし、囃子の音が流れたら、
+京の夏が来たぁて感じるんどす。/
+[face A 02]
+[flow]
+観に来はるんやったら、ボクが案内したるわ。
+せやけどその前に、まずは推し鉾を決めてもらわんと！/
+[face A 14]
+[flow]
+「[= 長刀鉾 函谷鉾 綾傘鉾 菊水鉾 月鉾 四条傘鉾 鶏鉾 放下鉾 岩戸山 船鉾 北観音山 南観音山 大船鉾]」もええし「[= 占出山 霰天神山 山伏山 油天神山 蟷螂山 保昌山 伯牙山 白楽天山 木賊山 孟宗山 郭巨山 芦刈山 橋弁慶山 浄妙山 鯉山 鈴鹿山 黒主山 役行者山 八幡山 鷹山]」も[= 雅や。 風流や。 かっこええ。 通や。 おもろい。]
+きっとおまはん好みの山鉾、見つかるはずやで！/
+>>4/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms -@NPC]
+[set C s_yms_r 山城]
+[show A C]
+[face A 14]
+[move A Y -50]
+[-]
+[serif on]
+[talk A]
+ふぅ……ええお茶にええ景色。実に雅どすなぁ……/
+[serif off]
+[waku on 0.3]
+[show C]
+[move C XY 200 50 0.5]
+[face C 05]
+[color C blue]
+[color A talk]
+[-]
+[face A 14]
+[serif on]
+(あかん、足がめっちゃ痺れとる……！
+ いま一ミリでも動いたら終わりや……！)[face C 04]/
+[hide C]
+[serif off]
+[waku off 0.3]
+[-]
+[show B L]
+[face B 00]
+[move B X -300]
+[move B X 300 0.5]
+[se fusuma_01]
+[say A]
+[serif on]
+[face A 06]
+あ、$B:A、遊びのお誘い？　嬉しいんやけど
+いまは都合が——……/
+[face A 05]
+[move B X -200 0.5]
+[move A X -150 0.5]
+[rotate A 20 0.5]
+[se cloth_06]
+[flow]
+ちょ、ちょい待ち、引っ張らんといて、
+あッ、あぁあーーーーーーーーッ！！！[shake A 3 30 30][face A 12]/
+>>5/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 01]
+[move A Y -60]
+[-]
+[serif on]
+山城が書物を広げ筆を持ち、
+さらさらと帳面に文字を書き連ねている。/
+[show B R]
+[move B X 300]
+[move B X -300 0.5]
+[se fusuma_01]
+[talk A]
+[face B 00]
+[face A 08]
+あ、$B:A。いま手ぇ離されへんのや。見ての通り
+書付けの最中どす。またにしておくれやす。/
+[move B X 300 0.5]
+[hide B]
+[se fusuma_02]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+……ふふ。雅な雰囲気で書をしたためるボク……
+高貴な雰囲気……よう出とるわ！[effect fr kira 6000 0 0][face A 02][se taiko_02]/
+>>6/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 00]
+[move A X 500]
+[move A X -500 1]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[talk A]
+この荘園の庭、なかなか雅な雰囲気やないの。
+せやけど……もうひと味、彩りが欲しおすなぁ。/
+[face A 13]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+この一角に川床置いたら案外よう映えるんやない？
+そこで食事でもしたらえらい風流やろ？/
+[show B R]
+[face B 05]
+[move B X 300]
+[move B X -100 0.5]
+[rotate B 20 0.5]
+[face A 02]
+[say A]
+[flow]
+……今度虎鉄丸に頼んでみよか。ついでに
+荘園デルタみたいなもんも作ってもらお。ふふんっ。/
+>>7/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[show B]
+[face B 01]
+[setline A B]
+[face A 05]
+[talk A]
+[-]
+[serif on]
+えっ、洗濯物を干すやなんて……そないな雑務
+ほんまはボクのすることやあらへんのに……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+[flow]
+うぅ、でも、しゃあなしや。今回だけやで？/
+[move A X 500 0.5]
+[se cloth_01]
+[delay 0.5 move A XY 10 -40 0.4]
+[delay 0.5 rotate A -10 0.3]
+[delay 0.9 move A XY -10 40 0.3]
+[delay 1 rotate A 0 0.3]
+[move B X -300 0.5]
+[autotap]/
+[say A]
+[face A 08]
+[flow]
+シワはよう伸ばして、風の通りも考えて、
+見栄えよう整えて……/
+[move A X -500 0.5]
+[se cloth_01]
+[delay 0.5 move A XY -10 -40 0.4]
+[delay 0.5 rotate A 10 0.3]
+[delay 0.9 move A XY 10 40 0.3]
+[delay 1 rotate A 0 0.3]
+[move B X 300 0.5]
+[autotap]/
+[se kira_01]
+[effect fr kira a 0 0]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face B 02]
+うん、なかなか品よう干せたやないの。ふふんっ。/
+>>/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[randomset C r @地魂男児 @あやかし -yms @NPC -@NOW]
+[show A C]
+[face A 01]
+[move A Y -50]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[move A X 250 0.5]
+[show B]
+[show C]
+[face B 01]
+[face C 00]
+[move B X -500]
+[move C X -500]
+[setline 0.5 C B -100 500]
+[orderline A B C]
+[-]
+[serif on]
+[talk A]
+ん？[face A 10]　お茶の飲み方が様になってるやて？
+そ、そう言われると照れるやないの……/
+[face A 01]
+[face B 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+ほんなら特別に、ボクが雅なお茶のいただき方
+っちゅうもんを教えるさかい、みなはん、そこ座り。/
+[move B Y -50 0.4]
+[move C Y -50 0.4]
+[se dosa_01]
+[face A 02]
+[face B 01]
+[face C 04]
+[talkend]
+その後、山城の長いうんちくが始まったのだった。/
+>>9/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[show B]
+[setline A B]
+[face A 01]
+[face B 00]
+[-]
+[se amb_05]
+[serif on]
+[talk A]
+昼の賑わいも悪うないけど、夜の雅さは
+もっと密やかに楽しむもんどす。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 14]
+[face B 01]
+[flow]
+灯りを落として、お香の煙をひと筋……
+そうしてると、なんや心までほどけてくるんや。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face A 13]
+[face B 02]
+[flow]
+おまはんも、ちぃと静かにして味わってみ。
+ふふん、ええ心地やろ？/
+>>10/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 14]
+[move A Y -50]
+[-]
+[serif on]
+[talk A]
+今夜の月、よう晴れて綺麗どすなぁ。/
+[show B L]
+[move B X -500]
+[move B X 500 0.5]
+[say A]
+[face B 00]
+[face A 14]
+あ、$B:A、ひとりで眺めるんも悪うないけど……
+おまはんが来たんなら、隣くらい空けたるわ。/
+[setline 0.5 B A]
+[move B Y -50 0.5]
+[se dosa_01]
+[face A 01]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+ほら、そこ座り。ええ月や。お団子もお茶もあるし
+ゆるりと見ていかはったらええ。/
+>>11/
+[set A s_yms_r 山城]
+[show A C]
+[face A 03]
+[-]
+[serif on]
+[talk A]
+高貴な身ぃは、寝る前の支度にも手ぇ抜けへんのや。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[se cloth_01]
+[say A]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+明日の飾りはこっち……いや、こっちが映えるやろか。
+服のシワもご法度やし、準備だけで一苦労どす。/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 09]
+……ふふん、完璧やな。/
+>>12/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[randomset C r @地魂男児 @あやかし -yms @NPC -@NOW]
+[se horror_02]
+[show A C]
+[show B C]
+[show C C]
+[setline B A C]
+[orderline A B C]
+[face A 09]
+[face B 05]
+[face C 06]
+[-]
+[serif on]
+みんなを集め、山城が怖い話を聞かせている。/
+[say A]
+[face A 13]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……こないに、都には古うから怪談がぎょうさん
+残っとるんや。ふふんっ。[shake A]/
+[face A 08]
+[flow]
+次はなんの話にしよか……[wait 0.5][face A 05][shake A]ひぃつ！？[se doka_01][face B 05][face C 05]
+な、なんやいまの音！？[face A 15][se horror_05]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+[shake A 3]
+[face B 04]
+[face C 04]
+[flow]
+た、ただの風の音や、そうや、うん……
+きょ、今日は怪談もここまでにしとこか！/
+>>13/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 04]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[serif on]
+[talk A]
+……なんや、夜は妙にいろいろ考えてまうな。
+明日のこととか、その先のこととか……/
+[show B L]
+[scale B 1.6]
+[move B Y -120]
+[setline 0.5 B A]
+[face B 05]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+あ、$B:A！ どないしたん？　こんな時間に。
+ボク？　べ、別に、なんともあらへんよ。/
+[face A 10]
+[face B 00]
+[flow]
+……でも、おまはんの顔見たら、
+なんやほっとしてもうたわ。[face A 09]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 16]
+[face B 01]
+ちょっとだけ、話してってぇや。/
+>>14/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 06]
+[-]
+[serif on]
+[talk A]
+ぼ、ボクはいつでも雅で高貴な姿を見せてんと
+あかんのに……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+[flow]
+うぅ……今日はなんや、妙な気分や……/
+[show B R]
+[face B 00]
+[move B X 300]
+[setline 0.5 A B]
+[say A]
+[face A 05]
+わ、$B:A、い、今はあかん、来んといて～！[shake A][face A 15]
+こんな顔、誰にも見られたない……んん~っ！[move A X -800 0.5]/
+>>15/
+[set A s_yms_r 山城]
+[-]
+[effect fr allows 6000 0 0]
+[effect fr syutyu a 0 0]
+[se jutsu_01]
+[wait 1]
+[-]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[-]
+[show A C]
+[face A 09]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[waku on 0.5]
+[serif on]
+[talk A]
+（ふふん！　さすがボクや……所作まで完璧に
+　決まってる。みんな雅なボクに見とれてたはずや）/
+[effect off a]
+[waku off 0.3]
+[scale A 1 0.3]
+[move A Y 120 0.3]
+[se zukkoke_02]
+[face A 05]
+って、あれ！？　だ、誰もおらへんやん……/
+>>16/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[randomset C r @地魂男児 @あやかし -yms @NPC -@NOW]
+[show A C]
+[face A 08]
+[-]
+[serif on]
+[talk A]
+個々が強いだけやと、都は守られへんえ。
+連携まで揃えてこそや。/
+[show B L]
+[show C R]
+[face B 08]
+[face C 08]
+[move B X -200]
+[move C X 200]
+[setline 0.5 B A C]
+[talk A]
+[face A 11]
+[flow]
+$B:A、$C:A、連携の稽古付きおうてくれはる？
+おおきに！　ほないくで！/
+>>17/
+[set A s_yms_b 山城]
+[randomset B b @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 06]
+[-]
+[serif on]
+[talk A]
+うぅ……衣を脱ぐんはあんまり得意やないんや……
+高貴な意匠の衣に包まれとらんと、威厳保てへんし……/
+[show B R]
+[move A Y -100 0.5]
+[face A 04]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+[face B 05]
+[talk A]
+…………うぅ、なんや、やっぱり落ち着かへん……
+うぅっ……/
+>>18/
+[set A s_yms_b 山城]
+[randomset B b @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 16]
+[scale A 1.6]
+[move A Y -120]
+[effect fr yuge b 0 0]
+[se amb_12]
+[-]
+[serif on]
+[talk A]
+はぁ～～～……ええお湯やわぁ……
+とろけてしまいそうやぁ……/
+[show B L]
+[face B 01]
+[scale B 1.6]
+[move B Y -120]
+[face A 05]
+[setline 0.5 B A]
+[effect fr splash 6000 0 0]
+[flow]
+[se water_07]
+あ、$B:Aっ！？[shake A]
+は、恥ずかしいとこ見せてしもたぁ……！！[face A 15]/
+>>19/
+[set A s_yms_b 山城]
+[randomset B b @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[show B R]
+[face A 00]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[move B X 200]
+[move B X -200 0.5]
+[effect fr yuge b 0 0]
+[se amb_12]
+[talk A]
+[-]
+[serif on]
+[se bath_03]
+$B:A、背中流してくれはるん？　おーきに。
+綺麗に頼むわ。/
+[move B X -40 0.5]
+[se bath_05]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+……ん、んん……
+なんか、えらいええ手つきやん……/
+[face A 06]
+[flow]
+べ、別に、そのまま続けてもかまへんけど……
+んんっ。[shake A][se bath_05]/
+>>20/
+[set A s_yms_r 山城]
+[show A C]
+[face A 14]
+[scale A 1.6]
+[move A Y -120]
+[se pee_01]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ええ香りやな。掃除もよう行き届いてる。
+当番の子、あとでぎょうさん褒めたらんとあかんな。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 02]
+[flow]
+こういう気遣い、ボクはちゃんと見てるで。
+ふぅ～。すっきりしたわ！/
+>>21/
+[set A s_yms_r 山城]
+[set C s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[show B R]
+[face B 01]
+[face A 00]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[move B X 200]
+[setline 0.5 A B]
+[talk A]
+[-]
+[serif on]
+[face A 05]
+えっ、厠、一緒に来るん！？[se zukkoke_02]
+ま、まぁ、べ、別に、ボクはかまへんけど！？/
+[se pee_01]
+[face A 06]
+[face B 00]
+[show C]
+[face 04]
+[setline C B]
+[scale C 1.6]
+[move C Y -120]
+[move C XY -200 100 0.5]
+[color C blue]
+[face C 04]
+[color A talk]
+[serif off]
+[waku on 0.3]
+[-]
+[serif on]
+(う、うぅ……隣で用を足すやなんて……
+ は、恥ずかしいしめっちゃ緊張してまう……)/
+[serif off]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[hide C]
+[waku off 0.3]
+[-]
+[say A]
+[face A 05]
+[shake A]
+[serif on]
+[se zukkoke_02]
+え、いま覗いてへんかった！？/
+>>22/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅ～、おなかも落ち着いたわ……
+ほな、マンガにアニメに、すまほで推し活や！[face A 01][se taiko_02][shakebg]/
+[say A]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+個室の中なら誰にも邪魔されへん、ボクの雅な
+天国どす～。ふふんっ！/
+[talkend]
+コンコンッ/
+[se zukkoke_02]
+[say A]
+[face A 05]
+は、入ってますぅ！！[shake A 3 30 30]/
+>>23/
+[set A s_yms_r 山城]
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[serif on]
+[talk A]
+ふぅ……うぅ……なんやろ、この変な気分……
+高貴なボクが、こない取り乱したらあかんのに……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+あかん、落ち着き……落ち着きぃ……/
+[say A]
+[face A 12]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+んんっ……[shake A]
+も、もう、出るに出られへんやないの……！/
+>>24/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A L]
+[face A 07]
+[se fusuma_01]
+[move A X -300]
+[move A X 300 1]
+[-]
+[serif on]
+[talk A]
+んん……むにゃむにゃ……お布団やぁ……ぽふっ……[move A X 300 0.5][rotate A -25 0.5][move A Y -100 0.5][se dosa_01]
+ボク、もう眠いねん～……/
+[show B L]
+[move B X -200]
+[move B X 200 0.5]
+[face B 05]
+[face A 16]
+[talk A]
+$B:Aも、はよぉいっしょに寝よー…………/
+[say A]
+[move A Y 100 0.3]
+[face A 05]
+[rotate A 0 0.2]
+[se cloth_06]
+[face B 06]
+……はッ！！　ちゃ、ちゃうねん！　いまのは、
+その、ね、寝ぼけてただけやからッ！！[shake A 2 40 20][face A 15]/
+>>25/
+[set A s_yms_r 山城]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[talk A]
+んん～……ボクは高貴な身分なんや……
+むにゃむにゃ……/
+[talkend]
+寝言のようだ。/
+>>26/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[show B]
+[face B 07]
+[setline A B]
+[rotate A -35]
+[rotate B -35]
+[moveline A B 0 -50 0]
+[face A 07]
+[orderline B A]
+[-]
+[rotate A 0 1]
+[move A Y 50 1]
+[se cloth_01]
+[face A 11]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+夜中に目が覚めてしもた……んん……
+寝ぼけたフリして$B:Aの布団に入ってまお……[face A 06]/
+[rotate A -30 0.5]
+[move A XY 100 -50 0.5]
+[say A]
+[face A 16]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[se cloth_01]
+ぬくくてやらかいわぁ……
+それに、なんや安心するし……ぎゅうう……[shake A][face A 07]/

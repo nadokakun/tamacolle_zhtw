@@ -1,0 +1,825 @@
+>>10000/
+@備中
+山陽路、[wait 0.3]吉備堂中國[wait 1.0]
+我的名字是備中！[autotap]/
+[delay 1.7]
+[flow]
+[-]
+@備中
+……你哥哥不會惹麻煩嗎……？/
+>>10001/
+@備中
+那...[wait 0.5]你打電話給我了嗎？[wait 1.5]
+算命，是好是壞？/
+>>1/
+[set A s_bic_r 備中]
+[show A C]
+[face A 00]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+主啊，如果你想改變一下節奏，為什麼不去備中Matsu山城呢？
+天守閣的高度是現存山城中最高的。/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+看起來就像是漂浮在雲海之中。
+它已經很美麗而且很棒了！/
+我相信它會緩解你日常的疲勞......嗯？[face A 05][move A Y 10 0.1][delay 0.1 move A Y -10 0.1]　我也是？[wait 0.5]
+哦，我太高興了！ ！[face A 02][shake A]　但是……那個……[face A 04]/
+[face A 06]
+我不擅長高處……！[shake A]/
+>>2/
+[set A s_bic_r 備中]
+[show A C]
+[face A 00]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+主啊！你喜歡螢火蟲嗎？/
+[face A 01]
+[effect A kira a 0 100]
+天王八幡神社是金色螢火蟲的棲息地，
+金色的光芒飛舞，美極了！/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+好吧...如果你喜歡螢火蟲...
+嗯...[wait 0.5]和我一起...[face A 06]哦，不...[wait 0.5]那...[shake A][effect off a]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+無論如何，和你喜歡的人在一起
+請去嘗試...！/
+>>3/
+[set A s_bic_r 備中]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[serif name]
+供奉於國一宮的吉備津神社。
+你知道吉備津彥命嗎？/
+[face A 02]
+[effect A kira a 0 100]
+他打敗名叫浦羅的惡魔的傳說就是「桃太郎」。
+據說，這就是它的出處！/
+[face A 06]
+[effect off a]
+我也打敗過很多喰種，
+對於像吉備津彥美琴這樣值得尊敬的人…[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[face A 04]
+好吧，為了做到這一點，我們需要製定適當的策略...[shake A]
+哇……我開始緊張了！[move A X -50 0.1][delay 0.1 move A X 100 0.2][delay 0.3 move A X -100 0.2][delay 0.5 move A X 50 0.1]/
+>>4/
+[set A s_bic_r 備中]
+[randomset B r @地魂男児 @あやかし -bic -bin -biz -mim]
+[show A C]
+[show B C]
+[setline 0 A B]
+[move A X -200]
+[face A 00]
+[face B 01]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+$B:A、洗衣服？我自己把所有東西都擦乾
+太難了，我來幫你吧！[move A X 200 0.2]/
+[serif off]
+[face A 08]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[move B XY -10 -40 0.5]
+[rotate B 10 0.3]
+[delay 0.5 move B XY 10 40 0.3]
+[delay 0.6 rotate B 0 0.3]
+[-]
+[move B X -250 0.5]
+[move A X 400 0.5]
+[-]
+[move B XY -10 -40 0.5]
+[rotate B 10 0.3]
+[delay 0.5 move B Y -10 0.2]
+[delay 0.7 move B Y 10 0.2]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[move B XY 10 40 0.3]
+[delay 0.3 rotate B 0 0.3]
+[-]
+[serif on]
+很好……很好……/
+[face A 02]
+[face B 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+呼……今天天氣也不錯！
+看起來這會很快變乾！/
+[face A 01]
+$B:A，你知道嗎？事實上 當我和哥哥在這裡的時候
+天氣總是晴朗！[face B 01]/
+>>5/
+[set A s_bic_r 備中]
+[show A C]
+[face A 05]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+啊！消失了……！[shake A]
+我的小米餃子吃完了...[move A Y 10 0.4][delay 0.4 move A Y -10 1.0][face A 06]/
+沒有它，即使你需要緊急食物
+很麻煩，有時候到了朋友也很難聚齊…/
+[face A 04]
+我該怎麼辦...[shake A]
+我想知道是否可以讓廚房值班的人幫我做一下.../
+>>6/
+[set A s_bic_r 備中]
+[randomset B r @地魂男児 @あやかし @NPC -bic]
+[show A C]
+[move A X -800]
+[show B C]
+[face A 05]
+[face B 04]
+[talk A]
+[move B X 200 1.0]
+[delay 1.0 move B X -50 1.0]
+[-]
+[move A X 550 0.3]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+$B:A，那個大行李怎麼了？
+……這樣亂逛的話就很危險了。/
+[face A 08]
+[move A X 50 0.3]
+嘿嘿，別給自己太大壓力了！[face B 01]　我會幫助你。[move A Y -50 0.2][move B Y -50 0.2]
+再見！[shake A][shake B]/
+[face A 04]
+[face B 04]
+[move A Y 50 2.0]
+[move B Y 50 2.0]
+……尼吉吉……[shake A][shake B]
+呃，就我們兩個人……好重啊……！是誰？ ！[shake A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_bic_r 備中]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+好的！我們為明天的使命製定了策略！
+如果我被任命為隊長的話，這就是計劃…！/
+[face A 08]
+但如果你真的成為隊長了…[move A Y -50 1.0][face A 06]
+如果我們失敗了，每個人都會有麻煩...[move A Y -50 1.0]/
+[face A 04]
+[shake A]
+呃...[move A Y -50 1.0]隊長責任重大…
+我覺得身為會員我會更安心...[move A Y 10 0.4][delay 0.4 move A Y -100 2.0]/
+>>10/
+[set A s_bic_r 備中]
+[show A C]
+[face A 00]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[move A X 100 0.3]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+[serif on]
+[talk A]
+啊？
+有人的內衣和衣服混在一起了…/
+[face A 06]
+[shake A]
+而且……這是一個令人驚奇的模式……[scale A 2.0 0.5][move A XY -100 -250 0.5]
+有些地方你可以隱藏...[wait 0.5]沒有很多...！[shake A]/
+[face A 09]
+[effect A love a 0 300]
+我-我想知道誰穿了這些...
+我很好奇.../
+>>11/
+[set A s_bic_r 備中]
+[randomset B r @地魂男児 @あやかし -bic -bin -biz -mim]
+[show A C]
+[show B C]
+[setline 0 A B]
+[move A X -400]
+[move A X 400 0.5]
+[face A 02]
+[face B 01]
+[order A 1]
+[order B 0]
+[talk A]
+[-]
+[serif on]
+$B:A！謝謝你美味的晚餐！
+打掃和洗碗就交給我吧！/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+我不擅長做飯，但是
+我可以幫你解決這個問題！[face B 02]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_bic_r 備中]
+[show A C]
+[move A X 800]
+[move A X -800 1.5]
+[face A 06]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+[serif name]
+...Doki Doki...
+是不是互相拍拍肚子…/
+[face A 09]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+一起睡覺一起吃飯的地魂男孩，僅此而已。
+我想知道是否允許觸控.../
+[face A 02]
+[move A X 100 0.2]
+我、我想我也想嘗試撫摸某人…
+然後另一個人也拍了拍我…[move A X -100 0.4]/
+[face A 06]
+[move A Y -150 0.3]
+[rotate A 10 0.3]
+嗯，果然……我做不到！[shake A 5 5 5]/
+>>15/
+[set A s_bic_m 備中]
+[show A C]
+[shake A]
+[face A 03]
+[effect fr katana 2000 300 0]
+[se doka_01]
+[-]
+[shake A]
+[effect fr katana 2000 -300 0]
+[se doka_01]
+[-]
+[serif on]
+[talk A]
+嘿！嘿！ ！
+頭！ ！ ！[move A X 100 0.1][effect fr allow 2000 0 -50][shakebg][se doka_01]/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+……好吧！
+今天的訓練你們表現得很好！/
+[face A 08]
+透過訓練我可以很好地移動。
+沒關係，實際表演一定能表現出色……！[shake A]/
+>>16/
+[set A s_bic_m 備中]
+[randomset B m @地魂男児 @あやかし -bic -@NPC]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 08]
+[face B 08]
+[serif on]
+[talk A]
+好吧？　$B:A。有了我的訊號$B:A從右邊開始，
+我從左邊進攻。[move B Y 5 0.2][delay 0.2 move B Y -10 0.6][delay 0.8 move B Y 5 0.5]/
+我們走吧！
+看！[move A X -600 0.3][move B X 600 0.3]/
+[serif off]
+[move A X 700 0.3]
+[move B X -700 0.3]
+[face A 05]
+[face B 05]
+[-]
+[shakebg]
+[fadein WHITE 0.1]
+[-]
+[se bomb_02]
+[move A XY -250 -100]
+[move B XY 100 -100]
+[rotate A 20]
+[rotate B -10]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[face A 04]
+[face B 04]
+[talk A]
+[shake A]
+啊……我想我是個失敗者。
+我可能會重新考慮這個策略......[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+>>17/
+[set A s_bic_b 備中]
+[show A C]
+[face A 01]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.3]
+[-]
+[se cloth_01]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.3]
+[-]
+[serif on]
+[talk A]
+不，不，不……喲。[move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]
+我必須把脫下的衣服疊好。/
+[face A 05]
+哦，什麼？[shake A]
+我忘了帶換洗的衣服.../
+[face A 04]
+[shake A]
+哇，雖然我把它脫下來了。
+我得重新穿好衣服再回去拿…/
+>>18/
+[set A s_bic_b 備中]
+[show A R]
+[effect A kemuri a]
+[move A X 400]
+[move A X -400 1.0]
+[face A 01]
+[-]
+[serif on]
+[talk A]
+為了明天的使命，
+確保浸泡到肩膀，這樣就不會感到疲倦。[move A X -300 1.0][-][move A Y 10 0.4][se water_01][delay 0.4 move A Y -110 1.0]/
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+唷……熱水真好。[se water_06]
+嘿……噗……噗……[face A 01]/
+>>19/
+[set A s_bic_b 備中]
+[randomset B b @地魂男児 @あやかし @NPC -bic -bin -biz -mim]
+[show A C]
+[move A XY -100 -50]
+[show B R]
+[face A 09]
+[face B 00]
+[effect A kemuri a]
+[effect B kemuri b]
+[move B Y -50]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+掃視……掃視……/
+[talkend]
+[move B X -10 0.5]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+[-]
+[talk A]
+啊，$B:A！？[shake A]　我只是碰巧出現在視野中。
+我從來沒有帶著頑皮的感覺看它......[shake A]/
+[face A 06]
+[face B 01]
+啊？要我幫你拿點肥皂嗎？/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+哦，我明白了…我很高興我沒有發現…
+不！[face A 06]　[move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]是的，肥皂！　[move A X 100 0.2]拜託！ ！/
+>>20/
+[set A s_bic_r 備中]
+[randomset B r @地魂男児 @あやかし @NPC -bic]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+唷！[effect A kira a 0 200]
+穀倉的清潔工作完成了！/
+[face A 01]
+[move A XY -10 -150 0.4]
+[rotate A 10 0.3]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+雖然是我，但出來的效果非常閃亮！
+太美了，現在連臉頰都可以擦了！/
+[effect off a]
+[show B R]
+[move B X 300]
+[move B X -300 0.5]
+[move A X -300 0.5]
+[face A 05]
+[face B 05]
+[talk A]
+哈哈$B:A！　[shake A]這是...
+不！　[rotate A 0 0.2][move A Y 150 0.2]我真的不擦臉頰！ ！/
+[face A 06]
+[face B 04]
+[move B X 20 1.0]
+[shake A]
+不，這根本不是我的愛好......
+別用這樣憐憫的眼神看著我！ ！ ！[shake A 5 5 5][face A 04]/
+>>21/
+[set A s_bic_r 備中]
+[randomset B r @地魂男児 @あやかし @NPC -bic]
+[show A C]
+[move A X -100]
+[show B R]
+[face A 09]
+[face B 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+一瞥……一瞥……/
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+（大家小便的時候
+　我相信你會向前邁出一步...）/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+（！？我剛剛看到。[face A 06]
+　不，我看到它是因為我想看到它！ ！ ）[shake A]/
+>>22/
+[set A s_bic_r 備中]
+[show A C]
+[move A Y -50]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+呼…
+太清爽了.../
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+……？
+啊，那個……！ ？[shake A][face A 05]/
+[face A 05]
+在那裡！ ？沒有缺紙……！
+沒錯！ ！[face A 06]　[shake A]我該怎麼辦！ ？/
+[face A 04]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+噢，是誰？ ！
+那裡有人嗎？ ！ ....啊。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+>>23/
+[set A s_bic_r 備中]
+[show A C]
+[face A 00]
+[move A Y -50]
+[serif on]
+[talk A]
+[serif name]
+衣櫃裡總是放著各式各樣的書。
+已經堆積如山了.../
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[se paper_01]
+哦...？
+哦，哦，哦，哦！ ？/
+[face A 08]
+[se paper_01][delay 0.4 se paper_01]
+佩拉……佩拉……
+格庫裡……！[shake A]/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哈！不，不，不！
+像這樣的頁面的書不太好....../
+[face A 09]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.3 move A X -100 0.4]
+[delay 0.4 move A Y 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[se cloth_01]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+就這樣不讓大家看到…
+我們把它藏起來吧.../
+>>24/
+[set A s_bic_r 備中]
+[show A C]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+現在，在你睡覺之前
+讓我們回顧一下今天的情況吧！/
+[face A 03]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+今天的戰鬥是...[move A Y -20 1.0][face A 08]
+動作僵硬，無法正常活動…/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -30 1.0]
+連晚餐都...
+因為我把鍋子打翻了...[move A Y -100 2.0]/
+[face A 04]
+[shake A]
+呃……呃……/
+>>25/
+[set A s_bic_r 備中]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+[serif name]
+……我也是……如果我這麼做的話……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+我可以的...呵呵...斯佩...[shake A]/
+[talkend]
+就像在睡夢中說話一樣。/
+>>26/
+[set A s_bic_r 備中]
+[show A C]
+[move A Y -50]
+[face A 05]
+[serif on]
+[talk A]
+哈！[shake A 3 2 2]
+我剛剛聽到有聲音.../
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+也許，
+我想知道有人醒了嗎...？/
+[face A 06]
+我、我還是很好奇…[shake A]
+如果我動了，他們就會知道我也醒了…/
+>>100/
+[set A s_bic_r 備中]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 備中の得意なこと]
+[-]
+[bg rouka_day]
+[bgm home]
+[fadeout]
+[-]
+[se dosa_01]
+[wait 1.0]
+[-]
+[se walk_01]
+[fadein BLACK 0.5]
+[-]
+[bg mbg_syouen]
+[minibg syouen_monooki]
+[hideall]
+[-]
+[se fusuma_03]
+[fadeout 0.5]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+我聽到衣櫃裡有聲音，於是我往裡面看。
+在裡面，備中 正在維護裝置。/
+[serif off]
+呼叫？ 備中/
+[show A C]
+[face A 05]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+[serif on]
+啊，主啊！
+嗯，呃，這是.../
+[serif off]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+備中挺直了背，轉向我。/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[talk A]
+我希望能夠隨時執行任務
+我正在考慮讓裝置和用品的維護成為日常工作！/
+[serif off]
+？那太好了/
+[face A 02]
+[talk A]
+[shake A]
+[-]
+[serif on]
+啊，非常感謝。/
+[scale A 1.5 0.3]
+[move A Y -100 0.3]
+[face A 03]
+[flow]
+哦，我希望它能在執行任務時派上用場。
+我嘗試每天閱讀各種指導書籍。/
+[flow]
+不要忘記自律！
+今天早上我也比誰早練了！/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+備中 繼續快速連續呼籲。/
+[show A]
+[say A]
+[face A 05]
+啊，我……對不起。[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+如果我有機會直接與主交談，
+我想告訴你很多事情.../
+[face A 06]
+哦，我不敢相信機會來得這麼快。
+我甚至沒有考慮過.../
+[talkend]
+[textcolor ARUJI]
+備中緊張嗎？
+他的額頭上有汗。/
+[serif off]
+？ 備中 是個勤奮的人。/
+[say A]
+[face A 05]
+[serif on]
+不不……就是這樣……！
+如果有的話，我很擔心.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+嗯，沒錯，請稍等！/
+[shake A]
+[hide A]
+[se cloth_01]
+我想知道是否會發生這樣的事情
+我把我想說的話寫下來了！/
+@備中
+嗯…我想它在我的口袋裡…
+就在那裡！[show A][face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]/
+[face A 08]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+那麼……我就大聲唸出來吧！/
+[serif off]
+？吉戀！/
+[face A 06]
+[serif on]
+是的！
+……所以...嗯。[face A 08][shake A]好的！我們走吧！/
+[talkend]
+[textcolor ARUJI]
+備中吸了一口氣，
+他開始說話，好像他已經下定決心了。/
+[face A 08]
+[talk A]
+[bgm departure]
+與我的哥哥和弟弟不同，我是認真的！
+另外，我很擅長制定計劃！/
+[face A 03]
+[scale A 2 0.5]
+[move A Y -130 0.5]
+所以……如果你能讓我成為你主人的手杖的話…
+我覺得這個莊園絕對值得！/
+[face A 04]
+……[wait 0.5]……也許吧。/
+[face A 06]
+[shake A 3 10 10]
+[bgm off]
+哈！ ！ ！[move A Y -200 2.0][delay 0.5 hide A][delay 0.5 se dosa_01][shakebg]/
+[talkend]
+[textcolor ARUJI]
+備中突然大喊，
+我摀著肚子，身體顫抖著。/
+[serif off]
+？什麼，發生了什麼事？/
+[show A]
+[move A Y -100]
+[move A Y 100 1.0]
+[face A 04]
+[talk A]
+[bgm fun]
+[-]
+[serif on]
+啊，不，不……當事情沒有按計劃進行時。
+如果你想像...[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]哎呀，我的肚子……好痛……/
+[serif off]
+？你還好嗎？/
+[scale A 2.0 1.0]
+[move A Y -150 1.0]
+[face A 06]
+[talk A]
+[-]
+[se cloth_01]
+[serif on]
+哇！ ！ ！　[shake A]哦，我的胃。
+能夠如此溫柔地撫摸你.../
+[talkend]
+[textcolor ARUJI]
+備中圓滾滾的肚子是
+或許是因為腹痛的緣故，他覺得身體僵硬，緊張。/
+[face A 06]
+[talk A]
+[move A Y -100 0.5]
+呃...[shake A]
+我好緊張……而且很痛……/
+[talkend]
+[textcolor ARUJI]
+備中滿頭大汗，看起來很痛苦。
+她的臉也紅得通紅。/
+[serif off]
+？有什麼我可以做的嗎？/
+[scale A 1.0 0.5]
+[move A Y 250 0.5]
+[face A 02]
+[talk A]
+[-]
+[serif on]
+不，沒關係，我很榮幸！
+……[wait 0.5]而且，哇，我太高興了……！[effect A kira a 0 100]/
+[face A 08]
+啊，呃……這樣你就可以依靠我了，
+但我會盡力的！[effect off a]/
+[face A 06]
+請從現在開始，
+感謝您的支援！[shake A]/
+[fadein BLACK 2.0]
+[autotap]/
+[se walk_02]
+[hide A]
+[talkend]
+[se fusuma_01]
+[textcolor ARUJI]
+備中摀著肚子。
+我跑出了衣櫃。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

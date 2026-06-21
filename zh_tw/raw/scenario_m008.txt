@@ -1,0 +1,1644 @@
+>>0/
+((s))
+[set W s_san_m 讚岐]
+[set A s_n011h_m 虎鉄丸]
+[set AA s_n011k_m 虎鉄丸]
+[set B s_n001_m 夏人]
+[set C s_n000_m 猫乃屋]
+[set D s_n008_m アルクトス]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 環境声聞課のおしごと]
+[-]
+[bg rouka_day]
+[-]
+[bgm home]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+((m))
+[set W s_mus_m 武藏]
+[set A s_n011h_m 虎鉄丸]
+[set AA s_n011k_m 虎鉄丸]
+[set B s_n001_m 夏人]
+[set C s_n000_m 猫乃屋]
+[set D s_n008_m アルクトス]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 環境声聞課のおしごと]
+[-]
+[bg rouka_day]
+[-]
+[bgm home]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n011h_m 虎鉄丸]
+[set AA s_n011k_m 虎鉄丸]
+[set B s_n001_m 夏人]
+[set C s_n000_m 猫乃屋]
+[set D s_n008_m アルクトス]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 環境声聞課のおしごと]
+[-]
+[bg rouka_day]
+[-]
+[bgm home]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+[se gaya_01]
+[show W C]
+[face W 05]
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[talk W]
+[serif on]
+哇，今天的行李真多！/
+((m))
+[auto]
+哇……我今天的行李真多。/
+((e))
+[auto]
+哇……今天的行李真多！/
+[hideall]
+[talkend]
+[serif noname]
+[textcolor ARUJI]
+微型實驗室的籌備工作正在穩步推進。
+設施建設已完成，主要裝置正在引進。/
+((s))
+[show W C]
+[face W 00]
+[talk W]
+Minilab，我覺得準備工作正在順利進行中。
+師父。/
+((m))
+[auto]
+迷你實驗室的籌備工作終於全面展開。
+好吧，將軍。/
+((e))
+[auto]
+迷你實驗室的準備工作正在進行中。
+師父。/
+[playeryes]
+[autotap]/
+[hideall]
+[talkend]
+[se walk_01]
+[serif noname]
+[textcolor ARUJI]
+我說是的，點點頭。
+有東西出現在我的視野邊緣。/
+[serif off]
+？呃...？/
+[show AA]
+[color AA black]
+[-]
+[wait 1]
+[-]
+[hide AA]
+[-]
+[autotap]/
+((s))
+[show W C]
+[face W 00]
+[shake W]
+[talk W]
+[serif on]
+師父，發生什麼事了？/
+((m))
+[auto]
+一般。怎麼了？/
+((e))
+[auto]
+師父？怎麼了？/
+[serif off]
+？現在，綾香有些不對勁…/
+((s))
+[face W 05]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[serif on]
+啊？在哪裡？
+只有人幫忙搬裝置…/
+((m))
+[auto]
+安？它在哪裡？
+看起來他只是個搬運裝備的幫手。/
+((e))
+[auto]
+啊？它在哪裡？他們正在搬運裝置。
+但我只能找人來幫我…/
+((s))
+[face W 12]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[flow]
+啊，有阿魯克斯！
+阿久津！ ！[move W X 300 0.5]/
+((m))
+[auto]
+哦，是阿克託斯！
+嘿！阿克託蘇！/
+((e))
+[auto]
+啊，那是阿克託索斯，主人！
+阿克託蘇！ ！/
+[serif off]
+[show D C]
+[move D X 1000]
+[face D 01]
+[moveline D W -1000 0 1]
+[-]
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[talk D]
+[serif on]
+啊，聲音聆聽者，$W先生！
+晚上好！布布！[shake D]/
+[setline 0.5 W D]
+[flow]
+[face D 02]
+照這個速度，迷你實驗室很快就會運作。
+看起來是可以做到的。/
+[flow]
+[face D 00]
+是的，我今天在這裡和我的朋友見面。
+我正在做！稍後我會向您介紹。/
+[talkend]
+[color W talk]
+[color D talk]
+[face W 00]
+[se walk_01]
+@工作人員
+抱歉，我該怎麼辦？/
+[face D 12]
+[face W 12]
+[talk D]
+哦，請把它放在這裡。
+稍後我會讓研究所的人來安排。/
+[serif off]
+[show B]
+[show C R]
+[setline B C]
+[moveline B C 1000 0 0]
+[moveline B C D W -1000 0 1]
+[face C 01]
+[face B 01]
+[say C]
+[orderline B C]
+[bgm fun]
+[-]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[serif on]
+哎呀，辛苦了，辛苦了！
+如果你能把它帶進去的話會有很大的幫助！/
+[face B 02]
+[talk B]
+我們常常自己做這種繁重的工作。
+這次有工作人員在場很有幫助。/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 10]
+[say C]
+如果我背著這麼多行李，我的背一定會痛。/
+((s))
+[show W L]
+[setline 0.5 W B C]
+[orderline W B C]
+[face W 10]
+[say W]
+地魂小子的話，毀了那就麻煩了。
+我對機器不太瞭解.../
+((m))
+[auto]
+如果是地魂小子的話，說不定就能將其擊碎。
+我對機器不太瞭解.../
+((e))
+[auto]
+對地魂小子來說，想要打破的話，那可就成問題了。
+我對機器不太瞭解.../
+[bgm off]
+[hideall]
+[talkend]
+[textcolor ARUJI]
+[se se_crash_01]
+[se zukkoke_01]
+[shakebg]
+那時，走廊對面
+劇烈的撞擊聲響起。/
+((s))
+[bgm departure]
+[show C C]
+[show D]
+[show W]
+[show B]
+[setline D W B C]
+[orderline W B D C]
+[face B 05]
+[face W 05]
+[face D 05]
+[face C 05]
+[shake C]
+[say C]
+什麼？ ？/
+((m))
+[bgm departure]
+[show C C]
+[show D]
+[show W]
+[show B]
+[setline D W B C]
+[orderline B W D C]
+[face B 05]
+[face W 05]
+[face D 05]
+[face C 05]
+[shake C]
+[say C]
+什麼？ ？/
+((e))
+[bgm departure]
+[show C C]
+[show D]
+[show W]
+[show B]
+[setline D W B C]
+[orderline B W D C]
+[face B 05]
+[face W 05]
+[face D 05]
+[face C 05]
+[shake C]
+[say C]
+什麼？ ？/
+[hideall]
+[-]
+[talkend]
+@工作人員
+對不起……我的重心轉移了，
+轉彎的時候我的估計出錯了…/
+[textcolor ARUJI]
+[flow]
+在運輸大型裝置時，莊園的一些柱子和走廊被拆除。
+看來我已經深陷其中了。/
+((s))
+[show W C]
+[face W 10]
+[scale W 1.6]
+[move W Y -120]
+[talk W]
+[serif off]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+哇……醬料好脆啊……/
+((m))
+[auto]
+哈哈。 。那個醬料好脆啊。 。/
+((e))
+[auto]
+嗚嗚嗚……神器碎了……/
+[hideall]
+[talkend]
+[se gaya_01]
+@工作人員
+我真的很抱歉...
+請先聯絡總部.../
+[show D C]
+[face D 10]
+[talk D]
+終於來了！
+我會檢查以確保裝置沒有損壞。[face D 01][shake D]/
+((s))
+[show W L]
+[setline 0.5 W D]
+[face W 12]
+[talk W]
+好像沒人受傷吧？/
+((m))
+[auto]
+沒有人受傷嗎？/
+((e))
+[auto]
+好像沒人受傷吧？/
+[show B R]
+[setline 0.5 W D B]
+[face B 01]
+[talk B]
+我們暫時先把對莊園的破壞拋到一邊吧。
+讓我們完成裝置的裝載。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm off]
+[hideall]
+[se gaya_01]
+[bg rouka_night]
+[wait 2]
+[-]
+[se amb_05]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show C C]
+[face C 01]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[talk C]
+[serif on]
+嘿，這是最後一次嗎？
+感謝全體裝車人員的辛勤付出！/
+[color C talk]
+[face C 05]
+[se walk_03]
+@？？？
+等等，等等！ ！/
+[hide C]
+[-]
+[show A]
+[bgm cute]
+[move A X 500]
+[move A X -500 0.5]
+[face A 10]
+[se walk_01]
+[flow]
+[-]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+@？？？
+好了好了……真的就這樣結束了！
+我們把這個裝備搬過來吧！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 06]
+@？？？
+呃，有很多東西很重…
+努力工作的感覺真好！/
+[hide A]
+[-]
+[show D C]
+[face D 02]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[talk D]
+啊，小鐵丸同學，歡迎光臨！/
+[show A R]
+[setline 0.5 D A]
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[talk A]
+嘿，阿克託蘇！
+我很快就會完成我的工作，所以請等我。/
+[serif off]
+？朋友？/
+[face A 00]
+[face D 00]
+[say D]
+[serif on]
+啊，是的！我剛才說
+這就是我要見的朋友！噓！[shake D][face D 01]/
+[flow]
+[face D 00]
+小鐵丸先生。我想藉此機會向大家介紹一下。
+這個.../
+[face A 05]
+[shake A]
+[say A]
+啊，也許是這個莊園的主人！ ？/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[autotap]/
+[flow]
+很高興認識你，樓主。
+我是小鐵丸無垢！很高興見到你！/
+[serif off]
+?很高興認識你/
+((s))
+[face A 00]
+[show W L]
+[setline 0.5 W D A]
+[orderline W A D]
+[face W 01]
+[talk W]
+[serif on]
+我是讚岐。
+很高興認識你！/
+((m))
+[auto]
+我是武藏。
+很高興認識你，小鐵丸！/
+((e))
+[auto]
+我是越後ssu。
+感謝您的支援！/
+((s))
+[face W 00]
+[flow]
+小鐵丸是搬家公司嗎？/
+((m))
+[auto]
+小鐵丸是搬運工嗎？/
+((e))
+[auto]
+小鐵丸是搬家公司嗎？/
+[face D 05]
+[shake D]
+[say D]
+事實並非如此，小鐵丸先生是對的…/
+[face D 10]
+[flow]
+[se zukkoke_02]
+是啊……現在想來，為什麼呢？
+小鐵丸拎著行李！ ？/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 01]
+[say A]
+我當然有一份兼職工作！/
+[flow]
+[face A 02]
+如果我幫你搬家，他們就會支付你的兼職費用。
+因為我這麼說。呵呵，時機不錯。/
+[effect off a]
+[color A talk]
+[color W talk]
+[color D talk]
+[se walk_01]
+@工作人員
+這孩子的實力相當的強。
+我會向上級匯報，增加我的薪水。/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[talk A]
+耶！請再跟我打個招呼吧！
+我隨時都會做！/
+[face D 00]
+[face W 00]
+[color A talk]
+[color W talk]
+[color D talk]
+[se walk_01]
+@工作人員
+匯入現已完成。
+感謝您的辛勤工作。/
+[serif off]
+？謝謝你的辛勤工作/
+[move A X 1000 1]
+[-]
+[move D X 800 0.3]
+[face D 10]
+[moveline A D W -1000 0 0.5]
+[-]
+[say D]
+[serif on]
+[se zukkoke_02]
+那麼，小鐵丸為什麼也想回家呢？
+你在做嗎？ ？你對我的承諾是什麼？ ？/
+[face A 05]
+[talk A]
+啊，原來如此！　阿布恩阿布恩。
+今天阿克託斯打電話給我了！[shake A]/
+[serif off]
+[show C C]
+[move C X 1000]
+[moveline A D C -1000 0 1]
+[face C 09]
+[-]
+[serif on]
+[talk C]
+嘿嘿$W。請幫我。
+這些破損的障子和地板很危險，所以我要把它們移走。[se cloth_01][setline 0.5 W C][face W 12]/
+[serif off]
+[moveline A D C W 1000 0 1]
+[face D 00]
+[face A 08]
+[-]
+[say D]
+[serif on]
+啊，小鐵丸先生，走廊和商事都受損了。
+它可以修復，對嗎？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+[say A]
+呃……既然都這麼多了，那也不是不可能啊……
+好累啊……如果打工要付錢就好了。[face A 01]/
+[face D 01]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[say D]
+無論如何，實驗室必須安排維修。
+不行，我就好好補償你吧！/
+[face A 02]
+[move A Y 50 0.1]
+[delay 0.1 move A Y -50 0.1]
+[say A]
+耶！
+那麼，請填寫這張申請表！[se paper_01]/
+((s))
+[hideall]
+[-]
+[show W]
+[face W 05]
+[shake W]
+[talk W]
+啊，小哲丸…[wait 0.2]木匠！ ？/
+((m))
+[auto]
+啊，我明白了！
+小鐵丸，你……是木匠！/
+((e))
+[auto]
+啊，小鐵丸是……木匠！ ？/
+[hide W]
+[-]
+[show A]
+[face A 08]
+[light def 0.5]
+[lightcolor blue]
+[say A]
+[effect fr kiesou b 0 0]
+[bgm ascending]
+嗯，我集中精神吧——
+……嗯……/
+[se quake_1]
+[face A 08]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[effect fr syutyu a 0 0]
+[flow]
+石頭是根基，樑是骨頭。[wait 0.5]
+束縛精神，凝固形態…/
+((s))
+[hide A]
+[-]
+[show W]
+[show B]
+[show C]
+[setline B W C]
+[face W 05]
+[face B 05]
+[face C 05]
+[shake W]
+[talk W]
+哈！ ？這是...
+就像主人一樣.../
+((m))
+[auto]
+哈！ ？這傢伙…
+就像一般.../
+((e))
+[auto]
+哈！ ？這是...
+就像我的主人一樣.../
+[serif off]
+[hideall]
+[-]
+[show A]
+[face A 08]
+[scale A 1.6]
+[move A Y -120]
+[-]
+？陰陽術！ ？/
+[effect fr syutyu c 0 0]
+[effect bk waveout 6000 0 0]
+[se jutsu_01]
+[face A 10]
+[say A]
+[serif on]
+哈！ ！/
+[serif off]
+[fadein WHITE 0.2]
+[-]
+[hide A]
+[effect off b]
+[effect off c]
+[-]
+[delay 0.2 fadeout 1]
+[effct fr kira a 0 0]
+[se kira_01]
+[wait 2]
+[-]
+[effect off a]
+[show C]
+[show B]
+[show W]
+[setline B W C]
+[face B 05]
+[face W 05]
+[face C 05]
+[orderline W B C]
+[say C]
+[-]
+[serif on]
+哦！ ！走廊上的地板和障子屏風，甚至連柱子
+一切都恢復正常了！ ！/
+[face B 02]
+[shake B]
+[say B]
+太棒了...！/
+[hideall]
+[-]
+[show A C]
+[face A 10]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[talk A]
+嘆息……嘆息……嘆息……
+畢竟我比較適合做體力活…/
+[show C L]
+[setline 0.5 C A]
+[face C 01]
+[orderline A C]
+[say C]
+哦，小鐵丸，你做得很好，對吧？
+那是很大的力量！/
+[flow]
+[face C 09]
+[face A 06]
+現在……這只是環境的聲音。
+您是環境聽證部門的成員嗎？/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 10]
+[say A]
+嗯，我只是個打工的…
+哈、哈.../
+((s))
+[bgm rokuhara]
+[show W L]
+[setline 0.5 W C A]
+[orderline W A C]
+[face W 05]
+[talk W]
+環境聽證會...？
+或者說…小鐵丸是個會聽聲音的人！ ？/
+((m))
+[auto]
+環境聽證會...？
+那麼，小鐵丸是個會聽聲音的人嗎？ ？/
+((e))
+[auto]
+環境聽證...
+哦，或者說，小鐵丸是個會聽聲音的人！ ？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[say A]
+哈哈哈...不過我是兼職語音聽眾。
+啊，終於可以喘口氣了……唉……/
+[hideall]
+[-]
+[show D]
+[face D 00]
+[talk D]
+小鐵丸所屬的環境聲音聽證部門就位於莊園內。
+我負責大樓的管理和營運。/
+((s))
+[show W R]
+[move W X 300]
+[setline 0.5 D W]
+[orderline W D]
+[face W 13]
+[say W]
+呃，那莊園建築就跟我們這些傢伙一樣。
+這是你聽到的嗎？/
+((m))
+[auto]
+是的？那麼莊園建築就跟我們的一樣了。
+這是你聽到的嗎？/
+((e))
+[auto]
+呃，那莊園建築就跟我們一樣了。
+這是你聽到的嗎？/
+[show B L]
+[move B X -300]
+[setline 0.5 B D W]
+[orderline W B D]
+[face B 14]
+[say B]
+當然……我感覺我已經讀過它了。
+我確信有關於環境聲音監聽器的材料...[se rokuhara_04][shake B][face B 12]/
+[face D 00]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[say D]
+在莊園的拓樸空間中，聽到的無機物是
+沒有靈力供給也能繼續穩定存在。/
+[flow]
+[face D 02]
+這棟大樓還有很多環境顧問。
+看起來你花了很多時間來完成它！/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 14]
+[flow]
+人類智慧和努力的成果……太神奇了……
+本野~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/
+[show A]
+[face W 10]
+[face B 02]
+[move A X 1000]
+[move A X -750 0.5]
+[se cloth_06]
+[move W X 200 0.5]
+[face A 01]
+[orderline A W B D]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+啊，出來了！　哇！
+我想每天至少看一次《Arctos》！/
+((s))
+[face W 08]
+[say W]
+想想看，天空也不是真的。
+我聽過……這也是陰陽術嗎？/
+((m))
+[auto]
+嗯，天空也不是真的。
+我聽過……這也是陰陽術嗎？/
+((e))
+[auto]
+想想看，天空也不是真的。
+我聽說過。這也是陰陽術嗎？/
+[hideall]
+[-]
+[show C]
+[face C 01]
+[say C]
+莊園的天空只有外面才能聽到
+其實沒有星星。/
+[flow]
+[face C 09]
+然而莊園建築，包括它的內部結構，
+這意味著我準確地聽到了你的聲音。/
+[show B L]
+[setline 0.5 B C]
+[orderline B C]
+[face B 01]
+[say B]
+因此，莊園內部根本不像現實空間中的建築。
+它沒有改變.../
+[flow]
+[face B 14]
+如果你像以前一樣撞到它，你會受傷的，對吧？/
+[show W]
+[setline 0.5 B W C]
+[orderline W B C]
+[face W 00]
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[say W]
+呃……啊，那就這個莊園吧。
+水龍頭經常壞.../
+((m))
+[auto]
+呃……那麼這個莊園……
+水龍頭經常壞.../
+((e))
+[auto]
+唉……那麼，這座莊園。
+水龍頭經常壞.../
+((s))
+[flow]
+[face W 12]
+他要來解決這個問題。
+你也像小哲丸那樣嗎？/
+((m))
+[auto]
+你來修嗎？
+是像小鐵丸那樣的人嗎？/
+((e))
+[auto]
+誰來修理它？
+像小哲丸這樣的人？/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 14]
+[say B]
+嗯，有一些小問題或故障。
+我想辦公室的人常來。/
+[flow]
+[face B 01]
+一旦聽到聲音，就和現實沒有什麼不同。
+可以正常修復。/
+[flow]
+[face B 15]
+環境聲音聽眾不多.../
+((s))
+[face W 00]
+[say W]
+像師父和大育那樣的地魂少年
+有些人聽到聲音.../
+((m))
+[auto]
+地魂少年像將軍和大育一樣
+有些人聽到聲音.../
+((e))
+[auto]
+像師父和大育一樣的地魂少年
+有些人聽到聲音.../
+((s))
+[flow]
+[face W 08]
+喜歡貓之屋桑
+有人聽得到綾香的聲音…/
+((m))
+[auto]
+看看貓之屋
+也有人聽見綾香的聲音——/
+((e))
+[auto]
+喜歡貓之屋
+還有人聽到了綾香的聲音——/
+((s))
+[flow]
+[face W 12]
+像觀察隊這樣的小鳥之類的東西。
+我聽說有些人聽到聲音，但.../
+((m))
+[auto]
+觀察隊看到了一隻看起來像小鳥的式神。
+聽說有些人聽到聲音.../
+((e))
+[auto]
+像觀察隊一樣的小鳥式神
+聽說有些人聽到聲音.../
+[face W 02]
+[move W Y 100 0.1]
+[delay 0.1 move W Y -100 0.2]
+[delay 0.4 move W Y 100 0.1]
+[delay 0.5 move W Y -100 0.2]
+[autotap]/
+((s))
+[flow]
+[face W 02]
+像小鐵丸這樣能聽到建築物聲音的人
+就在那裡……！ ！聽到你的聲音聽起來棒極了！/
+((m))
+[auto]
+有誰能聽到像小鐵丸那樣的建築物的聲音嗎？
+聽聽你的聲音，太棒了！ ！/
+((e))
+[auto]
+像小鐵丸這樣能聽到建築物聲音的人
+你在那裡！聽到你的聲音，太棒了！/
+[hideall]
+[-]
+[show A]
+[face A 00]
+[say A]
+嗯，這裡面有很多機密的事情。
+你不能僱用總承包商，對嗎？/
+[flow]
+[face A 01]
+這就是為什麼環境聲音和聽力部門正在進行重大整修的原因。
+施工已外包。/
+[face A 04]
+但我沒有太多發言權。
+這並不是說我擅長。/
+[flow]
+[face A 06]
+這樣很難集中註意力
+我很快就筋疲力盡了…/
+[flow]
+[face A 01]
+但能做到這一點的人似乎不多。
+我不必擔心被迫停止.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+除了小時工資外，您還將獲得每次聽證會的津貼。
+真好吃.../
+((s))
+[show W R]
+[setline 0.5 A W]
+[face W 12]
+[say W]
+感覺就像是為了錢而工作。
+是伊賀之類的東西嗎？/
+((m))
+[auto]
+這是一份為了薪水的工作。
+伊賀看一下。/
+((e))
+[auto]
+這是一份為了薪水的工作。
+感覺就像伊賀。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[say A]
+……因為我一個人住，
+生活真的很艱難.../
+[flow]
+[face A 01]
+我有很多兼職工作
+我正在以某種方式做到這一點！[shake A]/
+[serif off]
+？所以你也搬家了。/
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+就是這樣！/
+[serif off]
+[hideall]
+[-]
+[bgm fun]
+[show D]
+[face D 08]
+[-]
+[serif off]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[-]
+[serif on]
+[say D]
+小鐵丸先生，我今天打電話的人是…[wait 0.5]
+我希望我的房間的平面圖增加 2 張榻榻米。[se taiko_02][scale D 1.6 0.5][move D Y -120 0.5]/
+[flow]
+[face D 12]
+[move D X 150 0.5]
+[move D XY 10 -40 0.4]
+[rotate D -10 0.3]
+[delay 0.4 move D XY -10 40 0.3]
+[delay 0.5 rotate D 0 0.3]
+[se cloth_01]
+看起來它要向走廊的這一邊擴大一點。
+誒嘿嘿.../
+[show A L]
+[setline 0.5 A D]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[say A]
+[se zukkoke_02]
+哦，說真的！ ？但這確實是一件大事
+……我想知道我能不能做到…[face A 04]/
+[face D 12]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[say D]
+照顧好自己
+我要去申請！布布！/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+哦，多麼勵志的一句話啊！/
+[hideall]
+[effect off a]
+[-]
+[show C]
+[show B]
+[setline B C]
+[orderline B C]
+[face C 08]
+[face B 04]
+[serif off]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[say C]
+[-]
+[serif on]
+嘿，你還好嗎，阿克託斯？/
+[face B 12]
+[say B]
+畢竟，研究實驗室有預算。
+是不是不一樣.../
+[face C 04]
+[say C]
+我做的幾乎所有東西都是自製的，都是我自己做的。
+嗚嗚嗚嗚嗚嗚！[shake C]/
+[show D L]
+[move D X -200]
+[se cloth_06]
+[setline 0.3 D B C]
+[face D 01]
+[say D]
+嗯，今天我被委託擔任現場主管。
+這有點濫用職權了！噓！[shake D]/
+((s))
+[show W L]
+[move W X -500]
+[setline 0.3 W D B C -200 1200]
+[moveline W D B C 300 0 0.3]
+[face W 11]
+[orderline W D B C]
+[say W]
+[se zukkoke_02]
+一點也不醜！ ？[shake W]/
+((m))
+[auto]
+一點也不醜！ ？/
+((e))
+[auto]
+一點也不醜！ ？/
+[hideall]
+[-]
+[show A]
+[face A 00]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+呃…
+好吧，那麼讓我們開始吧.../
+[serif off]
+？小鐵丸，加油！/
+[face A 01]
+[say A]
+[serif on]
+樓主也支援我。 。
+好吧，讓我們嘗試一下.../
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[flow]
+[face A 08]
+[se cloth_01]
+嗯，在這種規模下，你需要一個催化劑。
+將這個和這個對齊.../
+[face A 03]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[effect fr syutyu a 0 0]
+[flow]
+好的！ ！我們走吧！ ！/
+[fadein WHITE 0.2]
+[serif off 0.2]
+[-]
+[bg heya_light]
+[wait 0.2]
+[se jutsu_01]
+[hide A]
+[delay 0.2 fadeout 1.0]
+[effect off a]
+[light off]
+[-]
+[shakebg]
+[effct fr kira b 0 0]
+[se kira_01]
+[-]
+[wait 1]
+[autotap]/
+((s))
+[show W C]
+[face W 05]
+[show D]
+[show B]
+[show C]
+[setline W D B C]
+[orderline W B C D]
+[face B 05]
+[face C 05]
+[face D 02]
+[shake W]
+[talk W]
+[serif on]
+哇，曾經我以為牆消失了
+後面已經創造了一面新牆！榻榻米的數量也在增加！/
+((m))
+[auto]
+哇，曾經我以為牆消失了
+後面有一面新牆！/
+((e))
+[auto]
+太棒了！下一刻我以為牆壁消失了，
+後面還有一個房間！/
+[face C 13]
+[shake C]
+[say C]
+雖然能力僅限於相空間…
+這傢伙真是太棒了…/
+[hideall]
+[-]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+哇哦，我用了好大的靈力啊…
+我好累……好難……我頭暈……/
+[fadein WHITE 0.5]
+[delay 0.5 fadeout 1]
+[autotap]/
+[bgm off]
+[face A 10]
+[flow]
+嗚嗚嗚嗚嗚嗚.../
+((s))
+[serif off]
+[-]
+[move A Y -200 0.5]
+[se dosa_01]
+[hide A]
+[-]
+[show W C]
+[face W 05]
+[shake W]
+[talk W]
+[serif on]
+沒關係！ ？/
+((m))
+[auto]
+你還好嗎？ ？/
+((e))
+[auto]
+你還好嗎？ ？/
+[hide W]
+@小鐵丸
+嗚嗚嗚…/
+[bgm cute]
+[serif off]
+[show AA]
+[scale A 1.6]
+[move AA Y -320]
+[move AA Y 200 1]
+[se cloth_01]
+[face AA 10]
+[-]
+[move AA Y 5 0.2]
+[delay 0.2 move AA Y -10 0.6]
+[delay 0.8 move AA Y 5 0.5]
+[autotap]/
+[flow]
+[say AA]
+[serif on]
+這……沒關係……/
+((s))
+[scale AA 1 0.5]
+[move AA Y 120 0.5]
+[show W R]
+[setline 1 AA W]
+[face W 05]
+[say W]
+啊，小鐵丸……那個身影……！/
+((m))
+[auto]
+啊，小鐵丸……那個身影……！/
+((e))
+[auto]
+啊，小鐵丸……那個身影……！/
+[serif off]
+？ ！ ？我之前看到的那隻野獸.../
+((s))
+[face W 12]
+[say W]
+[serif on]
+[face AA 05]
+啊？啊……老頭早就看到了。
+他說「Ayakashika是mokkemono」....../
+((m))
+[auto]
+啊？啊，將軍說他早就看到了。
+「綾鹿、莫克莫諾」…/
+((e))
+[auto]
+啊，我明白了！大師說他很早就看到了。
+「綾鹿，毛克莫諾」—/
+((s))
+[face W 00]
+[flow]
+是關於小鐵丸的嗎？
+小鐵丸是怪物……！/
+((m))
+[auto]
+我還以為你說的是小鐵丸呢！
+小鐵丸是不是在嘲諷？/
+((e))
+[auto]
+是關於小鐵丸的！
+小鐵丸是真的！/
+[say AA]
+[face AA 10]
+嗯，我發現...[shake AA]/
+[hideall]
+[-]
+[show C]
+[show B R]
+[setline B C]
+[face B 10]
+[face C 05]
+[shake B]
+[orderline B C]
+[talk B]
+啊？莫克莫諾？/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 01]
+[say C]
+你看不到嗎？/
+[face B 04]
+[say B]
+呃……感覺自己被排除在外了……[shake B]/
+((s))
+[show W L]
+[move W X -150]
+[face W 12]
+[say W]
+（Arukusu的樣子也是正確的。
+　夏人君你是看不到的…）/
+((m))
+[auto]
+（還有夏人和阿克託斯的出場）
+　我猜人類可以看到......）/
+((e))
+[auto]
+（夏人君，阿克託斯的身影也是
+　估計是我沒看懂…）/
+[hideall]
+[-]
+[show D L]
+[show AA]
+[setline D AA]
+[orderline AA D]
+[face D 05]
+[say D]
+[face AA 04]
+小鐵丸同學，你還好嗎？ ？
+對不起……我請你放輕鬆……[shake D]/
+[flow]
+[face D 15]
+我不知道環境聲音聆聽者使用瞭如此多的精神力。
+……連容貌都維持不了了……唉。[shake D]/
+[face AA 05]
+[say AA]
+哇，我有點得意忘形了！[shake AA]
+別擔心，我相信明天它會再次累積起來。/
+[effect fr kiesou b 0 0]
+[move AA Y 10 0.4]
+[delay 0.4 move AA Y -10 1.0]
+[autotap]/
+[flow]
+[face AA 08]
+現在，準備好你的精神力——…
+呼…/
+[fadein WHITE 0.2]
+[-]
+[se jutsu_01]
+[effect off b]
+[-]
+[delay 0.2 fadeout 1]
+[autotap]/
+((s))
+[show W R]
+[setline 0.5 D AA W]
+[orderline AA W D]
+[face W 12]
+[say W]
+啊，我又變回人形了。
+現在沒事了。/
+((m))
+[auto]
+哦。它看起來和人類一模一樣。
+現在沒事了。/
+((e))
+[auto]
+啊，我已經變回人形了。
+現在沒事了！/
+[face AA 01]
+[move AA Y 5 0.2]
+[delay 0.2 move AA Y -10 0.6]
+[delay 0.8 move AA Y 5 0.5]
+[autotap]/
+[say AA]
+唷，就是這樣！/
+[serif off]
+？我仍然可以將其視為怪物/
+[se zukkoke_02]
+[face AA 05]
+[face W 05]
+[face D 05]
+[shake AA]
+[say AA]
+[serif on]
+嗯，你可以看到我！ ？/
+[move AA Y 10 0.4]
+[delay 0.4 move AA Y -10 1.0]
+[autotap]/
+[face AA 04]
+[flow]
+我唯一能做的就是把自己偽裝成人類。
+我有點自信，但是……嘿。/
+((s))
+[face W 12]
+[say W]
+我能像人類一樣看見東西！
+小鐵丸太棒了！正如語音收聽者所期望的那樣。/
+((m))
+[auto]
+我把你當人看！
+小鐵丸，你必須這麼做。不愧是個語音聆聽者！/
+((e))
+[auto]
+在我看來它就像一個人！
+小鐵丸真是個聽聲音的人啊！太棒了！/
+[face AA 01]
+[say AA]
+呵呵，我想是這樣的。
+不過樓主看得出來。[face AA 06]/
+[hide W]
+[hide D]
+[flow]
+有點令人沮喪。
+…………[face AA 03]/
+[scale AA 2 0.5]
+[move AA Y -220 0.5]
+[se cloth_01]
+[autotap]/
+[flow]
+[face AA 06]
+但即使你看著我
+他看起來一點也不奇怪。樓主。/
+[serif off]
+？我能說什麼，我覺得這種感覺很好！/
+[face AA 02]
+[move AA Y 10 0.1]
+[delay 0.1 move AA Y -10 0.2]
+[delay 0.3 move AA Y 10 0.1]
+[delay 0.4 move AA Y -10 0.2]
+[delay 0.6 move AA Y 10 0.1]
+[delay 0.7 move AA Y -10 0.3]
+[autotap]/
+[say AA]
+[serif on]
+真的！ ？
+呵呵，我有點高興。/
+[flow]
+[face AA 00]
+好吧，那就說說樓主的莊園吧。
+我會讓它看起來更好！/
+((s))
+[hide AA]
+[-]
+[show W]
+[show D]
+[setline D W]
+[face D 00]
+[face W 01]
+[say W]
+什麼是 Riform？
+我很期待，老師！/
+((m))
+[auto]
+它是 Riform 嗎？
+那就好，將軍！我很期待！/
+((e))
+[auto]
+它被稱為Riform。
+敬請期待，大師！/
+[face D 12]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[say D]
+小鐵丸先生是個聽聲音的人。
+我以為你會喜歡它。/
+[se fusuma_02]
+[bg rouka_night 0.5]
+[show AA]
+[scale AA 1.6]
+[move AA Y -120]
+[hide W]
+[hide D]
+[scale AA 1 0.5]
+[move AA Y 120 0.5]
+[face AA 05]
+[say AA]
+哇！ ？[shakebg]
+已經到那個時候了！[face AA 10]/
+[flow]
+[face AA 08]
+六原起來了…
+我得去打下一份兼職了！/
+[flow]
+[face AA 01]
+哦，房東，我們來談談房間吧。
+如果您需要什麼，請告訴我！/
+[flow]
+[face AA 00]
+我沒那麼擅長...
+我會為我的兼職工作和房東盡我最大的努力！/
+[move AA Y 100 0.1]
+[delay 0.1 move AA Y -100 0.2]
+[delay 0.4 move AA Y 100 0.1]
+[delay 0.5 move AA Y -100 0.2]
+[autotap]/
+[face AA 02]
+[se cloth_01]
+[flow]
+那麼好吧！/
+[move AA X 1000 0.3]
+[serif off]
+[-]
+[show D L]
+[show W]
+[show B]
+[show C]
+[setline W D B C]
+[orderline W B C D]
+[face W 00]
+[face B 01]
+[face C 01]
+[face D 01]
+[say D]
+[-]
+[serif on]
+小鐵丸同學，我們再出去吧！[shake D]/
+[move W Y 100 0.1]
+[delay 0.1 move W Y -100 0.2]
+[delay 0.4 move W Y 100 0.1]
+[delay 0.5 move W Y -100 0.2]
+[autotap]/
+((s))
+[face W 12]
+[say W]
+小鐵丸，好久不見！/
+((m))
+[auto]
+小鐵丸，好久不見！/
+((e))
+[auto]
+小鐵丸，小心點！/
+[hideall]
+[-]
+[talkend]
+[textcolor ARUJI]
+小哲丸揮手離開。/
+[show D]
+[face D 00]
+[say D]
+我常常和小鐵丸一起出去吃飯。
+我要出去了。/
+[flow]
+[face D 14]
+也有語音監聽器$W先生也，
+下次我們一起去吧！/
+[flow]
+[face D 02]
+當然還有貓屋同學和夏人同學！/
+[hide D]
+[-]
+[show B]
+[show C]
+[setline B C]
+[face B 01]
+[face C 01]
+[say C]
+當然！
+不要招待年輕的聲音聽眾吃烤肉！/
+[flow]
+[face C 09]
+請稱呼那個新人…也叫 Taiiku 人。
+下次我們一起吃肉吧！什麼！[shake C]/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[say B]
+[face B 02]
+那很好。這將是一場盛宴！/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 01]
+[say C]
+哦！如果您決定這樣做，請進行預訂...
+……啊，發薪日之後可以嗎？[shake C][face C 10]/
+[hideall]
+[serif off]
+？環境聽力專家？/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+我感覺像是在課堂講座中聽到的，但又是同一個聽音專家。
+然而，我意識到有很多不同的領域。/
+[show W C]
+[face W 01]
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[talk W]
+能認識小鐵丸老師，我很高興！
+我期待著下一餐！/
+((m))
+[auto]
+很高興認識小鐵丸將軍！
+我很期待下次的烤肉！/
+((e))
+[auto]
+很高興認識小鐵丸老師！
+我很期待下次的烤肉！/
+[show D R]
+[setline 0.5 W D]
+[face D 01]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[orderline W D]
+[say D]
+不過小鐵丸同學的實力還不如我。
+我會吃很多。/
+[flow]
+[face D 14]
+我也不能輸！
+大家都吃很多吧！[shake D]/
+[serif off]
+？哦！/
+[hideall]
+[bg sky_star 0.5]
+[-]
+[wait 1]
+[-]
+[serif on]
+@貓屋
+哦，我們就採取吃到飽的計劃吧。/
+[hideall]
+[talkend]
+[textcolor ARUJI]
+我認識了環境顧問小鐵丸無久。/
+[textcolor ARUJI]
+[flow]
+如果您想重新裝修您的房間
+我想也許我應該諮詢他。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[-]
+[autotap]/

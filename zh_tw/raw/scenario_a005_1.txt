@@ -1,0 +1,572 @@
+>>10000/
+@夜行者
+呃，嗯，我自己，Yako先生，Ssu。
+[autotap]/
+[delay 5.3]
+[flow]
+@夜行者
+喔不……自己穿起來超尷尬……/
+>>10001/
+/
+/
+>>1/
+/
+/
+/
+>>2/
+/
+/
+/
+>>3/
+/
+/
+/
+/
+>>4/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[face A 01]
+[-]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+明亮的房間配有溫暖的蒲團。也可用於食品
+這不是問題，而且還有很多東西可以玩....../
+[face A 02]
+[effect fr kira a 0 0]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[se kira_01]
+這就是隱居生活的最好方式…！ ？/
+[show B C]
+[scale A 1 0.3]
+[move A Y 120 0.3]
+[setline 0.5 A B]
+[face A 05]
+[face B 00]
+[effect off a]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，呃……好吧，我有一些空閒時間……
+有幫助嗎？　[face A 01]....啊...ssu。
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]/
+[face B 01]
+[move B X 120 0.5]
+[hide B]
+[move A C 0.6]
+[-]
+[waku on 0.5]
+[face A 04]
+…………
+（我根本不能一個人…！）[shake A]/
+>>5/
+[set A s_a005_r 夜行さん]
+[show A C]
+[face A 06]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+啊啊啊啊啊啊啊啊啊啊啊啊啊…
+再這樣睡下去，早餐時間就過去了…[face A 00]/
+[flow]
+嗯……好吧，好吧！[face A 01]
+睡到午餐...[rotate A -30 0.5][move A XY 50 -100 0.5][delay 0.5 se dosa_01][delay 0.5 shakebg]/
+[face A 07]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+這才是自由生活的真正樂趣…
+媽媽.../
+>>6/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[show B R]
+[move B X 400]
+[move B X -400 1]
+[face A 00]
+[face B 00]
+[orderline B A]
+[-]
+[face A 05]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[say A]
+[waku on 0.5]
+（哇！？路過時
+　$B:A受到...的歡迎）/
+[face A 01]
+[shake A]
+[waku off 0.5]
+哦，親愛的...
+嗯，[= おは、おはよぅ”……… んちゃ、ンチャス………… んッタース…… い、テンキ、……スね…… きょ、ヨロシ、ッシュ…… ウス、キョ、シャス、ネー……]
+[face B 02]/
+[face A 05]
+[shake A]
+[waku on 0.5]
+（喔不……我不習慣和人說話。
+　我剛剛聽到了一個非常奇怪的聲音...）/
+[move B X -300 0.5]
+[face B 00]
+[hide B]
+[face A 04]
+（我確實被它吸引了......Tsura......）/
+>>/
+/
+/
+/
+/
+>>/
+/
+/
+/
+>>9/
+[set A s_a005_r 夜行さん]
+[show A C]
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[say A]
+你自己的書房......一個你可以沉浸其中的地方
+今天我會找到它.../
+[face A 00]
+[waku on 0.5]
+（當大家都在大房間睡覺時，
+　因為黑徹無法自由轉身。 ）/
+[waku off 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+嘿，黑鐵。
+哦，你真可愛。好吧，好吧。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 02]
+現在，我們去找一個空房間吧。[shake A]/
+>>10/
+[set A s_a005_r 夜行さん]
+[show A C]
+[face A 03]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+[say A]
+那是黑徹……你真的渾身都是泥巴。
+啊？[shake A][face A 05]白天你和這裡的人玩過嗎？/
+[scale A 1.6 0.3]
+[move A Y -120. 0.3]
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+[face A 05]
+嘿嘿，當我小睡的時候
+這意味著你結交了更多朋友！ ？/
+[face A 04]
+（哦，你...
+　其實我在後面……！ ？ ）/
+>>11/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[randomset C r -a005]
+[show A C]
+[show B C]
+[show C C]
+[face A 00]
+[face B 00]
+[face C 01]
+[setline A B C]
+[orderline B A C]
+[-]
+[serif on]
+[say A]
+[say A]
+大家好[= ゲーム大会 かくれんぼ おにごっこ ドッジボール 枕投げ 恋バナ？]
+你想這樣做嗎？啊？[shake A][face A 05]……我也是！ ？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[face B 04]
+啊……我今天覺得有點……有點……。
+……我還有機會…/
+[serif off]
+[moveline B C 400 0 0.6]
+[move B X 100 0.6]
+[hide B]
+[hide C]
+[delay 0.3 move A C 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 03]
+[-]
+[serif on]
+……我們白天有任務和訓練，但晚上也有比賽。
+體力少年的體力實在太強了，根本無法旋轉。/
+[face A 04]
+……說真的，那些人。
+如果你以那樣的速度移動，你就沒有身體了！/
+>>/
+/
+/
+>>/
+/
+/
+>>14/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[waku on 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on][say A]
+哇，衣櫃裡面…好放鬆啊…
+嗯，在這裡你可以找到珍貴的順加......[face A 01]呵呵。/
+[effect fr syutyu a 0 0]
+[show B C]
+[se fusuma_01]
+[face B 00]
+[waku off 0.5]
+[move A X 200 0.5]
+[move B X -200 0.5]
+[orderline A B]
+[-]
+[shake A 3 10 10]
+[face A 05]
+[face B 05]
+[say A]
+哇！ ！　嘿嘿$B:A，不認真
+我不可能突然開啟拉門！ ？[face A 03]/
+>>15/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005 -@あやかし -@NPC]
+[show A C]
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[say A]
+哈……大家都盡力了……/
+[show B R]
+[move B X 400]
+[move B X -400 0.6]
+[face B 01]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+哇，$B:A！？
+嗯，練習一下！ ？我也是！ ？/
+[face A 06]
+[face B 00]
+[move A X -100 0.3]
+不……我對這種事沒意見！
+我在遠方為你加油！[move A X -800 0.5][move B X -100 0.3]/
+>>16/
+[set A s_a005_m 夜行さん]
+[randomset B m -a005 -@NPC]
+[randomset C m -a005 -@NPC -@NOW]
+[set D s_n001_m 夏人]
+[show B]
+[show C]
+[setline B C]
+[face B 08]
+[face C 08]
+[effect fr katanas 5000 0 0]
+[se katana_01]
+[delay 0.3 se katana_02]
+[shakebg]
+[delay 0.3 shakebg]
+[wait 1]
+[-]
+[show A C]
+[move A X 1000]
+[moveline B C A -1000 0 1]
+[face A 05]
+[-]
+[serif on]
+[say A]
+哇……這些傢伙不是竹劍。
+我正在認真訓練.../
+[face A 06]
+這就是你為使命而訓練的方式嗎？
+太棒了...[shake A]/
+[show D R]
+[face D 16]
+[say A]
+[wait 0.5]
+[-]
+[move A X 250 0.5]
+[setline 0.6 B C D -200 600]
+[delay 0.6 shake D]
+[face B 04]
+[face C 04]
+[face A 00]
+……啊，平常就是被罵啊。/
+>>17/
+[set A s_a005_b 夜行さん]
+[randomset B b -a005]
+[show A C]
+[face A 05]
+[-]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+葛，[= タオル 着替えのパンツ 着替えの上着 着替えのズボン 新品のパンツ]
+你忘了帶它。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[show B R]
+[face A 04]
+[face B 00]
+[say A]
+[se cloth_01]
+儘管我曾經赤身裸體，但我還是想回去把它奪回來。
+又到了穿衣服的時間了.../
+[face A 05]
+[face B 01]
+啊？$B:A……
+你能藉我嗎？哦，這太酷了！/
+[waku on 0.5]
+[move B X 300 0.5]
+[hide B]
+[face A 01]
+（等等，這個人帶了多本嗎……？
+　為什麼……？ ）/
+>>18/
+[set A s_a005_b 夜行さん]
+[show A C]
+[face A 06]
+[se amb_12]
+[effect fr yuge a 0 0]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[serif on]
+[say A]
+……和別人一起洗澡……完全不切實際。
+他就是這麼做的……呃，這太尷尬了……/
+[face A 04]
+[move A Y -100 0.5]
+[se bath_02]
+我不適合做這種事，所以我把自己封閉起來。
+被召喚到這樣的世界…嗚嗚…[shake A]/
+>>19/
+[set A s_a005_b 夜行さん]
+[randomset B b -a005]
+[show A C]
+[show B R]
+[orderline A B]
+[face A 05]
+[face B 07]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[se amb_12]
+[effect fr yuge a 0 0]
+[-]
+[serif on]
+[say A]
+呃……！
+（有人摸我的背...$B:A！？）[waku on 0.5]/
+[face A 06]
+[flow]
+（……是、因為蒸汽，你看不清楚。
+　這就是我所做的！ ？哇，好大膽啊…）/
+[face A 05]
+[moveline A B 230 0 0.5]
+[waku off 0.5]
+[se bath_01]
+那是一條黑鐵尾巴！[shake A]
+我很驚訝！[face A 06]/
+>>20/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[randomset C r -a005]
+[show A R]
+[show B C]
+[show C C]
+[face A 00]
+[face B 00]
+[face C 04]
+[scale B 1.6]
+[scale C 1.8]
+[orderline C B A]
+[move C X -500]
+[move B X -250]
+[move C Y -160]
+[move B Y -120]
+[move A X 400]
+[move A X -400 0.6]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+[serif on]
+[say A]
+呃，人真多啊……莊園裡閒晃的人好神秘啊……[face A 03]
+趕快做完然後出門…[move A X -500 0.6][move B X 500 0.6][move C X 1000 0.5]/
+[face A 05]
+[shake A]
+所以……呃，這個廁所壞了！ ？[se zukkoke_01]/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+意外的排隊…排隊…[move A X 100 1]/
+>>21/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[show B C]
+[face A 05]
+[face B 00]
+[setline A B]
+[-]
+[serif on]
+[say A]
+！？
+……/
+[face A 06]
+[waku on 0.5]
+（我、我看見了…[shake A]我和其他人一起度過了一些時間。
+　我沒有太多經驗，所以我真的很緊張...）/
+>>22/
+[set A s_a005_r 夜行さん]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+唉…我冷靜了…我真的冷靜了…
+我想知道這裡還能吃米飯嗎.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+嗯，並不是所有的人都是壞人…
+哈，害羞很難…/
+>>23/
+[set A s_a005_r 夜行さん]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+呼……包房裡很安靜……嗯？
+牆壁和馬桶之間的縫隙裡有一本書…/
+[face A 00]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.5 se paper_01]
+哇，這是一本色情書！ ……哦，這個……[face A 06]
+看來你和樓主有共同嗜好啊…[face A 02]/
+[se paper_01]
+沒有人會來，所以請仔細閱讀...
+哦，[face A 05]太棒了...[wait 1]呵呵...[face A 01]/
+>>24/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[waku on]
+[scale A 1.6]
+[move A Y -120]
+[rotate A -30]
+[face A 07]
+[-]
+[serif on]
+[say A]
+……睡覺……心跳……衣服摩擦……打呼……
+任何其他聲音[wait 0.2]……[wait 0.2]……[wait 0.2]我無法平靜...[face A 04][waku off 0.5]/
+[show B C]
+[rotate B -20]
+[scale B 1.6]
+[move B Y -120]
+[face B 07]
+[orderline A B]
+[move A X -200 0.5]
+[move B X 200 0.5]
+還有人睡在我旁邊...
+不管多久，我都不會習慣…/
+>>25/
+[set A s_a005_r 夜行さん]
+[show A C]
+[move A Y -120]
+[rotate A -30]
+[face A 07]
+[-]
+[serif on]
+[say A]
+....嗯...
+黑鐵……漂亮的外套。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+....睡個好覺/
+>>26/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[waku on]
+[rotate A -30]
+[face A 07]
+[show B C]
+[rotate B -30]
+[move B XY 150 -50]
+[orderline A B]
+[face B 07]
+[-]
+[serif on]
+[say A]
+木乃伊[wait 0.2]……[wait 0.2]嗯，[shake A]是啊！ ？[face A 05][rotate A -10 0.3][move A X -100 0.3]/
+[shake A]
+[face A 06]
+（喔不，當我醒來時，我就睡在你旁邊。$B:A到
+　我當時正擁抱著你呢！ ！　阿瓦瓦…）/
+[face A 01]
+[se cloth_01]
+[move A X 20 0.5]
+（嗯，但是$B:A還在睡覺
+　她似乎沒有註意到……又軟又暖……）/
+[rotate A -30 0.5]
+[se dosa_01]
+[face A 07]
+[move A X 30 0.5]
+....咕嚕.../

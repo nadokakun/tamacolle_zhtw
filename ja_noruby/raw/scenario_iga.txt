@@ -1,0 +1,693 @@
+>>10000/
+@伊賀
+僕は東海道、伊賀です。[wait 3.0]
+あなたが僕の主？[wait 3.0]　給料分の仕事はします。[autotap]/
+[delay 2.3]
+[flow]
+[-]
+@伊賀
+契約完了ですね。/
+>>10001/
+@伊賀
+これは、昇給…？[autotap]/
+[delay 2.8]
+[flow]
+[-]
+@伊賀
+いいですよ。[wait 1.0]
+その分の働きは期待してください。/
+>>1/
+[set A s_iga_r 伊賀]
+[show A C]
+[move A Y 600]
+[move A Y -700 0.3]
+[se walk_04]
+[delay 0.3 move A Y 100 0.2]
+[serif on]
+[talk A]
+主、目が赤いですよ。寝不足でしょうか？[wait 0.5]
+……なるほど、怖い夢を見てしまったんですね。/
+[face A 11]
+そういえば、たくさんの鬼が出てくる
+上野天神祭の役行者列は知ってますか？/
+[face A 04]
+その中にフラフラと倒れそうになりながら歩く
+「ひょろつき鬼」というものがいるんです。/
+[face A 01]
+[flow]
+これがとてもとても……[fwait 0.5]それこそ夢に出そうな
+くらい不気味な動きをするんです。/
+[face A 02]
+ふふふっ。
+ぜひ、主に見せてあげたいですね。[move A Y -80 0.2][delay 0.2 move A Y 1000 0.3]/
+>>2/
+[set A s_iga_r 伊賀]
+[show A C]
+[face A 04]
+[talk A]
+[serif on]
+りくに聞きましたが、忍に憧れる者が多い
+だなんて、不思議な時代ですね。/
+[face A 03]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+かつて、天正伊賀の乱で一度は焼失した
+あの伊賀国一宮の敢国神社ですら、/
+[flow]
+今の世では庶民や観光客向けに、忍者修行の
+真似事ができる場が設けられているとか。/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 01]
+[-]
+[serif on]
+まったく、わざわざそんなところまで行かなくても
+僕が鍛えてあげますよ。/
+[face A 02]
+もちろん、有料で。/
+>>3/
+[set A s_iga_r 伊賀]
+[show A C]
+[face A 11]
+[talk A]
+[serif on]
+いい景色といえば、[wait 0.3]本能寺の変の際に、徳川家康が
+伊賀衆と甲賀衆に守られながら越えた「御斎峠」。/
+[face A 01]
+あそこから見下ろす伊賀盆地の眺望……
+なかなかのものですよ。/
+[face A 05]
+おや？[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+主も行ってみたいんですか？/
+[face A 02]
+もし誰かから逃げたいのでしたら、
+お代次第では、お守りしますよ。/
+>>4/
+[set A s_iga_r 伊賀]
+[randomset B r @地魂男児 -iga]
+[serif off]
+[show B L]
+[face B 08]
+[move B C 1.0]
+[color B talk]
+[-]
+[show A R]
+[face A 03]
+[move A Y 600]
+[move A Y -700 0.3]
+[se walk_04]
+[delay 0.3 move A Y 100 0.2]
+[-]
+[face B 05]
+[-]
+[talk A]
+[serif on]
+…………$B:A、どこへ行くんですか？
+まもなく訓練の時間です。/
+[shake B]
+[face A 08]
+いつから見張っていたか……ですか？
+常に監視は怠りません。/
+[face A 03]
+[move A X -100 0.2]
+抜け出そうとする者、
+裏切り者は絶対に許しませんから。[wait 0.5]いいですね？/
+>>5/
+[set A s_iga_r 伊賀]
+[randomset B r @地魂男児 -iga -owr]
+[show B L]
+[face B 04]
+[show A C]
+[move A Y 600]
+[move A Y -700 0.3]
+[se walk_04]
+[delay 0.3 move A Y 100 0.2]
+[face A 04]
+[talk A]
+[-]
+[serif on]
+$B:A、問題発生ですか？
+…………食材が足りない？/
+[face A 01]
+僕の足なら五分で戻れますよ。
+遠慮することはありません。大丈夫ですよ。/
+[face A 00]
+[face B 00]
+報酬は後ほど請求しますから。
+では。[se walk_04][move A Y -80 0.2][delay 0.2 move A Y 1000 0.3]/
+>>6/
+[set A s_iga_r 伊賀]
+[show A C]
+[face A 03]
+[talk A]
+[serif on]
+尾張、[wait 0.5]可能であれば今すぐにでも
+消してしまいたい憎き男。/
+あの傲慢な態度、下品な笑い声、仕草……[shake A]
+すべてに腹が立つ。/
+[face A 08]
+[move A X 100 0.5]
+[flow]
+しかし、奴が相当な手練れなのも確か……
+まずはこちらの戦力を増やさなくては。/
+[face A 04]
+[flow]
+同じく尾張と敵対する三河以外に、
+やつの始末を手伝えそうな者はいないでしょうか……/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_iga_r 伊賀]
+[randomset B r @地魂男児 -iga]
+[show A C]
+[show B C]
+[face A 11]
+[face B 00]
+[talk A]
+[setline 0 A B]
+[serif on]
+いいですか？　$B:A。
+これをよーく見てください。/
+[move A X 50 1.0]
+[face A 08]
+あなたは段々眠くなーる……[wait 0.5]眠くなーる……
+眠くなーる[face B 07]……[wait 0.5]眠く……[rotate B -90 0.5][shakebg][se dosa_01][move B Y -150 0.5]/
+[face A 01]
+完了です。これで明日の朝まで
+目を覚ますことはないでしょう。/
+[face A 02]
+[move A X -150 0.5]
+食事当番のひと。[wait 0.3]
+今日の$B:Aの分の晩ごはんは、僕が処理します。/
+>>10/
+[set A s_iga_r 伊賀]
+[serif on]
+[textsize 45]
+[textcolor BLUE]
+[talkend]
+ぐきゅううう……ぎゅるるるぅぅぅ……/
+[show A C]
+[face A 10]
+[talk A]
+はぁ……はぁ……[move A Y -10 0.2][delay 0.2 move A Y 10 0.2][-][move A Y -10 0.2][delay 0.2 move A Y 10 0.2]
+ごはん……[wait 0.5]ごはんのいい香りが……はうぅう。[shake A]/
+[shake A]
+[move A Y -100 1.0]
+……こんな状態であと、五分も……待てません。
+待てるわけがないぃぃ……うぅ……[shake A]/
+>>11/
+[set A s_iga_r 伊賀]
+[show A C]
+[face A 10]
+[talk A]
+[serif on]
+こ……このおかずは……なんです？
+……魚料理……ですか……？/
+[face A 06]
+[se kira_01]
+[effect bk kira A]
+魚なんて……鯛の形をした、
+おしもんしか知らない……/
+[face A 09]
+ど、どんな……
+どんな味がするんでしょうか……？[shake A]/
+ドキドキ。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_iga_r 伊賀]
+[randomset B r @地魂男児 +@NPC +@あやかし -iga -owr]
+[show A C]
+[show B C]
+[face A 11]
+[face B 00]
+[talk A]
+[setline 0 A B]
+[serif on]
+$B:A、さっきからそわそわして……[move A X 50 1.0]
+色々と溜まってるんじゃないですか？/
+[serif off]
+[face A 01]
+[face B 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……やはり。
+もし、僕に身を委ねていただけるのなら、/
+[face A 02]
+[flow]
+[effect bk kira C]
+体中のコリと疲れを癒やす[face B 02]按摩で
+快感と極楽の夢へと誘ってあげますよ。/
+[face A 00]
+[effect off C]
+その分、値は張りますが。[face B 04]/
+>>15/
+[set A s_iga_m 伊賀]
+[show A C]
+[face A 03]
+[talk A]
+[serif on]
+いいですか？　[wait 0.5]サボろうとする者は、
+容赦なく背中から切り捨てます。/
+[face A 08]
+本気になって訓練をしてくださいね。
+それでは、はじめ！[move A Y 10 0.3][delay 0.3 move A Y -10 0.1]/
+>>16/
+[set A s_iga_m 伊賀]
+[randomset B m @地魂男児 -iga -@NPC]
+[fadein WHITE 0]
+[show A C]
+[face A 08]
+[talk A]
+[fadeout 1.0]
+[-]
+[serif on]
+…………そこまで！/
+[show B L]
+[face A 02]
+[face B 00]
+[talk A]
+[setline 0.5 B A]
+おつかれさまです、$B:A。
+腕を上げましたね。/
+[face A 01]
+[face B 01]
+[effect bk kira C]
+日々の訓練の積み重ねが、着実にあなたの力に
+なっています。自信を持ってください。/
+[face A 00]
+[effect off C]
+では、
+明日からの訓練の日課を倍にしましょう。[face B 05][move B Y 50 0.1][delay 0.1 move B Y -50 0.2]/
+>>17/
+[set A s_iga_b 伊賀]
+[randomset B b @地魂男児 +@あやかし -iga -owr]
+[show A C]
+[show B C]
+[face A 11]
+[face B 00]
+[talk A]
+[setline 0 A B]
+[move A X -200]
+[move A X 200 1.0]
+[-]
+[serif on]
+何をジロジロ見ているんですか？　$B:A。
+……これ？[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]　ただの手裏剣ですよ。/
+[face A 07]
+敵はいつ襲ってくるか分かりませんから。
+荘園の浴場とはいえ、油断はできません。[face B 04]/
+[face A 08]
+[face B 00]
+[flow]
+ですから、いつでも戦えるよう
+これだけは常に忍ばせています。/
+>>18/
+[set A s_iga_b 伊賀]
+[show A L]
+[se amb_12]
+[effect fr yuge A]
+[face A 08]
+[talk A]
+[move A C 0.5]
+[-]
+[move A Y -60 0.3]
+[-]
+[serif on]
+仕事に関係ないことはできるだけ
+簡潔に済ませるのが忍。/
+[face A 07]
+[serif off]
+[se bath_05]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[serif on]
+[se bath_03]
+体と髪を洗い……[face A 11][move A Y 60 0.5][delay 0.5 move A X 300 0.5]
+風呂に浸かり…………[se bath_02][move A Y -100 0.6][face A 08]/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[wait 0.5]
+[face A 08]
+上がる。[move A Y 100 0.3][se water_03]
+よし。/
+>>19/
+[set A s_iga_b 伊賀]
+[show A C]
+[se amb_12]
+[effect fr yuge A]
+[move A Y -100]
+[face A 10]
+[talk A]
+[serif on]
+うぅ……[shake A]これは……
+何やら……体が……疼く……/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+熱さのせい、でしょうか……/
+[se water_07]
+[move A Y -200 1.0]
+ごぼごぼ。[se bath_04]/
+>>20/
+[set A s_iga_r 伊賀]
+[show A C]
+[face A 03]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+[serif on]
+はっ、人の気配……！/
+[fadein BLACK 0.2]
+[waku on]
+[delay 0.2 fadeout 0.1]
+[face A 08]
+横に一人、[wait 0.5]後ろに三人……[wait 0.5][fadein BLACK 0.2][waku off][delay 0.2 fadeout 0.1][face A 00]
+皆、敵ではなさそうですね。/
+>>21/
+[set A s_iga_r 伊賀]
+[randomset B r @地魂男児 +@あやかし -iga -owr]
+[show A C]
+[show B C]
+[face A 08]
+[face B 06]
+[talk A]
+[setline 0 A B]
+[-]
+[serif on]
+……$B:A。[move A X 20 0.5][wait 0.5]今、こちらを見ましたね。[face B 05][move B Y 10 0.1][delay 0.1 move B Y -10 0.1]
+僕が気づかないとでも。/
+[face A 01]
+[face B 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+見たのなら、
+閲覧料、頂戴します。/
+>>22/
+[set A s_iga_r 伊賀]
+[show A C]
+[move A Y -100]
+[face A 11]
+[-]
+[face A 05]
+[move A Y 150 0.1]
+[delay 0.1 move A Y -50 0.2]
+[talk A]
+[serif on]
+はっ！
+主の視線……！？/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+…………気のせいでしょうか……[move A Y -100 0.5]
+さすがに厠を覗くような真似はしませんか……/
+>>23/
+[set A s_iga_r 伊賀]
+[randomset B r -iga -owr]
+[show A C]
+[face A 07]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぅ。[wait 0.5]
+……[face A 11]そうだ、先程の記録を。/
+[face A 01]
+[se paper_01]
+$B:Aの敏感なところを発見……と。
+これは有用な情報です。/
+>>24/
+[set A s_iga_r 伊賀]
+[show A C]
+[face A 04]
+[talk A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[move A Y -100 1.0]
+[-]
+[serif on]
+……枕の下に……文。
+差出人は……？[se paper_01]/
+[face A 07]
+[move A Y 100 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……なるほど。[face A 11]/
+[face A 08]
+皆が寝静まった頃、任務を開始します。/
+[serif off]
+[se walk_04]
+[move A Y -80 0.2]
+[delay 0.2 move A Y 1000 0.3]
+[-]
+[autotap]/
+>>25/
+[set A s_iga_r 伊賀]
+[randomset B r @地魂男児 +@あやかし -iga -owr -@NPC]
+[show A C]
+[face A 07]
+[talk A]
+[serif on]
+すぅ……[se walk_01]すぅ……[wait 1.0]
+…………[face A 03]誰かの足音……/
+[se walk_01]
+[wait 1.0]
+これは……$B:A……厠の方へ……[wait 0.5]
+警戒の必要なし……[face A 07][move A Y 10 0.4][delay 0.4 move A Y -10 1.0]すぅ……すぅ……/
+>>26/
+[set A s_iga_r 伊賀]
+[randomset B r @地魂男児 +@あやかし -iga -owr -@NPC]
+[show B R]
+[move B C 1.0]
+[color B talk]
+[-]
+[show A L]
+[face A 11]
+[move A Y 600]
+[move A Y -700 0.3]
+[se walk_04]
+[delay 0.3 move A Y 100 0.2]
+[face B 05]
+[talk A]
+[-]
+[serif on]
+……こんばんは、$B:A。
+何を驚いているんですか？/
+[flow]
+[face B 04]
+こんな時間に、無断外出ですか。/
+[face A 01]
+[flow]
+止めはしませんが、翌日の任務の内容によっては
+控えたほうがいいこともあります。/
+[face A 02]
+体調管理、徹底してくださいね。[se walk_04][move A Y -80 0.2][delay 0.2 move A Y 1000 0.3]/
+/
+>>100/
+[set A s_iga_r 伊賀]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 伊賀との契約]
+[-]
+[bg gozasyo_night]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[talkend]
+@？？？
+主。/
+[serif off]
+?わ、びっくりした！　伊賀？/
+[textcolor ARUJI]
+[serif on]
+夜、仕事を終えて御座所を出ようとすると、
+突然背後から伊賀に声をかけられた。/
+[serif off]
+[show A C]
+[move A Y 600]
+[move A Y -700 0.3]
+[se walk_04]
+[delay 0.3 move A Y 100 0.2]
+[face A 11]
+[talk A]
+[-]
+[serif on]
+主、少しお時間を
+いただいてもかまいませんか？/
+[serif off]
+?伊賀とおしゃべりする/
+[face A 00]
+[serif on]
+どうも。/
+[face A 01]
+僕の仕事について、
+基本方針を確認しておきたいのですが/
+[face A 00]
+[flow]
+主は僕にどのような仕事をお望みでしょう？/
+[serif off]
+?え、えーと、任務以外で？/
+[face A 01]
+[serif on]
+そうですね。/
+[face A 00]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+僕は忍です。諜報活動から、警護、暗殺……
+主の命ならば何でもこなしますよ。/
+[serif off]
+?あ、暗殺とかはいらないかな……/
+[face A 03]
+[talkend]
+[textcolor ARUJI]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+伊賀は呆れたようにため息をついた。/
+[face A 08]
+[talk A]
+主、あなたは地魂男児という
+大きな戦力を持つ総大将。/
+[face A 03]
+……もう少し自覚を持つべきでしょう。/
+[face A 08]
+あなたを利用しようという者もいれば
+排除しようという者もいる。これは人の世の理。/
+たとえ泰平の世であろうと
+人間の本質は変わりません。/
+[face A 03]
+[bg black 1.0]
+[scale A 1.5 0.3]
+[move A Y -80 0.3]
+ならば、
+怪しき者、邪魔者は消してしまえばいい。/
+[talkend]
+[textcolor ARUJI]
+伊賀の鋭い視線に背筋が涼しくなる。/
+[serif off]
+?……/
+[move A Y 80 0.3]
+[scale A 1.0 0.3]
+[bg gozasyo_night 0.5]
+[face A 11]
+[talk A]
+[-]
+[serif on]
+……ですが、/
+[face A 01]
+[flow]
+それがお気に召さないのなら、
+ひとまず、僕を警護につけるといいでしょう。/
+[face A 00]
+[flow]
+普段は身を隠し、御身を守りますよ。/
+[serif off]
+?それならいいかも……/
+[face A 02]
+[move A Y 10 0.2]
+[delay 0.2 move A Y -10 0.2]
+[-]
+[serif on]
+はい。ではそうしましょう。/
+[talkend]
+[textcolor ARUJI]
+伊賀は今までの緊張感とは
+打って変わってにこりと笑った。/
+[talk A]
+[face A 01]
+もし主が厠で足を滑らせようと、寝床で賊に
+襲われようと、僕が守ってみせますよ。/
+[serif off]
+?じゃあ、よろしくね/
+[face A 01]
+[serif on]
+はい。契約成立ですね。[move A Y -10 0.2][delay 0.2 move A Y 10 0.2][-][move A Y -10 0.2][delay 0.2 move A Y 10 0.2][se cloth_01]/
+[serif off]
+[scale A 1.5 1.0]
+[move A Y -80 1.0]
+[face A 00]
+[se paper_01]
+[-]
+[serif on]
+何も起きなければ基本料金のままです。/
+[face A 11]
+[flow]
+問題解決ごとに都度、任務遂行費を
+請求させていただきます。/
+[flow]
+解約は2週間前までに申し出てください。/
+[flow]
+[se paper_01]
+こちらが契約書になります。/
+[face A 00]
+[flow]
+今言った注意事項などもまとめてありますので、
+目を通しておいてくださいね。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+伊賀から手渡された契約書には、
+規約や免責事項などがびっしりと書かれていた。/
+[serif off]
+?ビジネス感すごい……/
+[show A]
+[face A 01]
+[talk A]
+[serif on]
+当然です。/
+……そうそう、[wait 0.5][face A 02]ご用命とあれば、
+寝床の中までお付き合いしますよ？/
+[face A 01]
+では、また後ほど。/
+[talkend]
+[textcolor ARUJI]
+伊賀はそう言って、にっと笑うと
+どろんと姿を消した。[fadein WHITE 0.2][effect bk yuge 3000][delay 0.2 effect fr yuge 2000][hide A][-][fadeout 0.1][se dosa_01]/
+[serif off]
+?おぉ、さすが忍者……/
+[fadein BLACK 2.0]
+[-]
+[serif on]
+[textcolor ARUJI]
+伊賀のクールな佇まい、
+そして間近に見る忍術。/
+[flow]
+[textcolor ARUJI]
+そのかっこよさに、
+思わず、中二心がうずいたのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

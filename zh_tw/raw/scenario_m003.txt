@@ -1,0 +1,1417 @@
+>>0/
+((s))
+[set W s_san_b 讚岐]
+[set A s_n001_b 夏人]
+[set B s_n000_b 猫乃屋]
+[set C s_n003_b 羽鳥]
+[set D s_n002_b 猪森]
+[set E s_n005_b りく]
+[set F s_n004_b 百太]
+[set Y s_san_m 讚岐]
+[set G s_n001_m 夏人]
+[set H s_n000_m 猫乃屋]
+[set I s_n005_m りく]
+[set J s_n004_m 百太]
+[set O s_a000_m 座敷わらし]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 裸の付き合い！]
+[-]
+[bg rouka_night]
+[-]
+[fadeout]
+[bgm night]
+[-]
+[serif on]
+[talkend]
+完成南海道的淨化任務後，
+眾人前往莊園的公共浴場。/
+((m))
+[set W s_mus_b 武藏]
+[set A s_n001_b 夏人]
+[set B s_n000_b 猫乃屋]
+[set C s_n003_b 羽鳥]
+[set D s_n002_b 猪森]
+[set E s_n005_b りく]
+[set F s_n004_b 百太]
+[set Y s_mus_m 武藏]
+[set G s_n001_m 夏人]
+[set H s_n000_m 猫乃屋]
+[set I s_n005_m りく]
+[set J s_n004_m 百太]
+[set O s_a000_m 座敷わらし]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 裸の付き合い！]
+[-]
+[bg rouka_night]
+[-]
+[fadeout]
+[bgm home]
+[-]
+[serif on]
+[talkend]
+完成南海道的淨化任務後，
+眾人前往莊園的公共浴場。/
+((e))
+[set W s_ecg_b 越後]
+[set A s_n001_b 夏人]
+[set B s_n000_b 猫乃屋]
+[set C s_n003_b 羽鳥]
+[set D s_n002_b 猪森]
+[set E s_n005_b りく]
+[set F s_n004_b 百太]
+[set Y s_ecg_m 越後]
+[set G s_n001_m 夏人]
+[set H s_n000_m 猫乃屋]
+[set I s_n005_m りく]
+[set J s_n004_m 百太]
+[set O s_a000_m 座敷わらし]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 裸の付き合い！]
+[-]
+[bg rouka_night]
+[-]
+[fadeout]
+[bgm home]
+[-]
+[serif on]
+[talkend]
+完成南海道的淨化任務後，
+眾人前往莊園的公共浴場。/
+[show I C]
+[face I 02]
+[talk I]
+哦，看看我的兄弟們！/
+[serif off]
+?陸/
+[face I 03]
+[move I Y 10 0.4]
+[delay 0.4 move I Y -10 1.0]
+[autotap]/
+[serif on]
+我在王座前露面。
+它不在那裡，所以我尋找它。/
+[face I 00]
+放學後我來玩！[move I Y 10 0.1][delay 0.1 move I Y -10 0.1]
+啊，$W～！/
+((s))
+[hide I]
+[-]
+[show Y C]
+[face Y 01]
+[talk Y]
+利庫君。/
+((m))
+[auto]
+嘿，利庫！/
+((e))
+[auto]
+利庫君！/
+((s))
+[face Y 12]
+[flow]
+大師剛剛完成他的使命。
+我累了，我們改天再玩吧。/
+((m))
+[auto]
+將軍剛剛完成他的使命。
+我們下次再玩吧。/
+((e))
+[auto]
+主人累了，我們來玩吧
+讓我們再次改變這一天。/
+[show G C]
+[setline 0.5 Y G]
+[face G 12]
+[talk G]
+$W坤也。
+我剛結束為期多天的任務回來。/
+[hide Y]
+[hide G]
+[-]
+[show I C]
+[face I 05]
+[talk I]
+[move I Y 10 0.1]
+[delay 0.1 move I Y -10 0.1]
+沒錯！　[wait 0.5]出於某種原因...大家[face I 06]
+我想我累了[wait 0.2]…[wait 0.2]…[wait 0.2]讓我們做點什麼吧。[move I Y 10 0.4][delay 0.4 move I Y -20 1.0]/
+[hide I]
+[-]
+[show H C]
+[face H 03]
+[talk H]
+[shake H]
+吵鬧！現在我們終於要洗澡了。
+這就是你進來的地方！/
+[flow]
+如果你妨礙了我，即使你是個怪人，我也會原諒你
+不要這樣做！[shake H]/
+[show J C]
+[setline 0.5 H J]
+[face J 09]
+[talk J]
+貓之屋同學，冷靜點。/
+[move J Y 10 0.4]
+[delay 0.4 move J Y -10 1.0]
+[effect J kira a 0 0]
+[se kira_01]
+[autotap]/
+[face J 10]
+我聞到了貓之屋的男子氣概，
+我不討厭它！/
+[effect off a]
+[face H 10]
+[say H]
+[shake H]
+我不高興。/
+[serif off]
+[hide H]
+[hide J]
+[-]
+[show I C]
+[face I 06]
+[talk I]
+[-]
+[serif on]
+洗澡？這裡的公共浴池有點
+我很好奇，對吧？/
+[face I 01]
+[scale I 1.6 0.5]
+[move I Y -100 0.5]
+我也可以跟你一起洗澡嗎？/
+[serif off]
+？點點頭/
+[playeryes]
+[-]
+[serif on]
+[face I 02]
+耶！/
+((s))
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg bath]
+[hideall]
+[-]
+[fadeout 1.0]
+[-]
+[se amb_12]
+[place 大浴場]
+[effect fr yuge a]
+[-]
+[bgm fun]
+[show W C]
+[face W 00]
+[talk W]
+[-]
+[serif on]
+那麼，師父。筱之助的水槽真的是
+太棒了！/
+((m))
+[auto]
+沒錯，將軍。筱之介的水槽
+太神奇了，這不是很神奇嗎…/
+((e))
+[auto]
+師父。那麼，筱之助的水槽就是他自己。
+雖然我很謙虛，但確實是一流的.../
+((s))
+[face W 01]
+[talk W]
+沒錯！[shake W]　我不知道我能不能做得很好...
+我們也幫主人洗背吧？/
+((m))
+[auto]
+嘿嘿，我也是武藏國的地魂少年。
+如果你不介意的話，我幫將軍洗背吧？/
+((e))
+[auto]
+沒錯。主人……如果你願意的話
+我要幫主人洗背！/
+[serif off]
+？請/
+[face W 00]
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[serif on]
+是啊！交給我吧！　
+受過烏龍面訓練的女士的手藝…/
+((m))
+[auto]
+哦！交給我吧！
+雖然可能不如筱之介那麼好，但是…/
+((e))
+[auto]
+是的！請交給我吧！
+現在是充分利用那些訓練過的肌肉的時候了.../
+((s))
+[scale W 2.0 1.0]
+[move W Y -200 1.0]
+[face W 08]
+我要帶師父上天堂！是的！[shake W][se bath_05]
+擦洗！[shake W]　洗洗洗！[shake W][se bath_05]　媽媽媽媽！[shake W]/
+((m))
+[auto]
+我將帶領將軍前往天堂！噢耶！[se bath_05][shake W]
+擦洗！[shake W]　洗洗洗！[shake W][se bath_05]　媽媽媽媽！[shake W]/
+((e))
+[auto]
+把最美好的時光獻給主人！打擾一下！[se bath_05][shake W]
+擦洗！[shake W]　洗洗洗！[shake W][se bath_05]　媽媽媽媽！[shake W]/
+((s))
+[face W 12]
+[serif off]
+[se bath_01]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+呵呵……主人的背寬了。[wait 0.5]
+嗯，[shake W]看來你的肩膀很僵硬.../
+((m))
+[auto]
+呵呵……將軍的背好寬啊……[wait 0.5]
+哇哦，[shake W]你的肩膀看起來也很僵硬。/
+((e))
+[auto]
+唉……主人的背……好寬……[wait 0.5]
+啊，[shake W]你的肩膀也很僵硬.../
+((s))
+[face W 06]
+[move W Y -50 1.0]
+這附近也有...[shake W]哈！[se bath_05]　[shake W]哈！[shake W]
+你覺得怎麼樣？[move W Y 50 0.5][face W 01]　師父。/
+((m))
+[auto]
+在這附近...[shake W]哈！[se bath_05]　[shake W]嗯！
+你覺得怎麼樣？[move W Y 50 0.5][face W 01]　將軍……！/
+((e))
+[auto]
+這附近也有...[shake W]哈！[se bath_05]　[shake W]嗯！
+怎麼樣？[move W Y 50 0.5][face W 01]　主人……！/
+[serif off]
+?泡菜井/
+((s))
+[face W 12]
+[serif on]
+誒嘿嘿，筱之介的人類皮膚很光滑。
+當你說感覺很好時我想我理解。/
+((m))
+[auto]
+呵呵，筱之介說，人的皮膚是光滑的。
+當你說感覺很好時我想我理解。/
+((e))
+[auto]
+筱之助說，人類的皮膚很光滑，感覺很好。
+我記住了你說的話。/
+((s))
+[serif off]
+[se bath_05]
+[move W Y -10 0.2]
+[delay 0.2 move W Y 10 0.2]
+[-]
+[move W Y -10 0.2]
+[delay 0.2 move W Y 10 0.2]
+[-]
+[move W Y -10 0.2]
+[delay 0.2 move W Y 10 0.2]
+[-]
+[move W Y -10 0.2]
+[delay 0.2 move W Y 10 0.2]
+[-]
+[serif on]
+磨砂膏磨砂膏/
+((m))
+[auto]
+磨砂膏磨砂膏/
+((e))
+[auto]
+磨砂膏磨砂膏/
+[serif off]
+?艾塔塔/
+((s))
+[shakebg]
+[face W 11]
+[serif on]
+哦，對不起！　[shake W]或許是有點太強了…[move W Y 10 0.4][delay 0.4 move W Y -10 1.0][se bath_01]/
+((m))
+[auto]
+尾張！　[shake W]我做得有點太強了。
+很難...[move W Y 10 0.4][delay 0.4 move W Y -10 1.0]/
+((e))
+[auto]
+抱歉！[shake W]
+希望Master的皮膚不要受傷…！[move W Y 10 0.4][delay 0.4 move W Y -10 1.0]/
+[hide W]
+[-]
+[se bath_03]
+[show A R]
+[show B L]
+[setline B A]
+[face A 00]
+[face B 01]
+[talk B]
+[order B 0]
+[order A 2]
+好吧。
+我也幫你洗背吧？/
+[say A]
+[face A 03]
+啊，沒關係。我不會這樣做。/
+[face B 04]
+[say B]
+到底是什麼？洗背算性騷擾嗎？
+對嗎？[shake B]/
+[show E R]
+[setline 0.5 B A E]
+[face A 06]
+[face E 00]
+[talk A]
+[order A 5]
+[order B 0]
+[order E 8]
+利庫君，你的頸背上留下了一些氣泡。
+它必須正常流動。/
+[face E 05]
+[say E]
+[move E Y 10 0.1]
+[delay 0.1 move E Y -10 0.1]
+真的嗎？
+我不習慣，因為我的祖父總是為我這樣做。/
+[face B 08]
+[say B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+這就是為什麼我希望你能夠自己做所有的事情。
+我就是這麼說的。/
+[face E 02]
+[say E]
+沒能跟在夏人哥哥的身後，我感到很遺憾。
+你能給我洗背嗎？/
+[face B 10]
+[say B]
+因為我絕對不會這麼做。/
+[serif off]
+[se door_01]
+[show F C]
+[scale F 1.6]
+[move F Y -150]
+[delay 0.5 effect F syutyu b 0 -100]
+[move F X 1000]
+[moveline A B E F -1000 0 1.0]
+[face F 01]
+[talk F]
+[se amb_12]
+[-]
+[serif on]
+我遲到了，因為我停在廁所了！
+我也會跟你在一起的！/
+[serif off]
+[talkend]
+[effect off b]
+[moveline A B E F 1000 0 1.0]
+[face A 10]
+[face B 06]
+[face E 05]
+[-]
+[serif on]
+[say B]
+……從穿衣服開始我就一直在想。
+真是令人印象深刻.../
+[move E Y 10 0.4]
+[delay 0.4 move E Y -10 1.0]
+[autotap]/
+[face E 06]
+[say E]
+哇...也許是我見過的最好的...（Gokuri）/
+[serif off]
+[talkend]
+[scale F 1]
+[move F Y 150]
+[setline 0.5 B A E F -150 1000]
+[delay 0.3 effect F syutyu b 0 -100]
+[face F 00]
+[-]
+[say F]
+[serif on]
+什麼？
+你剛剛打電話給我了嗎？/
+[face B 02]
+[say B]
+別跑別跑！它上躥下跳！[shake B]/
+((s))
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[effect off b]
+[-]
+[fadeout 1.0]
+[-]
+[se bath_02]
+[wait 0.5]
+[show W C]
+[scale W 1.4]
+[move W Y -100]
+[face W 12]
+[talk W]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+嘆氣……我會康復的。/
+((m))
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[effect off b]
+[-]
+[fadeout 1.0]
+[-]
+[se bath_02]
+[wait 0.5]
+[show W C]
+[scale W 1.4]
+[move W Y -150]
+[face W 12]
+[talk W]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+呼...恢復正在進行中.../
+((e))
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[effect off b]
+[-]
+[fadeout 1.0]
+[-]
+[se bath_02]
+[wait 0.5]
+[show W C]
+[scale W 1.4]
+[move W Y -150]
+[face W 12]
+[talk W]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+嘆氣…有小刮痕
+我知道它正在治癒.../
+[show B C]
+[face B 09]
+[scale B 1.4]
+[move B Y -150]
+[setline 0.5 W B]
+[orderline W B]
+[say B]
+據說，地魂童子泡在熱水裡，他的傷勢就會痊癒。
+這很有趣。/
+((s))
+[face W 00]
+[say W]
+人類也可以治癒，對嗎？
+這就是所謂的溫泉療法。/
+((m))
+[auto]
+特雅迪。即使是人類也可以治癒，對嗎？
+大概有一個字叫溫泉治癒。/
+((e))
+[auto]
+但人類也是可以被治癒的，對嗎？
+這才叫溫泉療癒！/
+[face B 10]
+[say B]
+就像你們一樣，
+這不像是在治癒。/
+[hide W]
+[hide B]
+[-]
+[se bath_04]
+[show F C]
+[scale F 1.4]
+[move F Y -150]
+[face F 08]
+[talk F]
+這個任務我關注很久了
+我學到了很多！/
+[move F Y 10 0.4]
+[delay 0.4 move F Y -10 1.0]
+[autotap]/
+[face F 02]
+[flow]
+江戶時代的浴場看起來很漂亮。
+我也想去。/
+[show A L]
+[scale A 1.4]
+[face A 06]
+[setline 0.5 A F]
+[move A Y -150]
+[orderline A F]
+[say A]
+我沒想到天這麼黑。
+這太令人驚訝了.../
+[face F 10]
+[say F]
+[se water_06]
+天這麼黑的時候一定很酷。
+不是有嗎？/
+[show E C]
+[face E 03]
+[talk E]
+[scale E 1.4]
+[setline 0.5 A E F]
+[move A X -150 0.5]
+[move F X 150 0.5]
+[move E Y -100]
+[orderline E A F]
+哇，我對江戶時代的浴場很好奇！
+我想看看。/
+[face E 01]
+[flow]
+我真的很想去看看任務。/
+[hide A]
+[hide F]
+[-]
+[se water_06]
+[show B C]
+[scale B 1.4]
+[setline 0.5 B E]
+[face B 10]
+[say B]
+[orderline E B]
+[move B Y -150]
+$W只要堅持紀念品故事即可。/
+((s))
+[serif off]
+[se amb_12]
+[show W C]
+[show A C]
+[face W 00]
+[face A 01]
+[setline W A]
+[scale W 1.4]
+[scale A 1.4]
+[move A Y -150]
+[move W Y -100]
+[moveline W A -1000 0 0]
+[moveline W A B E 1000 0 1]
+[orderline W A]
+[delay 0.5 hide B]
+[delay 0.5 hide E]
+[-]
+[say A]
+[serif on]
+$W坤。
+這次旅行也很難熬。/
+((m))
+[serif off]
+[se water_06]
+[show W C]
+[show A C]
+[face W 00]
+[face A 01]
+[setline W A]
+[scale W 1.4]
+[scale A 1.4]
+[move A Y -150]
+[move W Y -150]
+[moveline W A -1000 0 0]
+[moveline W A B E 1000 0 1]
+[orderline A W]
+[delay 0.5 hide B]
+[delay 0.5 hide E]
+[-]
+[say A]
+[serif on]
+$W坤。
+這次旅行也很難熬。/
+((e))
+[serif off]
+[se water_06]
+[show W C]
+[show A C]
+[face W 00]
+[face A 01]
+[setline W A]
+[scale W 1.4]
+[scale A 1.4]
+[move A Y -150]
+[move W Y -150]
+[moveline W A -1000 0 0]
+[moveline W A B E 1000 0 1]
+[orderline A W]
+[delay 0.5 hide B]
+[delay 0.5 hide E]
+[-]
+[say A]
+[serif on]
+$W坤。
+這次旅行也很難熬。/
+((s))
+[face W 12]
+[say W]
+夏人君和Master正在註視著我。
+小夥子們也盡了最大努力。謝謝。/
+((m))
+[auto]
+夏人和將軍正在看著我。
+我也會在這裡竭盡全力。謝謝。/
+((e))
+[auto]
+我的主人和夏人君正在註視著我，
+我也很興奮！謝謝你！/
+((s))
+[show B R]
+[scale B 1.4]
+[move B Y -150]
+[setline 0.5 W A B]
+[delay 0.5 shake A]
+[face B 01]
+[talk B]
+[face A 14]
+[order A 5]
+[order W 10]
+[order B 0]
+有時我們會有這樣的赤裸裸的關係。
+那還不錯。/
+((m))
+[show B R]
+[scale B 1.4]
+[move B Y -150]
+[setline 0.5 W A B]
+[delay 0.5 shake A]
+[face B 01]
+[talk B]
+[face A 14]
+[order A 5]
+[order W 0]
+[order B 2]
+有時我們會有這樣的赤裸裸的關係。
+那還不錯。/
+((e))
+[show B R]
+[scale B 1.4]
+[move B Y -150]
+[setline 0.5 W A B]
+[delay 0.5 shake A]
+[face B 01]
+[talk B]
+[face A 14]
+[order A 5]
+[order W 0]
+[order B 2]
+有時我們會有這樣的赤裸裸的關係。
+那還不錯。/
+[serif off]
+[show F R]
+[scale F 1.4]
+[move F Y -150]
+[setline 0.5 W A B -100 500]
+[-]
+[scale F 2.0 1.0]
+[move F Y -150 1.0]
+[effect F splash 4000 0 100]
+[se bath_02]
+[se water_05]
+[face W 05]
+[face A 09]
+[face B 02]
+[face F 02]
+[talk F]
+[-]
+[serif on]
+我每天都這樣做可以嗎？
+特別是因為我們將密切採訪前輩！/
+((s))
+[hide A]
+[hide B]
+[move W X 150 0.3]
+[se water_05]
+[face W 11]
+[say W]
+莫，桃田君！[shake W]　致師父
+太近了！/
+((m))
+[auto]
+哦，嘿！桃田！致將軍
+他們不是靠得太近了嗎？ ？/
+((e))
+[auto]
+莫，桃田君！師、師、師父
+太近了！ ！/
+[serif off]
+?某物的存在感很強。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[se door_01]
+[-]
+[fadeout 1.5]
+[-]
+[se amb_12]
+[show C C]
+[show D C]
+[setline C D]
+[face C 00]
+[face D 00]
+[talk C]
+[-]
+[serif on]
+嘿那裡。感謝大家的辛勤工作。
+我來是因為收到任務完成的通知。/
+[face D 01]
+[talk D]
+抱歉打擾你了。/
+((s))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -50]
+[move B Y -100]
+[face W 01]
+[face B 00]
+[talk W]
+羽鳥同學、豬森同學！我到家了！
+我安全回來了！/
+((m))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -100]
+[move B Y -100]
+[face W 01]
+[face B 00]
+[talk W]
+羽鳥喲！豬森！我回來了！/
+((e))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -100]
+[move B Y -100]
+[face W 01]
+[face B 00]
+[talk W]
+羽鳥同學、豬森同學！
+任務順利完成！/
+[face B 01]
+[talk B]
+[se water_06]
+哦，羽鳥同學和豬內也要去洗澡了。
+太賤了！/
+[hide W]
+[hide B]
+[-]
+[show C C]
+[show D C]
+[setline C D]
+[face C 01]
+[face D 00]
+[talk C]
+是的，我們一直在談論一種叫做 TPO 的東西。
+因為有事情。/
+((s))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -50]
+[move B Y -100]
+[face W 00]
+[face B 00]
+[talk W]
+一個故事？/
+((m))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -100]
+[move B Y -100]
+[face W 00]
+[face B 00]
+[talk W]
+一個故事？/
+((e))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -100]
+[move B Y -100]
+[face W 00]
+[face B 00]
+[talk W]
+你在說話嗎？/
+[hide W]
+[hide B]
+[serif off]
+[-]
+[show C C]
+[show D C]
+[setline C D]
+[face C 00]
+[face D 00]
+[talk C]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[-]
+[serif on]
+是的...Shigeru-kun 提供了更多詳細資訊。
+如果你要我解釋一下.../
+[face C 01]
+[face D 12]
+我要去洗一下身體和頭髮
+別等了。/
+[move C X 100 1.0]
+[hide C]
+[autotap]/
+[face D 11]
+[talk D]
+[shake D]
+我也覺得泡之前先洗一下比較好...
+我要去洗了！[move D X 200 0.5][hide D]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[se water_01]
+[fadeout 1.0]
+[-]
+[se amb_12]
+[show D C]
+[scale D 1.4]
+[move D Y -150]
+[face D 13]
+[talk D]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[-]
+[serif on 0.5]
+嘆息...[wait 0.5]熬夜後對身體的影響
+熱水刺痛。[se water_06]/
+[show F L]
+[scale F 1.4]
+[move F Y -150]
+[setline 0.5 F D]
+[se water_06]
+[face D 00]
+[face F 01]
+[talk F]
+感謝豬森先生的辛勤工作！我是赤隈百隆！　
+我正在和我的前輩進行近距離採訪！/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 01]
+[say D]
+桃田君，我從羽鳥同學那裡聽說了。
+很高興認識你！/
+[face F 02]
+[say F]
+[se kira_01]
+[effect F love b 0 200]
+豬森桑的身材真是太好了。
+我一直想和你談談有一段時間了！/
+[move F X 100 1.0]
+[se water_05]
+[face F 10]
+無論如何，只有我們兩個人！
+做一些桑拿不是很好嗎？/
+[face D 06]
+[say D]
+[shake D]
+哦，是啊！ ？[shake D]　桑拿！ ？
+什麼樣的採訪啊！ ？/
+[talkend]
+[effect off b]
+[serif off]
+[show A L]
+[scale A 1.4]
+[move A XY -150 -150]
+[moveline A D F 150 0 1.0]
+[face A 12]
+[orderline A F D]
+[-]
+[talk A]
+[serif on]
+嗯，最重要的是，豬森先生。
+請解釋一下這個故事...！/
+[face D 12]
+[face F 01]
+[say D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+啊，原來如此！
+/
+[serif off]
+[hide A]
+[hide F]
+[se water_05]
+[move D X -150 1.0]
+[face D 00]
+[bgm rokuhara]
+[-]
+[serif on]
+綾香是先前歷史覺醒區域的起因…
+我正在分析與座敷童子的戰鬥記錄，/
+[face D 01]
+[flow]
+我實際上就在眼前戰鬥。$W坤的
+我也想聽聽你的意見。/
+((s))
+[show W L]
+[scale W 1.4]
+[setline 0.5 W D]
+[move W Y -100]
+[face W 01]
+[talk W]
+是的。有什麼問題就問我吧！/
+((m))
+[show W L]
+[scale W 1.4]
+[setline 0.5 W D]
+[move W Y -150]
+[face W 01]
+[talk W]
+哦。有什麼問題就問我吧！/
+((e))
+[show W L]
+[scale W 1.4]
+[setline 0.5 W D]
+[move W Y -150]
+[face W 01]
+[talk W]
+是的！　我想知道這代表什麼！
+/
+[face D 00]
+[say D]
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+謝謝你，我會說實話。[wait 0.2]…[wait 0.2]…[wait 0.2]
+你認為座敷童子是被鬼魂附身了嗎？[face D 11]/
+((s))
+[face W 08]
+[talk W]
+……/
+((m))
+[auto]
+……/
+((e))
+[auto]
+……/
+((s))
+[hide D]
+[move W X 150 1.0]
+[face W 13]
+[flow]
+我想知道...
+當時……周圍有很多喰種。/
+((m))
+[auto]
+我想知道...
+Anki……我周圍有很多食屍鬼。/
+((e))
+[auto]
+你覺得怎麼樣...
+那時候……小鎮上到處都是食屍鬼。/
+((s))
+[flow]
+但是.../
+((m))
+[flow]
+但是.../
+((e))
+[flow]
+但是.../
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[effect off a]
+[hideall]
+[waku on]
+[bg mbg_map]
+[minibg sky_storm]
+[show O]
+[face O 04]
+[-]
+[fadeout 1.0]
+[wait 1.5]
+[-]
+[autotap]/
+((s))
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[hideall]
+[waku off]
+[bg bath]
+[minibg off]
+[effect fr yuge a 0 0]
+[-]
+[fadeout 1.0]
+[-]
+[show W]
+[move W Y -50]
+[face W 08]
+[-]
+[serif on]
+座敷童子身上並沒有喰種的蹤跡…
+感覺像是一場戰鬥，但我想是的…/
+((m))
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[hideall]
+[waku off]
+[bg bath]
+[minibg off]
+[effect fr yuge a 0 0]
+[-]
+[fadeout 1.0]
+[-]
+[show W]
+[move W Y -100]
+[face W 08]
+[-]
+[serif on]
+座敷童子身上並沒有喰種的蹤跡…
+感覺就像一場戰鬥，但我就是這麼想的。/
+((e))
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[hideall]
+[waku off]
+[bg bath]
+[minibg off]
+[effect fr yuge a 0 0]
+[-]
+[fadeout 1.0]
+[-]
+[show W]
+[move W Y -100]
+[face W 08]
+[-]
+[serif on]
+……座敷童子身上沒有喰種的蹤跡。
+那個回應。我想是的。/
+[show B C]
+[move B Y -100]
+[face B 11]
+[setline 0.5 W B]
+[se water_06]
+[talk B]
+……是這樣嗎？也就是說，歷史覺醒區的核心是
+這是否意味著他不是座敷童子？/
+[show A R]
+[setline 0.5 W B A]
+[move A Y -100]
+[say A]
+[face A 08]
+不，打倒座敷童子後，在歷史覺醒區域
+我已經確認了發布，所以毫無疑問。/
+[hideall]
+[serif off]
+[-]
+[show D C]
+[move D Y -100]
+[face D 00]
+[talk D]
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[-]
+[serif on]
+正如預期的那樣...
+作為前提，/
+[face D 00]
+我們的研究表明，改變歷史的力量是
+我認為它存在於進食的靈魂中。/
+[face D 01]
+因此，在一次淨化任務中，我在喰種靈魂高度集中的歷史區域製造了結界。
+它形成，驅除被吞噬的靈魂，保護靈脈。/
+[show C C]
+[face C 01]
+[setline 0.5 D C]
+[move C Y -50]
+[talk C]
+好了，介紹完淨化任務之後。
+歷史覺醒區的出現已被很大程度上抑制。/
+[hide C]
+[face D 11]
+[move D X 150 1.0]
+[talk D]
+但是[wait 0.2]…[wait 0.2]…[wait 0.2]$W正如坤所說
+座敷童子沒有被喰種靈魂汙染。/
+[face D 12]
+從資料分析的結果來看，毫無疑問是這樣的。
+這一次，已經不能用之前的案例來解釋了…/
+[face D 03]
+除了喰種之外[wait 0.2]
+有些因素可以改變歷史。/
+((s))
+[show W L]
+[move W Y -50]
+[setline 0.5 W D]
+[face W 08]
+[talk W]
+美食之魂以外的變種元素…/
+((m))
+[show W L]
+[move W Y -100]
+[setline 0.5 W D]
+[face W 08]
+[talk W]
+美食之魂以外的變種元素…/
+((e))
+[show W L]
+[move W Y -100]
+[setline 0.5 W D]
+[face W 08]
+[talk W]
+美食之魂以外的變種元素…/
+((s))
+[face W 13]
+畢竟，那個「種子」在某種程度上...
+我感覺可能有東西.../
+((m))
+[auto]
+畢竟，被捕獲的是那顆「種子」。
+我想一定有.../
+((e))
+[auto]
+我不知道有什麼困難，但...
+我對那個「種子」很好奇……不知何故……/
+[show C R]
+[move C Y -50]
+[setline 0.5 W D C]
+[face C 01]
+[say C]
+那將會發生。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 11]
+[talk D]
+我們也在考慮這種可能性。$W貢嘎
+我們目前正在分析回收的物品。/
+[flow]
+關於該物種目前還不清楚。
+我想我什麼也說不出來.../
+[bgm off]
+[hideall]
+[serif off]
+[-]
+[se amb_12]
+[se bath_02]
+[bgm home]
+[show B C]
+[face B 01]
+[talk B]
+[move B Y -100]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+我只能等後續了！
+等待Inocchi研究小組的分析！/
+[show A C]
+[setline 0.5 A B]
+[move A Y -100]
+[face A 01]
+[talk A]
+沒錯。我們也能夠撿到它。
+我們將不斷新增資訊。/
+((s))
+[show W L]
+[setline 0.5 W A B]
+[move W Y -50]
+[face W 08]
+[talk W]
+你也小心一點，除了喰種以外的東西。
+我一定會盡我最大的努力去完成我的使命！/
+((m))
+[show W L]
+[setline 0.5 W A B]
+[move W Y -100]
+[face W 08]
+[talk W]
+除了測量精神以外，我還需要注意其他事情。
+讓我們去執行任務吧！/
+((e))
+[show W L]
+[setline 0.5 W A B]
+[move W Y -100]
+[face W 08]
+[talk W]
+我也關注食屍鬼以外的事情。
+我一定會盡我最大的努力去完成我的使命！/
+[se katana_05]
+[fadein BLACK 0.3]
+[serif off 0.3]
+[-]
+[bg black]
+[hideall]
+[bgm off]
+[-]
+[serif on]
+@貓屋
+一片漆黑！停電了！ ？/
+[fadeout 1.0]
+[-]
+[bgm fun]
+[show F R]
+[talk F]
+[color F TALK]
+[face F 02]
+[move F C 1.0]
+呵呵...我想像江戶時代的洗澡。
+我試著讓它變暗！/
+[shake F]
+[light def 0.5]
+[lightcolor TALK]
+更衣室裡透進一絲微光
+是不是心情很好呢？ ？/
+[serif off]
+[hide F]
+[-]
+[show A C]
+[show B C]
+[setline A B]
+[scale A 1.4]
+[scale B 1.4]
+[move A Y -150]
+[move B Y -150]
+[face A 09]
+[face B 06]
+[talk A]
+[color A TALK]
+[color B TALK]
+[shake A]
+[-]
+[serif on]
+這是一種怎樣的心情？ ？/
+[show E L]
+[se water_05]
+[scale E 1.4]
+[setline 0.5 E A B]
+[face E 02]
+[orderline A E B]
+[move E Y -100]
+[say E]
+[color E TALK]
+[color A TALK]
+[color B TALK]
+哇，這是江戶時代的浴池！/
+[hide A]
+[hide B]
+[hide E]
+[sebath_02]
+[effect fr splash 4100 0 0]
+[-]
+[talkend]
+@豬森
+哎呀！　[se zukkoke_01]/
+[show B C]
+[face B 10]
+[scale B 1.4]
+[move B Y -150]
+[talk B]
+[color B TALK]
+伊諾奇還好嗎？[wait 0.5]
+從他的聲音就知道他很有趣！/
+[serif off]
+[hide B]
+[-]
+[show D C]
+[scale D 1.4]
+[move D Y -250]
+[move D Y 100 1.0]
+[se bath_02]
+[face D 09]
+[talk D]
+[color D TALK]
+[-]
+[serif on]
+正當我準備從浴缸裡出來的時候…
+天黑了，我看不見我的腳！[shake D]/
+((s))
+[hide D]
+[serif off]
+[-]
+[se water_06]
+[show W C]
+[scale W 1.5]
+[move W Y -150]
+[face W 01]
+[talk W]
+[color W TALK]
+[-]
+[serif on]
+師父，即使在黑暗中，您也在我身邊。
+沒關係！/
+((m))
+[auto]
+將軍！即使天黑了，我也會在你身邊。
+別擔心！/
+((e))
+[auto]
+師父！即使在黑暗中，我也會在你身邊！
+我會永遠在你身邊！/
+[serif off]
+？謝謝你/
+((s))
+[serif on]
+[face W 02]
+是啊！ ！/
+((m))
+[auto]
+哦！/
+((e))
+[auto]
+是的！/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

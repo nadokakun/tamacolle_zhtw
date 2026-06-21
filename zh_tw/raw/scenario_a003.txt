@@ -1,0 +1,605 @@
+>>10000/
+@赤名
+我是阿卡名。[autotap]/
+[delay 2]
+[flow]
+[-]
+@赤名
+而不是洗澡
+如果你能打電話給我，我會很高興。/
+>>1/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 00]
+舊浴室裡滿是汙垢。
+[face A 02]這是最好的…嘆氣…
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]/
+[flow]
+[face A 03]
+現在的人太喜歡漂亮的東西了。
+沾上更多汙垢！[shake A]/
+[se lick_01]
+[scale A 1.6 2]
+[move A Y -120 2]
+[autotap]/
+[face A 06]
+……你呢……？/
+>>2/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 02]
+嘿，我喜歡成熟的汙垢！
+安燦的味道也很好聞…/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+啊，我們說話的時候我餓了。
+如果你喜歡的話就讓我舔一下吧。[face A 06]/
+>>3/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 01]
+嘿嘿嘿，你知道嗎？
+[face A 00]日本溫泉的泥土味道完全不一樣。/
+[flow]
+[face A 02]
+草津的溫泉硫磺味很濃，很刺鼻。
+有馬的金線是鹹的。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[flow]
+哇哦，好想去日本各地泡溫泉啊…
+比較泥土味道的旅行……你也是嗎？誒嘿嘿.../
+>>4/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+嗯，陽光太亮了。
+哦，我更喜歡晚上。/
+[face A 06]
+[effect fr kira a 0 0]
+但白天的汗水看起來真的很美味。
+我想知道有沒有人流汗.../
+>>5/
+[set A s_a003_r あかなめ]
+[randomset B r -a003 @地魂男児 @あやかし @NPC]
+[show A]
+[say A]
+[move A L 1]
+[autotap]/
+[serif on]
+[face A 02]
+今天天氣很暖和，感覺很好。
+日向福子最棒了！/
+[show B R]
+[face B 00]
+[move B X 200]
+[face A 06]
+好溫暖啊……啊！　[shake A]正如預期的那樣！
+$B:A我流汗了！讓我們再靠近一點吧♪[move A X 250 0.5]/
+>>6/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[se fusuma_01]
+[move A X 600]
+[move A X -600 0.5]
+[autotap]/
+[serif on]
+[face A 02]
+[efect fr love a 0 0]
+呵呵，從大廳的衣櫥裡拿出來的。
+我發現了有人藏起來的春畫♪/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[se paper_01]
+哇，看來大家都玩得很開心啊…
+好想把它拍成照片…我想舔它♪/
+>>7/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし -a003]
+[show A]
+[show B]
+[setline A B]
+[face B 00]
+[say A]
+[autotap]/
+[serif on]
+[face A 05]
+呃...[= お風呂 厠 台所 修練所 廊下 洗面台]清潔時間？[shake A]
+等一下！[shake A]/
+[face A 06]
+[face B 05]
+我得先舔它
+太浪費了！ ！ ！[shake A][move B X 100 0.5]/
+>>8/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC -a003]
+[show A]
+[show B]
+[face B 04]
+[move A X -1000]
+[say A]
+[-]
+[setline 1 A B]
+[autotap]/
+[serif on]
+[face A 00]
+$B:A，怎麼了？
+有什麼高處嗎？那就交給我吧！/
+[effect fr slash 6000 -200 0]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 02]
+[se lick_01]
+[face B 05]
+舔它！
+看，我明白了！我得到了它！　你的舌頭很有用吧？ ♪[shake B][face B 01]/
+[face A 06]
+（順便說一句，有一些汙垢
+　我被允許舔它，但是嘿，嘿嘿）/
+>>9/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし -a003]
+[show A]
+[show B]
+[face B 00]
+[move A Y -50]
+[move B X 1000]
+[move B R 1]
+[orderline A B]
+[-]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[say A]
+[autotap]/
+[serif on]
+[face A 01]
+$B:A謝謝你。我明白了...
+晚餐不髒[= お茶漬け おにぎり 梅干し 焼き魚 味噌汁 納豆 冷奴 漬物 煮物 茶碗蒸し おでん そうめん 天ぷら 炊き込みご飯 ぜんざい わらび餅 どら焼き 大福 ようかん おはぎ たい焼き]它是什麼？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[se eat_01]
+[face B 01]
+我要了♪ 哇，這個也很好吃！
+但是……我真的很想吃土。[face A 04][face B 04]/
+>>10/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC -a003]
+[show B]
+[show A]
+[say A]
+[face B 00]
+[setline B A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 02]
+[face B 01]
+呵呵，今天發現的土的形狀
+[= ハート 星 三日月 花 葉っぱ うさぎ ねこ 富士山 雲]真是太可愛了/
+[face A 06]
+[shake A]
+[face B 05]
+[se cloth_01]
+這就是我把它們收集在袋子裡的方式。
+我不會把我的寶藏給你！[shake B]/
+>>11/
+[set A s_a003_r あかなめ]
+[show A]
+[move A X -1000]
+[move A C 1]
+[se fusuma_01]
+[say A]
+[autotap]/
+[serif on]
+[face A 02]
+那麼，現在是我的活動時間了！
+我想知道今晚我會找到什麼樣的美味泥土。/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 06]
+我無法停止興奮！
+我的舔時間到了♪/
+>>12/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[move A X -200 0.5]
+[autotap]/
+[serif on]
+[face A 03]
+嗯，最近大家都長得很漂亮。
+我的食物快吃完了.../
+[face A 05]
+再這樣下去我會餓死的…/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+沒錯！
+也許我應該把每個人的肥皂藏起來。誒嘿嘿♪[face A 06]/
+>>13/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 06]
+唉，前輩和我共用的浴缸裡的汙垢。
+真是太好吃了.../
+[face A 04]
+不過我今天發現的泥土並不壞。
+畢竟對於前輩來說比較好……或許是記憶修正？/
+>>14/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC  -a003]
+[show B R]
+[show A]
+[scale B 1.6]
+[move B Y -120]
+[move A X -300]
+[orderline B A]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 09]
+哇，$B:A，真的很好聞…
+嗯…我想舔，我想舔…[shake A]/
+[face A 02]
+[move A XY 100 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se lick_01]
+就一點點…哈哈♪
+嗯！　[= スパイシー！ デリシャス！ 濃厚！ 脳直！ こういうのもイイ！ たまんないよぉ！ しゅごいっ！ もっと奥の方までっ！ もっと欲しいよぉ！ 美味しいっっ！][shake A][face A 06][shake B][face B 05]/
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[face B 06]
+[face A 05]
+[move A X -20 0.1]
+啊，嘿嘿嘿……找到了……！
+逃吧！[face A 06][move A X -800 0.3]/
+>>15/
+[set A s_a003_m あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 02]
+[shake A]
+[se lick_01]
+呵呵，今天也是舌頭訓練呢！
+嘿嘿！ ....哦...[= 3 4 5 10]計價器到了！[shake A]/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]/
+[face A 06]
+現在您可以從遠處舔盡可能多的汙垢！
+誰也逃不掉~♪/
+>>16/
+[set A s_a003_r あかなめ]
+[randomset B m -a003 -@NOW -@NPC]
+[randomset C m -a003 -@NOW -@NPC]
+[show A R]
+[show B C]
+[show C C]
+[setline B C]
+[move A X 600]
+[face A 05]
+[face B 08]
+[face C 08]
+[talk A]
+[delay 0.2 shake C]
+[move B X -100 0.3]
+[delay 0.3 shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[-]
+[moveline A B C -1000 0 1]
+[-]
+[say A]
+[autotap]/
+[serif on]
+噢！　如此激烈的戰鬥，實在是太驚人了！
+每個人都被汗水浸濕了。堅持下去~！　/
+[face A 06]
+[waku on 0.5]
+（呵呵，這是最好的陳年汙垢。
+　看來可以期待了♪很期待♪）/
+[waku off 0.5]
+[autotap]/
+>>17/
+[set A s_a003_b あかなめ]
+[randomset B b @地魂男児 @あやかし @NPC -a003]
+[show B]
+[show A]
+[say A]
+[face B 00]
+[setline A B]
+[orderline A B]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 09]
+呵呵……大家衣服的味道都難以忍受。
+哇，$B:A吸收了汗水[= 下履き 肌着 運動服 靴 靴下 インナー パンツ] ，看起來棒極了.../
+[move B X 600 0.5]
+[hide B]
+[se door_01]
+[serif off]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 03]
+[move A C 0.5]
+……我去洗手間了……
+沒人看這個吧？格庫裡.../
+[face A 02]
+[scale A 1.6 0.2]
+[move A Y -220 0.2]
+謝謝！[shake A]　楚魯楚魯楚魯♪
+んあああ〜美味〜しいよぉ……！[se kira_01]　楚魯楚魯♪[shake A]/
+>>18/
+[set A s_a003_b あかなめ]
+[show A]
+[say A]
+[effect fr yuge a 0 0]
+[se amb_12]
+[autotap]/
+[serif on]
+[face A 03]
+當大家都在浴缸裡的時候你的機會來了♪
+椅子和浴缸上有很多汙垢！/
+[face A 02]
+[se kira_01]
+[effect fr kira a 0 0]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[se lick_01]
+舔……chunchchu……啊，這樣最好了！[se picha_01]
+沒有人會打擾我♪
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+>>19/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC -a003]
+[show A]
+[show B]
+[move A X -1000]
+[face B 00]
+[move B X 1000]
+[move B X -1000 0.5]
+[se door_01]
+[delay 0.5]
+[move B Y -50 0.3]
+[delay 0.5 se bath_01]
+[delay 0.8 se bath_03]
+[say A]
+[effect fr yuge a 0 0]
+[se amb_12]
+[-]
+[orderline B A]
+[setline 0.3 A B]
+[face A 05]
+[face B 05]
+[autotap]/
+[serif on]
+啊~$B:A！　
+不洗身體！太浪費了！/
+[face A 06]
+[face B 06]
+[move A X 200 0.5]
+就坐在那裡吧。
+我都給你舔了♪/
+[face A 02]
+[se lick_01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+舔它！[shake B][face B 05]/
+>>20/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 09]
+這並不是說你應該把馬桶裡的汙垢丟掉。
+呵呵.../
+[face A 00]
+那裡沒有人嗎…？
+好吧，讓我們來舔一下馬桶的邊緣吧！/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 02]
+當它閃閃發光時，每個人似乎都很高興。
+這對我們雙方都有好處，對嗎？[se lick_01][shake A]/
+>>21/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC -a003]
+[show B]
+[face B 00]
+[show A]
+[setline]
+[orderline B A]
+[se pee_01]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 09]
+哇~$B:A，感覺不錯...
+看起來好像藏著一些美味的泥土…/
+[move A X -40 0.5]
+[delay 0.6 move A X -40 0.5]
+[delay 1.2 move A X -40 0.5]
+[autotap]/
+[face A 01]
+在這種情況下，光是忍耐是不可能的！
+偷偷地……偷偷地……churru，舔……
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se lick_01]
+[shake B]
+[face B 05]/
+[move B X -600 0.3]
+[hide B]
+[face A 05]
+[shake A]
+哦，別跑！
+沒關係，因為大家都會幸福！[move A X -600 0.3][hide A]/
+>>22/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 09]
+我旁邊有人...
+我們從門縫往裡面看…[move A X -400 0.5]/
+[face A 02]
+[move A Y -50 0.5]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+說完我就去舔它！/
+>>23/
+[set A s_a003_r あかなめ]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[autotap]/
+[serif on]
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊？我想知道我旁邊的人在廁所裡做什麼...
+我也有點癢.../
+[se kira_01]
+[effect fr kira a 0 0]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+我們一起做吧？
+誒嘿嘿，看起來很好玩的樣子~♪/
+>>24/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[face A 03]
+唉，床上滿是灰塵，一點也不乾淨…
+雖然千里迢迢而來，卻無處可舔…/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+我太失望了...
+我睏了……晚安
+[move A Y -100 1]
+[rotate A -20 0.5]
+[se dosa_01]/
+>>25/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[face A 02]
+[se lick]
+舔了舔……真好吃啊……
+這是天堂.../
+[talkend]
+[textcolor ARUJI]
+看來我正在做一個美好的夢。/
+>>26/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC -a003]
+[show B R]
+[rotate B 10]
+[move B Y -100]
+[show A L]
+[face A 00]
+[face B 07]
+[move A X -300]
+[move A X 300 0.5]
+[say A]
+[orderline B A]
+[-]
+[autotap]/
+[serif on]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，$B:A我在睡覺！機會！
+靠近我吧……呵呵。[move A X 100 1]/
+[face A 01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+沒關係，我還沒醒來……就這樣吧。[se lick_01]
+慢慢舔吧……嗯，盜汗的味道也不錯……[shake B]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+Nfufu...舔遍...慢慢來。
+舔...[se lick_01]旋轉……舔……/

@@ -1,0 +1,1067 @@
+>>10000/
+@紀伊
+ガッハッハ！[wait 1.5]　ワシは南海道、紀伊！　[autotap]/
+[delay 3.3]
+[flow]
+[-]
+@紀伊
+主たん、ワシのことは気兼ねなく
+「おっちゃん」って呼んでくれな。/
+>>10001/
+@紀伊
+おおっ、[wait 1]主たんがまたワシを呼んでくれた……！[autotap]/
+[delay 4.2]
+[flow]
+[-]
+@紀伊
+ワシの愛、届いとるんかなぁ……！！/
+>>1/
+[set A s_kii_r 紀伊]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+主たんは「那智の滝」を知ってるかなっ？
+ワシでも圧倒されるそれはそれは巨大な名瀑でな。[face A 00]/
+[face A 06]
+[shake A]
+[effect fr love a 0 0]
+[se kira_01]
+んん～、いつか主たんにも見せてあげたいなぁ！/
+[face A 00]
+[effect off a]
+……それに、すぐそばには縁結びのご利益のある
+「熊野那智大社」があるから……/
+[face A 02]
+帰りにワシと一緒に「縁」結んじゃうってのは、
+どうかな！？[shake A 3 5 5]　なっ、主たん♪
+[effect fr love a 0 0]
+[se kira_01]/
+>>2/
+[set A s_kii_r 紀伊]
+[show A C]
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+最近の主たん、食欲があまりなさそうだなぁ……/
+[face A 01]
+よし、[shake A]ワシ特製の南高梅を分けたげようか！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+医王善逝。健康にもいいし、ごはんも美味しく
+4杯は食べられるからなぁ。んっふっふ♪　/
+>>3/
+[set A s_kii_r 紀伊]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+主たん！　ワシが主たんにオススメする祭りと
+言えば、「那智の扇祭り」だなぁ！/
+[face A 01]
+「ハリヤ！[se taiko_01][shake A]　ハリヤ！[se taiko_01][shake A]」ってかけ声をあげながら
+大松明を担ぐ姿は、まさに圧巻の一言！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+う～、おっちゃん、考えるだけで
+なんだか興奮してきちゃったぞ♥/
+[face A 03]
+ハリヤ！[se taiko_01][shake A]　ハリヤッ！！[se taiko_01][shake A][face A 02]/
+>>4/
+[set A s_kii_r 紀伊]
+[show A C]
+[face A 07]
+[move A Y -100]
+[move A Y 100 1]
+[serif on]
+[say A]
+ふああ……[shake A]
+今日は朝起きたら庭の掃除をするんだったなぁ。[face A 00]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+それから草花に水やりもするんだった。
+うんうん、功徳があるなぁ。/
+[face A 02]
+よぉーし！
+今日も一日、頑張るとするか！！/
+>>5/
+[set A s_kii_r 紀伊]
+[randomset B r @地魂男児 @あやかし @NPC -kii]
+[show A L]
+[show B R]
+[scale B 1.6]
+[scale A 0.8]
+[move A Y 60]
+[move B Y -120]
+[move A X -200]
+[move A X 200 0.5]
+[delay 0.5 move A Y 10 0.1]
+[delay 0.6 move A Y -10 0.1]
+[face A 00]
+[delay 0.4 face A 05]
+[face B 01]
+[say A]
+[-]
+[serif on]
+おや、あれは主たんと$B:Aかな。
+何やら楽しそうに話しとるなぁ。[face A 08]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+やはり皆に慕われてとるんだなぁ。
+ふふふ、さすがはワシの主たん♪/
+>>6/
+[set A s_kii_r 紀伊]
+[randomset B r @地魂男児 @あやかし -@NPC -kii]
+[show A C]
+[show B C]
+[face A 00]
+[face B 00]
+[serif on]
+[setline A B]
+[say A]
+紀伊と$Bが庭で洗濯物を干している。/
+[face A 01]
+[say A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ン～～、[shake A]よく晴れた気持ちのいい朝だなぁ～。
+服も[= 手ぬぐい ふんどし パンツ オシャレ着 一張羅 布団 下着]もよく乾きそうだ♪/
+[face A 06]
+[face B 01]
+[shake B]
+$B:Aもそう思うよなぁ。うんうん！/
+[face A 01]
+[face B 02]
+さぁ、そしたらもうひと踏ん張り、洗濯物を
+干しきるとしよう！/
+[delay 0.1 move B XY -10 -40 0.4]
+[delay 0.1 rotate B 10 0.3]
+[delay 0.5 move B XY 10 40 0.3]
+[delay 0.6 rotate B 0 0.3]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[face A 02]
+[face B 01]
+数が多くとも協力すればあっという間だなぁ！
+フンフフン、フフン～～～～♪/
+>>7/
+[set A s_kii_r 紀伊]
+[randomset B r @地魂男児 @あやかし @NPC -kii]
+[show A C]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふぅ～天気が悪い日が続いとるなぁ……/
+[show B R]
+[move B X 100]
+[setline 0.5 A B]
+[face A 00]
+[face B 00]
+なぁ$B:A、おっちゃん今日はお休みだから、
+みかん食べながら映画でも見んか？[face A 01]/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face A 06]
+[face B 01]
+何？　$B:Aオススメのがある？
+どんな内容かな？/
+[face A 02]
+[face B 00]
+ふむふむ……おぉ、それは
+[= ワシの好きな海洋パニック系サメ 低予算POV系ホラー 隠れた名作インディーズ系 人気シリーズの最新作 考察しがいのありそうな すごく泣けそうな悲しい系の 犬は死なない系の スリリングな ラスト５分で騙されるサスペンス系 人気のハリウッド大作アクション 歌って踊れる系の まさかのゾンビ系パニック キュンキュンしそうな]映画だなぁ！/
+>>8/
+/
+/
+>>9/
+[set A s_kii_r 紀伊]
+[randomset B r @地魂男児 @あやかし @NPC -kii]
+[show A C]
+[show B R]
+[face A 04]
+[face B 05]
+[move A Y -50]
+[serif on]
+[say A]
+[move B X 100]
+んごおおおお……[shake A]っんごおおおっ……[shake A 1 5 5]
+んびぇええええ…………！！！[shake A 2 10 10]/
+[face A 09]
+[setline 0.5 A B]
+[face B 04]
+え、$B:A、何があったか、って……？/
+[face A 03]
+[face B 08]
+ぐす……[shake A]
+この[= 漫画 小説 ライトノベル]な、涙なしには読めんのよぉ……/
+[face A 04]
+[= 主人公とその仲間の絆が……うっ…… 恋人との別れのシーンが……うっ…… 主人公の境遇がつらくて……うっ…… 作者は血も涙もないんよ……うぅ……]
+うううっ……んごおおおっ……[shake A 4 20 10][face B 05]/
+>>10/
+[set A s_kii_r 紀伊]
+[show A C]
+[face A 02]
+[move A Y -50]
+[serif on]
+[say A]
+いただきまーす！　ぱくんっ。/
+[face A 06]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+んっほぉぉ～！
+一日働いた後の晩飯は格別格別！/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ぱくんっ、おかわり。ぱくんっ、[shake A]おかわり。
+ぱくんっ、[shake A]もいっちょおかわり。
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]/
+[face A 01]
+おっっ！！！[shake A]　梅干しが一個残っとったな。
+これであと4回はおかわりできるなぁ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+僥倖僥倖♪/
+>>11/
+[set A s_kii_r 紀伊]
+[randomset B r @地魂男児 @あやかし -@NPC -kii]
+[show A C]
+[show B C]
+[face A 00]
+[face B 00]
+[setline B A]
+[serif on]
+[say A]
+おぉ、$B:A！　今日も良い一日だったかな？
+……うんうん、そうかそうか。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 01]
+そういえば、実は今日主たんがな…………
+…………偉いなぁ。でな……/
+[face A 06]
+[face B 00]
+……んも～～かわいくて……[shake A]主たんったら
+……びっくり、それから……[shake A]好き…………/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 01]
+それに主たんがな…………主たん…………
+お！[shake A][face A 00][face B 00]　気づけばこんな時間か！/
+[face A 01]
+[face B 01]
+$B:A、お喋り付き合ってくれてありがとなぁ。
+それじゃあまた明日なぁ！[shake A]/
+>>12/
+[set A s_kii_r 紀伊]
+[show A C]
+[face A 02]
+[serif on]
+[say A]
+[move A Y -100]
+[move A Y 120 0.4]
+[delay 0.6 move A Y -20 0.2]
+よし完成～！/
+[face A 01]
+地魂男児らから主たんへ[= 日頃の感謝 大好きなところ 可愛いところ 男前なところ 日々のねぎらい 愛]を伝えるため、
+応援メッセージの投函箱を作ったぞ。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 06]
+[se paper_01]
+さて、まず一通目はワシが……
+主たんは最高！　世界で一番かわいい……っと！/
+>>13/
+/
+/
+>>14/
+[set A s_kii_r 紀伊]
+[show A C]
+[face A 03]
+[serif on]
+[say A]
+うぐっ！？[shake A]/
+[face A 05]
+[scale A 1.6 0.3]
+[move A Y -200 0.3]
+[delay 0.3 shake A]
+[se zukkoke_02]
+しまった、こんなところで潮を
+吹いてしまった……！！/
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[autotap]/
+[face A 04]
+何か拭くものはないかなぁ……/
+>>15/
+[set A s_kii_m 紀伊]
+[randomset B m @地魂男児 @あやかし -@NPC -kii]
+[show A C]
+[show B L]
+[face A 08]
+[face B 08]
+[move B X -300]
+[serif on]
+[say A]
+[shake A]
+[effect fr syutyu a 0 0]
+さて、鍛錬はじめよか！
+誰でも相手になるぞぉ！[move B X 200 0.5]/
+[delay  shaek B]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[face B 05]
+[effect off a]
+……と思ったが……ふぅーーっ、
+今日の修練場はすごい熱気だなぁ……/
+[face A 06]
+[face B 04]
+ワシ、脱いでもいいかな……？/
+>>16/
+[set A s_kii_m 紀伊]
+[randomset B m @地魂男児 @あやかし -@NPC -kii]
+[show A C]
+[show B C]
+[setline B A]
+[effect fr katanas 6000 0 0]
+[shaebg]
+[delay 0.3 shakebg]
+[shake A]
+[delay 0.5 shake B]
+[delay 0.5 shake A]
+[se katana_01]
+[delay 0.3 se katana_02]
+[face A 08]
+[face B 08]
+[-]
+[serif on]
+[say A]
+ふん！！　破ぁッ！！/
+[face A 03]
+[face B 05]
+[shake A]
+む！？　$B:A、太刀筋に迷いがあるぞ。[face A 09]
+技の迷いは心の迷い。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 04]
+……悩みがあるならワシに話してみんか？
+落ち着いたらその後で再び一戦を交えようなぁ。/
+>>17/
+[set A s_kii_b 紀伊]
+[randomset B b @地魂男児 @あやかし @NPC -kii]
+[show A R]
+[show B C]
+[face A 02]
+[face B 01]
+[move A X 200]
+[move A X -100 0.3]
+[serif on]
+[say A]
+[orderline A B]
+おぉっ！　$B:A！[shake A]
+その下着、非常にいいセンスだなぁ！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[face B 06]
+大きさといい形といい、本当にぴったりだなぁ！/
+[move A X -10 0.5]
+[move B X -50 0.3]
+[move A Y -150 0.3]
+[rotate A 15 0.5]
+[face A 02]
+[face B 05]
+[delay 0.3 shake B]
+こんな姿を見られるとは、まさに優曇華の花！
+もうちょっとよくおっちゃんに見せとくれ！[move B X -100 1]/
+>>18/
+[set A s_kii_b 紀伊]
+[show A C]
+[face A 06]
+[move A Y -50]
+[effect fr yuge a 0 0]
+[se amb_12]
+[move A Y -50]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se bath_02]
+[-]
+[serif on]
+[say A]
+ふぅ～いい湯だなぁ。/
+[face A 01]
+水風呂も好きなんだけど、温かいお湯ちゅーのは
+疲れがよく取れるもんだなぁ……/
+[face A 08]
+[shake A]
+お、今なら誰もいないし……
+潮吹いてもいいか……？/
+[scale A 1.6 0.3]
+[move A Y -100 0.3]
+[face A 03]
+[delay 0.1 effect bk slash 3000 -100 0]
+[effect fr syutyu 3000]
+[shakebg]
+[se bath_01]
+ふんっ！！[shake A]
+ブシューーーーーーッ！！[shake A 3 10 10][effect fr splash 3000 0 0]/
+>>19/
+[set A s_kii_b 紀伊]
+[randomset B b @地魂男児 @あやかし @NPC -kii]
+[show A C]
+[effect fr yuge a 0 0]
+[se amb_12]
+[se door_01]
+[move A X 600]
+[move A X -300 0.5]
+[face A 01]
+[serif on]
+[say A]
+今日は結構動いたから少し減ってる予感がするぞ。
+よいしょっと♪[move A X -300 0.5][rotate A -5 0.3][delay 0.3 rotate A 0 0.2][delay 0.2 move A Y 30 0.3]/
+[show B L]
+[face B 05]
+[talk A]
+[move B X -200]
+[se zukkoke_01]
+[move A Y -50 0.2]
+[delay 0.2 shake A]
+[face A 05]
+[se clash_04]
+[effect fr syutyu a 0 0]
+ほがあああああ！！！！？[shake A 3 10 10][move B X 100 0.5]/
+[flow]
+[effect off a]
+体重計が……2つに割れてしまった……！？
+い、一体何が起きとるんだ……[face B 04]/
+>>20/
+[set A s_kii_r 紀伊]
+[randomset B r @地魂男児 @あやかし @NPC -kii]
+[show A C]
+[show B C]
+[setline A B]
+[face A 00]
+[face B 00]
+[serif on]
+[say A]
+お、$B:A、ちゃんとし終わったら
+手を洗っとるんだなぁ！/
+[face A 01]
+[face B 01]
+[shake A]
+くぅ～～っ張り紙に書いてあるルールを
+守ってて偉い！　よしハイタッチ！！[move A X 20 0.3][move B X -20 0.3]/
+[face A 04]
+[move A X -50 0.5]
+[face B 04]
+あ……おっちゃんまだ手洗っとらん
+かったわ……すまん……[shake A][move B X 50 0.5]/
+>>21/
+[set A s_kii_r 紀伊]
+[show A C]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on][say A]
+ふぅ……やはりフンドシは用をたすときには
+脱ぎやすくていいよなぁ。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 09]
+んん……っ。ふぅ……
+フンドシが汚れんように丁寧に拭き取って……[shake A]と。/
+[face A 06]
+[se cloth_01]
+[move A Y -100 0.3]
+[delay 0.3 move A Y 120 0.3]
+[delay 0.7 move A Y -20 0.4]
+さて、ではフンドシを締め直すとするか……！
+んんっこの締め具合がいいんだなぁ……っ。[shake A]/
+>>22/
+[set A s_kii_r 紀伊]
+[show A C]
+[face A 03]
+[scale A 1.6 0.3]
+[move A Y -150 0.3]
+[delay 0.3 shake A 2 5 5]
+[delay 0.3 se doka_01]
+[-]
+[serif on]
+[say A]
+ん、んんっ個室にッ！[shake A]
+体が……入らん～～～ッ！！[shake A 5 10 10]/
+[scale A 1.4 0.5]
+[move A Y 30 0.5]
+[face A 09]
+ふー……ふぅ～……フンッッ！！！[scale A 2 0.3][quake 2][se doka_01][move A Y -50 0.3]/
+[quake off]
+[move A Y -150 0.5]
+[face A 02]
+おっ！　なんとか入った入った……
+ふぅー……[move A Y -100 0.5]/
+[face A 05]
+[waku on 0.5]
+（次は出られるかどうかの問題があるん
+　だが、今は考えるのはやめとこ……）/
+>>23/
+[set A s_kii_b 紀伊]
+[randomset B r @地魂男児 @あやかし @NPC -kii]
+[show A C]
+[face A 06]
+[move A Y -50]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+んんん……ふぅ……/
+[face A 09]
+個室はやはり狭くて暑いなぁ……
+裸で入って正解だったわけだが。/
+[show B R]
+[move B X 200]
+[move B X -150 0.5]
+[delay 0.5 shake B]
+[face B 04]
+[talkend]
+コンコン。/
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+んほっ！？/
+[face A 05]
+[waku on 0.5]
+（しまった……このままでは出られんじゃないか！
+　わ、ワシのバカッ！　どど、どうしよ……！）　/
+>>24/
+[set A s_kii_r 紀伊]
+[randomset B r @地魂男児 @あやかし @NPC -kii]
+[show A C]
+[show B L]
+[face A 00]
+[face B 01]
+[talk A]
+[se fusuma_01]
+[move A Y -100]
+[rotate A -50]
+[move B X -100]
+[move B X 130 0.5]
+[-]
+[serif on]
+[rotate A -20 0.5]
+んんん？
+今夜は$B:Aも同じ部屋で寝るのか？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[face B 00]
+おお……ワシがいるせいで部屋が狭く
+なっててすまんなぁ……/
+[face A 06]
+[face B 05]
+[move A X 100 0.5]
+[rotate A -40 0.5]
+そうだ、$B:Aは
+ワシのお腹の上で寝るといい！[shaek B]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[face B 06]
+がっはっは！　遠慮することはない！
+広くてあったかくて快適だぞ！！[rotate B -20 0.5][move B XY 100 -50 0.5][delay 0.5 shake A]/
+>>25/
+[set A s_kii_r 紀伊]
+[randomset B r @地魂男児 @あやかし @NPC -kii]
+[show A C]
+[show B C]
+[move B X -200]
+[face A 07]
+[face B 03]
+[rotate A -50]
+[move A Y -100]
+[talk A]
+[rotate B -50]
+[move B Y -100]
+[serif on]
+ドゴォオオオオ……[shake A]ドゴォオオオオ……[shake A][rotate B 0 0.5][move B Y 50 0.5]/
+[face B 04]
+……むにゃむにゃ、主たん……[shake A]
+…………ドゴォオオオオオオ……[shaek A]/
+[talkend]
+すごいイビキで$Bは眠れなそうだ。/
+>>26/
+[set A s_kii_r 紀伊]
+[randomset B r @地魂男児 @あやかし @NPC -kii]
+[show A C]
+[show B C]
+[face A 07]
+[face B 07]
+[rotate A 50]
+[move A Y -100]
+[rotate B 50 0.5]
+[move B X 250]
+[move B X -100 0.5]
+[serif on]
+[talkend]
+がばっ。[shake A]/
+[say A]
+[face A 05]
+おっほぉ！？[shake A]　$B:A、き、気持ちはありがたいが、
+ワ、ワシは主たん一筋って決め、[shake A]でもっ……/
+[rotate A 20 0.5]
+[se cloth_01]
+[face A 08]
+[move A X -100 0.5]
+[rotate B 40 0.5]
+って、んんん？
+なんだ寝ぼけとるだけか……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+おっちゃんってば、結構ドキドキしちゃったぞ……/
+>>27/
+[set A s_kii_r 紀伊]
+[show A C]
+[face A 00]
+[say A]
+?紀伊、ハレの日おめでとう/
+[serif on]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おお〜！　主たん♪
+主たんに祝ってもらえるなんて、おっちゃん感激！/
+[face A 00]
+どうして今日をおっちゃんのハレの日にしたか……
+クイズにしちゃおっかな！[face A 02][shake A][se taiko_02]/
+[face A 01]
+ヒントはおっちゃんの見た目！
+…[wait 0.2]…[wait 0.2]少し難しいかな？[face A 00]/
+[face A 06]
+[flow]
+ツルツルぷにぷにの肌に、この尾ひれ[wait 0.2]…[wait 0.2]…[wait 0.2]
+じゃあ大ヒント！[shake A]　お腹の畝に、この大きな身体！[shake A][se taiko_01]/
+[serif off]
+?え……クジラ……？/
+[face A 02]
+[serif on]
+[effect fr kira a 0 0]
+[se kira_01]
+[scale A 1.6 0.3]
+[move A Y -210 0.3]
+大正解っ！！　さすが主たんだなぁ！
+そう、おっちゃんはクジラさんなんだ。/
+[face A 00]
+今日は９月４日で、クジラの日、らしいなぁ。
+おっちゃんにぴったりだろう？[face A 02]/
+[face A 06]
+[effect off a]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+正解した主たんにホエールウォッチングクルーズを
+プレゼントしちゃおっかな！/
+[face A 02]
+[flow]
+ダイナミックな潮吹きも見れちゃうかも
+しれないなぁ〜っ[shake A]ナンチャッテ！[se zukkoke_02]/
+>>100/
+[set A s_kii_r 紀伊]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 紀伊と立ち話]
+[-]
+[bg heya_day]
+[bgm home]
+[fadeout 1.5]
+[wait 1]
+[-]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+小腹が空いたので、居間に置いてある
+お菓子でもつまもうと思い部屋を出た。/
+[shakebg]
+[textcolor ARUJI]
+ポヨンッ。/
+[talkend]
+[textcolor ARUJI]
+すると、ぽよっとした
+やわらかい大きな壁にぶつかった。/
+[serif off]
+[show A C]
+[face A 01]
+[say A]
+[scale A 2]
+[move A Y -100]
+[scale A 1.6 1]
+[move A Y 50 1]
+[wait 0.5]
+[-]
+[scale A 1 1]
+[move A Y 50 1]
+[-]
+[serif on]
+おおっ、主たん！？
+これは驚いちゃったなぁ！！[shake A]/
+[serif off]
+?紀伊？/
+[face A 00]
+[textcolor ARUJI]
+[serif on]
+[talkend]
+やわらかい壁は紀伊のお腹だった。/
+[face A 09]
+[say A]
+ワシから声をかけにいくつもりが、
+こうやって主たんとバッタリ出逢えるなんて……/
+[face A 06]
+[flow]
+[effect fr love a 0 0]
+[se kira_01]
+こりゃ中々運命的なものを感じちゃう！
+おっちゃん嬉しいなぁ。/
+[serif off]
+?用事があったの？/
+[face A 00]
+[serif on]
+[effect off a]
+いやいや、[shake A]これといって用が
+あったわけではないんだがなぁ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+その、主たんとも
+知り合ったばかりだし/
+[face A 02]
+よかったら少しばかり
+おしゃべりでも、なんてなぁ！[shake A]/
+[serif off]
+?なるほどね/
+[scale A 1.6 0.5]
+[move A Y -210 0.5]
+[face A 00]
+[serif on]
+まずはこれ、おみやげの南高梅！
+今晩のおかずに加えてな！/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……もしや出かけるところなら、
+出直した方がいいかな？/
+[serif off]
+?紀伊とおしゃべりする/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+[effect fr kira a 0 0]
+[se kira_01]
+おぉお、ありがとぉなぁ！/
+[face A 00]
+[effect off a]
+まずはお互いのことを
+知るところからはじめようか！/
+[serif off]
+?いいね/
+[face A 09]
+[serif on]
+[bgm off]
+それじゃあ[wait 0,2]
+主たんの好きな般若心経の一節は？[se taiko_01]/
+[serif off]
+?なんて？/
+[face A 05]
+[serif on]
+[bgm fun]
+[effect bfr syutyu a 0 0]
+[se zukkkoke_02]
+[quake 3]
+えっ！？　もしかして主たんにはあまり
+馴染みがなかったかな！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[effect off a]
+[quake off]
+[face A 04]
+誰でも知ってる般若心経……
+鉄板だと思ったんだがなぁ。/
+[serif off]
+?人を選ぶと思う/
+[face A 03]
+[serif on]
+ワシもまだまだ勉強不足だったわ……
+メモしとこ……[shake A]/
+[face A 00]
+[bgm home]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+あーえっと……なぁ主たん。ワシを
+呼び出してくれたときのこと、覚えとるかな？/
+[flow]
+[face A 06]
+ワシはよく覚えとる。初めて主たんと目が
+あった時の衝撃というかトキメキはもう……/
+[face A 05]
+[shake A]
+[se zukkoke_02]
+……じゃなくて！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+確かワシ、自分のこと気兼ねなく
+「おっちゃん」って呼んでくれと言ったんだが――/
+[face A 04]
+[flow]
+もしかしたらかえって気を遣わせちゃうかな？
+って思ってなぁ！/
+[face A 01]
+その～、何でもいいから、主たんの
+好きなように呼んで欲しくてな！/
+[serif off]
+?おっちゃん/
+[effect fr syutyu a 0 0]
+[face A 05]
+[serif on]
+おおおおっ！？[shake A 3 10 10]
+「おっちゃん」って呼んでくれるんか！？/
+[face A 06]
+[serif off]
+[effect off a]
+[effect fr love b 0  0]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+キュン……実際呼ばれると……
+ちょっとこそばゆいなぁ……！！/
+[hide A]
+[effect off b]
+[textcolor ARUJI]
+[talkend]
+紀伊は顔を赤らめて照れている。/
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -210]
+[say A]
+主たんの優しさを感じて、ワシ嬉しいなぁ。
+思わず潮吹いちゃいそうだっ！[shake A]/
+[face A 00]
+……優しさついでに一つ主たんに
+耳に入れておいてほしいことがあってな。/
+[serif off]
+?？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 01]
+ワシなぁ、皆とは優劣なく対等な関係を
+築きたいと思っとるんだ。/
+[face A 00]
+だから、主たんとも風通しよく、任務のことでも
+何でも話せたらなぁって思うんだが……/
+[face A 01]
+よかったら今度喫茶店にでも一緒に行って、
+じっくり語り合わんか？/
+[serif off]
+?いいね/
+[face A 02]
+[serif on]
+よしきた！[shake A]
+そうしたら予定を決めんとなぁ！/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 06]
+[se goso_01]
+んじゃまずは、おっちゃんと
+連絡先交換しよ！/
+[hide A]
+[bgm off]
+[talkend]
+[textcolor ARUJI]
+そう言って紀伊は懐からスマホを取り出した。/
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+[bgm fun]
+[serif off]
+?スマホ！？/
+[show A C]
+[face A 00]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[effect off a]
+[serif on]
+うむ。こっちに来てすぐ、りくが
+使ってるのを見て色々聞いてみたら――/
+[face A 01]
+[flow]
+[se phone_02]
+使ってない型落ちのを
+譲ってもらっちゃってなぁ！/
+[face A 06]
+ほい、QRコード出したから読み込んでくれな！/
+[hide A]
+[se phone_03]
+[talkend]
+[textcolor ARUJI]
+紀伊はスマホをすいすいと使いこなし、
+チャットアプリでフレンド登録をした。/
+[show A C]
+[scale A 1.6]
+[move A Y -210]
+[scale A 1 1]
+[move A Y 170 1]
+[face A 06]
+[say A]
+よーっし主たん登録登録～っと！
+主たんとフレンド♪　嬉しいな♪/
+[face A 00]
+[flow]
+喫茶店に行く予定はまた
+こっちで決めるとしような！/
+[hide A]
+[talkend]
+[serif off]
+?紀伊と握手する/
+[show A]
+[scale A 1.6 0.5]
+[move A Y -210 0.5]
+[face A 01]
+[say A]
+[serif on]
+……おっ、主たん……っ。
+……よろしくなぁ！/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+紀伊の手はとても大きくすべすべして
+柔らかかった。ひんやりした感触が気持ちいい。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+ぐぅう～～～……/
+[talkend]
+[textcolor ARUJI]
+お腹がなってしまった。
+そういえばお腹が空いていたのだった。/
+[show A C]
+[scale A 1.6]
+[move A Y -210]
+[scale A 1 1]
+[move A Y 190 1]
+[face A 04]
+[say A]
+おお、おっちゃん長々と
+引き止めちゃってごめんな！/
+[face A 06]
+[flow]
+またメッセージ送るからな！
+主たん、何かおいしいもの食べといで！/
+[talkend]
+[textcolor ARUJI]
+[face A 02]
+にっこりと笑うと紀伊はのっそのっそと
+去っていった。[hide A]/
+[fadein BLACK 2.0]
+[autotap]/
+[textcolor ARUJI]
+紀伊とまたおしゃべりするのが楽しみだ。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tamacolle 翻譯校對器</title>
+  <style>
+    :root {
+      --bg: #f6f1e8;
+      --panel: #fffaf2;
+      --ink: #1f1a17;
+      --muted: #73675c;
+      --line: #dccfbe;
+      --accent: #0f766e;
+      --accent-soft: #d6f0ec;
+      --warn: #9a3412;
+      --jp: #5b3b1f;
+      --zh: #173a63;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, #fffdf8, transparent 28%),
+        linear-gradient(180deg, #efe6d7 0%, var(--bg) 35%, #efe8dc 100%);
+      min-height: 100vh;
+    }
+    .app {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 20px;
+      display: grid;
+      gap: 16px;
+    }
+    .toolbar {
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 16px;
+      display: grid;
+      gap: 12px;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(10px);
+      z-index: 5;
+    }
+    .titlebar {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(220px, 1.4fr) minmax(180px, 0.8fr) auto auto auto;
+      gap: 10px;
+      align-items: center;
+    }
+    input, select, button {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font: inherit;
+      color: var(--ink);
+      background: #fffdfa;
+    }
+    button {
+      cursor: pointer;
+      background: var(--panel);
+    }
+    button:hover {
+      border-color: var(--accent);
+    }
+    .toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .status {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .status strong {
+      color: var(--ink);
+    }
+    .panes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      min-height: 72vh;
+    }
+    .pane {
+      background: rgba(255, 250, 242, 0.95);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      min-height: 0;
+    }
+    .pane header {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255,255,255,0.45);
+    }
+    .pane header strong {
+      font-size: 15px;
+    }
+    .pane header span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .content {
+      overflow: auto;
+      min-height: 0;
+    }
+    .lines {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .line {
+      display: grid;
+      grid-template-columns: 72px 1fr;
+      gap: 12px;
+      padding: 8px 14px;
+      border-bottom: 1px solid rgba(220, 207, 190, 0.45);
+      align-items: start;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .line:hover {
+      background: rgba(214, 240, 236, 0.4);
+    }
+    .line-no {
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      user-select: none;
+    }
+    .jp .line-text { color: var(--jp); }
+    .zh .line-text { color: var(--zh); }
+    .hint {
+      padding: 32px 20px;
+      text-align: center;
+      color: var(--muted);
+    }
+    .hidden { display: none !important; }
+    @media (max-width: 1100px) {
+      .controls { grid-template-columns: 1fr 1fr; }
+      .panes { grid-template-columns: 1fr; }
+      .content { max-height: 46vh; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <section class="toolbar">
+      <div class="titlebar">
+        <div>
+          <h1>Tamacolle 翻譯校對器</h1>
+          <div class="meta">左側為去除 ruby 的日文基準，右側為繁中譯文，支援同步卷軸與逐檔切換。</div>
+        </div>
+        <div class="meta" id="datasetMeta"></div>
+      </div>
+      <div class="controls">
+        <input id="searchInput" type="search" placeholder="搜尋檔名，例如 scenario_n000_7">
+        <select id="fileSelect"></select>
+        <button id="prevBtn" type="button">上一個</button>
+        <button id="nextBtn" type="button">下一個</button>
+        <label class="toggle"><input id="syncToggle" type="checkbox" checked>同步卷軸</label>
+      </div>
+      <div class="status">
+        <div><strong id="currentFile">-</strong></div>
+        <div>總檔案數：<strong id="fileCount">0</strong></div>
+        <div>日文行數：<strong id="jpLines">0</strong></div>
+        <div>譯文行數：<strong id="zhLines">0</strong></div>
+      </div>
+    </section>
+
+    <section class="panes">
+      <article class="pane jp">
+        <header><strong>日文基準</strong><span>已去除 ruby</span></header>
+        <div class="content" id="jpPane"><div class="hint">載入中…</div></div>
+      </article>
+      <article class="pane zh">
+        <header><strong>繁中譯文</strong><span>目前翻譯成品</span></header>
+        <div class="content" id="zhPane"><div class="hint">載入中…</div></div>
+      </article>
+    </section>
+  </div>
+  <script src="./review-data.js"></script>
+  <script>
+    const data = window.TAMACOLLE_REVIEW_DATA || { files: [] };
+    const fileSelect = document.getElementById("fileSelect");
+    const searchInput = document.getElementById("searchInput");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const syncToggle = document.getElementById("syncToggle");
+    const currentFile = document.getElementById("currentFile");
+    const fileCount = document.getElementById("fileCount");
+    const jpLines = document.getElementById("jpLines");
+    const zhLines = document.getElementById("zhLines");
+    const datasetMeta = document.getElementById("datasetMeta");
+    const jpPane = document.getElementById("jpPane");
+    const zhPane = document.getElementById("zhPane");
+
+    let filteredFiles = [...data.files];
+    let currentIndex = 0;
+    let syncing = false;
+
+    function buildLines(lines) {
+      const list = document.createElement("ol");
+      list.className = "lines";
+      lines.forEach((text, index) => {
+        const item = document.createElement("li");
+        item.className = "line";
+        const no = document.createElement("span");
+        no.className = "line-no";
+        no.textContent = index + 1;
+        const body = document.createElement("span");
+        body.className = "line-text";
+        body.textContent = text;
+        item.append(no, body);
+        list.appendChild(item);
+      });
+      return list;
+    }
+
+    function renderCurrentFile() {
+      const entry = filteredFiles[currentIndex];
+      if (!entry) {
+        currentFile.textContent = "找不到檔案";
+        jpPane.innerHTML = '<div class="hint">沒有符合搜尋條件的檔案。</div>';
+        zhPane.innerHTML = '<div class="hint">沒有符合搜尋條件的檔案。</div>';
+        jpLines.textContent = "0";
+        zhLines.textContent = "0";
+        return;
+      }
+
+      currentFile.textContent = entry.name;
+      jpLines.textContent = String(entry.jp.length);
+      zhLines.textContent = String(entry.zh.length);
+
+      jpPane.innerHTML = "";
+      zhPane.innerHTML = "";
+      jpPane.appendChild(buildLines(entry.jp));
+      zhPane.appendChild(buildLines(entry.zh));
+      jpPane.scrollTop = 0;
+      zhPane.scrollTop = 0;
+      fileSelect.value = entry.name;
+    }
+
+    function syncScroll(source, target) {
+      if (!syncToggle.checked || syncing) return;
+      const maxSource = source.scrollHeight - source.clientHeight;
+      const ratio = maxSource > 0 ? source.scrollTop / maxSource : 0;
+      const maxTarget = target.scrollHeight - target.clientHeight;
+      syncing = true;
+      target.scrollTop = ratio * Math.max(maxTarget, 0);
+      requestAnimationFrame(() => { syncing = false; });
+    }
+
+    function refreshFileList() {
+      fileSelect.innerHTML = "";
+      filteredFiles.forEach((entry) => {
+        const option = document.createElement("option");
+        option.value = entry.name;
+        option.textContent = entry.name;
+        fileSelect.appendChild(option);
+      });
+      fileCount.textContent = String(filteredFiles.length);
+      if (currentIndex >= filteredFiles.length) currentIndex = 0;
+      renderCurrentFile();
+    }
+
+    searchInput.addEventListener("input", () => {
+      const keyword = searchInput.value.trim().toLowerCase();
+      filteredFiles = keyword
+        ? data.files.filter((entry) => entry.name.toLowerCase().includes(keyword))
+        : [...data.files];
+      currentIndex = 0;
+      refreshFileList();
+    });
+
+    fileSelect.addEventListener("change", () => {
+      currentIndex = Math.max(filteredFiles.findIndex((entry) => entry.name === fileSelect.value), 0);
+      renderCurrentFile();
+    });
+
+    prevBtn.addEventListener("click", () => {
+      if (!filteredFiles.length) return;
+      currentIndex = (currentIndex - 1 + filteredFiles.length) % filteredFiles.length;
+      renderCurrentFile();
+    });
+
+    nextBtn.addEventListener("click", () => {
+      if (!filteredFiles.length) return;
+      currentIndex = (currentIndex + 1) % filteredFiles.length;
+      renderCurrentFile();
+    });
+
+    jpPane.addEventListener("scroll", () => syncScroll(jpPane, zhPane));
+    zhPane.addEventListener("scroll", () => syncScroll(zhPane, jpPane));
+
+    datasetMeta.textContent = `資料建立時間：${data.generatedAt || "-"}`
+    fileCount.textContent = String(filteredFiles.length);
+    refreshFileList();
+  </script>
+</body>
+</html>

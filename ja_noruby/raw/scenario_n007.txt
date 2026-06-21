@@ -1,0 +1,664 @@
+>>1/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[orderline A]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+おーっ、旦那～。
+毎度ご贔屓にどうもだぞ！/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ところで、旦那の周りで何か欲しがってる
+やつはいねーか？/
+[face A 01]
+もしなんかあれば
+オレが仕入れてきてやるんだぞ！/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+……これも小豆を広めるための資金集めのため
+だからな……しょきしょき/
+>>2/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[orderline A]
+なぁ旦那！
+オレのライバルは大豆とロクハラの売店！/
+[face A 06]
+[flow]
+大豆はいつか駆逐するからいいとして、
+売店は強敵だぞ……負けたくないんだぞ！[face A 03]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+旦那、何か商売繁盛のいいアイデアがあったら
+オレに言うんだぞ！/
+[face A 02]
+[flow]
+モノ次第ではお礼に色々サービスしちゃるぞ！
+しょきしょき！/
+>>3/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[orderline A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+んにょ！？
+……なんだ旦那かぁ。[shake A][face A 01]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+こっそり近づかれるとびっくりするんだぞ！
+ふぅ、猫乃屋かと思ったぞ……/
+[face A 03]
+[shake A]
+あいつに見つかるとここ追い出されちゃうからな。
+あいつほんとに……いつか食っちゃるぞ！[shake A]/
+>>4/
+[set A s_n007_r 小豆洗い]
+[randomset B r -n007]
+[randomset C r -n007 -@NOW]
+[show A C]
+[show B C]
+[show C C]
+[face A 01]
+[face B 01]
+[face C 05]
+[say A]
+[orderline C B A]
+[setline A B C]
+[move B X 150]
+[move C X 250]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[serif on]
+みんな集まれ～！
+小豆洗いの出張販売なんだぞ！/
+[move C X -250 0.5]
+[move B X -150 0.5]
+[face A 03]
+[face C 01]
+[flow]
+今日は[= おしるこの炊き出し あんこたっぷりのおはぎ 縁起のいいお赤飯 白玉入りの冷やししるこ ほっこりあたたまる小豆粥 小豆たっぷりチキンカレー 小豆を固めた鈍器のような氷菓子]だぞ！
+おかわりもあるぞ！/
+[face A 02]
+[face B 02]
+[face C 02]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[flow]
+いっぱい食べて小豆の可能性を堪能するんだぞ！
+にゅっふっふ。[shake B][se eat_01]/
+>>5/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -300]
+[-]
+[move A Y 300 0.1]
+[delay 0.1 move A Y -120 0.2]
+[-]
+[serif on]
+[se kira_01]
+[effect fr kira 6000 0 0]
+[orderline A]
+うお～～！　厨房漁ってたら小豆を固めた
+氷菓子を見つけたんだぞ！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+美味そうだぞぉ！[shake A]
+いただきまーす！/
+[face A 05]
+ガチッ。[shake A 3 15 15][se eat_02]/
+[move A X -50 0.1]
+[delay 0.1 move A X 300 0.2]
+[delay 0.3 move A X -300 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 03]
+にょおおおお！！！
+か、かたすぎて食えねぇーーー！/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+さすが小豆……
+持ってるポテンシャルが違うんだぞ。/
+>>6/
+[set A s_n007_r 小豆洗い]
+[randomset B r -n007 -@NOW -@NPC]
+[randomset C r -n007 -@NOW -@NPC]
+[show A C]
+[show B C]
+[show C C]
+[face A 00]
+[face B 01]
+[face C 00]
+[setline B C]
+[move A X -700]
+[scale A 0.8]
+[move A Y 40]
+[orderline B C A]
+[-]
+[move A X 400 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[face A 06]
+[scale A 1 0.5]
+[scale B 1.4 0.5]
+[scale C 1.4 0.5]
+[move B Y -60 0.5]
+[move A Y -40 0.5]
+[move C Y -60 0.5]
+[setline 0.5 A B C 0 1300]
+[move A X -100 0.5]
+[rotate A 10 0.5]
+[serif on]
+[say A]
+ん？　あいつら何話してんだ？
+こっそり聞いてみるんだぞ！
+[face C 05]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 02]
+ふむふむ……ふむふむ……なるほどなぁ。
+今はそんなモンが流行ってるのか。
+[face C 01]/
+[face A 02]
+[face B 06]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+へへっ、良いこと聞いたぞ！
+誰より早く仕入れにいくんだぞぉ！[move A X -800 0.3][hide A]/
+>>7/
+/
+/
+>>/
+/
+/
+>>/
+[set A s_n007_r 小豆洗い]
+[randomset B r -n007 -@NOW -@NPC]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[say A]
+[setline A B]
+[orderline A B]
+よぉ$B:A！
+この前頼まれてたブツ仕入れてきたんだぞ！
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[se cloth_01]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 01]
+[say A]
+……お代は確かに受け取った！
+取引成立だな！/
+[face A 01]
+[face B 02]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+これおまけの小豆だぞ。またご贔屓にー！
+しょきしょき！[se jara_01]/
+>>10/
+[set A s_n007_r 小豆洗い]
+[randomset B r -n007 -@NOW -@NPC]
+[show A C]
+[show B C]
+[move B Y -50]
+[move A X -600]
+[setline 0.5 A B]
+[delay 0.4 move A Y -50 0.2]
+[delay 0.6 se dosa_01]
+[delay 0.6 shakebg]
+[face A 01]
+[face B 00]
+[orderline A B]
+[say A]
+[-]
+[serif on]
+お～晩飯の時間か！
+オレもいただいていくんだぞぉ！/
+[face A 05]
+[face B 05]
+にょおおっ！？[shake A][se zukkoke_02]/
+[scale A 1.6 0.3]
+[scale B 1.6 0.3]
+[moveline A B 0 -120 0.3]
+[move A Y 50 0.3]
+[move B X 100 0.3]
+[rotate B -10 0.3]
+[face A 04]
+[face B 04]
+豆腐に納豆、味噌汁、油揚げ……
+大豆だらけなんだぞぉ！！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 03]
+[face B 05]
+うにょー！　もっと小豆使った料理を作らなきゃ
+板前を食っちゃるぞぉ！！/
+>>11/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[orderline A]
+よしよし、繁盛繁盛～♪
+今日もたくさん売れたんだぞぉ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 07]
+ふぁ～ぁ……ちっと疲れたなぁ。
+店に戻るの面倒になっちゃったんだぞぉ。/
+[face A 06]
+[flow]
+今日はここに泊まっていこうかなぁ。/
+>>12/
+/
+/
+>>/
+/
+/
+>>14/
+[[:{TAG1|B|def|[orderline B A]
+よぉ$B:A！　
+いいブツ揃ってるぞ！/[face A 02]
+[face B 05]
+今日は特にこれがおすすめ！
+新商品の栄養ドリンクなんだぞぉ！/[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[move A X -50 0.5]
+[rotate A 10 0.5]
+[autotap]/[face A 01]
+[face B 06]
+にゅふふ……これを使えば夜も元気いっぱいで
+安心だぞぉ……[shake B]}{TAG1|B|oum|[orderline A B]
+よぉ近江屋！
+いいブツ揃ってるぞ！
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[face B 05]/[scale A 1.6 0.3]
+[scale B 1.6 0.3]
+[setline 0.3 B A]
+[moveline A B 0 -120 0.3]
+[face A 05]
+[move A X 150 0.3]
+[rotate A -10 0.3]
+[face B 03]
+[say B]
+[shakebg]
+[se zukkoke_02]
+[effect fr syutyu a 0 0]
+こんなとこで店出されたら商売あがったりでっせ！
+よそでやってもらえまっか！[shake B][shake A]/[say A]
+[rotate A 0 0.3]
+[move A X -100 0.3]
+[face A 03]
+にょおおーー！！　[shake A]営業妨害だぞ！
+近江屋こそ向こうで店出すんだぞ！[shake A 2 5 5][se doka_01][delay 0.5 shake B 2 5 5][delay 0.6 se doka_01]}{TAG1||kaw|}{TAG1||yzm|}{TAG1||oum|}{TAG1||sin|}{TAG1||iga|}{TAG1||sim|}{TAG1||owa|}{TAG1||mik|}{TAG1||kai|}{TAG1||sag|}{TAG1||mus|}{TAG1||kaz|}{TAG1||awt|}{TAG1||hit|}{TAG1||wak|}{TAG1||kag|}{TAG1||ecg|}{TAG1||kii|}{TAG1||san|}{TAG1||iyo|}{TAG1||tos|}{TAG1||har|}{TAG1||bic|}{TAG1||bin|}{TAG1||tnb|}{TAG1||taj|}{TAG1||ina|}{TAG1||iwm|}{TAG1||oki|}{TAG1||bun|}{TAG1||ckg|}{TAG1||hiz|}{TAG1||osu|}:]]/
+[set A s_n007_r 小豆洗い]
+[randomset B r -n007 -@NOW -@NPC]
+[show A R]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[move B X -300]
+[move B X 260 0.5]
+[say A]
+[autotap]/
+[inject TAG1]/
+>>15/
+[set A s_n007_r 小豆洗い]
+[randomset B b -n007 -@NOW -@NPC]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[orderline A]
+おはぎにおしるこ、小豆を使った菓子を
+いっぱい持ってきたんだぞぉ！/
+[show B C]
+[face A 00]
+[face B 00]
+[move B X 300]
+[setline 0.5 A B]
+[orderline A B]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[se cloth_01]
+お、$B:A。これと……これな！
+毎度ありなんだぞぉ！/
+[face A 02]
+[face B 01]
+[flow]
+どうだ、うまいだろ～！/
+[face A 03]
+[face B 02]
+小豆で腹を満たせばいっぱい戦えるんだぞぉ！
+小豆の力を思い知るんだぞぉ！[shake A]/
+>>16/
+[set A s_n007_r 小豆洗い]
+[randomset B b -n007 -@NOW -@NPC]
+[show A C]
+[face A 01]
+[show B C]
+[face B 00]
+[move B X -800]
+[serif on]
+[say A]
+[orderline A B]
+小豆洗いの出張販ば……[effect fr slash 6000 0 0][shakebg][face A 05][face B 05][move B X 500 0.3][move A X 300 0.3][rotate A -20 0.3][se doka]んにょおおお！！
+……危なかったぞぉ！[rotate A 0 0.5]/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 03]
+[face B 04]
+[setline 0.5]
+おい$B:A！　あぶねーぞ！
+せっかく冷たい小豆すいーつを持ってきたのに！/
+[face A 06]
+[face B 00]
+この棚はしっかり守らねーと……
+なんたって、小豆がたくさん入ってるからな！/
+[face A 01]
+[face B 01]
+さ、掘り出し物仕入れてきたんだぞぉ！
+見ていくんだぞ～！/
+>>17/
+[set A s_n007_b 小豆洗い]
+[randomset B b -n007 -@NOW -@NPC]
+[randomset C b -n007 -@NOW -@NPC]
+[show A C]
+[show B R]
+[show C L]
+[face B 00]
+[face C 06]
+[face A 06]
+[move B X 100]
+[move C X -100]
+[serif on]
+[say A]
+[orderline B C A]
+[se gaya_01]
+おお～？　こうやって見てみると、みんなそれぞれ
+穿くもんにこだわりあるみたいだぞ！/
+[face A 05]
+いろいろ仕入れたら繁盛するんじゃ！？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+にゅふふ……夢の二号店も見えてきたぞ！
+しょきしょき！/
+>>18/
+[set A s_n007_b 小豆洗い]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[scale A 1.6]
+[move A Y -300]
+[se amb_12]
+[effect fr yuge a 0 0]
+[orderline A]
+[effect fr splash 6000 0 0]
+[se bath_02]
+[move A Y 180 0.5]
+ぷはぁ～～。
+いろんな土地のいい温泉に入ってきたけど……/
+[face A 02]
+[flow]
+[se bath_04]
+ここの風呂も悪くないんだぞ。
+こっそり毎日入りにきちゃうんだぞ。/
+>>19/
+[set A s_n007_b 小豆洗い]
+[randomset B b -n007 -@NOW -@NPC]
+[randomset C b -n007 -@NOW -@NPC]
+[show A C]
+[show B R]
+[show C L]
+[face A 00]
+[face C 01]
+[face B 01]
+[se amb_12]
+[effect fr yuge a 0 0]
+[serif on]
+[say A]
+[orderline A B C]
+[move B X 100]
+[move C X -100]
+[serif on]
+[say A]
+[orderline B C A]
+[se gaya_01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+小豆成分入りのスポンジいらねぇか～！
+これで身体擦ると気持ちいいぞ。/
+[face A 01]
+[face B 00]
+[face C 06]
+今買うとオレがしょきしょきっとお背中流しの
+サービスしちゃるぞぉ！　にゅっふっふ。/
+>>20/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[se pee_01]
+[face A 01]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[-]
+[serif on]
+[say A]
+[orderline A]
+ぷるぷるんっと……そうだ！/
+[face A 03]
+[scale A 1.6 0.5]
+[move A Y 120 0.5]
+[se cloth_01]
+ここにもあずきやの
+ポスター貼っておくんだぞぉ！
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_01]/
+[face A 01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_01]
+きっとみんな買い物しにきたくなっちゃうんだぞ！/
+>>21/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[move A X 1000]
+[move A X -1000 1]
+[face A 06]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[say A]
+[orderline A]
+は～ん。
+他人と比べたがるやつもいるんだなぁ。/
+[face A 03]
+[scale A 1.6 0.3]
+[se taiko_01]
+[move A Y -100 0.3]
+でも何でも大きい方が良いなんてのは
+間違いなんだぞぉ！/
+[scale A 2 0.3]
+[move A Y -80 0.3]
+大よりも小！　大豆より小豆なんだぞぉ！！[se taiko_02]
+[shakebg]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+…………でも商売になるなら、
+でっかくなるブツ……仕入れてみるか。/
+>>22/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[orderline A]
+[move A Y -50]
+ふぅ～……今日は色々売りつけたし、
+あずきやに帰るとするか～。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+んっ！？　んにょおおおおお！
+紙がないんだぞぉ！！[shake A 4 10 10]/
+>>23/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[orderline A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+んにょっ！/
+[face A 06]
+うぉしゅれっとってやつ使うと
+毎度びっくりしちゃんだぞ。/
+[se pee_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+……でもあったかくすると
+結構いい感じで気に入ったぞ。/
+[face A 07]
+[flow]
+へへ、小豆洗いが洗われてるんだぞぉ。/
+>>24/
+[set A s_n007_r 小豆洗い]
+[randomset B b -n007 -@NOW -@NPC]
+[randomset C b -n007 -@NOW -@NPC]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[orderline A]
+今日の目玉商品！
+小豆洗い特製の小豆を詰め込んだ枕だぞぉ～。/
+[show B L]
+[move B X -300]
+[show C R]
+[move C X 150]
+[face B 00]
+[face C 05]
+[setline 0.5 B A C]
+[orderline A B C]
+数量限定だから早いもの勝ちなんだぞぉ！/
+[face A 02]
+[face B 01]
+[face C 08]
+[move B XY 10 -40 0.4]
+[rotate B -10 0.3]
+[delay 0.4 move B XY -10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+お、$B:A買うのか！
+まいどありなんだぞぉ！/
+>>25/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 07]
+[serif on]
+[say A]
+[move A Y -50]
+[rotate A -20]
+[se cloth_01]
+すやすや……くっちゃる……ぞぉ……すやすや……/
+>>26/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 06]
+[serif off]
+[se cloth_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ううう……新しく仕入れた体が元気になる
+生薬を試し飲みしたら……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+なんだかドキドキして眠れなく
+なっちゃったんだぞぉ……！/
+[flow]
+しょきしょき……/

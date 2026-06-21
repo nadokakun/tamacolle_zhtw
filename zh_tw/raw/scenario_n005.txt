@@ -1,0 +1,1334 @@
+>>0/
+((s))
+[set W s_san_m 讚岐]
+[set A s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 雲龍院りく]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[bgm home]
+[fadeout 1]
+[se gaya_01]
+[-]
+[serif on 0.5]
+那就是$W就在聽到聲音之後不久，
+當我去六原商業設施購物時。/
+((m))
+[set W s_mus_m 武藏]
+[set A s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 雲龍院りく]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[bgm home]
+[fadeout 1]
+[se gaya_01]
+[-]
+[serif on 0.5]
+那就是$W就在聽到聲音之後不久，
+當我去六原商業設施購物時。/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 雲龍院りく]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[bgm home]
+[fadeout 1]
+[se gaya_01]
+[-]
+[serif on 0.5]
+那就是$W就在聽到聲音之後不久，
+當我去六原商業設施購物時。/
+((s))
+[show W C]
+[face W 01]
+[say W]
+[se walk_06]
+購物真是太刺激了！　
+師父！/
+((m))
+[auto]
+我不知道購物有什麼意義。
+太令人興奮了！一般的！/
+((e))
+[auto]
+也謝謝你帶我來！
+如果您需要搬執行李，請交給我！/
+[fadein white 0.3]
+[serif off 0.3]
+[-]
+[talkend]
+[hideall]
+[waku on]
+[bg gozasyo_day]
+[minibg off]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+莊園有水電等基本設施。
+儘管生命線已就位，/
+[bg rouka_day 0.5]
+[flow]
+只需要最低限度的消耗品和食物。
+未放置。/
+[bg mbg_syouen 0.5]
+[minibg ima 0.5]
+[flow]
+因此，額外的生活必需品和奢侈品
+我得自己去買。/
+[fadein white 0.3]
+[serif off 0.3]
+[-]
+[hideall]
+[waku off]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+——然而，是六原提供的。
+預算沒那麼大。/
+[serif off]
+？ （我必須考慮如何維持收支平衡......）/
+((s))
+[show W C]
+[face W 08]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[serif on]
+哦，看。主啊，
+那個！/
+((m))
+[auto]
+哦。瞧，將軍。
+那裡有一些奇怪的人。/
+((e))
+[auto]
+主人……請退後！
+還有一些長相奇怪的人…/
+[hide W]
+[talkend]
+$W我順著他指的方向看去，發現他一身黑衣。
+現場有幾個穿著西裝、戴著墨鏡的男人。/
+[flow]
+他站在那裡守護著周圍的環境。/
+[serif off]
+？保護重要的人？/
+[serif on]
+@穿西裝A的男人
+……你在場嗎？/
+@穿西裝B的男人
+不……我找不到……/
+@穿西裝A的男人
+找到它！萬一出事就晚了！/
+@穿西裝B的男人
+是的。/
+((s))
+[serif off]
+[se walk_07]
+[wait 1.5]
+[-]
+[show W C]
+[face W 13]
+[say W]
+[-]
+[move W Y 20 0.4]
+[delay 0.6 move W Y -20 0.2]
+[-]
+[serif on]
+我想知道發生了什麼事？[wait 0.2]…[wait 0.2]…[wait 0.2]啊，[face W 01]到店了！
+加油，師父！我們去購物吧！/
+((m))
+[auto]
+我想知道那是什麼。[wait 0.2]…[wait 0.2]…[wait 0.2]哦，[face W 01]到達商店。
+加油，將軍！我們去購物吧！/
+((e))
+[auto]
+有什麼事情……發生了嗎？[wait 0.2]…[wait 0.2]…[wait 0.2]啊，[face W 01]這是
+這是一家商店！主人，我們去買東西吧！/
+[serif off]
+？點點頭/
+((s))
+[playeryes]
+[-]
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[minibg off]
+[bg shop]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[show W]
+[face W 12]
+[-]
+[serif on]
+這家店很大，什麼都有賣。
+太棒了。/
+((m))
+[auto]
+啊？你可以在這家商店出售任何東西。
+太瘋狂了。太棒了。/
+((e))
+[auto]
+唷...這家商店很大，產品種類也很豐富。
+太神奇了.../
+((s))
+[face W 03]
+[flow]
+我想要很多東西，但我沒有錢。
+這需要一段時間。我不會浪費我的錢...！[shake W]/
+((m))
+[auto]
+我對很多東西有興趣，但是要花錢。
+首先，收集必要的物品！/
+((e))
+[auto]
+我對這個那個感興趣……但我必須要有耐心。
+我不會浪費它.../
+((s))
+[face W 00]
+[scale W 1.6 0.5]
+[move W Y -100 0.5]
+是不是忘記買別的東西了？
+師父。/
+((m))
+[face W 00]
+[scale W 1.6 0.5]
+[move W Y -150 0.5]
+別忘了買別的東西嗎？
+一般。/
+((e))
+[face W 00]
+[scale W 1.6 0.5]
+[move W Y -150 0.5]
+是不是忘記買別的東西了？
+師父。/
+[serif off]
+？現在我想起來了，$W褲子.../
+((s))
+[face W 06]
+[shake W]
+[serif on]
+呃！ ？　[face W 11]您可以自行選擇和購買！
+主人，請稍等！/
+((m))
+[auto]
+天啊！ ？[face W 11]　我自己選吧！
+將軍，請稍等！/
+((e))
+[auto]
+好！ ？[face W 11]　我會自己挑選和購買！
+主人，請稍等一下！/
+((s))
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[show W C]
+[face W 00]
+[say W]
+[move W X 150 0.5]
+[-]
+[move W Y 20 0.4]
+[delay 0.6 move W Y -20 0.2]
+[-]
+[serif on]
+嗯，哇...[face W 05]甚至內衣
+有很多型別.../
+((m))
+[auto]
+嗯，這裡？　[face W 05]甚至內衣
+種類真多啊……哇……/
+((e))
+[auto]
+嗯，哇...[face W 05]只穿內衣就這麼多了
+有很多型別.../
+[move W X -50 0.1]
+[delay 0.1 move W X 100 0.2]
+[delay 0.3 move W X -100 0.2]
+[delay 0.5 move W X 50 0.1]
+[autotap]/
+((s))
+[face W 06]
+嗯...也許我應該按尺寸搜尋...
+我想知道多少錢.../
+((m))
+[auto]
+我應該按尺寸搜尋嗎？　鴯鶓，呃…
+我的有多大.../
+((e))
+[auto]
+有各種尺寸。目前只是尺寸
+如果我必須選擇...我會選擇什麼尺寸.../
+((s))
+[serif off]
+[move W XY -10 -40 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 40 0.3]
+[delay 0.5 rotate W 0 0.3]
+[-]
+[se cloth_01]
+[-]
+[shake W]
+[serif on]
+哇，這些內衣有時尚的圖案...
+皮膚感覺也很好！[effect W kira 2000 0 0][se kira_01]
+[face W 01]/
+((m))
+[auto]
+哇，這些內衣上的圖案真時尚。
+質感……不錯，不是嗎？[effect W kira 2000 0 0][se kira_01]
+[face W 01]/
+((e))
+[serif off]
+[face W 08]
+[move W XY -10 -40 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 40 0.3]
+[delay 0.5 rotate W 0 0.3]
+[-]
+[se cloth_01]
+[-]
+[shake W]
+[serif on]
+哦。這些內衣採用優質面料製成！
+它有圖案，看起來很時尚...[effect W kira 2000 0 0][se kira_01]
+[face W 01]/
+[talkend]
+[color W talk]
+@？？？
+哇，那太好了！
+酷！ ！/
+((s))
+[face W 05]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+啊？/
+((m))
+[auto]
+啊？/
+((e))
+[auto]
+啊？/
+[serif off]
+[hide W]
+[-]
+[bgm fun]
+[show A C]
+[face A 00]
+[talkend]
+[-]
+[serif on]
+致對我說話的聲音$W當他回頭看去時，
+有一個男孩坐在輪椅上。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[say A]
+我，利庫！
+你也來買褲子嗎？/
+((s))
+[show W C]
+[orderline A W]
+[setline 0.5 W A]
+[face W 01]
+[say W]
+我是讚岐。[wait 0.5][face W 06]
+呃-是的...這不僅僅是內褲.../
+((m))
+[auto]
+嘿，這是武藏。[wait 0.5][face W 06]
+哦，哦。出色地。但這不僅僅是內褲…/
+((e))
+[auto]
+我是越後ssu。[wait 0.5][face W 06]好吧，好吧…
+不過，這不只是內褲…/
+[face A 09]
+[say A]
+正面布料有足夠的空間，所以當你穿著它時
+看來，還要變大很多！看！[shake A]/
+[serif off]
+[moveline W A -1000 0 1]
+[talkend]
+[-]
+[serif on]
+在Riku的視線之外，$W已選擇
+有一個穿著褲子的展示娃娃。/
+((s))
+[serif off]
+[scale W 1.5]
+[scale A 1.5]
+[face W 06]
+[moveline W A 0 -200 0 0]
+[-]
+[moveline W A 1300 0 1]
+[-]
+[say W]
+[serif on]
+確實是這樣……可能有點尷尬……
+哦，利庫君也選擇了內褲。/
+((m))
+[serif off]
+[scale W 1.5]
+[scale A 1.5]
+[face W 06]
+[moveline W A 0 -200 0 0]
+[move W Y -50]
+[-]
+[moveline W A 1300 0 1]
+[-]
+[say W]
+[serif on]
+確實如此……不過這確實是一個很好的胯部……
+哦，陸毛選擇了內褲嗎？/
+((e))
+[serif off]
+[scale W 1.5]
+[scale A 1.5]
+[face W 06]
+[moveline W A 0 -200 0 0]
+[move W Y -50]
+[-]
+[moveline W A 1300 0 1]
+[-]
+[say W]
+[serif on]
+當我想像自己穿著它們時，我感到很尷尬......
+啊，陸毛選擇了內褲。/
+[talkend]
+[moveline A W -300 50 1]
+看看Riku手上的內褲。
+$W我問.../
+[face A 12]
+[scale A 2.5 0.2]
+[scale W 2.5 0.2]
+[move W X -200 0.2]
+[quake 2]
+[effect fr syutyu a 0 0]
+[se zukkoke_01]
+仔細一看，這條褲子是透明的。
+內衣的設計非常激進！/
+((s))
+[hideall]
+[serif off]
+[effect off a]
+[quake off]
+[wait 0.5]
+[-]
+[show A]
+[show W]
+[setline W A]
+[face W 06]
+[face A 00]
+[-]
+[say W]
+[serif on]
+我...[shake W]這是一個相當大膽的造型.../
+((m))
+[auto]
+哦，哦...[shake W]是不是有點太大膽了？ ？/
+((e))
+[auto]
+哇...[shake W]可以嗎？
+我想我能看到一些重要的東西.../
+[face A 12]
+[move A Y -10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[say A]
+嘿嘿嘿嘿，太神奇了。我也是第一次見到！
+這是六原店賣的東西。/
+[face A 13]
+[flow]
+我很想嘗試一下，但是一旦我買了
+因為老頭子會找到我的…/
+((s))
+[face W 00]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+老頭子…？/
+((m))
+[auto]
+老頭子？/
+((e))
+[auto]
+老頭子.../
+[serif off]
+[se walk_06]
+？你決定買褲子了嗎？/
+((s))
+[face W 02]
+[say W]
+[move W Y 100 0.2]
+[delay 0.2 move W Y -100 0.2]
+[-]
+[serif on]
+啊，師父！/
+((m))
+[auto]
+哦，將軍！/
+((e))
+[auto]
+師父！/
+[serif off]
+[face A 05]
+[scale A 1.6 1]
+[scale W 1.6 1]
+[move W X -100 1]
+[moveline W A -250 -100 1]
+[talkend]
+[wait 1]
+[-]
+[scale A 1 1]
+[scale W 1 1]
+[move W X 100 1]
+[moveline W A 250 100 1]
+？朋友？/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[face W 01]
+[say W]
+[serif on]
+是啊！利庫君。
+我正在考慮買條褲子。/
+((m))
+[auto]
+哦，它叫裡庫。
+他說他想買內褲。/
+((e))
+[auto]
+是的！力克蘇！
+看來我要買條內褲了。/
+((s))
+[say A]
+[shake A 2 10 10]
+啊啊啊~！聽聲音的兄弟！正確的！ ？
+啊，那麼$W那麼，地魂少年呢？/
+((m))
+[say A]
+[shake A 2 10 10]
+啊啊啊~！聽聲音的兄弟！正確的！ ？
+那麼好吧$W那麼，地魂少年呢？　[face A 01]耶！我遇見你了！/
+((e))
+[say A]
+[shake A 2 10 10]
+啊啊啊~！聽聲音的兄弟！正確的！ ？
+啊，那麼$W那麼，地魂少年呢？/
+((s))
+[face W 00]
+[say W]
+呵呵，你瞭解我們嗎？/
+((m))
+[auto]
+安？關於我們
+你知道嗎？/
+((e))
+[auto]
+呃，關於我和我的主人…
+你知道嗎？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+((s))
+[face A 14]
+[say A]
+我知道！和我的兄弟$W我想認識你
+我千辛萬苦來了！/
+((m))
+[auto]
+當然！它毛茸茸的，看起來就像一隻狗
+我也是這麼想的！[face W 06]　這是真的！　驚人的！ ！[shake A]/
+((e))
+[auto]
+我知道！和我的兄弟$W我想認識你
+我千辛萬苦來了！/
+[face A 02]
+[say A]
+如果真是這樣，那就算是對我們相遇的紀唸吧。
+$W我會把這條褲子當作禮物送給你！/
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+職員！請付帳！/
+((s))
+[face W 05]
+[say W]
+令人愉快……這意味著他會買它！ ？[shake W]/
+((m))
+[auto]
+令人愉快的...
+這是否意味著你會買它？ ？/
+((e))
+[auto]
+令人愉快的...
+這是否意味著你會買它？ ？/
+[face A 12]
+[say A]
+[move A X 100 0.5]
+當你在做的時候，也選擇你兄弟的！　[shake A]哇！
+這對我的兄弟來說可能會很受歡迎！/
+((s))
+[face W 06]
+[say W]
+[shake W]
+哇，看來布料面積真小啊…
+要求人們買它是很糟糕的。價格也很高.../
+((m))
+[auto]
+哇，這傢伙的佈面積可真不多啊！ ？
+而且價格相當不錯，對吧？/
+((e))
+[auto]
+哇……這沒什麼好隱藏的！
+此外，這很糟糕。價格也很高.../
+[face A 09]
+[say A]
+[move A X -150 0.3]
+不用擔心錢！
+雖然我是這個樣子，但我可是雲龍院家的家主啊！/
+[face A 02]
+成年之前我沒有多少錢可以花，但是
+不過，我還有一張零用錢卡！/
+[hide W]
+[hide A]
+[-]
+[se taiko_03]
+[se cloth_01]
+[talkend]
+Riku把手插進口袋裡。
+他拿出一張精美的黑色卡片。/
+[serif off]
+?名人.../
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 00]
+[say A]
+[-]
+[serif on]
+雲龍院家族也對六原進行投資。
+我們提供它！/
+[face A 09]
+[flow]
+所以我Ro Y Ro
+我也知道內幕訊息。/
+[face A 03]
+[shake A]
+嘿，下次你要和你的兄弟們一起玩嗎？
+你可以去那裡玩！ ？/
+[face A 02]
+$W我想和你結交更好的朋友並看到你的工作。
+我想去那裡，那裡有很多我想知道的事情！/
+[face A 04]
+此外，[wait 0.2]…[wait 0.2]…[wait 0.2]如果你在你祖父或兄弟那裡
+他們說一個人去也沒關係。/
+((s))
+[hide A]
+[-]
+[show W]
+[face W 00]
+[say W]
+獨自一人……？/
+((m))
+[auto]
+獨自一人？/
+((e))
+[auto]
+獨自一人……？/
+[hide W]
+[-]
+[se walk_07]
+[talkend]
+[shakebg]
+@穿西裝C的男人
+少爺！/
+@穿西裝B的男人
+少爺發現了！
+我正在商店裡找褲子！/
+[show W C]
+[show A C]
+[setline W A]
+[face W 05]
+[face A 05]
+[say A]
+[shake A]
+[shake W]
+哇，我找到了……！/
+[hide W]
+[move A C 0.5]
+@穿西裝C的男人
+小少爺，你要是擅自行動的話，我可就麻煩了！/
+@穿西裝B的男人
+萬一少爺出了事怎麼辦？
+我們會被罵的！/
+[serif off]
+？他們就像我們之前看到的保鑣。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+[say A]
+[serif on]
+只要一點點就好了...[move A X -250 1]
+啊，[face A 04]別推椅子！[shake A]/
+[serif off]
+[move A X -100 0.5]
+[-]
+[face A 02]
+[say A]
+[rotate A -20 0.5]
+[-]
+[serif on]
+兄弟！[shake A]　週日！
+我星期日就去！/
+((s))
+[hide A]
+[-]
+[show W C]
+[face W 12]
+[say W]
+利庫君！[shake W]　再見！/
+((m))
+[auto]
+嘿，利庫！
+再見！/
+((e))
+[auto]
+利庫！
+保重！/
+[serif off]
+？揮手/
+[se walk_06]
+[delay 0.2 se walk_06]
+[hideall]
+[talkend]
+[serif on]
+利庫被黑衣男子包圍著。
+我被帶到某個地方。/
+((s))
+[show W C]
+[face W 00]
+[say W]
+利庫君很有錢啊……！但是
+也許你想擁有更多的自由？/
+((m))
+[auto]
+Riku的男人是個有錢人…但是
+也許我應該花更多的時間自由。/
+((e))
+[auto]
+Riku，你很有錢…但也許…
+也許你想自由地度過更多的時間。/
+((s))
+[face W 12]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+嘿，師父。如果是莊園的話就安全了
+如果您能來拜訪我們，那就太好了…/
+((m))
+[auto]
+什麼，將軍？如果是莊園的話就安全了
+讓你來參觀也許是個好主意！/
+((e))
+[auto]
+師父。如果是莊園的話就安全了…
+如果您能來拜訪我們，那就太好了…/
+[serif off]
+？點點頭/
+[face W 00]
+[serif off]
+[playeryes]
+[talkend]
+[-]
+[face W 01]
+[-]
+[wait 1]
+[-]
+[hide W 1]
+[-]
+[serif on 0.5]
+就在這時，他遇見了雲龍院裡庫。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>1/
+[set A s_n005_r りく]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[say A]
+雅虎，小哥哥！
+我是來玩的！/
+[face A 02]
+今天上學[= で体育の授業があって楽しかったんだ～！
+啊？我當然從椅子上站起來了！我很幸運，我的學校午餐是我最喜歡的咖哩！
+我補充了 3 個！我在美術課上畫了一張地魂少年的圖！
+大家都說很酷！在家政課上製作餅乾
+我做到了！您想嘗試成品嗎？在健康課上了解成人的身體
+我做到了！哥哥……看起來像個大人了！ ]/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+你姐姐現在在做什麼？
+有空的話就來玩玩吧！/
+>>2/
+[set A s_n005_r りく]
+[show A C]
+[face A 02]
+[-]
+[serif on]
+[say A]
+耶！我正在做的免費研究！
+主題是“你適合哪種型別的褲子？”[shakebg]/
+[face A 00]
+[flow]
+根據您的體型、個性、目標和心情.../
+[face A 01]
+[flow]
+[effect fr kira 4000 0 0]
+[se kira_01]
+找到完美的形狀、顏色和圖案
+我正在製作推薦褲子指南！/
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+因為我想參考不同的人...
+給我看看你現在穿的褲子♪/
+照片也可供參考...[face A 05][move A Y 10 0.1][delay 0.1 move A Y -10 0.1]啊，你要去哪裡？ ？
+等等！[face A 04]尼查安！[shake A]/
+>>3/
+[set A s_n005_r りく]
+[show A R]
+[face A 02]
+[move A X -350 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[move A C 0.5]
+[-]
+[serif on]
+[say A]
+看看我的兄弟！它附在我的輪椅上
+顯示器是觸控螢幕！[se pi_04]/
+[face A 01]
+[effect fr kira 4000 0 0]
+[se kira_01]
+坐著就可以使用，太方便了！/
+[face A 03]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+卻被老爺過濾了，
+有很多網站你看不到。/
+[face A 00]
+所以，用我哥哥的智慧型手機
+我想看很多東西！/
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+嘿嘿嘿，沒關係！ ？/
+>>4/
+[set A s_n005_r りく]
+[randomset B r -n005 -@NPC]
+[show A R]
+[face A 03]
+[-]
+[move A X -600 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+我很無聊。我想知道是否有人在那裡。[show B R][face B 00][orderline A B][color B talk]
+啊，$B:A是的！[setline 0.5 A B][face A 02]　嘿，我們玩吧！/
+[face A 04]
+[face B 04]
+[shake B]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+呃，我們現在要去訓練嗎？
+太可惜了.../
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+嘿，等你忙完了我們可以一起玩嗎？
+明白了，[face A 02]我會等你的！[shake A]/
+>>5/
+[set A s_n005_r りく]
+[randomset B r -n005 -n000]
+[show A C]
+[face A 04]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+哦，小莊說他最近很忙。
+他們根本不跟我玩。嘿，我感到孤獨。/
+[move A X 200 1]
+[show B L]
+[face B 00]
+[orderline A B]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 02]
+啊，$B:A～！[setline 0.5 B A]　我們來談談吧！ ！[face B 01]/
+>>6/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A L]
+[show B R]
+[face A 00]
+[face B 00]
+[move A X 600 1.5]
+[move B X -350 1]
+[talk A]
+[-]
+[setline 0.5  B A]
+[-]
+[serif on]
+啊？　$B:A，怎麼了？
+什麼，你想坐這個輪椅嗎？[face B 01]/
+[face A 01]
+呵呵，一點點就好了！/
+[face A 02]
+[move A X -100 0.5]
+因為我做了很多定製，
+我來教你如何操作！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A C]
+[face A 03]
+[-]
+[shake A]
+[-]
+[shake A 3 4 4]
+[-]
+[serif on]
+[say A]
+啊？我坐輪椅感覺不太舒服...
+啊？[face A 04]就是這樣！ ？/
+[face A 05]
+[effect fr syutyu 4000 0 0]
+[shake A 3 5 5]
+哎呀！它停止了移動。
+我該怎麼辦...[shake A]/
+[show B R]
+[face A 06]
+[face B 05]
+[talk A]
+啊，$B:A剛剛好！
+你能不能快點把我推到洗手間？/
+[face A 04]
+[face B 04]
+[move B X -50 0.5]
+如果你不快點的話...它會洩漏...！[moveline A B -300 0 0.5][hideall]/
+>>10/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A C]
+[show B C]
+[face A 00]
+[setline A B]
+[face B 04]
+[talk A]
+[-]
+[serif on]
+啊，$B:A下班回來？
+歡迎回來！/
+[face A 01]
+我覺得有點累了。
+如果你渴了，就喝這個。[face B 01]/
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[-]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[-]
+[se kira_01]
+[effect B kira a 0 0]
+[face A 02]
+[face B 02]
+老爺點的最高品質的茶！
+真好吃，你應該把它全部喝掉。/
+[face A 00]
+什麼，這茶的價格是多少？[effect off a]
+嗯，沒記錯的話，大概是¥■■■。[se zukkoke_02][face B 05][shake B]/
+>>11/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A C]
+[face A 03]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+如果我不做作業，爺爺就會罵我…
+嗯，很痛苦，我不太明白。/
+[show B R]
+[face A 01]
+[face B 00]
+[talk A]
+嘿嘿$B:A，你明白這個答案嗎？讓我知道！/
+[face A 05]
+[face B 01]
+[setline 0.5 A B]
+呃，這樣可以嗎？[face A 00]
+是啊是啊……是啊是啊……/
+[face A 02]
+[effect A kira 3000 0 0]
+[se kira_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face B 02]
+嘿嘿，原來如此！
+謝謝你救了我！ ！/
+>>/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_n005_r りく]
+[randomset B r -n005 -@NPC]
+[show A C]
+[face A 06]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[serif on]
+[say A]
+我買的新褲子
+這是一種讓你看起來非常好的事情。/
+[effect off a]
+[face A 02]
+嘿嘿嘿，我想知道該誰穿。[show B R][move B X 200][face B 00][talk A][moveline A B -200 0 1]
+啊，$B:A是的。嘿！[shake A][face B 05]/
+>>15/
+[set A s_n005_m りく]
+[randomset B m -n001 -@NPC]
+[show B C]
+[face B 08]
+[shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[color B talk]
+[-]
+[show A C]
+[face A 05]
+[move A X 1000]
+[moveline A B -1000 0 1]
+[-]
+[serif on]
+[say A]
+哇！[shake A]
+這就是地魂童子的安排嗎？/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+太酷了！ ！
+真實的力量是驚人的！/
+[face A 05]
+[shake A]
+哇，就在那裡！[face A 02]　走吧！ ！[shake A]/
+>>16/
+[set A s_n005_m りく]
+[randomset B m -n005]
+[show A C]
+[show B C]
+[face A 03]
+[face B 01]
+[setline A B]
+[talk A]
+[-]
+[serif on]
+$B:A嗯，看上去確實很強！/
+[face A 02]
+但是嘿，我帶來的這條褲子！
+穿上它不是會變得更強嗎？[face B 05]
+/
+[move A X 100 0.3]
+[move B X 50 0.5]
+[face A 06]
+[face B 06]
+[= スケスケの ミニサイズの モッコリが強調される 派手な柄がかっこいい 和テイストの キラキラかがやく]這是特別的褲子！/
+[move B X 50 0.5]
+[face A 02]
+[delay 0.3 move A X 50 0.3]
+嘿，試試吧！ ！/
+>>17/
+[set A s_n005_b りく]
+[show A C]
+[face A 02]
+[-]
+[serif on]
+[say A]
+哼~♪
+我今天帶了新褲子。/
+[se cloth_01]
+[face A 06]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+呵呵，這個圖案很酷。
+我很期待穿上它♪/
+>>18/
+[set A s_n005_b りく]
+[show A C]
+[face A 03]
+[amb_12]
+[se bath_04]
+[move A Y -100]
+[effect fr yuge a 0 0]
+[-]
+[serif on]
+[say A]
+剛州先生、剛州市…/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se bath_04]
+我祖父告訴我繼續數到100，
+我已經覺得很熱了.../
+>>19/
+[set A s_n005_b りく]
+[randomset B b -n005 -@NPC -@あやかし]
+[show A C]
+[face A 03]
+[amb_12]
+[se bath_04]
+[move A Y -100]
+[effect fr yuge a 0 0]
+[-]
+[serif on]
+[say A]
+啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊[show B C][move B Y -100][face B 08][orderline A B][move A X -150 1][move B X 150 1][color B talk]
+啊？　[face A 05]你在做什麼？ ]/
+[face A 06]
+畢竟，就算你是地魂少年，
+我覺得個體差異還是很大的！[face B 05][shake B]/
+[face A 05]
+[face B 06]
+$B:A你覺得怎麼樣？[move B X 300 0.5][hide B][se bath_02]
+哦，你要去哪裡？等待！[shake A]/
+>>20/
+[set A s_n005_r りく]
+[show A L]
+[face A 02]
+[se door_01]
+[move A C 1]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+哇，好清爽！/
+[face A 03]
+[effect off a]
+但為什麼要費力從椅子上下來呢？
+真是太麻煩了。/
+[face A 06]
+我想下次能不能加個廁所功能。/
+>>21/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A L]
+[show B C]
+[face A 01]
+[face B 05]
+[talk A]
+[setline 0.5 A B]
+[-]
+[serif on]
+$B:A～！我們來比較一下吧！
+我感覺自己正處於成長時期！/
+[face A 02]
+[face B 01]
+你看，這就是我的樣子！/
+>>22/
+[set A s_n005_r りく]
+[randomset B r -n005]
+[show A C]
+[face A 03]
+[move A Y -150]
+[scale A 1.6]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+呼……總之……/
+[flow]
+這麼小的廁所，一個大地魂男孩也可以
+你進不去，對嗎？/
+[face A 04]
+我的輪椅也坐不下.../
+[face A 03]
+嗯，我擔心有人碰我的輪椅。
+讓我們把門開啟一會兒......
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se door_01]/
+[show B C]
+[color B talk]
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[face A 05]
+[face B 05]
+[orderline A B]
+[move B X 200 0.5]
+[move A X -200 0.5]
+哇！[shake A 4 10 10][shake B 3 5 5]/
+>>23/
+[set A s_n005_r りく]
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -100]
+[-]
+[serif on]
+[say A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+嘿！哦，那個！ ？衛洗麗
+怎樣才能停水呢？ ？/
+[face A 06]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.4 se pi_04]
+這是開關嗎？[shake A]
+哇，我變強了！ ！/
+[face A 04]
+[shake A 5 0 10]
+強，強，屁眼！ ！
+請有人幫忙！ ！/
+>>24/
+[set A s_n005_r りく]
+[randomset B r -n005 -@NPC]
+[show A C]
+[show B C]
+[face A 02]
+[face B 01]
+[setline B A]
+[talk A]
+[-]
+[serif on]
+$B:A〜我會關燈。[se pi_03][fadein black 0.4][waku on 0.5][se cloth_01]
+呵呵，那我們聊到睡覺吧！[scale A 1.6][scale B 1.6][move A XY -10 -100][move B XY 10 -120][fadeout 0.5]/
+[face A 01]
+[face B 02]
+談論這樣的秘密
+太有趣了！/
+[face A 02]
+那麼，
+[= $B:Aのちんこは何センチなの？ $B:Aは好きな人いるの？ 地魂男児で一番ちんこデカイのって誰？ $B:Aはにいちゃんの裸見たことある？ $B:Aはどんなパンツが好き？][shake B 3 5 5][face B 06]/
+>>25/
+[set A s_n005_r りく]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[say A]
+嗯……庫卡……嗯……/
+[hide A]
+[se cloth_01]
+[talkend]
+看起來他正在流汗。
+好像蒲團不太合身，或是有點難入睡。/
+>>26/
+[set A s_n005_r りく]
+[randomset B r -n005 -@NPC]
+[show A C]
+[face A 06]
+[move A Y -100]
+[move A Y 100 0.5]
+[se cloth_01]
+[-]
+[serif on]
+[say A]
+不知道大家是不是都藏著情色書籍呢！
+$B:A我趁他睡著的時候去找找/
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se goso_01]
+嗯...也許在這裡...或者也許在這裡？
+[move A X 150 0.4]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se goso_01]/
+[shake A]
+[face A 05]
+呃！ ？
+這……！ ！[show B L][rotate B 60][rotate B 0 0.5][move B X 50 0.5][color B talk][face B 05][se cloth_01][orderline A B]/

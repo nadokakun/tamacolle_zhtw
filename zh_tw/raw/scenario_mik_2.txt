@@ -1,0 +1,1137 @@
+>>10000/
+@三河
+東海道、上國、[wait 2.0]三河。[autotap]/
+[delay 2.0]
+[flow]
+[-]
+@三河
+保護你周圍的一切就交給我吧。/
+>>10001/
+@三河
+你又聽到我的聲音了嗎？[autotap]/
+[delay 2.8]
+[flow]
+[-]
+@三河
+我很高興，但不.../
+>>1/
+[set A s_mik_r 三河]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+蓬萊寺整座山都是一個風景區...
+岩石表面很有特色……還有一棵800年歷史的繖形杉。/
+[face A 01]
+還有德川家光建造的仁王雕像……主人很有興趣。
+如果你有…我指導你也沒關係…/
+[face A 08]
+...1425級臺階...以便您可以攀爬它們。
+王爺……你現在最好鍛鍊一下自己…[se walk_01][move A X -200 0.5][hide A]/
+>>2/
+[set A s_mik_r 三河]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+作曲：有原成平 《伊勢物語》
+三河八橋，因柿子的歌曲而聞名.../
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+歌曲等等…我不知道…[wait 0.5]
+對某人產生感情的感覺……是無法理解的。/
+[face A 09]
+京都著名的點心「生八橋」就源自於這三河八橋。
+看來……我還沒吃過呢……[shake A]/
+>>3/
+[set A s_mik_r 三河]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+與武田軍戰鬥的舞臺…
+長筱戰場.../
+[face A 03]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+說到這裡…
+尾張 這傢伙越來越咄咄逼人了.../
+[face A 08]
+[move A X 100 1.0]
+三連射，三連射…[wait 0.5]
+我記得一件事……唷。[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]/
+>>4/
+[set A s_mik_r 三河]
+[show A R]
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+……！！[wait 0.5]
+是誰？/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……貓……啊？
+他仍然是一個入侵者。帶我出去。[move A C 0.5][delay 0.2 move A Y -50 0.3]/
+[face A 08]
+不要反抗。[move A Y -100 0.3][rotate A 30 0.3]……
+……！？[shake A 3]/
+[face A 05]
+[move A Y 150 1.0]
+[rotate A -15 0.8]
+[-]
+貓是什麼東西……怎麼長成這樣……/
+>>5/
+[set A s_mik_r 三河]
+[randomset B r @地魂男児 @あやかし @NPC -mik -owr]
+[show A C]
+[show B C]
+[face A 08]
+[face B 00]
+[serif on]
+[talk A]
+[setline 0 B A]
+$B:A……
+舊紙要丟掉嗎？　[wait 0.5]等一下。[move A X -100 0.5][face B 01]/
+[face A 09]
+[rotate A 10 0.5]
+[move A Y -50 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[se paper_01]
+...軍事檔案...[se paper_01][wait 0.5]這個背面是白色的...
+寫字的時候還是可以用的。/
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.4]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.4]
+這個紙袋...[wait 0.3]原來還能當垃圾袋用啊
+這個還是可以用的...[wait 0.3]這是一種浪費.../
+[face B 04]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.4]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.4]
+這也是一種浪費…
+這是一種浪費.../
+>>6/
+[set A s_mik_r 三河]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+這是...[move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]
+金幣掉下來了.../
+[face A 01]
+[talk A]
+……放進莊園的存錢筒吧。[move A X -500 1.0][hide A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_mik_r 三河]
+[show A C]
+[face A 03]
+[move A X 100]
+[move A X -100 0.3]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+……如果你使用一個工具，你就把它放回原處。
+雖然有規定，但還是有人不遵守…/
+[face A 09]
+我該如何保護它...[wait 0.5]
+畢竟，我想我們也沒有辦法，只能給予嚴厲的懲罰…[move A X -200 0.5][hide A]/
+>>10/
+[set A s_mik_r 三河]
+[randomset B r @地魂男児 @あやかし @NPC -mik -owr]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+日本三大美食之一
+我得到了「這塊棉花」...[shake A 5]/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+沒辦法$B:A我不敢相信這是送給我的紀念品...
+……他是個好人。/
+>>11/
+[set A s_mik_r 三河]
+[randomset B r @地魂男児 @あやかし -@NPC -mik -owr]
+[show A C]
+[show B]
+[face B 00]
+[face A 08]
+[setline A B]
+[serif on]
+[talk A]
+晚上...[wait 0.5]或者？
+我要去周圍看看。/
+[face A 09]
+[face B 05]
+大家先休息吧。[move A X -600 1.0][delay 0.3 hide A][se fusuma_01]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_mik_r 三河]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+當我心情激動的時候...
+連我的身體也出現了奇怪的反應…/
+[shake A]
+嗯...[wait 0.5]如果有人看到我這個樣子就麻煩了。
+我需要立即採取行動.../
+>>15/
+[set A s_mik_m 三河]
+[show A C]
+[face A 08]
+[move A Y -100]
+[serif on]
+[talk A]
+武器可能會掉落在戰場上。有時候這樣的時候
+還必須與那裡的東西戰鬥…/
+[face A 09]
+矛、刀、繩、石、木…
+任何東西都可以作為戰鬥的工具…/
+[face A 03]
+好吧...我會嘗試...[move A Y 100 0.2]/
+>>16/
+[set A s_mik_m 三河]
+[show A C]
+[face A 04]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[serif on]
+[talk A]
+嘆息……嘆息……
+我的身體太好了.../
+[face A 07]
+從今天早上開始我就訓練了一整天...
+……嘆息……嘆息……這就是極限了。/
+>>17/
+[set A s_mik_b 三河]
+[randomset B b -@ケモノ -@NPC -mik -owr]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+[shake A]
+....我有毛...或...？/
+[face A 09]
+[show B L]
+[move B X -200]
+[move B X 100 0.5]
+[scale B 0.8]
+[move B Y 10]
+[color B talk]
+[face B 00]
+[move A X 150 0.5]
+大家都怎麼樣了...
+一開始就這麼順利嗎…？[move A X -60 0.5]/
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+如果有的話...
+或許我更接近野獸的一面…[face B 05]/
+[face A 06]
+我確信是這樣...[shake A]
+[face B 04]/
+>>18/
+[set A s_mik_b 三河]
+[randomset B b @地魂男児 @あやかし @NPC -mik -owr]
+[show A L]
+[show B R]
+[face A 09]
+[face B 00]
+[se amb_12]
+[move B L 2.0]
+[se door_01]
+[move A X 350 1.8]
+[talk A]
+[effect fr yuge a 0 0]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+嘿，$B:A。
+小心點。/
+[face A 03]
+[se bath_03]
+欽欽[face B 05]沒錯。[move B Y 20 0.1][delay 0.1 move B Y -20 0.1]/
+[face B 06]
+[shake B]
+[-]
+[move B X -400 0.3]
+[hide B]
+[move A X -100 0.5]
+[face A 04]
+……？　[wait 0.5]洗個小澡避免燙傷
+我只是想告訴你要小心.../
+>>19/
+[set A s_mik_b 三河]
+[show A C]
+[move A Y -100]
+[se amb_12]
+[face A 09]
+[serif on]
+[talk A]
+[effect fr yuge a 0 0]
+[se water_06]
+隱藏的人還有很多...
+你看到什麼東西有困難嗎...？/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+我不知道那是什麼...
+看來他就躲在那裡…/
+[face A 06]
+[move A Y -20 1.0]
+頭髮……呃……[wait 0.5]
+如果我也隱藏它會更好嗎...？/
+>>20/
+[set A s_mik_r 三河]
+[show A R]
+[face A 09]
+[move A X -500 0.5]
+[se door_01]
+[-]
+[serif on]
+[talk A]
+好吧，這裡沒人……唷。/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+當你站在我身後時
+我有點緊張.../
+>>21/
+[set A s_mik_r 三河]
+[randomset B r @地魂男児 @あやかし @NPC -mik -owr]
+[show A R]
+[show B C]
+[scale A 0.8]
+[move A XY 200 20]
+[face A 08]
+[face B 00]
+[talk A]
+[order B 1]
+[order A 0]
+[move A X -100 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+嗯...$B:A或者.../
+[face A 09]
+[move A X -650 1.0]
+[-]
+[se fusuma_04]
+[move A X -50 1.0]
+[hide A]
+我無能為力。我現在可以使用私人房間。/
+>>22/
+[set A s_mik_r 三河]
+[show A C]
+[move A Y -50]
+[face A 08]
+[serif on]
+[talk A]
+我不知道何時、何地、會發生什麼事......
+當你可以的時候，你必須正確排便.../
+[face A 06]
+嗚嗚嗚……！[shake A 5]/
+>>23/
+[set A s_mik_r 三河]
+[show A C]
+[move A Y -50]
+[face A 04]
+[serif on]
+[talk A]
+如果你在重要的時候不能集中註意力那就是個問題了…
+雖然很痛苦，但我必須趁我力所能及的時候去做。/
+[face A 06]
+……嗯。[shake A]/
+>>24/
+[set A s_mik_r 三河]
+[randomset B r @地魂男児 @あやかし @NPC -mik -owr]
+[show A C]
+[show B R]
+[move A Y -50]
+[move B Y -50]
+[rotate B 40]
+[face B 07]
+[face A 03]
+[talk A]
+[order A 0]
+[order B 1]
+[-]
+[se cloth_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+大家的睡姿都是不好的
+領土入侵頻繁發生…/
+[face A 09]
+[move A Y 50 1.0]
+[delay 0.5 move B X 50 0.6]
+[delay 0.5 rotate B 20 0.6]
+這個大房間...
+安裝防馬柵欄會更好嗎...？/
+>>25/
+[set A s_mik_r 三河]
+[show A C]
+[face A 07]
+[move A Y -100]
+[serif on]
+[talk A]
+嗚嗚嗚……嗚嗚……[wait 0.5]
+你是誰……！ ！[face A 09][move A Y 100 0.1]/
+……這只是一隻貓嗎？[move A Y -100 1.0][face A 07]
+嗚嗚嗚……嗚嗚……/
+>>26/
+[set A s_mik_r 三河]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+我今天做了一個好夢。
+我感覺很好.../
+[face A 09]
+看來他的任務一定能有成果。[move A X -500 1.0][hide A]/
+/
+>>100/
+[set A s_mik_r 三河]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 三河、警戒する]
+[-]
+[bg niwa_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+在花園裡散步時，我突然想到
+我繞到商店的後面，這是我以前從未去過的地方。/
+[textcolor ARUJI]
+這裡很安靜，在莊園裡並不是特別受歡迎。然後
+欣賞了一段時間的新風景後…/
+[talkend]
+@？？？
+別動。你是誰？/
+[se katana_05]
+[textcolor ARUJI]
+突然，一柄劍從背後刺來。/
+[serif off]
+？ ……！米，三河！ ？/
+[show A C]
+[scale A 2.0]
+[move A Y -150]
+[face A 05]
+[scale A 1.0 0.3]
+[move A Y 200 0.2]
+[delay 0.2 move A Y -50 0.1]
+[se walk_04]
+[-]
+[serif on]
+[talk A]
+！
+難道是領主…？[face A 04]很抱歉讓你大吃一驚。/
+[talkend]
+[se katana_05]
+[textcolor ARUJI]
+三河放下劍並收鞘。/
+[face A 08]
+[talk A]
+主啊，你在這裡做什麼？
+這是新的使命嗎？/
+[serif off]
+？我只是在散步。/
+[face A 09]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+也許散步……我明白了，適度的運動也是必要的。
+……但是，/
+[face A 08]
+主啊，我希望你能更清楚一點。/
+[serif off]
+？嗯？/
+[face A 03]
+[move A X 10 1.0]
+[-]
+[serif on]
+師父是束縛我們地魂少年的人。
+不知道誰會以我主人的性命為目標。/
+[face A 09]
+穿著毫無防備的衣服，去荒無人煙的地方
+一個人出去很危險。/
+[talkend]
+[textcolor ARUJI]
+三河目光銳利地環顧四周。/
+[serif off]
+？小心點/
+[face A 01]
+[talk A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+是的...那很好。
+……！！[shakebg]
+[face A 08]
+[bgm departure]/
+[se gasa_01]
+[talkend]
+[textcolor ARUJI]
+三河的目光變得銳利。[effect fr syutyu a 0 0]
+緊接著，旁邊的小草發出輕微的響動，搖晃起來。/
+[say A]
+[face A 03]
+主啊……！/
+[serif off]
+[scale A 2.0 0.3]
+[move A Y -200 0.3]
+[hide A 0.3]
+[-]
+[shakebg]
+[se dosa_01]
+[wait 0.5]
+[talkend]
+[-]
+[serif on 0.5]
+[effect off a]
+[textcolor ARUJI]
+在你意識到之前，你會感覺到你的身體正在漂浮。還有溫暖...
+三河的臉就在它旁邊。/
+[serif off]
+？ （哦，你被攔住了！？）/
+[serif on]
+[se animal_04]
+[se gasa_01]
+[textcolor ARUJI]
+一隻母貓和幾隻小貓從草叢中走出來。
+母貓抬起尾巴，似乎在威脅。/
+[show A]
+[scale A 2.0]
+[move A Y -200]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 08]
+[-]
+[bgm home]
+[serif on]
+[say A]
+[face A 01]
+……一隻貓？
+這股殺意，大概是因為他在想小貓吧。/
+[face A 02]
+現在就去吧。你也一樣，保護好自己到最後。/
+[hide A]
+[serif off]
+[se animal_05]
+[wait 1]
+[-]
+[se gasa_01]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+呼喊回應三河
+貓們離開了。/
+[show A]
+[face A 09]
+[scale A 1.5]
+[move A Y -100]
+[say A]
+……[wait 0.5]
+主啊，[face A 00]安全性已得到確認。我會把它拿下來。/
+[serif off]
+？抱著公主……哦，不重！ ？/
+[face A 09]
+[say A]
+[serif on]
+僅此而已，沒問題。/
+[serif off]
+[move A Y -50 0.4]
+[delay 1 move A Y 50 0.5]
+[talkend]
+[-]
+[se dosa_01]
+[serif on]
+[textcolor ARUJI]
+三河的手臂確實又粗又壯。
+他輕易地將我放倒在地。/
+[hide A]
+[serif off]
+？ @@為什麼P22@@在這裡？/
+[serif on]
+[show A]
+[face A 00]
+[move A X 10 0.5]
+[say A]
+我當時正在巡邏。
+你永遠不知道誰會在什麼時候進來。/
+[face A 09]
+[move A X 200 1.0]
+尤其是這裡，很少人經過。
+這就是為什麼我們必須更加關注。[move A X -200 1.0]/
+[serif off]
+？這是可靠的。/
+[serif on]
+[face A 01]
+……/
+[talkend]
+[textcolor ARUJI]
+我不會大聲說出來，但是
+無情三河看起來很高興。/
+[face A 08]
+[talk A]
+……主啊，從現在開始……
+我希望你把周遭環境的保護交給我。/
+所以下次你出去散步的時候，打電話給我。
+永遠跟隨主。/
+[talkend]
+[textcolor ARUJI]
+三河的眼神很嚴肅。/
+[serif off]
+？那我現在可以開始了嗎？/
+[face A 09]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[talk A]
+[serif on]
+……當然，我不介意。
+跟隨主去往他想去的地方。/
+[face A 01]
+我會保護我的主人...這樣你就可以感到安全。/
+[hide A]
+[serif off]
+[se walk_01]
+[bg black 2.0]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+之後一段時間
+我很喜歡和三河一起散步。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>201/
+[set A s_mik_r 三河]
+[set C s_mik_r 三河]
+[set B s_n001_r 夏人]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 三河の想い（毒見編）]
+[-]
+[bg heya_day]
+[-]
+[fadeout]
+[-]
+[autotap]/
+[se fusuma_01]
+[show A C]
+[move A X -100]
+[move A X 100 0.5]
+[face A 00]
+[say A]
+[bgm home]
+[-]
+[serif on]
+主啊。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+在皇宮悠閒地工作時
+三河 已抵達。/
+[waku on 0.5]
+[show C C]
+[face C 09]
+[scale C 1.6]
+[move C Y -120]
+[move C X -100]
+[move C X 150 8]
+[autotap]/
+[say C]
+…………/
+[face A 08]
+[talkend]
+[textcolor ARUJI]
+三河對周圍的環境很謹慎，但是
+這很常見。/
+[show A]
+[orderline C A]
+[hide C]
+[waku off 0.5]
+[say A]
+[face A 09]
+主啊，這是什麼？/
+[talkend]
+[textcolor ARUJI]
+三河正在看著桌上堆滿的糖果盒。
+問道。/
+[hide A]
+[serif off]
+？這是巧克力。我收到的東西。/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+今天是情人節
+這是我從 Chitama Danji 和六原的大家那裡得到的。/
+[show A]
+[face A 09]
+[say A]
+....我明白了.../
+[say A]
+[face A 08]
+你的毒物測試完成了嗎？/
+[serif off]
+[bgm off]
+[shakebg]
+？什麼，有毒的味道！ ？/
+[say A]
+[bgm fun]
+[serif on]
+[face A 00]
+啊，當然。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[say A]
+[face A 03]
+[flow]
+即使寄件者沒有惡意，其他人
+如果他們密謀置自己的主人於死地，那也不足為奇。/
+[say A]
+[face A 08]
+如果您還沒有測試過...
+交給我吧。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[face A 00]
+……如果中毒了，就去洗澡吧。
+沒關係。我想是的。/
+[talkend]
+[textcolor ARUJI]
+三河 繼續自然地說話。/
+[serif off]
+？你不必測試毒物.../
+[face A 09]
+[say A]
+[wait 0.5]
+[-]
+[serif on]
+………………/
+[say A]
+[move A X -150 0.5]
+[face A 08]
+……這是誰給我的？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+三河是一臉不服氣的巧克力。
+指向其中一個方框。/
+[serif off]
+？這是貓屋小姐嗎？/
+[show A C]
+[face A 03]
+[bg black 0.5]
+[delay 0.3 minibg emo_donyori 0.5]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+……很危險。/
+[say A]
+[flow]
+我不知道他有什麼計劃。/
+[say A]
+[face A 09]
+前幾天，他在一次任務中，試圖引誘他的主人出來。
+如果夏人不在的話會發生什麼事？/
+[delay 0.3 bg heya_day 0.5]
+[minibg off 0.5]
+[hide A]
+[talkend]
+[serif off]
+？我認為他只是想偷懶。/
+[serif on]
+[talkend]
+[se cloth_05]
+[textcolor ARUJI]
+不管怎樣，我開啟了貓屋給我的巧克力。
+它就像威士忌糖果。/
+[flow]
+[textcolor ARUJI]
+它具有強烈、刺鼻的酒精香氣。/
+[show A C]
+[face A 08]
+[say A]
+………………（帕庫）
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]/
+[talkend]
+[textcolor ARUJI]
+三河 沒問就給了我一塊圓形巧克力。
+我把它送到嘴邊。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 07]
+[say A]
+………………味道像興奮劑。
+……不過好像沒有毒。/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[say A]
+[face A 01]
+主啊。你可以吃這個。
+接下來是這個。/
+[serif off]
+？這是桃田的…/
+[say A]
+[bg black 0.5]
+[delay 0.3 minibg emo_donyori 0.5]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 03]
+[-]
+[serif on]
+……很危險。/
+[say A]
+[flow]
+他比貓野屋還厲害
+我不知道你在想什麼。/
+[say A]
+[flow]
+我一直想把主人引出來。
+目的是什麼.../
+[delay 0.3 bg heya_day 0.5]
+[minibg off 0.5]
+[hide A]
+[talkend]
+[serif off]
+？嘿。目的是什麼.../
+[serif on]
+[talkend]
+[textcolor ARUJI]
+不管怎樣，我開啟了桃田給我的巧克力。
+盒子裡有兩塊巧克力。/
+[show A C]
+[face A 08]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+……這是一根粗棍子。
+一看就有毒。
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]/
+[talkend]
+[textcolor ARUJI]
+三河毫不猶豫地往臉上塞了巧克力。/
+[face A 07]
+[shake A]
+[talkend]
+[textcolor ARUJI]
+三河嘴裡裝不下巧克力，
+當我把尖端含在嘴裡時，這是我能做的最好的事情。/
+[face A 06]
+[say A]
+嗯...[shake A]嗯...[wait 0.2]…[wait 0.2]…[wait 0.2]這很難.../
+[scale A 2 3]
+[move A Y -100 3]
+[autotap]/
+[face A 07]
+[talkend]
+[textcolor ARUJI]
+三河閉上眼睛，把棍子含在嘴裡。
+我拼命地想嚐嚐它的味道。/
+[serif off]
+？ ……正在顯示什麼？/
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[autotap]/
+[face A 06]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+過了一會兒三河ha，puha。
+我張開嘴唇喘口氣。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[say A]
+……哦，味道沒有什麼問題。
+好像沒有什麼問題……這個可以放心吃。/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[say A]
+[face A 09]
+接下來——/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[se fusuma_01]
+[show B C]
+[face B 01]
+[say B]
+[serif on]
+*P君，我可以打斷你嗎？/
+[serif off]
+?夏人/
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[autotap]/
+[face B 06]
+[say B]
+[serif on]
+嗯……我帶了巧克力。
+送給你在乎的人.../
+[show A L]
+[move A Y -100]
+[move A Y 100 0.5]
+[face A 05]
+[say A]
+....等等。[setline 0.5 A B]是不是又有點了？
+為什麼每個人都想給Choco？/
+[face B 10]
+[say B]
+為什麼……因為今天是情人節？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 03]
+[say A]
+巴倫坦...
+我要送巧克力給瓦倫丁嗎？/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 11]
+[say B]
+嗯。其實我覺得什麼都好。/
+[scale A 1.6 1]
+[move A XY -250 -120 1]
+[delay 0.3 hide A]
+[move B C 1]
+[scale B 1.6 1]
+[move B Y -120 1]
+[autotap]/
+[face B 06]
+這是表達感激之情的好機會。
+我想每個人都這樣做。/
+[face B 01]
+[flow]
+我也假裝是活動啊*P君。
+不知道這樣的事情他會不會高興…/
+[flow]
+[face B 06]
+我是在商店裡選的。/
+[face B 01]
+[hide B]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+夏人如此說道。
+他遞給我各種各樣的巧克力。/
+[serif off]
+？謝謝。也得到回報/
+[serif on]
+[show B C]
+[face B 06]
+[talkend]
+[se cloth_05]
+[textcolor ARUJI]
+我把準備好的巧克力遞給了夏人作為回禮。/
+[hide B]
+[-]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 04]
+[say A]
+……感情吧？ ……/
+[say A]
+[face A 08]
+……主啊，對不起。我要出去一會兒。/
+[move A X -300 0.8]
+[hide A]
+[se fusuma_02]
+[talkend]
+[serif off]
+？你不需要嚐嚐嗎？/
+[show B R]
+[scale B 1.6]
+[move B Y -120]
+[effect B syutyu a 0 200]
+[face B 17]
+[say B]
+[serif on]
+[se zukkoke_01]
+哈！ ？什麼，有毒的味道……！ ？[shake B]/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[effect off a]
+[bg heya_light]
+[hideall]
+[bgm off]
+[wait 0.5]
+[-]
+[fadeout 1.5]
+[-]
+[se amb_05]
+[wait 1]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+晚上，當我想著要睡覺的時候，
+三河的聲音從門的另一邊傳來。/
+@三河的聲音
+主啊。你醒了嗎？/
+[serif off]
+？ 三河？/
+[bgm night]
+[se fusuma_01]
+[show A C]
+[face A 04]
+[say A]
+[wait 0.5]
+[-]
+[serif on 0.5]
+……抱歉，白天的事。/
+[say A]
+[face A 03]
+[flow]
+我是大家對主的感情...
+我吃了很多。/
+[say A]
+[flow]
+[face A 04]
+我認為這不是一件好事。/
+[scale A 1.6 1.5]
+[move A Y -120 1.5]
+[autotap]/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+一邊說著，一邊臉色有些陰沉，
+三河遞給我巧克力。/
+[face A 06]
+[say A]
+詢問羽鳥，她似乎對糖果很瞭解。
+我買了一些巧克力。/
+[say A]
+[flow]
+……但它可能不是替代品。/
+[se kira_01]
+[effect fr kira a 0 0]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+三河的巧克力包裝精美。
+那是金色的巧克力。/
+[effect off a]
+[serif off]
+?我們一起吃飯吧/
+[effect off a]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[say A]
+[serif on]
+…………！[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif off]
+[face A 02]
+[wait 1]
+[-]
+[serif on 0.5]
+[say A]
+哦。如果主是這樣的話…/
+[talkend]
+[textcolor ARUJI]
+看起來輕鬆又開心
+三河的臉永遠不會被忘記。/
+[fadein BLACK 2.0]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+一起吃的巧克力充滿了三河的心情。
+非常香甜可口。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

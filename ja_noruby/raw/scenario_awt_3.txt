@@ -1,0 +1,1047 @@
+>>10000/
+@安房
+やあ少年。[wait 1.0]お互いの目的は一致するようだ。[autotap]/
+[delay 2.8]
+[flow]
+[-]
+@安房
+謎のお兄さんこと、[wait 1.0]安房が[wait 1.0]
+助太刀してあげよう。/
+>>10001/
+@安房
+どうやら少年には随分気に入られてしまったようだね。[wait 2.8]
+あっはっは。/
+>>1/
+[set A s_awt_r 安房]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+ふふ、少年に
+お兄さんのとっておきの場所を教えてあげよう。/
+[face A 07]
+今日紹介するのは「館山湾」だ。
+静かな水面から“鏡ヶ浦”なんて呼ばれている。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[flow]
+特に一面が真っ赤な夕日に染まったあの姿……[wait 0.5][face A 09]
+思い出すと、アガってくるよ。/
+[face A 00]
+ふふ……
+少年には少し、刺激が強すぎるかもしれないな。/
+>>2/
+[set A s_awt_r 安房]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+ふふ、
+少年にひとつ面白い話をしてあげよう。/
+[face A 00]
+妙の浦は、聖人誕生の際に鯛が群れ集まった
+という伝説から「鯛の浦」と呼ばれているんだ。/
+[face A 08]
+そして鯛の浦では、今も鯛が大漁に生息している。
+ふふ……[wait 0.5]「タイ」だけにな……/
+…………どうした？[wait 0.5][face A 00]
+ここは笑うところだぞ？　少年。/
+>>3/
+[set A s_awt_r 安房]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+お兄さんの好きな食べ物が知りたい？
+もちろん少年さ……と言いたいところだが。/
+[face A 00]
+新鮮なアジを使った孫茶が
+お兄さんの大好物なんだ。/
+[face A 07]
+[flow]
+美味なことはもちろん、時間を取られず
+サッと食べられるところが特に好きだ。/
+[face A 01]
+ふふ、お兄さんはこう見えて
+ちょっぴりせっかちなところがあるのさ。/
+>>4/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 @あやかし @NPC -awt]
+[show A C]
+[waku on]
+[show B C]
+[face A 08]
+[face B 00]
+[serif on]
+[talk A]
+[setline 0 B A]
+$B:Aか……/
+[move B X 500 1.5]
+[move A X -200 1.0]
+[face A 07]
+ふふ……動きと心構えは申し分ない……
+才能も……十分だな。/
+[face A 00]
+初めは少し恥ずかしがるかもしれないが、
+なぁに、すぐに慣れるだろう。/
+[waku off]
+[move A X 100 1.0]
+[face A 01]
+やぁ$B:A。どうだい？
+お兄さんと一緒に八犬士にならないか？[face B 05]/
+>>5/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 @NPC -awt]
+[show A C]
+[show B C]
+[face A 00]
+[face B 04]
+[serif on]
+[talk A]
+[setline A B]
+おや？　$B:A、随分と忙しそうだね。
+それは今日中の仕事なのかい？/
+[face A 01]
+……ふむふむ。[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]
+ならば、お兄さんが手伝ってあげよう！[face B 01]/
+[face A 08]
+と、言いたいところだが……[face B 05]/
+[face A 02]
+[move A X 50 1.0]
+せっかくだから、その困った顔を
+もう少し眺めていようかな……ふふっ。[face B 04]/
+>>6/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 @あやかし -awt -@NPC]
+[show A R]
+[move A X 300]
+[show B C]
+[face A 01]
+[face B 00]
+[move A X -150 1.0]
+[talk A]
+[order A 0]
+[order B 1]
+[-]
+[serif on]
+おやおや。おいしそうな匂いに誘われてくれば
+今日の厨房当番は$B:Aだったのか。/
+[move A X -100 0.5]
+[face A 08]
+……料理はもちろん、[face B 05]
+君も一緒にいただいてしまいたいね。[move B X -50 0.5]/
+[face B 06]
+[face A 02]
+……ふふ、冗談だ。/
+[face A 01]
+[face B 05]
+[move A X -50 0.3]
+だが、驚いたその表情を見ると……
+こちらも本気になってしまいそうだよ。/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_awt_r 安房]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[serif name]
+夜か……
+修羅が闊歩する時間だな。/
+[face A 07]
+[move A X 300 0.5]
+[hide A]
+[se walk_01]
+……少し、夜風にあたってこよう。/
+>>10/
+[set A s_awt_r 安房]
+[set B s_awt_r 安房]
+[show A C]
+[face A 09]
+[serif on]
+[talk A]
+今夜は月が美しいせいか、
+刀が暴れたがっているようだね……/
+[show B]
+[color B BLACK]
+[order B 0]
+[order A 1]
+[face A 08]
+どうか誰にも[hide A 1.0]
+出会いませんように……ふふ。[hide B]/
+>>11/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 -awt -@NPC]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[serif on]
+[talk A]
+[setline 0 A B]
+$B:A、今日の任務での働きはすばらしかったよ。
+ご褒美にお兄さんが[= 肩を揉んで マッサージして 全身ほぐして 指圧をして 肩甲骨剥がしをして]あげよう。/
+[face A 00]
+[move A X 100 0.5]
+なぁに、遠慮することないさ。
+このままお兄さんに身を任せていればいいからね。/
+[face A 08]
+[face B 06]
+ただし、
+気持ちよすぎて変な声を出さないように。[shake B]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_awt_r 安房]
+[randomset B b @地魂男児 @あやかし @NPC -awt]
+[show A C]
+[show B L]
+[face B 00]
+[serif on]
+[talk A]
+[setline]
+ぐふっ！！！[shake A]
+$B:A…………！！[face A 05]/
+[face A 06]
+[face B 05]
+湯上がりとはいえ、
+な、なんという格好を……！！[shake A]/
+[face B 06]
+さすがのお兄さんも
+普通ではいられないぞ……！！！/
+>>15/
+[set A s_awt_m 安房]
+[randomset B m @地魂男児 @あやかし -awt -@NPC]
+[show A R]
+[show B L]
+[face A 08]
+[face B 08]
+[serif on]
+[talk A]
+……はッ！　とぅ！！[effect fr katanas][se katana_02][delay 0.2 se katana_03][move A X 50 0.5]
+…………ふう。/
+[move A X -150 1.0]
+[face A 07]
+$B:A、
+今日はこれくらいにしようか。/
+[face A 09]
+[face B 05]
+これ以上は……
+本気になってしまいそうだからね。ふふ……/
+>>16/
+[set A s_awt_m 安房]
+[face A 01]
+[show A R]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+さぁさぁ、みんな訓練で疲れたろう。
+お兄さんお手製のまんじゅうを召し上がれ。/
+[face A 08]
+もちろん毒入りさ。/
+[face A 00]
+……ふふ、冗談だよ。/
+>>17/
+[set A s_awt_b 安房]
+[randomset B b @地魂男児 @あやかし -awt]
+[show A C]
+[show B L]
+[face A 01]
+[serif on]
+[talk A]
+はっはっはっ！
+皆、発育がよくて結構なことだ！[face B 06]/
+[face A 00]
+お兄さんは嬉しいぞ！/
+>>18/
+[set A s_awt_b 安房]
+[randomset B b @地魂男児 -awt -@NPC]
+[show A C]
+[move A Y -100]
+[face A 03]
+[serif on]
+[effect fr yuge a 0 0]
+[se amb_12]
+[talk A]
+ふむ？
+$B:Aの奴、あんなところに傷を負って。/
+ほう、よく見ればあそこにも。
+なるほど……一生懸命、戦っているんだな。/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……ふふ。
+そそるじゃないか。[se water_06]/
+>>19/
+[set A s_awt_b 安房]
+[show A C]
+[move A Y -100]
+[face A 07]
+[talk A]
+[se amb_12]
+[effect fr yuge a 0 0]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぅ～。風呂はいいね。
+特にここの風呂は景色がいい。/
+[face A 01]
+[se bath_04]
+どこを見ても、みんなのかわいいおしりに、
+かわいい…………[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]/
+[face A 02]
+いや、こちらは言葉にするものではないね。
+ふふ。[se water_06]/
+>>20/
+[set A s_awt_r 安房]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+ふふ。おしっこの後は、
+キチンと手を洗わないとね。/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……しかし水で洗った程度では
+消せない臭いもある……か。/
+>>21/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 @あやかし @NPC -awt]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[talk A]
+[setline 0 A B]
+やぁ、$B:A。いまからお兄さんと
+連れションにでも行こうじゃないか。/
+[face A 02]
+[move A X 50 0.3]
+なに、変なことはしない。
+ただ横から君のことを眺め、観察するだけさ。[face B 04]/
+[face A 01]
+君はいつもどおり、何も気にせず、ただ無防備に[face B 06]
+用を足せばいいのさ。はっはっは。/
+>>22/
+[set A s_awt_r 安房]
+[show A R]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+おや？[face A 05]
+今日は厠の中が随分きれいに整頓されているね。/
+[face A 08]
+替えの落とし紙に、便座除菌紙、積んである本……
+ふむ。/
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[-]
+[move A XY -10 -40 0.4]
+[delay 0.4 move A XY 10 40 0.3]
+[-]
+[rotate A 0 0.3]
+お兄さんは雑多な方が好きだから
+もう少しごちゃごちゃさせておこう。/
+[face A 02]
+ふふっ、
+整理してくれた子を怒らせてしまうかな？/
+>>23/
+[set A s_awt_r 安房]
+[show A C]
+[move A Y -100]
+[face A 07]
+[serif on]
+[talk A]
+いま、鍵を閉めずに厠に入っているが……/
+[face A 02]
+もしも、誰か入ってきたら
+いったいどんな顔をするかな……？　ふふふ。/
+>>24/
+[set A s_awt_r 安房]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+今日のお兄さんの寝床は真ん中のようだね。/
+[face A 02]
+ふふ……ふふふ……
+両腕にかわいい子を抱いて眠る……/
+[face A 01]
+まさに男の夢じゃないか！
+あっはっは！！[shake A]/
+>>25/
+[set A s_awt_r 安房]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+ぐふ……お兄さんに……任せなさい……ふふ……/
+[talkend]
+寝言のようだ。/
+>>26/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 @あやかし -awt -ymt -@NPC]
+[show A C]
+[show B C]
+[face A 02]
+[face B 04]
+[serif on]
+[talk A]
+[setline 0.5 A B]
+……おや、$B:A。
+うなされていたようだね。悪い夢でもみたのかい？[move A X 100 1.5]/
+[face A 01]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+よしよし。[face B 01]
+お兄さんがいるから大丈夫、大丈夫。/
+[face A 02]
+もし、また辛くて耐えられなくなったら
+いつでもお兄さんに言うんだよ。/
+[face A 09]
+すぐにお兄さんが
+楽にしてあげるから。[face B 05]/
+>>27/
+[set A s_awt_r 安房]
+[show A C]
+[face A 07]
+[talk A]
+?安房、ハレの日おめでとう！/
+[serif on]
+[face A 02]
+ふふ、少年からの祝いの言葉……
+実に嬉しいよ。/
+[face A 00]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+さて、なぜこの日をハレの日に選んだのか……
+と疑問に思ったことだろう。/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y- 5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -5 0.1]
+ふふ。クイズの時間だ。少年。
+その可愛い頭で精一杯考えてみるといい。/
+[face A 07]
+[serif off]
+[wait 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 02]
+[-]
+[serif on]
+……そうして考えるときに眉間にシワを寄せる
+少年の顔は実に良い。萌えるよ。/
+[face A 01]
+[flow]
+ふふ……こうしてずっと悩む少年を眺めて
+いたいとろだが……ヒントをあげよう。/
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[face A 04]
+謎に満ちたお兄さんにふさわしい日……というのは
+なかなか見つからなくてね。創作させてもらった。/
+[face A 08]
+[flow]
+お兄さんがいつも捜しているモノ……
+と言えば想像がつくかな？/
+[face A 07]
+……[wait 0.2]……[wait 0.2]……[wait 0.2]
+ふふ……[wait 0.2]そろそろ時間切れだ。少年。[face A 00]/
+[face A 02]
+お兄さんのハレの日。[wait 0.2]8月11日……
+そう、[wait 0.5]八匹の犬、[wait 0.2]さ。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+あっはっは！　少年のその顔が見たかった！
+最っ高だよ！　[wait 0.2]本当に可愛いな、きみは。[face A 02]/
+>>100/
+[set A s_awt_r 安房]
+[set B s_awt_r 安房]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 安房の挨拶]
+[-]
+[bg heya_night]
+[-]
+[fadeout 1.0]
+[-]
+[se amb_05]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+夜、ふと目が覚めた。
+今は一体何時だろう……/
+[se cloth_01]
+[flow]
+[textcolor ARUJI]
+そう思って近くに置いたスマホに手を
+伸ばしたが、なかなか見つからない。/
+[serif off]
+?どこにいったんだ……/
+[serif on]
+[se cloth_01]
+[textcolor ARUJI]
+目をこすりながら体を起こすと、
+突然誰かからスマホを手渡された。/
+@？？？
+やぁ少年。
+探しものはこれかい？/
+[serif off]
+?あ、安房！？/
+[show B]
+[color B BLACK]
+[wait 1.0]
+[show A C]
+[order A 1]
+[order B 0]
+[face A 00]
+[-]
+[talkend]
+[serif on]
+[bgm home]
+[textcolor ARUJI]
+不敵な笑みを浮かべた安房が
+枕元に座っていた。[hide B]/
+[face A 00]
+[say A]
+おはよう、少年。
+驚かせてしまったかな？/
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+少年の部屋を訪ねてみたところ、
+すやすやと眠っていたのでね。/
+[face A 02]
+[flow]
+お兄さんはこうして少年の
+無防備な寝顔を眺めていたというわけさ。/
+[face A 00]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[flow]
+こんな早い時間に床についているとは、
+思いの外いい子なのだね。/
+[face A 02]
+[flow]
+夜ふかしも楽しいぞ？　ふふ。/
+[serif off]
+?何か用事？/
+[move A Y -0 0.1]
+[face A 01]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[serif on]
+あっはっは。/
+[face A 00]
+[flow]
+寝起きとはいえ、そんなに
+冷たい返事をされるとお兄さんは悲しいぞ。/
+[talkend]
+[textcolor ARUJI]
+そう言いつつ、
+なぜか嬉しそうな表情の安房。/
+[serif off]
+[move A X 100 1.0]
+[face A 08]
+[talk A]
+[-]
+[serif on]
+何をしに来たか……[wait 0.5]そうだね。/
+[face A 07]
+[flow]
+皆が寝静まり、
+少年は布団の中に一人……/
+[move A X -50 1.0]
+[flow]
+そんな所に忍び寄るとは――/
+[face A 00]
+[flow]
+はたから見れば夜這いに来た、[wait 0.5]
+と思われても仕方のない状況じゃないか？/
+[face A 08]
+[scale A 1.5 0.5]
+[move A XY -50 -100 0.5]
+[se cloth_01]
+どうだい少年、[wait 0.5]お兄さんと二人で、
+これからオトナの時間を過ごすというのは。/
+[talkend]
+[textcolor ARUJI]
+安房が顔を近づけてくる。/
+[serif off]
+?夜這い！？　オトナの時間！！？/
+[face A 00]
+[talk A]
+[se cloth_02]
+[serif on]
+ふふ、たっぷり楽しもうじゃないか。/
+[serif off]
+[wait 1.0]
+[-]
+[face A 01]
+[scale A 1.0 0.5]
+[move A Y 100 0.5]
+[-]
+[serif on]
+……というのは、まぁ冗談さ。/
+[serif off]
+?……/
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+今日は挨拶に来ただけなんだ。
+少年のことをもっとよく知りたいからね。/
+[face A 09]
+[flow]
+だが、そんなに怯えた
+子猫のような表情をされると――/
+[serif off]
+[face A 08]
+[scale A 1.6 1.0]
+[move A Y -100 1.0]
+[se cloth_01]
+[-]
+[serif on]
+本当に襲いたくなってしまうぞ？　ふふ。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+そう言って安房が伸ばした手が
+頬に触れる。/
+[flow]
+[textcolor ARUJI]
+ニヤリと笑う安房の手は、
+ひんやりと冷たかった。/
+[show A]
+[face A 00]
+[talk A]
+少年は少しお疲れのようだね。
+……今日はぐっすり眠りたまえ。/
+[face A 08]
+[show B]
+[color B BLACK]
+[order A 1]
+[order B 0]
+また来るよ…………[hide A]夜に、ね。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se amb_13]
+[hideall]
+[-]
+[fadeout 1]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+風が吹いたと思うと、
+安房の姿はもうなかった。/
+[serif off]
+?……今のは夢だったのだろうか/
+[bg black 2.0]
+[-]
+[serif on]
+[textcolor ARUJI]
+そう思ったものの、
+後でスマホを確認すると――/
+[flow]
+[textcolor ARUJI]
+安房が撮ったであろう、自分の寝顔の
+写真が何枚も保存されていたのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_awt_r 安房]
+[set B s_awt_r 安房]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 安房との約束]
+[-]
+[bg heya_night]
+[-]
+[se amb_05]
+[fadeout 1.0]
+[-]
+[textcolor ARUJI]
+[serif on 0.5]
+[talkend]
+夜――
+室内にふっと風が吹いたような気がした。/
+[textcolor ARUJI]
+[flow]
+疲れて布団で寝転んでいたのだが
+いつの間にか眠っていたようだ。/
+[serif off]
+?目を開ける/
+[serif off]
+[show B]
+[color B BLACK]
+[wait 1.0]
+[show A C]
+[order A 1]
+[order B 0]
+[face A 00]
+[-]
+[talkend]
+[serif on]
+[bgm night]
+[textcolor ARUJI]
+顔を上げると、目の前には
+安房が笑みを浮かべて立っていた。[hide B]/
+[serif off]
+?安房/
+[face A 08]
+[talk A]
+[serif on]
+やぁ少年。/
+[face A 07]
+お兄さんの時間
+……つまり、夜が来たな。/
+[serif off]
+?……/
+[face A 03]
+[serif on]
+……？
+どうした、そんなに頬を膨らませて。/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 00]
+ハムスターのマネなら
+愛嬌があって実によろしい。ふふっ。/
+[serif off]
+?ちょっとおこってます/
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+む？　怒っている？
+……少年が？/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 04]
+どうしたんだ？
+お兄さんにはさっぱり見当もつかないが……/
+[fadein EHITE 0.5]
+[serif off 0.5]
+[-]
+[bg rouka_day]
+[waku on]
+[hideall]
+[bgm home]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+今朝のこと――/
+[serif off]
+?安房ちょっといい？/
+[show B C]
+[face B 00]
+[talk B]
+[-]
+[serif on]
+………………ふむ。
+この後、御座所に来るようにと？/
+[face B 07]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+やれやれ……白昼堂々呼び出しか。
+少年も中々に積極的なのだな。/
+[face B 01]
+[flow]
+わかった。少年の愛の告白を[se walk_01]
+楽しみにしているとしよう。[hide B]/
+[serif off]
+?任務の打ち合わせだから！/
+[fadein WHITE 0.5]
+[-]
+[hideall]
+[waku off]
+[bgm night]
+[bg heya_night]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show A C]
+[face A 03]
+[talk A]
+……ふむ。/
+[face A 04]
+朝方、御座所に来るよう
+約束をしていたと？/
+[face A 08]
+[flow]
+少年と、お兄さんがか？/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[face A 07]
+[serif on]
+……なるほど、それでお兄さんが
+約束をすっぽかした……[wait 0.5]と、こう言うわけだな。/
+[move A Y -0 0.1]
+[face A 01]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+あっはっは。
+それは悪いことをした。/
+[talkend]
+[textcolor ARUJI]
+いつものように大げさに笑う安房。/
+[face A 07]
+[talk A]
+しかし、約束をすっぽかされ、
+一人拗ねている少年の姿を想像すると――/
+[face A 00]
+[flow]
+可愛い……[wait 0.2]もとい、可哀想でたまらない。
+あぁ、心が痛むとも。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 04]
+[flow]
+昼間に来られなかったのは、そうだな……
+オトナの事情、というやつさ。/
+[face A 01]
+[flow]
+断じて忘れていたわけではないぞ？
+あっはっは。[move A Y -10 0.1][delay 0.1 move A Y 10 0.2][-][move A Y -10 0.1][delay 0.1 move A Y 10 0.2][-][move A Y -10 0.1][delay 0.1 move A Y 10 0.3]/
+[serif off]
+?……/
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+そんな顔をするな、少年。悪かった……
+こうみえて心から反省しているのさ。/
+[face A 02]
+[flow]
+それに、こうして来たじゃないか。
+朝方の「この後」は今も有効ではないのかい？/
+[face A 00]
+[flow]
+まだ眠るには少し早い時間だろう。
+さあ、話をしようじゃないか。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se cloth_01]
+[hideall]
+[bg heya_light]
+[light takibi]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+その後しばらくの間
+安房と任務についてじっくりと話した。/
+[flow]
+[textcolor ARUJI]
+安房は作戦の飲み込みも早く
+実戦能力も高いため任務では頼りになるのだが……/
+[show A]
+[face A 01]
+[scale A 1.6]
+[move A Y -100]
+[say A]
+わかった、お兄さんが力を貸そうじゃないか。
+大船に乗ったつもりでいたまえ、はっはっは。/
+[talkend]
+[textcolor ARUJI]
+のらりくらりとした態度に
+いつも少し不安になるのだった。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 07]
+[say A]
+……さて、これで話は終わりかな。
+すっかり夜も更けてしまったね。/
+[face A 08]
+[flow]
+少年はそろそろ眠ったほうがいいだろう。
+そうだ……/
+[light off 1]
+[bg heya_night 0.2]
+[autotap]/
+[face A 00]
+[se cloth_01]
+[flow]
+今日のお詫びに今宵はお兄さんが朝まで
+添い寝しながら、寝物語を聞かせてやろうか。/
+[face A 09]
+[flow]
+何か聞きたい話のリクエストはあるかな？
+大人の物語も大歓迎だぞ？　ふふ……/
+[face A 00]
+[se cloth_01]
+[scale A 2 1]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+そう言って安房はこちらに体を寄せる。/
+[serif off]
+?安房が好きな話をしていいよ/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[serif on]
+[face A 01]
+[say A]
+はっはっは、お兄さんの好きな話でいいのかい？
+少年も好きものだな……ふふ……/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+安房が笑うたびに、隣で揺れる小さな体から
+もふもふした温かさが伝わってくる。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+もちろん大人な話も大好きだが……
+そうだな……/
+[face A 08]
+[talk A]
+[flow]
+我が国が舞台の物語……
+「八犬伝」に興味はあるかな？/
+[face A 00]
+[flow]
+徳の玉を持った八犬士と呼ばれる若者たちが
+里見家再興のために戦う、壮大な物語だよ。/
+[serif off]
+?八犬士……/
+[face A 05]
+[serif on]
+おや、もしやその顔……
+すでに好きな八犬士がいるのかい？/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+…………なるほど。
+彼が好みとは、キミも好きものだな。/
+[face A 07]
+[flow]
+ふふ、では彼が大活躍する
+お話をしてあげよう、存分に楽んでくれたまえ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+安房の語りは想像以上にうまく
+抑揚をつけながら八犬士の話を聞かせてくれた。/
+[waku on 1]
+[bg black 2.0]
+[autotap]/
+[textcolor ARUJI]
+その結果――/
+[fadein black 0]
+[flow]
+[textcolor ARUJI]
+続きが気になって、また夜に安房が来るのが
+待ち遠しくなってしまったのだった。/
+[show A]
+[fadeout 1]
+[face A 00]
+[scale A 3]
+[autotap]/
+[say A]
+おや、眠ってしまったようだね。
+おやすみ、少年……/
+[fadein black 2]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 01]
+[flow]
+また「この後」、会おう。
+はっはっは。/
+[textcolor ARUJI]
+[talkend]
+そして、安房との約束には
+時刻まで指定しようと決意したのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

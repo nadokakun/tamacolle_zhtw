@@ -1,0 +1,1012 @@
+>>10000/
+@豐後
+富貴之地，二財合一，豐後nya。[wait 3.5]
+我討厭無用的東西。[autotap]/
+[delay 2]
+[flow]
+[-]
+@豐後
+好吧，如果有病人，我會去看他。/
+>>10001/
+@豐後
+喵！ ？我正在學習！[wait 3]
+生活就是學習！[autotap]/
+[delay 2]
+[flow]
+[-]
+@豐後
+現在就讓我回去吧！/
+>>1/
+[set A s_bun_r 豐後]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+主啊，你的臉看起來很疲憊。
+如果你幹擾我的任務，我會有麻煩。/
+[face A 01]
+……偶爾泡個溫泉，好好休息一下。
+你覺得怎麼樣？/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+既然我已經提到了，我想推薦一個地方。
+我想我會告訴你的。/
+[face A 01]
+豐後這個國家包括別府和由布院。
+溫泉數量多、來源多。/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+但要小心熱水周圍。
+凡事都要適度。/
+>>2/
+[set A s_bun_r 豐後]
+[show A C]
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[say A]
+坤坤...
+呵呵……今天的晚餐是烤魚。/
+[face A 02]
+其他的只要適合我胃就好了。
+Kabosu nya 烤魚。/
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[autotap]/
+[face A 03]
+我永遠不能放棄這個...
+主上也應該忘記卡博蘇吧。/
+>>3/
+[set A s_bun_r 豐後]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+樓主，你喜歡爬山嗎？
+爬山對身體有好處，所以推薦。/
+[face A 02]
+[flow]
+豐後由布嶽，也稱為富士山
+從山頂看到的景色確實很壯觀。/
+[face A 08]
+[flow]
+……然而，當你背對太陽時，它就變成了雲。
+顯然有時會出現巨人的影子…/
+[face A 02]
+[flow]
+呵呵。沒什麼好害怕的。
+這只是一種自然現象。/
+>>4/
+[set A s_bun_r 豐後]
+[show A C]
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+唷，真是浪費時間。
+要學的東西太多了。/
+[face A 08]
+我沒時間玩。
+我要在圖書館待到明天早上。[move A X 400 0.5][hide A][se walk_01]/
+>>5/
+[set A s_bun_r 豐後]
+[randomset B r @地魂男児 -bun @あやかし]
+[show A C]
+[show B C]
+[face A 08]
+[face B 07]
+[rotate B -60]
+[setline B A]
+[move A X 300]
+[move A X -300 0.5]
+[move B Y -100]
+[-]
+[serif on]
+[say A]
+嗯？　$B:A……
+為什麼躺在這種地方？/
+[rotate B 0 0.5]
+[move B Y 100 0.5]
+[face A 00]
+[face B 04]
+嗯，我覺得不太舒服…
+讓我看一下。[move A X -10 0.5]/
+[face A 05]
+[move A X 50 0.1]
+喵！這很嚴重。[shake A][face A 01]但不用擔心。
+我會在你的屁股上註射濃稠的、痛苦的注射劑。[shake B][face B 05]/
+[move B X -500 0.5]
+[hide B]
+[face A 02]
+尼亞哈哈。我想我是想開個玩笑。
+這對於假裝生病似乎很有效。/
+>>6/
+[set A s_bun_r 豐後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B C]
+[setline A B]
+[face A 08]
+[face B 01]
+[serif on]
+[say A]
+喵？　
+地魂少年之間的社交聚會？/
+[face A 00]
+[flow]
+我們每天都會在執行任務和訓練時見面。
+沒有必要特意去聚會。[face B 05]/
+[face A 08]
+[face B 04]
+[move A X -100 0.3]
+我不去。
+好吧，那些想做的人應該能夠為所欲為。[move A X -300 0.5][hide A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_bun_r 豐後]
+[randomset B r @地魂男児 @NPC @あやかし -bun]
+[show A C]
+[show B C]
+[face A 08]
+[face B 04]
+[serif on]
+[say A]
+[setline B A]
+讓我們從一個簡單的採訪開始。
+……。 …………。嗯……這個症狀是……
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]/
+[face A 00]
+[face B 01]
+$B:A哈[= 寝不足気味 食べ過ぎ 筋肉痛 食あたり 風邪 至って健康]喵。
+[= これを飲んでとっとと寝ろにゃ。 薬を出しておくにゃ。お大事にするにゃ。 とにかく寝ろにゃ。 詳しく検査するからまた明日来いにゃ。 ……前回より太ったようにゃ。]/
+>>10/
+[set A s_bun_r 豐後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B R]
+[move A 00]
+[face B 01]
+[serif on]
+[move A Y -100]
+[move B X 300]
+[move B X -300 0.8]
+[-]
+[move A Y 50 0.3]
+[face A 10]
+[say A]
+喵？[shake A]　你在讀什麼…Nyato？
+這是一本現代醫學書。/
+[face A 01]
+[face B 00]
+還有一些知識和概念我不知道。
+他們有很多。/
+[face A 02]
+[face B 02]
+Nyafufu，無論我學多少，我都學得不夠。/
+>>11/
+[set A s_bun_r 豐後]
+[randomset B r @地魂男児 -bun -@NPC]
+[show A R]
+[show B C]
+[face A 06]
+[face B 01]
+[move A X 600]
+[move A X -400 0.5]
+[serif on]
+[say A]
+廚房值班。今天的晚餐是nya...
+來點魚菜怎麼樣？[move A X -200 0.5]　我最近只吃肉。[face A 01]/
+[face B 02]
+[flow]
+沒錯……比如厚厚的比目魚。[wait 0.2]…[wait 0.2]…[wait 0.2]
+不，不[face A 10]這不是肉咖哩！[shake A 5 10 10]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_bun_r 豐後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B R]
+[move A X -400]
+[move A X 200 0.5]
+[face A 06]
+[face B 00]
+[serif on]
+[say A]
+哇，那真是垃圾。裡面只有裸照
+我不希望它被誤認為是春伽。/
+[face A 03]
+[face B 06]
+[flow]
+這只是一本醫學書。
+天哪。/
+[face A 10]
+……那張臉是什麼樣子的？ ？[shake A]
+這真的是一本醫學書！[shake A][move B X 200 0.5][face A 09]/
+>>15/
+[set A s_bun_r 豐後]
+[randomset B r @地魂男児 -bun -@NPC @あやかし]
+[show A C]
+[show B C]
+[face A 08]
+[face B 04]
+[serif on]
+[setline B A]
+[move A X 200]
+[move A X -200 0.5]
+[talk A]
+$B:A，你有什麼問題嗎？
+別再試圖減肥了。這是浪費時間。[face A 03]/
+[flow]
+[move A X -100 0.5]
+[se cloth_01]
+你越早表現出來，治療就越早結束。[shake B]
+……是的，沒關係……[face A 01][rotate A 10 0.5][move A Y -100 0.5]/
+>>16/
+[set A s_bun_r 豐後]
+[show A C]
+[face A 08]
+[serif on]
+[say A]
+[effect fr syutyu a 0 0]
+[se zuba_01]
+[shake A]
+[delay 0.4 effect fr canon 4000 0 0]
+[delay 0.5 se bomb_01]
+頭！喵！ ！/
+[face A 06]
+[effect off a]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+唷，其實你可以這樣利用你的身體來學習。
+有。我不能忽視它。/
+>>17/
+[set A s_bun_r 豐後]
+[randomset B r @地魂男児 -bun]
+[show A R]
+[show B C]
+[face A 01]
+[face B 01]
+[serif on]
+[move B Y -100]
+[move A X 300]
+[move A X -300 0.5]
+[say A]
+……$B:A，我感覺我的體重增加了。[move B Y 100 0.2][delay 0.2 move B Y -50 0.1][face B 05]
+你騙不了醫生的眼睛。/
+[move B Y 50 0.5]
+[move A L 0.6]
+[face B 04]
+[move B X 50 0.5]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+我經常踩體重計。[face A 10][shake A]……喵！ ？
+哎呀，不知不覺間我好像又胖了…[face A 09]/
+>>18/
+[set A s_bun_b 豐後]
+[show A C]
+[face A 02]
+[say A]
+[move A Y -50]
+[effect fr yuge A]
+[se amb_12]
+[se bath_04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]嘆息。熱水很好啊...
+太舒服了，我的鬍子都變得蓬鬆了…/
+[face A 01]
+溫泉療法對各種疾病都有效...
+慢慢來...[move A Y -100 0.5][se bath_02]/
+>>19/
+[set A s_bun_b 豐後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B C]
+[face A 08]
+[face B 01]
+[setline B A]
+[moveline A B 0 -50 0]
+[serif on]
+[talk A]
+[effect fr yuge A]
+[se amb_12]
+[se bath_05]
+$B:A。我還沒洗夠呢
+清洗並清潔每個角落。/
+[face A 03]
+[face B 05]
+[move A X -100 0.3]
+……還是一團糟。我暫時借給你吧。
+像這樣徹底清洗。
+[se bath_05]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+[se bath_03]
+[move B Y 50 0.2]
+[delay 0.2 move B X -600 0.4]
+[delay 0.2 hide B]
+[face B 06]
+[shake A]
+[-]
+[face A 06]
+……由於某種原因，我設法逃脫了……
+雖然乾淨，卻是個謎。/
+>>20/
+[set A s_bun_r 豐後]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[se bath_05]
+確保正確洗手和漱口。
+擦洗又擦洗...[shake A 3 0 20]擦洗又擦洗...[shake A 3 0 20]/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+以免將疾病傳染給別人
+首先，確保你不要太認真地對待它。/
+>>21/
+[set A s_bun_r 豐後]
+[show A C]
+[move A X -400]
+[move A X 400 0.5]
+[face A 04]
+[serif on]
+[say A]
+我不在乎它是大還是小。
+如果工作正常的話就沒有問題。/
+[face A 06]
+[flow]
+[scale A 1.6 0.2]
+[move A Y -140 0.2]
+[se taiko_01]
+身為醫生，我很擔心病情。
+如果不乾淨，就會生病！/
+>>22/
+[set A s_bun_r 豐後]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[move A Y -50]
+我真的很喜歡這個莊園的圍攻。
+這完全沒有意義。/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[flow]
+馬桶座圈的曲線美得像雕塑一樣。
+這還不是全部。功能美。/
+[face A 01]
+[flow]
+最有利於水流動的形狀
+我正在做…我可以永遠留在那裡…/
+>>23/
+[set A s_bun_r 豐後]
+[show A C]
+[face A 06]
+[serif on]
+[say A]
+[se door_01]
+[move A X -500]
+[move A X 500 1]
+……呼。私人房間很好。
+我不想讓任何人看到我.../
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+很容易洗掉所有東西並隨後清理。
+太清爽了！/
+>>24/
+[set A s_bun_r 豐後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B R]
+[face A 00]
+[move B X 600]
+[face B 00]
+[serif on]
+[talk A]
+[move B X -600 1]
+我很快就要睡覺了。
+啊？　$B:A有什麼用嗎？/
+[face A 08]
+[face B 01]
+什麼，石頭、剪刀、布來決定位置？
+這是浪費時間。[face A 03]不管睡在哪一張蒲團上，都是一樣的。/
+[move A Y -100 0.5]
+[face B 03]
+[delay 0.3 shake B]
+這就是我使用這個蒲團的原因...[move B XY -10 -40 0.4][rotate B 10 0.3]呀呀呀呀呀！[face A 09]
+明白了！[shake A][shake B]　一起來玩石頭、剪刀、佈吧！　[shake A][move B XY 10 40 0.5][delay 0.1 rotate B 0 0.5][rotate A -10 0.5]/
+>>25/
+[set A s_bun_r 豐後]
+[show A C]
+[face A 07]
+[rotate A -20]
+[move A Y -100]
+[serif on]
+[say A]
+嗚嗚嗚嗚嗚嗚.../
+[talkend]
+他的鬍子在抽搐。[shake A]/
+>>26/
+[set A s_bun_r 豐後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B C]
+[face A 09]
+[face B 07]
+[setline A B]
+[rotate A -20]
+[move A Y -100]
+[rotate B -20]
+[move B Y -100]
+[rotate A 0 0.5]
+[move A Y 100 0.5]
+[se cloth_06]
+[serif on]
+[say A]
+尼亞啊啊啊！ ？[shake A]/
+[face A 10]
+喵喵，
+$B:A也許我只是半睡半醒…/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+當他突然碰觸我的鬍鬚時，我感到很驚訝…/
+>>100/
+[set A s_bun_r 豐後]
+[set B s_n000_r 猫乃屋]
+[set C s_n001_r 夏人]
+[set D s_n004_r 百太]
+[set E s_bun_r 豐後]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 豐後の診療所]
+[-]
+[bg shirei_day]
+[se fusuma_01]
+[fadeout]
+[bgm rokuhara]
+[-]
+[serif on]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+在指揮室與夏人和他的朋友們會面…/
+[show C C]
+[move C Y -50]
+[face C 04]
+[say C]
+嗯.../
+[serif off]
+？你還好嗎？看起來病了/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 12]
+[serif on]
+是啊……我有點頭痛……
+可能是肩膀僵硬吧。/
+[show D L]
+[move D X -200]
+[move D X 200 0.5]
+[face D 01]
+[say D]
+[orderline C D]
+你還好嗎？我來揉揉你的肩膀，好嗎？[move D X 200 0.5]/
+[face C 15]
+[say C]
+[effect fr kira a 0 0]
+[se kira_01]
+哇[shake C]啊，感覺真好…/
+[show B R]
+[face B 10]
+[say B]
+[effect off a]
+我今天也不舒服。
+有點發燒，不是嗎？/
+[hide B]
+[hide C]
+[hide D]
+[talkend]
+[serif off]
+？我想知道有沒有藥.../
+[show D C]
+[face D 00]
+[scale D 1.6]
+[move D Y -120]
+[say D]
+[serif on]
+想想看，莊園內已經開了一家診所。
+你聽到了嗎？/
+[face D 08]
+[flow]
+我也有興趣，那你為什麼不去呢？/
+[serif off]
+？診所？我們走吧/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+跟著桃田沿著走廊走，找到一個直到前幾天都空著的房間。
+房間裡掛著一塊牌子，上面寫著「診所」。/
+[show B C]
+[show C C]
+[setline B C]
+[face B 10]
+[face C 10]
+[say C]
+說實話，有一家診所.../
+[hide B]
+[hide C]
+[talkend]
+[serif off]
+？對不起。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[bgm home]
+[se walk_01]
+[bg heya_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+[serif on]
+進入房間，空蕩蕩的房間有書桌、書架等。
+他被帶了進來，變成了一個小檢查室。/
+[serif off]
+[show A C]
+[face A 00]
+[-]
+[wait 0.5]
+[serif on 0.5]
+[say A]
+喵？是病人嗎？
+我會給你檢查，所以請輪到你坐在那裡。/
+[serif off]
+？ 豐後/
+[face A 01]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+尼安，主？
+還有六原那幫人。/
+[face A 04]
+[flow]
+所有這些都是完全不平衡的。/
+[show B R]
+[setline 0.5 A B]
+[face A 03]
+[face B 05]
+首先，Nekonoya……你無論如何都是在裝病。
+我不知道我還要來這裡多少次。/
+[show C R]
+[show D R]
+[setline 0.5 B C D]
+[move A X -200 0.5]
+[hide A]
+[face C 04]
+[face D 09]
+[orderline C B D]
+[say C]
+貓咪之屋桑…我覺得你最近一直逍遙法外…/
+[face B 02]
+[say B]
+不！[shake B]　不一樣了！　看起來像是發燒了！
+如果我感染了納豆他們就糟糕了！ ？/
+[hide B]
+[hide C]
+[hide D]
+[-]
+[show A C]
+[face A 08]
+[say A]
+[se cloth_01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+……[wait 0.2]……[wait 0.2]……[wait 0.2]常溫喵。
+哪裡熱？/
+[hide A]
+[-]
+[show C C]
+[show D C]
+[face C 03]
+[face D 09]
+[say C]
+[setline C D]
+…………/
+[show B L]
+[setline 0.5 B C D]
+[face B 06]
+[say B]
+哦，奧卡西娜！ ！/
+[hide B]
+[hide C]
+[hide D]
+[-]
+[show A C]
+[face A 04]
+[say A]
+留下貓咪也和犬堂奈吧…
+今天發生什麼事了？/
+[show C R]
+[orderline C A]
+[setline 0.5 A C]
+[face C 15]
+[say C]
+我真的頭痛得很厲害.../
+[face A 08]
+[say A]
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[scale C 1.6 0.5]
+[move C Y -140 0.5]
+[move A X 150 0.5]
+[se cloth_01]
+嗯。哪一個.../
+[hide A]
+[hide C]
+[talkend]
+[textcolor ARUJI]
+豐後快速觸碰夏人的頭部。/
+[show B C]
+[show D C]
+[setline B D]
+[face B 00]
+[face D 01]
+[say D]
+不愧是豐後-kun。
+我已經習慣了！/
+[hide B]
+[hide D]
+[-]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -140]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[bgm off]
+....這麼多。[wait 0.2]我們開始手術吧。/
+[hide A]
+[-]
+[show B C]
+[show C C]
+[show D C]
+[setline B C D]
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+[orderline C B D]
+[bgm fun]
+[face B 05]
+[face C 05]
+[face D 05]
+[say B]
+手術！ ？/
+[face C 09]
+[say C]
+為什麼為什麼！ ？[shake C]　你有什麼症狀？ ？/
+[show A L]
+[setline 0.5 B C D 200 1100]
+[move A X -150]
+[face A 02]
+[say A]
+反正開啟也很快。/
+[talkend]
+[serif off]
+？ 豐後站住！/
+[moveline B C D 300 0 0.5]
+[hide B]
+[hide C]
+[hide D]
+[move A C 0.5]
+[face A 05]
+[say A]
+[effect off a]
+[serif on]
+尼亞...我無能為力，尼亞。
+我應該使用頭痛藥嗎？[face A 00]/
+[show B R 0.2]
+[move B X 300]
+[move B X -300 0.2]
+[face B 10]
+[say B]
+不行，要藥就先給我藥！
+這是一件危險的事！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[say A]
+我有機會做一個切口...
+太糟糕了。/
+[hide A]
+[hide B]
+[talkend]
+[serif off]
+？作為最後的手段/
+[show A C]
+[face A 08]
+[say A]
+[serif on]
+紅熊怎麼了？
+從上到下看起來都很健康。/
+[show D R]
+[setline 0.5 A D]
+[face D 10]
+[orderline D A]
+[say D]
+我希望有一些藥物可以增強我的耐力。
+我想要它。/
+[show B R]
+[show C R]
+[setline 0.5 A D B C -150 1100]
+[orderline C B D A]
+[face B 03]
+[face C 04]
+[say B]
+嘿那裡！　[shake B]既然是關於你的，那一定意味著色情！
+不會被認定為性騷擾！/
+[face A 00]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+我們不處理這樣的事情。
+我希望相模成為實驗臺。/
+[face D 01]
+[say D]
+太可惜了。/
+[hide A]
+[hide B]
+[hide C]
+[hide D]
+[show E]
+[face E 08]
+[talk E]
+[scale E 1.6]
+[move E Y -140]
+那麼，主人到底怎麼了？
+啊？[shake E][se cloth_01]　……我覺得有點發燒。/
+[hide E]
+[show B C]
+[face B 05]
+[say B]
+啊？他不就是裝病嗎？[shake B]/
+[hide B]
+[-]
+[show A]
+[face A 08]
+[say A]
+就躺在床上吧。/
+[hide A]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+說著，我很快就被放到了床上，
+她的衣服被拉起，肚子和胸部都暴露出來。[shakebg][se cloth_06]/
+[show A C]
+[face A 08]
+[say A]
+[scale A 1.6]
+[move A Y -140]
+哼…/
+[hide A]
+[-]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+豐後 熟練地給我使用聽診器。/
+[textcolor ARUJI]
+[flow]
+用柔軟的爪墊對您的脅腹區域施加指壓壓力
+我聽到嬰兒拍打肚子的聲音。/
+[show B C]
+[show D C]
+[setline B D]
+[orderline D B]
+[face B 10]
+[face D 00]
+[say D]
+這是一次嚴肅的醫學檢查。/
+[face B 04]
+[say B]
+你的反應跟我當時的反應不一樣，不是嗎？
+畢竟，主是特殊的。/
+[show A L]
+[setline 0.5 A B D]
+[face A 08]
+[say A]
+沒關係。 Nekonoya一定也病得很厲害吧。
+我會好好檢查一下。/
+[hide A]
+[hide B]
+[hide D]
+[-]
+[show C]
+[face C 04]
+[say C]
+*P君怎麼樣了？
+....也許.../
+[serif off]
+？手術……？/
+[hide C]
+[-]
+[show A]
+[face A 01]
+[serif on]
+[say A]
+……對主來說，這似乎沒什麼大不了的。
+我喉嚨有點腫，我給你吃點藥吧。/
+[face A 02]
+[flow]
+我開始感冒了。
+如果你飯後喝這個，你很快就會感覺好起來。/
+[serif off]
+？我沒有意識到我感冒了....../
+[face A 01]
+[serif on]
+如果您以後感覺身體不適
+你可以隨時來。/
+[face A 03]
+[flow]
+……不過，一旦出現假病，他們就會被無情地趕出去。/
+[serif off]
+？謝謝。 豐後/
+[face A 10]
+[serif on]
+.....[shake A]
+不，我做了我作為一名醫生所期望的事情。[shake A]/
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[autotap]/
+[face A 09]
+[flow]
+嘿，病人吃點藥就睡覺吧。
+你也應該在喝的時候喝這個！/
+[hide A]
+[talkend]
+[se door_01]
+[textcolor ARUJI]
+豐後開啟冰箱，
+他拿出一個牛奶盒，裡面塞得很緊。[se cloth_06]/
+[show B C]
+[show C C]
+[show D C]
+[face B 01]
+[face C 01]
+[face D 01]
+[setline B C D]
+[orderline C B D]
+[say C]
+牛奶？/
+[hide B]
+[hide C]
+[hide D]
+[-]
+[show A C]
+[face A 00]
+[say A]
+牛奶是最好的營養來源。
+每人喝一包。/
+[face A 06]
+[flow]
+那麼，我很忙。
+好吧，我們回家吧！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[autotap]/
+[show B C]
+[show D C]
+[setline B D]
+[face B 00]
+[face D 08]
+[say D]
+[orderline D B]
+[serif on]
+哦，這牛奶真是新鮮又美味！/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 01]
+[say B]
+嗯...納豆*P也是
+我很高興你拿到藥了！/
+[face D 02]
+[say D]
+豐後-君看來還是可靠的~。/
+[hide B]
+[hide D]
+[show C C]
+[face C 04]
+[say C]
+………………/
+[waku on 0.5]
+（藥品費、莊園營運費等）
+　看來要堆積起來了…）/
+[hide C]
+[talkend]
+[textcolor ARUJI]
+夏人拿著收到的藥物，臉色有些陰沉。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

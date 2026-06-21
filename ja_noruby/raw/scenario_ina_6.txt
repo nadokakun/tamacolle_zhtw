@@ -1,0 +1,1379 @@
+>>10000/
+@因幡
+オレは山陰道の因幡！
+[autotap]/
+[delay 1.8]
+[flow]
+[-]
+@因幡
+えーっと、[wait 0.5]えーっと、[wait 2.0]
+とにかく、よろしくなんだぜ！/
+>>10001/
+@因幡
+えっと、[wait 0.5]また呼んでくれて嬉しいんだぜ！/
+>>1/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+あんた、ため息ついて……[wait 0.3]きっと疲れてるんだぜ
+[face A 01]たまにはゆっくり休んだ方がいいんだぜ！/
+[face A 00]
+オレのおすすめは……岩井温泉！　1300年も
+歴史がある、山陰最古湯なんだぜ/
+[scale A 1.5 0.5]
+[move A Y -60 0.5]
+ほらほら、あんたも手ぬぐいかぶって、
+一緒に歌おうぜ～！/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+やれやれやれ～♪/
+>>2/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif name]
+[serif on]
+[talk A]
+主、今日は雨がぱらぱら振ってるよな！
+水たまりが川みたいになってるぜ！/
+[face A 00]
+けど、扇ノ山から流れ落ちる大瀑布、
+雨滝の水はこんなもんじゃないんだぜ！/
+[serif off]
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -30 0.3]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A C 0.3]
+[-]
+[serif on]
+大迫力の雨滝の前で、オレの傘踊り！
+あんたに見せてやりたいぜ！/
+>>3/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif name]
+[serif on]
+[talk A]
+千貫松島には松の木が生えてるんだけど
+庭に移したら、[face A 05]なんと！　千貫ももらえるんだぜ！/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+オレも千貫松島の、
+松の木の木陰で寝てみたいぜ～/
+[face A 04]
+……でも、千貫松島は海の上……
+ワニがいるかもしんないし……/
+[face A 04]
+[shake A 3]
+オレ、絶対無理なんだぜ……/
+>>4/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif name]
+[serif on]
+[talk A]
+[move A X 100 0.5]
+[delay 0.5 move A X -200 1.0]
+[delay 1.5 move A X 100 0.5]
+うーん、うーん……
+朝飯は和食か洋食か……選ぶのか/
+うーん、ううーん……
+悩むぜ……/
+>>5/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 04]
+[serif name]
+[serif on]
+[talk A]
+じめじめしてると
+自慢の傘も、カビちゃうんだぜ……/
+[face A 01]
+天気のいい日は、傘干し日和なんだぜ！
+パリッパリになるんだぜ～！/
+>>6/
+[set A s_ina_r 因幡]
+[randomset B r @地魂男児 @あやかし @NPC -ina]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 00]
+[serif on]
+[talk A]
+[face B 01]
+なぁなぁ、$B:A！　[face A 01]「弁当忘れても、傘忘れるな！」
+って[face A 00]覚えておくんだぜ！/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+オレも傘の準備はバッチリなんだぜ……！
+でも、[face A 04]お弁当も忘れたくないんだぜ……[face B 04]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_ina_r 因幡]
+[randomset B r @地魂男児 @あやかし @NPC -ina]
+[show A L]
+[face A 00]
+[move A X 300 1.0]
+[-]
+[serif name]
+[serif on]
+[talk A]
+今日の日記つけるんだぜ……！
+[face A 03]んっと……んっと……/
+[face A 01]
+[= 「どの便所を使うか迷ってたら$B:Aが決めてくれた 「$B:Aとちょっとおしゃべりしたんだぜ 「$B:Aにお菓子もらったんだぜ 「$B:Aが訓練を見てくれたんだぜ 「夜、$B:Aと一緒に風呂に入ったんだぜ 「ご飯のとき、$B:Aが醤油取ってくれたんだぜ 「風呂で$B:Aが石鹸を貸してくれたんだぜ 「$B:Aが上着を貸してくれたんだぜ]
+[= 　$B:Aはすっごくイイやつなんだぜ！」 　$B:Aと明日も一緒にって約束したんだぜ！」 　今度はオレが$B:Aのために何かしたいぜ！」 　$B:Aにはすっごく感謝してるんだぜ！」 　$B:Aともっと仲良くなりたいぜ！」]
+/
+>>10/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+ふぁああ[shake A 2]……
+オレ、早寝なんだ～。/
+[face A 04]
+みんな、おやすみなんだぜ～。
+[move A X 300 1.5][delay 0.5 rotate A -40 1.0][delay 1.0 move A Y -300 0.5]/
+>>11/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 01]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif name]
+[serif on]
+[talk A]
+今日のご飯は
+「かれぃらいす」なんだぜ！/
+[face A 00]
+らっきょうがお腹いっぱい食べられて
+嬉しいぜ～！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif name]
+[serif on]
+[talk A]
+ワニに噛まれたら、
+一発で皮がむけちゃうんだぜ……/
+[face A 06]
+絶対……痛いんだぜ……[shake A 3]/
+>>15/
+[set A s_ina_m 因幡]
+[show A C]
+[face A 00]
+[serif name]
+[serif on]
+[talk A]
+今日は主が訓練しろって言ってくれたから
+頑張るんだぜ……！/
+[face A 03]
+強くなって役に立てるように
+なりたいんだぜ……！/
+>>16/
+[set A s_ina_m 因幡]
+[randomset B m @地魂男児 @あやかし @NPC -ina]
+[show A L]
+[face A 04]
+[move A X -300]
+[-]
+[move A X 500 1.2]
+[delay 1.2 move A X -200 0.5]
+[delay 1.7 move A X 200 0.5]
+[-]
+[serif name]
+[serif on]
+[talk A]
+よぉし……[face A 03]誰もいないぜ……
+今日は$B:Aの真似、してみるぜ……/
+[face A 08]……あんな風にカッコよく
+戦えるようになりたいぜ……/
+>>17/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+上から脱ぐか……下から脱ぐか[wait 0.7]……
+[face A 00][move A Y 100 0.1][delay 0.1 move A Y -100 0.2]そっか！閃いたぜ！/
+[face A 01]
+[move A Y -20 0.3]
+同時に脱げばいいんだぜ！
+[wait 0.4][move A Y 1000 0.5]とぅ！/
+>>18/
+[set A s_ina_b 因幡]
+[show A C]
+[face A 00]
+[effect fr yuge a 0 0]
+[se amb_12]
+[-]
+[face A 05]
+[move A X 300 0.5]
+[delay 0.5 move A X -200 0.5]
+[delay 1.0 move A X 200 0.5]
+[delay 0.8 face A 04]
+[-]
+[move A X -300 1.5]
+[face A 03]
+[serif on]
+[talk A]
+ここは戦場だぜ……！[se bath_03]
+洗い場は早いもの勝ち……/
+[face A 04]
+どこで洗おうか迷ってるうちに
+全部埋まっちゃうんだぜ……[shake A 3]辛いぜ……/
+>>19/
+[set A s_ina_b 因幡]
+[show A C]
+[face A 09]
+[se amb_12]
+[effect fr yuge a 0 0]
+[serif on]
+[talk A]
+[se bath_05]
+体中しっかり洗わないと……って
+言われたんだぜ……/
+[shake A 3]
+[face A 04]
+どんなふうに洗えば、
+しっかり洗うことになるんだぜ……/
+>>20/
+[set A s_ina_r 因幡]
+[randomset B r @地魂男児 @あやかし @NPC -ina]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 03]
+[serif on]
+[talk A]
+小便器がいくつも並んでると、
+どれ使えばいいかわかんなくて困るんだぜ……/
+[face A 01]
+[move A X 100 0.3]
+[move B X 10 0.5]
+[face B 05]
+だから$B:A、連れション行こうぜ！/
+[face A 01]
+[move A X 50 0.3]
+[move B X 10 0.5]
+連れションなら、使う便器を
+他の人が選んでくれるから助かるんだぜ！[face B 00]/
+[face A 02]
+ありがたいぜ！　$B:A！[face B 01]/
+>>21/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 09]
+[serif on]
+[talk A]
+（……こないだ、いきなり後ろから
+　触られたんだぜ……）/
+[face A 06]
+[shake A 2]
+（突然だったからどう反応すれば
+　いいのか迷ったぜ……）/
+>>22/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[move A Y -50]
+ふぅ……/
+[face A 01]
+[move A Y 80 0.2]
+[delay 0.2 move A Y -30 0.1]
+今日も健康なんだぜっ！/
+>>23/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+（んん……理由もなくドキドキ
+　してきちゃうときがあるんだぜ……）/
+[face A 06]
+[delay 0.5 move A Y -50 0.2]
+（……[wait 0.3]兎だから、
+　仕方ないんだぜ……）/
+>>24/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 08]
+[move A Y -200]
+[-]
+[face A 05]
+[move A Y 300 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+[talk A]
+は！
+目が覚めたぜ……/
+[face A 03]
+オレ、早起きだから……[face A 07]
+[rotate A -30 0.7][move A XY 300 -150 0.8]くかー……/
+>>25/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+ぐぅ……ぐぅ……[face A 03][wait 0.5]んん……歩いても歩いても……砂……
+[wait 0.5]砂丘から[face A 06]抜けられないんだぜ……うぅ……/
+[talkend]
+因幡はうなされているようだ。/
+>>26/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 04]
+[move A Y -80]
+[move A X -50 0.2]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[-]
+[move A Y 80 0.5]
+[serif on]
+[talk A]
+きょろきょろ……/
+[face A 06]
+よし……
+みんなが寝てるうちなんだぜ……/
+>>27/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 10]
+[wait 0.5]
+[-]
+?因幡、ハレの日おめでとう！/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+[-]
+[serif on]
+[say A]
+わっ、びっくりしたんだぜ！[shake A]
+そっかー今日オレのハレの日だったんだぜ……[face A 02]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+オレ……実はすごく迷ったんだぜ……
+自分で決めていいって言われてさ……/
+[say A 09]
+[move A X 100 0.5]
+えっと、1月22日はカレーの日……
+らっきょういっぱい食べれる日なんだぜ。/
+[move A X -200 0.8]
+[face A 03]
+それから3月3日はうさぎの日だろ。
+オレ、うさぎっぽいし……迷うぜ……
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]/
+[move A X 100 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[scale A 1.6 0.3]
+[move A Y -100 0.3]
+[face A 10]
+で、今日は……6月11日……へへっ。
+傘の日！[shake A][face A 01]　だぜ！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -30 0.3]
+[delay 0.3 move A Y 100 0.1]
+[delay 0.4 move A Y -100 0.2]
+[delay 0.3 move A X 30 0.3]
+[autotap]/
+弁当忘れても傘忘れるな！　って言うし
+傘踊りもあるし……やっぱり傘かなって。/
+[face A 02]
+猪森と隠岐が最後まで一緒に考えてくれたんだぜ。
+ふたりともすごくいい奴なんだぜ。/
+[serif off]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+でも、決めたあともこれでよかったかなって
+すっごく迷ってたんだけど……/
+[face A 02]
+[scale A 2 0.5]
+[move A Y -80 0.5]
+あんたがおめでとうって言ってくれたから……
+今日にしてよかった……って思ったんだぜ。/
+[face A 01]
+へへっ。ありがと！　主！/
+[serif off]
+?因幡の頭を撫でる/
+[se cloth_01]
+[shake A]
+[face A 06]
+[serif on]
+んっ。[shake A]/
+[flow]
+ん～～～……っ。[shake A]へへっ。[face A 01]ありがとっ！　
+なんかすっごく元気出たんだぜ！
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+これがハレの日のぷれぜんとってやつなんだな。
+来年がもっと楽しみになったんだぜ！/
+[face A 01]
+[wait 0.5]
+[autotap]/
+>>100/
+[set A s_ina_r 因幡]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 因幡の悩み]
+[-]
+[bg gozasyo_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+いつもより早く目が覚めたので、
+散歩に出かけてみた。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+外は雲ひとつない晴れ模様。
+あたたかな日差しが気持ちいい。/
+[serif off]
+?ん、あれは……/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bg niwa_day]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+中庭に鮮やかな模様の傘が
+ちょこんと見えた。/
+[serif off]
+?因幡、おはよう/
+[show A]
+[face A 05]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+わっ、主！
+おはようなんだぜ！/
+[face A 00]
+えっと、えっと……オレ……
+ちょうど今起きたとこだったんだぜ！/
+[face A 01]
+あんたも早起きなんだなぁ！/
+[talkend]
+[textcolor ARUJI]
+にっこりと笑顔の因幡。/
+[serif off]
+?因幡も早いね/
+[face A 10]
+[talk A]
+[serif on]
+へへ、オレはいつもこの時間に起きてるんだぜ。
+早起きは三文の得なんだぜ！/
+[face A 01]
+でも、早起きして……何してるか……
+……って聞かれても、何もしてないんだぜ！[move A Y 10 0.1][delay 0.1 move A Y -10 0.1][se taiko_01]/
+[serif off]
+?？？/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+あ、そうだ……聞いてみよっかな……[wait 0.5]あー……[move A X 50 1.0]
+……でもやめとこっか……なー……[move A X -50 1.0]うーん……[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]/
+[serif off]
+?え、何か聞きたいことがあるの？/
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+はっ！　声に出ちゃってたんだぜ……！[wait 0.5]
+うーん、[face A 09]別に何ってわけじゃないんだぜ……/
+[face A 04]
+ただ、その……なぁ……主、
+因幡国って、どこにあるか……知ってるか？/
+[serif off]
+?今で言う……鳥取県？/
+[face A 00]
+[serif on]
+……！[shake A]/
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[autotap]/
+そ、そうなんだぜ！[move A X 10 1.0]
+そっかー主は知ってるのかぁ……！/
+[face A 01]
+さすがなんだぜ！
+それでこそ、オレの主なんだぜ！/
+[serif off]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -30 0.3]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A C 0.3]
+[autotap]/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+因幡は傘をくるくる回しながら
+嬉しそうに飛び跳ねる。/
+[serif off]
+?何なのこのクイズ/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 10]
+[talk A]
+[serif on]
+へへ、主がオレの国のこと、
+知っててくれて、オレ、嬉しかったんだぜ。/
+[serif off]
+?そうなの？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[serif on]
+……オレもこの荘園で、任務とか手伝いとか、
+色々、頑張りたいんだけど……/
+[face A 04]
+何したらいいかさっぱり
+わかんないんだぜ……[move A Y -10 1.0]/
+[face A 10]
+[scale A 1.2 0.6]
+[move A Y -10 0.6]
+まずは……今日はこれから……[wait 0.5]
+オレ、何すればいい？/
+[face A 00]
+[scale A 1.4 0.6]
+[move A Y -20 0.6]
+それから……[wait 0.5]
+明日早起きしたら、何すればいい？/
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -20 0.5]
+あんたが決めてくれたら嬉しいんだぜ！/
+[scale A 1.8 0.4]
+[move A Y -20 0.4]
+なぁ！　どうなんだぜ！？/
+[scale A 2.0 0.3]
+[move A Y -20 0.3]
+[talkend]
+[textcolor ARUJI]
+ぐいぐいと近づき笑顔で答えを迫る因幡。/
+[serif off]
+?じゃあ……とりあえず一緒に散歩する？/
+[face A 10]
+[serif on]
+[say A]
+……！　[shake A]いいぜ！
+へへっ。[face A 01]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+因幡はぴったりとくっつくように
+すぐ横に並んで歩き出す。/
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[face A 04]
+[say A]
+あ……えっと……んーっと……
+…………でもなーうーーん……[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+何か言おうとしてやめる因幡。
+因幡の手がこちらに伸びては戻る。/
+[serif off]
+?手をつなぐ/
+[serif on]
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[say A]
+[face A 05]
+わっ！
+オレも手つなごうか迷ってたんだぜ……/
+[face A 09]
+あんたも……手つなぎたいって思ったのか？
+へへ、オレ……嬉しいぜ！[face A 02]/
+[se cloth_01]
+[talkend]
+[face A 01]
+[textcolor ARUJI]
+強く握り返してくる、小さな因幡の手は
+やわらかく暖かかった。/
+[fadein black 2]
+[autotap]/
+[hide A]
+[textcolor ARUJI]
+その後……因幡がいつまでも手を離そうと
+しないので、庭を何周も歩いたのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_ina_r 因幡]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 因幡国の美味しいもの]
+[-]
+[bg mbg_map]
+[minibg ima]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[se fusuma_01]
+[show A]
+[face A 05]
+[say A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[wait 0.5]
+[face A 00]
+[serif on 0.5]
+主～！/
+[talkend]
+[textcolor ARUJI]
+居間でお茶を飲みながらの休憩中、
+因幡に声をかけられた。/
+[serif off]
+?因幡/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[talk A]
+[serif on]
+こんなところに主がいるなんて
+珍しいんだぜ！　何してるんだ？/
+[serif off]
+?休憩だよ/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face A 10]
+[talk A]
+[-]
+[serif on]
+ふ～ん……
+いいと思うぜ！/
+[talkend]
+[textcolor ARUJI]
+その場で立ったまま じぃっ [wait 0.5]とこちらを
+見ている因幡。/
+[serif off]
+?……/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+じぃ[wait 0.2]…[wait 0.2]…[wait 0.2]…[wait 0.2]…[wait 0.2]/
+[serif off]
+?少しおしゃべりしようよ/
+[face A 05]
+[talk A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+い、いいのか……？[face A 02]
+オレ、嬉しいんだぜ！/
+[serif off]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -60 0.3]
+[scale A 1.3 0.3]
+[-]
+[hide A]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+因幡はピョンと跳ねると、
+そばに腰掛けた。/
+[show A C]
+[scale A 1.5]
+[move A Y -50]
+[face A 01]
+[talk A]
+へへへ！/
+[face A 10]
+……じゃあ、何話す？
+あんたが決めてくれよ！/
+[serif off]
+?因幡国の美味しいもの教えて/
+[face A 01]
+[serif on]
+いいぜ！！　[wait 0.5]えっと、[face A 04]
+お、オレの国の……美味しいもの……！/
+[face A 08]
+えっと……えっと、[shake A]
+そうだな……えーっと……[move A Y 20 0.4][delay 0.6 move A Y -20 0.5]/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+美味しいもの、いっぱいあるんだぜ！[wait 0.5]
+うーん[face A 09]……うーんと…………/
+[talkend]
+[textcolor ARUJI]
+因幡は考えながら、ちらちらと
+不安そうにこちらの様子を伺っている。/
+[serif off]
+?うん/
+[face A 04]
+[talk A]
+[serif on]
+えっと……[wait 0.5]お刺身……は……
+どの魚も美味しいんだぜ………/
+[face A 09]
+うーん、あと……後は……/
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……んーっと……[face A 05][move A Y 100 0.1][delay 0.1 move A Y -100 0.2]あっ、豆腐ちくわ！/
+[face A 01]
+豆腐ちくわは、すごく美味しいんだぜ！[wait 0.5][move A Y 20 0.4][delay 0.6 move A Y -20 0.2]
+……と[face A 09]思うんだけど……/
+[face A 01]
+えっと、とにかく美味しいぜ！！/
+[serif off]
+?食べてみたい/
+[face A 05]
+[shake A]
+[serif on]
+ほ、ほんとか！？/
+[effect A kira a 0 150]
+[face A 02]
+[talkend]
+[textcolor ARUJI]
+目を輝かせる因幡。/
+[scale A 1.8 1.0]
+[move A Y -50 1.0]
+[talk A]
+じゃ、じゃあ……えっと……その……/
+[effect off a]
+[face A 09]
+……/
+[serif off]
+[scale A 1.0 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -40 0.2]
+[-]
+[serif on]
+[face A 06]
+……あっ、お、オレ！
+用事があったの忘れてたんだぜ！/
+[face A 01]
+[move A X 100 0.3]
+そ、それじゃな、主！[se fusuma_02][move A Y 100 0.1][se walk_03][delay 0.1 move A Y -100 0.1][move A X 1000 0.7][hide A]/
+[serif off]
+?！？/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+因幡は突然一目散に走り去ってしまった。/
+[se walk_03]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bgm night]
+[hideall]
+[minibg off]
+[bg rouka_day]
+[-]
+[fadeout 0.5]
+[-]
+[show A R]
+[face A 06]
+[move A X 300]
+[move A C 0.5]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[talk A]
+[-]
+[serif on]
+はぁ……はぁ……はぁ……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[face A 04]
+[talk A]
+うぅ……[shake A]
+なんで思ってることうまく言えないんだろ。/
+[flow]
+他にも色々美味しいものオススメしたかったぜ……
+……それに……[wait 0.5]…………/
+[fadein WAHITE 0.5]
+[serif off 0.5]
+[-]
+[scale A 1.6]
+[move A Y -50]
+[minibg ima]
+[bg mbg_map]
+[waku on]
+[face A 01]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor BLUE]
+（じゃあ、今度一緒に食べにいこうぜ！）/
+[fadein WHITE 0.5]
+[serif off 0.5]
+[-]
+[minibg off]
+[bg rouka_day]
+[waku off]
+[scale A 1]
+[move A Y 50]
+[face A 03]
+[-]
+[fadeout 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ほんとは、そう言いたかったんだぜ……
+主に豆腐ちくわ食べてほしかったんだぜ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+因幡は小さくため息をつく。/
+[show A C]
+[face A 04]
+[talk A]
+はぁ……
+もっと自信、持てるようになりたいぜ……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[serif off]
+[hide A]
+?因幡/
+[show A]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+わっ！　あ、主……[wait 0.5]
+どうしたんだぜ？[face A 01]　[wait 0.5]なんか用事か？[face A 10]/
+[serif off]
+?今度一緒に豆腐ちくわ食べよう/
+[face A 05]
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.2]
+[move A Y -100 0.2]
+[-]
+[shakebg]
+[serif on]
+……っ！！！[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[effect off a]
+お、おう！　いいぜ！
+お腹いっぱい食べさせてあげるんだぜ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+へへ……あるじはやっぱりすごいんだぜ。/
+[serif off]
+?？/
+[fadein black 2]
+[autotap]/
+[talkend]
+[serif on 0.5]
+[textcolor ARUJI]
+その後、通販で豆腐ちくわをゲットして
+因幡と一緒に食べて過ごしたのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>201/
+[set A s_ina_r 因幡]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 因幡の甘い悩み]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+荘園の廊下を歩いていると――……/
+[serif off]
+?因幡だ/
+[show A C]
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[say A]
+[serif on 0.5]
+はぁ……/
+[talkend]
+[textcolor ARUJI]
+前方からため息を付きながら歩いてくる
+因幡の姿が見えた。/
+[serif off]
+[hide A]
+?因幡、どうかした？/
+[show A]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+わっ！　主！？
+ど、どうかしたかたって言われると……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+えっとえっと……うーん……/
+[face A 03]
+たしかにこういうときは主に聞くのが
+一番な気がするんだぜ……でもなー……うーん……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[serif off]
+?相談に乗るよ/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+[serif on]
+うーん……主に相談しちゃったら
+意味ないような気もするし……/
+[face A 06]
+でもやっぱり相談したほうがいい気もするし……
+うーーん、うぅぅーーーーーーん……[shake A]/
+[serif off]
+?それって――/
+[hide A]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+因幡が相談に迷っているのは秘密にしたいこと
+だからなのかもしれない。/
+[textcolor ARUJI]
+[flow]
+だが落ち込んだ様子の因幡をほうっておく
+こともできず、話を聞いてみることにした。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm fun]
+[-]
+[fadeout 1.5]
+[autotap]/
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+……実は主に、[wait 0.2]その……ちょ、チョコを
+渡そうと思って昨日のうちに買ってきたんだぜ！[shake A]/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 03]
+ただ……あれもいいんだぜ、これもいいんだぜって
+悩んでたら色々買っちゃって……/
+[face A 04]
+[flow]
+どれを渡したらいいか
+わかんなくなっちゃったんだぜ……/
+[serif off]
+?例えば、最初か最後に選んだやつにするとか/
+[face A 03]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+もう選んだ順番がわかんないんだぜ……
+すっごくいっぱいあるんだぜ……/
+[serif off]
+?じゃあ一番大きいのは？/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+一番大きいのか！　
+そっか、そういう手があるんだぜ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+あ……でも同じくらいのが
+何個もあるんだぜ……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+あれこれ提案してみるが、どれも決め手には
+ならないようだ。/
+[textcolor ARUJI]
+[show A]
+[scale A 2]
+[move A Y -180]
+[face A 09]
+[flow]
+どれかひとつに―……そう思いながら因幡を
+見ていると、ふと、天啓がひらめいた。/
+[face A 10]
+[serif off]
+?ちょっとここで待ってて/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg heya_day]
+[se walk_01]
+[wait 1]
+[-]
+[fadeout 1.5]
+[se fusuma_01]
+[-]
+[autotap]/
+[se goso_01]
+[wait 1]
+[playerno]
+[wait 1]
+[se cloth_06]
+[autotap]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg rouka_day]
+[se fusuma_01]
+[wait 1]
+[-]
+[fadeout 1.5]
+[se walk_01]
+[-]
+[autotap]/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[say A]
+[serif on]
+お、主！　お帰りなんだぜ！
+オレ、ちゃんとここで待ってたぜ！/
+[talkend]
+[textcolor ARUJI]
+因幡は先程の場所から１mmも動かず立っていた。/
+[serif off]
+[hide A]
+?因幡にうさぎ型の袋をあげる/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[effect fr kira a 0 0]
+[se kira_01]
+[say A]
+[serif on]
+！！　これっ、オレと同じうさぎなんだぜ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+なにかのおまけでついていた袋なのだが
+可愛いデザインだったので、取っておいたものだ。/
+[serif off]
+?この袋に詰めてみたらどうかな/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[effect off a]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+おお、すごいあいでぃあ、なんだぜ〜！/
+[face A 10]
+少しずつ詰めればいろんなチョコを
+食べてもらえるし、/
+[face A 01]
+どれを渡すか悩まなくていいんだぜ！
+その案いただきなんだぜ！/
+[face A 02]
+[shake A]
+…………主、その、
+あ、ありがとうなんだぜ！！/
+[talkend]
+[serif off]
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -30 0.3]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X 30 0.3]
+[-]
+[hide A]
+[-]
+[serif on]
+[textcolor ARUJI]
+因幡はちいさな尻尾をぴょこぴょこと
+愛らしく揺らしながら跳ねるように去っていった。/
+[serif off 1]
+[-]
+[bgm off]
+[hideall]
+[se amb_05]
+[bg sky_star 1]
+[-]
+[wait 2.5]
+[bg sky_day 1]
+[se amb_01]
+[-]
+[wait 3]
+[bg sky_sunset 1]
+[-]
+[se amb_04]
+[wait 3]
+[-]
+[bgm night]
+[bg heya_light 0.5]
+[wait 1]
+[-]
+[autotap]/
+[talkend]
+[serif on 0.5]
+[textcolor ARUJI]
+そろそろご飯をと思って顔を上げると/
+[show A L]
+[move A X -200]
+[face A 10]
+[rotate A -10]
+[say A]
+じぃぃー……/
+[talkend]
+[textcolor ARUJI]
+戸の隙間から因幡がじぃっと
+こちらを覗き込んでいた。/
+[serif off]
+?因幡？　入っておいで/
+[se fusuma_01]
+[face A 01]
+[move A C 1]
+[say A]
+[rotate A 0 0.5]
+[-]
+[serif on]
+おう！　お邪魔するんだぜ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+戸を開けると、そこには満面の笑みを浮かべた
+因幡が立っていた。/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+両手で抱えるのはうさぎ型の袋……ではあるのだが
+想像以上にパンパンになっている。/
+[flow]
+[textcolor ARUJI]
+耳の部分まで膨らんでいて、
+うさぎがだいぶ太ったように見える。/
+[show A]
+[face A 10]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+なんとか全部入ったぜ！/
+[talkend]
+[textcolor ARUJI]
+因幡はずっしりしたうさぎの袋をこちらに
+手渡してきた。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+主、はっぴーばれんたいん、なんだぜ！/
+[serif off]
+?こんなにもらっちゃってもいいの？/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[say A]
+[serif on]
+もちろんなんだぜ！
+……主のために、選んだんだぜ！/
+[serif off]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -30 0.3]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X 30 0.3]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+袋を受け取ると、因幡は嬉しそうに
+ぴょんぴょんと飛び跳ねた。/
+[serif off]
+?ありがとう/
+[hide A]
+[se cloth_01]
+[textcolor ARUJI]
+[serif on]
+袋はずっしりして、見た目よりもさらに重かった。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 10]
+[say A]
+へへっ。オレの中じゃどれも主にピッタリの
+チョコだから――……/
+[face A 01]
+[flow]
+買ったやつを全部開けて
+袋の中に入れたんだぜ！/
+[face A 09]
+同じのがたくさん入ってたやつは……
+隠岐とか但馬とかと一緒に食べたんだぜ。/
+[face A 10]
+[flow]
+でも、こうやってまとめるとさ、
+オレの気持ちが全部詰まってるみたいで……/
+[face A 02]
+[flow]
+すっごく嬉しいんだぜ！/
+[talkend]
+[textcolor ARUJI]
+昨日とは打って変わってニコニコ顔の因幡を見ると
+相談に乗ってあげてよかったと思った。/
+[move A X -300 0.5]
+[rotate A -10 0.5]
+[face A 01]
+[say A]
+[se fusuma_02]
+それじゃあオレは晩ごはんの手伝いしてくるんだぜ！
+またな主！/
+[bg rouka_night 0.5]
+[move A X -300 0.5]
+[hide A]
+[se fusuma_04]
+[talkend]
+[textcolor ARUJI]
+ぴょんぴょんと跳ねるように去っていく
+因幡の後ろ姿。/
+[textcolor ARUJI]
+[flow]
+小さく揺れる尻尾がやっぱり愛らしい。/
+[bg heya_light 0.5]
+[se cloth_01]
+[textcolor ARUJI]
+うさぎの袋を少し開いてみると色とりどりの
+チョコレートがぎっしりと詰まっていた。/
+[textcolor ARUJI]
+[se cloth_01]
+因幡が「これもいいんだぜ」「あれもいいんだぜ」
+と選んでくれた姿が目に浮かんで――……/
+[textcolor ARUJI]
+[flow]
+自然と頬が緩んでしまうのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

@@ -1,0 +1,1568 @@
+>>10000/
+@越後 
+オレは北陸道の越後っス。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@越後
+師匠！　[wait 0.3]一緒に鍛錬したいッス！/
+>>10001/
+@越後
+師匠！！！[wait 0.6]　嬉しくてオレ、[wait 0.5]感謝を込めて、[wait 0.6]
+また鍛錬してきますっ！/
+>>1/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+断崖絶壁と荒波が続く「親不知・子不知」は
+北陸道最大の難所と言われてます……！/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+親子の悲しい由来があって……
+[wait 0.2]そこを通る時はちょっぴり切なくなるんス。/
+[face A 08]
+師匠は……大丈夫ッス！
+[face A 01][move A Y 10 0.4][delay 0.4 move A Y -10 1.0]オレ、師匠の手、絶対離しませんから！/
+>>2/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 02]
+[shake A 2]
+[-]
+[serif name]
+[serif on]
+[talk A]
+笹団子、今は餡が入ってて
+甘くて美味しいッスねぇ！　癖になりそうッス！/
+[face A 06]
+ちなみに、中に何も入ってないのは
+「男だんご」[wait 0.3]なんて言うらしいッス！/
+[scale A 1.3 0.4]
+[move A Y -100 0.4]
+[face A 11]
+あ、師匠……
+食べかけッスけど……[wait 0.2][face A 12]一口どうッスか？/
+>>3/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+弥彦山の山嶺に鎮座する一宮の彌彦神社は、
+万葉集にも詠われてるくらい歴史のある神社ッス！/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+宝物の「志田大太刀」は七尺を超える
+大太刀ですごい迫力ッス！/
+[face A 08]
+いつかオレも、
+そんな武器を扱えるくらい強くなって……！[shake A 3]/
+[move A Y 100 0.1]
+[face A 11]
+[delay 0.1 move A Y -100 0.2]
+よし、早速鍛錬してきます！[move A X -800 0.5]/
+>>4/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 00]
+[move A Y -200]
+[-]
+[move A Y 300 0.3]
+[delay 0.3 move A Y -100 0.2]
+[-]
+[serif on]
+[talk A]
+朝ッス！　[rotate A 10 0.1][se cloth_01][move A X -400 0.5][delay 0.5 rotate A 0 0.1]布団をたたんで……！
+[move A X 400 0.3]そして……！　筋トレ開始ッス！/
+[flow]
+[face A 08]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.2]
+[delay 0.4 move A Y -100 0.2]
+[delay 0.6 move A Y 100 0.2]
+いっちに！　いっちに！
+[face A 01]毎日の鍛錬が強い肉体を作り上げるんッス！/
+>>5/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし @NPC -ecg]
+[show A R]
+[face A 13]
+[serif on]
+[talk A]
+うーん、鍛える場所がどうしても
+偏りがちになる気がするんスよね……/
+[face A 05]
+[show B L]
+[move B X -300]
+[move B X 150 1.0]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[order A 5]
+[order B 0]
+[talk A]
+[-]
+[face A 01]
+やっぱりこういう時には誰かに聞くのが
+一番ッスよね！　[move A X -200 0.3]$B:A、ちょっといいッスか？[face B 05]/
+>>6/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 00]
+[move A Y -100]
+[-]
+[scale A 1.2 0.2]
+[move A Y 80 0.2]
+[delay 0.2 move A Y -50 0.3]
+[serif name]
+[serif on]
+[talk A]
+……おかわり！！！
+[wait 0.4][move A Y -100 0.3][face A 02]もぐもぐもぐもぐ……[wait 0.3][scale A 1.8 0.2]おかわり！！/
+[flow]
+[scale A 1.0 0.2]
+[move A Y 200 0.2]
+[-]
+[shake A 3]
+[face A 05]
+あれっ？
+もうごはんなくなっちゃったんスか？/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし @NPC -ecg]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 02]
+[shake A 2]
+[serif on]
+[talk A]
+今日の晩ごはんも美味しいッスね～！/
+[flow]
+[face A 12]
+[face B 01]
+特に見てください！
+この白米のツヤツヤと美しいこと！/
+[flow]
+[shake A 3]
+[face A 02]
+ごはんをおかずにごはんがいけます！[face B 05]/
+>>10/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし @NPC -ecg]
+[randomset C r @地魂男児 @あやかし -@NPC -ecg -@NOW]
+[show A L]
+[show B R]
+[face B 04]
+[face A 00]
+[talk A]
+[-]
+[move A X 200 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A XY -20 -10 0.1]
+[-]
+[face A 13]
+[serif on]
+おや、$B:Aどうしたんスか？
+探しものッスか？/
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face B 06]
+[face A 00]
+あぁ、それなら見た覚えがありますよ。
+任せてください！/
+[flow]
+[face B 05]
+[face A 08]
+[= 玄関出て 司令室出て 厨房の前を抜けて 風呂場から出て 厠から出て 庭を抜けて 師匠の部屋を出て][= 左奥の石段の上から見える 廊下の突き当りを右に行った先の ふたつ目の部屋の 右にふたつ、左にひとつ曲がった先の 東に20、南に5進んだ先の 右の縁側の下の 竹馬に乗ったときにちょうど見える]
+[= 白い棚の中に 書類の束の中に 池のそばに 箱の中に 草むらの中に 杉の木の下に $Cの脱いだ服の下に 洗濯物に混じって]置いてあった気がしますよ！[se zukkoke_02][shakebg]/
+[flow]
+[face B 01]
+[face A 01]
+オレ、記憶には自信あるんで
+間違いないと思います！[move B X 500 0.3][hide B][se walk_03]/
+>>11/
+[set A s_ecg_r 越後]
+[show A]
+[move A Y -100]
+[move A Y 200 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 01]
+[-]
+[serif on]
+[talk A]
+夜ッスね！　布団を敷いて寝る前に、
+一日の締めの鍛錬、します！/
+[face A 08]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.2]
+[-]
+[move A X -100 0.2]
+[delay 0.2 move A X 100 0.2]
+[-]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.2]
+[-]
+[move A X -100 0.2]
+[delay 0.2 move A X 100 0.2]
+[-]
+いっちに！　いっちに！
+それ！　肉体に追い込みかけて……！！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 11]
+…………！
+……っはーーーーっ！　終わりました！！/
+[face A 05]
+あっ、しまった……
+汗かいたからまた風呂に入らないと……/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし @NPC -ecg -wak]
+[show A]
+[face A 09]
+[serif on]
+[talk A]
+うぅ……$B:Aに
+助平な話、聞いちゃいました……/
+[face A 06]
+どきどきして、つらい夜もあります……
+でも……心に誓った生涯不犯……/
+[face A 11]
+それを曲げるつもりはありません！！[shake A]/
+>>15/
+[set A s_ecg_m 越後]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+昨日教えてもらった戦い方を練習してみます……
+[move A XY 100 -50 0.2]相手の攻撃をかわしながら……/
+[flow]
+[effect bk syutyu 4000]
+[move A X -100 0.1]
+[scale A 2.5]
+[move A Y -400]
+[face A 03]
+狙いを定めて……
+[wait 0.3]撃つ！/
+[shake A 5]
+[wait 0.3]
+[talkend]
+[serif off]
+[fadein WHITE 0.3]
+[wait 0.3]
+[fadeout]
+[scale A 1.0]
+[move A Y 450]
+[face A 10]
+[-]
+[serif on]
+[talk A]
+……[wait 0.3]オレは遠距離武器じゃなかったッス。
+[wait 0.3]いっそ刀投げるとか……？/
+>>16/
+[set A s_ecg_m 越後]
+[randomset B m @地魂男児 @あやかし @NPC -ecg]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+この練習用のカカシちょっと立て付け
+悪いッスね。多分ここのネジが緩んで……/
+[flow]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[face A 05]
+[show B R]
+[move B X 500]
+[face B 05]
+[talk A]
+あっ……[shake A 3][se doka_01]あわわわ……壊れた……！
+[move B X -500 0.6]あっ$B:A……[wait 0.3]こ、これは……その……/
+[flow]
+[face A 04]
+……/
+[face A 10]
+[hide B 0]
+[-]
+[scale A 1.5]
+[move A Y -150]
+オレが壊しました！[shake A 3]/
+>>17/
+[set A s_ecg_b 越後]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+裸の時
+頼れるのは己の肉体のみ……/
+[flow]
+[face A 03]
+[shake A 3]
+ほら！
+皆も鍛錬しましょう！！/
+>>18/
+[set A s_ecg_b 越後]
+[randomset B b @地魂男児 @あやかし -@NPC -ecg]
+[show B C]
+[show A C]
+[talk A]
+[se amb_12]
+[effect fr yuge a 0 0]
+[move B Y -150]
+[move A Y -110]
+[setline 0 A B]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……服を脱いでみると皆、
+意外と鍛えてるんスね……/
+[flow]
+[face A 11]
+[shake A 3]
+オレも負けてられないッス！[se water_06]/
+>>19/
+[set A s_ecg_b 越後]
+[randomset B b @地魂男児 @あやかし @NPC -ecg]
+[show B R]
+[show A C]
+[se amb_12]
+[effect fr yuge a 0 0]
+[move A Y -150]
+[move B Y -110]
+[setline A B]
+[talk A]
+[serif on]
+[face A 06]
+う……うぅ……[shake A]
+今日の鍛錬で負荷をかけすぎたせいッスかね……/
+[flow]
+[face A 11]
+[move A Y -20 1.0]
+身体が妙に火照って……
+妙に元気というか……[face B 05][move B Y 10 0.1][delay 0.1 move B Y -10 0.1]/
+[face B 06]
+[move A Y -10 1.0]
+[face A 09]
+今日は早めに上がって
+休んだ方が良さそうッスね……[se bath_01]/
+>>20/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし @NPC -ecg]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 04]
+[serif on]
+[se pee_01]
+[talk A]
+尿意に振り回されると戦いの時に不利だと思って、
+ここも鍛えようと思ったんス。/
+[flow]
+[face B 05]
+[shake A 3]
+だから、できる限り厠を我慢してたんスけど……
+[face A 11][wait 0.5]おねしょしそうな予感がしたんで、[face B 01]諦めました……/
+>>21/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 10]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[talk A]
+[serif on]
+今日はちょっと身体が
+落ち着かないッスねぇ……/
+[face A 08]
+でも、このくらいの昂り……
+制してみせます！！！[se pee_01]/
+[face A 05]
+あああああああっ！！
+ちょっとはずしちゃいましたぁ！！[shake A]/
+>>22/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 08]
+[move A Y -50]
+[serif on]
+[talk A]
+個室にいる間も
+握力は鍛えられるんス。/
+[flow]
+[face A 01]
+両手ともに後10セットずつ
+終わらないと出ないッス……！/
+>>23/
+[set A s_ecg_r 越後]
+[show A C]
+[effect fr yuge a 0 0]
+[face A 08]
+[-]
+[talk A]
+[serif on]
+ふぅ……ふぅ……[shake A]
+個室の中でも鍛錬は怠りません……！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 11]
+はぁ……はぁ……さ、サウナみたいに
+なってきちゃいました……/
+>>24/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 08]
+[serif name]
+[serif on]
+[talk A]
+「武士の鎧の袖をかたしきて
+　枕にちかき初雁のこゑ」/
+[face A 11]
+[shake A 3]
+……明日は出陣……
+ワクワクして眠れないッス……/
+>>25/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 07]
+[serif name]
+[serif on]
+[talk A]
+腹筋、百万回達成ッス……
+へへへ……むにゃ……/
+[talkend]
+夢の中でも鍛えているようだ。/
+>>26/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし -@NPC -ecg]
+[show A C]
+[show B R]
+[setline]
+[face A 07]
+[face B 07]
+[move B X -220 1.0]
+[se cloth_02]
+[talk A]
+[order A 0]
+[order B 1]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[face A 05]
+うわぁぁあっ！　$B:A！？
+急に抱きついてきてなんなんスか！？/
+[se cloth_01]
+[shake A]
+[face A 09]
+わ、わ、わ、わ！　いつも言ってるけど、
+オレは生涯不犯を誓って……/
+[face A 11]
+[move A X -100 0.3]
+[rotate A 20 0.3]
+[se zukkoke_02]
+って、寝てますねこれ！[shake A]/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+もう……
+いくらなんでも寝相悪すぎッスよ……/
+[face A 06]
+うぅ……ワザとじゃないとは言え、
+ドキドキが収まらないッス……[shake A]/
+>>27/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 00]
+[talk A]
+?越後、ハレの日おめでとう！/
+[face A 02]
+[serif on 0.5]
+師匠！[shake A]　ありがとうございます！/
+[face A 01]
+今日はオレのハレの日……[shake A]ってことで
+いつもより多く鍛錬をこなしていました！[face A 08]/
+[face A 12]
+いっぱい鍛錬して、お風呂で汗を流して……
+そうするとアレが何倍も美味くなるんス！/
+[face A 08]
+師匠……今日は何の日か、ご存知ッスか？
+……10月25日……そう……もちろん――/
+[face A 11]
+「いいお米、[shakebg][se taiko_01][wait 0.2]にいがた　コシヒカリ　こいしぶき」[shakebg][se taiko_01][wait 0.2]
+の日ッス！[shake A][se taiko_02]/
+[face A 12]
+あの炊きたてのお米のつやつやっぷり……
+想像するとよだれがでてきちゃいますよね。/
+[face A 01]
+そうだ、オレがさっき握ってきた
+おにぎり、一緒にいかがですか？/
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[face A 12]
+お米本来の味を楽しめる塩むすびと
+具入りのもの、一つずつありますよ！/
+[serif off]
+?おにぎりを一つとって食べる/
+[face A 09]
+[serif on]
+……お味はいかがッスか？[shake A]
+ではオレも、[move A XY 10 -40 0.4][rotate A -10 0.3][delay 0.4 move A XY -10 40 0.3][delay 0.5 rotate A 0 0.3][face A 11]いただきます……もぐもぐ……[se eat_01]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[se kira_01]
+[effect fr kira 4000 0 0]
+[face A 02]
+うん！　やっぱり、うまいッス！[shake A][wait 0.2]
+……あの、[face A 09]師匠、まだお腹空いてますか？/
+[face A 01]
+オレ、師匠のためならいくらでも握りますよ！
+……[wait 0.5][face A 11]な、なんて……！[shake A]/
+[serif off]
+?おかわり！/
+[serif on]
+[face A 05]
+……！[shake A 5 10 10]　はい！[face A 02][move A Y 5 0.2][delay 0.2 move A Y -10 0.6][delay 0.8 move A Y 5 0.5]
+では厨に行きましょう！/
+>>100/
+[set A s_ecg_r 越後]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 越後の鍛錬]
+[-]
+[bgm home]
+[bg rouka_day]
+[se amb_01]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+朝、廊下を歩いていると
+庭の方から声が聞こえてきた。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se walk_01]
+[bg niwa_day]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+見に行ってみると、
+越後が何かしているようだ。/
+[serif off]
+?越後/
+[show A C]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.1]
+[face A 00]
+[talk A]
+[-]
+[serif on]
+あ、師匠！　おはようございます！！
+散歩ッスか？　いい天気ッスもんねぇ！！/
+[serif off]
+?越後は何してるの？/
+[face A 01]
+[serif on]
+オレは今、この米俵を抱えて、
+スクワットをしてたところッスよ！[shakeBG][se dosa_01]/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+早く師匠に一人前だと認めてもらえるよう、
+鍛錬は欠かしません！/
+[serif off]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.1]
+[-]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.1]
+[-]
+[serif on]
+ほら、こんな風に！
+いっちに！　いっちに！！[move A Y -100 0.2][delay 0.2 move A Y 100 0.1]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+越後は米俵を抱えたまま
+軽快なペースでスクワットをしてみせた。/
+[serif off]
+?すごい……/
+[show A C]
+[face A 02]
+[talk A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+へへ、師匠に褒めてもらえて嬉しいッス！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 10]
+うちの兄弟……北陸道の地魂男児は、みんな
+個性的と言うか、結構尖ってるとこあるんスけど、/
+[flow]
+オレには、
+取り立てて特別なところとかもないんで……/
+[face A 08]
+[flow]
+[effect A syutyu a 0 150]
+だから……せめて！
+筋肉では負けないつもりッス！！/
+[talkend]
+[textcolor ARUJI]
+越後の表情は真剣そのものだ。/
+[effect off a]
+[face A 09]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+あの……師匠、ど、どうッスかね……
+オレ、ちゃんと筋肉強化できてますか……？/
+[talkend]
+[textcolor ARUJI]
+そう言って力こぶを作る越後。/
+[textcolor ARUJI]
+触って確認してみると、
+越後の腕は太く、たくましい。/
+[serif off]
+?いい感じだと思う/
+[face A 02]
+[talk A]
+[serif on]
+ほ、本当ッスか……！/
+[face A 11]
+よーし！
+この調子でどんどん鍛えていきますよ！/
+[face A 12]
+あ、そうだ！
+師匠、[face A 09]あの……よかったら……[wait 0.5]なんスけど……/
+[face A 11]
+オレのわがまま、
+一つ聞いてもらえないでしょうか。[shake A 5 2 2]/
+[serif off]
+?いいけど、どんなの？/
+[face A 11]
+[effect A syutyu a 0 150]
+[serif on]
+師匠に、お、オレと一緒に……[wait 0.5]
+た、鍛錬、して欲しいッス！！！[se taiko_02]/
+[effect off a]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+越後の横の大きな米俵を見る。
+ものすごく重そうだ。/
+[serif off]
+?……ごめん。やっぱ無理かも/
+[show A]
+[face A 05]
+[talk A]
+[shake A]
+[serif on]
+え、えええ……っそ、そう言わず！[face A 04][scale A 1.5 0.3][move A Y -130 0.3]/
+[move A Y 100 0.1]
+[delay 0.1 move A Y 30 0.2]
+[scale A 1.0 0.3]
+[face A 05]
+あっ！　もちろん師匠は米俵を持ち上げたり
+なんかしなくても大丈夫ッス！/
+[face A 11]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+その、腹筋するときに、
+足、支えてくれるだけでいいんスけど……/
+[flow]
+師匠がいてくれるなら、オレ……/
+[face A 00]
+腹筋、千回でも、一万回でも、
+頑張れるだろうなー……って……！/
+[talkend]
+[textcolor ARUJI]
+じっとこちらを見つめる越後。/
+[serif off]
+?そういうことなら。いいよ/
+[face A 02]
+[talk A]
+[serif on]
+……！[shake A]
+あ、ありがとうございます！！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+越後は深々と頭を下げた。/
+[show A C]
+[face A 00]
+[talk A]
+もし師匠からも、何かおすすめの
+鍛錬方法があったら教えて欲しいッス！/
+[face A 08]
+[shake A]
+うおおおお！
+燃えてきましたぁ！！！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+やる気満々の越後であった。/
+[bg black 1.0]
+[textcolor ARUJI]
+その後、昼食まで越後の
+トレーニングに付き合ってあげた。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_ecg_r 越後]
+[set B s_n001_r 夏人]
+[set C s_n000_r 猫乃屋]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 越後と責任]
+[-]
+[bg gozasyo_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+今日は午後から夏人と猫乃屋と
+打ち合わせがある。/
+[flow]
+[textcolor ARUJI]
+今回は夏人がまとめた資料を元に、次の任務で
+派遣する地魂男児の選定を行うことになっている。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+昼食を簡単に済ませ、司令室に向かって
+廊下を歩いていると……/
+@？？？
+うわわわっ！/
+[se doka_02]
+[shakebg]
+[delay 0.2 se wood_03]
+[delay 0.6 se crash_04]
+（ドカーン！！　ガラガラガラ！！）/
+[textcolor ARUJI]
+突然、悲鳴とともに大きな衝撃音がした。/
+[serif off]
+?今の声は……/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se walk_02]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+声のした方へ行ってみると、
+夏人と越後がバタリと倒れていた。/
+[show A C]
+[show B C]
+[move A Y -50]
+[move B Y -50]
+[face A 10]
+[face B 09]
+[setline 0 B A]
+[shake A]
+[shake B]
+うぅ……/
+[serif off]
+?い、いったいこれは……/
+[talk A]
+[move A Y 50 1.0]
+[-]
+[serif on]
+う……その……
+食器の片付けを頼まれて運んでたんスけど、/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+角から夏人くんが来るのに
+気づかなくてぶつかってしまって……/
+[talkend]
+[textcolor ARUJI]
+周囲には食器や書類が散らばっていた。/
+[face A 04]
+[talk A]
+[shake A]
+うぅ……すみません夏人くん。/
+[move B Y 50 1.0]
+[autotap]/
+[face B 06]
+[talk B]
+いや、僕の方こそ……[wait 0.5]打ち合わせのために
+色々準備しなきゃって慌ててたから……/
+[se paper_01]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+ふぅ。よいしょっと。/
+[move B XY -10 -40 0.4]
+[rotate B -10 0.3]
+[se paper_01]
+[-]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se paper_01]
+[move B XY 10 40 0.3]
+[rotate B 0 0.3]
+[talkend]
+[textcolor ARUJI]
+越後と夏人は立ち上がると、
+散らばった物を片付け始めた。/
+[face B 06]
+[talk B]
+越後くん、ありがとう。
+いやぁ……廊下は走っちゃいけないね。/
+[serif off]
+?夏人、大丈夫？/
+[talk B]
+[face B 01]
+[serif on]
+うん、大丈夫。越後くんが
+とっさにフォローしてくれたからね。/
+あんなに盛大にぶつかったのに
+越後くんの腕が支えてくれて、/
+[face B 02]
+[flow]
+ふわっとした感じで倒れたから
+どこも打ってないみたいだよ。/
+[serif off]
+?越後すごい/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 12]
+[talk A]
+[-]
+[serif on]
+へへ……褒められるようなことではないッス。
+でも怪我がなくてよかっ…………[wait 0.5]あっ！[face A 05][shake A]/
+[scale A 1.6 0.3]
+[moveline A B 0 -150 0.3]
+[scale B 1.6 0.3]
+[move A X -100 0.2]
+[bgm fun]
+[orderline B A]
+夏人くん！
+服に醤油の染みができてますよ！[se zukkoke_02]/
+[talkend]
+[textcolor ARUJI]
+夏人の白シャツの襟の辺りに
+茶色い染みが広がっていた。/
+[face B 12]
+[say B]
+あ、本当だ。
+まぁ……仕方ないか……/
+[face A 11]
+[say A]
+[shake A]
+いやいや、仕方なくないッスよ！
+こんないい服なのにオレのせいで……/
+[face B 02]
+[say B]
+ははは、気にしないで。とりあえず、
+帰ったらクリーニングに出してみるよ。/
+[hideall]
+[serif off]
+?醤油汚れ、中々落ちないよね/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 04]
+[talk A]
+[serif on]
+……[shake A]/
+[face A 08]
+染み抜きなら早くトントンした方がいいッスね。
+……オレに任せてください！[shake A][se taiko_01]/
+[scale A 2.0 0.5]
+[move A Y -150 0.5]
+[face A 03]
+さぁ夏人くん、すぐ脱いでください！[shakebg]/
+[hide A]
+[-]
+[show B]
+[face B 09]
+[talk B]
+え、ぬ、脱ぐって……今？
+こ、ここで！？/
+[show A R]
+[setline 0.5 B A]
+[face A 08]
+[order A 0]
+[order B 1]
+[say A]
+そうッス！
+早く脱いでください！！/
+[serif off]
+?越後、落ち着いて/
+[face A 03]
+[shake A]
+[-]
+[serif on]
+落ち着いてられないッスよ！
+このまま放っておけません！！/
+[face A 04]
+[flow]
+それに、元はと言えば
+オレの責任ッス……！/
+[face A 08]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -150 0.5]
+しっかり責任、取らせてください！！/
+[face A 03]
+[move A X -20 0.1]
+さぁ！　さぁさぁ！！[move A X -10 0.2][shake B]/
+[face B 10]
+[talk B]
+いや、ちょ、ま、待って……/
+[talk A]
+[order A 0]
+[order B 1]
+あ～もう、じれったいッスね！
+早くトントンしないと染みが落ちなくなります！！/
+[face A 08]
+ほらほら、バンザイしてー！[fadein BLACK 1.0][move A X -50 1.0]/
+[talk B]
+[se cloth_01]
+わ、わ～～っ！
+もう、わ、わかったよ～！　自分で脱ぐからー！！/
+[serif off 0.5]
+[-]
+[se cloth_02]
+[se doka_01]
+[delay 0.2 se doka_01]
+[delay 0.4 se doka_01]
+[delay 0.6 se doka_01]
+[wait 1.0]
+[-]
+[se doka_01]
+[delay 0.1 se doka_01]
+[delay 0.2 se doka_01]
+[delay 0.3 se doka_01]
+[delay 0.4 se doka_01]
+[hideall]
+[-]
+[effect B kira a 0 100]
+[fadeout 0.5]
+[-]
+[se kira_01]
+[serif on]
+[show B C]
+[face B 02]
+[talk B]
+す、すごい……[shake B]キレイさっぱり取れてる……
+というか、元より白くなってる気がする。/
+[show A C]
+[face A 06]
+[talk A]
+[setline 0.5 B A]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+はぁ……はぁ……はぁ……
+よ、よかったッス……/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 06]
+[talk B]
+まさか染み抜きのトントンを正拳突きでやる人が
+いるとは思わなかったけど……/
+[talkend]
+[textcolor ARUJI]
+夏人のシャツはキレイに染みが取れ、
+まるで新品のような驚きの白さを放っていた。/
+[face B 02]
+[talk B]
+ありがとう越後くん！[move B X 100 0.5]/
+[serif off]
+?すごい！/
+[say A]
+[face A 12]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+へ、へへ……
+これで少しは面目が保てましたかね…/
+[talkend]
+[textcolor ARUJI]
+頭をかきながら照れる越後。/
+[serif off]
+?今後、しみ抜きが必要になったら越後に頼もう/
+[face A 05]
+[talk A]
+[shake A]
+[-]
+[serif on]
+えっ！？　[wait 0.5]……りょ、了解ッス！/
+[face A 08]
+[face B 01]
+師匠の服の染み抜きも任せてください！
+いつでも、声かけてください！/
+[hide B]
+[scale A 2.5 0.3]
+[move A Y -450 0.3]
+[effect fr syutyu b 0 0]
+[quake 2]
+[face A 05]
+って……あ、ああああーーー！！！[shakebg]/
+[serif off]
+[effect off b]
+[hide A]
+[quake off]
+[-]
+[show B]
+[face B 12]
+[say B]
+[-]
+[serif on]
+あっ、*Pくんのズボンにも
+醤油のシミが……/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+どうやら食器を片付けるのを手伝ったときに
+醤油が垂れていたようだ。/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+[face A 08]
+………………師匠……/
+[serif off]
+?ちょっと待って。ズボンだし……/
+[face A 03]
+[scale A 2.0 0.3]
+[move A Y -120 0.3]
+[-]
+[serif on]
+待てません！　今すぐに！　染み抜きします！/
+[face A 09]
+染み抜きが必要になったら越後に頼むって
+さっき言ってたじゃないッスか！/
+[show B]
+[face B 06]
+[move B X 250 0.5]
+[move A X -150 0.5]
+[orderline A B]
+[say B]
+あ、じゃあ僕は先に司令室に行ってるから
+急がなくていいよ。/
+[move B X 200 0.5]
+[hide B]
+[serif off]
+?夏人ーーーー/
+[move A X 150 0.5]
+[serif on]
+[say A]
+[face A 08]
+さあ師匠！　ずぼんを脱いでください！/
+[move A Y -200 0.5]
+[hide A]
+[se cloth_01]
+[autotap]/
+ああもうじれったいッスね！[shakebg]
+こうしてる間にも醤油が落ちにくくなってますよ！/
+[talkend]
+[textcolor ARUJI]
+越後はこちらのズボンに手をかけ、
+ベルトを外していく。/
+[flow]
+[textcolor ARUJI]
+こんなところでパンツ一丁になりたくないので
+抵抗を試みるが、越後の力には敵わない。/
+[show C L]
+[face C 08]
+[say C]
+[move C C 0.5]
+[se walk_02]
+はー遅刻遅刻っとー。
+げっ。[shake C][face C 05]なに？　ヤバいとこに出くわしちまった？/
+[show A R]
+[scale A 1.6]
+[move A Y -150]
+[orderline A C]
+[say A]
+[face A 03]
+猫乃屋さん！　手伝ってください！
+師匠が抵抗して……/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 10]
+[say C]
+下剋上か～。お前も経験することになるとはな……
+お前の気持ちは痛いほどよくわかるぜ。んじゃ。[face C 01]/
+[move C X 200 0.5]
+[hide C]
+[serif off]
+?越後を止めてーーー/
+[fadein black 2]
+[-]
+[textcolor ARUJI]
+[talkend]
+[serif on]
+その後、部屋で着替えてから越後にズボンを
+トントンしてもらった。/
+[flow]
+[textcolor ARUJI]
+ズボンは新品同様にピカピカになったのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>201/
+[set A s_ecg_r 越後]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 越後とバレンタイントレーニング]
+[-]
+[bg niwa_day]
+[-]
+[fadeout]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+[bgm home]
+庭で筋トレに精を出す越後と出会った。/
+[show A C]
+[face A 08]
+[move A Y -150 0.3]
+[delay 0.5 move A Y 160 0.4]
+[delay 1 move A Y -10 0.1]
+[autotap]/
+[say A]
+いっちに！　さんし！　いっちに！　さんし！/
+[face A 02]
+あっ！　師匠！
+おはようございます！/
+[serif off]
+?越後、おはよう/
+[serif on]
+[face A 00]
+今日も朝からいい天気……
+まさに筋トレ日和ッスねぇ！/
+[face A 01]
+師匠もよかったら一緒に運動しませんか？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+最近チョコをたくさん食べている気がする。
+体を動かしておくのはいいかもしれない。/
+[serif off]
+?チョコを食べた分、運動したい！/
+[show A C]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+はい！　かろりー消費ッスね。
+大切だと聞いてます。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 12]
+[bgm fun]
+[say A]
+それじゃあまずは
+ストレッチをしましょう！/
+[hide A]
+[talkend]
+[se dosa_01]
+[shakebg]
+[textcolor ARUJI]
+床に腰を下ろすと、越後はゆっくりと
+背中を押してくれる。/
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+師匠。痛くないッスか？
+無理は禁物ッスよ！/
+[serif off]
+?もうちょっといけそう/
+[face A 12]
+[serif on]
+[say A]
+それじゃあ、力抜いてくださいね。
+息を吐きながらッスよ～。よいしょ～～～。/
+[scale A 2.0 0.5]
+[hide A]
+[se cloth_01]
+[bg black 0.5]
+[talkend]
+[textcolor ARUJI]
+背中がすっぽり覆われるように
+越後の分厚い体が押し付けられる。/
+[talkend]
+[textcolor ARUJI]
+弾力がありつつしっかりと中は硬い
+越後のたくましさを背中にぐいぐいと感じた。/
+[talkend]
+[se cloth_02]
+[textcolor ARUJI]
+自分が来る前から筋トレ中だったからだろう
+越後の体はとても温かい。/
+[talkend]
+[textcolor ARUJI]
+ほんのりと爽やかな汗の香りがする。/
+[show A C]
+[face A 09]
+[scale A 2]
+[light def]
+[lightcolor blue]
+[bg sky_day 0.5]
+[move A Y -220]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[say A]
+師匠、ぼーっとしてますけど、大丈夫ッスか？
+次は背中合わせになって……/
+[se cloth_01]
+[bg niwa_day 0.5]
+[face A 01]
+[talkend]
+[textcolor ARUJI]
+背中同士をあわせて肘を組む。
+互いに引っ張って背中を伸ばす運動だろう。/
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[face A 00]
+[say A]
+さあ、行きますよ～。/
+[hide A]
+[bg sky_day 0.3]
+[se cloth_06]
+[talkend]
+[textcolor ARUJI]
+越後がそう言うと、こちらの体は
+嘘みたいに軽々と持ち上がった。/
+[wffect fr syutyu a 0 0]
+[serif off]
+?おおお、めっちゃ伸びる～！/
+[talkend]
+[bg niwa_day 0.5]
+[effect off a]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+[textcolor ARUJI]
+[serif on]
+今度はこちらが越後の体を伸ばしてみる。/
+[talkend]
+[textcolor ARUJI]
+越後の大きな体と、そのずっしりとした感触が
+こちらに乗ってくる。/
+[serif off]
+?うまく伸ばせてる？/
+[show A C]
+[face A 02]
+[say A]
+[scale A 2.0]
+[move A Y -220]
+[serif on]
+はい、師匠、とってもいい感じッスよ！
+すごく、気持ちいいいッス！/
+[face A 12]
+[flow]
+こうやって師匠と互いに背中を預けられるのって
+オレ、なんだかすごく嬉しいッス！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+楽しそうな越後としばらくストレッチをつづけ
+それから一緒に軽いトレーニグをした。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[light off]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif off]
+?ふぅ～！いい汗かいたなぁ～/
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+今日はこのくらいにしておきましょうか！
+休息も筋肉には大切なことッスから。/
+[talkend]
+[hide A]
+[bgm night]
+[textcolor ARUJI]
+大きな庭石にふたりで腰掛ける。/
+[talkend]
+[textcolor ARUJI]
+２月とはいえ、荘園の天気は日差しも暖かく
+心地よい気候だ。/
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+そういえば師匠は、先日のちょこぱーてぃーで
+特に気に入ったものはありましたか？/
+[talkend]
+[textcolor ARUJI]
+荘園の皆でチョコを作り、パーティを開催し
+そこでたくさんのチョコを食べたのだ。/
+[serif off]
+?そうだな～/
+[waku on 0.5]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+[hide A]
+みんなの作ったチョコを思い返してみる。/
+[talkend]
+[textcolor ARUJI]
+[flow]
+どれも美味しかったし、みんなが想いを込めて
+作ってくれたのが伝わってきた。/
+[talkend]
+[textcolor ARUJI]
+[flow]
+だからどれがよかったか選ぶのは難しい。/
+[waku off 0.5]
+[talkend]
+[textcolor ARUJI]
+そこでふと、越後のチョコは
+なかったことに気づいた。/
+[show A C]
+[face A 05]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+えっ、オレッスか？　[shake A]オレはその……
+料理の得意な方々が作ってましたから。/
+[face A 01]
+[flow]
+[say A]
+オレは食材や調理道具を運んだり、かき混ぜたり
+……そういう裏方のお手伝いをしてました！/
+[serif off]
+?越後らしいね/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[serif on]
+[say A]
+あ、あの……でも……その……/
+[talkend]
+[textcolor ARUJI]
+越後の頬に赤みがさしている。
+運動したから……というわけではなさそうだ。/
+[say A]
+そ、その、皆さんのチョコレートがすごく
+美味しかったんで……/
+[face A 06]
+今更ながらオレも作ってみたんス！[shake A]/
+[face A 11]
+[flow]
+もしよかったら、受け取ってもらえませんか。/
+[face A 09]
+[waku on 0.5]
+（本当は……師匠が嬉しそうにチョコを
+　食べてる姿を見たら……）/
+[face A 11]
+（オレも作ればよかったって……
+　思ったんスけど……！！）/
+[scale A 2 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 09]
+[talkend]
+[waku off 0.5]
+[textcolor ARUJI]
+越後は焦るように
+包に入ったチョコを差し出した。/
+[serif off]
+?ありがとう。開けてもいい？/
+[face A 11]
+[say A]
+[serif on]
+もちろんです……ど、どうぞ！[shake A]/
+[talkend]
+[textcolor ARUJI]
+[se cloth_01]
+緊張したような越後の視線を感じながら
+包を開けてみる。/
+[talkend]
+[hide A]
+[effect fr kira a 0 0]
+[se kira_01]
+[textcolor ARUJI]
+中にはグーの拳をかたどった大きな
+チョコレートが入っていた。/
+[serif off]
+?何これ！？　デカっ！/
+[show A]
+[face A 09]
+[say A]
+[effect off a]
+[serif on]
+[scale A 1.6]
+[move A Y -120]
+じ、実は、チョコに毘沙門天を
+彫り込んでみようと思ったんスけど……/
+[face A 11]
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+うまくいかなくて、
+オレの拳の形にしてみました！/
+[hide A]
+[talkend]
+[effect off a]
+[effect fr kira b 0 0]
+[se kira_01]
+[textcolor ARUJI]
+惚れ惚れとする大きな拳。
+握り込んだ５本の指はどれも太く立派だ。/
+[talkend]
+[textcolor ARUJI]
+食べるには勿体ないような仕上がり。
+せっかくだからスマホで何枚も記念撮影をした。/
+[effect off b]
+[serif off]
+?すごく美味しそうだよ、ありがとう！/
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+本当ッスか！　そう言ってもらえて
+嬉しいッス！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+ただこれを食べたら運動で消費したカロリーは
+帳消しになりそうだなと思っていると……/
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+大丈夫です。また一緒に運動しましょう！/
+[face A 00]
+[flow]
+チョコは栄養があって筋トレ前に
+食べるのには向いてるんス！/
+[face A 01]
+それにオレ、師匠ともっともっと
+運動したいんス！[shake A]/
+[serif off]
+?もちろんだよ/
+[serif on]
+[face A 02]
+[say A]
+はい！[shake A 2 5 5]/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、すみません！　
+体冷えてきちゃいましたよね……/
+[face A 12]
+[move A Y 50 0.5]
+そろそろお風呂に行きましょう！
+オレが師匠のお背中流しますよ！/
+[talkend]
+[textcolor ARUJI]
+越後のチョコで既に
+心はぽかぽかしていたのだけど――/
+[fadein BLACK 2.0]
+[autotap]/
+[talkend]
+[se amb_12]
+[textcolor ARUJI]
+ふたりでゆったりとお風呂に浸かり、
+体も温まったのだった。/
+[serif off 2.0]
+[delay 0.3 se bath_01]
+[delay 0.8 se bath_03]
+[delay 1.2 se bath_02]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

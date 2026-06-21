@@ -1,0 +1,2152 @@
+>>10000/
+@豊後
+豊の国、二豊が一つ、豊後にゃ。[wait 3.5]
+オレは無駄なことは嫌いにゃ。[autotap]/
+[delay 2]
+[flow]
+[-]
+@豊後
+まぁ、患者がいれば具合を診てやるにゃ。/
+>>10001/
+@豊後
+にゃ！？　オレは勉強中にゃ！[wait 3]
+生きることは学ぶことにゃ！[autotap]/
+[delay 2]
+[flow]
+[-]
+@豊後
+もう戻らせてもらうにゃ！/
+>>1/
+[set A s_bun_r 豊後]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+主、顔に疲れが出ているのにゃ。
+任務に差し支えてはこっちが困るにゃ。/
+[face A 01]
+……たまには湯治でもしてゆっくり休んだら
+どうにゃ？/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+言い出したからにはオススメの場所を
+教えてやるとするかにゃ。/
+[face A 01]
+豊後国には別府・由布院と
+源泉数も豊富な温泉があるのにゃ。/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+でも湯あたりにも気をつけるのにゃ。
+何事もほどほどにするのにゃ。/
+>>2/
+[set A s_bun_r 豊後]
+[show A C]
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[say A]
+くんくん……
+ほほぉ……今日の晩飯は焼き魚かにゃ。/
+[face A 02]
+他のものなら腹に入れば何でもいいにゃけど
+焼き魚にはカボスにゃ。/
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[autotap]/
+[face A 03]
+これだけは絶対に譲れないにゃ……
+主もカボスを忘れるにゃよ。/
+>>3/
+[set A s_bun_r 豊後]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+主、山登りは好きかにゃ？
+山登りは身体にいいからオススメにゃ。/
+[face A 02]
+[flow]
+豊後富士とも呼ばれる由布岳は
+山頂からの景色がそりゃもう絶景にゃ。/
+[face A 08]
+[flow]
+……ただ、太陽を背にすると雲に
+巨人の影が現れることがあるらしいにゃ……/
+[face A 02]
+[flow]
+ふふふ。怖がることはないにゃ。
+ただの自然現象にゃ。/
+>>4/
+[set A s_bun_r 豊後]
+[show A C]
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふぅ、時間がもったいにゃい。
+学ぶことは多すぎるのにゃ。/
+[face A 08]
+遊んでる暇などないにゃ。
+明日の朝まで書庫にこもるとするのにゃ。[move A X 400 0.5][hide A][se walk_01]/
+>>5/
+[set A s_bun_r 豊後]
+[randomset B r @地魂男児 -bun @あやかし]
+[show A C]
+[show B C]
+[face A 08]
+[face B 07]
+[rotate B -60]
+[setline B A]
+[move A X 300]
+[move A X -300 0.5]
+[move B Y -100]
+[-]
+[serif on]
+[say A]
+んん？　$B:A……
+どうしてこんな所で寝転んでるにゃ？/
+[rotate B 0 0.5]
+[move B Y 100 0.5]
+[face A 00]
+[face B 04]
+ふむ、体調が悪い……と。
+ちょっと診せてみるにゃ。[move A X -10 0.5]/
+[face A 05]
+[move A X 50 0.1]
+にゃっ！　これは重症にゃ。[shake A][face A 01]でも安心しろにゃ。
+すぐに太くて痛い注射を尻に指してやるにゃ。[shake B][face B 05]/
+[move B X -500 0.5]
+[hide B]
+[face A 02]
+にゃはは。冗談のつもりにゃったんにゃけど
+仮病にはよく効いたようにゃ。/
+>>6/
+[set A s_bun_r 豊後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B C]
+[setline A B]
+[face A 08]
+[face B 01]
+[serif on]
+[say A]
+にゃに？　
+地魂男児同士の親睦会？/
+[face A 00]
+[flow]
+任務や訓練で毎日顔合わせるのに
+わざわざ集まる必要なんてないにゃ。[face B 05]/
+[face A 08]
+[face B 04]
+[move A X -100 0.3]
+オレは行かないにゃ。
+まぁ、やりたい奴らで勝手にすればいいにゃ。[move A X -300 0.5][hide A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_bun_r 豊後]
+[randomset B r @地魂男児 @NPC @あやかし -bun]
+[show A C]
+[show B C]
+[face A 08]
+[face B 04]
+[serif on]
+[say A]
+[setline B A]
+簡単な問診を始めるにゃ。
+……。…………。ふむ……この症状は……
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]/
+[face A 00]
+[face B 01]
+$B:Aは[= 寝不足気味 食べ過ぎ 筋肉痛 食あたり 風邪 至って健康]にゃ。
+[= これを飲んでとっとと寝ろにゃ。 薬を出しておくにゃ。お大事にするにゃ。 とにかく寝ろにゃ。 詳しく検査するからまた明日来いにゃ。 ……前回より太ったようにゃ。]/
+>>10/
+[set A s_bun_r 豊後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B R]
+[move A 00]
+[face B 01]
+[serif on]
+[move A Y -100]
+[move B X 300]
+[move B X -300 0.8]
+[-]
+[move A Y 50 0.3]
+[face A 10]
+[say A]
+にゃ？[shake A]　何を読んでいるか……にゃと？
+これは現代の医学書にゃ。/
+[face A 01]
+[face B 00]
+まだまだオレの知らない知識や概念が
+たくさんあるのにゃ。/
+[face A 02]
+[face B 02]
+にゃふふっ、いくら学んでも学び足りないのにゃ。/
+>>11/
+[set A s_bun_r 豊後]
+[randomset B r @地魂男児 -bun -@NPC]
+[show A R]
+[show B C]
+[face A 06]
+[face B 01]
+[move A X 600]
+[move A X -400 0.5]
+[serif on]
+[say A]
+厨当番。今日の晩飯にゃけど……
+魚料理はどうかにゃ？[move A X -200 0.5]　最近肉ばっかだったにゃ。[face A 01]/
+[face B 02]
+[flow]
+そうだにゃ～……例えば肉厚なカレイとか[wait 0.2]…[wait 0.2]…[wait 0.2]
+いや[face A 10]肉のカレーじゃないにゃ！[shake A 5 10 10]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_bun_r 豊後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B R]
+[move A X -400]
+[move A X 200 0.5]
+[face A 06]
+[face B 00]
+[serif on]
+[say A]
+はーーくだらんにゃ。裸の絵が載ってるだけで
+春画と勘違いされちゃ困るにゃ。/
+[face A 03]
+[face B 06]
+[flow]
+こりゃただの医学書にゃ。
+やれやれだにゃ。/
+[face A 10]
+……その顔は何にゃ！？[shake A]
+ほんとにほんとに医学書にゃ！[shake A][move B X 200 0.5][face A 09]/
+>>15/
+[set A s_bun_r 豊後]
+[randomset B r @地魂男児 -bun -@NPC @あやかし]
+[show A C]
+[show B C]
+[face A 08]
+[face B 04]
+[serif on]
+[setline B A]
+[move A X 200]
+[move A X -200 0.5]
+[talk A]
+$B:A、どこか調子が悪いのにゃ？
+やせ我慢はやめるのにゃ。時間の無駄にゃ。[face A 03]/
+[flow]
+[move A X -100 0.5]
+[se cloth_01]
+すぐに見せればそれだけ早く治療は終わるのにゃ。[shake B]
+……そう、そいれでいいのにゃ……[face A 01][rotate A 10 0.5][move A Y -100 0.5]/
+>>16/
+[set A s_bun_r 豊後]
+[show A C]
+[face A 08]
+[serif on]
+[say A]
+[effect fr syutyu a 0 0]
+[se zuba_01]
+[shake A]
+[delay 0.4 effect fr canon 4000 0 0]
+[delay 0.5 se bomb_01]
+とう！　にゃーー！！/
+[face A 06]
+[effect off a]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぅ、こうして実際に体を使って学ぶことも
+あるのにゃ。おろそかにはできんにゃ。/
+>>17/
+[set A s_bun_r 豊後]
+[randomset B r @地魂男児 -bun]
+[show A R]
+[show B C]
+[face A 01]
+[face B 01]
+[serif on]
+[move B Y -100]
+[move A X 300]
+[move A X -300 0.5]
+[say A]
+……$B:A、太ったようにゃ。[move B Y 100 0.2][delay 0.2 move B Y -50 0.1][face B 05]
+医者の目はごまかせないのにゃ。/
+[move B Y 50 0.5]
+[move A L 0.6]
+[face B 04]
+[move B X 50 0.5]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+体重計には定期的に乗るのにゃ。[face A 10][shake A]……にゃ！？
+オ、オレもいつの間にか太ったみたいだにゃ……[face A 09]/
+>>18/
+[set A s_bun_b 豊後]
+[show A C]
+[face A 02]
+[say A]
+[move A Y -50]
+[effect fr yuge A]
+[se amb_12]
+[se bath_04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]はぁ～。いい湯なのにゃ……
+心地よくてひげがふにゃふにゃになったのにゃ……/
+[face A 01]
+湯治は万病に効くからにゃ……
+ゆっくりつかるにゃ……[move A Y -100 0.5][se bath_02]/
+>>19/
+[set A s_bun_b 豊後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B C]
+[face A 08]
+[face B 01]
+[setline B A]
+[moveline A B 0 -50 0]
+[serif on]
+[talk A]
+[effect fr yuge A]
+[se amb_12]
+[se bath_05]
+$B:A。洗い方が不十分なのにゃ。
+隅々まで洗って清潔にするのにゃ。/
+[face A 03]
+[face B 05]
+[move A X -100 0.3]
+…………まだ雑にゃ。ちょっと貸してみるにゃ。
+こういう感じでしっかり洗うにゃ。
+[se bath_05]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+[se bath_03]
+[move B Y 50 0.2]
+[delay 0.2 move B X -600 0.4]
+[delay 0.2 hide B]
+[face B 06]
+[shake A]
+[-]
+[face A 06]
+……何故か逃げられたにゃ……
+せっかく清潔ににゃるのに、謎だにゃ。/
+>>20/
+[set A s_bun_r 豊後]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[se bath_05]
+手洗いうがいはしっかりするにゃ。
+ごしごしごし……[shake A 3 0 20]ごしごしごし……[shake A 3 0 20]/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+病気を他人にうつさにゃいためにも
+まずは自分がかからにゃいようにするのにゃ。/
+>>21/
+[set A s_bun_r 豊後]
+[show A C]
+[move A X -400]
+[move A X 400 0.5]
+[face A 04]
+[serif on]
+[say A]
+大きいとか小さいとか、どうでもいいのにゃ。
+正しく機能していれば何も問題ないのにゃ。/
+[face A 06]
+[flow]
+[scale A 1.6 0.2]
+[move A Y -140 0.2]
+[se taiko_01]
+医者としては、状態は気になるのにゃ。
+不潔にしてると病気ににゃるからにゃ！/
+>>22/
+[set A s_bun_r 豊後]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[move A Y -50]
+この荘園の厠は結構気に入っているのにゃ。
+にゃにせ全く無駄がにゃい。/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[flow]
+便座の曲線もただ彫刻としての美しさ
+だけじゃないにゃ。機能美。/
+[face A 01]
+[flow]
+水が流れる、そのために最も効率のいい形を
+しているのにゃ……ずぅっといられるのにゃ……/
+>>23/
+[set A s_bun_r 豊後]
+[show A C]
+[face A 06]
+[serif on]
+[say A]
+[se door_01]
+[move A X -500]
+[move A X 500 1]
+…………ふぅ。個室はいいにゃ。
+誰にも見られてにゃいし……/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+全部流せて後始末も簡単なのにゃ。
+すっきりしたのにゃ！/
+>>24/
+[set A s_bun_r 豊後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B R]
+[face A 00]
+[move B X 600]
+[face B 00]
+[serif on]
+[talk A]
+[move B X -600 1]
+そろそろ寝るのにゃ。
+ん？　$B:Aなにか用かにゃ。/
+[face A 08]
+[face B 01]
+なに、場所を決めるためのじゃんけん？
+時間の無駄にゃ。[face A 03]どの布団で誰が寝ようと同じにゃ。/
+[move A Y -100 0.5]
+[face B 03]
+[delay 0.3 shake B]
+だからオレはこの布団で……[move B XY -10 -40 0.4][rotate B 10 0.3]いたたたた！[face A 09]
+わかったにゃ！[shake A][shake B]　じゃんけんするにゃ！　[shake A][move B XY 10 40 0.5][delay 0.1 rotate B 0 0.5][rotate A -10 0.5]/
+>>25/
+[set A s_bun_r 豊後]
+[show A C]
+[face A 07]
+[rotate A -20]
+[move A Y -100]
+[serif on]
+[say A]
+すー……むにゃむにゃ……すー……/
+[talkend]
+ヒゲがヒクヒクと動いている。[shake A]/
+>>26/
+[set A s_bun_r 豊後]
+[randomset B r @地魂男児 -bun]
+[show A C]
+[show B C]
+[face A 09]
+[face B 07]
+[setline A B]
+[rotate A -20]
+[move A Y -100]
+[rotate B -20]
+[move B Y -100]
+[rotate A 0 0.5]
+[move A Y 100 0.5]
+[se cloth_06]
+[serif on]
+[say A]
+んにゃあぁぁん！？[shake A]/
+[face A 10]
+にゃ、にゃんだ、
+$B:Aが寝ぼけただけかにゃ……/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+急にヒゲを触られたからびっくりしたにゃ……/
+>>27/
+[set A s_bun_r 豊後]
+[show A C]
+[face A 00]
+[say A]
+?豊後、ハレの日おめでとう！/
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+にゃ！？　にゃんだ主かにゃ……/
+[face A 06]
+ハレの日だにゃんてオレには不要にゃけど……
+決めろと言われたから決めたにゃ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+今日は「いい医師の日」らしいにゃ。
+オレはいい医師でありたいと思っているからにゃ。/
+[face A 08]
+[flow]
+……[wait 0.2]……[wait 0.2]それに……
+今日は「大分県民の日」でもあるらしいにゃ。/
+[face A 02]
+[flow]
+[effect fr kira a 0 0]
+[se kira_01]
+オレの国だった場所で現代に暮らしている人々に
+想いを馳せる日にしてもいいかと思ったのにゃ。/
+[effect off a]
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……仕方なく決めた日のつもり
+だったんにゃけど……/
+[flow]
+[face A 09]
+今日は朝からみんなに祝われたりして
+なんだかむず痒い気分にゃ。[shake A]/
+[serif off]
+?今日は豊後が好きなだけ魚を食べていいよ/
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.3]
+[move A Y -130 0.3]
+[face A 10]
+[serif on]
+にゃに！？[shake A 3 5 5][se zukkoke_02]
+……魚は１尾で十分にゃ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[effect off a]
+[face A 02]
+[flow]
+……けど、今日くらいはそういう贅沢をしても
+いいかもしれにゃいな……/
+>>100/
+[set A s_bun_r 豊後]
+[set B s_n000_r 猫乃屋]
+[set C s_n001_r 夏人]
+[set D s_n004_r 百太]
+[set E s_bun_r 豊後]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 豊後の診療所]
+[-]
+[bg shirei_day]
+[se fusuma_01]
+[fadeout]
+[bgm rokuhara]
+[-]
+[serif on]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+司令室で夏人たちと打ち合わせ中……/
+[show C C]
+[move C Y -50]
+[face C 04]
+[say C]
+うーん……/
+[serif off]
+?大丈夫？　具合悪そう/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 12]
+[serif on]
+うん……ちょっと頭痛がね……
+肩こりかな～。/
+[show D L]
+[move D X -200]
+[move D X 200 0.5]
+[face D 01]
+[say D]
+[orderline C D]
+大丈夫っすか？　オレが肩揉んであげるっすよ？[move D X 200 0.5]/
+[face C 15]
+[say C]
+[effect fr kira a 0 0]
+[se kira_01]
+わ、[shake C]あー気持ちいい……/
+[show B R]
+[face B 10]
+[say B]
+[effect off a]
+オレも今日は具合悪いわ～。
+なんか熱っぽいっつーか。/
+[hide B]
+[hide C]
+[hide D]
+[talkend]
+[serif off]
+?薬あったかな……/
+[show D C]
+[face D 00]
+[scale D 1.6]
+[move D Y -120]
+[say D]
+[serif on]
+そういえば、荘園の中に診療所ができたって
+聞いたっすよ？/
+[face D 08]
+[flow]
+オレも気になってたんで、行ってみないっすか？/
+[serif off]
+?診療所？　行ってみよう/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+百太について廊下を進むと、先日まで空き部屋
+だった部屋に診療所という看板がかかっていた。/
+[show B C]
+[show C C]
+[setline B C]
+[face B 10]
+[face C 10]
+[say C]
+ほんとだ、診療所なんてあったんだ……/
+[hide B]
+[hide C]
+[talkend]
+[serif off]
+?おじゃましまーす/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[bgm home]
+[se walk_01]
+[bg heya_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+[serif on]
+中に入ると空き部屋の中には机や棚などが
+運び込まれ、ちょっとした診察室になっていた。/
+[serif off]
+[show A C]
+[face A 00]
+[-]
+[wait 0.5]
+[serif on 0.5]
+[say A]
+にゃ？　患者かにゃ？
+診察してやるから順番にそこに座るにゃ。/
+[serif off]
+?豊後/
+[face A 01]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+にゃんだ、主か。
+それにロクハラの連中にゃ。/
+[face A 04]
+[flow]
+まったく揃いも揃って不摂生にゃ。/
+[show B R]
+[setline 0.5 A B]
+[face A 03]
+[face B 05]
+まずは猫乃屋……お前はどうせ仮病だにゃ。
+何度来れば気が済むにゃ。/
+[show C R]
+[show D R]
+[setline 0.5 B C D]
+[move A X -200 0.5]
+[hide A]
+[face C 04]
+[face D 09]
+[orderline C B D]
+[say C]
+猫乃屋さん……最近良く抜け出すと思えば……/
+[face B 02]
+[say B]
+いや！[shake B]　違うんだって！　熱っぽいんだって！
+なっとたちにうつしたらまずいだろ！？/
+[hide B]
+[hide C]
+[hide D]
+[-]
+[show A C]
+[face A 08]
+[say A]
+[se cloth_01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+……[wait 0.2]……[wait 0.2]……[wait 0.2]平熱にゃ。
+どこが熱っぽいにゃ？/
+[hide A]
+[-]
+[show C C]
+[show D C]
+[face C 03]
+[face D 09]
+[say C]
+[setline C D]
+…………/
+[show B L]
+[setline 0.5 B C D]
+[face B 06]
+[say B]
+お、オッカシーナー！！/
+[hide B]
+[hide C]
+[hide D]
+[-]
+[show A C]
+[face A 04]
+[say A]
+猫乃屋は放っておいて犬童にゃ……
+今日はどうしたにゃ？/
+[show C R]
+[orderline C A]
+[setline 0.5 A C]
+[face C 15]
+[say C]
+なんだか頭痛がひどくて……/
+[face A 08]
+[say A]
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[scale C 1.6 0.5]
+[move C Y -140 0.5]
+[move A X 150 0.5]
+[se cloth_01]
+ふむ。どれどれ……/
+[hide A]
+[hide C]
+[talkend]
+[textcolor ARUJI]
+豊後はテキパキと夏人の頭を触診していく。/
+[show B C]
+[show D C]
+[setline B D]
+[face B 00]
+[face D 01]
+[say D]
+さすが豊後くんっすね。
+手慣れてるっす！/
+[hide B]
+[hide D]
+[-]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -140]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[bgm off]
+……にゃるほど。[wait 0.2]手術を開始するにゃ。/
+[hide A]
+[-]
+[show B C]
+[show C C]
+[show D C]
+[setline B C D]
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+[orderline C B D]
+[bgm fun]
+[face B 05]
+[face C 05]
+[face D 05]
+[say B]
+手術！？/
+[face C 09]
+[say C]
+なんでなんで！？[shake C]　どんな症状だったの！？/
+[show A L]
+[setline 0.5 B C D 200 1100]
+[move A X -150]
+[face A 02]
+[say A]
+とりあえず開くのが手っ取り早いにゃ。/
+[talkend]
+[serif off]
+?豊後すとーっぷ！/
+[moveline B C D 300 0 0.5]
+[hide B]
+[hide C]
+[hide D]
+[move A C 0.5]
+[face A 05]
+[say A]
+[effect off a]
+[serif on]
+にゃ……仕方ないにゃ。
+頭痛薬で代用するかにゃ？[face A 00]/
+[show B R 0.2]
+[move B X 300]
+[move B X -300 0.2]
+[face B 10]
+[say B]
+いやいや薬でいいならまず薬を出してやれよ！
+あぶねーやつだな！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[say A]
+せっかくの切開のチャンスにゃったんにゃけど……
+残念にゃ。/
+[hide A]
+[hide B]
+[talkend]
+[serif off]
+?最終手段にして/
+[show A C]
+[face A 08]
+[say A]
+[serif on]
+赤熊はどうしたにゃ。
+上から下まで健康そうに見えるにゃ。/
+[show D R]
+[setline 0.5 A D]
+[face D 10]
+[orderline D A]
+[say D]
+オレは持続力を高める薬とかあれば
+欲しいんすけど～。/
+[show B R]
+[show C R]
+[setline 0.5 A D B C -150 1100]
+[orderline C B D A]
+[face B 03]
+[face C 04]
+[say B]
+おいこらー！　[shake B]お前のことだからそれエロい意味だろ！
+なっとにセクハラ認定されんぞ！/
+[face A 00]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+うちではそういうのは扱ってないにゃ。
+相模の所で実験台になってくるといいにゃ。/
+[face D 01]
+[say D]
+残念っす～。/
+[hide A]
+[hide B]
+[hide C]
+[hide D]
+[show E]
+[face E 08]
+[talk E]
+[scale E 1.6]
+[move E Y -140]
+で、主はどうしたにゃ？
+ん？[shake E][se cloth_01]　…………少し熱っぽいにゃ。/
+[hide E]
+[show B C]
+[face B 05]
+[say B]
+えっ？　仮病のやつじゃなくてガチで？[shake B]/
+[hide B]
+[-]
+[show A]
+[face A 08]
+[say A]
+ちょとベッドに横になるにゃ。/
+[hide A]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+そう言いながらあっという間にベッドに寝かされ、
+服をたくし上げられお腹や胸がさらけだされる。[shakebg][se cloth_06]/
+[show A C]
+[face A 08]
+[say A]
+[scale A 1.6]
+[move A Y -140]
+ふんふん……/
+[hide A]
+[-]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+豊後は手慣れた様子で聴診器を当ててくる。/
+[textcolor ARUJI]
+[flow]
+ぷにぷにとした肉球で脇腹のあたりを指圧したり
+とんとんとお腹を叩いて音を聞いたりしている。/
+[show B C]
+[show D C]
+[setline B D]
+[orderline D B]
+[face B 10]
+[face D 00]
+[say D]
+本格的な診察っすね。/
+[face B 04]
+[say B]
+オレのときと対応が違くね～？
+やっぱ主は特別か～。/
+[show A L]
+[setline 0.5 A B D]
+[face A 08]
+[say A]
+関係ないにゃ。猫乃屋も本当に具合が悪けりゃ
+ちゃんと診察してやるにゃ。/
+[hide A]
+[hide B]
+[hide D]
+[-]
+[show C]
+[face C 04]
+[say C]
+*Pくんの具合はどう？
+……もしかして……/
+[serif off]
+?手術……？/
+[hide C]
+[-]
+[show A]
+[face A 01]
+[serif on]
+[say A]
+……主は大したことなさそうにゃ。
+少し喉が腫れてるから薬を出しておくにゃ。/
+[face A 02]
+[flow]
+風邪のひき始めにゃ。
+食後にこれを飲んでればすぐよくなるにゃ。/
+[serif off]
+?風邪ひいてるの気づかなかった……/
+[face A 01]
+[serif on]
+今後は体の調子が悪くなったら
+いつでも来るといいにゃ。/
+[face A 03]
+[flow]
+……ただし仮病の場合は容赦なく追い出すにゃ。/
+[serif off]
+?ありがとう。豊後/
+[face A 10]
+[serif on]
+……っ。[shake A]
+い、医者として当然のことをしたまでにゃ。[shake A]/
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[autotap]/
+[face A 09]
+[flow]
+ほら、病人はっとっと薬飲んで寝ろにゃ。
+ついでにこれも飲んどくといいにゃ！/
+[hide A]
+[talkend]
+[se door_01]
+[textcolor ARUJI]
+豊後は冷蔵庫を開けると、
+中にびっしりと詰まった牛乳パックを取り出した。[se cloth_06]/
+[show B C]
+[show C C]
+[show D C]
+[face B 01]
+[face C 01]
+[face D 01]
+[setline B C D]
+[orderline C B D]
+[say C]
+牛乳？/
+[hide B]
+[hide C]
+[hide D]
+[-]
+[show A C]
+[face A 00]
+[say A]
+栄養補給には牛乳が一番にゃ。
+一人1パック飲めにゃ。/
+[face A 06]
+[flow]
+それじゃあオレは忙しいにゃ。
+さ、帰るにゃ！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[autotap]/
+[show B C]
+[show D C]
+[setline B D]
+[face B 00]
+[face D 08]
+[say D]
+[orderline D B]
+[serif on]
+おお、このミルク新鮮でうまいっすねぇ！/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 01]
+[say B]
+だな……なっとも*Pも
+薬もらえてよかったなー！/
+[face D 02]
+[say D]
+豊後くん頼りになりそうっすね～。/
+[hide B]
+[hide D]
+[show C C]
+[face C 04]
+[say C]
+………………/
+[waku on 0.5]
+（薬代とか、また荘園の運営費が
+　かさんでいきそうだな……）/
+[hide C]
+[talkend]
+[textcolor ARUJI]
+もらった薬を手に、少し暗い表情の夏人なのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>101/
+[set A s_bun_r 豊後]
+[set B s_n000_r 猫乃屋]
+[set C s_n001_r 夏人]
+[set E s_bun_r 豊後]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 豊後VS体調不良]
+[-]
+[bg shirei_day]
+[fadeout]
+[bgm rokuhara]
+[-]
+[autotap]/
+[show B C]
+[show C C]
+[face B 04]
+[face C 04]
+[say C]
+[setline B C]
+[se paper_01]
+[orderline C B]
+[serif on 0.5]
+また体調不良者か……/
+[serif off]
+?どうしたんだろう……/
+[hide B]
+[hide C]
+[-]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+今週に入って何人もの地魂男児が
+体調不良で倒れている。/
+[textcolor ARUJI]
+[flow]
+霊脈の影響か、はたまた地魂男児にだけ感染する
+病原菌でもあるのか……理由は不明だ。/
+[textcolor ARUJI]
+[flow]
+現在医務室の豊後が研究室の猪森と綿密に連携
+しながら原因究明に向けて頑張っている。/
+[show B C]
+[show C C]
+[face B 04]
+[face C 14]
+[setline B C]
+[say C]
+[orderline C B]
+男児たち、荘園の中で共同生活しているわけだから
+感染症なんかは蔓延しやすい状況だったのかな……/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 10]
+[say B]
+豊後のやつ、寝ずに看病やら研究やら
+してるらしいけど、ちゃんと飯食ってんのかな～。/
+[hide B]
+[hide C]
+[talkend]
+[serif off]
+?心配だな……/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg niwa_night]
+[-]
+[se walk_01]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+地魂男児たちの様子を見ようかなと
+庭を散歩していると、豊後を見つけた。/
+[textcolor ARUJI]
+[flow]
+桶に水をためて顔を洗っているようだ。/
+[serif off]
+?豊後ー！！/
+[bgm fun]
+[effect fr syutyu a 0 0]
+[show A C]
+[face A 10]
+[say A]
+[scale A 1.6 0.3]
+[move A Y -140 0.3]
+[orderline A]
+[serif on]
+にゃ！？　あ、あるじ！？[shake A]
+オレに近づくにゃ！！！[face A 09][shake A]/
+[serif off]
+?！？/
+[scale A 1 0.5]
+[move A Y 140 0.5]
+[face A 08]
+[effect off a]
+[serif on]
+患者の身体がどんな病原菌に侵されているか
+わからにゃい今……オレに近づくこと自体危険にゃ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+豊後は冷たく言い放つ。
+だが、それでも少し話をしたいのだ。/
+[serif off]
+?これならどうかな？/
+[se fusuma_01]
+[bg heya_night 0.5]
+[serif on]
+[textcolor ARUJI]
+すぐ近くの部屋に入り、ふすまを閉める。[se fusuma_03]
+ふすま越しに話ができたら……そう思ったのだ。/
+[bgm night]
+[bg rouka_night 0.5]
+[show A C]
+[face A 04]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[orderline A]
+まったく……/
+[face A 06]
+[flow]
+今のところ、感染経路はわかってにゃいけど
+少なくとも空気感染ではにゃさそうにゃから……/
+[face A 01]
+[flow]
+まあ……それならいいかもにゃ……/
+[hide A]
+[bg heya_night 0.5]
+[talkend]
+[serif off]
+?みんなの様子はどう？/
+[bg rouka_night 0.5]
+[show A C]
+[face A 08]
+[say A]
+[orderline A]
+[serif on]
+熱や倦怠感、鼻水に発汗……
+それに顔を赤くして息が荒いのにゃ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[flow]
+詳細は省くにゃけど、
+原因の糸口はつかめてにゃい。/
+[face A 01]
+[flow]
+鎮魂するような状態じゃにゃいから
+安心しろにゃ。/
+[face A 03]
+[flow]
+ただ、猪森の研究室でもわからにゃいとなると
+任務先でもらってきた病気という可能性もあるにゃ。/
+[face A 00]
+[flow]
+いま任務履歴や地域にゃども調べて
+共通点を探しているところにゃ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 04]
+このままだと手術もできにゃいにゃ。/
+[flow]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+いや、いっそ手当たり次第開いて
+確認するという手も……ぶつぶつ……[shake A]/
+[bg heya_night 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+恐ろしいことを呟いているが
+聞こえなかったふりをする。/
+[serif off]
+?豊後は？/
+[bg rouka_night 0.5]
+[show A C]
+[face A 01]
+[say A]
+[orderline A]
+[serif on]
+オレは医者にゃ。
+地魂男児たちの健康を維持するのはオレの責任にゃ。/
+[face A 00]
+[flow]
+……いまのところ、オレには症状は出てにゃいにゃ。/
+[face A 06]
+[flow]
+でも何日も診察室に籠もってたから
+そろそろ顔を洗ったり身体を洗ったりしたいのにゃ。/
+[hide A]
+[bg heya_night 0.5]
+[serif off]
+?ご飯は食べてる？/
+[show A]
+[bg rouka_night 0.5]
+[face A 02]
+[serif on]
+エネルギーバーがあればオレは大丈夫にゃ！
+心配無用にゃ！/
+[bg heya_night 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+障子の向こうの豊後の影が
+おおげさに笑ってみせた。/
+[bg rouka_night 0.5]
+[show A C]
+[face A 06]
+[say A]
+[scale A 1.6]
+[orderline A]
+…………/
+[move A Y -140 1]
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+………………主。
+オレは自分が不甲斐にゃいにゃ。/
+[face A 03]
+[flow]
+猪森の手を借りても、未だに原因すら
+掴めてにゃい。[shake A][se cloth_02]/
+[face A 06]
+[flow]
+地魂男児で医者のオレしかこの問題は解決
+できにゃいにゃ。[shake A]それにゃのに……オレは……[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+ただ仲間を見守ることしかできてにゃい……[shake A]/
+[move A Y -100 0.5]
+[delay 0.5 se dosa_01]
+[delay 0.5 shakebg]
+[hide A]
+[delay 0.5 bg heya_night 0.5]
+[talkend]
+[textcolor ARUJI]
+どすん、と豊後が軒先に腰をおろした。/
+[textcolor ARUJI]
+[flow]
+こんな弱音を見せる豊後は初めて見たかもしれない。/
+[textcolor ARUJI]
+[flow]
+障子越しで、姿が見えないことが逆に
+豊後の緊張を解いたのだろうか……/
+[serif off]
+?豊後……/
+[show E C]
+[light def]
+[lightcolor blue]
+[scale E 1.6]
+[move E Y -160]
+[face E 00]
+[say E]
+[color E black]
+[orderline E]
+[serif on]
+主……/
+[textcolor ARUJI]
+[se cloth_01]
+[talkend]
+[color E black]
+豊後が優しくふすまにもたれかかる。
+さらさらと豊後の毛が障子に擦れる音がする。/
+[textcolor ARUJI]
+[flow]
+ふすまを挟んで、すぐそこに豊後がいる。/
+[scale E 2 5]
+[move E Y -100 5]
+[autotap]/
+[textcolor ARUJI]
+[flow]
+そっと障子に手を這わせると、
+豊後の体温を感じる。/
+[textcolor ARUJI]
+[flow]
+[se cloth_01]
+その大きな背中や頭を障子越しに
+優しく撫でてやる。/
+[move E Y 5 0.2]
+[delay 0.2 move E Y -10 0.6]
+[delay 0.8 move E Y 5 0.5]
+[autotap]/
+@豊後
+ふふ……主の手は温かいにゃ……/
+[hide E 1]
+[autotap]/
+[textcolor ARUJI]
+豊後は安心したように呟いた。/
+[serif off]
+[bg rouka_night 0.5]
+[hide E]
+[light off 0.5]
+[show A C]
+[move A Y -100]
+[move A Y 100 0.5]
+[se cloth_01]
+[face A 06]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 01]
+[serif on]
+[say A]
+[orderline A]
+主と話せて元気をもらえたにゃ。
+もうひと頑張りしてくるにゃ。[face A 02]/
+[bg heya_night 0.5]
+[hide A]
+[serif off]
+?頑張ってね。豊後/
+[bg rouka_night 0.5]
+[show A]
+[face A 02]
+[scale A 1.6]
+[move A Y -140]
+[serif on]
+任せるにゃ。オレがしっかりと……にゃ、[shake A][face A 10]
+にゃにゃ……？？[face A 10][shake A]/
+[rotate A -20 0.5]
+[move A Y -150 0.5]
+[hide A]
+[talkend]
+[bgm unrest]
+[delay 0.5 se dosa_01]
+[delay 0.5 shakebg]
+[textcolor ARUJI]
+立ち上がった豊後は急に体勢を崩し
+よろけて倒れてしまった。/
+[bg heya_night 0.5]
+[shakebg]
+[serif off]
+?豊後！？/
+[bg rouka_night 0.5]
+[show A C]
+[rotate A -20]
+[rotate A -10 0.5]
+[move A Y -100]
+[move A Y 50 0.5]
+[face A 09]
+[say A]
+[orderline A]
+[serif on]
+………………にゃ……これは……[shake A]
+オレも、ついに発症……かにゃ？？[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[flow]
+でも、なんでいま……突然……
+……………………/
+[rotate A 0 0.3]
+[se cloth_06]
+[bgm off]
+[face A 05]
+[flow]
+ハッ！[shake A 3 10 10]
+主……いま体調不良とか、あるかにゃ……？/
+[hide A]
+[bg heya_night 0.5]
+[talkend]
+[serif off]
+?そういえば鼻水が……/
+[serif on]
+[textcolor ARUJI]
+ここのところスギ花粉が全盛のようで、
+花粉症の症状がちらほら出ていた。/
+[textcolor ARUJI]
+[flow]
+さらに室内にこもりがちで体力が余っているのか
+身体が火照っているような気もする。/
+[se fusuma_02]
+[shakebg]
+[show A C]
+[scale A 1.6 0.3]
+[move A Y -140 0.3]
+[face A 03]
+[orderline A]
+[textcolor ARUJI]
+[flow]
+[effect fr syutyu a 0 0]
+返事をすると、豊後が突然ふすまを開け
+こちらに抱きついてきた。[shakebg][se cloth_06]/
+[face A 05]
+[say A]
+[bgm comical]
+[se cloth_01]
+[quake 1]
+にゃーーーーっ、や、やっぱりこれにゃ！/
+[face A 09]
+[flow]
+うにゃああどんどん具合が悪くッなるッにゃああ！[shake A]/
+[serif off]
+?どどどどういうこと！？/
+[face A 10]
+[serif on]
+どういうこともこういうこともにゃいにゃ！[shake A]
+原因は主にゃ！！/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 09]
+[flow]
+[se cloth_01]
+主の体調不良が霊力を通して男児たちにも
+伝わってるのにゃ！　はぁ、はぁ、[wait 0.5]ぐほにゃ！[shake A 3 20 20][move A C 0.5][move A Y -140 0.5]/
+[quake off]
+[talkend]
+[serif off]
+?そんなことある！？/
+[hide A]
+[effect off a]
+[serif on]
+[textcolor ARUJI]
+だが確かに思い返してみれば、体調不良になって
+いるのは最近頭を撫でたり、触られたり……/
+[flow]
+[textcolor ARUJI]
+荘園の中で身体的接触のあった地魂男児ばかりだ。/
+[show A C]
+[face A 09]
+[scale A 1.6]
+[move A Y -140]
+[orderline A]
+[textcolor ARUJI]
+豊後は強くこちらを抱きしめたままみるみると
+顔が赤くなりハァハァと息を切らしだす。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 02]
+[say A]
+ふ、ふふふ……見つけたにゃー！/
+[face A 01]
+[flow]
+まずは主の体調を整えればきっと
+みんな元気ににゃるはずにゃ！[shake A]/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 02]
+[talkend]
+[textcolor ARUJI]
+豊後はこちらに抱きついたまま
+ぴょんぴょんと嬉しそうに跳ねる。/
+[face A 01]
+[say A]
+さぁ、こっちに来るにゃ！
+治療だにゃ！/
+[se fusuma_03]
+[move A X -1000 0.3]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[light def]
+[lightcolor blue]
+[hideall]
+[se amb_05]
+[bg niwa_night]
+[bgm night]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif off]
+?鼻がスッキリした/
+[show A C]
+[face A 06]
+[say A]
+[orderline A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぅ……薬が効いたみたいにゃ。
+……オレも具合がよくなってきたにゃ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+[flow]
+まったく……体調が悪くなったらすぐ
+診察室に来いって言ってたはずにゃ。/
+[serif off]
+?ごめん……/
+[face A 08]
+[serif on]
+[se write_01]
+今後は定期検診を細かく行うとするにゃ。
+猪森にも連絡しといたにゃ。/
+[face A 06]
+[flow]
+声聞士の心身の状態が地魂男児に
+伝わる可能性……興味深いにゃ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+まぁ、主が体調不良になったら
+必ず影響がでるわけでもにゃいと思うが……/
+[face A 00]
+[flow]
+こういうケースもあるということが
+わかったにゃ。/
+[face A 06]
+[flow]
+……主と地魂男児の結びつきは強い。それに今回
+主はずっとオレたちを心配していたからにゃ。/
+[face A 01]
+[flow]
+霊力の波長が合いやすくなっていたのかも
+しれにゃいにゃ。/
+[face A 06]
+[serif off]
+[bgm off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+…………/
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[face A 06]
+[bgm fun]
+[flow]
+…………そうだ、その、主……[wait 0.2]オレがぴょんぴょん
+跳ねたり、弱音を吐いたことは――……/
+[face A 09]
+[flow]
+わ、[wait 0.2]忘れてほしいにゃ。[shake A]/
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[flow]
+きっとあれも主の感情とかが伝染しただけにゃ！
+/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 09]
+[flow]
+きっと主が嬉しい気持ちだったりしたのが
+伝わっただけにゃ～！/
+[serif off]
+?忘れないよ/
+[face A 10]
+[serif on]
+にゃ～～～～～っ！[shake A 5 15 15]　か、勝手にするといいにゃ！
+オレは診察室に戻るにゃ！[shake A]/
+[move A X -810 0.3]
+[se walk_03]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+その後、すぐに他の地魂男児たちの体調もよくなり
+謎の体調不良問題は一気に解決した。/
+[textcolor ARUJI]
+[flow]
+みんなには申し訳ないけど、豊後のいろんな姿が
+見られたことは嬉しかったのだ。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>201/
+[set A s_bun_r 豊後]
+[set B s_n005_r りく]
+[set C s_taj_r りく]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 豊後にチョコを]
+[-]
+[bg heya_day]
+[fadeout 2]
+[-]
+[bgm home]
+[serif on 0.5]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+チョコレートパーティの後日。
+豊後による定期検診を受けていた。/
+[show A C]
+[face A 00]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[orderline A]
+今日の検診はこれで最後にゃ。
+ほかになにか気になってることにゃどあるかにゃ？/
+[serif off]
+?大丈夫/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+リラックスしてるみたいだにゃ。
+いいことにゃ。/
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+にゃけど、採血の結果はアウトにゃ。
+血糖値が高いにゃ。チョコの食べ過ぎだにゃ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+チョコレートは適度に食べるぶんには
+健康にいいにゃ。/
+[face A 08]
+食べ過ぎは脂質や糖質の過剰摂取による
+不調を引き起こすことがあるにゃ。/
+[serif off]
+?ごめんなさい/
+[se cloth_01]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[face A 06]
+[-]
+[serif on]
+何事も適度がいいんにゃけど……
+みんな馬鹿騒ぎが好きにゃからな。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[se write_01]
+[face A 04]
+[talkend]
+[textcolor ARUJI]
+やれやれ、と言った様子で豊後は手元の
+カルテに色々と書き込んでいる。/
+[textcolor ARUJI]
+[se paper_01]
+[flow]
+このカルテは後ほどロクハラの研究室に
+送られ、情報を共有するらしい。/
+[face A 02]
+[say A]
+これでよしにゃ。猪森も喜ぶはずにゃ。/
+[serif off]
+[bgm off]
+?豊後にチョコを渡す/
+[bgm fun]
+[face A 05]
+[serif on]
+[effect fr syutyu a 0 0]
+にゃ！？　[shake A]お、オレは毎日適量の
+チョコを食べてるから不要なのにゃ！[face A 09]/
+[face A 10]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+い、いや持って帰らなくていいにゃ！[shake A]
+受け取っておくにゃ。少しずつ食べるからにゃ。/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 09]
+さぁ、今日の診察は終わりにゃ！　
+とっとと帰るにゃー！！/
+[effect off a]
+[show B L]
+[move B X -200]
+[setline 0.5 B A]
+[se fusuma_01]
+[move A X 100 0.5]
+[face B 04]
+[say B]
+[orderline A B]
+豊後先生ー。
+指に木のトゲが刺さっちゃったから抜いて～。/
+[scale A 1.0 0.5]
+[move A Y 120 0.5]
+[face A 06]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+診察はおしまいにしようと思ってたんにゃけど……
+まあいい。来るにゃ。/
+[face A 03]
+[flow]
+主はさっさと行くにゃ。
+……差し入れは、まあ感謝しとくにゃ。/
+[serif off]
+[se fusuma_01]
+[hideall]
+[bg rouka_day 0.5]
+[-]
+[delay 0.2 se fusuma_03]
+[wait 0.5]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg mbg_syouen]
+[minibg tyubo]
+[waku on]
+[wait 0.5]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+数時間前……豊後に気持ちよくチョコを
+受け取ってもらうにはどうするか、悩んでいた。/
+[textcolor ARUJI]
+[flow]
+豊後の性格からすると、バレンタインの風習も
+それほど興味はないのだろう。/
+[textcolor ARUJI]
+[flow]
+だが、そんな豊後が少しでも喜んでくれる
+方法はないかと、考えていたところ――/
+[textcolor ARUJI]
+[flow]
+但馬とチョコを作ったとき
+ヒントをもらったことを思い出した。/
+@但馬
+「きっと主様にこんなチョコをもらえたら
+　どんな気難しい子でも喜ぶと思うなぁ」/
+[serif off]
+?豊後に特別なチョコを作る/
+[serif on]
+[textcolor ARUJI]
+これで豊後が喜んでくれればいいのだが……/
+[serif off]
+[playeryes]
+[se cloth_01]
+[wait 0.5]
+[-]
+[fadein BLACK 1.5]
+[-]
+[minibg off]
+[waku off]
+[hideall]
+[bgm off]
+[bg heya_light]
+[-]
+[fadeout 1.5]
+[-]
+[se amb_05]
+[wait 1]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+その日の夜。
+そろそろ寝ようかと電気を消そうとしたとき……/
+[talkend]
+@豊後の声
+主……起きてるかにゃ？/
+[serif off]
+?豊後？　入っていいよ/
+[se fusuma_01]
+[show A C]
+[move A X -400]
+[move A X 400 0.8]
+[face A 06]
+[orderline A]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+豊後が部屋を訪ねてきた。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[say A]
+[bgm night]
+その……主。
+昼間のチョコにゃけど……/
+[face A 06]
+[flow]
+……あ、ありがとうにゃ。/
+[face A 02]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+結局、ペロッと食べてしまったにゃ。
+おかげで今日はカロリーオーバーにゃ。/
+[serif off]
+?わざわざ感想を言いに来てくれたの？/
+[face A 06]
+[wait 1]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 04]
+[serif on]
+…………せっかくのバレンタインくらいは……/
+[face A 06]
+[flow]
+オレらしくにゃいけど、
+素直にするのも、[wait 0.2]いいかもにゃ。[wait 0.2]って――……/
+[fadein WHITE 0.5]
+[serif off 0.5]
+[-]
+[waku on]
+[show B C]
+[face B 04]
+[face A 00]
+[setline B A]
+[orderline B A]
+[bg heya_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[place 豊後の診察室 ぶんごのしんさつしつ]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+[serif on]
+で、トゲの刺さった指をよく見せてみるにゃ。/
+[move A Y -50 0.5]
+[say B]
+[se cloth_01]
+[orderline B A]
+ここらへんなんだけど……
+ん？　あ、あれって……
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[face B 01]/
+[hide A]
+[hide B]
+[-]
+[talkend]
+[textcolor ARUJI]
+りくは机の上に置かれた包みに気づいたようだ。/
+[show A C]
+[show B C]
+[setline B A]
+[face A 00]
+[face B 02]
+[move A Y -50]
+[say B]
+[orderline B A]
+それって兄ちゃんにもらったやつ？
+美味しいよ！/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 12]
+[flow]
+なんかやっぱり手作りだと
+気持ちがこもってる感じがいいよね～。/
+[face A 08]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+想いとかオレは気にしないにゃ。
+食べてしまえば全部エネルギーにゃ。/
+[face A 00]
+[flow]
+無駄とまでは言わにゃいけど、
+まぁ目で見えるものでもないしにゃ。/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 03]
+[say B]
+え～そう～？/
+[face A 08]
+[say A]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 90 0.3]
+[delay 0.5 rotate A 0 0.3]
+オレは現実主義なんだにゃ。
+これでよしにゃ。トゲは無事に抜けたにゃ。[face A 01]/
+[face A 02]
+[face B 02]
+[say B]
+ありがと豊後先生～。/
+[move B X -400 0.5]
+[hide B]
+[se fusuma_01]
+[face A 00]
+[talkend]
+[textcolor ARUJI]
+りくはお礼を言って帰っていった。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[say A]
+やれやれ……やっと休めるにゃ。/
+[move A X -100 0.5]
+[face A 06]
+…………/
+[se cloth_01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.5 hide A]
+[talkend]
+[textcolor ARUJI]
+豊後は主からもらったチョコの包みを開いた。/
+[effect fr syutyu a 0 0]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 10]
+[say A]
+[orderline A]
+……！！[se cloth_06]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+主からのチョコには、チョコペンで
+「豊後へ」と名前が書かれていたのだ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm night]
+[hideall]
+[bg heya_light]
+[light def]
+[lightcolor blue]
+[waku off]
+[effect off a]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[say A]
+[orderline A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on 0.5]
+地魂男児にとって、
+名前はとっても大事なものにゃ。/
+[face A 01]
+[flow]
+主が名前をくれたから、
+オレたちはここにいるにゃ。/
+[face A 06]
+[flow]
+想いは、目に見えにゃい[wait 0.5]
+……[wait 0.2]にゃんてことはなかったにゃ。[face A 02]/
+[flow]
+[face A 06]
+あのチョコには確かに主の想いが
+こもっていたにゃ。/
+[hide A]
+[-]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+豊後は照れくさそうに目をそらして言う。/
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[orderline A]
+だから、本当は渡さなくても
+いいかと思ってたんにゃけど……/
+[talkend]
+[textcolor ARUJI]
+豊後はおずおずと包みを差し出した。/
+[serif off]
+?豊後のチョコを受け取る/
+[se cloth_01]
+[face A 10]
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[-]
+[shake A]
+[wait 0.5]
+[-]
+[say A]
+[serif on]
+た、ただのチョコにゃけど……
+まあ、食べてくれたら嬉しいにゃ。[face A 06]/
+[face A 09]
+それだけにゃ！[shake A]/
+[move A X -400 0.3]
+[scale A 1.6 0.3]
+[move A Y 100 0.3]
+[delay 0.3 shakebg]
+[delay 0.3 se fusuma_02]
+[hide A 0.3]
+[talkend]
+[textcolor ARUJI]
+豊後は慌てたように部屋を出て襖を閉めた。[se fusuma_04][shakebg]/
+[textcolor ARUJI]
+[se walk_03]
+[flow]
+ドタドタと逃げるような豊後の足音が
+遠ざかっていく。/
+[serif off]
+?包みを開けてみる/
+[serif on 0.5]
+[textcolor ARUJI]
+豊後のチョコには
+「主へ」と書かれていた。/
+[textcolor ARUJI]
+[flow]
+豊後の想いが伝わってくる優しくて
+甘くて美味しいチョコだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

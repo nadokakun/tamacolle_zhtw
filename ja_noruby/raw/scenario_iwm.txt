@@ -1,0 +1,770 @@
+>>10000/
+@石見
+ふぅーっ。[wait 1]
+おらは山陰道、石見。[autotap]/
+[delay 1.7]
+[flow]
+[-]
+@石見
+そんじゃあどこ掘らあ？/
+>>10001/
+@石見
+あんた、また呼んでくれたんかね。[autotap]/
+[delay 1.9]
+[flow]
+[-]
+@石見
+そんじゃあ期待通り、気合い入れて掘らあ！/
+>>1/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+あんたも、石見銀山は知っとるろ？
+石見国の有名な、すごぉ銀山じゃ。/
+[face A 03]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+あんまり銀が取れるもんじゃけぇ、
+昔はそれを巡って争いもあったんじゃよ。/
+[face A 04]
+今は使われてなぁようじゃけど、[wait 0.5][effect A kira 3000 0 200][face A 06]
+……どうにかおらに掘らせちゃあくれんかのぉ。/
+>>2/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+おらカナヅチじゃけぇ……[wait 0.5]海は苦手なんじゃけど、
+石見畳ヶ浦の景色はええけぇね。[face A 01]/
+[face A 00]
+あそこは腰掛けみたいな形しとぉ岩が
+ようけあっておもしろいんじゃよ。/
+[face A 01]
+あと……化石なんかもあるが、
+あんたはそがぁなもんは好きかね？/
+[face A 06]
+興味あるなら連れてっちゃってもええけど……[wait 0.5]
+ちゃんと潮が引いた時に行こうやぁ。[shake A]/
+>>3/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+石見国で散歩するなら津和野の町がええよ。/
+[face A 02]
+元は城下町で「山陰の小京都」ちゅーて言われる
+くらい情緒ある町並みなんじゃよ。/
+[face A 06]
+[effect a kira 6000 0 200]
+町の中には至るところに水路が張りめぐらされとって、
+鯉がゆらゆら泳いどるんじゃあ～。/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 09]
+おらもあんな風に泳げたら、
+怖ぁもんなしなんじゃけどねぇ……/
+>>4/
+[set A s_iwm_r 石見]
+[show A C]
+[move A Y -200]
+[face A 01]
+[move A Y 210 0.3]
+[delay 0.3 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+今日は一日任務がなぁけぇ、
+ゆっくり穴掘りの仕事できらぁね。/
+[serif off]
+[se cloth_01]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[serif on]
+[face A 00]
+鶴嘴に、明かりと……よぉし、道具の準備も
+できたけぇ、そろそろ行こうかね。/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+目指せ最深部じゃあ！/
+>>5/
+[set A s_iwm_r 石見]
+[randomset B r @地魂男児 -iwm]
+[show A C]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅ～、お日様が出とると暑いけぇ。
+上着脱いじゃろ。……んしょっと。/
+[serif off]
+[se cloth_01]
+[show B R]
+[move B X 150]
+[face A 02]
+[face B 00]
+[move B X -150 0.5]
+[talk A]
+[-]
+[face B 05]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[-]
+[serif on]
+ふー、これなら楽じゃねぇ。
+今日は風も気持ちいいけぇね。/
+[face A 00]
+[face B 06]
+ん？　$B:A、何じーっとみとるんじゃね。[move B Y 10 0.1][delay 0.1 move B Y -10 0.1]
+……いい身体じゃって？/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y- 5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+はは、穴掘りで鍛えとるけぇね。
+褒められると嬉しいけぇ、おーきに。/
+>>6/
+[set A s_iwm_r 石見]
+[randomset B r @地魂男児 -iwm]
+[show A C]
+[show B C]
+[talk A]
+[face A 08]
+[face B 00]
+[setline 0 A B]
+[serif on]
+任務では一緒に戦うんじゃから、お互い
+しっかり親睦を深めとくべきじゃねぇ。/
+[face A 01]
+$Bはどがぁ思う？[move B Y 10 0.1][delay 0.1 move B Y -10 0.3][face B 01]
+…………うんうん、わかってくれて嬉しいけぇ。[move A Y 5 0.2][delay 0.2 move A Y -10 0.6][delay 0.8 move A Y 5 0.5]/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ほんなら早速、一緒に穴掘りに行くけぇ！[face B 05]
+仲良うなるにはこれが一番じゃあの。/
+[se walk_03]
+[move B X 1000 0.5]
+[delay 0.3 hide B]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 05]
+あれ！？[shake A]
+$B:A、どがぁして逃げよるんじゃ～！？[move A X 800 0.5][hide A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ふぁぁ～、もう眠いけぇ、そろそろ寝るかのぉ。/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、着替え、洗濯に出すの忘れとった。/
+[face A 06]
+……今晩は褌でええかあ。/
+>>10/
+[set A s_iwm_r 石見]
+[randomset B r @地魂男児 -iwm]
+[show A C]
+[show B C]
+[face A 00]
+[face B 04]
+[setline 0 A B]
+[serif on]
+[talk A]
+お、$B:A。そがぁじーっとおらを見て、
+どがぁしたんかね？/
+[face A 01]
+[face B 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え、おらの顔が泥だらけ？
+おお、おーきに。さっきまで穴掘っとったけぇね。/
+[serif off]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.3]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.3]
+[-]
+[serif on]
+[face A 06]
+ごしごし。
+ん？　まだ真っ黒かね？/
+[face A 05]
+ありゃ～～手ぬぐいも土まみれじゃねぇ。[face A 02][face B 02]
+アッハッハ！[move A Y -0 0.1][delay 0.1 move A Y -10 0.2][-][move A Y 10 0.1][delay 0.1 move A Y -10 0.2][-][move A Y 10 0.1][delay 0.1 move A Y -10 0.3]/
+>>11/
+[set A s_iwm_r 石見]
+[show A L]
+[talk A]
+[face A 00]
+[move A C 0.8]
+[-]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0][effect A kira a 0 200]
+[-]
+[serif on]
+はぁ～ええ香りじゃねぇ～。
+今夜の飯は…………[wait 0.5][face A 05]に、肉料理かぁ！！？[shake A]/
+[face A 05]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+そ、そがぁ貴重なもん、
+おらが食ってもええんかね！？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+肉ちゅうたら、贈り物じゃけぇね。
+めったに食えなぁけぇねぇ。/
+[face A 06]
+[effect off a]
+ははは……おおきに、
+今晩は堪能させてもらおうかね。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅ～……
+今日はなんか、はぁ落ち着かんねぇ。/
+[move A X -200 0.5]
+[face A 09]
+[-]
+[move A X 200 0.5]
+うーんうーん……
+いけん……！[shake A]/
+[face A 06]
+も、もう掘りたぁてやれん！
+我慢できん～！！！[move A X 800 0.3]/
+>>15/
+[set A s_iwm_m 石見]
+[randomset B m @地魂男児 -iwm]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+……ん？　床板が少し削れとぉね。[move A XY -10 -40 0.4][rotate A 10 0.3]
+誰かが槍で突いてしもたんかね。/
+[face A 03]
+こがぁ穴空いてしもて…………穴…………/
+[face A 08]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.5]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.5]
+ガリガリ……ガリガリ……
+（穴が空いとると、つい掘りたく……）/
+[show B R]
+[talk A]
+[face A 05]
+[face B 05]
+[move A XY 10 40 0.3]
+[delay 0.1 rotate A 0 0.3]
+[delay 0.3 move A X -200 0.2]
+はっ$B:A、こ、これは違ぁよ！　お、おらは……[shake A][face A 09]
+うう、そがぁ顔で見るのはやめてくれや……/
+>>16/
+[set A s_iwm_m 石見]
+[randomset B m @地魂男児 -iwm]
+[show A C]
+[show B C]
+[face A 04]
+[face B 08]
+[serif on]
+[talk A]
+[setline 0 A B]
+戦いも穴掘りと一緒で、連携がキモじゃね。
+そこ守らんと、怪我してまうけぇね。/
+[face A 01]
+[face B 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+んじゃあ訓練の続きしよか。
+次はおらが手子につくけぇね。/
+>>17/
+[set A s_iwm_b 石見]
+[effect fr yuge a 0 0]
+[randomset B b @地魂男児 -iwm]
+[show A L]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+はぁ～～扇風機は気持ちえぇのぉ……/
+[face A 01]
+おら汗っかきだけぇ、風呂上がりはすっぽんぽんで
+ここで風にあたっとると、いい気分だけぇね……/
+[show B R]
+[talk A]
+[move B X 150]
+[face B 00]
+[move B X -150 0.5]
+[-]
+[face B 06]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[-]
+[face A 00]
+ん？
+$B:A、顔赤ぁしてどがぁしたね？/
+[face A 02]
+ああ、あんたも暑いんじゃろ。
+こっち来んさい。一緒に涼まんかね。/
+>>18/
+[set A s_iwm_b 石見]
+[show A R]
+[face A 09]
+[effect fr yuge a 0 0]
+[move A X 300]
+[move A X -200 1.0]
+[wait 0.5]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+ふ、風呂は怖あ。……湯船はこないだ浸かったけぇ、
+今日は流すだけでええじゃろ……[move A Y -100 0.3]/
+[face A 04]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.5]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.5]
+ジャーッ！　ゴシゴシゴシ！　キュッキュ！
+バシャバシャバシャバシャ！！　ジャー！！　キュッ/
+[face A 09]
+[move A Y 100 0.2]
+ぷはっ！！　
+全身洗い終わった！　……はぁ……はぁ……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+こないだは息が続かんで倒れてしもぉたけぇ……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+そしたら、[face A 02]お先失礼するけぇね～。[move A X 500 0.5][hide A]/
+>>19/
+[set A s_iwm_b 石見]
+[randomset B b @地魂男児 -iwm]
+[effect fr yuge a 0 0]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[setline 0 A B]
+[serif on]
+[talk A]
+ん？　$B:A、おらの筋肉触ってみたいじゃと？
+ええよ。[move A Y 5 0.2][delay 0.2 move A Y -10 0.6][delay 0.8 move A Y 5 0.5]/
+[face A 06]
+[face B 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+実はおら、太ももの太さにゃ自信あるんじゃよ。
+穴掘りににゃ足腰が大事じゃけぇね。/
+[face A 02]
+[face B 06]
+ほれ、抱えてみ？[move B XY -100 -100 0.5][rotate B 10 0.5]
+…………な！　太ぉじゃろ！/
+>>20/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[waku on 0.5]
+[-]
+[serif on]
+[talk A]
+（小便器にまぁるい点が描いてあって、おしっこ
+　する時に自然とそこを狙ってしまうんじゃよ。）/
+[face A 01]
+[waku off 0.5]
+はぁ、よぉ考えたもんじゃねぇ。/
+[face A 08]
+[waku on 0.5]
+（……だけぇ、おら思うとるんじゃよ。そのうち
+　みんなのおしっこで穴ぁ開けるんじゃってのぉ！）/
+[face A 02]
+[waku off 0.5]
+楽しみじゃのぉ！/
+>>21/
+[set A s_iwm_r 石見]
+[randomset B r @地魂男児 -iwm]
+[show A C]
+[show B C]
+[face A 07]
+[face B 00]
+[setline 0 A B]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ふあ～……んんっ[shake A]……んー……
+寝起きの小便は狙いが定まらんのぉ……/
+[face A 01]
+[face B 01]
+[move A X 50 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+なぁ、$B:Aもそがぁ思わん……？/
+[face A 02]
+[face B 06]
+お、$B:Aも狙い定まらんようじゃね。
+はははっ。[move A Y -0 0.1][delay 0.1 move A Y -10 0.2][-][move A Y 10 0.1][delay 0.1 move A Y -10 0.2][-][move A Y 10 0.1][delay 0.1 move A Y -10 0.3]/
+>>22/
+[set A s_iwm_r 石見]
+[show A L]
+[face A 06]
+[delay 0.3 move A C 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅー！　すっきりしたのぉ！/
+[face A 02]
+さぁ、今日も元気に庭行って穴掘ろかぁ！[move A X 500 0.5][hide A]/
+>>23/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅ～、今日はみんなによぉ身体触られたのぉ。
+まぁ身体褒められるんは嬉しいん……じゃけど、[face A 04]/
+[flow]
+股間の辺りを何度も触るやつはなんじゃろ。
+う～ん。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[face A 09]
+別によぉ鍛えられとる場所でもなぁのに。
+……まぁええかね。[face A 02]/
+>>24/
+[set A s_iwm_r 石見]
+[randomset B r @地魂男児 -iwm]
+[show A C]
+[show B C]
+[talk A]
+[face A 02]
+[face B 00]
+[setline 0 B A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+おぉ、$B:A、それ新しい寝間着かね？
+よさげなけぇ。/
+[move A X -100 0.3]
+[se cloth_01]
+[face A 01]
+[face B 02]
+おぉ、手触りもええねぇ。
+すべすべじゃあ。/
+[face A 04]
+[face B 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+おらの寝間着は、はぁ擦れてしもぉとるけぇ、
+全然違ぁよ。/
+[face A 09]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+特にこの辺とかざらざらじゃけぇのぉ……
+ほれ、触ってみんさる？[face B 00]/
+>>25/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+ぐごー……ぐごー……ボリボリ……ぐごー……[shake A]/
+[talkend]
+寝間着がはだけて褌が丸見えになっている。/
+>>26/
+[set A s_iwm_r 石見]
+[show A R]
+[face A 06]
+[move A C 1.0]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+[talk A]
+さっきみんなが見とった春画本、
+すごぉ中身じゃった……/
+[face A 04]
+いや、よくはみんかったんじゃけど……
+チラッとみえたんが…………うずうず……[shake A]/
+[talkend]
+石見は悶々としているようだ。/
+>>100/
+[set A s_iwm_r 石見]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 土だらけの石見]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[se doka_01]
+[delay 0.5 se doka_01]
+[wait 1.0]
+[-]
+[se walk_01]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg niwa_day]
+[-]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+荘園を散歩中、庭からなにやら音が聞こえたので
+行ってみると、土まみれの石見がいた。/
+[serif off]
+?石見/
+[show A C]
+[face A 00]
+[talk A]
+[-]
+[serif on]
+おぉ、あんたかぁ。
+こがぁとこで、散歩かね？/
+[face A 05]
+あっ、そこ！　危なぁよ！/
+[hide A]
+[talkend]
+[shakebg]
+[se doka_01]
+[textcolor ARUJI]
+石見がそう言ったときには既に遅く、地面に
+空いた穴に足を引っ掛け、体勢を崩してしまった。/
+[serif off]
+[shakebg]
+[se dosa_01]
+[effect fr syutyu a 0 0]
+[wait 0.5]
+[-]
+[show A]
+[face A 06]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on]
+[effect off a]
+ふぅー危なぁとこじゃ……/
+[talkend]
+[textcolor ARUJI]
+倒れる前に石見がしっかりと
+こちらの体を抱きとめてくれた。/
+[textcolor ARUJI]
+石見の体はがっしりしていて力強い。/
+[hide A]
+[serif off]
+?ありがとう……地面に穴？/
+[show A]
+[face A 09]
+[scale A 1.6]
+[move A Y -150]
+[scale A 1.0 1]
+[move A Y 150 1]
+[-]
+[serif on]
+[say A]
+いやぁーあんたが怪我せんでよかった……
+これはおらが悪かったのぉ……/
+[face A 06]
+ちょうど土掘っとったとこじゃったけぇね。/
+[serif off]
+?土掘り？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[serif on]
+うん。庭に花壇作りたぁちゅうて相談されたけぇ、
+おらが地面をならしとったんじゃよ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+おら、土っちゅうか穴掘るんが得意じゃけぇね、
+なんちゅーか、血が騒ぐっちゅーか。/
+[serif off]
+?いいね/
+[serif on]
+[face A 01]
+穴が欲しいときはおらを呼びんさい！
+いつでも掘っちゃるけぇね！/
+[face A 06]
+あ、でも、今後はちゃんと先に
+穴掘り中の看板立てとくけぇ、心配せんで。/
+[talkend]
+[textcolor ARUJI]
+石見は腰に手を当てながら、力強く笑った。/
+[face A 00]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+お、あんた、手に持っとるその板はなんかね？
+つるつるしててキレイじゃのぉ……/
+[serif off]
+?スマホのことかな/
+[face A 01]
+[serif on]
+すまほ、ちゅーのかぁ。
+どれどれ……[scale A 1.5 0.5][move A Y -100 0.5]/
+[talkend]
+[textcolor ARUJI]
+石見は興味深そうにスマホを覗き込み、
+ひょいと手に取ると、ぺたぺたと触りだした。/
+[face A 02]
+[talk A]
+ほー、こんなつやつやのつるつる、
+研磨するんはさぞ大変じゃろーのぉ……/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+おぉっ光った！　[move A Y 100 0.1][delay 0.1 move A Y -100 0.2]お、お、おおおっ！？[shake A]
+うはは、[face A 02]動いとるなぁ！/
+[talkend]
+[textcolor ARUJI]
+石見は子供のようにはしゃいで、
+初めて触るスマホにしばらく夢中になっていた。/
+[face A 00]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+…………あ、すまん！　返すけぇね。/
+[serif off]
+[scale A 1.0 0.5]
+[move A Y 120 0.3]
+[delay 0.3 move A Y -20 0.2]
+[-]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+勝手に色々触ってしもたけぇ、
+汚れとらんかったらええんじゃけど……/
+[serif off]
+?大丈夫だよ/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[serif on]
+はぁー。[wait 0.5]そのすまほもじゃが、この荘園に来てから
+すごいもんがいっぱいで驚くことばっかりじゃぁ。/
+[face A 00]
+仲間の中にゃあ、もう慣れきって利用しよるもんも
+おるけど、おらにも使えるようなるかねぇ。/
+[face A 04]
+[flow]
+機能が多いって聞きよるけぇ、難しそうじゃなあ。
+何ができるか勉強じゃねえ。/
+[serif off]
+?写真や動画も簡単に撮れるよ/
+[serif on]
+[face A 03]
+動画とはなんじゃ？　[wait 0.5][face A 05][shake A]え、動く写真かね！？
+現代ではそんなもんがあるんじゃねえ！/
+[face A 01]
+今度わしが掘っとるとこ、とってもらえるかね。
+一生懸命腰入れて掘るけぇ！！/
+[serif off]
+?いいよ、石見にも撮らせてあげるね/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+おーきに！[wait 0.5][move A Y 10 0.1][face A 05][delay 0.1 move A Y -10 0.1]
+お、そうじゃ。/
+[talkend]
+[serif off]
+[face A 00]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+正面に立ち一歩近づく石見。
+汗と土の混じったにおいがほのかに漂う。/
+[face A 02]
+[talk A]
+あんたとは長くなりそうじゃけぇね、
+これからよろしゅー頼むよ！/
+[talkend]
+[textcolor ARUJI]
+そう言って握手をすると、石見は土埃で汚れた
+鼻をかきながらにっこりと笑ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

@@ -1,0 +1,688 @@
+>>10000/
+@安房
+嘿男孩。[wait 1.0]看來我們的目標是一樣的。[autotap]/
+[delay 2.8]
+[flow]
+[-]
+@安房
+神秘的哥哥，[wait 1.0]安房[wait 1.0]
+讓我來幫助你。/
+>>10001/
+@安房
+看來這個男孩已經喜歡上它了。[wait 2.8]
+啊哈哈哈。/
+>>1/
+[set A s_awt_r 安房]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+呵呵，小夥子
+讓我告訴你你哥哥最喜歡的地方。/
+[face A 07]
+今天要向大家介紹的是立山灣。
+因其水面平靜而被稱為“鏡浦”。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[flow]
+尤其是那整個表面都被夕陽染紅的樣子…[wait 0.5][face A 09]
+當我想起它時，我就生氣。/
+[face A 00]
+呵呵...
+對於小男孩來說，這可能有點太刺激了。/
+>>2/
+[set A s_awt_r 安房]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+呵呵，
+讓我們來為這個男孩講一個有趣的故事。/
+[face A 00]
+在聖人誕生之際，一群鯛魚聚集在纓浦。
+因傳說而被稱為「臺之浦」。/
+[face A 08]
+而在臺之浦，仍有大量的鯛魚被捕獲。
+呵呵...[wait 0.5]不只是“泰國”.../
+……發生了什麼事？[wait 0.5][face A 00]
+這就是你笑的地方，對吧？男生。/
+>>3/
+[set A s_awt_r 安房]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+想知道弟弟最喜歡吃的食物嗎？
+當然他是個男孩……我想說。/
+[face A 00]
+新鮮竹莢魚泡茶茶
+這是我哥哥最喜歡的食物。/
+[face A 07]
+[flow]
+不僅好吃，而且不需要花太多時間。
+我特別喜歡的是它可以很快吃完。/
+[face A 01]
+呵呵，這就是你弟弟的樣子。
+我有點不耐煩了。/
+>>4/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 @あやかし @NPC -awt]
+[show A C]
+[waku on]
+[show B C]
+[face A 08]
+[face B 00]
+[serif on]
+[talk A]
+[setline 0 B A]
+$B:A或者.../
+[move B X 500 1.5]
+[move A X -200 1.0]
+[face A 07]
+呵呵…動作和心態都很完美…
+天賦也……足夠了。/
+[face A 00]
+一開始你可能會有點害羞，但是
+嗯，你很快就會習慣的。/
+[waku off]
+[move A X 100 1.0]
+[face A 01]
+嗨$B:A。你怎麼認為？
+你想和你的兄弟一起成為八劍士嗎？[face B 05]/
+>>5/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 @NPC -awt]
+[show A C]
+[show B C]
+[face A 00]
+[face B 04]
+[serif on]
+[talk A]
+[setline A B]
+哦？　$B:A，看來你很忙。
+這是今天的工作嗎？/
+[face A 01]
+....嗯嗯。[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]
+那樣的話，哥哥就會幫你的！[face B 01]/
+[face A 08]
+這就是我想說的...[face B 05]/
+[face A 02]
+[move A X 50 1.0]
+我會趁這個機會讓你看看那張痛苦的臉。
+我想我會再看一會兒......呵呵。[face B 04]/
+>>6/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 @あやかし -awt -@NPC]
+[show A R]
+[move A X 300]
+[show B C]
+[face A 01]
+[face B 00]
+[move A X -150 1.0]
+[talk A]
+[order A 0]
+[order B 1]
+[-]
+[serif on]
+天哪。如果美味的氣味邀請我
+今天廚房的職責是$B:A是嗎？/
+[move A X -100 0.5]
+[face A 08]
+……當然做飯，[face B 05]
+我也想讓你加入我。/
+[face B 06]
+……呵呵，開個玩笑。/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_awt_r 安房]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[serif name]
+晚上...
+又到了修羅大顯身手的時候了。/
+[face A 07]
+[move A X 300 0.5]
+[hide A]
+[se walk_01]
+……讓我們享受一下夜風吧。/
+>>10/
+[set A s_awt_r 安房]
+[set B s_awt_r 安房]
+[show A C]
+[face A 09]
+[serif on]
+[talk A]
+也許是因為今晚的月亮很美
+看來劍要狂野了…/
+[show B]
+[color B BLACK]
+[order B 0]
+[order A 1]
+[face A 08]
+請不要告訴任何人[hide A 1.0]
+我希望我們永遠不會見面……呵呵。[hide B]/
+>>11/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 -awt -@NPC]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[serif on]
+[talk A]
+[setline 0 A B]
+$B:A，你在今天的任務中所做的工作非常出色。
+作為獎勵，我哥哥會揉揉你的肩膀。/
+[face A 00]
+[move A X 100 0.5]
+好吧，沒有什麼可以阻止的。
+如果你把自己交給你的兄弟就好了。/
+[face A 08]
+[face B 06]
+然而，
+盡量不要發出奇怪的聲音，因為這樣感覺很好。[shake B]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_awt_r 安房]
+[randomset B b @地魂男児 @あやかし @NPC -awt]
+[show A C]
+[show B L]
+[face B 00]
+[serif on]
+[talk A]
+[setline]
+古夫！ ！ ！[shake A]
+$B:A…………！！[face A 05]/
+[face A 06]
+[face B 05]
+即使從浴池出來後，
+什麼樣子的樣子啊……！ ！[shake A]/
+[face B 06]
+不愧是大哥的期待
+我不可能是個正常人……！ ！ ！/
+>>15/
+[set A s_awt_m 安房]
+[randomset B m @地魂男児 @あやかし -awt -@NPC]
+[show A R]
+[show B L]
+[face A 08]
+[face B 08]
+[serif on]
+[talk A]
+……哈！頭！ ！[effect fr katanas][se katana_02][delay 0.2 se katana_03][move A X 50 0.5]
+……呼。/
+[move A X -150 1.0]
+[face A 07]
+$B:A、
+這就是今天的全部內容。/
+[face A 09]
+[face B 05]
+還有嗎...
+我感覺我要認真起來了。不適用.../
+>>16/
+[set A s_awt_m 安房]
+[face A 01]
+[show A R]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+算了，大家訓練一定累了吧。
+享受你自製的饅頭吧。/
+[face A 08]
+當然是有毒的。/
+[face A 00]
+……呵呵，我只是開玩笑。/
+>>17/
+[set A s_awt_b 安房]
+[randomset B b @地魂男児 @あやかし -awt]
+[show A C]
+[show B L]
+[face A 01]
+[serif on]
+[talk A]
+哈哈哈哈！
+每個人都在成長，這真是太好了！[face B 06]/
+[face A 00]
+大哥高興極了！/
+>>18/
+[set A s_awt_b 安房]
+[randomset B b @地魂男児 -awt -@NPC]
+[show A C]
+[move A Y -100]
+[face A 03]
+[serif on]
+[effect fr yuge a 0 0]
+[se amb_12]
+[talk A]
+嗯？
+$B:A那傢伙在那個地方受傷了。/
+好吧，如果你仔細觀察，你也可以在那裡看到它。
+我明白了……他們正在努力戰鬥。/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+....不適用。
+是不是很誘人呢？[se water_06]/
+>>19/
+[set A s_awt_b 安房]
+[show A C]
+[move A Y -100]
+[face A 07]
+[talk A]
+[se amb_12]
+[effect fr yuge a 0 0]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+唷。浴室很好。
+這個浴室的景色特別好。/
+[face A 01]
+[se bath_04]
+放眼望去，每個人的屁股都很可愛
+好可愛…………[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]/
+[face A 02]
+不，這不是可以用言語來表達的。
+不適用。[se water_06]/
+>>20/
+[set A s_awt_r 安房]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+不適用。撒尿後，
+我必須正確洗手。/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……但僅在用水清洗後
+有些異味是你無法去除的.../
+>>21/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 @あやかし @NPC -awt]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[talk A]
+[setline 0 A B]
+嘿那裡$B:A。從今以後，和哥哥一起
+我們一起去參加一個聚會吧。/
+[face A 02]
+[move A X 50 0.3]
+我不做任何奇怪的事情。
+我只是從側面看著你，觀察你。[face B 04]/
+[face A 01]
+你就像往常一樣毫無防備，什麼也不擔心。[face B 06]
+您所要做的就是緩解自己。哈哈哈。/
+>>22/
+[set A s_awt_r 安房]
+[show A R]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+哦？[face A 05]
+今天的穀倉內部非常乾淨整潔。/
+[face A 08]
+替換滴紙、馬桶消毒紙、成堆的書…
+嗯。/
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[-]
+[move A XY -10 -40 0.4]
+[delay 0.4 move A XY 10 40 0.3]
+[-]
+[rotate A 0 0.3]
+因為哥哥喜歡雜七雜八的東西
+讓我們讓它變得更混亂一點。/
+[face A 02]
+呵呵，
+我會讓組織這個活動的孩子生氣嗎？/
+>>23/
+[set A s_awt_r 安房]
+[show A C]
+[move A Y -100]
+[face A 07]
+[serif on]
+[talk A]
+現在，我正走進衣櫃，沒有鎖門…/
+[face A 02]
+如果有人進來
+不知道他會做出什麼樣的表情呢…？呵呵。/
+>>24/
+[set A s_awt_r 安房]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+看起來你哥哥的床今天在中間。/
+[face A 02]
+不適用……呵呵……
+抱著可愛的寶寶睡著了…/
+[face A 01]
+這不只是一個男人的夢想嗎？
+啊哈哈！ ！[shake A]/
+>>25/
+[set A s_awt_r 安房]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+古夫……交給你哥吧……呵呵……/
+[talkend]
+就像在睡夢中說話一樣。/
+>>26/
+[set A s_awt_r 安房]
+[randomset B r @地魂男児 @あやかし -awt -ymt -@NPC]
+[show A C]
+[show B C]
+[face A 02]
+[face B 04]
+[serif on]
+[talk A]
+[setline 0.5 A B]
+……天哪，$B:A。
+看來你很沮喪。你做了惡夢嗎？[move A X 100 1.5]/
+[face A 01]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+好吧，好吧。[face B 01]
+沒關係，因為我有一個哥哥，所以沒關係。/
+[face A 02]
+如果事情變得太難而我再也無法忍受
+你可以隨時告訴你的兄弟。/
+[face A 09]
+我的兄弟很快
+我會讓你輕鬆一點。[face B 05]/
+>>27/
+[set A s_awt_r 安房]
+[show A C]
+[face A 07]
+[talk A]
+？ 安房，生日快樂！/
+[serif on]
+[face A 02]
+呵呵，這小子的恭喜之言…
+我真的很高興。/
+[face A 00]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+那麼，你為什麼選擇這一天來舉行婚禮呢？
+這就是你一定想知道的。/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y- 5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -5 0.1]
+不適用。測驗時間到了。男生。
+你應該用你那可愛的腦袋盡你最大的努力去思考。/
+[face A 07]
+[serif off]
+[wait 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 02]
+[-]
+[serif on]
+……想到這裡，我皺起了眉頭。
+男孩的臉真的很好看。是萌啊/
+[face A 01]
+[flow]
+n/a...看著總是這樣擔心的男孩
+我很樂意，但是...我會給你一個提示。/
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[face A 04]
+適合神秘男人的一天…
+很難找到。我被允許建立它。/
+[face A 08]
+[flow]
+我的兄弟一直在尋找什麼...
+你能想像嗎？/
+[face A 07]
+……[wait 0.2]……[wait 0.2]……[wait 0.2]
+呵呵...[wait 0.2]時間快到了。男生。[face A 00]/
+[face A 02]
+哥哥的特別日子。[wait 0.2]8月11日...
+是的，[wait 0.5]八隻狗，[wait 0.2]薩。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+啊哈哈！我想看看那個男孩的臉！
+這是最好的！　[wait 0.2]你真的很可愛。[face A 02]/
+>>100/
+[set A s_awt_r 安房]
+[set B s_awt_r 安房]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 安房の挨拶]
+[-]
+[bg heya_night]
+[-]
+[fadeout 1.0]
+[-]
+[se amb_05]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+晚上，我突然醒了。
+現在幾點了？/
+[se cloth_01]
+[flow]
+[textcolor ARUJI]
+帶著這樣的想法，我伸手去拿附近的智慧型手機。
+我把它伸了過去，但我找不到它。/
+[serif off]
+？你去哪裡了…？/
+[serif on]
+[se cloth_01]
+[textcolor ARUJI]
+我揉了揉眼睛坐了起來
+突然有人遞給我一部智慧型手機。/
+@？？？
+嘿男孩。
+這是您要找的嗎？/
+[serif off]
+？啊，安房！ ？/
+[show B]
+[color B BLACK]
+[wait 1.0]
+[show A C]
+[order A 1]
+[order B 0]
+[face A 00]
+[-]
+[talkend]
+[serif on]
+[bgm home]
+[textcolor ARUJI]
+安房 帶著無所畏懼的微笑
+我坐在床邊。[hide B]/
+[face A 00]
+[say A]
+早上好，孩子。
+我讓你感到驚訝嗎？/
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+當我參觀男孩的房間時
+我睡得很香。/
+[face A 02]
+[flow]
+這才是哥哥的男孩模樣
+我看著她毫無防備的睡臉。/
+[face A 00]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[flow]
+這麼早睡覺，
+他是一個令人驚訝的好孩子。/
+[face A 02]
+[flow]
+大半夜的不是很開心嗎？不適用。/
+[serif off]
+？有事可做？/
+[move A Y -0 0.1]
+[face A 01]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[serif on]
+啊哈哈哈。/
+[face A 00]
+[flow]
+雖然我剛睡醒，但還是這樣
+如果你給他一個冷淡的答覆，你的兄弟會很難過。/
+[talkend]
+[textcolor ARUJI]
+說這話的同時，
+安房不知為何看起來很高興。/
+[serif off]
+[move A X 100 1.0]
+[face A 08]
+[talk A]
+[-]
+[serif on]
+你來這裡做什麼？[wait 0.5]沒錯。/
+[face A 07]
+[flow]
+大家都睡著了，
+男孩獨自躺在蒲團裡…/
+[move A X -50 1.0]
+[flow]
+在那種地方偷襲你.../
+[face A 00]
+[flow]
+從外面看，它就像是為了夜間爬行而來。[wait 0.5]
+這樣想難道不是一種不可避免的情況嗎？/
+[face A 08]
+[scale A 1.5 0.5]
+[move A XY -50 -100 0.5]
+[se cloth_01]
+怎麼了男孩？[wait 0.5]我和我的兄弟
+從現在開始，我將像一個成年人一樣度過時光。/
+[talkend]
+[textcolor ARUJI]
+安房把他的臉拉近了一些。/
+[serif off]
+？夜行！ ？成人時間！ ！ ？/
+[face A 00]
+[talk A]
+[se cloth_02]
+[serif on]
+呵呵，讓我們玩得開心吧。/
+[serif off]
+[wait 1.0]
+[-]
+[face A 01]
+[scale A 1.0 0.5]
+[move A Y 100 0.5]
+[-]
+[serif on]
+好吧，這只是個玩笑。/
+[serif off]
+?……/
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+我今天只是來打個招呼。
+我想多瞭解這個男孩。/
+[face A 09]
+[flow]
+但我很害怕
+當有人給我一個小貓般的表情時.../
+[serif off]
+[face A 08]
+[scale A 1.6 1.0]
+[move A Y -100 1.0]
+[se cloth_01]
+[-]
+[serif on]
+你真的想攻擊我，不是嗎？不適用。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+說著，安房伸出了手。
+觸控你的臉頰。/
+[flow]
+[textcolor ARUJI]
+安房的手咧嘴一笑，
+又脆又冷。/
+[show A]
+[face A 00]
+[talk A]
+男孩似乎有點累了。
+……今天睡個好覺。/
+[face A 08]
+[show B]
+[color B BLACK]
+[order A 1]
+[order B 0]
+我會再回來的...[hide A]晚上，對嗎？/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se amb_13]
+[hideall]
+[-]
+[fadeout 1]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+當我以為風在吹的時候
+安房 已經不存在了。/
+[serif off]
+？ ……這只是一場夢嗎？/
+[bg black 2.0]
+[-]
+[serif on]
+[textcolor ARUJI]
+雖然我是這麼想的，
+當我後來檢查我的智慧型手機時.../
+[flow]
+[textcolor ARUJI]
+安房可能拍了我的睡臉照片
+許多照片被儲存下來。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

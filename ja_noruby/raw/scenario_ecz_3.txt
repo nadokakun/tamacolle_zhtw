@@ -1,0 +1,2639 @@
+>>10000/
+@越前
+俺は北陸道の越前。[wait 1.5]
+さあ、俺を隊長に任命してくれよ！[autotap]/
+[delay 3.5]
+[flow]
+[-]
+@越前
+活躍してやるぜ。/
+>>10001/
+@越前
+俺に期待してくれてるんだな。[autotap]/
+[delay 1.5]
+[flow]
+@越前
+いいぜ。結果を出してやるよ。/
+>>1/
+[set A s_ecz_r 越前]
+[show A C]
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+[say A]
+[orderline A]
+よっ、あーるじ。今度デート行かねえか？
+行き先はもちろん、俺の国さ。/
+[face A 01]
+[flow]
+荘厳な大鳥居を構える一宮の気比神宮や
+名勝と名高い気比松原が有名な歴史ある敦賀。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+連れてってやりたいところがたくさんあるんだ。
+楽しませてやるよ！/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……ん？　主はもっと強引な誘い方が好みか？
+おっけー。だったら仕切り直しといこうぜ。/
+[scale A 2.0 0.3]
+[move A Y -300 0.3]
+[delay 0.3 se dosa_01]
+[delay 0.3 shakebg]
+[face A 06]
+主。俺の国に来いよ。
+道中、退屈させないぜ？/
+>>2/
+[set A s_ecz_r 越前]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+[orderline A]
+この荘園の空は
+陰陽術による投影なんだってな……綺麗なもんだ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+主、空が赤く染まるのを見ると
+俺には思い出す景色があるんだ。/
+[face A 06]
+[flow]
+断崖がそそり立ち、荒波が打ち寄せる「越前岬」
+そこから眺める夕陽には誰もが心を虜にされちまう。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……ま、主には、
+夕日よりも俺に夢中になって欲しいんだけどな。/
+>>3/
+[set A s_ecz_r 越前]
+[show A C]
+[face A 02]
+[serif on]
+[say A]
+[orderline A]
+風呂と言えば、
+日本海に沈む夕陽を眺めながら入る湯は最高だよな。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[flow]
+特に越前海岸の温泉は、
+ぬるっとした独特の感触が面白い。/
+[face A 01]
+[flow]
+主の好みにもきっと合うと思うぜ。まずは
+試しに行かねぇとな。もちろん２人きりで、だぜ。[scale A 1.6 0.5][move A Y -150 0.5][se cloth_01]/
+>>4/
+[set A s_ecz_r 越前]
+[show A C]
+[move A X -600]
+[move A X 600 1]
+[se fusuma_01]
+[face A 06]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+[orderline A]
+朝起きたらまず顔洗って、歯磨いて、[face A 08]
+髪の毛を……整えて……っと。
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 06]
+やべぇ……決まりすぎだぜ。
+素材が良すぎるんだよな……/
+>>5/
+[set A s_ecz_r 越前]
+[show A C]
+[face A 08]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[orderline A]
+ん？　誰だよ、俺の手鏡使ったやつ。
+使うのはいいけどちゃんと戻せよな。/
+[face A 02]
+[flow]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_01]
+いつもの位置にないと気になっちまうんだよな。
+…………これでよしっと！
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]/
+>>6/
+[set A s_ecz_r 越前]
+[randomset B r -ecz -@NPC]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[setline A B]
+[serif on]
+[say A]
+[orderline B A]
+ふぅ～！
+日差しが眩しいぜ。/
+[face A 02]
+[face B 01]
+これは最高のデート日和だよな。
+$B:A、今日暇？
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[-]
+[autotap]/
+[face A 00]
+だったらさ、俺とデートしようぜ♪[face B 05][shake B]
+大丈夫。お前を楽しませるプランはあるぜ。[move A X 50 0.5][shake B]/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 01]
+おしっ。そうと決まれば
+このあと玄関前で集合な。外出申請してくるわ！[shake A][shakeB]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_ecz_r 越前]
+[randomset B r -ecz -@NPC]
+[show A C]
+[show B C]
+[face A 01]
+[face B 05]
+[serif on]
+[setline]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[say A]
+[orderline B A]
+わりぃな$B:A、また勝っちまった。[shake B]
+……ん、まだやんのか？
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 00]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 03]
+かるたでも神経衰弱でも、
+ポーカー、将棋、花札……なんでもいいぜ。/
+[se fire_01]
+[shake B]
+[face A 01]
+[face B 08]
+へぇ、やる気まんまんじゃん。
+まぁ気が済むまで相手してやるよ。/
+>>10/
+[set A s_ecz_r 越前]
+[randomset B r -ecz -@NPC]
+[show A L]
+[show B C]
+[face A 00]
+[face B 04]
+[serif on]
+[say A]
+[move B Y -100]
+[rotate B
+[move A X -600]
+[move A X 600 1]
+[talkend]
+[se write_01]
+[orderline B A]
+$Bが書類作成で困ってるところに、
+越前が通りかかった。/
+[face A 01]
+[face B 06]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+お、$B:Aどうした？
+ああ、その書類な。ちょっと見せてみ。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 02]
+[face B 00]
+どれどれ……あー、それはこうすんだ。
+ここはこうして……あとは繰り返すだけ、ほら。[face B 01]/
+[face A 01]
+[face B 02]
+[se kira_01]
+[effect fr kira a 0 0]
+へっ、礼はいいって。仲間だろ。
+それに、次からは自分でできるな？　がんばれよ！/
+>>11/
+[set A s_ecz_r 越前]
+[randomset B r -ecz -@NPC]
+[randomset C r -ecz -@NPC -@NOW]
+[show A C]
+[show B C]
+[scale B 1.6]
+[move B Y -120]
+[move A X -1000]
+[face A 08]
+[face B 01]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[orderline B A]
+[-]
+[say A]
+[move B X 500 1]
+[move A X 1000 1]
+[-]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+主のやつ、さっきから$B:Aと
+長いこと話し込んでるな…………ったく。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+俺がここにいるってのによ。
+……なーんか面白くねぇな……/
+[hide B]
+[show C L]
+[face C 00]
+[-]
+[move A X -200 0.3]
+[move C X 150 0.3]
+[rotate C -10 0.5]
+[face A 02]
+[face C 05]
+[se cloth_06]
+[orderline C A]
+[say A]
+俺だって$C:Aとにゃんにゃんすっか。
+な～$C:A！[shake B][shake A]/
+/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_ecz_r 越前]
+[randomset B r -ecz -@NPC]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[orderline A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ！　[shake A]……ったく、[face A 04]主のやつ……
+普段から無防備にもほどがあるぜ……/
+[face A 08]
+[flow]
+共同生活とは言え、周りのやつらに
+ホイホイ身体触れさせるのは、考えものだぜ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[flow]
+今度きちんと言ってやらねーと。
+あんまり他のヤツらに期待させんなって……/
+>>15/
+[set A s_ecz_m 越前]
+[randomset B m -ecz -@NPC]
+[show A C]
+[show B C]
+[face A 00]
+[face B 00]
+[setline A B]
+[serif on]
+[say A]
+[orderline B A]
+訓練？　ああ、俺は朝のうちに済ませたんだ。
+丁度いいや、$B:A、稽古つけてやるよ。/
+[serif off]
+[move A X -150 0.3]
+[move B X 150 0.3]
+[-]
+[move A X 200 0.2]
+[effect fr syutyu a 0 0]
+[effect fr katanas 5000 0 0]
+[se katana_01]
+[delay 0.3 se katana_03]
+[shakebg]
+[face A 08]
+[face B 08]
+[shake B]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -200 0.3]
+[delay 0.3 shakebg]
+[-]
+[serif on]
+ほら、[= 握りはこうしてみろ。 霊力の込め方はこうだ。 間合いの取り方が甘いぜ。 攻撃のあとスキだらけだ。 集中切れてんぞ。 俺の動きをよく見ろよ。]
+それから構えは……[se katana_01][face A 01][fadein WHITE 0.2][delay 0.2 fadeout 0.3][shakebg]/
+[face A 02]
+[face B 01]
+[serif off]
+[effect off a]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……すげぇいい感じじゃねーか。$B:A。
+その調子で続けていこうぜ。/
+>>16/
+[set A s_ecz_m 越前]
+[show A R]
+[move A C 0.5]
+[face A 02]
+[se fusuma_01]
+[serif on]
+[say A]
+[orderline A]
+……おーっす！　って、俺一人か。[face A 00]
+んじゃ、今のうちに体動かしとくか。/
+[face A 08]
+修練場を広く使えるのは、
+一人の時だけだからな！　[shake A]せぇい！！！[effect bk waveout 3000 0 0][effect fr allow 6000 0 0][se zuba_01][shakebg]/
+>>17/
+[set A s_ecz_b 越前]
+[randomset B b -ecz -@NPC]
+[show A R]
+[show B L]
+[face A 01]
+[face B 00]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+[say A]
+[orderline A B]
+体重……よしっ！[shake A]
+俺の理想体重維持っと。/
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[face A 02]
+[face B 01]
+[orderline B A]
+俺的にはこのくらいがちょうどいいんだよな。
+動きやすいし。攻撃にも重さが乗るしさ。/
+[face A 06]
+[move A X -250 0.5]
+で、$B:A、お前はどうよ。[face B 05][delay 0.2 move B X -800 0.3]
+こーら、逃げんなっての！[face A 01][delay 0.2 move A X -1000 0.5]/
+>>18/
+[set A s_ecz_b 越前]
+[randomset B b -ecz -@NPC]
+[show A C]
+[show B C]
+[face A 05]
+[face B 06]
+[serif on]
+[se amb_12]
+[effect fr yuge a 0 0]
+[setline B A]
+[moveline A B 0 -100 0]
+[say A]
+[orderline B A]
+お、湯船が結構あちぃな。
+$B:Aものぼせてそうじゃねーか。/
+[face A 01]
+[face B 00]
+[flow]
+寝る前の風呂っつーと
+38度から39度くらいの方がいいんだってな。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[face B 01]
+副交感神経が優位になって
+落ち着いた気分になるって話だぜ。/
+[face A 02]
+[face B 02]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+……ってことで、
+ちょっと水入れさせてもらうぜ！[effect fr splash a 0 0][shake B][shake A][se bath_01]/
+>>19/
+[set A s_ecz_b 越前]
+[randomset B b -ecz -@NPC]
+[show A C]
+[show B C]
+[face A 06]
+[face B 04]
+[serif on]
+[say A]
+[se amb_12]
+[effect fr yuge a 0 0]
+[setline A B]
+[moveline A B 0 -100 0]
+[orderline B A]
+お？　$B:A、ジロジロ見てどうしたよ。
+さては、俺の体に見とれちまったか？/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 01]
+[face B 06]
+ははっ、あんまり相手にすると、主が嫉妬しちまう
+かもしれねえが、まぁ、どーしてもって言うなら……/
+[face A 06]
+[face B 03]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -50 0.5]
+[move A X 100 0.5]
+[se bath_04]
+お前の唇、
+特別にふさいでやってもいいぜ……？/
+[face A 08]
+[face B 01]
+……ん？　俺の頭？　うおっ！？[shake A][face A 05][se water_07]
+[= カエル ひよこ 猫 パンツ ふんどし]が乗ってたのか！？　早く言えよ！！！[shake A]/
+>>20/
+[set A s_ecz_r 越前]
+[randomset B r -ecz -@NPC]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[serif on]
+[say A]
+[setline A B]
+[orderline B A]
+おっけー、今日の掃除当番は……っと。
+おぉ、$B:Aか。頼りにしてるぜ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[face B 00]
+じゃあ俺が便器の汚れをこそぎ落とすから、
+いい頃合いに水流してくれ！/
+[effect fr syutyu a 0 0]
+[face A 08]
+[face B 08]
+さぁ、任務開始だ！[se taiko_01]/
+>>21/
+[set A s_ecz_r 越前]
+[randomset B r -ecz -@NPC]
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[se pee_01]
+[wait 1]
+[-]
+[serif on]
+[say A]
+[orderline A]
+っとー……
+服にシミができたら男前が台無しだからな……/
+[face A 00]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+しっかり水切りをすませてから
+しまわねぇとな……っと。/
+[waku on 0.5]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[show B R]
+[setline 0.5 A B]
+[face A 01]
+[face B 06]
+[orderline B A]
+（ん……？　$B:Aのやつ、こっち見てるな……
+　ふ、おもしれぇ、挑発してやるか）/
+>>22/
+[set A s_ecz_r 越前]
+[show A C]
+[move A X -1000]
+[move A X 1000 1]
+[se door_01]
+[face A 00]
+[serif on]
+[say A]
+[orderline A]
+おっし、スッキリしたし、訓練にでも戻るか。
+……手を洗って……っと。
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……んっ、髪がちょっと乱れてるな。
+ちょっと直してから戻るか。[se cloth_01]/
+[face A 04]
+[waku on 0.5]
+（……結局用を足してる時間より
+　鏡の前にいる時間の方がかかるんだよな……）/
+>>23/
+[set A s_ecz_r 越前]
+[show A C]
+[face A 04]
+[say A]
+[scale A 1.6]
+[move A Y -160]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[orderline A]
+はぁ……凹むぜ……
+まさか戦いでこの俺がヘマするとはな……/
+[face A 08]
+…………よしっ！[shake A]　クヨクヨするのはここまでだ。
+スッキリしたことだし、いつもの男前に戻るぜ！[face A 01]/
+>>24/
+[set A s_ecz_r 越前]
+[randomset B r -ecz -@NPC]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[say A]
+[rotate A -40]
+[move A XY 200 -100]
+[orderline A B]
+$B:A、まだ寝ないのか？
+夜ふかしは肌や毛並みにも良くないんだぜ。/
+[rotate B -35 0.5]
+[move B XY -20 -100 0.5]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+[face A 02]
+[face B 01]
+おっ、いい子だな。
+よし、それじゃあ一緒に寝るか？　子猫ちゃん。[face A 06]/
+[shake A]
+[shake B]
+[se cloth_01]
+[face A 06]
+[face B 06]
+明日バッチリ活躍するためさ。
+遠慮すんなって。/
+>>25/
+[set A s_ecz_r 越前]
+[serif on]
+[show A]
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on]
+……やまこそば……きみがあたりを……
+へだてたりけれ……主……すやすや…………/
+[talken]
+寝言のようだ。/
+>>26/
+[set A s_ecz_r 越前]
+[randomset B r -ecz -@NPC]
+[randomset C r -ecz -@NPC -@NOW]
+[show A C]
+[show B R]
+[show C L]
+[face C 07]
+[rotate B -40]
+[rotate C 40]
+[move B XY -50 -100]
+[move C XY 50 -100]
+[face B 07]
+[face A 07]
+[move A Y -100]
+[move A Y 100 1]
+[serif on]
+[se cloth_01]
+[say A]
+[orderline B A C]
+ん……夜中に目が覚めちまったぜ。
+……んん？[shake A][face A 08]/
+[face A 01]
+ったく、$B:A。寝相が悪いな。
+ちゃんと布団かけてやんねーと。
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+[face A 02]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+$C:Aもお腹出しちゃってさ。
+まったく。どいつもこいつも可愛いやつらだよ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+おし、これでいいだろ。
+んじゃ俺も寝直すか……ふぁあ……[shake A][face A 07]/
+>>27/
+[set A s_ecz_r 越前]
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+?越前、ハレの日おめでとう！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+おおっ、主。ありがとな！
+主に祝ってもらえるのが一番うれしいぜ。/
+[face A 01]
+[flow]
+今日はいろんなカワイコちゃんたちから
+チョコだったりプレゼントだったりもらってるぜ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[flow]
+いや～。モテるってのも……大変なんだよな。/
+[serif off]
+?バレンタインだもんね/
+[face A 01]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おっ、主……俺がバレンタインだからこの日を
+ハレの日にしたって思ってる？/
+[face A 02]
+[flow]
+残念だけど違うんだよなぁ。
+もっと俺に相応しい所以があるんだ♪/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 08]
+[flow]
+どう……？　
+俺のこと見てたらわかると思うんだけど。/
+[serif off]
+?越前を見つめる/
+[face A 09]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+…………うっ……可愛すぎんだろ。主……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 01]
+[flow]
+今日は、「イケメンの日」なんだってさ！
+やっぱこの荘園の中で一番のイケメンは俺だろ？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 06]
+[flow]
+フィジカルはもちろん
+メンタル的な部分も含めてな。/
+[serif off]
+[effect off a]
+?確かにイケメンオーラがある、かも……/
+[face A 02]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+お、やっぱそうだろ！？　ってことで
+せっかくのハレの日……俺と遊びに行かない？/
+[face A 01]
+[flow]
+俺から主へ、特別なチョコレートも
+用意してあるぜ？　/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ふっ。さあ、来いって。/
+>>27/
+[set A s_ecz_r 越前]
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+?越前、ハレの日おめでとう！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+おおっ、主。ありがとな！
+主に祝ってもらえるのが一番うれしいぜ。/
+[face A 01]
+[flow]
+今日はいろんなカワイコちゃんたちから
+チョコだったりプレゼントだったりもらってるぜ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[flow]
+いや～。モテるってのも……大変なんだよな。/
+[serif off]
+?バレンタインだもんね/
+[face A 01]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おっ、主……俺がバレンタインだからこの日を
+ハレの日にしたって思ってる？/
+[face A 02]
+[flow]
+残念だけど違うんだよなぁ。
+もっと俺に相応しい所以があるんだ♪/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 08]
+[flow]
+どう……？　
+俺のこと見てたらわかると思うんだけど。/
+[serif off]
+?越前を見つめる/
+[face A 09]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+…………うっ……可愛すぎんだろ。主……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 01]
+[flow]
+今日は「イケメンの日」なんだってさ。
+やっぱイケメンといえばオレ、だろ？/
+[serif off]
+[effect off a]
+?すごい自信だ……/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[serif on]
+ははは。そうでなけりゃあ
+あいつらのお兄ちゃんは務まらないだろ？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[flow]
+フィジカルはもちろん
+メンタル的な部分も含めてな。/
+[serif off]
+?確かにイケメンオーラがある、かも……/
+[serif on]
+[face A 06]
+ふ。オレのイケメンっぷりを
+もっと見せてやろうか？　子猫ちゃん？[effect fr kira a 0 0][se kira_01]/
+[serif off]
+[effect off a]
+?それはそうと、チョコを渡す/
+[face A 05]
+[serif on]
+おっ！　まじか……！[shake A]
+約束……覚えててくれて嬉しいぜ。[face A 02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+負けたぜ。
+主のほうがイケメンっぷりでは上だな。[face A 01]/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[delay 0.8 shake A]
+[autotap]/
+[face A 02]
+……ありがとな。主。
+ちゅっ！/
+>>100/
+[set A s_ecz_r 越前]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 越前の挨拶]
+[-]
+[bgm home]
+[bg rouka_day]
+[fadeout 1.5]
+[talkend]
+[-]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+今日はこのあと司令室で
+会議がある。/
+[textcolor ARUJI]
+[flow]
+資料を用意して一足先に司令室で
+夏人たちを待とうと思い、廊下を歩いていると……/
+[serif off]
+[bgm fun]
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[move A X 1000]
+[rotate A 20 0.5]
+[move A X -600 0.5]
+[face A 01]
+[wait 0.5]
+[-]
+[move A C 0.3]
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[rotate A 0 0.3]
+[move A Y -150 0.3]
+[-]
+[serif on]
+[say A]
+[orderline A]
+あーるじっ。元気？/
+[serif off]
+?越前/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[serif on]
+そっ。越前。
+主はこれから仕事？　一生懸命頑張ってるよな。/
+[face A 01]
+[flow]
+そういうとこ、可愛いぜ？[se kira_01]/
+[serif off]
+?！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[serif on]
+なぁ、ちょっとくらい時間あるんだろ？
+話でもしようぜ。/
+[serif off]
+?話って？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 08]
+そうだな。簡単に言えば、初対面の挨拶。
+主のこと、いろいろ知っておきたいしな。/
+[face A 06]
+[talkend]
+[textcolor ARUJI]
+越前は優しく心を見通すような
+視線を向けてくる。何故か緊張してしまう。/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[autotap]/
+[face A 02]
+[say A]
+はは、そう固くなるなって。
+まずは俺の話しよっか。/
+[bgm food]
+[face A 00]
+[flow]
+主、俺のことはどれだけ知ってるのかな？/
+[face A 01]
+[flow]
+例えば俺は北陸道の兄弟の一応、長男。
+弟たちはいつも世話になってるな。サンキュ♪
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]/
+[se cloth_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+越前はこちらの肩を親しげにトンと軽く突いた。/
+[show A C]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[orderline A]
+あいつらどいつも一癖も二癖もあって
+可愛いやつらだよな……でもさ。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 08]
+[flow]
+そんなかでも俺は特別だぜ。
+……なんつっても、大国だからさ。/
+[face A 02]
+[flow]
+北陸道で一番デカいってこと。
+心も身体も、いろいろとさ。/
+[serif off]
+?ほお……/
+[face A 00]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ま、俺が来たからには安心してくれよ。
+がっかりはさせねぇ。/
+[face A 08]
+[flow]
+戦闘は得意だし、指示も出せる。/
+[face A 01]
+[flow]
+主は安心して俺に丸投げしてくれりゃあ
+最高の結果を用意してやれるってわけ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[flow]
+ど？　魅力的だろ？/
+[face A 00]
+[serif off]
+?すごい自信たっぷりだね/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[autotap]/
+[face A 02]
+[serif on]
+ははっ。褒められたってとらえるぜ。
+もちろん自信がなきゃこんなこと言えねぇよな。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[flow]
+わかるだろ？
+俺を頼ってほしいんだ。主。/
+[face A 01]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あんたは俺を呼び出してくれた恩人だからな。[se kira_01][effect bk waveout 1000 0 120]/
+[talkend]
+[textcolor ARUJI]
+越前はウィンクしてみせた。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+って感じ。
+どう？　俺のことわかってきた？/
+[hide A]
+[talkend]
+[serif off]
+?なんとなく/
+[show A C]
+[face A 02]
+[say A]
+[orderline A]
+[serif on]
+いいね。
+徐々に知っていってもらいたいな。/
+[se cloth_01]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 06]
+[flow]
+今わかったけどさ。
+話を聞いてくれてるときの主の瞳、俺好きだぜ。[se kira_01]/
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+越前は覗き込むようにこちらに顔を近づける。/
+[serif off]
+?（距離感近いんだな……）/
+[face A 04]
+[serif on]
+[say A]
+って俺ばっかしゃべっちまったな。わりぃ。
+次は主のこと、教えてくれよ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[flow]
+そうだな……好みのタイプとかさ。
+恋人にするならどういう相手がいい？/
+[serif off]
+?初回でする話じゃないような……/
+[face A 00]
+[serif on]
+そう？　俺は聞きたいな。/
+[bgm off]
+[bg black 0.3]
+[scale A 2 0.3]
+[move A Y -150 0.3]
+[delay 0.3 se dosa_01]
+[delay 0.3 shakebg]
+[autotap]/
+[face A 01]
+[flow]
+むしろ……
+一番気になるのはそういうトコだぜ。/
+[bgm departure]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+越前は壁に手を当て、その大きな体を寄せてきた。/
+[face A 06]
+[flow]
+[textcolor ARUJI]
+いわゆるこれは……壁ドンだ！[se taiko_02]/
+[serif off]
+?越前、近い近い/
+[light def 0.5]
+[lightcolor blue]
+[face A 01]
+[say A]
+[serif on]
+気にすんなって。……それに
+身体的距離が近い方が本心で話せるらしいぜ。/
+[face A 06]
+[flow]
+[se cloth_01]
+ほら、これだけ近づくとさ、
+体温や鼓動まで感じられるだろ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+聞こえる？
+俺の心臓の音。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+越前はこちらの耳元に触れそうな距離まで
+顔を寄せ、そっと囁く。/
+[show A C]
+[scale A 2.8]
+[move A Y -300]
+[scale A 2.5 0.5]
+[move A Y 20 0.5]
+[se cloth_01]
+[face A 06]
+[say A]
+[orderline A]
+……緊張してる？
+………………主、可愛いね。/
+[serif off]
+?！？/
+[scale A 1.6 0.5]
+[move A Y 130 0.5]
+[bg rouka_day 0.5]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[autotap]/
+[face A 02]
+[serif on]
+ははっ、冗談のつもりだったんだけど
+ほんっと可愛いな。主。/
+[face A 01]
+[flow]
+……そんな顔すんなって。
+もっと意地悪したくなっちまうだろ？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[delay 0.6 hide A]
+[autotap]/
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+越前はこちらの頬を
+いたずらっぽく撫でる。/
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+[light off 0.5]
+[orderline A]
+[bgm fun]
+これから会議なんだっけ？
+あんまり拘束しちゃ悪いよな。/
+[face A 02]
+[flow]
+また話そうぜ。主。/
+[serif off]
+[bgm off]
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[hide A]
+[wait 0.5]
+[-]
+[se clloth_01]
+[textcolor ARUJI]
+[talkend]
+[serif on]
+ちゅっ。/
+[show A C]
+[face A 01]
+[scale A 2.2]
+[move A Y -260]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[say A]
+[orderline A]
+じゃなっ♪/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+ご機嫌そうに去っていく越前の
+大きな背中を見送りながら――/
+[textcolor ARUJI]
+どさくさに紛れてほっぺたに触れた
+柔らかな感触が、越前のキスだと気づいた。/
+[serif off]
+?え、越前ーーーーーーーー！！/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>101/
+((s))
+[set A s_ecz_r 越前]
+[set W s_san_r 讃岐]
+[set B s_n002_r 猪森]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[bgm memory]
+[effect fr reiryoku R 0 80]
+[bg undersea_day]
+[waku on]
+[-]
+[fadeout 1.5]
+[talkend]
+[-]
+[autotap]/
+((m))
+[set A s_ecz_r 越前]
+[set W s_mus_r 武蔵]
+[set B s_n002_r 猪森]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[bgm memory]
+[effect fr reiryoku R 0 80]
+[bg undersea_day]
+[waku on]
+[-]
+[fadeout 1.5]
+[talkend]
+[-]
+[autotap]/
+((e))
+[set A s_ecz_r 越前]
+[set W s_ecg_r 越後]
+[set B s_n002_r 猪森]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[bgm memory]
+[effect fr reiryoku R 0 80]
+[bg undersea_day]
+[waku on]
+[-]
+[fadeout 1.5]
+[talkend]
+[-]
+[autotap]/
+[textcolor blue]
+[serif on 0.5]
+……[wait 0.1]……[wait 0.1]……/
+[bg black 30]
+[autotap]/
+[textcolor blue]
+[flow]
+$W…[wait 0.1]…[wait 0.1]お前が隊長なのに[wait 0.1]…[wait 0.1]…
+結構俺[wait 0.1]…[wait 0.1]…[wait 0.1]出しゃばっちまったよな。/
+[textcolor blue]
+[flow]
+……[wait 0.1]……[wait 0.1]あーーー[wait 0.1]…[wait 0.1]…[wait 0.1]でもさ…[wait 0.1]…
+ほんと楽しかったんだよな[wait 0.1]…[wait 0.1]…[wait 0.1]お前たちとの旅が……/
+[textcolor blue]
+――[wait 0.1]……[wait 0.1]……[wait 0.1]……/
+[textcolor blue]
+[flow]
+……[wait 0.1]……[wait 0.1]主。
+さきにぬけちまって[wait 0.1]…[wait 0.1]…[wait 0.1]わりぃな。/
+[textcolor blue]
+――…[wait 0.1]…[wait 0.1]
+…[wait 0.1]…[wait 0.1]…[wait 0.1]……[wait 0.1]………/
+[textcolor blue]
+[flow]
+――[wait 0.1]……[wait 0.1]……[wait 0.1]あぁ[wait 0.1]…[wait 0.1]…[wait 0.1]……/
+[textcolor blue]
+[flow]
+ねがわくば[wait 0.1]…[wait 0.1]…[wait 0.3]またあるじと、[wait 0.5]あいつらの[wait 0.3]もとに
+/
+[fadein BLACK 3.5]
+[serif off 3.5]
+[-]
+[wait 2]
+[-]
+[effect off R]
+[hideall]
+[bgm off]
+[bg black]
+[minibg off]
+[waku off]
+[-]
+[title 越前と夕焼け]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[se rokuhara_05]
+[se gaya_01]
+[serif on]
+@女性職員の声
+――聞こえますか！？　
+……反応ありません……！/
+@男性職員の声
+――霊力の流出が大きい……！/
+[se walk_07]
+@若い職員の声
+急いで研究室に――！[shakebg]/
+@女性職員の声
+渡り廊下前で声聞士を待機させて――/
+[serif off 0.5]
+[wait 1]
+[-]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+北陸道の浄化任務から地魂男児たちが帰還した。/
+[textcolor ARUJI]
+[flow]
+越前はほとんど霊力を消耗しきった状態で
+応急処置を施され、研究室へと移送されていった。/
+[fadein BLACK 2.5]
+[serif off 2.5]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_labo]
+[hideall]
+[bgm rokuhara]
+[-]
+[fadeout 1.5]
+[-]
+[place 3日目]
+[-]
+[autotap]/
+[show B C]
+[face B 11]
+[talk B]
+[serif on 0.5]
+やぁ。*Pくん。連日呼び立ててごめんよ。
+きみの健康診断を早く終わらせないといけなくて。/
+[face B 08]
+今日は脳波と霊力波の測定だ。ドクターにも
+同席してもらって同時に診断していくね。/
+[face B 01]
+それじゃあ……着替えがおわったら
+声をかけてね。/
+[serif off]
+?はい/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[wait 2]
+[-]
+[place 5日目]
+[fadeout 1.5]
+[-]
+[se rokuhara_06]
+[autotap]/
+[show B R]
+[scale B 1.6]
+[move B Y -120]
+[face B 03]
+[talk B]
+[se pi_01]
+[serif on]
+……これがリングから出力されたきみの霊力波形。
+ちょうどあの日の記録だ。/
+[move B C 0.5]
+[move B Y -120 0.5]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 11]
+ここの波形の乱れは地魂男児の消失による
+霊力の逆流が引き起こしたものだと思う。/
+[face B 00]
+すぐに波形が落ち着いているのは――/
+[face B 01]
+きみたちの証言をもとに考えると猫乃屋さんが
+霊力をコントロールしてくれた、ということだね。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 08]
+……いまのところ、健康状態に異常は
+見当たらない、かな。うん。/
+[face B 03]
+でも、なにか不調を感じたらすぐに言ってね。/
+[serif off]
+?……越前の状態は……/
+[face B 04]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+[talk B]
+……/
+[face B 11]
+これだけ消耗した状態で地魂男児が
+帰還した事例は今までになくて――/
+[face B 03]
+[flow]
+まだ……なんとも言えないけど、
+研究室をあげて事態にあたってる。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 01]
+[flow]
+必ず……助けるよ！/
+[serif off]
+?お願いします/
+[face B 02]
+[serif on]
+[talk B]
+……いまはきみはしっかり寝て
+体力をつけておくことだよ！/
+[face B 12]
+って、自分が言っても説得力ないかな……/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[tensioned]
+[hideall]
+[bg gozasyo_night]
+[se amb_05]
+[minibg off]
+[wait 2]
+[-]
+[place 16日目]
+[fadeout 1.5]
+[se pi_02]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on]
+[talkend]
+今日、越前が研究フロアの病室へと移されたと
+連絡があった。/
+[textcolor ARUJI]
+しかし依然として危険な状況に変わらず
+面会は叶わなかった。/
+[fadein BLACK 2.5]
+[serif off 2.5]
+[-]
+[hideall]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka_labo]
+[-]
+[se walk_06]
+[place 23日目]
+[fadeout 2.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on 0.5]
+越前の面会が許可され、数名の地魂男児と共に
+眠る越前の元へ行った。/
+[textcolor ARUJI]
+[flow]
+久しぶりに越前の顔を見れた。/
+[textcolor ARUJI]
+[flow]
+それだけでもずいぶん安心したのだった。/
+[fadein BLACK 2.5]
+[serif off 2.5]
+[-]
+[hideall]
+[bg black]
+[minibg sky_cloudy]
+[effect fr rain a 0 0]
+[wait 2]
+[-]
+[se amb_11]
+[place 30日目]
+[fadeout 2.5]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+今日は任務の反省会で遅くまで夏人・猫乃屋と
+司令室にこもっていた。/
+[textcolor ARUJI]
+[flow]
+部屋に戻ったら次の任務のための
+資料を確認しておかないといけない。/
+[serif on]
+[textcolor ARUJI]
+…………
+………………[se fusuma_02]/
+[fadein BLACK 2.5]
+[serif off 2.5]
+[-]
+[minibg sky_sunset]
+[hideall]
+[wait 2]
+[effect off a]
+[-]
+[se amb_04]
+[place 43日目]
+[fadeout 2.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on 0.5]
+今日は２部隊の霊送を行った。
+任務の進行は上々。だが少し疲れを感じる。/
+[textcolor ARUJI]
+[flow]
+滋養にいい料理を作ってもらおうと
+$Wに頼んで厨に伝えてもらった。/
+[serif on]
+[textcolor ARUJI]
+[se write_01]
+…………
+………………/
+[textcolor ARUJI]
+季節が移ろおうとしている。/
+[se paper_01]
+[textcolor ARUJI]
+……………………
+………………………………/
+[fadein BLACK 2.5]
+[serif off 2.5]
+[-]
+[bgm unrest]
+[hideall]
+[bg mbg_rokuhara]
+[minibg byousitsu]
+[wait 2]
+[-]
+[se rokuhara_05]
+[fadeout 1.5]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+それからしばらくの月日が経ち――……/
+[textcolor ARUJI]
+今日も研究フロアの一角に用意された
+この無機質な病室にやってきていた。/
+[textcolor ARUJI]
+[flow]
+様々な機械が小さな唸り声を上げる
+部屋の中央に置かれた真っ白なベッド。/
+[textcolor ARUJI]
+[flow]
+そこに大きな体を横たわらせ、
+静かに眠る越前がいた。/
+[textcolor ARUJI]
+[se cloth_01]
+[flow]
+ベッドの横の椅子に腰掛け
+そっとその右手を握りしめる。/
+[textcolor ARUJI]
+じわりと手のひらが熱くなり
+ゆっくりと霊力が越前に注がれていく。/
+[textcolor ARUJI]
+徐々にではあるが、様々な値が
+正常に近づいていると猪森からは聞いている。/
+[textcolor ARUJI]
+最初の頃と比べ、少し血色のよくなった
+越前の横顔を眺める。/
+[textcolor ARUJI]
+しばらくそうしていると、疲れのせいだろうか。
+うとうとと眠気がやってきた。/
+[serif off]
+?眠い……/
+[fadein BLACK 4.5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[bgm will]
+[serif on]
+越前の手を握ったまま、深い眠りの中に
+意識が落ちていく。/
+[textcolor ARUJI]
+…………
+………………寒い。/
+[minibg off 0.5]
+[light dream]
+[bg undersea_day 0.5]
+[fadeout 4]
+[waku on]
+[autotap]/
+[textcolor ARUJI]
+まるで冷たく暗い水の中に
+沈められたような感覚に、全身が震える。/
+[textcolor ARUJI]
+深く、深く、その漆黒の水底へと
+引きずり込まれていくような恐怖。/
+[textcolor ARUJI]
+上も下もわからない暗闇のなかで
+ただがむしゃらにもがく。/
+[bg white 5]
+[autotap]/
+[textcolor ARUJI]
+そのとき――ふわりと、
+頭を撫でられるような温もりを感じた。/
+[textcolor ARUJI]
+[flow]
+先程までの恐怖が嘘のように溶けていき
+世界が柔らかな光に満ちていく。/
+[serif off]
+?目を開ける/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm off]
+[hideall]
+[light off]
+[bg mbg_rokuhara]
+[minibg byousitsu]
+[-]
+[fadeout 1.5]
+[waku off 1.5]
+[-]
+[serif on]
+@？？？
+まったく……こんなところで
+居眠りしてちゃダメだろ？/
+[serif off]
+?！？/
+[se cloth_01]
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[move A Y 5 0.2]
+[face A 01]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[bgm night]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+体を起こすと、優しく微笑む越前の顔が見えた。/
+[serif off]
+?越前……！！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+[talk A]
+……主。寝てるトコ起こしちまって悪いな。
+でもさ……風邪ひいちまうぜ？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+越前はベッドに横たわってこそいるが
+その優しい視線をこちらに向けている。/
+[serif off]
+?夢の続き？/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 05]
+[say A]
+[serif on]
+[se zukkoke_02]
+ばか。夢じゃねーっつの！[shake A]
+つっ……ててて……[face A 04]/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+越前の手を握ると確かに握り返してくる。
+確かに夢ではないようだ。/
+[textcolor ARUJI]
+[flow]
+弱いながらもはっきりと越前の霊力が
+活動していることがわかる。/
+[serif off]
+?越前……大丈夫？/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 01]
+[serif on]
+[talk A]
+大丈夫大丈夫。
+まぁ寝起きって感じでちょっとボーッとするが……/
+[face A 08]
+……ひょっとしてさ、毎日こうやって
+霊力を送ってくれてたのか……？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[flow]
+なんとなくだけど……そんな気がするんだ。/
+[face A 08]
+[se cloth_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+越前はベッドの上で体を起こす。/
+[face A 09]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.6]
+[delay 0.8 move A Y -5 0.5]
+[talk A]
+つっ……ってぇーー……
+いや、体中の関節が固まってるみたいでさ……/
+[face A 05]
+[flow]
+うわ、[shake A]めっちゃバキバキ鳴ってるぜ。
+やべぇな……男前が台無しだぜ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+んん……？　てかなんだここ……
+病室か？　そっか。あの後ここに運ばれて……/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+越前は自分の体を触りながら確認していく。/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 01]
+[talk A]
+ん、傷はもうすっかり塞がってそうだな。
+よかったぜ……/
+[face A 09]
+[flow]
+なんか高濃度の温泉の中にどっぷり
+漬け込まれる夢を見た気がするが……/
+[face A 08]
+[flow]
+……なぁ、どれくらい経ったんだ？/
+[face A 03]
+あぁ、それより……あれからどうなった？
+あいつらから少しは聞いたが――/
+[serif off]
+?あれから――/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 2]
+[-]
+[fadeout 1.5]
+[face A 08]
+[shake A]
+[wait 2]
+[serif off]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+そうか……
+あいつらも大変だったんだな……/
+[face A 04]
+あのときは……あいつらの話、
+全部は聞いてやれなかったからな……/
+[face A 06]
+……もう少しオレがうまくやれてたらな……/
+[face A 04]
+オレなりに勝ち筋を追っていった
+つもりだったんだが……/
+[serif off]
+?越前はよく頑張ってたよ/
+[face A 00]
+[wait 1]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+[talk A]
+さんきゅ。
+主がそう言ってくれるだけで報われるぜ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+((s))
+[face A 08]
+[flow]
+越後……加賀……能登……$W……
+また今度、兄ちゃんが話聞いてやんないとな。/
+((m))
+[face A 08]
+[flow]
+越後……加賀……能登……$W……
+また今度、兄ちゃんが話聞いてやんないとな。/
+((e))
+[face A 08]
+[flow]
+越後……加賀……能登……
+また今度、兄ちゃんが話聞いてやんないとな。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[se cloth_01]
+それにしてもまさかさ……本当にこうしてまた
+主と会って話ができるなんてな。/
+[face A 00]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+オレ、主に会いたいと……願ってたんだ。
+……最期の瞬間にさ。/
+[face A 01]
+弟たちのことは、心配してなかった。/
+あいつらならきっと、オレがいなくても
+やり抜いてくれるって、そう思えたからさ。/
+[face A 08]
+でも……主。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+きっと主のことは……悲しませちまった
+だろうな……って思ってたからさ……/
+会って、ちゃんと……言いたかったんだ。/
+[serif off]
+?越前……/
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+……心配かけちまったよな。
+主。ごめんな。/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+越前はそう言ってこちらの頭を
+優しく撫でた。/
+[textcolor ARUJI]
+それは夢の中で感じたあの優しい温もりと
+同じだった。/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 00]
+[talk A]
+主……ひとつだけ……
+わがまま言ってもいいか？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[light def]
+[lightcolor orange]
+[se walk_06]
+[scale A 1]
+[move A Y 150]
+[wait 2]
+[minibg rokuhara_rooftop_evening]
+[-]
+[se door_05]
+[se amb_08]
+[fadeout 1.5]
+[-]
+[move A X -150 0.5]
+[autotap]/
+[bgm fun]
+[se amb_13]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[talk A]
+[serif on]
+っふーーー！　空気が気持ちいいぜ！/
+[serif off]
+?大丈夫？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+[talk A]
+ああ。オレの体調がだいたいどんな感じかって
+主に伝わってるんだろ？/
+[flow]
+[face A 02]
+[move A C 0.5]
+それにこうやって手つないでりゃあ
+どんどん元気が湧いてくるってもんさ。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+越前の手を握ったまま、こっそりと病室を
+出てきて屋上に来てしまった/
+[textcolor ARUJI]
+越前の足取りは思ったよりもしっかりしていて
+驚いたくらいだ。/
+[show A]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[talk A]
+あー……ちょうど日が沈むじゃん。
+キレイな夕日だな。/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 00]
+なぁ主。スマホ出して。ほら、撮って撮って。/
+[serif off]
+?越前の写真を撮る/
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[-]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[-]
+[serif on]
+柵にもたれかかり、夕焼けを背景に笑う
+越前の写真を撮っていく。/
+[textcolor ARUJI]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+越前は一枚写真を撮るたびに表情や
+顔の角度に変化をつけてくれる。/
+[serif off]
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+おー。めちゃくちゃ男前じゃん。
+ちょっと寝癖ついてっけど。/
+[face A 01]
+あー……これが一番いいんじゃね？
+主的にはどう？/
+[talkend]
+[textcolor ARUJI]
+撮ったばかりの写真を越前と
+覗き込む。/
+[face A 02]
+[talk A]
+ん、じゃあ次は主も入って。
+一緒に撮ろうぜ。/
+[face A 01]
+……いいだろ？　回復祝いってやつ。/
+[serif off]
+?越前の隣に立つ/
+[face A 02]
+[serif on]
+[talk A]
+もっとこっち寄れって。/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[autotap]/
+[talkend]
+[hide A]
+[se cloth_01]
+[textcolor ARUJI]
+越前はこちらの肩を抱き
+ぐっと自分の方へと引き寄せる。/
+[textcolor ARUJI]
+右肩や背中に越前の体温を感じる。/
+[serif off]
+?手繋いでないと/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+[serif on]
+越前の左手に自分の右手を重ねる。
+越前は病み上がりだ。霊力を送らないと。/
+[show A]
+[scale A 2]
+[move A Y -250]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[talk A]
+あ、そっか……はは、悪いな。主。/
+[hide A]
+[serif off]
+?写真を撮る/
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[wait 2]
+[-]
+[bgm off]
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+越前と並んで撮った写真の中の自分は
+どこかぎこちない表情で写っていた。/
+[bgm memory]
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 06]
+[-]
+[talk A]
+…………
+………………/
+[textcolor ARUJI]
+[talkend]
+越前は目を細め、その写真を
+じっと見つめていた。/
+[textcolor ARUJI]
+[talkend]
+そしてゆっくりと口を開いた。/
+[face A 04]
+[say A]
+あの日――……/
+[face A 08]
+あいつらと親不知へ向かう、その前の夜……
+加賀と少し話をして……/
+[face A 00]
+そんで、空を見上げたんだ。/
+[hide A 1]
+[lightcolor blue 1]
+[waku on 0.5]
+[minibg off 1]
+[bg sky_star 1]
+[autotap]/
+@越前
+時代も場所も違うあの空もさ
+主の見上げる空ときっとつながってるんだろうなって/
+@越前
+そんなことを思ったんだ。/
+[waku off 1]
+[lightcolor orange 1]
+[bg sky_sunset 1]
+[autotap]/
+@越前
+だから……朝焼けでもいい。[wait 0.2]満点の星空でもいい。[wait 0.2]
+雨でも、[wait 0.2]曇り空でも、/
+[flow]
+@越前
+なんっの変哲もない、[wait 0.2]ふっつーー[wait 0.2]の空でもいい。/
+[show A]
+[face A 01]
+[scale A 2]
+[move A Y -250]
+[bg white 0.5]
+[minibg sky_sunset 0.5]
+帰ったら、主とさ。/
+[face A 02]
+[flow]
+空を見上げたいって、思ったんだ。/
+[serif off]
+?越前……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[serif on 0.5]
+[talk A]
+…………二度と心配はかけねぇよ。
+この写真がオレの誓いだ。主。/
+[face A 01]
+[flow]
+……[wait 0.2]だからさ、もういい加減笑顔を見せてくれよ。
+子猫ちゃん？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+越前はそう言って優しくこちらの頬を撫でた。/
+[fadein BLACK 2.5]
+[serif off 2.5]
+[-]
+[light off]
+[hideall]
+[wait 2]
+[bg mbg_rokuhara]
+[minibg byousitsu]
+[-]
+[fadeout 2.5]
+[-]
+[autotap]/
+[show A]
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[talk A]
+[-]
+[serif on]
+ふぁあ～～……すげぇ眠くなってきたわ……
+外の空気も吸えたし、主とも思い出つくれたし……/
+[face A 01]
+そろそろ休むか。/
+[se cloth_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+ベッドに横になりながら
+越前はわざとらしくあくびをした。/
+[show A]
+[face A 02]
+[talk A]
+そんな顔すんなって。この調子なら
+もうちょっとで任務にも復帰できるさ。/
+[serif off]
+[hide A]
+[se door_03]
+[minibg rokuhara_rouka_labo 0.5]
+[-]
+[serif on 0.5]
+@越前の声
+…………あぁ、そうだ。主。/
+[talkend]
+[textcolor ARUJI]
+部屋を出ようとしたこちらの背中に
+越前が声をかけた。/
+[se cloth_01]
+@越前の声
+……復帰したらさ、キスしてくれよ。
+ほっぺでいいからさ。/
+@越前の声
+……ご褒美に。いいだろ？/
+[fadein BLACK 4.5]
+[autotap]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+再び安らかな寝息を立てる越前を確認し
+病室の戸を閉めた。[se door_04]/
+[textcolor ARUJI]
+しばらくして、越前を外に連れ出したことが
+バレたらしく/
+[textcolor ARUJI]
+[flow]
+「一応ね」と前置きした夏人に少しだけ叱られ
+その後一緒に越前の目覚めを喜びあった。/
+[textcolor ARUJI]
+荘園に頼もしい男が戻る日も目前だろう。/
+[textcolor ARUJI]
+[flow]
+本当によかった。
+心からそう思うのだった。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>201/
+[set A s_ecz_r 越前]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 越前とお出かけデート]
+[-]
+[bg sky_day]
+[bgm home]
+[-]
+[se amb_01]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+冬の空気が澄み渡り、雲一つ無い快晴。/
+[textcolor ARUJI]
+[bg rouka_day 0.5]
+その日の荘園は、ひんやりとした空気であるものの
+日に当たると暖かさを感じられるような気候だった。/
+[textcolor ARUJI]
+廊下を歩きながら、こんな日は外出するのも
+わるくないなと考えていた矢先——……/
+[bg rouka_day 0.5]
+@？？？
+おっ、いたいた、主！/
+[talkend]
+[textcolor ARUJI]
+不意に背後から声が聞こえた。
+声のするほうへ振り向こうとした瞬間——/
+[shakebg]
+[fadein black 0.3]
+[se cloth_06]
+[delay 1 se dosa_01]
+[textcolor ARUJI]
+まるで獲物を狙うようなスピードで身体を壁際へ
+追い詰められる。/
+[show A C]
+[scale A 2]
+[move A Y -260]
+[face A 06]
+[-]
+[fadeout 2]
+[autotap]/
+[say A]
+探してたんだぜ。子猫ちゃん。/
+[talkend]
+[textcolor ARUJI]
+どこか余裕を感じさせる表情で
+ぐっと顔を寄せてきたのは越前。/
+[textcolor ARUJI]
+[flow]
+そして、この姿勢は間違いなく——/
+[bgm fun]
+[serif off]
+?いきなりの壁ドン！？/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[say A]
+[serif on]
+ははは。そんなに照れるなって。/
+[face A 01]
+なぁ主、今日時間ある？
+これからオレとデートしようぜ♪/
+[serif off]
+?デート！？/
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[se cloth_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+[serif on]
+そうそう。ほら、もうすぐオレのハレの日だろ？
+でも……当日は主も忙しそうだからさ。/
+[face A 02]
+[flow]
+これは前借りってことで♪
+いいだろ？　オレと甘い一日を過ごそうぜ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg mbg_syouen]
+[minibg sky_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+なんだかんだと断るタイミングを逃し
+時間の余裕もあったので、越前と街へ出かけた。/
+[se gaya_01]
+[textcolor ARUJI]
+バレンタイン前というだけあって
+街は活気に溢れていた。/
+[flow]
+[textcolor ARUJI]
+ショーウィンドウには色とりどりのハート型の
+飾りや、可愛らしいデコレーションが並ぶ。/
+[flow]
+[textcolor ARUJI]
+あちこちから甘い香りが漂ってくる。/
+[show A C]
+[face A 01]
+[say A]
+この店は濃厚な味わいのミルクチョコが人気
+なんだけど、バレンタイン限定メニューもあるんだ。/
+[face A 00]
+ほら、フルーツで有名なショップとのコラボ。
+甘さの中にもさっぱりした酸味があるんだってさ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+いくらでも食べられるって話題だぜ。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+越前はさらりと説明しながら
+ショーケースを覗き込む。/
+[textcolor ARUJI]
+その姿は真剣そのもので、目を細めながら
+商品を見比べている。/
+[textcolor ARUJI]
+どうやら商品ごとの味の違いや特徴を熟知
+しているようだ。/
+[serif off]
+?詳しいんだね。越前/
+[show A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[say A]
+[serif on]
+ははっ。ま、ちょっと調べておいたのさ。/
+[face A 00]
+バレンタインの特別な時期には、玉石混交
+たくさんの商品が並ぶだろ？/
+[face A 01]
+それにデートに誘うなら、相手を退屈させないのが
+オレの流儀ってやつだ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+どこか得意げな越前は、鼻歌交じりで楽しそうだ。
+こちらもつられて頬が緩んでしまう。/
+[textcolor ARUJI]
+越前に案内されながら美味しそうなチョコを
+いくつも買ってもらった。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg town_itary]
+[bgm food]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+この店はチョコムースのケーキが格別だ。
+それに、今週だけはビターな限定品があるんだ。/
+[face A 02]
+甘いのばっかじゃ飽きちまうだろ？
+こういうのも織り交ぜておかないとな。/
+[serif off]
+?苦めのチョコも人気があるんだね/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+[serif on]
+ああ、そうだな。
+いろんな味わいがある方が楽しいだろ？/
+[face A 02]
+[flow]
+オレは甘いのも苦いのも、
+どっちも楽しみたいタイプなんだ。/
+[talkend]
+[textcolor ARUJI]
+そう言ってウィンクする越前。/
+[textcolor ARUJI]
+その飾らない笑顔と爽やかな声に
+周囲の人々も思わず振り返ってしまうほどだ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg syouwa_shinjuku]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+越前の進めてくれたチョコを味わいながら
+ふたりして街をそぞろ歩き。/
+[textcolor ARUJI]
+色鮮やかなチョコレートの展示に驚いたり
+バレンタインの可愛いラッピング用品を眺めたり/
+[textcolor ARUJI]
+越前にエスコートされながら
+デートコースを満喫した。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg sky_sunset]
+[-]
+[bgm night]
+[fadeout 1.5]
+[-]
+[se amb_04]
+[wait 2]
+[-]
+[autotap]/
+[serif off]
+?今日は誘ってくれてありがとう/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+公園のベンチに腰掛けながら温かいコーヒーを飲む。
+冷たい空気の中、ぬくもりが染みていくようだ。/
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 02]
+[say A]
+いいって。主に喜んでもらえるなら
+誘った甲斐があったってもんさ。/
+[talkend]
+[face A 01]
+[delay 1 face A 04]
+[textcolor ARUJI]
+越前はいつものように自信満々な笑みを
+浮かべた後、一瞬だけ視線を落とした。/
+[hide A]
+[serif off]
+?？/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+それまでの軽快な調子とは違い、
+ふっ、と真剣な顔に変わったのがわかる。/
+[show A]
+[scale A 1.6]
+[move A Y -160]
+[face A 08]
+[say A]
+……主……これを受け取ってくれ。/
+[talkend]
+[hide A]
+[se cloth_01]
+[textcolor ARUJI]
+そう言って差し出されたのはしっかりとした箱。
+その中に収められたチョコレートだった。/
+[textcolor ARUJI]
+どこか男前な雰囲気漂うまるで彫刻のように
+スタイリッシュなフォルムのチョコレートだ。/
+[serif off]
+?男前なチョコだ！/
+[show A]
+[face A 01]
+[scale A 1.6]
+[move A Y -160]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+だろ？　デザインにもこだわったんだ。
+せっかくだから食べてみてくれよ。/
+[face A 09]
+うまく出来てると思うんだけどな……/
+[serif off]
+?もしかして手作り？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[say A]
+[serif on]
+ああ。結構苦労したぜ。
+最高の味を作るためにいろんなチョコを食べて——/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+どうやら越前がチョコに詳しかったのは足繁く
+いろんな店に通って味を追求していたからのようだ。/
+[textcolor ARUJI]
+おそらくずっと前から
+準備してくれていたのだろう。/
+[show A]
+[face A 01]
+[scale A 1.6]
+[move A Y -160]
+[face A 01]
+[say A]
+……主、今日は、オレも楽しかったよ。
+普段はいろんな奴らが周りにいるだろ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+だから、チョコを渡すときには
+主を独り占めにしたかったんだ。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+ごまかすように視線を外した越前の横顔は
+照れているように見えて、どこか可愛く感じた。/
+[textcolor ARUJI]
+そして越前の作った男前なチョコは
+手の中でアートのような存在感を放っている。/
+[serif off]
+?……もったいないけど、いただきます/
+[talkend]
+[se eat_01]
+[-]
+[wait 1]
+[serif on 0.5]
+[textcolor ARUJI]
+ひとかじりすると、ビターな風味の中にも
+コクのある甘さが広がり、心地よい爽やかな余韻が残る。/
+[serif off]
+?美味しい！/
+[show A]
+[scale A 1.6]
+[move A Y -160]
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[say A]
+[serif on]
+本当か？　よかったぜ！/
+[face A 09]
+[effect off a]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+正直、いろんな専門店のチョコを食べてもらって、
+結構ハードル上げちまってたよな。自分で。/
+[face A 01]
+[flow]
+でも……喜んでもらえたなら、渡してよかったぜ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+確かに越前のチョコはシンプルながら香りと味わいに
+深みがあり、それでいて全く負担にならない/
+[flow]
+[textcolor ARUJI]
+ひと味もふた味も違うチョコ
+そんな気がした。/
+[serif off]
+?味も男前だね！/
+[show A]
+[scale A 1.6]
+[move A Y -160]
+[face A 01]
+[say A]
+[serif on]
+当然さ。オレの作ったチョコだからな。
+主を喜ばせるためなら、手を抜かねぇよ。/
+[face A 06]
+[flow]
+……それもオレなりの「男前」ってやつさ。/
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+オレのハレの日には、主からのチョコ、
+期待してるぜ♪/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+なんてな。/
+[talkend]
+[textcolor ARUJI]
+照れ隠しのように鼻をこすりながら言う越前。
+そのくすぐったそうな表情にこちらも笑みがこぼれる。/
+[hide A]
+[textcolor ARUJI]
+冷たい風が頬を撫でる公園のベンチで、
+甘いチョコの余韻を味わいながら——/
+[textcolor ARUJI]
+ふたりの距離が
+一段と縮まるのを感じていたのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

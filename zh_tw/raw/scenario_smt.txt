@@ -1,0 +1,1120 @@
+>>10000/
+@下野
+託桑多，下野。[wait 1.5]你是主人嗎？[wait 1.5]
+明白了。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@下野
+從現在開始，讓我們一起加入小隊，完成任務。/
+>>10001/
+@下野
+是軍事實力的增強嗎？[wait 1.5]
+明白了。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@下野
+我會接聽你的電話。/
+>>1/
+[set A s_smt_r 下野]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+大人，您知道從中禪寺湖流出的華嚴瀑布嗎？
+您可能會認為壓倒性的水量非常適合瀑布之旅。/
+[flow]
+[face A 03]
+但你不應該去。
+建議您僅從遠處觀看。/
+[face A 01]
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+....您的安全是我的首要任務。
+如果需要的話我可以陪你。/
+>>2/
+[set A s_smt_r 下野]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+為了完成你的使命，休息也是必要的。你也是
+有時，慢慢地泡在熱水中可以舒緩身體。/
+[face A 11]
+[flow]
+特別是對於傷口，川路溫泉，
+鬼怒川溫泉據說對燒傷有好處。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 09]
+溫泉的效果已被詳細研究。
+我不介意我指導你。/
+>>3/
+[set A s_smt_r 下野]
+[show A C]
+[face A 10]
+[serif on]
+[talk A]
+如果你吃七家的Shimotsukare...
+這是一道美味的菜餚，據說不會讓人生病。/
+[flow]
+[face A 01]
+健康對於完成您的使命很重要。
+你也應該嘗試一下。/
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[flow]
+下野是讓國家引以為傲的B級團體的巔峰。
+美食從眼睛開始…我希望你也能享受它的外觀。/
+>>4/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし -@NPC -smt]
+[show A C]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[show B L]
+[face B 00]
+[orderline A B]
+[-]
+[serif on]
+[talk A]
+嗯……我想我今天會去打掃。/
+[face B 01]
+[face A 01]
+[flow]
+……每個人都有一份工作的責任感，
+是這個意思嗎？知道了。/
+[face B 05]
+[face A 03]
+[flow]
+我馬上開始打掃。[shake A]
+讓我們讓它看起來沒有一粒灰塵。[effect bk waveout 6000 0 0][shakebg][move B X -150 0.5]/
+>>5/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし -@NPC -smt]
+[show A C]
+[face A 08]
+[rotate A 60]
+[move A Y -50]
+[move A X -150]
+[-]
+[show B R]
+[move B X 300]
+[move B X -200 0.5]
+[face B 00]
+[move A Y -40 0.2]
+[delay 0.3 move A Y 40 0.4]
+[delay 0.8 move A Y -40 0.2]
+[delay 1.1 move A Y 40 0.5]
+[autotap]/
+[serif on]
+[talk A]
+哼哼…
+好吧……嗯？　$B:A。你在幹什麼？/
+[se cloth_01]
+[rotate A 0 0.5]
+[face B 01]
+[setline 0.5 A B]
+[face A 01]
+[flow]
+正如你所看到的，我正在訓練我的身體。
+俯臥撐完成。接下來，做仰臥起坐。/
+[flow]
+[se zukkoke_02]
+[face B 04]
+[face A 10]
+如果你沒有什麼特別的事情要做，請不要跟我說話。/
+>>6/
+[set A s_smt_r 下野]
+[show A C]
+[face A 01]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+嗯……我想今天訓練結束後我會出去一下。
+也許我應該去一家我一直感興趣的商店.../
+[move A X -150 0.5]
+[delay 0.6 move A X 200 0.5]
+[delay 1.3 move A X -200 0.5]
+[delay 1.8 move A X 150 0.5]
+[autotap]/
+[face A 09]
+[flow]
+[= 餃子が評判のラーメン屋 焦がしにんにく油そば つゆだくカツ丼食堂 しみしみおでんの居酒屋 肉じゃがドカ盛り食堂]……[wait 0.3]不，不
+[= 自家製福神漬けが絶品のカレー屋 おかわり無限豚汁定食屋 にぎりたてのおにぎり屋 山盛り唐揚げ定食屋 背徳タルタル盛り食堂]或者.../
+[flow]
+[face A 01]
+兩個我都不能放棄
+讓我們在訓練期間決定。/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_smt_r 下野]
+[show A C]
+[face A 11]
+[serif on]
+[talk A]
+[se wrigt_01]
+今天的商店是...☆[=3 3.5 4 4.5 5]「[=店内は清潔で好印象だ。 昭和レトロな内装が味わい深い。 かうんたー席のみだが落ち着ける。 店内は年季が入っているが問題なし。 地元客で賑わう活気ある店内だ。 多少雑然としているが気にならない。 町の食堂らしい素朴な佇まいだ。 厨房の煙がもくもく立ち込める。 木の温かみを感じる佇まいだ。 換気扇が低音で唸る暑い店内。 壁の手書きの品書きに趣あり。]
+[=提供も手際よく申し分なし。 注文後すぐに運ばれてきた。 手作り感が嬉しい一品。 提供まで実にすむーず。 おばさんの愛想良し。 店主の料理への愛を感じる。 大将の職人気質が伝わる。 調理の様子が見え食欲をそそる。][=味は噂に違わず絶品だ。 期待を上回る庶民派の傑作だ。 秘伝のタレが決め手の逸品だ。 おふくろの味を彷彿とさせる。 素朴ながら深みのある味わいだ。 クセになる独特の旨味あり。 しんぷるだが計算された味だ。][face A 01]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[flow]
+[=しかし如何せん量が少々心もとない。 ただし値段の割には量が控えめだ。 惜しむらくは味が濃すぎる傾向にある。 難点は油がやや重めなことだ。 料理が熱々で出てこないところが残念。 気になるのは盛り付けが荒いことだ。 唯一の不満は行列必至の人気ぶりだ。 量も十分でこすぱが素晴らしい。 この価格でこの満足度は驚異的だ。 ぼりゅーむ満点で男性客には特に嬉しい。 味付けが絶妙で文句のつけようがない。 熱々の状態で提供される心遣いも評価したい。 見た目も美しく食欲をそそる仕上がりだ。 見た目の豪快さがいかにもでいい。 地元に愛される理由が十分に理解できる。]
+[=白米と卵を混ぜ食すと新たな味に出会える。 大盛り無料なので遠慮なく頼むべしだ。 白米の追加で炭水化物祭りが楽しめる。 途中で一味唐辛子をかけると味変で二度旨い。 途中まよねーず投入で別の料理に変身する。 もやしとっぴんぐでぼりゅーむ満点になる。 ちゃーしゅー追加すれば肉食系も大満足だ。 最後に胡椒とニンニクで男の味に仕上がる。 どんぶりに汁だくで満腹保証だ。 ねぎもりもりでさっぱりりせっと。 酢をひとまわしでさっぱり味変。 たまごとろりでまろやか旨味爆増。 追いめし投入ですうぷまで完食。 あつあつ鉄皿でおこげがうまい。 らーどをひとさじでこくマシマシ。 揚げニンニクちっぷでぱんち追加。 コショウ増量でしびれる刺激。 ばたーを溶かせば背徳のうまさ。 すりごま大量投入で香り爆発。 最後は酢でさっぱり締める。 刻み玉ねぎは多めにいれるべし。 わさび追加で一転さっぱり感。]」……並且。[se cloth_01]好的。/
+[face A 01]
+[flow]
+明天我要去哪家商店？/
+>>10/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[show B R]
+[move B X 150]
+[face B 00]
+[face A 04]
+[serif on]
+[talk A]
+該死的，[shake A]這種睏倦……可能是碳水化合物吃太多了。
+但這是訓練的時間。[face A 08]/
+[face B 05]
+[move A Y -50 0.5]
+[face A 11]
+[flow]
+活動肌肉有助於防止嗜睡。
+現在，讓我們從空氣椅開始.../
+[face B 04]
+[rotate A 15 0.5]
+[move A Y -100 0.5]
+[face A 07]
+[flow]
+哇...[se dosa_01]/
+>>11/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[randomset C r @地魂男児 @あやかし @NPC -smt -@NOW]
+[show A C]
+[show B R]
+[setline A B]
+[move B X 150]
+[face A 10]
+[face B 01]
+[serif on]
+[talk A]
+$B:A？參加酒會的邀請？
+拒絕。[shake A][face A 03]我需要晚上訓練。[shake A]/
+[face B 04]
+[face A 05]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……什麼？　$C:A正在做實驗烹飪，
+然後……！ ？[shake A]/
+[face A 03]
+[flow]
+[shake A]
+媽的，我很好奇味道…[shake A]
+那我們一起加入吧！我們走吧。[face B 02][face A 03]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+身體裡的這份興奮……也許是昨天的體力美食的結果吧。
+說實話，我不太習慣這樣的事情…/
+[show B R]
+[face B 00]
+[setline 0.5 A B]
+[face A 10]
+[flow]
+啊？　$B:A或者...
+不，不，沒什麼！呵呵，別碰我。[shake A][face B 04][face A 03]/
+[move A C 0.5]
+[move B X 300 0.5]
+[face A 06]
+[flow]
+媽的...
+我自己會冷靜下來。/
+>>15/
+[set A s_smt_m 下野]
+[randomset B m @地魂男児 @あやかし @NPC -smt]
+[randomset C m @地魂男児 @あやかし @NPC -smt -@NOW]
+[show A C]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+[talk A]
+[shake A]
+[se doka_01]
+[delay 0.3 se katana_03]
+[delay 0.6 se zuba_01]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+呵呵！　[shake A]……這個水平還不夠。
+更強更深……哈！ ！ ！[shake A]/
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[show B R]
+[show C L]
+[move B Y -50]
+[move B X 200]
+[move C X -200]
+[rotate C -20]
+[move C Y -50]
+[orderline C B A]
+[face B 04]
+[face C 05]
+[setline 0.5 C A B]
+[face A 04]
+[flow]
+[se cloth_01]
+$B:A、$C:A，對不起。
+看來認真起來就會不分青紅皂白的…/
+>>16/
+[set A s_smt_m 下野]
+[randomset B m @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[effect fr slash 6000 0 0]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[se doka_01]
+哈！ ！[shake A]　....呼。
+畢竟，我不用擔心沒人的時候去。/
+[show B R]
+[face B 00]
+[setline 0.5 A B]
+[move B X 100 0.5]
+[face A 05]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+$B:A？靠近我很危險。
+……你是說沒關係嗎？[face B 01]/
+[face A 01]
+[flow]
+呵呵，這很有幫助。
+讓我們盡可能地互相鼓勵。[face A 03][face B 03][se cloth_06]/
+>>17/
+[set A s_smt_b 下野]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[talk A]
+[-]
+[serif on]
+……我的體重越來越重了。
+好吧，看來你的訓練得到了很好的回報。/
+[face A 06]
+[flow]
+……或者是我吃太多B級食物了…
+——不，我簡直不敢相信。/
+>>18/
+[set A s_smt_b 下野]
+[show A C]
+[face A 11]
+[move A Y -100]
+[serif on]
+[talk A]
+[se amb_12]
+[effect fr yuge a 0 0]
+保持身體清潔，促進血液迴圈、流汗、新陳代謝。
+這樣，您就不會把一天的疲勞延續到第二天。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[flow]
+....呼...
+畢竟溫泉還是不錯的。/
+>>19/
+[set A s_smt_b 下野]
+[randomset B b @地魂男児 @あやかし @NPC -smt]
+[randomset C b @地魂男児 @あやかし @NPC -smt -@NOW]
+[show A C]
+[show B R]
+[show C L]
+[face B 00]
+[face C 00]
+[setline C A B]
+[face A 06]
+[serif on]
+[talk A]
+[orderline C B A]
+[moveline A B C 0 -50 0]
+[se amb_12]
+[se bath_02]
+[effect fr yuge a 0 0]
+今天衛浴人滿為患…
+沒想到我們的接觸如此密切/
+[flow]
+[face A 04]
+然而，沒有理由不泡在浴缸裡。
+……該死，我是不是應該改變時間？[shake A]/
+[face A 05]
+[face B 05]
+[face C 06]
+[effect fr splash 6000 0 0]
+[se water_07]
+[flow]
+[shake A]
+……哦，嘿！你摸哪裡了！ ？/
+>>20/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[face A 10]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+排洩……好吧，洗手吧。
+一切都很好。回到訓練。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[show B L]
+[move B X -300]
+[move B X 200 0.5]
+[face B 06]
+[face A 09]
+[flow]
+....嗯...$B:A不幸的是，私人房間已經滿了。
+下次我應該要動作快一點。[shake B][face B 04][face A 11]/
+>>21/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[face A 08]
+[scale A 1.6]
+[move A Y -120]
+[se pee_01]
+[serif on]
+[talk A]
+他沒有絲毫動搖，目光定格在一個點上。
+……這也是一種提升專注力的訓練練習。/
+[show B L]
+[face B 06]
+[face A 09]
+[setline 0.5 B A]
+[scale B 1.6]
+[move B Y -120]
+[orderline B A]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嗯，$B:A，一片混亂。
+如果您將它們進行比較，那就很明顯了。/
+>>22/
+[set A s_smt_r 下野]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[scale A 1.6]
+[move A Y -120]
+[move A Y -50]
+地魂童子，作為人類所獲得的身體。
+生理現像也必須有效處理。/
+[flow]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+....耶...好吧。
+啊？[shake A][face A 05]　……為什麼沒有紙？/
+>>23/
+[set A s_smt_r 下野]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[scale A 1.6]
+[move A Y -120]
+[move A Y -50]
+[shake A]
+該死，我做了什麼…就像這樣
+任憑身體擺佈……這是不該發生的……/
+[flow]
+[face A 13]
+但是……這種衝動……控制著身體，
+我不能……！[shake A]/
+[face A 06]
+[flow]
+[se cloth_06]
+[shake A 2 5 5]
+呃！ ！/
+>>24/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし -@NPC -smt]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+是時候睡覺了嗎？我被允許使用壁櫥。
+一個人在狹小的地方……我可以安穩地睡覺。/
+[move A X -150 0.5]
+[se fusuma_01]
+[show B L]
+[delay 0.3 move A X 200 0.3]
+[face B 05]
+[rotate B 40]
+[face A 05]
+[orderline A B]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……$B:A，對此我深表歉意。/
+[se fusuma_02]
+[hide B]
+[face A 09]
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+我不知道那裡有一位顧客....
+今天你會安靜地睡在角落嗎？[move A X 250 0.5]/
+>>25/
+[set A s_smt_r 下野]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+嗚嗚嗚……B級團體對決……
+至尊或終極...Soooo.../
+[talkend]
+看來我正在做一個有趣的夢。/
+>>26/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[show B R]
+[rotate B 30 0.5]
+[orderline B A]
+[se cloth_06]
+[move B XY -100 -100 0.5]
+[face A 07]
+[face B 07]
+[serif on]
+[say A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[shake A]
+[face A 05]
+嗯！ ？　$B:A，這麼突然！ ？
+是地面訓練嗎？ ？我會接受的。/
+[face A 10]
+[flow]
+……嗯？不，我只是睏了…
+令人困惑的是它被覆蓋了......[face A 11]/
+[face A 06]
+[waku on 0.5]
+……（發生了什麼事...）/
+>>100/
+[set A s_smt_r 下野]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 下野と遠征任務]
+[-]
+[bgm home]
+[bg heya_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+我今天休息了
+當我打掃房間的時候.../
+@下野的聲音
+主啊，我們進去吧。/
+[serif off]
+？ 下野？發生了什麼事？/
+[se fusuma_01]
+[show A]
+[move A X -300]
+[face A 00]
+[-]
+[serif on]
+[say A]
+……是你打掃的地方嗎？
+我有一個小故事要告訴你。/
+[serif off]
+？沒關係。上。/
+[face A 11]
+[serif on]
+[say A]
+[move A X 300 0.5]
+我明白了。[se fusuma_02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+主啊。謝謝你讓我在這個莊園裡被聽到。
+我再次來表達我的謝意。/
+[face A 08]
+[flow]
+我想透過我的使命的成就來報答這份恩情。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+下野他的表情沒有太大變化。
+然而，我覺得我的真實感受正在顯現。/
+[flow]
+[textcolor ARUJI]
+你不辭辛勞地來到我的房間。
+我想進一步加深與下野的互動。/
+[serif off]
+？是的，你能幫我打掃房間嗎？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+我們一邊幫忙打掃衛生，一邊聊著各種各樣的事情。
+我認為這樣做可能是個好主意。/
+[bgm off]
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 10]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+拒絕。/
+[bgm fun]
+[serif off]
+?！？/
+[face A 11]
+[serif on]
+[say A]
+房間清潔等級
+除非你自己完成，否則你會遇到麻煩。/
+[face A 03]
+[flow]
+[shake A]
+連自己的房間都管理不了
+我認為我們無法指揮。/
+[serif off]
+？是的！/
+[face A 10]
+[serif on]
+[say A]
+……我的手停住了，主啊。/
+[face A 05]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+不，等等……！
+你要背起這麼重的行李嗎？/
+[se cloth_06]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[face A 03]
+[flow]
+借給我吧。 ……這樣抱著會傷身體的。
+我會幫你的。/
+[serif off]
+？啊，謝謝你.../
+[hide A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+當我的清潔邀請突然被拒絕時，我感到很驚訝。
+當我試圖搬運沉重的行李時，他們幫助了我。/
+[flow]
+[textcolor ARUJI]
+並不是隻是不喜歡
+下野也許有一個判斷的標準。/
+[bgm departure]
+[show A]
+[face A 00]
+[say A]
+主啊。還有一個故事。
+事實上，這是主要問題。/
+[face A 09]
+[flow]
+我收到了關於明天任務的預約.../
+[face A 08]
+[flow]
+為什麼我會被命令去執行這樣的任務？
+我想問你真相。/
+[serif off]
+？你什麼意思？/
+[hide A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+明天的任務是簡單的探險任務。/
+[flow]
+[textcolor ARUJI]
+我相信我在江戶時代曾在茶屋町待過幾天。
+守護歷史是一種使命。/
+[flow]
+[textcolor ARUJI]
+下野才剛到莊園。
+我們的想法是先習慣它。/
+[serif off]
+[show A]
+[face A 10]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+我找不到繼續執行這項任務的理由。[se taiko_02]/
+[face A 03]
+[flow]
+你必須明白你身為一個地魂男孩的價值。
+你好像沒明白。/
+[flow]
+[face A 11]
+他說，即使在地魂少年中，他也擅長戰鬥。
+我為此感到自豪。/
+[flow]
+[face A 03]
+首先，地魂童子是靈種，或者說是喰種。
+它的存在是為了消除改變歷史的危險。/
+[face A 08]
+[flow]
+我心愛的劍就是為此目的而打磨的。
+因此，如果你要使用自己，就應該派它去戰鬥。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+據我所知，下野 的任務主要不是戰鬥。
+大概是不滿意吧。/
+[show A]
+[face A 08]
+[say A]
+如果你誤判了自己的表現
+我想立即改正。/
+[face A 00]
+[flow]
+請您到訓練場來一下好嗎？/
+[serif off]
+？跟我去訓練場/
+[playeryes]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg niwa_day]
+[-]
+[effect fr syutyu a 0 0]
+[se katana_01]
+[delay 0.3 se katana_03]
+[delay 1 se zuba_01]
+[wait 1]
+[-]
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 03]
+[-]
+[fadeout 1.5]
+[-]
+[effect fr slash 6000 0 0]
+[se zuba_01]
+[shakebg]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[-]
+[autotap]/
+[serif off]
+[effect off a]
+？哦，那太好了.../
+[hide A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+馬上就到了訓練場下野的劍術和體術等。
+他展示了他的戰鬥能力。/
+[serif off]
+[show A]
+[face A 01]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+……你覺得怎麼樣？讓這個戰鬥力發揮出來就是
+這將是一種浪費。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+下野確實是適合戰鬥的地魂少年。
+毫無疑問。/
+[flow]
+[textcolor ARUJI]
+然而，任務並不全是戰鬥。
+也許你需要知道。/
+[flow]
+[bgm off]
+[textcolor ARUJI]
+如果你這樣想的話...[wait 0.5]呃……我的肚子咕嚕咕嚕叫了。/
+[serif off]
+[bgm fun]
+？我餓了.../
+[show A]
+[face A 09]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+廚房裡肯定有一些零食。/
+[talkend]
+[textcolor ARUJI]
+就在那時，它點選了。/
+[serif off]
+?在六原美食廣場吃飯/
+[face A 10]
+[serif on]
+[say A]
+為什麼要繞道而行呢？
+美食廣場到底是什麼？/
+[face A 03]
+[flow]
+莊園內可以吃飯。/
+[serif off]
+？ 下野如果你知道的話就更好了。/
+[face A 09]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+……既然你要說這麼多，那我也沒辦法了。
+讓我們跟隨。[face A 11]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+還可以介紹六原總部的設施。
+我決定帶你四處看看。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm off]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[bgm food]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 05]
+[say A]
+[serif on]
+[shake A 2 5 5]
+這……這是……！ ！ ！/
+[flow]
+[shakebg]
+[scale A 1.6 0.3]
+[move A Y -150 0.3]
+[effect fr kira a 0 0]
+[se kira_01]
+從烏龍麵到蕎麥麵再到外國料理......！ ？
+章魚燒和禦好燒...[shake A]B級美食的寶庫！ ？[shake A]/
+[effect off a]
+[serif off]
+?章魚燒確實是當地的一道美食。/
+[face A 01]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+沒想到六原總部會有這樣的地方…
+我當然很高興得知此事。/
+[move A X -600 2]
+[autotap]/
+[face A 02]
+[flow]
+這香味...
+我正在糾結該吃哪一個.../
+[serif off]
+[move A X -300 0.5]
+[hide A]
+[talkend]
+[-]
+[wait 1]
+[serif on]
+[textcolor ARUJI]
+下野在美食廣場閒逛。
+最後我選了章魚燒。/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 01]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+我會得到它。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[se eat_01]
+[face A 06]
+[flow]
+……呼呼呼……咕噥……
+呼呼呼呼……咕噥……/
+[light def 0.5]
+[lightcolor pink]
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[flow]
+咬下去的那一刻，外面的東西就融化了
+裡面已經融化了……！味道確實不錯。[se taiko_01]/
+[effect fr syutyu 6000 0 0]
+[face A 02]
+[flow]
+這是大阪的章魚燒。有點軟。[shake A]
+章魚的論點也令人欽佩。這是☆4。[se taiko_02]/
+[effect off a]
+[light off 0.5]
+[serif off]
+？ 下野 似乎很喜歡食物。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+[say A]
+當然。
+不過，她特別喜歡B級美食。/
+[face A 08]
+[flow]
+B級食品…便宜，不奢華，
+是一道深受民間喜愛、可以隨便吃的菜餚。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+食物是人體所能享受到的終極奢侈品。
+人類是與食物一起進化的。文化的本質。/
+[serif off]
+？那樣的話，我想你會享受你的下一個探險任務。/
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+……？　……我請求一個解釋。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+任務是待在茶館裡看歷史。/
+[flow]
+[textcolor ARUJI]
+茶館周圍有很多攤位。
+我們知道食物有很多種。/
+[flow]
+[textcolor ARUJI]
+作為一個吃貨，融入大眾
+我會監視他們。/
+[flow]
+[textcolor ARUJI]
+沒有戰鬥，但當你在那裡時它很美味
+你就可以吃米飯了。/
+[serif off]
+？但如果你不喜歡這次探險，這個任務就會交給另一個男孩.../
+[bgm off]
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 11]
+[say A]
+[-]
+[serif on 0.5]
+………………/
+[bgm fun]
+[face A 10]
+[flow]
+這還為時過早。[se taiko_03]/
+[face A 08]
+[flow]
+在目的地，你可以見證歷史巨變的時刻。
+我得盯著它，以免被喰種靈魂打擾…/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[flow]
+這意味著，
+它需要耐心和時機成熟時的瞬間力量。/
+[face A 01]
+[flow]
+再想一想，確實如此
+很符合自己的特質。/
+[serif off]
+？嗯？/
+[face A 03]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……也就是說，那次探險任務，
+這意味著我有資格。[se taiko_02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+我瞭解細節。
+讓我們來承擔這次探險任務。/
+[serif off]
+[face A 10]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+………………
+………………那是什麼眼睛？/
+[face A 06]
+[flow]
+[shake A]
+……我想說的是
+我又不是被騙走的。/
+[flow]
+……朱魯裡。/
+[serif off]
+？是的，是的。那麼，很高興認識你。/
+[face A 01]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 2]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+之後返回莊園，
+我開始打掃房間。/
+[hideall]
+[-]
+[minibg off]
+[bg heya_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif off]
+？ 下野，幫我搬一下重物吧！/
+[show A C]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+我瞭解細節。我會保護你的腰。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+感謝下野 搬運所有重物。
+清理工作出乎意料地很快就完成了。/
+[serif off]
+？ 下野，謝謝你的辛勤工作。謝謝你！/
+[show A]
+[face A 10]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+現在讓我回我的房間去吧。
+我有事要調查。/
+[se fusuma_01]
+[move A X -300 0.5]
+[face A 09]
+[flow]
+....您造訪期間有哪些小吃攤？
+有食物嗎.../
+[face A 01]
+[flow]
+我沒有足夠的知識來執行任務。
+他們可能會懷疑。我必須檢查一下。/
+[serif off]
+[move A X -500 0.6]
+[hide A]
+[-]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+[se fusuma_02]
+如果我不同意，下野就會利用它。
+我很清楚它不會動。/
+[flow]
+[textcolor ARUJI]
+當提出要求時，請解釋為什麼下野對此感到滿意。
+我認為訣竅就是給予。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

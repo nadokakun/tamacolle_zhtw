@@ -1,0 +1,758 @@
+>>10000/
+@大和
+我是祖國的馬霍羅巴，[wait 2.0]大和。[wait 2.5]
+你是我的主嗎？[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@大和
+現在，把我當作你的父親，善待我。/
+>>10001/
+@大和
+....很好。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@大和
+應您的要求，[wait 1.5]我，偉大的父親[wait 1.7]
+我會給你更多的力量。/
+>>1/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 09]
+[serif on]
+[talk A]
+提到奈良，人們就會想到鹿和大佛。
+您也一定知道著名的東大寺。/
+[face A 01]
+[effect bk kira A]
+當我們一起參觀時，
+我偉大的父親會給我買鹿餅乾。/
+[face A 00]
+餵鹿很有趣。
+呵呵……別不小心把衣服吃掉了。/
+[face A 02]
+嗯，話雖如此，今天
+即使吃這些茶點心也會讓我吞口水。[effect off A]/
+>>2/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+主啊，我最近工作太多了。
+你吃得好嗎？/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+我想到了一件好事！　
+吃點自製食物犒賞自己吧！/
+[face A 06]
+[move A X 50 0.5]
+[delay 0.5 move A X -100 1.0]
+柿子葉壽司也不錯。
+溫和養胃的茶粥也捨不得丟掉…[move A C 0.5]/
+[face A 09]
+[scale A 1.5 1.0]
+[move A Y -180 1.0]
+現在，想吃什麼就說吧。
+天父會成就主所願意的！/
+>>3/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 00]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+感謝您的辛勤工作。主。聆聽聲音的人
+他們將舉行各種儀式。/
+[face A 01]
+在飛鳥座神社舉辦的恩田祭
+有一個非常有趣的儀式，你知道嗎？/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+天狗就在觀眾面前變成了大福。
+這就是「播種」。[wait 0.5][face A 01]他有興趣嗎？/
+[face A 06]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+嗯嗯。好的。
+他正在像個男孩一樣長大。/
+>>4/
+[set A s_ymt_r 大和]
+[show A C]
+[move A Y -200]
+[rotate A 70]
+[face A 08]
+[rotate A 0 1.0]
+[move A XY -50 100 1.0]
+[-]
+[serif on]
+[talk A]
+努...
+在你意識到之前，時間已經到了…/
+[face A 06]
+呃…[shake A]
+畢竟，睡兩次是最好的…[rotate A 80 0.5][move A Y -50 0.5]/
+[face A 07]
+[se cloth_01]
+晚安.../
+>>5/
+[set A s_ymt_r 大和]
+[randomset B r -ymt]
+[show A C]
+[show B C]
+[face A 05]
+[face B 01]
+[talk A]
+[setline 0 B A]
+[serif on]
+嗯……嗯……[move A Y 100 0.1][delay 0.1 move A Y -100 0.2]
+嗯……！[shake A]　我輸了！/
+[face A 02]
+$B:A，他很擅長。
+我的父親是個徹頭徹尾的失敗者！/
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+好的，下次我們就放鬆一下
+即使你在沒有老太太的情況下也能做到這一點。/
+[face A 06]
+[face B 02]
+今天又是一天，
+這樣你就可以在房間裡放鬆了。/
+>>6/
+[set A s_ymt_r 大和]
+[randomset B r -ymt]
+[show A C]
+[face A 01]
+[serif on]
+[talkend]
+大和正在閱讀。
+這是一本用中文寫的看起來很難的書。/
+[show B L]
+[face A 00]
+[face B 00]
+[talk A]
+[order A 10]
+[order B 5]
+[setline 0.5 B A]
+噢，發生什麼事了？$B:A。
+你對這本書有興趣嗎？/
+[face A 01]
+如果是的話我借給你。[move B X -50 0.5][face B 04]
+……什麼？[face A 08]　你覺得讀起來太難了嗎？/
+[face A 02]
+哈哈哈。不明白的地方，
+我的父親會正確地教導我。/
+[face A 06]
+[face B 01]
+現在，讓我們坐下來一起讀一讀。[move B X 100 0.3]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_ymt_r 大和]
+[randomset B r -ymt]
+[show A R]
+[show B L]
+[order A 10]
+[order B 5]
+[face A 07]
+[face B 03]
+[move A Y -200]
+[rotate A 70]
+[face A 08]
+[-]
+[rotate A 0 1.0]
+[move A XY -50 100 1.0]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talkend]
+[color B TALK]
+…………裂紋！/
+[move A Y 100 0.5]
+[face A 05]
+[talk A]
+……$B:A喲，你在看嗎？
+……那是什麼眼睛……哈！[shake A]/
+如果我從早上就睡著了怎麼辦？
+你在想嗎？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[face A 09]
+[face B 04]
+……沒錯！/
+>>10/
+[set A s_ymt_r 大和]
+[show A R]
+[face A 01]
+[move A X -150 0.5]
+[-]
+[serif on]
+[talk A]
+[serif name]
+現在，為晚餐後來玩的孩子們準備。
+我得為比賽做準備了♪/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+嗯，今天我該做什麼？
+Kemari……已經平靜下來……現在是晚上了……/
+[face A 02]
+電視遊戲……太令人興奮了。
+或者你會更樂意移動你的身體嗎？/
+[face A 06]
+呵呵呵呵,
+擔心也很有趣。/
+>>11/
+[set A s_ymt_r 大和]
+[show A L]
+[face A 04]
+[move A X 300 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+[serif name]
+對於辛苦工作一整天的孩子們，我們提供奈良茶米飯作為宵夜。
+我已經煮好了，但我擔心夠不夠.../
+[face A 05]
+[move A X 100 1.0]
+嗯……如果還不夠的話
+如果他們挨餓，我會為他們感到難過。/
+[face A 02]
+為了保險起見，我會再煮一批！[move A X -800 0.5][hide A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_ymt_r 大和]
+[randomset B r -ymt]
+[show A R]
+[move A Y -150]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 03]
+[-]
+[serif on]
+[talk A]
+毀了……我不想這樣做。
+因為主沒有給我更嚴格的命令…/
+[show B L]
+[face A 01]
+[talk A]
+是的，如果你想讓自己工作起來，你必須嚴格要求自己。
+例如...[shake A][face B 05]打屁股.../
+[face A 06]
+啊，主要是屁股……被打了……嗚嗚……[shake A]
+我想被打一次！[shake A 10 10 10][face B 04]/
+[face A 05]
+哈！ ！　$B:A！你從什麼時候開始看它的？ ？
+哦，這是一個誤會…/
+>>15/
+[set A s_ymt_m 大和]
+[randomset B m -@NPC -ymt]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+……沒錯，很好。
+準備好了……那個呼吸。好吧，就是這樣！/
+[face A 01]
+[show B L]
+[order A 10]
+[order B 5]
+[setline 0.5 B A]
+[talk A]
+嗯，$B:A。
+這是一個很好的舉動。這是一個滿分。/
+[face A 09]
+[face B 01]
+現在，你一定很累了。你可以坐下來。
+和我一起喝茶吧。/
+>>16/
+[set A s_ymt_m 大和]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+哼！[effect fr katana 2000][se crash_01][shakebg]
+……哦？[face A 05]　它壞了嗎？/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+嗯。
+固定目標太容易訓練了。/
+>>17/
+[set A s_ymt_b 大和]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+我喜歡浴室，但它在更衣室的盡頭。
+這規模……太恐怖了……[shake A]/
+[face A 05]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+騎乘讓我精神上變得堅硬，
+不要靠近那裡。[move A X 300 1.0][hide A]/
+>>18/
+[set A s_ymt_b 大和]
+[randomset B b -ymt]
+[se amb_12]
+[show A C]
+[show B C]
+[face A 08]
+[face B 00]
+[effect fr yuge a 0 0]
+[serif on]
+[talk A]
+[setline]
+嘿嘿$B:A、
+我的背上還殘留著氣泡。/
+[face A 01]
+[se bath_01]
+浸泡在浴缸中之前請徹底沖洗。
+……嗯，這樣就好了。[se bath_03][face B 01]/
+[move A Y -100 0.5]
+[move B Y -100 0.5]
+[se bath_02]
+[face A 00]
+[face B 00]
+扎文。/
+[face A 02]
+好吧？
+浸泡到肩膀並數到十。[face B 01]/
+>>19/
+[set A s_ymt_b 大和]
+[randomset B b -ymt]
+[show A C]
+[se amb_12]
+[face A 01]
+[serif on]
+[talk A]
+[effect fr yuge a 0 0]
+因為我的身體是毛茸茸的，
+它起泡非常好。/
+[face A 09]
+[se bath_04]
+所以，像這樣鞭打它......好吧！/
+[face A 02]
+憑藉我充滿活力的身體
+我來幫我親愛的孩子洗澡！/
+[face A 06]
+[move A X 900 0.6]
+[show B C]
+[talk A]
+[move B X 1000]
+[face B 05]
+[order B 1]
+[order A 0]
+來吧！等待！ ！
+別害羞！ ！[move B X -1600 1.5][delay 0.2 move A X -1500 1.4][delay 0.8 hide A][delay 0.8 hide B]/
+>>20/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+呼……這樣就好了……
+……女媧！[shake A]/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+事情還沒結束...
+我放鬆了警惕，差點弄髒了我的和服…/
+>>21/
+[set A s_ymt_m 大和]
+[randomset B m -@NPC -ymt]
+[show A C]
+[show B C]
+[face A 08]
+[face B 08]
+[serif on]
+[order A 10]
+[order B 5]
+[talk A]
+[setline]
+好吧？$B:A喲。
+一定要在打架前去小便。/
+[face A 01]
+[face B 01]
+……嗯，這是一個很好的答案。[wait 0.5]
+好吧，我父親會帶你去那裡。[move A X 800 1.0][move B X 800 1.0][hideall]/
+>>22/
+[set A s_ymt_r 大和]
+[show A C]
+[move A Y -50]
+[face A 06]
+[serif on]
+[talk A]
+呼…
+/
+我的孩子們很可愛，但是
+可以獨處的私人房間讓人感到平靜。/
+[face A 01]
+這就是為什麼我總是忘記時間。
+……現在，我接下來該讀哪一篇？[se paper_01]/
+>>23/
+[set A s_ymt_r 大和]
+[show A C]
+[move A Y -50]
+[face A 01]
+[serif on]
+[talk A]
+來吧，
+今天該讀哪本書...[se paper_01]是嗎？/
+[face A 05]
+……！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+哎呀，這是誰放的……！
+我父親不會原諒這樣的書……！ ！/
+[face A 06]
+[se paper_01]
+佩拉…佩拉…[se paper_01]/
+>>24/
+[set A s_ymt_r 大和]
+[show A R]
+[face A 04]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+嗯...我只是閒逛，
+我被告知要離開，以便鋪上蒲團....../
+[face A 01]
+鋪好被子後，
+我會是第一個跳進去的人。/
+>>25/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+....睡覺...大和...國野...
+Mahoroba...Suyasuya.../
+[talkend]
+他看起來睡得很香。/
+>>26/
+[set A s_ymt_r 大和]
+[se cloth_01]
+[se amb_05]
+[show A C]
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+我父親的鼻子很尖，所以他對孩子們保守秘密。
+您可能會注意到很多事情。/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+但父親是為了他可愛的孩子
+閉嘴，假裝睡著了。晚安。[face A 07]/
+>>27/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 00]
+[talk A]
+？ 大和，快樂的一天！/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[face A 02]
+[serif on]
+噢，主。
+我很高興我可愛的孩子能夠祝賀我。/
+[face A 01]
+今天早上我起得很早，打掃衛生，洗衣服，
+我已經準備好早餐了。/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 00]
+呵呵……今天我不只是一個父親。
+是的……他是個偉大又可靠的父親！[face A 02][se taiko_02]/
+[effect fr kira a 0 0]
+[face A 08]
+[se kira_01]
+我選擇今天作為我的特殊日子的原因是
+不用說，這是因為今天是父親節。[shakebg]/
+[face A 09]
+平常我都有一種父愛滿溢的感覺，但今天…
+我正在考慮成為更高一級的父親.../
+[face A 00]
+[effect off a]
+這樣，糖果就準備好了。
+順便說一下。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+主啊，為什麼不花點時間陪我呢？/
+[face A 01]
+在這裡，不要退縮
+我在父親的腿上慢慢地放鬆。/
+[face A 02]
+[serif off 0.5]
+[wait 1]
+[-]
+[autotap]/
+>>100/
+[set A s_ymt_r 大和]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 大和とお話]
+[-]
+[bg heya_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+今天是假期。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+我厭倦了在蒲團上懶洋洋地躺著，所以
+我離開房間呼吸新鮮空氣以改變節奏。/
+[se walk_01]
+[textcolor ARUJI]
+在莊園裡逛了一會兒之後，
+我遇見了大和坐在門廊上喝茶。/
+[serif off]
+？ 大和/
+[serif on]
+[show A C]
+[face A 00]
+[talk A]
+天哪，就在正確的地方。
+你願意跟我聊一會兒嗎？/
+[face A 01]
+你看，還有茶點。
+我們一邊看著花園一邊聊天吧。/
+[serif off]
+？ @@與P9@@交談/
+[serif on]
+[face A 06]
+現在坐在這裡。/
+[talkend]
+[textcolor ARUJI]
+當我坐在她旁邊時，她看著我的臉。
+大和 看著它並微笑。/
+[hide A]
+[flow]
+[textcolor ARUJI]
+龐大的身軀，低沉威嚴的聲音，
+臉上充滿了尊嚴…/
+[flow]
+[textcolor ARUJI]
+由於他的存在，我感到有點緊張。/
+[serif off]
+？嗯.../
+[serif on]
+[show A C]
+[face A 02]
+[talk A]
+哈哈，主啊
+沒有必要對你的肩膀施加這樣的壓力。/
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+嗯，我對主還不太瞭解，
+因為以後我們要一起住在莊園裡了…/
+[face A 01]
+最好加深相互瞭解
+我認為這很好。/
+[serif off]
+？點點頭/
+[playeryes]
+[-]
+[serif on]
+[face A 00]
+又是主啊我是大和。/
+[face A 08]
+我是地魂少年。而你是我的主。/
+[face A 06]
+[flow]
+……但是，
+不用擔心這麼複雜的事情/
+[face A 06]
+[flow]
+關於我
+我不介意你把我當作你的「父親」！[shakebg][se taiko_02]/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+大和是什麼？
+大和雖然是關於國家的/
+當天的書，
+這也是一個指整件事情的詞！/
+[face A 02]
+哈哈哈！/
+[serif off]
+？哦，爸爸.../
+[face A 06]
+[serif on]
+嗯嗯。
+聽話的主人很可愛。/
+[face A 02]
+[effect A kira a 0 200]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+來吧，跳進你父親的懷裡
+被人寵真好！/
+[talkend]
+[textcolor ARUJI]
+說著，他張開了雙臂大和。/
+[serif off]
+[wait 1.0]
+[-]
+[effect off a]
+[face A 08]
+[talk A]
+[serif on]
+……嗯？
+尷尬也沒關係！[shake A]/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+……雖然我想說，但這也不是沒有道理的。/
+[face A 04]
+我和我師父才剛認識。/
+[face A 01]
+主要是為了讓他感覺自己像個真正的父親。
+我也會盡力的。/
+[talkend]
+[textcolor ARUJI]
+大和友善地微笑。/
+[serif off]
+？我們聊很多吧/
+[face A 02]
+[talk A]
+[serif on]
+噢，可愛的主。
+我很高興！/
+[face A 06]
+[scale A 1.3 0.5]
+[move A Y -70 0.5]
+[autotap]/
+現在，我們來談談我可愛的孩子。
+您想了解更多詳情嗎？/
+[flow]
+最喜歡的食物，最喜歡的遊戲，
+把一切都告訴這位偉大的父親。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+我很容易交談並且可靠。
+這就是我想成為的父親！/
+[face A 09]
+所以...給你。你應該坐在我腿上。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+大和拍拍他的膝蓋。/
+[flow]
+[textcolor ARUJI]
+我太緊張了，不敢跳進箱子裡，但是
+如果是在膝蓋以上的話.../
+[serif off]
+？那麼...我就相信你的話.../
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[scale A 2.5 1]
+[move A Y -50 1]
+[delay 0.5 se dosa_01]
+[delay 0.5 hide A]
+[-]
+[textcolor ARUJI]
+[se cloth_01]
+[serif on]
+當我小心翼翼地坐在腿上時，我注意到它在我的屁股下方和我的背上。
+我從大和身上感受到了一絲溫暖。/
+[show A]
+[scale A 2.5]
+[move A Y -400]
+[move A Y -100 1.5]
+[autotap]/
+[say A]
+[face A 00]
+嗯……是這樣的……
+首先，我想聽聽有關主的事。[face A 02]/
+[fadein black 1]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+那天，
+和大和一起吃茶和甜點的同時—/
+[flow]
+[textcolor ARUJI]
+我們都喜歡什麼
+我們聊了很多。/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+當我們說話的時候，大和正在拍拍我的頭。
+他在那裡我感到非常欣慰。/
+[flow]
+[textcolor ARUJI]
+一開始我很緊張，但很快我就適應了。
+我們在門廊上閒逛，開心地聊天。/
+[fadeout 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[say A]
+嗯……我的主人是個好孩子。/
+[serif off 2.0]
+[fadein black 2]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

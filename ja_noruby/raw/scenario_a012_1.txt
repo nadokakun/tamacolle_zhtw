@@ -1,0 +1,522 @@
+>>10000/
+@青行燈
+おれっち青行燈！[autotap]/
+[delay 1.4]
+[flow]
+@青行燈
+さあさあ、
+こっちに来て一緒に百物語しようよぉ！/
+>>1/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+おお、おまえっちかぁ！
+おれっちをここに呼んでくれてありがとね！/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[se cloth_01]
+[autotap]/
+[face A 06]
+て、てか、おっ、おまえっちの[= 瞳 横顔 声 笑顔 眼差し 優しさ]……
+[= 彷徨える死者の魂 夜道に咲く彼岸花 地獄の窯の炎 飛び散った生き血の雫 深夜の霊園の石塔 窪んだ幽霊の眼窩 火葬場に漂う線香の香り 百物語の最後の一話]みたいに[= キレイ 輝いてる 心に響く かわいい 優雅 惹かれる ドキドキする]じゃん！/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あれ！？　おれっちまた緊張して変なこと……
+でも、気持ちは伝わったじゃんね！？[shake A]/
+>>2/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+この荘園はめちゃくちゃ居心地いいじゃん～！
+あの夏、一番楽しかったときを思い出すんさ。/
+[effect A kira a 0 0]
+[se kira_01]
+[face A 00]
+みんなで共同生活、最高に楽しいじゃんね！
+おれっち、ここに来てよかったさ！/
+[effect off a]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……ここでなら、おれっちにも恋人、できるかな？
+がんばってやろうじゃんね！[shake A][face A 01]/
+>>3/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+みんな、なかなか百物語してくれないんさ……
+時間がかかるからって、寂しいんさ……/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おまえっちも百物語してみたいよね？
+それなら、思いきって２人でしちゃう！？/
+[face A 02]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+おれっちとおまえっち、５０話ずつでいいじゃん！
+じっくりゆっくりたっぷり話そうよぉ！[shake A][se taiko_02]/
+>>4/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 06]
+[show B R]
+[face B 05]
+[setline A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+[talk A]
+うわっ！　もうこんな時間じゃん……
+早起きするつもりが結局夜ふかししちゃったじゃん～[face A 04]/
+[face A 01]
+[face B 01]
+でも、$B:Aと朝方まで話して
+めちゃ楽しかったから、全然気にしないじゃん！/
+>>5/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+今日はぐっすり寝たから朝から元気じゃん！
+窓開けて深呼吸しちゃおっと、ん～！
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]/
+[show B C]
+[face A 00]
+[face B 00]
+[setline 0.5 A B]
+[effect A kira a 0 0]
+[se kira_01]
+気持ち良すぎ！　お、$B:A、ご飯行く？
+おれっちも！　朝からおかわりしちゃおっと！[shake A]/
+>>6/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[randomset C r @地魂男児 @あやかし @NPC -@NOW -a012]
+[show A L]
+[show B R]
+[face A 02]
+[face B 00]
+[setline 0.5 A B]
+[serif on]
+[talk A]
+$B:A、おれっちと一緒にナンパしようよ！
+一人じゃちょっと不安だしさ……/
+[face B 01]
+[face A 00]
+[flow]
+相手がどっちを選んでも恨みっこなしね！　よし！/
+[show C R]
+[move C X 1000]
+[face C 00]
+[moveline A B C -1000 0 1]
+[-]
+[setline 0.5 A B C]
+[face A 06]
+[face B 06]
+ねえねえ、$C:A、お、おれっちらと話しない？[shake A][face C 05][shake C]/
+>>7/
+/
+>>8/
+/
+>>9/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+まだ寝るには早いじゃん、おれっち暇なんだけど！
+すまほって機械でなんか見るか～……/
+[face A 05]
+おお、これ、すげーじゃん！
+…………/
+[show B C]
+[face A 06]
+[face B 00]
+[setline 0.5 A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+って！？　おわっ！　$B:A、
+もしかして興味ある？　一緒に見ようよ！[shake A]/
+>>10/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 05]
+[show B C]
+[face B 00]
+[setline A B]
+[serif on]
+[talk A]
+え、むりむり！　おれっちに厨当番なんて！
+料理なんてしたことないし……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face B 01]
+[face A 06]
+でも、$B:Aが教えてくれるなら……わかった！
+おれっち、みんなのご飯作ってみようじゃん！/
+>>11/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+今日ももうすぐ終わっちゃうなあ……寂しいんさ。
+でも、いろんなことして、楽しかったなぁ……/
+[face A 05]
+明日は何しよう……って思ったら、
+わくわくしてきたぁ～！[effect fr kira a 0 0][se kira_01][face A 01][shake A]/
+[show B R]
+[face B 01]
+[face A 02]
+[setline 0.5 A B]
+$B:A、おまえっちもそう思う？　
+じゃんね！[shake A]/
+>>12/
+/
+>>13/
+/
+>>14/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[randomset C r 
+地魂男児 
+あやかし -a012 -
+NOW]
+[show A C]
+[face A 05]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+へへっ、今夜は特別な催しものをするんさ……
+題して、猥談百物語！/
+[show B C]
+[show C C]
+[face B 00]
+[face C 00]
+[setline 0.5 A B C]
+みんなでお互いの経験を語り合おうよ！
+お、$B:A、$C:A、参加してくれるの！？/
+[face A 02]
+[effect A kira a 0 0]
+[se kira_01]
+やったぁ！　めちゃくちゃ楽しみじゃん！
+今のうちからネタ集めておこっと！[shake A]/
+>>15/
+[set A s_a012_m 青行燈]
+[randomset B m @地魂男児 @あやかし -a012]
+[show A C]
+[show B C]
+[setline 0.5 A B]
+[face A 08]
+[face B 08]
+[move A X -300 0.3]
+[se fire_01]
+[effect fr waveout 4000 0 0]
+[wait 0.3]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[move B X 300 0.3]
+[delay 0.3 move B X -200 0.2]
+[delay 0.3 move A X 200 0.2]
+[se katana_02]
+[effect fr slash 4000 0 0]
+[delay 0.3 shakebg]
+[face A 05]
+[face B 09]
+[delay 0.5 se cloth_06]
+[delay 0.5 move A X 200 0.3]
+[delay 0.5 move B X -200 0.3]
+[delay 0.8 quake 1]
+[delay 0.5 effect fr wavein 4000 0 0]
+[delay 1.0 fadein WHITE 0.2]
+[delay 1.2 fadeout 0.3]
+[delay 1.2 move A X -200 0.5]
+[delay 1.2 move B X 200 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[quake off]
+[serif on]
+[talk A]
+ふう、めちゃくちゃ疲れたじゃん……
+でも、$B:Aと特訓するの、楽しかった～！[face A 01]/
+[face A 02]
+[face B 01]
+じっくり話すのも好きだけど、こうやって体使って
+汗かき合うってのも、気持ちいいじゃんね！/
+>>16/
+[set A s_a012_m 青行燈]
+[randomset B m @地魂男児 @あやかし -a012]
+[show A C]
+[show B C]
+[face B 04]
+[face A 00]
+[move A X 300]
+[setline 0.5 B A]
+[serif on]
+[talk A]
+$B:A、難しい顔してるじゃん……
+もっと攻撃を正確に狙えるようにしたい？　ん～/
+[face A 02]
+[face B 00]
+そうだっ！　おれっちの炎をふわふわ浮かせて……
+これ、動く的にして修行してみようよ！/
+[move A X -200 0.3]
+[move B X 600 0.3]
+[se fire_01]
+[effect fr waveout 3000 0 0]
+[delay 0.4 move B X -600 0.2]
+[delay 0.8 se fire_01]
+[delay 0.4 effect fr allow 3000 0 0]
+[face A 05]
+[face B 08]
+[-]
+[setline 0.5]
+おわっ、$B:Aやるじゃん！
+おれっちも張り切って的動かそっと！　勝負さ！[shake A][face A 08]/
+>>17/
+[set A s_a012_b 青行燈]
+[randomset B b @地魂男児 @あやかし -a012]
+[randomset C b @地魂男児 @あやかし -@NOW -a012]
+[show B L]
+[show A C]
+[show C R]
+[face A 06]
+[face B 00]
+[face C 00]
+[setline 0.5 B A C]
+[serif on]
+[talk A]
+おお、おお……そういう感じかぁ……
+隠したり、隠さなかったり、いろいろじゃん……/
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+でも、おれっちは……思い切って
+隠さないことにするじゃん！[shake A][se cloth_06]/
+>>18/
+[set A s_a012_b 青行燈]
+[show A C]
+[face A 06]
+[move A Y -100]
+[serif on]
+[talk A]
+[se amb_12]
+[effect fr yuge A]
+[se bath_04]
+風呂って温かくて、最高に気持ちいいじゃん……
+体の奥までじんわりして……/
+[face A 05]
+[move A Y 100 0.3]
+[se water_02]
+……うわっ！　気持ち良すぎて
+寝ちゃいそうだったじゃん！[shake A]/
+>>19/
+[set A s_a012_b 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[show B R]
+[move B X 300]
+[face A 02]
+[face B 00]
+[setline 0.5 A B]
+[se amb_12]
+[effect fr yuge A]
+[serif on]
+[talk A]
+お、$B:A、こっち来なよ。
+おれっちが背中流してやるじゃん！/
+[face B 06]
+[face A 00]
+遠慮しないでいいよぉ、
+おれっちも$B:Aも男同士じゃん！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 01]
+体洗い合うって、ちょっと恥ずかしいけど
+お互いを知れる気がして、めっちゃ楽しいじゃん！/
+>>20/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 06]
+[move A X 400]
+[move A X -400 0.4]
+[serif on]
+[talk A]
+めっちゃ厠並んだじゃん……あぶな……/
+[show B R]
+[move B X 250]
+[face B 04]
+[face A 05]
+あ、$B:A、つらそうじゃん、おいでよ！[shake A][face B 05]/
+[setline 0.3 A B]
+[rotate A 5 0.3]
+[rotate B -5 0.3]
+[scale A 1.6 0.3]
+[scale B 1.6 0.3]
+[moveline A B 0 -120 0.3]
+[se cloth_01]
+[face A 02]
+[face B 06]
+[orderline B A]
+一つの便器共有し合うってのも
+友情の証じゃん！　一緒にしよーよ！[shake A][se pee_01][delay 0.2 se pee_01][shakeB]/
+>>21/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[se pee_01]
+やば！　今日は体が落ち着かなくって
+おしっこもうまくできないじゃん……！[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+おれっち、一人前の青行燈にはなれたけど
+こういうことは昔から全然変わらないじゃんね……/
+[show B R]
+[move B X 300]
+[move B X -300 0.5]
+[se cloth_06]
+[face A 06]
+[face B 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+わあっ、$B:A！？
+さ、流石に今は恥ずかしいじゃん！[se cloth_01][move A X -500 0.3][hide A][face B 05]/
+>>22/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+ふぅ～、みんなと話すの大好きだけど
+厠はひとりのほうが落ち着くんさ。/
+[face A 05]
+こうやってると……おっ！　ぴーんときたじゃん！/
+[face A 02]
+[effect A kira a 0 0]
+[se kira_01]
+[se write_01]
+新しい怪談のネタが思いついたんさ！
+忘れないうちにメモメモ……っと！[shake A]/
+>>23/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 02]
+[se door_01]
+[move A X -300]
+[move A X 300 0.5]
+[serif on]
+[talk A]
+ふぅ……すっきりじゃん！
+厠にいろいろな本があるの、マジ助かるんさ！/
+[face A 05]
+おれっちにはわかるんさ。この荘園には、
+高レベルの猥談士がたくさんいるはず……/
+[face A 02]
+[se taiko_01]
+[effect A syutyu a 0 100]
+おれっちも、もっと経験と知識を積んで
+荘園の猥談三銃士の一人になってやろうじゃん！[shake A]/
+>>24/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 06]
+[show B]
+[face B 00]
+[setline A B]
+[serif on]
+[talk A]
+ねぇねぇ、$B:A。
+一緒の部屋で寝ない？　夜は寂しいじゃん！/
+[face A 02]
+[face B 06]
+[se cloth_06]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+こうしてぴったり布団をくっつけて……/
+[face A 02]
+[face B 01]
+これでひそひそ話できるじゃん。
+もちろん他のことも……なんてねっ！[shake A][face B 06][shake B][face A 06]/
+>>25/
+[set A s_a012_r 青行燈]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+……んっ、おれっち、みんなと一緒に過ごせて
+毎日めっちゃ楽しいじゃん……くかぁ……[se cloth_01][shake A]/
+[talkend]
+幸せそうな夢を見ているようだ。/
+>>26/
+[set A s_a012_r 青行燈]
+[randomset B r @地魂男児 @あやかし -a012]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+なんか今日は変に人恋しいじゃん……
+外行ったら誰か起きてるかなぁ……/
+[face A 05]
+[show B R]
+[face B 07]
+[move B X -50 0.5]
+[rotate B 10 0.5]
+[rotate A 20 0.4]
+[se cloth_01]
+[orderline B A]
+あっ、$B:A！？[shake A]　……って
+起きてるのかと思ったら、寝相が悪いだけか……[face A 02]/
+[face A 06]
+[effect A love a 0 0]
+[shake A]
+でもくっついてたら
+余計にドキドキしてきちゃったじゃん！/

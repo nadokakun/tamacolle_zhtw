@@ -1,0 +1,1010 @@
+>>10000/
+@筑後
+僕は西海道の筑後！[wait 1]
+いつか兄ちゃんみたいな人気者に…[autotap]/
+[delay 3.1]
+[flow]
+[-]
+@筑後
+って主！…聞いてる！？/
+>>10001/
+@筑後
+筑後だよーってちょちょちょ、主！
+こっちこっち！　おーい！/
+>>1/
+[set A s_ckg_r 筑後]
+[show A C]
+[face A 00]
+[serif on]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[say A]
+ねぇねぇ、主っ！　日本三大火祭りの一つ、
+大善寺玉垂宮の「鬼夜」のことは知ってる？/
+[face A 02]
+[flow]
+[se kira_01]
+[effect fr kira 3000 0 0]
+なんと言っても見どころは「大松明廻し」！
+大松明の火の粉には無病息災のご利益があるんだ！/
+[face A 11]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え？　火傷しそう？　大丈夫！　
+危なくなったら、火消しの僕が消火してあげる！/
+>>2/
+[set A s_ckg_r 筑後]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+主は「男ノ子焼」って知ってる？
+別に男の子の形の焼き物じゃないよ！？[face A 05][shake A]/
+[face A 00]
+八女って地域にある男ノ子ってところで
+生まれた焼き物なんだ。/
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[autotap]/
+[effect A love 4000 0 100]
+[face A 09]
+「八女」……の中の「男の子」……わああ！
+これってなんだか、はーれむ、みたいじゃない！？/
+>>3/
+[set A s_ckg_r 筑後]
+[show A C]
+[move A X -800]
+[move A X 800 1]
+[autotap]/
+[face A 11]
+[effect A love a 0 100]
+[serif on]
+[say A]
+……でね、水田天満宮には
+「恋木神社」ってのがあってぇ～♥/
+[flow]
+[face A 01]
+御祭神の「恋命」が祀られてる
+超恋愛ぱわぁすぽっとなんだよねっ♥/
+[flow]
+[face A 09]
+鳥居にハートの御神紋があったりぃ～
+超らぶらぶな雰囲気で～超カワイイの～♥/
+[effect off a]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 06]
+ねぇ主ぃ～聞いてる～？
+絶対聞いてるでしょ～一緒に行こうよぉ～～！/
+>>4/
+[set A s_ckg_r 筑後]
+[randomset B r -ckg]
+[randomset C r -ckg -@NOW]
+[show A L]
+[show B R]
+[face A 00]
+[face B 00]
+[move B C 1]
+[-]
+[face A 01]
+[serif on]
+[say A]
+ねぇねぇ$B:A、ちょっといいかな！
+あのね、[= この前主がごはん食べてる時に…… さっき$C:Aがね…… 昨日の夜面白いことがあって…… 今日のご飯のね…… 僕、今度の任務でさ……]/
+[move B X -1000 1.5]
+[move A X 200 0.5]
+[delay 1 hide B]
+[autotap]/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+って、え？　どこ行くの！？
+聞こえてないの！？　[move A X -200 0.3]おーい、待ってよ！！[shake A]/
+[face A 10]
+僕の話聞いてよぉーー！
+お願ーい！[move A X -600 0.3]/
+[face B 05]
+[setline 0.5 B A]
+[face A 01]
+あっ、$B:A！　気づいてくれた～！
+全然いいよ！　えっとね、もう一回話すね……！[face A 02][face B 01]/
+>>5/
+[set A s_ckg_r 筑後]
+[show A C]
+[face A 11]
+[serif on]
+[say A]
+僕も～いつかは～恋人と逢い引きしてぇ～
+こっそり手ぇつないだりぃ～♪/
+[face A 09]
+[flow]
+逢い引きの名所で写真とってぇ～、ねっとにあっぷ
+して「いいね」いっぱいもらったりぃ～♪/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+むふふふ～♪
+いい相手いないかなぁ～！/
+>>6/
+[set A s_ckg_r 筑後]
+[randomset B r -ckg]
+[show A C]
+[show B]
+[setline A B]
+[face A 05]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+$B:A～ありがとう～！
+早速明日から試してみるよ！/
+[hide B]
+えへへ……話題の中心になれそうな方法
+一緒に考えてもらっちゃったぞ……/
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+それに……#B:Aとじっくり話せて……
+嬉しかったなぁ。/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_ckg_r 筑後]
+[randomset B r -ckg]
+[randomset C r -ckg -@NOW]
+[show A C]
+[face A 10]
+[serif on]
+[say A]
+わーん！　
+恋バナしたいよぉ！！　[shake A]/
+[serif off]
+[show B C]
+[show C C]
+[setline B C]
+[moveline B C 1000 0 0]
+[move A X 1000 0.5]
+[moveline A B C -1000 0 1]
+[face A 08]
+[face B 01]
+[face C 05]
+[orderline A B C]
+[move B X -100 1]
+[move C X 100 1]
+[-]
+[serif on]
+[face A 11]
+[= みんなの好きな子 $B:Aの秘密 $C:Aの好きなたいぷ ふたりのドキドキした話]
+教えてよ～～～！！/
+[face B 06]
+[face C 00]
+じゃあ、僕が最初に教えてあげるね！
+僕が好きなのはぁ……むふふふふ♪/
+[talkend]
+[face A 06]
+[face C 06]
+[face B 01]
+[= $Bと$Cも筑後との恋バナを楽しんだ。 $Bは筑後の話に夢中のようだ。 筑後の話は楽しく盛り上がった。]/
+>>10/
+[set A s_ckg_r 筑後]
+[randomset B r -ckg -@NPC]
+[show A C]
+[face A 10]
+[serif on]
+[say A]
+[move A X -1000]
+[move A X 1000 0.5]
+$B:Aに買い出し頼まれちゃった！
+急いで行かなきゃ！！[shake A]/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[autotap]/
+[face A 05]
+[move A X 200 0.3]
+って、外暗っ！！[shake A]/
+>>11/
+[set A s_ckg_r 筑後]
+[show A R]
+[face A 04]
+[say A]
+[move A X 300]
+[move A X -300 1]
+[se fusuma_01]
+[-]
+[serif on]
+うぅ……　
+賭け事でスッカラカンになっちゃった……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 11]
+一位になったら目立てると思ったのに……
+……はぁ……またお小遣いためて挑戦するもん！[shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_ckg_r 筑後]
+[show A C]
+[face A 06]
+[serif on]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+あ、あつい……[shake A]
+身体が……火照ってる気がする……/
+[face A 09]
+[se kira_01]
+[effect A love 4000 0 100]
+今日の僕……ちょっぴり恋愛体質かも……♥/
+[face A 11]
+いい出会い……訪れないかなぁ～！/
+>>15/
+[set A s_ckg_m 筑後]
+[randomset B b -ckg -@NPC]
+[-]
+[effect fr allow 3000 0 0]
+[se katana_02]
+[show A L]
+[move A X 300 0.3]
+[face A 01]
+[-]
+[serif on]
+[say A]
+よ～し、今日もいい調子！
+もう一回始めからやってみよっと！/
+[show B L]
+[move B X -200]
+[setline 0.5 B A]
+[face A 05]
+[face B 08]
+あ、あれ？
+そこ僕が使ってた場所なんだけど……/
+[effect fr katanas 4000 -400 0]
+[se katana_01]
+[delay se doka_01]
+[shake B]
+[move A X 200 0.5]
+[face A 04]
+わ……すごい……
+$B:Aの練習、カッコいい……！/
+>>16/
+[set A s_ckg_m 筑後]
+[show A L]
+[effect fr kira a 0 0]
+[move A X -200]
+[move A C 0.3]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[face A 11]
+[serif on]
+[say A]
+[shakebg]
+しゃきーん！！
+…………決まった！/
+[effect off a]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 02]
+ねぇどうかな！？
+今の決めポーズ！/
+[scale A 1.0 0.5]
+[move A Y 120 0.5]
+[face A 05]
+って、あれ……？[shake A]
+誰も見てない！？/
+>>17/
+[set A s_ckg_b 筑後]
+[randomset B b -ckg]
+[randomset C b -ckg -@NOW]
+[show A C]
+[show B C]
+[show C C]
+[move A X -1000]
+[setline B C]
+[face A 11]
+[face B 06]
+[face C 01]
+[scale A 1.6]
+[move A Y -120]
+[talk A]
+[wait 0.5]
+[move A L 1]
+[move A Y -120 1]
+[setline 1 B C 300 1200]
+[-]
+[serif on]
+脱衣所は噂の収集場！
+恋バナがどんどん耳に入ってくるぞ～！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[effect A love 4000 0 100]
+うんうん……わぁぁ～いいないいな……
+僕も燃えるような恋愛、してみたいなぁ～！/
+>>18/
+[set A s_ckg_b 筑後]
+[show A C]
+[face A 11]
+[serif on]
+[say A]
+[scale A 1.6]
+[move A Y -180]
+[se amb_12]
+[effect fr yuge a 0 0]
+はぁ～いい湯だなぁ～……
+今日は人も少ないから大浴場も空いてて……/
+[face A 05]
+[shake A]
+[se bath_04]
+う……/
+[scale A 1.0 0.3]
+[move A Y 120 0.3]
+[face A 03]
+[-]
+[move A Y 60 0.5]
+[se bath_01]
+[flow]
+気付いたらなぜか端っこの方で
+お湯につかってるんだよね……/
+>>19/
+[set A s_ckg_b 筑後]
+[randomset B b -ckg]
+[randomset C b -ckg -@NOW]
+[show A C]
+[show B C]
+[show C C]
+[setline B A C]
+[scale A 1.6]
+[scale B 1.6]
+[scale C 1.6]
+[moveline A B C 0 -180 0]
+[face A 00]
+[face B 00]
+[face C 01]
+[say A]
+[se amb_12]
+[effect fr yuge a 0 0]
+[orderline A B C]
+[-]
+[serif on]
+[waku on 0.5]
+もし、ここで思いっきり飛び出したら
+目立てるかも！？[face A 03][shake A]/
+[face A 10]
+それとも誰も気付かないかな……
+でもさすがに[= 踊ってたら 歌ってたら 逆立ちしてたら]気づくかな……/
+[face A 06]
+[waku off 0.5]
+やっちゃおうかな……
+どうしよっかな……どきどき……/
+>>20/
+[set A s_ckg_r 筑後]
+[randomset B r -ckg -@NPC]
+[show A C]
+[show B C]
+[face A 08]
+[face B 00]
+[setline A B]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[serif on]
+[orderline A B]
+[say A]
+[waku on 0.5]
+（……よし、今だ……！）[shake A]/
+[scale A 1.3 0.3]
+[move A Y 60 0.3]
+[face A 01]
+[waku off 0.3]
+[orderline B A]
+ねえー$B:A、見て見て～！
+僕こんな遠くから狙えるんだよ！[se pee_01]/
+[move B Y 50 0.5]
+[delay 0.5 move B Y -50 0.3]
+[delay 1 move B X 600 0.5]
+[delay 1.3 hide B]
+[autotap]/
+[face A 10]
+[shake A]
+あっ、あわわっ。僕のおしっこ、暴れ川……っ！
+でも、ちゃんと制御できてるよっ！[se pee_01]/
+>>21/
+[set A s_ckg_r 筑後]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[quake 2]
+[effect fr syutyu a 0 0]
+[ase walk_03]
+……はあっ、[shake A]はあっ、[shake A]はあっ！[shake A]
+……[wait 0.2]……あっ！！！[shake A]　……[face A 10]～～～～～ッ！/
+[effect off a]
+[quake off]
+[face A 04]
+[move A Y -100 0.5]
+[delay 0.5 se dosa_01]
+う、うそ……
+あと一歩だったのに……/
+[face A 10]
+[effect fr syutyu a 0 0]
+うわぁぁぁん！[shake A]/
+>>22/
+[set A s_ckg_r 筑後]
+[randomset B r -ckg]
+[show A C]
+[show B R]
+[scale A 1.6]
+[move A Y -180]
+[move B X 300]
+[move B X -300 0.5]
+[face A 06]
+[face B 00]
+[orderline A B]
+[-]
+[shake A]
+[serif on]
+[say A]
+んん～～～っ……ひゃ！？[face A 05][face B 05][move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+は、入ってますー！！/
+[move B X 300 0.5]
+[hide B]
+[face A 04]
+気のせいかな……
+僕がしてる時にノブガチャされる率高いような？/
+[face A 05]
+[se zukkoke_01]
+[effect fr syutyu a 0 0]
+ひょっとして、姿が見えても見えなくても、
+気づいてもらえてない……！？/
+>>23/
+[set A s_ckg_r 筑後]
+[show A C]
+[face A 01]
+[serif on]
+[scale A 1.6]
+[move A Y -180]
+[say A]
+ふぅ。今日はこのあと部屋の
+片付けして、あとで晩ごはんの買い出しも……/
+[move A Y 60 0.5]
+[-]
+[shake A]
+[face A 04]
+あ、あれ……あれ……？
+ドア開かない？　え！？[shake A][face A 05]　ノブ壊れた！？/
+[face A 10]
+[effect fr syutyu a 0 0]
+出れない……うそーー！？[shake A]
+だ、誰かーーーーー！！！/
+>>24/
+[set A s_ckg_r 筑後]
+[show A C]
+[face A 06]
+[serif on]
+[say A]
+着替えよし、[shake A]装備よし、[face A 11][shake A]会話のネタよし！[face A 09][shake A]/
+[face A 02]
+……明日の準備はばっちりだ！/
+>>25/
+[set A s_ckg_r 筑後]
+[show A C]
+[face A 07]
+[rotate A 50]
+[movea Y -150]
+[serif on]
+[say A]
+あなたは……？　筑紫次郎さん？　そんなに
+暴れないでくださいよぉ～……[shake A]むにゃむにゃ……/
+[face A 09]
+[talkend]
+寝言のようだ。/
+>>26/
+[set A s_ckg_r 筑後]
+[randomset B r -ckg]
+[show A C]
+[show B C]
+[se cloth_01]
+[rotate B 50 0.5]
+[setline A B]
+[moveline A B 0 -150 0]
+[face B 07]
+[face A 07]
+[orderline B A]
+[-]
+[move A Y 150 0.3]
+[face A 05]
+[serif on]
+[say A]
+あっ！[shake A]　$B:A……っ！？　ぼ、僕の布団に
+入ってくるなんて[wait 0.2]……[wait 0.2]これって……[wait 0.2]よ、夜這い！？[shake A]/
+[face A 09]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[move B X 200 0.5]
+[moveline A B 0 -120 0.5]
+[se kira_01]
+[rotate A 20 0.5]
+[effect fr kira a 0 0]
+僕にもついにやってきたモテ期！
+大人の階段登るとき～～～～！！　/
+[face A 11]
+[effect fr syutyu b 0 0]
+ぼ、僕はいつでもいいよ！[shake A]　覚悟……できてる！/
+[scale A 1.0 0.5]
+[scale B 1.0 0.5]
+[move B X -200 0.5]
+[moveline A B 0 120 0.5]
+[effect off a]
+[effect off b]
+[rotate A 0 0.5]
+……[wait 0.2]………[wait 0.2]………えっ？[face A 05][move A Y 10 0.1] [delay 0.1 move A Y -10 0.1]
+なんか普通に寝てる……？　なんで……？/
+>>27/
+[set A s_ckg_r 筑後]
+?筑後、ハレの日おめでとう！/
+[show A C 2]
+[face A 05]
+[autotap]/
+[serif on]
+[say A]
+わっ、あ、主〜！？[shake A]
+主までおめでとうって言ってくれるなんて……[face A 06]/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[effect A kira a 0 100]
+[se kira_01]
+[face A 01]
+今日は荘園のみんなにお祝いもしてもらって
+すっごく嬉しいよ〜！　ハレの日最高〜！/
+[face A 09]
+みんなに気づいてもらいにくい僕でも
+今日くらいは主役になっても……いいよね！？/
+[effect off a]
+[face A 02]
+[move A Y 100 0.2]
+[delay 0.2 move A Y -100 0.2]
+へへっ、そうだ、聞いてよ主！
+さっきもらったぷれぜんとがね……[wait 0.5]　でね……[wait 0.1][autotap]/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+[face A 11]
+[-]
+[fadeout 1]
+[autotap]/
+それでね、それでね……
+なんで今日をハレの日にしたかっていうと〜……/
+[face A 06]
+ずばり！[se taiko_01][shakebg]　恋の日だから！　七夕でもあるし〜
+すっごいろまんちっくだよね〜！/
+[face A 09]
+僕も、今日は色んな人に声かけられるし……
+恋……[shake A]始まっちゃうかも……！？[shake A]/
+[face A 00]
+………………[wait 0.5]
+でも、[face A 06]大本命は別にいるんだよねー……えへへ……[effect fr love a 0 0]/
+[effect off a]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 02]
+ハレの日を迎えた僕の活躍……
+楽しみにしててね！　主！[face A 01]/
+>>100/
+[set A s_ckg_r 筑後]
+[set B s_ckg_r 筑後]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 筑後の挨拶]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+昼食後。
+休憩がてら荘園内を散歩していると、/
+[talkend]
+[textcolor ARUJI]
+どこからか誰かが自分を呼ぶ声が
+聞こえてきたような気がした。/
+[serif off]
+?……？/
+[playerno]
+[wait 0.5]
+[-]
+[se fusuma_01]
+[bg heya_day 0.5]
+[wait 0.5]
+[playerno]
+[wait0.5]
+[-]
+[se fusuma_03]
+[bg rouka_day 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+あたりを見回しても誰もいない。/
+[textcolor ARUJI]
+[talkend]
+気のせいかと思い
+歩き出す。[wait 0.1]しかし――/
+[show A L]
+[move A XY -200 -200]
+[face A 10]
+[color A black]
+@？？？
+……ぁ……じ……[shake A]
+………[wait 0.2]………ぁ…………る……じ……/
+[hide A]
+[serif off]
+?……！？/
+[serif on]
+[textcolor ARUJI]
+[talkend]
+今度は確かに自分を呼ぶ声が聞こえた。
+しかし近くには誰もいない。/
+[serif off]
+?疲れてるのかな……/
+[serif on]
+[textcolor ARUJI]
+[talkend]
+そう思って歩き出した時――/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[move A XY -200 -100]
+[face A 03]
+[say A]
+ねぇー！！
+ちょっとちょっとー！！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 10]
+主！　あるじー！！
+聞こえる？　あるじーーー！！/
+[serif off]
+?！？/
+[move A C 1]
+[move A Y -120 1]
+[autotap]/
+[serif on]
+[effect fr syutyu a 0 0]
+あーるーじー！
+ここだよぉー！！！！/
+[talkend]
+[textcolor ARUJI]
+そう言って筑後が目の前で
+手をふっていた。/
+[serif off]
+[effect off a]
+?あ、筑後/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[say A]
+[serif on]
+[bgm fun]
+はぁはぁ……
+やっと気づいてくれた……/
+[face A 03]
+もー！　ご飯のときも、厠に行った時も
+僕、ずーっと隣で話しかけてたんだからね！/
+[hide A]
+[talkend]
+[serif off]
+?え……？/
+[fadein WHITE 0.2]
+[talkend]
+[-]
+[minibg ima]
+[bg mbg_syouen]
+[show B]
+[move B XY 250 -150]
+[color B black]
+[waku on]
+[-]
+[delay 0.2 fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+筑後の言うことは、全く身に覚えがなかった。
+しかし、よくよく思い出してみると――/
+[serif off]
+[fadein WHITE 0.2]
+[-]
+[talkend]
+[minibg off]
+[bg gozasyo_day]
+[show B]
+[move B XY -350 -110]
+[color B black]
+[-]
+[delay 0.2 fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+さっきのように自分を呼ぶ声が聞こえた
+気がしたことが何度かあったような。/
+[serif off]
+[fadein WHITE 0.2]
+[-]
+[waku off]
+[bg rouka_day]
+[hide B]
+[-]
+[delay 0.2 fadeout 0.5]
+?（あれ筑後だったのかな……）/
+[show A C]
+[face A 03]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+まったく、どうしてそうやって平気で
+無視できるかな～！/
+[serif off]
+?ごめん、気づかなくて/
+[face A 00]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+いいよ、慣れっこだし！/
+[face A 03]
+主に限らず、僕が話しかけても気づいて
+くれないこと、結構多いんだよね。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+僕って存在感薄いのかな……
+こんなにあぴーるしてるのに……/
+[se taiko_01]
+[effect fr syutyu 1000 0 0]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[autotap]/
+[face A 01]
+それより！/
+[face A 00]
+[flow]
+やっと主と話せたから
+僕、今言っておきたいことがあるんだ！/
+[face A 02]
+[flow]
+ちょっとだけでいいから、
+聞いてくれる？/
+[serif off]
+?筑後の話を聞く/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[autotap]/
+[face A 01]
+[serif on]
+[effect A kira a 0 100]
+[se kira_01]
+やった！
+あのね、僕めちゃめちゃ仕事するよ！/
+[face A 11]
+[flow]
+背は小さくても、大きく活躍する筑後……！
+だからいっぱい任せてほしいんだ！/
+[face A 00]
+[flow]
+どんな仕事でもいいよ！
+なんでもこなしてみせるよ！！[shake A]/
+[serif off]
+?なんでも？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 01]
+うん！/
+[face A 00]
+任務はもちろん、掃除や洗濯でも
+なんでも筑後におまかせ！/
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[autotap]/
+[face A 11]
+仕事に必要なものがあれば取ってくるし～
+主が疲れたときには肩揉んであげるし～/
+[face A 09]
+あとは……
+主の喉が乾いたならお茶くみするし～/
+[face A 01]
+「やきそばパン買ってこい！」って言われたら
+ダッシュで購買で買ってくるよ！/
+[serif off]
+[effect off a]
+?（パシリみたいだな……）/
+[face A 06]
+[serif on]
+だからその……/
+[light def 0.5]
+[lightcolor blue]
+[talkend]
+[textcolor ARUJI]
+上目遣いでこちらを見つめる筑後。/
+[face A 11]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+主には……僕のこと……
+ちゃんと見てて欲しいな……って。/
+[face A 02]
+主が見ててくれるなら、僕、
+すごく頑張れると思うんだ。/
+[talkend]
+[serif off]
+[light off 0.5]
+?うなずく/
+[playeryes]
+[-]
+[autotap]/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 01]
+[say A]
+[serif on]
+わーい！　ありがと！　主！/
+[face A 00]
+[say A]
+あっ、そうだ……
+主が僕のことに気づいているうちに……/
+[face A 11]
+ねっ、主、握手してもいいかなっ！/
+[hide A]
+[talkend]
+[serif off]
+?握手？/
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+だって、主はこの荘園のみんなの
+憧れのひとだもん。/
+[face A 02]
+[effect A kira a 0 100]
+僕、荘園の人気者になりたいんだ。だから
+主から人気者ぱわーを分けてもらいたいなって！/
+[talkend]
+[textcolor ARUJI]
+筑後はキラキラした目でそう訴える。/
+[face A 01]
+[serif off]
+[effect off a]
+?筑後と握手する/
+[scale A 2.0 0.5]
+[move A Y -120 0.5]
+[hide A]
+[-]
+[se cloth_01]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+ぎゅっと握った筑後の小さな手は
+緊張しているのか少し汗ばんでいた。/
+[serif off]
+[show A C]
+[face A 09]
+[say A]
+[scale A 2]
+[move A Y -240]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[serif on 0.5]
+はぁぁ～……主と握手してる……っ。
+感激～～～っ。/
+[face A 01]
+[flow]
+僕、これからいっぱい活躍して、お手伝いも
+たくさんして、荘園の人気者を目指すからね！/
+[hide A]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+筑後は握った手をぶんぶんと上下に振り回し、
+抱負を宣言する。/
+[serif off]
+[se cloth_01]
+[show A C]
+[face A 11]
+[scale A 1.6]
+[move A Y -120]
+[scale A 1.0 0.5]
+[move A Y 120 0.5]
+[-]
+[say A]
+[serif on]
+へへ、主、僕の話ちゃんと聞いてくれて
+嬉しいな……すっごくいい人！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[autotap]/
+[face A 02]
+それじゃあ、仕事があったら
+いつでも声かけてね！/
+[face A 01]
+ばーい！[hide A]/
+[talkend]
+[serif off]
+?ばいば……あれ？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+別れの挨拶をしようとすると、
+筑後の気配は既になくなっていた。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

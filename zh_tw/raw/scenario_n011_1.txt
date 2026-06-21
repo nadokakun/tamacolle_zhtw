@@ -1,0 +1,729 @@
+>>1/
+[set A s_n011_r 虎鉄丸]
+[show A C]
+[face A 08]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 1]
+[autotap]/
+[serif on]
+[talk A]
+嗯，哈哈哈！
+已經搞定了，樓主[face A 10]/
+[flow]
+[face A 03]
+[se paper_01]
+房東讓我修繕莊園，
+我畢竟不擅長聽聲音……不過我還有其他工作！ ？[face A 05][shake A]/
+[flow]
+[face A 08]
+呃呃呃呃呃呃呃呃呃呃呃，這也是我的兼職……好吧！[shake A 3 10 10]
+讓我們再努力一點吧！哈哈哈，我們走吧！[face A 10][shake A]/
+>>2/
+[set A s_n011_r 虎鉄丸]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+今天我又流汗了。哦，樓主！[face A 00]
+哇，你流汗了！我工作了一整天。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+我要在回家的路上洗澡。車站附近很大
+有一家我常去的澡堂。/
+[flow]
+[face A 01]
+[shake A]
+這也是溫泉啊！
+樓主也是這樣的嗎？讓我們煥然一新吧！[face A 00]/
+>>3/
+[set A s_n011_r 虎鉄丸]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[talk A]
+呼呼，我今天也完成工作了。咕噥…[se eat_01][shake A]
+嗯！ ……啊，樓主！好工作！[face A 00]/
+[flow]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+呵呵，這個法蘭克福，給店裡的那位女士。
+我把它當作額外的。/
+[flow]
+[face A 00]
+他們說謝謝你一直幫忙搬運原料。
+那太好了。但我很餓，所以我很高興。/
+[flow]
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+哦，樓主也來吃一下嗎？
+嘿嘿，又厚又好吃！/
+>>4/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 01]
+[-]
+[rotate A -30 0.5]
+[move A Y -50 0.5]
+[se dosa_01]
+[serif on]
+[talk A]
+嗯，這個莊園給人一種奇怪的溫馨感。
+我想在工作休息期間小睡一會兒。/
+[flow]
+[face A 00]
+[show B R]
+[face B 00]
+[setline 0.5 A B]
+[orderline B A]
+[move B Y -50 0.5]
+[sat A]
+[orderline A B]
+[-]
+[face A 01]
+哦，$B:A，你看起來很睏。你們睡在一起嗎？
+哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊[face A 07][face B 07]/
+>>5/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[se paper_03]
+[face A 05]
+[move A Y -100]
+[move A Y 100 0.3]
+[-]
+[serif on]
+[talk A]
+[shake A]
+[se cloth_02]
+哇，一坐下我的屁股就斷了！
+我該怎麼辦，我就這樣一直到發薪日…[face A 04]/
+[flow]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 06]
+[show B R]
+[face B 00]
+[move B X 200]
+[orderline A B]
+[say A]
+是不是應該用大腿內側走路，這樣我就看不到了…
+好吧...我相信這會沒問題的...[setline 1 A B][face B 05]/
+>>6/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 08]
+[move A Y -40 0.2]
+[delay 0.3 move A Y 40 0.4]
+[delay 0.8 move A Y -40 0.2]
+[delay 1.1 move A Y 40 0.5]
+[autotap]/
+[serif on]
+[talk A]
+一起，一起！畢竟上班前
+你只需要保持靈活性。/
+[flow]
+[show B R]
+[face B 00]
+[setline 0.5 A B]
+[orderline A B]
+[-]
+[face A 01]
+哦，$B:A是在任務之前嗎？然後我們一起身體
+讓我們移動它。/
+[flow]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -120 0.5]
+[move B X -150 0.8]
+[rotate A 20 0.5]
+[move A Y -100 0.5]
+[se cloth_06]
+[face A 09]
+[face B 01]
+[se cloth_01]
+哎呀，還有，再慢一點…
+哇，[= お腹 背中 太もも ケツ 股関節  尻尾の付け根]嘎嘎～！[shake A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 02]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[talk A]
+太好吃了！　
+大廚來啦！[se taiko_02][shake A][face A 03]/
+[se kira_01]
+[effect fr kira a 0 0]
+[flow]
+[show B R]
+[move B X 200]
+[move B X -200 0.5]
+[face A 01]
+[face B 00]
+[talk A]
+今天的晚餐是$B:A你做到了嗎？謝謝你！
+我來幫你清理！[face B 01]/
+[effect off a]
+[flow]
+[rotate B -10 0.5]
+[move B X 50 0.5]
+[move A X 100 0.5]
+[se cloth_01]
+[face A 06]
+[face B 04]
+對了，你有什麼便宜又好吃的食譜嗎？
+或是剩菜……這個月我會吃炸肉排……/
+>>10/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[serif on]
+[talk A]
+我喜歡晚上安靜的氣氛。除此之外，這裡
+沒有人.../
+[flow]
+[show B R]
+[move B X 200]
+[move B X -200 0.5]
+[face A 01]
+[rotate A -20 0.5]
+[orderline A B]
+[face B 05]
+[move A X -200 0.5]
+[move A Y -50 0.5]
+[se cloth_01]
+嗯，我可以放鬆了。[face B 06][face A 02]/
+>>11/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]
+/
+[show B R]
+[move B X 550]
+[face B 00]
+[serif on]
+[face A 04]
+[talk A]
+嗯，下個月我想做一些事情，所以今天我會多做一點。
+我想工作……啊。$B:A！[setline 0.5 A B][face A 02]/
+[flow]
+[face B 01]
+[face A 01]
+[se paper_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+有什麼想要我做的嗎？我什麼都聽！
+請詳細告訴我。請在此申請表上寫.../
+[flow]
+[face A 01]
+[shake A]
+呵呵，我明白了。交給我吧！
+我們走吧！[face A 08][face B 02][effect fr kiesou 3000 0 0]/
+[se jutsu_01]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 1]
+[autotap]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+呃，我今天聽聲音有點困難…
+我無法集中註意力……也許是因為這個……[shake A][face A 09]/
+[flow]
+[face A 06]
+這莊園裡還有人不多的地方嗎？
+我們去找找吧！[move A X -1200 0.5]/
+[serif off]
+[show B L]
+[move B X -1000]
+[moveline B A 1000 0 0.5]
+[face B 05]
+[shakebg]
+[se zukkoke_01]
+[move A X -100 0.3]
+[delay 0.3 move A X 250 0.5]
+[delay 0.3 rotate A -20 0.5]
+[delay 0.3 move A Y 50 0.2]
+[delay 0.5 move A Y -150 0.2]
+[face A 05]
+[flow]
+[-]
+[serif on]
+哇，就是這個……呵呵，我沒看到。
+請這樣做！ ！[face A 09][shake A][se cloth_06][face B 06]/
+>>15/
+[set A s_n011_m 虎鉄丸]
+[randomset B m -n011 -@NPC]
+[randomset C m -n011 -@NPC -@NOW]
+[show A R]
+[show B C]
+[show C C]
+[setline B C]
+[move A X 800]
+[face A 05]
+[face B 08]
+[face C 08]
+[talk A]
+[delay 0.2 shake C]
+[move B X -100 0.3]
+[delay 0.3 shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[moveline A B C -1000 0 1]
+[-]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[se fire_01]
+哇，那真是一場嚴肅的戰鬥…/
+[flow]
+[face A 08]
+看到大家都這樣大汗淋漓，
+我也確實很受激勵。/
+[flow]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嗯，我會努力做好我的兼職工作的！[move A X 1000 0.5][se walk_03]/
+>>16/
+[set A s_n011_m 虎鉄丸]
+[randomset B m @地魂男児 @あやかし -n011]
+[show A L]
+[show B R]
+[face A 00]
+[face B 00]
+[move A X -200]
+[move B Y -100]
+[setline 0.5 A B]
+[orderline A B]
+[-]
+[serif on]
+[talk A]
+這就是你保養武器的方式！
+我最後一次保養我的工作工具是什麼時候...[face A 06]/
+[flow]
+[face A 10]
+[shake A]
+[se cloth_01]
+哇，原來是被油覆蓋了啊…
+那麼好吧$B:A我也會花時間在你身邊。[move A Y -100 0.5][face B 01][face A 06]/
+>>17/
+[set A s_n011_b 虎鉄丸]
+[randomset B m @地魂男児 @あやかし -n011]
+[show A C]
+[face A 10]
+[scale A 1.6]
+[move A Y -120]
+[se door_01]
+[-]
+[serif on]
+[talk A]
+[se cloth_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+唷，我又汗又黏。
+脫掉衣服的感覺真好。讓我們神清氣爽！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[show B R]
+[face B 05]
+[orderline A B]
+[say A]
+[face A 06]
+好吧，我今天把它弄髒了很多。
+我得洗.../
+[flow]
+[move A X -200 0.3]
+[se cloth_01]
+[face B 06]
+[face A 09]
+啊，這個汙漬不是那樣的。[shake A 3 10 10]
+剛剛工作的時候弄髒了！[shake A]/
+>>18/
+[set A s_n011_b 虎鉄丸]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -160]
+[-]
+[se amb_12]
+[effect fr yuge a 0 0]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[se bath_01]
+[effect fr splash 6000 0 0]
+[-]
+[serif on]
+[talk A]
+嘆息。體力勞動出汗後，
+沒有什麼比用熱水清洗身體的感覺了…/
+[flow]
+[face A 02]
+[move A Y 10 0.3]
+[delay 0.3 move A Y -10 0.3]
+身體的每一吋都會感到溫暖…
+現在，讓我們清洗身體吧！/
+[move A Y -40 0.2]
+[delay 0.3 move A Y 40 0.4]
+[delay 0.8 move A Y -40 0.2]
+[delay 1.1 move A Y 40 0.5]
+[autotap]/
+[flow]
+[face A 01]
+[se bath_05]
+呵呵，今天我的皮毛也起泡了！/
+>>19/
+[set A s_n011_b 虎鉄丸]
+[randomset B b -n011 -@NPC]
+[randomset C b -n011 -@NPC -@NOW]
+[se amb_12]
+[effect fr yuge a 0 0]
+[show A C]
+[show B]
+[show C]
+[setline B A C]
+[orderline A B C]
+[face B 00]
+[face C 01]
+[face A 06]
+[scale A 1.6]
+[scale B 1.6]
+[scale C 1.6]
+[moveline A B C 0 -150 0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se bath_04]
+[-]
+[serif on]
+[talk A]
+估計是因為今天幹了很多重活，累了…
+又或許是因為我周遭的人.../
+[flow]
+[se bath_04]
+[move A Y -50 0.5]
+[face A 04]
+嗯，像這樣，我該怎麼辦？
+我想我暫時無法離開。等到它平靜下來。/
+[flow]
+[face B 08]
+[move B Y 50 0.3]
+[se bath_02]
+[face A 05]
+還好我沒瘋！ ？[shake A 3 10 10]
+哦，嘿，不是現在！[delay 0.5 rotate A 10 0.5][move B XY 10 -40 0.4][rotate B -10 0.3][delay 0.4 move B XY -10 40 0.3][delay 0.5 rotate B 0 0.3][effect fr splash 6000 0 0][se water_07][face C 06][delay 0.5 move A XY -50 50 0.5][delay 0.5 move B X -150 0.5][face A 09]/
+>>20/
+[set A s_n011_r 虎鉄丸]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[se pee_01]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[talk A]
+嗚嗚嗚…
+哦，這是一封來自招聘網站的電子郵件！[face A 00][se pi_01]/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[flow]
+[face A 08]
+我想知道有沒有空閒時間可以做的兼職工作...嗯...[wait 0.5]
+天哪。[shake A][face A 05]它降落在錯誤的地方！[face A 09][se zukkoke_02]/
+>>21/
+[set A s_n011_r 虎鉄丸]
+[randomset B r -n011 -@NPC]
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -120]
+[show B L]
+[move B X -200]
+[face B 00]
+[scale B 1.6]
+[move B Y -120]
+[move A X 1000]
+[move A X -1000 0.3]
+[talk A]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[se cloth_06]
+[-]
+[face A 02]
+[serif on]
+嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚
+哈哈哈哈哈哈哈哈哈我想我會再發更多[se pee_01]/
+[waku on 0.5]
+[face B 06]
+[flow]
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+（什麼，你被監視了？
+　嗯，我有點自信…呵呵）[face A 01]/
+[waku off 0.5]
+[autotap]/
+>>22/
+[set A s_n011_b 虎鉄丸]
+[show A C]
+[face A 02]
+[move A X -1000]
+[scale A 1.6]
+[move A Y -120]
+[move A X 1000 0.5]
+[se water_09]
+[-]
+[se kira_01]
+[effect fr kira a 0 0]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嗯嗯...
+啊，好清爽啊！/
+[flow]
+[effect off a]
+[face A 01]
+[shake A]
+嘿嘿，我今天也表現的很好！
+看起來我能夠完美地處理這個！/
+>>23/
+[set A s_n011_b 虎鉄丸]
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[serif on]
+[talk A]
+哈哈哈，我覺得今天的狀況不太好…
+我也是一點點一點點一點點一點點一點點一點點....../
+[move A X -800 0.5]
+[se cloth_01]
+[flow]
+[face A 02]
+這裡沒人啊，呵呵…
+我真的很興奮...嗯嗯。[shake A]/
+>>24/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[show B C]
+[face A 04]
+[face B 00]
+[setline A B]
+[orderline A B]
+[-]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+今天我的兼職工作又很艱難。我累極了。
+我已經太睏了.../
+[flow]
+[rotate A -50 0.3]
+[move A Y -100 0.3]
+[face B 05]
+[face A 07]
+[se cloth_01]
+$B:A，已經到極限了……我去租隔壁的吧……
+庫卡…[face B 06]/
+>>25/
+[set A s_n011_r 虎鉄丸]
+[show A C]
+[face A 07]
+[rotate A -30]
+[move A Y -50]
+[-]
+[serif on]
+[talkend]
+[se pi_02]
+嘟嘟嘟嘟嘟/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[say A]
+庫卡……庫卡……/
+[flow]
+[talkend]
+我的鬧鐘開了，但我卻怎麼也起不來…/
+>>26/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A L]
+[show B R]
+[face A 07]
+[scale A 1.6]
+[scale B 1.6]
+[move B Y -170]
+[rotate A -30]
+[rotate B -30]
+[move A Y -170]
+[face B 07]
+[talk A]
+[-]
+[serif on]
+[se amb_05]
+庫卡……嗯……/
+[flow]
+[face A 05]
+[se cloth_01]
+[rotate A 0 0.3]
+[move A Y 50 0.3]
+[-]
+[shake A]
+哦不！ ！我-我想知道你是否能看到它.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 06]
+昨天我馬上就睡著了，所以
+真是太有活力了……呵呵。[se cloth_01][face B 06]/
+>>27/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A]
+[face A 00]
+[-]
+[autotap]/
+？生日快樂，小鐵丸！/
+[say A]
+[face A 01]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，是的，今天是我的生日！
+他記得我。謝謝樓主！/
+[face A 00]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+今天我就把它當作一個笑話
+這是我醒來的那一天。/
+[face A 08]
+我碰巧在六原找到了一份環境顧問的兼職工作。
+我很高興它已經完成了/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+我就這樣死了。
+有一種可能.../
+[face A 01]
+為了繼續賺兼職錢
+我會很努力，所以請相信我！[se taiko_02]/
+[face A 00]
+是的，這是一件大事…
+我想知道我是否應該聽聽你的聲音作為給自己的禮物。/
+[face A 03]
+如果你把它帶到莊園外面，它就會消失…
+另一方面，在這裡我可以更可靠地聽到我的聲音！/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，但是…
+最好不要太隨意地使用。/
+[face A 09]
+[talkend]
+[textcolor aruji]
+對於看起來有些孤獨的小鐵丸來說。
+我決定給他一份工作。/
+[serif off]
+？就為了今天，讓我們一起玩耍並製作各種我們喜歡的東西！/
+[se taiko_02]
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[autotap]/
+[say A]
+[face A 05]
+[serif on]
+呃！ ？那是...
+所以樓主給了我一個任務？[shakebg]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[effect off a]
+[face A 01]
+另外，樓主很忙。
+我想知道一起玩會不會很愉快。呵呵。/
+[face A 08]
+[effect fr kira a 0 0]
+[se kira_01]
+但如果是工作，我就無法拒絕！
+我們可以一起製作哪些可以一起享受的東西？[face A 00]/
+[face A 02]
+讓我們嘗試各種事情吧！樓主先生！
+呵呵♪/

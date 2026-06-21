@@ -1,0 +1,628 @@
+>>10000/
+@遊平太郎
+我的和尚，[wait 0.8]信州的神犬，[wait 1.2]我的名字是日平太郎。[wait 0.5][autotap]/
+[delay 1.5]
+[flow]
+[-]
+@遊平太郎
+根據要求，[wait 1.0]看來我需要一個助立！/
+>>4/
+[set A s_a018_m 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018]
+[show A C]
+[show B C]
+[face A 00]
+[face B 04]
+[serif on]
+[say A]
+[setline A B]
+[orderline A B]
+$B:A你有麻煩嗎？
+/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[say A]
+哼…[= 換えの下着がなくなってしまって 任務に持っていく道具を失くして $C:Aと喧嘩をしてしまって 任務を前に不安になってしまって どこかで聞いた歌が頭から離れなくて]
+如果你遇到麻煩了.../
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[face B 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+就交給我和尚吧！我期待著幫助您解決問題！
+我該先做什麼？/
+[flow]
+[face A 01]
+[face B 01]
+有什麼事請告訴我！/
+>>5/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018]
+[randomset C r @地魂男児 @あやかし -a018 -@NOW]
+[show A C]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+[orderline A]
+唷。
+是時候進行一點冥想了…
+[move A Y -50 0.5]
+[delay 0.5 se dosa_01]
+[delay 0.5 shakebg]
+[face A 07]/
+[serif off]
+[show B R]
+[show C L]
+[face B 01]
+[face C 05]
+[orderline A B C]
+[se gaya_01]
+[say A]
+[move B X 500]
+[move C X -800]
+[-]
+[move B X -1200 2]
+[delay 1 move B X -500 0.5]
+[delay 0.6 move C X 800 0.3]
+[delay 0.9 shake C]
+[delay 1.5 move C X -800 2]
+[delay 0.8 face C 03]
+[-]
+[serif on]
+[face A 02]
+…………
+呵呵，這裡好熱鬧。/
+>>6/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+[orderline A]
+這莊園裡，有人，有妖神，還有地魂童子。
+我們生活在一起並互相尊重。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+我的和尚，我很高興。/
+[show B R]
+[move B X 200]
+[setline 0.5 A B]
+[face A 01]
+[face B 04]
+[orderline A B]
+[say A]
+嗯？　$B:A，有什麼問題嗎？
+我的和尚會聽你的。[face A 00]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[show A C]
+[show B C]
+[face A 05]
+[face B 04]
+[serif on]
+[say A]
+[setline A B]
+[orderline A B]
+嗯，$B:A，似乎被一絲邪氣附身。
+抱歉……我會把這件事留給我的牧師。/
+[shake A]
+[face A 08]
+嗯……哈！ ！[shake A][effect bk waveout 4000 0 0][se doka_01][shake B]/
+[face A 04]
+[face B 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……嗯，有點麻煩。
+$B:A，你能把衣服脫掉嗎？[shake B]/
+[move B X 50 1]
+[autotap]/
+[face A 06]
+[face B 06]
+嗯？當然這是為了驅邪。
+有必要！/
+>>10/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[randomset C r @地魂男児 @あやかし -a018 -@NOW]
+[show A C]
+[show B R]
+[face A 00]
+[face B 01]
+[serif on]
+[say A]
+[move B X 600]
+[orderline A B]
+有人遇到麻煩了嗎？[setline 1 A B]
+哦，$B:A你有什麼麻煩嗎？[face B 05]/
+[face B 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+……沒有特別的。是這樣嗎？/
+[move B X -300 0.58]
+[hide B]
+[-]
+[show C L]
+[move C X -100]
+[face C 05]
+[orderline A C]
+[setline 1 C A]
+……哦，$C:A，你有什麼麻煩嗎？ ？[shake A]
+....如果您有任何疑問，請隨時與我們聯絡！[face C 01]/
+[move C X 200 0.5]
+[hide C]
+[move A C 0.5]
+[-]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 03]
+嗯，我的和尚，我想做點什麼……！[shake A]/
+>>11/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[show A C]
+[show B C]
+[face A 05]
+[face B 04]
+[serif on]
+[say A]
+[setline B A]
+[orderline A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+....嗯...$B:A？你是不是忘了什麼？
+我的和尚會帶給你它。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 00]
+以我的神速和縮小的地球，一切都會變得簡單！
+請稍等！/
+[face A 03]
+[face B 05]
+[rotate A -10 0.2]
+[move A X 50 0.2]
+收縮！　[rotate A 5 0.2][move A X -1900 0.3][effect fr allow 4000 0 0][se syu_04][shake B][wait 1][-][rotate A 15 0.1][move A X 2900 0][move A X -1000 0.3][se syu_04][effect fr allow 4000 0 0][delay 0.2 rotate A 0 0.2]
+……我現在到家了！[shake A][se walk_04][face A 01]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[show A C]
+[face A 04]
+[serif on]
+[say A]
+[orderline A]
+嗯…我的和尚已經一個人生活很久了…
+不得不說，在一起生活是有一些問題的…/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+這是一個令人煩惱的地方……嗯……
+我想知道所有地球靈魂男孩都在做什麼.../
+[face A 04]
+連徵求意見都覺得不好意思…
+嗯嗯...[shake A]/
+>>15/
+[set A s_a018_m 悉平太郎]
+[randomset B m @地魂男児 @あやかし -a018 -@NPC]
+[show A C]
+[show B C]
+[face A 08]
+[face B 08]
+[setline B A]
+[effect fr katanas 6000 0 0]
+[se katana_01]
+[delay 0.3 se katana_03]
+[shakeB]
+[delay 0.3 shake A]
+[delay 0.5 shakebg]
+[-]
+[serif on]
+[say A]
+[orderline A B]
+[face A 01]
+$B:A，這是一個非常好的舉動。所以這是
+怎麼樣！[shake A ][effect fr syutyu a 0 0]　你可以看到我和尚的動作！ ？[face A 08]/
+[effect fr allow 6000 0 0]
+[se syu_04]
+[move A X -1500 0.3]
+[shake B]
+[-]
+[effect off a]
+[rotate A 20 0.2]
+[shakebg]
+[se zukkoke_01]
+[face B 05]
+[-]
+[delay 0.2 se crash_01]
+[moveline A B 1000 0 1]
+[delay 0.8 move B X -500 0.5]
+[move A Y -150 1]
+[face A 04]
+或者說，Degozaru撞到了牆上…呃…[shake A][face B 04]/
+>>16/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[show A C]
+[show B C]
+[face A 00]
+[face B 08]
+[say A]
+[move A X -1000]
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[effect bk waveout 6000 0 0]
+[se katana_03]
+[-]
+[serif on]
+[setline 1 A B]
+[orderline A B]
+$B:A，這是技術訓練嗎？
+如果是這樣的話.../
+[face A 01]
+[face B 01]
+[flow]
+在實際合作的過程中
+嘗試一下就好了。/
+[flow]
+好吧，如果你同意我的話，我就成為你的夥伴。
+我們開始吧！[face A 08][shake A][shake B][face B 08]/
+>>17/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[randomset C b @地魂男児 @あやかし -a018 -@NOW]
+[randomset D b @地魂男児 @あやかし -a018 -@NOW]
+[show D]
+[show C]
+[scale D 1.6]
+[scale C 1.6]
+[moveline D C 0 -120 0]
+[color D talk]
+[color C talk]
+[se amb_12]
+[effect fr yuge a 0 0]
+[se gaya_01]
+[setline D C -100 1100]
+[face D 00]
+[face C 01]
+[orderline D C]
+[wait 1]
+[-]
+[se door_01]
+[show A C]
+[face A 05]
+[orderline D C A]
+[move A X -300]
+[move A X 300 1]
+[moveline D C 800 0 1]
+[delay 0.5 hide D]
+[delay 0.5 hide C]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+[orderline A]
+嗯，今天浴室好像很擁擠。
+換尿布箱已經滿了…/
+[show B L]
+[move B X -500]
+[face A 01]
+[face B 04]
+[say A]
+[orderline A B]
+哦，看來只剩下一個位置了。[setline 0.5 B A]
+……$B:A，我們現在去洗澡吧？
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]/
+[face A 02]
+[face B 01]
+……那就用這個脫衣盒是個好主意！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[face B 00]
+哎呀，我的和尚要去打坐，然後去洗澡。
+就是這樣！/
+>>18/
+[set A s_a018_b 悉平太郎]
+[show A C]
+[scale A 1.6]
+[move A Y -190]
+[face A 06]
+[se amb_12]
+[effect fr yuge a 0 0]
+[se bath_04]
+[serif on]
+[say A]
+[orderline A]
+這是一個很好的溫泉......在道後溫泉，三助人
+我很高興能夠享受這裡的每個角落。/
+[face A 02]
+[flow]
+我想再請教別人.../
+>>19/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[randomset C b @地魂男児 @あやかし -a018 -@NOW]
+[se amb_12]
+[effect fr yuge a 0 0]
+[se bath_04]
+[show A C]
+[show B C]
+[show C C]
+[face A 06]
+[face C 01]
+[face B 00]
+[scale A 1.6]
+[scale B 1.6]
+[scale C 1.6]
+[setline C A B -200 1200]
+[moveline A B C 0 -160 0]
+[move C X -100]
+[move B X 100]
+[orderline B C A]
+[move A Y -30]
+[say A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[shake A]
+[face A 05]
+[se water_07]
+[effect bk splash 4000 0 0]
+[-]
+[serif on]
+………………哈，我不知道……/
+[face A 06]
+[flow]
+如果你讓自己被世俗的慾望所左右，那麼在開悟的道路上還有很長的路要走。
+距離很遠。我需要冥想...[shake A]/
+>>20/
+[set A s_a018_r 悉平太郎]
+[show A C]
+[face A 00]
+[say A]
+[talkend]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[orderline A]
+[-]
+[serif on]
+[say A]
+洗手區的肥皂好像已經用完了。
+隨著收縮...[effect fr allow 6000 0 0][se syu_04][move A X -1500 0.3]拿塊肥皂，然後立即更換...[effect fr allow 6000 0 0][se syu_04][move A X 1500 0.3]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……我會一邊清理一邊！/
+[face A 04]
+——我是這麼想的，但是地魂少年們…
+我對奪走你的工作並不感到遺憾。/
+[face A 03]
+我必須向今天值班的人建議幫助......[shake A]
+今天誰值班？ ！[effect fr allow 6000 0 0][se syu_04][move A X -1500 0.3]/
+>>21/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[show A L]
+[show B C]
+[move B X 150]
+[face A 05]
+[face B 04]
+[serif on]
+[setline 0.5 A B]
+[say A]
+[shake B]
+[orderline A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+某種程度上，$B:A！　
+不知道Degozaru看起來是否驚慌失措？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[face B 06]
+……嗯，原來如此，快要洩漏了，那就好！
+好吧，讓我帶你去那裡吧！/
+[orderline B A]
+[move A C 0.5]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[move A X -100 0.5]
+[se cloth_01]
+[delay 0.4 move B X -150 0.2]
+[delay 0.4 rotate B -50 0.4]
+[delay 0.4 move B Y 50 0.3]
+[face A 02]
+[face B 05]
+緊緊抓住我的和尚！一旦你到達
+讓我們幫助您快速緩解不適。/
+[face A 03]
+[face B 06]
+[shake A]
+[shake B]
+那麼，神速－收縮地球！ ！[effect fr allow 6000 0 0][se syu_04][move A X -1500 0.3][move B X -1500 0.3]/
+>>22/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[show B C]
+[scale B 1.6]
+[move B Y -180]
+[face B 00]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[se knock_01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[face B 05]
+[-]
+[show A R]
+[face A 00]
+[orderline B A]
+[move A X 200]
+[move A X -200 0.5]
+[move B X -100 0.5]
+[-]
+[serif on]
+[say A]
+$B:A，我擔心我沒有滴紙。
+你喜歡嗎？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[shake B]
+[face B 06]
+[flow]
+……我希望你沒事。我有些不對勁
+如有任何疑問，請隨時致電我的和尚。[move A X 200 0.5][hide A]/
+>>23/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -180]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+[orderline A]
+唉……今天和今天一樣，我正在屈服於我的世俗慾望。
+已經消失了.../
+[face A 04]
+[flow]
+我的和尚還不成熟…
+我必須努力工作。/
+>>24/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[show A C]
+[show B C]
+[face A 02]
+[face B 01]
+[move B X -100]
+[scale A 1.6]
+[move A Y -210]
+[say A]
+[orderline A B]
+[rotate A -30]
+[shake A]
+[effect fr syutyu b]
+[se cloth_01]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[serif on]
+蒲團真蓬鬆！[shake A]
+感覺真好！[shake A 5 5 5]/
+[move B X -150 0.5]
+[rotate A 0 0.3]
+[move A XY 200 60 0.3]
+[se cloth_06]
+[effect off a]
+[effect off b]
+[face A 05]
+[face B 00]
+哈！　[shake A]親愛的...[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+$B:A，所以你去...[face A 06]/
+>>25/
+[set A s_a018_r 悉平太郎]
+[show A C]
+[face A 02]
+[serif on]
+[say A]
+[se cloth_01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[orderline A]
+晚安...我對你感激不盡...
+哇.../
+[face A 07]
+[talkend]
+他一定在夢見他幫助過的人。
+佑平太郎的睡臉看起來很幸福。/
+>>26/
+[set A s_a018_r 悉平太郎]
+[randomset B r @地魂男児 @あやかし -a018 @NPC]
+[show A C]
+[face A 06]
+[serif on]
+[say A]
+[move A Y -100]
+[move A Y 100 0.5]
+[se cloth_01]
+[orderline A]
+....如果您花費大量時間與其他人一起吃飯和睡覺...
+……有時我會因為塵世的煩惱而無法入睡……/
+[face A 05]
+我需要冷靜一下……哈！　[scale A 1.6 0.3][move A Y -180 0.3][effect fr syutyu a 0 0][delay 0.3 shake A 2 5 10]/
+[show B]
+[rotate A -10 0.5]
+[effect off a]
+[orderline B A]
+[rotate B 120]
+[scale B 1.6]
+[move B XY -300 -280]
+[scale A 1 0.5]
+[scale B 1 0.5]
+[move A Y 50 0.5]
+[moveline A B 0 120 0.5]
+[face B 07]
+[face A 06]
+[se cloth_01]
+如果你想到什麼$B:A你站起來了嗎...
+………[shake A][shake B][se cloth_01]……博，[shake A]塵世的慾望！我要走了！ ！[face A 03][shake A 3 10 10]/

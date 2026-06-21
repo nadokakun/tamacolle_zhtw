@@ -1,0 +1,462 @@
+>>10000/
+[serif on]
+@白布
+我是白布！　[wait 2]
+總有一天，我會用我的潔白長袍充滿這個世界。　[autotap]/
+[delay 4.1]
+[flow]
+[-]
+@白布
+哇！ ？你的身材真好...[autotap]/
+[delay 6.1]
+[flow]
+[-]
+@白布
+嘎嘎嘎嘎，
+靈感來了！　/
+>>1/
+/
+/
+/
+>>2/
+/
+/
+/
+>>3/
+/
+/
+/
+>>4/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[show B]
+[setline A B]
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+呵呵，早安…
+我把蒲團摺好，說：喔！[shake A][se cloth_06][face A 05]/
+[flow]
+[face B 05]
+[face A 01]
+這些純白色的床單輕輕包裹著你的身體…
+對於這樣的衣服你有什麼看法呢？我有一個主意！[se taiko_02]/
+[rotate B -10 0.5]
+[move B X 100 0.5]
+[effect fr syutyu a 0 0]
+[face A 03]
+[move A X 200 0.3]
+[face B 03]
+[se cloth_01]
+我可以用這塊布嗎？ ？
+我想馬上就做！[shake A][shake B]/
+>>5/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし -a019]
+[show A C]
+[show B]
+[setline A B]
+[face B 00]
+[face A 00]
+[serif on]
+[talk A]
+$B:A，你現在有任務嗎？
+噢，這是我的新作品[= 下着 ぶりぃふ 肌着 パンツ]！[face B 06][face A 01][move A X 100 0.3][move B X 50 0.5]/
+[face A 01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[se cloth_06]
+讓我看看你穿的更多衣服！
+Gufufu...我很高興你經常使用它！/
+[face A 02]
+[shake A]
+[se cloth_01]
+我會再做一次！/
+>>6/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[show B]
+[moveline A B 1000 0 0]
+[move B X -2000 1]
+[face B 05]
+[-]
+[move A X -1000 0.5]
+[face A 03]
+[-]
+[serif on]
+[talk A]
+$B:A，你為什麼要逃跑？[shake A]/
+[face A 06]
+大家都說我嘴巴不好，但是
+如果某件事是好的，我會承認它是「好」！/
+[face A 03]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[se cloth_06]
+那就讓我來看看你的時尚吧！[shake A 2 5 5]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_a019_r 白布]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+剛煮好的白飯很漂亮。
+我要了！ ！/
+[face A 02]
+哦，蛋炒飯看起來不錯。
+好的，淋上雞蛋液就好了/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊！純白飯加蛋變黃
+它發生了！ ！[se zukkoke_02]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[se eat_01]
+....但是哦好吧.../
+>>10/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[face A 01]
+[show B]
+[setline B A]
+[face B 06]
+[serif on]
+[talk A]
+你的身體真的很好。呵呵。
+現在，我就為你打造最好的服裝！/
+[face B 05]
+[move B X -200 0.3]
+[face A 03]
+我想測量得更準確，所以把所有東西都脫掉！[shake A]
+連內衣也有！古夫，古夫夫。[face A 01][face B 06]/
+>>11/
+[set A s_a019_r 白布]
+[randomset B r @ショタ -a019]
+[randomset C r -@ショタ -a019]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+誰穿我的白色衣服最好看？
+嗯.../
+[show B L]
+[show C R]
+[face B 00]
+[face C 00]
+[face A 01]
+[talk A]
+不過，讓小朋友戴上它們是個好主意。
+也非常適合讓年紀較大的孩子穿著！/
+[face B 06]
+[face C 06]
+[face A 02]
+[shake A]
+古夫,[shake A]呵呵...[shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_a019_r 白布]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+周圍那麼多人，怎麼辦？
+你是叫我發洩嗎？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+和鬼太郎在一起的時候很簡單…/
+>>15/
+[set A s_a019_m 白布]
+[randomset B m @地魂男児 @あやかし -@NPC -a019]
+[randomset C m @地魂男児 @あやかし -@NPC -a019 -@NOW]
+[show B]
+[show C]
+[setline B C]
+[face B 08]
+[face C 03]
+[scale B 1.6]
+[scale C 1.6]
+[moveline B C 0 -120 0]
+[effect fr katanas 6000 0 0]
+[shakebg]
+[se katna_02]
+[delay 0.3 se katana_03]
+[-]
+[wait 0.5]
+[show A C]
+[move A X 1000]
+[moveline A B C -1000 0 0.5]
+[face A 02]
+[-]
+[serif on]
+[talk A]
+[shake A]
+哦。他們看起來都很棒！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+我對他們的衣服做了一些調整。
+我的動作有了明顯的進步。正如我所期望的！/
+>>16/
+[set A s_a019_m 白布]
+[randomset B m @地魂男児 @あやかし -a019]
+[show A C]
+[show B]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[face B 08]
+[face A 08]
+[effect fr syutyu a]
+[setline B A]
+[rotate A 15]
+[rotate B -15]
+[shakebg]
+[se doka_01]
+[orderline A B]
+[delay 0.3 se doka_01]
+[delay 0.3 fadein WHITE 0.2]
+[delay 0.5 fadeout 0.3]
+[-]
+[se cloth_06]
+[serif on]
+[talk A]
+[se cloth_01]
+我也能戰鬥。呵呵。/
+[scale A 1 0.5]
+[scale B 1 0.5]
+[moveline A B 0 120 0.5]
+[face A 06]
+[face B 00]
+[rotate A 0 0.5]
+[rotate B 0 0.5]
+[effect off a]
+[move A X 100 0.5]
+[move B X -100 0.5]
+[face B 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊！被打擾了！　$B:A衣服都磨破了！
+讓我來做點縫紉吧！　嘖嘖嘖！/
+>>17/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[move A Y -50 0.5]
+嗯嗯，白大褂已經脫掉了！
+它是誰的？唔。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 02]
+[se cloth_01]
+這個尺寸，這個味道，這個感覺……呃……
+當然$B:A正確的！[se taiko_02][shakebg]/
+>>18/
+[set A s_a019_r 白布]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[se amb_12]
+[effect fr yuge a 0 0]
+[se bath_01]
+這個莊園有很多味道很好聞的浴鹽。
+開心每一天！/
+[face A 02]
+[se bath_01]
+哦，[= ひのき ラベンダー ジャスミン 森]氣味！
+我太著迷了！/
+>>19/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A]
+[show B C]
+[face A 01]
+[face B 00]
+[se amb_12]
+[effect fr yuge a 0 0]
+[serif on]
+[se bath_05]
+[talk A]
+[setline A B]
+[moveline A B 0 -100 0]
+[orderline A B]
+我也徹底清洗了全身。
+呵呵！/
+[face B 06]
+[face A 06]
+呃，好吧，你洗得很好。[shake A]
+太刺激了，動作要輕柔一點/
+[face A 03]
+[face B 05]
+[move A X 159 0.3]
+[move B X 50 0.3]
+[se bath_05]
+你就是要這樣洗的人~
+烏裡亞烏裡亞！[shake A]/
+>>20/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[face A 08]
+[se pee_01]
+[scale A 1.6]
+[move A Y -120]
+[show B R]
+[scale B 1.6]
+[move B Y -120]
+[setline A B]
+[face B 00]
+[talk A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+毛茸茸的……這樣就好了。
+/
+[face A 01]
+[face B 05]
+你。如果不更徹底地排水，前蓋將會損壞。
+會不會弄髒？　[se zukkoke_01]嗯，這也是侘寂。[face B 06]/
+>>21/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[move A X 1000]
+[move A X -1000 0.3]
+哇哦，好危險啊，我及時趕到了…
+唷，好清爽啊！[se pee_01][shake A]/
+[show B R]
+[move B X 100]
+[face A 00]
+[face B 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊？　$B:A，為什麼白色的burifu會出現在這種地方呢？
+你洗了嗎？/
+[setline 0.5 A B]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 06]
+呵呵，也許吧~~！啊。
+無需驚慌，這是正常現象！/
+>>22/
+[set A s_a019_r 白布]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -160]
+[serif on]
+[talk A]
+哦，這個用水出來的東西真是太神奇了！
+呵呵……這就是現代人的迷戀。/
+[face A 06]
+看到美麗的東西變髒也很有趣。
+現代人只想保持事物整潔。/
+[face A 02]
+[shake A]
+[se water_01]
+讓我們嘗試讓水變得更強大。
+嗚嗚嗚！[effect bk splash 6000 0 0]/
+>>23/
+[set A s_a019_r 白布]
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 06]
+[serif on]
+[talk A]
+嘿嘿，這本書是什麼？ ？[shake A][se paper_01]
+噢噢…古夫，古夫夫…[face A 01]/
+[face A 03]
+[effect bk waveout 6000 0 0]
+這幾天的刺激太多了。
+我充滿了靈感！[se fire_01]/
+>>24/
+[set A s_a019_r 白布]
+[show A C]
+[face A 01]
+[serif on]
+[rotate A 30 0.5]
+[se dosa_01]
+[move A Y -100 0.5]
+[talk A]
+白色的蒲團感覺真好。
+哈，今天我也辛苦了…/
+[face A 07]
+[se cloth_01]
+睡覺時想出一些好主意。
+我期待著明天，晚安。呃.../
+>>25/
+[set A s_a019_r 白布]
+[show A C]
+[face A 02]
+[serif on]
+[rotate A 30]
+[move A Y -50]
+[talk A]
+哇，六原的每個人都喜歡我的白色。
+我穿著它們！咕咕咕咕咕咕…[shake A]/
+[face A 07]
+[talkend]
+看來我正在做一個美好的夢。/
+>>26/
+[set A s_a019_r 白布]
+[randomset B r @地魂男児 @あやかし @NPC -a019]
+[show A C]
+[face A 06]
+[serif on]
+[show B R]
+[face B 07]
+[rotate B -50]
+[move B Y -50]
+[talk A]
+嗯？啊，$B:A……！[shake A][se cloth_01]
+她的睡衣被解開，內褲完全可見。/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 03]
+看到這樣的事情我就無法平靜！[shake A]/
+[se cloth_06]
+[face A 06]
+[move A XY 10 -50 0.4]
+[rotate A -10 0.3]
+我再仔細看看！
+讓它表現出來都是你的錯！[shake A]/

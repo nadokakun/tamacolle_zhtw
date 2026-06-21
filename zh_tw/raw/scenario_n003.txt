@@ -1,0 +1,857 @@
+>>0/
+[set A s_n003_m 羽鳥]
+[set B s_n001_m 夏人]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 羽鳥悠飛]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka_labo]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[serif on 0.5]
+被聘為語音聽眾的人
+需要大約兩週的訓練營。/
+在這裡您將學習作為聲音聆聽者的基礎知識和精神力量。
+學習最基本的陰陽技術，例如控制。/
+從早到晚學習
+課程由不同的講師進行一對一的授課。/
+[minibg rokuhara_kaigishitsu 0.5]
+集訓第四天，身心俱疲
+我吃宵夜時打瞌睡。/
+[fadein BLACK 1]
+[serif off 0.5]
+[-]
+[wait 0.3]
+[-]
+[fadeout 0.5]
+[-]
+[wait 1]
+[-]
+[fadein BLACK 1.5]
+[-]
+[show A C]
+[face A 01]
+[scale A 1.5]
+[move A Y -150]
+[wait 1.5]
+[-]
+[fadeout 1.0]
+[-]
+[wait 0.5]
+[-]
+[serif on]
+突然，當我睜開眼睛時
+桌子對面坐著一個男孩。/
+[serif off]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[face A 00]
+[say A]
+[name A 眼鏡の少年]
+[-]
+[serif on]
+嘿，早安。/
+[face A 02]
+[flow]
+我睡著一張如此美麗的臉龐，所以我突然
+我看著它，卻沒有叫醒它。/
+[serif off]
+？你.../
+[face A 00]
+[name A 羽鳥]
+[serif on]
+我是羽鳥悠日。
+很抱歉突然打擾你。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，對了……來點奶油泡芙怎麼樣？
+有這麼多。/
+[hide A]
+[-]
+[se cloth_01]
+[talkend]
+羽鳥是蓬鬆的，裡面有很多奶油。
+他把奶油泡芙放在盤子上，遞給我。/
+[serif off]
+[show A C]
+[face A 04]
+[say A]
+[scale A 1.5]
+[move A Y -150]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+實際上還有更好的餐廳。
+今天休息了……真是可惜了……/
+[face A 01]
+我在六原店買的。
+嗯，我想它非常適合補充糖分。/
+[face A 00]
+[flow]
+而且，未經允許我還可以泡茶。
+我喜歡茶和甜點的結合。/
+[hide A]
+[serif off]
+[se eat_01]
+?好吃.../
+[show A C]
+[face A 00]
+[say A]
+[scale A 1.5]
+[move A Y -150]
+[-]
+[serif on]
+是這樣嗎？那很好。
+我想知道你是否已經準備睡覺了？/
+[serif off]
+？我要再學習一點。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+是啊是啊。這是正確的。/
+[face A 00]
+[flow]
+是時候至少記住基本的講座了。
+我必須把它留在那裡。/
+[face A 01]
+[flow]
+吃甜食給了我更多能量
+我想是這樣的，所以我們繼續學習，盡力而為吧。/
+[serif off]
+[-]
+[wait 1]
+[talkend]
+[serif on 0.5]
+羽鳥總是面帶微笑，語氣平靜。
+我覺得做任何事都有壓力。/
+[serif off]
+？你也在訓練營嗎？/
+[serif off]
+[face A 05]
+[wait 1]
+[-]
+[face A 06]
+[say A]
+[-]
+[serif on 0.5]
+...啊哈。我不一樣。/
+[serif off]
+[se rokuhara_06]
+[show B L]
+[move B X -1000]
+[face B 01]
+[say B]
+[orderline A B]
+[-]
+[se walk_06]
+[move B X 200 1.3]
+[moveline A B 1000 0 1]
+[-]
+[serif on]
+[scale A 1.3]
+[move A Y 30]
+*P君。有件事我之前忘了說
+有.../
+[serif off]
+[setline 1 B A]
+[move A X 100 1]
+[face A 00]
+[face B 05]
+[-]
+[serif on]
+哈，羽鳥同學！ ？[shake B 2 5 5]
+你為什麼在這裡…？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[say A]
+夏人君，你也想吃奶油泡芙嗎？
+你看起來有點累。/
+[say B]
+[shake B]
+不不，我不是這個意思…/
+[serif off]
+？六原員工？不過她看起來還蠻年輕的…/
+[hide A]
+[move B C 0.5]
+[face B 04]
+[say B]
+[serif on]
+哦，親愛的...[shake B]
+這個人就是代理總司令羽鳥夕日。/
+[face B 03]
+秘密機關六原第二名[wait 0.2]…[wait 0.2]…[wait 0.2]
+他其實是現在最偉大的人。/
+[serif off]
+？ S、總司令……副司令……/
+[hide B]
+[-]
+[show A]
+[face A 06]
+[scale A 1.5]
+[move A Y -150]
+[say A]
+[serif on]
+嗯，我想我只是負責人。
+幾年前，我只是個大學教授。/
+[flow]
+我們這裡有優秀的員工
+他會做他的工作，所以我就把它留給他。/
+[face A 01]
+我希望你也能成為其中的一員。
+我很期待，*P君。/
+[serif off]
+?極裡/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 50 0.5]
+[delay 0.3 hide A]
+[delay 0.2 se dosa_01]
+[serif off]
+[-]
+[wait 0.5]
+[-]
+[show A]
+[face A 00]
+[say A]
+[-]
+[serif on]
+那麼，夏人君。
+*別讓P君成為一個善於傾聽聲音的人。/
+[face A 02]
+如果你以半心半意的狀態來參加聽聲儀式，[wait 0.2]
+你會很容易死的。/
+[serif off]
+[hide A]
+[-]
+[show B C]
+[face B 05]
+[say B]
+[shake B]
+[-]
+[serif on]
+……！[shake B][face B 03]
+哈，是的！/
+[serif off]
+[hide B]
+[-]
+[show A C]
+[face A 02]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+到時候見。 *P君。
+很高興認識你。/
+[face A 01]
+[serif off]
+[move A X -200 1]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+剩下的奶油泡芙
+我們兩個一起吃吧。/
+[serif off]
+[se walk_06]
+[se rokuhara_06]
+[hide A 1]
+[-]
+[wait 1]
+[show B C]
+[face B 10]
+[-]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[face B 04]
+[say B]
+[-]
+[serif on]
+呼……我很緊張……/
+[face B 12]
+[flow]
+這只是我談論過的幾次，但是
+他是個有點奇怪的人.../
+[hide B]
+[talkend]
+就在那時，我遇見了羽鳥雄日。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>1/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 09]
+[-]
+[serif on]
+[say A]
+*P君，你適應任務了嗎？/
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+是啊是啊。從現在開始會變得更加困難
+我想是的，但讓我們盡力吧。/
+[face A 00]
+[scale A 1.6 1]
+[move A Y -100 1]
+沒錯，[= 美味しいシュークリーム いちごのタルト クリームいっぱいのショートケーキ ほろ苦さが癖になるチョコケーキ 色とりどりのマカロンの詰め合わせ 大きなバームクーヘン いただき物の手作りクッキーの詰め合わせ いい香りのアップルパイ クリームがぎっしり詰まったマリトッツォ 政府の人から届いた菓子折り]但是
+我們有，如果你願意的話，我們就一起吃吧。/
+[face A 02]
+呵呵，我也很高興你也高興。/
+>>2/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 08]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[wait 0.5]
+[-]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[scale A 1.6 1]
+[move A Y -100 1]
+[-]
+[serif on]
+[say A]
+嘿*P君。是的？你在幹什麼？
+我看著天花板。[face A 00]/
+[face A 09]
+嘿，看那邊。
+……它已經被弄髒了。/
+[face A 01]
+[flow]
+我聽說某處有個該死的天花板。
+也許是關於這個的？/
+[face A 02]
+[flow]
+呵呵，沒關係。我確信他已經吃飽了。
+應該是的。我敢肯定。/
+>>3/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 09]
+[-]
+[se paper_01]
+[serif on]
+[say A]
+下一步任務計劃，
+我請夏人給我看，/
+[face A 04]
+[flow]
+這是一個相當緊張的日程安排。/
+[face A 00]
+你和地魂男孩將完成任務。
+你有信心嗎？/
+[serif off]
+[playeryes]
+[-]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+……是的，是的。我別無選擇，只能這樣做。
+我當然批准了。祝你好運！/
+>>4/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show A C]
+[show B C]
+[face A 09]
+[face B 00]
+[setline B A]
+[say A]
+[orderline A B]
+[-]
+[serif on]
+嘿那裡$B:A從現在開始，這就是一個使命。
+你擔心什麼嗎？/
+[face A 01]
+[face B 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+....是的，看起來你有足夠的動力。/
+[face A 00]
+[face B 01]
+那麼，你已經很努力了。/
+[mobe B X -200 0.5]
+[hide B]
+[se walk_01]
+[autotap]
+[serif off]/
+>>5/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show A C]
+[show B R]
+[face A 02]
+[face B 00]
+[move A Y -50]
+[move B XY 150 20]
+[scale B 0.9]
+[move B X -150 1]
+[talk A]
+[-]
+[face B 01]
+[scale B 1.0 0.5]
+[move B Y -20 0.5]
+[-]
+[serif on]
+[face A 01]
+嗨。剛才，你在任務中看到的藝術品。
+我正在檢視包含類似內容的鏡頭的檔案。/
+[face A 00]
+[face B 08]
+[move B Y -50 0.5]
+[setline 0.5 A B]
+$B:A您喜歡其中哪一個？/
+[face B 01]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[-]
+嗯。我懂了。
+這個[= 壁の装飾 ツボ 大仏 水墨画 浮世絵 刀 彫刻 巻物 掛け軸 屏風 祭りの衣装 神輿 褌]呵呵。/
+[face A 02]
+是的，這也是我
+[= 人を惑わす優雅さがあって 儚さを感じて 危うさを感じて 妖しさを感じて 人の恨みや怨念の気配を感じて 血の匂いを感じて 奥底から漂う死の香りを感じて 心臓を掴まれるような感覚があって]我喜歡它。[face B 05][shake B]/
+>>6/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003]
+[show A C]
+[face A 09]
+[se pi_04]
+[-]
+[serif on]
+[say A]
+嘿，我的智慧型手機上收到一則訊息。/
+[face A 03]
+[flow]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+嗯，從今天開始在咖啡廳喝下午茶。
+看來選單要變了。/
+[face A 02]
+[se kira_01]
+[effect fr kira 4000 0 0]
+我得去吃這個了。/
+[show B R]
+[scale A 1.0 0.5]
+[move A Y 100 0.5]
+[setline 0.5 A B]
+[face B 01]
+[face A 01]
+[say A]
+[orderline A B]
+$B:A，一起怎麼樣？
+順便說一句，我們慢慢說。/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show A C]
+[show B C]
+[face A 05]
+[face B 04]
+[setline B A]
+[say A]
+[orderline A B]
+[-]
+[serif on]
+嘿？
+$B:A，看來你心情很鬱悶。/
+[face A 01]
+[shake B 3 0 5]
+任務失敗？
+啊，現在想來，好像也有這樣的事情發生。/
+[face A 09]
+[face B 08]
+然而，當你考慮整件事時，你的判斷是
+我不認為我錯了。/
+[face A 01]
+從現在開始我就很期待了。
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]/
+>>10/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show B]
+[face B 04]
+[color B talk]
+[-]
+[show A R]
+[face A 00]
+[setline 0.5 B A]
+[-]
+[serif on]
+[say A]
+$B:A，我在今天的訓練中很難集中註意力。
+好像被砍了？[face B 05][shake B]/
+[face B 04]
+[face A 09]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+嗯。這是正確的。
+我希望現在沒事了。/
+[face B 06]
+[face A 01]
+盡可能控制自己的身體狀況和生理現象，
+讓我們確保這不會幹擾任務。/
+>>11/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show A C]
+[face A 02]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+呵呵。
+下班後的茶和蛋糕是很特別的。/
+[show B R]
+[face A 00]
+[face B 05]
+[setline 0.5 A B]
+[say A]
+[orderline A B]
+嘿，$B:A你剛完成訓練嗎？
+喜歡就去吃吧。/
+[face A 06]
+[face B 01]
+沒關係，別那麼害怕。
+已經下班了。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>v/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show A C]
+[show B L]
+[setline B A]
+[move B X -600]
+[move A X -100]
+[move A X 100 1]
+[face A 09]
+[face B 06]
+[move B X 600 1.2]
+[say A]
+[-]
+[shake B]
+[serif on]
+嘿，$B:A，我想知道坐立不安是怎麼回事。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嗯，有個女孩想要我教她怎麼做。
+你在嗎？/
+[face A 06]
+我從沒想過會聽到這樣的話。
+然後.../
+[face A 01]
+[face B 01]
+如果我的任務取得了成果，我就可以再考慮一下。
+你能告訴那個孩子嗎？/
+>>15/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 01]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[say A]
+看起來每個人都在盡力而為。
+是的，我認為這是一件好事。/
+[face A 09]
+[flow]
+如果你不能正確地完成你的任務，
+派遣地球的靈魂是沒有意義的。/
+[face A 01]
+我期待你獲得更多的力量。/
+>>16/
+[set A s_n003_m 羽鳥]
+[randomset B m -n003 -@NPC]
+[show B C]
+[face B 08]
+[shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[color B talk]
+[say A]
+[-]
+[show A C]
+[orderline A B]
+[face A 02]
+[move A X 1000]
+[moveline A B -500 0 0.5]
+[delay 0.4 setline 1 B A]
+[-]
+[serif on]
+[face B 00]
+[say A]
+$B:A看來你訓練很努力啊
+是的，我認為這是一個非常好的措施。/
+[face A 02]
+[face B 06]
+*P君$B:A我也很期待
+我不明白。我也支援你。/
+>>17/
+[set A s_n003_b 羽鳥]
+[randomset B b -n003]
+[show A C]
+[show B C]
+[face A 02]
+[face B 06]
+[setline B A]
+[-]
+[serif on]
+[say A]
+$B:A，這是一件非常好的內衣。
+它對我來說看起來很好，我忍不住注意到它。/
+[face A 06]
+[face B 01]
+[move B XY 10 -40 0.4]
+[rotate B -10 0.3]
+[delay 0.4 move B XY -10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+呃，我的也不錯？
+謝謝你。/
+[face A 01]
+我選擇它是因為它的質感
+受到表揚真是太好了。/
+>>18/
+[set A s_n003_b 羽鳥]
+[randomset B b -n003]
+[show A C]
+[face A 14]
+[move A Y -100]
+[se bath_02]
+[se amb_14]
+[effect fr yuge a 0 0]
+[-]
+[serif on]
+[say A]
+我似乎無法擺脫僵硬的肩膀。
+今天我們就來泡個熱水澡放鬆一下。/
+[face A 17]
+[se bath_01]
+…………讓我們有點興奮吧。
+已經過去了……我得趕緊起床了……/
+[show B L]
+[move B Y -100]
+[move B X -100]
+[face B 05]
+[say A]
+[orderline A B]
+哇。[shake A]/
+[rotate A 15 0.5]
+[move B X 250 0.5]
+[se bath_02]
+[delay 0.5 shake A]
+[face A 16]
+[face B 04]
+啊...$B:A，這很有幫助.../
+[face A 11]
+[face B 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+我不知道我是否可以這樣休息一會兒…
+謝謝你。/
+>>19/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003]
+[show A C]
+[show B C]
+[face A 16]
+[face B 01]
+[setline A B]
+[moveline A B 0 -100 0]
+[se bath_02]
+[se amb_14]
+[say A]
+[effect fr yuge a 0 0]
+[-]
+[serif on]
+你的皮膚有光澤嗎？謝謝。
+不過我並沒有做什麼特別的事。/
+[face A 12]
+[face B 06]
+我常常看起來不像我的年齡。
+有時我會遇到麻煩.../
+>>20/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+唷...burbururu。[shake A 2 3 3]
+天冷了，我就靠近廁所。/
+[face A 01]
+……果然，你無法與他的年齡相抗衡。/
+>>21/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[randomset C m -n003 -@NPC -@NOW]
+[show A R]
+[show B L]
+[show C L]
+[face C 00]
+[move C X -200]
+[face A 01]
+[face B 00]
+[move B X 50]
+[say A]
+[orderline A C B]
+[-]
+[move A X -150 1]
+[-]
+[serif on]
+[say A]
+大家都聚集在這裡
+我不知道他們在這麼高興地談論什麼。/
+[face A 00]
+這是不是意味著訓練結束了？
+[face B 05]
+[shake B]
+[shake C]
+[face C 04]/
+[face A 01]
+[face B 06]
+[face C 06]
+互動很重要，但如果你有事可做
+讓我們回到我們的帖子。/
+>>22/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 09]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+....呼。
+那麼，今天我該使用哪種香水呢？/
+[face A 01]
+離開私人房間前使用除臭劑
+這是禮儀。/
+>>23/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 05]
+[-]
+[serif on]
+[say A]
+嗯...！[shake A]/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+前人的設定太強了。/
+[face A 04]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[flow]
+[delay 0.5 se pi_04]
+...不出所料，衛洗麗設定為
+我想讓水流保持柔和.../
+>>24/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[randomset C m -n003 -@NPC -@NOW]
+[show A L]
+[show B R]
+[show C R]
+[face A 01]
+[face B 00]
+[move B X 110]
+[move C X -100]
+[say A]
+[orderline A B C]
+[-]
+[move A X 150 1]
+[-]
+[serif on]
+[say A]
+嘿那裡$B:A我們是夜貓子。/
+[face A 00]
+[face B 05]
+[face C 05]
+只要不影響明天的任務就好。
+我想只要你願意，你可以保持清醒。/
+[shake B]
+[shake C]
+[face B 04]
+[face C 01]
+啊？你現在要睡覺嗎？是的，那很好。[face A 01]
+那麼，晚安。/
+>>25/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[say A]
+嗚嗚嗚嗚…/
+[talkend]
+他睡得很安靜。/
+>>26/
+[set A s_n003_r 羽鳥]
+[show A R]
+[face A 16]
+[move A C 1]
+[se fusuma_01]
+[-]
+[serif on]
+[say A]
+哎呀，今天心情不平靜。
+我睡不著.../
+[face A 12]
+讓我們稍微改變一下，感覺煥然一新。[hide A][se fusuma_03]/

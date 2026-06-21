@@ -1,0 +1,1509 @@
+>>10000/
+@隠岐
+山陰道、隠岐ですっ。　[autotap]/
+[delay 3.0]
+[flow]
+@隠岐
+…あ、主さま…そんなに見られたら、[wait 3.5]
+は、恥ずかしいです…うぅ…/
+>>10001/
+@隠岐
+僕を何度も呼んでくれるなんて……[autotap]/
+[delay 3]
+[flow]
+@隠岐
+嬉しいけど、恥ずかしいです……[wait 3.5]
+うしろに隠れてます……！/
+>>1/
+[set A s_oki_r 隠岐]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、主さま……？
+隠岐国で景色のいいところ……ですか？/
+[face A 09]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+えっと……隠岐国には……高くそびえた岩の形が
+ローソクに似ている島があって……/
+[face A 06]
+[flow]
+その……夕陽が重なると、ローソクの火みたいに、
+なってとってもきれいで……/
+[face A 02]
+[flow]
+えっと……よかったらいつか主さまも……[shake A]
+あの……その……[shake A]な、なんでもないですっ……！[face A 06][move A X 500 0.5][hide A]/
+>>2/
+[set A s_oki_r 隠岐]
+[randomset B r @地魂男児 -oki]
+[show B L]
+[show A L]
+[orderline B A]
+[moveline B A 350 0 1]
+[delay 0.5 move A X -200 0.5]
+[delay 0.5 rotate A 10 0.5]
+[face B 00]
+[face A 01]
+[serif on]
+[say A]
+主さまっ。主さまは牛同士を戦わせる
+「牛突き」はご存知ですか……？[shake B][face B 05]/
+[move B X -300 0.5]
+[delay 0.2 move A X 200 0.5]
+[delay 0.5 rotate A -10 0.3]
+[autotap]/
+[face A 08]
+牛突きでは、お尻を向けて逃げた方が
+負けになっちゃうんです……/
+[face A 06]
+[flow]
+[face B 04]
+だ、だから、僕、戦いの最中に恥ずかしくなって
+どうしても隠れたくなったときも……/
+[se taiko_01]
+[effect fr syutyu a 0 0]
+[face A 08]
+[face B 05]
+[flow]
+正面を向いたまま、後ろに走っていくように
+してます……！　/
+[effect off a]
+[face A 09]
+[face B 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+あ、危ないですよね……はい……/
+>>3/
+[set A s_oki_r 隠岐]
+[show A L]
+[face A 06]
+[move A X -200]
+[move A X 200 0.8]
+[serif on]
+[say A]
+あ、主さまは白バイ貝って食べたことありますか？/
+[face A 00]
+刺身はもちろん、煮たり蒸したりしても
+美味しい貝なんです。/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+えっと……その、白バイ貝は……
+ぼ、僕の国でもたくさん取れるんですよ……！/
+[face A 02]
+い、いつかお土産に、持ってきますから……
+……その時は…………食べてくださいね……！！[move A X -400 0.3][hide A]/
+>>4/
+[set A s_oki_r 隠岐]
+[randomset B r @地魂男児 -oki]
+[show A L]
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+[say A]
+くぅ～……！　んっ、いい天気だなぁ……
+ちょっと庭で体動かそうかなっ……/
+[show B R]
+[move B X 200]
+[move A X 150 0.5]
+[move B X -200 0.5]
+[face B 00]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+はっ！　$B:Aだ……/
+[move A X -150 0.3]
+[move B X 200 0.3]
+[face A 09]
+[hide B]
+っみ、見られたら恥ずかしいから……
+今はやめとこっと……/
+>>5/
+[set A s_oki_r 隠岐]
+[randomset B r @地魂男児 -oki -ina]
+[show A L]
+[show B C]
+[move A X -500]
+[move B L 0.5]
+[face A 00]
+[face B 00]
+[orderline A B]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[-]
+[moveline A B 800 0 1]
+[delay 0.5 move B X -200 0.5]
+[-]
+[shake A]
+[face A 05]
+[serif on]
+[say A]
+ひゃっ！？/
+[face A 06]
+[face B 01]
+あ、あ……$B:A……はい、えっと……
+何の用でしょう……か……/
+[move B X -50 0.5]
+[move A X -20 0.6]
+[face A 09]
+[face B 08]
+う……うぅ……あっだめっ、
+そんなに見られたら……/
+[face A 06]
+[face B 05]
+恥ずかしくてもう無理ですぅぅ……！[shake A]/
+[move A X -800 0.3]
+[move B X -100 0.4]
+[delay 0.5 autotap]/
+>>6/
+[set A s_oki_r 隠岐]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+よいしょっ。よしタオルはこれで全部かな。
+あとはシーツを干して終わり……っと。[se cloth_01]/
+[face A 00]
+[move A X -200 0.5]
+今日はいい風が吹いてるからお洗濯物も
+すぐに乾きそうだなっ。/
+[move A X 500 3]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 2.0 move A Y 20 0.4]
+[delay 2.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[effect a kira a 0 0]
+しげさ～しげさ～と～♪
+フフフフンフンフン～♪/
+[talkend]
+気持ちよく歌っているようだ。/
+>>7/
+/
+/
+>>8/
+[set A s_oki_r 隠岐]
+[show A C]
+[face A 04]
+[serif on]
+[say A]
+人を避けながら庭を散歩してたら
+森の奥の方まで来ちゃった……/
+[face A 05]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+わぁ……荘園の森にも
+大きな杉の木があるんだなぁ……/
+[face A 01]
+きっとこれからもどんどん
+大きくなるんだろうなぁ。/
+[face A 00]
+何十年……いや何百年か経った頃には
+どこまで大きくなっちゃうんだろう。/
+>>9/
+[set A s_oki_r 隠岐]
+[randomset B r @地魂男児 -oki]
+[show A R]
+[show B L]
+[move B XY -100 -200]
+[move A X -50 0.5]
+[scale B 1.6]
+[face A 01]
+[face B 01]
+[serif on]
+[say A]
+[orderline B A]
+フンフン～、フフン～～♪[shake A][face A 00]
+あれっ、$B:Aがお饅頭食べようとしてる……/
+[face A 06]
+[flow]
+あのお饅頭、僕が食べようと思って
+用意したんだけど……うぅ……[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+でも……$B:Aもお腹空かせてそうだし……
+食べてもらった方がいいよね……/
+[face A 04]
+[move A X 100 0.5]
+僕は……我慢できるし……[shake A]
+…………ぐぅ～。/
+>>10/
+[set A s_oki_r 隠岐]
+[randomset B r @地魂男児 -oki -@NPC -@NOW]
+[show A C]
+[se fusuma_01]
+[show B R]
+[move A X 1000]
+[move B X -150 0.5]
+[face A 00]
+[face B 08]
+[-]
+[moveline B A -600 0 1]
+[move A X -200 0.5]
+[-]
+[serif on]
+[say A]
+あれ？　$B:A、
+こんな夜に一人でどこに行くんだろう……/
+[face A 08]
+[move B X -600 0.5]
+[delay 0.5 se door_01]
+何だか周りを気にしているような……
+あ、厠に入っていった。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[hide B]
+[move A C 0.5]
+[face A 00]
+どうして手に本を持っているんだろう。
+中で読むのかな……？/
+>>11/
+[set A s_oki_r 隠岐]
+[randomset B r @地魂男児 -oki -@NPC]
+[randomset C r @地魂男児 -oki -@NOW -@NPC]
+[show A R]
+[show B C]
+[show C C]
+[setline B C]
+[move A X 600]
+[face A 05]
+[face B 08]
+[face C 08]
+[talk A]
+[delay 0.2 shake C]
+[move B X -100 0.3]
+[delay 0.3 shake B]
+[effect fr waveout 3000 -150 0]
+[se doka_01]
+[delay 0.2 se doka_01]
+[-]
+[move A X 150 1]
+[moveline A B C -1000 0 1]
+[serif on]
+[serif on]
+あっ、$B:Aたちが相撲してるっ。
+結構白熱してるみたい……/
+[face A 08]
+…………ぉぉ………………[shake A]
+……ぉ……ぉお……！/
+[hide B]
+[hide C]
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[face A 02]
+わぁ！　[shake A]そこだっ……[wait 0.5]あっ……[face A 05]/
+[effect off a]
+[face A 06]
+（思わず声が出てしまった……
+　は、恥ずかしい……）[move A Y -100 1]
+[face A 06]/
+>>12/
+[set A s_oki_r 隠岐]
+[show A C]
+[face A 08]
+[scale A 1.6]
+[move A Y -100]
+[serif on]
+[say A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ずるずる……ずるする……/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+わぁ、このお蕎麦、お箸で持っても切れない……！
+僕の国のおそばとは全然ちがうなあっ。/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ずるずる……ずるする……/
+>>13/
+/
+/
+>>14/
+[set A s_oki_r 隠岐]
+[randomset B r @地魂男児 -oki -ina]
+[show A L]
+[show B R]
+[face A 00]
+[move B X 300]
+[move A X 100]
+[move A C 0.6]
+[move B C 0.6]
+[delay 0.6 move A XY -20 10 0.1]
+[delay 0.7 move A XY -10 -10 0.1]
+[face B 05]
+[orderline A B]
+[-]
+[serif on]
+ぽふっ/
+[face A 05]
+[face B 01]
+[say A]
+[move A X -300 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ひゃっ！！　わっ、よ、よそ見してて
+すす、す、すみませんっ！/
+[move B X 400 0.6]
+[hide B]
+[move A X 100 0.5]
+[face A 09]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+はぁー……びっくりした。/
+[face A 06]
+（でも$B:Aの体、
+　あったかかったな……）/
+>>15/
+[set A s_oki_r 隠岐]
+[randomset B m @地魂男児 -oki -@NPC]
+[show A R]
+[show B L]
+[face A 06]
+[face B 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[moveline A B -150 0 0.5]
+[waku on 0.5]
+[serif on]
+[say A]
+（うぅ……訓練とはいえ、人に見られるのは……
+　恥ずかしいなぁ……）/
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face B 00]
+（ううん、だめだめ……これも任務のため……
+　気合い入れてやらなきゃ……！）/
+[effect fr syutyu a]
+[waku off 0.5]
+[move B X 150 0.5]
+[face B 05]
+よぉーし！[shake A]　い、いく、く、ぞぉぉ……[face A 06][effect off a]
+ぉぉ……はぁぁぁ～～～恥ずかしい～～～。[move A Y -100 0.5][face B 01]/
+>>16/
+[set A s_oki_r 隠岐]
+[randomset B m @地魂男児 -oki  -ina -@NPC]
+[show A C]
+[show B C]
+[face A 08]
+[face B 08]
+[setline A B]
+[orderline A B]
+[effect fr syutyu a 0 0]
+[effect fr katanas 3000]
+[delay 0.8 effect fr bomb 4000]
+[se katana_01]
+[delay 0.3 se doka_01]
+[delay 0.9 se bomb_01]
+[shakebg]
+[-]
+[serif on]
+[talkend]
+隠岐と$Bが手合わせしている。/
+[shake A]
+[face B 00]
+[say A]
+……！　[shakebg]やあ！　たぁ！！
+はぁはぁ、ありがとうございました……っ！
+[effect off a]
+[face A 01]/
+[face A 06]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え、今日は元気だねって……
+あっあっ……そ、そんなことないですーっ！！[move A X -600 0.3]/
+[moveline A B 700 0 0.5]
+[hide B]
+[face A 09]
+（真剣になりすぎて、
+　恥ずかしいの忘れちゃってたっ）/
+>>17/
+[set A s_oki_b 隠岐]
+[show A C]
+[face A 01]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぅ～。
+お風呂、気持ちよかったな……/
+[face A 03]
+でも、脱衣所に人がいなくなるまで
+待ってたから……/
+[face A 09]
+ちょっと、のぼせちゃった……
+ふああ～～……
+[shake A]/
+>>18/
+[set A s_oki_b 隠岐]
+[randomset B b @地魂男児 -oki @あやかし]
+[show A C]
+[face A 00]
+[se amb_12]
+[effect fr yuge A]
+[se bath_04]
+[serif on]
+[say A]
+わぁ……今日は僕以外誰もお風呂にいないやぁ……/
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+えへへ……せっかくだからちょっと歌でも
+うたってようかな。/
+[face A 02]
+お風呂で声が響くの、気持ちいいんだよねっ。/
+[face A 01]
+あーあー……んっ。
+ら～……♪/
+[se door_01]
+[show B L]
+[orderline A B]
+[move B X -200]
+[move B X 200 0.5]
+[face B 01]
+[wait 0.5]
+[autotap]/
+>>19/
+[set A s_oki_b 隠岐]
+[randomset B b @地魂男児 -oki -@ショタ]
+[show A C]
+[show B C]
+[face A 05]
+[face B 00]
+[scale A 1.6]
+[scale B 1.6]
+[setline A B]
+[orderline A B]
+[moveline A B 0 -150 0]
+[serif on]
+[se amb_12]
+[effect fr yuge A]
+[se bath_04]
+[shake A]
+[say A]
+（わ、わわ、$B:Aの
+　見えちゃった……！！）/
+[face A 09]
+[move A Y -50 1]
+（見てないふり見てないふり……）/
+[face A 03]
+[se bath_04]
+（でも、お風呂を見回してみたら、
+　隠してる人のほうが少ないかも……）/
+[face A 06]
+（恥ずかしくないのかな……不思議……）/
+>>20/
+[set A s_oki_r 隠岐]
+[randomset B r @地魂男児 -oki -ina]
+[show A R]
+[move A X 300]
+[move A X -200 0.7]
+[face A 08]
+[-]
+[wait 0.4]
+[move A C 0.5]
+[-]
+[serif on]
+[say A]
+[shake A]
+よ、よし！　い、今なら誰もいない！
+今のうちに……！/
+[show B R]
+[move B X 600]
+[setline 0.5 A B]
+[orderline A B]
+[face A 05]
+[face B 04]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ$B:A……か、厠、ですか？/
+[face A 01]
+お、お先にど、どうぞどうぞ……
+僕はまだ、大丈夫ですからっ！/
+[move B X -800 0.5]
+[hide B]
+[delay 0.4 se door_01]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 06]
+（……うぅ……漏れそう……）/
+>>21/
+[set A s_oki_r 隠岐]
+[show A C]
+[face A 09]
+[scale A 1.6]
+[move A Y -150]
+[serif on]
+[say A]
+そわそわ……そわそわ……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+うう……
+してる途中に誰か来ちゃったらどうしよう……/
+[face A 06]
+そ、そう思うと……
+緊張しちゃってなかなか出ない……っ。/
+[face A 02]
+うぅ……だめ……っ。
+やっぱ個室に行こうっ……！[move A X -850 0.5][se door_01]/
+>>22/
+[set A s_oki_r 隠岐]
+[randomset B r @地魂男児 -oki]
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[serif on]
+コンコン！[face A 05]/
+[face A 05]
+[say A]
+わぁっ！？[face A 04]
+あっ、えっと……[shake A]/
+[face A 06]
+[waku on 0.5]
+（待ってる人のためにも急いで出なきゃ……
+　でも出て顔を合わせるのが恥ずかしい……）/
+[face A 05]
+[talkend]
+[waku off 0.3]
+コンコンコンコン！[shakebg]/
+[say A]
+[effect fr syutyu a]
+[face A 02]
+！！
+（わ、わあーーーど、ど、どうしよう……！）/
+>>23/
+[set A s_oki_r 隠岐]
+[show A C]
+[face A 07]
+[scale A 1.6]
+[move A Y -150]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+はぁ……ここにいると誰にも見られないから、
+なんだかすごく安心しちゃう……/
+[face A 01]
+[flow]
+もうちょっと、ゆっくりしてから出よっと！/
+>>24/
+[set A s_oki_r 隠岐]
+[show A L]
+[se fusuma_01]
+[move A X -300]
+[move A X 300 0.5]
+[face A 00]
+[serif on]
+[say A]
+そうだっ。誰もいないうちにみんなの分も
+布団を敷いておこう。/
+[face A 08]
+[serif off]
+[se cloth_01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+みんなのはこっちの方に集めて……
+んしょんしょ。/
+[serif off]
+[move A X 650 0.5]
+[-]
+[se cloth_01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[face A 02]
+[serif on]
+自分のは……一番端の目立たない所に……と。
+できたっ。ふぅ、これでよしっ。/
+>>25/
+[set A s_oki_r 隠岐]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+すやすや……すやすや……/
+隅の方で静かに眠っている。/
+>>26/
+[set A s_oki_r 隠岐]
+[randomset B r @地魂男児 -oki -@NPC]
+[randomset C r @地魂男児 -oki -@NOW -@NPC]
+[show A C]
+[show B C]
+[show C C]
+[face A 06]
+[face B 07]
+[face C 07]
+[scale A 1.6]
+[scale B 1.6]
+[scale C 1.6]
+[setline B A C]
+[moveline A B C 0 -150 0]
+[se cloth_02]
+[orderline A B C]
+[-]
+[serif on]
+[talkend]
+隠岐が布団にくるまっている。/
+[say A]
+[waku on 0.5]
+（うう……今日は布団を敷くのが遅れて、
+　寝る場所がみんなと近くなっちゃった……）/
+[face A 09]
+（寝顔見られちゃったら恥ずかしいから、
+　今日は布団にもぐったまま寝るんだ……）/
+[face A 06]
+[move A Y -100 0.5]
+（で、でも……ちょっと息苦しい……
+　うぅぅ……がまんがまん……）/
+>>27/
+[set A s_oki_r 隠岐]
+[show A C]
+[face A 00]
+[say A]
+?隠岐、ハレの日おめでとう！/
+[face A 05]
+[say A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ひゃあっ！[move A X -1000 0.3]/
+[face A 06]
+[move A L 1]
+[move A X -200 0.5]
+[rotate A -10 1.2]
+あ、ありがとうございます……/
+[face A 09]
+[rotate A 0 0.5]
+[delay 0.3 move A C 0.5]
+きゅ、急に声をかけていただいて……その……
+び、びっくりしちゃって……[face A 02]/
+[face A 09]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+あ、あの……主様は、相撲……
+好き、ですか？/
+[face A 02]
+[flow]
+今日は、昭和期に隠岐古典相撲大会が
+初めて開催された日……らしいんです。/
+[face A 01]
+[flow]
+僕、相撲が大好きなので……現代にも相撲文化が
+根付いているのが嬉しくてこの日を選びました。/
+[shake A]
+[face A 02]
+[flow]
+隠岐古典相撲では、
+大会が夜通し行われるんですっ。/
+[face A 01]
+その、す、すっごく盛り上がるんですっ。[wait 0.5]
+っていう話をみんなにしたら……[face A 08]/
+[face A 09]
+[flow]
+今晩、夜通し大部屋で相撲大会をしようって
+ことになって……[shake A]/
+[face A 08]
+………………/
+[face A 02]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+よ、よかったら、主様も……
+参加しませんかっ！？[se taiko_01][shakebg]/
+[face A 01]
+[effect fr syutyu a 0 0]
+主様が相撲に取り組んでる姿……
+み、見てみたいですっ！[se taiko_02][shakebg]/
+[serif off]
+[effect off a]
+?うなずく/
+[playeryes]
+[-]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+ほ、本当ですかっ！　やったっ！
+たくさん、応援しますっ！[face A 01]/
+[face A 02]
+絶対、来てくださいねっ！
+僕、待ってます……から！[shake A]/
+[scale A 1.0 0.5]
+[move A Y 120 0.5]
+[face A 01]
+えへへ……/
+>>100/
+[set A s_oki_r 隠岐]
+[set B s_n002_r 猪森]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 恥ずかしがり屋の隠岐]
+[-]
+[bg bg_heya_day]
+[fadeout]
+[-]
+[bgm home]
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+トントン。/
+[textcolor ARUJI]
+部屋でくつろいでいると
+誰かが戸をノックする音が聞こえた。/
+[serif off]
+?どうぞ～/
+[serif on]
+…………/
+[textcolor ARUJI]
+返事をしたものの、何の反応もない。/
+[textcolor ARUJI]
+聞こえなかったのかと思い
+もう一度声をかけてみる。/
+[serif off]
+?どうぞ～。入っていいよ/
+[serif on]
+[textcolor ARUJI]
+……しかし戸を開けて入ってくるどころか、
+物音ひとつしない。/
+[textcolor ARUJI]
+もしかしてどこかに
+行ってしまったのだろうか。/
+[serif off]
+?戸を開ける/
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[bgm off]
+[bg rouka_day 0.5]
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -150]
+[effect fr syutyu a]
+[say A]
+[-]
+[serif on]
+ひゃっ！！　あ、あ……っ。/
+[talkend]
+[textcolor ARUJI]
+そこには目を丸くして
+慌てた様子の隠岐が立っていた。/
+[effect off a]
+[serif off]
+?隠岐？/
+[face A 02]
+[say A]
+[serif on]
+[bgm fun]
+[effect fr syutyu a 0 0]
+[quake 2]
+す、すみません～～っ。/
+[move A X -800 0.3]
+[hide A]
+[se walk_03]
+[talkend]
+[textcolor ARUJI]
+隠岐は逃げていった。/
+[serif off]
+[quake off]
+[effect off a]
+?え！？　待ってー！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+隠岐の後を追おうとしてみたものの――/
+[textcolor ARUJI]
+[flow]
+廊下の先まで見渡しても、
+隠岐の姿はもうなかった。/
+[textcolor ARUJI]
+[flow]
+どうしたんだろうなと思いながら
+部屋に戻ろうとすると――/
+[serif off]
+[wait 0.5]
+[-]
+[serif on]
+@隠岐
+……あ、あの……/
+[show A R]
+[move A X 300]
+[rotate A 10 0.5]
+[move A X -50 1]
+[face A 06]
+[say A]
+その、こ、これを……提出しに……
+来たんですぅ……/
+[talkend]
+柱の陰からそっと書類を
+握りしめた手が伸びてきた。/
+[serif off]
+?何で隠れてるの？/
+[serif on]
+[face A 09]
+[say A]
+[shake A]
+あうっ。そのぉ……/
+[talkend]
+隠岐は柱からほんの少しだけ顔を出しているが
+体のほとんどはいまだ柱に隠れている。/
+[face A 06]
+[say A]
+うぅう……あ、あんまり、
+見ないでくださいっ。/
+[quake 2]
+[effect A syutyu a o 100]
+[face A 02]
+すみません！　やっぱり
+あとでもう一度出直してきますー！！/
+[se waik_03]
+[move A X 600 0.3]
+[serif off]
+[-]
+[show B C]
+[move A X -200 0.5]
+[rotate B -20 0.7]
+[move B XY 1000 50]
+[moveline A B -1000 0 0.6]
+[face A 05]
+[face B 05]
+[orderline A B]
+[-]
+[serif on]
+[say B]
+わーーー！！！/
+[se zukkoke_01]
+[fadein BLACK 0.3]
+[serif off 0.3]
+[wait 0.5]
+[-]
+[quake off]
+[hide B]
+[show A C]
+[move A Y -50]
+[face A 04]
+[effect off a]
+[-]
+[fadeout 0.7]
+[-]
+[serif on]
+[say A]
+わわわっ、ご、ごめんなさいぃぃ……！
+ぼ、僕が不注意で……/
+[show B C]
+[move B Y -100]
+[setline 0.5 B A]
+[face B 09]
+[say B]
+や、大丈夫！　むしろいつものことっていうか
+ぶつかる前にすでにコケ始めてたから……/
+[hideall]
+[talkend]
+[waku on0.5]
+[textcolor ARUJI]
+確かに思い出してみれば、隠岐は
+宙に浮いている猪森にぶつかったようだ。/
+[serif off]
+?隠岐を起き上がらせる/
+[show A C]
+[scale A 1.6]
+[move A Y -200]
+[move A Y 50 0.5]
+[se cloth_01]
+[face A 00]
+[textcolor ARUJI]
+[serif on]
+隠岐の小さく柔らかな手を握り。
+引っ張り上げた。/
+[face A 01]
+[say A]
+あっ、ありがとう……ございます……
+僕は、怪我とかはないです。/
+[show B C]
+[move A X 200 0.5]
+[move B X -200 0.5]
+[face B 01]
+[say B]
+こっちも大丈夫。
+散らばった資料も全部そろってるよ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[say A]
+はぁ……すみません……
+廊下は、もう走りません……うぅ……/
+[light def]
+[lightcolor blue]
+[move A Y -100 3]
+[scale A 2.5 3]
+[autotap]/
+[hide B]
+[move A X -200 0.5]
+[textcolor ARUJI]
+[serif on]
+[talkend]
+そう言ってようやく近い距離からまっすぐ
+こちらを見上げた隠岐。/
+[textcolor ARUJI]
+[flow]
+[face A 00]
+頬にかかった長めの前髪が風に吹かれて
+さらさらと流れた。/
+[face A 07]
+[wait 0.2]
+[autotap]/
+[textcolor ARUJI]
+[flow]
+髪の奥[face A 05]から覗く
+大きな瞳とパッチリと目が合った。/
+[say A]
+………………あっ……えっと……/
+[light off 0.5]
+[move A X 200 0.5]
+[show B C]
+[move B X -200 0.5]
+[face B 11]
+あれ？　これは僕の書類じゃないかも……/
+[face A 06]
+[shake A]
+[quake 2]
+[effect fr syutyu a 0 0]
+はっ！　あ、あわわわ！　あのっ向こうを！　
+猪森さんを！　見てください！/
+[shake A 4 10 10]
+[autotap]/
+[face A 02]
+てててて、手も！　
+すみません！　主さまの手を、握っちゃって……！/
+[face A 02]
+[face B 01]
+[se paper_01]
+その書類……！　こ、これ、頼まれてたものを
+書いてきたので……！　どうぞ……！/
+[effect off a]
+[quake off]
+[hide A]
+[hide B]
+[talkend]
+[serif off]
+?書類を受け取る/
+[textcolor ARUJI]
+[serif on]
+それは地魂男児たち全員に
+記入してもらう調査書類。/
+[textcolor ARUJI]
+書類の項目はひとつひとつ丁寧な字で
+しっかりと記入されていた。/
+[serif off]
+?ありがと……あれっ？/
+[show B C]
+[face B 12]
+[textcolor ARUJI]
+[serif on]
+顔をあげると隠岐の姿がない。/
+[textcolor ARUJI]
+思い切って柱の後ろを覗いてみたが、
+そこにも誰もいない。/
+@隠岐の声
+あの……/
+[show A C]
+[face A 06]
+[move A X 250 1]
+[autotap]/
+[textcolor ARUJI]
+すると、猪森の背後から
+隠岐がわずかに顔を見せた。/
+[serif off]
+?どうしたの？/
+[textcolor ARUJI]
+[serif on]
+[move A X -100 0.3]
+そう言って近づくと隠岐は
+慌てたように顔を赤らめた。/
+[face A 01]
+[move B X -250 0.5]
+[orderline B A]
+[rotate A -10 0.5]
+[move A X 50 0.5]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -100 0.5]
+[autotap]/
+[say A]
+そ、その……主さまと……
+お、お話できて、よかったです！/
+[face A 02]
+それじゃあ僕、行きます。
+すみませんでしたぁ～～っ。/
+[move A X -600 0.3]
+[hide A]
+[face B 01]
+[se walk_02]
+[textcolor ARUJI]
+[talkend]
+そして隠岐はぱたぱたと走り去っていった。/
+[textcolor ARUJI]
+[hide B]
+結局隠岐とあまり会話することができなかったが
+今度はもう少しお話してみたいなと思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_oki_r 隠岐]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 隠岐とランニング]
+[-]
+[bg bg_gozasyo_day]
+[fadeout]
+[-]
+[bgm home]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+荘園内を散歩中、いつもと違う場所へ行って
+みたくなって裏庭の方へと向かった。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg niwa_day]
+[hideall]
+[-]
+[delay 0.3 se walk_01]
+[fadeout 0.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[shakebg]
+[se dosa_01]
+[serif on]
+すると、角を曲がったところで
+ぽふんと誰かにぶつかった。/
+[show A C]
+[face A 05]
+[scale A 1.6]
+[scale A 1.0 0.4]
+[move A Y 20 0.2]
+[delay 0.2 move A Y -100 0.2]
+[say A]
+わっ。[shake A]
+あいたた……[face A 04]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+勢いよく走ってきた隠岐が
+ぶつかって転んでしまったのだ。/
+[serif off]
+?隠岐、大丈夫？/
+[show A C]
+[move A Y -100]
+[move A Y 100 0.3]
+[effect fr syutyu a 0 0]
+[bgm fun]
+[face A 02]
+[say A]
+[serif on]
+あ、あ、主さま！？
+えっと、ご、ごめんなさい！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[effect off a]
+ぼ、僕走るのに夢中でつい……/
+[face A 01]
+はいっ　大丈夫ですっ！
+……はっ！！[face A 05][shake A 2 10 10]/
+[scale A 0.5 0.5]
+[move A Y 100 0.1]
+[move A X 200 0.3]
+[delay 0.1 move A Y -180 0.2]
+[hide A]
+[se gasa_01]
+[talkend]
+[textcolor ARUJI]
+慌てて近くの木の陰に隠れる隠岐。/
+[serif off]
+?えええ？/
+[show A C]
+[scale A 0.8]
+[move A Y -30]
+[move A X 300]
+[rotate A 10 0.5]
+[move A X -50 1]
+[face A 06]
+[say A]
+[serif on]
+……あ、主さま……ぶ、ぶつかっちゃって、
+本当にすみません……/
+[face A 04]
+今後気をつけます……/
+[serif off]
+?隠れないで、出ておいでー/
+[serif on]
+[face A 09]
+う、うう……/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+隠岐はもじもじしながらゆっくり出てきた。/
+[show A]
+[face A 06]
+[say A]
+主さまは……お怪我はないですか……？/
+[serif off]
+?大丈夫だよ/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[serif on]
+よかった……/
+[face A 00]
+あ、あの……[shake A]
+主さまはどうしてここに……？/
+[serif off]
+?散歩だよ。隠岐は何してたの？/
+[face A 06]
+[serif on]
+う、えっと……その……
+う、運動を……/
+[serif off]
+?運動？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[serif on]
+は、はい。/
+[face A 03]
+その……最初は修練場に行ったんですが……
+使ってる人が多くて……/
+[face A 06]
+そ、その……
+誰かが見てる前でするのは恥ずかしいので……/
+[face A 02]
+だから、ここなら誰もいないしと思って、
+走ってました……/
+[hide A]
+[talkend]
+[serif off]
+?一緒に運動しようかな/
+[show A C]
+[face A 05]
+[say A]
+[serif on]
+えっ！？[shake A]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[light def]
+[lightcolr blue]
+[bg sky_day]
+[hideall]
+[bgm night]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+それから隠岐と一緒に庭をランニングした。/
+[talkend]
+[textcolor ARUJI]
+爽やかな心地よい風が吹いていて、
+運動するのにピッタリの日和だ。/
+[bg niwa_day 0.5]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[say A]
+はぁ……はぁ……
+あ、主さま……かけっこ、楽しいですねっ。/
+[talkend]
+[textcolor ARUJI]
+にっこりと笑顔を浮かべた隠岐――/
+[talkend]
+[textcolor ARUJI]
+なんだかいつもより
+落ち着いているように見えた。/
+[serif off]
+?ちょっと休憩しようか/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+[serif on]
+はいっ。/
+[scale A 2.0 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[bg rouka_day 0.5]
+[face A 02]
+あ、タオルをどうぞ！
+あと、水筒もありますっ。/
+[hide A]
+[talkend]
+[serif off]
+?ありがとう/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[say A]
+[serif on]
+あ、こ、こちらこそ、
+ありがとうございますっ！/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+主さまが一緒に運動してくれて……　
+楽しかったです……/
+[face A 02]
+[flow]
+一人で走るより、良かった気がします……
+いい汗が……かけましたっ。/
+[face A 05]
+[serif off]
+?隠岐の汗を拭いてあげる/
+[scale A 2 1]
+[move A Y -120 1]
+[face A 05]
+[-]
+[face A 02]
+[shake A 2 5 5]
+[serif on]
+わぷっ、ありがとうございま……/
+[effect fr syutyu a 0 0]
+[quake 2]
+[bgm off]
+[light off 0.3]
+[face A 05]
+はっ！！！/
+[face A 02]
+[bgm fun]
+あ、あわわわ！　大丈夫です！！/
+[face A 06]
+自分でやります！！
+恥ずかしすぎますっっ！！/
+[effect off a]
+[quake off]
+[hide A]
+[serif off]
+?もう恥ずかしくなさそうだったのに/
+[show A]
+[bgm off]
+[scale A 1.6]
+[move A Y -120]
+[face A 09]
+[serif on]
+き、気のせいだと思います……/
+[hide A]
+[bgm night]
+[talkend]
+[textcolor ARUJI]
+隠岐はタオルで顔を隠しながら
+小さい体を更に小さくさせている。/
+[talkend]
+[bg sky_day 0.5]
+[textcolor ARUJI]
+[se cloth_01]
+仕方なく顔をそむけて、空を見上げていると
+膝の上にぽんと小さな何かが乗った。/
+[serif off]
+?…………手？/
+[bg rouka_day 0.5]
+[show A C]
+[face A 09]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+み、見られるのは恥ずかしいので……その……
+手、なら……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+膝の上に投げ出されたそれは、指先まで
+赤く染まった小さな隠岐のてのひらだった。/
+[serif off]
+?隠岐の手をそっと握る/
+[show A C]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[se cloth_05]
+[serif on]
+わ、わあああ……っ！[shake A 3 10 10]/
+[serif off]
+?自分から差し出しておいて！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[serif on]
+う、うぅ……っ。だ、だって……
+見てなくても……想像しちゃうから……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+隠岐は相変わらず顔をタオルで隠しているが
+耳まで真っ赤になっているのがわかる。/
+[talkend]
+[textcolor ARUJI]
+汗ばんだ隠岐の手は小さくて燃えそうなほど熱い。
+ぷるぷると震えてこわばっている。/
+[serif off]
+?そのままの隠岐で大丈夫だよ/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+恥ずかしいのを無理に克服しようと
+しなくても大丈夫だよ、と伝えたかった。/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+手のひらを開き、隠岐の手を解放した。
+しかし、隠岐は手を動かそうとしない。/
+[light def 1]
+[lightcolor blue]
+[autotap]/
+[show A C]
+[face A 09]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+…………から……/
+[serif off]
+?隠岐？/
+[face A 02]
+[serif on]
+主さまと、一緒にいたいから……
+慣れたい……です……！/
+[face A 01]
+だから、もうちょっとだけ……/
+[hide A]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+そう言って微笑む隠岐の小さな手のひらを
+優しく握り直した。/
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+…………っ。/
+[se amb_06]
+[serif off 0.5]
+[-]
+[face A 00]
+[wait 1]
+[-]
+[face A 01]
+[wait 1]
+[-]
+[autotap]/
+[talkend]
+[hide A]
+[bg sky_day 1]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+そのまま隠岐とふたり、縁側に座り
+しばらく空を眺めて過ごしたのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

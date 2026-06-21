@@ -1,0 +1,1597 @@
+>>10000/
+@甲斐
+俺は東海道の甲斐だ。あんた誰？[wait 3.2]
+ひぇっ？　親分？
+[autotap]/
+[delay 1.8]
+[flow]
+[-]
+@甲斐
+あっ、ども、甲斐です。
+えへへ、一生懸命働きますよぅ。/
+>>10001/
+@甲斐
+親分！　[wait 0.5]もっとも～っと[wait 1.0]
+甲斐を呼んでくれていいんですからねっ！[wait 1]　えへへ。/
+>>1/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 11]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[scale A 1.3 0.3]
+[move A Y -50 0.3]
+[-]
+[serif on]
+[talk A]
+お、親分！　肩でも揉みましょうか？
+[face A 10]だいぶ凝ってますね！/
+[face A 12]
+随分疲れが溜まってるんじゃないですか？
+[face A 14]ゆっくり温泉でくつろがないと。/
+[scale A 1.5 0.1]
+[move A Y -50 0.1]
+[face A 10]
+ところで信玄公の隠し湯ってご存知ですか？
+[face A 14]今度よく効く温泉、ご案内しますよっ。/
+>>2/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 10]
+[serif on]
+[talk A]
+やっぱ日本一の山といえば
+富士山ですよね！/
+[face A 14]
+大きくて、カッコよくて……！
+[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]はぁ……/
+[effect fr syutyu 2000 0 0]
+[scale A 1.5 0.1]
+[move A Y -60 0.1]
+[-]
+[shake A 3]
+[face A 11]
+甲斐にとって、親分は富士山みたいな
+存在ですよぉ……っ。[face A 10]えへへ……！/
+>>3/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 10]
+[serif on]
+[talk A]
+武川町の実相寺境内には、[wait 0.1]神代桜っていう
+樹齢二千年とも言われる見事な桜があるんです。/
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ヤマトタケルノミコトが植えたなんて
+伝説もあるんですよぉ。/
+[face A 14]
+伝説の英雄と関わりのある桜を、甲斐の
+英雄である親分と一緒に見れたら……[wait 0.2]なんて……/
+[scale A 1.5 0.1]
+[move A Y -60 0.1]
+[face A 05]
+え？[wait 0.2]　一緒に？/
+[face A 11]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+う、うれしいいいい！！[shake A 3]/
+[face A 10]
+じゃあいつ行きます？　明日でも今からでも
+甲斐は準備万端ですよぉ！/
+>>4/
+[set A s_kai_r 甲斐]
+[randomset B r -kai -@NPC]
+[show B]
+[show A C]
+[setline A B]
+[face A 08]
+[face B 00]
+[-]
+[serif on]
+[talk A]
+おい。$B:A。ちょっとツラ貸せ。[shake B][face B 05]
+あんだよ！[face A 03]　いいだろ！！[shake A]/
+[move A X 50 0.2]
+[face A 09]
+[face B 04]
+……こないだ親分に褒められてただろ。
+あれ、どうやったんだ？[face A 03][shake A]　教えろ！　お願い！[face A 13][shake A]/
+>>5/
+[set A s_kai_r 甲斐]
+[randomset B r -kai]
+[show A C]
+[face A 04]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+[talk A]
+なんだ、これ、$B:Aの落とし物か……？
+[face A 06]ったく、トロ臭い奴が多いんだよなぁ。/
+[flow]
+[face A 00]
+ま、いいさ。なんたって……
+俺[face A 01]が守ってやるんだからな。/
+>>6/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[shake A 2]
+あー……腹減った……
+ほうとうが食いてぇなぁ……/
+[flow]
+[face A 11]
+親分と一緒に食べられたらいいのになぁ……！
+[wait 0.5]……いけね、[face A 02][wait 0.3]にやけちまった！/
+>>7/
+/
+/
+>>8/
+/
+9/
+>>9/
+[set A s_kai_r 甲斐]
+[randomset B r -kai]
+[show A C]
+[show B]
+[face B 01]
+[setline B A]
+[orderline A B]
+[face A 05]
+[talk A]
+[-]
+[serif on]
+おぉ、この茶
+結構美味しいじゃねえか。/
+[flow]
+[face B 02]
+[face A 02]
+ありがとな！
+$B:A！　また頼むぜ！/
+>>10/
+[set A s_kai_r 甲斐]
+[randomset B r -kai]
+[show A C]
+[face A 05]
+[-]
+[effect fr kira 4000 0 0]
+[se kira_01]
+[serif on]
+[talk A]
+……おぉ……ちょっと$B:Aの荷物運ぶの
+手伝ったら、小遣いもらったぞ……/
+[flow]
+[face A 01]
+[shake A 2]
+ひょっとしてこれ……
+[wait 0.3]稼げるかも……！？/
+>>11/
+[set A s_kai_r 甲斐]
+[randomset B r -kai]
+[show A C]
+[show B C]
+[face A 00]
+[face B 04]
+[say A]
+[setline B A]
+[orderline A B]
+[-]
+[serif on]
+あ？　$B:A何してんだよ。/
+[face A 08]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[= 缶切りが見つからねぇ 栓抜きが見つからねぇ ハサミが見つからねぇ 箱が開かねぇ 箱の鍵を失くした]？
+……はぁ、しゃーねぇな。貸してみろ。/
+[move B X 100 0.5]
+[delay 0.2 move A XY -10 -20 0.4]
+[delay 0.2 rotate A 10 0.3]
+[delay 0.6 move A XY 10 20 0.3]
+[delay 0.7 rotate A 0 0.3]
+[-]
+[face A 03]
+[face B 05]
+うぉりゃ！！！[shake A 2 5 5][se crash_04][shakebg]/
+[face A 00]
+[face B 01]
+[effect B kira a 0 0]
+[se kira_01]
+ん。
+これくらいオレなら簡単に開けられっからな。/
+[face A 06]
+[move A X 100 0.2]
+な、なんだよ。これも親分のためなんだからな！
+じゃーな！/
+[move A X 600 0.3]
+[hide A]
+[se walk_03]
+[-]
+[autotap]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_kai_r 甲斐]
+[randomset B r -kai]
+[show A R]
+[face A 06]
+[move A X -400 0.3]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+はぁ……[wait 0.3]そんな……親分……
+/
+[flow]
+[face A 04]
+$B:Aと
+なんか妙にいい感じの空気だった……/
+[flow]
+[face A 13]
+絶対に負けねぇぞ……！
+親分の一番の愛され虎っ子はオレなんだからなー！[shake A 3]/
+>>15/
+[set A s_kai_m 甲斐]
+[show A C]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+よぉーっし
+日頃の鬱憤晴らすか。/
+[flow]
+[face A 03]
+カカシを片っ端から
+ぶっとばしてやるぜ！/
+[face A 10]
+[flow]
+親分！[shake A]　甲斐の頑張り……
+見ててくださいね！！/
+>>16/
+[set A s_kai_m 甲斐]
+[randomset B m -kai -@NPC -@あやかし]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[talk A]
+おーい！　誰か相手しろよ！
+俺が揉んでやるぜ！/
+[flow]
+[show B R]
+[move B X 400]
+[moveline A B -400 0 1]
+[face B 08]
+[face A 08]
+[-]
+[move A X 150 0.5]
+$B:Aか…
+稽古ったって、[face A 03]手加減はしねぇからな。[shakebg]/
+>>17/
+[set A s_kai_b 甲斐]
+[randomset B b -kai -@NPC]
+[show A C]
+[face A 04]
+[show B]
+[face B 01]
+[setline A B]
+[talk A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+あっちぃな……
+風呂上がった後だからなぁ……/
+[flow]
+[face A 02]
+……斧で仰ぐか。[face B 05][shake B]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+[face B 04]
+[flow]
+あんだよ？　$B:A。
+お前も暑そうだな。仰いでやろうか？[face A 01]/
+[flow]
+[face A 02]
+[face B 05]
+[move B X 60 0.3]
+[move A X 50 0.2]
+遠慮すんなって！　おら！[shake A]　おら！[shake A]/
+[move B X 400 0.5]
+[move A X 300 0.5]
+[hide B]
+[hide A]
+[autotap]/
+>>18/
+[set A s_kai_b 甲斐]
+[randomset B b -kai]
+[randomset C b -@NOW]
+[show A C]
+[show B]
+[show C]
+[face A 02]
+[face B 01]
+[face C 01]
+[setline B A C]
+[moveline A B C 0 -50 0]
+[effect fr yuge a 0 0]
+[se amb_12]
+[talk A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+はぁー[wait 0.3]いい湯だぜ……
+[wait 0.3]……って、[se water_07][face A 13][shake A 3 40 40][shakebg][face B 05][face C 05]いってぇえええー！！/
+[flow]
+[face B 05]
+[face C 05]
+[se bath_02]
+[face A 03]
+[move A Y 50 0.1]
+今、誰か俺の尻尾踏んだろ！！
+[move A Y 100 0.1][delay 0.1 move A Y -100 0.2]名乗りでろ！！　くっそー！/
+>>19/
+[set A s_kai_b 甲斐]
+[show A C]
+[move A Y -50]
+[face A 00]
+[move A Y -50 0.8]
+[effect fr yuge a 0 0]
+[se amb_12]
+[-]
+[serif on]
+[talk A]
+……ぶくぶくぶく……/
+[flow]
+[face A 06]
+（ったく……今日はだめだ
+　全然集中できねぇ……）/
+[flow]
+[face A 02]
+（こんな情けねぇ姿、他の奴らに見せられねぇし、
+　もうしばらく、風呂入ってるか……）/
+[move A Y -10 0.5]
+ぶくぶくぶく……/
+>>20/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 12]
+[scale A 1.6]
+[move A Y -100]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se pee_01]
+[serif on]
+[talk A]
+はぁ～……
+急にもよおしてくるんだもんなぁ……/
+[flow]
+[face A 10]
+早くすませて
+親分の元に戻らなきゃ！/
+>>21/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+はぁ……はぁ……
+くそ……身体が……熱い……/
+[flow]
+[face A 09]
+身体の奥から火照って……
+くそ、面倒だな……この身体ってやつは……/
+>>22/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 10]
+[move A Y -50]
+[-]
+[serif on]
+[talk A]
+考え事はやっぱり、
+甲州山に限るなぁ……/
+[flow]
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+芳香剤も置いて……[wait 0.3]っと。
+[face A 10][move A Y 10 0.4][delay 0.4 move A Y -10 1.0]はぁ……落ち着くぅ……/
+>>23/
+[set A s_kai_r 甲斐]
+[-]
+[se door_01]
+[show A L]
+[face A 00]
+[move A X 300 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 10]
+[serif on]
+[talk A]
+[se kira_01]
+[effect fr kira 2000 0 0]
+…………スッキリしたぜっ。/
+>>24/
+[set A s_kai_r 甲斐]
+[randomset B b -kai -@NPC]
+[show A C]
+[show B C]
+[setline A B]
+[rotate B 10]
+[move B Y -150]
+[orderline B A]
+[face B 07]
+[face A 12]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[say A]
+[-]
+[serif on]
+はぁ……
+親分のいない部屋で寝なきゃいけないなんて……/
+[flow]
+[face A 11]
+親分、いつでも甲斐をおそばに
+呼んでくださいねっ！/
+[face A 03]
+[move A X 150 0.5]
+[delay 0.2 move B X 100 0.5]
+[delay 0.7 shake B]
+[se cloth_01]
+$B:A、もうちょっとそっち寄れよ！
+オレの布団に入ってんだろ！　もー！！[shake A][face A 13]/
+>>25/
+[set A s_kai_r 甲斐]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[talk A]
+おやぶぅん……
+すぴー……/
+[talkend]
+[shake A 2]
+ぐっすり眠っているようだ。/
+>>26/
+[set A s_kai_r 甲斐]
+[randomset B r -kai -@NPC]
+[show A C]
+[face A 13]
+[-]
+[serif on]
+[talk A]
+はぁ……親分……いつになったら
+甲斐と共寝をしてくださるのですか……/
+うぅ……この行き場のない想いを、
+甲斐はどう発散したら…………しゃーない[face A 09]。/
+[show B L]
+[orderline A B]
+[setline 0.5 B A]
+[say A]
+[face A 03]
+[face B 05]
+[-]
+[shake B]
+おい$B:A、起きてんなら相手しろよ！
+俺がしこたま揉んでやるぜ！！/
+>>100/
+[set A s_kai_r 甲斐]
+[set B s_n000_r 猫乃屋]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 甲斐の裏表]
+[-]
+[bg shirei_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+昼下がり。
+猫乃屋と一緒に司令室の掃除をしていた。/
+[talkend]
+[shakebg]
+[textsize 40]
+@？？？
+あぁん？
+なんだてめぇ！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[textcolor ARUJI]
+[serif on]
+廊下から怒号が聞こえたので
+見に行ってみると――/
+[show A C]
+[show B C]
+[setline A B]
+[face A 08]
+[face B 08]
+[bgm fun]
+[wait 0.5]
+[-]
+[say B]
+いいだろ～。ちょっと重いの運ぶくらい
+手伝ってくれよ。地魂男児だろ！/
+[effect fr syutyu a 0 0]
+[face A 03]
+[say A]
+オレは体鍛えんので忙しいんだ！[shake A]/
+[flow]
+てめぇにかまってる暇はねぇんだよ！
+すっこんでろ！！[shake A][se zukkoke_01]/
+[effect off a]
+[hide A]
+[face B 10]
+[say B]
+廊下で寝てたじゃねーか！
+なぁ後輩、お前からも頼んでくれよ。[face B 04][shake B]/
+[serif off]
+?あの～/
+[hide B]
+[-]
+[show A C]
+[face A 08]
+[say A]
+[-]
+[serif on]
+あぁ？　あんた誰？[wait 0.3]
+どっかで見たような……[face A 09]/
+[serif off]
+?きみの主です！/
+[shake A 3 5 5]
+[autotap]/
+[serif on]
+[face A 05]
+ひぇっ！？
+お、親分……！？/
+[face A 13]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+こ、これは失礼しました！　東海道の甲斐です！/
+[se kira_01]
+[effect bk kira a 0 0]
+[face A 10]
+親分、今日はどうされました？　
+お肩でも揉みましょうか！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 14]
+それとももっとぉ……甲斐のもちもちを
+楽しんだりとかぁ……/
+[face A 10]
+[flow]
+へへ、甲斐はいつでもOKですよぉ！/
+[serif off]
+?とりあえず荷物運ぶの手伝ってもらえる？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[effect off a]
+[serif on]
+[face A 10]
+もちろんです！
+お安い御用です！　よいっと！
+[move A XY 10 -100 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 100 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_04]/
+[show B C]
+[face B 05]
+[move B X 1000]
+[moveline A B -1000 0 1]
+[hide A]
+[-]
+[say B]
+うお～すげ～。
+あの荷物の山を軽々と……/
+[serif off]
+?甲斐は力持ちだね/
+[hide B]
+[-]
+[show A C]
+[face A 11]
+[say A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[serif on]
+親分のためならこれくらいなんのその！
+親分、どこに運びます？/
+[show B C]
+[orderline A B]
+[move B X 800]
+[move B X -400 0.5]
+[face B 01]
+[say B]
+じゃあ、その先に運んでくれよ！/
+[move A X -400 0.5]
+[autotap]/
+[face A 10]
+[say A]
+はーい♪/
+[scale A 1.6 0.3]
+[scale B 1.6 0.3]
+[setline 0.3 A B]
+[rotate B -20 0.4]
+[moveline A B 0 -130 0.3]
+[quake 2]
+[effect fr syutyu a 0 0]
+[face A 03]
+[face B 05]
+[se crash_03]
+って、おい！　てめぇに聞いてねぇよ！
+お前のために運んでんじゃねーぞ！/
+[face B 04]
+[say B]
+[shake B]
+こ、こわっ、何なんだよこいつ……/
+[face A 12]
+[say A]
+[move A X 100 0.3]
+[move B X 30 0.4]
+[rotate B -25 0.4]
+ってかお前誰なんだよ！
+親分との大切な時間を邪魔するなよな！/
+[quake off]
+[effect off a]
+[serif off]
+?一応……先輩？/
+[rotate B 0 0.5]
+[move A X -50 0.5]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[serif on]
+[face B 09]
+[face A 05]
+[say B]
+そーそ！　一応お前の親分の先輩！
+敬えよな！/
+[face A 12]
+[say A]
+えええぇーーー…………
+……チッ！[face A 09][shake A]/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 10]
+[say B]
+めっちゃ舌打ちしてんじゃねーか……/
+[serif off]
+?荷物を壊さないようにね。/
+[face B 08]
+[serif on]
+[face A 10]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+はいっ♪
+親分の大切な荷物！　しっかりと運びますとも！/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[hideall]
+[bg shirei_day]
+[-]
+[bgm home]
+[fadeout 1.5]
+[-]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+甲斐のおかげで想定していたよりも
+随分早く片付けが終わった。]/
+[serif off]
+?甲斐、ありがとう/
+[serif on]
+[show A C]
+[face A 10]
+[say A]
+これくらい、いつでもどうぞ！/
+[face A 11]
+甲斐を呼んでくれた親分のためなら
+この甲斐、命をかけて頑張ります！/
+[effect bk love a]
+[scale A 1.6 1]
+[move A Y -130 1]
+[autotap]/
+[face A 14]
+だから、な・ん・で・も、言ってくださいね♡/
+[face A 10]
+ってことで、早速今夜から親分の部屋に
+行きましょうか？/
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[autotap]/
+[face A 11]
+甲斐は体温高めの虎っこなので暖房いらずですよ！
+ほら……確かめてみてくださいっ。[face A 14]/
+[serif off]
+?ひ、必要があれば呼ぶよ！/
+[effect off a]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[face A 12]
+ちぇっ、親分つれないなぁ……
+でも甲斐は待ってますから！[face A 11]/
+[se fusuma_01]
+[hide A]
+[-]
+[show B L]
+[move B C 0.5]
+[face B 01]
+[say B]
+おーう*P。
+片付けの報告してきたぜー。/
+[serif off]
+?お疲れさまです/
+[serif on]
+[face B 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おう、甲斐もお疲れ！
+お前のおかげで助かったわ！/
+[show A R]
+[move A X 500]
+[move A X -300 0.5]
+[face A 08]
+[say A]
+[orderline A B]
+………………/
+[quake 2]
+[bgm fun]
+[bg black 0.3]
+[minibg emo_ikari 0.3]
+[light down 0.3]
+[lightcolor red 0.3]
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.3]
+[scale B 1.6 0.3]
+[setline 0.3 B A]
+[rotate B 20 0.4]
+[move A X -150 0.3]
+[moveline A B 0 -130 0.3]
+[face A 03]
+[face B 05]
+[se crash_03]
+てめぇ、親分の先輩だからって調子のってんじゃ
+ねぇぞ。親分の一番はオレだからな！　ふんっ！/
+[quake off 0.5]
+[hide A]
+[bg shirei_day 0.5]
+[minibg off 0.5]
+[light off 0.5]
+[lotate B 0 0.5]
+[autotap]/
+[face B 04]
+[talkend]
+だからこえーよ！　なんで*Pにするみたいに
+可愛く言ってくれねぇの！？/
+[hide B]
+[effect off a]
+[-]
+[show A C]
+[face A 03]
+[say A]
+親分だけが特別なんだよ！[shake A]
+ねっ親分♡[face A 10][effect bk bond 4000 0 0][scale A 1.6 0.5][move A Y -130 0.5][se kira_01]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+ハッキリと二面性のある甲斐は見ていて
+面白かった。/
+[textcolor ARUJI]
+――せっかくだから
+今度なにか頼んでみようかなと、思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_kai_r 甲斐]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 甲斐とピクニック]
+[-]
+[bg gozasyo_day]
+[bgm journey]
+[-]
+[fadeout 1.0]
+[-]
+[wait 1.5]
+[-]
+[fadein BLACK 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+今日は運動がてら裏山に散歩に
+行こうと思っていたのだが――/
+[show A C]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[effect fr syutyu a 0 0]
+[face A 11]
+[say A]
+親分〜！　どちらへ行かれるんですか！？
+甲斐がお供します！/
+[fadein BLACK 0.5]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+ということで、急遽
+甲斐とピクニックすることになったのだった。/
+[serif off 1.5]
+[-]
+[hideall]
+[bg sandou]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[se amb_10]
+[show A C]
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[say A]
+[serif on]
+親分っ。もうすぐ山頂ですよ！
+えへへ、えへへへ……/
+[talkend]
+[textcolor ARUJI]
+ただ坂を登っているだけだというのに
+甲斐はいつにも増してニコニコだ。/
+[face A 11]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[say A]
+親分！　しんどくないですか！？
+甲斐がいつでも抱っこしてあげますよ！/
+[face A 14]
+[flow]
+そのまま山頂までお連れすることだって
+できますからねっ！/
+[serif off]
+?それじゃ散歩の意味ないよ/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 10]
+えへへ、そうですね。甲斐は親分と
+一緒に歩いてるだけで幸せですっ。/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[face A 05]
+あっ、そうこう言ってるうちに……[move A X 800 0.6]/
+[fadein BLACK 0.6]
+[serif off 0.6]
+[-]
+[light def]
+[lightcolor blue]
+[bg mbg_syouen]
+[minibg sky_day]
+[move A C]
+[scale A 1]
+[face A 11]
+[-]
+[fadeout 1.5]
+[se amb_13]
+[-]
+[serif on]
+[move A Y 120 0.5]
+はぁ〜〜〜いい見晴らしですね〜！
+荘園が見渡せますよ！　ほらっ親分っ。/
+[hide A]
+[talkend]
+たしかにここからの景色は
+なかなかに眺めが良い。/
+[serif off]
+?そろそろお弁当にしようか/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+大きな木の下が木陰になっており、
+休憩するにはちょうど良さそうだ。/
+[talkend]
+[textcolor ARUJI]
+お弁当を広げるため、
+いい大きさの岩に腰掛けようとすると――/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[move A X 1000]
+[move A X -1000 0.5]
+[delay 0.5 shake A]
+[face A 10]
+[say A]
+はいっ！　では甲斐の膝の上にどうぞ！[shake A][se taiko_01]/
+[talkend]
+[textcolor ARUJI]
+先回りして岩の上に腰掛けた甲斐が
+自分の膝の上をはたいて示した。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 12]
+[say A]
+地面は汚いですし、泥だらけの石の上に
+座るなんて滅相もない！/
+[serif off]
+?石の上で大丈夫だよ/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+さすがに甲斐の膝の上に座るのは
+申し訳ないので、近くの別の岩に腰掛けた。/
+[show A C]
+[move A X 400]
+[move A X -400 0.5]
+[face A 13]
+[say A]
+あああ〜〜親分〜〜っ。もう……[face A 12]
+親分ってば恥ずかしがり屋さんなんですから……/
+[serif off]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.8 scale A 1.6 0.5]
+[delay o.8 move A Y -120 0.5]
+[-]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+[autotap]/
+[face A 08]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+甲斐は自分の座っていた岩を持ち上げ、
+こちらのすぐ隣において座り直した。/
+[scale A 2 1.5]
+[move A Y -80 1.5]
+[autotap]/
+[face A 12]
+[say A]
+ここには親分と甲斐のふたりしか
+いないんですよ？/
+[face A 14]
+もっと積極的になっても……いいんですよっ！？/
+[serif off]
+?近い近い/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[serif on]
+はいっ！　甲斐は誰よりも
+親分のおそばにいますよっ！/
+[talkend]
+[textcolor ARUJI]
+会話が通じているのかどうかわからないが
+甲斐はにこにこと楽しそうだ。/
+[serif off]
+[bgm off]
+?ん？　甲斐の肩に……/
+[face A 05]
+[say A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+えっ？　肩に……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+甲斐の肩にイモムシが乗っている。
+甲斐が岩を動かした衝撃で上から降ってきたようだ。/
+[show A C]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[quake 2]
+[effect fr syutyu a 0 0]
+[say A]
+[bgm departure]
+[textsize 40]
+ひ、ひえぇええええ〜〜〜〜！！！！
+い、い、イモムシ〜〜〜！！！！[shake A 3 10 10]/
+[flow]
+[move A X 400 0.3]
+お、お、親分っ！　助けてくだしゃい！！
+う、う、動いてるうぅぅぅっ！[move A X -600 0.3]/
+[effect off a]
+[quake off]
+[hide A]
+[talkend]
+[serif off]
+?えええ？　そういう反応？/
+[show A C]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[quake 2]
+[effect fr syutyu a 0 0]
+[say A]
+[serif on]
+だめ！[shake A]　だめなんです！　芋虫だけはぁ！　
+信玄公だって芋虫は苦手なんですよぉ！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 06]
+は、早く早くっ！　あ、ああっ、見たくないっ！
+でも動いてるのがわかるぅぅ〜〜〜っ！/
+[face A 13]
+親分〜〜〜！！！！[shake A 5 40 40]/
+[effect off a]
+[quake off]
+[hide A]
+[talkend]
+[serif off]
+?もう少し見ていたいような……/
+[show A C]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[quake 2]
+[effect fr syutyu a 0 0]
+[say A]
+[serif on]
+えええええ〜〜〜！？
+そんなっ！　ご無体なぁぁあああ！！！/
+[flow]
+アッアッアッアッ！！[shake A 5 40 40]/
+[talkend]
+[serif off]
+?助けてあげる/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[effect off a]
+[quake off]
+[bgm journey]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A]
+[face A 13]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[say A]
+[serif on]
+はぁ、はぁ……あ、ありがとうございます……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+いつもの甲斐からは想像できない
+珍しいものが見れた。/
+[show A C]
+[face A 12]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+もぉ〜！[shake A]　早く助けてくださいよぉ！
+親分のいじわるっ！[shake A 3 5 5]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 13]
+甲斐は親分が危ないときは、何より
+誰より早く駆けつけて、守りますのに……/
+[serif off]
+?ごめんて/
+[face A 12]
+[serif on]
+[move A X -150 0.5]
+ぷーん、だ。/
+[serif off]
+?甲斐の手を握る/
+[scale A 2 0.5]
+[move A Y -80 0.5]
+[se cloth_01]
+[face A 05]
+[-]
+[shake A]
+[wait 1]
+[serif on]
+ひえっ。えっ、えっ、親分が……
+甲斐の手を握ってくださるなんて……はわぁ〜〜っ。[face A 11][effect fr kira a 0 0][se kira_01]/
+[hide A]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+甲斐を持ち上げ、岩に腰掛ける自分の
+膝の上に乗せた。/
+[textcolor ARUJI]
+[flow]
+そしてその甲斐の膝の上でお弁当を広げた。/
+[show A C]
+[scale A 2]
+[move A Y -200]
+[face A 05]
+[say A]
+おっ、[shake A]親分！？　甲斐、こう見えて
+結構重いですよ！！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+で、でも……いまさら降りることも
+できませんから……お弁当……食べましょう！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+お弁当のおかずをお箸でつまみ、
+甲斐の口へと運ぶ。/
+[textcolor ARUJI]
+[se eat_01]
+膝の上で嬉しそうに大きく口を開ける甲斐を
+眺めているのがとても楽しかったのだった。/
+[textcolor ARUJI]
+いい休日になった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>202/
+[set A s_kai_r 甲斐]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 甲斐と夜空を見上げて]
+[-]
+[bg sky_star]
+[bgm night]
+[-]
+[fadeout 1.0]
+[-]
+[se amb_04]
+[wait 1]
+[-]
+[bg black 1]
+[minibg sky_star]
+[-]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+荘園での夏祭りの数日後、甲斐と一緒に
+日帰り温泉へ行くことになった。/
+[textcolor ARUJI]
+その帰り道でのこと――/
+[se walk_01]
+[show A C]
+[face A 10]
+[say A]
+親分、いい湯でしたね～！/
+[face A 14]
+親分と二人っきりで温泉に浸かったり、
+親分のお背中たっぷり流したり……♥/
+[face A 10]
+はぁ～、親分とこうして日帰り温泉旅行が
+楽しめるなんて本当に幸せです。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 11]
+あ、親分！
+さっき買った温泉まんじゅう食べますか？/
+[face A 10]
+ささっ、お茶もどうぞ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+ふたりで温泉まんじゅうを食べながら、
+駅までの道を歩く。/
+[textcolor ARUJI]
+ポカポカあたたまった体に、
+夜風が気持ちいい。/
+[effect fr syutyu a 0 0]
+[show A C]
+[face A 05]
+[say A]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+あ！　親分危ない！/
+[hide A]
+[effect off a]
+[se car_01]
+[se cloth_01]
+[shakebg]
+[talkend]
+[textcolor ARUJI]
+そう言って突然甲斐が手を引くと、
+車がすぐ脇を抜けていった。/
+[show A C]
+[effect fr syutyu a 0 0]
+[quake 2]
+[scale A 2]
+[move A Y -200]
+[face A 03]
+[say A]
+[textsize 40]
+どこ見て走ってんだオラァ！！！/
+[face A 12]
+[quake off]
+[effect off a]
+[scale A 1.6 0.5]
+[move A Y 80 0.5]
+親分！　どこかぶつけたりしてませんか！？/
+[serif off]
+?大丈夫だよ/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 06]
+は～、よかった……/
+[face A 09]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[move A X -250 0.5]
+ったくあの運転手、もし親分の身に何かあったら
+どう落とし前つける気だったんだ……ぶつぶつ。/
+[face A 11]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[move A X 500 0.5]
+あっ親分、甲斐が車道側を歩きますから！
+ささっ。/
+[serif off]
+?ありがとう/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[serif on]
+[face A 10]
+へへっ、親分の体にはかすり傷一つ
+負わせませんからね！/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ……！/
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+甲斐は自分を守ってくれてから
+ずっと手を握ったままだった。/
+[textcolor ARUJI]
+[hide A]
+小さな体には不釣り合いなほど力強い、
+がっしりとした安定感のある甲斐の手。/
+[serif off]
+?甲斐の手をしっかりと握り返す/
+[se cloth_01]
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 11]
+[say A]
+……！[shake A 3 10 10]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on 0.5]
+[talkend]
+駅の明かりが近づいてくると、
+段々と甲斐の足取りが重くなる。/
+[show A C]
+[face A 13]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+はぁ、親分とのデートも
+もうおしまいなんですね……/
+[face A 12]
+親分を独り占めできる機会なんて
+あんまりないのになあ……/
+[talkend]
+[textcolor ARUJI]
+甲斐は少し寂しそうだ。/
+[hide A]
+[textcolor ARUJI]
+ロクハラが指定した門限にはまだ余裕がある。
+せっかくだから――/
+[serif off]
+?ちょっと寄り道する？/
+[serif on]
+[show A C]
+[face A 11]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え！　いいんですかっ！？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg conveni]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+飲み物でも買おうとそばにあった売店に入る。/
+[show A C]
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[say A]
+親分ー！　見てください！/
+[face A 14]
+[move A X -250 0.3]
+この店、お土産もいろいろありますよ！
+これは刀……のおもちゃ？/
+[move A X 500 0.3]
+[face A 11]
+あ、こっちのちっちゃい人形は虎だ虎～！
+これ、ご当地キーホルダーですって！/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+キーホルダーについていた虎のマスコットは
+なんだか甲斐に似てるような気がした。/
+[show A C]
+[scale A 1.6]
+[move A Y -220]
+[move A Y 200 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 10]
+[say A]
+親分、せっかくですから旅の思い出に
+買っていきましょー！/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[light def]
+[lightcolor blue]
+[hideall]
+[minibg sky_star]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[se amb_04]
+[serif on 0.5]
+[talkend]
+買い物をすませ辺りをぶらぶらする。/
+[textcolor ARUJI]
+[talkend]
+温泉街からは少し離れているので
+建物も少なく辺りは静かだ。/
+[show A C]
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[say A]
+親分ー！　ここの河原、いい感じですよー！
+少し座っていきましょ！/
+[hide A]
+[talkend]
+[se amb_07]
+[textcolor ARUJI]
+近くにあった河原に降りて、
+甲斐が手ぬぐいを敷いてくれた岩に腰掛ける。/
+[textcolor ARUJI]
+[se amb_04]
+穏やかな川音と虫の音が聞こえる。
+頬を撫でる風が涼しく心地よい。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 10]
+[say A]
+なんだか[wait 0.2]…[wait 0.2]…[wait 0.2]なんというか[wait 0.2]…[wait 0.2]…
+いい[wait 0.2]…[wait 0.2]…[wait 0.2]感じですね……/
+[face A 14]
+辺りに人もいなくて……
+親分と、二人っきりだし……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+甲斐の頬はほんのり赤みを帯びている。/
+[serif off]
+?甲斐の肩に手をかける/
+[se cloth_01]
+[serif on]
+[show A C]
+[face A 11]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+……！/
+[scale A 2 1]
+[move A Y -80 1]
+[autotap]/
+[face A 10]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+甲斐は何も言わず、
+こちらに軽く体重を預けてきた。/
+[textcolor ARUJI]
+ぽかぽかした甲斐の体温がじんわりと
+伝わってくる。/
+[hide A]
+[serif off]
+[-]
+[bg sky_star 1]
+[delay 0.5 minibg off 0.5]
+[-]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+ふと空を見上げると、
+そこには満点の星空が広がっている。/
+@甲斐
+わ～きれいですね！/
+@甲斐
+あっ、流れ星ですよ！　親分！/
+@甲斐
+親分が健康でありますように
+親分にもっと可愛がってもらえますように[wait 0.5][autotap]/
+@甲斐
+親分の抱きまくらになれますように
+親分の一番であり続けられますように[wait 0.5][autotap]/
+@甲斐
+親分とずっと一緒にいれますように
+親分が……あーーーもう消えちゃった！[shakebg]/
+[delay 0.5 bg black 0.5]
+[minibg sky_star 0.5]
+[show A C]
+[scale A 2]
+[move A Y -200]
+[scale A 1.6 0.5]
+[move A Y 80 0.5]
+[face A 10]
+[say A]
+親分は何かお願いしました？
+ねー教えてくださいよ～親分～！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+親分の願いなら、星に願わなくても、
+この甲斐が全力でかなえてみせますから！！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 12]
+何笑ってるんですか親分～！
+甲斐は本気ですよ～！！/
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+楽しそうに笑う甲斐の笑顔を見て、
+寄り道してよかったと思った。/
+[serif off 1.5]
+[fadein BLACK 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on 0.5]
+それから帰りの時間まで
+二人でゆったりと過ごしたのだった。/
+[textcolor ARUJI]
+いい夏の思い出になった。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

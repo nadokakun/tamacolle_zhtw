@@ -1,0 +1,770 @@
+>>10000/
+@石見
+唷。[wait 1]
+我們是 Sanindo，石見。[autotap]/
+[delay 1.7]
+[flow]
+[-]
+@石見
+那我該在哪裡挖呢？/
+>>10001/
+@石見
+你又打電話給我了嗎？[autotap]/
+[delay 1.9]
+[flow]
+[-]
+@石見
+嗯，果然如此，讓我們滿懷熱情去挖掘吧！/
+>>1/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+你也認識石見銀山吧？
+石見這個國家著名的、令人驚嘆的銀礦。/
+[face A 03]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+不是說能拿到那麼多銀子的。
+過去，曾為此發生爭執。/
+[face A 04]
+不過似乎已經不再使用了。[wait 0.5][effect A kira 3000 0 200][face A 06]
+……為什麼不讓我挖一下呢？/
+>>2/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+這只是我...[wait 0.5]我不擅長海上，但是
+石見榻榻米浦的風景很棒。[face A 01]/
+[face A 00]
+那邊有一塊石頭，形狀像凳子。
+見到彼此很有趣。/
+[face A 01]
+還有……還有化石等等。
+你喜歡蘇我那門嗎？/
+[face A 06]
+如果你有興趣的話可以帶我一起去...[wait 0.5]
+等退潮的時候我們就出發吧。[shake A]/
+>>3/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+石見如果你想去鄉村散步，津和野鎮就是你要去的地方。/
+[face A 02]
+它原本是一個城下町，被暱稱為「山陰的小京都」。
+這是一個非常有氣氛的城市景觀。/
+[face A 06]
+[effect a kira 6000 0 200]
+城內遍佈運河，
+鯉魚在輕輕遊動。/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 09]
+要是我也能這樣游泳就好了
+沒什麼好害怕的.../
+>>4/
+[set A s_iwm_r 石見]
+[show A C]
+[move A Y -200]
+[face A 01]
+[move A Y 210 0.3]
+[delay 0.3 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+我今天沒有任何任務
+我希望我能花點時間挖坑。/
+[serif off]
+[se cloth_01]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[serif on]
+[face A 00]
+鶴嘴，燈……好了，準備工具。
+太好了，我們現在就出發吧。/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+瞄準最深處！/
+>>5/
+[set A s_iwm_r 石見]
+[randomset B r @地魂男児 -iwm]
+[show A C]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+唷，太陽一出來就熱了。
+脫掉你的夾克。 ....哦不。/
+[serif off]
+[se cloth_01]
+[show B R]
+[move B X 150]
+[face A 02]
+[face B 00]
+[move B X -150 0.5]
+[talk A]
+[-]
+[face B 05]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[-]
+[serif on]
+唷，這並不容易。
+今天的風感覺很好。/
+[face A 00]
+[face B 06]
+啊？　$B:A，你為什麼盯著我看？[move B Y 10 0.1][delay 0.1 move B Y -10 0.1]
+……身體好？/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y- 5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+哈哈，挖個坑可以鍛鍊一下自己。
+親愛的，我很高興受到讚揚。/
+>>6/
+[set A s_iwm_r 石見]
+[randomset B r @地魂男児 -iwm]
+[show A C]
+[show B C]
+[talk A]
+[face A 08]
+[face B 00]
+[setline 0 A B]
+[serif on]
+我們會一起執行任務，所以我們會一起戰鬥。
+我們一定要加深我們的友誼。/
+[face A 01]
+$B你覺得怎麼樣？[move B Y 10 0.1][delay 0.1 move B Y -10 0.3][face B 01]
+……是的，是的，我很高興你能理解。[move A Y 5 0.2][delay 0.2 move A Y -10 0.6][delay 0.8 move A Y 5 0.5]/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+如果你真想的話，我們趕快一起去挖坑吧！[face B 05]
+這是成為朋友的最好方式。/
+[se walk_03]
+[move B X 1000 0.5]
+[delay 0.3 hide B]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 05]
+那個！ ？[shake A]
+$B:A，你居然敢逃跑！ ？[move A X 800 0.5][hide A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+嗯，我已經困了，我想我很快就要睡覺了。/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，我忘記換衣服並拿到洗衣店了。/
+[face A 06]
+……今晚可以送我一條腰布嗎？/
+>>10/
+[set A s_iwm_r 石見]
+[randomset B r @地魂男児 -iwm]
+[show A C]
+[show B C]
+[face A 00]
+[face B 04]
+[setline 0 A B]
+[serif on]
+[talk A]
+哦，$B:A。我看著我說：
+發生了什麼事？/
+[face A 01]
+[face B 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+等等，你的臉沾滿泥巴了嗎？
+哦，來吧。剛才你在挖坑。/
+[serif off]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.3]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.3]
+[-]
+[serif on]
+[face A 06]
+擦洗。
+啊？還是漆黑一片嗎？/
+[face A 05]
+好吧，手巾也沒有被汙垢覆蓋。[face A 02][face B 02]
+啊哈哈！[move A Y -0 0.1][delay 0.1 move A Y -10 0.2][-][move A Y 10 0.1][delay 0.1 move A Y -10 0.2][-][move A Y 10 0.1][delay 0.1 move A Y -10 0.3]/
+>>11/
+[set A s_iwm_r 石見]
+[show A L]
+[talk A]
+[face A 00]
+[move A C 0.8]
+[-]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0][effect A kira a 0 200]
+[-]
+[serif on]
+嘆息，這不是氣味。
+今晚晚餐吃什麼...[wait 0.5][face A 05]噢，肉類菜餚！ ！ ？[shake A]/
+[face A 05]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+哦，那真是太珍貴了。
+我吃它可以嗎？ ？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+肉 chutara 是一份禮物，不是嗎？
+我很少能吃到它。/
+[face A 06]
+[effect off a]
+哈哈哈……奧基尼，
+今晚就讓我好好享受一下吧。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+呼…
+我今天感覺有點不安。/
+[move A X -200 0.5]
+[face A 09]
+[-]
+[move A X 200 0.5]
+嗯嗯...
+去...！[shake A]/
+[face A 06]
+我再也挖不下去了！
+我無法抗拒！ ！ ！[move A X 800 0.3]/
+>>15/
+[set A s_iwm_m 石見]
+[randomset B m @地魂男児 -iwm]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+……嗯？我認為地板需要稍微刮一下。[move A XY -10 -40 0.4][rotate A 10 0.3]
+也許有人用長矛擊中了它。/
+[face A 03]
+有一個洞…有一個洞…/
+[face A 08]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.5]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.5]
+刮擦……刮擦……
+（每當有坑的時候，我就想挖它......）/
+[show B R]
+[talk A]
+[face A 05]
+[face B 05]
+[move A XY 10 40 0.3]
+[delay 0.1 rotate A 0 0.3]
+[delay 0.3 move A X -200 0.2]
+哈哈$B:A，這不一樣！哦，我們到了...[shake A][face A 09]
+呃，請別再用你的臉看著我了…/
+>>16/
+[set A s_iwm_m 石見]
+[randomset B m @地魂男児 -iwm -@NPC]
+[show A C]
+[show B C]
+[face A 04]
+[face B 08]
+[serif on]
+[talk A]
+[setline 0 A B]
+爭鬥如挖坑，合作則粗暴。
+如果你不保護自己，你就會受傷。/
+[face A 01]
+[face B 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+那麼，我們就繼續我們的訓練吧。
+下次我會照顧你的。/
+>>17/
+[set A s_iwm_b 石見]
+[effect fr yuge a 0 0]
+[randomset B b @地魂男児 -iwm]
+[show A L]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+哎呀，電風扇的感覺真好…/
+[face A 01]
+我只是出了汗，洗完澡後我就完全光腳了。
+當我感受到這裡的微風時，我的感覺真好…/
+[show B R]
+[talk A]
+[move B X 150]
+[face B 00]
+[move B X -150 0.5]
+[-]
+[face B 06]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[-]
+[face A 00]
+啊？
+$B:A，你臉紅怎麼了？/
+[face A 02]
+哦，你也很熱。
+過來吧。我們一起冷靜一下吧。/
+>>18/
+[set A s_iwm_b 石見]
+[show A R]
+[face A 09]
+[effect fr yuge a 0 0]
+[move A X 300]
+[move A X -200 1.0]
+[wait 0.5]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+哇，洗澡太可怕了。 ……我前幾天在浴缸裡泡了澡吧？
+今天跑一下就沒事了...[move A Y -100 0.3]/
+[face A 04]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.5]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.5]
+啊！擦洗！吱！
+岜沙岜沙岜沙岜沙！ ！罐！ ！吱吱聲/
+[face A 09]
+[move A Y 100 0.2]
+噗哈！ ！　
+我全身都洗完了！ ……嘆息……嘆息……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+那天我喘不過氣來，跌倒了…[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+然後，[face A 02]請早點原諒。[move A X 500 0.5][hide A]/
+>>19/
+[set A s_iwm_b 石見]
+[randomset B b @地魂男児 -iwm]
+[effect fr yuge a 0 0]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[setline 0 A B]
+[serif on]
+[talk A]
+啊？　$B:A，你想感受一下我的肌肉嗎？
+是的。[move A Y 5 0.2][delay 0.2 move A Y -10 0.6][delay 0.8 move A Y 5 0.5]/
+[face A 06]
+[face B 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+其實我對自己大腿的粗細還蠻有信心的。
+挖洞時，腿部和臀部很重要。/
+[face A 02]
+[face B 06]
+嘿，你能抱抱我嗎？[move B XY -100 -100 0.5][rotate B 10 0.5]
+…………！是胖了！/
+>>20/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[waku on 0.5]
+[-]
+[serif on]
+[talk A]
+（小便池上畫了一個圓點，我在上面撒尿。）
+　當你這樣做時，你自然會以此為目標。 ）/
+[face A 01]
+[waku off 0.5]
+嘆氣，我不是這麼想的。/
+[face A 08]
+[waku on 0.5]
+（……我想我最終會弄清楚的。
+　每個人的尿都會弄出一個洞！ ）/
+[face A 02]
+[waku off 0.5]
+我很期待！/
+>>21/
+[set A s_iwm_r 石見]
+[randomset B r @地魂男児 -iwm]
+[show A C]
+[show B C]
+[face A 07]
+[face B 00]
+[setline 0 A B]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+呃……嗯[shake A]....嗯...
+醒來後尿不出來/
+[face A 01]
+[face B 01]
+[move A X 50 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嘿，$B:A我不這麼認為...？/
+[face A 02]
+[face B 06]
+哦，$B:A看來我連目標都無法設定。
+哈哈哈。[move A Y -0 0.1][delay 0.1 move A Y -10 0.2][-][move A Y 10 0.1][delay 0.1 move A Y -10 0.2][-][move A Y 10 0.1][delay 0.1 move A Y -10 0.3]/
+>>22/
+[set A s_iwm_r 石見]
+[show A L]
+[face A 06]
+[delay 0.3 move A C 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+唷！真是太清爽了！/
+[face A 02]
+好吧，今天我們就去花園挖個洞吧！[move A X 500 0.5][hide A]/
+>>23/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+唷，今天大家都感動了我。
+嗯，我很高興我的身體得到誇獎……但是……[face A 04]/
+[flow]
+那個老是摸自己胯部的男人是怎麼回事？
+嗯。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[face A 09]
+儘管這是一個可以訓練你的地方。
+……嗯，我想。[face A 02]/
+>>24/
+[set A s_iwm_r 石見]
+[randomset B r @地魂男児 -iwm]
+[show A C]
+[show B C]
+[talk A]
+[face A 02]
+[face B 00]
+[setline 0 B A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+哦，$B:A，那是一件新睡衣嗎？
+那不好。/
+[move A X -100 0.3]
+[se cloth_01]
+[face A 01]
+[face B 02]
+哦，摸起來感覺很好。
+很光滑。/
+[face A 04]
+[face B 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+我的睡衣太破了
+這是完全不同的。/
+[face A 09]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+這裡特別亂...
+你看，你能摸到它嗎？[face B 00]/
+>>25/
+[set A s_iwm_r 石見]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+嗚嗚嗚嗚嗚嗚嗚嗚嗚…[shake A]/
+[talkend]
+她的睡衣被剝落，纏腰布完全暴露在外。/
+>>26/
+[set A s_iwm_r 石見]
+[show A R]
+[face A 06]
+[move A C 1.0]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+[talk A]
+之前大家都在看的《春畫》書，
+裡面真是太神奇了.../
+[face A 04]
+不，我沒看清楚…
+我瞥見了它，但是……有點刺痛……[shake A]/
+[talkend]
+石見似乎很痛。/
+>>100/
+[set A s_iwm_r 石見]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 土だらけの石見]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[se doka_01]
+[delay 0.5 se doka_01]
+[wait 1.0]
+[-]
+[se walk_01]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg niwa_day]
+[-]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+正當我在莊園裡散步的時候，我聽到花園裡傳來了一些聲音。
+當我去那裡時，我發現石見滿是泥土。/
+[serif off]
+？ 石見/
+[show A C]
+[face A 00]
+[talk A]
+[-]
+[serif on]
+哦，是你。
+您想在Kogaato散步嗎？/
+[face A 05]
+啊，在那裡！很危險！/
+[hide A]
+[talkend]
+[shakebg]
+[se doka_01]
+[textcolor ARUJI]
+當石見這麼說的時候，已經太晚了，已經落地了。
+我的腳卡在洞裡，失去了平衡。/
+[serif off]
+[shakebg]
+[se dosa_01]
+[effect fr syutyu a 0 0]
+[wait 0.5]
+[-]
+[show A]
+[face A 06]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on]
+[effect off a]
+呼，這裡是個危險的地方…/
+[talkend]
+[textcolor ARUJI]
+石見 摔倒前堅定
+他抱著我的身體。/
+[textcolor ARUJI]
+石見的身體粗壯有力。/
+[hide A]
+[serif off]
+？謝謝...地上有洞嗎？/
+[show A]
+[face A 09]
+[scale A 1.6]
+[move A Y -150]
+[scale A 1.0 1]
+[move A Y 150 1]
+[-]
+[serif on]
+[say A]
+嗯，我很高興你沒有受傷…
+這是我的錯.../
+[face A 06]
+這就是我挖土的地方。/
+[serif off]
+？挖掘？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[serif on]
+是的。有人問我要不要在我的花園裡蓋一個花壇。
+我們是平整土地的人。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+嘿，你很擅長在泥土上挖洞，不是嗎？
+是因為我的血液在沸騰嗎？/
+[serif off]
+？喜歡/
+[serif on]
+[face A 01]
+如果你想要一個洞，請打電話給我！
+你可以隨時挖掘它！/
+[face A 06]
+啊，不過從現在開始，我先把事情做好吧。
+挖洞時不必擔心張貼標誌。/
+[talkend]
+[textcolor ARUJI]
+石見雙手叉腰，強顏歡笑。/
+[face A 00]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，你手上拿的那塊板是什麼？
+它又光滑又漂亮…/
+[serif off]
+？與智慧型手機有關嗎？/
+[face A 01]
+[serif on]
+蘇馬霍，楚？
+哪一個...[scale A 1.5 0.5][move A Y -100 0.5]/
+[talkend]
+[textcolor ARUJI]
+石見饒有興趣地看著自己的手機，
+當我拿起它時，我開始觸控它。/
+[face A 02]
+[talk A]
+哇，它是如此閃亮和光滑。
+打磨起來真的很難.../
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+哦，它閃閃發光！　[move A Y 100 0.1][delay 0.1 move A Y -100 0.2]哦，哦，哦！ ？[shake A]
+哈哈，[face A 02]它在動！/
+[talkend]
+[textcolor ARUJI]
+石見像個孩子一樣玩耍，
+我有一段時間迷上了我的第一部智慧型手機。/
+[face A 00]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……啊，抱歉！我會把它還給你。/
+[serif off]
+[scale A 1.0 0.5]
+[move A Y 120 0.3]
+[delay 0.3 move A Y -20 0.2]
+[-]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+未經允許我可以觸控東西
+如果不髒就好了.../
+[serif off]
+？沒關係。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[serif on]
+嘆息。[wait 0.5]自從那個sumahomoja來到這個莊園
+有很多令人驚奇的事情和很多驚喜。/
+[face A 00]
+我的一些朋友已經習慣並使用它。
+我有一個，但我想知道我是否也能使用它。/
+[face A 04]
+[flow]
+聽說功能很多，但好像很難。
+不要研究你能做什麼。/
+[serif off]
+?您可以輕鬆拍攝照片和影片。/
+[serif on]
+[face A 03]
+什麼是影片？　[wait 0.5][face A 05][shake A]噢，這是一張動人的照片！ ？
+現代就沒有這樣的事情了！/
+[face A 01]
+下次我挖的時候，你能拿走嗎？
+努力挖，挖！ ！/
+[serif off]
+？好的，我也請石見拍一張。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+來吧！[wait 0.5][move A Y 10 0.1][face A 05][delay 0.1 move A Y -10 0.1]
+哦，是這樣。/
+[talkend]
+[serif off]
+[face A 00]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+石見站在前面，靠近了一步。
+有一股淡淡的汗味和泥土味。/
+[face A 02]
+[talk A]
+跟你在一起會很長一段時間，不是嗎？
+從現在開始我要請求你的幫忙！/
+[talkend]
+[textcolor ARUJI]
+說完握手後，石見就沾滿了灰塵。
+他搔了搔鼻子，笑了。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

@@ -1,0 +1,931 @@
+>>10000/
+@相模
+嘿，我是相模，來自東海道。[autotap]/
+[delay 3.5]
+[flow]
+[-]
+@相模
+....嗯...[wait 1]因為我想繼續我的研究，
+我想知道你是否會留下我一個人....../
+>>10001/
+@相模
+....嗯...[wait 1]我不在乎.../
+>>1/
+[set A s_sag_r 相模]
+[show A C]
+[face A 04]
+[say A]
+[serif on]
+...鎌倉幕府...始於1192年...
+呵呵，看來很多人都這麼認為…/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+同年，賴朝被任命為徵伊大將軍。
+什麼.../
+[face A 01]
+所以……啊，請不要犯錯誤，主啊。/
+>>2/
+[set A s_sag_r 相模]
+[show A C]
+[face A 04]
+[serif on]
+[say A]
+金澤八景，我國引以為傲的風景…
+但現在只能在浮世繪中看到。/
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+我想把它展示給主看...
+……啊，[face A 05][shake A]不不不，正因如此…/
+[face A 09]
+額，我不會畫畫…
+我會盡量用語言來表達.../
+>>3/
+[set A s_sag_r 相模]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊？啊，呃……我在看江之島的寫真集……
+這是一個非常好的地方。[face A 09]/
+[face A 00]
+以前不與大陸相連，
+我只有在退潮的時候才能渡過...但是/
+[face A 09]
+現在你可以隨時行走。　/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，主啊…
+跟我一起去吃shirasu蓋飯吧…！/
+>>4/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A L]
+[face A 03]
+[move A C 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+嗯……已經這麼久了……
+陽光明媚……我以為我不知為何睏倦了……/
+[show B R]
+[setline 0.5 A B]
+[talk A]
+[face A 00]
+[face B 01]
+啊，$B:A，早安...
+看來你過得還不錯...[face A 04]/
+[move A X 600 2]
+[delay 1.5 hide A]
+[autotap]/
+[face A 01]
+[face B 05]
+我、我要去睡覺了…
+晚安.../
+>>5/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[face A 04]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+呃……頭暈了……
+這種感覺和症狀可能是由於低血壓.../
+[show B R]
+[move B X 200]
+[move B X -50 0.5]
+[moveline A B -200 0 1]
+[talk A]
+[face A 03]
+[face B 01]
+[say A]
+我-我希望現在沒有人跟我說話...
+[face B 05]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]/
+[move A X -300 0.5]
+[hide A]
+[autotap]/
+>>6/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag -@NPC]
+[show A C]
+[face A 03]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on][say A]
+還叫我去煮飯...
+Ryo，我對烹飪沒興趣…/
+[show B L]
+[move B X -200]
+[move B X 200 0.5]
+[face A 01]
+[face B 00]
+[talk A]
+啊，$B:A....今天的午餐
+我想知道你是否能為我做...[move B Y 5 0.2][delay 0.2 move B Y -10 0.6][delay 0.8 move B Y 5 0.5][face B 01]是的，這有幫助...[face A 02]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[face A 07]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 08]
+[serif on]
+[say A]
+哇……我終於感覺好多了……/
+[show B R]
+[face B 00]
+[talk A]
+[setline 0.5 A B]
+啊，$B:A。宇，晚餐時間了…？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+哦，我明白了。但我想繼續我的研究。
+我很好奇，等我吃完了就去吃東西…[face B 05]…[shake B]/
+[move A X -400 1]
+[hide A]
+[delay 0.3 hide B]
+[-]
+[talkend]
+[= $Bは相模のぶんの夕食にラップをかけてあげた。 $Bが気づくと相模のぶんの夕食は
+原來是被吃掉了！之後$B給相模帶來了食物。 ]/
+>>10/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[show B C]
+[setline A B]
+[face A 06]
+[face B 05]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[serif on]
+[talk A]
+啊，$B:A……我覺得還好一點…
+我希望你能和我一起做這樣的實驗.../
+[face A 05]
+[face B 04]
+[shake B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊？ ……你、為什麼要拒絕…
+有什麼理由嗎...？/
+[move B X -50 0.1]
+[delay 0.1 move B X 100 0.2]
+[delay 0.3 move B X -100 0.2]
+[delay 0.5 move B X 50 0.1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[face B 08]
+……呃……也就是說……
+[= これから主に頼まれて反復横跳びの練習ってこと？ 健康のために18時以降は断食中ってこと……？ $B:Aは犬の方が好きってこと……？ 毎晩踊りの練習してるってこと……？ いまきわどい下着を履いてるってこと……？ 胃が壊れるほどご飯を食べすぎたってこと……？]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 01]
+是的……或者有什麼改變了……
+我想我也來嘗試.../
+[talkend]
+相模 是$B藉口
+看來他是徹底相信了。/
+>>11/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[face A 06]
+[serif on]
+[say A]
+我的新研究已經完成了…！
+我想要有人嘗試.../
+[show B R]
+[face A 01]
+[face B 00]
+[move B X 300]
+[setline 0.5 A B]
+[talk A]
+啊，$B:A，等等，就一點點。
+你能幫我一下嗎...吃這個藥...
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]/
+[delay 1 shakebg]
+[delay 1 se dosa_01]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -110 1.0]
+[autotap]/
+[face A 05]
+[face B 05]
+[talkend]
+已傳遞至相模[= 真っ赤な 奇妙な いい香りの どろりとした 白濁の] 當你吃藥時
+$B哈[= ドキドキが止まらなくなってしまった。 汗が溢れてむわっとしてきた。 幻覚相手に恥ずかしい話をはじめた。 何でもいいから食べたくなってきた。 体が痺れて動けなくなってしまった！]/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 10]
+[say A]
+哦，看來效果比我想像的還要強啊…
+我會做一些調整...[move A X -300 0.5][hide A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+哈...！[shake A]　京今天
+我的身體感覺似乎很敏銳…[face A 02]/
+[face A 10]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+這種時候就用自己的身體吧
+我必須嘗試更多...！/
+[face A 06]
+噢，[shake A]嗯...[shake A]哦，這很有趣...
+[face A 02]/
+[show B R]
+[move B X 100]
+[face A 05]
+[face B 05]
+[scale B 1.6]
+[move B Y -120]
+[setline 0.5 A B]
+[talk A]
+啊，$B:A……
+你也想嘗試嗎...?[face A 06][face B 06][shake B]/
+>>15/
+[set A s_sag_m 相模]
+[randomset B m @地魂男児 -sag]
+[show A C]
+[show B C]
+[move A X 1000]
+[face A 00]
+[face B 08]
+[effect fr katanas 5000 0 0]
+[se doka_01]
+[delay 0.3 se katana_02]
+[delay 0.3 shakebg]
+[shakebg]
+[-]
+[moveline B A -1000 0 1]
+[-]
+[serif on]
+[say A]
+$B:A我正在訓練……我沒有接受太多特殊訓練。
+因為我不喜歡，$B:A讓我們拿資料.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+………………嗯嗯，我明白了……
+將此資料與過去的資料進行比較.../
+[face A 02]
+[face B 04]
+[= もう少し伸びそう……
+我想我會為她配製一些藥物……哇，她長得這麼大了……！　
+我不知道我給你開的藥有沒有效果……是的，一切都很順利……
+我期待著接下來收集資料......]/
+>>16/
+[set A s_sag_m 相模]
+[show A C]
+[face A 02]
+[serif on]
+[say A]
+[se paper_01]
+……我在書上讀到的這個策略可能很有趣...
+嘿嘿，下次當隊長的時候，我也去嘗試…/
+[face A 01]
+不管結果如何
+如果能得到實戰資料的話就很有用了……！/
+>>17/
+[set A s_sag_b 相模]
+[randomset B b @地魂男児 -sag]
+[show A C]
+[show B C]
+[setline A B]
+[face A 05]
+[face B 00]
+[serif on]
+[talk A]
+啊，$B:A，正在成長一點點！ ？[shake A]
+我得趕緊記錄下來……！/
+[face A 10]
+[face B 05]
+[move A X 150 0.2]
+[shake B]
+嘿嘿$B:A……
+或者也許我可以測量一下我的身體！ ？/
+[face A 06]
+[move A X 100 0.2]
+[move B X 200 0.5]
+[face B 04]
+沒關係…很快就會結束的…
+保持安靜……對吧……？/
+>>18/
+[set A s_sag_b 相模]
+[serif on]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 10]
+[effect fr yuge A]
+[se amb_12]
+[move A Y -50]
+[say A]
+嗯...
+我的眼鏡起霧了，看不清楚東西…/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+這是一個近距離觀察的好機會.../
+[face A 10]
+[= 曇らない眼鏡 目が良くなる薬 長時間水中に潜っていられる薬]的
+我必須開發它.../
+>>19/
+[set A s_sag_b 相模]
+[randomset B b @地魂男児 -sag]
+[show A]
+[show B]
+[scale A 1.6]
+[face B 10]
+[scale B 1.6]
+[face A 06]
+[face B 01]
+[setline A B]
+[effect fr yuge A]
+[se amb_12]
+[moveline  A B 0 -180 0]
+[talk A]
+[serif on]
+$B:A....用熱水溫熱
+看起來和平時的大小不一樣啊/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[move A X 50 0.5]
+[shake B]
+[face B 06]
+[se water_06]
+天冷了人體就會收縮，這很有趣…
+我必須仔細觀察，以免忘記……！/
+>>20/
+[set A s_sag_r 相模]
+[show A C]
+[move A X 800]
+[move A X -800 0.5]
+[face A 06]
+[say A]
+[serif on]
+快點快點啊啊啊…[shake A]
+嘆息...唷...我準時到達了...[face A 01]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[se pee_01]
+是的，當我專心研究的時候我就想小便。
+我會忘記.../
+>>21/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[se pee_01]
+[face A 02]
+[serif on]
+[say A]
+人體很有趣...
+畢竟，我最擔心的地方是……！/
+[show B L]
+[move A X -200 0.5]
+[move B X -400]
+[face B 00]
+[-]
+[setline 0.5 B A]
+[face A 06]
+[face B 05]
+[talk A]
+嘿，$B:A我想知道你是否可以告訴我...
+別這麼說...這是一個重要的紀錄.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 06]
+[shake B]
+呵呵，謝謝你...
+真是有趣的形狀……！/
+>>22/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[face A 01]
+[move A Y -50]
+[serif on]
+[say A]
+……呼……對了，今天就看這本書吧……
+新知識……有趣……[se paper_01]/
+[show B R]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[move B X 200]
+[delay 0.3 move B X -200 0.5]
+[delay 0.8 shakebg]
+[face B 04]
+[orderline A B]
+[talkend]
+康康康/
+[face A 00]
+[say A]
+[se paper_01]
+哈，這是在.../
+[shake B]
+[talkend]
+[se paper_01]
+當我們收到沒有私人房間的投訴時，
+相模似乎常被悶悶不樂。/
+>>23/
+[set A s_sag_r 相模]
+[show A C]
+[move A Y -50]
+[face A 00]
+[serif on]
+[say A]
+呃...
+我根本就出不了籠子…/
+[face A 04]
+我在自己身上嘗試了原型藥物。
+[= な、なんか、お腹壊しちゃった…… まだおしっこが止まらないや…… 足が痺れてまったく動けない……][shake A]/
+[face A 03]
+藥起作用了，我的身體感覺好多了…
+這個副作用很痛.../
+>>24/
+[set A s_sag_r 相模]
+[show A C]
+[face A 07]
+[move A Y -100]
+[wait 0.5]
+[-]
+[se cloth_01]
+[move A Y 100 0.5]
+[face A 03]
+[serif on]
+[say A]
+我嘗試鋪上蒲團，但是
+畢竟眼睛那麼清澈，睡不著…/
+[face A 02]
+讓我們繼續研究.../
+[serif off]
+[move A X 300 0.5]
+[hide A]
+[se fusuma_01]
+[autotap]/
+>>25/
+[set A s_sag_r 相模]
+[show A]
+[rotate A -40]
+[face A 07]
+[say A]
+[serif on]
+[move A Y -100]
+………………
+咕咕……咕咕……/
+[talkend]
+相模 好像在睡覺。/
+>>26/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[show B C]
+[face A 07]
+[face B 07]
+[serif on]
+[rotate B -40]
+[rotate A -40]
+[setline A B]
+[moveline A B -100]
+[talk A]
+[-]
+[se cloth_01]
+[face A 10]
+[rotate A 0 0.5]
+[move A Y 100 0.5]
+大家都睡得很香...
+我配的安眠藥好像效果不錯…/
+[move A X 100 0.5]
+[delay 0.3 move A Y -100 0.3]
+[delay 0.3 rotate A -10 0.3]
+[face A 06]
+[se cloth_02]
+嘿嘿，趁你睡覺的時候我去研究一下…
+嗯…對研究很有幫助…[effect A kira a  0 0][se kira_01]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[rotate A 0 0.5]
+[move A X 100 0.5]
+……我們也來測量一下你的身體吧。
+呵呵...更多資料已新增.../
+>>100/
+[set A s_sag_r 相模]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 相模の興味]
+[-]
+[bg gozasyo_night]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[wait 1.5]
+[-]
+[fadein BLACK 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_night]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[-]
+[se fusuma_01]
+[fadeout]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+深夜，我離開房間去洗手間。
+我沿著莊園的走廊走去，莊園已經睡著了。/
+[textcolor ARUJI]
+然後，一盞燈從一間空蕩蕩的房間裡射了出來。
+它正在洩漏。我想知道是否有人在那裡。/
+[serif off]
+？看一下/
+[serif on]
+[textcolor ARUJI]
+當我走近去開門時，
+我突然感覺到腳底有種黏糊糊的感覺。/
+[textcolor ARUJI]
+鶴津！
+到底是什麼啊！ ！ ！
+[shakebg]
+[se dosa_01]/
+[textcolor ARUJI]
+[flow]
+我剛剛滑倒了。/
+[serif off]
+？那是.../
+[light def]
+[lightcolor orange]
+[se fusuma_01]
+[serif on]
+@？？？
+……誰？/
+[show A C]
+[face A 05]
+[textcolor ARUJI]
+當我趴在屁股上的時候
+房間的門開啟了，相模走了出來。/
+[say A]
+啊，主啊…/
+[face A 00]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+什、你為什麼在這裡…
+你坐著嗎.../
+[serif off]
+？走廊有點黏糊糊的。/
+[serif on]
+[face A 05]
+啊...[shake A]/
+[face A 01]
+哦，那個…
+這是我的原型.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+嗯，當我早些時候嘗試過時，
+我想知道是不是我灑了.../
+[serif off]
+？這個黏黏的東西是相模做的？/
+[serif on]
+[face A 01]
+啊[shake A]……我……我做了很多事。
+我正在做研究.../
+[move A XY 10 -140 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+這是一種永不乾涸的潤滑劑.../
+[face A 10]
+這正是莊園小子想要的…
+是啊……看來事情進展順利。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+觸控地板上的黏液時
+相模疑惑地微笑著。/
+[show A C]
+[face A 00]
+[say A]
+那麼，主啊，我現在不能放開你…
+我、我要回房間了……到時候見。[face A 04]/
+[move A X -300 0.5]
+[se fusuma_01]
+[hide A]
+[se walk_01]
+[-]
+[wait 0.5]
+[-]
+[bg heya_light 0.5]
+[talkend]
+[light off 0.5]
+[effect fr yuge a 0 0]
+[textcolor ARUJI]
+看看包含相模的房間。/
+[flow]
+[textcolor ARUJI]
+牆上到處都是圖畫，
+桌子上還堆放著裝置和書籍。/
+[flow]
+[textcolor ARUJI]
+大鍋裡煮什麼
+看起來就像之前的黏稠液體。/
+[flow]
+[textcolor ARUJI]
+顯然這裡正在進行各種「研究」。
+似乎確實如此。/
+[textcolor ARUJI]
+順便說一句，相模的研究成果在六原身上。
+經評價——/
+[flow]
+[textcolor ARUJI]
+對於提供給語音治療師的工具很有用。
+我聽豬森說他正在尋求合作。/
+[show A C]
+[face A 03]
+[say A]
+[scale A 1.6]
+[move A Y V-120]
+哇，這個數字太高了……也就是說……
+但如果你這麼認為，那麼…/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+是啊……藥效
+我覺得還可以再提高一點.../
+[talkend]
+[textcolor ARUJI]
+嘴裡嘟囔著什麼，臉上的表情卻是嚴肅起來。
+相模 沉浸在研究中。/
+[textcolor ARUJI]
+作為一名研究員，我與 Inomori 一起工作。
+或許還有我們可以相處的地方。/
+[hide A]
+[serif off]
+?相模 對研究充滿熱情。/
+[show A C]
+[face A 05]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+……嗯？[shake A]
+啊，主還在…/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[flow]
+我、我喜歡一個人研究…
+所以，不用太擔心.../
+[face A 01]
+……但事實並非如此…
+如果主想看，他就能看到，但是…/
+[face A 01]
+請不要觸控或乾擾這些工具.../
+[face A 02]
+[talkend]
+[textcolor ARUJI]
+只要你不妨礙我
+看來他並不介意在旁邊觀看。/
+[textcolor ARUJI]
+我在後面悄悄觀察了相模一段時間，
+突然，我想起我想去洗手間。/
+[hide A]
+[serif off]
+？ 相模，我去一下洗手間。/
+[show A C]
+[face A 04]
+[say A]
+[serif on]
+所以，別跟我說話…
+並且，[shake A]廁所……？[face A 05][shake A 2 5 5]/
+[face A 06]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[effect bk wavein 1000 0 0]
+[shakebg]
+[bgm departure]
+我、我現在就走！ ？[shake A]
+那麼，你就跟我走吧！ ？[shake A]/
+[move A X -300 0.4]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[flow]
+[se goso_01]
+哦，等一下！
+我現在就去準備！ ！很快就會結束的！ ！[shake A][se cloth_01]/
+[hide A]
+[talkend]
+[serif off]
+？突然咬一口是怎麼回事…/
+[show A C]
+[scale A 1.6]
+[move A Y -220]
+[move A Y 100 0.5]
+[face A 02]
+[say A]
+[effect A kira b 0 100]
+[serif on]
+[se kira_01]
+我、我對生物的身體真的很有興趣……！
+啊，我想知道主的身體是什麼樣子的…/
+[serif off]
+？什麼？你是什​​麼意思！ ？/
+[face A 06]
+[serif on]
+如果你很瞭解你正在研究的身體，
+我們開發的藥物的有效性也將增加.../
+[face A 01]
+[flow]
+當你執行任務時，檢查敵人的屍體。
+你也可以想想自己的弱點.../
+[hide A]
+[talkend]
+[serif off]
+？我明白了...？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[effect off b]
+[serif on]
+但是……我最關心的是…
+這是作為一個男人的重要組成部分.../
+[face A 02]
+[flow]
+形狀、尺寸、硬度等
+我很好奇.../
+[serif off]
+?！？/
+[face A 06]
+[serif on]
+我有這個莊園裡每個人的記錄。
+嗯，我想我還是需要認識我的主人……！/
+[scale A 2.2 0.3]
+[move A Y -150 0.3]
+[face A 02]
+有比較就好了！[shake A]
+這就是我喜歡的…因為…[face A 06]/
+[serif off]
+？不！ ！/
+[hide A]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+相模無論我如何拒絕，都試圖跟隨我。
+一切都會結束嗎？不.../
+[serif off]
+[bgm off]
+？ ……也告訴我其他的「研究」吧。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+呃，你對我的研究有興趣嗎…？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[bgm home]
+哦，對了……還在計劃階段，但是…[move A X 300 0.3]例如
+這是試圖改變靈魂守護者本質的東西…/
+[move A X -400 0.3]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+這靈器增強身體機能！
+但我還沒想出好的技術.../
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+沒錯[wait 0.2]……[wait 0.2]這邊[wait 0.2]……[wait 0.2]然後.../
+[textcolor ARUJI]
+[talkend]
+相模開始愉快地交談，
+最終，我開始全神貫注地思考，所以....../
+[hide A]
+[textcolor ARUJI]
+[fusuma_02]
+[light def 0.5]
+[effect off a]
+[lightcolor orange]
+[bg rouka_night 0.5]
+安靜地離開房間，以免被注意到。
+我把它留到以後再說。/
+[textcolor ARUJI]
+[fadein black 2]
+這種好奇心和奉獻精神使相模 脫穎而出。
+這可能會產生研究成果。/
+[textcolor ARUJI]
+獨自站在小便池前時
+我就是這麼想的。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

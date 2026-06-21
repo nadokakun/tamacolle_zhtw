@@ -1,0 +1,572 @@
+>>10000/
+@夜行さん
+え、えーっと自分、夜行さん、ッス。
+[autotap]/
+[delay 5.3]
+[flow]
+@夜行さん
+やべー…自分でさん付けすんの超恥ずかしい…/
+>>10001/
+/
+/
+>>1/
+/
+/
+/
+>>2/
+/
+/
+/
+>>3/
+/
+/
+/
+>>4/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[face A 01]
+[-]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+温かいお布団に明るい部屋。食べ物にも
+困らないし、遊ぶものはいくらでもある……/
+[face A 02]
+[effect fr kira a 0 0]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[se kira_01]
+これ、最高の引きこもり生活できるんじゃ……！？/
+[show B C]
+[scale A 1 0.3]
+[move A Y 120 0.3]
+[setline 0.5 A B]
+[face A 05]
+[face B 00]
+[effect off a]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、え……ま、まぁ暇っすけどぉ……
+手伝い？　[face A 01]……あー……ッス。
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]/
+[face B 01]
+[move B X 120 0.5]
+[hide B]
+[move A C 0.6]
+[-]
+[waku on 0.5]
+[face A 04]
+…………
+（全然一人になれねぇ……！）[shake A]/
+>>5/
+[set A s_a005_r 夜行さん]
+[show A C]
+[face A 06]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふあああ……ねっむぅ……
+このまま寝てたら朝飯の時間おわるなぁー……[face A 00]/
+[flow]
+うーん……まぁ、いいか！[face A 01]
+昼飯まで寝てよ……[rotate A -30 0.5][move A XY 50 -100 0.5][delay 0.5 se dosa_01][delay 0.5 shakebg]/
+[face A 07]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+これぞ自由な生活の醍醐味っしょ……
+むにゃむにゃ……/
+>>6/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[show B R]
+[move B X 400]
+[move B X -400 1]
+[face A 00]
+[face B 00]
+[orderline B A]
+[-]
+[face A 05]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[say A]
+[waku on 0.5]
+（ぉわ！？　通りがかりに
+　$B:Aに挨拶された……）/
+[face A 01]
+[shake A]
+[waku off 0.5]
+お、おほんっ……
+んぉ、[= おは、おはよぅ”……… んちゃ、ンチャス………… んッタース…… い、テンキ、……スね…… きょ、ヨロシ、ッシュ…… ウス、キョ、シャス、ネー……]
+[face B 02]/
+[face A 05]
+[shake A]
+[waku on 0.5]
+（やっべ……人と話すの慣れてなさすぎて
+　今めっちゃ変な声出た……）/
+[move B X -300 0.5]
+[face B 00]
+[hide B]
+[face A 04]
+（絶対引かれたー……つら……）/
+>>/
+/
+/
+/
+/
+>>/
+/
+/
+/
+>>9/
+[set A s_a005_r 夜行さん]
+[show A C]
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[say A]
+自分だけのねぐら……っつーか引き込もれる場所
+今日こそ見つけるぞー……/
+[face A 00]
+[waku on 0.5]
+（大部屋でみんなが雑魚寝してたら
+　黒鉄が自由に寝返り打てないからなあー）/
+[waku off 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+なー黒鉄ー。
+お、可愛いねーお前は。よしよし。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 02]
+さあ、空いてる部屋を探しに行くぞー。[shake A]/
+>>10/
+[set A s_a005_r 夜行さん]
+[show A C]
+[face A 03]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+[say A]
+あれっ黒鉄……お前めっちゃ泥だらけじゃん。
+えっ、[shake A][face A 05]昼間にここの人と遊んでもらったって？/
+[scale A 1.6 0.3]
+[move A Y -120. 0.3]
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+[face A 05]
+おまっ、オレが昼寝してる間に
+友達増やしたってこと！？/
+[face A 04]
+（お、お前……
+　実はリア充側なの……！？）/
+>>11/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[randomset C r -a005]
+[show A C]
+[show B C]
+[show C C]
+[face A 00]
+[face B 00]
+[face C 01]
+[setline A B C]
+[orderline B A C]
+[-]
+[serif on]
+[say A]
+[say A]
+へぇー　みんなで[= ゲーム大会 かくれんぼ おにごっこ ドッジボール 枕投げ 恋バナ？]
+するんすか……えっ[shake A][face A 05]……オレも！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[face B 04]
+あー……自分は今日は……ちょっとアレっすねー
+……またの機会ってことで……/
+[serif off]
+[moveline B C 400 0 0.6]
+[move B X 100 0.6]
+[hide B]
+[hide C]
+[delay 0.3 move A C 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 03]
+[-]
+[serif on]
+……日中任務とか訓練とかあったのに夜も遊び
+回ってるとか、地魂男児の体力やばすぎでしょ。/
+[face A 04]
+……まじであの人達の
+ペースで動いてたら、体持たないって！/
+>>/
+/
+/
+>>/
+/
+/
+>>14/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[waku on 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on][say A]
+はー押入れの中……めっちゃ落ち着くっすわー……
+ん～、ここなら秘蔵の春画を……[face A 01]へへっ。/
+[effect fr syutyu a 0 0]
+[show B C]
+[se fusuma_01]
+[face B 00]
+[waku off 0.5]
+[move A X 200 0.5]
+[move B X -200 0.5]
+[orderline A B]
+[-]
+[shake A 3 10 10]
+[face A 05]
+[face B 05]
+[say A]
+わっ！！　ちょっ$B:A、いやマジで
+いきなり襖開けるとかありえないんスけど！？[face A 03]/
+>>15/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005 -@あやかし]
+[show A C]
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[say A]
+はー……みんな頑張ってるんすね……/
+[show B R]
+[move B X 400]
+[move B X -400 0.6]
+[face B 01]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+わっ、$B:A！？
+えっ、稽古！？　オレも！？/
+[face A 06]
+[face B 00]
+[move A X -100 0.3]
+いや……自分はそういうの平気なんで！
+遠くから応援してるんでー！[move A X -800 0.5][move B X -100 0.3]/
+>>16/
+[set A s_a005_m 夜行さん]
+[randomset B m -a005 -NPC]
+[randomset C m -a005 -NPC -@NOW]
+[set D s_n001_m 夏人]
+[show B]
+[show C]
+[setline B C]
+[face B 08]
+[face C 08]
+[effect fr katanas 5000 0 0]
+[se katana_01]
+[delay 0.3 se katana_02]
+[shakebg]
+[delay 0.3 shakebg]
+[wait 1]
+[-]
+[show A C]
+[move A X 1000]
+[moveline B C A -1000 0 1]
+[face A 05]
+[-]
+[serif on]
+[say A]
+うわー……この人たち、竹刀じゃなくて
+マジの真剣使って訓練してる……/
+[face A 06]
+任務のためにそうやって鍛えてるってこと？
+すごー……[shake A]/
+[show D R]
+[face D 16]
+[say A]
+[wait 0.5]
+[-]
+[move A X 250 0.5]
+[setline 0.6 B C D -200 600]
+[delay 0.6 shake D]
+[face B 04]
+[face C 04]
+[face A 00]
+……あ、普通に叱られてる。/
+/
+>>17/
+[set A s_a005_b 夜行さん]
+[randomset B b -a005]
+[show A C]
+[face A 05]
+[-]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+げ、[= タオル 着替えのパンツ 着替えの上着 着替えのズボン 新品のパンツ]
+持ってくるの忘れてんじゃん。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[show B R]
+[face A 04]
+[face B 00]
+[say A]
+[se cloth_01]
+一度全裸になったのに取りに戻るために
+また服着るのつら……/
+[face A 05]
+[face B 01]
+えっ、$B:A……
+貸してくれるんすか？　あ、あざーす！/
+[waku on 0.5]
+[move B X 300 0.5]
+[hide B]
+[face A 01]
+（え、この人、複数枚持ってきてるの……？
+　なんで……？）/
+>>18/
+[set A s_a005_b 夜行さん]
+[show A C]
+[face A 06]
+[se amb_12]
+[effect fr yuge a 0 0]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[serif on]
+[say A]
+……他人と一緒に風呂とか……完全にリア充の
+やるヤツじゃん……うぅ、気まずいわぁ……/
+[face A 04]
+[move A Y -100 0.5]
+[se bath_02]
+こういうの向いてないから引きこもってたのに
+こんな世界に呼び出されるなんて……くぅぅ……[shake A]/
+>>19/
+[set A s_a005_b 夜行さん]
+[randomset B b -a005]
+[show A C]
+[show B R]
+[orderline A B]
+[face A 05]
+[face B 07]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[se amb_12]
+[effect fr yuge a 0 0]
+[-]
+[serif on]
+[say A]
+えっ……！
+（背中に誰かが触れてる…$B:A！？）[waku on 0.5]/
+[face A 06]
+[flow]
+（……ゆ、湯気でよく見えないからって
+　そういうことしちゃう！？　うわー、大胆……）/
+[face A 05]
+[moveline A B 230 0 0.5]
+[waku off 0.5]
+[se bath_01]
+って黒鉄の尻尾じゃん！[shake A]
+び、びっくりしたー！[face A 06]/
+>>20/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[randomset C r -a005]
+[show A R]
+[show B C]
+[show C C]
+[face A 00]
+[face B 00]
+[face C 04]
+[scale B 1.6]
+[scale C 1.8]
+[orderline C B A]
+[move C X -500]
+[move B X -250]
+[move C Y -160]
+[move B Y -120]
+[move A X 400]
+[move A X -400 0.6]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+[serif on]
+[say A]
+え、人多っ……厠でたむろってる連中、謎すぎ……[face A 03]
+さっさと済まして出ていこ……[move A X -500 0.6][move B X 500 0.6][move C X 1000 0.5]/
+[face A 05]
+[shake A]
+って……えっ、この便器故障中！？[se zukkoke_01]/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+まさかの順番待ち行列……並ぼ……[move A X 100 1]/
+>>21/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[show B C]
+[face A 05]
+[face B 00]
+[setline A B]
+[-]
+[serif on]
+[say A]
+！？
+……/
+[face A 06]
+[waku on 0.5]
+（み、見えちゃった……[shake A]なんか、他人と過ごした
+　経験なさすぎて、めっちゃドキドキする……）/
+>>22/
+[set A s_a005_r 夜行さん]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+はぁー……落ち着く……まじで落ち着くわー……
+ご飯もここで食べちゃおっかな……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+いやー、皆悪いヤツじゃないんだけどさ……
+はぁ、人見知りは辛いわー……/
+>>23/
+[set A s_a005_r 夜行さん]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふぅ……個室、落ち着くー……あれ？
+壁と便器の隙間に本が……/
+[face A 00]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.5 se paper_01]
+おわ、これエロ本じゃん！　……おぉ、これ……[face A 06]
+なかなか……持ち主と趣味合いそうっすねー……[face A 02]/
+[se paper_01]
+誰も来ないし、じっくり読んじゃおっと……
+おお、[face A 05]すげー……[wait 1]へへ……[face A 01]/
+>>24/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[waku on]
+[scale A 1.6]
+[move A Y -120]
+[rotate A -30]
+[face A 07]
+[-]
+[serif on]
+[say A]
+………寝息……鼓動……衣擦れ……いびき……
+その他諸々なにかの音[wait 0.2]……[wait 0.2]……[wait 0.2]落ち着かねー……[face A 04][waku off 0.5]/
+[show B C]
+[rotate B -20]
+[scale B 1.6]
+[move B Y -120]
+[face B 07]
+[orderline A B]
+[move A X -200 0.5]
+[move B X 200 0.5]
+それに隣で誰かが寝てるの……
+いつまで経っても慣れねーーーー……/
+>>25/
+[set A s_a005_r 夜行さん]
+[show A C]
+[move A Y -120]
+[rotate A -30]
+[face A 07]
+[-]
+[serif on]
+[say A]
+……んーーー……
+黒鉄……良い毛並みだなー/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+……すやすや/
+>>26/
+[set A s_a005_r 夜行さん]
+[randomset B r -a005]
+[show A C]
+[waku on]
+[rotate A -30]
+[face A 07]
+[show B C]
+[rotate B -30]
+[move B XY 150 -50]
+[orderline A B]
+[face B 07]
+[-]
+[serif on]
+[say A]
+むにゃ[wait 0.2]……[wait 0.2]ん、[shake A]ええ！？[face A 05][rotate A -10 0.3][move A X -100 0.3]/
+[shake A]
+[face A 06]
+（やべ、目がさめたら隣で寝てる$B:Aに
+　抱きついちゃってたーー！！　あわわ……）/
+[face A 01]
+[se cloth_01]
+[move A X 20 0.5]
+（ん、でも$B:Aもまだ寝てて
+　気づいてないっぽい……柔らかくて暖かいな……）/
+[rotate A -30 0.5]
+[se dosa_01]
+[face A 07]
+[move A X 30 0.5]
+……ぐぅ……/

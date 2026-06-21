@@ -1,0 +1,1121 @@
+>>10000/
+@越後 
+我是來自北陸高速公路的越後。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@越後
+師父！　[wait 0.3]我想和你一起訓練！/
+>>10001/
+@越後
+師父！ ！ ！[wait 0.6]　我很高興，[wait 0.5]懷著感恩的心，[wait 0.6]
+我又要去訓練了！/
+>>1/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+「大矢白/小白」有著陡峭的懸崖和洶湧的波浪。
+據說是北陸道路上最難的地方…！/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+父母與孩子有著悲慘的淵源…
+[wait 0.2]當我經過那裡時，我感到有點難過。/
+[face A 08]
+主人……沒關係！
+[face A 01][move A Y 10 0.4][delay 0.4 move A Y -10 1.0]我絕對不會放開師父的手！/
+>>2/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 02]
+[shake A 2]
+[-]
+[serif name]
+[serif on]
+[talk A]
+莎莎團子，現在裡面有豆沙了
+又甜又好吃！這將成為一種習慣！/
+[face A 06]
+順便說一句，裡面什麼都沒有。
+《男團子》[wait 0.3]他們就是這麼說的！/
+[scale A 1.3 0.4]
+[move A Y -100 0.4]
+[face A 11]
+啊，師父…
+我快吃完了...[wait 0.2][face A 12]咬一口怎麼樣？/
+>>3/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+一宮市的彌彥神社位於彌彥山的山脊上。
+歷史悠久的神社，連《萬葉集》也有提及！/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+珍貴的「志田大太刀」已超過7尺
+大劍威力巨大！/
+[face A 08]
+有一天我也一樣，
+變得夠強大才能使用這樣的武器…！[shake A 3]/
+[move A Y 100 0.1]
+[face A 11]
+[delay 0.1 move A Y -100 0.2]
+好啦，我們現在就開始訓練吧！[move A X -800 0.5]/
+>>4/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 00]
+[move A Y -200]
+[-]
+[move A Y 300 0.3]
+[delay 0.3 move A Y -100 0.2]
+[-]
+[serif on]
+[talk A]
+早安！　[rotate A 10 0.1][se cloth_01][move A X -400 0.5][delay 0.5 rotate A 0 0.1]折疊被子……！
+[move A X 400 0.3]還有……！開始肌肉訓練！/
+[flow]
+[face A 08]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.2]
+[delay 0.4 move A Y -100 0.2]
+[delay 0.6 move A Y 100 0.2]
+一起！一起！
+[face A 01]每天的訓練將塑造強健的體魄！/
+>>5/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし @NPC -ecg]
+[show A R]
+[face A 13]
+[serif on]
+[talk A]
+嗯，我實在沒有地方可以訓練。
+我覺得好像有偏頗的傾向.../
+[face A 05]
+[show B L]
+[move B X -300]
+[move B X 150 1.0]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[order A 5]
+[order B 0]
+[talk A]
+[-]
+[face A 01]
+這種時候最好找人問問
+這是最好的！　[move A X -200 0.3]$B:A，是不是有點好看呢？[face B 05]/
+>>6/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 00]
+[move A Y -100]
+[-]
+[scale A 1.2 0.2]
+[move A Y 80 0.2]
+[delay 0.2 move A Y -50 0.3]
+[serif name]
+[serif on]
+[talk A]
+...補充！ ！ ！
+[wait 0.4][move A Y -100 0.3][face A 02]莫古莫古莫古莫古…[wait 0.3][scale A 1.8 0.2]補充！ ！/
+[flow]
+[scale A 1.0 0.2]
+[move A Y 200 0.2]
+[-]
+[shake A 3]
+[face A 05]
+啊？
+你的食物已經吃完了嗎？/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし @NPC -ecg]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 02]
+[shake A 2]
+[serif on]
+[talk A]
+今晚的晚餐也很好吃！/
+[flow]
+[face A 12]
+[face B 01]
+請特別看一下！
+這白米飯又亮又漂亮！/
+[flow]
+[shake A 3]
+[face A 02]
+可以把米當配菜！[face B 05]/
+>>10/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし @NPC -ecg]
+[randomset C r @地魂男児 @あやかし -@NPC -ecg -@NOW]
+[show A L]
+[show B R]
+[face B 04]
+[face A 00]
+[talk A]
+[-]
+[move A X 200 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A XY -20 -10 0.1]
+[-]
+[face A 13]
+[serif on]
+嘿，$B:A怎麼了？
+你在找東西嗎？/
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face B 06]
+[face A 00]
+啊，我記得看過。
+請交給我吧！/
+[flow]
+[face B 05]
+[face A 08]
+[= 玄関出て 司令室出て 厨房の前を抜けて 風呂場から出て 厠から出て 庭を抜けて 師匠の部屋を出て][= 左奥の石段の上から見える 廊下の突き当りを右に行った先の ふたつ目の部屋の 右にふたつ、左にひとつ曲がった先の 東に20、南に5進んだ先の 右の縁側の下の 竹馬に乗ったときにちょうど見える]
+[= 白い棚の中に 書類の束の中に 池のそばに 箱の中に 草むらの中に 杉の木の下に $Cの脱いだ服の下に 洗濯物に混じって]我想它就留在那裡了！[se zukkoke_02][shakebg]/
+[flow]
+[face B 01]
+[face A 01]
+我對自己的記憶力很有信心。
+我想這絕對是真的！[move B X 500 0.3][hide B][se walk_03]/
+>>11/
+[set A s_ecg_r 越後]
+[show A]
+[move A Y -100]
+[move A Y 200 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 01]
+[-]
+[serif on]
+[talk A]
+晚上時間！鋪好被子睡覺前，
+我們將訓練結束這一天！/
+[face A 08]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.2]
+[-]
+[move A X -100 0.2]
+[delay 0.2 move A X 100 0.2]
+[-]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.2]
+[-]
+[move A X -100 0.2]
+[delay 0.2 move A X 100 0.2]
+[-]
+一起！一起！
+那個！推入體內……！ ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 11]
+…………！
+……哈啊啊啊啊啊啊！結束了！ ！/
+[face A 05]
+啊，沒了…
+我流汗了，又得去洗澡了…/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし @NPC -ecg -wak]
+[show A]
+[face A 09]
+[serif on]
+[talk A]
+呃...$B:A到
+我聽到一個簡單的故事.../
+[face A 06]
+有些晚上我會感到緊張並且很難受...
+但是……我在心裡發誓，我絕對不會犯罪…/
+[face A 11]
+我不會彎曲它！ ！[shake A]/
+>>15/
+[set A s_ecg_m 越後]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+我要去練習昨天學到的戰鬥方法了…
+[move A XY 100 -50 0.2]在躲避對手攻擊的同時…/
+[flow]
+[effect bk syutyu 4000]
+[move A X -100 0.1]
+[scale A 2.5]
+[move A Y -400]
+[face A 03]
+設定你的目標...
+[wait 0.3]射擊！/
+[shake A 5]
+[wait 0.3]
+[talkend]
+[serif off]
+[fadein WHITE 0.3]
+[wait 0.3]
+[fadeout]
+[scale A 1.0]
+[move A Y 450]
+[face A 10]
+[-]
+[serif on]
+[talk A]
+……[wait 0.3]我沒有使用遠端武器。
+[wait 0.3]也許丟劍......？/
+>>16/
+[set A s_ecg_m 越後]
+[randomset B m @地魂男児 @あやかし @NPC -ecg]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+稍微設定一下這個練習稻草人。
+那很糟糕。可能是這裡的螺絲鬆了.../
+[flow]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[face A 05]
+[show B R]
+[move B X 500]
+[face B 05]
+[talk A]
+啊...[shake A 3][se doka_01]啊啊……壞掉了……！
+[move B X -500 0.6]啊$B:A……[wait 0.3]這是……那個……/
+[flow]
+[face A 04]
+……/
+[face A 10]
+[hide B 0]
+[-]
+[scale A 1.5]
+[move A Y -150]
+我打破了它！[shake A 3]/
+>>17/
+[set A s_ecg_b 越後]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+裸體時
+唯一能依靠的就是自己的身體…/
+[flow]
+[face A 03]
+[shake A 3]
+看！
+大家一起訓練吧！ ！/
+>>18/
+[set A s_ecg_b 越後]
+[randomset B b @地魂男児 @あやかし -@NPC -ecg]
+[show B C]
+[show A C]
+[talk A]
+[se amb_12]
+[effect fr yuge a 0 0]
+[move B Y -150]
+[move A Y -110]
+[setline 0 A B]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……當我脫掉衣服的時候，大家…
+你的訓練出奇的好.../
+[flow]
+[face A 11]
+[shake A 3]
+我也不能輸！[se water_06]/
+>>3/
+[set A s_ecg_b 越後]
+[randomset B b @地魂男児 @あやかし @NPC -ecg]
+[show B R]
+[show A C]
+[se amb_12]
+[effect fr yuge a 0 0]
+[move A Y -150]
+[move B Y -110]
+[setline A B]
+[talk A]
+[serif on]
+[face A 06]
+呃……呃……[shake A]
+我覺得今天的訓練我表現得很好/
+[flow]
+[face A 11]
+[move A Y -20 1.0]
+我以一種奇怪的方式感覺好多了...[face B 05][move B Y 10 0.1][delay 0.1 move B Y -10 0.1]/
+[face B 06]
+[move A Y -10 1.0]
+嘆息...[face A 09]
+如果我沒有在別人注意到之前迅速起身的話...[se bath_01]/
+>>20/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし @NPC -ecg]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 04]
+[serif on]
+[se pee_01]
+[talk A]
+我以為被小便的衝動所左右在戰鬥中會處於劣勢，
+我也想在這裡訓練。/
+[flow]
+[face B 05]
+[shake A 3]
+所以我試著盡可能長時間地忍受痛苦，但是......
+[face A 11][wait 0.5]我有種要尿床的感覺[face B 01]我放棄了.../
+>>21/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 10]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[talk A]
+[serif on]
+今天身體有點虛弱
+我無法平靜.../
+[face A 08]
+但這麼激動…
+我會告訴你控制力！ ！ ！[se pee_01]/
+[face A 05]
+啊啊啊啊啊啊啊！ ！
+我把它取下來一點點！ ！[shake A]/
+>>22/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 08]
+[move A Y -50]
+[serif on]
+[talk A]
+即使在私人房間裡
+你可以訓練你的握力。/
+[flow]
+[face A 01]
+每手還有10組
+還沒完成就不會出來……！/
+>>23/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[talk A]
+[serif on]
+終生不犯法，
+我決定不再和任何人交往。/
+[flow]
+[face W 11]
+[move A X 100 0.5]
+但我現在孤單一人...
+可以嗎？/
+>>24/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 08]
+[serif name]
+[serif on]
+[talk A]
+「把武士鎧甲的袖子捲起來。
+　枕上第一隻雁/
+[face A 11]
+[shake A 3]
+……我明天就出發…
+我太興奮了，睡不著…/
+>>25/
+[set A s_ecg_r 越後]
+[show A C]
+[face A 07]
+[serif name]
+[serif on]
+[talk A]
+獲得了百萬腹肌...
+嘿嘿嘿……咕噥……/
+[talkend]
+就好像他在夢裡也在訓練一樣。/
+>>26/
+[set A s_ecg_r 越後]
+[randomset B r @地魂男児 @あやかし -@NPC -ecg]
+[show A C]
+[show B R]
+[setline]
+[face A 07]
+[face B 07]
+[move B X -220 1.0]
+[se cloth_02]
+[talk A]
+[order A 0]
+[order B 1]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[face A 05]
+哇！　$B:A！？
+突然抱我怎麼了？ ？/
+[se cloth_01]
+[shake A]
+[face A 09]
+我-我-我-我！正如我常說的，
+我發誓這輩子不再犯罪…/
+[face A 11]
+[move A X -100 0.3]
+[rotate A 20 0.3]
+[se zukkoke_02]
+所以，這是在睡覺！[shake A]/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+已經...
+不管睡多少覺，我都覺得不舒服…/
+[face A 06]
+呃……雖然不是故意的，
+我無法控制自己激動的心情[shake A]/
+>>100/
+[set A s_ecg_r 越後]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 越後の鍛錬]
+[-]
+[bgm home]
+[bg rouka_day]
+[se amb_01]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+早上走在走廊上
+花園裡傳來了聲音。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se walk_01]
+[bg niwa_day]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+我去看的時候，
+看起來越後正在做某事。/
+[serif off]
+？ 越後/
+[show A C]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.1]
+[face A 00]
+[talk A]
+[-]
+[serif on]
+啊，主人！早安! ！
+是散步嗎？天氣真好！ ！/
+[serif off]
+？ 越後在做什麼？/
+[face A 01]
+[serif on]
+我現在手裡拿著這袋米
+我剛剛在做深蹲！[shakeBG][se dosa_01]/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+我希望我的主人能盡快承認我是一個成熟的人。
+培訓是不可或缺的！/
+[serif off]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.1]
+[-]
+[move A Y -100 0.2]
+[delay 0.2 move A Y 100 0.1]
+[-]
+[serif on]
+看，像這樣！
+一起！一起！ ！[move A Y -100 0.2][delay 0.2 move A Y 100 0.1]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+越後還拿著一袋米。
+他以輕快的速度做了一個深蹲。/
+[serif off]
+？太棒了.../
+[show A C]
+[face A 02]
+[talk A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+呵呵，很高興師父誇獎了我！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 10]
+我的兄弟們……所有北陸道的塵世靈魂男孩。
+我想說它是獨一無二的，但也有一些東西是相當尖銳的。/
+[flow]
+對我來說，
+沒有特別特別的地方.../
+[face A 08]
+[flow]
+[effect A syutyu a 0 150]
+所以……至少！
+我不會輸給我的肌肉！ ！/
+[talkend]
+[textcolor ARUJI]
+越後表情嚴肅。/
+[effect off a]
+[face A 09]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+呃……主人，您覺得呢……
+我是否正確強化了肌肉？/
+[talkend]
+[textcolor ARUJI]
+越後 這麼說並製作了二頭肌。/
+[textcolor ARUJI]
+當你觸控並檢查它時，
+越後的手臂又粗又壯。/
+[serif off]
+？我覺得看起來不錯。/
+[face A 02]
+[talk A]
+[serif on]
+啊，這是真的嗎……！/
+[face A 11]
+好吧！
+我會繼續這樣訓練！/
+[face A 12]
+啊，原來如此！
+師父，[face A 09]嗯…如果你不介意的話…[wait 0.5]但是.../
+[face A 11]
+我的自私，
+我可以問你一件事嗎？[shake A 5 2 2]/
+[serif off]
+？好吧，但是什麼樣的事情呢？/
+[face A 11]
+[effect A syutyu a 0 150]
+[serif on]
+獻給我的主人，哦，和我一起…[wait 0.5]
+我、我要你訓練！ ！ ！[se taiko_02]/
+[effect off a]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+越後看旁邊的米包。
+看起來特別重。/
+[serif off]
+？ ....抱歉。或許終究是不可能的/
+[show A]
+[face A 05]
+[talk A]
+[shake A]
+[serif on]
+呃，是啊……ss，別這麼說！[face A 04][scale A 1.5 0.3][move A Y -130 0.3]/
+[move A Y 100 0.1]
+[delay 0.1 move A Y 30 0.2]
+[scale A 1.0 0.3]
+[face A 05]
+啊！當然，師傅把米袋舉起來了。
+你什麼都不做也沒關係！/
+[face A 11]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+當你做仰臥起坐時，
+我只需要你的腳支撐.../
+[flow]
+如果我有師傅的話，我.../
+[face A 00]
+做仰臥起坐1000或10000次，
+我想我會盡力的...！/
+[talkend]
+[textcolor ARUJI]
+越後 盯著我。/
+[serif off]
+？如果是這樣的話。好的/
+[face A 02]
+[talk A]
+[serif on]
+……！[shake A]
+啊，謝謝你！ ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+越後深深鞠了一躬。/
+[show A C]
+[face A 00]
+[talk A]
+如果你的主人也推薦一些東西，
+如果你有什麼訓練方法，請告訴我！/
+[face A 08]
+[shake A]
+嗚嗚嗚！
+它在燃燒！ ！ ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+越後充滿動力。/
+[bg black 1.0]
+[textcolor ARUJI]
+之後，直到午餐越後
+我陪你去訓練。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_ecg_r 越後]
+[set B s_n001_r 夏人]
+[set C s_n000_r 猫乃屋]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 越後と責任]
+[-]
+[bg gozasyo_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+今天下午我會和夏人和貓也一起。
+我有一個會議。/
+[flow]
+[textcolor ARUJI]
+這次，根據夏人整理的材料，下一個任務將是
+他們要挑選出要派遣的地魂小子。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+簡單吃完午餐後，我就前往控制室。
+走在走廊上的時候…/
+@？？？
+哇！/
+[se doka_02]
+[shakebg]
+[delay 0.2 se wood_03]
+[delay 0.6 se crash_04]
+（轟隆！！嘎嘎嘎嘎！！）/
+[textcolor ARUJI]
+突然，一聲巨響，伴隨著一聲慘叫。/
+[serif off]
+？你現在的聲音怎麼樣.../
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se walk_02]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+當我順著聲音的方向走去時，
+夏人和越後平躺在地上。/
+[show A C]
+[show B C]
+[move A Y -50]
+[move B Y -50]
+[face A 10]
+[face B 09]
+[setline 0 B A]
+[shake A]
+[shake B]
+呃.../
+[serif off]
+？這到底是什麼…？/
+[talk A]
+[move A Y 50 1.0]
+[-]
+[serif on]
+呃……那個……
+我被要求清理碗碟，所以我拿著它們。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+夏人君從轉角過來。
+我沒注意到，就撞到了…/
+[talkend]
+[textcolor ARUJI]
+周圍散落著盤子和檔案。/
+[face A 04]
+[talk A]
+[shake A]
+呃……對不起，夏人君。/
+[move B Y 50 1.0]
+[autotap]/
+[face B 06]
+[talk B]
+不，是我...[wait 0.5]開會
+我很著急，因為我要準備很多東西.../
+[se paper_01]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+唷。好球。/
+[move B XY -10 -40 0.4]
+[rotate B -10 0.3]
+[se paper_01]
+[-]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se paper_01]
+[move B XY 10 40 0.3]
+[rotate B 0 0.3]
+[talkend]
+[textcolor ARUJI]
+越後和夏人站了起來，
+我開始清理散落的東西。/
+[face B 06]
+[talk B]
+越後，謝謝。
+嗯……你不應該在走廊上跑。/
+[serif off]
+？夏人，你還好嗎？/
+[talk B]
+[face B 01]
+[serif on]
+是的，沒關係。 越後坤
+因為你立刻就跟著我了。/
+儘管我們碰撞得那麼大聲
+越後的手臂支撐著我，/
+[face B 02]
+[flow]
+我覺得渾身毛茸茸的，差點就跌倒了。
+他似乎沒有擊中任何地方。/
+[serif off]
+？ 越後太棒了/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 12]
+[talk A]
+[-]
+[serif on]
+呵呵……這也不是什麼值得稱讚的事。
+但我很高興沒有受傷...[wait 0.5]啊！[face A 05][shake A]/
+[scale A 1.6 0.3]
+[moveline A B 0 -150 0.3]
+[scale B 1.6 0.3]
+[move A X -100 0.2]
+[bgm fun]
+[orderline B A]
+夏人君！
+我的衣服上有醬油漬！[se zukkoke_02]/
+[talkend]
+[textcolor ARUJI]
+夏人白襯衫領子周圍
+棕色汙漬正在蔓延。/
+[face B 12]
+[say B]
+哦，這是真的。
+呃……我想我已經忍不住了……/
+[face A 11]
+[say A]
+[shake A]
+不不不，我沒辦法！
+雖然衣服這麼好看，但都是我的錯…/
+[face B 02]
+[say B]
+哈哈，這個不用擔心。就目前而言，
+我回家後會把它送到清潔工那裡。/
+[hideall]
+[serif off]
+？醬油漬很難去除，不是嗎？/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 04]
+[talk A]
+[serif on]
+……[shake A]/
+[face A 08]
+如果你想去除汙漬，最好盡快進行。
+……請交給我吧！[shake A][se taiko_01]/
+[scale A 2.0 0.5]
+[move A Y -150 0.5]
+[face A 03]
+現在，夏人君，請立刻把衣服脫掉！[shakebg]/
+[hide A]
+[-]
+[show B]
+[face B 09]
+[talk B]
+E-nu，現在就把它脫掉嗎？
+在這裡！ ？/
+[show A R]
+[setline 0.5 B A]
+[face A 08]
+[order A 0]
+[order B 1]
+[say A]
+是的！
+請快點摘下來吧！ ！/
+[serif off]
+？ 越後，冷靜點/
+[face A 03]
+[shake A]
+[-]
+[serif on]
+我無法保持冷靜！
+我不能就這麼離開了！ ！/
+[face A 04]
+[flow]
+另外，本來
+這是我的責任……！/
+[face A 08]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -150 0.5]
+請負全部責任！ ！/
+[face A 03]
+[move A X -20 0.1]
+來吧！快點！ ！[move A X -10 0.2][shake B]/
+[face B 10]
+[talk B]
+不，等等.../
+[talk A]
+[order A 0]
+[order B 1]
+啊，我好生氣啊！
+若不快速拍打，汙漬就不會脫落！ ！/
+[face A 08]
+嘿嘿嘿萬歲！[fadein BLACK 1.0][move A X -50 1.0]/
+[talk B]
+[se cloth_01]
+哇！
+現在，我明白了！我自己把它摘下來！ ！/
+[serif off 0.5]
+[-]
+[se cloth_02]
+[se doka_01]
+[delay 0.2 se doka_01]
+[delay 0.4 se doka_01]
+[delay 0.6 se doka_01]
+[wait 1.0]
+[-]
+[se doka_01]
+[delay 0.1 se doka_01]
+[delay 0.2 se doka_01]
+[delay 0.3 se doka_01]
+[delay 0.4 se doka_01]
+[hideall]
+[-]
+[effect B kira a 0 100]
+[fadeout 0.5]
+[-]
+[se kira_01]
+[serif on]
+[show B C]
+[face B 02]
+[talk B]
+哇，太神奇了...[shake B]它乾淨清爽......
+其實我感覺比以前更白了。/
+[show A C]
+[face A 06]
+[talk A]
+[setline 0.5 B A]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+嘆息……嘆息……嘆息……
+喲，這樣就好了.../
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 06]
+[talk B]
+我沒想到有人會用直拳去清除汙漬。
+我沒想到有，但.../
+[talkend]
+[textcolor ARUJI]
+納茲襯衫上的汙漬漂亮地脫落了，
+它白得驚人，幾乎像新的一樣。/
+[face B 02]
+[talk B]
+謝謝越後kun！[move B X 100 0.5]/
+[serif off]
+？太棒了！/
+[say A]
+[face A 12]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+呵呵...
+希望這能給你留點面子.../
+[talkend]
+[textcolor ARUJI]
+越後不好意思地搔著頭。/
+[serif off]
+？以後需要去汙漬的時候，問越後/
+[face A 05]
+[talk A]
+[shake A]
+[-]
+[serif on]
+哈！ ？　[wait 0.5]……凜，我明白了！/
+[face A 08]
+[face B 01]
+請把去除汙漬的工作交給主人的衣服吧！
+請隨時來電我們！/
+[hide B]
+[scale A 2.5 0.3]
+[move A Y -450 0.3]
+[effect fr syutyu b 0 0]
+[quake 2]
+[face A 05]
+所以……啊啊啊啊啊啊啊！ ！ ！[shakebg]/
+[serif off]
+[effect off b]
+[hide A]
+[quake off]
+[-]
+[show B]
+[face B 12]
+[say B]
+[-]
+[serif on]
+哦，還有*P君的褲子。
+醬油漬.../
+[hide B]
+[talkend]
+[textcolor ARUJI]
+顯然是我幫忙清理碗碟的時候。
+看起來醬油都滴下來了。/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+[face A 08]
+………………師父……/
+[serif off]
+？等一下。是褲子.../
+[face A 03]
+[scale A 2.0 0.3]
+[move A Y -120 0.3]
+[-]
+[serif on]
+我等不及了！　現在！我來把汙漬去掉！/
+[face A 09]
+當您需要去除汙漬時，請詢問越後
+這不是你之前說的嗎？/
+[show B]
+[face B 06]
+[move B X 250 0.5]
+[move A X -150 0.5]
+[orderline A B]
+[say B]
+啊，那我先去指揮室了。
+沒必要著急。/
+[move B X 200 0.5]
+[hide B]
+[serif off]
+?夏人/
+[move A X 150 0.5]
+[serif on]
+[say A]
+[face A 08]
+來吧，主人！請脫掉你的褲子！/
+[move A Y -200 0.5]
+[hide A]
+[se cloth_01]
+[autotap]/
+噢，真是煩人啊！[shakebg]
+這樣做的時候，醬油就很難去掉了！/
+[talkend]
+[textcolor ARUJI]
+越後把手放在這條褲子上，
+我要解下腰帶。/
+[flow]
+[textcolor ARUJI]
+我不想在這樣的地方只穿著褲子。
+他試圖反抗，但他不是越後的力量的對手。/
+[show C L]
+[face C 08]
+[say C]
+[move C C 0.5]
+[se walk_02]
+哈，我遲到了，我遲到了。
+天啊。[shake C][face C 05]什麼？你有沒有遇到危險的地方？/
+[show A R]
+[scale A 1.6]
+[move A Y -150]
+[orderline A C]
+[say A]
+[face A 03]
+貓店！請幫我！
+我的主人反抗了.../
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 10]
+[say C]
+這是起義嗎？不知道你是否也會經歷...
+我知道你的感覺很痛苦。那麼好吧。[face C 01]/
+[move C X 200 0.5]
+[hide C]
+[serif off]
+？ @@停止P10@@/
+[fadein black 2]
+[-]
+[textcolor ARUJI]
+[talkend]
+[serif on]
+之後我就在自己的房間裡換了衣服，把褲子穿上了越後。
+我得到了很多。/
+[flow]
+[textcolor ARUJI]
+褲子像新的一樣閃亮。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

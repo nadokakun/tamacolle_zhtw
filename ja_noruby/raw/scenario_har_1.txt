@@ -1,0 +1,547 @@
+>>10000/
+@播磨
+ぼ、僕は、山陽道の播磨です…っ。[autotap]/
+[delay 3.3]
+[flow]
+[-]
+@播磨
+わうぅ…、そ、その…[wait 3.2]
+一生懸命頑張りますぅっ。/
+>>10001/
+@播磨
+ご主人さまに、いつものお礼です…！[autotap]/
+[delay 2.8]
+[flow]
+[-]
+@播磨
+これ！　[delay 0.8]太い骨のおやつです！
+すっごくおいしいんです！/
+>>1/
+[set A s_har_r 播磨]
+[show A C]
+[face A 00]
+[talk A]
+[serif on]
+生石神社……浮いてるように見える
+不思議な巨石で有名なんですけど……/
+[face A 06]
+僕は「おうしこ」神社……って名前を聞くと、
+なんだかモジモジしてきちゃいます……/
+おうしこ……[face A 09]おうしこ……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+わうぅ……/
+>>2/
+[set A s_har_r 播磨]
+[show A C]
+[face A 01]
+[talk A]
+[serif on]
+ご主人さま！　播磨のそうめんは、
+現代でも有名なんですよ！　えへん！/
+[face A 02]
+特にあの食べたときのチュルンとした食感が
+とってもきもちいいんです！　チュルンッ♪[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]/
+>>3/
+[set A s_har_r 播磨]
+[show A C]
+[face A 00]
+[talk A]
+[serif on]
+ご主人さまは姫路城、
+ご覧になったことありますか？/
+[face A 01]
+とーってもキレイで立派な造りなのです！
+桜の季節は特にオススメなのです！/
+[face A 06]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+そうだ！　この荘園も姫路城みたいに改造するの、
+名案じゃないですか……！？　わうぅ！[shake A]/
+>>4/
+[set A s_har_r 播磨]
+[show A C]
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+わうぅ……どなたか、ご主人さまの役に立てる方法
+を、何かご存知ないでしょうか……わうぅ……/
+[face A 03]
+教えてくれたら……
+この太い骨をあげるのですぅ……わうぅ……/
+>>5/
+[set A s_har_r 播磨]
+[randomset B r @地魂男児 -har -@NPC]
+[show A C]
+[face A 08]
+[talk A]
+[serif on]
+$B:A、戦いだけじゃなくて、訓練や荘園のお仕事も
+頑張っててエライのです……！[wait 0.5]　はっ！[move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face A 05]/
+[shakebg]
+もしかして$B:Aもご主人さまに
+たくさん褒められたいのでは……？/
+[face A 02]
+[effect fr kira 2000]
+きっとそうなのです！
+同士見つけたり！　なのですぅ！[shake A]/
+>>6/
+[set A s_har_r 播磨]
+[show A C]
+[serif off]
+[face A 01]
+[talk A]
+[move A X 100 0.5]
+[-]
+[serif on]
+ふふっ、今日はご主人さまのために、
+早起きして庭のお掃除をがんばったのです！/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[move A X -100 0.3]
+あ……あれはご主人さま……
+わうぅ……[shake A]うぅぅ……わうぅ……[shake A]/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……行っちゃったのですぅ……
+はぁ……ご挨拶くらいしたらよかったのです……/
+>>7/
+>>8/
+>>9/
+[set A s_har_r 播磨]
+[randomset B r @地魂男児 -har]
+[show A C]
+[face A 08]
+[talk A]
+[serif on]
+昼間は$B:Aに助けてもらっちゃいました……！
+わうぅ……[shake A]ちゃんとお礼をしなければっ。[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]/
+[face A 06]
+うーん、どっちの骨がお好みでしょうか……
+やっぱり、太い方……いや硬い方が……わうぅ。[shake A]/
+>>10/
+[set A s_har_r 播磨]
+[show A C]
+[face A 03]
+[talk A]
+[serif on]
+わうぅ……[shake A]昨晩は怖い話を聞いたせいで、
+夜おしっこに行けなくて困ったのです……！/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+その反省をいかして、今夜は厠で寝るのです！
+我ながら名案なのです！[move A X -600 0.5][hide A]/
+>>11/
+[set A s_har_r 播磨]
+[randomset B r @地魂男児 -har]
+[show A C]
+[show B C]
+[face A 02]
+[face B 00]
+[talk A]
+[setline 0 B A]
+[serif on]
+わうぅ！
+明日の掃除の計画を思いついちゃいました！/
+[face A 07]
+[move A X 200 0.5]
+[delay 0.5 move A X -100 0.5]
+まず畳を全部はがして外に運ぶのです！　[face B 05]これなら
+上にのってるゴミも全部外に棄てられるのです！/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+そのために、部屋の家具を今日中に全部庭に
+出しておくのです！　無駄がないのです！/
+[move B X -100 1.0]
+[delay 0.5 move A X -300 0.5]
+[-]
+[face A 00]
+[face B 04]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+というわけで、$B:A、
+今から一緒に手伝ってほしいのです！/
+>>12/
+>>13/
+>>14/
+[set A s_har_r 播磨]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+わうぅ……[shake A]
+最近骨のおもちゃ、食べてないのです。/
+[face A 09]
+無性に太くて硬くて大きいものを
+はむはむしたいのですぅ……/
+[shake A]
+わうぅ……はむはむ不足なのですぅ……/
+>>15/
+[set A s_har_m 播磨]
+[randomset B m @地魂男児 -har -@NPC]
+[show A C]
+[face A 02]
+[talk A]
+[serif on]
+みんなの動きをよく見て弱点を見つけ出すのです！
+分析は僕の得意分野なのです！　わうぅ！[shake A]/
+[face A 08]
+ふむふむ……
+$B:Aは……/
+[shakebg]
+[effect fr syutyu A]
+[= 可愛すぎる！！ ごはんを食べすぎる！！ 余所見をする！！ いい匂いがする！！ セクシーすぎる！！ 一人でおしっこに行けない！！ 僕のことをナデナデしたくてたまらない！！ ご主人さまのことが大好きすぎる！！ 掛け声がカッコよすぎる！！][wait 0.5]
+ところが弱点なのです！/
+[face A 07]
+[effect off A]
+……多分！/
+>>16/
+[set A s_har_m 播磨]
+[randomset B m @地魂男児 -har -@NPC]
+[show A C]
+[face A 04]
+[talk A]
+[serif on]
+て、手合わせ中なのにおしっこが……[fadein WHITE 0.2][se doka_01][delay 0.2 fadeout 0.1][shake BG][se doka_01]
+ああっ、$B:A、ぼでぃーはダメなのですぅ！！/
+[face A 09]
+わ、わうぅ～ん！！[shake A]/
+>>17/
+[set A s_har_b 播磨]
+[randomset B b @地魂男児 -har]
+[show A C]
+[face A 06]
+[talk A]
+[serif on]
+わう？　[move A XY -100 -50 0.5][rotate A 30 0.5]くんくん……くんくん……
+お、この服は$B:Aのものなのです！/
+[face A 02]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+なんだかいつもよりいい匂いがするのですぅ！
+もうちょっと嗅がせてもらうのです、くんくん……/
+>>18/
+[set A s_har_b 播磨]
+[show A C]
+[move A Y -100]
+[face A 03]
+[talk A]
+[se amb_12]
+[effect fr yuge A]
+[serif on]
+わうぅ……[shake A]お、おしっこしたくなってきました……
+一度上がったほうがいいでしょうか……/
+[face A 09]
+でも、動いたら、漏れそう……っ。
+ど、どうしよう……わうぅ……[shake A]/
+もう、お風呂のなかで、しちゃっても……
+わうぅ……[move A Y -100 1.0][face A 04][se bath_04]/
+>>19/
+[set A s_har_b 播磨]
+[effect fr yuge A]
+[se amb_12]
+[show A C]
+[move A Y -100]
+[face A 09]
+[talk A]
+[serif on]
+はむはむしがいのありそうなものが見えると、
+気になっちゃうのですぅ……チラチラ。/
+[face A 06]
+[se bath_04]
+わぅぅ……
+立派なしっぽなのですぅ……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+>>20/
+[set A s_har_r 播磨]
+[show A C]
+[face A 07]
+[talk A]
+[serif on]
+ふぅ……
+わうぅ、本当は柱のところとか……/
+[face A 06]
+[flow]
+初めていったところとかに
+おしっこしたいけど……我慢なのです……/
+>>21/
+[set A s_har_r 播磨]
+[serif off]
+[show A C]
+[face A 04]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[serif on]
+[talk A]
+[serif on]
+わうぅ……
+ちょっぴり間に合わなかったのです……/
+[face A 03]
+こんなんじゃ、ご主人さまの
+忠犬になれないのですぅ……わうぅ……[shake A]/
+>>22/
+[set A s_har_r 播磨]
+[show A C]
+[face A 06]
+[talk A]
+[serif on]
+わうぅっ！　[shake A]いい香りがするのです！
+流した後の水も……[move A Y -150 0.5][rotate A 30 0.5]色がついて、いい香り……/
+[face A 07]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+くんくん…………はっ！！[face A 05][wait 0.5][move A XY 300 150 0.3][rotate A 0 0.3]
+べ、便座に鼻がついちゃった……わうぅ[face A 04]……[shake A]/
+>>23/
+[set A s_har_r 播磨]
+[show A C]
+[face A 06]
+[talk A]
+[serif on]
+わうぅ……[shake A]
+厠の掃除用ぶらし……すごくいい太さなのです……/
+[face A 04]
+はむはむ欲が……わうぅ……[shake A]
+でも、衛生的に絶対よくないのです……わうぅ……[shake A]/
+[face A 09]
+でも、はむはむ欲が……わうぅ……[shake A]
+でもでも、衛生的に……わうぅぅぅ……[shake A]/
+>>24/
+[set A s_har_r 播磨]
+[randomset B m @地魂男児 -har -@NPC]
+[show A C]
+[show B]
+[setline A B]
+[face B 00]
+[face A 02]
+[talk A]
+[serif on]
+わうぅ！[shake A]
+寝る前にちゃんとおしっこに行ってきたのです！/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+これで夜中におしっこに起きる心配はないのです！
+……でも念の為もう一度行っておくのです。[move A X -600 0.5][hide A][face B 01][se fusuma_01]/
+>>25/
+[set A s_har_r 播磨]
+[show A C]
+[face A 07]
+[talk A]
+[serif on]
+わうぅ～……ご主人さまに……
+褒められたのです～……えへへ……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]ぐぅ。/
+[talkend]
+寝言のようだ。/
+>>26/
+[set A s_har_r 播磨]
+[show A C]
+[face A 06]
+[talk A]
+[serif on]
+はむ……はむ……
+寝る前に骨をはむはむすると落ち着くのですぅ。/
+[face A 07]
+でもたまにはご主人さまと一緒に
+はむはむしたいのです…………[rotate A -70 1.0][move A XY 50 -100 1.0]ぐぅ……[move A Y -50 1.0]/
+/
+>>100/
+[set A s_har_r 播磨]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 播磨の誓い]
+[-]
+[bg black]
+[bgm home]
+[-]
+[serif on 0.5]
+[talkend]
+[se water_04]
+ジャーーーーーー。/
+[bg mbg_syouen 0.5]
+[minibg kawaya_day 0.5]
+[textcolor ARUJI]
+トイレで用を済ませ、部屋に戻ろうと
+出入り口の扉を開けると――/
+[serif off]
+[-]
+[se door_01]
+[fadeout 0.5]
+[-]
+[serif on]
+[show A C]
+[textcolor ARUJI]
+[face A 01]
+そこには播磨が立っていた。/
+[serif off]
+?びっくりした！　播磨？/
+[face A 02]
+[talk A]
+[serif on]
+わ、わうぅ！[shake A]
+ご主人さま、お待ちしていたのですっ！/
+[face A 06]
+ご主人さまの、後ろ姿を見かけたので、[move A X -30 0.1][delay 0.1 move A X 60 0.1][delay 0.2 move A X -60 0.1][delay 0.3 move A X 30 0.1]
+その……ご挨拶をしたくて……わうぅ……/
+[serif off]
+?ずっとここで待ってたの？/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+わうぅ……[shake A]
+ぜ、全然、すぐだったのです！/
+[face A 02]
+ご主人さまのためなら
+僕はこれくらいのマテ、全然平気なのです！/
+[talkend]
+[textcolor ARUJI]
+えへん！　と自信ありげな播磨。/
+[face A 06]
+[move A X -10 0.4]
+[delay 0.4 move A X 10 0.4]
+[-]
+[move A X -10 0.4]
+[delay 0.4 move A X 10 0.4]
+[talk A]
+それで……そのぉ……今日は、
+ご主人さまに、お渡ししたいものがあるのです！[face A 00]/
+[serif off]
+?渡したいもの？/
+[face A 08]
+[serif on]
+僕も、これからこの荘園で、ものすごく
+活躍していくつもりなのです！/
+その誓いを立てたくて色々悩んだのですが……/
+[face A 06]
+[effect bk kira3000]
+よかったら、僕が選んだ誓いの証、
+受け取ってもらえると嬉しいのですっ！/
+[talkend]
+[textcolor ARUJI]
+播磨はモジモジしながら
+こちらの様子を伺っている。/
+[serif off]
+?いいよ。なんだろう？/
+[face A 02]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+わうぅ～！[shake A]　ありがとうございますぅ！
+えっと、こ、これですっ！[scale A 1.5 0.7][move A Y -150 0.7]/
+[talkend]
+[bgm off]
+[textcolor ARUJI]
+播磨は、木の棒を手渡した。/
+[serif off]
+?！？/
+[talkend]
+[textcolor ARUJI]
+[bgm fun]
+[serif on]
+それはどう見てもその辺で拾ったような
+ただの木の棒だった。/
+[talk A]
+[se kira_01]
+[effect fr kira 2000]
+見てください！　これ、太くて硬くて
+すごく咥えがいのある棒なのですっ！/
+[face A 06]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ちょっと、僕の歯型がついちゃったのですが……
+だからこそ！　[wait 0.5]いいかな？　って思って……/
+[serif off]
+?！？？/
+[face A 01]
+[serif on]
+ご主人さまも、
+よかったら咥えてみて欲しいのですっ！/
+[face A 02]
+骨のおやつみたいには美味しくないけど、
+楽しくなると思うのです～！　わうぅ！[shake A]/
+[serif off]
+?あ……ありがとう……/
+[face A 06]
+[talk A]
+[serif on]
+わうぅ！[effect fr kira 2000][shake A]　喜んでもらえて嬉しいのですぅ！/
+[face A 01]
+僕、ご主人さまのお役に立てるよう、
+いっぱい頑張るのですぅ！/
+[face A 00]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ご主人さま、
+よろしくお願いしますですぅ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+播磨はペコリと頭をさげた。/
+[serif off]
+[show A]
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[talk A]
+[serif on]
+っ！
+ぅわうぅ……[shake A 10]/
+[talkend]
+[textcolor ARUJI]
+突然、ぷるぷると身震いをする播磨。/
+[face A 09]
+[talk A]
+ぼ、僕……厠の前で待ってたからか、
+もよおしてきちゃった……のです……！/
+ぼ、僕、おしっこ行ってくるのですぅ！！[move A Y 100 0.1][move A X 800 0.3][delay 0.1 move A Y -100 0.2][-][hide A][se door_02]/
+[talkend]
+[textcolor ARUJI]
+そう言って播磨は一目散に
+トイレへと入っていった。/
+[fadein BLACK 0.3]
+[serif off]
+[-]
+[hideall]
+[bg rouka_day]
+[minibg off]
+[-]
+[fadeout 0.3]
+[-]
+[serif on]
+[textcolor ARUJI]
+播磨からもらった木の棒に目をやる。/
+[serif off]
+?これ、どうしよう……/
+[fadein BLACK 2]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+悩んだ結果、播磨の誓いの証は机の引き出しの
+奥にしまわれることになったのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

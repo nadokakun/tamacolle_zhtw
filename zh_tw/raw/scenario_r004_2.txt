@@ -1,0 +1,8190 @@
+>>0/
+[set A s_a002_m 火車]
+[set B s_a002_m 火車]
+[set T s_m002_m 死人]
+[set U s_m002_m 魂]
+[fadein black 0]
+[bgm off]
+[-]
+[bg black]
+[minibg emo_donyori]
+[-]
+[bgm departure]
+[fadeout 1.0]
+[-]
+[talk A]
+[show A C]
+[face A 10]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[serif on 0.5]
+嘆氣……嘆氣……是我……
+這是我的錯.../
+[face A 13]
+[shake A]
+為什麼你對我這麼生氣...[move A Y -30 0.2]像這樣...[move A Y -30 0.2]
+這絕對是錯的…！ ！ ！/
+[shake A]
+這個工作...[scale A 2.0 0.3][move A Y -100 0.3][-][face A 15][effect fr syutyu a 0 100]
+不是全黑了嗎？ ！ ！[shake A][-][effect off a][effect fr syutyu b 0 400][shakebg][minibg off 0.3][bg sky_sunset 0.5][scale A 2.5 0.3][move A Y -1000 0.5][delay 0.5 fadein WHITE 1.0]/
+[serif off 1.0]
+[-]
+[bgm off]
+[title プロローグ 社畜として生きる]
+[-]
+[effect off b]
+[hideall]
+[-]
+[bg mbg_map]
+[minibg sky_day]
+[fadeout 0.5]
+[bgm journey]
+[-]
+[serif on]
+[talkend]
+[textcolor BLUE]
+很久以前了。
+我精力充沛，工作努力。/
+[show B L]
+[color B BLACK]
+[move B C 1.0]
+[textcolor BLUE]
+今天我們運載了100個靈魂。
+承載死者的靈魂。[wait 0.5]這就是我的工作。/
+[show A C]
+[order A 1]
+[order B 0]
+[face A 11]
+[-]
+[hide B]
+[-]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+呼……不過我最近真的很忙……/
+[face A 11]
+[talkend]
+[textcolor BLUE]
+據我所知，似乎正在進行一場大戰。
+死亡人數太多了。/
+[face A 12]
+[move A X 300 0.5]
+[textcolor BLUE]
+走這邊，走這邊。[move A X -500 0.8]
+已經很難了。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[serif off]
+[show T L]
+[rotate T -90]
+[move T XY -500 -100]
+[-]
+[order A 0]
+[order T 1]
+[move A X 500 0.5]
+[move T X 500 0.5]
+[-]
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[textcolor BLUE]
+首先，從死人身上提取靈魂是一門手藝。/
+[move A X -250 0.5]
+[move T X 200 0.5]
+[-]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[-]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.3]
+[-]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[textcolor BLUE]
+首先，那個人一定會死。
+檢查。/
+[face A 02]
+[se paper_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[textcolor BLUE]
+看看手邊的炎魔町上有沒有那個人的名字。
+檢查。[wait 0.3]耀西！/
+[face A 01]
+[move A Y -50 0.2]
+[wait 0.3]
+[-]
+[move A Y 150 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move T Y 400 0.3]
+[rotate T -40 0.3]
+[delay 0.3 move T Y -350 0.2]
+[move T X 200 0.5]
+[delay 0.4 rotate T -100 0.1]
+[order A 1]
+[order T 0]
+[-]
+[shakebg]
+[rotate T -90 0.1]
+[se dosa_01]
+[textcolor BLUE]
+如果沒有錯誤的話，把屍體放到車上，
+我沒完沒了地向三途川走去。[se zuru_01][move A X -200 1.0][delay 1.2 move A X -200 1.0][delay 1.5 hide A][delay 1.5 hide T][delay 0.2 move T X -200 1.0][delay 1.4 move T X -200 1.0]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[show A C]
+[show T C]
+[face A 00]
+[order A 1]
+[order T 0]
+[rotate T -90]
+[move T Y -100]
+[move A X -50]
+[-]
+[se cloth_01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[-]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.3]
+[-]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+[textcolor BLUE]
+所以，當你來到三途川的入口處時，
+將繩子綁在屍體上。/
+[move A X 400 0.5]
+[rotate T -60 0.5]
+[-]
+[order A 0]
+[order T 1]
+[move A X -100 0.2]
+[-]
+[delay 0.2 move A X -20 0.5]
+[delay 0.5 rotate A -20 0.2]
+[-]
+[shake A]
+[shake T]
+[face A 01]
+[textcolor BLUE]
+然後，抓住屍體的頭…
+拉緊一點...[move A X 10 1.0][rotate A -40 0.5]拉更多...[shake A 3 5 1][shake T]/
+[textcolor BLUE]
+這時，將腳放在屍體的肩膀上，踩在上面。
+訣竅是牢牢抓住眼球。/
+[move A X -200 0.5]
+[move T X -200 0.5]
+[rotate A -10 0.5]
+[effect A syutyu a 100 0]
+[face A 03]
+[say A]
+我們走吧！ ！/
+[move T X -800 0.5]
+[rotate T 30 0.5]
+[move A X 300 1.0]
+[rotate A -180 0.5]
+[show U 0.2]
+[move U XY 800 400 0.5]
+[rotate U -60]
+[delay 0.1 rotate U -150 0.5]
+[se fall_01]
+[talkend]
+[color U BLUE]
+[delay 0.5 rotate A 60 0.5]
+[delay 0.5 move A X -200 0.5]
+[textcolor BLUE]
+當你這樣做時，重生體和靈魂就會掉出來。[face A 02]
+在三途川附近，與身體的連結變得較弱。/
+[hide T]
+[effect off a]
+[serif off]
+[move A X -500 0.5]
+[move U X -600 0.5]
+[rotate U 0 0.5]
+[color U BLUE]
+[-]
+[move U X 100 0.3]
+[move U Y -400 0.3]
+[delay 0.3 shake U]
+[-]
+[move U Y 10 0.1]
+[delay 0.1 move U Y -10 0.1]
+[face A 05]
+[-]
+[serif on]
+[textcolor BLUE]
+我太興奮了，以至於我沒有意識到我快要死了
+有時還有人在奔跑。[move U X 500 0.5]/
+[face A 14]
+[talk A]
+[se rope_01]
+[color U BLUE]
+科拉，等等！[move A X 200 0.3][rotate A 0 0.3][delay 0.3 move A X -20 0.1][se walk_04][delay 0.3 shakebg][-][move U X -500 0.3][rotate U 10][-][shake U]/
+[talkend]
+[color U BLUE]
+[textcolor BLUE]
+像這樣的時間的字串。
+這根繩子將它緊緊地固定住，不會讓它走得太遠。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[show A]
+[show U]
+[face A 01]
+[order U 1]
+[order A 0]
+[color U BLUE]
+[-]
+[move U X -400 1.0]
+[hide U]
+[-]
+[serif on]
+[textcolor BLUE]
+然後，我拿起屍體的手指，在圓魔上按了指紋。
+如果你願意，只要把你的靈魂交給擺渡人就好了。[effect A kira a]/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[hideall]
+[effect off a]
+[bg j02_main]
+[minibg off]
+[-]
+[serif on]
+[textcolor BLUE]
+我整天都在做這件事。
+這是我的工作。/
+[fadeout 1.5]
+[-]
+[show A C]
+[face A 01]
+[talk A]
+嘿嘿氣...
+這個月也有很多事情發生。/
+[face A 02]
+[talk A]
+餵，虎，你也吃金平糖吧？
+真好吃！/
+[face A 09]
+@老虎
+喵。/
+@火車
+我們休息一下吧。躺在這附近
+我們去逛逛吧。[move A Y -50 1.0][hide A][se dosa_01]/
+[talkend]
+就在這時，山的另一邊傳來了類似隆隆的聲音。
+我能聽到。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg black]
+[minibg ikusa_hata]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+我進去一看，發現很多人全副武裝。
+他們用劍和矛為生命而戰。/
+[minibg off 1.0]
+[bg j02_main 1.0]
+[-]
+[show A]
+[face A 04]
+[talk A]
+另一場戰爭……人類都是白痴。
+啊？[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]/
+[talkend]
+[se paper_01]
+當我翻閱這本書時，
+新名字即將到來…/
+[face A 02]
+[talk A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+沒有靈魂，佛就出不來。
+我要努力工作！/
+[talkend]
+[bg black 1.5]
+[waku on 0.5]
+[textcolor BLUE]
+……嗯……我當時就回來了。
+我已經被工作累壞了.../
+[fadein BLACK 1.0]
+[textcolor BLUE]
+也許這就是推動我的原因
+我不知道.../
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>1/
+((s))
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[randomset R m @チーム -@NOW -MAIN -iwm]
+[randomset S m @チーム -@NOW -MAIN -iwm]
+[set W s_san_m 讚岐]
+[set D s_n001_m 夏人]
+[set E s_n000_m 猫乃屋]
+[set F s_n004_m 百太]
+[fadein black 0]
+[bgm off]
+[-]
+[title 第一節 黄泉がえり]
+[-]
+[bg sky_day]
+[-]
+[bgm ascending]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+1556、
+石見國家，石見銀礦。/
+((m))
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[randomset R m @チーム -@NOW -MAIN -iwm]
+[randomset S m @チーム -@NOW -MAIN -iwm]
+[set W s_mus_m 武藏]
+[set D s_n001_m 夏人]
+[set E s_n000_m 猫乃屋]
+[set F s_n004_m 百太]
+[fadein black 0]
+[bgm off]
+[-]
+[title 第一節 黄泉がえり]
+[-]
+[bg sky_day]
+[-]
+[bgm ascending]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+1556、
+石見國家，石見銀礦。/
+((e))
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[randomset R m @チーム -@NOW -MAIN -iwm]
+[randomset S m @チーム -@NOW -MAIN -iwm]
+[set W s_ecg_m 越後]
+[set D s_n001_m 夏人]
+[set E s_n000_m 猫乃屋]
+[set F s_n004_m 百太]
+[fadein black 0]
+[bgm off]
+[-]
+[title 第一節 黄泉がえり]
+[-]
+[bg sky_day]
+[-]
+[bgm ascending]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+1556、
+石見國家，石見銀礦。/
+[se amb_02]
+[bg sandou 1.0]
+[effect fr kiesou a]
+[wait 0.5]
+[-]
+[fadein WHITE 0.2]
+[delay 0.2 effect off a]
+[delay 0.2 fadeout 1.0]
+……/
+[serif off]
+[se walk_04]
+[show B C]
+[move B Y -100]
+[move B Y 100 1.0]
+[face B 01]
+[talk B]
+[-]
+[serif on]
+這裡是…石見國家的歷史覺醒區…/
+<bic>
+[face B 02]
+歷史覺醒區，解放行動，部隊成員備中！
+我們已經到達地點了！/
+<-bic>
+[face B 08]
+回應主的心願，備中，在行動。
+感謝您的光臨！/
+[show C C]
+[move C X 800]
+[-]
+[talk B]
+[face C 01]
+[move C X -700 0.5]
+[delay 0.5 shakebg]
+[delay 0.4 move B X -200 0.3]
+[delay 0.5 face B 05]
+[delay 0.5 se doka_01]
+[delay 0.4 rotate B 10 0.5]
+哇！/
+[rotate B 0 0.5]
+[face B 04]
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+[face C 09]
+[say C]
+這是什麼，兄弟？我就站在那裡
+我們來碰撞吧！/
+[setline 0.5 B C]
+[face B 03]
+[talk B]
+備後！我太激動了
+我正在努力結束它.../
+[say C]
+[face C 00]
+對此感到抱歉！
+但每個人似乎都站在另一邊。/
+[say B]
+[face B 05]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+哈！ ？這是真的…！　
+我還以為你就在我身邊呢……！[shake B][face B 04]　嘿！/
+[move B X -600 0.5]
+[se walk_03]
+[hide B]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[say C]
+[face C 11]
+我弟有點笨拙。
+戈脩金！　[face C 02]我會盡力的！/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[hideall]
+[bg shirei_day]
+[bgm rokuhara]
+[-]
+[fadeout 1.0]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[show D]
+[face D 06]
+[talk D]
+[-]
+[se pi_01]
+[serif on]
+呼，這次地魂傳送也很順利。
+看起來是這樣。/
+[show F]
+[show E]
+[setline 0.5 E D F]
+[orderline D E F]
+[say F]
+[face F 01]
+[face E 00]
+感謝前輩們為我付出的辛勞！/
+[face E 01]
+[say E]
+今天也很穩定！
+果然是我的後輩啊！/
+((s))
+[show W R]
+[setline 0.5 E D W F]
+[face W 12]
+[talk W]
+[orderline W D E F -100 1100]
+很好。
+看來我能好好幹我的工作了！/
+((m))
+[show W R]
+[setline 0.5 E D W F]
+[face W 12]
+[talk W]
+[orderline D W E F -100 1100]
+很好。
+看來我們現在可以開始任務了。/
+((e))
+[show W R]
+[setline 0.5 E D W F]
+[face W 12]
+[talk W]
+[orderline D W E F -100 1100]
+....呼。看起來你可以安全地開始你的任務了。/
+[say D]
+[face D 14]
+[serif off]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[-]
+[serif on]
+精神傳送結束後，我感受到了精神脈動的輕微波動。
+我認為總體上不會有任何問題。[face A 01]/
+[face E 08]
+[say E]
+直到你去了那裡你才會知道。
+那些傢伙會做得很好。[face E 01]/
+[face E 10]
+[move E Y 10 0.1]
+[delay 0.1 move E Y -10 0.1]
+嘿？$W，我猜你還有另一個任務要做。
+你準備好了嗎？/
+((s))
+[shake W]
+[face W 10]
+[talk W]
+呃...[shake W]
+但我只是想看著你.../
+((m))
+[auto]
+呃。[shake W]
+是的，但我只是想關注它。/
+((e))
+[auto]
+哈，是的…蘇…
+但我想看它，即使在一開始.../
+[say D]
+[face D 01]
+不是很好嗎？
+$W我也理解你的感受。/
+[face D 15]
+[face F 09]
+[face E 11]
+[flow]
+其實我也想去。/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[say W]
+[face W 04]
+是啊...[wait 0.5][face W 08]
+但現在，他相信他的朋友並照顧他們。/
+((m))
+[auto]
+沒錯...[wait 0.5][face W 08]
+但現在，我相信我的朋友並關注他們。/
+((e))
+[auto]
+是的...[wait 0.5][face W 08]
+但現在，他相信他的朋友並照顧他們。/
+((s))
+[face W 01]
+[flow]
+因為我和Master一起做了這個決定...
+這就是為什麼我相信每個人！/
+((m))
+[auto]
+這就是我和將軍的決定。
+我相信每個人！/
+((e))
+[auto]
+這是我和師傅決定的！
+我相信每個人！/
+[serif off]
+？同意/
+[playeryes]
+[-]
+[say E]
+[face E 09]
+[serif on]
+好吧，讓我們從這裡支援你！/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[hideall]
+[bgm journey]
+[bg sandou]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[show B C]
+[show C C]
+[show R L]
+[show S R]
+[setline 0.5 R B C S -50 1100]
+[order R 0]
+[order S 0]
+[order C 1]
+[order B 2]
+[face B 01]
+[face C 00]
+[face R 01]
+[face S 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[talkend]
+@備中
+哦，這次的隊伍構成是這樣的。
+很高興認識大家。/
+[move R Y 5 0.2]
+[delay 0.2 move R Y -10 0.6]
+[delay 0.8 move R Y 5 0.5]
+[face R 00]
+[autotap]/
+[talkend]
+部隊的$R大大地點了點頭。
+看起來很可靠。/
+[face B 00]
+[say B]
+關於這個使命，我已經
+我一直在思考各種策略。/
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+所以大家！直到我發出指示
+什麼都不要做！[face R 05][face S 05][shake R][shake S]/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 09]
+[say C]
+[face R 00]
+[face S 00]
+那麼，你哥哥的計畫是什麼？
+渾身都是坑啊！/
+[face B 03]
+[say B]
+[shake B]
+嗯，事實並非如此。
+B-完美！　[face B 08]的……應該是！ ？/
+[move B X -50 0.1]
+[delay 0.1 move B X 100 0.2]
+[delay 0.3 move B X -100 0.2]
+[delay 0.5 move B X 50 0.1]
+[autotap]/
+[face B 01]
+[face C 00]
+[talkend]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[delay 0.2 face R 02]
+[delay 0.5 face S 02]
+備中 和其他單位的地魂男孩一起站在備後 前面。
+我開始到處發出指示。/
+[face B 00]
+[say B]
+……這個時代已經成為“歷史覺醒區”
+首先，要找出原因。/
+[face B 08]
+[face R 00]
+[face S 00]
+重要的是要聽！
+四處走走，聽聽看是否有任何異常情況發生！/
+[face C 08]
+[say C]
+周圍沒有人問問題。/
+[face B 05]
+[talk B]
+[shake B]
+呃！ ？這是真的.../
+[hide B]
+[hide C]
+[hide R]
+[hide S]
+[talkend]
+我環顧四周，看到了一條山路。
+沒有任何人的跡象。/
+[serif off]
+[show B C]
+[face B 08]
+[talk B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+嗯……首先我得找到一個村莊。
+……啊！[move B X 100 0.2][face B 05]　備後！ ？/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bgm fun]
+[-]
+[fadeout 0.5]
+[-]
+[show C L]
+[face C 02]
+[move C X 300 0.3]
+[move C Y 200 0.2]
+[se walk_04]
+[delay 0.2 move C Y -100 0.1]
+[-]
+[serif on]
+[talk C]
+交給我吧！[move C Y 100 0.5]/
+[hide C]
+[-]
+[show B C]
+[face B 05]
+[talk B]
+留給我吧...[shake B]噢耶！ ？
+備後，你會爬樹！ ？[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]　太棒了.../
+[face B 01]
+他繼續攀登……這真是驚人的舉動……
+……他看起來就像一隻緊貼樹的熊……[face B 09]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg sky_day]
+[-]
+[fadeout 0.5]
+[-]
+[show C C]
+[scale C 2.0]
+[move C Y -500]
+[-]
+[se walk_04]
+[move C Y 100 0.5]
+[delay 0.6 move C Y 100 0.5]
+[-]
+[se walk_04]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[-]
+[serif on]
+[face C 09]
+[talk C]
+頂！很貴！ ！
+哪一個……哇，我看到村莊了！[shake C]/
+[flow]
+[face C 02]
+大哥！ ！ ！
+就可以看到對面的村莊了！[shake C]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg sandou]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show B C]
+[show R C]
+[show S C]
+[setline 0 R B S]
+[face B 01]
+[face R 00]
+[face S 02]
+[talk B]
+備後~！ ！謝謝你，夠了！
+慢慢下來吧！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg sky_day]
+[-]
+[fadeout 0.5]
+[-]
+[show C C]
+[face C 01]
+[scale C 2.0]
+[move C Y -200]
+[-]
+[serif on]
+[talk C]
+噢，趕快下車吧！[move C Y -100 0.3][delay 0.3 shake C]　....哦？[face C 11]　樹枝上的褲子
+卡住了...嗯嗯！[shake C]　[face C 08]哼！ ！[shake C]/
+[face C 05]
+[shakebg]
+[bgm off]
+[se paper_03]
+[effect fr syutyu a 0 100]
+[talkend]
+武裡！ ！/
+[shake C]
+[-]
+[bgm departure]
+[effect off a]
+[effect C syutyu b 0 200]
+[-]
+[move C Y -900 0.3]
+[rotate C 50 0.3]
+[delay 0.5 shakebg]
+[se fall_01]
+[delay 0.2 effect off b]
+[talk C]
+哦，哦，哇！ ！ ！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg sandou]
+[-]
+[fadeout 0.5]
+[-]
+[show B C]
+[show R C]
+[show S C]
+[setline 0 R B S]
+[effect B syutyu a 0 100]
+[face B 05]
+[face R 05]
+[face S 05]
+[shake B]
+[move R X -50 0.1]
+[delay 0.1 move R X 100 0.2]
+[delay 0.3 move R X -100 0.2]
+[delay 0.5 move R X 50 0.1]
+[-]
+[talk B]
+[serif on]
+哇，這很危險！
+備後！ ！　哇！/
+[serif off]
+[show C C]
+[order C 3]
+[order B 2]
+[face C 05]
+[move R X -100 0.3]
+[move S X 100 0.3]
+[rotate B 10 0.3]
+[delay 0.3 shake B]
+[move C Y 600]
+[move C Y -800 0.5]
+[rotate C -60]
+[delay 0.3 fadein WHITE 0.1]
+[delay 0.3 se zukkoke_01]
+[-]
+[move S X 100]
+[move R X -50]
+[effect off a]
+[show C]
+[show B]
+[rotate B 130]
+[move C Y -150]
+[move C Y 100 1.0]
+[move B X 300]
+[move B Y -100]
+[talk C]
+[face S 05]
+[face R 04]
+[face C 06]
+[orderline C B S R]
+[fadeout 1.0]
+[shakebg]
+[-]
+[serif on]
+塔塔塔塔……哇。[move C Y 10 0.1][delay 0.1 move C Y -10 0.1]我的屁股撕裂了
+都暴露了……！/
+[say B]
+[shake B]
+福戈福戈！ ！ （嗯，在那屁股下面...
+那是我的臉……！ ！ ）/
+[face C 05]
+[talk C]
+[se cloth_02]
+啊？我覺得我的屁股奇怪地溫暖，但那是因為那是我的兄弟。
+別把臉放在這種地方！ ？[move C Y 100 0.1][delay 0.1 move C Y -100 0.2]/
+[say B]
+[se cloth_03]
+[shake B 3 5 5]
+福葛福葛福葛！ ！ ！ （我快喘不過氣了，快點！）/
+[face C 10]
+[talk C]
+[shake C]
+噗，噗噗！我們走吧！
+大哥快點啊！/
+[face B 05]
+[move B XY 200 50 0.2]
+[rotate B 0 0.2]
+[move C XY -200 50 0.3]
+[se walk_04]
+[face S 06]
+[face R 06]
+[-]
+[talk B]
+布哈！ ！這就是我的路線！
+哇！ ！我差一點就突然死掉了！ ！/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 11]
+[talk C]
+[bgm journey]
+是這樣嗎？我很高興你安全了！[face C 02]
+你能幫我縫一下我的屁股嗎？[move C X 50 0.2]/
+[serif off]
+[face B 08]
+[say B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[face R 00]
+[face S 01]
+[setline 0.5 R C B S]
+[move B XY 50 -60 0.5]
+[rotate B 10 0.5]
+[-]
+[serif on]
+我完全明白...別動。
+我可能會捅你屁股。/
+[talkend]
+[se cloth_01]
+備中從行李拿出針線，
+我小心翼翼地縫好了備後的褲子。/
+[say B]
+[face B 04]
+唉……任務剛開始就這樣了……
+呃……我的肚子開始痛了……[shake B]/
+((s))
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[hideall]
+[bg shirei_day]
+[-]
+[fadeout 1.0]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[bgm rokuhara]
+[show E]
+[show D]
+[show W]
+[show F]
+[face F 00]
+[setline E W D F]
+[face E 10]
+[face D 12]
+[say E]
+[orderline W D E F]
+[-]
+[serif on]
+備中 看起來很嚴重，所以我想沒關係。
+備後可以嗎？/
+((m))
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[hideall]
+[bg shirei_day]
+[-]
+[fadeout 1.0]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[bgm rokuhara]
+[show E]
+[show D]
+[show W]
+[show F]
+[face F 00]
+[setline E W D F]
+[face E 10]
+[face D 12]
+[say E]
+[orderline D W E F]
+[-]
+[serif on]
+備中 看起來很嚴重，所以我想沒關係。
+備後可以嗎？/
+((e))
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[hideall]
+[bg shirei_day]
+[-]
+[fadeout 1.0]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[bgm rokuhara]
+[show E]
+[show D]
+[show W]
+[show F]
+[face F 00]
+[setline E W D F]
+[face E 10]
+[face D 12]
+[say E]
+[orderline D W E F]
+[-]
+[serif on]
+備中 看起來很嚴重，所以我想沒關係。
+備後可以嗎？/
+((s))
+[face W 02]
+[say W]
+沒關係！
+備中、備後 和其他所有人！/
+((m))
+[auto]
+沒關係！
+備中、備後 以及其餘的！/
+((e))
+[auto]
+沒關係！
+備中、備後，還有其他人！/
+((s))
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+嘿！連大師也這麼認為！/
+((m))
+[auto]
+什麼！將軍也是這麼想的吧？/
+((e))
+[auto]
+沒錯！掌握！/
+[serif off]
+？點點頭/
+((s))
+[playeryes]
+[-]
+[face F 01]
+[face W 12]
+[serif on]
+瞧！/
+((m))
+[auto]
+什麼！連將軍都認可了！
+別擔心！/
+((e))
+[auto]
+嘿！每個人都是優秀的地魂少年！/
+[say E]
+[face D 01]
+[face E 09]
+沒錯。
+我們也不應該懷疑他們的力量。/
+((s))
+[serif off]
+[hide D]
+[hide E]
+[hide F]
+[say W]
+[face W 04]
+[-]
+[serif on]
+……那麼，嘿，是時候了。
+我會為下一個任務做準備.../
+((m))
+[auto]
+……那麼，時間也差不多了。
+我會為下一個任務做準備.../
+((e))
+[auto]
+時間到了……我正在為下一個任務做準備。
+我會做的.../
+((s))
+[face W 12]
+[move W Y 100 0.2]
+[delay 0.2 move W Y -100 0.2]
+大家！祝你好運！
+我支援你！/
+((m))
+[auto]
+大家！祝你好運！ ！
+我支援你！/
+((e))
+[auto]
+大家！祝你一切順利！
+我支援你！ ！/
+[serif off]
+[hide W]
+[-]
+[show D]
+[show E]
+[show F]
+[face F 00]
+[face D 00]
+[face E 01]
+[setline E D F]
+[orderline D E F]
+[say E]
+[serif on]
+$W莫納！/
+[say D]
+[face D 02]
+確保你沒有忘記任何事情。/
+((s))
+[hideall]
+[serif off]
+[-]
+[show W]
+[face W 12]
+[serif on]
+[say W]
+是的！/
+((m))
+[auto]
+我們走吧！/
+((e))
+[auto]
+是的！/
+[serif off]
+?請走/
+((s))
+[say W]
+[face W 02]
+[serif on]
+我們走吧！掌握！
+請向備中問好！/
+((m))
+[auto]
+哦！我們走吧！
+我要了備中和其他人。/
+((e))
+[auto]
+是的！我要去！
+請多多關照備中！/
+[serif off]
+[move W X -600 0.5]
+[se fusuma_01]
+[hide W]
+[-]
+[show D]
+[show E]
+[show F]
+[setline E D F]
+[orderline D E F]
+[face D 14]
+[face E 00]
+[face F 00]
+[-]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[say D]
+[serif on 0.5]
+$W我得準備昆任務的送靈了。/
+[say F]
+[face F 09]
+持續的心靈傳送...
+森貝還好嗎？/
+[serif off]
+？點點頭/
+[playeryes]
+[-]
+[serif on]
+[say D]
+[se rokuhara_04]
+[face D 12]
+好像沒有異常數字，
+我收到了實驗室發來的訊息，說可以寄烈酒。/
+[move E Y 10 0.4]
+[delay 0.4 move E Y -10 1.0]
+[autotap]/
+[face E 04]
+[say E]
+如果你的靈力太多，腐爛了怎麼辦？
+我想我被利用得很不好。[shake E]好可憐啊…/
+[face D 01]
+[say D]
+$W這對你們來說是一個簡單的探險任務。
+基本上$W我可以把它留給你們。/
+[flow]
+[face D 04]
+請支援那些處於這個歷史覺醒地區的人們。
+我必須確保這個問題得到解決.../
+[move E Y 5 0.2]
+[delay 0.2 move E Y -10 0.6]
+[delay 0.8 move E Y 5 0.5]
+[autotap]/
+[say E]
+[face E 08]
+沒錯。
+好吧，讓我們放鬆一下。/
+[face F 09]
+[say F]
+嗯，我想知道這個問題已經有一段時間了。
+另一端的燈是什麼？[face F 11]/
+[face D 02]
+[say D]
+這道光測量的是地魂童子的靈力波形。
+更容易理解彼此之間的位置關係…/
+[face E 11]
+[say E]
+[move E Y 10 0.1]
+[delay 0.1 move E Y -10 0.1]
+嗯，我的意思是，距離很遠。
+這是不是表示地魂童子有反應了？/
+[shake D]
+[face D 10]
+[say D]
+啊，確實如此……確實如此。
+我不知道我是否被靈魂傳送到了很遠的地方。[face D 12]/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>2/
+[set A s_a002_m 火車]
+[set B s_a002_m 火車]
+[set T s_m006_m 渡守]
+[set Y s_obj_like イイネ]
+[set Z s_obj_likepoint イイネ]
+[fadein black 0]
+[bgm off]
+[bg sandou]
+[-]
+[bgm comical]
+[waku on]
+[-]
+[fadeout 1.0]
+[waku off 1.5]
+[-]
+[serif on 0.5]
+[textcolor blue]
+時間回到幾個月前。
+/
+[show B C]
+[color B BLACK]
+[-]
+[show A C]
+[order A 1]
+[order B 0]
+[face A 00]
+[-]
+[hide B]
+[-]
+[bg j02_main 0.5]
+[move A L 0.3]
+[textcolor BLUE]
+除了睡覺的時候，我一直忙於工作。
+已經很多年了.../
+[face A 01]
+[talk A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+嗯，我最近感覺很奇怪。[wait 0.5]相反。
+奇怪的是，我連睡覺的時間都沒有，還這麼努力。/
+[face A 02]
+[move A R 0.5]
+[delay 0.5 move A C 0.3]
+就是這樣。[wait 0.5]當信差或快遞員長時間奔跑時，
+我正在克服疲勞，相反，我開始感覺良好.../
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+跑步者的高度。[se taiko_02]/
+[face A 02]
+虎，你看，是金平糖！/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+@老虎
+喵！/
+[face A 01]
+那麼，我們把下一具屍體帶進來吧！/
+[talkend]
+[move A X -200 0.5]
+[se kira_01]
+[effect A kira a]
+[textcolor BLUE]
+今天我一個早上就背了將近80塊。
+這是多麼偉大的成就。月底我將感到榮幸。/
+[face A 02]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+是的，但我真的很感激。
+我有很多工作要做。我不敢相信我能把它全部吃完。/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+非常感謝！[move A X -500 0.5][hide A][se walk_02]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[effect off a]
+[hideall]
+[bg black]
+[minibg a002_sanzu]
+[-]
+[se water_06]
+[fadeout 1.0]
+[wait 0.5]
+[-]
+[serif on]
+[show T C]
+[face T 00]
+[talk T]
+嘿火車桑。這個是你自己帶的嗎？
+就這麼多...我很高興與您合作。/
+[serif off]
+[effect T love a 0 200]
+[shakebg]
+[show Y 0.3]
+[move Y XY 100 -50]
+[shake Y 1 5 5]
+[scale Y 1.1 0.2]
+[delay 0.3 move Y Y 100 1]
+[delay 0.8 hide Y 0.5]
+[se buff_01]
+[delay 0.8 show Z 0.3]
+[delay 0.8 orderline Z 26]
+[delay 0.8 scale Z 1.1 0.2]
+[delay 0.8 move Z X 100]
+[delay 0.8 shake Z 1 5 5]
+[delay 1 move Z Y 50 1]
+[delay 1.6 hide Z 0.5]
+[order T 1]
+[order Y 25]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[effect off a]
+[show A L]
+[setline 0.5 A T]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[say A]
+[serif on]
+哈哈……嗯，傳奇等級的送貨員……
+就像我一樣。/
+[say T]
+[se paper_01]
+[move T Y 10 0.1]
+[delay 0.1 move T Y -10 0.1]
+哦，卡沙先生，
+這個靈魂沒有指紋，但是…/
+[face A 05]
+[talk A]
+[shake A]
+[bgm departure]
+哈！/
+[move T Y 5 0.2]
+[delay 0.2 move T Y -10 0.6]
+[delay 0.8 move T Y 5 0.5]
+[autotap]/
+[say T]
+[se paper_01]
+啊，戰屍損毀嚴重，沒救了…
+看來和炎麻町確認一下是肯定的事了。/
+[flow]
+在這種情況下…我確定…[se paper_02]
+嗯...我會讓你帶走我的靈魂，但是.../
+[flow]
+……我沒有指紋。
+我認為這筆錢將從你的薪水中扣除。/
+[minibg emo_donyori]
+[face A 04]
+[talk A]
+[bgm off]
+呃……我的薪水會下降嗎？
+你有沒有做過這樣的事.../
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+....但是我是那個忘記帶自己的...
+沒辦法.../
+[move T R 0.5]
+[hide T]
+[move A C 0.5]
+[face A 11]
+[minibg off 1]
+[delay 0.5 bg sandou 1.0]
+[se walk_01]
+事實上，我只是很感激你接手了.../
+[face A 09]
+@老虎
+喵.../
+[face A 11]
+別露出那種表情，托拉。
+這就是我們所有人的成長方式。/
+[se walk_01]
+[talkend]
+[bg black 1.5]
+[waku on 0.5]
+[textcolor BLUE]
+但我覺得有點不安。
+事實...[hide A 1.0]/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>3/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set E s_n001_m 夏人]
+[set F s_n000_m 猫乃屋]
+[set G s_n004_m 百太]
+[set T s_m005_m 村人]
+[fadein black 0]
+[bgm off]
+[-]
+[bg mbg_map]
+[minibg mura]
+[se amb_06]
+[-]
+[bgm journey]
+[fadeout 0.5]
+[-]
+[place 石見国　小さな村]
+[-]
+[show B C]
+[show C C]
+[show R C]
+[show S C]
+[face B 00]
+[face C 00]
+[face R 00]
+[face S 00]
+[setline 0 R B C S]
+[order R 0]
+[order S 0]
+[order C 1]
+[order B 2]
+[-]
+[serif on 0.5]
+[talk B]
+這就是備後發現的村莊。
+我們來聽聽看故事吧.../
+[hideall]
+[-]
+[se walk_01]
+[talkend]
+[bgm departure]
+當一行人進入村莊時，
+我聽到附近房子傳來聲音。/
+[shakebg]
+@村民
+托特安！戶津安復活了！/
+[shakebg]
+@村民
+嘿嘿！ ！
+我的吉羅比復活了！ ！/
+[show B C]
+[show C C]
+[show R C]
+[show S C]
+[setline 0 R B C S]
+[order R 0]
+[order S 0]
+[order C 1]
+[order B 2]
+[face B 05]
+[face C 05]
+[face R 05]
+[face S 05]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+什、什麼……？
+我想知道發生了什麼事...所有這些騷動.../
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 08]
+[face C 08]
+[face R 08]
+[face S 08]
+[talk B]
+我們來聽聽看故事吧.../
+[move R X -200 0.5]
+[hide R]
+[move S X 300 0.5]
+[hide S]
+[move C X 400 0.5]
+[face C 11]
+[-]
+[face C 10]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[-]
+[show T L]
+[face T 00]
+[setline 0.5 T B C]
+[talk B]
+對不起，呃……大家，大喊大叫。
+發生了什麼事？/
+[say T]
+[shake T]
+[face C 08]
+嗯，戶津安本來應該死了，但是
+它又復活了！/
+[face B 03]
+[say B]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+本來應該死掉的人竟然復活了……？/
+[serif off]
+[talk T]
+[hide B]
+[hide C]
+[move T C 1.0]
+[minibg emo_donyori 1.0]
+[bg black]
+[-]
+[serif on]
+昨天有一場可怕的暴風雨。五個人去釣魚
+我擔心你不會回來。/
+[flow]
+當我早上去海邊時...我們五個人...
+他死了…/
+[flow]
+不過，他們還是把屍體帶回了村子，並告別了。
+正當我後悔的時候，他們又相繼復活了…/
+[serif off]
+[hide T]
+[-]
+[bgm journey]
+[bg mbg_map]
+[minibg mura]
+[show B]
+[show C]
+[setline 0 B C]
+[face C 11]
+[say C]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[-]
+[serif on]
+哇……真是個奇怪的故事……/
+[face B 02]
+[talk B]
+[shake B]
+我、我想這就是……關於它的！ ？[effect B kira a 0 200][se kira_01]
+按照我的策略，面試非常成功！[move B Y 10 0.1][delay 0.1 move B Y -10 0.1]/
+[face C 02]
+[say C]
+[effect C kira b 0 200]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[se kira_01]
+多虧了我，我才找到了這個村莊！/
+[show D R]
+[move D X 200]
+[face D 00]
+[talk D]
+[effect off a]
+[effect off b]
+[setline 0.5 B C 0 500]
+[move D X -200 1.0]
+有什麼好大驚小怪的？
+大家大聲喊出來。/
+[face B 05]
+[face C 05]
+[say C]
+[shake C]
+一個！ ！ ！我-石見！ ？/
+[talk B]
+[shake B]
+石見也是神靈送來的！ ？/
+[move D Y 20 0.4]
+[delay 0.6 move D Y -20 0.2]
+[autotap]/
+[face C 00]
+[face D 01]
+[talk D]
+沒錯。當你發現後，就來這裡吧，
+聽說有一個村民死了。/
+[move D Y 20 0.4]
+[delay 0.6 move D Y -20 0.2]
+[autotap]/
+[face D 02]
+挖啊挖啊挖五個墳墓！
+這是一個真正可以挖掘的地方！/
+[delay 0.1 move C Y -10 0.2]
+[delay 0.3 move C Y 10 0.1]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.1]
+[delay 0.7 move C Y -10 0.3]
+[autotap]/
+[face C 09]
+[say C]
+哈哈哈哈！你流汗了！/
+[face B 01]
+[say B]
+我是被神靈派來的，突然要幹這麼辛苦的活…[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]
+你還好嗎？[face B 08]/
+[face D 01]
+[say D]
+嘿，我擅長挖掘。
+確保也訓練你的下背部。/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 04]
+如果五個人同時死亡，村民也會死亡。
+我以為這會很難，所以我有點興奮。/
+[face B 06]
+[say B]
+……就是這樣……/
+[face C 11]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+太可惜了...石見。
+你的工作可能被浪費了。/
+[face D 05]
+[say D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+到？你是什​​麼意思？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg emo_donyori]
+[bg black]
+[-]
+[bgm unrest]
+[fadeout 1.0]
+[-]
+[serif on]
+[show T C]
+[face T 00]
+[name T 生き返った人]
+[talk T]
+我的記憶有些模糊了…[wait 0.5]我實在不明白。
+昨天的暴風雨太大了，我沒能釣到魚。/
+[talk T]
+[move T Y 10 0.4]
+[delay 0.4 move T Y -10 1.0]
+潮水很高，所以我躲在海灘上的一塊岩石下。
+我們休息一下吧...[wait 0.5]我現在意識到了。/
+[hide T]
+[minibg mura 0.5]
+[bg mbg_map 0.5]
+[-]
+[show B C]
+[show C C]
+[show D C]
+[face B 08]
+[face C 00]
+[face D 00]
+[setline 0 C B D]
+[talk B]
+[order B 2]
+[order C 0]
+[order D 1]
+……他們五人去釣魚，但因為暴風雨而沒有釣到魚。
+當我躲雨的時候.../
+[flow]
+[face B 04]
+當我們睡覺時，他們都死了。
+你什麼意思？呃，嚇人...[shake B]/
+[face D 01]
+[say D]
+每個人都復活了
+那不是真的。/
+[face C 11]
+[say C]
+[bgm journey]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+有不好的事情要發生了。
+這很奇怪。/
+[face B 03]
+[say B]
+[shake B]
+不不不，應該說很奇怪，但這很明顯
+不正常啊！　[move B Y 5 0.2][delay 0.2 move B Y -10 0.6][delay 0.8 move B Y 5 0.5]我認為這絕對是個調查物件！/
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[face B 02]
+我做到了！我們來向主報告吧！
+/
+[face D 04]
+[say D]
+我想這是受到了這個歷史覺醒區的影響吧…
+原因是什麼？/
+[face B 05]
+[say B]
+[shake B]
+………
+……………………[face B 04]/
+[face C 08]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+石見！別著急。這就是即將發生的事情
+這是你透過研究就能發現的！/
+[face B 05]
+[say B]
+[shake B]
+[effect B syutyu 2000 0 100]
+[se zukkoke_02]
+（B-備後說的是有道理的話…！）/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 08]
+喔對了...那麼接下來...
+例如...[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]呃…[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]呃…/
+[say D]
+[face D 02]
+我想我們都會繼續在這裡挖掘。
+首先，我們要準備適合人數的鎬…/
+[shake C]
+[face B 05]
+[face C 05]
+[se zukkoke_02]
+[say C]
+沒有人可以去墳墓了！[shake C]
+這是不必要的勞動！我太喜歡挖洞了！/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 04]
+[say D]
+我想……真是可惜了……/
+[face D 01]
+[flow]
+事實上，有五人死亡。
+你想去海灘嗎？/
+[face C 02]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+哦！確實如此！/
+[serif off]
+[move C X 400 1.0]
+[move D X 400 1.0]
+[face B 05]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[se walk_01]
+[delay 0.5 hide C]
+[delay 0.5 hide D]
+[-]
+[shake B]
+[face B 04]
+[say B]
+[-]
+[serif on]
+啊，啊。我將是製定策略的人......！
+等等！/
+[move B X 800 0.5]
+[hide B]
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[bgm rokuhara]
+[hideall]
+[bg shirei_day]
+[minibg off]
+[-]
+[fadeout 1.0]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[serif on]
+[show E]
+[show F]
+[setline E F]
+[say F]
+[face F 00]
+[face E 00]
+[se pi_01]
+對方的反應是石見...
+他是你可以依靠的人！/
+[say E]
+[face E 01]
+沒錯。有這個會員，調查一下就好了。
+之後.../
+[face F 09]
+[say F]
+就這樣看著我吧？
+納豆要求檢查資料。/
+[face F 01]
+我要再看一遍材料。/
+[hideall]
+[se dosa_01]
+[shakebg]
+[talkend]
+說著，貓乃屋將大量的資料放到了桌上。/
+[serif off]
+？還是很大一筆啊…/
+[show F]
+[face F 10]
+[say F]
+[serif on]
+[se paper_01]
+這些是來自世界各地與這個歷史地區相關的資料。/
+[move F Y 10 0.4]
+[delay 0.4 move F Y -10 1.0]
+[autotap]/
+[face F 08]
+Inocchi的人帶來了一堆。
+你從哪裡收集它？/
+[show G]
+[face G 05]
+[setline 0.5 F G]
+[orderline G F]
+[say G]
+哦，太棒了。看看這個材料，
+您是否正在尋找靈性歸宿的改變？/
+[move F Y 5 0.2]
+[delay 0.2 move F Y -10 0.6]
+[delay 0.8 move F Y 5 0.5]
+[autotap]/
+[say F]
+[face F 08]
+就是這樣。即使在這裡
+你可能會注意到一些事情。/
+[show E L]
+[setline 0.5 E F G]
+[say E]
+[face E 01]
+當我們提前準備好材料時，我們會檢查它們。
+我明白了大綱，但是…/
+[face E 06]
+[flow]
+我可能忽略了一些事情。/
+[face E 01]
+貓之屋桑，請。/
+[move F Y 5 0.2]
+[delay 0.2 move F Y -10 0.6]
+[delay 0.8 move F Y 5 0.5]
+[autotap]/
+[say F]
+[face F 09]
+嘿。/
+[face G 02]
+[say G]
+我也來幫你吧！　工作模式，
+我擅長閱讀和尋找資料！/
+[say F]
+[face F 10]
+你的性格是如此強烈，以至於很容易被遺忘，但又令人驚訝
+你很有能力。祖裡瓦~。[shake F]/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>4/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW -MAIN]
+[randomset S m @チーム -@NOW -MAIN]
+[set T s_m005_m 村人]
+[fadein black 0]
+[bgm off]
+[-]
+[title 第二節 意外とイケてません？]
+[-]
+[bg mbg_map]
+[minibg mura]
+[-]
+[bgm journey]
+[fadeout 0.5]
+[wait 1.5]
+[-]
+[se walk_01]
+[-]
+[minibg hamabe 1.0]
+[se water_04]
+[-]
+[place 浜辺 はまべ]
+[-]
+[show B C]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[scale B 0.8]
+[scale C 0.8]
+[scale D 0.8]
+[scale R 0.8]
+[scale S 0.8]
+[face B 00]
+[face C 00]
+[face D 00]
+[face R 00]
+[face S 00]
+[setline 0 R C B D S]
+[move B Y 40]
+[move C Y 40]
+[move D Y 40]
+[move R Y 40]
+[move S Y 40]
+[order R 0]
+[order S 0]
+[order D 1]
+[order C 1]
+[order B 2]
+[-]
+[serif on 0.5]
+[talk B]
+這是大家睡覺的地方.../
+[move C Y 20 1.0]
+[delay 1.0 move C Y -20 0.2]
+[autotap]/
+[face C 02]
+[say C]
+這是一個美麗的海灘。/
+[say D]
+[face D 00]
+那麼，我首先該做什麼呢？/
+[say B]
+[face B 08]
+是的……如果有什麼線索的話…
+那很好，但是.../
+[say C]
+[face C 11]
+當你打架時，*MAIN會讓你哭泣。
+*MAIN看起來很熟悉！/
+[say B]
+[face B 05]
+嗯，確實 *MAIN 可能不合適，
+現在我們必須做點什麼！/
+[face B 08]
+更何況，這也是一個好機會…/
+[face B 03]
+[face S 01]
+主要是我們也不能輸。
+也許我可以證明我能成功...[shake B]/
+[say D]
+[face R 01]
+[face D 06]
+不要讓備中 燒毀您與*MAIN 的競爭意識。/
+[say B]
+[shake B]
+嗯，事實並非如此...
+/
+[say C]
+[face C 09]
+*MAIN是歷史最悠久的公司，經驗豐富！
+大佬們互相較勁也沒辦法啊！/
+[say B]
+[face B 04]
+呃，太吵了…[shake B]我知道！/
+[say D]
+[face D 01]
+[face R 00]
+[face S 00]
+競爭並不是壞事。
+我也輸不起。/
+((s))
+[say C]
+[face C 02]
+[face R 01]
+[shake C]
+我不認為我會在戰鬥中輸給*MAIN！
+我以實力較量！/
+((m))
+[auto]
+我覺得論體力我可以打敗*MAIN！
+我用我的腿和臀部來比賽！/
+((e))
+[auto]
+*MAIN訓練了很多，我也不會輸。
+竭盡全力，戰鬥吧！/
+[say D]
+[face D 02]
+[face S 01]
+對於挖洞我是最有信心的！
+我不會輸！/
+[face C 05]
+[say C]
+[se zukkoke_02]
+石見是唯一的好技能！[shake C]
+只有狗！[shake C]/
+[face B 08]
+[say B]
+我也會盡力讓大家看到好的地方……！
+....嗯...？[move B Y 10 0.1][delay 0.1 move B Y -10 0.1]/
+[face B 08]
+[say B]
+……
+你注意到了嗎？　石見。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[say D]
+[face D 02]
+當然。
+有一些岩石和懸崖可能值得挖掘。/
+[face B 05]
+[say B]
+[shake B]
+[se zukkoke_02]
+我不是說挖掘！
+暫時離開那裡吧！ ？/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[say C]
+[face C 10]
+石見，我滿腦子都是這個洞…
+已經瘋了.../
+[shake D]
+[face D 07]
+[say D]
+啊……我明白了。
+這就是備中想說的…/
+[face D 08]
+[face R 08]
+[face S 08]
+[say D]
+哈，雖然很微弱，但我能感覺到。
+這……就像是靈力殘留的味道……/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 03]
+[say B]
+我也這麼覺得……是不是有什麼事情……？
+美食之魂...或許是Ayakashi.../
+[face B 06]
+[face C 09]
+[face D 06]
+[face R 01]
+[face S 01]
+[say C]
+[move C Y 100 0.1]
+[delay 0.1 move C Y -100 0.2]
+我甚至感覺不到！ ！/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 01]
+[say B]
+啊這樣...
+我們要再調查一下嗎？/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bgm dungeon]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[talkend]
+[textcolor BLUE]
+[serif on]
+地魂少年們分頭開始搜尋周圍的區域。/
+[serif off]
+[show R L]
+[face R 08]
+[talkend]
+[move R XY -10 -40 0.4]
+[rotate R 10 0.3]
+[delay 0.4 move R XY 10 40 0.3]
+[delay 0.5 rotate R 0 0.3]
+[textcolor BLUE]
+[-]
+[serif on]
+$R發現了一支帶血的箭。[wait 0.5]
+箭羽上繪有「一字三星紋」的家徽。[se taiko_01]/
+[serif off]
+[hide R]
+[-]
+[show S R]
+[move S X -50 0.1]
+[delay 0.1 move S X 100 0.2]
+[delay 0.3 move S X -100 0.2]
+[delay 0.5 move S X 50 0.1]
+[face S 08]
+[textcolor BLUE]
+[-]
+[serif on]
+$S發現了似乎是貓和孩子的腳印。[wait 0.5]
+他在他們五個人睡覺的地方徘徊。[se taiko_01]/
+[move S Y 10 0.4]
+[delay 0.4 move S Y -10 1.0]
+[autotap]/
+[face S 04]
+[textcolor BLUE]
+隨後，腳印就好像拖著東西一樣，去了某個地方。
+看來他已經走了。/
+[hide S]
+[-]
+[show B C]
+[show D C]
+[setline 0 B D]
+[move D Y -100]
+[face B 04]
+[face D 04]
+[setline]
+[textcolor BLUE]
+$D發現了足輕士兵的屍體。[se taiko_01]
+在戰鬥中被劍傷流血過多而死…/
+[face B 08]
+[face D 08]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[-]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[textcolor BLUE]
+除了它死了之外，這並不是特別有趣。
+我找不到那個地方。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg sky_sunset]
+[-]
+[show B C]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[scale B 0.8]
+[scale C 0.8]
+[scale D 0.8]
+[scale R 0.8]
+[scale S 0.8]
+[face B 00]
+[face C 00]
+[face D 00]
+[face R 00]
+[face S 00]
+[setline 0 R C B D S]
+[move B Y 40]
+[move C Y 40]
+[move D Y 40]
+[move R Y 40]
+[move S Y 40]
+[order R 0]
+[order S 0]
+[order D 1]
+[order C 1]
+[order B 2]
+[face C 00]
+[face D 08]
+[fadeout 1.5]
+[-]
+[bgm journey]
+[wait 0.5]
+[-]
+[say D]
+[-]
+[serif on 0.5]
+一字三星徽章……是森家的徽章。/
+[face C 01]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+附近有四具步兵的屍體。
+然而，另一邊似乎還有更多！/
+[face B 08]
+[say B]
+這個時代……戰鬥多嗎？/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 00]
+[say D]
+沒錯，1550年左右，
+是戰國時期的。/
+[face D 04]
+這幾天石見我繞著銀礦轉了一圈，
+森氏和雨子氏發生了爭鬥。/
+[face B 00]
+[say B]
+石見Ginzan...我想有一次在日本，
+它生產了世界三分之一的白銀。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 00]
+[say D]
+沒錯。裡面的銀子大部分都是這個
+石見是銀礦收穫的。/
+[flow]
+[face D 02]
+那一定是一座銀礦。/
+[face D 08]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+哦？　
+也許今年押原會倒閉？/
+[face D 03]
+[flow]
+如果真是這樣的話，森軍就會佔領天子家和銀礦。
+他們將在這場爭端中遭遇歷史性失敗。/
+[face B 03]
+[shake B]
+[say B]
+歷史...！ ！[se taiko_02]/
+[face C 09]
+[say C]
+嗯，我們一定要保護它！
+早上的大事件將會改變！[face B 08][face R 08][face S 08][move R Y 5 0.2][delay 0.2 move R Y -10 0.6][delay 0.8 move R Y 5 0.5][move S Y 5 0.2][delay 0.2 move S Y -10 0.6][delay 0.8 move S Y 5 0.5][move B Y 20 0.4][delay 0.6 move B Y -20 0.2]/
+[face B 00]
+[say B]
+另外，我還發現了腳印。但它很小
+有人告訴我，這不是復活的五個人之一。/
+[face S 00]
+[flow]
+它在哪裡.../
+[face B 08]
+[face C 00]
+[face D 04]
+[serif off]
+[talkend]
+[move S X 300 0.5]
+[-]
+[face S 05]
+[bg black 1.0]
+[minibg sky_star 1.0]
+[move B X -500 0.5]
+[move C X -500 0.5]
+[move D X -500 0.5]
+[move R X -500 0.5]
+[move S X -500 0.5]
+[-]
+[face S 04]
+[move S X -50 0.1]
+[delay 0.1 move S X 200 0.4]
+[delay 0.5 move S X -200 0.4]
+[delay 0.9 move S X 50 0.1]
+[-]
+[move S Y 10 0.4]
+[delay 0.4 move S Y -10 1.0]
+[-]
+[move B X 500 0.5]
+[move C X 500 0.5]
+[move D X 500 0.5]
+[move R X 500 0.5]
+[move S X 200 0.5]
+[-]
+[serif on]
+[say D]
+我注意到這裡周圍很黑。
+我什麼也看不見，所以我想今晚我會過夜。/
+[face C 02]
+[say C]
+[move C Y 100 0.1]
+[delay 0.1 move C Y -100 0.2]
+我同意！ ！/
+[face B 04]
+[say B]
+[shake B]
+那麼，你要睡在這裡嗎…？五人死亡。
+話說……呃，運氣不好啊……/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 06]
+[face D 00]
+[say C]
+這岩石下的地方有點窄，能睡這麼多人。
+看來很難。/
+[face D 02]
+[say D]
+我想知道是否可能是這樣...
+你挖了一個洞！[se taiko_02]/
+[face B 05]
+[face C 05]
+[talkend]
+@大家
+！！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+石見指向的岩石後面有一個小洞。
+它正在被挖掘。/
+[show B C]
+[show C C]
+[show D C]
+[face B 02]
+[face C 00]
+[face D 02]
+[setline C B D]
+[order B 2]
+[order C 1]
+[order D 0]
+[say B]
+驚人的！果然石見！
+他可是挖掘高手啊！/
+[say C]
+[face C 09]
+說了這麼多，我還是挖坑。
+果然我的心還在原地！[shake C]　/
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.2]
+[delay 0.3 move D Y 10 0.1]
+[delay 0.4 move D Y -10 0.2]
+[delay 0.6 move D Y 10 0.1]
+[delay 0.7 move D Y -10 0.3]
+[autotap]/
+[face D 01]
+[say D]
+嘿嘿，不過確實有點黑。連燈籠都沒有…
+這就是我能挖掘的全部。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bgm fun]
+[minibg doukutsu]
+[-]
+[show B C]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[scale B 1.5]
+[scale C 1.5]
+[scale D 1.5]
+[scale R 1.5]
+[scale S 1.5]
+[setline 0 R C B D S]
+[move B XY 0 -250]
+[rotate R -10]
+[move C XY 30 -150]
+[move D XY -30 -150]
+[move R XY 10 -30]
+[move S XY -10 -20]
+[rotate S 10]
+[order R 0]
+[order S 0]
+[order D 2]
+[order C 1]
+[order B 3]
+[face B 04]
+[face C 08]
+[face D 04]
+[face R 04]
+[face S 06]
+[say B]
+[fadeout 0.5]
+[-]
+[shake B]
+[-]
+[se cloth_01]
+[serif on]
+嘿，備後，再深入一點…/
+[face C 04]
+[say C]
+[shake C]
+嗯……我不行了！/
+[face D 06]
+[say D]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+終究還是太窄了…
+對不起。而且……很熱……/
+[waku on 0.5]
+[face B 06]
+[say B]
+[se cloth_04]
+（石見的胸部撞到了我的臉頰…
+　濕漉漉的……有點調皮……）/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 09]
+[flow]
+（備後肥軟…
+　石見 豐滿有彈性…）/
+[effect fr kiri a 0 0]
+[minibg emo_donyori 0.5]
+[face B 04]
+[flow]
+（但也許是因為我和幾個男人睡過......[shake B]
+　說實話……味道怪怪的……）/
+[waku off]
+[face C 05]
+[say C]
+[move C Y 100 0.1]
+[delay 0.1 move C Y -100 0.2]
+……有人放屁了！
+太臭了！ ！/
+[face D 05]
+[say D]
+[bgm departure]
+[effect fr syutyu b 0 0]
+……這不一樣……這是……！ ！
+大家早點起床！[shakebg][face B 05][face S 05][face R 05]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se walk_03]
+[hideall]
+[effect off a]
+[effect off b]
+[minibg sky_star]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+在石見的催促下，一行人趕緊從洞裡跳了出來。/
+[serif off]
+[show D C]
+[face D 09]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[-]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[say D]
+[-]
+[face D 08]
+[serif on]
+這不是某種氣體。
+那是一個危險的地方。/
+[show B L]
+[face B 08]
+[setline 0.5 B D]
+[talk B]
+瓦斯...
+這意味著，如果我睡在這裡....../
+[show C L]
+[move C X -200]
+[setline 0.5 C B D]
+[orderline B C D]
+[say C]
+[face C 08]
+爆炸死亡...[se taiko_02][shake C]那麼好吧！/
+[say B]
+[face B 05]
+不，如果沒有火源的話，它會突然爆炸。
+我不會！ ？/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 04]
+[say D]
+我不認為我會死，但是
+我可能失去了知覺……或者進入了假死狀態。/
+[bgm journey]
+[face C 11]
+[say C]
+....哇...[move C Y 20 0.4][delay 0.6 move C Y -20 0.2]
+那是一個危險的地方！ ！[face C 09]/
+[say B]
+[face B 08]
+窒息.../
+[face B 03]
+[say B]
+[shake B]
+也許那五個人...
+難道只是一種假死狀態？/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 00]
+[say D]
+但村民的心臟停止了跳動。
+我有沒有提到天氣很冷？　/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 11]
+[say C]
+怎麼樣？連村民都是業餘愛好者。
+也可能有誤診的情況。/
+[talkend]
+[hideall]
+[se walk_01]
+地魂少年們暫時轉移到了安全的地方。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>5/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set T s_m005_m 村人]
+[fadein black 0]
+[bgm off]
+[-]
+[bg sky_day]
+[bgm journey]
+[se water_04]
+[-]
+[fadeout]
+[-]
+[serif on 0.5]
+[talkend]
+第二天早上/
+[show B C]
+[show C C]
+[face B 05]
+[face C 08]
+[bg mbg_map 0.5]
+[minibg hamabe 0.5]
+[talk C]
+[setline C B]
+嗯，大哥，你怎麼不哭呢？
+你這樣認為嗎？/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 08]
+[talk B]
+……沒錯，首先
+我想找到證據。/
+[face C 11]
+[say C]
+如果這是證據，我已經拿到了。/
+[face B 05]
+[say B]
+哈！ ？　[shaek B]啊，不知不覺間……！ ？
+什麼證據啊！ ？[move B X -50 0.3][delay 0.3 shake B]/
+[scale B 1.6 0.2]
+[scale C 1.6 0.2]
+[moveline B C 0 -140 0.2]
+[face C 03]
+[say C]
+我今天早上吃了一些零食。$S:C來吧！[shake C]
+請罵我吧！[se taiko_02]/
+[face B 08]
+[say B]
+等等，你現在在說什麼？ ？
+似乎有什麼誤會！ ？[shake B]/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[say C]
+[face C 11]
+它是什麼？相反，我的兄弟獨自一人
+你們聊了什麼？/
+[face B 08]
+[talk B]
+這是一個使命！[shake B]　「這歷史覺醒區的起因就是噬魂？
+我要找到證據，證明這是靈種所為！/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 11]
+[say C]
+嗯，所以呢？
+為什麼不環顧四周尋找證據呢？/
+[face B 04]
+[talk B]
+……那個……
+我在想……！[shake B]/
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+[autotap]/
+[face C 09]
+[say C]
+順便問一下，你也要舉手嗎？
+畢竟，這個計畫漏洞百出。/
+[move C X -150 0.3]
+[move B X -200 0.3]
+[show D R 0.3]
+[scale B 1 0.3]
+[scale C 1 0.3]
+[moveline B C 0 140 0.3]
+[move D X 500]
+[move D X -500 0.3]
+[face D 02]
+[talk D]
+[order D 0]
+[order C 1]
+[order B 2]
+洞！ ？[shake D]
+如果有一個洞，我們就挖它！/
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.2]
+[delay 0.3 move C Y 10 0.1]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.1]
+[delay 0.7 move C Y -10 0.3]
+[autotap]/
+[say C]
+[face C 02]
+如果我打的洞比這個多
+太可悲了。/
+[face B 03]
+[say B]
+好吧，已經！　[shake B]取笑我吧……！
+這是沒辦法的事。我已經沒有線索了.../
+[face C 00]
+[say C]
+是時候讓老大哥做他擅長的事了。
+如果我這樣做怎麼辦？/
+[face D 00]
+[say D]
+啊？/
+[say B]
+……哦，那個……[wait 0.5]是的，[face B 06]不...
+嗯，就是沒穿衣服！[shake B]/
+[face C 02]
+[say C]
+[se cloth_01]
+[move C Y -10 0.2]
+[delay 0.2 move C Y 10 0.2]
+[-]
+[move C Y -10 0.2]
+[delay 0.2 move C Y 10 0.2]
+我確信這有點麻煩！[face B 04]
+昨天我在村裡丟了一件衣服！/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 01]
+[say D]
+這絕對是女式和服。
+……嗯？[move D Y 10 0.1][delay 0.1 move D Y -10 0.1]/
+[talkend]
+石見交替地看著備中和備後的衣服。/
+[face B 06]
+[say B]
+……/
+[face D 05]
+[say D]
+[shake D 3 4 4]
+啊，這就是謠言……！/
+[face B 08]
+[face D 06]
+[say B]
+嗯，這是最後的手段了…
+我在大家面前感到很尷尬...[face B 06]/
+[face C 11]
+[say C]
+好吧，我不在乎。
+然後$R:C你有什麼想法嗎？ ？[moveline B C S 200 0 0.5][show R L][orderline B C D R][move R X -200][delay 0.5 move C X -50 0.3][delay 0.8 shake C][move B X 200 0.3][move D X 200 0.3][face R 01]/
+[setline 0.5 R C B D]
+[face B 03]
+[face D 00]
+[face C 00]
+[say B]
+嘿，等一下。[shake B]
+明白了。[shake B]明白了！/
+[se cloth_01]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+請稍等一下。/
+[move B X 800 0.5]
+[hide B]
+[face C 02]
+[face R 02]
+[face D 00]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se cloth_01]
+[wait 1]
+[hideall]
+[-]
+[bgm dungeon]
+[fadeout 1]
+[-]
+[se walk_01]
+[serif on]
+[talkend]
+[effect fr kira 4000 0 0]
+[se kira_01]
+@備中
+我、我已經換衣服了…/
+[-]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[setline 0 R C D S]
+[order R 0]
+[order S 0]
+[order D 1]
+[order C 1]
+[face D 06]
+[face C 09]
+[face R 01]
+[face S 02]
+[-]
+[move C Y 10 0.1]
+[delay 0.1 move C Y- 5 0.1]
+[-]
+[move C Y 5 0.1]
+[delay 0.1 move C Y -5 0.1]
+[-]
+[move C Y 5 0.1]
+[delay 0.1 move C Y -10 0.1]
+[-]
+[say C]
+哦。馬上就要變成怪物了！
+你的丈夫也會感到驚訝！/
+[color C talk]
+@備中
+已經！別取笑我！
+我是認真的...！/
+[flow]
+@備中
+哦，還有提前向夏人先生致意
+當我打扮成女人時，我被告知不要向主展示。/
+[flow]
+@備中
+既然我祈求了，我確信它一定會賜給主的。
+我認為你看不到它。/
+[say C]
+[face C 11]
+那是什麼？很無聊。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[say D]
+[face D 05]
+唉……我還準備了接髮……
+她真是個可愛的城裡女孩…[face D 02][shake D]/
+[flow]
+粉質也很完美。
+哇，你穿起來看起來不錯。 備中。/
+[talkend]
+[face R 06]
+$R還有變裝備中
+他似乎印象深刻。/
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+[autotap]/
+[say C]
+[face C 00]
+趁哥哥換衣服的時候，我要準備一些東西！
+有了這個，哥哥就可以預測吉兇了！/
+[color C talk]
+@備中
+好吧，為此，你必須穿成這樣。
+我不能，但是.../
+[flow]
+@備中
+嘿，我穿成這樣並不是因為我喜歡你。
+因為沒有！[shakebg]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm eerie]
+[bg black]
+[minibg emo_donyori]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[se azuki_01]
+備中鍋子上放了一個竹蒸籠。
+我把米飯放進去。/
+[se fire_01]
+[flow]
+蓋上蓋子開始燒鍋。/
+[se quake_01]
+[shakebg]
+[se quake_01]
+哇...
+轟鳴的聲音從鼎中傳來。/
+@備中
+……[wait 0.2]……[wait 0.2]……[wait 0.2]
+……[wait 0.2]……[wait 0.2]……[wait 0.2]……/
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[setline 0 R C D S]
+[order R 0]
+[order S 0]
+[order D 1]
+[order C 1]
+[face C 00]
+[face D 03]
+[face R 05]
+[face S 06]
+[say D]
+[setline]
+備中低聲吟誦祝福…
+氣氛漸漸改變了嗎？/
+[face C 10]
+[say C]
+[shake C]
+哎喲，鬼徹啊鬼徹…/
+[face R 08]
+[face S 08]
+[talkend]
+周圍的地魂小子們也在註視著備中。/
+[face C 08]
+[say C]
+哥哥的算命絕對是對的。
+一定有所收穫。/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 06]
+[say D]
+嘆息……正如預料的那樣。
+看起來有一種奇怪的光澤…/
+[hide C]
+[hide D]
+[hide R]
+[hide S]
+[se amb_02]
+@備中
+……/
+[talkend]
+備中默默站起來…/
+[textcolor RED]
+@備中
+死亡...[wait 0.5]我的身體...[wait 0.5]這是...[wait 0.5]什麼？[wait 0.2]回覆。[se taiko_02]/
+[delay 0.5 shakebg]
+[show D C 0.2]
+[face D 03]
+[talk D]
+很危險！/
+[se cloth_06]
+[scale D 2.0 0.5]
+[move D Y -200 0.5]
+[shakebg]
+[-]
+[fadein WHITE 0.2]
+[hide D]
+[se dosa_01]
+[-]
+[delay 0.2 fadeout 0.1]
+[talkend]
+備中突然崩潰了。
+石見把他抱在懷裡。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg mbg_map]
+[minibg hamabe]
+[-]
+[fadeout 1.5]
+[-]
+[bgm journey]
+[serif on]
+[show B C]
+[rotate B -15]
+[move B Y -50]
+[show D C]
+[face B 07]
+[face D 03]
+[order B 3]
+[order D 2]
+[say D]
+……備中……
+你還好嗎？你醒了嗎？/
+[face B 05]
+[say B]
+……呃……啊……石見……？/
+[rotate B 0 0.3]
+[move B Y 50 0.3]
+[setline 0.5 B D]
+[say B]
+[face B 09]
+啊，不，沒關係！是的！ ！[se cloth_06][move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face B 05]
+呃，你換衣服了嗎…？/
+[show C L]
+[show R L]
+[show S R]
+[face R 00]
+[face S 00]
+[move S X 200]
+[move C X -200]
+[setline 1 R C B D S]
+[scale B 0.8 0.5]
+[scale C 0.8 0.5]
+[scale D 0.8 0.5]
+[scale R 0.8 0.5]
+[scale S 0.8 0.5]
+[moveline B C D R S 0 100 0.5]
+[autotap]/
+[say C]
+[face C 00]
+與鷹一起$R:C我只是讓她換衣服。
+別擔心。/
+[shake B]
+[face B 06]
+[say B]
+是啊！ ？真是尷尬啊…/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[say C]
+[face C 10]
+我迷迷糊糊地開始脫衣服。
+不出所料，我很恐慌…/
+[say B]
+[face B 04]
+是啊是啊[shake B]我完全不記得了...
+啊，謝謝備後，$R:B。[face B 01][face R 01]/
+[flow]
+[face B 08]
+那麼，我算命的時候有說過什麼嗎？
+我自己也不太記得了.../
+[say C]
+[bgm comical]
+[face C 11]
+“剪斷繃帶的鳥。”/
+[effect syutyu a 0 0]
+[se zukkoke_02]
+[say B]
+[face B 05]
+是啊是啊！ ？[shake B]　為什麼要用繃帶……！ ？　
+我真的這麼說過！ ？[shake B]　$S:B怎麼樣？/
+[move S Y 5 0.2]
+[delay 0.2 move S Y -10 0.6]
+[delay 0.8 move S Y 5 0.5]
+[autotap]/
+[se taiko_02]
+[talkend]
+[face S 08]
+$S據說他聽到「鳥取輪流」。/
+[shake B]
+[face B 06]
+[say B]
+不不……算命沒有任何意義！[shake B]
+我只是覺得很尷尬！[shake B]/
+[face D 01]
+[say D]
+[bmg off]
+「跟著屍體走」！
+我聽到了.../
+[face B 08]
+[face C 00]
+[face R 01]
+[face S 01]
+[say B]
+[bgm journey]
+[shake B]
+哈！ ！就是這樣！最喜歡的就是這個了！
+我覺得有道理！/
+[face C 00]
+[say C]
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+老實說。
+五具屍體又復活了。/
+[face D 08]
+[say D]
+「chuko」是指足輕士兵的屍體嗎？/
+[hideall]
+[-]
+[talkend]
+Jikon Boy 是一名倒在地上的倒地步兵。
+我看著屍體。/
+它看起來就像是一個路標，一個接一個地倒下。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>6/
+[set A s_a002_m 火車]
+[set B s_a002_m 火車]
+[set T s_m006_m 渡守]
+[set S s_m006_m 渡守]
+[set Y s_obj_like イイネ]
+[set Z s_obj_likepoint イイネ]
+[fadein black 0]
+[bgm off]
+[bg black]
+[-]
+[title 第三節 ただの社畜やん]
+[-]
+[bgm journey]
+[minibg a002_sanzu]
+[waku on]
+[-]
+[fadeout 1.0]
+[waku off 1.5]
+[-]
+[talkend]
+[show B]
+[color B BLACK]
+[textcolor BLUE]
+[serif on 0.5]
+那麼，那是幾週前的事了。/
+[serif off]
+[show A C]
+[face A 13]
+[-]
+[hide B]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[talk A]
+[serif on]
+嘆息……嘆息……
+搬完屍體後我累了…/
+[show T C]
+[face T 00]
+[setline 0.5 A T]
+[talk T]
+乳酪。嘿。
+感謝您的辛勤工作。/
+[face A 10]
+[talk A]
+啊？託莫里變了嗎？
+我會和平常的人在一起。/
+[talk T]
+啊，是的。它是什麼？　
+看來我的前任身體不好。/
+[talk T]
+我想我已經好幾天沒有睡覺了。
+從今天開始，非常感謝您的幫忙！/
+[hide T]
+[move A C 0.5]
+[talk A]
+……/
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[waku on]
+[hideall]
+[-]
+[fadeout 0.3]
+[show S C]
+[talk S]
+[name S 旧渡守]
+[-]
+[serif on]
+嘿火車桑。這個是你自己帶的嗎？
+這是一個巨大的數額。/
+[serif off]
+[effect S love a 0 200]
+[shakebg]
+[show Y 0.3]
+[move Y XY 100 -50]
+[shake Y 1 5 5]
+[scale Y 1.1 0.2]
+[delay 0.3 move Y Y 100 1]
+[delay 0.8 hide Y 0.5]
+[se buff_01]
+[delay 0.8 show Z 0.3]
+[delay 0.8 orderline Z 26]
+[delay 0.8 scale Z 1.1 0.2]
+[delay 0.8 move Z X 100]
+[delay 0.8 shake Z 1 5 5]
+[delay 1 move Z Y 50 1]
+[delay 1.6 hide Z 0.5]
+[order T 1]
+[order Y 25]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[effect off a]
+[hide S]
+[-]
+[fadeout 0.3]
+[-]
+[show T C]
+[-]
+[serif on]
+我真的很尊敬你。
+我很高興與您合作。我希望我們能再次見面。/
+[serif off]
+[effect T love a 0 200]
+[shakebg]
+[show Y 0.3]
+[move Y XY 100 -50]
+[shake Y 1 5 5]
+[scale Y 1.1 0.2]
+[delay 0.3 move Y Y 100 1]
+[delay 0.8 hide Y 0.5]
+[se buff_01]
+[delay 0.8 show Z 0.3]
+[delay 0.8 orderline Z 26]
+[delay 0.8 scale Z 1.1 0.2]
+[delay 0.8 move Z X 100]
+[delay 0.8 shake Z 1 5 5]
+[delay 1 move Z Y 50 1]
+[delay 1.6 hide Z 0.5]
+[order T 1]
+[order Y 25]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[fadein WHITE 0.5]
+[serif off 0.5]
+[-]
+[effect off a]
+[waku off]
+[hideall]
+[-]
+[fadeout 1.0]
+[show A C]
+[face A 10]
+[talk A]
+[-]
+[serif on]
+……/
+[face A 13]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+我明白了……他……他放棄了……[wait 0.5]
+我以為你說過你很高興和我一起工作。/
+[flow]
+……哇，好孤獨啊……/
+[serif off]
+[show T R]
+[move T X 300]
+[move T X -300 0.8]
+[delay 0.3 move A X -200 0.5]
+[face T 00]
+[talk T]
+[-]
+[serif on]
+[name T 渡守長]
+嘿，卡夏君。感謝您的辛勤工作。/
+[face A 01]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，託森先生。
+謝謝您的幫忙。[move A Y 5 0.2][delay 0.2 move A Y -10 0.6][delay 0.8 move A Y 5 0.5]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+……以前的擺渡人，
+所以我放棄了.../
+[talk T]
+沒錯。
+他意志薄弱。/
+[face A 05]
+[se zukkoke_02]
+[talk A]
+[effect A syutyu a 0 200]
+[shake A]
+！/
+[talk T]
+[effect off a]
+你努力了，你努力了多少，你就能成長多少，所以浪費了！
+如果我能更進一步，我的靈性就能真正成長。/
+[move T X -100 0.2]
+[move A X -10 0.2]
+驚人的成長……！ ！ ！[shake T]
+我真的非常非常感謝佛陀……！/
+[face A 11]
+[talk A]
+哦，原來如此…[wait 0.5]我也這麼認為……！/
+[face A 12]
+驚人的增長！ ！[shake A]　非常感謝！ ！[shake A 2 3 3]/
+[show B L]
+[face B 04]
+[order B 0]
+[order A 1]
+[move B XY -80 100 0.5]
+[color B BLUE]
+（真的嗎？……真的，我是
+　你這樣認為嗎？ ）/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bg sandou]
+[minibg off]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[se walk_01]
+[show A C]
+[face A 04]
+[talk A]
+[-]
+[serif on]
+……/
+[face A 06]
+[talk A]
+……嗯，友町先生說得對……/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y- 5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+哈哈。因為身體不舒服，我就放棄了...[wait 0.5]是不是太軟了？
+我有太多的工作要做，所以我無法完成.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+工作是我生活的理由。餵，妥拉…/
+[face A 09]
+@老虎
+喵。/
+[face A 10]
+回家睡覺吧。老虎。[move A X 300 1.0]
+……幾個小時後我還要繼續工作……去睡覺吧……[hide A]/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>7/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set T s_m002_m 死体]
+[fadein black 0]
+[bgm off]
+[-]
+[bg sky_day]
+[bgm journey]
+[se amb_10]
+[-]
+[fadeout]
+[-]
+[serif on 0.5]
+[talkend]
+屍體到處倒下，而且肯定在某個地方。
+感覺就像我正在路上。/
+[bg sandou 1.0]
+[-]
+[se walk_01]
+[show C C]
+[face C 10]
+[talk C]
+哦，這真是一具可怕的屍體…
+我沒有手臂。/
+[show D C]
+[face D 04]
+[talk D]
+[setline 0.5 C D]
+那邊的東西已經變成骷髏了。
+戰鬥還會持續很長一段時間。/
+[show R L]
+[order R 0]
+[order C 1]
+[order D 2]
+[move C X 200 0.5]
+[move D X 200 0.5]
+[move R X -50]
+[face D 03]
+[say D]
+哦，劍刃從那一個伸出來。
+小心點。[face R 05][move R Y 10 0.1][delay 0.1 move R Y -10 0.1]/
+[hideall]
+[show B C]
+[move B Y -50]
+[move B Y 50 1.0]
+[face B 04]
+[talk B]
+呃呃……大家……[shake B]等等.../
+[serif off]
+[show C C]
+[show D C]
+[setline 0 C B D]
+[move C X 800]
+[move D X 800]
+[face C 05]
+[face D 05]
+[order B 3]
+[order C 2]
+[order D 1]
+[-]
+[move C X -800 0.6]
+[move D X -800 0.7]
+[se walk_03]
+[-]
+[shake B]
+[say C]
+[serif on]
+兄弟你怎麼了？/
+[face D 08]
+[say D]
+備中，你臉色蒼白…
+你最好休息一下。/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[say C]
+[face C 11]
+啊，那個……兄弟，我肚子好痛。
+……如果你撫摸它，情況可能會更好。/
+[say D]
+[face D 02]
+[face B 05]
+[move D XY -10 -40 0.4]
+[rotate D 10 0.3]
+[se cloth_01]
+備中的肚子好軟。
+嘿，現在疼痛消失了。[shake B 2 5 5]/
+[say C]
+[face C 02]
+[move C XY 10 -40 0.4]
+[rotate C -10 0.3]
+[se cloth_01]
+兄弟，怎麼了？納德拍拍。
+那~德~。太痛了。[shake B 2 5 5]/
+[say B]
+[face B 06]
+嘿，等等！　[shaek B 3 15 15]在一起
+不要從兩側揉搓肚子！ ？　/
+[delay 0.4 move C XY -10 40 0.3]
+[delay 0.5 rotate C 0 0.3]
+[delay 0.4 move D XY 10 40 0.3]
+[delay 0.5 rotate D 0 0.3]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[say C]
+[face C 10]
+有很多要求。/
+[say B]
+米米大家[wait 0.5]……你怎麼沒事？ ？[shake B]
+我我我哦[wait 0.5]屍體，屍體，屍體，屍體，我感覺…[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]/
+[face C 09]
+[say C]
+為什麼這麼忙？
+哥哥真是太可愛了/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 01]
+[say D]
+我認為這是無辜的。/
+[say B]
+[shake B]
+呃……因為……屍體被暴露在外……
+是不是很可憐...[move B Y -50 1.0]/
+[face C 01]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+事實上，如果他們能被埋葬就好了！/
+[face D 02]
+[say D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+洞！ ？　[move D X 200 0.3]如果有一個洞，我們就挖它！
+想挖多少就挖多少！/
+[face B 05]
+[say B]
+[shakebg]
+[se zukkoke_02]
+[effect B syutyu a 0 200]
+[move B XY 200 50 0.3]
+不，不！如果影響歷史就糟了！
+基本上什麼都不碰！　[move B X -300 0.3][face B 03]這是隊長的命令！/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[effect off a]
+[face C 04]
+[face D 06]
+[say C]
+大哥有麻煩了。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se walk_01]
+[hide C]
+[hide D]
+[show B C]
+[face B 08]
+[wait 0.5]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[talk B]
+咦，奇怪，這附近沒有多少屍體……？/
+[serif off]
+[show C C]
+[order C 2]
+[order B 3]
+[face C 11]
+[say C]
+[setline 0.5 C B]
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+[-]
+[serif on]
+嗯？左右前後，到處都是屍體！[face C 09]
+我不知道該走哪條路！/
+[show D R]
+[order D 1]
+[setline 0.5 C B D]
+[face D 08]
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[say D]
+當然。[wait 0.5]我又不會以屍體為地標走到那裡…[wait 0.5][face D 00]
+嗯，這就是目的地，那麼發生了什麼事？/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 03]
+[say B]
+嗯……但這絕對是某件事
+我感覺有嗡嗡聲.../
+[face D 01]
+[say D]
+再次，分開
+讓我們來探索一下。/
+[face B 01]
+[say B]
+沒錯。
+那麼，我們晚上就在這裡見面吧！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bgm dungeon]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[talkend]
+[textcolor BLUE]
+[serif on]
+地魂少年決定分頭探索。/
+[serif off]
+[show R C]
+[show T C]
+[rotate T 90]
+[move T Y -100]
+[order R 0]
+[order T 1]
+[face R 08]
+[move R Y -100 1.0]
+[-]
+[move R Y -10 0.2]
+[delay 0.2 move R Y 10 0.2]
+[-]
+[move R Y -10 0.2]
+[delay 0.2 move R Y 10 0.2]
+[-]
+[serif on]
+[textcolor BLUE]
+[talkend]
+$R在一些屍體上發現了繩索痕跡。[wait 0.5]
+你是不是被拖了...[wait 0.5]看起來像是死後留下的痕跡。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[show C C]
+[scale C 2.0]
+[move C Y -400]
+[move C Y 200 0.5]
+[face C 02]
+[-]
+[textcolor BLUE]
+[serif on]
+備後從懸崖頂檢查屍體堆。[wait 0.5]
+……屍山崩塌了！[face C 05][shake C][-][se crash_03][delay 0.2 se dosa_01]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[se crash_03]
+[show B C]
+[show T C]
+[order B 3]
+[order T 1]
+[rotate T 70]
+[move T Y 800]
+[face B 05]
+[move T Y -800 0.6]
+[delay 0.4 shake B 5 10 10]
+[delay 0.4 se crash_01]
+[-]
+[textcolor BLUE]
+[serif on]
+幾個機構涵蓋了下面備中。[wait 0.5][hide T]
+...備中尖叫著暈倒了。[move B Y -100 1.0][hide B][se dosa_01]/
+[serif off 0.5]
+[hideall]
+[-]
+[show S C]
+[face S 05]
+[move S XY -10 -40 0.4]
+[rotate S 10 0.3]
+[-]
+[textcolor BLUE]
+[serif on]
+$S和我在海灘上發現的一樣，一隻貓和一隻較小的貓。
+我發現了一個孩子的腳印。/
+[move S X -200 0.5]
+[rotate S 0 0.5]
+[face S 08]
+[textcolor BLUE]
+　還有被東西拖過的痕跡。/
+[hide S]
+[serif off]
+[show D C]
+[move D R 1.0]
+[face D 08]
+[-]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[-]
+[textcolor BLUE]
+[serif on]
+$D我意識到在我周圍嗡嗡作響的奇怪感覺的真正本質。[wait 0.5]
+這是靈脈之力表現出來的地方。這是一個精神洞穴。[face D 02]/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[bgm off]
+[bg mbg_map]
+[minibg sky_sunset]
+[hideall]
+[se amb_09]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[talkend]
+……/
+[serif off]
+[-]
+[bgm journey]
+[show B C]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[scale B 0.8]
+[scale C 0.8]
+[scale D 0.8]
+[scale R 0.8]
+[scale S 0.8]
+[face B 08]
+[face C 08]
+[face D 08]
+[face R 08]
+[face S 08]
+[setline 0 R C B D S]
+[moveline B C R D S 0 40 0]
+[orderline B C D R S]
+[wait 0.5]
+[-]
+[say B]
+[serif on 0.5]
+結合此處獲得的資訊.../
+[say D]
+一個孩子和一隻貓.../
+[face B 04]
+[say B]
+有什麼...[wait 0.5]大概是拖著屍體吧…/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 02]
+[say C]
+你來到了心靈的洞穴！[wait 0.5]
+……嗯？[face C 11]　為什麼？/
+[talkend]
+……/
+[face B 08]
+[say B]
+備後，如果你走到這一步
+你可以看到大致的路線，對吧？/
+[say C]
+[face C 08]
+……嗯嗯嗯。[shake C]我不知道！ ！ ！[face C 03][shake C 2 5 5]/
+[say B]
+[face B 00]
+誠然，我仍然不知道它是什麼。
+但這個動作並不是正常人的動作。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 00]
+[say D]
+如果你來到這裡就知道這是一個精神洞穴。
+……這只是一個正常人吧？/
+[face B 08]
+[say B]
+[face D 08]
+沒錯！[shake B]　換句話說，這是一種嘲諷…
+果然，妖怪線很強。/
+[face B 04]
+[flow]
+綾香是這樣的…
+把屍體搬到靈洞丟掉，拎著丟掉……？/
+[face C 11]
+[say C]
+……嗯...為什麼？/
+[face B 05]
+[say B]
+[shake B]
+那就是……我得去問綾卡西了。
+我不知道！/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 08]
+[say C]
+....嗯...[wait 0.5]我也不知道！ ！[face C 04]
+我不擅長解開謎團！ ！ ！[shake C]　泰吉！/
+[face D 01]
+[say D]
+我們來談談。/
+[face B 05]
+[face C 09]
+[face R 05]
+[face S 05]
+[say B]
+啊？/
+[face B 02]
+[face C 02]
+[face D 02]
+[face R 01]
+[face S 01]
+[say D]
+這是一個精神洞穴。
+我無法與指揮部溝通。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>8/
+[set A s_a002_m 火車]
+[set B s_a002_m 火車]
+[set T s_m006_m 渡守]
+[set S s_m006_m 渡守]
+[fadein black 0]
+[bgm off]
+[bg black]
+[-]
+[se amb_01]
+[bg sky_day]
+[waku on]
+[-]
+[fadeout 1.0]
+[waku off 1.5]
+[-]
+[color B BLACK]
+[textcolor BLUE]
+[serif on 0.5]
+[talkend]
+現在...關於我的工作環境...
+我希望你能理解。/
+[bg black 1.0]
+[minibg emo_donyori 1.0]
+[show B C]
+[mobe B Y -50]
+[textcolor BLUE]
+[color B BLACK]
+終於，事情發生在幾天前。/
+[bgm eerie]
+[shake B]
+@火車
+（什麼……我的身體不能動了……）/
+[textcolor BLUE]
+早上醒來的時候，我呆呆地望著天空好一會兒。
+我抬起頭來。/
+@火車
+……快要開始工作了…
+醒來抱屍體……呃……/
+[serif off]
+[face B 09]
+[show A C]
+[minibg sky_day 0.5]
+[mobe A Y -50]
+[face A 09]
+[-]
+[hide B]
+[serif on]
+[talkend]
+[textcolor BLUE]
+老虎舔了我的臉頰。/
+[talk A]
+[shake A]
+噢，老虎……噢，不，不，它很癢。[face A 00][move A Y 50 0.3]
+……啊，什麼？能正常起床嗎.../
+[face A 10]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+你現在在做什麼……呃，我最近都沒有時間睡。
+因為我不能輕鬆。我的身體還在沉睡。/
+[face A 12]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+霍娜，今天也要工作，工作！ ！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[show A C]
+[face A 13]
+[minibg off]
+[bg sandou]
+[-]
+[fadeout 0.5]
+[talk A]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[serif on]
+嘆息……嘆息……嘆息……
+我沒有時間休息.../
+[serif off]
+[bg j02_main 1.0]
+[-]
+[face A 12]
+[talk A]
+[-]
+[serif on]
+[se zuru_01]
+驚人的增長...[wait 0.5]感激之情溢於言表...[move A X 100 1.0]
+驚人的增長...[se zuru_01][wait 0.5]感激之情溢於言表...[move A X 100 1.0]/
+[talkend]
+[se zuru_01]
+[show B C]
+[move B X 200]
+[color B BLACK]
+[face B 12]
+[order B 1]
+[order A 0]
+[textcolor BLUE]
+戰鬥愈演愈烈。多年來，這種情況經常發生。
+我今天失去靈魂的次數多到數不清了。[wait 0.5]我留下了我的指紋。[hide A]/
+[hide B]
+[-]
+[bg sandou 1.0]
+[serif off]
+[show A C]
+[face A 13]
+[talk A]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[serif on]
+嘆息……嘆息……不過多虧了這個……
+我可以吃貓.../
+[face A 12]
+感恩與感恩…[wait 0.5]太給力了……謝謝……
+是的，確實是一個字…/
+[show B C]
+[order B 0]
+[order A 1]
+[bg black 0.5]
+[minibg emo_donyori]
+[waku on 0.5]
+[move B XY -150 100 0.5]
+[say A]
+[color B BLUE]
+[face B 04]
+（真的...[wait 0.5]真的…？ ）/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[waku off]
+[minibg a002_sanzu]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show T C]
+[face T 00]
+[talk T]
+啊！ ！[shake T]　火車的老公不可怕嗎？ ？
+那不是先前還活著的人的靈魂嗎？/
+[show A C]
+[face A 05]
+[talk A]
+[setline 0.5 A T]
+啊？/
+[face A 04]
+[say T]
+您是否正確檢查了緣麻町？ ？
+什麼？[wait 0.5]都是我的錯，沒有檢查。/
+[flow]
+[shake T]
+不過我真的很生氣！
+這不是不可能嗎！ ！/
+[shake T]
+[flow]
+帶上不在炎魔書中的人。
+不！ ！/
+[face A 13]
+[talk A]
+呃，那是謊言...[shake A]我做了一些事！ ？/
+[face A 14]
+[move A X 100 0.2]
+……它在暴風雨中倒塌在海灘上！
+每個人都在墜落……我想他們都死了！ ！/
+[say T]
+[face A 04]
+……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+……不，是我沒檢查清楚。
+我真的很抱歉.../
+[say T]
+[move T Y 10 0.4]
+[delay 0.4 move T Y -10 1.0]
+這裡有五個人……我不知道。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[se walk_03]
+[-]
+[show A C]
+[-]
+[show S R]
+[move S X 500]
+[move S X -600 0.3]
+[move A X -150 0.5]
+[face A 00]
+[face S 00]
+[name S 渡守長]
+[say S]
+[-]
+[serif on]
+等一下...等等！ ！[shakebg]
+火車！ ！你在幹什麼！ ？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+[talk A]
+啊，託森先生…[wait 0.5]這次對不起了.../
+[say S]
+[effect fr syutyu a 0 100]
+抱歉，不！[shakebg]　數百年來這
+你在工作嗎？ ？不，這不好！/
+[flow]
+沒死的人都是這樣的……呃……？[shake S]
+我們該做什麼？嘿，這個。你會怎樣做？/
+[face A 13]
+[talk A]
+呃，呃……下次我會小心點的……/
+[say S]
+[move S X -400 0.1]
+[move A X -200 0.2]
+下次不會了！這些人！ ？/
+[face A 05]
+[talk A]
+[shake A]
+啊啊……我會趕快回來的！ ！ ！[se walk_03][move A X -800 0.2]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[waku off]
+[effect off a]
+[hideall]
+[bg sandou]
+[minibg off]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor BLUE]
+事情就這樣結束了。/
+[flow]]
+[textcolor BLUE]
+情急之下，我將靈魂歸還，回到了我發現它的海灘。
+他很快就會復活。但是.../
+[flow]
+[textcolor BLUE]
+我的評級被降低了，我被告知下個賽季我將被降級。
+……[wait 0.5]看來工資也要降了.../
+[show A C]
+[face A 04]
+[talk A]
+你覺得怎麼樣？老虎。
+這是我的錯嗎？/
+[face A 09]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+@老虎
+喵。/
+[face A 04]
+為什麼你對我這麼生氣...[wait 0.5]像這樣，
+這絕對是錯的…！ ！ ！[shake A]/
+[face A 05]
+[se amb_02]
+[effect fr kiesou a]
+[talkend]
+[bgm departure]
+[textcolor BLUE]
+就在這時，炎馬喬亮了。
+有跡象顯示又增加了一個新的死者。/
+[se jutsu_01]
+[fadein WHITE 0.2]
+[-]
+[effect off a]
+[-]
+[delay 0.2 fadeout 1.0]
+[say A]
+[shake A]
+這是什麼...[wait0.5]
+這、這太密了……太多了……[shake A]/
+[face A 04]
+[move A Y -100 1.0]
+[delay 1.0 se dosa_01]
+沒辦法...[shake A]我不能再這樣了...
+我犯了錯誤，被降職，薪水降低了.../
+[face A 10]
+另外，這實在是太搞笑了…[move A Y 100 1.0]/
+[shake A]
+[textsize 40]
+這個工作...[scale A 2.0 0.3][move A Y -100 0.3][-][face A 15][effect fr syutyu a 0 100]
+不是全黑了嗎？ ！ ！[shake A][-][effect off a][effect fr syutyu b 0 400][shakebg][minibg off 0.3][bg sky_sunset 0.5][scale A 2.5 0.3][move A Y -1000 0.5][delay 0.5 fadein WHITE 1.0]/
+[serif off 0.5]
+[hide A]
+[bg black]
+[wait 1.5]
+[effect off b]
+[-]
+[fadeout 0.2]
+[-]
+[effect fr kieru a]
+[bgm boss]
+[delay 1.0 fadein WHITE 0.2]
+[se jutsu_01]
+[-]
+[effect off a]
+[minibg emo_donyori]
+[-]
+[delay 0.2 fadeout 1.0]
+[talkend]
+[-]
+[serif on]
+[textcolor BLUE]
+就在這時，我的面前出現了一道光！
+那彷彿是希望之光，散發著神秘的力量。/
+[show A]
+[face A 03]
+[scale A 1.6 0.3]
+[move A Y -140 0.3]
+[autotap]/
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 1.0]
+[textcolor BLUE]
+[se cloth_02]
+我用盡全力抓住了它！ ！ ！[shake A]
+它發出強烈的光芒，進入我的體內，然後消失了。/
+[face A 00]
+[scale A 1.0 0.5]
+[move A Y 140 0.5]
+[textcolor BLUE]
+然後呢？
+之前的絕望就像謊言一樣消失了！/
+[face A 03]
+[minibg emo_ikari 1.0]
+[textcolor BLUE]
+[se quake_01]
+我的頭腦很清醒，我的憤怒正在上升
+快到了。[shake A]/
+[talk A]
+我試著記住一切，但僅此而已
+我想這不是我的錯！ ？[shake A]/
+[effect A syutyu a 0 100]
+[face A 14]
+[scale A 1.5 0.3]
+[move A Y -130 0.3]
+工作太多了！我沒有時間睡覺！
+去除靈魂的時候連檢視炎魔町都不浪費時間！/
+這是什麼情況？[shake A]
+哇...[scale A 1.0 0.5][move A Y 130 0.5][face A 00][effect off a]我的頭腦已經變得非常清晰了…/
+[effect A syutyu a 0 100]
+[move A Y 20 0.4]
+[face A 03]
+這一切的根源，就是託莫里町…[delay 0.6 move A Y -20 0.2][effect off a][face A 00]不，不
+我們走吧。這只是一種反彈。/
+[face A 01]
+……說到原著，塞亞…[wait 0.5][move A Y 5 0.2][delay 0.2 move A Y -10 0.6][delay 0.8 move A Y 5 0.5]這很簡單。
+問題是死的人太多了！ ！[se taiko_01]/
+[face A 14]
+[effect A syutyu a 0 100]
+[scale A 1.2 0.3]
+[move A Y -60 0.3]
+問題是，糟糕的是……這一切背後的罪魁禍首。
+你是人類嗎？ ？[se taiko_01]/
+[scale A 1.5 0.3]
+[move A Y -40 0.3]
+這是因為人類互相殘殺！ ？[se taiko_01]
+即使過了數百年，我們仍然互相殘殺、互相仇恨…/
+[scale A 2.0 0.2]
+[move A Y -50 0.2]
+[face A 15]
+人類真是愚蠢的生物啊！ ？[shake A][se taiko_02]/
+[face A 00]
+[effect off a]
+……喔不，我已經開悟了……/
+[face A 15]
+[effect A syutyu a 0 100]
+[textsize 40]
+糟糕的是...[wait 0.3]
+人類！ ！ ！ ！ ！ ！ ！ ！[shake A 5 10 10 10][se zukkoke_02]/
+[hide A]
+[-]
+[show B]
+[face B 02]
+[move B X 300 0.2]
+嗯，我感覺很有動力！
+能量儲值完成！我感覺我可以24小時工作！/
+[move B X -600 0.4]
+[face B 01]
+人類，我要殺了你…[shake B]我的工作是
+不會增加！ ！　[move B X 300 0.2]……發生了什麼事！ ！/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>9/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set T s_m005_m 村人]
+[fadein black 0]
+[bgm off]
+[-]
+[title 第四節 忍原崩れず？]
+[-]
+[bg sandou]
+[bgm journey]
+[-]
+[se amb_10]
+[fadeout]
+[-]
+[show C C]
+[face C 04]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[-]
+[serif on 0.5]
+[talk C]
+嘆息.../
+[show D C]
+[face D 00]
+[talk D]
+[setline 0.5 C D]
+發生了什麼事？　備後。/
+[face C 06]
+[talk C]
+我想知道來這裡是否還有意義…/
+[face D 05]
+[talk D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+啥，你突然說些什麼？[shake D]/
+[moveline D C -200 0 0.5]
+[waku on 0.5]
+[face D 08]
+（備後的眼神異常空洞…
+　這些都是非常令人擔憂的眼睛...）/
+[flow]
+[face D 04]
+（如果我說一些不必要的話......我正在談論備後
+　……[shake D]備後的…）/
+[waku off 0.5]
+[moveline D C 200 0 0.5]
+[face D 08]
+……/
+[face D 06]
+[waku on 0.3]
+[moveline D C -200 0 0.3]
+[se zukkoke_02]
+（不！[shake D]　令人驚訝的是備後在這樣的時候
+　我不知道該採取什麼行動！ ）/
+[scale D 1.6 0.5]
+[scale C 1.6 0.5]
+[moveline D C 0 -140 0.5]
+[face D 09]
+（你會用空洞的眼神和乾笑地說這句話嗎？
+　在最壞的情況下，您可能最終會離開網域…您可能最終會離開單位！ ）/
+[moveline D C 200 0 0.5]
+[waku off 0.5]
+[say C]
+[face C 04]
+…………
+（嗚嗚嗚……）[shake C]/
+[face D 02]
+[waku on 0.3]
+[moveline D C -200 0 0.3]
+[say D]
+（啊，這只是為了飢餓的特魯楚。
+　就是這樣！ ）/
+[waku off 0.5]
+[scale D 1 0.5]
+[scale C 1 0.5]
+[moveline C D 200 140 0.5]
+[face D 01]
+[move D Y 20 0.4]
+[delay 0.6 move D Y -20 0.2]
+備後很明亮，精力充沛。
+謝謝大家幫我，好嗎？/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 08]
+[talk C]
+……沒錯……
+我呢，這個任務真的好難啊…/
+[face C 06]
+[face D 04]
+[shake C]
+我更喜歡只涉及殺死食屍鬼的任務。
+你所要做的就是揮舞你的劍。/
+[face C 04]
+我不擅長解謎語...[wait 0.5]
+我哥哥還負責與指揮室的通訊。/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+……我是個負擔……/
+[face D 00]
+[talk D]
+那是一件事...[wait 0.5]備後會盡力的
+我就是這麼想的，但.../
+[face C 00]
+[talk C]
+……石見真是太好了…/
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.2]
+[delay 0.3 move D Y 10 0.1]
+[delay 0.4 move D Y -10 0.2]
+[delay 0.6 move D Y 10 0.1]
+[delay 0.7 move D Y -10 0.3]
+[autotap]/
+[face D 02]
+[talk D]
+沒錯。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[se walk_02]
+[show B C]
+[face B 01]
+[talk B]
+你們兩個！/
+[serif off]
+[show C]
+[show D]
+[setline 0 C D]
+[moveline C D -1000 0 0]
+[moveline C D B 1000 0 1]
+[face D 01]
+[face C 00]
+[-]
+[serif on]
+[talk D]
+噢，備中回來了。/
+[face C 01]
+[talk C]
+兄弟，怎麼樣？/
+[order B 3]
+[order C 2]
+[order D 1]
+[setline 0.5 C B D]
+[face B 08]
+[say B]
+嗯，我能夠做報告，但我還在指揮室裡。
+我想感覺好像沒有足夠的資訊。/
+[face B 03]
+目前，綾卡西正試圖將屍體搬到靈洞。
+調查物件.../
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 08]
+剩下要做的就是如何抓住它....../
+[face D 00]
+[say D]
+如果我們能在這裡埋伏你不是很好嗎？/
+[face B 03]
+[say B]
+這也是一隻手...[wait 0.5]還有其他的靈洞，
+這並不一定意味著你會來這裡。我就是這麼認為的。/
+[face B 00]
+故名「收屍」。
+我想考慮這個習慣並且積極主動！/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 08]
+[say C]
+哼…
+（我不知道，但我會假裝我明白...）/
+[face D 05]
+[say D]
+[waku on 0.5]
+（屍體所在的地方……原來如此。
+　在戰場上尋找綾卡西，就是中琴！ ）/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 04]
+（……如果你這麼說的話…
+　備後感覺就像一個被遺棄的人...）/
+[waku off 1.0]
+[face D 06]
+如果我考慮一下會發生什麼事？/
+[face B 00]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+戰爭實際發生的地方...
+我想我要去戰場了！/
+[face C 11]
+[say C]
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+嗯？為什麼不這樣做呢？/
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[autotap]/
+[face B 01]
+[say B]
+哼。嗯，就是這樣……！/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 04]
+[say D]
+（備中不驕傲…）/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>10/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set T s_m002_m 兵士]
+[fadein black 0]
+[bgm off]
+[-]
+[bgm rokuhara]
+[bg sky_day]
+[-]
+[fadeout]
+[-]
+[serif on 0.5]
+[talkend]
+《押原崩盤》/
+當時，石見銀礦諸侯之中。
+戰鬥進行了多次。/
+在被稱為押原崩潰的戰鬥中，
+石見擁有銀礦的森軍被夾在了後面。/
+然後，他們對雨城軍遭遇了歷史性的失敗。
+....但是。/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[bg j02_main]
+[hideall]
+[-]
+[fadeout 0.5]
+[show B C]
+[show C C]
+[show D C]
+[order B 3]
+[order C 2]
+[order D 1]
+[setline 0 C B D]
+[face B 08]
+[face C 08]
+[face D 03]
+[-]
+[serif on]
+[say D]
+……雙方都在行動。/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 08]
+[say C]
+看起來一定會出現僵局。/
+[face B 04]
+[say B]
+[shake B]
+……呃、呃，我的策略又有漏洞了……！ ？/
+[face D 02]
+[say D]
+[move B X -30 0.4]
+[move D X -100 0.4]
+[move D Y 100 0.1]
+[delay 0.1 move D Y -100 0.2]
+啊！ ？/
+[move B X 50 0.5]
+[delay 0.1 move D X 100 0.5]
+[face B 03]
+[say B]
+夠了！/
+[show R L]
+[show S R]
+[setline 0.5 R C B D S]
+[scale B 0.8 0.5]
+[scale C 0.8 0.5]
+[scale D 0.8 0.5]
+[scale R 0.8 0.5]
+[scale S 0.8 0.5]
+[orderline B C D R S]
+[moveline B C D R S 0 50 0.5]
+[face R 08]
+[face S 00]
+[face D 08]
+[say D]
+[move D Y 20 0.4]
+[delay 0.6 move D Y -20 0.2]
+森軍正在佔領押原…
+為什麼不深入一下呢？[face D 02]/
+[flow]
+[face D 01]
+我們有一個精神工具，叫做「通行證」。
+如果您透露自己的身份，就更容易獲得信任。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[say B]
+[face B 01]
+我明白了。那我應該使用什麼設定呢？
+我想要一個不容易被懷疑的人。[face B 00]/
+[say D]
+[face D 00]
+那麼楚諾挖掘隊呢？[se taiko_02]/
+[say B]
+[face R 05]
+[face S 09]
+[face B 05]
+[se zukkoke_02]
+[shake B]
+很可疑！挖掘隊在做什麼？
+他們在上戰場前就來到營地了！/
+[say D]
+[face S 05]
+[face D 03]
+不要挖溝。/
+[face B 06]
+[say B]
+[effect fr syutyu a 0 0]
+[shake B]
+這是有充分理由的！ ！/
+[say C]
+[face C 09]
+[face R 01]
+現代戰爭...！[shaek C]　對抗火繩槍
+或許會非常有效！/
+[say B]
+[face B 08]
+[fece S 00]
+我會等啊等，總有一天我會被說服，
+不知道會不會被更多人接受。/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[effect off a]
+[say C]
+[face C 11]
+[face R 06]
+[face S 01]
+就是這樣。
+旅行時請在禦好燒餐廳試試看。你可以走了。[face C 02][effect C kira 4000 0 100][se kira_01]/
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+[say B]
+[face B 05]
+旅途中可以去大阪燒店！ ？[shake B 3 5 5]
+數量不多！ ？適合旅行的大阪燒餐廳！[face B 06]/
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+[autotap]/
+[say C]
+[effect off a]
+[face C 11]
+可能大家都會餓吧…/
+[say B]
+[face B 08]
+胃……啊。
+我想到了一件好事！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se walk_01]
+[hideall]
+[bgm think_silent]
+[bg mbg_map]
+[minibg ikusa_hata]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show T C]
+[face T 00]
+[talk T]
+你負責補貨嗎……工作量很大。/
+[move T X 400 0.5]
+[hide T]
+[-]
+[talkend]
+[show B C]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[scale B 0.8]
+[scale C 0.8]
+[scale D 0.8]
+[scale R 0.8]
+[scale S 0.8]
+[face B 01]
+[face C 01]
+[face D 01]
+[face R 01]
+[face S 01]
+[setline 0 R C B D S]
+[move B Y 40]
+[move C Y 40]
+[move D Y 40]
+[move R Y 40]
+[move S Y 40]
+[order R 0]
+[order S 0]
+[order D 1]
+[order C 1]
+[order B 2]
+[se walk_01]
+[-]
+@地球靈魂男孩
+你好。/
+[face B 08]
+[say B]
+[shake B]
+我能夠透過……這張白紙。[se paper_01]
+對普通人來說，它就像一個證書.../
+[face B 04]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+但我的心仍撲通撲通地跳…
+我以為會被發現呢...[shake B]我的胃是.../
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.2]
+[delay 0.3 move D Y 10 0.1]
+[delay 0.4 move D Y -10 0.2]
+[delay 0.6 move D Y 10 0.1]
+[delay 0.7 move D Y -10 0.3]
+[autotap]/
+[face D 02]
+[say D]
+即使他們看到我們，我也不會感到不舒服。
+只要你表現得有尊嚴，你也許就能做到。/
+[face C 11]
+[say C]
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+什麼？如果是食物的話
+我希望在旅途中能去一家禦好燒餐廳。/
+[flow]
+[face C 06]
+我想他們也採納了我的想法。
+我不這麼認為。/
+[face C 04]
+[flow]
+我弟弟就是這麼狡猾。/
+[say B]
+[face B 08]
+看，備後。不要粗魯
+我去吧。/
+[face D 03]
+[say D]
+[se gaya_01]
+御所到金卡薩…[wait 0.5]大家都武裝起來。
+看來一場戰爭即將開始…/
+[face B 08]
+[say B]
+[shake B]
+[face R 08]
+但是……大家都坐下來了……
+我不覺得很緊張。/
+[talkend]
+[face C 00]
+[face D 08]
+[face S 05]
+@士兵
+啊，對了，突然下達了停賽令。/
+@士兵
+有傳言稱，負責該公司的宍戶貴家
+他失蹤了……或什麼的。/
+[face B 03]
+[face S 08]
+[say B]
+失蹤了？ ？/
+[hideall]
+[talkend]
+@士兵
+慶幸對方的進度也停止了，不過
+怎麼了...[wait 0.5]這很令人困惑。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[fadeout 0.5]
+[-]
+[show B]
+[show C]
+[show D]
+[setline 0 C B D]
+[order B 3]
+[order C 2]
+[order D 1]
+[face B 08]
+[say B]
+[-]
+[serif on]
+你怎麼認為？　石見。/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 08]
+[say D]
+原本，以孺戶貴家為首的森軍，
+天城晴久率領的天城軍將在押原發生衝突…/
+[face C 09]
+[say C]
+[move C Y 100 0.1]
+[delay 0.1 move C Y -100 0.2]
+嘿！[wait 0.5]　我有沒有提到對方也停止了動作？
+我也要聽對方的！/
+[move C X 100 0.3]
+[delay 0.2 move B X 50 0.1]
+[delay 0.3 shake B]
+[delay 0.3 se paper_01]
+[face B 05]
+[face D 05]
+大哥！這張被詛咒的紙
+莫羅泰克！[move C X -800 0.3][se walk_03]/
+[hide C]
+[say B]
+[move B X -300 0.3]
+啊備後！現在還早...[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]
+石見 和$R:B請調查此事！[face D 00][move D X -80 0.5][show R R][move R X 200][order R 0][order D 1]/
+[face B 08]
+我...[move B X 10 0.1]我很擔心備後，所以我會去追他！[move B X -800 0.3][se walk_03]/
+[hide B]
+[move D X -150 0.5]
+[move R X -100 0.5]
+[face R 01]
+[face D 01]
+[say D]
+哦，走吧，回家吧。
+我會好好照顧你的。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[show S C]
+[face D 08]
+[face R 08]
+[face S 08]
+[setline 0 R D S]
+[order D 3]
+[order R 1]
+[order S 0]
+[-]
+[fadeout 1.5]
+[talkend]
+[serif on 0.5]
+石見是率領這支軍隊的武將，宍戶貴家。
+我朝主營地走去，那是我本來應該去的地方。/
+[hideall]
+@步兵
+我還是看不到貴家大人……！
+讓我們看看！ ？/
+[shakebg]
+@首席侍從
+是啊！　你喜歡嗎？
+快點找到吧！不要因為別人而分心！/
+[show D]
+[show S]
+[show R]
+[setline R D S]
+[orderline D S R]
+[face R 08]
+[face S 04]
+[moveline S D R 0 -200 0]
+[face D 03]
+[talk D]
+（偷偷地……偷偷地……[move D Y 20 0.4][delay 0.6 move D Y -20 0.2]
+　看來每個人都感到恐慌……嗯？ ）/
+[face S 05]
+[move S Y 10 0.1]
+[delay 0.1 move S Y -10 0.1]
+[move S Y -20 0.5]
+[say D]
+[face D 08]
+啊？　$S:D你有發現什麼嗎？/
+[move D Y -100 0.5]
+[move R XY 100 -50 0.4]
+[move S XY -100 -40 0.6]
+[face D 05]
+[face R 05]
+[face S 04]
+……就是這個……/
+[moveline S D R 0 150 0.5]
+[move D Y 50 0.6]
+[face D 01]
+[face S 02]
+[face R 01]
+哇，你找到了。$S:D。
+這可能是個線索。/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[hideall]
+[bg sky_day]
+[minibg off]
+[bgm journey]
+[-]
+[fadeout 0.5]
+[-]
+[wait 0.5]
+[bg mbg_map 0.5]
+[minibg ikusa_hata 1.0]
+[-]
+[serif on]
+[show B C]
+[face B 05]
+[talk B]
+雨城軍總司令雨城晴久，
+失蹤了……！ ？/
+[show T C]
+[setline 0.5 B T]
+[talk T]
+[name T 武将]
+他本來應該在小屋裡解手的，但是
+不知不覺間，它就消失了…/
+我現在正在整理我的服務生。
+……但是這些團子真的很好吃！[shake T]/
+[face B 01]
+[talk B]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+當然！這是自製的吉備團子！/
+[talk T]
+哦，我在山陰工作這麼久了，從來沒吃過東西。
+不是，但是……不愧是八國守護者春久啊！/
+[flow]
+沒想到竟然會從吉備國送來一份禮物…/
+[face B 01]
+[talk B]
+不，這就是我的...[move B X -50 0.5][hide T]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[se walk_01]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+……/
+[show B C]
+[talk B]
+[-]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[se kira_01]
+[face B 02]
+唷，我終究會給你基比丹戈，讓你成為盟友。
+該策略是可靠的。無疑。/
+[face B 08]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+但畢竟，天城軍的總司令是
+缺什麼.../
+[hide B]
+[-]
+[show C C]
+[face C 08]
+[talk C]
+……/
+[show B C]
+[face B 03]
+[talk B]
+[setline 0.5 C B]
+怎麼了備後？/
+[serif off]
+[face C 08]
+[say C]
+[wait 0.5]
+[-]
+[bgm off]
+[serif on]
+這太狡猾了。/
+[face B 05]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+啊？/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[bgm fun]
+[say C]
+這支軍隊的總司令也可能是…
+這就是我想出來的.../
+[face C 08]
+[flow]
+結果，我哥無意間聽到了我的聲音，
+不要把所有功勞都攬在自己身上！[move C Y 10 0.1][delay 0.1 move C Y -10 0.1]/
+[face C 04]
+鷹...[shake C]
+……我很無聊！ ！ ！[shake C 3 2 2][se zukkoke_02]/
+[say B]
+[move B X 50 1.0]
+呃，是的...不，因為備後...[face B 03][move B X -50 0.3]
+如何有效地獲取資訊...[wait 0.5]這不是不可能嗎？/
+[effect C syutyu a 0 200]
+[shakebg]
+[move C X 200 0.3]
+[rotate B 5 0.3]
+[delay 0.2 move B X 100 0.1]
+[face B 05]
+[face C 03]
+[say C]
+[se cloth_06]
+無論如何！ ？
+即使是我也可以做得更好！ ！[shake C]/
+[shake C 3 1 4]
+大哥擅自乾涉、偷竊我的東西
+我做到了！ ！/
+[shake B]
+[face B 05]
+[say B]
+[rotate B 0 0.3]
+什麼，為什麼生氣？
+你啊，你生氣的時候好可怕！/
+[face B 03]
+而且，任務第一名！ B礦
+如果你照計畫去做，你會沒事的.../
+[face C 08]
+[say C]
+[move C X -100 0.1]
+我已經不知道你兄弟的策略了！
+我會隨心所欲地調查！[move C Y 10 0.1][delay 0.1 move C Y -10 0.1]/
+[face C 03]
+反正我哥的策略已經很爛了。
+它是什麼？[move C Y 100 0.1][delay 0.1 move C Y -100 0.2]　嘿！　大哥白痴！[move C X -800 0.2][se walk_03][effect off a]/
+[hide C]
+[face B 05]
+[say B]
+什麼……！
+啊，這…備後！[move B X -100 0.2]　等等...！/
+[face B 03]
+[shake B]
+備後ー！/
+[talkend]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+備中正試圖追趕備後，突然…
+我在一個已搭建的簡易掩體旁邊發現了腳印。/
+[face B 08]
+[move B C 0.5]
+[talk B]
+嗯...？這是……腳印……？
+另外，這個.../
+[move B Y -100 0.5]
+[talkend]
+常人不會注意到的痕跡。
+而且還有一些痕跡，看起來像是有東西被拖到了那裡。/
+[talk B]
+正在馬廄裡小便的天子家的族長，
+有人綁架了我…？/
+[face B 05]
+[move B XY 200 100 1.0]
+這些腳印，還有那彷彿被拖走的痕跡…
+這是出乎意料的.../
+[face B 08]
+[move B X -50 0.3]
+……備後……呃……[shake B]媽的，現在任務第一。
+因為我已經不知道了.../
+[move B X 300 1.0]
+[hide B]
+[se walk_01]
+[talkend]
+備中小心翼翼地追蹤著蹤跡。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>11/
+[set A s_a002_m 火車]
+[set B s_a002_m 火車]
+[set T s_m007_m 毛利軍の大将]
+[set U s_m007_m 尼子軍の大将]
+[fadein black 0]
+[bgm off]
+[bg black]
+[-]
+[bgm comical]
+[bg sky_day]
+[-]
+[fadeout 1.0]
+[-]
+[se cloth_03]
+[color B BLACK]
+[serif on 0.5]
+[talkend]
+滑倒...
+滑倒.../
+[serif off 1.0]
+[bg sandou 1.0]
+[-]
+[show A C]
+[face A 12]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+嘆息……嘆息……
+我們休息一下吧.../
+[face A 02]
+哦，這玉米真不錯。
+是不是很好吃啊！你也想吃老虎嗎？/
+[face A 09]
+@老虎
+喵/
+[hide A]
+[show T C]
+[show U C]
+[move T XY -80 -50]
+[move U XY 80 -50]
+[face T 01]
+[face U 02]
+[talk T]
+……你、你……
+為什麼要做這樣的事……！[shake T]/
+[talkend]
+火車拖著的人是兩個大漢。
+他們被綁在一起，背也被綁在一起。/
+[move T X 150 0.5]
+[move U X 150 0.5]
+[show A L]
+[move A X 50 0.3]
+[face A 03]
+[talk A]
+夜迦馬西！[shakebg]
+屍體應該默默地被抬走！ ！/
+[face A 00]
+[say T]
+[shake T]
+還好，這不是屍體！首先，你突然進來了。
+我想他給了老鷹一槍，把它打昏了！/
+[say U]
+[serif off]
+[move U Y 10 0.1]
+[delay 0.1 move U Y- 5 0.1]
+[-]
+[move U Y 5 0.1]
+[delay 0.1 move U Y -5 0.1]
+[-]
+[move U Y 5 0.1]
+[delay 0.1 move U Y -10 0.1]
+[-]
+[serif on]
+庫庫先生，你被打過一次嗎？
+對於這樣的小子！/
+[say T]
+[shake T]
+什麼！ ？是春久閣下…[wait 0.5]就像鷹一樣
+我希望你被逮捕了！ ？/
+[say U]
+[shake U]
+或者說，正在突襲之中！
+我無法抗拒任何事...[move U Y -50 1.0]我很遺憾。/
+[say T]
+[move T Y 10 0.4]
+[delay 0.4 move T Y -10 1.0]
+啊……那是……/
+[face A 03]
+[move A X 100 0.3]
+[effect A syutyu a 0 100]
+[talk A]
+[shake T]
+[shake U]
+大波！[shakebg]　誰說我們是朋友並交談過？
+呃，[move A X -200 0.2]格霍格霍！ ！[shake A]/
+[say T]
+[effect off a]
+[move U Y 50 0.3]
+沒關係，你...
+看來你咳嗽得很厲害.../
+[face A 13]
+[talk A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[shake A]
+[-]
+[serif on]
+喔不……我發燒了，想吐……
+你明白嗎…這個…/
+[flow]
+我正處於過度勞累的死亡邊緣。
+我已經離死亡那麼近了.../
+[move A X 200 0.2]
+[talkend]
+[se paper_01]
+火車開啟了他的圓魔，把它舉到了男人們的面前。
+按。/
+[face A 14]
+[talk A]
+[shake T]
+[shake U]
+[effect A syutyu a 0 100]
+名字的數量還在增加！ ？
+這很愚蠢，因為你們像白痴一樣繼續戰鬥！ ！[shakebg]/
+[say U]
+[effect off a]
+嘿，你是誰.../
+[face A 09]
+[talk A]
+@老虎
+喵。/
+[effect A kira a 0 100]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+托拉~就是你。
+你擔心我.../
+[serif off]
+[effect off a]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face A 00]
+[-]
+[move A L 1.0]
+[-]
+[serif on]
+嘿，是時候該走了…/
+[say U]
+你要去哪裡...？/
+[talk A]
+[-]
+[show B L]
+[color B BLACK]
+[order B 2]
+[order A 0]
+就這樣決定了...
+一條河。河。/
+[say T]
+[color B BLACK]
+還是一條河…？/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>12/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set T s_m002_m 兵士]
+[fadein black 0]
+[bgm off]
+[-]
+[title 第五節 やりがい搾取やん]
+[-]
+[bg sandou]
+[bgm journey]
+[-]
+[fadeout 1.0]
+[-]
+[show B]
+[face B 08]
+[move B X -800]
+[move B X 800 1]
+[-]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[serif on 0.5]
+[say B]
+……那是什麼？來自備後的。/
+[flow]
+[face B 03]
+偷偷摸摸的或無聊的...
+我現在正在執行任務。一點也不。/
+[face B 08]
+[flow]
+我必須承擔責任，讓任務成功……！/
+[show D C]
+[show R C]
+[show S C]
+[face D 02]
+[face R 00]
+[face S 00]
+[setline 0 R D S]
+[moveline R D S 1000 0 0]
+[serif off]
+[talk D]
+[moveline R D S B -1000 0 1]
+[-]
+[serif on]
+哦，備中。/
+[setline 0.5 B R D S]
+[orderline B D R S]
+[face B 05]
+[-]
+[talk B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+啊，石見。大家……你們為什麼在這裡？[face B 00]
+那邊調查得怎麼樣了？/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[say D]
+[face D 08]
+然而，在失蹤將軍的營地裡，
+那裡有一些痕跡，看起來像是被拖過的…/
+[flow]
+我以為我被抓住了。
+我一直在追蹤……你也是嗎？[face D 05]/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 08]
+[talk B]
+是的，一樣。
+總司令也失蹤了…/
+[hide S]
+[hide R]
+[move D XY -10 -40 0.5]
+[rotate D 10 0.4]
+[talk D]
+[face D 00]
+這意味著曾經被拖曳過的痕跡在這裡融合了。[move D X -100 1.0]
+……嗯/
+[flow]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+……哦，這是[face D 01]……這是一隻小貓。[face B 05]/
+[face B 06]
+[talk B]
+[shake B 2 5 5]
+[se zukkoke_02]
+媽，媽，媽……！ ？哇，好突然啊……！[face B 09]
+石見你說這種話！ ？[shake B]/
+[face D 00]
+[talk D]
+[move D XY 10 40 0.3]
+[rotate D 0 0.3]
+它是什麼？/
+[hide B]
+[hide D]
+[-]
+[talkend]
+我在那裡吃完飯
+玉米棒子正在掉落。/
+[show B C]
+[face B 01]
+[talk B]
+哦，還有玉米…/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 06]
+順便說一句，備後也是關於玉米的。
+我想說曼曼…我們兩個的方言很相似。/
+[show D R]
+[setline 0.5 B D]
+[face D 08]
+[-]
+[talk D]
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+這裡有一隻貓，
+有人在說話。/
+[face B 08]
+[talk B]
+哦，原來如此…
+我確信是兩軍的將軍都被帶進來了。/
+[face B 03]
+有一個人被綁在這裡一段時間了。
+看起來是這樣。[shake B]/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 01]
+[say D]
+是的，它還不是屍體。
+從這裡開始，腳印的數量將會增加。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 03]
+[talk D]
+和兩位將軍
+我不是隻走過這裡.../
+[show R C]
+[show S C]
+[face R 08]
+[face S 08]
+[setline 0.5 R B D S]
+[order B 3]
+[order D 2]
+[order R 0]
+[order S 0]
+[talk B]
+好吧，我們也去吧。/
+[face D 01]
+[say D]
+話說……備後去哪了？/
+[face B 06]
+[say B]
+嗯...
+我正在做一些不同的事情。[face D 05][shake D][face R 05][face S 05]/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 04]
+…………備後有點孤獨。
+我生氣了.../
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 09]
+[say D]
+是脫離型的嗎？/
+[flow]
+[face D 08]
+……備中……
+你們打架了嗎？/
+[face B 05]
+[shake B]
+[say B]
+我、我只是想完成我的使命。
+備後 很無聊或很狡猾......！/
+[face B 08]
+我、我不覺得緊張…/
+[say D]
+[face D 04]
+……我也感受到備中的感受和備後的感受。
+我不明白。/
+[say B]
+[face B 06]
+………………
+……………………/
+[fadein ehite 0.3]
+[serif off 0.3]
+[-]
+[hide D]
+[hide R]
+[hide S]
+[show C]
+[waku on]
+[face C 08]
+[setline C B]
+[orderline B C]
+[face B 05]
+[bg mbg_map]
+[minibg ikusa_hata]
+[-]
+[fadeout 0.3]
+[-]
+[autotap]/
+[face C 08]
+[flow]
+[serif on]
+結果，我哥無意間聽到了我的聲音，
+不要把所有功勞都攬在自己身上！[move C Y 10 0.1][delay 0.1 move C Y -10 0.1]/
+[face C 04]
+鷹...[shake C]
+……我很無聊！ ！ ！[shake C 3 2 2][se zukkoke_02]/
+[say B]
+[move B X 50 1.0]
+呃，是的...不，因為備後...[face B 03][move B X -50 0.3]
+如何有效地獲取資訊...[wait 0.5]這不是不可能嗎？/
+[effect C syutyu a 0 200]
+[shakebg]
+[move C X 200 0.3]
+[rotate B 5 0.3]
+[delay 0.2 move B X 100 0.1]
+[face B 05]
+[face C 03]
+[say C]
+[se cloth_06]
+無論如何！ ？
+即使是我也可以做得更好！ ！[shake C]/
+[shake C 3 1 4]
+大哥擅自乾涉、偷竊我的東西
+我做到了！ ！/
+[fadein ehite 0.3]
+[serif off 0.3]
+[-]
+[hide C]
+[show B]
+[scale B 1.6]
+[face B 08]
+[move B Y -140]
+[waku off]
+[minibg off]
+[bg sandou]
+[-]
+[fadeout 0.3]
+[-]
+[autotap]/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on 0.5]
+[say B]
+——不知道備後是否也想活躍起來。/
+[face B 04]
+……一會兒……
+我想知道我是不是做了什麼可悲的事.../
+[face B 08]
+[scale B 1 0.5]
+[move B Y 140 0.5]
+[show D R]
+[setline 0.5 B D]
+[say D]
+你應該稍後向備後道歉並和解。
+嘿，我喜歡這兩個人相處得這麼好。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[say B]
+[face B 01]
+....是的。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>13/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset S m @チーム -@NOW]
+[randomset R m @チーム -@NOW]
+[set T s_m007_m 毛利軍の大将]
+[set U s_m007_m 尼子軍の大将]
+[set A s_a002_m 火車]
+[fadein black 0]
+[bgm off]
+[bg black]
+[-]
+[bgm eerie]
+[bg sandou]
+[-]
+[fadeout 1.0]
+[wait 1.0]
+[se walk_01]
+[-]
+[show T C]
+[show U C]
+[face T 01]
+[face U 02]
+[move T XY -80 -50]
+[move U XY 80 -50]
+[face T 00]
+[face U 00]
+[serif on 0.5]
+[talk U]
+[order U 0]
+[order T 1]
+你、你到底想做什麼……！ ？/
+[say T]
+啊啊啊啊啊啊啊…等等等等
+你講一下就明白了.../
+[hide T]
+[hide U]
+[show A C]
+[face A 00]
+[talkend]
+[bg mbg_map 1.0]
+[minibg j01_suimen 1.0]
+[se amb_07]
+[-]
+火車拖著他們兩個
+我站在河岸上。/
+[bg sandou 1.0]
+[minibg off 1.0]
+[-]
+[face A 04]
+[talk A]
+沒有其他辦法可以阻止這場愚蠢的戰爭。[wait 0.5]
+真的。耐久。/
+[show T C]
+[show U C]
+[face T 00]
+[face U 00]
+[move A L 0.5]
+[move T XY 250 -50]
+[move U XY 360 -50]
+[talk T]
+什、什麼.../
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 00]
+[talk A]
+[bgm comical]
+那麼，
+我希望你們兩個現在都死掉。[se taiko_02]/
+[talkend]
+[effect fr syutyu 2000 0 100]
+[shake T 3 4 4]
+[shake U 3 3 4]
+[se zukkoke_02]
+@將軍
+！？！？！？！？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[talk A]
+我知道。你們正在進行的戰鬥
+我想將軍被殺之後一切都結束了。/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+換句話說，如果你們都死了，其他士兵也會
+如果我們分手了，我的工作就會減少！/
+[say U]
+什麼！ ？ ！ ！ ？[shake U]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 04]
+[talk A]
+這是我們的規則，我真的很抱歉。
+只有名字記載在閻魔書上的靈魂才能被移交。/
+[face A 02]
+[move A X 300 0.5]
+[delay 0.5 move A Y 20 0.4]
+[delay 1.0 move A Y -20 0.2]
+如果你們淹死在河裡......好吧，最終
+炎魔町上不是應該有你的名字嗎？/
+[face A 01]
+[move A X -300 0.5]
+我想也許我應該死掉。
+之後，靈魂就會正常傳送。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+現在，勇敢嘗試，飛翔吧！
+嗯，一旦沉入水中，只是幾秒鐘的事情。/
+[face A 02]
+[move A Y -50 0.5]
+[textsize 40]
+人類的[wait 0.5]我看了這個地方♪[shake A][effect fr syutyu a 0 100]
+嗨！[move A Y 150 0.1][delay 0.1 move A Y -100 0.2][se taiko_01]　一輝！[move A Y 100 0.1][delay 0.1 move A Y -100 0.2][se taiko_01]　一輝！[move A Y 100 0.1][delay 0.1 move A Y -100 0.2][se taiko_01]　一輝！[move A Y 100 0.1][delay 0.1 move A Y -100 0.2][se taiko_02]/
+[say T]
+[shake T]
+等等，等等，等等！ ！[wait 0.5]　明白了！　[wait 0.5]讓士兵們撤退吧！
+當然，如果雨城家先撤軍的話……！/
+[say U]
+[shake U]
+什麼！ ？森家應該先起兵！
+這並不能說明什麼！ ！/
+[face A 15]
+[talk A]
+[move A Y 50 0.1]
+[textsize 40]
+夜迦馬西！ ！ ！ ！[shakebg]　不再是書呆子了！
+你不就沉下去了嗎？ ！ ！[shake A 3 5 5][rotate T -5 0.2][rotate U -5 0.2]/
+[talkend]
+[textsize 40]
+@將軍
+嘎啊啊啊啊啊啊啊啊！ ！ ！ ！ ！/
+[serif off]
+[effect off a]
+[show C L]
+[se gasa_01]
+[move C X -600]
+[face C 10]
+[-]
+[bgm off]
+[move A X 600 0.5]
+[move C X 600 0.5]
+[move T X 600 0.5]
+[move U X 600 0.5]
+[-]
+[serif on]
+[talk C]
+你們在做什麼？/
+[talkend]
+就在火車舉起雙手的時候，
+是備後衝破草叢出現的。/
+[face A 03]
+[talk A]
+[move A Y -50 0.1]
+什麼，你！
+這個是進口的！好吧，我們回家吧！[shake A]/
+[face C 03]
+[talk C]
+呃...[shake C]如果我能回家
+我想回家！ ！[shakebg][se taiko_02]/
+[face A 05]
+[talk A]
+[bgm comical]
+！？[shake A]/
+[face C 04]
+[talk C]
+是的，我和哥哥打架了，跑了，但我是個迷失的孩子！[shake C]
+我甚至不知道如何回家，我有麻煩了！ ！[shake C 2 3 3]/
+[face A 04]
+[talk A]
+[shaek A]
+嘿，你為什麼不能生我的氣呢？
+好吧，我現在不能這麼做！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 03]
+[talk A]
+我會工作、工作、工作，直到我死
+上面對我說廢話，我徹底鬱悶了！[shake A]/
+[flow]
+[face A 08]
+你認為誰讓世界運轉？
+我想我還是忍不住有點感激吧！ ？[shake A]/
+[face A 14]
+到目前為止我一直像個白痴一樣工作。
+一個公司奴隸的最後掙扎！[move A X -50 0.2]　別打擾我！ ！[shake A]/
+[face C 05]
+[talk C]
+...(京都)/
+[face A 15]
+[talk A]
+發現了就別走！[shake A]
+至於我……我就只剩下這些了！/
+[face C 04]
+[talk C]
+[bgm will]
+[shake C]
+……一定很痛苦吧……！ ！[move C Y 10 0.4][delay 0.4 move C Y -10 1.0]/
+[face A 05]
+[talk A]
+！？[shake A]/
+[face C 06]
+[talk C]
+儘管我很努力，但我卻得不到認可。
+很難...[move C Y 10 0.4][delay 0.4 move C Y -10 1.0]我知道你的感受.../
+[face A 06]
+[talk A]
+[light def]
+[lightcolor blue]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+什麼……你也……[move A X -10 1.0]
+你很難記住它嗎？/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 04]
+[talk C]
+……不過，我會以自己的方式盡力。
+我完全沒有被注意到.../
+[flow]
+反正對你來說也是不可能的
+我對哈娜的期望並不高.../
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif off]
+[say A]
+[-]
+[serif on]
+……什麼？
+太糟糕了.../
+[talk A]
+[face A 01]
+[face C 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[scale A 1.6 0.5]
+[scale C 1.6 0.5]
+[moveline A C 0 -120 0.5]
+……你叫什麼名字？/
+[face C 00]
+[talk C]
+我是備後。/
+[face A 01]
+[talk A]
+備後？我是一列火車。
+我喜歡你。/
+[face A 02]
+[flow]
+你也會得到回報。
+你和我在某種意義上是不是很相似？/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[say C]
+[face C 00]
+火車……我確信我們是相似的人。
+呵呵，本來我也很茫然，不過現在感覺好多了。[face C 02]/
+[say A]
+[face A 01]
+……我也是。母親。什麼？到現在為止
+我因為生氣而覺得自己像個白痴。/
+[say C]
+[face C 01]
+我不辭辛勞地成為你的朋友，
+我想去一個地方！/
+[face C 09]
+我已經不知道任務是什麼了！[shake C]　連我哥都不知道！[shake C]
+老鷹應該和他們的朋友一起玩！[shake C]/
+[face A 02]
+[say A]
+哦，是的！
+我已經幾百年沒有享受過任何樂趣了……！/
+[talkend]
+[serif off]
+[move A X -600 1.2]
+[move C X -600 1.2]
+[move T X -600 1.2]
+[move U X -600 1.2]
+[color A talk]
+[color C talk]
+[-]
+[serif on]
+@將軍
+（……啊啊啊……這是……
+　惡魔小子的怒氣不是消散了嗎……？ ）/
+[talk A]
+[serif off]
+[move A X 600 0.5]
+[move C X 600 0.5]
+[move T X 600 0.5]
+[move U X 600 0.5]
+[-]
+[light off]
+[bgm off]
+[serif on]
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+讓我們作為被壓迫者一起努力，把這些人淹死在河裡。[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]
+你做對了！/
+[talkend]
+[serif off]
+[move A X -600 0.3]
+[move C X -600 0.3]
+[move T X -600 0.3]
+[move U X -600 0.3]
+[color A talk]
+[color C talk]
+[bgm departure]
+[-]
+[shake T 3 8 8]
+[shake U 3 8 8]
+[serif on]
+[se zukkoke_02]
+@將軍
+呃！ ？我想這就是變心吧！ ？ ！ ？/
+[talk A]
+[serif off]
+[move A X 600 0.5]
+[move C X 600 0.5]
+[move T X 600 0.5]
+[move U X 600 0.5]
+[-]
+[serif on]
+[face C 10]
+[say C]
+[shake C]
+……或者將其沉入河中...？[move C X 100 1.0]
+如果你做錯事，你就會死…/
+[face A 02]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+沒錯！當你死的時候，你的靈魂是好的
+我把它送到了來世。之後我就出去玩啦！/
+[talkend]
+[serif off]
+[move A X -600 0.2]
+[move C X -600 0.2]
+[move T X -600 0.2]
+[move U X -600 0.2]
+[-]
+[serif on]
+[say U]
+[move T X -20 0.2]
+[rotate U 0 0.2]
+已經不行了……！[shake U]　那個男孩！
+如果你幫了我，我就會獎勵你！ ！/
+[say T]
+[rotate T 0 0.2]
+[move T Y 10 0.1]
+[delay 0.1 move T Y -10 0.1]
+哦，我也是！/
+[scale A 1.0 0.3]
+[scale C 1.0 0.3]
+[moveline A C 0 120 0.3]
+[move A X 400 0.3]
+[face A 03]
+[say A]
+[moveline T U 150 0 0.3]
+你們閉嘴！
+別試圖加入我們的友誼！/
+[setline 0.5 C T U A]
+[moveline T U 100 0 0.5]
+[move T X 50 0.5]
+[move A X 100 0.5]
+[face A 02]
+[face C 10]
+備後，你看起來很堅強，只是一點點。
+你能幫我拿過來嗎？讓它流動。[shake T][shake U]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]/
+[say C]
+[face C 08]
+火車。沒關係。
+還有其他有趣的遊戲。[face C 02]/
+[serif off]
+[face A 05]
+[rotate A 0 0.3]
+[move A Y 40 0.3]
+[say A]
+[-]
+[setline 0.5 C A  -100 600]
+[moveline T U 150 -50 0.5]
+[rotate T -10 0.5]
+[rotate U -5 0.5]
+[se dosa_01]
+[-]
+[serif on]
+什麼？[shake A]　你為什麼不阻止它！
+你打算當英子醬多久？/
+[flow]
+[face A 13]
+我出去玩之前需要做這件事。
+我不能自由……！/
+[face A 08]
+沒有人能理解我內心的痛苦！ ！/
+[face A 03]
+@老虎
+喵.../
+[hide T]
+[hide U]
+[effect fr syuytyu a 0 0]
+[setline 0.5 C A]
+[scale A 1.6 0.5]
+[scale C 1.6 0.5]
+[moveline A C 0 -120 0.5]
+[face C 09]
+[say C]
+[face A 05]
+火車！石頭、布、剪刀……嘿！ ！[shake C]/
+[shake A]
+[say A]
+[face A 05]
+！！？/
+[say C]
+[face A 00]
+[face C 08]
+看看那邊...[wait 0.5]嘿！[shake C][se taiko_02][shake C]/
+[say A]
+[move A XY 10 40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 -40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[face A 05]
+嘿！ ？/
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.2]
+[delay 0.3 move C Y 10 0.1]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.1]
+[delay 0.7 move C Y -10 0.3]
+[autotap]/
+[say C]
+[face A 16]
+[face C 09]
+哇！我贏了！
+我被拖向同一個方向！/
+[shake A]
+[say A]
+[face A 12]
+什麼，突然！
+你這不是偷偷摸摸的嗎？　莫凱亞！/
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.2]
+[delay 0.3 move C Y 10 0.1]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.1]
+[delay 0.7 move C Y -10 0.3]
+[autotap]/
+[say C]
+[face C 02]
+哇！　杜蓋亞卡夏。
+就算殺了人也能玩得開心！/
+[face A 06]
+[say A]
+……！
+…………備後，你…/
+[face A 04]
+……哦，[shake A]我...[shake A]/
+[show B L]
+[show D L]
+[setline 0 B D -100 600]
+[moveline B D -1000 0 0]
+[order B 3]
+[order D 1]
+[order C 2]
+[face B 08]
+[face D 08]
+[serif off]
+[se walk_04]
+[moveline A B C D 1000 0 1]
+[-]
+[serif on]
+[talk B]
+備後！ ！[scale A 1 0][scale C 1 0][moveline A C 0 120 0]/
+[face C 05]
+[move C R 0.3]
+[say C]
+啊，兄弟！ ？[shake C]/
+[face A 10]
+[moveline A B C D -1300 0 1]
+[serif off]
+[-]
+[serif on]
+[say A]
+！？/
+[setline 0.5 B D -100 600]
+[setline 0.5 C A 700 1100]
+[face D 03]
+[say D]
+你創造了這個歷史覺醒區，
+罪魁禍首就是它。讓那些人被釋放吧。/
+[face C 10]
+[say C]
+……或許火車就是罪魁禍首。
+我猜……！/
+[say B]
+[face B 03]
+備後，我想知道你去了哪裡。
+在這樣的地方！ ？/
+[say C]
+[face C 03]
+[shake C]
+什麼，兄弟！我還是覺得有點像
+你在抱怨嗎？ ？/
+[say B]
+[face B 08]
+……[wait 0.2]……[wait 0.2]不，是為了阻止綾香的腳步。
+謝謝！[face B 02]　不愧是備後！/
+[shake C]
+[face C 05]
+[face A 00]
+[say C]
+啊？　
+……我、我能幫你嗎……？/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 00]
+[say B]
+哦。
+感謝備後！/
+[say C]
+[face C 05]
+啊，兄弟…[shake C][wait 0.5]....哇哈哈哈哈！ ！ ！[face C 02][face A 00]
+沒錯！這都是我的功勞！ ！[move C Y 100 0.1][delay 0.1 move C Y -100 0.2]/
+[move A X -390 1.0]
+[move C X -690 1.0]
+[move D X -690 1.0]
+[move B X -690 1.0]
+[say A]
+……/
+[bg black 1.0]
+[hide B]
+[hide C]
+[hide D]
+[face A 03]
+[bgm boss]
+[se quake_01]
+...備後...你...[minibg emo_ikari 0.5]什麼是
+“我不想被認出來”！[scale A 2.0 0.3][move A Y -100 0.3]　你太傻了！ ！ ！[shake A]/
+[face A 14]
+[shake A]
+你這個叛徒！我覺得我有點感動
+我討厭我現在變成的樣子！ ！ ！/
+[talkend]
+[effect fr fire b 0 0]
+[se quake_01]
+………………[shakebg]
+火焰開始在火車周圍盤旋。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>14/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set A s_a002_m 火車]
+[set T s_m007_m 毛利軍の大将]
+[set U s_m007_m 尼子軍の大将]
+[set V b_a002_m 火車]
+[set X b_a002_m 火車]
+[set E s_n001_m 夏人]
+[set F s_n000_m 猫乃屋]
+[set G s_n004_m 百太]
+[set Y s_obj_like イイネ]
+[set Z s_obj_likepoint イイネ]
+[fadein black 0]
+[bgm off]
+[bg black]
+[-]
+[title 第六節 ストは労働者の権利や！]
+[-]
+[bgm boss]
+[bg shirei_night]
+[-]
+[fadeout 1.5]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[se pi_02]
+[delay 0.5 se rokuhara_04]
+[autotap]/
+[show F]
+[face F 05]
+[say F]
+[serif on 0.5]
+……綾卡西、卡夏……！ ！ ！ ？/
+[show E]
+[setline 0.5 E F]
+[orderline E F]
+[face E 08]
+[se rokuhara_04]
+[say E]
+這靈力的波形…*MAIN君曾經
+這就是我在四國遇到的妖怪！/
+[flow]
+[face E 12]
+我曾經破壞過氣氛，但是
+綾香是那種非常容易交談的人…/
+[show G R]
+[setline 0.5 E F G]
+[orderline E G F]
+[say G]
+[face G 09]
+好吧，如果是*MAIN君等人的話。
+這是否意味著我們已經透過了？/
+[face F 03]
+[say F]
+不，上一次是在江戶時代末期。
+這次我們正處於戰國時代。[face E 05]/
+[face F 10]
+即使火車傢伙遇到*MAIN
+你可能根本不知道。/
+[se pi_02]
+[say E]
+[face E 13]
+....波形是相同的，但是
+其中隱藏的靈力數量…巨大！/
+[say F]
+[face F 09]
+毫無疑問。
+他就是這歷史覺醒區的核心！/
+[say E]
+[face G 08]
+[face E 08]
+備中讓我們信任並守護我們...！/
+[serif off]
+？大家……祝你好運！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 1]
+[hideall]
+[bg black]
+[show A C]
+[light down]
+[lightcolor red]
+[effect A fire b 0 0]
+[face A 03]
+[minibg emo_ikari]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[talk A]
+日復一日的工作……根本沒有任何獎勵。
+我到底是為了什麼而工作？ ？/
+[hide A]
+[light off]
+[bg sandou 1.0]
+[minibg off 0.5]
+[effect off b]
+[-]
+[show B C]
+[show C C]
+[show D C]
+[face B 08]
+[face C 06]
+[face D 08]
+[setline 0 C B D]
+[order B 3]
+[order C 2]
+[order D 1]
+[-]
+[say C]
+火車……我懂你的感受，但是……[face C 08]
+最好別再做壞事了！[shake C]/
+[hide B]
+[hide C]
+[hide D]
+[-]
+[show A C]
+[face A 04]
+[talk A]
+[effect A syutyu a 0 100]
+很難...！[shake A]　但這是我的工作！ ！
+是什麼激勵你工作？/
+[face A 03]
+[flow]
+你們呢！
+比如說那些肌肉！你！/
+[effect off a]
+[show D C]
+[serif off]
+[move D X 800]
+[move D X -800 0.5]
+[move A X -800 0.5]
+[face D 05]
+[-]
+[serif on]
+[talk D]
+呃，哦？[shake D]
+我們是...[face D 01][move D Y 10 0.4][delay 0.4 move D Y -10 1.0]如果有回報的話，一點也不難。/
+[move D X 800 0.3]
+[move A X 800 0.3]
+[shakebg]
+[face A 02]
+[talk A]
+[hide D]
+[se zukkoke_02]
+出來了！ ！　[shake A]是的，這是值得的！這是值得的！
+這就是「剝削獎勵」！[shake A 2 0 10]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+我以前也做過同樣的事情。到這份工作
+這既是有益的又是自豪的。/
+[face A 04]
+但它是什麼？這種冷處理。[wait 0.5]我是
+如果沒有你，這個世界就會充滿鬼魂！ ？[shake A]/
+[face A 03]
+[effect A syutyu a 0 100]
+我不禁更加感激！ ？/
+[serif off]
+[-]
+[effect off a]
+[show D C]
+[face D 04]
+[move D X 800]
+[move D X -800 0.5]
+[move A X -800 0.5]
+[-]
+[serif on]
+[talk D]
+呃呃呃……這麼快就回覆了……
+天哪，我覺得我輸了…/
+[move D X 800 0.3]
+[move A X 800 0.3]
+[hide D]
+[effect A syutyu a 0 100]
+[face A 03]
+[talk A]
+相信你也很為難吧！[shake A]　備後！ ！/
+[show C C]
+[face C 10]
+[talk C]
+[effect off a]
+[serif off]
+[move C X -800]
+[move C X 800 0.5]
+[move A X 800 0.5]
+[-]
+[serif on]
+我是...[shake C]這是我的意圖，但是…[face C 06]
+能像以前一樣受到稱讚我很高興...[move C Y 10 0.4][delay 0.4 move C Y -10 1.0]/
+[face C 02]
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+我也喜歡任務...
+希望你老公可以靠我吧……！/
+[serif off]
+[move C X -800 1.0]
+[move A X -800 1.0]
+[face A 08]
+[talk A]
+[-]
+[hide C 0]
+[serif on]
+你跟我完全不一樣！我的戰友們在哪裡！[shake A]
+但請做好準備備後！/
+[face A 03]
+[effect A syutyu a 0 100]
+你很快也會聽到我的話
+總有一天你會明白其中的意義！ ！ ！/
+[show C C]
+[face C 06]
+[talk C]
+[effect off a]
+[serif off]
+[move C X -800]
+[move C X 800 0.5]
+[move A X 800 0.5]
+[-]
+[serif on]
+[talk C]
+這、這是什麼預言…
+這實在是太可怕了...[shake C]/
+[serif off]
+[move C X -800 0.3]
+[move A X -800 0.3]
+[hide C]
+[talk A]
+[-]
+[serif on]
+那你呢！　
+那邊...[wait 0.5]像桃子一樣的東西！ ！/
+[show B C]
+[face B 08]
+[effect off a]
+[serif off]
+[move B X 800]
+[move B X -800 0.5]
+[move A X -800 0.5]
+[-]
+[serif on]
+[talk B]
+我……我是為主的。
+執行正義。嗯，這就是我的角色……！ ！/
+[scale A 1.5]
+[move B X 800 0.2]
+[hide B]
+[move A XY 800 -50 0.2]
+[face A 05]
+[talk A]
+[se zukkoke_02]
+[effect A syutyu a 0 100]
+正義！ ！ ！ ！ ！ ！[shake A]
+哇！　[shake A 3 20 20]你得到正義了嗎？ ！/
+[face A 03]
+[se fire_01]
+[light down]
+[lightcolor red]
+[effect A fire b 0 0]
+[bg black 1.0]
+[delay 0.5 minibg emo_ikari 0.5]
+說實話，我很壞！為了這個世界
+我已經很努力了！是不是邪惡了！/
+[face A 15]
+[shakebg]
+我不得不說，像你這樣的人是最棒的。
+不好了！/
+[flow]
+站在正義這邊，其他博科人就有麻煩了
+感覺真好！ ！哈，血管都快爆了！[shake A]/
+[show B C]
+[face B 04]
+[effect off a]
+[effect off b]
+[serif off]
+[hide A]
+[minibg off 0.5]
+[delay 0.3 bg sandou 0.5]
+[move B X 800]
+[move B X -800 0.5]
+[move A X -800 0.5]
+[-]
+[serif on]
+[talk B]
+呃，沒了…
+哎呀，我讓你生氣了……！ ？/
+[hideall]
+[-]
+[effect bk wavein 5000 0 0]
+[shakebg]
+[show C]
+[scale C 1.6]
+[move C Y -120]
+[face C 08]
+[say C]
+火車！[shake C]　你和我可能在很多方面都不同。[face C 06]/
+[face C 10]
+[flow]
+但我和你在一起
+我真的很想成為朋友！[shake C]/
+[serif off]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[effect off b]
+[move A X 1000]
+[face A 04]
+[say A]
+[moveline A C -1000 0 1]
+[-]
+[serif on]
+…………[shake A]
+哦，你瘋了！ ！[face A 15]/
+[face A 14]
+我越被這樣的話語包圍
+那太天真了！ “現在閉嘴！”/
+[setline 0.5 C A]
+[orderline A C]
+[face C 08]
+[say C]
+火車.../
+[hide C]
+[-]
+[move A C 0.5]
+[se quake_01]
+[serif on]
+[face A 02]
+[talk A]
+可惜了，平行線。我勉強能做到！
+我決定了！[se quake 01]/
+[face A 03]
+[bg black 1.0]
+[effect fr fire b 0 0]
+[se fire_01]
+[delay 0.5 minibg emo_ikari 0.5]
+[shakebg]
+[effect fr syutyu a 0 100]
+你們都把它變成木炭，吹成粉末。
+撒在海岸上！　[wait 0.5]別像千風一樣！ ！/
+[hide A]
+[se fire_01]
+[effect off a]
+[move A X -300 0.5]
+[show T C]
+[show U C]
+[face T 01]
+[face U 02]
+[move T XY 220 -50]
+[move U XY 380 -50]
+[move T X -300 0.5]
+[move U X -300 0.5]
+[talk U]
+[order U 0]
+[order T 1]
+[talkend]
+[autotap]/
+[say U]
+[se fire_02]
+哎呀，好熱好熱啊……！ ！[shake U 2 10 10]/
+[sayT]
+[shake T 2 10 10]
+啊，天子大人！　[wait 0.5]如果你太生氣了吧……！
+啊啊啊！[move T Y -300 0.3][move U Y -300 0.3][se water_03][hide T][hide U][effect off b][effect fr splash 5000 0 0]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[effect off b]
+[hideall]
+[bg sandou]
+[minibg off]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[-]
+[bgm off]
+[show B C]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[scale B 0.8]
+[scale C 0.8]
+[scale D 0.8]
+[scale R 0.8]
+[scale S 0.8]
+[face B 05]
+[face C 05]
+[face D 05]
+[face R 05]
+[face S 05]
+[setline 0 R C B D S]
+[move B Y 40]
+[move C Y 40]
+[move D Y 40]
+[move R Y 40]
+[move S Y 40]
+[order R 0]
+[order S 0]
+[order D 1]
+[order C 1]
+[order B 2]
+@地球靈魂男孩
+！！？/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show A C]
+[face A 05]
+[talk A]
+哇，搞什麼啊！[shake A]　我不小心掉進河裡了！
+但結果還好！[face A 02]　哇哈哈！[move A Y -0 0.1][delay 0.1 move A Y -10 0.2][-][move A Y 10 0.1][delay 0.1 move A Y -10 0.2][-][move A Y 10 0.1][delay 0.1 move A Y -10 0.3][-]/
+[hide A]
+[-]
+[serif off]
+[show C C]
+[face C 08]
+[-]
+[effect bk wavein 5000 0 0]
+[bgm action]
+[scale C 3.0 0.8]
+[move C Y -250 0.8]
+[effect fr syutyu a 0 100]
+[se walk_03]
+[delay 0.3 hide C]
+[-]
+[hideall]
+[-]
+[show A]
+[face A 05]
+[talk A]
+[shake A]
+[-]
+[serif on]
+！ ！ ？　備後……！[shake A]
+等等，你打算做什麼？　/
+[serif off]
+[hide A]
+[-]
+[delay 0.3 effect fr splash 5000 0 0]
+[effect off a]
+[show C R]
+[move C X -1100 0.6]
+[delay 0.2 move C Y 300 0.2]
+[delay 0.4 move C Y -400 0.1]
+[delay 0.4 se water_03]
+[delay 0.5 shakebg]
+[-]
+[talkend]
+[serif on]
+備後把綁將軍的繩子綁在水裡。
+我設法抓住它並自己貼在岩石上。/
+[bg mbg_map 0.5]
+[minibg j01_suimen 0.5]
+[show C C]
+[show T C]
+[show U C]
+[face T 01]
+[face U 02]
+[move T XY -380 80]
+[move U XY -260 -20]
+[move C Y -100]
+[rotate T -40]
+[rotate U -40]
+[order C 3]
+[order T 1]
+[order U 0]
+[shake T]
+[shake U]
+[face C 10]
+[se water_07]
+[talk C]
+[effect fr splash 5000 0 100]
+咕嚕咕嚕.../
+[talkend]
+不過，河水湍急，看來不會持續太久。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg sandou]
+[minibg off]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show A C]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[face A 03]
+[talk A]
+啊嗬！[shake A]　這渾濁的小溪！別有危險！
+你在想什麼備後！ ！/
+[serif off]
+[show B C]
+[face B 05]
+[move B X -1000]
+[moveline A B 1000 0 0.5]
+[-]
+[serif on]
+[say B]
+備後……！/
+[scale A 1]
+[move A Y 120]
+[moveline A B -1000 0 0.3]
+[face A 04]
+[say A]
+[hide B]
+嗚嗚嗚！如果發生這種情況
+備後！[shake A]　你們所有人……！ ！/
+[move A X -200 0.5]
+[show B L]
+[se walk_04]
+[show R L]
+[show S L]
+[face B 08]
+[face R 08]
+[face S 08]
+[setline 0.5 R B S 400 1100]
+[order B 3]
+[order R 1]
+[order S 0]
+[talk B]
+……綾卡西、卡夏！
+我、我不會再讓你繼續了！/
+[talkend]
+[face A 05]
+備中和部隊$R和其他地球靈魂男孩
+他拔出武器，面向火車。/
+[flow]
+[say B]
+石見！[shake B]　備後 和將軍們請！/
+[serif off]
+[show D C]
+[face D 05]
+[move D X 800]
+[move A X -800 0.5]
+[move B X -800 0.5]
+[move R X -800 0.5]
+[move S X -800 0.5]
+[move D X -800 0.5]
+[hide A]
+[hide B]
+[hide R]
+[hide S]
+[-]
+[minibg j01_suimen 0.5]
+[bg mbg_map]
+[serif on]
+[talk D]
+哦，嘿！ ？[shake D]
+哦，我做不到...[shake D][face D 09]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[effect fr splash 5000 0 100]
+[show C C]
+[show T C]
+[show U C]
+[face T 01]
+[face U 02]
+[move T XY -380 80]
+[move U XY -260 -20]
+[move C Y -100]
+[rotate T -40]
+[rotate U -40]
+[order C 3]
+[order T 1]
+[order U 0]
+[shake T]
+[shake U]
+[shake C]
+[talk C]
+[face C 10]
+[se water_07]
+[-]
+[serif on]
+古努努努努...
+我-石見...！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg black]
+[minibg emo_donyori]
+[-]
+[fadeout 0.5]
+[-]
+[show D C]
+[scale D 1.6]
+[move D Y -140]
+[face D 09]
+[talk D]
+[shake D]
+[-]
+[serif on]
+呃，呃…[wait 0.5]哦，嘿...[wait 0.5]
+餵，這只是金土啊……！[shake D]/
+[flow]
+我該怎麼辦.../
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm boss]
+[bg black]
+[minibg emo_ikari]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[effect fr fire b 0 0]
+[se fire_01]
+[face A 04]
+[serif on]
+這傢伙總是讓我煩惱...
+如果發生這種事，我也會認真的！ ！[face A 03]/
+[face A 02]
+[scale A 2 0.3]
+[effect bk waveout 5000 0 0]
+[move A Y -80 0.3]
+老虎！ ！[shake A]
+拜託！ ！ ！/
+[face A 09]
+@老虎
+喵！[shake A]/
+[serif off]
+[effect T love a 0 200]
+[shakebg]
+[show Y 0.3]
+[move Y XY 100 -50]
+[shake Y 1 5 5]
+[scale Y 1.1 0.2]
+[delay 0.3 move Y Y 100 1]
+[delay 0.8 hide Y 0.5]
+[se buff_01]
+[delay 0.8 show Z 0.3]
+[delay 0.8 orderline Z 26]
+[delay 0.8 scale Z 1.1 0.2]
+[delay 0.8 move Z X 100]
+[delay 0.8 shake Z 1 5 5]
+[delay 1 move Z Y 50 1]
+[delay 1.6 hide Z 0.5]
+[order T 1]
+[order Y 25]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[hide A]
+[se paper_03]
+[-]
+[show B]
+[show R]
+[show S]
+[setline R B S]
+[face B 05]
+[face R 05]
+[face S 05]
+[effect bk wavein 5000 0 0]
+[shakebg]
+[say B]
+[orderline B R S]
+[serif on]
+！ ！我肩膀上的貓...
+火車額頭上的符咒……！哦！ ！ ！ ？/
+[effect bk wavein 5000 0 0]
+[scale B 0.9 0.3]
+[scale R 0.9 0.3]
+[scale S 0.9 0.3]
+[shake R]
+[shake S]
+[shake B]
+[face R 03]
+[face B 04]
+精神力……！ ！還長得更大了……！ ！ ！[shake B]　
+不是每個人都能放鬆警戒的！/
+[face B 08]
+[face R 08]
+[face S 08]
+我會盡力的！ ！[shake B]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[effect fr fire b 0 0]
+[se fire_01]
+[quake 2]
+[light down]
+[lightcolor red]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[show X C 1.0]
+[scale X 4.0]
+[move X XY 1000 -1300]
+[delay 1 move X XY -1200 600 2]
+[effect fr syutyu a 0 0]
+[wait 2.0]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hide X]
+[-]
+[fadeout 0.5]
+[-]
+[shakebg]
+[show V C 1.0]
+[rotate V 10]
+[scale V 1.5]
+[move V XY 300 500]
+[move V XY -250 -450 5.0]
+[scale V 1.0 5]
+[autotap]/
+[talk V]
+[serif on]
+燃燒，燃燒，燃燒！ ！
+誰敢擋我的路，都將化為灰燼！/
+[flow]
+[shakebg]
+[se fire_01]
+這是工人的權利！
+現在我們來比賽吧！ ！/
+[serif off 0.5]
+[-]
+[wait 2]
+[fadein BLACK 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>15/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[set T s_m007_m 毛利軍の大将]
+[set U s_m007_m 尼子軍の大将]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set A s_a002_m 火車]
+[fadein black 0]
+[bgm off]
+[bg black]
+[-]
+[bgm action]
+[bg mbg_map 0.5]
+[minibg j01_suimen 0.5]
+[-]
+[autotap]/
+[fadeout 1.0]
+[wait 1.0]
+[se amb_07]
+[-]
+[show C C]
+[show T C]
+[show U C]
+[face T 01]
+[face U 02]
+[move T XY -480 80]
+[move U XY -360 -20]
+[move C Y -100]
+[rotate T -40]
+[rotate U -40]
+[face C 10]
+[order C 3]
+[order T 1]
+[order U 0]
+[shake T]
+[shake U]
+[-]
+[se water_07]
+[effect fr splash 5000 0 100]
+[talk C]
+[serif on 0.5]
+恩吉吉吉吉...
+（水流太快了……我感覺我的手都要扯下來了……）/
+[talkend]
+[se water_07]
+[shake T 3 8 8]
+[shake U 3 10 10]
+@將軍
+咕嚕咕嚕...
+阿巴巴波波波…/
+[face C 06]
+[talk C]
+（這些老傢伙比我還重要……！
+　我必須以某種方式把它拉起來......）/
+[face C 03]
+[shake C 3 5 5]
+[move T X 20 1.0]
+[move U X 20 1.0]
+恩啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！ ！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg sandou]
+[minibg off]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show D C]
+[move D X 150]
+[face D 05]
+[talk D]
+備後...！ ！/
+[face D 03]
+[talk D]
+[shake D]
+嘿嘿，堅持住！　
+如果你害怕的話就不會！/
+[move D X -20 1.0]
+[bg mbg_map 1.0]
+[minibg j01_suimen 1.0]
+[se water_05]
+[effect fr splash 5000 0 0]
+[talkend]
+石見Hazabu 將腳伸進河裡。
+札布又向前邁出了一步。/
+[face D 09]
+[se water_05]
+[move D X -50 1.0]
+[delay 1.0 move D X -50 1.0]
+札布…札布…札布…
+/
+河水比我想像的還要深，而且水流得很快。
+我整個人都被水淹沒了…/
+[talk D]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[-]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+哈哈……哈哈哈……哈哈……/
+[face D 05]
+[shake D]
+（我很害怕……我感覺我會被水壓沖倒……
+　如果跌倒的話，就會一下子被捲走……哇！ ？ ）[shake D]/
+[move D Y -50 0.3]
+[se water_07]
+[effect fr splash 5000 0 0]
+[hide D]
+[talkend]
+雖然我的腳滑倒了，失去了平衡，
+我立刻蹲下身子，用一隻手抓住了附近的一塊岩石。/
+[serif off]
+[show D C]
+[face D 09]
+[rotate D 20]
+[-]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[-]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[talk D]
+[-]
+[serif on]
+……！！！！！
+哈！ ！哈!哈! ！/
+[talkend]
+石見設法保持了他的姿勢。
+聽到咆哮的水聲，我感覺自己的心跳加快。/
+[shake D]
+只需幾個步驟即可備後。
+然而，石見的腿在顫抖。/
+[face D 04]
+[talk D]
+[shake D]
+[rotate D 15 1.0]
+[minibg emo_donyori 1.0]
+我、我不能再這樣了…[move D Y 10 0.4][delay 0.4 move D Y -10 1.0]
+B-備後……你不伸出你的手嗎…？/
+[hide D]
+[minibg j01_suimen 0.5]
+[talkend]
+石見 抬頭看到備後 抓著中洲的一塊岩石。[wait 0.5]
+然而備後並不在那裡。/
+[show D C]
+[scale D 1.5]
+[move D Y -100]
+[effect D syutyu a 0 200]
+[face D 05]
+[talk D]
+備後...！ ？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[effect off a]
+[bg sandou]
+[minibg off]
+[hideall]
+[-]
+[effect fr fire 5000 0 0]
+[light down]
+[lightcolor red]
+[fadeout 1.5]
+[-]
+[show A]
+[face A 01]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[serif on]
+這就是你們所謂的正義嗎.../
+[serif off]
+[show B]
+[show R]
+[show S]
+[setline R B S]
+[orderline B R S]
+[moveline R B S 1000 0 0]
+[moveline R B S A -1000 0 0.5]
+[face B 08]
+[face R 08]
+[face S 04]
+[say B]
+[-]
+[serif on]
+該死的……！[shake B]　強……！/
+[flow]
+[face B 03]
+毫無疑問！那個精神力的來源…
+靈種的反應…！ ！/
+[setline 0.5 A R B S]
+[orderline A B R S]
+[scale A 0.8 0.5]
+[scale R 0.8 0.5]
+[scale B 0.8 0.5]
+[scale S 0.8 0.5]
+[face A 02]
+[say A]
+正如我所說，我不想輸！
+我會得到更多的力量！/
+[flow]
+[effect fr fire 5000 0 0]
+[se fire_01]
+我感覺我可以戰鬥24小時！ ！/
+[shakebg]
+[color A talk]
+@石見的聲音
+備後ーー！ ！ ！/
+[face A 05]
+[fae B 05]
+[face R 05]
+[effect off b]
+[face S 05]
+[talkend]
+@卡夏・備中
+！？/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[light off]
+[hideall]
+[bg mbg_map]
+[minibg j01_suimen]
+[-]
+[fadeout 0.5]
+[effect off a]
+[-]
+[serif on]
+[-]
+[show C C]
+[show T C]
+[show U C]
+[move T XY -480 80]
+[move U XY -360 -20]
+[move C Y -200]
+[rotate T -40]
+[rotate U -40]
+[face C 10]
+[order C 3]
+[order T 1]
+[order U 0]
+[shake T]
+[shake U]
+[face C 10]
+[effect fr splash 5000 0 150]
+[shake C 3 10 10]
+[talk C]
+咕嚕咕嚕...
+（我的手滑了下來…[wait 0.5]我甚至把臉都沾滿了水！ ）/
+[face C 06]
+[waku on 0.5]
+[move C X -50 0.2]
+（呃……這不可能……！！）[shake C]/
+[fadein WHITE 0.2]
+[hideall]
+[se cloth_06]
+[waku off]
+[delay 0.2 fadeout 0.4]
+[delay 0.3 shakebg]
+[talkend]
+[se water_03]
+[effect fr splash 5000 0 0]
+割傷！ ！ ！/
+[show D C]
+[move D Y -100]
+[face D 08]
+[talk D]
+[effect fr splash 5000 0 0]
+我抓住了！ ！ ！
+/
+[show C C]
+[move C XY -200 -200]
+[move C Y 50 1.0]
+[shake D 5]
+[face C 05]
+[effect fr splash 5000 0 0]
+[talk C]
+我-石見！ ！ ！/
+[hide C]
+[hide D]
+[talkend]
+石見跳入水中，
+我拼命抓住備後的手。/
+我的另一隻手緊緊抓住中洲的岩石，
+用手臂的力量拉備後。/
+[show D C]
+[scale D 1.5]
+[move D Y -250]
+[effect fr splash 5000 0 0]
+[face D 08]
+[talk D]
+[quake 1]
+我現在就給你！
+堅持住！/
+[waku on 0.5]
+[face D 09]
+（但是…在這個流程中，這個人數…
+　我們是唯一擁有力量的人...）/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[waku off]
+[hideall]
+[-]
+[fadeout 0.5]
+[effect off a]
+[-]
+[show C C]
+[show T C]
+[show U C]
+[move T XY -480 80]
+[move U XY -360 -20]
+[move C Y -200]
+[rotate T -40]
+[rotate U -40]
+[face C 10]
+[order C 3]
+[order T 1]
+[order U 0]
+[shake T]
+[shake U]
+[face C 08]
+[effect fr splash 5000 0 150]
+[shake C 3 10 10]
+[talk C]
+[-]
+[serif on]
+...石見！
+問問這些人吧！/
+[talkend]
+[color C talk]
+@將軍
+嘿嘿！[shake U][shake T]　請快點拉我起來吧！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[effect off a]
+[-]
+[show D C]
+[scale D 1.5]
+[move D Y -250]
+[effect fr splash 5000 0 0]
+[face D 05]
+[talk D]
+[serif on]
+備後！ ？好吧，等等！/
+[hide D]
+[-]
+[se amb_07]
+[show C]
+[face C 00]
+[scale C 1.6]
+[rotate C 5]
+[move C Y -240]
+[say C]
+石見。我很高興我來執行這個任務！
+看起來有點幫助......！/
+[hide C]
+[-]
+[show D C]
+[scale D 1.5]
+[move D Y -250]
+[effect fr splash 5000 0 0]
+[face D 05]
+[talk D]
+備後……！ ！
+等等...！[shake D]/
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[hide D 0.3]
+[bgm off]
+[talkend]
+[quake off]
+[se cloth_06]
+[se water_07]
+[effect fr splash 5000 0 0]
+備後 握石見 的手，
+我向渾水投降了。/
+[effect fr syutyu a 0 0]
+[show A]
+[face A 14]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[quake 2]
+[effect bk wavein 5000 0 0]
+[say A]
+啊啊啊啊啊啊啊啊啊！ ！ ！ ！/
+[serif off]
+[move A Y 300 0.1]
+[delay 0.1 move A Y -500 0.2]
+[delay 0.1 effect fr splash 5000 0 0]
+[delay 0.1 se water_03]
+[delay 0.2 hide A]
+[delay 0.2 shakebg]
+[-]
+[autotap]/
+[light def]
+[lightcolor blue]
+[waku on 0.5]
+[show C]
+[face C 05]
+[rotate C 20]
+[shake C]
+[-]
+[serif on]
+咕嚕咕嚕的。
+（火車……！？）/
+[show A L]
+[scale A 1.6]
+[move A Y -120]
+[rotate A -25]
+[shake A]
+[face A 08]
+[say A]
+[orderline A C]
+[move C X 200 0.5]
+[move A X 50 1]
+（啊哈，請伸出你的手！）/
+[scale C 1.4 0.5]
+[face C 10]
+[say C]
+[move C Y -150 0.5]
+[move A X 60 0.5]
+[face A 12]
+[rotate A 5 0.5]
+[rotate C 10 0.5]
+[delay 0.5 shake C]
+（……！）/
+[face C 02]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm off]
+[waku off]
+[quake off]
+[se water_03]
+[hideall]
+[bg sandou]
+[minibg off]
+[light off]
+[effect off a]
+[wait 0.5]
+[-]
+[fadeout 1.5]
+[-]
+[talkend]
+[se water_05]
+[serif on 0.5]
+…………
+………………/
+[show C]
+[show A]
+[face C 06]
+[face A 04]
+[setline A C]
+[orderline A C]
+[rotate A -25]
+[rotate C -10]
+[move C Y -10 0.2]
+[delay 0.2 move C Y 10 0.2]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.2]
+[autotap]/
+[say C]
+哈哈哈哈…
+火車……謝謝你幫我。[face C 02]/
+[scale C 1.6 0.3]
+[scale A 1.6 0.3]
+[moveline A C 0 -120 0.3]
+[rotate A 0 0.4]
+[rotate C 0 0.5]
+[face A 14]
+[say A]
+[bgm fun]
+……你真是個白痴！
+有沒有人把自己拋棄了？/
+[say C]
+[face C 10]
+那麼……這是唯一的辦法了
+是不是在.../
+[shake A]
+[say A]
+[face A 13]
+哈，你們到底是什麼人？
+你們不是比較黑嗎？/
+[hideall]
+[-]
+[show B]
+[show R]
+[setline R B]
+[face B 05]
+[face R 05]
+[move B X -800]
+[move R X -700]
+[move B X 800 0.3]
+[move R X 700 0.4]
+[se walk_04]
+[say B]
+備後ー！ ！ ！[shake B]/
+[show C R]
+[show A R]
+[setline 0.5 R B A C]
+[orderline A B C R]
+[move A X -150]
+[face A 01]
+[face C 00]
+[shake A]
+[say A]
+....嘆...我完成了。[rotate A -50 0.5][move A Y -50 0.5][delay 0.5 se dosa_01][delay 0.5 shakebg]
+輸還是輸。 備後我用盡了我所有的力量來幫助你。/
+[flow]
+[face B 00]
+[face R 01]
+[face A 02]
+不知道為什麼，那些老人已經
+如果你喜歡就好了。/
+[say C]
+[face C 01]
+火車.../
+[face B 01]
+[say B]
+我很高興你改變了主意。
+現在……嗯？[face B 08]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]/
+[say C]
+[face R 08]
+[face C 11]
+啊？怎麼了，兄弟？/
+[say B]
+[face B 03]
+不……那個……從火車上
+有靈種的反應…/
+[flow]
+[face R 05]
+[face B 06]
+果然，不被回收的話任務就無法完成……？/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[say C]
+[face C 08]
+事實肯定不是這樣的。
+……嗯？[face C 11]　怎麼了.../
+[rotate A 0 0.5]
+[move A Y 50 0.5]
+[say A]
+[face A 00]
+？你們在說什麼？/
+[scale A 1.6 0.5]
+[scale C 1.6 0.5]
+[scale B 1.6 0.5]
+[scale R 1.6 0.5]
+[say C]
+[moveline A C B R -200 -140 0.5]
+[move A X 50 0.5]
+[move C X 200 0.5]
+[effect fr syutyu a 0 0]
+[face C 08]
+[face A 05]
+[face B 05]
+[face R 05]
+[bgm off]
+火車！對不起！/
+[effect fr slash 5000 0 0]
+[hide B]
+[hide R]
+[hide C]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.1]
+[-]
+[effect off a]
+[face A 05]
+[effect fr katana 3000]
+[se doka_01]
+[shakebg]
+[talk A]
+哇！ ！ ！ ！[shake A]/
+[talkend]
+[color A talk]
+[bg black 1.0]
+[se amb_02]
+[autotap]/
+[serif off]
+[-]
+[effect fr kudake f 0 0]
+[hide A 1.0]
+[delay 0.8 se reisyukudake_01]
+[delay 0.8 effect fr waveout 2000 0 0]
+[wait 1]
+[-]
+[effect fr kieru a 0 0]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[bg sandou 1.0]
+[autotap]/
+[show C]
+[face C 10]
+[say C]
+[bgm fun]
+[serif off]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[-]
+[serif on]
+哦，我從 *MAIN 學習並嘗試擊中它......
+靈種真的隕落了…/
+[show A L]
+[setline 0.3 A C]
+[orderline A C]
+[face A 03]
+[face C 06]
+[say A]
+我、有沒有人突然對救了自己一命的人拳打腳踢？ ？/
+[flow]
+[face A 13]
+我和那個危險的傢伙
+我想知道我們是否可以增進友誼.../
+[hide A]
+[show B C]
+[show R C]
+[face B 08]
+[face R 08]
+[setline R B]
+[moveline R B -600 0 0]
+[moveline R B A C 600 0 1]
+[moveline A C 200 0 1]
+[talk B]
+[move B Y -10 0.2]
+[delay 0.2 move B Y 10 0.2]
+[-]
+[move B Y -10 0.2]
+[delay 0.2 move B Y 10 0.2]
+[se cloth_02]
+無論如何，有了這個，靈種就是
+安全.../
+[hideall]
+[se cloth_01]
+[talkend]
+備中將靈種包裹在符咒中，放入基比丹戈袋中。/
+[show D]
+[show S]
+[setline S D]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[delay 0.4 move D Y -10 0.2]
+[delay 0.6 move D Y 10 0.2]
+[autotap]/
+[say D]
+[face D 09]
+[face S 01]
+嘆息……嘆息……
+看來這件事圓滿結束了…/
+[serif off]
+[show C]
+[show B]
+[show R]
+[show A]
+[setline R B A C]
+[face A 04]
+[face B 00]
+[face C 09]
+[face R 00]
+[orderline A B C R]
+[moveline A B C R -1000 0 0]
+[moveline A B C R D S 1000 0 1]
+[say C]
+[-]
+[serif on]
+噢石見也累了！/
+[hide A]
+[setline 0.5 R B C D S]
+[orderline B D C R S]
+[face B 01]
+[face D 00]
+[face C 00]
+[talk B]
+很好。這個歷史覺醒領域現在已經解決了。
+任務順利完成……對了！/
+[serif off]
+[hide R]
+[hide S]
+[color B talk]
+[-]
+[move B X 800 1]
+[move D X 800 1]
+[move C X 800 1]
+[show T C]
+[show U C]
+[setline 0 T U]
+[move T X -800]
+[move U X -800]
+[move T X 800 1]
+[move U X 800 1]
+[face T 00]
+[face U 00]
+[talk U]
+[move U Y 10 0.4]
+[delay 0.4 move U Y -10 1.0]
+[-]
+[serif on]
+好吧……如果我看到這樣的事情，我就會陷入戰爭。
+真是越來越可笑了毛裡的。/
+[move T Y 10 0.1]
+[delay 0.1 move T Y -10 0.2]
+[delay 0.3 move T Y 10 0.1]
+[delay 0.4 move T Y -10 0.2]
+[delay 0.6 move T Y 10 0.1]
+[delay 0.7 move T Y -10 0.3]
+[autotap]/
+[say T]
+一點也不。雨子大人！　
+我簡直不敢相信我有這樣的經驗。哈哈哈。/
+[show A R]
+[move A X 500]
+[move A X -450 1.0]
+[face A 10]
+[orderline A T U B D C]
+[talk A]
+……我們真是好朋友。/
+[serif off]
+[move B X -800 1.0]
+[move D X -800 1.0]
+[move C X -800 1.0]
+[move A X -850 1.0]
+[move T X -800 1.0]
+[move U X -800 1.0]
+[face B 01]
+[face C 00]
+[face D 02]
+[say D]
+[-]
+[hide A]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.2]
+[delay 0.3 move D Y 10 0.1]
+[delay 0.4 move D Y -10 0.2]
+[delay 0.6 move D Y 10 0.1]
+[delay 0.7 move D Y -10 0.3]
+[autotap]/
+[hide T]
+[hide U]
+[serif on]
+哈哈哈那太好了...[wait 0.5][move D Y 10 0.1][delay 0.1 move D Y -10 0.1]
+啊？[face D 08][wait 0.5]　如果我們成為朋友並且停止爭吵.../
+[talkend]
+[bgm off]
+[se pi_01]
+嘟嘟！ ！[shakebg]
+札札.../
+[talkend]
+[textcolor blue]
+@？？？
+....這裡，指揮室...我聽得到你的聲音！ ？/
+[face C 02]
+[say C]
+[move C Y 100 0.1]
+[delay 0.1 move C Y -100 0.2]
+是夏鬥的聲音！
+附近一定有靈洞…！/
+[face B 08]
+[face C 11]
+[talkend]
+[textcolor blue]
+@夏人的聲音
+歷史...[wait 0.5]修改...手指[wait 0.5]數量...
+迅速上升...[wait 0.5]嗯……你們兩個……[wait 0.5]讓我……！/
+[face D 09]
+[say D]
+[shake D]
+你要說什麼？/
+[talkend]
+[textsize 40]
+[textcolor blue]
+@夏人的聲音
+那兩位將軍...[wait 0.5]
+我們之間有裂痕……讓我……！ ！ ！/
+[face B 05]
+[face C 05]
+[face D 05]
+[shakebg]
+[efet fr syutyu a 0 100]
+[bgm departure]
+！！！/
+[face B 04]
+[talk B]
+[shake B]
+耶！有這樣的指揮官！ ？/
+[show A L]
+[move A X -150]
+[setline 0.5 C B D 300 1050]
+[face C 03]
+[say C]
+[face A 05]
+火車！　[shakebg]這是你的責任！
+做點什麼吧！/
+[face D 03]
+[say D]
+哦，原來如此！
+我不想讓他們兩個打架！/
+[face A 13]
+[say A]
+呃呃……那是什麼……[wait 0.5]這是不合理的。
+呃……我不知道……/
+[move A C 0.5]
+[hide B]
+[hide C]
+[hide D]
+[face A 10]
+嘿你們.../
+[move A R 0.5]
+[show T C]
+[show U C]
+[setline 0 T U 0 500]
+[talk U]
+[shake U]
+嗯，搞什麼啊！ ？/
+[talk T]
+[shake T 2 5 5]
+很可能你就輸了！/
+[talk A]
+[bg black 1.0]
+[miibg emo_donyori 1.0]
+[move A X -100 1.0]
+[move T X -50 1.0]
+[move U X -50 1.0]
+嗯…我想這次我錯過了…
+總有一天，我會去接回你們的靈魂。/
+[face A 01]
+[minibg emo_ikari 1.0]
+那時我想被丟進地獄
+我希望它不在那裡.../
+[face A 15]
+[move T -500 0.3]
+[move U -500 0.3]
+[hide T]
+[hide U]
+[effect fr fire b 0 0]
+[se fire_01]
+[scale A 1.5 0.3]
+[move A XY -150 -50 0.3]
+[effect A syutyu a 0 100]
+[shakebg]
+[textsize 40]
+迅速返回營地
+讓我們開始繼續戰爭吧！ ！/
+[hide A]
+[effect off a]
+[talkend]
+[show T]
+[show U]
+[setline 0 T U]
+[shake T 5 10 10]
+[shake U 5 10 10]
+@將軍
+嘿嘿！ ！ ！/
+[hideall]
+[minibg off 0.5]
+[talkend]
+雙方將領趕忙就位。
+他回去了。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>16/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set A s_a002_m 火車]
+[set T s_m006_m 渡守]
+[set Y s_obj_like イイネ]
+[set Z s_obj_likepoint イイネ]
+[fadein black 0]
+[bgm off]
+[bg black]
+[-]
+[fadeout]
+[-]
+[title エピローグ 有給消化するで！]
+[-]
+[fadein]
+[-]
+[bg sandou]
+[-]
+[fadeout]
+[-]
+[bgm ascending]
+[show B C]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[scale B 0.8]
+[scale C 0.8]
+[scale D 0.8]
+[scale R 0.8]
+[scale S 0.8]
+[face B 00]
+[face C 00]
+[face D 00]
+[face R 00]
+[face S 00]
+[setline 0 R C B D S]
+[move B Y 40]
+[move C Y 40]
+[move D Y 40]
+[move R Y 40]
+[move S Y 40]
+[order R 0]
+[order S 0]
+[order D 1]
+[order C 1]
+[order B 2]
+[-]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[-]
+[serif on 0.5]
+[say B]
+好了，既然回到了靈洞，我們就開始交流吧。/
+[talkend]
+[se pi_01]
+[textcolor blue]
+@夏人的聲音
+這是指揮室。先感謝您。
+歷史變更指數已安全恢復至正常值！/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 01]
+[say C]
+就在最後一刻！/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 01]
+[say D]
+是的。但對我們來說，我確信
+我希望我能夠認識到危機並應對它。/
+[hide B]
+[hide C]
+[hide D]
+[hide R]
+[hide S]
+[talkend]
+[se pi_01]
+[textcolor blue]
+@夏人的聲音
+我將開始派遣地球的靈魂。
+不要離開那個位置。/
+[serif off]
+[show B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[face B 04]
+[say B]
+[-]
+[serif on]
+嘆息.../
+[show D]
+[setline 0.5 B D]
+[say D]
+[face D 00]
+發生了什麼事，備中。看著我。使命也
+你不覺得他很高興一切順利結束嗎？/
+[say B]
+[face B 08]
+是啊...[wait 0.5]我想知道我是否能夠向您展示好的部分...
+當我回想起來時，[shake B][face B 04]或許，這根本就不是一件好事…/
+[say D]
+[face D 02]
+沒錯！
+希望主看見備中的辛苦！/
+[face D 06]
+但是，好吧，我真的不在乎。
+不過我也這麼認為。/
+[face D 00]
+無人能取代*MAIN
+您無法替換備中。/
+[face D 01]
+備中 與 備後 不同
+我想我們不一樣/
+[face B 02]
+[say B]
+石見…/
+[show C L]
+[setline 0.5 C B D]
+[face C 11]
+[say C]
+[order B 5]
+[order C 0]
+……你在說什麼？
+我和哥哥不同是很自然的。/
+[say D]
+[face D 06]
+我說的不是這個…/
+[say B]
+[face B 00]
+……沒錯。也許我不必擔心...
+我想盡我所能，做我能做的事。/
+[say D]
+[face D 02]
+我也這麼認為。/
+[serif off]
+[hide B]
+[hide D]
+[-]
+[bgm relationship]
+[move C C 1.0]
+[face C 11]
+[talk C]
+[-]
+[serif on]
+……/
+[face C 06]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+啊，就是這樣，兄弟。/
+[show B C]
+[face B 00]
+[setline 0.5 C B]
+[talk B]
+圖片？發生了什麼事？　備後。/
+[face C 10]
+[say C]
+我不能早點說，但是…[wait 0.5]
+我認為這很糟糕...[move C Y 10 0.4][delay 0.4 move C Y -10 1.0]/
+[face C 06]
+[shake C]
+哥哥告訴我，我是個白痴，我的策略漏洞百出。
+我說的.../
+[face B 01]
+[talk B]
+備後…/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 04]
+[say C]
+我確信你的兄弟不是什麼好東西。
+我以為你會受傷...[wait 0.5]鷹.../
+[face B 02]
+[talk B]
+沒關係，備後。
+他是個可愛的小弟弟。我不在乎。/
+[face C 09]
+[say C]
+[move C Y 100 0.1]
+[delay 0.1 move C Y -100 0.2]
+哦，真的！ ？/
+[face B 06]
+[say B]
+還有...
+……那個……/
+[serif off]
+[show D]
+[face D 00]
+[face D 01]
+[show R]
+[show S]
+[setline S D R]
+[ordrline D S R]
+[moveline S D R 1000 0 0]
+[moveline S D R C B -1000 0 1]
+[face R 01]
+[face S 01]
+[wait 1]
+[face B 00]
+[moveline S D R C B 1000 0 1]
+[-]
+[autotap]/
+[face B 01]
+[hide R]
+[hide S]
+[hide D]
+[serif on 0.5]
+...備後。對不起。/
+[flow]
+[face B 04]
+備後正在盡最大努力成為備後
+我根本沒注意到.../
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[face C 09]
+[say C]
+嗯，完全沒問題！/
+[se zukkoke_02]
+[say B]
+[face B 05]
+哈！ ？[shaek B]
+不太輕！ ？/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 11]
+[say C]
+嗯，大哥也不是什麼好東西。
+如果你太過怪我，我會對不起你的！/
+[face C 02]
+[face B 03]
+[flow]
+最好不要太擔心！
+如果我哥哥禿頭了，我這個弟弟就會有麻煩。/
+[show D]
+[show R L]
+[show S R]
+[setline 0.5 R C B D S]
+[orderline B D C R S]
+[face D 01]
+[face R 02]
+[face S 02]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.2]
+[delay 0.3 move D Y 10 0.1]
+[delay 0.4 move D Y -10 0.2]
+[delay 0.6 move D Y 10 0.1]
+[delay 0.7 move D Y -10 0.3]
+[autotap]/
+[say D]
+啊哈哈。看來我們可以和好
+比什麼都重要。/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[say B]
+[face B 06]
+備後的切換速度令人驚訝…/
+[face B 00]
+[talk B]
+[face C 00]
+[face D 05]
+石見也不怎麼喜歡水。
+但我克服了困難並幫助了將軍們。太棒了。/
+[face D 09]
+[say D]
+[shake D]
+……我根本沒能克服……！ ！
+啊，那一刻，我從中間被迷住了…[move D Y 10 0.4][delay 0.4 move D Y -10 1.0]/
+[shake D 3 10 10]
+哦，剛剛想起來...
+啊我的腿啊啊啊啊[move D Y -100 1.0]/
+[face B 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.2]
+[delay 0.3 move B Y 10 0.1]
+[delay 0.4 move B Y -10 0.2]
+[delay 0.6 move B Y 10 0.1]
+[delay 0.7 move B Y -10 0.3]
+[autotap]/
+[face B 01]
+[talk B]
+啊哈哈哈！[effect fr kiesou a]
+啊，靈性傳送開始了…[move D Y 100 0.5]/
+<bin>
+[face C 02]
+[say C]
+那麼好吧！很有趣！
+我要老公趕緊稱讚我！/
+<bin>
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[face C 09]
+沒錯！當你回家時禦好燒
+期待烘烤它！/
+<-bin>
+[face C 01]
+[say C]
+這次我和我的兄弟還有石見一起來執行任務。
+那很好。啊，$R:C太刀！/
+<-bin>
+[flow]
+[face C 02]
+希望我們能再次一起去執行任務。
+嗯，我會耐心等待。/
+<iwm>
+[say D]
+[face D 01]
+我也跟著這個團來到了石見國家。
+我認為這很好。/
+<iwm>
+[face D 02]
+[flow]
+我希望我能在這裡和那裡多一點時間。
+我會帶你四處看看，但也許下次吧。/
+<-iwm>
+[say D]
+[face D 00]
+和大家一起的使命，我們也很了不起
+很有趣。看到結局我很難過.../
+<-iwm>
+[flow]
+[face D 01]
+如果還有下次的話...
+我挖了更多的坑。[shake D]/
+<bic>
+[say B]
+[face B 08]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+……這次我充滿了失敗。
+我可能不太可靠，但是…/
+<bic>
+[flow]
+[face B 01]
+下次跟大家一起出任務的時候，好好反思這次。
+我一定會好好利用它的！/
+<-bic>
+[say B]
+[face B 06]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+呼，不管怎樣，任務已經完成了。
+有很多值得反思的地方，但是.../
+<-bic>
+[face B 02]
+[flow]
+我希望很快就能在莊園見到大家。
+這次非常感謝。每個人。/
+[face B 01]
+[say B]
+感謝全體官兵的辛苦付出！
+到時候見！/
+[face C 09]
+[say C]
+再見！ ！/
+[se amb_02]
+[effect fr kieru b]
+[delay 1.0 fadein WHITE 1.0]
+[delay 1.0 serif off 1.0]
+[-]
+[effect off a]
+[effect off b]
+[hideall]
+[-]
+[fadeout 0.5]
+[wait 1.5]
+[-]
+[bgm off]
+[bg sky_day 2.0]
+[se amb_13]
+[wait 2.5]
+[bg black 1.0]
+[delay 1.0 minibg a002_sanzu 1.0]
+[-]
+[wait 1.0]
+[-]
+[bgm fun]
+[show A C]
+[face A 04]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[talk A]
+[-]
+[serif on]
+嘿嘿嘿…最後，Gyo桑死了…
+我被迫如此努力.../
+[face A 00]
+[waku on 0.5]
+（不過，那些地魂小子也…
+　我在許多不同的時代工作過......）/
+[face A 01]
+（也許是因為我能夠發狂並釋放壓力。
+　我最近經常醒來。我精力充沛）/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+（備後…[wait 0.2]對他們來說也一定很難。
+　我也會再努力的！ ）/
+[show T R]
+[move T X 300]
+[waku off 0.5]
+[face A 00]
+[setline 0.5 A T]
+[talk T]
+[name T 渡守長]
+啊，卡夏君。
+事實上，有組織工作作風改革的推動…/
+[flow]
+您已經連續工作數千天了嗎？
+每天的工作時間似乎超過了.../
+[flow]
+我想知道我是否可以得到一段時間的報酬！[shake T]/
+[shake A]
+[talk A]
+[face A 05]
+嗯，休息一下，好嗎？ ？/
+[move T Y 5 0.2]
+[delay 0.2 move T Y -10 0.6]
+[delay 0.8 move T Y 5 0.5]
+[autotap]/
+[talk T]
+是啊是啊。我目前正在審視我的工作環境。
+我想從此以後工作會更輕鬆！/
+[serif off]
+[effect T love a 0 200]
+[shakebg]
+[show Y 0.3]
+[move Y XY 100 -50]
+[shake Y 1 5 5]
+[scale Y 1.1 0.2]
+[delay 0.3 move Y Y 100 1]
+[delay 0.8 hide Y 0.5]
+[se buff_01]
+[delay 0.8 show Z 0.3]
+[delay 0.8 orderline Z 26]
+[delay 0.8 scale Z 1.1 0.2]
+[delay 0.8 move Z X 100]
+[delay 0.8 shake Z 1 5 5]
+[delay 1 move Z Y 50 1]
+[delay 1.6 hide Z 0.5]
+[order T 1]
+[order Y 25]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[hide T]
+[move A C 0.5]
+[face A 01]
+[talk A]
+[serif on]
+[effect off a]
+嘿，妥拉，你為什麼不相信我的話呢？
+我們倆都休息一下吧！/
+[face A 09]
+@老虎
+喵。/
+[face A 02]
+[effect A kira a 0 100]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+我已經很久沒有休息了！我該怎麼辦？老虎！
+不知道為什麼，我卻很興奮！[move A X -50 0.1][delay 0.1 move A X 100 0.2][delay 0.3 move A X -100 0.2][delay 0.5 move A X 50 0.1]/
+[show T L]
+[face A 00]
+[setline 0.5 T A]
+[effect off a]
+[talk T]
+[effect off a]
+[name T 渡守]
+卡沙先生。好久不見。
+我決定回去工作。/
+[face A 02]
+[talk A]
+[shake A]
+哦！ ？我聽說你剛辭職是因為你覺得不舒服！
+現在你的身體還好嗎？我很擔心！/
+[say T]
+是的。不知何故。
+很高興能再次與火車合作！/
+[serif off]
+[effect T love a 0 200]
+[shakebg]
+[show Y 0.3]
+[move Y XY -100 -50]
+[shake Y 1 5 5]
+[scale Y 1.1 0.2]
+[delay 0.3 move Y Y 100 1]
+[delay 0.8 hide Y 0.5]
+[se buff_01]
+[delay 0.8 show Z 0.3]
+[delay 0.8 orderline Z 26]
+[delay 0.8 scale Z 1.1 0.2]
+[delay 0.8 move Z X -100]
+[delay 0.8 shake Z 1 5 5]
+[delay 1 move Z Y 50 1]
+[delay 1.6 hide Z 0.5]
+[order T 1]
+[order Y 25]
+[-]
+[wait 1]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[talk A]
+[face A 01]
+[serif on]
+[effect off a]
+嗯，生活並沒有那麼艱難...
+有時候我很高興。/
+[say T]
+您讀過新的商業規則嗎？
+似乎很多事情都會改變。/
+[talk A]
+[face A 02]
+[move A X -150 0.3]
+[se paper_01]
+哦！我還沒看到呢！哪一個...
+/
+[face A 05]
+「我的工作時間減少一半了！」真的嗎！[shakebg][se taiko_01]
+「我給你加班費！！」認真！ ？[shakebg][se taiko_01]/
+[se paper_01]
+[face A 04]
+啊？
+相反.../
+[shake A]
+[face A 05]
+[effect A syutyu a 0 100]
+基本工資要下降很多！ ！ ！ ！ ？[shake A][se taiko_02]
+如果你想賺到和以前一樣多的錢.../
+[shakebg]
+[shake A 3 10 10]
+我必須加班很多
+你沒感覺到嗎？ ？[se zukkoke_02]/
+[move T Y 5 0.2]
+[delay 0.2 move T Y -10 0.6]
+[delay 0.8 move T Y 5 0.5]
+[autotap]/
+[say T]
+[effect off a]
+沒錯.../
+[serif off]
+[hide T]
+[talk A]
+[-]
+[move A C 1.0]
+[-]
+[serif on]
+[face A 00]
+像這樣……像這樣……/
+[face A 04]
+[talk A]
+畢竟……畢竟……[scale A 2.0 0.3][move A Y -100 0.3][-][face A 15][effect fr syutyu a 0 100]
+黑色！ ！ ！[shake A][-][effect off a][effect fr syutyu b 0 400][shakebg][minibg off 0.3][bg sky_sunset 0.5][scale A 2.5 0.3][move A Y -1000 0.5][delay 0.5 fadein WHITE 1.0]/
+[serif off 1.0]
+[effect off b]
+[light off]
+[-]
+[minibg off]
+[cg loading_r004]
+[wait 1.0]
+[-]
+[fadeout 1.5]
+[-]
+[light off 2]
+[wait 3]
+[-]
+[autotap]/
+[serif off 2.0]
+[-]
+[wait 2.0]
+[effect off b]
+[effect off a]
+[-]
+[fadein black 2.0]
+[-]
+[wait 1.0]
+[-]
+[bgm off]
+[-]
+[autotap]

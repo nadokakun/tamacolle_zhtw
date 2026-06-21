@@ -1,0 +1,4126 @@
+>>0/
+[set A s_a002_m 火車]
+[set B s_a002_m 火車]
+[set T s_m002_m 死人]
+[set U s_m002_m 魂]
+[fadein black 0]
+[bgm off]
+[-]
+[bg black]
+[minibg emo_donyori]
+[-]
+[bgm departure]
+[fadeout 1.0]
+[-]
+[talk A]
+[show A C]
+[face A 10]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[serif on 0.5]
+はぁ……はぁ……オレか……
+オレのせいなんか、これ……/
+[face A 13]
+[shake A]
+何であんなにオレが怒られるねん……[move A Y -30 0.2]こんなん……[move A Y -30 0.2]
+こんなん、絶対間違っとる……！！！/
+[shake A]
+この仕事……[scale A 2.0 0.3][move A Y -100 0.3][-][face A 15][effect fr syutyu a 0 100]
+完全ブラックやないかぁああああーーーーー！！！[shake A][-][effect off a][effect fr syutyu b 0 400][shakebg][minibg off 0.3][bg sky_sunset 0.5][scale A 2.5 0.3][move A Y -1000 0.5][delay 0.5 fadein WHITE 1.0]/
+[serif off 1.0]
+[-]
+[bgm off]
+[title プロローグ 社畜として生きる]
+[-]
+[effect off b]
+[hideall]
+[-]
+[bg mbg_map]
+[minibg sky_day]
+[fadeout 0.5]
+[bgm journey]
+[-]
+[serif on]
+[talkend]
+[textcolor BLUE]
+昔々のこと。
+オレはフレッシュで仕事をバリバリ頑張っとった。/
+[show B L]
+[color B BLACK]
+[move B C 1.0]
+[textcolor BLUE]
+今日は100人の魂を運んだ。
+死んだ人間の魂を運ぶ。[wait 0.5]それがオレの仕事や。/
+[show A C]
+[order A 1]
+[order B 0]
+[face A 11]
+[-]
+[hide B]
+[-]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ふぅー……しかし最近はえらい忙しいで……/
+[face A 11]
+[talkend]
+[textcolor BLUE]
+なんや聞いた話では大きな戦が起きているらしい。
+あまりにも死者が多い。/
+[face A 12]
+[move A X 300 0.5]
+[textcolor BLUE]
+あっちへ行ったり、こっちへ行ったり。[move A X -500 0.8]
+そらもう大変や。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[serif off]
+[show T L]
+[rotate T -90]
+[move T XY -500 -100]
+[-]
+[order A 0]
+[order T 1]
+[move A X 500 0.5]
+[move T X 500 0.5]
+[-]
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[textcolor BLUE]
+そもそも死人から魂を抜くんは職人技や。/
+[move A X -250 0.5]
+[move T X 200 0.5]
+[-]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[-]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.3]
+[-]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[textcolor BLUE]
+まずは確実にその人間が死んどる、ちゅーことを
+確認する。/
+[face A 02]
+[se paper_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[textcolor BLUE]
+そして手元の閻魔帳にその人間の名前があるかを
+確認する。[wait 0.3]ヨシ！/
+[face A 01]
+[move A Y -50 0.2]
+[wait 0.3]
+[-]
+[move A Y 150 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move T Y 400 0.3]
+[rotate T -40 0.3]
+[delay 0.3 move T Y -350 0.2]
+[move T X 200 0.5]
+[delay 0.4 rotate T -100 0.1]
+[order A 1]
+[order T 0]
+[-]
+[shakebg]
+[rotate T -90 0.1]
+[se dosa_01]
+[textcolor BLUE]
+間違いがなければ、死体を荷車に乗せて、
+延々と三途の川まで歩いていくわけや。[se zuru_01][move A X -200 1.0][delay 1.2 move A X -200 1.0][delay 1.5 hide A][delay 1.5 hide T][delay 0.2 move T X -200 1.0][delay 1.4 move T X -200 1.0]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[show A C]
+[show T C]
+[face A 00]
+[order A 1]
+[order T 0]
+[rotate T -90]
+[move T Y -100]
+[move A X -50]
+[-]
+[se cloth_01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[-]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.3]
+[-]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+[textcolor BLUE]
+ほんで、三途の川の入り口に来たら
+死体の身体に紐を結びつけるやろ。/
+[move A X 400 0.5]
+[rotate T -60 0.5]
+[-]
+[order A 0]
+[order T 1]
+[move A X -100 0.2]
+[-]
+[delay 0.2 move A X -20 0.5]
+[delay 0.5 rotate A -20 0.2]
+[-]
+[shake A]
+[shake T]
+[face A 01]
+[textcolor BLUE]
+んで、死体の頭を、つかみ……
+ぐぐぐぐっとひっぱる……[move A X 10 1.0][rotate A -40 0.5]もっと引っ張る……[shake A 3 5 1][shake T]/
+[textcolor BLUE]
+このとき、足は死体の肩に乗せて、踏ん張る。
+目のトコをぐっと掴むんがコツや。/
+[move A X -200 0.5]
+[move T X -200 0.5]
+[rotate A -10 0.5]
+[effect A syutyu a 100 0]
+[face A 03]
+[say A]
+いくでぇええー！！/
+[move T X -800 0.5]
+[rotate T 30 0.5]
+[move A X 300 1.0]
+[rotate A -180 0.5]
+[show U 0.2]
+[move U XY 800 400 0.5]
+[rotate U -60]
+[delay 0.1 rotate U -150 0.5]
+[se fall_01]
+[talkend]
+[color U BLUE]
+[delay 0.5 rotate A 60 0.5]
+[delay 0.5 move A X -200 0.5]
+[textcolor BLUE]
+そうすると、スポーンと魂が抜ける。[face A 02]
+三途の川の近くは肉体との結びつきが弱くなるんや。/
+[hide T]
+[effect off a]
+[serif off]
+[move A X -500 0.5]
+[move U X -600 0.5]
+[rotate U 0 0.5]
+[color U BLUE]
+[-]
+[move U X 100 0.3]
+[move U Y -400 0.3]
+[delay 0.3 shake U]
+[-]
+[move U Y 10 0.1]
+[delay 0.1 move U Y -10 0.1]
+[face A 05]
+[-]
+[serif on]
+[textcolor BLUE]
+勢い余って自分が死んどることに気づかず
+走っていくやつがたまにおる。[move U X 500 0.5]/
+[face A 14]
+[talk A]
+[se rope_01]
+[color U BLUE]
+コラ、待たんかい！[move A X 200 0.3][rotate A 0 0.3][delay 0.3 move A X -20 0.1][se walk_04][delay 0.3 shakebg][-][move U X -500 0.3][rotate U 10][-][shake U]/
+[talkend]
+[color U BLUE]
+[textcolor BLUE]
+こういうときのための紐や。
+この紐が突っ張って遠くには行かれへん。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[show A]
+[show U]
+[face A 01]
+[order U 1]
+[order A 0]
+[color U BLUE]
+[-]
+[move U X -400 1.0]
+[hide U]
+[-]
+[serif on]
+[textcolor BLUE]
+そんで、死体の指を持って、閻魔帳に拇印を
+もろたら、魂を渡守に引き渡せば完了や。[effect A kira a]/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[hideall]
+[effect off a]
+[bg j02_main]
+[minibg off]
+[-]
+[serif on]
+[textcolor BLUE]
+これを日がな一日中続けるのんが
+オレの仕事や。/
+[fadeout 1.5]
+[-]
+[show A C]
+[face A 01]
+[talk A]
+ひーふーみー……と
+今月もいっぱいもろたな～。/
+[face A 02]
+[talk A]
+ほら、トラ、お前も金平糖食べるやろ？
+美味しいで～！/
+[face A 09]
+@トラ
+にゃ～ん。/
+@火車
+ちょっと休憩や。このあたりで横になって
+ごろごろしよか～。[move A Y -50 1.0][hide A][se dosa_01]/
+[talkend]
+すると、丘の向こうから地響きのような音が
+聞こえてくる。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg black]
+[minibg ikusa_hata]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+覗き込むと、たくさんの人間が武装し、
+刀や槍で命を奪い合っている。/
+[minibg off 1.0]
+[bg j02_main 1.0]
+[-]
+[show A]
+[face A 04]
+[talk A]
+また戦か……アホやなぁ～人間は。
+ん？[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]/
+[talkend]
+[se paper_01]
+閻魔帳をぱらりとめくると、
+新しい名前がずらり……/
+[face A 02]
+[talk A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+魂を運んでやらんと、仏さんも浮かばれんからな。
+オレが頑張らな！/
+[talkend]
+[bg black 1.5]
+[waku on 0.5]
+[textcolor BLUE]
+……せやねん……あの頃のオレは
+仕事に燃えとったんや……/
+[fadein BLACK 1.0]
+[textcolor BLUE]
+それが自分を追い込んどったんかも
+しれへんなぁ……/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>1/
+((s))
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[randomset R m @チーム -@NOW -MAIN -iwm]
+[randomset S m @チーム -@NOW -MAIN -iwm]
+[set W s_san_m 讃岐]
+[set D s_n001_m 夏人]
+[set E s_n000_m 猫乃屋]
+[set F s_n004_m 百太]
+[fadein black 0]
+[bgm off]
+[-]
+[title 第一節 黄泉がえり]
+[-]
+[bg sky_day]
+[-]
+[bgm ascending]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+1556年、
+石見国、石見銀山。/
+((m))
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[randomset R m @チーム -@NOW -MAIN -iwm]
+[randomset S m @チーム -@NOW -MAIN -iwm]
+[set W s_mus_m 武蔵]
+[set D s_n001_m 夏人]
+[set E s_n000_m 猫乃屋]
+[set F s_n004_m 百太]
+[fadein black 0]
+[bgm off]
+[-]
+[title 第一節 黄泉がえり]
+[-]
+[bg sky_day]
+[-]
+[bgm ascending]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+1556年、
+石見国、石見銀山。/
+((e))
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[randomset R m @チーム -@NOW -MAIN -iwm]
+[randomset S m @チーム -@NOW -MAIN -iwm]
+[set W s_ecg_m 越後]
+[set D s_n001_m 夏人]
+[set E s_n000_m 猫乃屋]
+[set F s_n004_m 百太]
+[fadein black 0]
+[bgm off]
+[-]
+[title 第一節 黄泉がえり]
+[-]
+[bg sky_day]
+[-]
+[bgm ascending]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+1556年、
+石見国、石見銀山。/
+[se amb_02]
+[bg sandou 1.0]
+[effect fr kiesou a]
+[wait 0.5]
+[-]
+[fadein WHITE 0.2]
+[delay 0.2 effect off a]
+[delay 0.2 fadeout 1.0]
+……/
+[serif off]
+[se walk_04]
+[show B C]
+[move B Y -100]
+[move B Y 100 1.0]
+[face B 01]
+[talk B]
+[-]
+[serif on]
+ここが……石見国の、歴史覚醒域……/
+<bic>
+[face B 02]
+歴史覚醒域、開放作戦、部隊員の備中！
+現地に到着しました！/
+<-bic>
+[face B 08]
+主の想いに応え、備中、作戦に
+馳せ参じました！/
+[show C C]
+[move C X 800]
+[-]
+[talk B]
+[face C 01]
+[move C X -700 0.5]
+[delay 0.5 shakebg]
+[delay 0.4 move B X -200 0.3]
+[delay 0.5 face B 05]
+[delay 0.5 se doka_01]
+[delay 0.4 rotate B 10 0.5]
+って、うわぁああっ！/
+[rotate B 0 0.5]
+[face B 04]
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+[face C 09]
+[say C]
+なんじゃ兄貴！　ぼさっと突っ立っとるから
+ぶつかってしもたけぇ！/
+[setline 0.5 B C]
+[face B 03]
+[talk B]
+備後！　せ、せっかく僕が張り切って
+仕切ろうとしてるのに……っ/
+[say C]
+[face C 00]
+そりゃすまんのぉ！
+けど、みんな向こうにおるみたいじゃけ。/
+[say B]
+[face B 05]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+えっ！？　ほんとだ……！　
+てっきりそばにいると思ってた……！[shake B][face B 04]　おーい！/
+[move B X -600 0.5]
+[se walk_03]
+[hide B]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[say C]
+[face C 11]
+兄貴はおっちょこちょいじゃのー。
+ごしゅじーん！　[face C 02]ワシら頑張ってくるけぇのー！/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[hideall]
+[bg shirei_day]
+[bgm rokuhara]
+[-]
+[fadeout 1.0]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[show D]
+[face D 06]
+[talk D]
+[-]
+[se pi_01]
+[serif on]
+ふぅ、今回も無事地魂霊送は上手く行った
+みたいだね。/
+[show F]
+[show E]
+[setline 0.5 E D F]
+[orderline D E F]
+[say F]
+[face F 01]
+[face E 00]
+先輩もお疲れ様っす～！/
+[face E 01]
+[say E]
+今日も安定してたな！
+さっすがオレの後輩！/
+((s))
+[show W R]
+[setline 0.5 E D W F]
+[face W 12]
+[talk W]
+[orderline W D E F -100 1100]
+よかったぁ。
+ちゃんと任務に入れそうだね！/
+((m))
+[show W R]
+[setline 0.5 E D W F]
+[face W 12]
+[talk W]
+[orderline D W E F -100 1100]
+よかったぜぃ。
+とりあえず任務は始められそうだな。/
+((e))
+[show W R]
+[setline 0.5 E D W F]
+[face W 12]
+[talk W]
+[orderline D W E F -100 1100]
+……ふぅ。無事に任務を始められそうですね。/
+[say D]
+[face D 14]
+[serif off]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[-]
+[serif on]
+霊送後、少しだけ霊脈の揺らぎを感知したけど
+概ね問題はなさそうかな。[face A 01]/
+[face E 08]
+[say E]
+それは行ってみねーとわかんねーしな。
+あいつらなら上手くやるだろ。[face E 01]/
+[face E 10]
+[move E Y 10 0.1]
+[delay 0.1 move E Y -10 0.1]
+てか$W、お前別件の任務控えてるんだろ。
+準備は大丈夫なのかー？/
+((s))
+[shake W]
+[face W 10]
+[talk W]
+う……っ。[shake W]
+でも、ちょっとだけ、見守りたくて……/
+((m))
+[auto]
+うぐっ。[shake W]
+そうだけど、ちょっと見守りたくてよぉ。/
+((e))
+[auto]
+は、はい……ッスよねぇ……
+でも、最初だけでも見守りたかったんス……/
+[say D]
+[face D 01]
+いいんじゃないですか？
+$Wくんの気持ち、僕もわかりますよ。/
+[face D 15]
+[face F 09]
+[face E 11]
+[flow]
+本当は自分も行きたかったよね。/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[say W]
+[face W 04]
+うん……[wait 0.5][face W 08]
+でも、今は仲間を信じて見守るんだって/
+((m))
+[auto]
+そりゃーな……[wait 0.5][face W 08]
+でもよ、今は仲間を信じて見守るんだって/
+((e))
+[auto]
+はい……[wait 0.5][face W 08]
+でも、今は仲間を信じて見守るんだって/
+((s))
+[face W 01]
+[flow]
+あるじさまとそう決めたから……
+だから、オイラはみんなを信じてる！/
+((m))
+[auto]
+大将とそう決めたからな。
+オレぁ、みんなを信じるさ！/
+((e))
+[auto]
+師匠と、そう決めましたから！
+オレはみんなを信じてます！/
+[serif off]
+?同意する/
+[playeryes]
+[-]
+[say E]
+[face E 09]
+[serif on]
+じゃ、ここから応援してやろうぜ！/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[hideall]
+[bgm journey]
+[bg sandou]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[show B C]
+[show C C]
+[show R L]
+[show S R]
+[setline 0.5 R B C S -50 1100]
+[order R 0]
+[order S 0]
+[order C 1]
+[order B 2]
+[face B 01]
+[face C 00]
+[face R 01]
+[face S 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[talkend]
+@備中
+おほん、今回の班編成はこんな感じか。
+みんな、よろしくね。/
+[move R Y 5 0.2]
+[delay 0.2 move R Y -10 0.6]
+[delay 0.8 move R Y 5 0.5]
+[face R 00]
+[autotap]/
+[talkend]
+部隊の$Rは大きく頷いた。
+頼りになりそうだ。/
+[face B 00]
+[say B]
+今回の任務について、僕は既に
+色々作戦を考えてきてるんだ。/
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+だからみんな！　僕が指示を出すまで
+何もしないでね！[face R 05][face S 05][shake R][shake S]/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 09]
+[say C]
+[face R 00]
+[face S 00]
+なんじゃ、どうせ兄貴の計画なんて
+穴だらけじゃろーに！/
+[face B 03]
+[say B]
+[shake B]
+そ、そんなことないよ、
+ば、バッチリ！　[face B 08]の……はずだよ！？/
+[move B X -50 0.1]
+[delay 0.1 move B X 100 0.2]
+[delay 0.3 move B X -100 0.2]
+[delay 0.5 move B X 50 0.1]
+[autotap]/
+[face B 01]
+[face C 00]
+[talkend]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[delay 0.2 face R 02]
+[delay 0.5 face S 02]
+備中は部隊の他の地魂男児たちと備後を前に
+あれこれと指示を出し始めた。/
+[face B 00]
+[say B]
+……この時代は「歴史覚醒域」になっているから
+まずはとにかく原因を探ること。/
+[face B 08]
+[face R 00]
+[face S 00]
+そのために大事なのは、聞き込み！
+異変が起きてないか、聞いて歩くんだ！/
+[face C 08]
+[say C]
+聞き込みって、周り、誰もおらんが。/
+[face B 05]
+[talk B]
+[shake B]
+え！？　ほんとだ……/
+[hide B]
+[hide C]
+[hide R]
+[hide S]
+[talkend]
+周囲を見渡すと、そこは山道。
+人の気配はない。/
+[serif off]
+[show B C]
+[face B 08]
+[talk B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+じゃあ……まずは村を見つけなきゃ。
+……あ！[move B X 100 0.2][face B 05]　備後！？/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bgm fun]
+[-]
+[fadeout 0.5]
+[-]
+[show C L]
+[face C 02]
+[move C X 300 0.3]
+[move C Y 200 0.2]
+[se walk_04]
+[delay 0.2 move C Y -100 0.1]
+[-]
+[serif on]
+[talk C]
+ワシに任しとけぇい！[move C Y 100 0.5]/
+[hide C]
+[-]
+[show B C]
+[face B 05]
+[talk B]
+任せるって……[shake B]えっええー！？
+備後、木登りできるの！？[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]　すご……/
+[face B 01]
+どんどん登ってく……すごい行動力だなぁ……
+……木にしがみついてる姿、熊みたい……[face B 09]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg sky_day]
+[-]
+[fadeout 0.5]
+[-]
+[show C C]
+[scale C 2.0]
+[move C Y -500]
+[-]
+[se walk_04]
+[move C Y 100 0.5]
+[delay 0.6 move C Y 100 0.5]
+[-]
+[se walk_04]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[-]
+[serif on]
+[face C 09]
+[talk C]
+てっぺんじゃー！　高いのぉー！！
+どれどれ……おっ、村見っけたー！[shake C]/
+[flow]
+[face C 02]
+兄貴～～～！！！
+向こうの方に村が見えるけぇーー！[shake C]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg sandou]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show B C]
+[show R C]
+[show S C]
+[setline 0 R B S]
+[face B 01]
+[face R 00]
+[face S 02]
+[talk B]
+備後～！！　ありがとう、もういいよー！
+ゆっくり降りておいで～！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg sky_day]
+[-]
+[fadeout 0.5]
+[-]
+[show C C]
+[face C 01]
+[scale C 2.0]
+[move C Y -200]
+[-]
+[serif on]
+[talk C]
+おぉーいま降りるけー！[move C Y -100 0.3][delay 0.3 shake C]　……お？[face C 11]　枝にズボンが
+引っかかっとる……んっ、んっ！[shake C]　[face C 08]ふんっ！！[shake C]/
+[face C 05]
+[shakebg]
+[bgm off]
+[se paper_03]
+[effect fr syutyu a 0 100]
+[talkend]
+ビリッ！！/
+[shake C]
+[-]
+[bgm departure]
+[effect off a]
+[effect C syutyu b 0 200]
+[-]
+[move C Y -900 0.3]
+[rotate C 50 0.3]
+[delay 0.5 shakebg]
+[se fall_01]
+[delay 0.2 effect off b]
+[talk C]
+お、おぉっ、のわああ～！！！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg sandou]
+[-]
+[fadeout 0.5]
+[-]
+[show B C]
+[show R C]
+[show S C]
+[setline 0 R B S]
+[effect B syutyu a 0 100]
+[face B 05]
+[face R 05]
+[face S 05]
+[shake B]
+[move R X -50 0.1]
+[delay 0.1 move R X 100 0.2]
+[delay 0.3 move R X -100 0.2]
+[delay 0.5 move R X 50 0.1]
+[-]
+[talk B]
+[serif on]
+わわ、危ない！
+備後！！　わああっ/
+[serif off]
+[show C C]
+[order C 3]
+[order B 2]
+[face C 05]
+[move R X -100 0.3]
+[move S X 100 0.3]
+[rotate B 10 0.3]
+[delay 0.3 shake B]
+[move C Y 600]
+[move C Y -800 0.5]
+[rotate C -60]
+[delay 0.3 fadein WHITE 0.1]
+[delay 0.3 se zukkoke_01]
+[-]
+[move S X 100]
+[move R X -50]
+[effect off a]
+[show C]
+[show B]
+[rotate B 130]
+[move C Y -150]
+[move C Y 100 1.0]
+[move B X 300]
+[move B Y -100]
+[talk C]
+[face S 05]
+[face R 04]
+[face C 06]
+[orderline C B S R]
+[fadeout 1.0]
+[shakebg]
+[-]
+[serif on]
+いたたた……おわわ、[move C Y 10 0.1][delay 0.1 move C Y -10 0.1]お尻のところが破れて
+丸出しじゃあ……！/
+[say B]
+[shake B]
+ふごふご！！（そ、そのおしりの下に……
+僕の顔があるんだけど……！！）/
+[face C 05]
+[talk C]
+[se cloth_02]
+ん？　お尻が妙に温かいと思ったら、兄貴なんで
+そんなところに顔つけとるんじゃー！？[move C Y 100 0.1][delay 0.1 move C Y -100 0.2]/
+[say B]
+[se cloth_03]
+[shake B 3 5 5]
+ふごふごふごー！！！（息ができない、早くどいてー！！）/
+[face C 10]
+[talk C]
+[shake C]
+ふ、ふおぉぉっ！　こそばゆいけぇ！
+兄貴、はよぉどかんかい！/
+[face B 05]
+[move B XY 200 50 0.2]
+[rotate B 0 0.2]
+[move C XY -200 50 0.3]
+[se walk_04]
+[face S 06]
+[face R 06]
+[-]
+[talk B]
+ぶはっ！！　それはこっちのセリフだよ！
+もぉ！！　いきなり死ぬところだったよ！！/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 11]
+[talk C]
+[bgm journey]
+そうじゃったんか？　無事でよかったのぉ～！[face C 02]
+それよりワシのお尻のとこ、縫うてくれんか！[move C X 50 0.2]/
+[serif off]
+[face B 08]
+[say B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[face R 00]
+[face S 01]
+[setline 0.5 R C B S]
+[move B XY 50 -60 0.5]
+[rotate B 10 0.5]
+[-]
+[serif on]
+まったく……わかったよ。動かないでね。
+お尻刺しちゃうかもしれないから。/
+[talkend]
+[se cloth_01]
+備中は荷物の中から針と糸を取り出し、
+丁寧に備後のズボンを縫ってあげたのだった。/
+[say B]
+[face B 04]
+はぁ……任務開始早々この調子じゃ……
+うぅ……お腹痛くなってきた……[shake B]/
+((s))
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[hideall]
+[bg shirei_day]
+[-]
+[fadeout 1.0]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[bgm rokuhara]
+[show E]
+[show D]
+[show W]
+[show F]
+[face F 00]
+[setline E W D F]
+[face E 10]
+[face D 12]
+[say E]
+[orderline W D E F]
+[-]
+[serif on]
+備中は真面目そうだから大丈夫だろうけど
+備後のやつ、大丈夫か～？/
+((m))
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[hideall]
+[bg shirei_day]
+[-]
+[fadeout 1.0]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[bgm rokuhara]
+[show E]
+[show D]
+[show W]
+[show F]
+[face F 00]
+[setline E W D F]
+[face E 10]
+[face D 12]
+[say E]
+[orderline D W E F]
+[-]
+[serif on]
+備中は真面目そうだから大丈夫だろうけど
+備後のやつ、大丈夫か～？/
+((e))
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[hideall]
+[bg shirei_day]
+[-]
+[fadeout 1.0]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[bgm rokuhara]
+[show E]
+[show D]
+[show W]
+[show F]
+[face F 00]
+[setline E W D F]
+[face E 10]
+[face D 12]
+[say E]
+[orderline D W E F]
+[-]
+[serif on]
+備中は真面目そうだから大丈夫だろうけど
+備後のやつ、大丈夫か～？/
+((s))
+[face W 02]
+[say W]
+大丈夫だよ！
+備中も備後も、それに他のみんなも！/
+((m))
+[auto]
+大丈夫さ！
+備中も備後も、他の連中もな！/
+((e))
+[auto]
+大丈夫ッスよ！
+備中も備後も、他のみんなも！/
+((s))
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+ね！　あるじさまもそう思うよね！/
+((m))
+[auto]
+な！　大将もそう思うだろ？/
+((e))
+[auto]
+ですよね！　師匠！/
+[serif off]
+?うなずく/
+((s))
+[playeryes]
+[-]
+[face F 01]
+[face W 12]
+[serif on]
+ほらね！/
+((m))
+[auto]
+な！　大将も太鼓判押してんだ！
+心配いらねーって！/
+((e))
+[auto]
+ね！　みんな立派な地魂男児ッスから！/
+[say E]
+[face D 01]
+[face E 09]
+だな。
+オレたちもあいつらの力を疑っちゃいねぇよ。/
+((s))
+[serif off]
+[hide D]
+[hide E]
+[hide F]
+[say W]
+[face W 04]
+[-]
+[serif on]
+……それじゃあオイラ、そろそろ
+次の任務の準備してくるから……/
+((m))
+[auto]
+……そんじゃオレ、そろそろ
+次の任務の準備してくっから……/
+((e))
+[auto]
+そろそろ……オレ、次の任務の準備
+してきます……/
+((s))
+[face W 12]
+[move W Y 100 0.2]
+[delay 0.2 move W Y -100 0.2]
+みんな！　頑張ってね！
+応援してるよ！/
+((m))
+[auto]
+みんなー！　頑張れよー！！
+応援してるぜー！/
+((e))
+[auto]
+みんな！　頑張ってください！
+応援してますから！！/
+[serif off]
+[hide W]
+[-]
+[show D]
+[show E]
+[show F]
+[face F 00]
+[face D 00]
+[face E 01]
+[setline E D F]
+[orderline D E F]
+[say E]
+[serif on]
+$Wもなー！/
+[say D]
+[face D 02]
+忘れ物ないようにね。/
+((s))
+[hideall]
+[serif off]
+[-]
+[show W]
+[face W 12]
+[serif on]
+はーい！/
+((m))
+[auto]
+おうよ！/
+((e))
+[auto]
+はい！/
+[serif off]
+?行ってらっしゃい/
+((s))
+[say W]
+[face W 02]
+[serif on]
+行ってきまーす！　あるじさま！
+備中たちのこと、よろしくね！/
+((m))
+[auto]
+おう！　行ってくるぜぃ！
+備中たちのことは頼んだぜ。/
+((e))
+[auto]
+はい！　行ってきます！
+備中たちのことは、お願いします！/
+[serif off]
+[move W X -600 0.5]
+[se fusuma_01]
+[hide W]
+[-]
+[show D]
+[show E]
+[show F]
+[setline E D F]
+[orderline D E F]
+[face D 14]
+[face E 00]
+[face F 00]
+[-]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[say D]
+[serif on 0.5]
+$Wくんの任務の霊送準備をしないとですね。/
+[say F]
+[face F 09]
+連続での霊送……
+先輩は大丈夫っすか？/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[serif on]
+[say D]
+[se rokuhara_04]
+[face D 12]
+一応、異常な数値は出てないみたいで、
+ラボの方からは霊送OKって連絡来てますね。/
+[move E Y 10 0.4]
+[delay 0.4 move E Y -10 1.0]
+[autotap]/
+[face E 04]
+[say E]
+お前みたいに霊力が腐るほどあるとこーやって
+こき使われるんだなぁ。[shake E]可哀想だぜ……/
+[face D 01]
+[say D]
+$Wくんたちの方は簡単な遠征任務だから
+基本的には$Wくんたちに任せておけますね。/
+[flow]
+[face D 04]
+この歴史覚醒域の方はしっかりサポートして
+確実に解決しないといけませんからね……/
+[move E Y 5 0.2]
+[delay 0.2 move E Y -10 0.6]
+[delay 0.8 move E Y 5 0.5]
+[autotap]/
+[say E]
+[face E 08]
+だな。
+ま、気楽にいこうぜ。/
+[face F 09]
+[say F]
+あのー、さっきから気になってたんすけどぉ
+そっちの端の方にある光ってなんなんスか？[face F 11]/
+[face D 02]
+[say D]
+この光は地魂男児たちの霊力波形を計測して
+お互いの位置関係をわかりやすくしたもので……/
+[face E 11]
+[say E]
+[move E Y 10 0.1]
+[delay 0.1 move E Y -10 0.1]
+んっ、てことは、離れたとこに
+地魂男児の反応ありってことか。/
+[shake D]
+[face D 10]
+[say D]
+あ、たしかに……本当ですね。
+離れた位置に霊送されちゃったのかな。[face D 12]/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>2/
+[set A s_a002_m 火車]
+[set B s_a002_m 火車]
+[set T s_m006_m 渡守]
+[set Y s_obj_like イイネ]
+[set Z s_obj_likepoint イイネ]
+[fadein black 0]
+[bgm off]
+[bg sandou]
+[-]
+[bgm comical]
+[waku on]
+[-]
+[fadeout 1.0]
+[waku off 1.5]
+[-]
+[serif on 0.5]
+[textcolor blue]
+時は数ヶ月前に遡る。
+/
+[show B C]
+[color B BLACK]
+[-]
+[show A C]
+[order A 1]
+[order B 0]
+[face A 00]
+[-]
+[hide B]
+[-]
+[bg j02_main 0.5]
+[move A L 0.3]
+[textcolor BLUE]
+オレは寝るとき以外ずっと仕事に追われとった。
+もう、何年も何年も……/
+[face A 01]
+[talk A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+いや～最近妙～に気持ちがええわ。[wait 0.5]逆に。
+寝る時間も惜しんで働いとるのに不思議やで。/
+[face A 02]
+[move A R 0.5]
+[delay 0.5 move A C 0.3]
+あれや。[wait 0.5]伝令とか、飛脚が長い間走っとると
+疲れ通り越して、逆に気持ちよーなってくる……/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ランナーズハイや。[se taiko_02]/
+[face A 02]
+トラ、ほら、金平糖やで～！/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+@トラ
+にゃ～！/
+[face A 01]
+さ、そしたら次の死体運んでこか！/
+[talkend]
+[move A X -200 0.5]
+[se kira_01]
+[effect A kira a]
+[textcolor BLUE]
+今日は午前中だけで80近く運んだ。
+快挙やん。月末に表彰されてまうわ。/
+[face A 02]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+やー、でもほんっまありがたいわ。
+こんなたくさん仕事もろて。まんま食えるなんて。/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+圧倒的感謝やで！[move A X -500 0.5][hide A][se walk_02]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[effect off a]
+[hideall]
+[bg black]
+[minibg a002_sanzu]
+[-]
+[se water_06]
+[fadeout 1.0]
+[wait 0.5]
+[-]
+[serif on]
+[show T C]
+[face T 00]
+[talk T]
+やぁ火車さん。これを一人で運んだのか？
+すごい量だ……あんたと仕事できて嬉しいよ。/
+[serif off]
+[effect T love a 0 200]
+[shakebg]
+[show Y 0.3]
+[move Y XY 100 -50]
+[shake Y 1 5 5]
+[scale Y 1.1 0.2]
+[delay 0.3 move Y Y 100 1]
+[delay 0.8 hide Y 0.5]
+[se buff_01]
+[delay 0.8 show Z 0.3]
+[delay 0.8 orderline Z 26]
+[delay 0.8 scale Z 1.1 0.2]
+[delay 0.8 move Z X 100]
+[delay 0.8 shake Z 1 5 5]
+[delay 1 move Z Y 50 1]
+[delay 1.6 hide Z 0.5]
+[order T 1]
+[order Y 25]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[effect off a]
+[show A L]
+[setline 0.5 A T]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[say A]
+[serif on]
+はは……まあ、伝説級のグレードの配達人は
+オレくらいなもんやしな。/
+[say T]
+[se paper_01]
+[move T Y 10 0.1]
+[delay 0.1 move T Y -10 0.1]
+あれ、火車さん、
+この魂、拇印押してないけど……/
+[face A 05]
+[talk A]
+[shake A]
+[bgm departure]
+えっ！/
+[move T Y 5 0.2]
+[delay 0.2 move T Y -10 0.6]
+[delay 0.8 move T Y 5 0.5]
+[autotap]/
+[say T]
+[se paper_01]
+あぁ、戦の死体は損壊激しいから手がないのか……
+一応閻魔帳での照合も間違いないみたいだな。/
+[flow]
+この場合だと……確か……[se paper_02]
+うーん……魂は引き取らせてもらうけど……/
+[flow]
+……拇印がないんで
+その分は給料から差し引きされると思うよ。/
+[minibg emo_donyori]
+[face A 04]
+[talk A]
+[bgm off]
+あれ……給料下がるん？
+そういうもんやったっけ……/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……でも、手持ってき忘れたんはオレやし……
+しゃーないな……/
+[move T R 0.5]
+[hide T]
+[move A C 0.5]
+[face A 11]
+[minibg off 1]
+[delay 0.5 bg sandou 1.0]
+[se walk_01]
+むしろ引き取ってもらえるだけ感謝やで……/
+[face A 09]
+@トラ
+にゃ～……/
+[face A 11]
+そんな顔すんなやトラ。
+こうやってみんな成長していくもんやん。/
+[se walk_01]
+[talkend]
+[bg black 1.5]
+[waku on 0.5]
+[textcolor BLUE]
+でも、ちょっとだけ心がもやっとするんは
+事実や……[hide A 1.0]/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>3/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set E s_n001_m 夏人]
+[set F s_n000_m 猫乃屋]
+[set G s_n004_m 百太]
+[set T s_m005_m 村人]
+[fadein black 0]
+[bgm off]
+[-]
+[bg mbg_map]
+[minibg mura]
+[se amb_06]
+[-]
+[bgm journey]
+[fadeout 0.5]
+[-]
+[place 石見国　小さな村]
+[-]
+[show B C]
+[show C C]
+[show R C]
+[show S C]
+[face B 00]
+[face C 00]
+[face R 00]
+[face S 00]
+[setline 0 R B C S]
+[order R 0]
+[order S 0]
+[order C 1]
+[order B 2]
+[-]
+[serif on 0.5]
+[talk B]
+備後が見つけた村は、ここだね。
+話を聞いてみよう……/
+[hideall]
+[-]
+[se walk_01]
+[talkend]
+[bgm departure]
+一行が村へと入っていくと、
+近くの家から声が聞こえた。/
+[shakebg]
+@村人
+とっつぁん！　とっつぁんが生き返った！/
+[shakebg]
+@村人
+ひ、ひぇえ！！
+うちの治郎兵衛が息を吹き返しおったぁ！！/
+[show B C]
+[show C C]
+[show R C]
+[show S C]
+[setline 0 R B C S]
+[order R 0]
+[order S 0]
+[order C 1]
+[order B 2]
+[face B 05]
+[face C 05]
+[face R 05]
+[face S 05]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+な、なんじゃあ……？
+何が起こっとるんじゃ……この騒ぎは……/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 08]
+[face C 08]
+[face R 08]
+[face S 08]
+[talk B]
+は、話を聞いてみよう……/
+[move R X -200 0.5]
+[hide R]
+[move S X 300 0.5]
+[hide S]
+[move C X 400 0.5]
+[face C 11]
+[-]
+[face C 10]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[-]
+[show T L]
+[face T 00]
+[setline 0.5 T B C]
+[talk B]
+すみません、あの……皆さん大声を出して
+どうしたんですか？/
+[say T]
+[shake T]
+[face C 08]
+し、死んでたはずのとっつぁんが、
+生き返ったのさ！/
+[face B 03]
+[say B]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+死んだはずの人が、生き返った……？/
+[serif off]
+[talk T]
+[hide B]
+[hide C]
+[move T C 1.0]
+[minibg emo_donyori 1.0]
+[bg black]
+[-]
+[serif on]
+昨日は酷い嵐でな。漁に行ってた五人が
+戻らなくて心配しとったんじゃ。/
+[flow]
+朝になって浜辺に行くと……五人とも……
+死んどった……/
+[flow]
+ところが遺体を村に連れ帰ってきて、別れを
+惜しんでいたところ次々と息を吹き返して……/
+[serif off]
+[hide T]
+[-]
+[bgm journey]
+[bg mbg_map]
+[minibg mura]
+[show B]
+[show C]
+[setline 0 B C]
+[face C 11]
+[say C]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[-]
+[serif on]
+ほぉー……不思議な話じゃなぁ……/
+[face B 02]
+[talk B]
+[shake B]
+こ、これは……あたりじゃないかな！？[effect B kira a 0 200][se kira_01]
+僕の作戦どおり、聞き込み大成功！[move B Y 10 0.1][delay 0.1 move B Y -10 0.1]/
+[face C 02]
+[say C]
+[effect C kira b 0 200]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[se kira_01]
+ワシが村を見つけたおかげじゃ！/
+[show D R]
+[move D X 200]
+[face D 00]
+[talk D]
+[effect off a]
+[effect off b]
+[setline 0.5 B C 0 500]
+[move D X -200 1.0]
+何の騒ぎじゃね？
+みんなして大きい声あげて。/
+[face B 05]
+[face C 05]
+[say C]
+[shake C]
+あ！！！　い、石見！？/
+[talk B]
+[shake B]
+石見も霊送されてたんだ！？/
+[move D Y 20 0.4]
+[delay 0.6 move D Y -20 0.2]
+[autotap]/
+[face C 00]
+[face D 01]
+[talk D]
+そうじゃよ。気づいたらここにおって、
+村人が死んだって聞いてのぉ。/
+[move D Y 20 0.4]
+[delay 0.6 move D Y -20 0.2]
+[autotap]/
+[face D 02]
+掘って掘って、五つの墓穴掘ってきたけぇね！
+いい感じで掘れとるとこじゃよ！/
+[delay 0.1 move C Y -10 0.2]
+[delay 0.3 move C Y 10 0.1]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.1]
+[delay 0.7 move C Y -10 0.3]
+[autotap]/
+[face C 09]
+[say C]
+わははは！　汗だくじゃのー！/
+[face B 01]
+[say B]
+霊送されていきなりそんな重労働を……[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]
+大丈夫？[face B 08]/
+[face D 01]
+[say D]
+おら、掘るんは得意なんじゃよ。
+腰もしっかり鍛えとるけぇね。/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 04]
+一度に五人も亡くしたら、村の人も
+大変じゃろ思てちょっと張り切ってしもぉた。/
+[face B 06]
+[say B]
+……それなんだけど……/
+[face C 11]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+残念じゃなぁ……石見。
+お前の作業無駄になってしもたかもしれんけぇ。/
+[face D 05]
+[say D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+へ？　どがぁいうこと？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg emo_donyori]
+[bg black]
+[-]
+[bgm unrest]
+[fadeout 1.0]
+[-]
+[serif on]
+[show T C]
+[face T 00]
+[name T 生き返った人]
+[talk T]
+なんだか記憶が曖昧で……[wait 0.5]よくわからないんだ。
+昨日は大時化で、全然釣れないもんだし/
+[talk T]
+[move T Y 10 0.4]
+[delay 0.4 move T Y -10 1.0]
+潮が高かったから、浜辺の岩下で雨宿りして
+ちょっと休もうか……[wait 0.5]って気づいたら今だ。/
+[hide T]
+[minibg mura 0.5]
+[bg mbg_map 0.5]
+[-]
+[show B C]
+[show C C]
+[show D C]
+[face B 08]
+[face C 00]
+[face D 00]
+[setline 0 C B D]
+[talk B]
+[order B 2]
+[order C 0]
+[order D 1]
+……漁に出た五人は嵐で魚も釣れず、
+雨宿りをしてたら……/
+[flow]
+[face B 04]
+寝てる間に、みんなそろって死んじゃってた
+ってこと？　えぇ、怖……[shake B]/
+[face D 01]
+[say D]
+そしてみんなそろって生き返った
+わけじゃねぇ。/
+[face C 11]
+[say C]
+[bgm journey]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+そがいなこと、起きるもんかのぉ。
+不思議じゃのぉ。/
+[face B 03]
+[say B]
+[shake B]
+い、いや、不思議っていうか、これは明らかに
+異常だよ！　[move B Y 5 0.2][delay 0.2 move B Y -10 0.6][delay 0.8 move B Y 5 0.5]調査対象に間違いないと思う！/
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[face B 02]
+やったぞ！　主に報告しよう！
+/
+[face D 04]
+[say D]
+こいが、この歴史覚醒域の影響じゃとして……
+原因はなんかね？/
+[face B 05]
+[say B]
+[shake B]
+………
+……………………[face B 04]/
+[face C 08]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+石見！　焦ったらいけん。それはこれからの
+調査でわかることじゃけ！/
+[face B 05]
+[say B]
+[shake B]
+[effect B syutyu 2000 0 100]
+[se zukkoke_02]
+（び、備後がまともなこと言ってる……！）/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 08]
+そ、そうそう……だから次は……
+例えば……[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]えーっと……[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]えーっと……/
+[say D]
+[face D 02]
+ここはみんなで穴掘りの続きといくかね。
+まずはツルハシを人数分用意せないかんね……/
+[shake C]
+[face B 05]
+[face C 05]
+[se zukkoke_02]
+[say C]
+もう墓穴に入る人がおらんけぇ！[shake C]
+いらん労働じゃ！　穴掘りが好きすぎるんじゃ！/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 04]
+[say D]
+そうかね……残念じゃね……/
+[face D 01]
+[flow]
+ほんなら五人が死んどったっちゅう、
+浜辺にでも行ってみるかね？/
+[face C 02]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+おぉ！　それがええな！/
+[serif off]
+[move C X 400 1.0]
+[move D X 400 1.0]
+[face B 05]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[se walk_01]
+[delay 0.5 hide C]
+[delay 0.5 hide D]
+[-]
+[shake B]
+[face B 04]
+[say B]
+[-]
+[serif on]
+あ、あっ。僕が作戦立てるんだからぁ……っ！
+待ってってば～！/
+[move B X 800 0.5]
+[hide B]
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[bgm rokuhara]
+[hideall]
+[bg shirei_day]
+[minibg off]
+[-]
+[fadeout 1.0]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[serif on]
+[show E]
+[show F]
+[setline E F]
+[say F]
+[face F 00]
+[face E 00]
+[se pi_01]
+もうひとりの反応は石見か……
+頼りになりそうなやつじゃん！/
+[say E]
+[face E 01]
+ですね。このメンバーなら調査も大丈夫ですよね。
+後は……/
+[face F 09]
+[say F]
+見守るのみ、か。
+なっとはデータのチェック頼む。/
+[face F 01]
+オレはもう一回資料見直しとくわ。/
+[hideall]
+[se dosa_01]
+[shakebg]
+[talkend]
+そう言って猫乃屋は大量の資料を机の上に置いた。/
+[serif off]
+?相変わらずすごい量だ……/
+[show F]
+[face F 10]
+[say F]
+[serif on]
+[se paper_01]
+この歴史域に関する古今東西の資料だ。/
+[move F Y 10 0.4]
+[delay 0.4 move F Y -10 1.0]
+[autotap]/
+[face F 08]
+いのっちのやつがどっさり持ってきたんだ。
+どこからかき集めてくるんだか。/
+[show G]
+[face G 05]
+[setline 0.5 F G]
+[orderline G F]
+[say G]
+おお、すごいっすね～。この資料を見て、
+霊送先の変化を探すってことっすか？/
+[move F Y 5 0.2]
+[delay 0.2 move F Y -10 0.6]
+[delay 0.8 move F Y 5 0.5]
+[autotap]/
+[say F]
+[face F 08]
+そゆこと。こっちでも
+気付けることがあるかもしんねぇからな。/
+[show E L]
+[setline 0.5 E F G]
+[say E]
+[face E 01]
+事前に僕らの方で資料を作る際に大体目を通したり
+概要を把握してるんだけど……/
+[face E 06]
+[flow]
+見落としもあるかもしれないしね。/
+[face E 01]
+猫乃屋さん、お願いします。/
+[move F Y 5 0.2]
+[delay 0.2 move F Y -10 0.6]
+[delay 0.8 move F Y 5 0.5]
+[autotap]/
+[say F]
+[face F 09]
+へーい。/
+[face G 02]
+[say G]
+オレも手伝うっすよ！　仕事柄、
+資料読んだり探したりするの得意っすから！/
+[say F]
+[face F 10]
+お前キャラ濃くて忘れがちだけど、意外と
+能力高いよなぁ～。ずりぃわ～。[shake F]/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>4/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW -MAIN]
+[randomset S m @チーム -@NOW -MAIN]
+[set T s_m005_m 村人]
+[fadein black 0]
+[bgm off]
+[-]
+[title 第二節 意外とイケてません？]
+[-]
+[bg mbg_map]
+[minibg mura]
+[-]
+[bgm journey]
+[fadeout 0.5]
+[wait 1.5]
+[-]
+[se walk_01]
+[-]
+[minibg hamabe 1.0]
+[se water_04]
+[-]
+[place 浜辺 はまべ]
+[-]
+[show B C]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[scale B 0.8]
+[scale C 0.8]
+[scale D 0.8]
+[scale R 0.8]
+[scale S 0.8]
+[face B 00]
+[face C 00]
+[face D 00]
+[face R 00]
+[face S 00]
+[setline 0 R C B D S]
+[move B Y 40]
+[move C Y 40]
+[move D Y 40]
+[move R Y 40]
+[move S Y 40]
+[order R 0]
+[order S 0]
+[order D 1]
+[order C 1]
+[order B 2]
+[-]
+[serif on 0.5]
+[talk B]
+ここはみんなが寝てたっていう場所だね……/
+[move C Y 20 1.0]
+[delay 1.0 move C Y -20 0.2]
+[autotap]/
+[face C 02]
+[say C]
+キレイな浜辺じゃのぉ。/
+[say D]
+[face D 00]
+そしたらまずはどがぁするかね。/
+[say B]
+[face B 08]
+そうだね……何か手がかりみたいなものがあれば
+いいんだけど……/
+[say C]
+[face C 11]
+こがいとき、*MAINならどがいするかのぉ。
+*MAINは場馴れしとるけぇな！/
+[say B]
+[face B 05]
+た、確かに*MAINは場馴れしてるかもだけど、
+今は僕たちがなんとかしないとなんだからね！/
+[face B 08]
+それに、これはいい機会だ……/
+[face B 03]
+[face S 01]
+主に僕たちだって負けないくらい
+活躍できるんだって証明できるかも……[shake B]/
+[say D]
+[face R 01]
+[face D 06]
+備中は*MAINに対抗意識燃やしとるんじゃねぇ。/
+[say B]
+[shake B]
+そっ、そういうわけじゃないけど……
+/
+[say C]
+[face C 09]
+*MAINは一番古株で経験も多いけ！
+兄貴が張り合ってもしゃーないじゃろ！/
+[say B]
+[face B 04]
+う、うるさいなぁ……[shake B]わかってるよ！/
+[say D]
+[face D 01]
+[face R 00]
+[face S 00]
+競い合うのは悪ぅことじゃなぁよ。
+おらも負けてられんけぇね。/
+((s))
+[say C]
+[face C 02]
+[face R 01]
+[shake C]
+ワシ、戦いなら*MAINに負けんと思うとるけぇ！
+ワシは力で勝負じゃー！/
+((m))
+[auto]
+ワシ、体力なら*MAINに負けんと思うとるけぇ！
+ワシは足腰で勝負じゃー！/
+((e))
+[auto]
+*MAINは随分鍛えとるけぇ、ワシも負けんよう
+頑張って戦うんじゃー！/
+[say D]
+[face D 02]
+[face S 01]
+おらは穴掘りなら一番の自信があるけぇね！
+負けんよ！/
+[face C 05]
+[say C]
+[se zukkoke_02]
+そがいな特技は石見くらいしかおらんけぇ！[shake C]
+おんりーわんじゃ！[shake C]/
+[face B 08]
+[say B]
+僕も頑張って主にいいとこ見せるぞ……！
+……って、ん……？[move B Y 10 0.1][delay 0.1 move B Y -10 0.1]/
+[face B 08]
+[say B]
+……
+気づいた？　石見。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[say D]
+[face D 02]
+もちろんじゃよ。
+掘りがいのありそうな岩や崖がようけあるね。/
+[face B 05]
+[say B]
+[shake B]
+[se zukkoke_02]
+穴掘りのことじゃないんだよ！
+一旦そこから離れて！？/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[say C]
+[face C 10]
+石見、穴のことしか考えとらんけぇ……
+もはや狂気じゃ……/
+[shake D]
+[face D 07]
+[say D]
+あー……わかったけぇ。
+備中が言いたいことはこれじゃね……/
+[face D 08]
+[face R 08]
+[face S 08]
+[say D]
+はぁ、かすかじゃけど、感じるけぇね。
+これは……霊力の残り香みたぁなもんじゃろか……/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 03]
+[say B]
+僕も、そんな気がする……なにかがいた……？
+喰魂……、それとも、あやかし……/
+[face B 06]
+[face C 09]
+[face D 06]
+[face R 01]
+[face S 01]
+[say C]
+[move C Y 100 0.1]
+[delay 0.1 move C Y -100 0.2]
+ワシはなーーーんも感じんけ！！/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 01]
+[say B]
+あっそぉ……
+もう少し調べてみようか。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bgm dungeon]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[talkend]
+[textcolor BLUE]
+[serif on]
+地魂男児たちは手分けして周囲を捜索した。/
+[serif off]
+[show R L]
+[face R 08]
+[talkend]
+[move R XY -10 -40 0.4]
+[rotate R 10 0.3]
+[delay 0.4 move R XY 10 40 0.3]
+[delay 0.5 rotate R 0 0.3]
+[textcolor BLUE]
+[-]
+[serif on]
+$Rは血のついた矢を見つけた。[wait 0.5]
+矢の羽には「一文字三星紋」の家紋が描かれていた。[se taiko_01]/
+[serif off]
+[hide R]
+[-]
+[show S R]
+[move S X -50 0.1]
+[delay 0.1 move S X 100 0.2]
+[delay 0.3 move S X -100 0.2]
+[delay 0.5 move S X 50 0.1]
+[face S 08]
+[textcolor BLUE]
+[-]
+[serif on]
+$Sは猫と子供のものと思われる足跡を見つけた。[wait 0.5]
+五人が寝ていたあたりでウロウロしている。[se taiko_01]/
+[move S Y 10 0.4]
+[delay 0.4 move S Y -10 1.0]
+[autotap]/
+[face S 04]
+[textcolor BLUE]
+その後、足跡は何かを引きずるようにどこかへ
+行ってしまったようだ。/
+[hide S]
+[-]
+[show B C]
+[show D C]
+[setline 0 B D]
+[move D Y -100]
+[face B 04]
+[face D 04]
+[setline]
+[textcolor BLUE]
+$Dは足軽兵の死体を見つけた。[se taiko_01]
+戦での刀傷による出血死……/
+[face B 08]
+[face D 08]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[-]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[textcolor BLUE]
+死んでいるということを除けば、特段おかしな
+ところは見つからなかった。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg sky_sunset]
+[-]
+[show B C]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[scale B 0.8]
+[scale C 0.8]
+[scale D 0.8]
+[scale R 0.8]
+[scale S 0.8]
+[face B 00]
+[face C 00]
+[face D 00]
+[face R 00]
+[face S 00]
+[setline 0 R C B D S]
+[move B Y 40]
+[move C Y 40]
+[move D Y 40]
+[move R Y 40]
+[move S Y 40]
+[order R 0]
+[order S 0]
+[order D 1]
+[order C 1]
+[order B 2]
+[face C 00]
+[face D 08]
+[fadeout 1.5]
+[-]
+[bgm journey]
+[wait 0.5]
+[-]
+[say D]
+[-]
+[serif on 0.5]
+一文字三星紋……毛利家の家紋じゃね。/
+[face C 01]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+足軽兵の死体は近くにあるだけで四つはあった。
+じゃが、向こうの方にはまだありそうじゃったな！/
+[face B 08]
+[say B]
+この時代って……戦は多かったのかな？/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 00]
+[say D]
+そうじゃね、1550年頃言うたら、
+戦国時代じゃけぇね。/
+[face D 04]
+この頃このあたりじゃ石見銀山を巡って、
+毛利氏と尼子氏がえっと争っとったんよ。/
+[face B 00]
+[say B]
+石見銀山か……確か一時期日本は、
+世界の三分の一の銀を産出してたんだっけ。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 00]
+[say D]
+そうじゃよ。そん中のほとんどの銀がこの
+石見銀山で採れとったんじゃよ。/
+[flow]
+[face D 02]
+そらすごぉ銀山じゃったんじゃけぇね。/
+[face D 08]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+お？　
+ひょっとしたら、今年は忍原崩れじゃなぁかね？/
+[face D 03]
+[flow]
+もしそうじゃったら、毛利軍が尼子氏と銀山を
+巡る争いで歴史的大敗を喫するんじゃよ。/
+[face B 03]
+[shake B]
+[say B]
+歴史的……！！[se taiko_02]/
+[face C 09]
+[say C]
+そりゃあワシらが守らにゃいかん！
+そがい大事件が改変されてしもたらいかんじゃろ！[face B 08][face R 08][face S 08][move R Y 5 0.2][delay 0.2 move R Y -10 0.6][delay 0.8 move R Y 5 0.5][move S Y 5 0.2][delay 0.2 move S Y -10 0.6][delay 0.8 move S Y 5 0.5][move B Y 20 0.4][delay 0.6 move B Y -20 0.2]/
+[face B 00]
+[say B]
+あと、足跡見つけたんだったよね。でも、小さくて
+生き返った五人のじゃなさそうって話だったけど。/
+[face S 00]
+[flow]
+どの辺りだっけ……/
+[face B 08]
+[face C 00]
+[face D 04]
+[serif off]
+[talkend]
+[move S X 300 0.5]
+[-]
+[face S 05]
+[bg black 1.0]
+[minibg sky_star 1.0]
+[move B X -500 0.5]
+[move C X -500 0.5]
+[move D X -500 0.5]
+[move R X -500 0.5]
+[move S X -500 0.5]
+[-]
+[face S 04]
+[move S X -50 0.1]
+[delay 0.1 move S X 200 0.4]
+[delay 0.5 move S X -200 0.4]
+[delay 0.9 move S X 50 0.1]
+[-]
+[move S Y 10 0.4]
+[delay 0.4 move S Y -10 1.0]
+[-]
+[move B X 500 0.5]
+[move C X 500 0.5]
+[move D X 500 0.5]
+[move R X 500 0.5]
+[move S X 200 0.5]
+[-]
+[serif on]
+[say D]
+気づきゃ、あたりはだいぶ暗ぁなぁ。
+はぁよぉ見えんし、今日は一泊しようかいね。/
+[face C 02]
+[say C]
+[move C Y 100 0.1]
+[delay 0.1 move C Y -100 0.2]
+賛成じゃー！！/
+[face B 04]
+[say B]
+[shake B]
+で、こ、ここで寝るの……？　五人が死んだ
+ところで……え、縁起が悪いっていうか……/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 06]
+[face D 00]
+[say C]
+この岩陰、ちょっと狭いけぇ、この人数が寝るのは
+難しそうじゃ。/
+[face D 02]
+[say D]
+そんなこともあろうかと……
+おらが穴、掘ったけぇね！[se taiko_02]/
+[face B 05]
+[face C 05]
+[talkend]
+@みんな
+！！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+石見の指差す岩陰には小さな横穴が
+掘られていた。/
+[show B C]
+[show C C]
+[show D C]
+[face B 02]
+[face C 00]
+[face D 02]
+[setline C B D]
+[order B 2]
+[order C 1]
+[order D 0]
+[say B]
+すごい！　さすが石見！
+穴掘りの達人だ！/
+[say C]
+[face C 09]
+あれだけ言われてもなお穴を掘るとは
+さすがに肝が据わっとるのぉ！[shake C]　/
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.2]
+[delay 0.3 move D Y 10 0.1]
+[delay 0.4 move D Y -10 0.2]
+[delay 0.6 move D Y 10 0.1]
+[delay 0.7 move D Y -10 0.3]
+[autotap]/
+[face D 01]
+[say D]
+へへ、でもだいぶ暗ぁ。螺灯もなかったけぇ……
+こんだけしか掘れんかったけぇね。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bgm fun]
+[minibg doukutsu]
+[-]
+[show B C]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[scale B 1.5]
+[scale C 1.5]
+[scale D 1.5]
+[scale R 1.5]
+[scale S 1.5]
+[setline 0 R C B D S]
+[move B XY 0 -250]
+[rotate R -10]
+[move C XY 30 -150]
+[move D XY -30 -150]
+[move R XY 10 -30]
+[move S XY -10 -20]
+[rotate S 10]
+[order R 0]
+[order S 0]
+[order D 2]
+[order C 1]
+[order B 3]
+[face B 04]
+[face C 08]
+[face D 04]
+[face R 04]
+[face S 06]
+[say B]
+[fadeout 0.5]
+[-]
+[shake B]
+[-]
+[se cloth_01]
+[serif on]
+ちょ、備後、もう少し奥、詰めてよ……/
+[face C 04]
+[say C]
+[shake C]
+むぅぅ……もう無理じゃあ！/
+[face D 06]
+[say D]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+やっぱり狭すぎじゃったなぁ……
+ごめんなぁ。しかも……暑いのぉ……/
+[waku on 0.5]
+[face B 06]
+[say B]
+[se cloth_04]
+（ほっぺに石見の胸が当たってる……
+　しっとりしてて……ちょっとやらしい……）/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 09]
+[flow]
+（備後はぽよぽよしてて柔らかくて……
+　石見はみっちりして弾力があって……）/
+[effect fr kiri a 0 0]
+[minibg emo_donyori 0.5]
+[face B 04]
+[flow]
+（でも、男数人で寝てるからかな……[shake B]
+　正直……変な匂いが……）/
+[waku off]
+[face C 05]
+[say C]
+[move C Y 100 0.1]
+[delay 0.1 move C Y -100 0.2]
+……誰かおならしたじゃろ！
+臭うけぇ！！/
+[face D 05]
+[say D]
+[bgm departure]
+[effect fr syutyu b 0 0]
+……違ぉとる……これは……！！
+みんな、早ぉ起きらぁ！[shakebg][face B 05][face S 05][face R 05]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se walk_03]
+[hideall]
+[effect off a]
+[effect off b]
+[minibg sky_star]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+石見に急かされ一行は慌てて穴から飛び出した。/
+[serif off]
+[show D C]
+[face D 09]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[-]
+[move D Y -10 0.2]
+[delay 0.2 move D Y 10 0.2]
+[say D]
+[-]
+[face D 08]
+[serif on]
+これは何かの瓦斯じゃねぇ。
+危なぁとこじゃったよ。/
+[show B L]
+[face B 08]
+[setline 0.5 B D]
+[talk B]
+ガス……
+ていうことは、もしこのあたりで寝てたら……/
+[show C L]
+[move C X -200]
+[setline 0.5 C B D]
+[orderline B C D]
+[say C]
+[face C 08]
+爆死……[se taiko_02][shake C]じゃな！/
+[say B]
+[face B 05]
+いや、火元がなかったらいきなり爆発は
+しないよ！？/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 04]
+[say D]
+死にはしなぁと思うが、
+意識失うか……仮死状態になっとったかもしらん。/
+[bgm journey]
+[face C 11]
+[say C]
+……ほぉー……[move C Y 20 0.4][delay 0.6 move C Y -20 0.2]
+危ないとこじゃったなぁ！！[face C 09]/
+[say B]
+[face B 08]
+仮死状態……/
+[face B 03]
+[say B]
+[shake B]
+もしかして、あの五人は……
+仮死状態だっただけ……？/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 00]
+[say D]
+じゃけど、村人は心臓が止まって
+冷とぉなっとったって、言うとったよ？　/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 11]
+[say C]
+どがいかのぉ～。村人も素人じゃけぇ、
+誤診もあるかもしれんけぇのぉ。/
+[talkend]
+[hideall]
+[se walk_01]
+地魂男児たちはひとまず安全な場所へと移動した。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>5/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set T s_m005_m 村人]
+[fadein black 0]
+[bgm off]
+[-]
+[bg sky_day]
+[bgm journey]
+[se water_04]
+[-]
+[fadeout]
+[-]
+[serif on 0.5]
+[talkend]
+翌朝/
+[show B C]
+[show C C]
+[face B 05]
+[face C 08]
+[bg mbg_map 0.5]
+[minibg hamabe 0.5]
+[talk C]
+[setline C B]
+んで、兄貴はどがいしたらええと
+思うんじゃ？/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 08]
+[talk B]
+……そうだね、まずは
+証拠を、探したいんだ。/
+[face C 11]
+[say C]
+証拠ならワシが掴んだけぇ。/
+[face B 05]
+[say B]
+えっ！？　[shaek B]い、いつの間に……！？
+どんな証拠を！？[move B X -50 0.3][delay 0.3 shake B]/
+[scale B 1.6 0.2]
+[scale C 1.6 0.2]
+[moveline B C 0 -140 0.2]
+[face C 03]
+[say C]
+今朝のご飯をつまみ食いしたんは$S:Cじゃ！[shake C]
+じゃけ叱ってやってくれ！[se taiko_02]/
+[face B 08]
+[say B]
+あれ待っていまなんの話してたの！？
+なんか行き違いがありそうだよ！？[shake B]/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[say C]
+[face C 11]
+なんじゃ？　むしろ兄貴はひとりで
+何の話をしとったんじゃ？/
+[face B 08]
+[talk B]
+任務だよ！[shake B]　「この歴史覚醒域の原因が、喰魂だか
+霊種だかの仕業だっていう証拠を探したいの！/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 11]
+[say C]
+ふんふん、それで？
+どがいして証拠を見つけるんじゃ？/
+[face B 04]
+[talk B]
+……そ、それを……
+考えてるんだよ……！[shake B]/
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+[autotap]/
+[face C 09]
+[say C]
+なんじゃー、兄貴もお手上げかー。
+やっぱし計画は穴だらけじゃ～。/
+[move C X -150 0.3]
+[move B X -200 0.3]
+[show D R 0.3]
+[scale B 1 0.3]
+[scale C 1 0.3]
+[moveline B C 0 140 0.3]
+[move D X 500]
+[move D X -500 0.3]
+[face D 02]
+[talk D]
+[order D 0]
+[order C 1]
+[order B 2]
+穴っ！？[shake D]
+穴ならおらが掘らぁ！/
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.2]
+[delay 0.3 move C Y 10 0.1]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.1]
+[delay 0.7 move C Y -10 0.3]
+[autotap]/
+[say C]
+[face C 02]
+これ以上穴だらけにしたら
+可哀想じゃ～っ。/
+[face B 03]
+[say B]
+も、もう！　[shake B]バカにして……！
+仕方ないだろっ。手がかりが途絶えたんだもん……/
+[face C 00]
+[say C]
+そろそろ、兄貴の得意のアレ。
+やったらどがいじゃ？/
+[face D 00]
+[say D]
+あれ？/
+[say B]
+……あ、あれ……って。[wait 0.5]だ、[face B 06]だめだよ……
+あれは、ふ、服がないとだし！[shake B]/
+[face C 02]
+[say C]
+[se cloth_01]
+[move C Y -10 0.2]
+[delay 0.2 move C Y 10 0.2]
+[-]
+[move C Y -10 0.2]
+[delay 0.2 move C Y 10 0.2]
+そがいなこともあろーかと～！[face B 04]
+ワシ、昨日の村で一着もろてきたんじゃ！/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 01]
+[say D]
+こりゃあ女性ものの着物じゃあね。
+……ん？[move D Y 10 0.1][delay 0.1 move D Y -10 0.1]/
+[talkend]
+備後の持つ服と備中を交互に見る石見。/
+[face B 06]
+[say B]
+……/
+[face D 05]
+[say D]
+[shake D 3 4 4]
+あ、これが噂の……！/
+[face B 08]
+[face D 06]
+[say B]
+そ、それは最後の手段っていうか……
+みんなの前だと恥ずかしいっていうか……[face B 06]/
+[face C 11]
+[say C]
+まあ、ワシはどっちでもええけ。
+そんなら$R:Cは何かいい案ないか！？[moveline B C S 200 0 0.5][show R L][orderline B C D R][move R X -200][delay 0.5 move C X -50 0.3][delay 0.8 shake C][move B X 200 0.3][move D X 200 0.3][face R 01]/
+[setline 0.5 R C B D]
+[face B 03]
+[face D 00]
+[face C 00]
+[say B]
+ちょ、ちょっと待って。[shake B]
+わかった。[shake B]わかったよ！/
+[se cloth_01]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+少しだけ待っててね。/
+[move B X 800 0.5]
+[hide B]
+[face C 02]
+[face R 02]
+[face D 00]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se cloth_01]
+[wait 1]
+[hideall]
+[-]
+[bgm dungeon]
+[fadeout 1]
+[-]
+[se walk_01]
+[serif on]
+[talkend]
+[effect fr kira 4000 0 0]
+[se kira_01]
+@備中
+き、着替えてきたよ……/
+[-]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[setline 0 R C D S]
+[order R 0]
+[order S 0]
+[order D 1]
+[order C 1]
+[face D 06]
+[face C 09]
+[face R 01]
+[face S 02]
+[-]
+[move C Y 10 0.1]
+[delay 0.1 move C Y- 5 0.1]
+[-]
+[move C Y 5 0.1]
+[delay 0.1 move C Y -5 0.1]
+[-]
+[move C Y 5 0.1]
+[delay 0.1 move C Y -10 0.1]
+[-]
+[say C]
+おぉっ。よぉ化けるもんじゃなぁ！
+ご主人も驚くじゃろうなぁ～！/
+[color C talk]
+@備中
+もう！　からかわないでよ！
+僕は真剣なんだから……！/
+[flow]
+@備中
+そ、それに事前に夏人さんには
+僕がじょ、女装するときは主には見せないでって/
+[flow]
+@備中
+頼んであるから、きっと、主には
+見えてないと思う。/
+[say C]
+[face C 11]
+なんじゃ～つまらんのぉ。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[say D]
+[face D 05]
+はぁ～……付け毛まで用意して……
+こりゃあ可愛らしい町娘じゃあ……[face D 02][shake D]/
+[flow]
+おしろいもバッチリ決まっとるね。
+よぉ似合うとるよ。備中。/
+[talkend]
+[face R 06]
+$Rも備中の女装姿に
+感心しているようだ。/
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+[autotap]/
+[say C]
+[face C 00]
+兄貴が着替えとる間に、色々準備しといたけぇ！
+これで兄貴は吉凶を占うことができるけぇな！/
+[color C talk]
+@備中
+そ、そのためにはこういう格好をしないと
+いけないんだけどね……/
+[flow]
+@備中
+べ、別に好きでこんな格好してるわけじゃ
+ないんだからね！[shakebg]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm eerie]
+[bg black]
+[minibg emo_donyori]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[se azuki_01]
+備中は釜の上にせいろを置き、
+その中にお米を入れた。/
+[se fire_01]
+[flow]
+蓋を乗せた状態で釜を焚き始める。/
+[se quake_01]
+[shakebg]
+[se quake_01]
+ゔゔゔゔぅ……
+釜からうなるような音が響く。/
+@備中
+……[wait 0.2]……[wait 0.2]……[wait 0.2]
+……[wait 0.2]……[wait 0.2]……[wait 0.2]……/
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[setline 0 R C D S]
+[order R 0]
+[order S 0]
+[order D 1]
+[order C 1]
+[face C 00]
+[face D 03]
+[face R 05]
+[face S 06]
+[say D]
+[setline]
+備中、つぶやくように祝詞を唱えとる……
+だんだん雰囲気が変わってきよったよ？/
+[face C 10]
+[say C]
+[shake C]
+おぉ、きとるきとる……/
+[face R 08]
+[face S 08]
+[talkend]
+周囲の地魂男児も備中を見守っている。/
+[face C 08]
+[say C]
+兄貴の占いは間違いないけぇ。
+何かしら得るものはあるはずじゃけ。/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 06]
+[say D]
+はぁ……さすがじゃね。
+なんか不思議と艶っぽく見えるのぉ……/
+[hide C]
+[hide D]
+[hide R]
+[hide S]
+[se amb_02]
+@備中
+……/
+[talkend]
+備中は無言で立ち上がり……/
+[textcolor RED]
+@備中
+死……[wait 0.5]体を……[wait 0.5]た……[wait 0.5]ど、[wait 0.2]れ。[se taiko_02]/
+[delay 0.5 shakebg]
+[show D C 0.2]
+[face D 03]
+[talk D]
+危なぁ！/
+[se cloth_06]
+[scale D 2.0 0.5]
+[move D Y -200 0.5]
+[shakebg]
+[-]
+[fadein WHITE 0.2]
+[hide D]
+[se dosa_01]
+[-]
+[delay 0.2 fadeout 0.1]
+[talkend]
+ふっと倒れ込んだ備中を
+石見は腕に抱きとめた。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg mbg_map]
+[minibg hamabe]
+[-]
+[fadeout 1.5]
+[-]
+[bgm journey]
+[serif on]
+[show B C]
+[rotate B -15]
+[move B Y -50]
+[show D C]
+[face B 07]
+[face D 03]
+[order B 3]
+[order D 2]
+[say D]
+……備中……
+大丈夫か？　目ぇ覚めたかね？/
+[face B 05]
+[say B]
+……え……あ……石見……？/
+[rotate B 0 0.3]
+[move B Y 50 0.3]
+[setline 0.5 B D]
+[say B]
+[face B 09]
+あ、だ、大丈夫！　だよ！！[se cloth_06][move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face B 05]
+あれっ、服、着替えてる……？/
+[show C L]
+[show R L]
+[show S R]
+[face R 00]
+[face S 00]
+[move S X 200]
+[move C X -200]
+[setline 1 R C B D S]
+[scale B 0.8 0.5]
+[scale C 0.8 0.5]
+[scale D 0.8 0.5]
+[scale R 0.8 0.5]
+[scale S 0.8 0.5]
+[moveline B C D R S 0 100 0.5]
+[autotap]/
+[say C]
+[face C 00]
+ワシと$R:Cで着替えさせたったけぇ。
+安心せぇ。/
+[shake B]
+[face B 06]
+[say B]
+ええっ！？　は、恥ずかし……/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[say C]
+[face C 10]
+朦朧としたまま自分から脱ぎ始めよったんじゃ。
+さすがにワシ焦ったけぇ……/
+[say B]
+[face B 04]
+えええ、[shake B]全然覚えてないや……
+あ、ありがとう備後、$R:B。[face B 01][face R 01]/
+[flow]
+[face B 08]
+それで、占いで僕、なにか言ってた？
+自分ではよく覚えてないんだけど……/
+[say C]
+[bgm comical]
+[face C 11]
+「包帯を断つ鳥」じゃと。/
+[effect syutyu a 0 0]
+[se zukkoke_02]
+[say B]
+[face B 05]
+ええええ！？[shake B]　どうして包帯……！？　
+ほんとにそんなこと言った！？[shake B]　$S:Bはどう？/
+[move S Y 5 0.2]
+[delay 0.2 move S Y -10 0.6]
+[delay 0.8 move S Y 5 0.5]
+[autotap]/
+[se taiko_02]
+[talkend]
+[face S 08]
+$Sは「交代で鳥取」と聞こえたという。/
+[shake B]
+[face B 06]
+[say B]
+だ、だめだ……占いをやった意味なしだこれ！[shake B]
+恥ずかしい思いしただけだーーー！[shake B]/
+[face D 01]
+[say D]
+[bmg off]
+おらは「死体を辿れ」ちゅーて
+聞こえたけどね……/
+[face B 08]
+[face C 00]
+[face R 01]
+[face S 01]
+[say B]
+[bgm journey]
+[shake B]
+はっ！！　そ、それだ！　一番それっぽい！
+意味が通じてる気がする！/
+[face C 00]
+[say C]
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+ほーん。
+死体ってーと、五人は生き返ったしのぉ。/
+[face D 08]
+[say D]
+ちゅーことは、足軽兵の死体のことかねぇ？/
+[hideall]
+[-]
+[talkend]
+地魂男児は地面に転がる討死した足軽兵の
+死体に目をやる。/
+転々と落ちるそれは、道標に見えた。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>6/
+[set A s_a002_m 火車]
+[set B s_a002_m 火車]
+[set T s_m006_m 渡守]
+[set S s_m006_m 渡守]
+[set Y s_obj_like イイネ]
+[set Z s_obj_likepoint イイネ]
+[fadein black 0]
+[bgm off]
+[bg black]
+[-]
+[title 第三節 ただの社畜やん]
+[-]
+[bgm journey]
+[minibg a002_sanzu]
+[waku on]
+[-]
+[fadeout 1.0]
+[waku off 1.5]
+[-]
+[talkend]
+[show B]
+[color B BLACK]
+[textcolor BLUE]
+[serif on 0.5]
+そんで、数週間前のことや。/
+[serif off]
+[show A C]
+[face A 13]
+[-]
+[hide B]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[talk A]
+[serif on]
+はぁ……はぁ……
+死体運んできたで～……疲れた～。/
+[show T C]
+[face T 00]
+[setline 0.5 A T]
+[talk T]
+チース。どもでぃーす～。
+お疲れさんでぃーす。/
+[face A 10]
+[talk A]
+ん？　渡守、変わったんか？
+いつもの奴とちゃうやん。/
+[talk T]
+あーはい。なんつかぁー？　
+前任、体調崩したらしいですね～。/
+[talk T]
+なーんか、何日も寝てなかったとかぁ～。
+自分、今日からなんで～よろしくおねがいします！/
+[hide T]
+[move A C 0.5]
+[talk A]
+……/
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[waku on]
+[hideall]
+[-]
+[fadeout 0.3]
+[show S C]
+[talk S]
+[name S 旧渡守]
+[-]
+[serif on]
+やぁ火車さん。これを一人で運んだのか？
+すごい量だな。/
+[serif off]
+[effect S love a 0 200]
+[shakebg]
+[show Y 0.3]
+[move Y XY 100 -50]
+[shake Y 1 5 5]
+[scale Y 1.1 0.2]
+[delay 0.3 move Y Y 100 1]
+[delay 0.8 hide Y 0.5]
+[se buff_01]
+[delay 0.8 show Z 0.3]
+[delay 0.8 orderline Z 26]
+[delay 0.8 scale Z 1.1 0.2]
+[delay 0.8 move Z X 100]
+[delay 0.8 shake Z 1 5 5]
+[delay 1 move Z Y 50 1]
+[delay 1.6 hide Z 0.5]
+[order T 1]
+[order Y 25]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[effect off a]
+[hide S]
+[-]
+[fadeout 0.3]
+[-]
+[show T C]
+[-]
+[serif on]
+ほんとうに尊敬しているよ。
+あんたと仕事ができて嬉しい。また会えるよな。/
+[serif off]
+[effect T love a 0 200]
+[shakebg]
+[show Y 0.3]
+[move Y XY 100 -50]
+[shake Y 1 5 5]
+[scale Y 1.1 0.2]
+[delay 0.3 move Y Y 100 1]
+[delay 0.8 hide Y 0.5]
+[se buff_01]
+[delay 0.8 show Z 0.3]
+[delay 0.8 orderline Z 26]
+[delay 0.8 scale Z 1.1 0.2]
+[delay 0.8 move Z X 100]
+[delay 0.8 shake Z 1 5 5]
+[delay 1 move Z Y 50 1]
+[delay 1.6 hide Z 0.5]
+[order T 1]
+[order Y 25]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[fadein WHITE 0.5]
+[serif off 0.5]
+[-]
+[effect off a]
+[waku off]
+[hideall]
+[-]
+[fadeout 1.0]
+[show A C]
+[face A 10]
+[talk A]
+[-]
+[serif on]
+……/
+[face A 13]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+そうか……あいつ……辞めたんかぁ……[wait 0.5]
+オレと仕事できて嬉しいとか言うとったのになぁ。/
+[flow]
+……なんや、寂しいもんやなぁ……/
+[serif off]
+[show T R]
+[move T X 300]
+[move T X -300 0.8]
+[delay 0.3 move A X -200 0.5]
+[face T 00]
+[talk T]
+[-]
+[serif on]
+[name T 渡守長]
+やー火車くん。いつもご苦労さん。/
+[face A 01]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、渡守長さんやん。
+こちらこそお世話んなってますー。[move A Y 5 0.2][delay 0.2 move A Y -10 0.6][delay 0.8 move A Y 5 0.5]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+……前の渡守の人、
+辞めはったんですねぇ……/
+[talk T]
+そうだね。
+彼は、根性が弱かった。/
+[face A 05]
+[se zukkoke_02]
+[talk A]
+[effect A syutyu a 0 200]
+[shake A]
+！/
+[talk T]
+[effect off a]
+頑張れば頑張っただけ成長できるのに勿体ない！
+もう一歩前に進めば真に魂的に成長できたのにね。/
+[move T X -100 0.2]
+[move A X -10 0.2]
+圧倒的成長……！！！[shake T]
+仏さんにはもうほんと、圧倒的感謝だよ……！/
+[face A 11]
+[talk A]
+そ、そやな……[wait 0.5]自分もそう思いますわ……！/
+[face A 12]
+圧倒的成長！！[shake A]　圧倒的感謝やで！！[shake A 2 3 3]/
+[show B L]
+[face B 04]
+[order B 0]
+[order A 1]
+[move B XY -80 100 0.5]
+[color B BLUE]
+（ほんまか……ほんまにオレは
+　そう思っとるんか？）/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bg sandou]
+[minibg off]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[se walk_01]
+[show A C]
+[face A 04]
+[talk A]
+[-]
+[serif on]
+……/
+[face A 06]
+[talk A]
+……そや、やっぱり渡守長さんが正しいわな……/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y- 5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+はは。体調崩して辞めたて……[wait 0.5]軟弱すぎへん？
+仕事もらいすぎて、無理してたて……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+仕事は生きがいやん。な、トラ……/
+[face A 09]
+@トラ
+にゃ～ん。/
+[face A 10]
+帰って寝よな。トラ。[move A X 300 1.0]
+……何時間かしたらまた仕事や……はよ寝な……[hide A]/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>7/
+[set B s_bic_m 備中]
+[set C s_bin_m 備後]
+[set D s_iwm_m 石見]
+[randomset R m @チーム -@NOW]
+[randomset S m @チーム -@NOW]
+[set T s_m002_m 死体]
+[fadein black 0]
+[bgm off]
+[-]
+[bg sky_day]
+[bgm journey]
+[se amb_10]
+[-]
+[fadeout]
+[-]
+[serif on 0.5]
+[talkend]
+死体は点々と落ちており、確かにどこかへと
+向かっているように感じられた。/
+[bg sandou 1.0]
+[-]
+[se walk_01]
+[show C C]
+[face C 10]
+[talk C]
+おぉ、これはひどい死体じゃのー……
+腕がないけぇ。/
+[show D C]
+[face D 04]
+[talk D]
+[setline 0.5 C D]
+あそこのはもう白骨化しとるけぇ、
+戦いも長ぁ続いとるんじゃね。/
+[show R L]
+[order R 0]
+[order C 1]
+[order D 2]
+[move C X 200 0.5]
+[move D X 200 0.5]
+[move R X -50]
+[face D 03]
+[say D]
+あ、そっちのは刀の刃が飛び出しとるけぇ
+気ぃつけんさい。[face R 05][move R Y 10 0.1][delay 0.1 move R Y -10 0.1]/
+[hideall]
+[show B C]
+[move B Y -50]
+[move B Y 50 1.0]
+[face B 04]
+[talk B]
+う、うぅ……みんな……[shake B]待って……/
+[serif off]
+[show C C]
+[show D C]
+[setline 0 C B D]
+[move C X 800]
+[move D X 800]
+[face C 05]
+[face D 05]
+[order B 3]
+[order C 2]
+[order D 1]
+[-]
+[move C X -800 0.6]
+[move D X -800 0.7]
+[se walk_03]
+[-]
+[shake B]
+[say C]
+[serif on]
+どがいしたんじゃ兄貴！/
+[face D 08]
+[say D]
+備中、顔色悪うなっとるみたいやね……
+ちっと休んだ方がええよ。/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[say C]
+[face C 11]
+ああ、あれじゃ……兄貴よくお腹痛くなるけぇ
+……撫でてやるとよくなるかもしれん。/
+[say D]
+[face D 02]
+[face B 05]
+[move D XY -10 -40 0.4]
+[rotate D 10 0.3]
+[se cloth_01]
+備中のお腹はやわらかいのぉ。
+ほれ、これで痛みはなくなったかね。[shake B 2 5 5]/
+[say C]
+[face C 02]
+[move C XY 10 -40 0.4]
+[rotate C -10 0.3]
+[se cloth_01]
+兄貴、どがいじゃ？　なーでなで。
+な～でなで～。痛いのとんで～け～。[shake B 2 5 5]/
+[say B]
+[face B 06]
+ちょ、ちょちょちょ待っ！　[shaek B 3 15 15]ふたりで
+両側からお腹撫でないで！？　/
+[delay 0.4 move C XY -10 40 0.3]
+[delay 0.5 rotate C 0 0.3]
+[delay 0.4 move D XY 10 40 0.3]
+[delay 0.5 rotate D 0 0.3]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[say C]
+[face C 10]
+要求が多いのぉ。/
+[say B]
+み、み、みんな[wait 0.5]……どうして平気なの！？[shake B]
+ぼ、僕、もぉ、[wait 0.5]死体、死体死体死体で、気分が……[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]/
+[face C 09]
+[say C]
+なんじゃそがいなことか。
+兄貴はやわじゃのー。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 01]
+[say D]
+無垢なんじゃね、ええことじゃと思うよ。/
+[say B]
+[shake B]
+うぅ……だって……死体が野ざらしにされてて……
+可哀想じゃないかぁ……[move B Y -50 1.0]/
+[face C 01]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+ほんじゃ、埋葬したったらええけ！/
+[face D 02]
+[say D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+穴！？　[move D X 200 0.3]穴ならおらが掘らぁよ！
+いくらでも掘ったるけぇ！/
+[face B 05]
+[say B]
+[shakebg]
+[se zukkoke_02]
+[effect B syutyu a 0 200]
+[move B XY 200 50 0.3]
+だ、だめ！　もし歴史に影響がでたらまずいから！
+基本何も触らない！　[move B X -300 0.3][face B 03]た、隊長命令だよ！/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[effect off a]
+[face C 04]
+[face D 06]
+[say C]
+兄貴は難儀じゃのぉ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se walk_01]
+[hide C]
+[hide D]
+[show B C]
+[face B 08]
+[wait 0.5]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[talk B]
+ねぇ、このあたりは妙に死体が多くない……？/
+[serif off]
+[show C C]
+[order C 2]
+[order B 3]
+[face C 11]
+[say C]
+[setline 0.5 C B]
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+[-]
+[serif on]
+んー？　右も左も前も後ろも死体だらけじゃ！[face C 09]
+どっちに進んだらええかわからんけぇ！/
+[show D R]
+[order D 1]
+[setline 0.5 C B D]
+[face D 08]
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[say D]
+確かに。[wait 0.5]死体を目印に歩いて来とぉわけじゃし……[wait 0.5][face D 00]
+はぁここが目的地じゃ、ちゅーことはなぁかね？/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 03]
+[say B]
+うーん……でも、たしかに何か
+ざわざわする感じがある……/
+[face D 01]
+[say D]
+またここでも、手分けして
+探索してみらぁ。/
+[face B 01]
+[say B]
+そ、そうだね。
+それじゃあ夕刻にここで集合で！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bgm dungeon]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[talkend]
+[textcolor BLUE]
+[serif on]
+地魂男児たちは手分けして探索することにした。/
+[serif off]
+[show R C]
+[show T C]
+[rotate T 90]
+[move T Y -100]
+[order R 0]
+[order T 1]
+[face R 08]
+[move R Y -100 1.0]
+[-]
+[move R Y -10 0.2]
+[delay 0.2 move R Y 10 0.2]
+[-]
+[move R Y -10 0.2]
+[delay 0.2 move R Y 10 0.2]
+[-]
+[serif on]
+[textcolor BLUE]
+[talkend]
+$Rはいくつかの死体に縄の跡を見つけた。[wait 0.5]
+引きずられたのか……[wait 0.5]死後についた跡のようだ。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[show C C]
+[scale C 2.0]
+[move C Y -400]
+[move C Y 200 0.5]
+[face C 02]
+[-]
+[textcolor BLUE]
+[serif on]
+備後は崖の上から死体の山を調べた。[wait 0.5]
+……死体の山が崩れた！[face C 05][shake C][-][se crash_03][delay 0.2 se dosa_01]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[se crash_03]
+[show B C]
+[show T C]
+[order B 3]
+[order T 1]
+[rotate T 70]
+[move T Y 800]
+[face B 05]
+[move T Y -800 0.6]
+[delay 0.4 shake B 5 10 10]
+[delay 0.4 se crash_01]
+[-]
+[textcolor BLUE]
+[serif on]
+いくつかの死体が下にいた備中に覆いかぶさった。[wait 0.5][hide T]
+……備中は悲鳴を上げ、失神した。[move B Y -100 1.0][hide B][se dosa_01]/
+[serif off 0.5]
+[hideall]
+[-]
+[show S C]
+[face S 05]
+[move S XY -10 -40 0.4]
+[rotate S 10 0.3]
+[-]
+[textcolor BLUE]
+[serif on]
+$Sは浜辺で見つけたのと同じ、猫と小さめの
+子供の足跡を見つけた。/
+[move S X -200 0.5]
+[rotate S 0 0.5]
+[face S 08]
+[textcolor BLUE]
+　何かを引きずっていたような跡もある。/
+[hide S]
+[serif off]
+[show D C]
+[move D R 1.0]
+[face D 08]
+[-]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[-]
+[textcolor BLUE]
+[serif on]
+$Dはざわざわする違和感の正体に気づいた。[wait 0.5]
+ここは霊脈の力が表出する場所。霊穴だ。[face D 02]/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[bgm off]
+[bg mbg_map]
+[minibg sky_sunset]
+[hideall]
+[se amb_09]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[talkend]
+……/
+[serif off]
+[-]
+[bgm journey]
+[show B C]
+[show C C]
+[show D C]
+[show R C]
+[show S C]
+[scale B 0.8]
+[scale C 0.8]
+[scale D 0.8]
+[scale R 0.8]
+[scale S 0.8]
+[face B 08]
+[face C 08]
+[face D 08]
+[face R 08]
+[face S 08]
+[setline 0 R C B D S]
+[moveline B C R D S 0 40 0]
+[orderline B C D R S]
+[wait 0.5]
+[-]
+[say B]
+[serif on 0.5]
+ここで得た情報を合わせると……/
+[say D]
+猫を連れた子供が……/
+[face B 04]
+[say B]
+なにか……[wait 0.5]多分、死体を引きずって……/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 02]
+[say C]
+霊穴まで来たんじゃなぁ！[wait 0.5]
+……ん？[face C 11]　なんでじゃ？/
+[talkend]
+……/
+[face B 08]
+[say B]
+備後、ここまで来たら
+大体の道筋は見えてるだろ？/
+[say C]
+[face C 08]
+…………む～～～。[shake C]わからん！！！[face C 03][shake C 2 5 5]/
+[say B]
+[face B 00]
+確かにまだ正体はわからない。
+でもこの行動は普通の人間の取る行動じゃない。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 00]
+[say D]
+ここが霊穴じゃってわかって来とるんだとしたら
+……それは普通の人間じゃなぁじゃね？/
+[face B 08]
+[say B]
+[face D 08]
+そのとおり！[shake B]　つまりもっけものか……
+やっぱりあやかしの線が濃厚だ。/
+[face B 04]
+[flow]
+そのあやかしはこう……
+霊穴に死体を運んでは棄て、運んでは棄て……？/
+[face C 11]
+[say C]
+……むぅ……なんでじゃ？/
+[face B 05]
+[say B]
+[shake B]
+それは……あやかしに聞いてみないと
+わかんないよ！/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 08]
+[say C]
+……むぅ……[wait 0.5]ワシもわからん！！[face C 04]
+謎解きは苦手じゃぁ！！！[shake C]　たいぎぃ！/
+[face D 01]
+[say D]
+相談してみらぁ。/
+[face B 05]
+[face C 09]
+[face R 05]
+[face S 05]
+[say B]
+えっ？/
+[face B 02]
+[face C 02]
+[face D 02]
+[face R 01]
+[face S 01]
+[say D]
+ここ、霊穴じゃもん。
+司令部と通信できらぁね。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>8/
+[set A s_a002_m 火車]
+[set B s_a002_m 火車]
+[set T s_m006_m 渡守]
+[set S s_m006_m 渡守]
+[fadein black 0]
+[bgm off]
+[bg black]
+[-]
+[se amb_01]
+[bg sky_day]
+[waku on]
+[-]
+[fadeout 1.0]
+[waku off 1.5]
+[-]
+[color B BLACK]
+[textcolor BLUE]
+[serif on 0.5]
+[talkend]
+さて……オレの仕事環境については
+よぉわかってもらえたことと思う。/
+[bg black 1.0]
+[minibg emo_donyori 1.0]
+[show B C]
+[mobe B Y -50]
+[textcolor BLUE]
+[color B BLACK]
+いよいよ、数日前のことや。/
+[bgm eerie]
+[shake B]
+@火車
+（なんや……体が動かへん……）/
+[textcolor BLUE]
+朝、目が覚めたオレはしばらくぼーっと空を
+見上げとった。/
+@火車
+……そろそろ仕事、始める時間や……
+起きて死体運ばな……う、うーん……/
+[serif off]
+[face B 09]
+[show A C]
+[minibg sky_day 0.5]
+[mobe A Y -50]
+[face A 09]
+[-]
+[hide B]
+[serif on]
+[talkend]
+[textcolor BLUE]
+トラがオレのほっぺをペロペロと舐めた。/
+[talk A]
+[shake A]
+あ、トラ……あかんあかん、くすぐったいがな。[face A 00][move A Y 50 0.3]
+……あ、なんや。普通に起きれるやんか……/
+[face A 10]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+なんやってん今の……まぁ、最近寝る時間も
+あんまとれんからなぁ。体がまだ寝とったんやろ。/
+[face A 12]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ほな、今日も仕事や仕事！！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[show A C]
+[face A 13]
+[minibg off]
+[bg sandou]
+[-]
+[fadeout 0.5]
+[talk A]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[serif on]
+はぁ……はぁ……はぁ……
+休んでる暇なんてあらへんで……/
+[serif off]
+[bg j02_main 1.0]
+[-]
+[face A 12]
+[talk A]
+[-]
+[serif on]
+[se zuru_01]
+圧倒的成長……[wait 0.5]圧倒的感謝……[move A X 100 1.0]
+圧倒的成長……[se zuru_01][wait 0.5]圧倒的感謝……[move A X 100 1.0]/
+[talkend]
+[se zuru_01]
+[show B C]
+[move B X 200]
+[color B BLACK]
+[face B 12]
+[order B 1]
+[order A 0]
+[textcolor BLUE]
+戦は激化しとる。もう何年にも渡って頻発しとる。
+今日も数えきれんほど、魂抜いた。[wait 0.5]拇印押した。[hide A]/
+[hide B]
+[-]
+[bg sandou 1.0]
+[serif off]
+[show A C]
+[face A 13]
+[talk A]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[serif on]
+はぁ……はぁ……でも、そのおかげで……
+オレはおまんまが食えるんや……/
+[face A 12]
+感謝や感謝……[wait 0.5]圧倒的……感謝……
+ええ言葉やで、ほんまに……/
+[show B C]
+[order B 0]
+[order A 1]
+[bg black 0.5]
+[minibg emo_donyori]
+[waku on 0.5]
+[move B XY -150 100 0.5]
+[say A]
+[color B BLUE]
+[face B 04]
+（ほんまに……[wait 0.5]ほんまに……？）/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[waku off]
+[minibg a002_sanzu]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show T C]
+[face T 00]
+[talk T]
+あーー！！[shake T]　火車の旦那ひどくないですかぁ！？
+さっきの、まだ生きてる人の魂じゃないですかぁ！/
+[show A C]
+[face A 05]
+[talk A]
+[setline 0.5 A T]
+え？/
+[face A 04]
+[say T]
+ちゃんと閻魔帳確認したんですかー！？
+なんかー[wait 0.5]俺が確認してないのが悪いっつって/
+[flow]
+[shake T]
+めーっちゃ怒られたんですけどぉー！
+まじありえなくねぇですか！！/
+[shake T]
+[flow]
+閻魔帳に載ってない人連れて来ちゃ
+だめですよ！！/
+[face A 13]
+[talk A]
+う、嘘やろ……[shake A]オレ、やらかしてもた！？/
+[face A 14]
+[move A X 100 0.2]
+……嵐の中、浜辺で倒れとったんや！
+みんな倒れてて……死んでる思うやん！！/
+[say T]
+[face A 04]
+……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+……いや、確認せんかったオレのせいや
+まじすまんわ……/
+[say T]
+[move T Y 10 0.4]
+[delay 0.4 move T Y -10 1.0]
+これ、五人も……俺知らないですよ。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[se walk_03]
+[-]
+[show A C]
+[-]
+[show S R]
+[move S X 500]
+[move S X -600 0.3]
+[move A X -150 0.5]
+[face A 00]
+[face S 00]
+[name S 渡守長]
+[say S]
+[-]
+[serif on]
+ちょちょちょ……ちょっと！！[shakebg]
+火車！！　キミ何やってんの！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+[talk A]
+あ、渡守長さん……[wait 0.5]なんか、今回はすんません……/
+[say S]
+[effect fr syutyu a 0 100]
+すんません、じゃないよ！[shakebg]　何百年この
+仕事やってんの！？　いや、だめでしょこれはー！/
+[flow]
+死んでない人、こんな……えぇ……？[shake S]
+どうすんの？　ねぇ、これ。どうするつもりなの？/
+[face A 13]
+[talk A]
+え、えーと……次からは、気をつけますんで……/
+[say S]
+[move S X -400 0.1]
+[move A X -200 0.2]
+次とかじゃないでしょ！　この人たちは！？/
+[face A 05]
+[talk A]
+[shake A]
+あわわ……い、急いで返して来ますぅ～！！！[se walk_03][move A X -800 0.2]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[waku off]
+[effect off a]
+[hideall]
+[bg sandou]
+[minibg off]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor BLUE]
+それが事の顛末や。/
+[flow]]
+[textcolor BLUE]
+慌てて魂は戻して、見つけた浜辺に返してきた。
+そのうち生き返るやろ。けど……/
+[flow]
+[textcolor BLUE]
+評価下げられたし来期は降格やいうて
+……[wait 0.5]給料も下がるらしい……/
+[show A C]
+[face A 04]
+[talk A]
+どない思う？　トラ。
+これ、オレが悪いんか？/
+[face A 09]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+@トラ
+にゃ～ん。/
+[face A 04]
+なんであんなにオレが怒られるねん……[wait 0.5]こんなん、
+こんなん絶対間違っとる……！！！[shake A]/
+[face A 05]
+[se amb_02]
+[effect fr kiesou a]
+[talkend]
+[bgm departure]
+[textcolor BLUE]
+そのとき、閻魔帳が光った。
+新しい死者が追加された合図や。/
+[se jutsu_01]
+[fadein WHITE 0.2]
+[-]
+[effect off a]
+[-]
+[delay 0.2 fadeout 1.0]
+[say A]
+[shake A]
+な、なんやこれ……[wait0.5]
+こ、こんなびっしり……多すぎるやん……[shake A]/
+[face A 04]
+[move A Y -100 1.0]
+[delay 1.0 se dosa_01]
+もう、あかん……[shake A]もう無理や……
+ミスして、降格して、給料も下がって……/
+[face A 10]
+その上こんな、おかしいやろ……[move A Y 100 1.0]/
+[shake A]
+[textsize 40]
+この仕事……[scale A 2.0 0.3][move A Y -100 0.3][-][face A 15][effect fr syutyu a 0 100]
+完全ブラックやないかぁああああーーーーー！！！[shake A][-][effect off a][effect fr syutyu b 0 400][shakebg][minibg off 0.3][bg sky_sunset 0.5][scale A 2.5 0.3][move A Y -1000 0.5][delay 0.5 fadein WHITE 1.0]/
+[serif off 0.5]
+[hide A]
+[bg black]
+[wait 1.5]
+[effect off b]
+[-]
+[fadeout 0.2]
+[-]
+[effect fr kieru a]
+[bgm boss]
+[delay 1.0 fadein WHITE 0.2]
+[se jutsu_01]
+[-]
+[effect off a]
+[minibg emo_donyori]
+[-]
+[delay 0.2 fadeout 1.0]
+[talkend]
+[-]
+[serif on]
+[textcolor BLUE]
+そのとき、オレの前に光りが現れた！
+不思議な力を放つそれは希望の光に見えたんや。/
+[show A]
+[face A 03]
+[scale A 1.6 0.3]
+[move A Y -140 0.3]
+[autotap]/
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 1.0]
+[textcolor BLUE]
+[se cloth_02]
+オレは思いっきりそれを掴んだ！！！[shake A]
+それは強く光を放ち、オレの体内に入って消えた。/
+[face A 00]
+[scale A 1.0 0.5]
+[move A Y 140 0.5]
+[textcolor BLUE]
+するとどうや？
+今までの絶望が嘘みたいに消えた！/
+[face A 03]
+[minibg emo_ikari 1.0]
+[textcolor BLUE]
+[se quake_01]
+そして頭は冴え渡り、ふつふつと怒りが
+湧いてきたんや。[shake A]/
+[talk A]
+全部思い出してみたけど、やっぱこれ
+悪いんはオレやないんちゃうか！？[shake A]/
+[effect A syutyu a 0 100]
+[face A 14]
+[scale A 1.5 0.3]
+[move A Y -130 0.3]
+仕事が多すぎんねん！　寝る暇ないねん！
+魂抜くとき閻魔帳確認する時間さえ勿体ないねん！/
+この状況はなんなんや！[shake A]
+うわ……[scale A 1.0 0.5][move A Y 130 0.5][face A 00][effect off a]めっちゃ頭が冴えてきたで……/
+[effect A syutyu a 0 100]
+[move A Y 20 0.4]
+[face A 03]
+これ全部、元はと言えば、渡守長が……[delay 0.6 move A Y -20 0.2][effect off a][face A 00]いや、
+ちゃうちゃう。それやとただの逆ギレや。/
+[face A 01]
+……元はと言えば、せや……[wait 0.5][move A Y 5 0.2][delay 0.2 move A Y -10 0.6][delay 0.8 move A Y 5 0.5]簡単なこっちゃ。
+問題は死人が多すぎるっちゅーことや！！[se taiko_01]/
+[face A 14]
+[effect A syutyu a 0 100]
+[scale A 1.2 0.3]
+[move A Y -60 0.3]
+つーことは、悪いのは……全ての元凶は
+人間なんちゃうんかぁあああ！？[se taiko_01]/
+[scale A 1.5 0.3]
+[move A Y -40 0.3]
+人間どもが殺し合うからなんちゃうん！？[se taiko_01]
+何百年経っても殺し合い、憎み合う……/
+[scale A 2.0 0.2]
+[move A Y -50 0.2]
+[face A 15]
+人間とは愚かな存在なんちゃうんか！？[shake A][se taiko_02]/
+[face A 00]
+[effect off a]
+……あかん、悟りにたどりついてもた……/
+[face A 15]
+[effect A syutyu a 0 100]
+[textsize 40]
+悪いのは……[wait 0.3]
+人間やぁあああ！！！！！！！！[shake A 5 10 10 10][se zukkoke_02]/
+[hide A]
+[-]
+[show B]
+[face B 02]
+[move B X 300 0.2]
+なんや、やる気が湧いてきたで！
+エネルギーチャージ完了！　24時間働けそうや！/
+[move B X -600 0.4]
+[face B 01]
+人間め、オレがぶっ殺し……[shake B]たらオレの仕事が
+増えんねん！！　[move B X 300 0.2]……どないしたろ！！/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

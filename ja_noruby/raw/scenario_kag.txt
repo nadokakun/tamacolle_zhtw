@@ -1,0 +1,661 @@
+>>10000/
+@加賀
+北陸道、加賀。[autotap]/
+[delay 1.0]
+[flow]
+[-]
+@加賀
+百万石のボクを扱うなら
+主にもそれなりの知性を要求するよ。/
+>>10001/
+@加賀
+ふぅーん？　[wait 1.0]何度も呼ぶなんて。
+まぁ、悪い気はしないね。/
+>>1/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+主、日本庭園を楽しみたいの？
+[face A 01]それならボクは兼六園がおすすめだね。/
+庭園の美しさはもちろん、水泉でありながら
+遠く金沢の街まで見下ろせる眺望は見事だ。/
+[face A 02]
+まさに六勝を兼ね備えた景観だね。
+[wait 0.5][move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face A 05]え、ボクと一緒に……？/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ごほん、ま、まぁ、いいけど……
+[wait 0.2][face A 06]……[wait 0.3]い、いつ行く？/
+>>2/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 10]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+わ、主、急に触らないでよ！
+[wait 0.3][face A 06]……ひ、人に見られるだろ。/
+[face A 01]
+ひがし茶屋街のお茶屋みたいに、プライバシーも
+確保されながら……/
+[face A 02]
+三味線の音に彩られた雅な空間なら
+ボクの気分も高まるかもしれないけど……/
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……ま、現在は観光地化されてるみたいだし、
+残念だったね。[wait 0.5][face A 10]ってまた触らない！[shake A 3]/
+>>3/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+主、食料はいつも潤沢とは限らない。/
+[face A 01]
+保存食も用意しておいたほうが
+いいんじゃないかな。/
+[face A 05]
+え？　[wait 0.5]まぁ、ボクも一応作り方知ってるよ。
+[face A 01]かぶら寿しっていう、なれ寿司の一種だけど。/
+[face A 02]
+必要なら言ってね。/
+>>4/
+[set A s_kag_r 加賀]
+[randomset B r @地魂男児 @あやかし @NPC -kag]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+まったく、この荘園の連中とは話が合うとは
+思えないね。/
+[flow]
+[face A 04]
+まあ、少しは話ができる相手がいればいいんだけど
+……高望みだよね。[face A 09]読書が一番かな。/
+[show B R]
+[move B X 200]
+[move B X -200 1.5]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[face A 06]
+[move A X -100 1.0]
+あ、$B:A……あ、えっと……[shake A]
+何か用？[face A 09]/
+[face A 06]
+よ、用がないなら、ボクは行くよ。[face B 05]
+本を読まないといけないんだ。[move A X -300 0.5][hide A]/
+>>5/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+はぁ。まるで動物園。知性っていうものが
+備わってないんだ。/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 06]
+……なんでみんなあんな風に下品な下ネタや
+くだらないジョークで楽しそうにしてるんだろう。/
+[flow]
+[face A 04]
+……[wait 0.5]　
+[face A 00]ボクには関係ない。/
+>>6/
+[set A s_kag_r 加賀]
+[show A L]
+[face A 00]
+[-]
+[move A X 200 0.6]
+[serif on]
+[talk A]
+ボクは平和な世界でずっと
+本を読んでいたいんだ。/
+[flow]
+[move A X 200 0.6]
+[-]
+[face A 04]
+……[wait 0.5]誰か、わかってくれないかな…/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+皆と一緒に食べるごはんは
+落ち着かないんだよね……/
+[flow]
+[face A 09]
+皆ガツガツしちゃってさ。/
+>>10/
+[set A s_kag_r 加賀]
+[randomset B r @地魂男児 @あやかし @NPC -kag]
+[show A C]
+[face A 09]
+[serif on]
+[talk A]
+……$B:Aと話したけど、
+[wait 0.5][face A 06]意外とちゃんと話ができた……/
+[flow]
+[face A 00]
+……[wait 0.5]　
+[face A 01]なんだか……嬉しいな……/
+>>11/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+あ、金粉の小瓶がもうなくなる……
+[face A 00]補充……は、明日になりそうだな。/
+[flow]
+[face A 04]
+明日の朝ごはんの時だけ
+我慢すればいいんだ……[shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 10]
+[-]
+[shake A 0.4]
+[serif on]
+[talk A]
+なんだよ皆、比べっことか……！/
+[flow]
+[face A 06]
+[shake A 0.5]
+ちょ、ちょっと身体の成長が遅いからって
+バカにされるいわれはない……！/
+[flow]
+[face A 08]
+……ボクは、そう
+[wait 0.3]加賀百万石なんだから……！！/
+>>15/
+[set A s_kag_m 加賀]
+[show A C]
+[face A 00]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+修練だなんて、野蛮だな。/
+[flow]
+[face A 04]
+ボクは頭脳派だから、こんなこと
+必要ないはずなんだけど……/
+>>16/
+[set A s_kag_m 加賀]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+（弓道は好きだ。
+　ただ一点を見つめ、集中……）/
+[flow]
+[se yumi_01]
+[scale A 2.0]
+[move A Y -150]
+[face A 03]
+（自分自身と向き合い、心を落ち着け
+　ただ、まっすぐに、射る……） /
+[flow]
+[serif off]
+[talkend]
+[fadein BLACK 0.4]
+[-]
+[wait 0.5]
+[se yumi_02]
+[fadecolor WHITE 0.1]
+[delay 0.1 fadeout 0.1]
+[shake A 2]
+[-]
+[scale A 1.0 0.3]
+[move A Y 150 0.3]
+[-]
+[serif on]
+[-]
+[talk A]
+[face A 01]
+まさに、ボク向きの武器
+[face A 02][wait 0.5]……だね。/
+>>17/
+[set A s_kag_b 加賀]
+[randomset B b @地魂男児 @あやかし @NPC -kag]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+お風呂上がりには、アイスクリーム……
+はぁ……なんて美味しいんだろう。/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 02]
+一日で一番幸せな時間だ……/
+[show B R]
+[face B 05]
+[face A 05]
+[setline 0.5 A B]
+あ、$B:A……[shake A]/
+[face A 09]
+[face B 01]
+……よ、よかったら、食べる？
+別に、いらないならいいんだけど……/
+[move B X -100 0.5]
+[face A 10]
+あ、余ってるだけだから！[shake A]
+一人だと食べきれないからってだけだからね！/
+>>18/
+[set A s_kag_b 加賀]
+[randomset B b @地魂男児 @あやかし @NPC -kag]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[se amb_12]
+[effect fr yuge a 0 0]
+ボクは一人でゆっくり入りたかったんだ。
+それをなんでわざわざ……/
+[flow]
+[se bath_01]
+[show B]
+[setline 0.5 A B]
+[talk A]
+[face A 05]
+……あ、$B:A……[shake A][face A 09][wait 0.3]いいよ、別に……
+[wait 0.6][face A 06][face B 01]嫌なわけじゃ、ないし……/
+>>19/
+[set A s_kag_b 加賀]
+[show A C]
+[face A 03]
+[se amb_12]
+[se bath_02]
+[effect fr yuge a 0 0]
+[serif on]
+[talk A]
+隠さない派の
+あの堂々とした感じはなんなんだよ……！/
+[flow]
+[face A 06]
+[move A Y -100 0.6]
+野生児じゃないんだから、せめてタオルを
+巻くのが礼儀じゃないのか……[se water_06][move A Y -50 0.5]ぶくぶく……[se bath_04]/
+>>20/
+[set A s_kag_r 加賀]
+[show A L]
+[face A 05]
+[move A X -600]
+[-]
+[move A X 950 0.5]
+[-]
+[move A X -80 0.1]
+[-]
+[serif on]
+[talk A]
+ふぅ……っ！[face A 04][shake A]
+危ないところだった。/
+[flow]
+[face A 03]
+まさかこのボクがおもらしなんて
+[shake A 3]……するわけにはいかない……！[se pee_01]/
+>>21/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[shake A 2]
+く……っ！　ぼ、ボクにかかれば、
+どんな状態でもおしっこくらい難なく……[se pee_01]/
+[flow]
+[scale A 2.3]
+[move A Y -200]
+[face A 05]
+……っ！！[shake A 5]/
+>>22/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+お尻をすぐにお湯でキレイにできるなんて
+ウォシュレットはとても良いものだ……/
+[flow]
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ひゃ！
+[wait 0.5][face A 10]強設定にしたの誰だ、おバカー！！/
+>>23/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+はぁ、ボク、こんな本
+なんでトイレに持ち込んじゃったんだ……/
+[flow]
+[se paper_01]
+……
+[wait 0.5]……/
+[flow]
+[move A Y -100 0.8]
+はぁ、こんな姿
+誰にも見せられない……[shake A 2]/
+>>24/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……ふぅ、今日は
+ここまで読んだら寝よう。/
+[flow]
+[face A 01]
+月の明かりでも結構読めるもの
+なんだよね。/
+>>25/
+[set A s_kag_r 加賀]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+……主、もっと……
+ん、すー、すー……/
+[talkend]
+寝言のようだ。/
+>>26/
+[set A s_kag_r 加賀]
+[randomset B r @地魂男児 @あやかし -kag -@NPC]
+[se fusuma_03]
+[show A R]
+[face A 06]
+[move A X -300 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+……はぁ。/
+[face A 06]
+$B:Aが急に乗っかってきてびっくりした……
+しかも……[wait 0.5]あ、あんな手付きで……[shake A]/
+[flow]
+[face A 04]
+……どうせ寝ぼけてたんだろうけど……
+[face A 06][shake A 3]うぅ……悶々としちゃうじゃないか……！/
+/
+>>100/
+[set A s_kag_r 加賀]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 加賀と本]
+[-]
+[bgm home]
+[bg mbg_map]
+[minibg syouen_syoko]
+[-]
+[fadeout]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+荘園の一角にある書庫。
+その蔵書は膨大だ。/
+[flow]
+[textcolor ARUJI]
+歴史書から伝記、専門書に実用書、さらには娯楽書
+まで、あらゆるジャンルの書物が網羅されている。/
+[flow]
+[textcolor ARUJI]
+電子書籍でしか流通していないものでも、この荘園
+では実際の本と同じように、本棚に並ぶらしい。/
+[serif off]
+?どうやってこんなに集めてるんだろう/
+[serif on]
+[textcolor ARUJI]
+今日は空いた時間に読む漫画や
+ライトノベルを探しにきた。/
+[flow]
+[textcolor ARUJI]
+気になった本を何冊か選び手に取っていく。/
+[se paper_01]
+[wait 0.5]
+[show A C 1.0]
+[move A Y -50]
+[face A 09]
+[serif off]
+[wait 1.0]
+[serif on]
+[textcolor ARUJI]
+すると、椅子に腰掛けて
+本を読む加賀の姿が目に入った。[se paper_01]/
+[serif off]
+?加賀/
+[face A 00]
+[wait 1.0]
+[-]
+[serif on]
+[talk A]
+ん……？　やぁ、主。/
+[talkend]
+[textcolor ARUJI]
+加賀は顔を上げてこちらを見る。/
+[serif off]
+?読書中？/
+[face A 09]
+[talk A]
+[serif on]
+まあね。
+荘園の中だとここが一番静かでいいからね。/
+[serif off]
+?加賀と少しおしゃべりする/
+[face A 03]
+[serif on]
+ばっバカ主。[shake A]
+図書館で喋るなんて、マナー違反だろ。/
+[serif off]
+?ここは書庫だし/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 00]
+[serif on]
+屁理屈だね。
+……まぁ、いいよ。少しだけなら。/
+[talkend]
+[textcolor ARUJI]
+加賀は持っていた本をたたみ、
+机に上に置いた。/
+[face A 01]
+[talk A]
+ところで、
+主はここに本を借りに来たの？/
+[serif off]
+?うん、休憩中に読むものを/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 00]
+[serif on]
+ふーん。/
+[talkend]
+[textcolor ARUJI]
+加賀はメガネを上げ、
+こちらが手に持つ本を眺める。/
+[face A 08]
+[talk A]
+……へぇ。
+そういうのが好きなんだ。/
+[serif off]
+?だ、ダメ……？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 00]
+[talk A]
+[serif on]
+別にいいと思うよ。本に貴賤なし。
+ボクもそういうの読むときもあるよ。
+/
+[face A 01]
+それに、どんな書物からでも、
+学ぶものはあるからね。/
+[face A 09]
+でも……/
+[move A Y 50 1.0]
+[move A X 250 2.0]
+[talkend]
+[textcolor ARUJI]
+加賀は椅子から立ち上がった。/
+[face A 01]
+[talk A]
+あなたもボクの主になったからにはもっと
+幅広く色々な分野の勉強もしてもらわないと。/
+[flow]
+ついて来て。[move A X 300 1.0][delay 0.3 hide A][se walk_01]/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[talkend]
+[hideall]
+[se walk_06]
+[-]
+[fadeout 1]
+[-]
+[serif on]
+[textcolor ARUJI]
+加賀について書庫の奥まで歩いて行く。/
+[serif off]
+?迷子になりそうだ……/
+[show A]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on]
+まっすぐ来ただけだから大丈夫。
+でも……ボクの側から離れないことだね。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+迷子になるのは嫌なので小さな加賀の
+後ろにぴったりとくっついて歩くことにした。/
+[show A 1.6]
+[scale A 1.6]
+[move A Y -100]
+[face A 10]
+[say A]
+ちょ、くっつきすぎ！[shake A]
+主なんだからシャンとしなよ！　もぉ……！[face A 03]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+…………まったく。
+頼りにならないんだから……/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[light def]
+[lightcolor blue]
+[show A]
+[face A 09]
+[fadeout 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+これと……これ……[wait 0.5]……よし。/
+[scale A 1.5 1.0]
+[move A Y -100 1.5]
+[face A 01]
+はい。[se dosa_01]
+今の主に必要な本を5冊、選んであげたよ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+加賀に渡された本は、戦術指南や自然科学などの
+専門書で、どれも分厚く難しそうだ……/
+[show A C]
+[scale A 1.5]
+[move A Y -100]
+[face A 01]
+[talk A]
+休憩時間に読んでおいてね。
+明日また別に5冊選んで持っていくから。/
+[serif off]
+?えええ……/
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+どれも入門書だよ。それくらいの
+知識は頭に入れておいてくれないと。/
+[face A 01]
+ま、ボクの主なんだから、
+これくらいできるって信じてるよ。[move A X -100 1.0]/
+[face A 09]
+じゃ、ボク、続きを読みたいから。/
+[move A X -300 1.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+そう言うと、加賀は再び椅子に腰掛け
+手元の本を開いた。[se paper_01]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+?一日で読めるかなぁ……/
+[serif on]
+@加賀
+……ボクを失望させないでよね？　主。/
+[fadein black 2]
+[autotap]/
+[textcolor ARUJI]
+背中越しに加賀の声が聞こえた。/
+[textcolor ARUJI]
+加賀の期待に応えるためにも、
+今晩は気合を入れて読むことにした。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

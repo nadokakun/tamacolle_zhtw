@@ -1,0 +1,720 @@
+>>0/
+((s))
+[set W s_san_m 讚岐]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_a011_m ぬらりひょん]
+[fadein black 0]
+[bgm off]
+[bg white]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+((m))
+[set W s_mus_m 武藏]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_a011_m ぬらりひょん]
+[fadein black 0]
+[bgm off]
+[bg white]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_a011_m ぬらりひょん]
+[fadein black 0]
+[bgm off]
+[bg white]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+[bg white]
+[bgm will]
+[se snow_02]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor RED]
+夢——[wait 1.0]
+我有一個夢想/
+[textcolor RED]
+[flow]
+傾盆大雨[wait 0.5]
+不，箭雨/
+[textcolor RED]
+[fadein RED 0.2]
+[delay 0.2 fadeout 0.1]
+[se yumi_02]
+[delay 0.1 se zuba_01]
+[delay 0.4 fadein RED 0.2]
+[delay 0.6 fadeout 0.1]
+[delay 0.3 se yumi_02]
+[delay 0.4 se zuba_01]
+[flow]
+一個親近我的人，一個我認識的人，一個對我大喊大叫的人，
+害怕的人、逃跑的人、放棄的人。/
+[textcolor RED]
+[flow]
+箭矢平等地落在每個人身上/
+[textcolor RED]
+[flow]
+留下來的只是一具屍體/
+[textcolor RED]
+[flow]
+被血、肉和器官覆蓋，
+難聞的氣味會刺激你的鼻子內部/
+[textcolor RED]
+[flow]
+在被血染紅的河流裡
+我獨自顫抖/
+[textcolor RED]
+[flow]
+我的手越來越冷
+我再也沒有抓住過它/
+[textcolor RED]
+[flow]
+就是這樣.../
+[textcolor RED]
+[flow]
+――[wait 0.5]那種事[wait 0.5]我有一個夢想/
+[fadein black 5]
+[serif off 3]
+[-]
+[wait 2]
+[bgm off]
+[title プロローグ 夢]
+[-]
+[autotap]/
+((s))
+[bg heya_day]
+[wait 1.0]
+[-]
+[se fusuma_01]
+[bgm home]
+[fadeout 1.5]
+[-]
+[serif on]
+[show W C]
+[face W 00]
+[talk W]
+主人~我準備好了！/
+((m))
+[auto]
+嘿將軍！
+我準備好了！/
+((e))
+[auto]
+師父！準備好！/
+((s))
+[face W 01]
+從今天開始，新的淨化任務…！
+嘿嘿，我會盡力的！/
+((m))
+[auto]
+從今天開始我有一個新的清潔任務。
+我就算留下來也不能留在這裡！/
+((e))
+[auto]
+從今天開始，我將開始新的淨化任務。
+我的肌肉在咆哮…！/
+((s))
+[face W 12]
+[serif off]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+我也去了很多地方，
+我想我已經習慣旅行了.../
+((m))
+[auto]
+呵呵，這會是一場怎樣的旅行呢？
+將軍也很期待…？/
+((e))
+[auto]
+……不過，我還是有很多不成熟的地方。
+我每天都在訓練！/
+[move W Y 20 0.4]
+[delay 0.6 move W Y -20 0.2]
+[autotap]/
+((s))
+[face W 00]
+所以請大家注意安全並關注我！
+師父！/
+((m))
+[auto]
+嗯，至於使命
+這次也該交給我了！/
+((e))
+[auto]
+尤其是這次任務...[wait 0.5]我會打起精神繼續前進
+師父！我要你監視我！/
+[serif off]
+？我指望你了。/
+((s))
+[serif on]
+[face W 01]
+好吧，我們走吧！/
+((m))
+[auto]
+好吧，我們走吧！/
+((e))
+[auto]
+是的！我們走吧！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[show G C]
+[face G 01]
+[talk G]
+嘿，我一直在等待。/
+((s))
+[show W R]
+[face W 13]
+[talk W]
+[setline 0.5 G W]
+發生了什麼事？雙。
+在這樣的地方/
+((m))
+[show W R]
+[face W 13]
+[say W]
+[setline 0.5 G W]
+哦？是不是很漂亮？
+這是怎麼回事？/
+((e))
+[auto]
+嗯，比。
+怎麼了？　在這樣的地方。/
+[face G 03]
+[say G]
+怎麼了？
+我也是你的“朋友”，對嗎？/
+[move G Y 10 0.4]
+[delay 0.4 move G Y -10 1.0]
+[autotap]/
+[face G 11]
+這是一個和你的主人在一起的好機會
+我本來想享受早晨的散步，但是…/
+((s))
+[face W 03]
+[say W]
+[move W X -50 0.3]
+嗯，那裡有一個人，
+我不會丟下你一個人跟主人在一起！/
+((m))
+[auto]
+嘿，真可惜！只要我和你在一起
+我不會讓你們兩個孤單的！/
+((e))
+[auto]
+真是可惜……不過既然我來了……
+我不會丟下你一個人在師父身邊！/
+[move G Y 10 0.1]
+[delay 0.1 move G Y -10 0.2]
+[delay 0.3 move G Y 10 0.1]
+[delay 0.4 move G Y -10 0.2]
+[delay 0.6 move G Y 10 0.1]
+[delay 0.7 move G Y -10 0.3]
+[autotap]/
+[face G 02]
+[say G]
+哈。可怕，可怕。但是$W、
+你會在入口處的鳥居前等候吧？快點走吧。/
+((s))
+[say W]
+[shake W]
+嗯……！　[se cloth_06][scale W 1.5 0.3][move W XY -150 -100 0.3][move G X -50 0.3][hide G 0.3]師父！紀念品！　
+我買它！ ！我不會給畢的！/
+((m))
+[auto]
+嘿，今天我要特別例外！[se cloth_06][scale W 1.5 0.3][move W XY -150 -100 0.3][move G X -50 0.3][hide G 0.3]
+將軍，別太關注這傢伙了！/
+((e))
+[auto]
+呃...[wait 0.58]師守！[se cloth_06][scale W 1.5 0.3][move W XY -150 -100 0.3][move G X -50 0.3][hide G 0.3]　……我去！
+請小心那個Bii！/
+[serif off]
+？小心點。/
+[hide W]
+[talkend]
+[se walk_02]
+[-]
+[serif on]
+$W揮揮手就跑了。/
+[show G C]
+[face G 00]
+[talk G]
+嗯……我們終於單獨在一起了。/
+[face G 11]
+總有人在你身邊
+因為有一個地魂少年…/
+[scale G 1.5 0.5]
+[move G Y -100 0.5]
+[flow]
+[face G 08]
+無論你多麼遲鈍，對我來說都毫無意義
+你知道你不會加入這個團隊，對嗎？/
+[serif off]
+?………/
+[face G 07]
+[flow]
+[serif on]
+別那麼小心。不用擔心。
+至少現在，我是站在你這邊的。/
+[face G 01]
+[talk G]
+[flow]
+這是一項關乎人類生存的使命。
+你絕對不會妨礙你的，對吧？/
+[serif off]
+？為了某種目的…？/
+[move G Y 10 0.4]
+[delay 0.4 move G Y -10 1.0]
+[autotap]/
+[face G 11]
+[serif on]
+我不能誠實地說。章魚。
+現在不是擔心事情的時候，對嗎？/
+[face G 03]
+[flow]
+你只是
+你只需要做好你的工作。/
+[face G 02]
+[flow]
+[move G Y 10 0.1]
+[delay 0.1 move G Y -10 0.1]
+好吧，讓我們來欣賞一下吧。
+那麼，我們就去指揮室吧。/
+[fadein]
+[serif off]
+[-]
+[bgm rokuhara]
+[hideall]
+[bg shirei_day]
+[-]
+[se fusuma_01]
+[fadeout]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[show A C]
+[face A 00]
+[talk A]
+[serif on]
+啊，到了。
+B君也在嗎？他準時。/
+[show G L]
+[face G 01]
+[talk G]
+[setline 0.5 G A]
+我打擾你了嗎？
+我要坐在後面嗎？/
+[serif off]
+[hide A]
+[-]
+[show D R]
+[mvoe D X 300]
+[face D 01]
+[talk D]
+[order D 0]
+[order G 1]
+[delay 0.2 move D X -350 0.5]
+[delay 0.5 move G X -100 0.3]
+[face G 05]
+[autotap]/
+[serif on]
+很高興認識你！ B君！
+我有很多事情想問B君！/
+[face G 09]
+[talk G]
+[shake G]
+所以你的壓力才那麼大！
+離開一段時間。/
+[serif off]
+[show B L]
+[move B X -1000]
+[face B 08]
+[-]
+[se fusuma_01]
+[move G X 1050 0.8]
+[move D X 1000 0.8]
+[move B X 1000 0.8]
+[autotap]/
+[talk B]
+[serif on]
+對不起，對不起！等等...[wait 0.5]
+呸！[shake B 2 5 3][face B 05]　不知道羽鳥同學還好嗎…[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]/
+[show C R]
+[hide G]
+[hide D]
+[face C 01]
+[talk C]
+是不是有什麼問題？/
+[face B 10]
+[talk B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+不，這不是問題……！
+這次任務看起來將會是漫長的旅程，所以.../
+[face B 06]
+[flow]
+營養補充食品...
+我帶來了...[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]/
+[hide C]
+[-]
+[show A R]
+[face A 13]
+[talk A]
+[setline 0.5 B A]
+貓野先生...
+這不只是零食嗎？/
+[face A 03]
+[effect A syutyu a 0 200]
+我不看電影！ ？
+壓力好小啊！[se doka_01][move A X -200 0.2]　沒收！ ！[move A X 100 0.3][se cloth_06]/
+[face B 04]
+[say B]
+[effect off a]
+[shake B]
+嘿！
+不是這樣的！/
+[face A 12]
+[say A]
+我向你展示了醜陋的部分...
+讓我簡單回顧一下這次任務。/
+[say A]
+[bgm departure]
+[flow]
+[face A 14]
+正如我們在課堂上學到的，歷史區域通常有不同的時代。
+據說，距離越遠，送靈就越困難。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 08]
+[say B]
+特別是向平安時代以前的歷史地區進行精神傳送
+看來技術要求還蠻高的。/
+[hide B]
+[serif off]
+[bg black 0.5]
+[minibg chizu_hokurikudo 0.5]
+[move A XY 300 -150 0.5]
+[scale A 1.5 0.5]
+[face A 00]
+[-]
+[say A]
+[serif on]
+這次大約是1180...
+我們將帶您穿越平安時代末期的北陸道路。/
+[flow]
+[face A 08]
+靈魂傳送到最遙遠的時代…
+我認為這是相當困難的。我們不能放鬆警戒。/
+[bg shirei_day 0.5]
+[minibg off 0.5]
+[hide A]
+[-]
+[show C]
+[say C]
+[face C 03]
+………………/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 01]
+[flow]
+重足君也得到了實驗室團隊的支援。
+既然你做得這麼好，那我們就盡力吧。/
+[hide C]
+[-]
+[show A]
+[show B]
+[face A 02]
+[face B 01]
+[say A]
+[setline B A]
+沒錯。讓我們盡力而為吧！/
+[flow]
+[face A 01]
+下面我就為大家介紹一下這次任務的具體內容和行程。
+貓之屋桑，請。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[hide A]
+[face B 09]
+[say B]
+哦。正如我所說，這次
+他們的傳教地點是平安時代末期的北陸道。/
+[hide B]
+[serif off]
+[bg mbg_syouen 0.5]
+[minibg chizu_hokurikudo 0.5]
+[wait 1]
+[se paper_01]
+[minibg chizu_hokurikudo_place 0.5]
+[wait 1]
+[-]
+[serif on]
+@貓屋
+現代滋賀縣琵琶湖的彥根市。
+作為旅程的起點.../
+[flow]
+@貓屋
+一路經過石川和金澤
+進入富山，然後進入新潟。/
+[flow]
+@貓屋
+糸魚川之外，直江津就是這次旅行的目的地。
+這就是目的地。/
+[flow]
+北陸高速公路作為高速公路繼續延伸，但是
+為了這次任務，我會在此時設定一個結界。/
+[show B L]
+[face B 08]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[flow]
+然而，距離約為300公里。這取決於具體情況
+請做好心理準備，可能需要 10 天左右的時間。/
+[minibg off 0.5]
+[bg shirei_day 0.5]
+[show A R]
+[face A 11]
+[hide B]
+[talk A]
+根據觀察小組的報告，比其他歷史地區還要多。
+似乎觀察到了高濃度的雜質。/
+[flow]
+[face A 08]
+無論何時成為歷史覺醒區
+這並不是什麼奇怪的情況.../
+[flow]
+[face A 00]
+讚岐就像高速公路上的時光
+在盡可能少走彎路的同時，/
+[face A 01]
+[flow]
+直奔目的地
+我們也會支援你。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[minibg off]
+[bg shirei_day]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[shakebg]
+[se dosa_01]
+[talkend]
+夏天一如既往
+桌上攤開了大量的材料。/
+[show A C]
+[face A 12]
+[talk A]
+這些是豬森先生收集的各種資料。
+到目前為止還有什麼問題嗎？[face A 01]/
+[serif off]
+？沒關係/
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[bgm ascending]
+[serif on]
+好，那我們就開始靈性的傳送吧。
+我會戴上戒指。/
+[flow]
+[face A 08]
+這一次，這是一個技術上達到極限的歷史區域。
+送酒時要比平常更集中。/
+[se pi_01]
+[hide A]
+[se rokuhara_05]
+[talkend]
+[textcolor BLUE]
+系統，連結啟動.../
+[flow]
+[se rokuhara_04]
+[textcolor BLUE]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.1]
+[effect fr reiryoku R 0 170]
+精神力連結——…[wait 0.5]　……[wait 0.5][se pi_01]
+連線完成，[wait 0.5]聽音者：無異常。/
+[show A C]
+[face A 00]
+[talk A]
+數字很穩定。你準備好了嗎？/
+[serif off]
+？點點頭/
+[playeryes]
+[-]
+[face A 08]
+[serif on]
+[flow]
+那麼，羽鳥先生。/
+[hide A]
+[-]
+[show C C]
+[face C 01]
+[talk C]
+今天，1215，[wait 0.5]
+開始「淨化」任務！/
+[hide C]
+[show A C]
+[face A 01]
+[talk A]
+[delay 0.3 se pi_01]
+[se rokuhara_04]
+系統啟動。靈力迴圈，
+檢查並清除相互連線。/
+[serif off]
+[hide A]
+[-]
+[show G C]
+[face G 02]
+[talk G]
+[-]
+[serif on]
+……每次看到都會笑。
+聽音術……是不是很強大……/
+[serif off]
+[hide G]
+[-]
+[show A C]
+[face A 08]
+[talk A]
+[-]
+[serif on]
+現在，讓我們做一下技術......！/
+[serif off]
+?陰陽術、擴充套件/
+[hide A]
+[effect fr kiesou a]
+[bg black 1.5]
+[textcolor blue]
+[talkend]
+[-]
+[serif on]
+——清龍[wait 0.1]・白虎[wait 0.1]・朱雀[wait 0.1]・現武[wait 0.1]・科亨[wait 0.1]・
+　　帝泰[wait 0.1]・布努[wait 0.1]・3個單元[wait 0.1]・多摩恩納[wait 0.1]――……/
+[textcolor blue]
+陰陽術、發展...[wait 0.5]
+精神壓縮。[wait 0.5]知識、自動除霜/
+[bg shirei_day 0.5]
+[show A C]
+[face A 08]
+[talk A]
+靈脈境界，結界完成。[wait 0.5]
+大地的靈性傳送…開始！/
+[serif off]
+[se amb_02]
+[effect fr kieru b]
+[delay 1.0 fadein white 1.0]
+[-]
+[wait 4.0]
+[effect off a]
+[effect off b]
+[autotap] /
+[fadecolor BLACK 1.5]
+[serif off 1.5]
+[-]
+[waku on]
+[light def]
+[lightcolor blue]
+[bg black]
+[hideall]
+[bgm off]
+[effect off R]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[serif on 0.5]
+…………/
+[flow]
+……………………/
+[bgm unrest]
+[textcolor ORANGE]
+@影子大師
+我感覺到了似乎是目標的反應。
+親愛的努拉里賢。/
+[show H]
+[face H 00]
+[say H]
+[scale H 1.6]
+[move H Y -120]
+……你終於抓到尾巴了嗎？
+坐標是什麼？/
+[textcolor ORANGE]
+@影子大師
+很難識別，但是…Yowa 二年級，越後country…
+歷史區域座標，■■■-■■■■■■■…/
+[flow]
+[textcolor ORANGE]
+@影子大師
+……還有其他有趣的反應。
+有與同一領域有精神連結的痕跡。/
+[move H Y 5 0.2]
+[delay 0.2 move H Y -10 0.6]
+[delay 0.8 move H Y 5 0.5]
+[autotap]/
+[face H 01]
+……他們？
+好吧，既然是障礙，就把它消除掉吧。/
+[textcolor ORANGE]
+@影子大師
+……請小心。
+親愛的努拉里賢。/
+[face H 00]
+嗯。我想那我就去吧.../
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

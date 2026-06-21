@@ -1,0 +1,1040 @@
+>>10000/
+@長門
+ようやくオレの名を呼んでくれたな。主。[wait 2.5]
+山陽道、長門だ。
+[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@長門
+オレたちの物語をここから始めよう！/
+>>10001/
+@長門
+またオレを求めるか。さすがだな、主。
+[autotap]/
+[delay 4.0]
+[flow]
+[-]
+@長門
+お前の秘めた力……オレが引き出してやる。
+さぁ、この手を取れ！/
+>>1/
+[set A s_nag_r 長門]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+ここの庭も中々のデカさの庭園だが
+お前にはこんなもので満足してもらいたくはない。/
+[effect fr syutyu a 0 0]
+[face A 03]
+デカイ景色と言えば「千畳敷」だ！
+果てしなく広がる空と、雄大な日本海が見ものだ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[effect off a]
+四季折々の花が美しく染める草原の中でゆったりと
+海風に当たれば、きっと身も心も清められるぞ。/
+[face A 00]
+どうだ？
+行ってみたくなっただろう。/
+>>2/
+[set A s_nag_r 長門]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+「元乃隅神社」には百二十三基もの鳥居が
+並んでいると聞いた。すごい数だ……/
+[face A 01]
+なんでも大鳥居の上部にある賽銭箱に賽銭を
+投げ入れることができたら、願いが叶うらしい。/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 08]
+主には叶えたい願いはあるのか……？
+オレは…………ある。/
+>>3/
+[set A s_nag_r 長門]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+おお主。ちょうどいま秋芳洞の「百枚皿」の
+写真を見ていたんだ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+この巨大な洞窟の中にある鍾乳石の造形……
+まるで地底の棚田みたいだろ？/
+[face A 02]
+何千年……いや何万年もの時間をかけて
+作り上げられた大自然の造形美だ。/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 00]
+オレたちの矮小さを感じざるを得ない……
+ロマンを感じるよな……/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+えっ！？　[shake A]い、一緒に行く？　だと……？
+いや、その……オレは、その……[face A 09]/
+[face A 04]
+[shake A]
+べ、別に暗いところが怖いとか、そういうんじゃ
+ない！　わかった！　一緒に行けばいいんだろ！　/
+>>4/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 -nag -@NOW]
+[show A R]
+[show B R]
+[face A 00]
+[face B 04]
+[serif on]
+[say A]
+[move B XY 100 -100]
+[orderline B A]
+[move A X -150 0.5]
+[rotate A 10 0.5]
+ん？　なんだ、妙に散らかっていると思ったが……
+$B:A、道具の整理中か。いや、気にするな。[face A 01]/
+[move A X -500 1.4]
+[rotate A -10 0.3]
+[delay 0.3 rotate A 0 0.3]
+[delay 0.6 rotate A 10 0.3]
+[delay 0.9 rotate A 0 0.4]
+[autotap]/
+[face A 08]
+すまんが、ちょっと通るぞ。
+ひょいひょいひょいっと……[shake B][face B 05]/
+[face A 02]
+[face B 02]
+ふふ……こういったところを通るのは得意なんだ！/
+[face A 00]
+[face B 00]
+用事を終えたら
+あとで整理を手伝いに来る。[move A X -400 0.5]/
+>>5/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 -nag -@NOW]
+[show A L]
+[face A 03]
+[serif on]
+[se fusuma_01]
+[move A C 0.5]
+[say A]
+$B:Aめ……話のわからん奴だ。
+なぜあんなに反発するんだ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+オレの言い分は正しかった。
+$B:Aのためにもなる……。……と、思う……[face A 12]/
+[face A 03]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+………………言い方も……いや、少し……
+きつかった……かもしれないが……[face A 04]/
+[face A 06]
+……あ、あとで様子を見にいくか。/
+>>6/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 -nag -@NOW]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+先日の任務での、$B:Aの
+見事な戦いぶりには感銘を受けたな……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+ふふ、一層デカイ男になったようだな。/
+[face A 00]
+ああいう奴にこそ
+背中を預けられるというものだ。/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @NPC @あやかし -nag -@NOW]
+[show A C]
+[face A 00]
+[show B]
+[setline A B]
+[face B 00]
+[serif on]
+[say A]
+[orderline A B]
+なんだ$B:A？
+……今日のオレは一段と活躍していた……だと？/
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+フン、おだてても何も出ないぞ。/
+[face A 02]
+[move A X 100 0.5]
+[face B 02]
+……とりあえず、どこがどうよかったか
+茶でも飲みながら詳しく聞こうか。/
+>>10/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @NPC @あやかし -nag -@NOW]
+[show A C]
+[face A 08]
+[serif on]
+[talkend]
+長門が机に向かい、手紙を書いている。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+よし、これでどうだ……$B:A……
+きっと返事をくれるはずだ。/
+[face A 01]
+[effect fr kira a 0 0]
+[se kira_01]
+大切な言葉は文で託す。
+それがオレのやり方だ。/
+>>11/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @あやかし -nag -@NOW]
+[show A C]
+[show B]
+[setline A B]
+[face A 00]
+[face B 00]
+[serif on]
+[say A]
+$B:A、あの星を見てみろよ……
+オレたちもあんな風に輝く存在になりたいよな。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 01]
+ふ、なれるさ。オレとお前ならな。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+って、もうこんな時間か……
+宇宙に思いを馳せると、つい時間を忘れてしまうな。[face A 00][face B 00]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @あやかし -nag -@NOW]
+[show A C]
+[face A 08]
+[move A X 600]
+[move A C 1]
+[se fusuma_01]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+…………任務中、$B:Aに
+デカい男の片鱗を見てしまった……/
+[face A 06]
+[shake A]
+この胸の高鳴り……まるで荒波のようだ。
+これが畏敬の念か……くっ抑えきれない……！[shake A]/
+[talkend]
+長門は興奮しているようだ。/
+>>15/
+[set A s_nag_m 長門]
+[randomset B m @地魂男児 @あやかし -nag -@NOW]
+[effect fr katanas 5000 0 0 ]
+[se katana_01]
+[delay 0.3 se katana_02]
+[wait 0.5]
+[show A C]
+[show B]
+[setline A B]
+[face A 08]
+[face B 08]
+[serif on]
+[orderline A B]
+[-]
+[say A]
+はぁ……はぁ……
+$B:A、腕を上げたな……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[face B 00]
+しかし……この程度で音を上げていたら、
+デカイ男には程遠いよな。/
+[face A 03]
+[face B 08]
+さぁ、もう一戦だ！！[shake A][shake B]/
+>>16/
+[set A s_nag_m 長門]
+[show A C]
+[face A 08]
+[serif on]
+[say A]
+ふぅ……今日も上々といったところか……
+だがまだまだだ。/
+[face A 01]
+目指すのは、銃に刻まれた桜の模様のように
+美しくも力強い射撃……/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[autotap]/
+[face A 13]
+それこそが長州男児の矜持ってものだ。[se taiko_01]/
+>>17/
+[set A s_nag_r 長門]
+[set C s_nag_b 長門]
+[randomset B b @地魂男児 @NPC @あやかし -nag -@NOW]
+[show A C]
+[show B R]
+[face B 06]
+[face A 00]
+[serif on]
+[say A]
+[orderline A B]
+ふん……見られて恥ずかしい？
+他人と比べるなど愚の骨頂。/
+[face A 03]
+オレはコソコソ隠しながら脱ぐなど
+女々しいことはしない！[shake A]/
+[face B 05]
+[move B X 100 0.4]
+[face A 01]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[show C]
+[orderline A C B]
+[face C 01]
+[scale C 1.6 0.3]
+[move C Y -120 0.3]
+[say C]
+[se cloth_06]
+[hide A]
+[shakebg]
+男なら堂々と脱ぐ！！/
+>>18/
+[set A s_nag_b 長門]
+[randomset B b @地魂男児 @NPC @あやかし -nag -@NOW]
+[effect fr yuge A]
+[se amb_12]
+[show A C]
+[face A 00]
+[serif on]
+[move A Y -60]
+[say A]
+[se bath_04]
+ふぅー……いい湯だ……
+/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[bath_04]
+広い風呂の中で足を伸ばすと……んーーっ……
+気持ちよくて……んん……/
+[move A Y -50 0.5]
+[face A 07]
+すぅ……すぅ……
+/
+[show B R]
+[face B 04]
+[move B Y -50]
+[move B X 200]
+[move B X -200 0.5]
+[face A 05]
+[move A Y 60 0.1]
+[delay 0.1 move A Y -10 0.1]
+[orderline A B]
+[say A]
+んっ！　$B:A！？
+すまん……お湯の心地よさに、つい……[face A 06][face B 00]/
+>>19/
+[set A s_nag_r 長門]
+[randomset B b @地魂男児 @NPC @あやかし -nag -@NOW]
+[effect fr yuge A]
+[se amb_12]
+[show A C]
+[show B R]
+[setline B A]
+[face A 12]
+[face B 00]
+[serif on]
+[say A]
+[orderline A B]
+チラッ……チラッ……/
+[face A 06]
+[face B 05]
+……なるほどな。
+デカイ男にも色々あるものなんだな……/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 03]
+[face B 06]
+[se cloth_01]
+こうしちゃいられないな……
+オレももっとデカい男にならないと……！/
+>>20/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 -@NPC @あやかし -nag -@NOW]
+[randomset C r @地魂男児 -@NPC @あやかし -nag -@NOW]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+[se pee_01]
+ふぅ……ここではリラックスできるな……
+/
+[show B]
+[show C]
+[setline B C]
+[moveline B C 300 0 0]
+[move A X -200 0.5]
+[face A 05]
+[waku on 0.5]
+（ん？　$B:Aと$C:Aじゃないか……）/
+[face A 01]
+（ふむ……[=次の任務 厨の献立 厠の掃除 茶会の準備 庭園の手入れ 畑の手入れ 季節の行事 主の仕事の手伝い]の話を
+　しているようだな……）/
+[face A 02]
+（なかなか熱意のある奴らだ。
+　負けてられないな……）/
+[face A 00]
+[waku off 0.5]
+[setline 0.5 B A C]
+[orderline B C A]
+[face B 05]
+[face C 01]
+お前たちの熱意に刺激を受けた。
+感謝する。/
+>>21/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @NPC @あやかし -nag -@NOW]
+[show A C]
+[show B]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[setline B A]
+[orderline A B]
+[face B 00]
+[se pee_01]
+[face A 00]
+[serif on]
+[say A]
+…………/
+[face A 06]
+……デカい男は他人のことなど気にすることはない。
+………………だが、一応確認しとくか……[face A 12][move A X -50 0.5]/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……！
+な、なるほどな……[face A 06]/
+>>22/
+[set A s_nag_r 長門]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+ふぅ……今日も健康に問題はなさそうだな。
+さあ、始めるか。/
+[fadein black 0.5]
+[serif off 0.5]
+[se bath_05]
+[wait 0.5]
+[-]
+[scale A 1.6]
+[move A Y -120]
+[wait 1]
+[-]
+[fadeout 0.5]
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[-]
+[serif on]
+……これでよし。
+個室内をピカピカに磨いてやったぞ。/
+[face A 01]
+真にデカい男は、
+細やかな気遣いも忘れないはずだからな！/
+>>23/
+[set A s_nag_r 長門]
+[show A C]
+[face A 06]
+[serif on]
+[say A]
+まったく……すぐ惚れた腫れただの！
+何事もまずは文通からだろうが……！[shake A]/
+[face A 03]
+ああいう浮ついた話題は
+どうも落ち着かん。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+……こういう時に、個室は安心するな。/
+>>24/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @NPC @あやかし -nag -@NOW -sim]
+[show A C]
+[face A 04]
+[serif on]
+[say A]
+[move A X 200]
+[move A X -200 0.5]
+寝る前に厠へ行っておくか……
+…………もう真っ暗だな……/
+[show B L]
+[move B X -100]
+[setline 0.5 B A]
+[face A 11]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[shake A]
+[face B 00]
+[orderline A B]
+[say A]
+ひっ……[move A X 150 0.1]な、[shake A]なんだ$B:Aか！
+お、お前が急に顔を出すから驚いただけで……！[shake A][face A 10]/
+[face A 06]
+[face B 01]
+…………$B:A。[move A X -100 0.5]
+その、一緒に行くか？　厠……[face A 10]/
+>>25/
+[set A s_nag_r 長門]
+[show A C]
+[face A 07]
+[serif on]
+[say A]
+……きみは……ちとせに……
+…………もがも……すやすや。/
+[talkend]
+長門はすやすやと眠っているようだ。/
+>>26/
+[set A s_nag_r 長門]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[scale A 1.6]
+[move A Y -220]
+[move A Y 100 0.5]
+[se cloth_06]
+……はぁはぁ……[shake A]
+な、なんて夢を見てしまったんだ。落ち着かん……[face A 06]/
+[face A 08]
+くっ……こういったことは下らないと思っていたが
+……英雄も色を好むというなら……/
+[face A 06]
+[shake A]
+ひょっとしてこれもデカい男になるために
+必要なこと……なのか！？/
+/
+>>100/
+[set A s_nag_r 長門]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 長門とデカい話]
+[-]
+[se fusuma_01]
+[-]
+[bgm home]
+[se walk_01]
+[bg gozasyo_day]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[talkend]
+[-]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+夕暮れ時、御座所の仕事机の上に置かれた
+一通の手紙に気づいた。/
+[textcolor ARUJI]
+丁寧な筆跡で綴られた文字が、柔らかな光を
+帯びて浮かび上がる。/
+[textcolor ARUJI]
+「庭の桜樹の下にて　君を待たん」/
+[serif off]
+?庭へ行く/
+[serif on]
+[textcolor ARUJI]
+心を揺さぶられるような美しい文字に導かれ
+庭へと足を向けた。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg niwa_day]
+[light down]
+[lightcolor orange]
+[-]
+[se walk_01]
+[fadeout 1.5]
+[-]
+[se amb_13]
+[autotap]/
+[show A]
+[face A 08]
+[-]
+[wait 1]
+[hide A 1]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+葉桜の木の下で、真剣な面持ちで銃の手入れを
+している長門の姿が目に入った。/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+その手の動きは丁寧で、
+まるで大切な宝物を扱うかのようだ。/
+[serif off]
+?長門/
+[show A C]
+[face A 00]
+[say A]
+[serif on]
+[bgm cute]
+……主か。
+手紙、読んでくれたんだな。/
+[face A 01]
+呼び出してしまってすまない。
+一度ふたりっきりでじっくり話してみたかったんだ。/
+[face A 02]
+……そうだな……まずは、
+オレの声を聞いて、声聞してくれたこと、礼を言う。/
+[serif off]
+?こちらこそ、来てくれて嬉しい/
+[face A 01]
+[say A]
+[serif on]
+……ふ。/
+[flow]
+[face A 09]
+……まだあまり交流はできていないんだが
+他の地魂男児たちとも話をした。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+愛されているようだな、お前は。
+主に人望があるってのはいいことだ。/
+[bgm off]
+[face A 09]
+だが……/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[se taiko_02]
+[face A 03]
+[bgm departure]
+オレは他の奴らのようにお前を甘やかしはしない！/
+[hide A]
+[serif off]
+?！？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+長門は手に持った銃を見せるように
+こちらに掲げて示した。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[face A 03]
+この銃は単なる武器ではない。
+/
+[face A 08]
+[flow]
+長州藩の誇り……そして志士たちの想いが
+ここに込められているんだ。/
+[face A 03]
+悲しみも達成感も、感じることができる。/
+[serif off]
+?長門……/
+[face A 12]
+[say A]
+[serif on]
+[bgm off]
+[se taiko_01]
+いや、それ以上だ。この銃に込められた想いは
+時空を超えて響き渡る魂の叫びだ。/
+[face A 13]
+[se taiko_01]
+オレたちはそんな想いを抱え未来という名の
+巨大な海原へと漕ぎ出す……/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+[se taiko_02]
+ここにあるのは単なる武器ではない。人類の夢と
+希望を一身に背負った、革命の曙光だ……/
+[serif off]
+?長門？/
+[face A 00]
+[say A]
+[serif on]
+[effect off a]
+[bgm fun]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おっと……少しスケールがデカすぎたか？
+ロマンってやつだ。/
+[serif off]
+?スケールデカすぎない！？/
+[face A 02]
+[say A]
+[serif on]
+デカいのはいいことだぞ！[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 01]
+男としても、人としても……
+デカければデカいほどいい……そうだろ？/
+[talkend]
+[textcolor ARUJI]
+うんうんと頷く長門。/
+[say A]
+[bgm dungeon]
+[face A 09]
+ともかく……オレはお前が、オレの主として
+ふさわしいか……その覚悟を知りたい。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+銃身に浮かぶ繊細な桜の模様が
+夕日に照らされて輝いている。/
+[show A]
+[face A 08]
+[se cloth_01]
+[textcolor ARUJI]
+突然、長門が銃を構えた。/
+[hide A]
+[flow]
+[textcolor ARUJI]
+その動作は滑らかで、まるで長年の経験が
+染み付いているかのようだ。/
+[flow]
+[textcolor ARUJI]
+銃の向けられた先を見ると、小動物の親子が
+ゆっくりと歩くのが見える。/
+[serif off]
+?長門！？/
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[textcolor ARUJI]
+[se gun_01]
+[serif on]
+声を上げるまもなく、長門は静かに引金を引いた。/
+[textcolor ARUJI]
+[se wood_02]
+鋭い音とともに、木の上のりんごの枝を
+銃弾が突き抜ける。/
+[textcolor ARUJI]
+[se dosa_01]
+[shakebg]
+落ちたりんごを、小動物たちが
+嬉しそうに食べ始めた。/
+[show A]
+[face A 08]
+[say A]
+明治維新では新しい世界のために、多くの者が
+命をかけた。/
+[face A 00]
+そんな想いが、オレの体、そしてこの銃には
+宿っているんだろう。/
+[face A 03]
+だからこそ、
+この力は、自分が認めたものにだけ使いたい。/
+[face A 08]
+主。お前はなんのために戦う？
+この力を使って、なにを守りたい？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+長門の問いに、一瞬考え
+すぐに答えは心に浮かんだ。/
+[flow]
+[textcolor ARUJI]
+「歴史を守る」……それが自分の役目。
+だけど口にするのは、あまりにも……/
+[serif off]
+?それは……大きすぎて……/
+[face A 05]
+[serif on]
+[bgm off]
+[textcolor ARUJI]
+その言葉に長門の耳がピクリと反応した。/
+[show A]
+[face A 05]
+[shake A]
+[bgm fun]
+[say A]
+……何だと……？　デカいのか……？
+ど、どれだけデカいんだ？/
+[serif off]
+?口に出すのがはばかられるほどに……/
+[face A 06]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[say A]
+[serif on]
+[se cloth_06]
+お、おい！　言ってくれ、頼む……！
+そのデカい何かを……！！[shake A]/
+[hide A]
+[serif off]
+?……歴史を守る/
+[effect fr syutyu a 0 0]
+[show A]
+[face A 05]
+[scale A 2.0 0.3]
+[move A Y -220 0.3]
+[say A]
+[serif on]
+……ッ！[shake A 3 15 15]/
+[talkend]
+[textcolor ARUJI]
+長門は驚いた顔のまましばらく固まっていた。/
+[effect off a]
+[say A]
+[face A 10]
+…………歴……史……だと……！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+……なんという、デカい話だ……
+はは……/
+[bgm night]
+[light def 0.5]
+[lightcolor orange]
+[talkend]
+[textcolor ARUJI]
+夕日を背に、長門の姿が一層凛々しく見える。/
+[say A]
+[face A 01]
+歴史とは積み重ねだ。多くの者が精一杯なにかを
+目指したことの積み重ねで、現在の歴史ができている。/
+[face A 02]
+……それはなにより価値のあるものだと
+オレは思う。/
+[face A 08]
+歴史は壮大な宇宙の交響曲だ。
+無数の星星の奏でる銀河のハーモニーそのものだ。/
+[face A 13]
+ひとつひとつの音符が、人々の想いや行動、
+そして時代の息吹だ……/
+[serif off]
+?ひょっとしてまた始まってる？/
+[face A 08]
+[say A]
+[serif on]
+その壮大な楽章は、大地を揺るがす雄大な鼓動
+となって、時空を超えて響き渡る……/
+[face A 13]
+まるで巨大な海原の波のようにな……/
+[face A 01]
+お前はそれを守ると言うんだな。/
+[serif off]
+?（もうよくわからないがとりあえず）うなずく/
+[playeryes]
+[-]
+[face A 00]
+[say A]
+[serif on]
+歴史を守るってことは
+過去のすべての想いを受け継ぐってことだ。/
+[face A 01]
+それはデカい責任だぞ。でも……
+オレはお前ならできると信じたくなってきた。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+長門の口調に、わずかな優しさがまじり始めた。/
+[show A]
+[se cloth_01]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+ほかの地魂男児たちがお前に惹かれるのも
+わかる気がしてきた。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+お前のなかにある、
+何かが皆を引き付けるんだろうな。/
+[face A 00]
+その魅力。オレにも少しずつ見えてきた気がする。/
+[face A 08]
+主。オレたち地魂男児たちを率いるうえで
+一番大事なことはなんだと思っている？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+いちばん大事なこと……もちろん
+それはやっぱり……/
+[serif off]
+?心……かな/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+心か……いいぞ……
+だが、どんな心だ……？/
+[serif off]
+?（どんな……！？）/
+[face A 08]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+長門は真剣な眼差しでこちらを
+見つめている。――答えを待っている。/
+[flow]
+[textcolor ARUJI]
+どんな――……/
+[hide A]
+[serif off]
+?デカい？/
+[effect fr syutyu a 0 0]
+[show A]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+[se kira_01]
+おお！！　デカい心か！！
+そうだな！　わかってるじゃないか！！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[effect off a]
+よし、決めたぞ！
+お前をオレの主として認めよう。/
+[face A 13]
+オレたちで新しい時代を切り開くんだ。
+お前となら、どんな高みにだって登れる気がする。/
+[talkend]
+[textcolor ARUJI]
+長門はさっと右手を差し出した。/
+[serif off]
+?こちらこそよろしく！/
+[hide A]
+[se cloth_01]
+[shakebg]
+[serif on]
+[textcolor ARUJI]
+長門と力強く握手を交わす。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[say A]
+オレが必ず主の夢を叶えてやる。
+ただし、最初も言ったが甘やかさんぞ。/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+どうやら皆、甘すぎるようだからな。
+一人くらいは、こんな男児がいてもいいだろう？/
+[talkend]
+[face A 02]
+[textcolor ARUJI]
+そう言って長門は微笑んだ。/
+[say A]
+[face A 00]
+……主、デカくなれよ……
+オレは、デカい男が好きだぜ。/
+[face A 01]
+[flow]
+そうだ、これを……/
+[se cloth_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+長門は懐から一通の手紙を取り出し
+手渡してきた。/
+[show A]
+[scale A 2]
+[move A Y -220]
+[say A]
+よかったら、読んでくれ。/
+[se walk_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+そう言って、長門は先に戻っていった。/
+[serif off]
+?手紙を読む/
+[serif on]
+[se paper_01]
+[textcolor ARUJI]
+手紙を開くと、そこには美しい筆字で
+こう綴られていた。/
+「桜花のごとく、共に散り急ぐ覚悟あらば
+　いざ、新たなる世の夜明けを見んことを。」/
+[textcolor ARUJI]
+[se paper_01]
+長門は少し変わった男児かもしれないが
+確かな信頼を寄せられる存在だと感じた。/
+[textcolor ARUJI]
+これからの長門との日々が
+楽しみになったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

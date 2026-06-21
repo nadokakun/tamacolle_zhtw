@@ -1,0 +1,1837 @@
+>>10000/
+@阿波
+喊老公！[wait 2]
+我是來自南海道的阿波！[autotap]/
+[delay 3.1]
+[flow]
+[-]
+@阿波
+自從我被錄用以來
+我們一起跳舞吧！/
+>>10001/
+@阿波
+龐波科龐！[wait 1]
+呵呵，看到老公驚訝的表情我真是太高興了！[autotap]/
+[delay 4.1]
+[flow]
+[-]
+@阿波
+我又來騷擾你了
+敬請期待♪/
+>>1/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+奧伊拉國家有哪些亮點？
+當然是阿波跳舞啊！/
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.6]
+[delay 0.9 move A X 50 0.3]
+[autotap]/
+[face A 02]
+街上充滿了驚心動魄的節奏。
+大家一起跳吧，真有趣！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 12]
+[scale A 1.3 0.3]
+[move A Y -60 0.3]
+[effect fr kira a 0 0]
+[se kira_01]
+跳舞白痴中看到的白痴♪
+如果你也是個白痴，不跳舞就虧了♪/
+>>2/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+[rotate A 15 0.3]
+[move A X -300 0.3]
+[delay 0.3 move A X 600 0.3]
+[delay 0.3 rotate A -15 0.6]
+[delay 0.9 rotate A 0 0.3]
+[autotap]/
+庫潤庫潤！
+這是模仿鳴門海峽大漩渦的轉彎！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+紀伊供水與瀨戶內海的差距...
+那是鳴人矢劍。/
+[face A 01]
+每當潮水移動時，就會產生強大的漩渦。
+老公，我希望你至少去看一次！/
+[rotate A 15 0.3]
+[move A X -600 0.3]
+[delay 0.3 move A X 300 0.3]
+[delay 0.3 rotate A -15 0.6]
+[delay 0.9 rotate A 0 0.3]
+[autotap]/
+[face A 11]
+來吧，讓我們旋轉更多！庫倫！/
+>>3/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+阿波國家是開始朝聖的道場，亞肯。
+那裡是最神聖的地方。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 04]
+朝聖需要體力、精神，甚至金錢。
+需要做很多準備.../
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+這是一個重新審視自己的好機會！/
+[face A 02]
+[scale A 1.3 0.3]
+[move A Y -60 0.3]
+如果你的丈夫也有煩惱，為什麼不嘗試呢！
+當然，我也會跟你一起去！/
+>>4/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[show B R]
+[face B 00]
+[face A 09]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嗯，今天的飯菜怎麼樣？[= 焼き鮭 海苔の佃煮 塩サバ いわし丸干し 冷やっこ きんぴらごぼう コロッケ 磯辺揚げ バタートースト フレンチトースト ホットケーキ ベーコンエッグ ハムカツ 焼きそば 釜玉うどん たこ焼き お好み焼き アジフライ カキフライ からあげ ハムエッグ 厚切りベーコン スパム焼き ツナサラダ]呵呵。
+現在，加入大量的鹽、醬油和醬汁。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[face B 05]
+還有酸菜湯...
+真好吃！調味越濃，味道越鮮美！[shake A][se zukkoke_02]/
+>>5/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+嘿，媽咪...有很多日本草藥。
+不用擔心用它做什麼...我很高興.../
+[face A 12]
+[effect fr kira a 0 0]
+[se kira_01]
+[scale A 1.3 0.3]
+[move A Y -60 0.3]
+總有一天我會越來越多...當我累積越來越多的時候
+我要把莊園改造成舞廳！/
+>>6/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[randomset C r @地魂男児 @あやかし @NPC -awn -@NOW]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+我不知道怎樣才能增加莊園裡的舞者數量。
+……沒錯！[face A 08]/
+[effect fr ILLUSION 6000 0 0]
+[se kira_01]
+[hide A]
+[show B]
+[face B 01]
+[face A 01]
+[flow]
+@阿波
+如果你以不同的形式跳舞，你的舞蹈就會變得流行。
+您應該能夠看到它，所以讓我們嘗試一下！/
+[show C L]
+[face C 00]
+[move C X -200]
+[move C X 200 0.5]
+[face B 02]
+[move B X 50 0.2]
+[delay 0.2 move B X -100 0.4]
+[delay 0.6 move B X 300 0.5]
+[autotap]/
+@阿波
+呀呀呀呀！ ！
+哦，成功了！[face B 01][face C 01]/
+>>9/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[randomset C r @地魂男児 @あやかし @NPC -awn -@NOW]
+[show C]
+[show B]
+[face C 01]
+[face B 00]
+[setline B C]
+[-]
+[se kira_01]
+[effect B ILLUSION 6000 0 100]
+[hide B]
+[show A L]
+[setline A C]
+[face C 05]
+[face A 12]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+[talk A]
+[shake A]
+龐波科龐！[se zukkoke_05]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[move C X 1000 0.5]
+[face A 09]
+帶給人們驚喜很有趣！/
+>>10/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[show B R]
+[face B 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+今天也乾得好！
+$B:A你也累了！/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+努力工作，努力存錢，努力跳舞！
+這是我的信念！[face B 01]/
+>>11/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show B]
+[face B 04]
+[-]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[show A C]
+[face A 04]
+[move A X -1000]
+[moveline A B 1000 0 0.5]
+[-]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+什麼？$B:A好像很鬱悶…
+我在這裡...！嘿！　$B:A！[setline 0.5 A B][face A 01]/
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.6]
+[delay 0.9 move A X 50 0.3]
+[autotap]/
+[face A 12]
+[face B 01]
+最好的振奮方式就是跳舞。
+一起來玩得開心吧♪/
+>>14/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[show B]
+[setline A B]
+[face B 00]
+[face A 09]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+據說大河豚能帶來財運。
+別被告知。/
+[face A 06]
+[face B 05]
+我連油膩的河豚都不敢碰！ ？
+保持便宜！呵呵。/
+[face A 02]
+[face B 06]
+[se cloth_01]
+[se kira_01]
+[effect fr kira a 0 0]
+查林查林♪
+就一次！[shake A][move B XY -10 -40 0.4][rotate B 10 0.3][delay 0.4 move B XY 10 40 0.3][delay 0.5 rotate B 0 0.3]/
+>>15/
+[set A s_awn_m 阿波]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+我剛剛注意到…這個訓練場的大小。
+我們都可以上阿波舞蹈舞臺！/
+[face A 02]
+[scale A 1.3 0.3]
+[move A Y -60 0.3]
+[effect fr syutyu a 0 0]
+[se taiko_01]
+呀先生！ ！/
+[effect off a]
+[face A 01]
+[scale A 1.0 0.3]
+[move A Y 60 0.3]
+培訓結束後，嘗試招募參與者！
+相信很多人都會聚集！西西.../
+>>16/
+[set A s_awn_m 阿波]
+[randomset B m @地魂男児 @あやかし @NPC -awn]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[se katana_03]
+[show A C]
+[show B]
+[setline 0.3 B A]
+[face B 08]
+[face A 08]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+唷~$B:A，正如所料。
+但我輸不起。/
+[face A 03]
+[flow]
+鳴門海峽的鯛魚也在嚴酷的漩渦中游來游去。
+我有強壯的骨頭。/
+[move A C 0.3]
+[move B X -200 0.3]
+[hide B]
+[face A 02]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[effect fr syutyu a 0 0]
+[se taiko_02]
+我跳得更厲害了！
+沒錯！ ！/
+>>17/
+[set A s_awn_m 阿波]
+[randomset B m @地魂男児 @あやかし @NPC -awn]
+[show A]
+[show B R]
+[face B 00]
+[serif on]
+[talk A]
+哎呀，又重疊了嗎？
+如果我每天都跳舞那麼多，為什麼還會增加…/
+[face B 05]
+哈！ ！[shake B]　河豚變大了嗎？ ？[se zukkoke_02][face B 05]/
+>>18/
+[set A s_awn_b 阿波]
+[randomset B b @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[effect fr yuge A]
+[se amb_12]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊？水有點溫…
+熱水真熱啊！/
+[show B R]
+[move B X 400]
+[move B X -400 0.3]
+[se water_03]
+[face B 05]
+[face A 05]
+[shake A]
+呃，是不是太熱了？我很抱歉...
+這對我來說剛剛好.../
+>>19/
+[set A s_awn_b 阿波]
+[randomset B b @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[face A 04]
+[serif on]
+[moveA Y -50]
+[talk A]
+[effect fr yuge A]
+[se amb_12]
+嗯...
+河豚太大了，每個角落都很難洗乾淨…/
+[show B R]
+[face B 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+$B:A，你能幫我嗎？
+嘿，這並不意味著它很奇怪！[shake A]/
+[orderline B A]
+[move B Y -100 0.5]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[se bath_05]
+[face A 02]
+[shake A]
+是的，感覺就像……哇！　[shake A][face A 05]
+請對我更加友善一點！/
+>>20/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[show B L]
+[face B 06]
+[face A 06]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+動物園太擁擠了……就像任務期間白痴水漏了一樣。
+我想，當我把它拿出來的時候，我會感到神清氣爽。/
+[se cloth_06]
+[move A X -300 0.3]
+[move B X 600 0.3]
+[face B 05]
+[face A 09]
+……任務時間快到了。
+抱歉，請讓我先用一下！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[se pee_01]
+[face B 03]
+唉…我收集了這麼多…/
+>>21/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[randomset C r @地魂男児 @あやかし @NPC -awn -@NOW]
+[show A C]
+[show B]
+[show C]
+[face B 06]
+[face C 06]
+[setline B A C]
+[orderline A B C]
+[face A 00]
+[serif on]
+[se pee_01]
+[talk A]
+………………/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+我感覺所有人都在看我...
+如果你不關心這個，你可以看看。/
+[se cloth_06]
+[face A 11]
+[face B 05]
+[face C 05]
+[scale A 1.3 0.3]
+[move A Y -60 0.3]
+既然如此，哼！ ！ ！
+從現在開始，脫掉腰布，站在小便池前！/
+>>22/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+[talk A]
+[shake A]
+嘿！ ？[se zukkoke_02]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+河豚要上廁所了…
+當我放鬆警惕時，我總是驚訝於天氣有多冷。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 04]
+呼呼呼…
+我需要把它擦乾淨。/
+>>23/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 06]
+[talk A]
+[se door_01]
+[move A X -300]
+[move A X 300 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+……唷，我把累積的東西全都丟掉了。
+為什麼我的心情這麼不好…/
+[face A 12]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+西西，今天怎麼樣？/
+>>24/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[show B]
+[face B 04]
+[face A 05]
+[setline A B]
+[orderline A B]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+$B:A, 你有睡眠困難嗎？在這種情況下，
+活動一下身體，做一些讓你感到疲倦的事情是可以的。西西西。[face A 10][face B 06]/
+[face A 12]
+[face B 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+Soyaken，我們一起跳舞到早上吧！[se zukkoke_02]/
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.6]
+[delay 0.9 move A X 150 0.5]
+[move B X 50 0.3]
+[delay 0.3 move B X -100 0.6]
+[delay 0.9 move B X 150 0.5]
+[autotap]/
+[face B 02]
+[face A 11]
+阿拉·埃拉亞查·埃拉亞查
+喲喲喲喲喲喲~！/
+>>25/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+Hacchi Sukkasama...Imma Ninokko Sesshi
+啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈/
+[talkend]
+就像在睡夢中說話一樣。/
+>>26/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 05]
+[move A Y -100]
+[move A Y 100 0.3]
+[se cloth_06]
+[serif on]
+[talk A]
+！！！？
+這就是傻水啊…[shake A]不！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+畢竟我已經存了不少錢了！/
+>>100/
+[set A s_awn_r 阿波]
+[set B s_n000_r 猫乃屋]
+[randomset C r @地魂男児 @あやかし @NPC -awn -@NOW]
+[randomset D r @地魂男児 @あやかし @NPC -awn -@NOW]
+[randomset E r @地魂男児 @あやかし @NPC -awn -@NOW]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 阿波とダンスホール]
+[-]
+[bg heya_day]
+[se fusuma_01]
+[fadeout 2.0]
+[bgm home]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[se amb_01]
+[textcolor ARUJI]
+早上。
+他緩緩睜開眼皮，坐了起來。/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+當我去衣櫃換衣服時，
+感覺有些不對勁.../
+[serif off]
+？這種地方有抽屜櫃嗎？/
+[bgm fun]
+[effect fr syutyu a 0 0]
+[shakebg]
+[show A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 12]
+[say A]
+[se kira_01]
+[effect fr ILLUSION 6000 0 0]
+[serif on]
+蓬波庫蓬！ ！ ！/
+[serif off]
+？ 阿波！ ？/
+[face A 02]
+[effect off a]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+老公，你驚訝嗎？
+偽裝成功！[shake A]/
+[talkend]
+[textcolor ARUJI]
+抽屜櫃冒煙了，瞬間
+其外觀變為阿波。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[talk A]
+我剛到莊園，不認識我的丈夫。
+我還不能說太多。/
+[face A 01]
+[flow]
+[scale A 1.4 0.3]
+[move A Y -80 0.3]
+[effect fr kira a 0 0]
+[se kira_01]
+我想向你展示我的特殊技能！
+改變外表是貉的基礎！/
+[effect off a]
+[serif off]
+？太棒了！/
+[face A 06]
+[scale A 1.0 0.5]
+[move A Y 80 0.5]
+[serif on]
+[say A]
+呵呵，被誇這麼多我都不好意思了。
+如果我先生願意，我可以變成任何東西。[shake A]/
+[face A 10]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+當然是老公有感情的人的外表！/
+[serif off]
+？沒關係/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[serif on]
+[say A]
+是的。令人失望。
+但不知為何，他似乎沒有太多精力。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+事實上，昨晚我做了一個可怕的夢，然後醒了一次。
+即使醒來後我也覺得很累。/
+[serif off]
+？我睡不好覺/
+[show A]
+[face A 05]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+沒錯...
+但沒關係。[shake A][face A 00]/
+[face A 08]
+[flow]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[effect fr syutyu a 0 0]
+[se taiko_01]
+既然如此，就該發揮我的特殊技能第二部了！ ！/
+[bgm comical]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[effect off a]
+[scale A 1.0 0.5]
+[face A 01]
+[move A Y 80 0.5]
+[talkend]
+[textcolor ARUJI]
+阿波 說的是
+突然他們開始跳舞。/
+[serif off]
+？ 阿波！ ？/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 11]
+[serif on]
+[say A]
+觀看阿波舞蹈讓我振奮起來！
+跳舞時看起來像個白痴的白痴，如果他還是個白痴，不跳舞就虧了♪/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+確實感覺動作很尖銳。/
+[serif off]
+？這才是道地的阿波舞蹈…/
+[se fusuma_02]
+[show B C]
+[scale B 1.6 0.5]
+[move B Y -120 0.5]
+[face B 04]
+[say B]
+[serif on]
+嘿，小三！ ！請聽！ ！
+我太震驚了！ ！/
+[serif off]
+？貓屋桑？/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 08]
+[serif on]
+[say B]
+我剛剛有一個評價。
+被告知這次薪水不會漲了……我驚呆了。/
+[show A]
+[move A X -200]
+[scale A 1.6]
+[move A Y -120]
+[scale A 1 0.5]
+[scale B 1 0.5]
+[moveline A B 0 120 0.5]
+[face A 01]
+[setline 0.5 A B]
+[orderline A B]
+[face B 05]
+[flow]
+那麼，你跳什麼舞呢？ ？[se zukkoke_02][shake B]/
+[move B X 200 0.5]
+[face B 08]
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.4]
+[delay 0.7 move A X 50 0.3]
+[autotap]/
+[face A 12]
+[say A]
+呀先生！呀先生！/
+[serif off]
+？ 阿波 很擅長跳舞。/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 02]
+[serif on]
+[say A]
+如果你跳舞，你會感覺更好
+我們一起跳舞吧！好，好！/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 08]
+[say B]
+哈哈……好吧，隨和的……不多了。
+我常用這張卡，以為我的薪水會增加.../
+[face B 04]
+[flow]
+我要去廁所哭了...[shake B]/
+[se fusuma_02]
+[move B X 800 0.5]
+[autotap]/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+貓也搖搖晃晃地走出房間。
+此後，他的外表令人堪憂。/
+[serif off]
+？我去安慰貓咪之屋。/
+[move A C 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[serif on]
+[say A]
+別擔心我！
+我們在這裡跳舞吧。/
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.4]
+[delay 0.7 move A X 50 0.3]
+[autotap]/
+[face A 12]
+[flow]
+呀呀呀呀！/
+[hide A]
+[se fusuma_01]
+[bg rouka_day 0.5]
+[talkend]
+[textcolor ARUJI]
+我不知道為什麼我一直在跳舞，但是
+我把阿波留在房間裡，跟著貓之屋走。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 2]
+[hideall]
+[bgm fun]
+[bg rouka_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show B C]
+[face B 04]
+[say B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+姑蘇。你真是個好人。
+少年……姑蘇。/
+[serif off]
+[hide B]
+[bg heya_day 0.5]
+[se fusuma_01]
+[talkend]
+[textcolor ARUJI]
+[-]
+[wait 1]
+[serif on 0.5]
+安慰完貓咪也回到房間後，
+阿波 已經不存在了。/
+[show B]
+[face B 10]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+嘿，小三。我覺得皇宮比較好
+不吵嗎？/
+[serif off]
+?去皇宮/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg gozasyo_day]
+[-]
+[fadeout 1.5]
+[-]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 12]
+[autotap]/
+[serif on]
+[say A]
+看起來像個跳舞白痴的白痴！/
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.4]
+[delay 0.7 move A X 50 0.3]
+[autotap]/
+[flow]
+如果你是同一個白痴，就不要跳舞。/
+[serif off]
+[show B]
+[move B X 1000]
+[moveline B A -1000 0 1]
+[face B 05]
+[say B]
+[-]
+[autotap]/
+[face B 10]
+[serif on]
+啊，阿波的傢伙…他還在跳舞…
+還有——/
+[show D]
+[show C]
+[show A]
+[setline C A D]
+[orderline A C D B]
+[moveline A C D -1000 0 0]
+[serif off]
+[moveline A B C D 1000 0 0.3]
+[face A 01]
+[face C 01]
+[face D 01]
+[-]
+[se zukkoke_02]
+[serif off]
+？跳舞的人越來越多了！ ！/
+[hideall]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+隨後，他們一一加入了舞蹈。
+莊園變成了舞廳。/
+[show B]
+[face B 02]
+[-]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[autotap]/
+[say B]
+[serif on]
+我想知道為什麼...
+看了我也想跳舞了……！[shake B]/
+[hide B]
+[serif off]
+?加入舞會/
+[show A]
+[show C]
+[show D]
+[setline C A D]
+[orderline A C D]
+[face C 01]
+[face D 01]
+[face A 02]
+[say A]
+[effect fr kira a 0 0]
+[se kira_01]
+[-]
+[serif on]
+哦，老公，你願意跟我跳舞嗎？
+我會教你每一步！/
+[effect off a]
+[face A 01]
+[flow]
+[moveline A D C 50 0 0.3]
+[delay 0.3 moveline A D C -100 0 0.4]
+[delay 0.7 moveline A D C 50 0 0.3]
+[autotap]/
+所以，Yat Sa Yat先生！/
+[talkend]
+[textcolor ARUJI]
+當我和大家一起跳舞時，我越來越感覺
+我開始感到幸福了。/
+[hideall]
+[-]
+[show B]
+[face B 14]
+[move B X -50 0.1]
+[delay 0.1 move B X 100 0.2]
+[delay 0.3 move B X -100 0.2]
+[delay 0.5 move B X 50 0.1]
+[autotap]/
+[say B]
+這麼多，我的薪水還沒漲！
+我不能因為這樣的事情而沮喪！/
+[talkend]
+[textcolor ARUJI]
+貓咪之屋總有一天會出現！
+我傳送了那封電子郵件。/
+[face B 02]
+[say B]
+[move B X 50 0.3]
+[delay 0.3 move B X -100 0.4]
+[delay 0.7 move B X 50 0.3]
+[autotap]/
+沒錯！呀呀呀先生！ ！/
+[hide B]
+[-]
+[show A]
+[face A 01]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+跳舞讓我感到快樂。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 11]
+我希望我能玩得開心，哪怕只是一會兒
+我會再努力的♪/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+阿波的舞蹈和周圍的環境有關係。
+也許有什麼東西吸引你。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[say A]
+[effect fr syutyu a 0 0]
+[se taiko_02]
+呵呵，大家都習慣了。
+下次，我們一起跳得更激烈吧！ ！ ！[face A 12]/
+[bg sky_day 0.5]
+[hide A]
+[effect off a]
+[shakebg]
+[se fire_01]
+@大家
+噢！ ！ ！/
+[talkend]
+[textcolor ARUJI]
+跳舞如何解決問題
+我不知道。/
+[flow]
+[textcolor ARUJI]
+莊園更是
+我以為它會很明亮。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>101/
+[set A s_awn_r 阿波]
+[set B s_awn_r 阿波]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 阿波のぬくもり]
+[-]
+[bg gozasyo_day]
+[fadeout 2.0]
+[bgm home]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[se amb_01]
+[textcolor ARUJI]
+已經過了中午了。
+我在皇宮裡做家務，但沒有任何進展。/
+[flow]
+[textcolor ARUJI]
+我今天覺得不太舒服。
+我感覺我的肌肉在痠痛。/
+[flow]
+[textcolor ARUJI]
+我確信一定是因為我昨天太努力地清理它了。
+還有.../
+[serif off]
+？我睏了.../
+[playeryes]
+[fadein black 1]
+[autotap]/
+[serif on]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+之後我和貓之屋有個會面。
+我決定先睡一覺，然後就倒在桌上。/
+[serif off]
+[waku on]
+[wait 0.5]
+[se fusuma_01]
+[fadeout 0.5]
+[show A C]
+[move A Y 600]
+[move A Y -600 0.3]
+[rotate A -30]
+[rotate A 20 0.4]
+[se walk_04]
+[face A 12]
+[talk A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[rotate A 0 0.2]
+[serif on]
+呀呀呀呀！
+別打擾我！/
+[move A X -300 0.4]
+[rotate A 30 0.4]
+[autotap]/
+[face A 02]
+老公，你還在睡覺嗎？
+今天我們也一起跳舞吧。/
+[move A X 600 0.4]
+[rotate A -30 0.4]
+[autotap]/
+[face A 00]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+但在那之前...我的丈夫...
+我沒來吃午飯，所以請給我一些食物！/
+[hide A]
+[serif off]
+？嗯.../
+[waku off 0.5]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+連抬頭都覺得痛苦
+我臉朝下趴在桌子上，半心半意地回答。/
+[show A]
+[face A 09]
+[talk A]
+[se cloth_01]
+西西西。我比浣熊更擅長入睡。
+就是這樣。/
+[face A 07]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[se dosa_01]
+[move A X 100 0.5]
+[rotate A -50 0.5]
+[move A Y -100 0.5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+阿波將帶來的米飯放在工作臺上，
+當我躺在他旁邊時，他開始打鼾。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[talk A]
+嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎...
+媽媽.../
+[serif off]
+[wait 2]
+[rotate A -20 0.5]
+[se cloth_01]
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+……丈夫？/
+[talkend]
+[textcolor ARUJI]
+阿波把臉轉向我。
+我會檢查一下你。/
+[waku off 0.5]
+[hide A]
+[serif off]
+？抱歉，我覺得沒精打採，沒胃口…/
+[effect fr syutyu a 0 0]
+[quake 2]
+[serif on]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[move A Y -100]
+[move A Y 100 0.3]
+[talk A]
+[move A Y 20 0.1]
+[delay 0.1 move A Y -20 0.1]
+[bgm departure]
+哇啊啊啊啊啊啊！ ？　[shake A]太棒了！　
+老公，等一下！/
+[quake off]
+[move A X 600 0.3]
+[hide A 0.3]
+[se fusuma_03]
+[se walk_03]
+[wait 0.5]
+[talkend]
+[textcolor ARUJI]
+阿波驚慌地跳了起來，跑出了王座室。
+我逃跑了，幾分鐘後又回來了。/
+[se fusuma_03]
+[show A C]
+[face A 05]
+[move A X 600]
+[move A X -600 0.3]
+[se walk_04]
+[-]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[talk A]
+老公，你稍微動一下吧。
+沒有射擊！/
+[bg rouka_day 0.5]
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_06]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+我輕鬆地抬起身體，離開了房間。
+包裹在阿波蓬鬆的皮毛裡。/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[flow]
+[textcolor ARUJI]
+阿波體格龐大，但動作卻出奇的快。
+一點點搖晃的感覺很有趣。/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[effect off a]
+[wait 0.5]
+[hideall]
+[bg heya_day]
+[bgm fun]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+當我到達房間時，蒲團已經鋪好了。
+阿波 可能是為我準備的。/
+[show A C]
+[face A 03]
+[talk A]
+[scale A 2]
+[move A Y -220]
+如果我先生出了什麼事，我就有大麻煩了。
+不好好睡覺！　磨了？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+阿波以輕柔的動作將我的身體放到蒲團上。
+當我躺下時，他輕輕地給我蓋上被子。/
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[talk A]
+讓我把你抱到床上吧！
+流行流行、流行流行…/
+[talkend]
+[textcolor ARUJI]
+阿波 躺在我旁邊的蒲團上。
+以輕柔的節奏輕拍腹部區域。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[wait 0.5]
+[face A 09]
+[talk A]
+流行、流行、流行、流行…
+媽媽.../
+[serif off]
+？ 阿波？/
+[rotate A -20 0.5]
+[move A Y -50 0.5]
+[serif on]
+[face A 07]
+[talk A]
+辣……辣……
+媽媽.../
+[talkend]
+[se zukkoke_02]
+[textcolor ARUJI]
+我以為浣熊又睡著了，沒想到
+看起來他真的睡著了。/
+[flow]
+[textcolor ARUJI]
+當我閉上眼睛，把手放在肚子上時，
+我就自然而然地睡著了。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 2.0]
+[hideall]
+[-]
+[bgm night]
+[bg heya_light]
+[se amb_05]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+當我醒來時，外面已經漆黑一片了。/
+[flow]
+[textcolor ARUJI]
+當我翻身看向旁邊時，阿波已經不見了。
+我好像睡了一會兒。/
+[se fusuma_01]
+[show A C]
+[move A X -600]
+[move A X 600 1]
+[face A 00]
+[-]
+[talk A]
+哦，老公。我就像醒了一樣。
+我帶了一些茶給你。你想喝嗎？/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[move A Y -50 0.6]
+[se cloth_01]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+來看我的阿波就在蒲團旁邊。
+坐下。/
+[hide A]
+[serif off]
+？啊，貓之屋桑…/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+想想看，在那之後，和 Nekonoya 一起
+一定有個會議。/
+[flow]
+[textcolor ARUJI]
+但是，我的智慧型手機上也沒有收到任何通知。/
+[show A]
+[scale A 1.6]
+[move A Y -170]
+[face A 10]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+無需擔心。
+我來幫你清理！/
+[serif off]
+？嗯？/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[serif on]
+[face A 11]
+[talk A]
+像這樣... 噗噗噗！ ！/
+[move A Y 100 0.1]
+[hide A]
+[effect fr ILLUSION 6000 0 0]
+[se kira_01]
+[talkend]
+[textcolor ARUJI]
+眼前的阿波是
+原來它長得很像我。/
+[flow]
+[textcolor ARUJI]
+就像照鏡子一樣。
+換句話說——/
+[shakebg]
+[show A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 12]
+[say A]
+[se kira_01]
+[effect fr ILLUSION 6000 0 0]
+[face A 01]
+我假扮成我的丈夫，跟貓屋說話了！
+我沒有被抓住，而且我做得完美！/
+[serif off]
+？太棒了！ ！/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+看到這突如其來的變故，我忍不住笑了。
+很高興關注阿波。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 10]
+[talk A]
+嗯，Chumo Nekonoya 是一家名為「Oniku」的烤肉店。
+我們剛剛在談論新選單。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 09]
+我們大多隻是聊天。
+這是一次無用的會議。/
+[face A 02]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，把必要的資訊寫在你的筆記裡。
+我把它貼在宮殿的桌子上。明天檢查一下！/
+[serif off]
+？謝謝你/
+[scale A 2 0.5]
+[move A Y -220 0.5]
+[autotap]/
+[se cloth_01]
+[serif on]
+[face A 03]
+[talk A]
+……老公，你就不能熱一點嗎？/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+他全身濕漉漉的，晚上似乎一直在流汗。
+也許他感冒了。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 11]
+[talk A]
+當你開始感冒時，
+請好好休息。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 00]
+你流汗了，該換新衣服了。
+我會幫你的。/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[hide A]
+[autotap]/
+[se cloth_06]
+[talkend]
+[textcolor ARUJI]
+阿波正在滾動這個身體。
+他熟練地脫掉T卹。/
+[flow]
+[textcolor ARUJI]
+阿波從抽屜拿出乾淨的衣服，
+這也是一種巧妙的穿法。/
+[se kira_01]
+[effect fr kira a 0 0]
+[show A]
+[scale A 1.6]
+[move A Y -170]
+[face A 01]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+Pon poko~tto。嘿，這很好。
+T卹、褲子、褲子都這麼好看！/
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+在我被滾來滾去的時候，我已經換了衣服。
+我感覺自己像個嬰兒。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 10]
+[talk A]
+[se goso_01]
+而且，這是一種特殊的藥物。
+戈索戈索.../
+[talkend]
+[textcolor ARUJI]
+阿波把他的手放在鼓鼓的纏腰帶裡。
+他翻來翻去，翻出了一個饅頭。/
+[serif off]
+？ （你可以把它存放在那裡）/
+[serif on]
+[face A 02]
+[talk A]
+這是我偷偷拿走的金雀饅頭！
+這是一種以阿波的貉命名的甜點！/
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+我把大家吃的東西都放在客廳。
+嘿，你總是把自己喜歡的東西留到最後。/
+[face A 08]
+[flow]
+……但我希望我先生早日康復。/
+[face A 12]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+不要對你先生做這種事。
+虛弱時糖也是營養！/
+[serif off]
+?把它切成兩半/
+[serif on]
+[face A 05]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[shake A]
+[se zukkoke_02]
+哦，老公！ ？
+哦，我想知道生氣也可以嗎？/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 06]
+[flow]
+[effect fr kira a 0 0]
+[se kira_01]
+[se eat_01]
+如果你要說這麼多……那已經很糟糕了。
+嗯嗯，很好吃，我很喜歡。/
+[hide A]
+[se eat_01]
+[effect off a]
+[-]
+[talkend]
+[textcolor ARUJI]
+當你吃阿波最喜歡的饅頭時
+在甜蜜的同時，我也感受到了阿波的善意。/
+[show A]
+[scale A 1.6]
+[move A Y -170]
+[face A 00]
+[talk A]
+你覺得你能睡到早上嗎？丈夫。
+你睡得越多，你就會感覺好得越快。/
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 02]
+好吧，在我丈夫睡著之前，我都瘋了。
+讓我們跳一支輕鬆的舞蹈吧！/
+[talkend]
+[move A Y 220 0.5]
+[se cloth_01]
+[textcolor ARUJI]
+阿波迅速站起來。
+一個大球袋以強大的角度擺動。/
+[move A Y -170 0.5]
+[face A 10]
+[talk A]
+但如果我這樣跳舞的話，可能會有點吵。
+我不知道……這有什麼問題嗎？/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[flow]
+[face A 11]
+噗噗噗~~噗！/
+[se kira_01]
+[effect fr ILLUSION 6000 0 0]
+[hide A 1]
+[-]
+[talkend]
+[textcolor ARUJI]
+當我想到阿波發生了巨大的變化時，
+消失了。/
+[bgm off]
+[serif off]
+？ 阿波？到底在哪裡.../
+[serif on]
+@阿波的聲音
+老公！這裡是！這裡這裡！
+甚至更低！/
+[bgm comical]
+[show B]
+[scale B 0.4]
+[move B Y 150 2]
+[face B 02]
+[-]
+[effect fr syutyu a 0 0]
+[quake 2]
+[se zukkoke_02]
+[-]
+[talkend]
+[textcolor ARUJI]
+令人驚訝的是，阿波大約有洋娃娃那麼大。
+我的聲音聽起來也很高調。/
+[effect off a]
+[quake off]
+[move B Y 5 0.1]
+[delay 0.1 move B Y -10 0.3]
+[delay 0.4 move B Y 5 0.2]
+[autotap]/
+[face B 12]
+[talk B]
+老公！有了這個尺寸，
+即使跳舞也不會妨礙。/
+[serif off]
+？拿在手上檢查一下。/
+[se cloth_01]
+[scale B 0.7 0.5]
+[rotate B 20 0.5]
+[shakebg]
+[-]
+[serif on]
+[face B 05]
+[talk B]
+[shake B 2 5 5]
+[se zukkoke_02]
+哇，老公！ ？/
+[talkend]
+[textcolor ARUJI]
+較小的阿波足夠小，可以握在手掌中。
+看起來很可愛。/
+[flow]
+[shake B]
+[se cloth_01]
+[textcolor ARUJI]
+肚子圓圓的，臉頰豐滿有彈性。
+當我用食指觸控它時，感覺很奇怪。/
+[serif off]
+？太棒了.../
+[serif on]
+[face B 06]
+[talk B]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+老公！如果你觸碰我太多
+我有點緊張……我很尷尬。/
+[talkend]
+[textcolor ARUJI]
+我驚訝地發現它變得如此之小，並觸控了它。
+對不起，你這麼說我也感到尷尬。/
+[face B 08]
+[scale B 0.4 0.5]
+[rotate B 0 0.5]
+[move B Y -50 0.5]
+[flow]
+[textcolor ARUJI]
+阿波 輕輕地把它放在地板上，
+阿波身體很小，開始奔跑。[move B X 400 1.6]/
+[light takibi 0.6]
+[move B X -400 0.5]
+[-]
+[show A]
+[scale A 1.6]
+[color A black]
+[orderline B A]
+[flow]
+[textcolor ARUJI]
+阿波 站在附近的紙燈籠前。
+然後，牆上出現了一個巨大的阿波影子。/
+[move A X -150 0.1]
+[delay 0.1 move A X 200 0.2]
+[delay 0.3 move A X -200 0.2]
+[delay 0.5 move A X 150 0.1]
+[move B X -50 0.1]
+[delay 0.1 move B X 100 0.2]
+[delay 0.3 move B X -100 0.2]
+[delay 0.5 move B X 50 0.1]
+[autotap]/
+[face B 11]
+[talk B]
+[color A black]
+嘿，我們走吧！
+麥讓她的丈夫高興起來，讓他睡得香甜！/
+[move B X 50 0.3]
+[rotate B -10 0.3]
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[delay 0.4 move B Y 100 0.1]
+[delay 0.5 move B Y -100 0.2]
+[delay 0.7 move B X -250 0.5]
+[delay 0.7 rotate B 10 0.5]
+[delay 1.2 move B Y 100 0.1]
+[delay 1.3 move B Y -100 0.2]
+[delay 1.5 move B Y 100 0.1]
+[delay 01.6 move B Y -100 0.2]
+[move A X 250 0.3]
+[rotate A -10 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[delay 0.7 move A X -550 0.5]
+[delay 0.7 rotate A 10 0.5]
+[delay 1.2 move A Y 100 0.1]
+[delay 1.3 move A Y -100 0.2]
+[delay 1.5 move A Y 100 0.1]
+[delay 01.6 move A Y -100 0.2]
+[autotap]/
+[face B 01]
+[flow]
+呀呀呀呀，終於！/
+[talkend]
+[color A black]
+[textcolor ARUJI]
+當小阿波開始跳舞時，
+阿波，牆上的大影子也開始跳舞。/
+[flow]
+[textcolor ARUJI]
+阿波平常的舞蹈很有趣，但影子舞是新的。
+這是一些很棒的娛樂活動。/
+[move B X 250 0.3]
+[rotate B -10 0.3]
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[delay 0.4 move B Y 100 0.1]
+[delay 0.5 move B Y -100 0.2]
+[delay 0.7 move B X -50 0.5]
+[delay 0.7 rotate B 10 0.5]
+[delay 1.2 move B Y 100 0.1]
+[delay 1.3 move B Y -100 0.2]
+[delay 1.5 move B Y 100 0.1]
+[delay 01.6 move B Y -100 0.2]
+[move A X 550 0.3]
+[rotate A -10 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[delay 0.7 move A X -250 0.5]
+[delay 0.7 rotate A 10 0.5]
+[delay 1.2 move A Y 100 0.1]
+[delay 1.3 move A Y -100 0.2]
+[delay 1.5 move A Y 100 0.1]
+[delay 01.6 move A Y -100 0.2]
+[autotap]/
+[face B 12]
+[talk B]
+[color A black]
+老公，希望你早日康復♪
+等你心情好一點了，我們再一起跳舞吧♪/
+[talkend]
+[color A black]
+[textcolor ARUJI]
+一邊看著小阿波和大影子一邊唱歌一邊跳舞，
+我又開始打瞌睡了。/
+[serif off]
+？睡覺/
+[fadein black 2]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.2]
+[delay 0.4 move B Y 10 0.1]
+[delay 0.5 move B Y -10 0.2]
+[move A Y 110 0.1]
+[delay 0.1 move A Y -110 0.2]
+[delay 0.4 move A Y 110 0.1]
+[delay 0.5 move A Y -110 0.2]
+[autotap]/
+[serif on]
+[face B 01]
+[talk B]
+[color A black]
+啊，就是這樣啊，呀呀呀先生♪
+我想見到健康的丈夫♪就是這樣♪/
+[serif off 1.5]
+[-]
+[wait 2.0]
+[hideall]
+[-]
+[light off]
+[bgm off]
+[bg heya_day]
+[-]
+[se amb_01]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+我是被外面的陽光照進來的。/
+[bgm home]
+[serif off]
+？啊，早上了…/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+我的身體感覺非常清爽。
+也許是因為我攝取的糖分較少且睡得較多。/
+[flow]
+[textcolor ARUJI]
+我還記得阿波昨晚的皮影舞。
+我覺得我得到了阿波的光明和同情心的支援。/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+這麼想著，我抬頭一看
+我與阿波進行了眼神交流，他正在看著我。/
+[show A C]
+[scale A 2]
+[move A Y -220]
+[face A 09]
+[talk A]
+丈夫。早安♪
+我睡得很香。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[bgm comical]
+[face A 02]
+[flow]
+您的河豚枕頭舒適度如何？
+西西西。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+它蓬鬆、柔軟，給人一種輕微的溫暖感。
+頭兩側有阿波大大腿。/
+[flow]
+[textcolor ARUJI]
+顯然是在阿波的大腿之間…
+看起來他睡在一個羽絨枕上。/
+[show A C]
+[scale A 2]
+[move A Y -220]
+[face A 11]
+[talk A]
+現在起床吃早餐吧！
+今天也一起跳舞吧♪/
+[se cloth_01]
+[hide A]
+[-]
+[bg rouka_day 0.5]
+[se fusuma_01]
+[talkend]
+[textcolor ARUJI]
+當我被阿波叫醒時，這一天就開始了。
+我想今天我會盡力而為。/
+[flow]
+[textcolor ARUJI]
+確實感覺就像睡了一個好覺......
+我深深地想了想。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2.0]
+[-]
+[autotap]/

@@ -1,0 +1,1909 @@
+>>10000/
+@能登
+あるじ！　オラは能登だよ〜っ。
+[autotap]/
+[delay 3]
+[flow]
+[-]
+@能登
+今日から花嫁修業、がんば……
+んや〜！　こけちゃったぁ！/
+>>10001/
+@能登
+んやぁ〜！？　
+あるじ、支えてくれてあんやと！
+[autotap]/
+[delay 6]
+[flow]
+[-]
+@能登
+オラ、またこけちゃったね、
+陸歩くのは難しいやぁ！/
+>>1/
+[set A s_not_r 能登]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+あるじ～この荘園は季節ごとに
+色んな景色が見られていいよねぇ！/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+でも、オラの国にも季節を感じる
+自慢の場所があるよ！/
+[face A 00]
+[se kira_01]
+[effect fr kira 4000 0 100]
+それはね～、日本海に面した斜面にある
+「白米千枚田」って所だよ～！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+千枚以上の田んぼが段になってて綺麗なんだよ～。/
+[face A 01]
+青々とした田植えの季節はもちろん、
+冬の雪景色もきれいなんだよね～。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+特に日本海と水田が夕日一色に染まった姿が
+オラ大好きで……あるじにも見せてあげたいなぁ。/
+>>2/
+[set A s_not_r 能登]
+[show A C]
+[face A 05]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+んやぁ……あるじ、お疲れ？　お仕事大変なんだねぇ。
+うーん、オラ、あるじを楽しくさせてあげたいな……/
+[face A 01]
+[shake A]
+んや～……あっ！　[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]そうだ……！
+今度オラの国の「恋路火祭り」に行こうよ～！/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 02]
+[effect fr kira 4000 0 100]
+[se kira_01]
+海の中にキリコが二つ立ってて～、周りを松明の
+火の輪がユラユラ～って舞うんだよ～！/
+[face A 00]
+仕掛け花火もおもしろいんだよね！
+へへっ……[wait 0.5]どんなのかは見てのお楽しみだよ～！/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……でも、このお祭りは悲恋の伝説が由来で……
+オラ、思い出したら泣けてきちゃう……グスン。[shake A]/
+>>3/
+[set A s_not_r 能登]
+[show A L]
+[face A 06]
+[move A C 0.5]
+[serif on]
+[talk A]
+ねぇあるじ。荘園のお風呂もいいけど……[shake A]
+オラ、しょっぱい味の温泉が恋しいなぁ。/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+オラの国の和倉温泉は
+海に近い温泉だから塩気たっぷりなんだよー！/
+[face A 01]
+あるじもゆったりつかればオラの体みたいに
+ツルツルぷにぷにになるよ！/
+[face A 02]
+[se kira_01]
+[effect fr kira 4000 0 100]
+[scale A 2.0 0.5]
+[move A Y -200 0.5]
+[se cloth_01]
+ほら、触って触って！　んや～！[shake A]
+つるぷにでしょ～！/
+>>4/
+[set A s_not_r 能登]
+[randomset B r @地魂男児 @あやかし @NPC -not]
+[show A C]
+[show B C]
+[face A 06]
+[face B 04]
+[talk A]
+[setline A B]
+[move A X -100]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[move A X 100 0.5]
+[-]
+[serif on]
+$B:A元気ないね。どうしたの？
+/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[shake B]
+…………なるほどなるほど……[face A 04][shake A]
+んや～、失敗しちゃったら落ち込むよねぇ。/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face B 05]
+でも$B:A、
+失敗は成功の母だよ……！/
+[face A 01]
+[face B 01]
+[se kira_01]
+[effect A kira 4000 0 200]
+なんでも最初から全部うまくいくわけないよ～！
+今回の失敗を生かして次がんばればいいんだよ～！/
+[serif off]
+[talkend]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[-]
+[talk A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face A 02]
+[autotap]/
+[serif on]
+……そうそう[shake A]その調子！[move A X 100 0.3]
+次困った時はオラも手伝うからね！[face B 05][shake B]/
+>>5/
+[set A s_not_r 能登]
+[randomset B r @地魂男児 @あやかし @NPC -not]
+[show A L]
+[move A X 800]
+[move A X -800 0.5]
+[face A 01]
+[se walk_02]
+[-]
+[serif on]
+[talk A]
+んや～朝だよ～！！
+よぉし今日も花嫁修業がんばるよー！[move A X -800 0.5]/
+[serif off]
+[-]
+[show A R]
+[move A X 800]
+[move A X -800 0.5]
+[show B C]
+[talk A]
+[face B 08]
+[-]
+[serif on]
+まずは朝ごはんの支度っと…………あれ？[shake A][face A 06]
+$B:A、どうして厨房に入れてくれないの？[shake A]/
+[face B 03]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[face A 09]
+んやぁ……うん……[wait 0.5]
+た、確かにこの前はちょっと失敗したけど……[shake A]/
+[face A 09]
+[face B 08]
+[move A X -300 0.2]
+[delay 0.1 move B X -100 0.2]
+[se cloth_06]
+こ、今度こそ美味しく作るから！
+だから中に入れてよぉ～～！！[shake A]/
+>>6/
+[set A s_not_r 能登]
+[randomset B r @地魂男児 @あやかし @NPC -not]
+[show A R]
+[face A 02]
+[talk A]
+[move A C 0.5]
+[-]
+[serif on]
+へへっ、みんなの分もお洗濯したよー！
+よぉし庭に干すぞぉ！/
+[move A L 1.0]
+[se fusuma_01]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+ん、んや～！？[shake A]
+あ……雨が……降ってる！？[se rain_01][se zukkoke_02]/
+[show B C]
+[face A 06]
+[face B 04]
+[setline 0.5 A B]
+[talk A]
+え？　$B:A……
+雨、朝からずっと降ってたの！？[shake A]/
+[face A 04]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+んや～……そういえば
+天気確認するの忘れてたよ～……/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 09]
+こんなにいっぱい洗っちゃったのに……
+……ど、ど、どうしよう！！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_not_r 能登]
+[randomset B r @地魂男児 @あやかし @NPC -not]
+[show A C]
+[face A 05]
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[-]
+[serif on]
+[talk A]
+んや～？　あれれ～？[shake A][face A 06]
+お腹すいたなーって思って来たんだけど……/
+[face A 09]
+[se zukkoke_02]
+もう晩ごはんの時間終わってる～～！？[shake A]　んやぁ～
+……ないと思うと余計にお腹すいちゃうよ～……[move A Y -100 1.0]/
+[show B L]
+[setline 0.5 B A]
+[talk A]
+[face A 05]
+[face B 01]
+[-]
+あっ$B:A……えっ？[move A Y 100 0.2]
+オラの分もごはん取っておいてくれたの！？[shake A]/
+[face A 02]
+[face B 02]
+[move A X -150 0.2]
+[se cloth_01]
+[shake B]
+[effect fr kira 4000 0 100]
+んや～！　助かったよぉ！
+[= あんやと～！！ 気の毒な～。][shake A]/
+>>10/
+[set A s_not_r 能登]
+[randomset B r @地魂男児 @あやかし @NPC -not]
+[show A C]
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[talk A]
+んや～[= 形と色とニオイはイマイチだけど ものすごく粘り気が強いけど 変な匂いがするけど…… 隠し味にお砂糖と愛情たっぷり♪]、
+今日は美味しく作れた気がするよ～！/
+[face A 01]
+[se picha_03]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+後はこれをこうして……うん！[se picha_01]
+こうやって輪島塗の器に盛ればごちそうだよ！/
+[show B R]
+[face A 02]
+[move B X 500]
+[move B X -500 1.0]
+[say A]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[face B 05]
+あ、$B:A、丁度いい所に来たね～！
+ねぇ、ちょっと味見して欲しいんだよ～。/
+[move B X 800 0.3]
+[shake A]
+[face A 05]
+……！？[shake A]　んやぁああ～～！
+なんで逃げるの～！！[move A X 1000 0.5]　待ってよぉー！！/
+>>11/
+[set A s_not_r 能登]
+[randomset B r @地魂男児 @あやかし @NPC -not]
+[show A C]
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+[talk A]
+グビグビ……[shake A]ヒーック……
+オラこんなに気分がいいのは久々だよ～。[shake A]/
+[show B R]
+[setline 0.5 A B]
+[face B 05]
+あ～、$B:Aじゃんか～。[shake A]
+ここ座んなよ～～、[move A X 100 1.0]ほら飲みなって～～。/
+[face A 01]
+なぁなぁ$B:A。あんたオラのお婿さんに
+なってくれない～？　ねぇ～いいでしょ～。[face B 04]/
+[talkend]
+能登はひどく酔っ払っているようだ。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_not_r 能登]
+[randomset B r @地魂男児 @あやかし @NPC -not]
+[show A C]
+[show B C]
+[face A 05]
+[face B 01]
+[serif on]
+[talk A]
+[setline B A]
+んや～！？[shake A]
+オラの穴に触ってみたいの！？/
+[face A 09]
+[shake A]
+んやぁ～……オラ、そういうのは
+お嫁に行くまでダメって思ってたけど……/
+[face A 06]
+そんなふうに男らしく言われたら、[wait 0.2]オラ、[wait 0.2]オラ[wait 0.2]…[wait 0.2]…[wait 0.2][move B X 100 1.0][face B 00]
+って、え、頭の穴？[shake A][face A 05]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+なんだぁ……！
+そこは鼻の穴だから、やさしくしてねっ。[face B 01]/
+>>15/
+[set A s_not_m 能登]
+[randomset B m @地魂男児 @あやかし -@NPC -not]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+訓練お疲れー！　みんな怪我してない～？
+痛い所あったらオラが手当するよー！/
+[show B C]
+[face A 00]
+[face B 00]
+[setline 0.5 B A]
+[talk A]
+あっ。　$B:A、なっとない？
+擦りむいちゃってるね。オラに見せて！[move A X -100 0.3]/
+[face A 05]
+[face B 05]
+[shake A]
+[shake B]
+[se dosa_01]
+あっ！！　んや～……[shake A]
+消毒液の蓋が外れちゃったよぉ……[face A 04]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+へへ、びしょびしょだね～。
+でもこれで全身消毒できたね～！　やったぁ～！[face B 04]/
+>>16/
+[set A s_not_m 能登]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[shake A]
+戦いの訓練も花嫁修業のうちだよね！
+オラがんばるよぉ！/
+[face A 09]
+[move A X 400 0.5]
+[se doka_01]
+えい！　[move A X -100 0.3]えいっ！[shake A][se doka_01]　やぁ！！[move A X -300 0.5][shakebg]
+んやっ！？[face A 05][move A Y 100 0.1][rotate A -100 0.3][-][move A Y -500 0.5][se bomb_01][-][shakebg]/
+[serif off]
+[rotate A 0 1]
+[face A 06]
+[move A Y 300 1.5]
+[-]
+[serif on]
+んや～思ったより床がツルツルで滑っちゃったよ～。
+陸の上は苦手だなぁ～。/
+[move A Y 120 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+んや～よいしょ……
+よぉし、次はこけないようにがんばるよ～！[face A 02]/
+>>17/
+[set A s_not_b 能登]
+[randomset B b @地魂男児 @あやかし @NPC -not]
+[show A C]
+[show B C]
+[face A 04]
+[face B 04]
+[serif on]
+[talk A]
+[setline B A]
+んや～、$B:A怪我してるの～？
+つらそうだね～……/
+[face A 01]
+[face B 01]
+[se cloth_01]
+[move A XY -100 -50 0.5]
+そしたらオラが脱ぐの手伝ってあげるよー！
+んしょんしょ[shake A][shake B]……んやー！[face A 09][rotate A 50 0.3][move A XY -100 -50 0.1][shake B][face B 05][se paper_03]/
+[rotate A 0 0.5]
+[move A XY 100 100 1.0]
+[face A 04]
+[face B 04]
+ごめん！　[shake A]下着やぶけちゃった。
+……代わりにオラのあげるからね！[face A 02]/
+[face A 01]
+[face B 06]
+あ、体も洗うのも大変だよね。
+背中流してあげるから、オラと洗い場行こー！[move A X -1200 1.0][delay 0.3 move B X -1200 1.0]/
+>>18/
+[set A s_not_b 能登]
+[randomset B b @地魂男児 @あやかし @NPC -not]
+[effect fr yuge a 0 0]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[talk A]
+[setline B A]
+[moveline B A 0 -50 0]
+[shake A]
+[se bath_05]
+ごしごし♪
+ご～しごし♪[shake A]/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+んや～、きれいになあれ～！
+よしよし、すっきりしてきたよ～！/
+[face A 01]
+[face B 01]
+[se kira_01]
+[effect A kira 4000 0 100]
+んや～やっぱりオラの肌は
+ツルツルぷにぷにじゃないとね～！/
+>>19/
+[set A s_not_b 能登]
+[randomset B b @地魂男児 @あやかし @NPC -not]
+[effect fr yuge a 0 0]
+[show A C]
+[face A 01]
+[show B]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -170 0]
+[setline A B]
+[orderline A B]
+[face B 01]
+[se bath_04]
+[talk A]
+[serif on]
+んや～お湯ですべすべになるとオラ
+なんだか嬉しくなっちゃうよ～……/
+[face A 02]
+[face B 06]
+ねえねえ$B:A、触ってみてよ！
+ツルスベだよぉ！　ねっ！[shake A]/
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[autotap]/
+[shake A 1 5 5]
+[se water_07]
+[face A 09]
+[effect fr splash 6000 0 0]
+[face B 01]
+んやぁっ！　しっぽキュッキュってされると
+くすぐったいよぉ。[face A 06]/
+>>20/
+[set A s_not_r 能登]
+[randomset B b @地魂男児 @あやかし @NPC -not]
+[randomset C b @地魂男児 @あやかし @NPC -not -@NOW]
+[show B]
+[show C]
+[setline C B -100 500]
+[face C 04]
+[face B 00]
+[show A R]
+[move A X 300]
+[move A X -200 0.5]
+[face A 05]
+[talk A]
+[orderline A B C]
+[serif on]
+わ。$B:A、これ厠待ちの行列なの～！？[shake A]
+んやぁ……オラも並んじゃおっと！[face A 04][setline 0.5 C B A]/
+[face A 06]
+[face C 06]
+[se cloth_01]
+朝は混んでるねぇ。$C:Aも
+順番が来るまで待てそう？　オラもがんばるよぉ！[move A Y 100 0.1][delay 0.1 move A Y -100 0.2][face A 08]/
+[face A 02]
+[face B 01]
+[flow]
+いいお嫁さんになるには
+ガマンすることも大事だって聞いたんだよぉ～！/
+>>21/
+[set A s_not_r 能登]
+[randomset B r @地魂男児 @あやかし @NPC -not]
+[show A C]
+[show B C]
+[face A 03]
+[face B 00]
+[orderline A B]
+[setline A B]
+[talk A]
+[shake A]
+[se cloth_01]
+[serif on]
+んしょっと……服汚しちゃだめだから
+ちゃんと下まで下ろして……っと。/
+[face B 06]
+[face A 06]
+んやああっ！？[shake A 2 5 5]　$B:A、
+後ろから見られたら、恥ずかしいよ～っ！[face A 09]/
+>>22/
+[set A s_not_r 能登]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[move A Y -50]
+厠は洋式の方が好きって、
+よくみんな言ってるんだよね～……/
+[face A 06]
+オラは和式の方が、尻尾も当たらないし、
+使いやすいんだよねぇ。は～っ。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+>>23/
+[set A s_not_b 能登]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[serif on]
+[talk A]
+[move A Y -50]
+個室だと帯もほどいて……裸になって
+用を足せるからいいよねぇ。えへへ……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+んや～でも、誰かに見られちゃったらと思うと……
+ちょっと恥ずかしいよぉ～……/
+>>24/
+[set A s_not_r 能登]
+[randomset B r @地魂男児 @あやかし @NPC -not]
+[show A C]
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_01]
+[-]
+[serif on]
+[talk A]
+よ～いしょっ！　できた！！
+みんなの分もお布団敷いたよぉ……って、あれ！？[face A 05]/
+[show B L]
+[move B X -200]
+[move B X 200 0.5]
+[face B 05]
+[face A 04]
+[flow]
+[talk A]
+んや～明日のためにも早く寝よう～と思ったのに……[shake A]
+掛け布団と敷布団、全部逆に敷いちゃってたよ～……[shake A][se zukkoke_02]/
+[face A 09]
+[face B 06]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[se cloth_06]
+待ってて！　オラ、急いで直すから！！[delay 0.4 move A X -800 0.3]/
+>>25/
+[set A s_not_r 能登]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+んや～……オラの……
+……お婿……さん……えへへ……/
+[talkend]
+いい夢を見ているようだ。/
+>>26/
+[set A s_not_r 能登]
+[randomset B r @地魂男児 @あやかし @NPC -not]
+[show A C]
+[show B C]
+[face A 05]
+[face B 07]
+[talk A]
+[order A 0]
+[order B 5]
+[setline A B]
+[move B XY -100 -150 0.5]
+[rotate B 20 0.5]
+[se cloth_01]
+[delay 0.3 shake A]
+[-]
+[serif on]
+んやー！　$B:A！？[shake A]/
+[face A 06]
+急に抱きついてきて……も、もしかして……[shake A]
+オラのお婿さんに、なりたいの……？/
+[se zukkoke_02]
+[face A 04]
+[shake A 2 10 10]
+って寝てるぅぅ…………[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[face A 09]
+[waku on 0.5]
+（オラ、いつでもお婿さんを受け入れる準備は、
+　できてるんだけどなぁ……）/
+[waku off 0.5]
+[talkend]
+能登はもんもんとしている。/
+>>27/
+[set A s_not_r 能登]
+[show A C]
+[face A 00]
+[talk A]
+?能登、ハレの日おめでとう！/
+[se kira_01]
+[effect fr kira a 0 0]
+[say A]
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+あるじ～あんやとぉ～！/
+[face A 01]
+[flow]
+今日はオラの日だよぉ～。
+そう！　イルカさんの日！/
+[face A 00]
+[flow]
+[effect off a]
+オラの国には、昔からよく
+イルカさんが泳いできたんだよぉ～。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+いまも、七尾湾には
+イルカさんの家族が住んでるんだ～。/
+[face A 06]
+[flow]
+いつかあるじにも会いに来てもらいたいなぁ。
+オラみたいにつるすべだよぉ！/
+[se cloth_01]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 01]
+ほら、オラの頭触ってみて。/
+[serif off]
+?能登の頭を触る/
+[se cloth_01]
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+んや～。[shake A]キュッキュってしてつるすべでしょ？
+えへへ……頭撫でられてるみたいで照れるやぁ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+それでぇ……今日はオラのハレの日だから
+主にお願い事してもいいかなぁ？/
+[serif off]
+?いいよ。どんなこと？/
+[face A 06]
+[serif on]
+へへ……じゃあ、今日だけ
+あるじを好きにさせてもらえないかなぁ？[shake A]/
+[face A 08]
+[flow]
+オラのいままでの花嫁修業の成果、
+ぜ～～んぶ、見せてあげるよぉ！[shake A][se taiko_02]/
+[face A 06]
+[flow]
+本物のお嫁さんみたいにねっ！/
+[serif off]
+?まぁ、それくらいなら……？/
+[face A 02]
+[serif on]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ほんとに！？　んやぁ～～～オラ嬉しいよぉ～！
+じゃあ、さっそく準備してくるね。/
+[se kira_01]
+[move A X -50 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A X 50 0.4]
+[delay 0.4 rotate A -10 0.3]
+[delay 0.8 move A X -50 0.4]
+[delay 0.8 rotate A 10 0.3]
+[delay 1.2 move A X 50 0.4]
+[delay 1.2 rotate A -10 0.3]
+[delay 1.3 move A X -50 0.4]
+[delay 1.3 rotate A 0 0.3]
+[autotap]/
+[face A 06]
+[flow]
+美味しいもの作って、いろんなことして……へへ。
+体も洗って、もっとぷにすべにならなきゃ！/
+[face A 00]
+[flow]
+あるじを幸せにしてあげるね。
+楽しみにしててよぉ～！/
+[move A X 1000 0.6]
+[se walk_02]
+[autotap]/
+>>100/
+[set A s_not_r 能登]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 能登の花嫁修業]
+[-]
+[bg heya_day]
+[bgm home]
+[-]
+[fadeout 2.0]
+[wait 1.0]
+[-]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+朝早く目が覚めたので、
+顔を洗いに部屋を出た。/
+[se water_05]
+[textcolor ARUJI]
+すると、洗面所の方からびしゃびしゃびしゃと
+水がはねるような音が聞こえてきた。/
+[serif off]
+?？/
+[talkend]
+[serif on]
+[bgm departure]
+@悲鳴
+んや～～～！/
+[serif off]
+?悲鳴！？/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se walk_03]
+[hideall]
+[wait 2]
+[minibg kawaya_day]
+[bg mbg_syouen]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+水の音とともに響いてきた悲鳴を聞き
+急いで洗面所へ飛び込んだ。/
+[show A C]
+[face A 09]
+[se water_05]
+[textcolor ARUJI]
+洗面台の蛇口から水が噴水のように吹き出て、
+全身ぐっしょりと濡れた能登がいた。/
+[face A 05]
+[say A]
+あっ、あるじ！[shake A]/
+[serif off]
+?能登？　大丈夫？/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+んや～～……
+恥ずかしいとこ見られちゃったねぇ。/
+[talkend]
+[textcolor ARUJI]
+能登はてへへと笑う。/
+[serif off]
+[hide A]
+?何これ。水浴び？/
+[effect fr splash 6000 0 0]
+[se water_05]
+[show A]
+[face A 01]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+うん！
+水を浴びるのは気持ちいいんだよぉ！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 02]
+だってオラはイルカさんだもん！
+水の中にいるみたいでピチピチしちゃうよ〜。/
+[face A 05]
+[shake A]
+……んや！？[shake A][se zukkoke_02]
+ほんとはそうじゃなくって！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+オラ、朝一に洗面台の掃除しようと思って、
+急いできたんだけど、ちょっとコケちゃって……/
+[face A 04]
+[flow]
+そしたら、掴んだ蛇口が取れちゃって
+水が止まらなくなっちゃったんだよぉ。[shake A]/
+[talkend]
+[move A X -200 0.5]
+[hide A]
+[se water_05]
+[textcolor ARUJI]
+そう言って吹き出る水を手で押さえる能登。/
+[show A]
+[face A 09]
+[talk A]
+んや～～！[shake A]/
+[serif off]
+?そのまま押さえてて/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+床に転がっていた蛇口を拾って
+取り付けてみる。/
+[se dosa_01]
+[textcolor ARUJI]
+[bgm off]
+意外にも蛇口は簡単にくっついた。/
+[serif off]
+?後でちゃんと修理してもらおう/
+[show A C]
+[face A 01]
+[bgm cute]
+[talk A]
+[effect A kira a 0 100]
+[serif on]
+[se kira_01]
+んや～あるじ、あんやと！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+あるじは優しいね。
+いいお婿さんになれるよ～っ！[shake A]/
+[serif off]
+[effect off a]
+?なんで洗面台の掃除しようとしてたの？/
+[face A 00]
+[serif on]
+それはね、[wait 0.5][scale A 1.5 0.3][move A Y -100 0.3]オラの花嫁修業！[face A 02][se taiko_02]/
+[hide A]
+[serif off]
+?花嫁修業？/
+[show A C]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+うん！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 00]
+オラ、旦那さんを支える
+素敵なお嫁さんになりたいんだぁっ。/
+[face A 02]
+そのために毎日花嫁修業頑張ってるよぉ〜！/
+[face A 08]
+いつの日か、誰か素敵なお婿さんが
+迎えに来てくれる……/
+[face A 01]
+[flow]
+そのときまでにどこに出てっても
+恥ずかしくない立派な花嫁さんになるよぉ！/
+[face A 08]
+[effect fr syutyu a 0 0]
+[se taiko_02]
+そのためなら、オラ、どんな修行も
+こなしてみせるよ！/
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+能登は真剣な眼差しでそう語る。
+つるぷにの濡れた肌が光を反射し輝いている。/
+[serif off]
+?応援するよ！/
+[face A 01]
+[talk A]
+[serif on]
+えへへ、あんやと、あるじ！
+あるじに応援してもらえて嬉しいよぉ！/
+[face A 05]
+[shake A]
+[se doka_01]
+[effect fr syutyu a 0 0]
+[bgm departure]
+[rotate A 5 0.3]
+[delay 0.3 shake A]
+って、んやーーーー！！？/
+[serif off]
+[scale A 2 0.4]
+[move A Y -220 0.4]
+[hide A]
+[delay 0.4 shakebg]
+[delay 0.4 se zukkoke_01]
+?！？/
+[se cloth_06]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+[bgm fun]
+突然能登はこちらに突進してきた。
+押し倒されるかたちで尻もちをついた。/
+[effect off a]
+[show A]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[talk A]
+[move A Y -100]
+[move A Y 100 0.5]
+んやぁぁ……
+床が濡れてて足がすべっちゃった……/
+[talkend]
+[textcolor ARUJI]
+[hide A]
+能登はこちらのお腹の上に倒れこみ
+ゆっくりと頭を起こした。/
+[textcolor ARUJI]
+能登の肌は特有のつるつるで滑らかなゴム
+のようにぷにすべだ。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 09]
+[talk A]
+んやぁっ。あるじごめんねぇっ！[shake A]
+服……濡れちゃったねぇ……[face A 04]/
+[serif off]
+?大丈夫だよ/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[se clotth_01]
+[serif on]
+えへへ……でもこうやって寄り添ってると
+まるで夫婦みたいだね。ドキドキしちゃうよ。/
+[face A 01]
+オラ、素敵なお婿さんと出会う日のために
+花嫁修業してるけど……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+やっぱり理想は……あるじがオラを花嫁さんに
+もらってくれたら嬉しいなぁっ。えへへ。/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[se kira_01]
+[effect A kira a 0 100]
+そうだ！　あるじの服、濡れたままじゃ
+風邪引いちゃうからお着替えさせてあげる！/
+[face A 01]
+さぁあるじ、オラの花嫁修業の成果
+見せてあげるよぉ！/
+[serif off]
+?ええっ！？/
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[face A 02]
+[effect off a]
+[serif on]
+あるじの部屋に行くよぉ！[move A X -600 0.5][hide A]　/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg heya_day]
+[minibg off]
+[se cloth_06]
+[delay 0.6 se cloth_01]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+能登は一生懸命着替えさせてくれた。
+たどたどしいが、とても優しい手つきだ。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+んやぁ！？　ちょっときつくしめすぎちゃった。[face A 09]
+痛くなかった？　あるじ。/
+[serif off]
+?大丈夫。ありがとう。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+よかったぁ〜。
+オラ、もっといーーっぱい修行するよぉ！/
+[face A 01]
+失敗することもあるけど……
+いつだって前向きなのがオラだよぉ！/
+[se kira_01]
+[move A X -50 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A X 50 0.4]
+[delay 0.4 rotate A -10 0.3]
+[delay 0.8 move A X -50 0.4]
+[delay 0.8 rotate A 10 0.3]
+[delay 1.2 move A X 50 0.4]
+[delay 1.2 rotate A -10 0.3]
+[delay 1.3 move A X -50 0.4]
+[delay 1.3 rotate A 0 0.3]
+[autotap]/
+[face A 02]
+[flow]
+失敗は成功の母っていうもんね！/
+[talkend]
+[textcolor ARUJI]
+能登は楽しげにふりふりと
+左右にしっぽをふっている。/
+[face A 00]
+[talk A]
+応援しててね、あるじ！/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[face A 02]
+[serif on]
+あんやと～！　あるじ～！/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ、もちろん、地魂男児としての
+任務もしっかりやるからね！/
+[face A 06]
+寿退社は憧れだけど……へへ。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+能登は顔を赤くしている。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[talk A]
+あるじ……これからもオラの花嫁修業に
+付き合ってもらえないかなぁ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+オラが素敵なお嫁さんになれるように、
+練習させてもらいたいんだ～。/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+やったぁ！　早速次の花嫁修業するよぉ！
+オラ、あるじの朝ご飯作ってくるね！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+とびっきりすぺしゃるな朝ご飯
+作っちゃうよぉ！　待っててねーー！/
+[move A X -600 0.5]
+[talkend]
+[hide A]
+[se fusuma_01]
+[textcolor ARUJI]
+能登は厨房へと駆けていった。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm eerie]
+[hideall]
+[bg black]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on 0.5]
+それから30分ほどして、
+すぐに後悔することになった。/
+[show A C]
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[talk A]
+[minibg emo_donyori 0.5]
+あるじ〜！　おまたせっ！
+オラ特性の愛情たっぷりおむらいすだよぉ！/
+[serif off]
+[hide A]
+?……オムライスって言った？/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+机の上に置かれたお皿の上には
+焦げ茶と灰色の不定形な塊が鎮座していた。/
+[textcolor ARUJI]
+どろりとしたくすんだ濁色のそれからは
+ところどころから何かの欠片が突き出ている。/
+[show A]
+[face A 00]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+んやぁ〜どうしたの？
+冷めちゃうよ？/
+[face A 06]
+見た目はちょっぴり不格好だけど……
+きっと味は美味しいよ！/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 02]
+ほら、あーーーーん！/
+[serif off]
+?（口を開けたくない）/
+?（…………）/
+?（意を決して口を開く）/
+[playeryes]
+[se eat_01]
+[-]
+[hide A]
+[talkend]
+[fadein white 0.3]
+[se cloth_06]
+[textcolor ARUJI]
+[serif on]
+瞬間、意識が吹き飛んだ。/
+[textcolor ARUJI]
+口に入れたスプーンの■■……
+■■■は■■■■■■■味で■■■■■……/
+[waku on]
+[fadeout 2]
+[autotap]/
+[light def]
+[lightcolor red]
+[show A C]
+[face A 02]
+[scale A 2.0]
+[move A Y -200]
+[talk A]
+あるじ、どう？[wait 0.5]
+次はもっとおいしく作るからね！/
+[fadein BLACK 2.0]
+[talkend]
+[textcolor ARUJI]
+薄れゆく意識の中で最後に見た能登の
+笑顔はずっと忘れられなさそうだ。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_not_r 能登]
+[set B s_not_b 能登]
+[set C s_n000_r 猫乃屋]
+[set D s_n005_b りく]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 能登は優しや]
+[-]
+[bgm fun]
+[bg rouka_day]
+[-]
+[fadeout 2.0]
+[-]
+[show A C]
+[face A 02]
+[move A X -1000]
+[move A X 1000 1]
+[se walk_02]
+[-]
+[serif on 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[talk A]
+んやぁ～。今日も花嫁修業頑張るよぉ！
+みんなぁ、オラがなんでもお手伝いするよぉ～！/
+[face A 00]
+[flow]
+あ、主！
+主もなにかあったらすぐにオラを呼んでねぇっ。/
+[serif off]
+?ありがとう、能登/
+[hide A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+能登はみんなのお手伝いをしている姿を
+よく見かける。/
+[flow]
+[textcolor ARUJI]
+花嫁修業と称しているが、
+能登自身の優しさゆえの行動なのだろう。/
+[serif off]
+[show A]
+[move A X 1000]
+[move A X -1000 0.3]
+[face A 05]
+[say A]
+[rotate A 30 0.3]
+[se doka_01]
+[shakebg]
+[-]
+[wait 0.3]
+[move A XY -300 -100 0.3]
+[rotate A 50 0.3]
+[se zukkoke_02]
+[shakebg]
+[-]
+[serif on]
+んやぁ！　コケちったぁ～！[shake A][face A 09]/
+[serif off]
+?（ちょっと不安なとこもあるけど……）/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+ある日のこと――……/
+[show C C]
+[move C Y -10 0.2]
+[delay 0.2 move C Y 10 0.2]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.2]
+[autotap]/
+[face C 08]
+[say C]
+ふぅ……ふぅ……
+お、よぉ後輩！[face C 02][move C Y 10 0.1][delay 0.1 move C Y -10 0.1]/
+[serif off]
+?猫乃屋さん。すごい荷物だ……/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 08]
+[serif on]
+[say C]
+いや～。次の任務で必要な機材らしくて
+搬入を頼まれてよぉ。/
+[flow]
+[face C 10]
+任せとけって言ったものの……/
+[scale C 1.6 0.3]
+[move C Y -120 0.3]
+[autotap]/
+[face C 04]
+[flow]
+[effect fr syutyu 6000 0 0]
+まさかこんな重くて量があるなんて
+思わねぇだろ！？[se zukkoke_02]/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 08]
+[flow]
+なぁ～。わりぃけど、司令室まで運ぶの
+手伝ってくれね？/
+[serif off]
+?猫乃屋を手伝う/
+[face C 01]
+[serif on]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+へへ、さんきゅー！
+さすが後輩だぜ。/
+[hide C]
+[talkend]
+[textcolor ARUJI]
+猫乃屋が台車に積んできた機材を
+一台ずつ廊下におろしていく。/
+[show C]
+[scale C 1.6]
+[move C Y -120]
+[face C 02]
+[say C]
+[move C Y -100 0.5]
+持ち上げるときの姿勢気をつけろよ。
+腰痛めんなよ～。いくぞ、せーーーの……！[shake C][se cloth_01]/
+[face C 08]
+[move C Y 100 0.3]
+[se cloth_06]
+[serif off]
+?お、重い……/
+[hide C]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+機材はふたりで持ってもかなりの重さだ。
+そのうえ数もある。/
+[show C]
+[face C 10]
+[scale C 1.6]
+[move C Y -120]
+[say C]
+[serif off]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[-]
+[serif on]
+よいしょ……よいしょ……ふぅ。/
+[move C Y 20 0.4]
+[delay 0.6 move C Y -20 0.2]
+[autotap]/
+[face C 05]
+[flow]
+ひぇぇ……きっちぃな……
+汗が止まらねぇぜ。/
+[talkend]
+[textcolor ARUJI]
+猫乃屋はタオルで額を拭う。/
+[face C 10]
+[say C]
+[serif off]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[-]
+[serif on]
+まだこんなにあんのか……つら……/
+[hide C]
+[-]
+[show A C]
+[face A 00]
+[move A X 1000]
+[move A X -1000 0.5]
+[se walk_02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+主～。なにしてるのぉ～？/
+[serif off]
+?能登/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 08]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+んや～？　んん～？
+もしかして……これって……/
+[bgm cute]
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[autotap]/
+[effect fr kira 2000 0 0]
+[se kira_01]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+オラの出番！？/
+[hide A]
+[-]
+[show C]
+[face C 05]
+[say C]
+えぇ？[shake C]/
+[show A R]
+[setline 0.5 C A]
+[orderline A C]
+[face A 01]
+[say A]
+[effect fr kira 3000 0 0]
+[se kira_01]
+荷物を運んでるんでしょ？　オラが手伝うよぉ！
+花嫁修業の成果を見せるときだねぇ！/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[effect off a]
+[face C 08]
+[say C]
+手伝ってくれるのはありがてぇけど……
+だ、大丈夫かぁ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[say A]
+オラ陸の上だとちょっとドジっ子だけど……
+きっと大丈～夫！/
+[serif off]
+?能登に手伝ってもらう/
+[face A 01]
+[say A]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se goto_01]
+[-]
+[serif on]
+うん！　よっこいしょっと！/
+[hideall]
+[-]
+[talkend]
+[textcolor ARUJI]
+能登は廊下に置かれた機材を持ち上げた。/
+[flow]
+[textcolor ARUJI]
+やはり地魂男児の腕力は普通の人間とは
+段違いのようだ。/
+[show A]
+[face A 02]
+[move A X 1000]
+[move A X -2000 1.5]
+[autotap]/
+[say A]
+エッホ、エッホ！/
+[show C R]
+[move C X 600]
+[move C X -600 0.5]
+[face C 08]
+[say C]
+結構いい値段する精密機械だから
+注意してくれよ～。[shake C]/
+[setline 0.5 A C]
+[face A 00]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+うん……だいじょ……んや～～～！！[face A 05][shakebg][se doka_01][rotate A -30 0.3][move A Y 100 0.3][face C 05]/
+[scale C 1.6 0.3]
+[scale A 1.6 0.3]
+[moveline A C 0 -120 0.3]
+[se cloth_06]
+[orderline A C]
+[move A XY 150 -150 0.3]
+[rotate A -5 0.3]
+[face A 09]
+[autotap]/
+[face C 03]
+[say C]
+[effect fr syutyu a 0 0]
+[se zukkoke_01]
+あぶねっ！！/
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+次の荷物を持ち上げようとしたところで
+つまづいた能登を、猫乃屋が抱きとめた。/
+[face A 06]
+[say A]
+んや、コケちゃいそうだった……
+猫乃屋さん、あんやと！/
+[face C 01]
+[say C]
+おう、気を付けてくれよ～。/
+[hideall]
+[-]
+[talkend]
+[textcolor ARUJI]
+それから能登はひとつひとつ
+注意深く丁寧に荷物を運んでくれた。/
+[flow]
+[textcolor ARUJI]
+それでもふたりがかりで運んでいる
+自分と猫乃屋よりも早いものだ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif off]
+?能登、助かったよ。ありがとう/
+[show C C]
+[show A R]
+[face C 01]
+[face A 01]
+[say C]
+[setline C A]
+[orderline A C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[serif on]
+俺からも、ありがとな。能登。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[say A]
+えへへ……猫乃屋さん、
+汗を拭う姿、すごくカッコよかったよぉ！/
+[move A X -50 0.1]
+[effect fr kira 6000 200 0]
+[se kira_01]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 06]
+[flow]
+それにさっき、コケそうになったオラを
+抱きとめてくれたの……頼もしかった……！/
+[bgm comical]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+猫乃屋さん、いいお婿さんになるよぉ！/
+[face C 05]
+[say C]
+[se zukkoke_02]
+[shake C]
+お、お婿さん～～！？/
+[face A 00]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+んや？
+それとも、猫乃屋さんもお嫁さんかなぁ？/
+[serif off]
+?猫乃屋さんがお嫁さん……/
+[face A 02]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+猫乃屋さんもオラとおんなじで花嫁修業中
+だったんだぁ！/
+[flow]
+[face A 06]
+だから荷物を運んだりしてたんだねぇ。/
+[face C 02]
+[say C]
+[effect fr syutyu a 0 0]
+なっ！？　は、花嫁修業！？[shake C 2 5 5]
+ち、違ぇよ！/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[effect off a]
+[face C 10]
+[flow]
+俺はなににも縛られない孤高の男……そう！
+誰とでも仲良くなれるお隣のお兄さん！！/
+[face C 09]
+[flow]
+それが俺のモットー、なんだ！/
+[serif off]
+?そうだったんだ……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[serif on]
+[say A]
+んや～……
+みんな目指してるものがあるんだねぇ。/
+[face A 01]
+[flow]
+[effect fr kira a 0 0]
+[se kira_01]
+うんうん、オラもやる気出てきたぞぉ！
+花嫁修業、もっと頑張らなきゃ！/
+[effect off a]
+[face A 02]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+じゃあオラ、誰か困ってるひとがいないか
+探してくるねぇ～。またね、主！/
+[move A X 800 0.5]
+[hide A]
+[hide C]
+[talkend]
+[textcolor ARUJI]
+ちょっぴりドジで不安なところもあるが
+能登の優しさを感じたのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[bg bath]
+[bgm off]
+[se amb_12]
+[-]
+[effect fr yuge b 0 0]
+[fadeout 2]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+その日の晩のこと。
+お湯に浸かってゆっくり過ごしていると……/
+[flow]
+[bgm night]
+[textcolor ARUJI]
+体を洗っていたりくと能登が
+楽しそうに話し始めた。/
+[show D C]
+[show B C]
+[se bath_05]
+[setline B D]
+[orderline B D]
+[face D 01]
+[face B 01]
+[say D]
+ねぇねぇ、能登はイルカなんだよね？
+わぁ、背びれが動いてる！/
+[se kira_01]
+[say B]
+[move B X -50 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B X 50 0.4]
+[delay 0.4 rotate B -10 0.3]
+[delay 0.8 move B X -50 0.4]
+[delay 0.8 rotate B 10 0.3]
+[delay 1.2 move B X 50 0.4]
+[delay 1.2 rotate B -10 0.3]
+[delay 1.3 move B X -50 0.4]
+[delay 1.3 rotate B 0 0.3]
+[autotap]/
+[face B 02]
+[say B]
+もちろん動かせるよぉ～。
+尻尾もほら、ふりっふりっ♪/
+[face D 02]
+[say D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+ほんとだ、こんなに細かく動くんだ！
+面白いなぁ～！/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 00]
+[say B]
+それじゃありくにイルカさんのことを
+少し教えてあげるよぉ。/
+[hideall]
+[-]
+[talkend]
+[textcolor ARUJI]
+お風呂のなかで能登のイルカ授業が
+始まったようだ。これも能登の優しさなのだろう。/
+[flow]
+[textcolor ARUJI]
+せっかくなので隣で見ていることにした。/
+[show D C]
+[show B C]
+[se bath_01]
+[setline B D]
+[orderline B D]
+[face B 00]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+イルカさんは他にも人間といろいろ
+違う所があるよー。ほら、頭に鼻があるでしょ？/
+[flow]
+穴は1つに見えるけど、
+中でちゃんと2つに分かれてるんだよ。/
+[face D 05]
+[say D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+おお～ほんとだ！
+ここで呼吸してるんだ！/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 02]
+[say B]
+そうだよ～、あとね、2時間ごとに
+皮膚が入れ替わって、お肌はいつもつるつる！/
+[flow]
+[face B 00]
+水の抵抗を小さくするために
+水を弾く物質も分泌してるんだよー。/
+[face D 12]
+[say D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+わっ、きゅっきゅってしてるね！
+すごく面白い～！/
+[talkend]
+[textcolor ARUJI]
+りくは興味深げに
+能登の身体をあちこち触る。/
+[scale B 1.6 0.5]
+[scale D 1.6 0.5]
+[moveline B D 0 -120 0.5]
+[move B Y 10 0.4]
+[move D X -100 0.5]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[se cloth_01]
+[face B 06]
+[say B]
+んやぁ～。あんまり触られると
+照れちゃうよぉ～。[face D 05]/
+[hideall]
+[bgm off]
+[se bath_03]
+[say D]
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+[textsize 40]
+あ～～！！！/
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+突然りくが大声をあげた。/
+[effect fr syutyu a 0 0]
+[show D]
+[scale D 1.6 0.3]
+[move D Y -120 0.3]
+[face D 10]
+[say D]
+[bgm comical]
+兄ちゃん、兄ちゃん！　見てよ！
+噂どおりのやつだよ！/
+[flow]
+[face D 09]
+能登……ちんこついてないよ！
+NOちんこ！[shake D]/
+[serif off]
+?こ、こら、りく！！/
+[show B L]
+[face B 06]
+[serif on]
+[say B]
+[effect off a]
+[scale D 1.0 0.3]
+[move D Y 120 0.3]
+[setline 0.5 B D]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+へへ、オライルカさんだからね。
+普段は収納されてるだけだよぉ！/
+[flow]
+[face B 01]
+紀伊や近江も同じだよ！/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 03]
+[say D]
+へぇ～～でも、ほんとに中に収納されてるの？
+目で見ないとほんとかどうかわかんないな～。/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 06]
+[say B]
+[se cloth_06]
+んやぁ～。仕方ないなぁ～。
+嫁入り前だから、ちょっとだけね……/
+[effect fr syutyu a 0 0]
+[serif off]
+?こらーー！　能登ーー！/
+[face B 09]
+[face D 12]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+能登はどんなときも優しいが
+ちょっと優しすぎるのかもしれない。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

@@ -1,0 +1,1531 @@
+>>10000/
+@河內
+我們是河內 在基內！[wait 1.7]
+像豹子一樣兇猛！喵！[autotap]/
+[delay 3]
+[flow]
+[-]
+@河內
+……嗯？你現在在笑嗎...?/
+>>10001/
+@河內
+我們是河內 在基內！像豹一樣...[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@河內
+你以前聽過嗎？[wait 2]
+肌腱！　T-n-n-d-n-n！/
+>>1/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+……我能打聽一下將軍的狀況嗎？
+全國各地的「歡樂節日」？/
+[face A 01]
+因此決定在平岡神社舉辦「喜劇儀式」！
+放聲大笑，祈求新的一年幸福快樂！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 02]
+好吧，如果你跟我在一起，你就會一整年都在這裡。
+這就像一場喜劇儀式！[face A 06]　/
+[face A 05]
+……你的臉怎麼濕濕的？[face A 04][scale A 1.5 0.3][move A Y -100 0.3][-][shake A 3]/
+>>2/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 05]
+[move A Y -200]
+[-]
+[move A Y 300 0.3]
+[delay 0.3 move A Y -100 0.2]
+[-]
+[serif on]
+[talk A]
+什麼，將軍！好吧，用自己的眼睛看看吧…
+[wait 0.3][face A 03]當我們必須做的時候，我們就去做！也體現了凝聚力！/
+[face A 01]
+畢竟，它在河內國家跨越了15公里。
+大和他們甚至在八個月內更換了河流！/
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[face A 06]
+河內居住在鄉村的人們的思想居住在那裡。
+我確信他是一個能做到這一點的人。/
+[scale A 1.0 0.2]
+[move A Y 50 0.2]
+[face A 01]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+我會盡力拍一個喜劇故事。
+我去找找看！[move A X -900 0.3]/
+>>3/
+[set A s_kaw_r 河內]
+[show A L]
+[face A 00]
+[move A X -600]
+[move A X 600 1.0]
+[-]
+[serif on]
+[talk A]
+嘿，將軍，今天在大阪市。
+[face A 06]看來那裡有一些非常美味的食物，對吧？ （閃爍）/
+[scale A 1.2 0.3]
+[move A XY 100 -30 0.3]
+你看，他是個圓圓的傢伙。[scale A 1.5 0.3][move A XY 100 -50 0.3][wait 0.3]裡面，
+[wait 0.3]成分在這裡。[scale A 1.8 0.3][move A XY 50 -50 0.3][face A 02][wait 0.3]以“ta”開頭.../
+[scale A 2.0 0.1]
+[move A Y -40 0.1]
+[face A 02]
+[textsize 40]
+是的！[wait 0.1]　球袋！[wait 0.5]　所以，[face A 03][scale A 3.0 0.1][move A Y -250 0.1]哇！[se zukkoke_02][shake A 5 10 10][effect fr syutyu a 0 0]
+裡面的工具是[face A 06][scale A 4.0 0.1][move A Y -250 0.1][shakebg]金球！[shake A 5 10 10][se taiko_02]/
+[scale A 1.0 0.3]
+[effect off a]
+[move A Y 670 0.3]
+章魚燒！[wait 0.3]　章魚燒！
+[move A Y 10 0.4][delay 0.4 move A Y -10 1.0][face A 04]多麼奇怪的模糊。/
+[face A 01]
+那麼，下次我們就來Takopaya吧！
+保證！/
+>>4/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 03]
+[serif name]
+[serif on]
+[talk A]
+為什麼？[move A X 50 0.3][delay 0.3 shake A 2][se dosa_01]！
+……[face A 04]沒辦法.../
+[flow]
+沒有人能笑這種黏糊糊的吐槽…
+[move A X -50 0.3]扭轉你的臀部並稍微傾斜你的手......就像這樣....../
+[flow]
+[face A 03]
+為什麼？[move A X 100 0.2][delay 0.2 shakebg][se doka_01]！
+哦！[face A 01]　當前的那一個發出了破裂的聲音！/
+>>5/
+[set A s_kaw_r 河內]
+[randomset B r @地魂男児 @あやかし @NPC -kaw]
+[show A C]
+[face A 01]
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -150 0.8]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+嘿！你去哪裡？
+這邊？這裡？　[face A 04]我帶了一些食物。/
+[serif off]
+[show B R]
+[talk A]
+[move A X 50 0.2]
+[face A 00]
+[-]
+[face B 05]
+[serif on]
+哇哦$B:A！
+你看到貓了嗎？/
+[face A 06]
+[face B 00]
+[flow]
+[= ハチワレ 黒いやつ 三毛のべっぴんさん 茶トラのふてぶてしいやつ ずんぐりしたボス猫 白いやつ しゅっとしたやつ まだ子猫]但是.../
+[serif off]
+[face B 04]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[face A 04]
+[-]
+[serif on]
+我明白了……但我不能放棄……那隻貓[face A 06]的
+直到變得蓬鬆為止！ ！[shake A][face B 01]/
+>>6/
+[set A s_kaw_r 河內]
+[randomset B r @地魂男児 @あやかし @NPC -kaw]
+[show A R]
+[face A 00]
+[move A X 400]
+[move A X -400 0.5]
+[se fusuma_01]
+[-]
+[serif on]
+[say A]
+哦，我要做一些看起來很好吃的東西。[move A C 0.5][face A 06]
+嘿嘿嘿，一口就夠了…[move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]帕庫！　[face A 02]....好吃！ ！[se kira_01][effect fr kira 4000 0 0]/
+[show B R]
+[face B 04]
+[face A 05]
+[move A X -300 0.1]
+[say A]
+所以，$B:A！！[shake A]　哦，我們走吧，就是這個了。
+這不只是零食，更是貓糧！[shake A 2 5 5]/
+[face A 02]
+[move A X 150 0.5]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+我是一隻貓。[effect A love 4000 0 0][se zukkoke_02]
+什麼！[face B 03][face A 01]/
+[face A 05]
+[move B X 400 0.5]
+[hide B]
+[se fusuma_04]
+[shake A]
+哦，等等，等等！[move A X 800 0.5][se fusuma_02][hide A]
+對將軍保密！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+我根本睡不著。
+估計是因為我是夜貓子吧！/
+[flow]
+[face A 01]
+嗯，我想出了點汗就可以睡覺了。/
+>>10/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+顫抖！
+晚上是貓咪的時間！/
+[flow]
+[face A 03]
+今晚是貓咪的聚會場所
+我找到了...！ ！[shake A 5]/
+>>11/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 06]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+我今天表現很好...
+最好的吐槽對我來說很重要。/
+[face A 02]
+[scale A 1.5 0.3]
+[move A Y -100 0.3]
+[effect A suyutyu a 0 100]
+照這樣下去，我們將佔領喜劇世界！
+“為什麼不呢！”[move A X 200 0.2][delay 0.2 se doka_01][delay 0.2 shakebg][delay 0.2 shake A]/
+[move A X -400 0.3]
+[delay 0.3 shakebg]
+[delay 0.3 shake A]
+[delay 0.3 se doka_01]
+[autotap]/
+莫伊喬：“為什麼？”/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+嗯……這有點惱人……
+我想知道是否會累積很多東西.../
+[flow]
+[face A 06]
+如果發生這種事我也無能為力。
+趁沒人的時候偷偷溜出來！[move A X -1000 0.5]/
+>>15/
+[set A s_kaw_m 河內]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[move  A X 100 0.1]
+……為什麼不呢！　[move A X -100 0.1][shakebg][se dosa_01]這是誰？
+有什麼理由嗎？　[move A X 100 0.1][se dosa_01][shakebg]這就是我說的[move A X -100 0.1][se doka_01][shakebg]！/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+....呼...連續100個吐槽。
+手[face A 01]開始痛了，所以我想今天就到此為止！/
+>>16/
+[set A s_kaw_m 河內]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+我想練習吐槽。
+我也想偶爾磨練一下自己的劍技。/
+[flow]
+[face A 04]
+我被將軍放棄了。
+我的前夫和我的孩子都有麻煩了！[shake A]/
+>>17/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 02]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+[talk A]
+哇！ ！ ！[shake A]/
+[flow]
+[face A 01]
+你在這裡喝的牛奶
+伊燦太好了！/
+>>18/
+[set A s_kaw_b 河內]
+[show A C]
+[face A 06]
+[se amb_12]
+[move A Y -100]
+[effect fr yuge a 0 0]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se water_03]
+[move A Y 100 0.3]
+[delay 0.3 shake A]
+[face A 05]
+[-]
+[serif on]
+[talk A]
+……啊！非常有趣的故事
+我只是想到了一個主意......！/
+[flow]
+[se water_07]
+[move A X 900 1.0]
+[face A 02]
+畢竟，當我泡在浴缸裡的時候
+是的，材料來了！[effect off a]/
+>>19/
+[set A s_kaw_b 河內]
+[randomset B r @地魂男児 @あやかし -@NPC -kaw]
+[show A C]
+[face A 00]
+[se amb_12]
+[effect fr yuge a 0 0]
+[serif on]
+[talk A]
+$B:A聽說我的胸部很大...
+是真的嗎.../
+[flow]
+[face A 05]
+哦！我試過了，這是真的
+好像有東西卡住了！　[shake A 5 3 3]哦，顫抖，顫抖…！/
+[flow]
+[face A 06]
+我想知道我是否可以用它來做點什麼......！/
+>>20/
+[set A s_kaw_r 河內]
+[show A L]
+[move A X -800]
+[face A 05]
+[serif on]
+[talk A]
+啊啊[move A X 1000 0.4]漏了，漏了！
+福福！　[face A 03]我及時趕到了！[se pee_01]/
+[flow]
+[face A 05]
+[shake A 5]
+哇！　[move A X -200 0.1]它朝著一個奇怪的方向飛去！
+……[face A 04]稍後我會清理它.../
+>>21/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+普魯普魯恩[shake A 1]！
+普魯普魯倫！　[shake A 1]皮皮尤♪/
+[flow]
+[face A 02]
+剪尿時
+搖晃它很有趣！/
+[flow]
+[face A 01]
+普魯普魯恩[shake A 1]！
+普魯普魯魯農[shake A 1]！皮皮♪/
+>>22/
+[set A s_kaw_r 河內]
+[randomset B r @地魂男児 @あやかし @NPC -kaw]
+[show B]
+[face B 04]
+[move B X 1000]
+[move B X -1000 0.8]
+[-]
+[shake B]
+[serif on]
+（康康康）/
+[scale B 1.4 0.5]
+[show A]
+[orderline B A]
+[move A XY -500 -50]
+[move A X 300 0.5]
+[move B XY 200 -120 0.5]
+[face A 01]
+[say A]
+出來了！[effect A kira a 0 0]/
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 100 0.3]
+[delay 0.5 rotate A 20 0.3]
+[autotap]/
+[effect off a]
+[-]
+[flow]
+[face A 09]
+[face B 05]
+[effect fr syutyu b 0 0]
+[se zukkoke_01]
+為什麼？它就在那裡！[shakebg]
+[move B X 200 0.3]/
+[rotate A 0 0.5]
+[move A Y -60 0.5]
+[effect off b]
+[face A 01]
+呵呵，是的，諾裡茨科米！/
+>>23/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 06]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+呼…
+我以為我今天狀態很好.../
+[flow]
+[face A 03]
+你也好嗎？[shake A 3 10 10]/
+>>24/
+[set A s_kaw_r 河內]
+[randomset B r @地魂男児 @あやかし @NPC -kaw]
+[show A C]
+[show B C]
+[setline A B]
+[face A 04]
+[face B 00]
+[serif on]
+[talk A]
+我不想和貓一起睡
+蒲團[face A 02]感覺就像夢見一隻貓走進房間一樣。[face B 01]/
+[serif off]
+[move A XY -10 -80 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+[face A 06]
+當我把食物放在蒲團上時
+我想知道你是否可以到我身邊...[face B 05][shake B]/
+>>25/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+啊……哦不……[shake A]
+為什麼不呢！ ！[shake A 3 10 10]/
+[flow]
+[talkend]
+……就像在睡夢中說話一樣/
+>>26/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 07]
+[serif on]
+[move A Y -100]
+[talk A]
+⋯⋯呵呵...姆尼亞姆尼亞...
+……！！　[shake A 2][face A 05]哈！ ！ ！/
+[flow]
+[move A Y 100 1.0]
+[se cloth_01]
+[face A 04]
+哦，我試過了...！[shake A 1]
+關於蒲團！ ！/
+[flow]
+[face A 06]
+[move A X -200 1.5]
+好吧，在大家醒來之前
+我必須以某種方式處理它....../
+>>27/
+[set A s_kaw_r 河內]
+[show A C]
+[face A 03]
+[talk A]
+？ 河內，快樂的一天！/
+[face A 05]
+[serif on]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+哇！ ！ ！突然身後傳來一個聲音
+他在那兒！ ！ ！/
+[face A 04]
+我不需要那種驚喜！
+真正的將軍是…/
+[face A 01]
+你要做什麼？
+我正在烤章魚燒。當你看到它的時候你能說出來嗎？/
+[face A 00]
+你有時會吃得很瘋狂，不是嗎？
+我想讓將軍的願望在這一天實現。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[flow]
+畢竟，今天是喜劇日！ ！[shake A]
+……[face A 01]這還不是全部。這也不重要.../
+[face A 06]
+其實今天是8月8日，是章魚燒日！　
+8點和8點有可愛的章魚燒！/
+[face A 09]
+[effect fr kira a 0 0]
+[se kira_01]
+和 Chukoto、Takopa、Takopa 一起~♪
+您想要什麼食材？/
+[face A 06]
+[effect off a]
+醬汁很好，但還有大蔥和蘿蔔絲！
+響應將軍的喜好，[wait 0.5]不再有禦好燒了！[se taiko_02][shakebg]/
+[serif off]
+[se zukkoke_02]
+？為什麼？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 09]
+[shake A]
+[se doka_01]
+不錯的吐槽和將軍！簡稱奈科米！
+同時，章魚燒已經煮熟了。/
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+也許我應該先嘗試一下醬汁。
+放在託盤上，噴上醬汁。/
+[face A 00]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+青海鰹魚片……還有我的愛
+把所有的東西都放進去... Fuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu 比比比比比比對應比比/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 06]
+[flow]
+霍納將軍……天氣很熱，所以要小心。
+是的，就這樣做。/
+[serif off]
+？啊？/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[autotap]/
+[se eat_01]
+[serif on]
+[face A 02]
+它在哪裡？就是這樣，不是嗎？
+哇，看起來真的很熱！/
+[face A 10]
+對不起，將軍。來，喝點茶。/
+[serif off]
+？ ....很好吃/
+[face A 05]
+[serif on]
+真的！ ？[shake A 3 10 10]
+呵呵，聽到你這麼說我真的很高興。/
+[face A 09]
+[flow]
+如果你為了將軍這麼做，我無論如何都要烤你！
+吃到飽為止！/
+[shake[wait 0.5]
+[face A 02]
+[-]
+[wait 0.5]
+[autotap]/
+>>100/
+[set A s_kaw_r 河內]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[bg gozasyo_night]
+[-]
+[title 絆 河內登場]
+[-]
+[bgm home]
+[fadeout 2]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+結束了皇宮的工作，我決定去洗手間。
+就在那一刻，我站起來思考…/
+[serif off]
+[-]
+[show A C]
+[face A 09]
+[say A]
+[move A Y -200]
+[move A Y 300 0.1]
+[delay 0.1 move A Y -100 0.2]
+[effect fr syutyu a 0 0]
+[shakeb]
+[-]
+[se zukkoke_02]
+[textsize 40]
+[serif on]
+再見！ ！/
+[face A 01]
+[textsize 40]
+梅多！ 河內！ ！[shake A]/
+[face A 00]
+[effect off a]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+噢不，將軍！
+感謝您今天的辛勤工作！/
+[face A 11]
+[flow]
+我也會來這個莊園，請邀請我。
+現在還為時過早，所以/
+[face A 01]
+[flow]
+即使今天只是我的名字
+我希望我回家時能記住它......我想是的！/
+[serif off]
+？ 河內？/
+[se zukkoke_02]
+[shake A]
+[face A 05]
+[-]
+[serif on]
+……我相信你已經記住了！ ！ ！/
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+我突然實現了我的第一個目標！
+這是一個很棒的故事！[scale A 1.6 0.5][move A Y -120 0.5]/
+[talkend]
+[hide A]
+[se cloth_02]
+[textcolor ARUJI]
+河內一邊說一邊用雙手握著我的手。/
+[serif off]
+與 ?河內 聊天/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[hideall]
+[-]
+[show A]
+[face A 01]
+[fadeout 1.5]
+[-]
+[serif on]
+[say A]
+[-]
+[serif on]
+將軍，請為我騰出時間。
+真的很大！/
+[face A 11]
+[bgm departure]
+呼喚我，作為一個地魂男孩
+我覺得我收到它是命運的安排！ ！/
+[face A 03]
+畢竟，這才是我們這個莊園最大的目的！
+一定要搶到頂！ ！[shake A 2 5 3]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+……我並沒有重新下定決心。/
+[serif off]
+？頂部？/
+[face A 09]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[minibg emo_ikari 0.5]
+[bg black 0.5]
+[se fire_01]
+[-]
+[se quake_01]
+[serif on]
+沒錯！[shake A]　喜劇巔峰！
+每個人都嚮往的喜劇世界的巔峰！/
+[scale A 1.8 0.5]
+[move A Y -50 0.5]
+[flow]
+[textsize 40]
+地魂少年將會成為一個有趣的男人！ ！/
+[hide A]
+[bg gozasyo_night 0.5]
+[minibg off 0.5]
+[talkend]
+[textcolor ARUJI]
+河內握緊拳頭，一臉堅定。/
+[serif off]
+？我明白了。/
+[bgm off]
+[se zukkoke_02]
+[show A C]
+[face A 05]
+[say A]
+[scale A 2 0.2]
+[move A Y -200 0.2]
+[quake 3]
+[effect fr syutyu a 0 0]
+[-]
+[serif on]
+[textsize 40]
+太搞笑了！ ！ ！ ！/
+[flow]
+[bgm fun]
+板著臉[face A 08]“我明白了。”[wait 0.2]…[wait 0.2]…[wait 0.2]
+這很奇怪！[face A 05][shake A]　相反，它是新的！/
+[face A 03]
+[quake off]
+[scale A 1.0 0.5]
+[move A Y 200 0.5]
+地魂童子原來的職業是？
+楚說話！ ！/
+[face A 03]
+[move A X 200 0.3]
+[se doka_01]
+[delay 0.3 shake A]
+首先，什麼是喜劇《Jikon Danjikai》？
+像我們這樣的人只有一個！ ！/
+[face A 04]
+[effect off a]
+[move A X -200 0.5]
+嗯，就是有點孤獨。
+但我不知道……咕咕！
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.4]/
+[talkend]
+[textcolor ARUJI]
+河內做出了擦拭眼淚的動作。/
+[serif off]
+？我會支援你/
+[face A 05]
+[serif on]
+[say A]
+……！[shake A]/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+將軍……除了殺掉那個白痴之外。
+純反應…………/
+[face A 10]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+我的問題是我太放蕩了。
+好吧，我明白了。/
+[flow]
+我想今天應該要炫耀一下河內的模糊臉...
+我滑倒了…[face A 04]/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+是啊！一般的！
+我們一定會讓將軍笑死的！/
+[face A 09]
+準備好！ ！/
+[serif off]
+？期待/
+[face A 03]
+[serif on]
+媽的，你還有空間…！[shake A]
+霍娜！[rotate A -20 0.5]　非常感謝！/
+[move A X -800 0.8]
+[se fusuma_01]
+[hide A]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+河內鞠躬，
+他跑出了宮殿。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_kaw_r 河內]
+[set B s_kaw_r 河內]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[bg rouka_day]
+[-]
+[title 絆 河內のがんばり]
+[-]
+[bgm home]
+[fadeout 2]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+地魂男孩們一起住在一座莊園裡。
+他們生活中的問題、對使命的希望等等。/
+[textcolor ARUJI]
+[flow]
+為了編譯各種請求，
+我們定期進行採訪。/
+[textcolor ARUJI]
+[flow]
+今天和河內
+我已經預約了.../
+[serif off]
+[se walk_02]
+？你遲到了。/
+[textcolor ARUJI]
+[serif on]
+六原的會議被延後了，
+我和 河內 的約會都遲到了。/
+[serif off]
+？ 河內抱歉！/
+[fadein BLACK 0.5]
+[-]
+[se fusuma_01]
+[hideall]
+[bg black]
+[minibg emo_ikari]
+[-]
+[serif on]
+[textcolor ARUJI]
+我很快就進入了王座大廳。
+然後——/
+[show A C]
+[face A 05]
+[effect fr syutyu a 0 0]
+[rotate A 180]
+[scale A 2.0]
+[move A 100]
+[fadeout 0.5]
+[quake 1]
+[say A]
+[serif on]
+[bgm departure]
+[se zukkoke_02]
+[delay 1 move A Y 500 0.5]
+[autotap]/
+[textsize 40]
+為什麼不呢！ ！ ！現在！ ？
+這不是很神奇嗎！/
+[textcolor ARUJI]
+[talkend]
+河內正在宮殿中央倒立。
+我有一個tsukko。/
+[quake off]
+[effect off a]
+[serif off]
+?……/
+[face A 03]
+[say A]
+[serif on]
+真的……就這樣結束了……！[shake A]
+……小松山！ ！ ！/
+[move A Y -200 0.5]
+[delay 0.5 move A Y 400 0.3]
+[delay 0.8 move A Y -300 0.2]
+[delay 0.6 hide A]
+[autotap]/
+[textcolor ARUJI]
+[talkend]
+[delay 0.5 bg gozasyo_day 0.5]
+[delay 0.5 minibg off 0.5]
+[delay 0.5 se taiko_02]
+[delay 0.8 se kira_01]
+河內呈橋狀姿勢。
+決定一個姿勢。/
+[show A]
+[rotate A 180]
+[move A Y 200]
+[say A]
+[face A 03]
+從.../
+[effect fr syutyu a 0 0 ]
+[quake 2]
+[face A 08]
+[scale A 2.0 0.5]
+[move A Y -250 0.5]
+河內風格地魂男孩迷！/
+[talkend]
+[textcolor ARUJI]
+河內靈巧地轉動著他那雙肥美的腿。
+他的雙腿像旋風一樣移動。/
+[textcolor ARUJI]
+雙腿旋風，河內漸漸
+已經快到這裡了。/
+[say A]
+[face A 03]
+哇！ ！ ！
+是誰？ ！　/
+[serif off]
+[bgm off]
+[quake off]
+[effect off a]
+？呃，呃/
+[hide A]
+[-]
+[show B C]
+[face B 10]
+[say B]
+[move B Y -200]
+[move B Y 200 1]
+[se goto_02]
+[-]
+[serif on]
+呃，什麼反應……什麼……等等……
+等等，我好睏惑…/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm fun]
+[hideall]
+[-]
+[fadeout 1]
+[-]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+我不知道自己在做什麼，所以
+我決定和河內談談。/
+[serif off]
+？你什麼意思？/
+[show A C]
+[face A 04]
+[say A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+不，不。
+我的意思是，這對我來說是一個考驗，你不覺得嗎？/
+[face A 06]
+我認為這是夏之陣莊園中的「道明寺之戰」。/
+[serif off]
+?？/
+[face A 08]
+[move A X 250 0.5]
+[-]
+[serif on]
+我去了約定的地方。[move A X -250 0.5]
+最先到達的，其他人都遲到了。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 03]
+是的，那麼河內-kun
+你想做什麼？[shake A]　喜歡。/
+[face A 09]
+[flow]
+所以，道明寺之戰中的後藤元二
+如果你做到了，你就不用孤軍奮戰了！/
+[serif off]
+?？？？/
+[face A 03]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[-]
+[serif on]
+那我們也得戰鬥啊！
+以我自己的方式！/
+[face A 01]
+[flow]
+畢竟各種各樣的事情都有
+我想我剛剛搶盡了風頭。[shake A]/
+[serif off]
+？你在對抗什麼？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 06]
+[-]
+[serif on]
+[say A]
+……我的意思是，到處都是。
+是否設定了隱藏攝影機？/
+[face A 02]
+在監控我的情況時，
+擦螢幕的時候你笑了嗎？ ？ ？/
+[face A 06]
+[move A X 50 0.5]
+看，在柱子後面，在檔案之間，等等。
+垃圾裡有一個缺口...[move A X -50 0.5]/
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+有很多地方可以隱藏相機。/
+[face A 03]
+[talkend]
+[textcolor ARUJI]
+河內瞇起眼睛環顧四周。/
+[serif off]
+？抱歉造成混亂.../
+[face A 05]
+[bgm eerie]
+[say A]
+[serif on]
+哦，認真的嗎？[shake A]
+你沒有隱藏攝影機嗎？ ？/
+[face A 04]
+那是一個謊言...[shkae A]/
+[face A 10]
+老實說，本世紀最大的奇蹟模糊...
+沒有人會看到，也不會被記錄下來…？/
+[serif off]
+[shake A]
+[-]
+[move A Y -200 0.5]
+[hide A]
+[delay 0.5 se dosa_01]
+[talkend]
+[textcolor ARUJI]
+[-]
+[serif on]
+說著，河內就沉入了原地。/
+[bg black 0.5]
+[minibg emo_donyori 0.5]
+[show A C]
+[face A 04]
+[say A]
+[move A Y -100]
+我不會就這樣死去……這是謊言……嗯？
+長得不漂亮也是很正常的...[shake A]/
+[bg gozasyo_day 0.5]
+[minibg off 0.5]
+[minig off 0.5]
+[textcolor ARUJI]
+[talkend]
+河內看起來很沮喪。/
+[serif off]
+鼓勵？ 河內/
+[face A 06]
+[say A]
+[serif on]
+[bgm off]
+一般...[shake A]你安慰我……真好……
+如果你對我友善，我就會愛上你…[face A 10]/
+[face A 02]
+[flow]
+[move A Y 100 0.2]
+我從一開始就震驚了！
+[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[say A]
+好吧，過去的事情沒有必要再拖下去了。
+……如果這是真的…/
+[serif off]
+？是的，訪談.../
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[autotap]/
+[face A 02]
+[bgm fun]
+[effect fr syutyu a 0 0]
+[shakebg]
+[se zukkoke_01]
+[serif on]
+讓我們再次從頭開始展示我們的故事吧！ ！ ！/
+[serif off]
+？這就是你來的目的嗎？/
+[fadein BLACK 2.0]
+[autotap]/
+[textcolor ARUJI]
+[talkend]
+[serif on]
+然後，在看河內的故事時，
+採訪時間結束了。/
+[serif off 2.0]
+[-]
+[hide A]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>202/
+[set A s_kaw_r 河內]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[bg black]
+[minibg yatai_night]
+[-]
+[title 絆 河內と船の上で]
+[-]
+[bgm food]
+[fadeout 2]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[se gaya_01]
+[serif on 0.5]
+同時，我也去參加了約定好的夏日祭。
+我帶著河內來的。/
+[show A C]
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[say A]
+將軍！這裡！
+在這裡，這裡！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+河內牽著我的手，我擠過人群。
+來到河邊。那裡.../
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+耶！這是船屋！/
+[face A 00]
+[flow]
+我希望您充分享受這個節日。與一般
+我以為慢慢來就好了。/
+[face A 01]
+[scale A 1.0 0.5]
+[move A Y 120 0.5]
+我們上船吧！
+哦，你好！　[face A 00]接待處在這裡嗎？/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 11]
+好吧，如果你在「雲龍院裡庫」預訂的話
+我想……是這樣的。兩個人。很大程度上。/
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+好的！一般的！
+我們走吧！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg gendai_yakatabune]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+在接待員的引導下，我發現自己身處在一個狹小的空間裡。
+登上包租的船屋。/
+[textcolor ARUJI]
+[flow]
+進去之後發現裡面出奇的寬敞，窗戶上還掛著燈籠。
+掛起來了，氣氛很棒。/
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+哦！裡面很涼快！
+榻榻米的感覺也很棒！　/
+[move A X 600 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+就像一隻貓走進了一個陌生的房間
+河內焦躁不安地四處張望。/
+[effect fr kira a 0 0]
+[se kira_01]
+[show A C]
+[scale A 1.6]
+[move A Y -220]
+[move A Y 200 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 09]
+[say A]
+看看吧！一般的！貓雕像
+就在那裡！太難了！/
+[hide A]
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+過了一會兒，食物就送到我們的座位了。
+選單很豐富，有生魚片、天婦羅等等。/
+[show A C]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+哦！　就是這個，你這個白痴！
+嘿，將軍，拍照吧！和平和平！/
+[face A 01]
+[flow]
+它在哪裡？有拍到好看的照片嗎？
+我還給霍納將軍拍了張照片！　只需按此處即可。
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+[face A 01]
+嗨，巴塔~♪[shake A][fadein WHITE 0.2][delay 0.2 fadeout 0.3]
+那是起司！[face A 09][move A X -200 0.3][shakebg]　這麼大聲啊！[face A 03][move A X 200 0.3][delay 0.3 shake A 2 5 5][delay 0.3 shakebg]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+霍娜，時間到了。
+先乾杯吧！/
+[hide A]
+[talkend]
+[serif off]
+？祝你好運！　…………可口的！/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 01]
+[say A]
+[serif on]
+很好！　混合果汁中八屋！
+據說起源於大阪的飲料！/
+[face A 07]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se eat_01]
+米飯也……咕噥……
+嗚嗚嗚！ ！[face A 02][shake A 2 5 5]/
+[face A 04]
+[effect off a]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，我不擅長這個……我就交給將軍吧。
+我可以換這個嗎？/
+[serif off]
+？好吧。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+[serif on]
+很開心！　將軍真是大啊！
+波永波永亞！/
+[face A 06]
+啊？[shake A]　真實的故事有點奇怪！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+河內繼續比平常更興奮地說話。/
+[textcolor ARUJI]
+[flow]
+在享受美食、交談的同時，
+我不一會兒就吃完了。/
+[show A C]
+[face A 11]
+[scale A 1.6]
+[move A Y -160]
+[say A]
+看來我們還有一點時間。
+霍娜，咱們給將軍炫耀一席吧！[move A Y 40 0.5][se cloth_01]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+河內筆直地坐在榻榻米區域的墊子上，
+他從胸前取出一把扇子，開始說話。/
+[show A C]
+[face A 11]
+[move A Y -50]
+[say A]
+然後還有一個著名的故事。/
+[face A 07]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+科恩。呃...
+有些事情是每個人都害怕的。/
+[face A 01]
+[flow]
+我想知道這是為什麼...
+…………　………………/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm night]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[autotap]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+河內開始談論「饅頭可怕」。/
+[textcolor ARUJI]
+我自然地被你流利的說話方式所吸引。
+我們玩得很開心。/
+[serif off]
+？拍手/
+[show A C]
+[face A 09]
+[say A]
+[serif on]
+你好，你好！
+值得練習！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 07]
+不，但我認為，
+這對我來說很可怕.../
+[face A 06]
+[flow]
+果然是將軍之手吧？ （點這裡~）/
+[face A 02]
+[move A X -200 0.3]
+啊，將軍的手好可怕。
+我很想被將軍的手拍拍頭…/
+[move A X 400 0.5]
+[face A 06]
+我好害怕我好害怕。
+嚇人嚇人~啊~好可怕~（閃爍）/
+[serif off]
+？如果你那麼害怕，就不要碰它！/
+[scale A 1.6 0.3]
+[move A C 0.3]
+[move A Y -120 0.3]
+[effect fr syutyu a 0 0]
+[se zukkoke_01]
+[shakebg]
+[face A 04]
+[serif on]
+一般白痴！ ！
+你聽過可怕的麵包嗎？[shake A 2 5 5]/
+[serif off]
+[effect off a]
+？立刻拍河內的頭/
+[face A 05]
+[serif on]
+....！ ！ ！[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+我、我突然偷偷摸摸的~？
+是啊……我實在受不了將軍！/
+[face A 09]
+呵呵，什麼對我來說很重要？
+我會把它交給將軍。/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+河內是我一直在使用的摺扇。
+我把它遞了過去。/
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+我的高腳椅迷！
+確實，現在風扇和空調很方便。/
+[face A 06]
+[flow]
+但這只是夏季風格嗎？
+這是一款給你這種感覺的產品！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+當我抬頭看摺扇時，我確實注意到了一些事情。
+感覺好像有味道了。/
+[talkend]
+[textcolor ARUJI]
+奇怪的是，我假裝吃蕎麥麵等。
+這讓我也想「模仿」。/
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+你看起來不錯！一般的！/
+[face A 05]
+[light def 1]
+[se hanabi_02]
+[lightcolor red]
+[delay 1.5 light off 1]
+[delay 3 light def 0.6]
+[delay 3 lightcolor pink]
+[delay 5 light off 1]
+[delay 7 light def 0.4]
+[delay 7 lightcolor orange]
+[delay 9 light off 2]
+[delay 12 light def 1]
+[delay 12 lightcolor red]
+[delay 14 light off 2]
+[autotap]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+不知不覺中，夜空中燃放了巨大的煙火。/
+[show A C]
+[face A 01]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[shake A]
+啊，將軍！我爬不上屋頂了！
+上去吧！/
+[move A X 300 0.5]
+[hide A]
+[bg sky_star 0.5]
+[minibg off 0.5]
+[talkend]
+[textcolor ARUJI]
+河內帶我來到船屋的觀察區。
+感動了。/
+[se hanabi_01]
+[textcolor ARUJI]
+巨大的煙火在正上方綻放。/
+[bg black 0.5]
+[minibg sky_star 0.5]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[textcolor ARUJI]
+河內的微笑側臉
+有點紅，大概是煙火的緣故吧。/
+[face A 11]
+[say A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+整體來說，這樣平靜的夏天
+楚野不是也不錯嗎？/
+[scale A 2 1]
+[move A Y -120 1]
+[autotap]/
+[face A 06]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+說著，河內緩緩靠近。
+他像貓一樣撫摸我的頭。/
+[hide A]
+[talkend]
+[serif off]
+？ 河內的頭會被拍拍。/
+[show A C]
+[face A 02]
+[scale A 2]
+[move A Y -240]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+當我慢慢撫摸我的頭
+河內 愉悅地瞇起眼睛。/
+[serif off]
+[hide A 1]
+[se cloth_01]
+[-]
+[serif on 0.5]
+@河內
+真的，[wait 0.5]將軍之手，[wait 0.2]太可怕了[wait 0.2]…[wait 0.2]…/
+[light def 1]
+[se hanabi_02]
+[lightcolor red]
+[delay 1.5 light off 1]
+[delay 3 light def 0.6]
+[delay 3 lightcolor pink]
+[delay 5 light off 1]
+[delay 7 light def 0.4]
+[delay 7 lightcolor orange]
+[delay 9 light off 2]
+[delay 12 light def 1]
+[delay 12 lightcolor red]
+[delay 14 light off 2]
+[autotap]/
+[talkend]
+[bg sky_star 0.5]
+[minibg off 0.5]
+[textcolor ARUJI]
+彷彿在發出大球的聲音。
+同時，我抬頭看了看夜空。/
+[textcolor ARUJI]
+那是煙火的聲音嗎？
+或者也許是心跳？/
+[textcolor ARUJI]
+然後河內和我
+這是一個輕鬆的夏夜。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

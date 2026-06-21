@@ -1,0 +1,706 @@
+>>1/
+[set A s_n008_r アルクトス]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[effect fr syutyu a 0 0]
+[se cloth_06]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+わ、わぁあ！！　[shake A]
+見てください声聞士さん！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 14]
+[flow]
+この波形、過去のパターンと違うんです！
+もしかしたら新しい発見かもしれないですよ！/
+[effect off a]
+[face A 10]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……あ、すみません！　お仕事の邪魔しちゃって……
+興奮して、つい誰かに話したくなっちゃって……[shake A]/
+[face A 00]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そうだ、声聞士さんもなにかあれば気軽に
+話してくださいねっ。/
+[effect off a]
+[face A 01]
+[flow]
+オレ、なんでも相談に乗っちゃいますよ！
+ぶいっ！[shake A]/
+>>2/
+[set A s_n008_r アルクトス]
+[show A C]
+[face A 12]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ほにょ～ん……/
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[shake A]
+はっ！　[= チョコ グミ ドーナツ ホットケーキ ショートケーキ 飴 クッキー マドレーヌ はちみつ]の味に浸っちゃってました……
+研究の合間にこうして糖分補給してるんです。[face A 00]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+[effect fr kira a 0 0]
+[se kira_01]
+まだまだ頑張れちゃいますよ～、ぶいぶいっ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[effect off a]
+[face A 02]
+[flow]
+声聞士さんも、これから任務ですよね。
+応援してますよ～っ！/
+>>3/
+[set A s_n008_r アルクトス]
+[show A C]
+[face A 00]
+[talk A]
+[effect fr MIST 6000 0 0]
+[se gasa_01]
+[rotate A 20]
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[-]
+[rotate A 0 0.2]
+[serif on]
+[face A 01]
+あっ、いまちょうど部屋の掃除してて……
+やっぱり綺麗な環境だと仕事も捗りますからね！/
+[face A 05]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[flow]
+[se paper_01]
+あれ？　この書類って……わぁああ、やっぱり！　[face A 10][shake A]
+猪森さん、大切な書類忘れてる！/
+[effect off a]
+[face A 15]
+[flow]
+[se cloth_01]
+会議で必要なはずなのに……
+オレ、届けてきます～！/
+[se fusuma_01]
+[move A X -800 0.5]
+[hide A]/
+>>4/
+[set A s_n008_r アルクトス]
+[show A C]
+[face A 15]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ぐぅぅ～……ご飯は食べたけど、
+まだちょっとお腹空いてるかも……/
+[face A 05]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、昨日[= カップ麺 きなこもち ごま団子 焼きたらこ メロンパン 鮭おにぎり いももち みたらし団子 カスタードプリン フルーツサンド ジャガバター 味噌バターラーメン チーズケーキ バターサンド 白チョコクッキー あんバタートースト 焼きとうもろこし シナモンロール ソフトクリーム 焼きりんご おしるこ]
+買っておいたんでした。いただきまーす！[face A 02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[effect fr kira a 0 0]
+[se eat_01]
+[se kira_01]
+[face A 12]
+[flow]
+もぐもぐもぐ、ほにょ～～ん……！[face A 14]/
+[face A 15]
+[effect off a]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……はうぅ……一口でなくなっちゃいました……[shake A]/
+>>5/
+[set A s_n008_r アルクトス]
+[randomset B r @地魂男児 @あやかし @NPC -n008]
+[show A L]
+[show B C]
+[move A X -100]
+[setline 0.5 A B]
+[orderline B A]
+[face A 01]
+[face B 00]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+$B:A、お菓子をたくさん持ってきましたよ！
+一緒に食べましょう……！　もぐもぐぱくぱく……[face B 01][se eat_01][move A XY 10 -40 0.4][rotate A -10 0.3][delay 0.4 move A XY -10 40 0.3][delay 0.5 rotate A 0 0.3]/
+[face A 06]
+[face B 05]
+[shake B]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+えっ、一度に食べる量が多い……！？[se zukkoke_02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+[effect fr kira a -200 0]
+[se kira_01]
+えへへ、褒められちゃいましたぁ！　ぶいっ！[shake A][face B 01]/
+>>6/
+[set A s_n008_r アルクトス]
+[show A C]
+[face A 04]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se rokuhara_04]
+[-]
+[serif on]
+この理論、猪森さんならすぐ
+理解できちゃうんだろうなぁ……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 03]
+[flow]
+う～ん、う～～ん……まだまだ勉強が足りないや。
+猪森さんに少しでも近づけるよう、頑張らなきゃ！[shake A]/
+>>7/
+/
+/
+/
+>>8/
+/
+/
+/
+/
+>>9/
+[set A s_n008_r アルクトス]
+[randomset B r @地魂男児 @あやかし @NPC -n008]
+[show A C]
+[face A 01]
+[move A X 1000]
+[move A X -1000 0.5]
+[se fusuma_01]
+[-]
+[serif on]
+[talk A]
+お腹すいたので、夜食におにぎりを作ります！
+冷蔵庫になにがあるのか……確認確認っと……[face A 00][move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3][se door_05]/
+[move A X 100 0.3]
+[delay 0.3 move A X -100 0.3]
+[delay 0.6 move A Y 5 0.2]
+[delay 0.8 move A Y -10 0.6]
+[delay 1.4 move A Y 5 0.5]
+[autotap]/
+[flow]
+[effect fr yuge a 0 0]
+[face A 14]
+この具材も美味しそう……これも入れよう……
+はっ！[face A 05]　集中してたらいっぱい作っちゃった……/
+[show B R]
+[move B X 300]
+[se fusuma_01]
+[setline 0.5 A B]
+[face A 01]
+[face B 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ、$B:A……お腹が空いたんですか？
+へへっ、せっかくだし、一緒に食べます？[face B 01]/
+>>10/
+[set A s_n008_r アルクトス]
+[randomset B r @地魂男児 @あやかし -n008]
+[show A C]
+[face A 00]
+[talk A]
+[se rokuhara_04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+数式の解を……よし、こっちのデータと照合すると
+……[show B L][move B X -300][rotate B -20 0.5][face B 00]/
+[setline 0.5 B A]
+[rotate B 0 0.5]
+[face A 10]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+はっ、$B:A、いつからそこに！？[shake A]
+えっ、もうこんな時間ですか！？[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 15]
+[flow]
+すみません、オレ熱中して周りが見えなく
+なっちゃってました。任務報告のデータですか？/
+[face A 02]
+[flow]
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[ordrline A B]
+[se kira_01]
+うわぁ～！　これも貴重なデータですよ！
+さっそく猪森さんに報告しなきゃっ！[shake A]/
+>>11/
+[set A s_n008_r アルクトス]
+[randomset B r @地魂男児 @あやかし @NPC -n008]
+[show A C]
+[face A 14]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ほにょ～～ん……あっ、$B:A！[face A 00][show B R][face B 00]
+オレ、荘園の星空を眺めてたんです。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[setline 0.5 A B]
+[face A 13]
+[face B 00]
+[flow]
+オレの育った富良野の夜空は、
+すごく星が綺麗だったなって……思い出してました。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[face B 01]
+[flow]
+おじいちゃんと見上げたあの星空……
+また見たいなぁ……/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_n008_r アルクトス]
+[randomset B r @地魂男児 @あやかし @NPC -n008]
+[show A C]
+[face A 04]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[shake A]
+[serif on]
+ん～う～……今日はなんだかもやもやして……
+全然研究に集中できませんよぉ……うずうず……/
+[show B R]
+[setline 0.5 A B]
+[face A 06]
+[face B 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、$B:A……いま気分転換しようと
+思ってて……えっ、いい方法があるんですか？/
+[face A 05]
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+ふんふん…………ほにょ～～ん！[face A 14]
+そんな方法が……！　オレ、試してきますっ！/
+[face B 02]
+[face A 01]
+[effect fr kira a 0 0]
+[se kira_01]
+[move A X -800 0.5]
+[effect off a]
+[autotap]/
+>>15/
+[set A s_n008_m アルクトス]
+[randomset B r @地魂男児 @あやかし -n008]
+[randomset C r @地魂男児 @あやかし -n008 -@NOW]
+[show B]
+[show C]
+[setline B C]
+[face B 08]
+[face C 03]
+[scale B 1.6]
+[scale C 1.6]
+[moveline B C 0 -120 0]
+[effect fr katanas 6000 0 0]
+[shakebg]
+[se katna_02]
+[delay 0.3 se katana_03]
+[-]
+[wait 0.5]
+[show A C]
+[move A X 1000]
+[moveline A B C -1000 0 0.5]
+[face A 14]
+[talk A]
+[-]
+[serif on]
+ほにょ～～ん……見とれちゃいます！
+こうやって目の前で見ると参考になりますよー！/
+[face A 01]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[effect fr kira a 0 0]
+[se kira_01]
+霊具の開発に役立てちゃいますっ！/
+>>16/
+[set A s_n008_m アルクトス]
+[show A C]
+[face A 08]
+[talk A]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+研究を続けるにも体力が必要ですから、
+オレもみんなみたいに鍛えなきゃっ！[move A Y -100 0.5][se cloth_01]/
+[move A Y 105 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 03]
+[flow]
+……んしょ、んしょ、はぁ、はぁ……[face A 04][wait 0.5]
+足がガクガクです……でも、もっと頑張っちゃいます！[face A 01][shake A]/
+>>17/
+[set A s_n008_b アルクトス]
+[randomset B r @地魂男児 @あやかし @NPC -n008]
+[show A C]
+[show B L]
+[face B 00]
+[face A 00]
+[talk A]
+[se cloth_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ぬぎぬぎ……ん？　くんくん、くんくんくん……
+なんだろう、このにおい……[face A 08]/
+[face A 09]
+[flow]
+[face B 05]
+[shake A 3 10 10]
+[se zukkoke_02]
+ハッ！？　もしかして……オレのにおいですか！？[shake A]
+うぅ、汗かくと毛がすぐにムレちゃってぇ……[face A 15][shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[flow]
+[face B 01]
+[se cloth_01]
+早くお風呂に入って、
+いいにおいの道産子ベアーになってきますっ！/
+[se door_01]
+[move A X 800 0.5]
+[hide A]
+[autotap]/
+>>18/
+[set A s_n008_b アルクトス]
+[randomset B b @地魂男児 @あやかし -n008]
+[show A C]
+[move A Y -100]
+[face A 00]
+[se amb_12]
+[effect fr yuge a 0 0]
+[serif on]
+[talk A]
+今日もお風呂で綺麗にしよっと！
+まずは体を流して、んしょ、んしょ……/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[flow]
+[face A 01]
+[se bath_05]
+そして、オレの大好きなボディソープ！
+体中を泡立ててっと……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[effect fr kira a 0 0]
+[se kira_01]
+[autotap]/
+[face A 14]
+[flow]
+[se bath_03]
+ほにょ～～～～～ん……/
+[show B L]
+[move B X -200]
+[setline 0.5 B A]
+[face A 05]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+はっ、ラベンダーの香りに浸っちゃってました！
+$B:Aも使ってみますか？　[face A 01][face B 01]/
+[serif off]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -120 0.5]
+[move B Y -100 0.5]
+[move A Y 100 0.5]
+[move B X 100 0.5]
+[move A X -100 0.5]
+[se bath_03]
+[shakebg]
+[orderline B A]
+[face A 02]
+[face B 02]
+[flow]
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+おそろいのにおいになりますよっ！[shake A][se bath_05]/
+[effect off a]
+[autotap]/
+>>19/
+[set A s_n008_b アルクトス]
+[randomset B b @地魂男児 @あやかし @NPC -n008]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[move A Y -100]
+[face A 14]
+[se amb_12]
+[effect fr yuge a 0 0]
+[talk A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+ほにょ～～ん……お風呂はあったかくて
+気持ちいいです……/
+[show B R]
+[scale B 1.6]
+[move B Y -120]
+[se water_05]
+[setline 0.5 A B]
+[move B X 100 0.5]
+[face A 01]
+[face B 00]
+あ、$B:Aも入りますか？　オレ、そろそろ
+あがるとこなんで、ここどうぞ！[move A Y 100 0.5][se bath_02]/
+[face A 10]
+[face B 05]
+[rotate A 10 0.3]
+[move A XY -50 50 0.5]
+[move B XY -150 -100 0.3]
+[rotate B 30 0.3]
+[orderline A B]
+[se cloth_06]
+[se water_03]
+[effect fr splash 6000 0 0]
+[orderline B A]
+って、わぁ！？　$B:A、大丈夫ですか……？[shake A]
+あ、あれっ、オレのタオルがどっかいっちゃいました！[face A 15][shake A]/
+>>20/
+[set A s_n008_r アルクトス]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 14]
+[talk A]
+[se pee_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ほにょ～～～ん……
+はっ！[shake A][face A 05]　つい浸っちゃってました！/
+[face A 08]
+[flow]
+ぶるぶる……っ！[shake A 3 10 5]
+さぁ、手を洗って、研究の続きをしてきます！[face A 01]/
+>>21/
+[set A s_n008_r アルクトス]
+[randomset B r @地魂男児 @あやかし @NPC -n008]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+ふぁあ……ずっと研究してて疲れてるからか
+眠いからか、変な感じです……[face A 04]/
+[show B R]
+[scale B 1.6]
+[move B Y -120]
+[move B X 200]
+[se door_01]
+[setline 0.5 A B]
+[move A X -50 0.5]
+[orderline B A]
+[face A 06]
+[face B 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あわわっ！？　$B:A、そ、その……
+これは体が言うことをきかなくてっ、うぅ～っ……[face B 06][face A 15]/
+>>22/
+[set A s_n008_r アルクトス]
+[show A C]
+[scale A 1.6]
+[move A Y -170]
+[face A 00]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふ～～……すっきりしました……
+一番やさしい水流のモードに変えてっと……[se pi_04][move A XY 10 -40 0.4][rotate A -10 0.3][delay 0.4 move A XY -10 40 0.3][delay 0.5 rotate A 0 0.3]/
+[se rokuhara_05]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 14]
+[flow]
+ほにょ～～ん……
+あったかくて気持ちいいです……/
+>>23/
+[set A s_n008_r アルクトス]
+[show A C]
+[face A 08]
+[talk A]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+[se paper_01]
+なんだろう、この本……[wait 0.2]わぁ……！[face A 06][shake A]
+知らないことがまだまだたくさんあるんだなぁ……[shake A]/
+[effect A love a 0 100]
+[face A 08]
+[flow]
+[move A Y -100 0.5]
+[se paper_01]
+……せっかくだし、もうちょっと読んで
+勉強していこっと……どきどき……/
+>>24/
+[set A s_n008_r アルクトス]
+[randomset B r @地魂男児 @あやかし @NPC -n008]
+[show A C]
+[face A 14]
+[serif on]
+[talk A]
+[show B R]
+[face B 00]
+[move B X 200]
+[move B X -200 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[orderline B A]
+[-]
+[serif on]
+ほにょ～～ん……はっ[shake A][face A 05]$B:A。
+へへ、今日のことを思い出してたんです。[face A 02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[setline 0.5 A B]
+[face A 01]
+[face B 01]
+[effect fr kira a 0 0]
+[se kira_01]
+今日はいっぱい褒められちゃいました！
+それが嬉しくて……えへへ。/
+[effect off a]
+[face A 01]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+オレ、明日もがんばっちゃいますよ！[shake A]
+$B:A、おやすみなさい！[rotate A 30 0.5][move A XY -100 -150 0.5][se cloth_01][face A 11]　zzz……[face B 05][shake B]/
+>>25/
+[set A s_n008_r アルクトス]
+[show A C]
+[face A 14]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+むにゃむにゃ……ほにょ～～ん！
+これ、おいひいれすぅ……これも、これもぉ……[face A 11]/
+[talkend]
+幸せな夢を見ているようだ。/
+>>26/
+[set A s_n008_r アルクトス]
+[show A C]
+[face A 07]
+[rotate A 30]
+[move A Y -100]
+[talk A]
+[shake A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+ん～、ん～っ、[shake A]ほにょ～ん！！[shake A]/
+[move A Y 50 0.3]
+[rotate A 0 0.3]
+[se cloth_06]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+はっ、変な夢を見ちゃってました……
+うぅ、暑くてベタベタ……[shake A][face A 07]/
+[face A 04]
+[flow]
+[se cloth_01]
+[move A Y 50 0.5]
+汗もすごいし、シャワー浴びて
+着替えてこなきゃ……/
+[se fusuma_01]
+[move A X -800 0.5]
+[hide A]
+[autotap]/

@@ -1,0 +1,496 @@
+>>10000/
+@壱岐
+お待たせっ。オレ、西海道、壱岐！[autotap]/
+[delay 3.5]
+[flow]
+[-]
+@壱岐
+冒険の準備はできてるよ。[wait 2]
+さあ早く出発しようよ、団長！/
+>>10001/
+@壱岐
+団長、ただいま！[wait 2]
+ちょうどあちこち冒険してきたところだよ。[autotap]/
+[delay 3]
+[flow]
+[-]
+@壱岐
+見せたいものいっぱいあるんだ！
+へへっ。/
+>>1/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+団長、うずうずして、どうしたの？[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+そっか、わかった！[face A 02]　そろそろ冒険したいんだ！/
+[face A 01]
+[flow]
+へへ、じゃあまずは、壱岐国の小島神社に行こうよ。
+干潮の前後だけ砂の参道がすーっと現れるんだ！/
+[face A 07]
+[effect fr kira 6000 0 0]
+[se kira_01]
+[flow]
+潮のリズムで開かれる神域……
+まさに冒険のはじまりにぴったりだよね！[shake A][face A 09]/
+>>2/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+壱岐島の猿岩は、海を見張る猿の横顔みたいな
+おっきな岩なんだ。/
+[face A 02]
+[flow]
+……オレ、あの横顔を見ると、なんだかいつも
+見守ってくれてる気がするんだよね。/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+壱岐国の守り神なのかも！　
+夕日の名所だから、団長、一緒に見に行こうよ！[shake A]/
+>>3/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+団長、壱岐国でたっぷり冒険したあとは
+美味しいご褒美が欲しいよね！/
+[face A 02]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[flow]
+オレのオススメはウニ丼だよ。
+一口で玄界灘の香りが広がるんだ、へへっ。[shake A][face A 01]/
+[face A 00]
+[flow]
+あっ、旬の時期が短いから、事前調査してから
+行ってね！　……一緒に食べに行く？[face A 07]/
+[face A 02]
+[flow]
+それじゃあまずは、冒険に出発だね！/
+>>4/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+冒険には栄養補給も大事だからね。
+おにぎりを握っていこうっと！/
+[face A 02]
+[flow]
+傷みづらい具材で、海苔もたっぷり巻いて……
+わぁー美味しそう……ぱくっ！　うまぁ～～！[shake A][se eat_01]/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[autotap]/
+[face A 05]
+[flow]
+ぱくっぱく……わっ！　
+思わず全部食べちゃった……へへっ。[face A 01]/
+>>5/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[show A C]
+[show B]
+[setline A B]
+[face B 00]
+[face A 01]
+[serif on]
+[talk A]
+$B:A、準備も万全だね。
+それじゃあ冒険に出発しよう！/
+[face A 02]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+今日はどこに行く？　$B:Aの行きたいとこ、
+一緒に行くよ！　きっとすごい発見ができるはず！[shake A][se taiko_02]/
+>>6/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし -@NPC -iki]
+[show B]
+[face B 00]
+[-]
+[show A R]
+[move A X 600]
+[setline 0.5 B A]
+[face A 09]
+[serif on]
+[talk A]
+$B:A、洗濯物してたんだね、おつかれさま！
+ん？　[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]ん～～、この風……[face A 11]/
+[face A 00]
+[flow]
+$B:A、これから雨が降るよ。
+だから洗濯物干すのは後で……/
+[effect bk rain a 0 0]
+[face A 05]
+[face B 05]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[se rain_01]
+[shakebg]
+[move B X 100 0.3]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+って、わーー大雨だ！　危なかったね。
+オレ、風を読むのは得意なんだ。[shake A][face A 01][face B 01]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[show A C]
+[show B]
+[setline A B]
+[orderline A B]
+[face A 09]
+[face B 00]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+見てみて、テレビで[= トンネル ドーナツ 洞窟 穴 マンホール バウムクーヘン]の特集やってるよ！
+くぅ～～っ！[shake A]/
+[face A 02]
+[face B 05]
+[flow]
+やっぱり「穴」が空いてるってだけで
+ワクワクしちゃうなぁ～！　えへへっ。[shake A][se zukkoke_02]/
+>>10/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[move A Y -50]
+[serif on]
+[talk A]
+忘れ物はないかな……んーと、これと、これと……
+着替えに宝の地図に、おやつもちょっと入れてっと！[se cloth_01][shake A]/
+[se kira_01]
+[effect fr kira a 0 0]
+[move A Y 50 0.5]
+[face A 01]
+[flow]
+オレのリュック、今日もパンパンになっちゃった。
+へへっ。冒険に行くのが楽しみだなぁ！/
+>>11/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、そうだ。今日の冒険の記録をつけようっと！/
+[se write_01]
+[face A 00]
+[flow]
+「[= 御座所 修練所 厠 湯殿 寝床 荘園の広間 銭湯 任務先 山]で[= 刺激的な 一触即発な 信じられない ヤバい すっごい 奇妙な][= 体験ができた ものを見かけちゃった 状況に遭遇した]。
+あー、[= わくわくしたぁ どきどきしたぁ はらはらしたぁ 楽しかったぁ]！」っと。[shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+……体って、こんな仕組みがあるんだ……/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+そういうのを調べるのも、冒険みたいで
+ちょっとおもしろいかも……！[shake A]/
+>>15/
+[set A s_iki_b 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+戦いは力比べだけじゃないんだ。
+小さい体を活かして、素早く何度も！！[shake A]/
+[face A 03]
+[effect fr allows 5000 100 0]
+[se syu_02]
+[delay 0.2 se syu_01]
+[shakebg]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[flow]
+そして正確に射抜く！
+これがオレの戦い方さ！[shake A]/
+>>16/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし -@NPC -iki]
+[show A C]
+[show B]
+[setline A B]
+[face B 08]
+[face A 10]
+[serif on]
+[talk A]
+[shakebg]
+[se doka_01]
+[move A X -200 0.3]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+うわぁあっ！　くぅ……$B:A、
+すっごく強いや……オレももっと強くなりたい……[face A 06]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+だから、胸を借りるよ。へへっ。
+さぁ、もう一回だぁ！[shake A][face A 08]/
+>>17/
+[set A s_iki_b 壱岐]
+[randomset B b @地魂男児 @あやかし @NPC -iki]
+[show A C]
+[show B]
+[setline B A]
+[face B 00]
+[face A 01]
+[serif on]
+[talk A]
+ふぅ～～全身拭き終わったぁ～。
+さぁ下履きを穿こっと……あれ？[face A 08]/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[face B 06]
+[face A 00]
+[flow]
+$B:A、まだおしりのとこ濡れてるよ。
+ごしごしっと。前はどう？/
+[face A 01]
+[face B 01]
+[flow]
+ん～、大丈夫そうだね。
+あれっ、オレ下履きどこ置いたっけ！？[shake A][face A 05]/
+>>18/
+[set A s_iki_b 壱岐]
+[show A R]
+[face A 08]
+[serif on]
+[talk A]
+いっちに、さんし……よーし、体がほぐれたぞ。[shake A][face A 00]
+飛び込みは誰もいないときだけならしてもいいんだ。[move A XY -50 50 0.5]/
+[move A X -250 0.5]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -200 0.2]
+[se water_02]
+[effect fr splash 6000 -250 0]
+[autotap]/
+[face A 01]
+[flow]
+さぁ、いっくぞーー、やっほー！！
+ざぶーん！！[se bath_02][shakebg]/
+>>19/
+[set A s_iki_b 壱岐]
+[randomset B b @地魂男児 @あやかし @NPC -iki]
+[randomset C b @地魂男児 @あやかし @NPC -iki -@NOW]
+[show A C]
+[face A 06]
+[show B]
+[show C]
+[face B 00]
+[face C 00]
+[setline B A C]
+[moveline B A C 0 -50 0]
+[serif on]
+[talk A]
+あれ、なんでこんなことになっちゃったんだろ……
+お風呂から上がれないよ……[se bath_04]/
+[move B X -300 0.5]
+[rotate A 20 0.5]
+[delay 0.1 move A X -250 0.5]
+[autotap]/
+[se water_07]
+[effect fr splash 6000 -250 0]
+[face A 05]
+[flow]
+[face C 06]
+わっ、$B:A、引っ張らないでってばぁ！[shake A]
+わぁああ～～～～～～～～。[move A X -1000 0.5][move B X -1000 0.5][se water_07][shakebg]/
+>>20/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[randomset C r @地魂男児 @あやかし @NPC -iki -@NOW]
+[show A R]
+[move A X 300]
+[move A X -300 0.3]
+[show B]
+[show C]
+[setline B C -200 400]
+[face B 04]
+[face C 04]
+[face A 05]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え、こんなに並んでるの！？
+じゃあ、外でしてこよっと！[shake A][face A 01]/
+[face C 05]
+[face A 00]
+[flow]
+冒険のときは、いつもそうだしね。山のなかなら
+いいでしょ？/
+[face A 12]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face C 03]
+[flow]
+え、だめ～？
+うぅ、漏れちゃうよぉ……[shake A]/
+>>21/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+今日は荘園の尿検査だね。
+みんなやってるなぁ……じゃあ、オレも……[cloth_01][scale A 1.6 0.5][move A Y -100 0.5]/
+[se pee_01]
+[face A 12]
+[flow]
+ん～～カップにするのって加減がむずかし……
+あっ、こぼれちゃったぁ！[shake A]/
+>>22/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[randomset C r @地魂男児 @あやかし @NPC -iki -@NOW]
+[show A R]
+[move A X 300]
+[move A X -300 0.3]
+[show B]
+[show C]
+[setline B C -200 400]
+[face B 04]
+[face C 04]
+[face A 05]
+[serif on]
+[talk A]
+わーー、今日もこんなに並んでる……
+うぅ～、お腹痛くて苦しい……[face A 12]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+よし、こういうときは、外でしてこよっと！
+冒険のときは、いつもそうだし――……/
+[move A X -100 0.3]
+[face A 04]
+[flow]
+なんて、さすがにやめとくから……
+は、はやく順番きてー！！[shake A]/
+>>23/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+ふぅ～～、すっきり……
+ん？　本がある……「大人の冒険」？[face A 11]/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+[se paper_01]
+どんな冒険だろ、すっごい気になる！
+…………うわぁ！[shake A][face A 05]/
+[face A 06]
+[flow]
+えっ、こういう冒険もあるんだ……
+どうしよう、どきどきしてきちゃったぁ……うぅっ。/
+>>24/
+[set A s_iki_r 壱岐]
+[show A C]
+[rotate A 20]
+[move A Y -100]
+[move A Y 100 0.5]
+[rotate A 0 0.5]
+[face A 01]
+[serif on]
+[talk A]
+ん～……明日の冒険が楽しみで、なかなか寝付け
+ないや……はぁ、起きれなかったらどうしよう。/
+[face A 12]
+[flow]
+ちょっと運動したら眠れるかな……
+んしょ、んしょ……[shake A]/
+>>25/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 07]
+[rotate A -30]
+[move A Y -50]
+[serif on]
+[talk A]
+くか～～、団長、オレたち、こんなところまで
+来れたんだね……すやぁ……/
+[talkend]
+いい夢を見ているようだ。/
+>>26/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[randomset C r @地魂男児 @あやかし @NPC -iki -@NOW]
+[show B]
+[show C]
+[show A C]
+[face A 06]
+[face B 07]
+[face C 07]
+[rotate A -60]
+[rotate B -60]
+[rotate C -60]
+[setline C A B]
+[moveline A B C 0 -50 0]
+[se cloth_01]
+[rotate A 0 0.5]
+[talk A]
+[move A Y 50 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+なんか体が変だなぁ……こういうときは
+どうすればいいか、誰か教えてくれるかな……/
+[face A 12]
+[rotate B 0 0.5]
+[se cloth_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+[face B 01]
+ねぇ$B:A、ちょっといい……？
+みんな寝てるから、外で相談したいんだけど……/

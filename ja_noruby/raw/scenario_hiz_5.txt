@@ -1,0 +1,1635 @@
+>>10000/
+@肥前
+やあ主さま、[wait 0.5]僕は西海道の肥前。[autotap]/
+[delay 3.5]
+[flow]
+[-]
+@肥前
+大丈夫！　
+僕がしっかり主さまをお世話するからね。/
+>>10001/
+@肥前
+わわ、なんて格好してるの！[autotap]/
+[delay 2.1]
+[flow]
+[-]
+@肥前
+やっぱり主さまには僕がいないとだめだね。/
+>>1/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+ん？　主さま、少し肌が荒れているよ。
+すぐクリームを塗ってあげるね……[move A Y -10 0.2][delay 0.2 move A Y 10 0.2][-][move A Y -10 0.2][delay 0.2 move A Y 10 0.2]……よしっと。/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……日々の任務で疲れが溜まっているのかな。
+たまには休暇をとって温泉でもどう？/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+オススメの温泉だったら、そうだなぁ……
+「嬉野温泉」はどうかな。/
+[face A 02]
+「日本三大美肌の湯」なんて言われているから、
+今の主さまにピッタリかもね。/
+>>2/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 04]
+[move A R 1.0]
+[-]
+[move A L 1.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+約束の時間をもう随分過ぎてるけど……
+主さま、まだ会議が終わらないのかな。/
+[se fusuma_01]
+[move A C 0.3]
+[face A 02]
+あ！　主さま！/
+[face A 00]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+えへへ、待ちくたびれて「松浦佐用姫」みたいに
+石になっちゃう所だったよ。/
+[face A 06]
+……ちょっと、おおげさだったかな。
+少し恥ずかしくなっちゃったよ。[shake A]/
+[face A 02]
+とにかくお仕事おつかれさま！
+甘いお菓子とお茶、淹れるね。/
+>>3/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+主さま、そこは段差があるから気をつけて……[wait 0.2]
+って、危ない！！[scale A 2.0 0.3][hide A][shakebg][se dosa_01]/
+[show A]
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+もう、気をつけてって言ったのに……[wait 0.5]やっぱり
+主さまには、僕がそばにいてあげなきゃだね。/
+[flow]
+虹の松原が、昔も今も人々を守っているように[wait 0.2]
+…[wait 0.2]…[wait 0.2]なんてねっ。[face A 06]えへへっ。/
+>>4/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+あっ！[shake A]　もう～……[move A XY -50 -100 0.5]駄目じゃないか……！
+また誰かが床に本を置きっぱなしにしてる！/
+[face A 08]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+主さまやみんながつまづいたら危ないから
+片付けておかなきゃね。[move A X 200 0.5][-][move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]/
+>>5/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+この人数での共同生活。どうしても意見が
+ぶつかったり、喧嘩が起きちゃうことはあるよね。/
+[face A 08]
+できるだけみんなに声をかけて、
+トラブルが起きない方法を考えていかなきゃなぁ。/
+[serif off]
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+やっぱり、
+みんなに気持ちよく生活してもらいたいからね。/
+>>6/
+[set A s_hiz_r 肥前]
+[randomset B r @地魂男児 @あやかし @NPC -hiz]
+[show A C]
+[show B C]
+[face A 00]
+[face B 04]
+[serif on]
+[talk A]
+[setline B A]
+$B:A、好き嫌いは駄目だよ！[shake A]
+どれもとっても体にいいんだから！/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……どうしても食べられない？　う～ん。
+もー、仕方ないなぁ。じゃあ僕が食べるよ。/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[face A 01]
+[face B 00]
+もぐもぐ…[shake A]…もぐもぐ…[shake A]…
+食べたら美味しいと思うんだけどなぁ。[shake A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_hiz_r 肥前]
+[randomset B r @地魂男児 @あやかし -@NPC -hiz]
+[show B]
+[face B 00]
+[-]
+[show A R]
+[move A X 150]
+[setline 0.5 B A]
+[face A 00]
+[serif on]
+[talk A]
+[se fusuma_01]
+みんなー！
+消灯の時間が近いよー！！[shake B][face B 05]/
+[move B X -150 0.5]
+[delay 0.2 move A C 0.5]
+[face A 01]
+[face B 01]
+[hide B]
+ゲームが楽しいのは分かるけど、
+そろそろ寝支度をしようね！/
+[flow]
+お風呂がまだの人は入って～！
+もう寝る人はちゃんと歯磨きしてね～！！/
+>>10/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+今日はゲームがきっかけで喧嘩になってたなぁ。
+やっぱり遊ぶ時のルールを決めた方がいいよね。/
+[face A 07]
+えーっと……[wait 0.5]遊ぶ順番と時間を決める……[wait 0.2]
+勝っても煽らない……[wait 0.2]賭博はダメ……[wait 0.2]と/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+…………うん、こんな感じかな。
+さっそくこれをまとめた張り紙を作ろう！[face A 01]/
+>>11/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+この布陣の場合は……ふぁあ……[face A 07][shake A]
+はっ！　[face A 05]あくびがでちゃった……！/
+[face A 06]
+兵法の本は難しくて、
+読んでいるとつい眠くなっちゃうな。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+……だからこそ、みんなのために
+僕がしっかり学んでおかなきゃ！　よし！[shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_hiz_r 肥前]
+[randomset B r @地魂男児 @あやかし @NPC -hiz]
+[show A C]
+[show B C]
+[face A 05]
+[face B 00]
+[serif on]
+[talk A]
+[setline B A]
+わっ！　$B:A！？[shake A]
+もう……急に触れられたからビックリしちゃった。/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+鼻を触られるのには慣れてるけど、
+耳は初めてかも。/
+[face B 01]
+……こ、こんなにくすぐったいとは思わなかった。[shake A]/
+>>15/
+[set A s_hiz_m 肥前]
+[randomset B m @地魂男児 @あやかし -@NPC -hiz]
+[show A C]
+[move A Y -100]
+[show B R]
+[face A 05]
+[face B 05]
+[serif on]
+[talk A]
+あぁ、$B:A！[shake A]
+修練場を散らかしちゃってごめん……！/
+[face A 04]
+[face B 00]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+砲台の調子が悪くて、お手入れのために解体して
+たら、結局全部あけることになっちゃって……/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+急いで片付けるから……[shake A]わわわわっ。[face B 05][face A 05][move A X -100 0.1]
+あっああーっ！[shakebg][se doka_01][delay 0.2 se dosa_01]/
+[face A 06]
+…[wait 0.2]…[wait 0.2]ごめん、$B:A[wait 0.2]、片付けるの手伝ってくれないかな。[face B 01]
+あ、ありがとう！　助かるよ！！[shake A]/
+>>16/
+[set A s_hiz_m 肥前]
+[randomset B m @地魂男児 @あやかし -@NPC -hiz]
+[randomset C m @地魂男児 @あやかし -@NPC -hiz -@NOW]
+[show B]
+[show C]
+[setline B C]
+[face B 08]
+[face C 08]
+[effect fr katanas 4000 0 0]
+[se katana_01]
+[delay 0.2 se katana_03]
+[shakebg]
+[shake B]
+[shake C]
+[wait 1]
+[-]
+[show A C]
+[face A 08]
+[move A X 1000]
+[moveline C B A -1000 0 1]
+[-]
+[serif on]
+[talk A]
+みんな！[shake A]　手合わせの時は
+張り切りすぎて喧嘩にならないようにね！/
+[face A 01]
+[effect fr kira 3000 0 100]
+仲良く、[wait 0.3]優しく！[wait 0.3]
+怪我しないように！[wait 0.3]　だよ！/
+>>17/
+[set A s_hiz_b 肥前]
+[show A C]
+[face A 09]
+[color A BLACK]
+[shake A 2 2 2]
+[-]
+[scale A 1.5 0.3]
+[move A Y -100 0.3]
+[talk A]
+[shakebg]
+[se bomb_01]
+[effect A syutyu a 0 200]
+[-]
+[serif on]
+こらーーー！！
+また服を散らかしっぱなしにして！！！/
+[scale A 2.0 0.2]
+[move A Y -100 0.2]
+脱いだ服はちゃんとカゴに入れてって
+何度言ったらわかるんだーーーーー！！！！！[shake A 3 10 10]/
+>>18/
+[set A s_hiz_b 肥前]
+[randomset B b @地魂男児 @あやかし @NPC -hiz]
+[show A C]
+[show B C]
+[se amb_12]
+[face A 05]
+[face B 00]
+[serif on]
+[talk A]
+[setline B A]
+[effect fr yuge a 0 0]
+え？[shake A]
+鼻で水飛ばせるのか……って？/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se bath_04]
+[-]
+[serif on]
+も、もちろんできるけど……[shake A]失敗したら
+鼻の奥がツーンてするから、ちょっと不安なんだ。[face B 04]/
+>>19/
+[set A s_hiz_b 肥前]
+[randomset B b @地魂男児 @あやかし @NPC -hiz]
+[show A R]
+[show B L]
+[face A 06]
+[se amb_12]
+[effect fr yuge a 0 0]
+[move A Y -100 0.5]
+[se water_01]
+[face B 06]
+[move B Y -50]
+[serif on]
+[talk A]
+[effect fr splash 4000 600 0]
+もー！　みんないい加減に、
+僕の鼻と比べっこするのはやめてよね！[face A 03]/
+>>20/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+……ふー、すっきり。[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+そうだ。ついでに掃除もしちゃおう。/
+[face A 02]
+[move A X -200 0.5]
+よし、まずは床掃除だ。
+モップでピカピカにするぞ～！/
+[face A 01]
+[move A X 400 0.8]
+床が濡れてると、転んで怪我するかもしれないから、
+乾拭きもしておかなきゃね！/
+>>21/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 03]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+もう！[shake A]　みんなすぐにふざけるんだから……[face A 04]
+これじゃ落ち着いて用を足せないよ。/
+[face A 08]
+「おしっこしてるところを覗くの禁止」って
+注意書きしておかなきゃ。/
+>>22/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 08]
+[move A Y -50]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅ……あ、あれ？[shake A][face A 05]
+壁に穴があいてる！？/
+[face A 06]
+[shake A]
+もう！　隣に誰か入ってたら
+見えちゃうじゃないかっ！！/
+[face A 08]
+[se paper_01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+ちゃんと張り紙で塞いでおかなきゃ。/
+>>23/
+[set A s_hiz_r 肥前]
+[show A R]
+[face A 06]
+[talk A]
+[move A L 0.3]
+[se doka_01]
+[shakebg]
+[-]
+[serif on]
+も、もう、我慢できないっ……！
+誰も来ませんように……/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -60 1.0]
+[-]
+[serif on]
+もっと一人になれる場所が、あったらなあ……/
+>>24/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+ほら、みんなー！
+消灯の時間だよ！　お布団に入って！/
+[face A 00]
+明日の朝も早いんだから、
+夜ふかしは駄目だよ！/
+[face A 02]
+全員揃ったかな？
+それじゃ、おやすみ。[move A Y 20 0.4][delay 0.6 move A Y -20 0.2][-][fadein BLACK 0.3]/
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[autotap]/
+>>25/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+すー……すー……/
+[talkend]
+ぐっすりと眠っている。/
+>>26/
+[set A s_hiz_r 肥前]
+[randomset B r @地魂男児 @あやかし @NPC -hiz]
+[show A C]
+[show B C]
+[face A 07]
+[face B 07]
+[order A 0]
+[order B 5]
+[say A]
+[setline A B]
+[se cloth_01]
+[move B XY -50 -40 0.4]
+[rotate B 10 0.3]
+[-]
+[face A 05]
+[serif on]
+わ！　[shake A]$B:Aってば、どこ握ってるの！？
+そこは鼻じゃないよ！！！[shake A]/
+[face A 06]
+……って、ね、寝てるの……！？[shake A]
+うぅ……ビックリした。なんて寝相が悪いんだ……/
+>>27/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -150]
+[talk A]
+[-]
+[wait 0.5]
+?肥前、ハレの日おめでとう！/
+[face A 02]
+[serif on]
+あっ、[shake A]主さま……ありがとう！/
+[face A 01]
+４月２７日は長崎港開港記念日なんだ。
+４００年以上も歴史があるんだよ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+港には海外から色んなものが入ってきたし、
+やっぱり、僕のハレの日に選ぶならこの日かなって。/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 06]
+今日はせっかくのハレの日だから……
+甘いものでも食べちゃおうかな……/
+[flow]
+…………[shake A]主さまも、よかったら一緒にどうかな？
+なんてね……！[face A 02]/
+>>100/
+[set A s_hiz_r 肥前]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 真面目過ぎな肥前]
+[-]
+[bg black]
+[waku on]
+[minibg emo_donyori]
+[-]
+[fadeout 2.0]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+ずん、[shakebg]ずん……[shakebg]/
+[show A 1]
+[color A black]
+[flow]
+[textcolor ARUJI]
+一歩、また一歩と、大きな何かが迫ってくる…！
+そしてその塊が体に覆いかぶさってきて……[scale A 2.0 1][move A Y -200 1]/
+[hide A]
+[serif off]
+?……！！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se cloth_01]
+[-]
+[bg heya_day]
+[minibg off]
+[hideall]
+[-]
+[se cloth_02]
+[waku off 0.5]
+[fadeout 1]
+[se amb_01]
+[wait 1]
+[delay 0.5 bgm home]
+[-]
+[se cloth_01]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+ドキっとして薄目を開けるとそこは布団の中。
+夢を見てたみたいだ。/
+[waku on 0.5]
+[se cloth_01]
+[textcolor ARUJI]
+再び目を閉じようとすると……/
+@？？？
+主さま、おはよう！/
+[shakebg]
+[waku off 0.5]
+[se cloth_02]
+[textcolor ARUJI]
+突然布団が引き剥がされた。/
+[serif off]
+?わぁぁぁ！！！/
+[show A]
+[face A 01]
+[scale A 1.5]
+[move A Y -150]
+[-]
+[serif on]
+驚いて顔を上げると、肥前が立っていた。/
+[talk A]
+[se cloth_01]
+主さま、もう朝だよ、ほら、起きて！/
+[serif off]
+?肥前！　……まだ朝の６時だよ！？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[talk A]
+[serif on]
+うん、清々しい朝だよ！　今日は天気がいいし
+庭で体を動かしたら目も覚めるよ。/
+[serif off]
+?昨日遅くまで起きてたから、まだ寝たいな……/
+[face A 01]
+[serif on]
+そんなこと言わないの。/
+[face A 05]
+[flow]
+って、わぁぁっ！[scale A 1.0 0.5][move A Y 300 0.3][delay 0.3 move A Y -150 0.2]
+主さま、なんでそんなふうになってるの！？[shake A]/
+[face A 03]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+朝からそういうことは、僕はどうかと思うよ！/
+[serif off]
+?た、ただ寝起きなだけだよ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 04]
+本当かな、もう……この荘園のみんなは
+やんちゃが過ぎる気がするけど……/
+[face A 03]
+[flow]
+もしかすると、主さまから影響を受けた子も
+いるのかなって……ちょっと思っちゃうな。/
+[face A 02]
+[flow]
+だって、僕ら地魂男児にとって主さまは
+誰よりも大切な、憧れの人だからね。/
+[serif off]
+?そ、そういうもんなの？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face A 01]
+[-]
+[serif on]
+もちろんだよ。
+主さまが声聞したんだからね。/
+[face A 08]
+[flow]
+でも、僕が声聞されたからには
+ここは健やかで健全な荘園にしていくからね。/
+[face A 01]
+[flow]
+手始めに、みんなが円滑に生活していくための
+簡単なルールを作りたいんだ。/
+[face A 08]
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+それはずばり、規則正しく生活すること！[se taiko_02][shakebg]/
+[serif off]
+[effect off a]
+?規則正しく……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+そう、規則正しい生活が、
+健康な肉体と精神を養うんだ。/
+[face A 00]
+まずは主さまがお手本になってくれたら
+きっとみんな守ってくれると思うんだ。/
+[serif off]
+?布団にしがみつく/
+[face A 03]
+[serif on]
+そんな顔しないの！　[face A 01]僕がちゃんと毎日
+朝６時に起こしにくるからね。[se taiko_01]/
+[scale A 1.8 0.3]
+[move A Y -50 0.3]
+[autotap]/
+[flow]
+[face A 01]
+それに夜更かしは健康にもお肌にもよくないから
+２２時には寝るようにしようね。[se taiko_01]/
+[scale A 2.0 0.3]
+[move A Y -50 0.3]
+[autotap]/
+[flow]
+[face A 02]
+寝付きをよくするには適度な運動も大事だから、
+一緒に体を動かそう！　[se taiko_01]/
+[scale A 2.2 0.3]
+[move A Y -50 0.3]
+[autotap]/
+[flow]
+もし希望なら、子守唄も歌ってあげるよ。[se taiko_02][shakebg]/
+[serif off]
+[hide A]
+?そ、そんなにいろいろしてくれるの！？/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 00]
+[-]
+[serif on]
+うん、主さまの健康は僕が守るよ！
+さあ起きよう、主さま！/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+肥前に抱き起こされると、
+布団に擦れて下着が落ちてしまった。/
+[show A]
+[face A 05]
+[say A]
+わわ！？　……もう、[face A 00]主さまったら。
+僕にまかせてね。よいしょっと！[scale A 1.6 0.5][move A Y -250 0.6][hide A]/
+[serif off]
+[se cloth_01]
+[shakebg]
+[wait 0.5]
+[-]
+[show A]
+[scale A 1.6]
+[move A Y -300]
+[move A Y 150 0.5]
+[-]
+[serif on]
+はい、これで大丈夫。ちゃんと履けたよ。
+さあ、一緒に起きようね、主さま。/
+[talkend]
+[textcolor ARUJI]
+なんとなくいつもよりフィットして
+履けてるような気がする。手際が良い。/
+[face A 02]
+改めて、これからよろしくね！/
+[serif off]
+?うん、よろしく/
+[fadein BLACK 2.0]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+その後、肥前に連れ出され、まだ眠いなか
+庭で体操をすることになったのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_hiz_r 肥前]
+[set B s_hiz_m 肥前]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 肥前の悩み]
+[-]
+[bg heya_day]
+[se walk_01]
+[bgm home]
+[-]
+[fadeout 2.0]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+部屋で資料の整理をしていると、
+襖がトントンと鳴った。/
+[serif off]
+?はーい、どうぞ/
+[se fusuma_01]
+[show A C]
+[face A 01]
+[talk A]
+[-]
+[serif on]
+主さま、入るよ。今日もお仕事お疲れ様。
+ごはんを持ってきたから冷めないうちに食べてね。/
+[serif off]
+?ありがとう、いただきま……/
+[face A 05]
+[scale A 1.6 0.2]
+[move A Y -150 0.2]
+[-]
+[serif on]
+あ！　食べる前にまずは手をきれいにしようね。
+はい、[face A 01]ウェットティッシュ。/
+[flow]
+[face A 03]
+主さま、ちゃんと指の間まで拭かないと、
+こういうふうに…[shake A]はい、きれいになったね！[face A 01][effect fr kira 4000 0 0][se kira_01]/
+[serif off]
+?今度こそいただきまーす！/
+[serif on]
+[face A 02]
+はい、召し上がれ。ゆっくり火傷しないよにね！
+……じゃあ僕はそろそろ戻るね。[scale A 1.0 0.5][move A Y 150 0.5]/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……あ！　
+夏人くんに提出するレポート、今日までだったね。/
+[talkend]
+[textcolor ARUJI]
+そうだった。レポートの用意は済んでいたが、
+提出を忘れてることに気づいた。/
+[face A 02]
+[say A]
+書類、まとめてあるなら僕が持っていくよ。/
+[talkend]
+[textcolor ARUJI]
+肥前は自分以上に仕事のことを
+把握してくれてる気がする。/
+[flow]
+[textcolor ARUJI]
+そこは頼りがいがあってとても助かる。
+のだが……/
+[serif off]
+[se paper_01]
+?ありがとう。これがその書類だよ……いたっ/
+[face A 05]
+[bgm departure]
+[scale A 2.0 0.3]
+[move A Y -250 0.3]
+[-]
+[say A]
+[serif on]
+あ、主さま！
+紙で指を切ったの！？[shake A]/
+[flow]
+ダメだよ、気をつけなきゃ！
+紙って意外と鋭利なんだから。/
+[face A 06]
+ほら、見せて！[shake A]
+…………あ、血が出てるよ！/
+[serif off]
+?ちょっとだけね/
+[face A 04]
+[scale A 1.0 0.5]
+[move A Y 250 0.5]
+[se cloth_01]
+[-]
+[serif on]
+すぐ手当をするから、
+ちょっとまってね、包帯があるから。/
+[serif off]
+?これくらい舐めれば治るよ！/
+[face A 05]
+[serif on]
+ダメだよ！
+主さま。バイキンが入って腫れちゃうからね。/
+[flow]
+ちょっと待っててね！/
+[serif off]
+[move A X -1000 0.3]
+[se fusuma_02]
+[shakebg]
+[talkend]
+[-]
+[wait 0.5]
+[se fusuma_04]
+[face A 03]
+[scale A 1.6]
+[move A Y -150]
+[move A X -500]
+[delay 0.3 move A C 0.3]
+[delay 0.3 shakebg]
+[delay 0.3 move A Y -150 0.3]
+[-]
+[serif on]
+[textcolor ARUJI]
+肥前はずしずしと音を立てながら部屋を出ていくと
+また勢いよく戻ってきた。/
+[say A]
+ただいま！
+手当をするよ！/
+[hide A]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+そう言うと、肥前は薬箱を広げて
+真剣な表情で手当てを始めた。/
+[serif off]
+[show A C]
+[face A 08]
+[talk A]
+[scale A 2.0]
+[move A Y -250]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[serif on]
+消毒して、絆創膏と、包帯と……
+これでよし！[shake A]/
+[hide A]
+[serif off]
+?ぐるぐる巻……/
+[show A]
+[say A]
+[bgm fun]
+[face A 04]
+[serif off]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+あ、これじゃあ自由に手が動かせなくてちょっと
+不便だよね……ご飯は僕が食べさせてあげるね。/
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+さあ、主さま、あーんして。/
+[serif off]
+?ええ……！/
+[face A 08]
+[serif on]
+え、じゃなくて、あだよ！[shake A]　お腹空いてないの？
+あ！[face A 05][shake A]　もしかして、トイレに行きたいとか…？[face A 06]/
+[face A 02]
+[flow]
+そっちも、僕でよかったら手伝うよ！/
+[serif off]
+?だ、大丈夫です！/
+[face A 00]
+[serif on]
+本当？　恥ずかしがらないで、言ってね。
+さあ、一緒にご飯食べようね！[face A 01][scale A 1.8 0.2][move A Y -50 0.2]/
+[bgm night]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+肥前は面倒見がよくて
+他の地魂男児たちからも慕われている。/
+[textcolor ARUJI]
+いささか過保護が過ぎる気がするが
+委員長気質でみんなをよくまとめてくれている。/
+[serif off]
+?いつもありがとう。肥前。/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 05]
+[say A]
+[orderline A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え？　なにかお礼を言われるようなこと
+したかな……？/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y- 5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -5 0.1]
+[-]
+[move A Y 5 0.1]
+[delay 0.1 move A Y -10 0.1]
+ふふっ、でもまあ……
+こちらこそ、いつもありがとう。主さま。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+主さまにねぎらってもらえて……
+毎日の疲れが一気に吹っ飛んじゃった気分だよ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+いつもしっかり者の肥前。
+人知れない苦労もあるかもしれない。/
+[serif off]
+?なにか困ってることとかある？/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 04]
+[say A]
+[orderline A]
+[serif on]
+えっ？
+うーん……そうだな……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+困ってるってほどじゃないんだけど……
+ちょっとその……悩みなら……あるかな……/
+[serif off]
+?悩み？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 04]
+[serif on]
+僕、[wait 0.5]色々溜まってくると、
+つい暴走しちゃうことがあるんだ。/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+この間の任務の時も、
+気付いたらとんでもないことを……/
+[fadein WHITE 0.2]
+[serif off 0.2]
+[-]
+[hide A]
+[bg sandou]
+[waku on]
+[-]
+[delay 0.2 fadeout 0.3]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+任務中に班員同士の対立が起き、
+皆がバラバラに行動してしまったときのことだ。/
+[flow]
+[textcolor ARUJI]
+そんな中、目の前に喰魂がぞろぞろと現れる。
+いつもしっかり者で冷静沈着な肥前だが……/
+[effect fr syutyu a 0 0]
+[quake 2]
+[show B C]
+[face B 09]
+[say B]
+[orderline B]
+むがぁあーーー！！
+もうガマンできない！　全弾発射！[effect fr bomb 5000 200 50][se bomb_01][effect fr bomb 5000 -200 50][delay 0.2 se bomb_02]/
+[scale B 1.6 0.3]
+[move B Y -150 0.3]
+[effect fr bomb 5000 300 100]
+[se bomb_01]
+[effect fr bomb 5000 -300 100]
+[delay 0.2 se bomb_02]
+[shakebg]
+発射！[shake B 2 5 5][se bomb_01]　発射ー！！[shake B 2 5 5][se bomb_02]
+うおーーーーーーーー！！！！[scale B 2 0.3][move B Y -120 0.3]
+[effect fr bomb 5000 300 120]
+[se bomb_01]
+[effect fr bomb 5000 -300 120]
+[delay 0.2 se bomb_02]/
+[hide B]
+[effect off a]
+[quake off]
+[talkend]
+[textcolor ARUJI]
+肥前の迫力に、班員たちは冷静さを取り戻し
+その後は再び結束したのだった。/
+[textcolor ARUJI]
+一度キレると、止まらない。
+その暴走を止めることは誰にもできないのだ。/
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[quake off]
+[waku off]
+[effect off a]
+[bg heya_day]
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 04]
+[-]
+[fadeout 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+いつもだんだん感情が抑えられなくなって、
+噴火みたいに一気に爆発しちゃて……/
+[face A 07]
+[flow]
+そのせいで周りにも迷惑かけちゃうし……
+ほんと、悪い癖なんだよね。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+はぁ……こんなんじゃ駄目だ。
+しっかりしなきゃ、とは思ってるんだ。/
+[serif off]
+?なるほど……肥前にもそんな悩みが……/
+[face A 01]
+[serif on]
+ごめんね、こんな愚痴を主さまに……/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あれ……でも、今はなんだか
+すごく気持ちがすっきりしてるかも。/
+[face A 02]
+主さまに話したことで
+気持ちが楽になったのかな……/
+[serif off]
+?ここで発散できるならいつでもおいで/
+[face A 02]
+[serif on]
+ありがとう……！　[shake A]少しずつガス抜きできれば
+暴走も防げるかもしれないね。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+うん、僕なりに他にも
+いい方法を探してみるよ！/
+[serif off]
+[face A 04]
+[waku on 0.5]
+[wait 0.5]
+[-]
+[face A 06]
+[serif on]
+（……本当は[wait 0.2]主さまとこうして
+　一緒にいることが一番効いてるのかも。）/
+[waku off 0.5]
+[face A 00]
+あ、ご飯食べ終わっちゃったね。
+………………[shake A]/
+[face A 04]
+もう少しだけここにいてもいいかな？[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+その……邪魔じゃなければだけど……/
+[serif off]
+?いいよ/
+[face A 02]
+[serif on]
+……！[shake A]　ありがとう主さま！[shake A]/
+[move A Y -100 0.5]
+[hide A]
+[talkend]
+[se dosa_01]
+[textcolor ARUJI]
+肥前は隣に腰掛け、資料を整理してくれている。
+ほのかに肥前の体温が空気を伝わってくる。/
+[textcolor ARUJI]
+肥前が手伝ってくれたおかげで、資料の整理は
+あっという間に終わった。/
+[fadein black 2]
+[autotap]/
+[textcolor ARUJI]
+[talkend]
+その後、ふたりで少しゆっくりお喋りをして
+楽しい時間をすごしたのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>201/
+[set A s_hiz_r 肥前]
+[set B s_hiz_b 肥前]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 肥前と健康管理]
+[-]
+[bgm home]
+[effect fr yuge a 0 0]
+[bg bath]
+[fadeout 2.0]
+[se amb_12]
+[-]
+[wait 1]
+[se bath_03]
+[wait 0.5]
+[-]
+[se door_01]
+[fadein black 0.5]
+[-]
+[minibg syouen_datsuijo 0.5]
+[bg mbg_syouen]
+[-]
+[fadeout 0.5]
+[-]
+[autotap]/
+[place 脱衣所 だついじょ]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+チョコレートパーティの後日
+脱衣所――/
+[textcolor ARUJI]
+[flow]
+一日の仕事を終えたあとのお風呂上がりに
+肥前が声をかけてきた。/
+[show B C]
+[face B 01]
+[say B]
+やあ主さま！
+いいお湯だったね。/
+[textcolor ARUJI]
+[talkend]
+[se cloth_02]
+肥前もちょうどお風呂から出たようで
+タオルで体を拭いている。/
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[face B 02]
+[say B]
+そうだ。服を着る前にちょっとだけ
+こっちに来てもらえるかな？/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+そう言う肥前につれて来られた先には
+体重計が置かれていた。/
+[show B C]
+[scale B 1.6]
+[move B Y -150]
+[face B 00]
+[say B]
+さあ、主さま。
+ここに乗ってくれる？/
+[serif off]
+?……なんで？/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 01]
+[serif on]
+それはもちろん
+主さまの健康管理のためだよ！/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+先日のパーティでは一生分くらいの
+チョコを食べてしまったのだ。/
+[textcolor ARUJI]
+[flow]
+体重計に乗るのは正直
+気が重い。/
+[show B C]
+[face B 01]
+[scale B 1.6]
+[move B Y -150]
+[say B]
+さあ、怖がらないで。
+乗ってみてね。/
+[serif off]
+?はい……/
+[playeryes]
+[autotap]/
+[hide B]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+恐る恐る体重計に乗ると
+肥前が真剣な面持ちで数字を覗き込む。/
+[show B C]
+[face B 08]
+[say B]
+先週記録されてるデータに比べて
+少し体重が増えてるね。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 01]
+大丈夫だよ、主さま。健康な男子。これくらい
+なんでもないよ！　そんなに暗い顔しないで！/
+[face B 02]
+[flow]
+それにこれから一週間は
+僕がつきっきりで主さまのお世話をするからね！/
+[serif off]
+?！？/
+[face B 00]
+[scale B 1.6 0.5]
+[move B Y -150 0.5]
+[-]
+[serif on]
+それじゃあ湯冷めしないうちに服を着ようね。/
+[face B 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あれ？　まだふくらはぎの内側が
+少し濡れてるじゃないか。拭いてあげるね。/
+[move B Y -300 2]
+[scale B 2 2]
+[autotap]/
+[face B 01]
+はい、足を開いてー。/
+[serif off]
+?自分で拭けますー/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[effect off a]
+[minibg kawaya_day]
+[hideall]
+[bgm fun]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+翌朝。
+洗面台で歯磨きしてると肥前がやってきた。/
+[show A C]
+[face A 01]
+[say A]
+主さま、おはよう！/
+[face A 04]
+[flow]
+朝から歯磨きしてて偉いけど、しっかり
+磨けてるかな？　虫歯になったら大変だよ。/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 01]
+[flow]
+ほら、あーんして。
+僕が仕上げ磨きしてあげるから。/
+[serif off]
+?あーん/
+[serif off]
+[fadein black 0.5]
+[-]
+[bg black]
+[minibg off]
+[hide A]
+[-]
+[fadeout 0.1]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+じっくりと口の中を覗き込んで
+丁寧に磨く肥前。/
+[textcolor ARUJI]
+[effect fr kira a 0 0]
+その手付きは慎重で優しく柔らかい。
+なんだか安心してしまうほどだ。/
+[serif off]
+[bg mbg_syouen 0.5]
+[minibg kawaya_day 0.5]
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[scale A 1.0 0.5]
+[move A Y 150 0.5]
+[face A 02]
+[-]
+[effect off a]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[say A]
+[serif on]
+あとは歯間ブラシも使って……はい！
+ピカピカになったよ！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+……うん、毎日これくらいキレイにしてたら
+大丈夫だね。/
+[serif off]
+?（「大丈夫」？）/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg ima]
+[-]
+[fadeout 1.5]
+[-]
+[place 食事中 しょくじちゅう]
+[-]
+[autotap]/
+[show A C]
+[face A 08]
+[say A]
+[serif on]
+主さま、今日は脂質を少し
+摂りすぎたみたいだね。/
+[face A 00]
+[flow]
+若狭くんにも相談して、今晩はタンパク質や
+ビタミンを増やしてもらおうかな。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+間食もほどほどにしておこうね。/
+[serif off]
+?はーい/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg off]
+[bg niwa_day]
+[-]
+[fadeout 1.5]
+[-]
+[place 庭にて]
+[-]
+[autotap]/
+[show A C]
+[face A 06]
+[say A]
+[serif on]
+主さま、少し運動不足みたいだね。/
+[face A 02]
+代謝を上げるためにも朝夕に
+一緒にウォーキングしようか。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+軽いお散歩気分で楽しもうね！/
+[scale A 1.6 0.2]
+[move A Y -150 0.2]
+[effect fr syutyu a 0 0]
+[quake 2]
+[face A 05]
+あ、主さま、そこに石が落ちてるよ！
+ちゃんと足元は見てね！[shake A]/
+[quake off]
+[effect off a]
+[face A 01]
+さ、いっちに、いっちに！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg off]
+[bg bath]
+[effect fr yuge a 0 0]
+[-]
+[se amb_12]
+[fadeout 1.5]
+[-]
+[place 風呂にて]
+[-]
+[autotap]/
+[show B C]
+[scale B 1.6]
+[move B Y -50]
+[face B 02]
+[delay 0.3 move B Y -100 0.5]
+[say B]
+[se bath_03]
+[-]
+[serif on]
+主さま、今日は半身浴で少し汗をかいてみようね。
+僕も隣にいるからね。/
+[face B 05]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+えっ？　大きい？
+僕の鼻のこと？[face B 01]/
+[hide B]
+[-]
+[talkend]
+[textcolor ARUJI]
+もともと肥前は過保護気味ではあった。/
+[textcolor ARUJI]
+[flow]
+だがここのところはいつにも増して
+世話を焼いてくれているようだ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 0.5]
+[hideall]
+[bg heya_light]
+[bgm night]
+[effect off a]
+[se amb_05]
+[-]
+[fadeout 2]
+[-]
+[wait 0.5]
+[-]
+[autotap]/
+[serif on 0.5]
+@肥前の声
+主様、まだ起きてる？/
+[serif off]
+?起きてるよ。/
+[se fusuma_01]
+[show A L]
+[move A C 1]
+[face A 04]
+[-]
+[serif on]
+[textcolor ARUJI]
+体重計に乗った日以来、寝る前には毎日
+肥前が部屋に来てくれるようになったのだ。/
+[serif off]
+?寝る前の体温チェックかな……/
+[face A 06]
+[say A]
+[serif on]
+あ、[shake A]いや……そうじゃなくて、
+あの……/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 07]
+[flow]
+今日は、これを主さまにと思って。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[se cloth_01]
+そう言って肥前は手元の包みを
+丁寧にほどいて中身を取り出す。/
+[serif off]
+?これは……！/
+[serif on]
+[effect fr kira a 0 0]
+[se kira_01]
+[textcolor ARUJI]
+肥前が取り出したのはチョコレートコーティング
+されたカステラだった。/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 02]
+[say A]
+[effect off a]
+バレンタインは大切な人へ想いを込めた
+チョコレートを贈るのが現代の文化だよね。/
+[face A 06]
+[flow]
+だから、色々考えてみてチョコとカステラを
+組み合わせたお菓子にしようって思ったんだけど……/
+[face A 04]
+[flow]
+これは糖分も多いし、カロリーも高いから
+主さまに贈って良いものか迷ってたんだ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+僕の贈りもので、主さまの体調を
+崩してしまってはいけないからね。/
+[talkend]
+[serif off]
+?（あ、だからこの一週間……）/
+[hide A]
+[serif on]
+[textcolor ARUJI]
+肥前がカロリーチェックや歯磨き、運動など
+健康管理を徹底してきていたのは……/
+[textcolor ARUJI]
+[flow]
+このチョコを渡すためだったのだ。/
+[serif off]
+?ううん、嬉しいよ！　ありがとう！/
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -150]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on]
+ほっ……喜んでもらえてよかった。/
+[face A 00]
+主さまの健康状態はちゃんと見てたから
+運動量も栄養も十分に摂れてるはずだよ。/
+[face A 01]
+だから大丈夫、
+これくらいなら食べても問題ないよ！/
+[serif off]
+?せっかくだから、一緒に食べよう/
+[serif on]
+[face A 05]
+えっいいの！？[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+僕……ちょっとお腹は出てるけど……
+主さまと一緒に運動してたから、大丈夫だよね。/
+[face A 02]
+[flow]
+じゃあ、一緒に食べようか。/
+[face A 01]
+でも、寝る前には僕がしてあげたみたいに
+しっかり歯を磨いてね。/
+[talkend]
+[textcolor ARUJI]
+そう言って肥前はにっこりと微笑んだ。/
+[serif off]
+[fadein BLACK 2.0]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+その晩はチョコカステラで肥前と一緒に
+甘い夜を過ごしたのだった。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

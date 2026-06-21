@@ -1,0 +1,1677 @@
+>>10000/
+@伊豆
+よっ！　オレは東海道、伊豆！[autotap]/
+[delay 3.1]
+[flow]
+[-]
+@伊豆
+外で身体動かすのとか、海で泳ぐのが大好きだぜ！　
+大将も一緒に汗流さねー？/
+>>10001/
+@伊豆
+また呼んでくれるなんて、もしかして……[wait 1.8]
+大将オレのこと好きなのかな……？　へへ……/
+>>1/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 00]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+大将！　祭りといやぁ、
+「どんつく祭り」はマジで必見だぜ！！/
+[face A 01]
+神輿にさ、スッゲェデッケェ「あそこ」が
+刺さっててよ……もう大迫力！！[shake A]/
+[move A X -50 0.1]
+[delay 0.1 move A X 200 0.2]
+[delay 0.3 move A X -200 0.2]
+[delay 0.5 move A X 100 0.1]
+[autotap]/
+[face A 02]
+んで、男も女も大人もこどももみんなで
+ドンチャン騒ぐのが最っ高に楽しいんだぜ！/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+大将も一緒にどんつくしようぜ！　な！！/
+>>2/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[talk A]
+[serif on]
+伊豆国といやぁ、温泉は外せないよな！
+任務の疲れを癒やすには最高だぜ！！/
+[face A 02]
+オススメは……[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]伊東に熱川、下田、はもちろん、
+滝を眺めながら入る大滝温泉もたまんねーぜ！[shake A]/
+[face A 04]
+カーッ！　[shake A]いいところが多すぎて選べねぇ！[face A 01]
+こうなったら、大将！　[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]全部制覇しちゃおうぜ！！[move A X 800 0.3]/
+[serif off]
+[move A Y 50 0.2]
+[delay 0.2 move A Y -50 0.1]
+[delay 0.4 move A Y 50 0.2]
+[delay 0.6 move A Y -50 0.1]
+[move A X -500 1.0]
+[rotate A 20 0.3]
+[-]
+[serif on]
+[face A 08]
+あ？　何ぼーっとしてんだよー大将！！[shake A][face A 02]
+さっさと準備して、出発しようぜ！！[se walk_03][rotate A 0 0.2][move A X 500 0.5][hide A]/
+>>3/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 06]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+誰よりも早く桜を楽しむってんなら、
+やっぱ河津桜だよな。/
+[face A 01]
+他の桜と違って、二月頃には咲き始めるんだ！
+本州では一番早いって噂だぜ！[shake A]/
+[face A 06]
+[scale A 1.4 0.5]
+[move A Y -100 0.5]
+だからさ、大将。
+最初の花見は……オレとさぁ……/
+[face A 02]
+[move A Y 100 0.2]
+[scale A 1.0 0.2]
+へへっ、決まりな！
+忘れんなよ！/
+>>4/
+[set A s_izu_r 伊豆]
+[randomset B r @地魂男児 @あやかし -izu]
+[randomset B r @地魂男児 @あやかし -izu]
+[show A R]
+[show B L]
+[talk A]
+[face A 02]
+[face B 00]
+[move A X -250 0.3]
+[-]
+[serif on]
+お、今日はみんな早起きじゃーん！！
+おっはよー！/
+[face A 01]
+なぁなぁ！[shake A]
+オレってば今日めちゃめちゃ海で泳ぎたい気分！[face B 01]/
+[show C R]
+[move C X 200]
+[move C X -150 0.5]
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+だから、今から海水浴に行こうぜ！
+行くやつこの指とーーーまれ！！[shake C]/
+>>5/
+[set A s_izu_r 伊豆]
+[randomset B r @地魂男児 @あやかし -izu]
+[show A C]
+[show B R]
+[face A 07]
+[face B 00]
+[move A Y -100]
+[move B X -100 1.0]
+[-]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[-]
+[move B L 1.0]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+んあっ？　[esoy 0.5]これなに！？[move A Y 100 0.3][face A 05]　あ、オレの昼ごはん！？
+お、おう……[wait 0.5][face A 01]あ、ありがとう$B:A……[face B 01]/
+[face A 09]
+[move B X -200 0.5]
+[hide B]
+え……？[shake A]　$B:Aが、わざわざオレのために
+昼ごはんのお膳運んできてくれた……？/
+[flow]
+優しい…………[wait 0.5]も、もしかして……/
+[flow]
+[effect A love a 0 100]
+もしかして……
+オレに気がある……！？　ってこと！？/
+>>6/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[scale A 2.0]
+[move A Y -150]
+ヤッバ！[shake A]
+今日超いい天気じゃん！！/
+[face A 01]
+[scale A 1.0]
+[move A Y 150]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+修練場にこもって訓練とか絶対ムリムリ！！
+みんなー！　外でハメ外そうぜ！！！[se walk_03][move A X 1000 0.3][hide A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_izu_r 伊豆]
+[show A L]
+[face A 00]
+[talk A]
+[move A X 350 1.5]
+[-]
+[serif on]
+今日は働いたなぁ……[face A 04]
+うぅ……寝る前に……[move A X 100 1.0]ごはん……[wait 0.5]食べなきゃ……/
+[shake A]
+でも……もー……[face A 07]眠くて……
+だめー……[rotate A -60 0.5][move A XY 50 -100 0.3]……ぐー。/
+>>10/
+[set A s_izu_r 伊豆]
+[show A L]
+[face A 04]
+[talk A]
+[move A X 350 1.5]
+[-]
+[serif on]
+あーーーー歩き疲れたーーーー……[move A Y 10 0.4][delay 0.4 move A Y -30 1.0]
+遠征きっつ……もう無理ーーー……[shake A]/
+さっさと寝よぅ……[move A X 100 1.0]……[face A 06]の前に、/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+風呂だーーー！　風呂で一日の疲れを
+ふっとばしてサッパリするぜ！！！！[se walk_03][move A X -1500 0.5][hide A]/
+>>11/
+[set A s_izu_r 伊豆]
+[randomset B r @地魂男児 @あやかし -izu -@NPC]
+[show A C]
+[show B L]
+[face A 08]
+[face B 04]
+[serif on]
+[talk A]
+あれ？　$B:A、足少し切ってんじゃん。
+ちょっとじっとしてな。/
+[move A X -50 0.2]
+[-]
+[move A XY -10 -100 0.4]
+[rotate A 10 0.3]
+[se cloth_01]
+[face A 00]
+[face B 01]
+ここを……洗浄して、[se water_06]
+オレ特製の塗り薬……っと。これでよし。[se cloth_01]/
+[move A XY 10 100 0.3]
+[rotate A 0 0.3]
+[face A 01]
+[face B 02]
+しばらく滲みるかもしれないけど、
+このくらいならすぐよくなるぜ！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_izu_r 伊豆]
+[randomset B r @地魂男児 @あやかし -izu]
+[show A L]
+[show B R]
+[face A 01]
+[face B 00]
+[serif on]
+[setline 0 A B]
+[move A X 50 1.0]
+[-]
+[talk A]
+なーなー、$B:Aってさ、
+どこでしてる？　[wait 0.5]何ってほら、あれだよ！　[face B 06]あれ！[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]/
+[face A 02]
+ふむふむ……へー！[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+おもしろそうじゃん！　今度試してみるぜ！/
+[face A 06]
+[move A X 50 0.5]
+オレ的には[= 浜辺 森ん中 屋根の上 川辺 海ん中]！　誰もいないし、
+景色もキレイで開放感あっておすすめだぜ！[face B 05]/
+>>15/
+[set A s_izu_m 伊豆]
+[effect fr katana 1000 300 0]
+[se doka_01]
+[wait 0.2]
+[-]
+[show A R]
+[face A 03]
+[move A Y 400]
+[se walk_04]
+[move A X -300 0.4]
+[move A Y -400 0.3]
+[-]
+[serif on]
+[talk A]
+えいやー！！　[move A X -200 0.2]やー！！[shake A][fadein WHITE 0.2][delay 0.2 fadeout 0.1]
+…………はーっ！　[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]疲れたーー！！[face A 04]/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ちょっと擦りむいちまったし……
+今日の訓練はこんくらいでいいかな。/
+[face A 02]
+んじゃオレは離脱～っ！
+昼ごはん食べたら遊びに行こっと♪[move A X 500 0.5][hide A]/
+>>16/
+[set A s_izu_m 伊豆]
+[randomset B m @地魂男児 @あやかし -izu -@NPC]
+[show A R]
+[show B L]
+[move A X 100]
+[scale B 1.3]
+[move B Y -30]
+[face A 05]
+[face B 08]
+[-]
+[move B X 150 0.1]
+[fadein WHITE 0.2]
+[se katana_06]
+[delay 0.2 fadeout 0.1]
+[-]
+[serif on]
+[talk A]
+[order A 0]
+[order B 1]
+うおおっ！[shake A]
+$B:Aの奴、腰の動きのキレがすげえ……/
+[move B X -300 0.1]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.1]
+[se katana_06]
+[face A 08]
+ふんふん……へー、重心を移動させて……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+なるほどねっ！　オレもやってみよーっと！！[face A 02]/
+>>17/
+[set A s_izu_b 伊豆]
+[randomset B b @地魂男児 @あやかし -izu]
+[show A L]
+[show B R]
+[order A 1]
+[order B 0]
+[face A 01]
+[move A X 200 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふーっ、サッパリした！[wait 0.5]
+おっ、$B:Aはこれから風呂？[face B 01]/
+[face A 02]
+今日もいい湯加減だったぜ！[wait 0.5][face B 06]
+……ん？[face A 08]　隠さないのか……って、なにが？/
+[face A 00]
+あー、ちんこ？[wait 0.5]
+別に隠す意味ねーじゃん！[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]　[face A 02]誰も気にしねーって！/
+>>18/
+[set A s_izu_b 伊豆]
+[randomset B b @地魂男児 @あやかし -izu]
+[show A C]
+[show B C]
+[face A 02]
+[face B 02]
+[setline 0 A B]
+[order A 1]
+[order B 0]
+[move A Y -100]
+[move B Y -100]
+[se water_06]
+[effect fr yuge a 0 0]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 00]
+[wait 0.5]
+[-]
+[move A X 50 1.0]
+[-]
+[serif on]
+[talk A]
+[face A 06]
+おぉ、$B:A、見ろよ。[face B 05]
+風呂場にオレたちだけしかいないぜ。/
+[move A X 50 1.0]
+[face B 06]
+ほんとは駄目だけど、他に人がいない
+今しかできないこと……[wait 0.5]しちゃう？[move A Y -10 1.0][se water_06][shake B]/
+[effect fr splash 6000 0 0]
+[move A Y 100 0.2]
+[se water_03]
+[face A 02]
+[face B 02]
+じゃあ、$B:Aも一緒に泳いじゃおうぜ！！
+ひゃっほーい！！[se water_01][move A X -300 1.0][rotate A 30 0.3][move A Y -50 0.2][effect fr splash 6000 -200 0]/
+[face A 01]
+[move A X 100 0.5]
+[rotate A 0 0.3]
+あ、ちなみに、血流がよくなっている時に泳ぐと
+血圧が上がりやすいから、注意が必要だぜ/
+[face A 02]
+[face B 02]
+[move B X -200 0.5]
+[move A X -300 0.2]
+[hide A]
+[se water_07]
+[effect fr splash 6000 0 0]
+$B:Aも気をつけてな！！
+ひゃっほー！！！/
+>>19/
+[set A s_izu_b 伊豆]
+[randomset B b @地魂男児 @あやかし -izu -@NPC]
+[show A C]
+[move A Y -100]
+[face A 09]
+[move A Y 10 0.4]
+[effect fr yuge a 0 0]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+はー……ちょっとのぼせちゃったぜ。[se water_03][move A Y 100 0.5]
+少し冷まそっと……[move A X 100 1.0]……ん？[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]/
+[show B L]
+[move B Y -100]
+[face A 08]
+[face B 06]
+$B:A、なんで顔赤くしてつらそうにしてんだ？[wait 0.5][move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face A 06]
+風呂で温まって色々血行よくなっちゃったのか？[face B 05][move A X -100 0.5]/
+はは～、なるほどね～、へへっ。[move A Y -100 0.5][se water_03]
+大丈夫大丈夫！[move A X -50 1.0]　こちょこちょ～！[face B 02][se water_07][shake A][shake B 5 5 5]/
+>>20/
+[set A s_izu_r 伊豆]
+[show A L]
+[face A 02]
+[se fusuma_04]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+はー……
+スッキリした！！/
+[face A 04]
+そういや、風呂で体温まって、水が流れる音とか
+聞いてると無性にしょんべんしたくなるんだよな。/
+[face A 08]
+でも、絶対風呂場ではしない！[shake A]
+風呂好きとしては当然のマナーだぜ！/
+>>21/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[se pee_01]
+うおっっ！[shake A]　お、[move A X -10 0.1]おおっ……！？[shake A]
+あちゃー……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[face A 04]
+元気よすぎて、狙い外しちまった……！
+あとで怒られるかなぁ……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+>>22/
+[set A s_izu_r 伊豆]
+[show A L]
+[face A 02]
+[se fusuma_04]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+んはーーーっ！
+超スッキリした！！！/
+[effect A kira a 0 200]
+[face A 06]
+今日も快調快調～♪/
+>>23/
+[set A s_izu_r 伊豆]
+[show A C]
+[move A Y -100]
+[face A 04]
+[serif on]
+[talk A]
+個室って暇だよなあ～。
+早くスッキリして、遊びに行きてえー！[shake A]/
+[face A 06]
+……せっかくだし、目一杯[se cloth_02]
+スッキリさせてから出よっかな。[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]へへ！/
+>>24/
+[set A s_izu_r 伊豆]
+[show A R]
+[face A 01]
+[serif on]
+[talk A]
+[effect A kira a 0 200]
+そろそろ寝るかーーー！
+布団にどーーーーーん！！！[move A Y 100 0.1][delay 0.1 move A Y -150 0.3][rotate A 60 0.5][move A X -200 0.7]/
+[face A 02]
+[se cloth_02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+うはーー！　[wait 0.5]布団、ふかふかで気持ちいいぜー！
+今日も一日よく頑張……[wait 0.2]ったー……/
+[effect off a]
+[face A 07]
+[move A Y -10 1.0]
+ぐぅ……/
+>>25/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+むにゃむにゃ……すげぇ……[shake A]
+いっかく……なったなぁ……すやすや……/
+[talkend]
+寝言のようだ。/
+>>26/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 07]
+[move A Y -200]
+[-]
+[se A cloth_01]
+[move A Y 300 0.2]
+[delay 0.2 move A Y -100 0.2]
+[face A 04]
+[-]
+[serif on]
+[talk A]
+あ～～～！
+もう我慢できねぇ！/
+[face A 06]
+[talk A]
+みんな寝てるから
+コッソリと……へへっ！[move A Y -100 1.0][se cloth_01][-][shake A]/
+>>27/
+[set A s_izu_b 伊豆]
+[effect fr yuge a 0 0]
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+よ、大将！/
+[serif off]
+?伊豆、ハレの日おめでとう！……って/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+伊豆の身体はほんのりと濡れていて
+髪も肌も湯気を立てている。風呂上がりのようだ。/
+[face A 00]
+[say A]
+[se cloth_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、この恰好？　風呂出たとこだから！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+今日はオレのハレの日だからさ
+いつでも風呂入れるようにこの恰好なんだぜ。/
+[face A 08]
+[effect A kira b 0 0]
+[se kira_01]
+だってさ、今日は、「１１月２６日の日」！
+何度だって温泉浸かりたいじゃん！/
+[serif off]
+?温泉好きだもんね/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[effect off b]
+[serif on]
+[say A]
+もちろん！　やっぱオレの国といえば温泉だよな。
+あー、大将と温泉めぐりしたいぜ！/
+[face A 06]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+って思ったらまた風呂入りたくなってきたー！
+せっかくだし大将もオレと同じ格好しようぜ。/
+[se cloth_06]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 02]
+[flow]
+ほら、大将も脱いで脱いで！/
+[talkend]
+[textcolor ARUJI]
+伊豆が手を伸ばしてくる。
+慌てて後ずさろうとするが、服を掴まれてしまった/
+[face A 01]
+[say A]
+さあ、大将もすっぽんぽんになろうぜ！/
+[serif off]
+?待って！　あとで一緒にお風呂入るから……！/
+[face A 02]
+[serif on]
+マジ！？　やったぜ！
+約束だからな！/
+[talkend]
+[textcolor ARUJI]
+[scale A 1.0 0.5]
+[move A Y 120 0.5]
+[se cloth_01]
+伊豆は手を離すと
+にんまりと笑みをこちらに向けた。/
+[face A 01]
+[say A]
+この荘園は温泉だし、最高だよな。
+傷はすぐに治っちまうし！/
+[face A 04]
+[flow]
+風呂の種類がもうちょっとだけ多ければな～
+大浴場、あんなに広いんだしさ！/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+例えば色んなハーブとか薬草とかいれた
+薬湯も欲しいよなぁ。効くぜ～？/
+[face A 02]
+[flow]
+あ！　今度りくに頼んでおこうっと！
+寝湯とかほしくね？　あとは、サウナ！[shake A]/
+[face A 06]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ギリギリまでガマンして
+庭の池に思いっきりどぼーんしたいぜ！/
+[talkend]
+[textcolor ARUJI]
+こんな姿で歩き回って……
+さらに池に入るだなんて……/
+[serif off]
+?風邪ひかないようにね……/
+[face A 00]
+[serif on]
+[say A]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+もし風邪ひいたら、また温泉浸かりにいくし！
+……あ、でも、そのままでもいいかも……/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+だって、大将なら、きっとオレの隣にきて
+看病してくれるだろ？　へへっ。/
+[face A 02]
+っつーことで、大将、ほら早速一緒に
+風呂行こうぜ！　まだまだ浸かり足りないぜ！[se walk_03][move A X 500 0.5][hide A]/
+>>100/
+[set A s_izu_b 伊豆]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 伊豆と大浴場でお喋り]
+[-]
+[bg rouka_night]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[se walk_01]
+[talkend]
+[textcolor ARUJI]
+今日一日の疲れを流そうと
+荘園の大浴場でへとやってきた。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[bg bath]
+[-]
+[effect fr yuge y]
+[se fusuma_03]
+[fadeout 1]
+[se amb_12]
+[-]
+[se water_06]
+[serif on]
+[-]
+[hideall]
+[-]
+[textcolor ARUJI]
+中には既に数名の地魂男児がいて、
+各々ゆったりと楽しんでいるようだ。/
+[se bath_03]
+[flow]
+[textcolor ARUJI]
+湯船に入る前に身体を洗おうと
+洗い場に座ると突然声をかけられた。/
+[show A C]
+[face A 00]
+[talk A]
+あ、大将～！　隣いい？[face A 02]/
+[serif off]
+?伊豆？　いいよ/
+[talk A]
+[scale A 1.5 0.3]
+[move A Y -150 0.5]
+[serif on]
+[se bath_03]
+おう！[wait 0.2]　[face A 01]大将もここの浴場使うんだなー！
+一緒の時間になったの初めてだよね。/
+[face A 02]
+あ、これ使う？　薬草で作った石鹸。
+すっげース～ってするぜ！[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]/
+[serif off]
+?ありがとう/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+石鹸を泡立てると
+清涼感のある爽やかな香りがした。/
+[serif off]
+?任務あがり？/
+[serif on]
+[show A]
+[face A 04]
+[scale A 1.5]
+[move A Y -150]
+[say A]
+そーそー。今日も一日めっちゃ戦ったぜ～。
+ほんっとクタクタ……/
+[se bath_01]
+[face A 01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+でも寝る前に風呂は入っときたいじゃん？
+ふ～！　気持ちいい～！[shake A]/
+[se bath_03]
+[textcolor ARUJI]
+[talkend]
+伊豆は桶にためた湯を体にかけた。
+温かな蒸気がただよってくる。/
+[face A 00]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+オレさ、まだ大将とじっくり話せてない
+からさ、なーんとなく機会探してたんだ！/
+[flow]
+それがまさかオレの庭でもある風呂で
+こーやって話できるなんて……[face A 09][wait 0.5]運命的じゃね？[shake A]/
+[serif off]
+?伊豆はお風呂好きなの？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+おう！　伊豆国といえば
+やっぱ温泉ってくらいだしな！/
+[face A 01]
+風呂……特に温泉の楽しみ方なら
+オレに何でも聞いてくれよ！/
+[face A 00]
+そうそう、この大浴場も
+ちゃんと温泉引いてるんだよな！/
+[face A 02]
+泉質、結構いい感じだぜ。
+大将は飲んだことある？/
+[serif off]
+?ないよ。温泉って飲めるんだ？/
+[face A 01]
+[serif on]
+[shake A]
+もち！　ちょっと苦いかもしれないけど、
+身体にもいいから、試してみてもいいんじゃね？/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+まっ、気が向いたらで！/
+[face A 00]
+あ、そうだ！
+せっかくだし、オレが背中流してやるよ！/
+[serif off]
+?伊豆に背中を流してもらう/
+[bgm fun]
+[face A 08]
+[move A Y 50 0.5]
+[serif on]
+よぉし、いくぜぇ～！/
+[talkend]
+[se bath_05]
+[scale A 2.0 0.5]
+[move A Y -50 0.5]
+[textcolor ARUJI]
+伊豆は手ぬぐいを泡立て、
+こちらの背中を力強くこする。[shake A 5 10 10]/
+[face A 02]
+[talk A]
+[se bath_05]
+ごしごし！[shake A]　ごーし、ごしごし！！[shake A 5 1 5]
+痒い所はございませんか～～？　なんてな！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+は～～～～……
+大将の背中、広くて安心するぜ～っ。/
+[face A 02]
+[se bath_05]
+毎日ほんとにお疲れさん。っと。
+ごしごしごしごし！[shake A 2 5 5]/
+[face A 02]
+[se bath_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+よーし、これで完了！
+すべすべになったぜ！　大将！/
+[serif off]
+?ありがとう/
+[face A 00]
+[serif on]
+ほんじゃ、今度はこっち向いて！
+前も洗うからさ！/
+[serif off]
+?背中だけで大丈夫/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 05]
+[serif on]
+え～なんだよ大将～！？
+水臭いこと言うなよ～！！/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+もしかして恥ずかしいとか？
+大将～気にすんなって～！/
+[face A 02]
+ほらっ、オレなんかぜーんぜん平気だぜ！
+海に入るときも、基本すっぽんぽんだし！/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ま、大将がそう言うなら今日のところは
+背中だけにしとくか～。[face A 02]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[show A]
+[scale A 1.5]
+[move A Y -150]
+[face A 00]
+[-]
+[fadeout 0.5]
+[-]
+[se bath_05]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+こちらの背中を流し終えると、
+伊豆は自分の身体を洗い始めた。/
+[serif off]
+?いい感じに焼けてるね。伊豆/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+[say A]
+だろ～！　オレ、海で泳いだり
+外で遊ぶの大好きだからさ～！！/
+[face A 02]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.3 se bath_01]
+[-]
+[hide A]
+[talkend]
+[se water_03]
+[textcolor ARUJI]
+風呂桶にためた湯を頭から被り
+身体を流す伊豆。/
+[show A C]
+[face A 02]
+[move A Y -50]
+[talk A]
+[se bath_03]
+[move A Y 50 0.2]
+うし！　オレ、洗い終わったから
+先に湯船につかってくるぜ！！/
+[move A X -850 0.5]
+[se water_05]
+大浴場、さいっこー！　ひゃっほー！！/
+[serif off]
+[hide A]
+[shakebg]
+[se water_01]
+[talkend]
+[effect fr splash 6000 -800 0]
+[wait 2]
+[-]
+[autotap]/
+?元気だなぁ……/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+伊豆は湯船に浸かる他の男児たちと
+はしゃいでいるようだ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[wait 1]
+[-]
+[se amb_12]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+何名かの地魂男児たちが風呂をあがり
+大浴場は少し静かになっていた。/
+[serif off]
+?そろそろ上がろうかな/
+[show A]
+[move A Y -100]
+[move A Y 100 0.5]
+[se water_07]
+[face A 00]
+[serif on]
+[say A]
+あ、大将もう上がるの？
+んじゃオレもあーがろっと！　ふぁあ～疲れた……[face A 04]/
+[move A Y -200 0.3]
+[hide A]
+[talkend]
+[se water_03]
+[effect fr splash 6000 0 0]
+[textcolor ARUJI]
+湯船から上がると、背後で大きな水音がした。
+また伊豆が湯船に飛び込んだのかと振り返ると……/
+[bgm off]
+[se water_06]
+[textcolor ARUJI]
+そこには湯船に浮かぶ伊豆の背中が見えた。/
+[flow]
+[textcolor ARUJI]
+顔は完全にお湯に沈み、
+その身体はぴくりともしない。/
+[serif off]
+[bgm departure]
+?溺れてる！？/
+[se bath_02]
+[serif on]
+[textcolor ARUJI]
+慌てて伊豆を抱え上げ、洗い場に寝かせた。/
+[flow]
+[se clolth_06]
+[textcolor ARUJI]
+水を飲んだ可能性もあるため
+伊豆の薄く筋肉の弾力を感じるお腹をぐっと押す。/
+[serif off]
+?呼吸を確認する/
+[show A]
+[face A 07]
+[scale A 1.6]
+[move A Y -120]
+[rotate A 30]
+[serif on]
+[say A]
+………………[bgm off]
+……[wait 0.5]………………[wait 0.2]ぐ～……/
+[serif off]
+[bgm comical]
+?寝てる！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on]
+すぴぃ～……ぐぅ～……むにゃむにゃ……/
+[serif off]
+?……ほっぺたを叩いて伊豆を起こす/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+ぺちぺち。[shake A]/
+[say A]
+[face A 04]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+んっ、んん～～～……
+んあっ、大将……？[face A 08]/
+[face A 04]
+オレ……もうクタクタで……
+完全に、電池切れ～……/
+[serif off]
+?あんな突然寝る！？/
+[say A]
+[face A 03]
+[serif on]
+うーー……だってもう無理ぃ～……
+眠気には……勝て……ない………………[face A 04]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 07]
+大将、おやすみぃ～……ぐぅー…………/
+[move A Y -100 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+伊豆は一糸まとわぬ姿のまま
+洗い場で眠ってしまった……/
+[serif off]
+?伊豆～、お～い……/
+[fadein black 2]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+それから何度伊豆を起こそうとしても
+目を覚ます気配は全く無く――/
+[flow]
+[textcolor ARUJI]
+脱衣所にいた地魂男児たちに協力してもらい、
+伊豆は寝床へと運ばれていった。/
+[flow]
+[textcolor ARUJI]
+ふだんはあんなに元気なのに、限界が来ると
+まさに電池が切れたように眠ってしまう伊豆。/
+[flow]
+[textcolor ARUJI]
+その後も、廊下や居間、修練場……様々な場所で
+寝落ちているところが目撃されたのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_izu_r 伊豆]
+[set C s_n002_r 猪森]
+[set B s_izu_b 伊豆]
+[set D s_n002_b 猪森]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 伊豆の意外なところ]
+[-]
+[bg heya_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+今日は猪森による訪問診療の日。/
+[textcolor ARUJI]
+声聞師は定期的に
+身体的なものから霊的なものまで――/
+[textcolor ARUJI]
+様々な検査を定期的に実施するよう
+ロクハラによって義務付けられている。/
+[show C C]
+[face C 01]
+[talk C]
+はい、今日の検査は終わりだよ。
+忙しい所いつもありがとう。/
+[face C 12]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+って、あれ！？[shake C]　もうこんな時間か！
+そろそろ研究室に戻らなきゃ。/
+[talkend]
+[move C XY 10 -40 0.4]
+[rotate C -10 0.3]
+[delay 0.4 move C XY -10 40 0.3]
+[delay 0.5 rotate C 0 0.3]
+[textcolor ARUJI]
+[se cloth_01]
+大急ぎで検査機器や資料を片付ける猪森。/
+[serif off]
+?お疲れ様です/
+[face C 01]
+[talk C]
+[serif on]
+うん、お疲れ様。それじゃあね！/
+[move C X -300 0.5]
+[se fusuma_01]
+[textcolor ARUJI]
+[talkend]
+[bgm off]
+猪森が礼を言って部屋を出た時、
+がつっと足を床にひっかけ、盛大にすっ転んだ。[shakebg][se doka_01][rotate C 10 0.2][face C 05]/
+[bgm departure]
+[se doka_01]
+[se zukkoke_01]
+[move C X -500 0.3]
+[rotate C 120 0.3]
+[hide C]
+[shakebg]
+@猪森
+わーーーー！！/
+[bg rouka_day 0.5]
+[hide C]
+[serif off]
+?だ、大丈夫ですか！？/
+[show C C]
+[face C 09]
+[move C Y -100]
+[talk C]
+[serif on]
+う、うぅ……[shake C]いたたた……/
+[show A L]
+[move A X -200]
+[move A X 200 0.3]
+[face A 05]
+[talk A]
+[orderline A C]
+うおーー！　いまのすごっ！！[shake A]/
+[bgm fun]
+[talkend]
+[textcolor ARUJI]
+通りがかった伊豆が声をかけてきた。/
+[serif off]
+?伊豆/
+[face A 01]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+よう、大将！/
+[face A 08]
+[move A X -50 0.3]
+もしかして猪森、こんな何もないとこであんな
+アクロバティックに転んだの？　すごくね！？/
+[face C 10]
+[talk C]
+[move C Y 100 0.4]
+う、うぅ……[shake C]
+恥ずかしい所を見られてしまった……/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[talk A]
+[orderline A C]
+ははは！　……あれ？[face A 00]
+肘んとこ擦りむいてんじゃん。ほら診してみ。/
+[move A X 150 0.5]
+[hideall]
+[textcolor ARUJI]
+[talkend]
+[se cloth_01]
+そう言って、伊豆は腰に下げた袋から消毒液や
+包帯を出すと、手際よく猪森の手当てをはじめた。/
+[serif off]
+?おぉ、応急処置/
+[show A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[talk A]
+[orderline A C]
+[serif on]
+まぁ大したことはできねーけど。
+簡単なことならね！/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+こうしてこうして……よっと！　ほい完成！/
+[show C]
+[setline 0.5 A C]
+[face C 02]
+[talk C]
+わ、ありがとう！/
+[face A 01]
+[talk A]
+後で擦り傷に効く薬草持ってくから、
+傷口に当ててみてよ。治りがいいと思うぜ！/
+[hide A]
+[hide C]
+[serif off]
+?薬草とか、詳しいんだね/
+[show A C]
+[face A 02]
+[talk A]
+[serif on]
+いや～外で遊び回ってるときに道ばたの
+草食べてたら、大体わかるようになっちゃった。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 01]
+大将だってすぐわかるようになるって！/
+[show C R]
+[setline 0.5 A C]
+[face C 12]
+[talk C]
+[orderline A C]
+ワ、ワイルドだね……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[talk A]
+へへっ。自然の子だからオレ。
+海とか山とか、外で遊ぶの大好き！/
+[face A 08]
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+でもやっぱ一番身体にいいのは、
+温泉に入っての～んびりすることだよな～！/
+[face A 02]
+[flow]
+[effect A kira a 0 0]
+[se kira_01]
+ってことで、お風呂に入ろうぜ！
+大将も猪森も！　ほらほられっつごー！/
+[effect off a]
+[face C 05]
+[talk C]
+えっ、ええーーー！？
+いまから！？/
+[face A 06]
+[talk A]
+いいからいいから！
+ほら、大将もいくぜー！/
+[hide A]
+[hide C]
+[serif off]
+?お風呂に入りに行く/
+[show A R]
+[scale A 0.8 0.5]
+[face A 08]
+[talk A]
+[-]
+[serif on]
+確かこのへんにあれ生えてたよな～
+お、これこれ、使えそうじゃん！[face A 02]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+伊豆は縁側の庭に生えている草を
+物色しながら歩いているようだ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm off]
+[bg bath]
+[se amb_12]
+[-]
+[fadeout 1.5]
+[-]
+[place 大浴場]
+[-]
+[autotap]/
+[bgm fun]
+[show D C]
+[face D 00]
+[talk D]
+[effect fr yuge y 0 0]
+[move D X 300]
+[move D X -300 1]
+[-]
+[move D Y -100 0.5]
+[effect fr splash 4000 0 0]
+[se bath_01]
+[-]
+[face D 02]
+[wait 1]
+[scale D 1.6 0.5]
+[move D Y -70 0.5]
+[se bath_02]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[-]
+[serif on]
+ふわぁ～～……このお湯
+気持ちいいよ……/
+[hide D]
+[serif off]
+?体に良さそうな香りがするね/
+[show B L]
+[face B 06]
+[talk B]
+[scale B 1.6]
+[move B Y -170]
+[setline 0.5 B D]
+[serif on]
+へへ、擦り傷に効く薬草ならこれ！
+荘園にも生えてるから助かるぜ。/
+[flow]
+[face B 01]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+本当は温泉に入ってもらいたいけど、
+これでも効果あると思うぜ。/
+[hideall]
+[talkend]
+[se bath_04]
+[textcolor ARUJI]
+湯船には伊豆が集めた薬草の入った
+布のパックが浮かんでいる。/
+[show B C]
+[face B 02]
+[talk B]
+[scale B 1.6]
+[move B Y -170]
+猪森の怪我もたいしたことないし
+すぐよくなりそうで良かったな。/
+[flow]
+[face B 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+それくらい地魂男児だったら
+風呂で秒だぜ！/
+[show D R]
+[se bath_04]
+[scale D 1.6]
+[move D Y -170]
+[setline 0.5 B D]
+[face D 08]
+[talk D]
+[orderline B D]
+ありがとう。
+もう全然痛くないよ。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[flow]
+[face D 06]
+それに体中、丁寧に洗ってもらっちゃって……/
+[face B 01]
+[talk B]
+猪森の体、デカいから洗いがいがあったぜ。/
+[hide D]
+[move B C 0.5]
+[move B Y -170 0.5]
+[face B 00]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[se bath_04]
+あ、ねぇねぇ大将！　せっかくだし
+大将の日頃の疲れも取ってやるぜ！/
+[face B 06]
+[flow]
+こっちの浅いとこ座って。
+半身浴みたいな感じでさ。/
+[hide B]
+[hide D]
+[serif off]
+?浅いところに腰掛ける/
+[textcolor ARUJI]
+[serif on]
+[talkend]
+湯船の中の底が高くなっている部分に座ると
+お腹より上がお湯から出て半身浴のような形になる。/
+[show B C]
+[scale B 1.6]
+[move B Y -170]
+[move B Y 50 0.5]
+[se bath_01]
+[face B 06]
+[talk B]
+それじゃあリラックスして～。/
+[scale B 2 0.5]
+[move B Y 150 0.5]
+[autotap]/
+[effect fr splash 4000 0 0]
+[se water_07]
+[talkend]
+[textcolor ARUJI]
+伊豆は立ち上がり、こちらに近づく。/
+[flow]
+[textcolor ARUJI]
+視線を向けると、顔のすぐ横に
+伊豆のむき出しの健康的な体が見えた。/
+[move B Y -100 0.5]
+[face B 01]
+[talk B]
+大将、頭ちょっと下げて？
+それじゃあ、いくぜ？/
+[bgm off]
+[fadein black 0.5]
+[talkend]
+[textcolor ARUJI]
+伊豆の体がさらに近づく。
+そして……
+[hide B]/
+[serif off]
+?……！！
+/
+[se bath_01]
+[serif on]
+[textcolor ARUJI]
+ざばぁぁぁ……と
+頭の上からゆっくりとお湯が流れていった。/
+[textcolor ARUJI]
+[flow]
+お湯は、頭から首筋、そして肩へさらさらと流れ、
+じんわりと心地よい温かさが広がる。/
+[bgm night]
+[serif off]
+[se bath_01]
+?……なんだか贅沢な気分
+/
+[textcolor ARUJI]
+[serif on]
+やわらかなお湯の流れは、一流のスパ施設で
+サービスを受けているような気分になる。/
+[textcolor ARUJI]
+[flow]
+[se bath_01]
+シャワーのような機械的な水流では
+この感覚は得られないだろう。/
+[textcolor ARUJI]
+[flow]
+伊豆が丁寧にかけ湯をしてくれていることで
+贅沢感が生まれているのだと思った。/
+[fadeout 0.5]
+[show B C]
+[face B 02]
+[scale B 1.6]
+[move B Y -50]
+[talk B]
+へへ、だろ？　かけ湯で血行もよくなるし
+お湯が体を流れるのも気持ちいいよな！/
+[show D L]
+[move D X -100]
+[move D X 100 0.5]
+[scale D 1.6]
+[move D Y -170]
+[setline 0.5 D B]
+[face D 08]
+[say D]
+[se bath_04]
+へぇ～。たしかに良さそうだね。/
+[hide D]
+[move B C 0.5]
+[move B Y -50 0.5]
+[talkend]
+[textcolor ARUJI]
+お湯を汲む伊豆に目を向けると、ニコニコと
+楽しそうでこちらまでほっこりしてくる。/
+[serif off]
+?ありがとう。伊豆
+/
+[face B 01]
+[talk B]
+[effect fr kira a 0 0]
+[se kira_01]
+[serif on]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+へへっ。喜んでもらえて嬉しいぜ！
+んじゃ、今度は猪森の番な！　交代！/
+[show D L]
+[scale D 1.6]
+[move D Y -170]
+[effect off a]
+[face D 04]
+[talk D]
+[orderline B D]
+え、じ、自分もいいのかな？
+ちょっと恥ずかしいな……/
+[face B 08]
+[talk B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+遠慮すんなって！　いつもよくわかんないけど
+ドタバタして忙しそうじゃん。ほらっ。[move D Y 100 0.5][se bath_01][face D 10]/
+[hideall]
+[-]
+[talkend]
+[textcolor ARUJI]
+[se water_06]
+強引に猪森を座らせ、
+同じようにお湯をかけていく伊豆。/
+[se bath_01]
+[textcolor ARUJI]
+猪森の体をお湯が伝って流れ落ちていく。/
+[show D]
+[show B]
+[scale D 1.6]
+[scale B 1.6]
+[move B X 150]
+[move D Y -170]
+[move B Y -50]
+[face D 13]
+[face B 06]
+[talk D]
+[orderline B D]
+ああ～～～……本当だ、気持ちいい……/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 12]
+伊豆くんがこんなに世話焼きだったなんて
+ちょっと意外かも。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 01]
+[talk B]
+えーそう？
+みんなが喜んでくれたらオレも嬉しいし。/
+[hideall]
+[-]
+[talkend]
+[se bath_01]
+[textcolor ARUJI]
+ツヤツヤの締まったお尻をこちらに向けたまま、
+伊豆は猪森にお湯を注いでいる。/
+[show B]
+[scale B 1.6]
+[face B 02]
+[talk B]
+[move B Y -120 0.5]
+[rotate B 0 0.5]
+[se bath_01]
+よっし、それじゃあ今度はオレがやってもらお。/
+[flow]
+[face B 08]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+大将にかけ湯してもらったら
+オレもっと元気になれるから！/
+[talkend]
+[effect fr kira a 0 0]
+[se kira_01]
+[se bath_04]
+[textcolor ARUJI]
+[face B 01]
+そう言って嬉しそうにこちらへ体をむける伊豆。/
+[textcolor ARUJI]
+「お願い！」と言わんばかりの期待に満ちた目が、
+無邪気な子犬のようで可愛らしい。/
+[face B 06]
+[talk B]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+ほら、大将、早く～。/
+[hide B]
+[hide D]
+[serif off]
+[effect off a]
+[se bath_03]
+?伊豆にかけ湯してあげる/
+[textcolor ARUJI]
+[se bath_01]
+[serif on]
+[talkend]
+湯船の縁に腰掛け、伊豆を足の間に座らせる。
+伊豆のつむじめがけ、桶からお湯を少しずつ垂らす。/
+[show B C]
+[face B 02]
+[scale B 2]
+[move B Y -200]
+[talk B]
+[move B Y -100]
+ん～～～……最高……♪/
+[talkend]
+[textcolor ARUJI]
+日に焼けた伊豆のうなじから背中にかけて
+お湯が伝い、湯気が立ち上る。/
+[textcolor ARUJI]
+[flow]
+[effect B kira a 0 0]
+[se kira_01]
+ツンツンとした髪質の伊豆の頭は水を弾いて
+大きな水玉をいくつも作っている。/
+[serif off]
+?気持ちいい？
+/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 06]
+[talk B]
+[serif on]
+うん。ちょー気持ちいい。大将、ありがと！/
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+[face B 02]
+伊豆は顔を上げ、にっこりと笑顔を見せた。/
+[hide B]
+[-]
+[show D L]
+[face D 13]
+[scale D 1.6]
+[move D Y -170]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[talk D]
+ふああー……体が温まって
+眠くなってきちゃった……/
+[face D 11]
+[flow]
+そろそろあがって研究室に戻らないと――/
+[show B C]
+[setline 0.3 D B]
+[face B 02]
+[talk B]
+[effect fr splash 5000 200 0]
+[se water_01]
+[scale B 1.6]
+[move B Y -170]
+[move B Y 50 0.3]
+[face D 10]
+[rotate D 10 0.3]
+[bgm fun]
+そうだな！　そろそろあがって遊ぶぞーー！！
+んじゃ大将！　猪森！　お先～～！[shake B]/
+[move B X 800 0.5]
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[se water_07]
+[effect fr splash 4000 0 0]
+[autotap]/
+[hide B]
+[hide D]
+[talkend]
+[textcolor ARUJI]
+[se cloth_01]
+[se pachi_01]
+伊豆はものすごいスピードでお湯からあがると
+そのまま脱衣所へ飛び出していった。[se door_01]/
+[textcolor ARUJI]
+[flow]
+おそらくこのあともクタクタになるまで遊んで
+どこかで電池切れになって寝るのだろう。/
+[show D]
+[scale D 1.6]
+[move D Y -170]
+[face D 12]
+[serif off]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[-]
+[serif on]
+[talk D]
+やっぱり、元気な子だね、伊豆くんは……/
+[talkend]
+[hide D]
+[textcolor ARUJI]
+呆気にとられている猪森と
+そんな話をして笑った。/
+[textcolor ARUJI]
+今日は伊豆の意外と世話焼きな一面も見れた。/
+[textcolor ARUJI]
+[flow]
+伊豆のことをさらに深く知れた
+ような気がしたのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

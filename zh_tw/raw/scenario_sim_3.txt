@@ -1,0 +1,1349 @@
+>>10000/
+@志摩
+我是東海道的志摩！[wait 1.2]
+大哥厲害啊！[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@志摩
+啊哈，太令人興奮了！/
+>>10001/
+@志摩
+兄弟，還需要幫忙嗎？[autotap]/
+[delay 1]
+[flow]
+[-]
+@志摩
+我會帶來大量的！/
+>>1/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊……！兄弟，你看，有一顆孝星！
+據說，這位明星被塑造成一個支援生病父母的人物。[face A 11]/
+[face A 01]
+[flow]
+如果弟弟出了什麼事，我會
+我送你一程。別看他年紀小，卻是地魂少年啊！/
+[face A 09]
+[flow]
+所以，兄弟，長大了就好了！
+/
+[scale A 2.0 0.3]
+[move A Y -250 0.3]
+[delay 0.3 shakebg]
+[delay 0.3 se dosa_01]
+[face A 02]
+[autotap]/
+擠擠擠擠！/
+>>2/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 09]
+[serif on]
+[say A]
+兄弟，珍珠很漂亮，不是嗎？
+在我國英虞灣可以收穫很多！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 11]
+你哥哥的陰陽術也用了珍珠吧？
+那麼，嘿嘿，我們一起去看看吧！/
+[face A 06]
+英虞灣的日落也非常美麗！
+我想和弟弟一起看！呵呵。/
+>>3/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+龍蝦、河豚、牡蠣，啊哇比！/
+[face A 09]
+[scale A 1.6 0.5]
+[move A Y -130 0.5]
+[delay 0.5 shake A]
+兄弟，據說我國是糧食之國。
+好吃的東西真多啊！/
+[face A 02]
+[flow]
+不要忍住，多吃，長得大
+我想得到它！　/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+呃，奢侈品？這是正確的！ ？/
+>>4/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[setline A B]
+[move A X -500]
+[rotate B 50]
+[move B Y -100]
+[face A 02]
+[face B 07]
+[-]
+[move A X 500 0.3]
+[delay 0.3 shake A]
+[-]
+[serif on]
+[say A]
+早上好陽光！
+$B:A你好，我們也是！[shake B][face B 04]/
+[rotate B 0 0.5]
+[move B X -50 0.5]
+[move A X 600 0.5]
+[delay 0.6 move A X -600 0.6]
+[delay 1.3 move A X 600 0.6]
+[autotap]/
+[face A 10]
+[face B 01]
+醒醒吧，醒醒吧！啊哈哈！
+是時候用早上的乾布擦拭了！我會擦很多！/
+>>5/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A L]
+[show B C]
+[move B Y -50]
+[face A 11]
+[face B 01]
+[shake B 3]
+[move A X -200]
+[move A X 200 0.5]
+[say A]
+[-]
+[shake A]
+[serif on]
+[face A 02]
+哇，大家都吃這麼多了！
+啊哈哈！值得製作！[shake A]/
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+嘿，大家好，這是你們的第二份幫助！ ！越來越多
+吃飽了就長大了！[face B 06]/
+>>6/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[move B Y -50]
+[setline B A]
+[move A X 100]
+[move A X -100 1]
+[face A 00]
+[face B 00]
+[orderline A B]
+[-]
+[serif on]
+[say A]
+$B:A, 今天吃飯怎麼樣？　
+好吃嗎？/
+[serif off]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[face B 01]
+[-]
+[face A 02]
+[serif on]
+哇，那太好了！
+拍拍我的頭，拍拍我！[move A X -100 0.3][rotate A 20 0.5][move A Y -100 0.5][delay 0.5 se dosa_01]/
+[delay 0.5 rotate A 0 0.5]
+[delay 0.5 move A X 50 0.5]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[effect fr kira 4000 0 0]
+[se kira_01]
+[face A 06]
+[face B 02]
+誒嘿嘿...
+我太高興了！請多撫摸我吧！[move A X -100 0.5][rotate A 20 0.5][shake B][face A 02]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_sim_r 志摩]
+[show A C]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face A 09]
+[-]
+[serif on]
+[say A]
+好的！
+我們來準備今天的晚餐吧！/
+[face A 02]
+做出很多美味的食物，
+大家都得來第二份了，呵呵！/
+>>10/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[setline B A]
+[face A 10]
+[face B 00]
+[orderline A B]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+呵呵~,[shake A]吃完晚餐後
+如果你馬上去睡覺，你就會變成一頭牛.../
+[face A 07]
+[face B 05]
+[flow]
+[move A X -200 0.5]
+$B:A我們也睡個午覺吧
+像牛一樣長大。[rotate A 20 0.5][move A Y -50 0.5]/
+>>11/
+[set A s_sim_r 志摩]
+[show A R]
+[face A 08]
+[move A X -250 1.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+晚上又黑又嚇人...
+賽曼·多曼...賽曼·多曼.../
+[face A 05]
+[se animal_03]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.3 shake A]
+[-]
+[shakebg]
+[face A 04]
+哈啊啊啊啊啊啊！[shake A 5 10 0]　啊，原來只是一隻貓啊…[face A 05][se animal_02][wait 0.5]
+有點小了！[face A 04][shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_sim_r 志摩]
+[randomset B r -sim -@地魂男児 -@あやかし -@NPC @デブ]
+[show A C]
+[show B C]
+[setline B A]
+[orderline A B]
+[face A 02]
+[face B 05]
+[scale A 1.6]
+[scale B 1.6]
+[move A Y -100]
+[move B Y -100]
+[-]
+[move A X -150 0.3]
+[rotate A 20 0.3]
+[delay 0.3 shake B]
+[face B 01]
+[delay 0.3 se dosa_01]
+[-]
+[serif on]
+[say A]
+穆古！/
+[face A 10]
+[face B 06]
+$B:A，很大。
+當我煩躁的時候，我感到很輕鬆！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+哈~大家$B:A喜歡
+我想知道它會不會變大！/
+>>15/
+[set A s_sim_m 志摩]
+[randomset B m -sim -@NPC -@ショタ]
+[show B C]
+[face B 08]
+[shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[color B talk]
+[-]
+[show A C]
+[face A 05]
+[move A X 1000]
+[moveline A B -1000 0 1]
+[-]
+[serif on]
+[say A]
+哇！　$B:A我正在努力工作！
+它很大[face A 02]強大又酷！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 09]
+讓每個人都能變得更大
+今天我們一起做很多菜吧！呵呵。/
+>>16/
+[set A s_sim_r 志摩]
+[randomset B r -sim -@地魂男児 -@NPC -@あやかし @ショタ]
+[show A C]
+[show B C]
+[face A 02]
+[face B 06]
+[setline B A]
+[orderline A B]
+[face A 02]
+[face B 05]
+[scale A 1.6]
+[scale B 1.6]
+[move A Y -100]
+[move B Y -100]
+[-]
+[move A X -150 0.3]
+[rotate A 20 0.3]
+[delay 0.3 shake B]
+[face B 01]
+[delay 0.3 se dosa_01]
+[-]
+[serif on]
+[say A]
+$B:A～！感謝你們在訓練中的辛勤付出！
+穆古！/
+[face A 05]
+[face B 01]
+[shake A]
+啊？有點大了！ ？
+太棒了！[move A X -50 0.5]　[face A 02]讓我多摸你吧！穆金圭~！[shake B][shake A][secloth_01][face B 06]/
+>>17/
+[set A s_sim_b 志摩]
+[randomset B b -sim]
+[show A C]
+[show B C]
+[face A 10]
+[face B 06]
+[setline B A]
+[say A]
+[orderline A B]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[serif on]
+啊哈哈哈。$B:A，我的臉漲得通紅。
+你有潮熱嗎？　/
+[face A 09]
+[face B 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+交給我吧！我用扇子把你吹死！　
+我抬頭看看你的全身，把毛巾收起來吧！[face B 06]　天氣越來越涼了♪/
+>>18/
+[set A s_sim_b 志摩]
+[show A C]
+[face A 10]
+[move A Y -100]
+[serif on]
+[se amb_12]
+[effect fr yuge a 0 0]
+[say A]
+一，一，
+薩恩.../
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 04]
+啊啊……我不能再這樣了……/
+>>19/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -100]
+[serif on]
+[se amb_12]
+[effect fr yuge a 0 0]
+[say A]
+[se bath_05]
+啊哈哈哈！[shake A]　從跛行的尖端
+水流出來了，看起來像一個小瀑布！哈！[se bath_01]/
+[face A 06]
+洗澡很有趣，感覺很棒！
+我也該洗屁股了……嗯嗯。
+[move A Y -50 0.5]
+[rotate A 10 0.5]/
+[effect fr syutyu 3000 0 0]
+[face A 10]
+[shakebg]
+[scale A 2.5 0.5]
+[move A Y -150 0.5]
+噗，啊哈哈哈！[shake A 2]
+好癢~啊哈哈哈哈！[shake A 5]/
+>>20/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[face A 01]
+[face B 06]
+[setline A B]
+[orderline A B]
+[serif on]
+[say A]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 100 0.2]
+[delay 0.7 move A X -100 0.2]
+[delay 0.9 move A X 50 0.1]
+[autotap]/
+尿尿♪
+啊？　$B:A發生了什麼事？/
+[face A 05]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，也許這是我的尾巴
+它擊中你的雞雞了嗎？/
+[move A X 100 0.1]
+[delay 0.1 move A X -100 0.2]
+[delay 0.3 move A X 100 0.1]
+[delay 0.4 move A X -100 0.2]
+[shake B]
+[autotap]/
+[face A 02]
+[face B 06]
+是的！是的！癢癢嗎？
+啊哈哈哈。[shake A]/
+>>21/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[face A 09]
+[face B 00]
+[setline B A]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -100 0]
+[orderline A B]
+[se pee_01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[say A]
+[face A 05]
+[face B 05]
+哇，我把地板弄濕了！我稍後必須清理它。[face A 03]
+今天小便困難，很奇怪！/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[shake B]
+[face A 10]
+[face B 06]
+啊，$B:A跟我一樣！　
+啊哈哈哈。/
+>>22/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 11]
+[move A Y -50]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[say A]
+啊，我想到了下一個選單！
+備忘錄備忘錄.../
+[face A 05]
+[shake A]
+啊！啊哈哈哈哈！[face A 10][shake A 2 5 5]
+我不能在紙上寫好字，因為它被撕破了！/
+>>23/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 05]
+[move A Y 100 0.2]
+[delay 0.2 move A Y -100 0.2]
+[-]
+[say A]
+[serif on]
+嗚呼！　[face A 06]……這段時間我學到了什麼
+我試過了，但是感覺怪怪的.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+我想我永遠不會習慣這件事......
+大家都是成年人了！　[shake ]我們再聽一下吧！[face A 01]/
+>>24/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+呃...[shake A]天黑前我得睡覺了.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -100 1.5]
+[autotap]/
+[face A 07]
+啊啊啊啊啊啊啊啊啊啊…/
+>>25/
+[set A s_sim_r 志摩]
+[show A C]
+[serif on]
+[talk A]
+[face A 10]
+哇……這麼大……
+啊哈哈…[wait 0.5]咕嚕...[face A 07]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -50 1.5]
+[autotap]/
+[talkend]
+看來我正在做一個美夢。/
+>>26/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[face A 03]
+[face B 01]
+[rotate B 40]
+[move B Y -100]
+[setline B A]
+[orderline A B]
+[-]
+[serif on]
+[say A]
+我厭倦了正常睡覺...[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+沒錯[face A 09]、$B:A我可以睡在上面嗎？/
+[move A Y 120 0.1]
+[delay 0.1 move A Y -100 0.2]
+[rotate A 40 0.3]
+[move A X -250 0.3]
+[delay 0.3 shakebg]
+[delay 0.3 se dosa_01]
+[autotap]/
+[face A 10]
+[shake B]
+喲託！　呼～，[shake A][face B 06]登上頂峰
+當我把身體壓在你身上時，感覺真好。/
+[face A 06]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+這讓我的心臟砰砰直跳！
+呃，$B:A也是嗎？[face A 02]　哈哈，這很奇怪！/
+>>27/
+[[:{TAG1||def|[face A 02]
+是的。張大你的嘴！/[serif off]
+?吃/[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[serif off]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se eat_01]
+[face A 06]
+[wait 0.5]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[-]
+[serif on]
+誒嘿嘿……好吃嗎？
+[= よかった～！ 兄ちゃんいい食べっぷりだよ！ 口元拭いてあげるね。 オレ、嬉しいよ～！][face A 01]/[face A 09]
+[flow]
+那麼，接下來
+[= 揚げ物 お肉たっぷりの バターたっぷりのやつ 炒め物 焼き肉 天ぷら あま～いデザート 揚げたてポテトフライ たっぷりフライドチキン お寿司 背脂ちゃっちゃ系ラーメン  ごつ盛り系ラーメン]我餵你！　/[move A XY -100 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 100 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/[se goso_01]
+[face A 09]
+好球.../[inject TAG1]}{TAG1||def|[face A 02]
+是的。小心不要灑出來。/[serif off]
+?吃/[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[serif off]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se eat_01]
+[face A 06]
+[wait 0.5]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[-]
+[serif on]
+誒嘿嘿……好吃嗎？
+[= よかった～！ 兄ちゃんいい食べっぷりだよ！ 口元拭いてあげるね。 オレ、嬉しいよ～！ 兄ちゃんかっくいー！！][face A 01]/[face A 09]
+[flow]
+那麼，接下來
+[= 揚げ物 お肉たっぷりの バターたっぷりのやつ 炒め物 焼き肉 天ぷら あま～いデザート 揚げたてポテトフライ たっぷりフライドチキン お寿司 背脂ちゃっちゃ系ラーメン  ごつ盛り系ラーメン]我餵你！　/[move A XY -100 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 100 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/[se goso_01]
+[face A 09]
+好球...}{TAG1||def|[face A 02]
+是的。啊，做吧！/[serif off]
+?吃/[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[serif off]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se eat_01]
+[face A 06]
+[wait 0.5]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[-]
+[serif on]
+呵呵……他看起來很好吃。
+[= よかった～！ 兄ちゃんいい食べっぷりだよ！ 口元拭いてあげるね。 オレ、嬉しいよ～！][face A 01]/[face A 09]
+[flow]
+那麼，接下來
+[= 揚げ物 お肉たっぷりの バターたっぷりのやつ 炒め物 焼き肉 天ぷら あま～いデザート 揚げたてポテトフライ たっぷりフライドチキン お寿司 背脂ちゃっちゃ系ラーメン  ごつ盛り系ラーメン]我餵你！　/[move A XY 100 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -100 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/[se goso_01]
+[face A 09]
+好球.../[inject TAG1]}{TAG1||def|[face A 02]
+是的。真好吃！
+啊，做吧！/[serif off]
+?吃/[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[serif off]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se eat_01]
+[face A 06]
+[wait 0.5]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[-]
+[serif on]
+誒嘿嘿……好吃嗎？你的肚子腫了嗎？　
+[= もうちょっといける？ まだまだいけるよね！ むにむにっ、あはは！][face A 01]/[face A 09]
+[flow]
+那麼，接下來
+[= 揚げ物 お肉たっぷりの バターたっぷりのやつ 炒め物 焼き肉 天ぷら あま～いデザート 揚げたてポテトフライ たっぷりフライドチキン お寿司 背脂ちゃっちゃ系ラーメン  ごつ盛り系ラーメン]我餵你！　/[move A XY -100 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 100 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/[se goso_01]
+[face A 09]
+好球...}{TAG1||def|[face A 02]
+是的。享受！/[serif off]
+?吃/[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[serif off]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se eat_01]
+[face A 06]
+[wait 0.5]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[-]
+[serif on]
+呵呵……他看起來很好吃。
+[= よかった～！ 兄ちゃんいい食べっぷりだよ！ 口元拭いてあげるね。 オレ、嬉しいよ～！][face A 01]/[face A 09]
+[flow]
+那麼，接下來
+[= 揚げ物 お肉たっぷりの バターたっぷりのやつ 炒め物 焼き肉 天ぷら あま～いデザート 揚げたてポテトフライ たっぷりフライドチキン お寿司 背脂ちゃっちゃ系ラーメン  ごつ盛り系ラーメン]我餵你！　/[move A XY 100 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -100 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/[se goso_01]
+[face A 09]
+好球.../[inject TAG1]}:]]/
+[set A s_sim_r 志摩]
+[set B s_n000_r 猫乃屋]
+[show A C]
+[face A 11]
+[talk A]
+[-]
+[wait 0.5]
+？ 志摩，生日快樂！/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[scale A 2.0 0.3]
+[move A Y -250 0.3]
+[delay 0.3 shakebg]
+[delay 0.3 se dosa_01]
+[face A 02]
+[autotap]/
+[face A 02]
+[serif on]
+大哥！　穆古~~！ ！
+嗯嗯！[shake A]/
+[scale A 1.6 0.5]
+[move A Y 130 0.5]
+[face A 09]
+呵呵呵呵，謝謝你！今天是我特別的一天
+所以我做了很多菜！/
+[face A 11]
+[flow]
+貓也和他的朋友們也在那邊吃飯。
+放心吃吧！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 09]
+[flow]
+有這麼多補充品。/
+[face A 02]
+因為今天發生了什麼事？有一天你不用擔心
+什麼！這就是我選擇這一天的原因！/
+[show B L]
+[move B X -200]
+[move B X 400 1]
+[delay 0.5 shake B]
+[face B 04]
+[say B]
+不行……我不能放棄……我不能吃……[se dosa_01][rotate B -50 0.5][delay 0.5 shakebg][move B Y -100 0.5]/
+[scale A 1.0 0.5]
+[move A XY 100 120 0.5]
+[say A]
+[-]
+[move A XY -240 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 60 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[move A XY -60 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 160 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[face A 06]
+[effect A kira a 0 150]
+[se kira_01]
+哇……貓屋哥哥長大了！
+嗯嗯！涼爽的！[face A 02][shake A]/
+[effect off a]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 09]
+現在，兄弟，你也坐下吧！　
+我馬上就送飯來！/
+[se fusuma_01]
+[serif off]
+[move A X 1000 0.5]
+[wait 0.5]
+[face A 09]
+[se cloth_06]
+[move A X -1000 0.5]
+[-]
+[shakebg]
+[serif on]
+……對不起！
+那麼……我餵你。[se kira_01][effect fr kira 5000 0 0]/
+[inject TAG1]/
+[face A 02]
+是的。那麼，這就是結局了！
+祝你好運，吃飯！/
+[serif off]
+?吃/
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[-]
+[playeryes]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se eat_01]
+[face A 06]
+[wait 0.5]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[-]
+[effect fr kira 6000 0 0]
+[se kira_01]
+[face A 06]
+[serif on]
+哇，她吃得真多！[shake A]
+畢竟，兄弟，你太酷了！[face A 10]/
+[face A 09]
+呵呵，謝謝。兄弟！
+如果你又餓了，請告訴我！/
+>>100/
+[set A s_sim_r 志摩]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 志摩のおつまみ]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[wait 2]
+[-]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg mbg_syouen]
+[minibg tyubo]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+我餓了，所以想吃點東西。
+我來到廚房借。/
+[face A 01]
+[textcolor ARUJI]
+進去後洗碗。
+我發現一個小身影在這樣做。/
+[serif off]
+？ 志摩？/
+[show A C]
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[say A]
+[serif on]
+哇，兄弟！
+/
+[talkend]
+[textcolor ARUJI]
+當你呼喚他時，志摩 會驚訝地跳起來。/
+[face A 01]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 10]
+[say A]
+啊哈哈！
+我很驚訝！/
+[face A 02]
+他還來廚房了！我太高興了！/
+[face A 11]
+[talkend]
+[serif off]
+？我想可能會有一些東西可以撿起。/
+[face A 00]
+[say A]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[-]
+[effect fr kira 4000 0 0]
+[se kira_01]
+[serif on]
+我餓了！ ？
+那我就幫你做吧！/
+[face A 09]
+[flow]
+因為有很多新鮮的海螺殼，
+我這就去烤！ ！/
+[serif off]
+？我會做飯。/
+[face A 01]
+[serif on]
+誒嘿嘿！ ！/
+[face A 00]
+[flow]
+志摩國家是美食國家之一！過去，朝廷
+他們正在給皇室送去很多美味的食物！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 09]
+[flow]
+所以，做飯的事情就交給我吧，兄弟！/
+[serif off]
+？期待/
+[face A 06]
+[scale A 1.8 0.5]
+[move A Y -50 0.5]
+[-]
+[serif on]
+哎呀.../
+[face A 01]
+[flow]
+弟弟好像很愛吃.../
+[face A 02]
+[flow]
+它比我大太多了！
+穆古！[scale A 2.5 0.5][move A Y -200 0.5][hide A][delay 0.5 shakebg][delay 0.5 se dosa_01]/
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+志摩擁抱了我。
+皮毛蓬鬆，手感很好。/
+[serif off]
+[show A C]
+[scale A 2.0]
+[move A Y -150]
+[scale A 1.5 0.5]
+[move A Y 50 0.5]
+[face A 09]
+[say A]
+[-]
+[serif on]
+為了哥哥的緣故，我
+你想吃多少我就給你做多少！/
+[face A 00]
+[flow]
+你通常一天吃多少？/
+[face A 01]
+[flow]
+5餐？　6餐？
+連7餐都可以！想想選單就很有趣！/
+[serif off]
+？好吧，也許三餐....../
+[face A 05]
+[serif on]
+啊？[shake A]
+……難不成弟弟吃得不多？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+志摩看起來有點令人失望。/
+[serif off]
+[show A C]
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[say A]
+…………呵呵，
+如今，一日三餐已成為常態。/
+[face A 03]
+呃！[shake A]　多吃點，
+我想讓它變大！/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+就像我哥哥長大了一樣，我...
+我會做很多好吃的！ ！/
+[face A 09]
+[talkend]
+[textcolor ARUJI]
+志摩的眼睛閃閃發光。/
+[effect off a]
+[serif off]
+？啊，謝謝你.../
+[face A 02]
+[say A]
+[serif on]
+呵呵，從現在起祝你好運！　[shake A]穆古！[scale A 2.5 0.5][move A Y -350 0.5][hide A][delay 0.5 shakebg][delay 0.5 se dosa_01]/
+[talkend]
+[textcolor ARUJI]
+志摩說著又抱住了我。/
+[show A C]
+[face A 11]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[say A]
+現在，火勢開始看起來不錯。
+我們來烤海螺吧！/
+[face A 00]
+[flow]
+我弟弟吃了多少塊？/
+[face A 01]
+[flow]
+這是零食……大概10塊吧？
+啊哈哈！[shake A][face A 02]　或大約20個！ ？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+看來只是一個小零食是不夠的。
+我下定決心.../
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_sim_r 志摩]
+[set B s_sim_r 志摩]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 真夜中の志摩]
+[-]
+[bg rouka_night]
+[-]
+[se fusuma_01]
+[fadeout 1.0]
+[-]
+[se amb_04]
+[serif on 0.5]
+[textcolor ARUJI]
+半夜醒來喉嚨很乾
+我去廚房拿水。/
+[flow]
+[textcolor ARUJI]
+夜晚的莊園與白天的喧囂完全不同，
+大家都睡著了，只能聽到蟲鳴聲。/
+[se wood_04]
+[textcolor ARUJI]
+隨著一聲吱吱聲，
+漆黑的走廊迴盪著我的腳步聲。/
+[textsize 40]
+[quake 2]
+[bgm eerie]
+[effect fr syutyu a 0 0]
+@？？？
+嗯嗯！ ！ ！ ！ ！/
+[serif off]
+[quake off]
+?！！？/
+[show B]
+[talkend]
+[color B black]
+[-]
+[quake1]
+[serif on]
+[textsize 40]
+@？？？
+你好！
+鬼！ ！ ！別來...！ ！/
+[bgm off]
+[serif off]
+[effect off a]
+？ ……那個聲音是志摩嗎？/
+[show A 1]
+[face A 05]
+[orderline A B]
+[-]
+[bgm night]
+[-]
+[hide B]
+[bg rouka_night]
+[serif on 0.5]
+[say A]
+……啊，哥哥！ ？
+兄弟！ ！ ！[face A 04][shake A]/
+[serif off]
+[scale A 2.0 0.3]
+[move A Y -250 0.3]
+[delay 0.3 shakebg]
+[delay 0.3 se dosa_01]
+[face A 10]
+[-]
+[serif on]
+嗚嗚嗚！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+用盡全力擁抱志摩。/
+[show A C]
+[face A 10]
+[scale A 2]
+[move A Y -250]
+[scale A 1.6 0.5]
+[move A Y 120 0.5]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[say A]
+您來對地方了！
+快點，尿尿，尿尿！ ！[shake A]/
+[serif off]
+？尿……？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 09]
+是啊！我感覺我需要小便。
+我醒了，但是…/
+[face A 04]
+[flow]
+走廊裡漆黑一片，空無一人。
+房間裡的所有人都不會醒來……！ ！/
+[face A 06]
+[flow]
+我害怕一個人去
+我想知道該怎麼辦.../
+[face A 04]
+哇！[shake A]
+很高興認識你兄弟！/
+[shake A 10 5 5]
+[autotap]/
+[face A 05]
+搖晃.../
+[face A 06]
+[flow]
+但是...
+我太驚訝了，我覺得自己要漏水了…/
+[face A 04]
+[scale A 1.8 0.5]
+[move A Y -60 0.5]
+嘿...[se cloth_01]
+要不要我陪你去神社？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+志摩淚眼汪汪地看著我。/
+[serif off]
+？好吧。/
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -130]
+[say A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+耶！/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+志摩很高興，緊緊握住我的手。
+志摩的小手有些顫抖。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[se walk_01]
+[show A C]
+[face A 04]
+[say A]
+[scale A 1.6]
+[move A Y -130]
+[-]
+[serif on]
+...嗚嗚嗚...[shake A]
+妮醬，你不怕黑嗎？[face A 03]/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 01]
+那很好...
+我猜是因為它太大了.../
+[face A 02]
+[flow]
+我愛你大哥！/
+[face A 06]
+[flow]
+成為一個大人物讓我感到很安全
+太令人興奮了！媽媽媽媽！[shake A][se cloth_01]/
+[talkend]
+[textcolor ARUJI]
+與志摩相比，它就像一隻小動物。
+這個莊園裡的每個人都一定很大。/
+[say A]
+[face A 09]
+我希望我的弟弟能夠變得更大。
+然後……我就感到安全了。/
+[serif off]
+？是這樣的嗎？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+與志摩交談時，他對我非常依戀
+前往廁所。/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[autotap]/
+？我到了廁所。/
+[talkend]
+[show A C]
+[scale A 1.6]
+[move A Y -130]
+[face A 03]
+[textcolor ARUJI]
+[-]
+[serif on]
+志摩在這裡仍然完美
+它仍然依附在我身上並且顫抖。/
+[serif off]
+？你覺得你可以走嗎？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[say A]
+[-]
+[serif on]
+呃，是啊……裡面也很黑……
+嘿，在這裡等一下。/
+[face A 03]
+[flow]
+直到我回來，絕對。
+只是別去任何地方！ ？[shake A]/
+[serif off]
+?承諾/
+[face A 06]
+[playeryes]
+[-]
+[wait 1]
+[say A]
+[serif on]
+呵呵，謝謝兄弟！[face A 02]
+如果哥哥在的話…我想我可以盡力！/
+[face A 08]
+那麼，我們走吧！　
+....好吧.../
+[serif off]
+[face A 03]
+[scale A 1.0 1]
+[move A Y 130 1]
+[delay 1 move A X -400 1.5]
+[delay 2 hide A]
+[se wood_04]
+[-]
+[talkend]
+[delay 0.5 se door_01]
+[textcolor ARUJI]
+[serif on]
+在黑暗的廁所裡
+志摩緊張地走進來。/
+[serif off]
+[bg black 0.5]
+[-]
+[show A R]
+[face A 03]
+[move A X 300]
+[move A X -500 1.5]
+[-]
+[shake A]
+[-]
+[serif on]
+[say A]
+呃.../
+[move A X -200 1.5]
+[delay 1.5 move A X 200 2.0]
+[delay 3.8 move A X -100 1.5]
+[autotap]/
+[face A 08]
+塞曼…多曼…
+電，電在哪裡…/
+[hide A]
+[bgm off]
+[se goto_01]
+[talkend]
+[textcolor ARUJI]
+叮噹.../
+[textcolor ARUJI]
+好像有東西掉下來的聲音。/
+[bgm fun]
+[show A C]
+[scale A 2.5]
+[move A Y -300]
+[quake 2]
+[effect fr syutyu a 0 0]
+[face A 04]
+[say A]
+[textsize 40]
+嘎啊啊啊啊啊啊！ ！ ！ ！ ！ ！ ！
+哇！ ！ ！/
+[hide A]
+[-]
+[show B R]
+[face B 04]
+[move B X 300]
+[move B X -1800 0.6]
+[delay 0.8 move B X 2100 0.8]
+[delay 1.8 scale B 1.6 0.5]
+[delay 1.8 move B Y -130 0.5]
+[delay 1.8 move B X -2100 0.9]
+[autotap]/
+[flow]
+[textsize 40]
+尼加~~！ ！ ！/
+[serif off]
+[hide B]
+[bg rouka_night 0.5]
+[effect off a]
+[quake off]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+志摩的尖叫聲在夜晚的莊園迴盪。/
+[textcolor ARUJI]
+[flow]
+到志摩解手的時候
+看來還需要一段時間。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

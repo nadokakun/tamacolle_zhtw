@@ -1,0 +1,2062 @@
+>>0/
+((s))
+[set W s_san_m 讃岐]
+[set A s_n002_m 猪森]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 猪森茂就]
+[-]
+[bg mbg_syouen]
+[minibg syouen_watarirouka]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[serif on 0.5]
+この日は$Wと共に受けた検査の結果を
+研究室で聞くことになっていた。/
+((m))
+[set W s_mus_m 武蔵]
+[set A s_n002_m 猪森]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 猪森茂就]
+[-]
+[bg mbg_syouen]
+[minibg syouen_watarirouka]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[serif on 0.5]
+この日は$Wと共に受けた検査の結果を
+研究室で聞くことになっていた。/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n002_m 猪森]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 猪森茂就]
+[-]
+[bg mbg_syouen]
+[minibg syouen_watarirouka]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[serif on 0.5]
+この日は$Wと共に受けた検査の結果を
+研究室で聞くことになっていた。/
+((s))
+[show W C]
+[face W 01]
+[say W]
+[move W Y 100 0.2]
+[delay 0.2 move W Y -100 0.2]
+オイラ、ロクハラの建物に入るの初めて～。
+早く行こっ！　あるじさま！/
+((m))
+[auto]
+ロクハラの建物に行くのぁ初めてだなぁ。
+早く行こうぜぃ！　大将！/
+((e))
+[auto]
+ロクハラの建物に入るのは初めてッスね……
+いつでも準備はできてます！　師匠！/
+[hide W]
+[talkend]
+荘園からロクハラへは直通の
+「渡り廊下」がある。/
+[serif off]
+[flow]
+[se walk_01]
+[delay 0.2 se jutsu_01]
+[fadein WHITE 1]
+[delay 1 fadeout 1.5]
+[minibg rokuhara_rouka_labo 1.5]
+[bg mbg_rokuhara 1.5]
+[-]
+[serif on]
+通行手形というデバイスを持って鳥居をくぐると
+ロクハラの施設内へと移動できるのだ。/
+[serif off]
+?すごい技術……/
+((s))
+[show W C]
+[face W 09]
+[say W]
+[serif on]
+わーーっ。　壁も床もピカピカしてるね！/
+((m))
+[auto]
+ひゃぁ～っ。　あっちこもこっちも
+ぴっかぴじゃねぇか。どんだけ磨いてんだ？/
+((e))
+[auto]
+おぉ……！　床も壁も鋼でできてますね……！
+なるほど、頑強な作りッスね……/
+[hide W]
+[se walk_06]
+[talkend]
+ロクハラの施設は様々なエリアに分かれている。
+このフロアは夏人や猫乃屋の所属する声聞部、/
+[flow]
+そして霊脈エネルギーの利用やデータの解析を
+行う研究部の標識が見える。/
+[flow]
+このあたりはレベル５と呼ばれる機密エリアで
+一般の職員は立ち入ることができないらしい。/
+((s))
+[show W L]
+[face W 00]
+[say W]
+不思議な機械がいっぱいあるね……
+みんな頑張ってお仕事してるんだねぇ……/
+((m))
+[auto]
+はぁ～……珍妙な機械が並んでらぁ。
+みんな頑張って仕事してんだなぁ。/
+((e))
+[auto]
+不思議な機械がたくさんありますね……
+皆さん頑張って仕事してるんッスねぇ……/
+((s))
+[face W 05]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+あ、あるじさま待ってー。[se walk_07][move W X 600 0.5][hide W]/
+((m))
+[auto]
+お、大将待ってくれ～！　こんなとこに
+置いてかれたら迷子になっちまう！[se walk_07][move W X 600 0.5][hide W]/
+((e))
+[auto]
+師匠。道が入り組んでますから、オレから
+離れないようにしてくださいね！[se walk_07][move W X 600 0.5][hide W]/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[se walk_06]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+?研究室の、D-13号室……/
+((s))
+[show W C]
+[face W 01]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[-]
+[serif on]
+あ、ここだね。おじゃましま～す。[face W 05][se rokuhara_06]
+うわっ　[shake W]扉が勝手に開いたっ！/
+((m))
+[auto]
+お、ここじゃねぇか？　邪魔するぜーい。[face W 05][se rokuhara_06]
+うおっ　[shake W]扉が勝手に開きやがった！/
+((e))
+[auto]
+ここのようッスね。　失礼します！[face W 05][se rokuhara_06]
+わわっ！　[shake W]戸がひとりでに開きました！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[minibg rokuhara_labo]
+[se rokuhara_05]
+[-]
+[fadeout 0.5]
+[se walk_06]
+[-]
+[serif on]
+[talkend]
+白を基調とした部屋の中は大小様々な機械が
+整然と並んでいる。/
+@研究員
+どうしました？/
+[serif off]
+?検査の結果を聞きに/
+[serif on]
+@研究員
+あぁ、じゃあ猪森さんですね。
+向こうが猪森さんの「住処」です。/
+((s))
+[show W C]
+[face W 13]
+[say W]
+すみか……？/
+((m))
+[auto]
+すみかぁ？/
+((e))
+[auto]
+すみか……ッスか……/
+[hide W]
+[serif off]
+[-]
+[se walk_06]
+[wait 0.5]
+[-]
+[serif on]
+[talkend]
+研究室の奥へと進むと、
+ひと目でそれとわかる一角があった。/
+[flow]
+[bg black 0.5]
+床を埋め尽くすほどに積まれた書類や本。
+上には脱いだ服や食べかけの何かが乗っている。/
+[flow]
+周りを囲うようにずらりと並んだ様々な機械は
+何かの処理中なのか、それぞれ音を立てている。/
+[serif off]
+?カオスだ……/
+((s))
+[show W C]
+[face W 13]
+[say W]
+[bgm off]
+[serif on]
+あるじさま……あれ……/
+((m))
+[auto]
+大将……あれ……/
+((e))
+[auto]
+師匠……あれを……/
+[hide W]
+[talkend]
+乱雑に積まれた歴史書や書類の山の中に
+机に突っ伏している大きな背中が見えた。/
+[show A C]
+[face A 07]
+[say A]
+[name A ロクハラ研究員]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -60 1.0]
+ぐぅ……/
+[serif off]
+?あのー……/
+[face A 05]
+[bgm fun]
+[bg mbg_rokuhara 0.5]
+[move A Y 40 0.1]
+[se dosa_01]
+[delay 0.1 shake A]
+[serif on]
+はい！　はい！　起きてます起きてます！
+…[wait 0.2]…[wait 0.2][face A 10]いや、ちょっと寝てました！！/
+((s))
+[show W C]
+[setline 0.5 W A]
+[face W 00]
+[say W]
+オイラたち、検査の結果？　とかいうのを
+聞きに来たんだけど……/
+((m))
+[auto]
+オレたち、検査の結果とやらを
+聞きに来たんだけどよぉ。/
+((e))
+[auto]
+オレたちは検査の結果を聞きに来ました！/
+[face A 06]
+[say A]
+[shake A]
+あ……っ、$Wくんに、*Pくん……！？
+もうそんな時間か。/
+[face A 14]
+[flow]
+ごめんね、徹夜明けで……キミたちを待つ間に
+休憩を……と思ったら、居眠りしちゃってた！/
+[face A 12]
+[move A X 100 0.5]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+検査の結果は、えぇっと、確かこのへんに
+置いたんだ……すぐ見つけるからね！[shake A]/
+((s))
+[face W 12]
+[say W]
+お兄さん、オイラも一緒に探そうか？/
+((m))
+[auto]
+ここから物探すなんざどんだけ時間が
+かかるかわかんねぇ……手伝ってやろうか？/
+((e))
+[auto]
+どんなものか言ってくれれば、オレも
+一緒に探しますよ！/
+[face A 10]
+[say A]
+[rotate A 0 0.2]
+[move A Y 40 0.2]
+わわ、さ、触っちゃダメ～！　置いたとこ
+わかんなくなっちゃうから……でもありがとう！[face A 01]/
+[face A 10]
+[shake A]
+って、わ、わーーーーっ！！
+[shakebg]
+[delay 0.3 se dosa_01]
+[se crash_01]
+[delay 0.5 se crash_04]
+[hideall]/
+((s))
+[show W C]
+[face W 10]
+[say W]
+だ、大丈夫……？
+やっぱり手伝った方がよかったんじゃ。/
+((m))
+[auto]
+だ、大丈夫か？
+やっぱり手伝った方がよかった気がするぜぃ。/
+((e))
+[auto]
+だ、大丈夫ッスか？
+やっぱり、手伝った方がいいような……/
+[show A R]
+[face W 00]
+[move A Y -150]
+[move A Y 50 1]
+[face A 09]
+[say A]
+だっ、大丈夫！　崩れても、だいたい
+どこに何があったか、わかるから……！/
+[serif off]
+[face A 10]
+[shakebg]
+[face W 10]
+[delay 0.3 se dosa_01]
+[se crash_01]
+[delay 0.5 se crash_04]
+[wait 0.5]
+[autotap]/
+?……/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[bgm home]
+[show A C]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[say A]
+[name A 猪森]
+[-]
+[serif on]
+自分は猪森[茂就 しげなり]。この研究部で
+データの管理や解析、システムの運用とか/
+[face A 08]
+[say A]
+[flow]
+色々兼任してるよ。
+キミたちのデータも自分が取り扱ってるんだ。/
+[serif off]
+?$Wと自分のデータ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+うん、キミたちに合わせて機器をセッティング
+するから、細かく把握しておく必要があるんだ！/
+[face A 11]
+[flow]
+検査で測定した霊力から、身長体重の変化
+体内の栄養値、それに施設で排泄した……/
+[face A 01]
+[flow]
+あっ！[shake A]　プライベートなことは機密レベルを
+高くして簡単に閲覧できないようになってるよ！/
+[flow]
+他の人に見られる心配はないから
+安心してね！/
+((s))
+[show W C]
+[setline 0.5 W A]
+[face W 06]
+[say W]
+猪森さんは見れるってことだよね……
+なんかオイラ恥ずかしい……[shake W]/
+((m))
+[auto]
+猪森は見れるってことだよなぁ……
+なーんかこっ恥ずかしいぜぃ……/
+((e))
+[auto]
+猪森さんは見れるってことッスよね……
+ちょっと、恥ずかしいような……/
+[face A 10]
+[say A]
+[shake A]
+あっあっ、だ、大丈夫！
+自分は単にデータとしてしか見てないし……/
+[flow]
+け、研究者だから！[shake A]　何か異常値があるときや
+気になるときには関係部署に連絡するけど/
+[face W 11]
+[flow]
+日々の微小な変化や、男子として当然の
+秘め事なんかは基本見ないフリを[wait 0.2]…[wait 0.2]…/
+[serif off]
+?……/
+[face A 06]
+[shake A 2 5 5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+ご、ごめんね、なんかダダダーっと変なこと
+喋りすぎちゃって……あ、あったあった。
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se paper_01]/
+[face A 01]
+[se paper_01]
+検査の結果だよね。声聞後の二人の霊力や
+バイタル・メンタル共に問題なく安定してるね。/
+((s))
+[face W 00]
+[say W]
+問題なしってこと？/
+((m))
+[auto]
+おう、問題ねぇってことだな。/
+((e))
+[auto]
+ってことは、特に問題はないって
+ことッスかね？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[say A]
+うん！　バッチリだよ！/
+[face A 02]
+[effect A kira 3000 0 0]
+[se kira_01]
+むしろこんなキレイな波形は滅多に見れないよ！
+いいもの見せてもらって感謝だよ～～。/
+((s))
+[face W 12]
+[say W]
+？
+よくわかんないけど、よかった～。/
+((m))
+[auto]
+おうおう！　いくらでも感謝してくれ！
+とりあえずよかったな！　大将！/
+((e))
+[auto]
+この線が何を示してるのかオレには
+わかりませんが、よかったッスね、師匠！/
+[face A 00]
+[say A]
+あ、*Pくん、ちょっとだけ、いいかな。/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[serif on]
+[face A 01]
+$Wくんは、ドアのとこで待っててね。/
+((s))
+[face W 01]
+[say W]
+はーい。
+あるじさま、オイラ出たとこにいるね！/
+((m))
+[auto]
+おうよ。
+大将、オレぁ外で待ってるぜぃ。/
+((e))
+[auto]
+はい！
+師匠、オレは出たとこで待ってますね。/
+[serif off]
+[se walk_06]
+[move W X -200 0.5]
+[hide W]
+[-]
+[wait 0.5]
+[-]
+[move A C 1]
+[face A 00]
+[say A]
+[scale A 1.6 1]
+[move A Y -150 1]
+[-]
+[serif on]
+*Pくん。/
+[flow]
+キミの声聞士としての適正は平均を
+大きく上回っている。/
+[face A 01]
+……来てくれてありがとう。すごく嬉しいよ。
+その、本当に心から、嬉しいんだ。/
+[flow]
+キミがここにいることには、
+意味があると思う……/
+[face A 08]
+[flow]
+僕はそう信じてる。/
+[serif off]
+?は、はい/
+[face A 06]
+[shake A]
+[serif on]
+ご、ごめん、びっくりさせちゃったね。
+…[face A 08]…その、応援してるからね！/
+[hide A 1]
+[talkend]
+それが猪森茂就との出会いだった/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>1/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[say A]
+*Pくん、いつも調査を手伝ってくれてありがとう！
+おかげでどんどん成果がでてるよ！/
+[face A 08]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そうだ、*Pくんの体と霊力の定期検診を
+したいから、今度僕のラボまできてね！/
+[face A 02]
+[effect fr kira 4000 0 0]
+[se kira_01]
+どんな数値が出るか楽しみだなぁ～。/
+>>2/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 07]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[wait 0.5]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[say A]
+ふあっ、[shake A]寝落ちしてた！[face A 06]
+いやぁ恥ずかしい所を見られちゃったな……/
+[face A 11]
+[se paper_01]
+……今[= 奈良時代 室町時代 平安時代 安土桃山時代 江戸時代 戦国武将]にハマっちゃって、
+色々本を読み漁ってるんだよねぇ。/
+[face A 02]
+[effect fr kira 4000 0 0]
+[se kira_01]
+ああ～やっぱいいなぁ～……壮大な歴史の渦……/
+[face A 01]
+自分も地魂男児たちみたいに過去の世界に
+飛び込んでみたいなぁ～！/
+>>3/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[say A]
+*Pくん、お疲れ様。だいぶヘトヘトみたいだね。
+今回も任務大変だったもんね。/
+[face A 11]
+上手くいかなくて、落ち込むことも
+あるかもしれないけど……/
+[face A 08]
+大丈夫、きみならできるよ！[shake A]
+だから自分自身を信じて……！！/
+[face A 12]
+って、ちょっと大げさだったかな……/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+でも、きみならどんな困難も乗り
+越えられるって、信じてるんだ。/
+>>4/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A R]
+[show B R]
+[move B X -300 0.5]
+[face A 00]
+[face B 00]
+[orderline A B]
+[say A]
+[-]
+[serif on]
+[move A X -10 0.1]
+あ、$B:A！
+ちょっと任務のことで相談があって……って[shake A][se doka_01]/
+[se zukkoke_01]
+[rotate A 50 0.2]
+[move A XY -600 -150 0.3]
+[shakebg]
+[face A 09]
+[face B 05]
+うわあぁっ！/
+[face A 10]
+[rotate A 0 0.5]
+[move A Y 100 1]
+[face B 04]
+し、しまった、資料がバラバラにぃぃい～。
+この後の会議で使う大事なやつなのに……/
+[face A 04]
+[se paper_01]
+[face B 01]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+あっ、一緒に拾ってくれるの？　助かるよ。[face A 02]/
+>>5/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A R]
+[show B C]
+[face A 14]
+[face B 00]
+[setline 1 A B]
+[say A]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[face B 04]
+[-]
+[serif on]
+ん？　$B:Aどうしたの？
+えっ、なんか臭う……？/
+[face A 12]
+あれぇ、シャツと下着は一昨日着替えたはず
+なんだけど……[face B 03]
+/
+[face A 10]
+[face B 01]
+うっ……[shake A]
+しゃ、シャワー浴びてきますー！！！/
+[move A X -600 0.3]
+[hide A]
+[se walk_03]
+[-]
+[autotap]/
+>>6/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A C]
+[show B C]
+[face A 04]
+[face B 04]
+[setline A B]
+[orderline A B]
+[say A]
+[-]
+[serif on]
+やぁ$B:A。少し調子が悪いって聞いたけど
+その後はどう？/
+[face A 08]
+とりいそぎ調べさせてもらった$B:Aの排泄物や
+体液からは特に異常が見られなかったよ！[face B 05][shake B]/
+[face A 11]
+[face B 06]
+[flow]
+ただ、場合によっては精密な検査が
+必要かもしれないから、/
+[face A 08]
+[flow]
+[effect A kira 4000 0 0]
+[se kira_01]
+何か気になることがあったら早めに自分に
+言ってね！　日中は司令室かラボにいるから！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[setline B A]
+[orderline A B]
+[say A]
+[-]
+[serif on]
+ねぇ$B:A、きみの国の歴史について
+聞いてもいいかな……？/
+[face A 06]
+[face B 00]
+[move A X -50 0.5]
+実はずっと気になってたことがあって……
+その……/
+[face A 10]
+[face B 05]
+[move A X 150 0.2]
+あ、でもやっぱり聞かないほうが、
+ロマンがあっていいかも……！[shake A]/
+[face A 09]
+[face B 04]
+うーん、でも気になる[shake A 5 10 1]……でも……[shake A 5 10 1]
+あーどうしよう！[shake A 5 30 1]　なんか、ごめんね！！[face B 01]/
+>>10/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A R]
+[show B L]
+[rotate A -10]
+[face A 07]
+[face B 00]
+[move B X -150]
+[move B X 150 0.5]
+[talk A]
+[wait 0.5]
+[-]
+[face B 04]
+[move B X 250 1]
+[-]
+[serif on]
+ぐぐー……[face A 05]わっ、[rotate A 0 0.3][shake A 2 5 5]$B:Aごめんね！[face A 10]/
+[face A 13]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+いやぁ今週分のエナジードリンクを
+運んでたんだけど……/
+[face A 12]
+[face B 00]
+うう、歩きながら寝そうだったし、
+ちょっと休んだほうがいいかもな……/
+[face A 07]
+[move A X -100 1]
+[rotate A 20 0.5]
+[-]
+[face A 09]
+[rotate A -5 0.2]
+[shake A]
+[-]
+[setline 0.5 A B]
+[-]
+[face B 01]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[-]
+え？[face A 14]
+$B:A、寝床まで付き添ってくれるの？/
+[face A 11]
+じゃあ、お願いしようかな……[face A 01]ありがとうっ。/
+>>11/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 01]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[serif on]
+[say A]
+昼間はあんなに眠かったのに、夜になると
+元気になってくるよね。不思議だね！/
+[face A 08]
+[flow]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+さあ、ここから本領発揮していくぞ～！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A C]
+[show B C]
+[face A 04]
+[face B 00]
+[setline A B]
+[-]
+[serif on]
+[say A]
+$B:A、顔赤いけど、大丈夫……？[face B 05][shake B]/
+[face A 06]
+[shake A]
+え、そういうこと！？/
+[face A 10]
+[flow]
+[shake A 2 5 1]
+その、け、健全な男子ならよくあることだよね。
+この荘園のデータを見てもそういう傾向あるし！/
+[flow]
+集中できなくなると困るから、自分としては
+定期的に対処するのがいいと思ってるよ！/
+>>15/
+[set A s_n002_m 猪森]
+[randomset B m -n002 -@NPC]
+[randomset C m -n002 -@NPC -@NOW]
+[show A R]
+[show B C]
+[show C C]
+[setline B C]
+[move A X 600]
+[face A 03]
+[face B 08]
+[face C 08]
+[talk A]
+[delay 0.2 shake C]
+[move B X -100 0.3]
+[delay 0.3 shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[-]
+[move A X 150 1]
+[moveline A B C -1000 0 1]
+[-]
+[serif on]
+[say A]
+おお……おおお！　なるほどぉ！/
+[face A 08]
+訓練とはいえ、地魂男児の戦闘を間近で
+見れるのはすごいなぁ！/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+良いデータがいっぱい取れちゃうよ！/
+>>16/
+[set A s_n002_m 猪森]
+[randomset B m -n002 -@NPC]
+[show A C]
+[face A 11]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+最近運動不足なんだよなぁ。
+たまには自分も体を動かした方がいいかな……/
+[show B L]
+[orderline A B]
+[say A]
+[face A 12]
+[face B 00]
+[move A Y -100 0.5]
+まずは柔軟を……いっちに、さんし……[shake A]
+ひぃ～……[shake A]体硬いなぁ……/
+[face A 02]
+[move B X 400 0.5]
+[face B 01]
+あ、$B:A、背中押してくれるの？[move B XY -50 -20 0.5][move A Y -50 0.5][rotate A 20 0.8][rotate B 25 0.5]
+ありが……[face A 05]いいいいぃいいいいたたたたた！！！！[shake A 2 50 50][face B 05][rotate B 5 0.2]/
+>>17/
+[set A s_n002_b 猪森]
+[randomset B b -n002 -@NPC]
+[show A C]
+[face A 15]
+[-]
+[serif on]
+[say A]
+……この[= 服 下着 シャツ]そろそろ変えた方がいいかなぁ。/
+[face A 12]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+くんくん……うーん。
+た、たぶんまだ大丈夫だよね。/
+>>18/
+[set A s_n002_b 猪森]
+[randomset B b -n002 -@NPC]
+[show A C]
+[show B C]
+[face A 13]
+[face B 01]
+[moveline A B 0 -100 0]
+[se amb_12]
+[effect fr yuge a 0 0]
+[se bath_02]
+[say A]
+[orderline A B]
+[setline B A]
+[-]
+[se amb_12]
+[serif on]
+ふぅ～。後回しにしがちだけど
+お風呂に浸かると気持ちいいなぁ。/
+[face A 12]
+[face B 08]
+[se bath_04]
+そういえば……最後に入ったのいつだっけ。/
+[face A 14]
+[face B 05]
+2日前……いや3日？
+あれ1週間……？/
+>>19/
+[set A s_n002_b 猪森]
+[randomset B b -n002 -@NPC]
+[show A C]
+[face A 13]
+[se amb_12]
+[effect fr yuge a 0 0]
+[se bath_02]
+[move A Y -220]
+[scale A 1.6]
+[-]
+[serif on]
+[say A]
+んん～～っ！！[shake A][se bath_04]
+ずっと机に向かって作業してたから、/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se bath_02]
+[-]
+お湯に浸かりながら手足を伸ばすと
+気持ちいいな～……ん？/
+[show B L]
+[scale B 1.6]
+[move B Y -220]
+[orderline A B]
+[say A]
+[face A 11]
+[face B 00]
+なにこれ……えっ$B:A！？[face A 05][move A X 150 0.5][se bath_01]
+ごめん、な、[face A 06]なんでもないよ！/
+[face A 12]
+[waku on 0.5]
+（お湯の中で手があたっちゃった～！）/
+>>20/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 13]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[se pee_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふ～。研究中にこうやってトイレに
+行くの結構面倒なんだよなぁ。/
+[face A 11]
+何かいい方法はないかなぁ。
+そう、例えば……/
+[face A 03]
+……ペットボトルとか？
+…[wait 0.5]…[wait 0.5][face A 12]流石に何かを失う気がするからやめとこ……/
+>>21/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 13]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふああ……今日はこのあと、あれの数値をとって、
+あの検証をして、それから……/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[se zuba_01]
+[face A 05]
+[shake A 2 10 10]
+[textsize 40]
+いたっ！！？/
+[face A 04]
+[shake A]
+ひえぇ……チャックではさんじゃった……！/
+>>22/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A C]
+[face A 07]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[serif on]
+[say A]
+くか～～……/
+[talkend]
+[color A talk]
+（コンコン。）/
+[face A 13]
+[say A]
+あっ、はい！[shake A]
+今開けます～…………あ！
+[face A 05]
+[se door_01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[show B C]
+[orderline A B]
+[say A]
+[face B 05]
+[-]
+[move A X -200 1]
+[move B X 200 1]/
+[shakebg]
+[move A X 100 0.3]
+[move A XY 10 -40 0.1]
+[rotate A -10 0.1]
+[delay 0.1 move A XY -10 40 0.2]
+[delay 0.2 rotate A 0 0.3]
+[se door_02]
+[face A 10]
+[face B 06]
+[delay 0.3 hide B]
+わ、わーーーっ！
+寝ぼけてました、ごめんなさい～！！[shake A]/
+>>23/
+[set A s_n002_r 猪森]
+[show A L]
+[face A 06]
+[se door_01]
+[-]
+[move A C 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 02]
+[-]
+[serif on]
+[say A]
+[effect fr kira 4000 0 0]
+[se kira_01]
+……はぁ～～すっきりした。
+トイレが空いててよかった～！/
+[face A 12]
+作業に夢中になってると、つい
+ギリギリまで我慢しちゃうんだよね……！/
+>>24/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……みんな疲れてぐっすり眠っているようだね。/
+[face A 01]
+地魂男児は式神とはいえ、こうして眠ったり
+食べたり[wait 0.2]…[wait 0.2]…[wait 0.2]ほんと人間とかわらないなぁ。/
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+うん！　彼らのためにも研究研究っと！/
+>>25/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[say A]
+くか～～～むにゃむにゃ………………フゴッ。[shake A]
+……くか～～……/
+[talkend]
+疲れ切って眠っている。/
+>>26/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[randomset C r -n002 -@NPC -@NOW]
+[show A C]
+[show B C]
+[show C C]
+[orderline B A C]
+[rotate A 60]
+[rotate B -60]
+[rotate C 70]
+[face A 06]
+[face B 07]
+[face C 07]
+[moveline A B C 0 -30 0]
+[move B X 200]
+[move C X -230]
+[say A]
+[-]
+[serif on]
+仮眠のつもりで来たけど……
+なんだかみんなとの距離が近い気がするよぉ！/
+[face A 10]
+うう～！[shake A]
+なんだか気になって寝付けないぃい～！/
+>>27/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 14]
+?猪森さん、誕生日おめでとうございます！/
+[face A 05]
+[say A]
+[serif on]
+えっ誕生日！？[shake A]　自分の？　
+わっ、全然覚えてなかったよ……！[face A 06][shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+ありがとう！　きみに祝ってもらえて嬉しいよ！
+自分の誕生日って忘れちゃうよね……/
+[face A 12]
+[flow]
+気づいたら自分の年齢も
+わかんなくなるっていうか……/
+[face A 11]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……今までは研究のことばっかりで
+自分のこととか気にしてこなかったけど……/
+[face A 01]
+[flow]
+司令室のみんなや……きみに出会えて、
+こういう日々の出来事も大切なんだなって――/
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[autotap]/
+[face A 08]
+……そう気付かされたよ。
+ありがとう。*Pくん。/
+[face A 12]
+……ってちょっと大げさすぎたかな……[shake A]
+ごめんね！[face A 10][shake A]　自分、そういうとこあるよね……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[flow]
+うう、なんか恥ずかしくなってきたな……それに
+自分の誕生日の過ごし方とか、よくわかんなくて……/
+[serif off]
+?一緒に誕生日ケーキを買いに行く/
+[face A 10]
+[serif on]
+えっ、誕生日ケーキ！？　買いに行くの？[shake A]
+ど、どうしよう……緊張してきた……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[flow]
+自分、あんまり誕生日ケーキって慣れてなくて……
+でも、*Pくんと一緒になら……/
+[serif off]
+?どんなケーキが好きなんですか？/
+[face A 11]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ん～……どんなか……大体羽鳥さんにおすそ分けで
+もらうのばっかりだから詳しくないけど……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+栗のやつも好きだし、チョコも好きかな……
+アイスみたいなのも美味しいし……/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 06]
+あっ、でも、誕生日ケーキの定番は
+やっぱり……ショートケーキ、だったよね？/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 08]
+だからやっぱりショートケーキにしようかなぁ！
+*Pくんは好きなのを買っていいからね。/
+[serif off]
+?大きなイチゴのショートを一緒に食べたい！/
+[effect off a]
+[face A 02]
+[serif on]
+え、いいの！？　[shake A]う、うん、わかった……！
+すごく楽しみになってきたよ！[shake A]/
+[face A 08]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+すぐ準備するから、ちょっとまってねー！
+あわわっ、[face A 09][shake A]書類が……っ！！[se crash_01][delay 0.2 se paper_02][move A Y -150 0.3][rotate A 20 0.3]/
+[serif off]
+?落ち着いてー！/
+[rotate A 0 0.5]
+[move A Y 150 1]
+[delay 0.6 face A 02]
+[wait 2]
+[autotap]/
+>>100/
+[set A s_n002_r 猪森]
+[set B s_n002_r 猪森]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 猪森と息抜きに]
+[-]
+[bgm home]
+[bg mbg_rokuhara]
+[minibg rokuhara_labo]
+[-]
+[fadeout 1.5]
+[-]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+猪森に差し入れを渡そうと思い
+研究室へやってきた。/
+[textcolor ARUJI]
+[se paper_01]
+うず高く積み上げられた書類の中の
+猪森の席を覗いてみるが姿は見つからない。/
+@研究員
+猪森さんですか？
+あれ……？　確かにいませんね……/
+[se walk_06]
+[textcolor ARUJI]
+今は不在なのかなと思い出直すことにした。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg rokuhara_wc]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+途中でトイレに寄り、小便器に立つと
+背後の個室から寝息が聞こえてきた。/
+@？？？
+う〜ん、う〜ん……
+むにゃむにゃ……/
+[serif off]
+?この声……猪森さん……？/
+[serif on]
+@？？？
+むにゃむにゃ……
+すぴー……すぴー……/
+[serif off]
+?ノックする/
+[se knock_01]
+[wait 0.5]
+[shakebg]
+[se water_09]
+[serif on]
+[textcolor ARUJI]
+個室をノックしてみると、
+ジャーっと水を流す音が聞こえ、鍵が開いた。/
+[se door_01]
+[show A C]
+[face A 10]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[say A]
+[bgm departure]
+すみませ〜ん……[shake A]
+くかぁ……[face A 07]/
+[serif off]
+?！？/
+[scale A 2.0 0.5]
+[move A Y -250 0.5]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+[delay 0.3 hide A]
+[-]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+全身にかかる体重。猪森は個室から出てきた
+かと思うと、こちらに抱きついてきた。/
+@猪森
+ぐごぉお……くかぁ……/
+[talkend]
+[textcolor ARUJI]
+猪森はまだ夢の中にいるようで
+抱きついたまま完全にその体重を預けてくる。/
+[textcolor ARUJI]
+柔らかく大きな体に包まれ、
+ふわりと猪森の匂いがした。/
+[serif off]
+?とりあえず外のベンチに寝かせよう/
+[serif on]
+[textcolor ARUJI]
+[se cloth_01]
+猪森の脇の下から腕を回し、大きな体を抱き抱え
+ながらトイレの外へと移動した。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg rokuhara_rouka_labo]
+[bgm home]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on]
+猪森を慎重に運び、トイレ横の自販機のある
+休憩スペースのベンチへと寝かせた。/
+[serif off]
+?重かった……/
+[show A C]
+[face A 11]
+[say A]
+[serif on]
+[rotate A -20]
+うーーん……[shake A]
+ううーーーん……[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+だめだ……こんなんじゃだめだ……
+………………/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+寝苦しそうな猪森を見ていると
+少しくらい休ませてあげたくなってくる。/
+[serif off]
+?膝枕をさせてあげる/
+[serif on]
+[se cloth_01]
+[textcolor ARUJI]
+猪森の頭を自分のふとももの上に乗せ
+寝やすくしてあげた。/
+[textcolor ARUJI]
+これで少しはいい夢を見れるだろうか……/
+[show A C]
+[face A 07]
+[say A]
+[rotate A -20]
+[scale A 1.6]
+[move A Y -220]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+……すぅ…………/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+心なしか安心して眠っているように見える。
+そうしてしばらくそのままにしていると……/
+[effect fr syutyu a 0 0]
+[bgm fun]
+[show A C]
+[face A 05]
+[say A]
+[rotate A -20]
+[scale A 1.6]
+[move A Y -220]
+[rotate A 0 0.3]
+[move A Y 100 0.3]
+[shakebg]
+[se cloth_06]
+はっ！　そうだ！！/
+[face A 08]
+そのアプローチならいけそうだ！
+なんでこんなことに気づかなかったんだろう！/
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[autotap]/
+[face A 03]
+[effect off a]
+えーっとペン、ペン……/
+[serif off]
+?ペンとメモ帳を差し出す/
+[face A 01]
+[serif on]
+ありがとう！/
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[scale A 1.0 0.3]
+[move A Y 120 0.3]
+わっ！　*Pくん！？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+そこでようやくこちらの存在に気づいたようだ。/
+[serif off]
+?忘れないうちにメモをどうぞ/
+[show A C]
+[face A 10]
+[say A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっそうだった！　ごめんね！　
+ちょっとまっててね！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A]
+[se write_01]
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[serif on]
+これでよしっと……*Pくん、
+なんか迷惑かけちゃったみたいだね……/
+[face A 12]
+それにしてもなんでこんなとこで
+寝てたんだろ……[shake A]き、記憶が……/
+[face A11]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+確か自分、トイレに……あわわ……[face A 06][shake A]/
+[se cloth_01]
+[move A Y -100 0.3]
+[delay 0.3 move A Y 120 0.5]
+[delay 0.8 move A Y -20 0.5]
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+猪森は慌てた様子でベルトを締め直した。/
+[serif off]
+?個室で寝てました/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[say A]
+[serif on]
+そうだったんだ。ちょっと気を抜いて
+寝落ちちしちゃってたみたいだ……/
+[face A 11]
+研究で悩んでたことがあって
+昨日は徹夜だったんだけど、/
+[face A 01]
+[flow]
+少し寝たおかげでアイディアも浮かんだし
+頭もすっきりしたよ！/
+[face A 14]
+[talkend]
+[textcolor ARUJI]
+猪森はそういうが、目の下にははっきりと
+深いくまができている。/
+[serif off]
+?ちゃんと家で休めてるんですか？/
+[minibg emo_donyori 0.5]
+[bg black 0.5]
+[scale A 1.6 2]
+[move A Y -120 2]
+[autotap]/
+[face A 12]
+[say A]
+[serif on]
+家かぁ……実は自分、ロクハラにほとんど
+住み着いてる感じなんだよね。/
+[face A 14]
+[flow]
+寝るのはたいてい仮眠室だし、
+共用のシャワールームを使ってて――/
+[face A 11]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、でも最近はときどき*Pくんの
+荘園に行ったときなんかは……/
+[face A 12]
+[flow]
+地魂男児たちに言われて、お風呂に入ったりとか
+寝床を使わせてもらったりとか……/
+[face A 14]
+[flow]
+ご飯は……食堂で受け取って
+仕事場で食べてる。/
+[serif off]
+?過労で死ぬのでは？/
+[minibg rokuhara_rouka_labo 0.2]
+[bg mbg_rokuhara 0.2]
+[face A 08]
+[serif on]
+いやー大丈夫！　死なないよ！　
+こう見えて結構丈夫だし！　[shake A]……[wait 0.2]多分[wait 0.2]…[wait 0.2]…[wait 0.2][face A 12]/
+[face A 01]
+これでも以前に比べたら寝るようになったんだよ！
+健康診断の結果も問題ないし。/
+[face A 00]
+[flow]
+きみの任務や霊力の制御に関する研究が
+多くなってからは、特にね。/
+[face A 08]
+[flow]
+研究室のチームメンバーが結構気を使ってくれてて
+色々先回りで準備してくれて助かってるんだ。/
+[face A 01]
+[flow]
+新人の子がすごく要領がよくて……
+そのうちキミにも紹介したいな。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+仕事に関する話をしているときの猪森は
+とても楽しそうだ。/
+[serif off]
+?そうだ、これどうぞ/
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+ええっ！　[shake A]こんなのもらっちゃっていいのかな？
+お菓子のセットに[se cloth_01][shake A]……安眠ドリンク！[face A 02]/
+[face A 02]
+……本当に、すっごくうれしいよ！
+*Pくん、ありがとう！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 13]
+ふぁああ〜……/
+[face A 06]
+あはは、ごめんごめん……
+まだ身体が寝てるみたいだなぁ〜。/
+[serif off]
+?もし時間あるなら少しリフレッシュしません？/
+[serif on]
+[face A 05]
+えっ！？[shake A]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm off]
+[hideall]
+[minibg rokuhara_bowling]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+………………。/
+…………。/
+……。/
+[serif off 1]
+[show A]
+[face A 06]
+[say A]
+[-]
+[se cloth_01]
+[wait 1]
+[serif on 0.5]
+えっと、た、[wait 0.2]たまの持ち方って、
+こうでいいのかな……/
+[talkend]
+[textcolor ARUJI]
+猪森は緊張した面持ちで
+たまを持ち上げると、上目遣いでこちらを見た。[se cloth_02]/
+[say A]
+う〜ん[wait 0.2]…[wait 0.2]…[wait 0.2]じゃ、じゃあ、
+自分が先にいくよ……！！[se cloth_06]/
+[say A]
+あーーーー外に出ちゃった！/
+[fadeout 0.5]
+[serif off]
+?ガターですね/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm comical]
+[hideall]
+[minibg rokuhara_bowling]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[se gaya_01]
+[textcolor ARUJI]
+[talkend]
+ここはロクハラ商業施設のボウリング場。/
+[textcolor ARUJI]
+[flow]
+研究中の計算結果が出るまで少し
+時間があるとのことで――/
+[textcolor ARUJI]
+[flow]
+普段の生活でほとんど仕事しかしていない
+猪森を少し遊びに誘ってみた。/
+[textcolor ARUJI]
+[flow]
+ボールが吸い込まれてしばらくすると
+画面のスコアには「G」と表示された。/
+[show A C]
+[face A 04]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+これって失敗ってことだよね……
+ボウリングやったことないんだよね……/
+[serif off]
+?学生のときとかは？/
+[face A 12]
+[serif on]
+学生の頃……？　うーん、ないかなぁ……/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、そういえばロクハラの新人歓迎会で
+ボウリング大会が恒例になってるみたいだけど……/
+[face A 11]
+自分はいつもその間も仕事させてもらってるんだ。
+猫乃屋さんは毎年出てて得意って聞いてるよ。/
+[hide A]
+[talkend]
+[serif off]
+?少し教えてあげる/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[hideall]
+[-]
+[fadeout 1.0]
+[-]
+[autotap]/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+スマホで初心者向けのボウリング知識を調べながら
+まずはボールを一緒に選ぶことに。/
+[show A C]
+[face A 11]
+[move A Y -100]
+[move A Y 100 0.5]
+[say A]
+穴の間隔がこんなに違うんだ……
+うん、こっちの重いやつの方が持ちやすいかも。/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[hideall]
+[-]
+[fadeout 1.0]
+[-]
+[autotap]/
+[show A]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+次はフォームだ。
+猪森の身体を触りながらフォームを整えていく。[se cloth_01][shake A]/
+[serif off]
+?あの矢印を狙ってみて/
+[face A 03]
+[say A]
+[serif on]
+わかった、さあ、
+いくぞ……！！[move A X 200 0.5]/
+[move A X -600 0.4]
+[delay 0.2 rotate A 10 0.1]
+[delay 0.3 rotate A 0 0.1]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+ガコーン！！！　[shake A]まっすぐに進んだボールは
+見事に全てのピンを弾き飛ばした。/
+[serif off]
+?おおー！　ストライク！！/
+[show A C]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[serif on]
+[effect fr kira a 0 0]
+[se kira_01]
+おおー！　やったーー！
+ありがとう！　きみのおかげだよ！/
+[hide A]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+人生初のストライクを決めた猪森と
+キャッキャと盛り上がったものの――/
+[textcolor ARUJI]
+[flow]
+ストライクはその一回だけで、
+スコアはほとんどガターだった。/
+[serif off]
+[show A C]
+[face A 02]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+スコア６１か……でも、このスコア表は
+大事に取っておくよ！[face A 08]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg town_itary]
+[bgm food]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[hide A]
+[talkend]
+[se gaya_01]
+[textcolor ARUJI]
+[serif on]
+ゲームを終え、チェーンのハンバーガー屋に来て、
+軽く軽食を取ることにした。/
+[textcolor ARUJI]
+ジュースとハンバーガーとポテトを頼み
+席について猪森と向かい合わせに座る。/
+[show A C]
+[face A 08]
+[say A]
+[scale A 1.6]
+[move A Y -170]
+[se eat_01]
+この季節限定のやつ、すごく美味しいよ！
+もう一個買っちゃおうかな……/
+[move A Y 50 0.3]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+猪森はそう言ってレジに向かった。/
+[textcolor ARUJI]
+[flow]
+ふと、気づけばもう夕方だ。
+窓の外はオレンジ色の夕焼けに染まっていた。/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[hideall]
+[-]
+[fadeout 1.0]
+[-]
+[autotap]/
+[show A C]
+[face A 01]
+[say A]
+[scale A 1.6]
+[move A Y -170]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+はぁ、今日はすごくリフレッシュできたよ。
+*Pくん、ありがとう。/
+[face A 04]
+[flow]
+もうすぐ戻らないといけないと思うと
+ちょっと寂しいな～。[shake A]/
+[face A 00]
+[flow]
+羽鳥さんが追加のスケジュールを立ててくれたから
+新しい術式の開発を進めてて……/
+[face A 01]
+[flow]
+この後、一緒に結果を見てもらう予定なんだ。/
+[face A 12]
+[talkend]
+[serif off]
+?羽鳥さん、たまにちょっと厳しいですよね/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 08]
+[say A]
+[serif on]
+あはは。そうだね。
+この世界を救うことばかり考えてる人だからなぁ。/
+[serif off]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 11]
+でももし羽鳥さんがいなかったら、
+世界はもう[wait 0.2]とっくにどうにもならなくなっていて――/
+[face A 00]
+[flow]
+きみを[wait 0.2]見つけることもできなかったかもしれない。/
+[face A 01]
+[flow]
+それに羽鳥さんは[wait 0.2]…[wait 0.2]…[wait 0.2]
+こんな自分を信じてくれた初めての人なんだ。/
+[se gaya_01]
+[hide A]
+[talkend]
+@ショップ店員
+季節のスパイシーカレーバーガーを
+お待ちのお客様、おまたせしました〜。/
+[show A C]
+[face A 01]
+[say A]
+[scale A 1.6]
+[move A Y -170]
+あ、ありがとうございます。
+へへ、カレー味の方も気になっちゃって。/
+[hide A]
+[se eat_01]
+[talkend]
+[textcolor ARUJI]
+猪森は追加でオーダーしたハンバーガーを
+食べ始めた。/
+[textcolor ARUJI]
+パクっと一口でハンバーガーの１／３ほどが
+猪森の口の中に消えていく。/
+[show A C]
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 01]
+[scale A 1.6]
+[move A Y -170]
+[textcolor ARUJI]
+結構食べる方なんだなぁ、と思いながら
+もぐもぐと上下するほっぺたを眺めていた。/
+[serif off]
+?羽鳥さんとは付き合い長いんですか？/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 00]
+[say A]
+[serif on]
+[effect off a]
+もぐもぐ、ん、うん。
+…………/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+そうだね、羽鳥さんが推薦してくれたおかげで
+自分は今この仕事ができてるんだ。/
+[face A 03]
+[flow]
+…………羽鳥さんには借りがある。/
+[face A 01]
+[flow]
+できる限りお返ししたいし、
+それがこの世界のためにもなる。/
+[face A 00]
+[flow]
+そしてリソースは有限だから
+有効活用しないといけない。/
+[face A 08]
+[flow]
+自分ががんばった分、研究が進むなら……
+休んでる暇なんてないよね。もぐ。[shake A]/
+[se eat_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+そう言いながら、猪森はハンバーガーを
+食べ終わった。/
+[show A C]
+[face A 02]
+[say A]
+[effect fr kira a 0 0]
+[se kira_01]
+[scale A 1.6]
+[move A Y -170]
+ふぅ、ごちそうさま！　おいしかったー！/
+[hide A]
+[effect off a]
+[talkend]
+[serif off]
+?でも、ちょっと頑張りすぎですよ！/
+[light def 0.5]
+[lightcolor blue]
+[show A C]
+[face A 01]
+[say A]
+[scale A 1.6]
+[move A Y -170]
+[serif on]
+[bgm night]
+きみだってたくさんの任務を頑張って
+くれてるじゃないか。/
+[face A 08]
+[flow]
+自分は辛くないんだ。
+きみがいるから。/
+[face A 01]
+[flow]
+少しでもきみの力になれるように、
+自分にできることを精一杯やりたいんだ。/
+[face A 00]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+だって――[wait 0.5]きみがいてくれる限り
+希望はあるんだから。[face A 08]/
+[textcolor ARUJI]
+[talkend]
+猪森の瞳はまっすぐにこちらの目を見据えている。
+真正面からそんなことを言われ、照れてしまった。/
+[serif off]
+?そんなに大したものじゃないと思うけど……/
+[face A 01]
+[serif on]
+[textcolor ARUJI]
+そう返すと、猪森は優しく微笑んだ。/
+[face A 08]
+[say A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+自分は大真面目だよ！/
+[face A 11]
+[say A]
+これからも……たくさんの辛いことが
+あるかもしれない……/
+[face A 03]
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[shakebg]
+だけど、きみなら乗り越えていける。
+自分はそう信じてる。/
+[face A 00]
+[flow]
+きみには霊脈に眠る声が聞こえる。/
+[face A 01]
+[flow]
+耳をすませば、きっともっと深いところまで
+届くはず。/
+[face A 11]
+[flow]
+その声の主はきみに呼ばれ、
+力になるときを今も待ってるんだ。/
+[face A 03]
+[flow]
+だから諦めないで。
+自分も[wait 0.2]…[wait 0.2]…[wait 0.2]絶対に諦めないから。/
+[serif off]
+?……ちょっとソース、口についてますよ/
+[scale A 1.6 0.3]
+[move A Y 100 0.3]
+[face A 10]
+[serif on]
+わ、ありがとう！[shake A]/
+[face A 01]
+へへ、よく見たらきみもちょっとついてるね。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+猪森は照れたようにそう笑いながら
+ウェットティッシュでこちらの口元を拭ってくれた。/
+[show A C]
+[face A 01]
+[say A]
+[scale A 1.6]
+[move A Y -170]
+あ、そろそろ解析の結果が出てる頃かも！
+それじゃあ長々とごめんね！/
+[face A 02]
+[move A Y 50 0.5]
+きみと一緒に過ごせてよかった……[wait 0.5]
+またね！[face A 08]/
+[-]
+[se walk_05]
+[hideall]
+[-]
+[textcolor ARUJI]
+[talkend]
+そう言って猪森は手を振り、研究室へと
+戻っていった。/
+[textcolor ARUJI]
+この時間が、少しは猪森のリフレッシュに
+なったならよかったと思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

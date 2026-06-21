@@ -1,0 +1,2068 @@
+>>10000/
+@周防
+よぉ、俺は山陽道、周防！[wait 3]
+主、さあ任務をくれよ。[autotap]/
+[delay 3]
+[flow]
+[-]
+@周防
+体がうずいちまって仕方ねーぜ！/
+>>10001/
+@周防
+おう、また呼んでくれたんだな。[wait 3]
+頼ってもらえると嬉しくなっちまうぜ。[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@周防
+ほらほら、なんでも言ってくれよ！/
+>>1/
+[set A s_suo_r 周防]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+[serif on]
+ん？　あー、へへ。[face A 01]荘園の庭の橋を見てるとさ
+オレの国の錦帯橋を思い出すんだよな。/
+[flow]
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+木だけで組まれてて釘を一本も使ってねーんだ。
+下には錦川が流れてて、景色も最高でさ。/
+[flow]
+[face A 02]
+……今度一緒に橋を渡りに行こうぜ。
+へへ、主の手、引いてやっからよ！[shake A]/
+>>2/
+[set A s_suo_r 周防]
+[show A C]
+[face A 02]
+[say A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+主、この荘園はたくさん仲間がいて
+すげー楽しいぜ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 01]
+よーし、今度みんなに岩国寿司を作ってやるかぁ。
+オレの国のごちそうなんだ。/
+[flow]
+[face A 06]
+酢飯と具材を何層にも重ねたでっけぇ寿司でさ
+みんなと食べるとうめぇんだ。/
+[flow]
+[face A 01]
+[shake A]
+もちろん主も食べてくれよな！/
+>>3/
+[set A s_suo_r 周防]
+[show A C]
+[face A 08]
+[say A]
+[move A Y -40 0.2]
+[delay 0.3 move A Y 40 0.4]
+[delay 0.8 move A Y -40 0.2]
+[delay 1.1 move A Y 40 0.5]
+[autotap]/
+[serif on]
+いっちにっと……[wait 0.5]お、主じゃねぇか。
+どうした、仕事疲れか～？[face A 01]/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 01]
+[face A 00]
+ゆっくりしたかったら、周防大島はオススメだぜ。
+なんでも、「はわい」ってとこに似てるらしいぜ。/
+[flow]
+[face A 02]
+[shake A]
+オレもあののんびりした空気は病みつきになる
+くらい好きなんだ。一緒に砂浜に寝転ぼうぜ！/
+>>4/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[show B]
+[face B 04]
+[setline A B]
+[face A 11]
+[say A]
+[serif on]
+お、$B:Aどうした？
+悩み事か？　うんうん……そんで？　…………[face A 08]/
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 10]
+……う……うぅ、くぅう……うぉお……[shake A]
+涙が溢れてきて仕方ねぇよ……！[face B 05][se zukkoke_02][shake B]/
+[flow]
+[face A 08]
+[face B 01]
+オレにできることがあったら
+なんでも言ってくれよ！[shake A]/
+>>5/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[bgm off]
+[serif off]
+[show A C]
+[show B R]
+[move B X 150]
+[face B 05]
+[orderline A B]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[say A]
+[se paper_03]
+[shakebg]
+[serif on]
+うおっ！？[shake A]　ボタンが弾けちまった！！[shake A]/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 09]
+……オレ、太ってねぇよな？[shake A]　そうだよな
+筋肉が増えただけだ。うん、セーフ！　はっはっは！[face A 02][shake A][face B 04]/
+>>6/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[face A 09]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+えーっと、この書類でいいのかぁ？[se paper_01]
+オレ、こーゆうの苦手なんだよなぁ……/
+[flow]
+[show B R]
+[move B X 500]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face B 05]
+[-]
+[se cloth_06]
+[setline 0.3 A B]
+[face A 01]
+すまん、$B:A、教えてくれ！　
+この書類の書き方、これで合ってるかぁ？/
+[flow]
+[face B 04]
+[face A 05]
+……え、全然違う！？　マジか……[shake A][se zukkoke_02]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[move A X 500]
+[move A X -500]
+[face A 00]
+[say A]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+寝る前にちと腹ごしらえすっかぁ……
+なんかねぇーかなぁ～っと……おっ！[shake A][face A 01]/
+[flow]
+[show B R]
+[face B 05]
+[setline 0.5 A B]
+[face A 02]
+この[= 握り飯 残り物のカレー 手頃なサンドイッチ 爆弾おにぎり 夜食っぽいの 鍋の残り]いただきー！[shake A]
+って、え、$B:A、おまえのだったの！？[face A 05][se zukkoke_02]/
+[flow]
+[face B 03]
+[move B X 500 0.5]
+[face A 09]
+悪かったって！　まだ食ってねぇんだから
+許してくれよ～！[move A X 1000 0.5][shakebg]/
+>>10/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし -@NPC -suo]
+[serif on]
+[show A C]
+[face A 09]
+[say A]
+明日の任務のこと思うと、なんだか体が
+ウズウズしちまって眠れなさそうだぜ……/
+[show B R]
+[face B 00]
+[flow]
+[setline 0.5 A B]
+[face A 01]
+よーし、$B:A、一緒にもうひと汗かこうぜ！　
+したらぐっすり眠れんだろ！/
+>>11/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[show B]
+[face B 04]
+[setline B A]
+[face A 11]
+[say A]
+[serif on]
+おう、$B:Aどうした？
+ふんふん……おう、それくらい朝飯前だぜ！[face A 02][shake A]/
+[flow]
+[face B 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 06]
+考えるのは苦手だけどよ、この体でできることなら
+なんだってやってやるぜ。/
+[flow]
+[face A 01]
+[shake A]
+頼ってもらえるのすげー嬉しいんだ。へへっ。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[face A 09]
+[say A]
+ん～、なんか最近あんまスッキリ
+しねーんだよなぁ……/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[flow]
+[face A 00]
+やっぱひとりじゃ限界あるかぁ？　
+誰かいねーかなー……っと。/
+[flow]
+[show B R]
+[setline 0.5 A B]
+[face A 06]
+[face B 00]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+おっ、$B:A、ちょっとこのあとさ
+一緒に運動でもしね？　へへへっ。[face B 01]/
+>>15/
+[set A s_suo_m 周防]
+[randomset B m @地魂男児 @あやかし -@NPC -suo]
+[serif on]
+[show A C]
+[show B]
+[setline B A]
+[face B 08]
+[face A 08]
+[say A]
+[effect fr waveout 6000 0 0]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+おらぁ！！　[se crash_01]
+お、いまのかなりいいセンいってたろ！？[face A 00]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 02]
+[face B 01]
+お前の動きもすげー刺激になったぜ。
+もっと強くなって、仲間たちを守ってやるぜ！/
+>>16/
+[set A s_suo_m 周防]
+[randomset B m @地魂男児 @あやかし -@NPC -suo]
+[show A C]
+[show B C]
+[move B X -1000]
+[setline 0.3 B A]
+[shakebg]
+[se doka_01]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[face B 08]
+[scale B 1.6]
+[move B Y -120]
+[say A]
+[-]
+[effect fr waveout 6000 0 0]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[-]
+[serif on]
+はぁっ！　とぅ！　[shake A]
+――うぉ！？[face A 05][se zukkoke_02][rotate A 15 0.3]/
+[flow]
+[face B 05]
+[face A 09]
+[move A Y -100 0.3]
+くぅぅ……た、たまがつぶれるかと思ったぜ……
+カップがついてて助かった……[shake A]/
+[flow]
+[face A 10]
+でも、いてぇぇ～～～……！！[shake A 3 10 10]/
+>>17/
+[set A s_suo_b 周防]
+[randomset B b @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[se door_01]
+[show A C]
+[move A X 500]
+[move A X -500 0.5]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[se amb_12]
+[effect fr yuge a 0 0]
+[say A]
+ふぅ～、いい湯だったなぁ。
+お、オレみたいに隠さねぇやつもいるな！/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 06]
+開放的でいいよなぁ～。へへ、体が冷めるまで
+しばらくこのままでいよ～っと。/
+>>18/
+[set A s_suo_b 周防]
+[randomset B b @地魂男児 @あやかし @NPC -suo]
+[randomset C b @地魂男児 @あやかし @NPC -suo -@NOW]
+[serif on]
+[show A C]
+[show B C]
+[show C]
+[face A 01]
+[face B 00]
+[setline C A B]
+[se amb_12]
+[orderline A B C]
+[se bath_03]
+[face C 06]
+[effect fr yuge a 0 0]
+[say A]
+なぁなぁ、みんな！　オレの[= 腕 太もも 尻 ふくらはぎ 下半身 上半身 胸]
+前より太く、結構良い感じになったと思わねぇ！？/
+[flow]
+[face A 06]
+[shake A]
+なぁなぁほら、ここらへんとか特にさ！
+お、$B:A、見てくれよ～！　触ってもいいぜ！[face B 06]/
+>>19/
+[set A s_suo_b 周防]
+[randomset B b @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[show B L]
+[orderline A B]
+[face B 06]
+[move A Y -50]
+[se bath_05]
+[face A 06]
+[se amb_12]
+[effect fr yuge a 0 0]
+[say A]
+[se bath_02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ、やべ……洗ってる刺激のせいかなぁ……
+へへへ……/
+[flow]
+[face A 05]
+あっ、$B:A、いや、男ならこういうこと
+誰だってあんだろ～！？/
+[flow]
+[face B 03]
+[shake A]
+[face A 09]
+変な意味じゃねぇって～！/
+>>20/
+[set A s_suo_r 周防]
+[serif on]
+[show A L]
+[face A 05]
+[move A X -600]
+[move A C 0.5]
+[se cloth_01]
+[say A]
+うおっ、便所便所！
+ってカップがはずれねぇっ、くっ、んっ……！[shake A]/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 09]
+[se pee_01]
+はぁ、間に合ったぁ……おー出る出る
+めちゃくちゃ溜まっちまってたからなぁ……/
+[flow]
+[face A 06]
+はぁ、最高だぜ～……/
+>>21/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[show B C]
+[face A 07]
+[face B 00]
+[setline A B]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[say A]
+ふわぁぁぁ、ねみぃ……
+んー、起きたての小便やりづらすぎるぜ……[face A 09][se cloth_01][shake A][face B 06]/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[flow]
+[face B 06]
+[face A 06]
+って、みんな一緒だな！
+ははは。/
+>>22/
+[set A s_suo_r 周防]
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -170]
+[face A 00]
+[say A]
+んんっ……ふー……
+へへっ、今日も絶好調だぜ！/
+[flow]
+[face A 05]
+[shake A]
+[effect bk splash 6000 0 0]
+[se water_01]
+ってうぉっ！　水の勢いが強ぇぇ！/
+>>23/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[se door_01]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+ふぅ、個室空いてた。
+遠征長かったから、もうやばいぜ……/
+[flow]
+[se cloth_01]
+[move A X -250 0.5]
+[move A Y -50 0.5]
+[show B R]
+[face B 04]
+[move B X 200]
+[move B X -200 0.5]
+[orderline A B]
+んじゃ早速……[shake A][face A 05]
+ってうお、ノック！？/
+[flow]
+[face B 06]
+[face A 10]
+[shake A]
+ちょっと待っててくれね！？
+すぐ済ませるからぁ、頼むってぇ！[shake A]/
+>>24/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[show B]
+[face B 04]
+[setline A B]
+[face A 11]
+[say A]
+[serif on]
+……なんだ、$B:Aどうした？
+眠れねぇのか？　……うんうん……そんで？[face A 08]/
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 10]
+[shake A]
+……うぅ、くぅぅ……うぉお、涙が溢れてきて
+しかたねぇ……/
+[flow]
+[orderline B A]
+[move A X 100 0.3]
+[se cloth_06]
+[face B 01]
+[face A 08]
+オレにできることがあったら、
+なんでも言えよな！[shake A][se cloth_01]/
+>>25/
+[set A s_suo_r 周防]
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 07]
+[say A]
+ぐごごご、ぐごごご、兄弟、ワッショーイ！[shake A 2 15 15]
+ぐごご……/
+>>26/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[face A 09]
+[say A]
+[se cloth_01]
+[move A Y -100]
+[move A Y 100 1]
+やっべぇ、こりゃ溜まりすぎちまってんなぁ……
+ちょっと発散してくっか！[face A 00]/
+[show B R]
+[rotate B -50]
+[move B Y -50]
+[rotate B -20 0.5]
+[se cloth_01]
+[face B 06]
+[move A X -150 0.5]
+[flow]
+[face A 06]
+[orderline A B]
+なぁ$B:A、ちょっと出るけど、気にしないでな？
+へへ、誰だってあることだろ？/
+>>27/
+[set A s_suo_r 周防]
+[show A C]
+[face A 00]
+[autotap]/
+[serif off]
+?周防ハレの日おめでとう！/
+[say A]
+[serif on]
+[face A 01]
+おう！　主、ありがとな。/
+[face A 11]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+オレの国にある防府天満宮じゃ
+節分の今日に牛替神事って行事をやるんだ。/
+[face A 02]
+なんと、生きた牛が当たるくじもやってんだぜ。/
+[serif off]
+?牛が！？/
+[serif on]
+[face A 06]
+そうそう。くじで当たるのはその年の神牛なんだ。
+すっげー盛り上がるんだぜ！/
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+節分はさ、新しい一年を迎えるための節目の日
+ってことだよな。/
+[face A 03]
+オレもさ、自分の気持ちを引き締め直してぇ。
+そう思って、この日をオレのハレの日にしたんだ。[shake A][se taiko_02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+また一年、仲間を守ってやるぜ。
+もちろん主もな！/
+[serif off]
+?ありがとう、周防/
+[serif on]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+うし、荘園でも豆まきするだろ？
+オレが鬼役やってやるぜ。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 06]
+[se cloth_01]
+さぁ、主！
+オレに豆を投げてくれよ！/
+[talkend]
+周防に豆を渡される。/
+[say A]
+[serif off]
+?鬼はそと～！　福はうち～！/
+[effect fr syutyu a 0 0]
+[se doka_01]
+[shake A]
+[face A 11]
+[-]
+[effect off a]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ん～？　そんな勢いじゃ鬼は出ていかねぇぞ～。[face A 06]/
+[se cloth_06]
+[scale A 2 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 02]
+早く逃げないと捕まえちまうぞ～へへっ。
+おりゃ～！/
+[serif off]
+?うわ～っ！？/
+[talkend]
+[serif on]
+[face A 01]
+周防は抱きついてくる。
+周防の温もりが伝わってくる。/
+[say A]
+[face A 09]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+………………[wait 0.5]
+なんだかあんまり嫌そうじゃねぇな！/
+[effect fr syutyu a 0 0]
+[quake 1]
+[face A 03]
+さぁ、もっと豆投げろ～。[shake A]
+じゃねぇと離さねぇぞ！[se taiko_01]/
+[face A 02]
+[shake A]
+おらおら～～っ！[shake A]/
+[quake off]
+[effect off a]
+[autotap]/
+>>100/
+[set A s_suo_r 周防]
+[set B s_suo_b 周防]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 快活男児、周防！]
+[-]
+[bgm home]
+[bg gozasyo_day]
+[-]
+[fadeout 1.5]
+[-]
+[wait 2]
+[-]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+夕方頃、今日の仕事を終え、
+居間へと向かっていると――……/
+[bgm departure]
+@？？？
+はぁ！！[shakebg]
+たぁぁあ！！！[shakebg][se crash_04]/
+[talkend]
+[textcolor ARUJI]
+修練場から元気な声が聞こえてきた。/
+[serif off]
+?修練場を覗いてみる/
+[se fusuma_01]
+[serif off]
+[fadein black 2]
+[-]
+[minibg syurenjo]
+[bg mbg_syouen]
+[-]
+[fadeout 2]
+[-]
+[effect fr syutyu a 0 0]
+[show A C]
+[face A 03]
+[scale A 1.6]
+[move A Y -120]
+[talk A]
+[serif on]
+うおらぁあ！！！/
+[bgm off]
+[effect off a]
+[flow]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+――っしゃあ！
+やっぱ体動かすのって、気持ちいいぜ！/
+[serif off]
+[textcolor ARUJI]
+?周防！/
+[bgm fun]
+[serif on 0.5]
+[face A 11]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[talk A]
+おお、主じゃねぇかー！[shake A][face A 00]
+どうしたんだよ、こんな所に顔だすなんて。/
+[flow]
+[face A 11]
+いま、修練の時間じゃねぇからオレしかいねーぞ。
+誰か探してたのか？/
+[serif off]
+[textcolor ARUJI]
+?修練場から声がしたから……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on 0.5]
+[face A 02]
+[talk A]
+ああ、そっか。へへ、声デカすぎ？
+思わず気合入っちまってさ。/
+[flow]
+[face A 01]
+オレ、まだ呼び出してもらったばっかだけどさ
+体がうずうずして仕方ねぇんだよな。/
+[flow]
+[face A 00]
+だからここで体動かして
+発散させてもらってたんだ。/
+[talkend]
+[hide A]
+[shakebg]
+[textcolor ARUJI]
+そう言って笑う周防の横の修練用かかしに
+取り付けられた鎧は、完膚なきまでにボコボコだ。/
+[quake 1]
+[se quake 2]
+[bgm action]
+[effect fr syutyu a 0 0]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+ってことで……
+最後に思いっきりいっちまうか！/
+[flow]
+[face A 03]
+うらぁああー！！！[shake A][se doka_01]
+おりゃああーーー！！！[shake A][se cloth_06][fadein WHITE 0.2][delay 0.2 fadeout 0.3]　……抜魂……！！！[effect bk allow 6000 0 200][se katana_02]/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[light def 0.5]
+[lightcolor red]
+[effect bk wavein 6000 0 0]
+[autotap]/
+[flow]
+護拳・[wait 0.5]珠汪[wait 0.2]大海――……/
+[serif off]
+[textcolor ARUJI]
+?待って待って！　屋内で抜魂技は！/
+[bgm off]
+[light off]
+[quake off]
+[effect off a]
+[face A 11]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+特に力の強そうな周防の全力の抜魂技では
+修練場自体吹き飛んでしまうかもしれない。/
+[bgm fun]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[talk A]
+お？　たしかにそっか。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 09]
+すまねぇ……オレ、ノッてくると
+考えなしにぶっ放しちまうんだよなぁ……/
+[flow]
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+んじゃあ普通に全力で殴るぜ。
+おらぁぁああ！！！！/
+[hide A]
+[effect fr wavein 6000 -200 0]
+[serif off]
+[shakebg]
+[se crash_04]
+[delay 0.2 se wood_03]
+[quake 3]
+[-]
+[textcolor ARUJI]
+[serif on]
+[talkend]
+周防の一撃を食らったかかしは轟音と共に吹き飛び
+細かな部品を散らせながら原型を失っていった。[quake off]/
+[serif off]
+[textcolor ARUJI]
+?（やっぱり止めてよかった……）/
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふーー……いい汗かいたぜ。
+主、風呂いくか？/
+[flow]
+[face A 01]
+続きは汗流しながら話そうぜ。/
+[serif off]
+[textcolor ARUJI]
+?周防と風呂へ行く/
+[fadein BLACK 1.5]
+[-]
+[minibg syouen_datsuijo]
+[hideall]
+[wait 0.5]
+[effect fr yuge b]
+[-]
+[fadeout 1.5]
+[-]
+[se cloth_01]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+脱衣所につくやいなや、周防はひょいひょいと
+鎧を外し、黒いインナーウェアを脱いでいく。/
+[show B C]
+[face B 01]
+[scale B 1.6]
+[move B Y -120]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+あっという間にすっぽんぽんになると、
+仁王立ちでこちらを待っているようだ。/
+[serif off]
+?堂々としてる……/
+[serif on]
+[face B 02]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[talk B]
+なんだ主、早く脱いじまえよー。/
+[hide B]
+[serif off]
+[textcolor ARUJI]
+?入浴用のタオルを手渡す/
+[serif on 0.5]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+脱衣所に積まれているタオルを手に取り
+腰に手を当て堂々としている周防に手渡した。/
+[show B C]
+[face B 11]
+[scale B 1.6]
+[move B Y -120]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[talk B]
+おう、助かるぜ！[face B 02]
+主も服脱げたか？　んじゃ行こうぜー。/
+[fadein black 1.0]
+[serif off 1.0]
+[-]
+[se door_01]
+[minibg off]
+[bg bath]
+[se amb_12]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif off]
+[textcolor ARUJI]
+?おろして！？/
+[serif on 0.5]
+[se cloth_05]
+[talkend]
+[show B C]
+[face B 00]
+[scale B 1.6]
+[move B Y -120]
+[textcolor ARUJI]
+周防はこちらの体を軽々と持ち上げ、
+浴場に入ると洗面台の椅子に座らせた。/
+[flow]
+[face B 06]
+[scale B 1 0.5]
+[move B Y 120 0.5]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[talk B]
+主がちんたらしてっからだろ。
+軽いもんだぜ。/
+[flow]
+[face B 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+んじゃ、せっかくだから、オレが
+背中流してやるよ！　いくぜぇ！/
+[talkend]
+[hide B]
+[se cloth_06]
+[se bath_05]
+[textcolor ARUJI]
+これはゴリゴリ痛いやつ！　と一瞬身構えたが
+擦る強さの割には思いの外丁寧で痛みも少ない。/
+[show B C]
+[face B 00]
+[scale B 1.6]
+[move B Y -120]
+[talk B]
+まだちゃんと自己紹介してなかったよな。
+オレは周防だ。/
+[flow]
+[face B 02]
+正直頭使う任務は得意じゃねーけど
+体ならいくらでもはってやるぜ！/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[flow]
+[face B 01]
+力仕事や、前線で盾になるんなら
+オレにまかせてくれよ！/
+[flow]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[face B 06]
+[se bath_05]
+よし、こっちも洗うぜ。/
+[serif off]
+[textcolor ARUJI]
+?そっちは自分でやるから/
+[serif on]
+[face B 11]
+[shake B]
+[talk B]
+お、すまねぇ。
+主、結構照れ屋なんだな。へっへ。[face B 06]/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[flow]
+[face B 09]
+にしてもよぉ……
+オレ、またうずうずしてきちまったぜ……/
+[bgm departure]
+[serif off]
+[textcolor ARUJI]
+?！？/
+[serif on 0.5]
+[se hitokoe_06]
+[talkend]
+[hide B]
+[se amb_12]
+[textcolor ARUJI]
+湯船には何人かの男児たちが
+お湯に浸かっている。/
+[flow]
+[textcolor ARUJI]
+周防は男児たちを眺めながら
+そう呟いた。/
+[show B C]
+[face B 06]
+[scale B 1.6 0.5]
+[move B Y -120 0.5]
+[se cloth_01]
+[talk B]
+この荘園には体鍛えてるやつが
+たくさんいるだろ？　あの体見てるとさぁ――……/
+[flow]
+[face B 10]
+[effect fr syutyu a 0 0]
+[se fire_01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+うぉお！！　オレももっと
+鍛えたくなってきたぜぇ！！！[shake B]/
+[effect off a]
+[talkend]
+[move B Y -200 0.3]
+[hide B]
+[se cloth_06]
+[textcolor ARUJI]
+そういうと周防はタオルを頭にかけ
+床に寝転んだ。/
+[show B C]
+[face B 01]
+[scale B 1.6]
+[rotate B 50]
+[move B Y -100]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[talk B]
+腹筋やりてぇから、主、足押さえてくれよ！！/
+[serif off]
+[textcolor ARUJI]
+?えええぇえ……！？/
+[serif on]
+[talkend]
+[hide B]
+[textcolor ARUJI]
+すっぽんぽんのまま寝転ぶ周防に驚きつつも
+言われたとおり足を押さえようと立ち上がると、/
+[se cloth_01]
+[serif off]
+[textcolor ARUJI]
+?石鹸を踏む/
+[talkend]
+[shakebg]
+[se doka_01]
+[textcolor ARUJI]
+[serif on]
+足元にあった石鹸を踏んでしまった！！/
+[show B C]
+[se cloth_06]
+[face B 05]
+[scale B 1.6]
+[rotate B 50]
+[rotate B 0 0.3]
+[move B Y -320]
+[move B Y 100 0.3]
+[talk B]
+主！/
+[talkend]
+[fadein WHITE 0.2]
+[hide B]
+[effect off a]
+[se cloth_06]
+[textcolor ARUJI]
+視界がぐるりと回ったかと思うと
+体がふわりと浮くような感覚に目を白黒させる。/
+[serif off]
+[show B C]
+[face B 01]
+[scale B 1.6]
+[move B Y -120]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[fadeout 1]
+[-]
+[talk B]
+[serif on]
+よっと……大丈夫か？/
+[talkend]
+[hide B]
+[textcolor ARUJI]
+周防は素早く起き上がり、
+足をすべらせたこちらを抱きかかえてくれたのだ。/
+[flow]
+[textcolor ARUJI]
+さっき持ち上げられたときにも感じたが
+この肉体の分厚さ。/
+[flow]
+[textcolor ARUJI]
+太い腕と大きな胸板、むっちりとしたお腹――
+全身から感じるどっしりとした力強さ。/
+[flow]
+[textcolor ARUJI]
+一朝一夕で培われたものではないだろう。/
+[bgm off]
+[serif off]
+[textcolor ARUJI]
+?ありがとう/
+[bgm fun]
+[serif on]
+[show B C]
+[face B 09]
+[scale B 1.6]
+[move B Y -120]
+[talk B]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+ひゅーっ、危なかったぜ！　へへ。[shake B][face B 01]
+オレさ、考えるより先に体が動いちまうんだよな。/
+[flow]
+[face B 04]
+だから色々迷惑かけることもあるかもしれねーけど
+いつだって、主や仲間のことはぜってぇ守るからよ。/
+[flow]
+[face B 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+オレのこの力は、みんなを守るためにあんだ！
+信じてくれよな。/
+[face B 02]
+[serif off]
+[textcolor ARUJI]
+?信じてる/
+[face B 11]
+[textcolor ARUJI]
+?……でも、そろそろおろしてね/
+[serif on 0.5]
+[talkend]
+[hide B]
+[textcolor ARUJI]
+裸のこちらを裸の周防がお姫様抱っこのような
+状態で抱えあげている。/
+[flow]
+[shakebg]
+[se cloth_01]
+[textcolor ARUJI]
+さすがにちょっと恥ずかしかった。/
+[show B C]
+[face B 02]
+[scale B 1.6]
+[move B Y -120]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.2]
+[delay 0.3 move B Y 10 0.1]
+[delay 0.4 move B Y -10 0.2]
+[delay 0.6 move B Y 10 0.1]
+[delay 0.7 move B Y -10 0.3]
+[autotap]/
+[talk B]
+はっはっは、わりぃ！/
+[flow]
+[move B Y -110 0.5]
+[rotate B 50 0.5]
+[face B 00]
+[se cloth_01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+んじゃ、今度こそ腹筋やるから、足頼むぜー！/
+[fadein black 1.5]
+[serif off 1.5]
+[-]
+[se bath_02]
+[delay 0.5 se bath_03]
+[minibg syouen_datsuijo]
+[bg mbg_syouen]
+[show B]
+[-]
+[wait 0.5]
+[-]
+[fadeout 1.5]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[autotap]/
+[serif on 0.5]
+[face B 06]
+[talk B]
+ふーー……
+いい湯だったなぁ。/
+[flow]
+[face B 02]
+体動かして風呂入って……
+いまめちゃくちゃ腹減ってるぜ！/
+[scale B 1.6 0.5]
+[move B Y -120 0.5]
+[autotap]/
+[flow]
+[face B 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+主、たらふく飯食いに行こうぜ！！/
+[minibg ima 0.5]
+[effect off b]
+[talkend]
+[hide B]
+[se walk_01]
+[textcolor ARUJI]
+その後、周防は厨当番が驚くほどおかわりをし
+食べたあとはすぐ眠ってしまった……/
+[flow]
+[textcolor ARUJI]
+なんにでも全力で生きているような
+大きな男、周防。/
+[flow]
+[se amb_05]
+[minibg off 0.5]
+[bg sky_star 0.5]
+[textcolor ARUJI]
+きっとこの荘園でみんなを引っ張って
+いってくれるだろう。/
+[flow]
+[textcolor ARUJI]
+そんな気がしたのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_suo_r 周防]
+[set B s_n001_r 夏人]
+[set C s_n011_r 虎鉄丸]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 周防、勉強する]
+[-]
+[bgm home]
+[bg gozasyo_day]
+[-]
+[fadeout 2]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+声聞士昇級試験が近くなってきた。/
+[serif off]
+?図書室で勉強しようかな/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+任務を終えたあと、図書室へとむかった。/
+[serif off]
+[bg mbg_syouen 0.5]
+[minibg syouen_syoko 0.5]
+[-]
+[wait 0.5]
+[autotap]/
+[show B C]
+[face B 01]
+[say B]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[-]
+[serif on]
+あ、*Pくん、勉強？
+僕もちょっと調べ物しようかなって。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[flow]
+[face B 02]
+あんまり根詰めて無理しないでね。
+お互い頑張ろうね。/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+図書室では地魂男児たちが本を読んだり
+調べ物をしたりしているようだ。/
+[flow]
+[textcolor ARUJI]
+鉛筆の走る音と本をめくる優しい音だけが
+静かに聞こえてくる。/
+[bgm fun]
+[se walk_04]
+[show A C]
+[face A 01]
+[say A]
+よっ！　主！/
+[serif off]
+?周防/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 00]
+こんなとこでばったり会うとはな。
+主も勉強か？/
+[flow]
+[face A 06]
+ここ、オレ座ってもいい？/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+周防はそう言いながら机の上に
+ドサドサと分厚い本を置いていく。/
+[hide A]
+[flow]
+[textcolor ARUJI]
+周防が両手いっぱいに持ってきていたのは
+難しそうな戦術の書だった。/
+[serif off]
+?周防、そんな本読むんだ/
+[bgm rokuhara]
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+[face A 09]
+[serif on]
+いやー。今日の任務で、なんかイマイチ
+いい感じに動けなかったんだよな。/
+[flow]
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+もっといい感じに仲間を助けられたんじゃ
+ないかと思うんだけどさ。/
+[flow]
+[face A 08]
+いわゆる……兵法とか？　そういうやつが
+大事なんだと思うんだよな。/
+[hide A]
+[se paper_01]
+[face A 08]
+[talkend]
+[textcolor ARUJI]
+周防は一冊目の本を開いて
+ぺらぺらとページをめくる。/
+[flow]
+[textcolor ARUJI]
+辞書のような分厚い本に目を落としていく。/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+[face A 01]
+ふんふん、ふんふん……
+お？　ん～この漢字なんて読むんだ？　ん～……/
+[face A 05]
+[shake A]
+あ、わり、声に出ちまってた！[se zukkoke_02]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+確かに静かな図書室だ。
+少し周りに気を遣った方がいいかもしれない。/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 09]
+[textcolor ARUJI]
+周防は口を押さえながら本を
+じぃっと読んでいる。/
+[hide A]
+[serif off]
+?こっちも集中しよう……/
+[se write_01]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+声聞士昇級試験のためのテキストを見ながら
+ノートにまとめていく。/
+[se paper_01]
+[flow]
+[textcolor ARUJI]
+………………。
+……………………。/
+[serif off]
+?……？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+なにか聞こえてくる。/
+[show A]
+[face A 07]
+[scale A 1.6]
+[move A Y -150]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[bgm comical]
+……ぐごごご……
+ぐごごごご…………/
+[serif off]
+?周防を起こす/
+[se zukkoke_02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+[shakebg]
+[-]
+[serif on]
+いやっ、寝てねえよ！？[shake A]/
+[talkend]
+[textcolor ARUJI]
+ビクッと体を震わせて
+大きな声で反応する周防。/
+[show B R]
+[scale B 1.6]
+[move B Y -150]
+[move B X 400]
+[setline 0.5 A B]
+[face B 12]
+[say B]
+周防くんっ、もうちょっと静かにね。/
+[say A]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+うわ、すまねぇ……
+あー、やっぱ勉強は苦手だぜ……/
+[flow]
+[face A 04]
+やっぱりオレには勉強は向いてねぇか……/
+[hide B]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+なんだか残念そうな周防を見て
+力を貸してあげたくなった。/
+[serif off]
+?どんな本なの？/
+[se paper_01]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+周防の読んでいた本を見てみるが
+確かにのっけから言葉遣いからして難しい。/
+[show A L]
+[scale A 1.6]
+[move A Y -150]
+[show B R]
+[scale B 1.6]
+[move B Y -150]
+[face A 09]
+[face B 10]
+[setline A B]
+[say B]
+僕でも読むの時間がかかりそうだね。/
+[say A]
+[face A 04]
+だよなぁ。やっぱ背伸びするもんじゃねぇか！/
+[talkend]
+[textcolor ARUJI]
+それなら――……/
+[serif off]
+?勉強の仕方を変えてみよう/
+[say A]
+[face A 11]
+[serif on]
+勉強のしかた？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg niwa_day]
+[minibg off]
+[hideall]
+[bgm departure]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show C C]
+[face C 01]
+[say C]
+[serif on]
+いいぜ！　家主さん。
+オレに手伝えることならなんでも言ってよ！/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[flow]
+[face C 02]
+小遣いもいっぱい入りそうだしさ。へへっ。/
+[show A L]
+[setline 0.5 A C]
+[orderline C A]
+[face A 01]
+[say A]
+虎鉄丸。よろしく頼むぜ！
+で、主。虎鉄丸にどう手伝ってもらうんだ？/
+[hide A]
+[face C 08]
+[move C C 0.5]
+[se paper_01]
+[talkend]
+[textcolor ARUJI]
+虎鉄丸にさきほどの本を見せながら
+説明をする。/
+[face C 06]
+[say C]
+[serif off]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[-]
+[serif on]
+うーん、結構難易度高いなぁ……
+消耗激しそう……でも、頑張るぜ！[face C 01]/
+[effect fr syutyu a 0 0]
+[face C 08]
+[scale C 1.6 0.5]
+[move C Y -120 0.5]
+はぁぁ……！！！/
+[hide C]
+[se jutsu_01]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[effect fr reiryoku R 0 0]
+[talkend]
+[textcolor ARUJI]
+虎鉄丸が声聞を始めると
+庭の一角に戦闘フィールドが現れる。/
+[fadein WHITE 0.2]
+[-]
+[effect off a]
+[effect off R]
+[-]
+[delay 0.2 fadeout 0.3]
+[flow]
+[textcolor ARUJI]
+喰魂を模したカカシも立ててくれた。/
+[bgm battle]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[face A 02]
+[shake A]
+おお、すげーー！！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[flow]
+ああ、なるほど……そういうことか！/
+[flow]
+[face A 01]
+文章だと全然わかんなかったけど
+これならオレでも勉強できるぜ！/
+[move A X -250 0.1]
+[delay 0.1 move A X 300 0.2]
+[delay 0.3 move A X -300 0.2]
+[delay 0.5 move A X 250 0.1]
+[autotap]/
+[face A 02]
+[flow]
+こういうときにゃこう動けばいいってことか！/
+[hide A]
+[-]
+[show C]
+[say C]
+[face C 01]
+それじゃあ次のページ、行くぜ！
+はぁぁあ！！！/
+[hide C]
+[se jutsu_01]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[talkend]
+[textcolor ARUJI]
+周防の立つ周囲に塹壕のように土が盛り上がり
+壁が生まれていく。/
+[show A]
+[say A]
+[face A 01]
+なるほどな、こういう状況なら
+喰魂を誘い込むのはここだぜ！　おりゃあ！！/
+[face A 08]
+[move A X 600 0.3]
+[effect fr allow 6000 0 0]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se zuba_01]
+[talkend]
+[textcolor ARUJI]
+周防は喰魂のカカシを倒していく。/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -600 0.4]
+[say A]
+[face A 06]
+へへっ。すげぇスイスイ頭に入ってくるぜ。
+んじゃあ次も頼む！/
+[hide A]
+[-]
+[effect fr syutyu a 0 0]
+[show C]
+[say C]
+[face C 10]
+[effect fr reiryoku R 0 0]
+はぁぁああーー！！/
+[fadein WHITE 0.2]
+[-]
+[effect off R]
+[hide C]
+[-]
+[delay 0.2 fadeout 0.3]
+[-]
+[quake 2]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[face A 03]
+うおりゃあ！！/
+[effect fr slash 6000 0 0]
+[se zuba_01]
+[-]
+[se zuba_01]
+[fadein WHITE 0.2]
+[-]
+[scale A 1]
+[move A Y 120]
+[effect off a]
+[-]
+[delay 0.2 fadeout 0.3]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[flow]
+[quake off]
+[-]
+[face A 11]
+[serif on]
+虎鉄丸、まだいけるかー？/
+[hide A]
+[-]
+[show C]
+[move C Y -10 0.2]
+[delay 0.2 move C Y 10 0.2]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.2]
+[autotap]/
+[say C]
+[face C 04]
+はぁ、はぁ……まだ声聞するの～？/
+[hide C]
+[-]
+[show A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[face A 01]
+[autotap]/
+[say A]
+へへ、わりぃな。それじゃあさ、
+最後にここに体当たり用の的を作ってくれよ。/
+[flow]
+[face A 02]
+思いっきりぶっとばして
+今日はおしまいにするぜ。/
+[show C]
+[scale C 1.6]
+[move C Y -120]
+[move C X 1000]
+[moveline A C -1000 0 1]
+[face C 09]
+[-]
+[say C]
+うえぇ……わかったよ。
+もうくたくただけど……いくぜ……！！[face C 03]/
+[moveline A C 1000 0 0.5]
+[-]
+[move A X -200 0.5]
+[say A]
+[face A 11]
+あ、待てよ。
+やっぱこっちの辺りに頼もうかな……/
+[moveline A C -1000 0 0.3]
+[say C]
+[face C 10]
+声聞！　[shake C]って、[face C 05]え、えっ！？　
+動かないでーー！？[se zukkoke_02]/
+[scale A 2]
+[move A Y -220]
+[moveline A C 1200 0 0.2]
+[rotate A 30]
+[-]
+[effect fr reiryoku 3000 0 0]
+[say A]
+[face A 05]
+[shake A]
+[se jutsu_01]
+おわぁ！！？[fadein WHITE 1.2]/
+[bgm off]
+[serif off]
+?周防！！！/
+[hide A]
+[-]
+[fadeout 1]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+周防の方へと駆け寄ると、
+戦闘フィールドに石でできた壁が生えていた。/
+[show A]
+[rotate A 90]
+[move A Y 100]
+[move A X -500]
+[flow]
+[textcolor ARUJI]
+その中央に、周防のものと思われる
+お尻から下半身が生えていた。/
+[serif off]
+?こ、これは……/
+[say A]
+[face A 05]
+[serif on]
+[bgm comical]
+うおおお！[shake A]　全然うごけねぇ！！[shake A]/
+[talkend]
+[textcolor ARUJI]
+壁の反対側から周防の声が聞こえてきた。
+太ももはじたばたしている。/
+[serif off]
+?虎鉄丸、消してあげて……/
+[show C R]
+[move C X 300]
+[move C X -300 1]
+[say C]
+[face C 09]
+[-]
+[serif on]
+はぁ、はぁ……わ、わかった……
+はぁーーーー！！[shake C]/
+[flow]
+[face C 05]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+…………
+あれ……？/
+[face C 01]
+[serif off]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[-]
+[serif on]
+[flow]
+[face C 06]
+ごめん、もう霊力切れたみたい……
+また明日かなー。/
+[say A]
+[se zukkoke_02]
+[face A 05]
+ええーーー！！？[shake A 2 50 50]/
+[flow]
+あ、主、オレ、明日までこのままってこと！？/
+[serif off]
+?足を引っ張る/
+[scale A 1.6 0.5]
+[move C X 500 0.5]
+[move A Y -120 0.5]
+[hide C]
+[say A]
+[face A 05]
+[serif on]
+あ、主、思いっきり頼む！
+くぅう！　腹がつっかえて……んぐぐぐ……/
+[flow]
+いててて！[shake A]　主、足かたっぽだけじゃなくて
+両足同時にひっぱってくれよ！/
+[serif off]
+?周防の両足を抱え込んで引っ張る/
+[say A]
+[face A 08]
+[serif on]
+いいか、主、タイミング合わせてくれ！
+オレも腹へっこますから！/
+[talkend]
+[textcolor ARUJI]
+眼の前の周防 のお尻から
+周防の声が聞こえる様子は実にシュールだ。/
+[flow]
+[textcolor ARUJI]
+周防の鎧やスパッツは意外とすべすべなので
+手がすべらないようにしっかり掴む。/
+[say A]
+いくぞ！[shake A]　３、[shake A]２、[shake A]１……[shake A]いまだ！！[shake A]/
+[serif off]
+?思いっきり引っ張る/
+[quake 2]
+[effect fr syutyu a 0 0]
+[say A]
+[serif on]
+ふんーーー！！！！[shake A 3 20 20]/
+[bg sky_day 0.3]
+[hide A 0.3]
+[se fall_01]
+[se dosa_01]
+[shakebg]
+[talkend]
+[textcolor ARUJI]
+すぽーーーん！！！！
+ビリビリビリーーー！！！/
+[quake off]
+[effect off a]
+[show C]
+[scale C 1.6]
+[move C Y -180]
+[say C]
+[face C 05]
+[shake C]
+あああーーーーー！！！！/
+[hide C]
+[serif off]
+?！？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+周防の下半身の装備が脱げてしまった。
+スパッツとパンツは完全にビリビリに破れている。/
+[flow]
+[textcolor ARUJI]
+申し訳ないことにその代償を支払ってなお
+周防自身はもちろん壁に埋まったままだ。/
+@周防の声
+ちょ、え！？　なに、マジ！？
+どうなって――え！？/
+[talkend]
+[textcolor ARUJI]
+むき出しになった周防のお尻から
+周防の声が聞こえる。/
+[show C]
+[scale C 1.6]
+[move C Y -180]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.2]
+[delay 0.3 move C Y 10 0.1]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.1]
+[delay 0.7 move C Y -10 0.3]
+[autotap]/
+[say C]
+[face C 02]
+わははは！　あ、ごめんごめん！
+どうしよ。パンツくらいなぁ声聞できるかなぁ。/
+[hide C]
+@周防の声
+主、助けてくれぇーーー！！/
+[serif off]
+?あはは……/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+しかし思いの外手強い状況に
+どうしようかと眺めていると……/
+[bg niwa_day 0.5]
+[show B]
+[face B 01]
+[se walk_01]
+[say B]
+やぁ、周防くんの勉強は進んでる？
+ちょっと様子を見に来ちゃった。/
+[se zukkoke_02]
+[effect fr syutyu a 0 0]
+[quake 2]
+[scale B 1.6 0.3]
+[move B Y -120 0.3]
+[face B 05]
+[flow]
+って、な、なに、これ！？
+どういう状況！！？/
+[effect off a]
+[quake off]
+[show C]
+[rotate C -20 0.5]
+[move C X 250 0.5]
+[say C]
+[face C 05]
+げげっ！　こ、これはちがくて……！
+あわわわ……っ！[shake C]/
+[flow]
+[face C 06]
+その、た、ただの訓練中で……
+ね、家主さん！/
+[serif off]
+?そ、そうです/
+[say B]
+[face B 13]
+[serif on]
+[se zukkoke_02]
+なんの訓練！？/
+[se zukkoke_01]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm off]
+[wait 2]
+[minibg syouen_syoko]
+[bg mbg_syouen]
+[bgm home]
+[-]
+[fadeout 1.5]
+[-]
+[place 翌日 よくじつ]
+[-]
+[autotap]/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 01]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+いやー、昨日はどうなるかと思ったが……
+でもめっちゃ助かったぜ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 06]
+おれ本読むのとかそんなに得意じゃねーけど
+勉強ってすげー大事なものだって思ってんだ。/
+[flow]
+[face A 01]
+だから昨日はたくさん学べて
+ほんと楽しかったぜ。/
+[hide A]
+[se paper_01]
+[talkend]
+[textcolor ARUJI]
+翌日図書室で勉強していると
+周防はまた兵法の本を持って隣りに座った。/
+[serif off]
+?また兵法の書を……？/
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+[serif on]
+ああ、また読もうかと思ってさ。/
+[flow]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+つーか…………/
+[serif off]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+主の隣で読んでるの楽しかったからよ。/
+[face A 01]
+[flow]
+内容は全然わかんなくてもさ。
+一緒に勉強してぇんだ。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[flow]
+[face A 02]
+へへ、いいだろ？/
+[serif off]
+?もちろん！/
+[say A]
+[face A 08]
+[serif on]
+おーし、やるぞぉ……ふんふん、ふんふん。
+……………………/
+[face A 07]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+だが案の定というか
+しばらくすると、周防はまた眠ってしまった。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+すー……すー……/
+[talkend]
+[textcolor ARUJI]
+今日は静かな寝息をたてている。
+これくらいならいいだろう。/
+[flow]
+[se write_01]
+[textcolor ARUJI]
+その無邪気な寝顔を横から眺めながら
+試験勉強を進めたのだった。/
+[flow]
+[textcolor ARUJI]
+確かに周防は座学は苦手かもしれない。/
+[flow]
+[textcolor ARUJI]
+だけど向上心のある、
+頼もしい男児だと、そう思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[bgm off]
+[wait 1]
+[-]
+[autotap]/

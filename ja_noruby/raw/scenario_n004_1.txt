@@ -1,0 +1,1154 @@
+>>0/
+((s))
+[set W s_san_m 讃岐]
+[set A s_n004_m 百太]
+[set B s_n003_m 羽鳥]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 赤熊百太]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[bgm home]
+[fadeout 1]
+[se gaya_01]
+[-]
+[serif on 0.5]
+それは$Wを連れてロクハラの
+レストランエリアに来ていたときのこと。/
+((m))
+[set W s_mus_m 武蔵]
+[set A s_n004_m 百太]
+[set B s_n003_m 羽鳥]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 赤熊百太]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[bgm home]
+[fadeout 1]
+[se gaya_01]
+[-]
+[serif on 0.5]
+それは$Wを連れてロクハラの
+レストランエリアに来ていたときのこと。/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n004_m 百太]
+[set B s_n003_m 羽鳥]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 赤熊百太]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[bgm home]
+[fadeout 1]
+[se gaya_01]
+[-]
+[serif on 0.5]
+それは$Wを連れてロクハラの
+レストランエリアに来ていたときのこと。/
+((s))
+[se walk_06]
+[show W C]
+[face W 12]
+[say W]
+あるじさま、何食べたい？
+オイラはどんなのでもいいよ！/
+((m))
+[auto]
+大将、何か食いてぇもんあんのか？
+オレぁ大将が食いてえもんなら何でもいいぜ！/
+((e))
+[auto]
+師匠！　今日は何を食べますか！
+また何か教えてもらえると嬉しいッス！/
+((s))
+[face W 00]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+……あ、あれっ？
+あれって羽鳥さんかな。/
+((m))
+[auto]
+……お、んん？
+あれって、羽鳥じゃねぇか？/
+((e))
+[auto]
+……あ、師匠。
+あれって羽鳥さんじゃないッスか？/
+[serif off]
+?本当だ/
+[hide W]
+[wait 1]
+[-]
+[serif on]
+[talkend]
+通りに面した喫茶店のテラス席に
+誰かと歓談する羽鳥の姿を見つけた。/
+[serif off]
+[show B C]
+[face B 00]
+[say B]
+[-]
+[serif on]
+おや？　やぁふたりとも。
+おはよう～。/
+[face B 02]
+[flow]
+今日もいい天気だねぇ。
+抜けるような空の青さが心地いいよねぇ。/
+((s))
+[show W L]
+[setline 0.5 W B]
+[face W 01]
+[say W]
+羽鳥さん、おはようございますー！/
+((m))
+[auto]
+おう羽鳥！　おはようさん！/
+((e))
+[auto]
+羽鳥さん！
+おはようございます！/
+[serif off]
+?一緒にいるのは……/
+[hide W]
+[move B C 0.5]
+[face B 01]
+[say B]
+[serif on]
+うん、今日は彼とモーニングコーヒーを
+楽しんでたんだよぉ。/
+[face B 02]
+[flow]
+彼の話はとっても面白いんだ。/
+((s))
+[serif off]
+[show A R]
+[setline 0.5 B A]
+[face A 01]
+[say A]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+恐縮っす！　羽鳥さんと色々お話ができて
+オレも嬉しいっすよ～！/
+((m))
+[serif off]
+[show A R]
+[setline 0.5 B A]
+[face A 05]
+[say A]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+おおお～～～！！！　ひょっとして……
+ひょっとして、本物の地魂男児っすか～！？/
+((e))
+[serif off]
+[show A R]
+[setline 0.5 B A]
+[face A 01]
+[say A]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+恐縮っす！　羽鳥さんと色々お話ができて
+オレも嬉しいっすよ～！/
+[face B 00]
+[say B]
+……そうだ。
+二人にも彼を紹介しておかないとねぇ。彼は……/
+[say A]
+[shake A]
+あ、赤熊百太と申しますっす！
+一応、ジャーナリストで、作家もやってるっす！/
+((s))
+[serif off]
+[show W L]
+[setline 0.5 W B A]
+[face W 00]
+[say W]
+[-]
+[serif on]
+じゃあなりすと？
+作家ってことは、本書く人なのかな。/
+((m))
+[auto]
+あー……じゃーなりすと……な。[face W 12]うんうん。
+（ってなんなんだよ大将～！）/
+((e))
+[auto]
+じゃーなりすと。
+後で辞書で調べておきます……！/
+[face B 01]
+[say B]
+百太くん、こっちがさっき話した*Pくんで
+こっちが$Wくんだよぉ。/
+((s))
+[serif off]
+[face A 05]
+[shake A 2 5 5]
+[say A]
+[-]
+[serif on]
+あっ、じゃあ……この子が……地魂男児……！？
+見た目はほんとに人間と変わんないんすね～！/
+((m))
+[serif off]
+[face A 01]
+[shake A 2 5 5]
+[say A]
+[-]
+[serif on]
+っすよね～！　こんなふさふさ、地魂男児しか
+ないっすよね！！　興奮してきたっす～！/
+((e))
+[serif off]
+[face A 05]
+[shake A 2 5 5]
+[say A]
+[-]
+[serif on]
+あっ、じゃあ……この子が……地魂男児……！？
+見た目はほんとに人間と変わんないんすね～！/
+[face A 02]
+[hide W]
+[hide B]
+[bgm fun]
+[scale A 1.6 0.5]
+[move A XY -200 -150 0.5]
+それから、あなたが……地魂男児を呼び出した
+声聞士……！！
+[se cloth_01]/
+[hideall]
+[talkend]
+百太はこちらの手をぎゅっと握った。/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 02]
+[say A]
+[shake A]
+[effect fr kira a 0 0]
+[se kira_01]
+ああっ！[shake A]　ずっとずっと会いたかったオレの
+ヒーローが目の前に……！/
+[flow]
+これからは先輩って呼ばせてもらっても
+いいっすか！　ね、先輩っ！[scale A 2.0 0.5][move A Y -100 0.5]/
+[serif off]
+?せ、先輩……？/
+[face A 00]
+[effect off a]
+[serif on]
+先輩っ。早速なんっすけど、簡単なことから
+聞いてもいいっすか？/
+[face A 02]
+[flow]
+パンツは、トランクス派っすか？　[wait 0.2]それとも
+ブリーフ派？　[wait 0.2]ボクサー派？　[wait 0.5]あるいは褌？/
+((s))
+[show W L]
+[scale W 2]
+[move W X -300]
+[quake 2]
+[se doka_02]
+[effect fr syutyu a 0 0]
+[move W Y -200]
+[setline 0.3 W A]
+[face W 11]
+[say W]
+お、オイラのあるじさまに変なこと
+聞かないでよー！/
+((m))
+[show W L]
+[scale W 2]
+[move W X -300]
+[quake 2]
+[se doka_02]
+[effect fr syutyu a 0 0]
+[move W Y -200]
+[setline 0.3 W A]
+[face W 11]
+[say W]
+[orderline A W]
+お、おうおう！　大将に変なこと
+聞いてんじゃねぇよ！　すっとこどっこい！/
+((e))
+[show W L]
+[scale W 2]
+[move W X -300]
+[quake 2]
+[se doka_02]
+[effect fr syutyu a 0 0]
+[move W Y -200]
+[setline 0.3 W A]
+[face W 11]
+[say W]
+[orderline A W]
+し、師匠に変なことを聞かないでください！/
+[face A 05]
+[say A]
+[shake A]
+変なことじゃないっす！　大事なことっすよ！/
+[face A 02]
+[flow]
+なにせ先輩のことはほくろの位置から、
+週に何回するのかとか、全部知りたいんっす！/
+((s))
+[face W 06]
+[say W]
+[se zukkoke_01]
+[textsize 40]
+[shake W 2 10 10]
+何の話！？/
+((m))
+[auto]
+な、何の話してんだーー！？/
+((e))
+[auto]
+何の話ッスか！？/
+[hideall]
+[effect off a]
+[quake off]
+[serif off]
+?（よく聞こえなかったフリをしよう）/
+[show A]
+[face A 01]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+オレ、声聞士の密着取材をさせてほしいって
+羽鳥さんにお願いしてたところなんっす！/
+[hide A]
+[-]
+[show B C]
+[face B 01]
+[say B]
+それなら、新米声聞士の*Pくんがちょうど
+適任かなぁって思ったんだよねぇ。/
+[serif off]
+?ロクハラの仕事は機密事項だらけなんじゃ……/
+[face B 01]
+[move B Y -10 0.1]
+[delay 0.1 move B Y -10 0.2]
+[delay 0.3 move B Y 10 0.1]
+[delay 0.4 move B Y -10 0.2]
+[delay 0.6 move B Y 10 0.1]
+[delay 0.7 move B Y -10 0.3]
+[autotap]/
+[face B 06]
+[serif on]
+あはは。彼、面白いでしょ？/
+[face B 02]
+[flow]
+こういうノリの人、うちにはいなかったから
+いいな～って思ってねぇ。/
+((s))
+[show W L]
+[face W 10]
+[setline 0.5 W B]
+[say W]
+そんな感じで許可しちゃうんだ……！[shake W]/
+((m))
+[auto]
+結構ゆるいとこあんのな。羽鳥……/
+((e))
+[auto]
+羽鳥さんの基準がわかんないッス……！/
+[face B 00]
+[say B]
+まぁ、いろいろと大人の都合もあるからねぇ。/
+[serif off]
+[hide W]
+[hide B]
+[-]
+[show A C]
+[face A 08]
+[say A]
+[-]
+[serif on]
+ふっふっふ。オレこう見えて結構鼻が効くんす！/
+[face A 01]
+[flow]
+色んな大物政治家さんたちにしがみついて
+ようやくここに辿り着いたんすよ！/
+[face A 09]
+でも、もちろんスキャンダル狙いとか
+そういうのじゃなくって……/
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[effect fr syutyu a 0 0]
+純粋に、ロクハラと声聞士の皆さんのお仕事に
+感銘を受けてるっす！！[shakebg]/
+[face A 09]
+……だから、今は無理でも、いずれ世界を救った
+先輩たちやロクハラの歴史を振り返るときに/
+[flow]
+ロクハラの人たちの想いとか、地魂男児のこと
+とか、世界のこととか……/
+[flow]
+[face A 02]
+オレは自分の目で見て、正確に記録したいんす！[shakebg]/
+((s))
+[serif off]
+[hide A]
+[effect off a]
+[-]
+[show W C]
+[face W 05]
+[say W]
+[shake W]
+[-]
+[serif on]
+わぁ……なんだか……オイラ
+すごく嬉しいかも……/
+((m))
+[serif off]
+[hide A]
+[effect off a]
+[-]
+[show W C]
+[face W 11]
+[say W]
+[shake W]
+[-]
+[serif on]
+くぅ～～……オレぁ、ちょっと
+感動しちまったぜぃ。嬉しいねぇ……/
+((e))
+[serif off]
+[hide A]
+[effect off a]
+[-]
+[show W C]
+[face W 11]
+[say W]
+[shake W]
+[-]
+[serif on]
+お、オレ……嬉しいッス！
+感動しちゃいました！/
+((s))
+[face W 00]
+[flow]
+赤熊くん、意外と真面目に考えて
+くれてる人なんだ……/
+((m))
+[auto]
+赤熊。お前意外と真面目に物事考えてるヤツ
+なんだなぁ……/
+((e))
+[auto]
+赤熊くん、真剣に考えてくれてるんスね……/
+((s))
+[show A R]
+[setline 0.5 W A]
+[face A 01]
+[say A]
+百太って呼んでほしいっす！
+$Wくん！/
+((m))
+[show A R]
+[setline 0.5 W A]
+[face A 01]
+[say A]
+[orderline A W]
+百太って呼んでほしいっす！
+$Wくん！/
+((e))
+[show A R]
+[setline 0.5 W A]
+[face A 01]
+[say A]
+[orderline A W]
+百太って呼んでほしいっす！
+$Wくん！/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[face W 01]
+[say W]
+うん！　百太くん！/
+((m))
+[auto]
+おう！　百太！/
+((e))
+[auto]
+はい！　百太くん！/
+((s))
+[face W 12]
+[flow]
+最初はちょっとヘンタイ？　[wait 0.3]みたいな
+人かと思って、ごめんね。/
+((m))
+[auto]
+最初はやべーヘンタイみてぇなヤツかと
+思って、悪かったぜぃ。/
+((e))
+[auto]
+最初があれだったんで、危険人物かと思って
+身構えてしまって、申し訳ありませんでした……/
+[serif off]
+[hide W]
+[hide A]
+[-]
+[show B C]
+[face B 02]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[serif on]
+[say B]
+素晴らしいねぇ。そういうことだから、
+*Pくん、彼のことよろしくねぇ。/
+[show A R]
+[setline 0.5 B A]
+[face A 08]
+[say A]
+よろしくお願いするっす！　先輩/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[hide B]
+[scale A 1.6 0.5]
+[move A C 0.5]
+[move A Y -150 0.5]
+[face A 00]
+[-]
+[serif on]
+あ、先輩！　これオレの番号とSNSっす。[se cloth_01]
+裏アカは名刺の裏に書いとくっすね。/
+[face A 10]
+[flow]
+夜空いてそうだったら呼んで欲しいっす！
+いつでも相手できるっすよ！/
+((s))
+[show W L]
+[face W 11]
+[scale W 1.6]
+[move W Y -100]
+[quake 2]
+[se zukkoke_01]
+[setline 0.3 W A]
+[orderline A W]
+[face A 06]
+[say W]
+な、なんだかよくわからなかったけど、
+あるじさまに変なこととか、しないでね！/
+((m))
+[auto]
+な、なんだかよくわかんなかったが、
+大将に変なこととか、すんじゃねーぞ！/
+((e))
+[auto]
+く、詳しくは理解できませんでしたが、
+師匠に妙なことだけはしないでくださいねっ！/
+[talkend]
+[serif off]
+[wait 0.5]
+[-]
+[hideall 1]
+[-]
+[quake off]
+[serif on]
+それが赤熊百太との出会いだった/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>1/
+[set A s_n004_r 百太]
+[show A C]
+[face A 00]
+[-]
+[serif on]
+[say A]
+あ、この小説っすか？　オレの先生の新刊っすよ！
+えっ、先輩読んでくれたんすか？/
+[face A 01]
+[effect fr kira 4000]
+[se kira_01]
+いや～～嬉しいっす！　実はここだけの話……
+中身はほとんどオレが書いてるんっすよね！/
+[face A 06]
+いわゆるゴーストライターってやつっす！[face A 05]
+えっ、自分の名前で出さないのかって？/
+[face A 00]
+ん～オレは好きに取材ができればそれで
+いいんで！　名前とかはどうでもいいっす！/
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+それより先輩の感想、聞きたいっす～！/
+>>2/
+[set A s_n004_r 百太]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[say A]
+この荘園で、先輩たちは世界を救うために
+人知れずがんばってるんすねえ！/
+[face A 03]
+[shake A]
+感動っす。マジでリスペクトっす！
+オレ、そんな先輩のこと全部知りたいっす！/
+[face A 02]
+真面目な話でも、エロい話でも、
+何でも教えてほしいっすよぉ！！/
+>>3/
+[set A s_n004_r 百太]
+[show A C]
+[face A 02]
+[-]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+[say A]
+先輩みてくださいっす。この荘園の装飾とか置物、
+年代モノの予感がビンビンするっすねぇ。/
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+この間知り合った政治家さんや実業家さんが
+ほしがりそうっす。/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、実はオレ偉い人たちと結構つながりあるん
+すよ！　へへっ、密着取材の成果っすねえ！/
+>>4/
+[set A s_n004_r 百太]
+[randomset B r -n004 -@NPC]
+[show A L]
+[show B C]
+[face A 00]
+[face B 00]
+[setline A B]
+[say A]
+[-]
+[serif on]
+$B:A、これから任務っすか？
+少しでいいんでお話聞かせてほしいっす！[face B 01]/
+[face A 01]
+[face B 00]
+今回の任務は……ふむ。[face B 08][shake A 2 0 2]班員は……[face B 01]はいはい。[shake A 2 0 2]
+あと先輩については……[face B 02]なるほどなるほど。[shake A 2 0 3]/
+[face A 02]
+[face B 05]
+[=じゃあ今穿いてるパンツはどんなっすか？ じゃあ好きなプレイはどんなっすか？ じゃあ、するとしたら週何回するんすか？ じゃあ身長・体重を教えてほしいっす。 じゃあ今まで何人くらいと？ じゃあポジションはどっちなんすか？ じゃあ好きなタイプは？ じゃあ何かフェチはあるっすか？ じゃあ初めてはいつっすか？ じゃあ溜まった時はどうするんすか？ じゃあいつも何見てするんすか？ じゃあ一人のときの所要時間は？][shake B][se zukkoke_02]/
+[serif off]
+[face B 06]
+[shake B 3 1 1]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+……ふむふむ。ご協力感謝っす！
+それじゃあ頑張ってきてくださいっす！/
+>>5/
+[set A s_n004_r 百太]
+[randomset B r -n004]
+[show A R]
+[show B C]
+[face A 01]
+[face B 00]
+[say A]
+[move A X 400]
+[-]
+[move A X -400 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+$B:A、記録とりたいんで写真いいっすか！？
+助かるっす！　じゃあ、そこに立って……/
+[setline 0.5 B A]
+[face A 00]
+[face B 01]
+[-]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+おっ、その表情最高っす！[setline 0.3 A B][fadein WHITE 0.2][delay 0.2 fadeout 0.3]
+じゃあ次はポーズを変えて……[face B 08]いい感じっすね！[setline 0.5 B A][fadein WHITE 0.2][delay 0.2 fadeout 0.3]/
+[face A 03]
+それじゃあ次はもっとグイッと腰を突き出して
+もらいたいっす！[face B 05][shake B]/
+[move B X -100 0.5]
+[rotate B 10 0.5]
+[face B 06]
+思いっきりセクシーなかんじで……[shake B]そうそう！[face A 02]
+あ～スッゲ～！　最高っす！！！[shake A 5 10 10]/
+>>6/
+[set A s_n004_r 百太]
+[show A C]
+[face A 06]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+はぁ、オレも地魂男児と同行して
+過去の世界に行けたらなぁ。/
+[face A 00]
+任務を間近でみれるのはもちろん、
+現地の取材もできるっす。[shake A]/
+[face A 03]
+[scale A 1.2 0.5]
+[move A Y -30 0.5]
+それに、オレのジャーナリストとしての経験も
+お役に立てるかもしれないっす。/
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -70 0.5]
+しかも生の地魂男児と寝食を共にできちゃうし
+……はぁ～もう最高っすよねぇ！[effect A love 4000 0 150][se kira_01]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_n004_r 百太]
+[randomset B r -n004 -@NPC]
+[show A C]
+[show B L]
+[face A 01]
+[face B 00]
+[talk A]
+[-]
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[-]
+[serif on]
+へ～ここが厨房っすかぁ！
+おお、いい匂いっすねぇ～！/
+[face A 05]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え？　オレもご馳走になっていいんすか！？
+もちろん、[face A 01]ありがたく頂戴するっす！/
+[face A 06]
+[face B 01]
+[shake A]
+ひゃ～これは精つきそうっすねぇ！
+あ！　食べる前にまずは写真撮らなきゃっす！[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]/
+>>10/
+[set A s_n004_r 百太]
+[randomset B r -n004]
+[show A C]
+[face A 00]
+[-]
+[serif on]
+[say A]
+ふう、もう夜っすねぇ。
+今日ももうすぐ終わりっす！/
+[face A 02]
+[flow]
+それにしても、この共同生活の中、
+みんな男としての処理はどうしてるんすかねぇ？/
+[serif off]
+[show B C]
+[face B 00]
+[say A]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[move B X -1000]
+[moveline A B 1000 0 1]
+[-]
+[wait 0.5]
+[se fusuma_01]
+[move B X -400 0.5]
+[moveline A B -1000 0 1]
+[-]
+[serif on]
+お？　$B:Aってば寝室から
+出てどこに行くんすかねぇ？/
+[hide B]
+[face A 03]
+[move A X -250 0.3]
+……ジャーナリストの勘が追えと言ってるっす。
+$B:Aが寝るまでこっそり取材してみるっす！[hide A][se fusuma_02]/
+>>11/
+[set A s_n004_r 百太]
+[randomset B r -n004]
+[show A C]
+[face A 05]
+[-]
+[serif on]
+[say A]
+[se pi_02]
+[say A]
+おお！？　スマホがやけに鳴ると思ったら……[shake A]
+オレ、アプリで注目ユーザーになったっすよぉ！[effect fr kira a 0 100][se kira_01]/
+[show B R]
+[talk A]
+[face A 02]
+[face B 05]
+今日は通知が止まらなそうっす！/
+[face A 06]
+ん、なんでそんなに驚いてるんすか？[move A X 100 0.2]
+もしかして$B:Aもアプリやってるんすか？[face B 06][shake B]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_n004_r 百太]
+[randomset B r -n004 -@あやかし -@NPC]
+[show A C]
+[face A 02]
+[-]
+[serif on]
+[say A]
+地魂男児たちは、戦うだけあって
+みんなイイ身体してるっすよねぇ。/
+[face A 06]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+いろんなタイプが揃ってて幅広い層に需要ありそう
+っすよね。オレも目移りしちゃうっす。/
+[face A 02]
+[effect fr syutyu 4000 0 0]
+[scale A 1.6 0.3]
+[move A Y -100 0.3]
+おおっ$B:A！[shkae A]
+あの[=体 二の腕 横顔 雄っぱい 肉付き 曲線 ふくらみ チラリズム]、めっちゃイケるっすねぇ……！[effect fr bond 4000 0 0][se kira_01]/
+>>15/
+[set A s_n004_m 百太]
+[randomset B m -n004 -@NPC]
+[randomset C m -n004 -@NPC -@NOW]
+[show A R]
+[show B C]
+[show C C]
+[setline B C]
+[move A X 600]
+[face A 05]
+[face B 08]
+[face C 08]
+[talk A]
+[delay 0.2 shake C]
+[move B X -100 0.3]
+[delay 0.3 shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[-]
+[moveline A B C -1000 0 1]
+[-]
+[serif on]
+ひゃ～、ここが修練場っすかぁ！[shake A]
+ナマで見る地魂男児の稽古、たまんないっすねぇ！/
+[face A 03]
+[move A C 0.5]
+[-]
+[shake A 3 5 5]
+おおおお！　スッゲ～！
+雄と雄のぶつかり合いって感じで燃えるっす！/
+>>16/
+[set A s_n004_r 百太]
+[randomset B r -n004]
+[show A C]
+[face A 00]
+[-]
+[serif on]
+[say A]
+[say A]
+オレ、相手のことを知りたいときは、
+できたら触れ合って直に感じたいんすよねぇ！/
+[face A 01]
+だから取材もぐいぐいいくっすよぉ！/
+[serif off]
+[show B C]
+[move B X -600]
+[moveline A B 600 0 1]
+[move A X 200 0.5]
+[say A]
+[orderline A B]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[setline 0.3 B A]
+[face A 02]
+[face B 00]
+[serif on]
+$B:A、その汗に濡れた鍛えた体、
+触らせてもらってもいいっすか？[face B 05][shake B]/
+>>17/
+[set A s_n004_b 百太]
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -100]
+[se cloth_01]
+[-]
+[serif on]
+[say A]
+[face A 05]
+あ！[shake A]　今日は剃ってきたの忘れてたっす……
+まぁいっか！[face A 00]/
+[face A 06]
+[move A X 400 0.5]
+ちょっと恥ずかしいけど、[se amb_12]
+隠さず堂々といくっす！！[se door_01][hide A]/
+>>18/
+[set A s_n004_b 百太]
+[randomset B b -n004]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[se amb_12]
+[effect fr yuge a 0 0]
+[setline B A]
+[moveline A B 0 -100 0]
+[talk A]
+[-]
+[serif on]
+ふう～いいお湯っす！[se bath_02]/
+[face A 05]
+はっ！[shake A][se bath_04]/
+[face A 06]
+[waku on 0.5]
+今$B:Aと目があったような……
+風呂場で目があうとドキドキしちゃうっすねぇ。[effect A love 4000 0 150]/
+>>19/
+[set A s_n004_b 百太]
+[randomset B b -n004]
+[show A R]
+[show B C]
+[face A 00]
+[face B 00]
+[se amb_12]
+[effect fr yuge a 0 0]
+[say A]
+[orderline B A]
+[-]
+[setline 0.5 B A]
+[-]
+[serif on]
+$B:A、任務ご苦労様っす！
+よかったらオレにお背中流させてほしいっす！[face B 01][shake A]/
+[face A 01]
+[move A XY -80 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY -60 -10 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se bath_03]
+それじゃあ……
+よいしょ、よいしょっ。
+[se bath_05]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]/
+[face A 02]
+いやぁ、これが世界のために戦う男の
+背中なんすねぇ……たまんねぇっす！[face B 06][se bath_05][shake A 5 0 10]/
+>>20/
+[set A s_n004_r 百太]
+[randomset B r -n004]
+[show A C]
+[face A 00]
+[show B]
+[face B 00]
+[setline A B]
+[talk A]
+[moveline A B 200 0 0]
+[-]
+[se pee_01]
+[serif on]
+連れションで地魂男児と一緒になったら、じっくり
+観察していろんな個性をメモしておくっす！/
+[face B 06]
+[move B X 20 1]
+[face A 02]
+こういうディテールがリアリティに
+つながるんすよねぇ！[shake A]/
+>>21/
+[set A s_n004_r 百太]
+[randomset B r -n004]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[setline A B]
+[talk A]
+[-]
+[se pee_01]
+[serif on]
+ふうー、$B:Aと連れションうれしいっすよ～！
+よいしょっと。/
+[face B 05]
+[shake A 3 4 0]
+ぶるんっぶるんっ。/
+[face A 05]
+[face B 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+えっ？　$B:A、オレの見てそんな
+びっくりしたっすか？/
+[face A 02]
+[move A X 100 0.5]
+オレでかいってよく言われるっす！
+じっくり見てもいいっすよ？[shake B]/
+>>22/
+[set A s_n004_r 百太]
+[-]
+[serif on]
+[shakebg]
+@百太
+ん゛お゛ぉおおォォォ♥♥[wait 0.1]
+お゛ほぉおおおォォォォ♥♥♥♥♥[shakebg]/
+[serif off]
+[show A L]
+[face A 06]
+[se door_01]
+[move A X 250 1]
+[-]
+[effect A love 4000 0 150]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+……ふぅ～たっぷり出たっす！！[face A 02]/
+>>23/
+[set A s_n004_r 百太]
+[randomset B r -n004]
+[show A C]
+[face A 06]
+[-]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+[say A]
+この個室は結構狭いから、
+二人で入るのはきついっすかねぇ？/
+[show B R]
+[move B X 150]
+[face B 00]
+[face A 00]
+[talk A]
+[move A X 150 0.3]
+あ、$B:Aちょっと一緒に入ってもらえるっすか？[setline 0.5 A B 100 500][se door_02][face B 05][rotate B 10 0.5][delay 0.3 move A Y -120 0.3]
+おお、意外といけるっすねぇ！[face B 06][face A 02]/
+/
+>>24/
+[set A s_n004_r 百太]
+[randomset B r -n004 -@NPC -あやかし]
+[show A C]
+[show B C]
+[face A 03]
+[face B 01]
+[setline A B]
+[talk A]
+[effect fr syutyu a 0 0]
+[-]
+[serif on]
+[say A]
+$B:A！
+オレ、地魂男児の秘密もっと知りたいっす！/
+[face A 02]
+[face B 05]
+[se zukkoke_02]
+[shakebg]
+だから、今日はここで朝まで密着取材
+させてもらってもいいっすか！？/
+[face A 03]
+[face B 06]
+[move A X 100 0.5]
+[delay 0.2 move B X 20 0.2]
+あくまでも取材っすから！
+お願いするっす！/
+>>25/
+[set A s_n004_r 百太]
+[show A C]
+[face A 02]
+[move A Y -200]
+[-]
+[serif on]
+[say A]
+[move A Y 200 0.3]
+[face A 05]
+んー……はっ！/
+[face A 06]
+[shake A]
+しまった、取材内容をまとめてたはずが
+寝落ちしちゃってたっす。/
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+でもいい夢みてた気がするするから、
+続きを見にいくっす……むにゃむにゃ。[rotate A -60 0.5][move A Y -150 0.5][hide A][delay 0.5 shakebg][delay 0.5 se dosa_01]/
+>>26/
+[set A s_n004_r 百太]
+[show A C]
+[face A 02]
+[move A Y -200]
+[-]
+[move A Y 200 1]
+[-]
+[serif on]
+[say A]
+ふわぁ～。おはようっす。/
+[face A 05]
+[shake A]
+あっ、寝起きでめっちゃ
+元気になっちゃってるっす！/
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+これは自撮りチャンスっすー！[se cloth_01][shake A][fadein WHITE 0.2][delay 0.2 fadeout 0.3]/

@@ -1,0 +1,944 @@
+>>10000/
+@因幡
+我是山陰路的因幡！
+[autotap]/
+[delay 1.8]
+[flow]
+[-]
+@因幡
+嗯，[wait 0.5]嗯，[wait 2.0]
+不管怎樣，很高興認識你！/
+>>10001/
+@因幡
+嗯，[wait 0.5]我很高興你又打電話給我了！/
+>>1/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+你嘆息...[wait 0.3]我確信你累了。
+[face A 01]最好偶爾休息一下！/
+[face A 00]
+我的推薦是…巖井溫泉！ 1300年來
+歷史悠久，是山陰地區最古老的溫泉。/
+[scale A 1.5 0.5]
+[move A Y -60 0.5]
+瞧，你也穿著手巾。
+我們一起唱歌吧！/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+天哪~♪/
+>>2/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif name]
+[serif on]
+[talk A]
+天啊，今天雨下得好大啊！
+水坑看起來像一條河！/
+[face A 00]
+然而，從小木山流下的大瀑布。
+天木瀑布的水不是這樣的！/
+[serif off]
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -30 0.3]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A C 0.3]
+[-]
+[serif on]
+我的雨傘在強壯的瀑布前翩翩起舞！
+我想展示給你看！/
+>>3/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif name]
+[serif on]
+[talk A]
+仙岩松島上生長著松樹。
+搬到花園後，[face A 05]天啊！您甚至可以獲得 Senkan！/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+我也是仙岩松島人。
+我想睡在松樹蔭下/
+[face A 04]
+....但是仙岩松島在海上...
+可能有鱷魚.../
+[face A 04]
+[shake A 3]
+我，這絕對不可能…/
+>>4/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif name]
+[serif on]
+[talk A]
+[move A X 100 0.5]
+[delay 0.5 move A X -200 1.0]
+[delay 1.5 move A X 100 0.5]
+嗯嗯…
+早餐你選日式還是西式？/
+嗯嗯…
+我很擔心.../
+>>5/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 04]
+[serif name]
+[serif on]
+[talk A]
+如果是潮濕的
+連我驕傲的雨傘都發黴了…/
+[face A 01]
+陽光明媚的日子是曬傘的最佳日子！
+就會變得酥脆！/
+>>6/
+[set A s_ina_r 因幡]
+[randomset B r @地魂男児 @あやかし @NPC -ina]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 00]
+[serif on]
+[talk A]
+[face B 01]
+嘿，嘿。$B:A！　[face A 01]“即使你忘記帶午餐，也不要忘記帶傘！”
+就是這樣[face A 00]記住它！/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+我也準備好雨傘了……！
+但是，[face A 04]我不想忘記我的午餐盒...[face B 04]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_ina_r 因幡]
+[randomset B r @地魂男児 @あやかし @NPC -ina]
+[show A L]
+[face A 00]
+[move A X 300 1.0]
+[-]
+[serif name]
+[serif on]
+[talk A]
+今天我要寫日記……！
+[face A 03]嗯……嗯……/
+[face A 01]
+[= 「どの便所を使うか迷ってたら$B:Aが決めてくれた 「$B:Aとちょっとおしゃべりしたんだぜ 「$B:Aにお菓子もらったんだぜ 「$B:Aが訓練を見てくれたんだぜ 「夜、$B:Aと一緒に風呂に入ったんだぜ 「ご飯のとき、$B:Aが醤油取ってくれたんだぜ 「風呂で$B:Aが石鹸を貸してくれたんだぜ 「$B:Aが上着を貸してくれたんだぜ]
+[= 　$B:Aはすっごくイイやつなんだぜ！」 　$B:Aと明日も一緒にって約束したんだぜ！」 　今度はオレが$B:Aのために何かしたいぜ！」 　$B:Aにはすっごく感謝してるんだぜ！」 　$B:Aともっと仲良くなりたいぜ！」]
+/
+>>10/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+哇啊啊啊啊啊啊[shake A 2]……
+我早點睡覺。/
+[face A 04]
+大家晚安。
+[move A X 300 1.5][delay 0.5 rotate A -40 1.0][delay 1.0 move A Y -300 0.5]/
+>>11/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 01]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif name]
+[serif on]
+[talk A]
+今天的餐點是
+是「Karairisu」！/
+[face A 00]
+我可以吃飽了rakkyo。
+我太高興了！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif name]
+[serif on]
+[talk A]
+如果你被鱷魚咬傷，
+輕輕一擊，皮就會剝落…/
+[face A 06]
+確實……很痛……[shake A 3]/
+>>15/
+[set A s_ina_m 因幡]
+[show A C]
+[face A 00]
+[serif name]
+[serif on]
+[talk A]
+主告訴我今天要訓練。
+我會盡力的...！/
+[face A 03]
+變得強大、有用
+我想成為...！/
+>>16/
+[set A s_ina_m 因幡]
+[randomset B m @地魂男児 @あやかし @NPC -ina]
+[show A L]
+[face A 04]
+[move A X -300]
+[-]
+[move A X 500 1.2]
+[delay 1.2 move A X -200 0.5]
+[delay 1.7 move A X 200 0.5]
+[-]
+[serif name]
+[serif on]
+[talk A]
+好吧...[face A 03]沒有人...
+今天是$B:A我們來嘗試模仿.../
+[face A 08]……就這樣酷
+我想要能夠戰鬥.../
+>>17/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+我應該從頂部取下它...還是我應該從底部取下它？[wait 0.7]……
+[face A 00][move A Y 100 0.1][delay 0.1 move A Y -100 0.2]我明白了！它閃現了！/
+[face A 01]
+[move A Y -20 0.3]
+只要同時把它們脫掉就可以了！
+[wait 0.4][move A Y 1000 0.5]頭！/
+>>18/
+[set A s_ina_b 因幡]
+[show A C]
+[face A 00]
+[effect fr yuge a 0 0]
+[se amb_12]
+[-]
+[face A 05]
+[move A X 300 0.5]
+[delay 0.5 move A X -200 0.5]
+[delay 1.0 move A X 200 0.5]
+[delay 0.8 face A 04]
+[-]
+[move A X -300 1.5]
+[face A 03]
+[serif on]
+[talk A]
+這裡是戰場……！[se bath_03]
+洗衣區先到先得.../
+[face A 04]
+當我還在猶豫要去哪裡洗衣服的時候
+一切都會被填滿…[shake A 3]很痛苦.../
+>>19/
+[set A s_ina_b 因幡]
+[show A C]
+[face A 09]
+[se amb_12]
+[effect fr yuge a 0 0]
+[serif on]
+[talk A]
+[se bath_05]
+我得把全身徹底洗乾淨…
+這就是我被告知的.../
+[shake A 3]
+[face A 04]
+該怎麼洗呢？
+我得好好洗一下.../
+>>20/
+[set A s_ina_r 因幡]
+[randomset B r @地魂男児 @あやかし @NPC -ina]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 03]
+[serif on]
+[talk A]
+當幾個小便池排成一排時，
+我很難知道該使用哪一個.../
+[face A 01]
+[move A X 100 0.3]
+[move B X 10 0.5]
+[face B 05]
+因此$B:A，我們一起去吧！/
+[face A 01]
+[move A X 50 0.3]
+[move B X 10 0.5]
+如果要洗澡，應該使用哪個廁所？
+這很有幫助，因為有人為您選擇！[face B 00]/
+[face A 02]
+謝謝！　$B:A！[face B 01]/
+>>21/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 09]
+[serif on]
+[talk A]
+（……那天，突然從後面……
+　我很感動…）/
+[face A 06]
+[shake A 2]
+（事情發生得太突然，我該怎麼反應？
+　我不確定這樣是否可以...）/
+>>22/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[move A Y -50]
+呼…/
+[face A 01]
+[move A Y 80 0.2]
+[delay 0.2 move A Y -30 0.1]
+我今天也很健康！/
+>>23/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+（嗯……我的心無緣無故地狂跳。
+　有時我最終會這樣做......）/
+[face A 06]
+[delay 0.5 move A Y -50 0.2]
+（……[wait 0.3]因為它是一隻兔子
+　我沒辦法了…）/
+>>24/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 08]
+[move A Y -200]
+[-]
+[face A 05]
+[move A Y 300 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+[talk A]
+牙齒！
+我醒了.../
+[face A 03]
+我是一個早起的人，所以...[face A 07]
+[rotate A -30 0.7][move A XY 300 -150 0.8]庫卡.../
+>>25/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+咕咕……咕咕……[face A 03][wait 0.5]嗯……無論我走了多少路……沙子……
+[wait 0.5]從沙丘[face A 06]我無法逃脫……呃……/
+[talkend]
+因幡 似乎很不高興。/
+>>26/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 04]
+[move A Y -80]
+[move A X -50 0.2]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[-]
+[move A Y 80 0.5]
+[serif on]
+[talk A]
+環顧四周…/
+[face A 06]
+好吧...
+就在大家都睡覺的時候.../
+>>27/
+[set A s_ina_r 因幡]
+[show A C]
+[face A 10]
+[wait 0.5]
+[-]
+？ 因幡，生日快樂！/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+[-]
+[serif on]
+[say A]
+哇，我很驚訝！[shake A]
+原來如此，今天是我特別的一天…[face A 02]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+我……我其實真的很困惑……
+有人告訴我我可以自己決定.../
+[say A 09]
+[move A X 100 0.5]
+嗯，1 月 22 日是咖哩日…
+這是可以吃很多樂高的一天。/
+[move A X -200 0.8]
+[face A 03]
+另外，3月3日是兔日。
+我看起來像一隻兔子…我很困惑…
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]/
+[move A X 100 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[scale A 1.6 0.3]
+[move A Y -100 0.3]
+[face A 10]
+那麼，今天……6月11日……呵呵。
+雨傘日！[shake A][face A 01]　就是這裡！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -30 0.3]
+[delay 0.3 move A Y 100 0.1]
+[delay 0.4 move A Y -100 0.2]
+[delay 0.3 move A X 30 0.3]
+[autotap]/
+即使你忘記帶午餐，也不要忘記帶傘！它說
+還有傘舞……我猜這畢竟是關於傘的。/
+[face A 02]
+豬森和隱岐一起思考到了最後。
+他們都是非常好的人。/
+[serif off]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+但即使在做出決定之後，我仍然想知道這樣做是否正確。
+我真的很困惑.../
+[face A 02]
+[scale A 2 0.5]
+[move A Y -80 0.5]
+因為你說恭喜...
+我很高興我今天做到了……我想。/
+[face A 01]
+呵呵。謝謝你！主！/
+>>100/
+[set A s_ina_r 因幡]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 因幡の悩み]
+[-]
+[bg gozasyo_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+我比平常起得早
+我出去散步。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+外面陽光明媚，萬裡無雲。
+溫暖的陽光感覺很好。/
+[serif off]
+？嗯，那是.../
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bg niwa_day]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+庭院有鮮豔圖案的傘
+我幾乎看不到它。/
+[serif off]
+？ 因幡，早安/
+[show A]
+[face A 05]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+噢，主啊！
+早安！/
+[face A 00]
+嗯，呃……我……
+它就這樣發生了！/
+[face A 01]
+你也是個早起的人啊！/
+[talkend]
+[textcolor ARUJI]
+因幡 帶著燦爛的笑容。/
+[serif off]
+？ 因幡也很快。/
+[face A 10]
+[talk A]
+[serif on]
+呵呵，這時候我總是清醒的。
+早起是一件好事！/
+[face A 01]
+可是我醒得很早…你在做什麼…
+就算你問我，我也什麼都沒做啊！[move A Y 10 0.1][delay 0.1 move A Y -10 0.1][se taiko_01]/
+[serif off]
+?？？/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+啊，對了……我想我會問一下…[wait 0.5]啊...[move A X 50 1.0]
+……但我想我應該停下來……[move A X -50 1.0]嗯...[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]/
+[serif off]
+？哦，你有什麼想問的嗎？/
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+哈！我大聲說出來了……！[wait 0.5]
+嗯，[face A 09]沒什麼特別的.../
+[face A 04]
+但是……我明白了……主啊，
+因幡你知道這個國家在哪裡嗎？/
+[serif off]
+？現在……鳥取縣是什麼意思？/
+[face A 00]
+[serif on]
+……！[shake A]/
+[face A 10]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[autotap]/
+哦，原來如此！[move A X 10 1.0]
+我明白了，上帝知道…！/
+[face A 01]
+正如預期的那樣！
+這就是為什麼你是我的主人！/
+[serif off]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -30 0.3]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A C 0.3]
+[autotap]/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+因幡 旋轉他的雨傘。
+高興得又跳又跳。/
+[serif off]
+?這個測驗是什麼？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 10]
+[talk A]
+[serif on]
+呵呵，主是我的祖國，
+我很高興你知道這一點。/
+[serif off]
+？是這樣嗎？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[serif on]
+……我也在這個莊園裡，做任務，幫忙等等。
+我想在各個方面盡我所能，但是…/
+[face A 04]
+我不知道該怎麼辦
+我不知道...[move A Y -10 1.0]/
+[face A 10]
+[scale A 1.2 0.6]
+[move A Y -10 0.6]
+首先……今天開始……[wait 0.5]
+我該怎麼辦？/
+[face A 00]
+[scale A 1.4 0.6]
+[move A Y -20 0.6]
+然後...[wait 0.5]
+如果我明天早起該怎麼辦？/
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -20 0.5]
+如果你決定的話我會很高興！/
+[scale A 1.8 0.4]
+[move A Y -20 0.4]
+嘿！這是怎麼回事！ ？/
+[scale A 2.0 0.3]
+[move A Y -20 0.3]
+[talkend]
+[textcolor ARUJI]
+因幡微笑著走近並要求答覆。/
+[serif off]
+？那……我們一起去散步吧？/
+[face A 10]
+[serif on]
+[say A]
+……！　[shake A]太棒了！
+呵呵。[face A 01]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+因幡 應緊密貼合
+我們立即並肩而行。/
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[face A 04]
+[say A]
+啊……嗯……嗯……
+……但是……嗯……[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+因幡正要說什麼卻又停了下來。
+因幡的手伸出又收回。/
+[serif off]
+?牽手/
+[serif on]
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[say A]
+[face A 05]
+哇！
+我在想我是否也該牽著你的手.../
+[face A 09]
+你是否也想牽手？
+呵呵，我……我太高興了！[face A 02]/
+[se cloth_01]
+[talkend]
+[face A 01]
+[textcolor ARUJI]
+小因幡的手緊緊握著。
+它柔軟而溫暖。/
+[fadein black 2]
+[autotap]/
+[hide A]
+[textcolor ARUJI]
+之後...因幡一直試著放手
+於是我繞著花園走了好多次。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_ina_r 因幡]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 因幡国の美味しいもの]
+[-]
+[bg mbg_map]
+[minibg ima]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[se fusuma_01]
+[show A]
+[face A 05]
+[say A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[wait 0.5]
+[face A 00]
+[serif on 0.5]
+主啊！/
+[talkend]
+[textcolor ARUJI]
+休息的時候在客廳喝茶，
+因幡呼喚我。/
+[serif off]
+？ 因幡/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[talk A]
+[serif on]
+我不敢相信主會在這樣的地方
+很少見！你在幹什麼？/
+[serif off]
+？這是一個休息。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face A 10]
+[talk A]
+[-]
+[serif on]
+嗯...
+我覺得還不錯！/
+[talkend]
+[textcolor ARUJI]
+我只是站在那裡。 [wait 0.5]在這裡
+因幡正在觀看。/
+[serif off]
+?……/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+吉伊[wait 0.2]…[wait 0.2]…[wait 0.2]…[wait 0.2]…[wait 0.2]/
+[serif off]
+？讓我們聊聊吧。/
+[face A 05]
+[talk A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+我、這樣可以嗎……？[face A 02]
+我太高興了！/
+[serif off]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move A X -60 0.3]
+[scale A 1.3 0.3]
+[-]
+[hide A]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+因幡跳上跳下，
+我在他旁邊坐下。/
+[show A C]
+[scale A 1.5]
+[move A Y -50]
+[face A 01]
+[talk A]
+呵呵呵！/
+[face A 10]
+……那麼，我們該聊什麼呢？
+你決定！/
+[serif off]
+？ 因幡告訴我你們國家有什麼好吃的/
+[face A 01]
+[serif on]
+太棒了！ ！　[wait 0.5]嗯，[face A 04]
+哦，我的國家…美味的食物…！/
+[face A 08]
+嗯……嗯……[shake A]
+原來如此……嗯……[move A Y 20 0.4][delay 0.6 move A Y -20 0.5]/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+好吃的東西真多啊！[wait 0.5]
+嗯[face A 09]……嗯……/
+[talkend]
+[textcolor ARUJI]
+因幡正在思考，正在閃爍。
+我焦急地聽著這裡發生的事。/
+[serif off]
+？是啊/
+[face A 04]
+[talk A]
+[serif on]
+嗯...[wait 0.5]生魚片……是……
+所有的魚都很好吃.../
+[face A 09]
+嗯，還剩下什麼……還剩下什麼……/
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+....嗯...[face A 05][move A Y 100 0.1][delay 0.1 move A Y -100 0.2]啊，豆腐竹輪！/
+[face A 01]
+豆腐竹輪太好吃了！[wait 0.5][move A Y 20 0.4][delay 0.6 move A Y -20 0.2]
+……以及[face A 09]我認為.../
+[face A 01]
+嗯，反正很好吃！ ！/
+[serif off]
+？我想嘗試一下/
+[face A 05]
+[shake A]
+[serif on]
+哦，真的！ ？/
+[effect A kira a 0 150]
+[face A 02]
+[talkend]
+[textcolor ARUJI]
+因幡的眼睛閃閃發亮。/
+[scale A 1.8 1.0]
+[move A Y -50 1.0]
+[talk A]
+嗯，那麼……嗯……那個……/
+[effect off a]
+[face A 09]
+……/
+[serif off]
+[scale A 1.0 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -40 0.2]
+[-]
+[serif on]
+[face A 06]
+……啊啊啊我！
+我忘了我還有事要做！/
+[face A 01]
+[move A X 100 0.3]
+就是這樣，主啊！[se fusuma_02][move A Y 100 0.1][se walk_03][delay 0.1 move A Y -100 0.1][move A X 1000 0.7][hide A]/
+[serif off]
+?！？/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+因幡突然逃跑了。/
+[se walk_03]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bgm night]
+[hideall]
+[minibg off]
+[bg rouka_day]
+[-]
+[fadeout 0.5]
+[-]
+[show A R]
+[face A 06]
+[move A X 300]
+[move A C 0.5]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[talk A]
+[-]
+[serif on]
+嘆息……嘆息……嘆息……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[face A 04]
+[talk A]
+呃...[shake A]
+為什麼不能說出你的想法？/
+[flow]
+我想推薦一些其他好吃的東西...
+....還有...[wait 0.5]…………/
+[fadein WAHITE 0.5]
+[serif off 0.5]
+[-]
+[scale A 1.6]
+[move A Y -50]
+[minibg ima]
+[bg mbg_map]
+[waku on]
+[face A 01]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor BLUE]
+（那下次一起去吃飯吧！）/
+[fadein WHITE 0.5]
+[serif off 0.5]
+[-]
+[minibg off]
+[bg rouka_day]
+[waku off]
+[scale A 1]
+[move A Y 50]
+[face A 03]
+[-]
+[fadeout 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+其實我想說的就是這個...
+我主要是想讓他們吃豆腐竹輪。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+因幡輕輕嘆了口氣。/
+[show A C]
+[face A 04]
+[talk A]
+嘆息...
+我想要更有自信...[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[serif off]
+[hide A]
+？ 因幡/
+[show A]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+哇！啊，主啊…[wait 0.5]
+發生了什麼事？[face A 01]　[wait 0.5]你有事要做嗎？[face A 10]/
+[serif off]
+？下次一起吃豆腐竹輪。/
+[face A 05]
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.2]
+[move A Y -100 0.2]
+[-]
+[shakebg]
+[serif on]
+....！ ！ ！[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[effect off a]
+哦，哦！好的！
+我一定讓你吃飽！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+呵呵……師傅果然厲害。/
+[serif off]
+?？/
+[fadein black 2]
+[autotap]/
+[talkend]
+[serif on 0.5]
+[textcolor ARUJI]
+之後，我在網路上買了一些豆腐竹輪。
+我和因幡一起吃飯。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

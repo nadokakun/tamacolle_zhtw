@@ -1,0 +1,1235 @@
+>>10000/
+@遠江
+哇啊啊。噢，你打電話給我了？　[wait 4]
+我們是東海道遠江！[autotap]/
+[delay 3]
+[flow]
+[-]
+@遠江
+主啊……不，兄弟！　[wait 2]
+從今天開始，如果我們只是朋友，我會請求你的幫助！/
+>>10001/
+@遠江
+哦，你又打電話給我了？　兄弟。[autotap]/
+[delay 3]
+[flow]
+[-]
+@遠江
+我會報答你給我的恩情。　
+我就把屁股留給你了！/
+>>1/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+兄弟們。你知道遠州的卡拉風嗎？
+冬天吹來的海風，非常寒冷。[face A 04][shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+但如果我感受到那股風，我一定會去我自己的國家。
+你永遠不會忘記它。/
+[face A 10]
+[flow]
+如果我弟弟也嘗試吹一次就好了。
+我就站在你身邊支援你！/
+>>2/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+我國的濱名湖是日本最大的鹹水湖之一。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+現在可以玩各種水，
+我有足夠的食物。/
+[face A 10]
+[flow]
+另外，透過紅色鳥居看到的夕陽也非常壯觀。
+兄弟們，我們一起去看看吧！/
+>>3/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 10]
+[serif on]
+[say A]
+我們的驕傲當然是鰻魚！
+你弟弟喜歡吃鰻魚嗎？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+濱名湖的鰻魚非常棒。
+它又肥又肥又美味。/
+[face A 06]
+[flow]
+[shake A]
+另外，還有用鰻魚製作的夜間甜點。
+顯然是有的。/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+呵呵，試試看吃。/
+>>4/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[face A 09]
+[serif on]
+[say A]
+呵呵~。[shake A]天氣真好。/
+[rotate A 10 0.5]
+[move A Y -100 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+在這樣的日子裡，除了感受風，我什麼都做不了
+如果感覺不錯的話。/
+[show B R]
+[face B 00]
+[face A 09]
+[setline 0.5 A B]
+[face A 10]
+[flow]
+嗯。$B:A你打算在這裡待一段時間嗎？
+當我仰望天空時，我忘記了時間。/
+[face B 05]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，那些雲…[= うなぎ お魚 兄弟 たいやき $B:A うさぎ カメ 浜名湖]它的形狀是！[se taiko_02]/
+>>5/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[show B]
+[setline A B]
+[face B 05]
+[face A 12]
+[serif on]
+[say A]
+[orderline A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊？　$B:A，你的頭髮又長出來了嗎？
+我希望它快點長大。[face B 01]/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[se cloth_06]
+[face B 02]
+[face A 11]
+但切掉它卻很痛苦。如果你像這樣綁起來...
+……我想這也不錯。[face A 02]/
+>>6/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[se fusuma_01]
+[face A 07]
+[move A X 500]
+[move A X -500 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+[say A]
+哦，如果廚房裡有好吃的東西就好了。
+……噢，真好吃！[face A 10][move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3][se eat_01]/
+[show B L]
+[move B X -400]
+[setline 0.5 B A]
+[face B 03]
+[face A 05]
+[say A]
+[orderline A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……$B:A！如果你正在做飯怎麼辦？
+對不起，零食...[shake A][face A 04]/
+[face A 06]
+[face B 04]
+[move A X -100 0.5]
+[rotate A 5 0.5]
+[se cloth_06]
+它聞起來太香了，我無法控制。
+……你還想再吃一口嗎？/
+>>7/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[show B R]
+[setline A B]
+[face A 00]
+[face B 00]
+[serif on]
+[say A]
+[orderline A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嘿，$B:A！　
+你願意和我一起去釣魚嗎？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face B 01]
+[face A 10]
+[flow]
+當我讓線垂下來時，感受著微風，我感到頭暈。
+不過感覺還不錯。/
+[face A 07]
+就算釣不到魚
+沒什麼好擔心的。/
+>>8/
+/
+/
+>>9/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 01]
+[say A]
+[se amb_05]
+[rotate A 30]
+[move A Y -50]
+[se cloth_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+夜風吹過的感覺真好。
+我還是很睏，因為我白天睡覺了。/
+[face A 07]
+[flow]
+呼，今天就這樣一直到早上吧。
+我希望我能看星星。/
+>>10/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A L]
+[move A X -400]
+[show B R]
+[face B 04]
+[setline 0.5 A B]
+[orderline A B]
+[face A 12]
+[-]
+[serif on]
+[say A]
+$B:A，我覺得不舒服。沒錯...
+你願意和我一起去吃鰻魚嗎？/
+[face A 10]
+[face B 01]
+[flow]
+如果你吃好吃的食物，你一定會感覺更好。/
+>>11/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[show B R]
+[face B 00]
+[setline 0.5 A B]
+[orderline A B]
+[face A 00]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+$B:A，你嘴裡叼著什麼？
+這是一根長牙籤。[face A 02]/
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -120 0.5]
+[move A X 150 0.5]
+[rotate B -5 0.5]
+[se cloth_06]
+[autotap]/
+[face A 10]
+[face B 05]
+嘿，我相信你把這個東西含在嘴裡就會平靜下來。
+$B:A來吧，你想吸它嗎？/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[face B 06]
+[shake B]
+間接接吻？哈哈，沒什麼好擔心的！/
+>>12/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 09]
+[serif on]
+[rotate A 30]
+[move A Y -100]
+[say A]
+咕咕咕，咕咕咕…[shake A]嗯，[face A 11]嘿，我睡得很好，很好。
+我想知道我是否會很快醒來.../
+[rotate A 0 0.3]
+[move A Y 100 0.3]
+[face A 05]
+[se cloth_06]
+哇，已經是晚上了！ ？我睡太多了！[shake A]
+如果你執行任務要遲到了！[move A X -500 0.3][se walk_03][hide A]/
+>>13/
+/
+/
+>>14/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[face A 04]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+嗯，身體有些發麻…/
+[show B R]
+[face B 05]
+[setline 0.5 A B]
+[orderline A B]
+[face A 02]
+[flow]
+這種時候，很容易發洩。
+$B:A你覺得怎麼樣？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[face B 06]
+[flow]
+畢竟，這種事情很正常。/
+>>15/
+[set A s_tou_m 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[face A 08]
+[effect fr katanas 6000 0 0]
+[se doka_01]
+[delay 0.3 se katana_03]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[shake A]
+[-]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+唷。我累了...
+我想休息一下。好球。[move A Y -100 0.5][rotate A 30 0.5][se dosa_01][face A 07]/
+[show B R]
+[face B 05]
+[move B X 300]
+[move B X -300 0.5]
+[orderline A B]
+我要小睡一下以恢復體力。
+咕咕咕~~[face A 09][shake A]/
+>>16/
+[set A s_tou_m 遠江]
+[randomset B m @地魂男児 @あやかし -tou]
+[show A C]
+[show B C]
+[face B 00]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[effect fr allow 6000 0 0]
+[se katana_03]
+[setline 0.3 A B]
+[orderline A B]
+[face A 08]
+[move A X -100 0.3]
+[move B X 100 0.3]
+[-]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+哈哈哈...希望你今天表現出色。
+我滿頭大汗。天氣這麼熱，為什麼不把衣服脫掉呢？[face B 05][se zukkoke_02][shake B]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[face B 06]
+[flow]
+呵呵，男人們。我好害羞啊！/
+>>17/
+[set A s_tou_b 遠江]
+[randomset B b @地魂男児 @あやかし -tou]
+[show A R]
+[move A X 300]
+[se door_01]
+[show B C]
+[face B 00]
+[setline 0.5 B A]
+[orderline A B]
+[face A 02]
+[-]
+[serif on]
+[say A]
+呼呼，洗澡的時候覺得神清氣爽。
+哦，$B:A。[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]/
+[face B 05]
+[se cloth_06]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -120 0.5]
+[autotap]/
+[face A 01]
+[flow]
+裸踩的話體重計會更準！
+請稍等一下。/
+[rotate B 10 0.5]
+[face B 06]
+[face A 12]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哪一個...
+哎喲餵，比以前重了！[shake A]/
+>>18/
+[set A s_tou_b 遠江]
+[randomset B b @地魂男児 @あやかし -tou]
+[show A C]
+[show B R]
+[face B 00]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -170 0]
+[setline B A]
+[move B X -150]
+[orderline A B]
+[face A 12]
+[effect fr yuge a 0 0]
+[se amb_12]
+[serif on]
+[say A]
+[se bath_05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+呵呵，你洗得還不夠嗎？
+是這樣嗎？[face A 11]/
+[move A Y 100 0.5]
+[se cloth_01]
+[face A 10]
+[face B 05]
+現在，請給我洗洗吧。
+因為我就站在這裡。如果你想要我的整個身體！/
+>>19/
+[set A s_tou_b 遠江]
+[randomset B b @地魂男児 @あやかし -tou]
+[show A C]
+[effect fr yuge a 0 0]
+[se amb_12]
+[scale A 1.6]
+[move A Y -170]
+[se bath_04]
+[face A 04]
+[serif on]
+[say A]
+嗯。我覺得很熱……我覺得頭暈……
+嘿嘿，我要在這裡躺一會兒…[rotate A 30 0.5][se bath_04][move A Y -70 0.5]/
+[show B L]
+[scale B 1.6]
+[move B Y -120]
+[move B X 300 0.5]
+[se water_07]
+[effect fr splash 6000 0 0]
+[orderline A B]
+[face A 05]
+[face B 00]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[shake A]
+哇！ ？[face B 05][move B X 100 0.3]
+$B:A到[= お尻 足 おなか]如果你踩到它...[face A 12]/
+[face A 04]
+[flow]
+今天我要睡了……呃……[move A Y -100 0.5][face B 04][shake B][se bath_04]/
+>>20/
+[set A s_tou_r 遠江]
+[randomset B b @地魂男児 @あやかし -tou]
+[randomset C b @地魂男児 @あやかし -tou -@NOW]
+[show B L]
+[show C L]
+[move B X -300]
+[move C X -100]
+[moveline B C 0 -120 0]
+[scale B 1.6]
+[scale C 1.6]
+[face B 04]
+[face C 03]
+[show A R]
+[move A X 500]
+[move A X -500 0.5]
+[face A 05]
+[orderline B C A]
+[serif on]
+[say A]
+咕咕。如果小屋排成一列...[shake A]
+我通常在外面完成很多事情，所以我不擅長耐心...[move B X -300 0.5][hide B][move C X -200 0.5][face A 04]/
+[se water_09]
+[shakebg]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[se cloth_06]
+[setline 0.3 C A 200 800]
+[face C 05]
+[move C X -150 0.3]
+[rotate C 10 0.3]
+[orderline A C]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，如果你有空的話！[shake A][se pee_01]　呼…
+……真是神清氣爽啊。[face B 06]/
+>>21/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[show B R]
+[face B 05]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[setline A B]
+[orderline A B]
+[se pee_01]
+[face A 00]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嗯，嗯？　$B:A我該怎麼辦？　
+哈哈，我是不是沒有達到目標？[face A 02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[face B 06]
+這很難。
+你知道，我也是這樣，所以我懂。呵呵。/
+>>22/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -170]
+[serif on]
+[say A]
+唷。我感到神清氣爽。然後按這個按鈕
+有點.../
+[effect bk splash 6000 0 0]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嗯嗯，哈哈。這臺機器有水嗎？
+總是很有趣！[shake A]/
+>>23/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[move A X -100]
+[move A X 100 0.5]
+[face A 04]
+[scale A 1.6]
+[move A Y -120]
+[se water_09]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+媽的，看來要漏了…
+嗯……我希望我現在可以睡個好覺了。/
+[face A 11]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+即便如此，重新穿上腰布還是很痛苦。
+……我不介意就這樣一直到睡覺。/
+[show B R]
+[move B X 500]
+[face B 05]
+[scale B 1.6]
+[move B Y -120]
+[setline 0.5 A B]
+[orderline A B]
+[face A 05]
+[se zukkoke_02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+……哇$B:A！[shake A]
+你在黑暗的走廊上做什麼？ ？我很驚訝。/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[face B 06]
+[flow]
+哦，你看起來怎麼樣…？
+哈哈，男人們。別擔心！/
+>>24/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[show B R]
+[face B 04]
+[setline A B]
+[orderline A B]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+唷……今天又是美好的一天。
+$B:A，我該怎麼辦？[face A 00]　我聞到了…？/
+[face A 04]
+[face B 03]
+因為白天出汗了...[shake A]
+好吧，我要去洗澡了。[face A 12][move A X -500 0.5][se fusuma_01][hide A]/
+>>25/
+[set A s_tou_r 遠江]
+[show A C]
+[rotate A 30]
+[face A 09]
+[serif on]
+[say A]
+咕咕咕～。咕咕咕咕~~~
+嗯...希望能多吃點鰻魚...Gugo~。[shake A]/
+[talkend]
+[face A 07]
+遠江 鼾聲很大。
+就好像我夢見要吃鰻魚一樣。/
+>>26/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[randomset C r @地魂男児 @あやかし -tou -@NOW]
+[show A C]
+[show C L]
+[show B R]
+[face B 07]
+[rotate C 30]
+[move C Y -100]
+[rotate B 30]
+[face C 07]
+[move B Y -100]
+[face A 04]
+[rotate A 30]
+[rotate A 0 0.5]
+[se cloth_01]
+[move A Y -100]
+[move A Y 100 0.5]
+[serif on]
+[orderline B A]
+[say A]
+我的身體潮紅了，睡不著。
+我要稍微發洩一下。/
+[face A 06]
+[move A Y -50 0.5]
+大家都在睡覺嗎…？好吧，即使我醒著
+如果沒有人關心的話。這就是身為一個男人的感覺。[face A 07]/
+>>27/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 00]
+？ 遠江，快樂的一天！/
+[face A 02]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+嘿，兄弟！謝謝。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+今天是「森林節」的日子！
+嗯，在現代，這個日期似乎有點不對勁。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 10]
+[flow]
+從11月1日開始，持續了很長一段時間。
+我的感覺沒有改變。這一天是我特別的一天！/
+[serif off]
+？ 遠江的國慶日？/
+[face A 01]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+呵呵，當然是啦！鼓聲敲響了！　[shake A][se taiko_02]
+小吃攤吱吱作響，石松林的音樂也響起！[shake A][se taiko_01]/
+[face A 03]
+[flow]
+“我們開始吧！”[shake A]一聲喊叫
+我嘗試推擠一個閃亮的黑色攤位並比較我的力量。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 07]
+場面十分激烈，被稱為「戰鬥節」。
+呵呵，光是想想就讓人熱血沸騰。/
+[face A 08]
+[flow]
+……不過，我喜歡放鬆。
+如果是為了保護某人而戰，我一定會買！/
+[talkend]
+遠江說著，握緊了拳頭。
+我成功了並向你展示了它。/
+[face A 01]
+[say A]
+我會用這拳頭保護你。呵呵，瑞帕達拉？
+來吧，把你弟弟也拉上來。/
+[serif off]
+?伸出你的拳頭/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 08]
+[autotap]/
+[serif on]
+[se cloth_01]
+[talkend]
+然後遠江把他的拳頭放在我的拳頭上。
+我為此付出了很多努力。/
+[flow]
+你可以感受到遠江拳頭的力量和溫暖。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+呵呵。感受我哥哥的拳頭。　
+我感覺我的心情已經被傳達了！/
+[face A 01]
+[flow]
+如果發生衝突
+如果我能站在你面前，保護你就好了。/
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+現在，我們去參加節慶吧，兄弟！
+一起享受夜晚的空氣吧！/
+>>100/
+[set A s_tou_r 遠江]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 遠江と盃]
+[-]
+[minibg syouen_watarirouka]
+[bg mbg_syouen]
+[se walk_01]
+[-]
+[fadeout 2.0]
+[-]
+[bgm home]
+[serif on 0.5]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+今天六原總部召開了一場長時間的會議。
+我的身體感覺像一塊石頭，可能是因為我坐太久了。/
+[flow]
+[textcolor ARUJI]
+回莊園的路上，我沿著一條安靜的走廊走。
+……不知從什麼地方傳來了類似大地隆隆的聲音。/
+[shakebg]
+@？？？
+咕咕.../
+[serif off]
+？我想知道那是什麼.../
+[serif on]
+[talkend]
+[textcolor ARUJI]
+順著聲音的方向走，就會發現自己來到了池塘邊的草坪。
+那裡有一個特別大的影子。/
+[minibg off 0.5]
+[bg niwa_day 0.5]
+[show A]
+[rotate A 30]
+[move A Y -100]
+[face A 09]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+嗚嗚嗚…/
+[talkend]
+[textcolor ARUJI]
+他把粗壯的身體丟到草地上，仰躺著。
+他四肢攤開，鼾聲如雷。/
+[bgm fun]
+[serif off]
+？ 遠江！ ？/
+[say A]
+[serif on]
+[face A 07]
+嗯...[shake A]咕咕咕…[face A 09]/
+[talkend]
+[textcolor ARUJI]
+不管我和她說話多少次，遠江還是打呼嚕很大。
+我繼續睡覺，聲音仍在播放。/
+[serif off]
+？ 遠江的臉頰/
+[scale A 1.6 0.5]
+[move A Y -70 0.5]
+[autotap]/
+[serif on]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+一邊呼喊著遠江~，
+我用手指戳了戳他的臉頰。/
+[se cloth_01]
+[shake A]
+[say A]
+[face A 07]
+嗯嗯，嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚…[shake A]/
+[talkend]
+[textcolor ARUJI]
+你想讓你那厚實、有嚼勁的臉頰被壓扁多少次？
+儘管被戳了，遠江仍繼續睡覺。/
+[serif off]
+？ @@嘗試搖晃P42@@的身體/
+[se cloth_01]
+[shake A 3 5 1]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+我把手放在透過和服露出的肚子上。
+嘗試搖動它。/
+[se cloth_01]
+[shake A]
+[flow]
+[textcolor ARUJI]
+遠江柔軟的手指陷入了她的肚子。
+當你搖晃它時，它會緩慢地移動。/
+[hide A]
+[serif off]
+？再激烈一點.../
+[se cloth_06]
+[shakebg]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+晃動了一會兒後，“比坤！”
+遠江的身體顫抖著。/
+[show A]
+[move A Y -100]
+[rotate A 30]
+[se cloth_01]
+[face A 07]
+[say A]
+嗯？這是誰啊...
+主啊？[face A 00]/
+[rotate A 0 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+啊啊啊…
+嘿，我睡著了。/
+[face A 00]
+[se cloth_01]
+[move A Y 100 0.5]
+[talkend]
+[textcolor ARUJI]
+遠江站在另一邊。
+沉重的陰影遮擋了陽光，形成了一個大陰影。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]
+/
+[say A]
+[face A 01]
+我本來想早點打個招呼，但這是一個會議。
+所以我才在這裡悠閒地等待。/
+[flow]
+[face A 02]
+然後我意識到我已經睡著了。
+我很高興主叫醒了我。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+不管怎樣，這裡的風真好。
+我找到了一個不錯的地方可以小憩一下。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[se amb_13]
+[face A 10]
+連我老公也毫不猶豫地坐到我旁邊了。/
+[talkend]
+[textcolor ARUJI]
+看著遠江無憂無慮的舉動，我心裡有種感覺。
+我嫉妒了，接受了他的邀約。/
+[serif off]
+?坐在我旁邊/
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+[se dosa_01]
+當我坐在草地上時，
+涼爽的微風撫過你的臉頰。/
+[se amb_13]
+[face A 10]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哇，我最喜歡親近大自然了。
+今天的風感覺很好。/
+[flow]
+[face A 07]
+我喜歡祖國的風，但這風是
+感覺溫暖又溫柔。/
+[serif off]
+？感覺確實不錯/
+[face A 01]
+[serif on]
+[say A]
+如果主也這麼想怎麼辦？
+呵呵。這樣就更好了！/
+[rotate A 40 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[se dosa_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+遠江再次躺在草地上。
+我躺在遠江旁邊，伸展著頭。/
+[light def 0.5]
+[lightcolor blue]
+[shakebg]
+[se dosa_01]
+[bg sky_day 0.5]
+[flow]
+[textcolor ARUJI]
+我的眼前是一片蔚藍的天空。就像這樣
+我不知道自己已經多久沒有抬頭仰望天空了。/
+[flow]
+[se amb_10]
+[textcolor ARUJI]
+據說這個天空是使用語音聆聽技術的投影。
+天然的藍天令人難以置信。/
+[flow]
+[textcolor ARUJI]
+還有大朵的雲慢慢地移動。
+我感覺僵硬的身體放鬆了。/
+@遠江
+當我這樣看著雲彩時，
+你可以看到它有各種形狀.../
+@遠江
+看，那朵雲看起來像鰻魚！
+那邊的雲是五彩紙屑。還有，那個.../
+[talkend]
+[waku on 0.5]
+[textcolor ARUJI]
+當我心不在焉地聽遠江時
+我的眼皮因一種溫暖、愉悅的感覺而變得沉重。/
+@遠江
+…………/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[lightcolor orange]
+[wait 2]
+[bg sky_sunset]
+[bgm night]
+[-]
+[se amb_03]
+[fadeout 1.5]
+[-]
+[waku off 0.5]
+[-]
+[autotap]/
+[serif off]
+？哈，已經晚上了！ ？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+不知不覺間，夕陽已把水面染成了紅色。
+一件遠江斗篷披在他的身上。/
+[minibg sky_sunset 0.5]
+[bg mbg_syouen 0.5]
+[se cloth_01]
+[show A]
+[face A 12]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哇哦。主啊，你醒了嗎？你怎麼認為？
+如果在外面睡覺感覺很好怎麼辦？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+確實我睡得很好
+我的身體變得輕了很多。/
+[show A]
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+因為我先醒了
+我就是這樣釣魚的。/
+[hide A]
+[se water_06]
+[talkend]
+[textcolor ARUJI]
+遠江手裡拿著一根釣竿，正在讓魚線落下。
+水桶是空的，但他的心情似乎不錯。/
+[show A]
+[face A 07]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+釣不到魚我也不在乎。感受風聲和水聲
+最好保持心不在焉。/
+[face A 11]
+[flow]
+……但是太陽正在下山...我終於下山了。/
+[hide A]
+[se cloth_01]
+[serif off]
+？我們回莊園吧。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg sky_star]
+[bg black]
+[hideall]
+[lightcolor blue]
+[-]
+[fadeout 1.5]
+[-]
+[se amb_05]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+我大部分時間都在睡覺，但感覺很
+我感覺我度過了一段奢侈的時光。/
+[show A]
+[face A 02]
+[say A]
+主啊，今天感謝禰！
+哦，我想花一些時間與主在一起。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+就這樣在一起，感受著同樣的風…
+我可以將我的背交託給主。我就是這麼想的。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+最後...[wait 0.5]
+您還想再多一點嗎？/
+[face A 10]
+[flow]
+請跟我交換眼鏡。
+這對我們來說是一個重要的儀式。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 01]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+遠江緊張地把手伸進衣服裡。
+他拿出一個巴掌大小的酒瓶和一個小choko。/
+[serif off]
+？裡面有類似的東西。/
+[face A 07]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+呵呵，旅行者甚麼都帶著。
+主啊，請先接受我的杯。/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+遠江取下清酒瓶的蓋子。
+倒一些到choko嘴裡遞給我。/
+[serif off]
+?接收/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+當我用雙手接過choko時，
+有一股淡淡的清酒香味。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[effect fr syutyu 6000 0 0]
+[say A]
+[se taiko_02]
+現在，一次全部喝掉！/
+[hide A]
+[serif off]
+？喝/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+當我把它放進嘴裡時，一股清涼如風的感覺從喉嚨裡掠過。
+它有一種令人驚訝的清爽味道。/
+[show A]
+[face A 10]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+下次我也問問你。
+給我倒很多。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+將其倒回同一個choko中並將其交給遠江。/
+[serif off]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[say A]
+[se cloth_06]
+[serif on]
+嗯...[wait 0.5]哈哈！[face A 06]
+現在我和師父意見一致了！/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 08]
+[shake A]
+主啊…[wait 0.2]從今往後，我就叫你哥哥了！
+兄弟，從現在起我就請求你的幫助了！/
+[effect off a]
+[serif off]
+？很高興認識你。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[serif on]
+[say A]
+噗，嘿嘿，我好開心啊！
+那麼，我就一邊看星空，一邊小睡吧。/
+[serif off]
+？我又要睡覺了！ ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[face A 07]
+[serif on]
+夜風和星星是最好的搖籃曲。/
+[rotate A 30 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[face A 07]
+[talkend]
+[textcolor ARUJI]
+遠江再次躺在草地上。/
+[rotate A 20 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[face A 02]
+兄弟，如果你有困難，你可以永遠依靠我。
+不管發生什麼事，我都會打你一頓！[shake A]/
+[rotate A 40 0.5]
+[flow]
+[face A 07]
+那麼，晚安。/
+[serif off]
+？晚安，遠江/
+[serif on]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+剛想回莊園，就聽見鼾聲大作。
+聲音從我身後傳來。/
+[flow]
+[textcolor ARUJI]
+遠江 很大膽，按照自己的步調工作。
+不過，總感覺還是可靠的。/
+[bg sky_star 0.5]
+[minibg off 0.5]
+[se amb_13]
+[flow]
+[textcolor ARUJI]
+一邊感受著宜人的夜風，一邊聆聽著遠江的睡眠呼吸聲。
+我對未來的生活充滿了期待。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

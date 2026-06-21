@@ -1,0 +1,652 @@
+>>1/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[orderline A]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+嘿，老公。
+感謝您一直以來的支援！/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+順便說一句，我想要我丈夫身邊有一些東西。
+他不在嗎？/
+[face A 01]
+如果發生什麼事
+我給你買！/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+……這也是為了籌集資金傳播小豆。
+這就是為什麼.../
+>>2/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[orderline A]
+嘿，老公！
+我的對手是大豆店和六原店！/
+[face A 06]
+[flow]
+我覺得沒關係，因為大豆總有一天會被滅絕。
+商店是一個可怕的敵人......我不想輸！[face A 03]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+老公，你有生意興隆的好點子嗎？
+告訴我！/
+[face A 02]
+[flow]
+根據商品的不同，我們將提供各種服務以表謝意！
+休克休基！/
+>>3/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[orderline A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+嘿！ ？
+……老公，什麼事？[shake A][face A 01]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+如果你偷偷靠近我，你會感到驚訝的！
+呃，我還以為是貓貓呢…/
+[face A 03]
+[shake A]
+如果他發現我，他就會把我趕出這裡。
+他真的是……總有一天他會吃掉我！[shake A]/
+>>4/
+[set A s_n007_r 小豆洗い]
+[randomset B r -n007]
+[randomset C r -n007 -@NOW]
+[show A C]
+[show B C]
+[show C C]
+[face A 01]
+[face B 01]
+[face C 05]
+[say A]
+[orderline C B A]
+[setline A B C]
+[move B X 150]
+[move C X 250]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[serif on]
+大家聚集起來！
+這是洗紅豆的出差特賣會！/
+[move C X -250 0.5]
+[move B X -150 0.5]
+[face A 03]
+[face C 01]
+[flow]
+今天是[= おしるこの炊き出し あんこたっぷりのおはぎ 縁起のいいお赤飯 白玉入りの冷やししるこ ほっこりあたたまる小豆粥 小豆たっぷりチキンカレー 小豆を固めた鈍器のような氷菓子]就是這裡！
+還有補充！/
+[face A 02]
+[face B 02]
+[face C 02]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[flow]
+多吃，享受紅豆的可能性！
+紐福福福。[shake B][se eat_01]/
+>>5/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -300]
+[-]
+[move A Y 300 0.1]
+[delay 0.1 move A Y -120 0.2]
+[-]
+[serif on]
+[se kira_01]
+[effect fr kira 6000 0 0]
+[orderline A]
+哇！當我在廚房釣魚時，我發現紅豆變硬了。
+我發現冰糖了！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+看起來很好吃！[shake A]
+我要了！/
+[face A 05]
+固體。[shake A 3 15 15][se eat_02]/
+[move A X -50 0.1]
+[delay 0.1 move A X 300 0.2]
+[delay 0.3 move A X -300 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 03]
+尼奧奧奧！ ！ ！
+要嘛就是太難吃了！/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+不愧是小豆啊…
+他們有不同的潛力。/
+>>6/
+[set A s_n007_r 小豆洗い]
+[randomset B r -n007 -@NOW -@NPC]
+[randomset C r -n007 -@NOW -@NPC]
+[show A C]
+[show B C]
+[show C C]
+[face A 00]
+[face B 01]
+[face C 00]
+[setline B C]
+[move A X -700]
+[scale A 0.8]
+[move A Y 40]
+[orderline B C A]
+[-]
+[move A X 400 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[face A 06]
+[scale A 1 0.5]
+[scale B 1.4 0.5]
+[scale C 1.4 0.5]
+[move B Y -60 0.5]
+[move A Y -40 0.5]
+[move C Y -60 0.5]
+[setline 0.5 A B C 0 1300]
+[move A X -100 0.5]
+[rotate A 10 0.5]
+[serif on]
+[say A]
+啊？他們在說什麼？
+咱們偷偷聽吧！
+[face C 05]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 02]
+嗯……嗯……我明白了。
+現在還流行這種東西嗎？
+[face C 01]/
+[face A 02]
+[face B 06]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+呵呵，聽到好話了！
+我會比其他人第一個買的！[move A X -800 0.3][hide A]/
+>>9/
+[set A s_n007_r 小豆洗い]
+[randomset B r -n007 -@NOW -@NPC]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[say A]
+[setline A B]
+[orderline A B]
+喲$B:A！
+我前幾天剛買了你要求的東西！
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[se cloth_01]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 01]
+[say A]
+……我確實收到了付款！
+交易完成了！/
+[face A 01]
+[face B 02]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+這是一顆額外的紅豆。再次感謝您！
+休克休基！[se jara_01]/
+>>10/
+[set A s_n007_r 小豆洗い]
+[randomset B r -n007 -@NOW -@NPC]
+[show A C]
+[show B C]
+[move B Y -50]
+[move A X -600]
+[setline 0.5 A B]
+[delay 0.4 move A Y -50 0.2]
+[delay 0.6 se dosa_01]
+[delay 0.6 shakebg]
+[face A 01]
+[face B 00]
+[orderline A B]
+[say A]
+[-]
+[serif on]
+哦，到了吃晚餐的時間了！
+我也來拿吧！/
+[face A 05]
+[face B 05]
+尼奧奧！ ？[shake A][se zukkoke_02]/
+[scale A 1.6 0.3]
+[scale B 1.6 0.3]
+[moveline A B 0 -120 0.3]
+[move A Y 50 0.3]
+[move B X 100 0.3]
+[rotate B -10 0.3]
+[face A 04]
+[face B 04]
+豆腐、納豆、味增湯、炸豆腐…
+裡面全是黃豆！ ！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 03]
+[face B 05]
+天啊！我需要用紅豆做更多的菜。
+我要吃掉大廚！ ！/
+>>11/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[orderline A]
+好吧好吧，繁榮昌盛~♪
+今天我們也賣了很多。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 07]
+呃……我有點累了。
+回到商店就成了一件麻煩事。/
+[face A 06]
+[flow]
+我想我今天會留在這裡。/
+>>14/
+[[:{TAG1|B|def|[orderline B A]
+喲$B:A！　
+我們有一些好東西！/[face A 02]
+[face B 05]
+今天特別推薦這個！
+這是一種新的能量飲料！/[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[move A X -50 0.5]
+[rotate A 10 0.5]
+[autotap]/[face A 01]
+[face B 06]
+Nyufufu...如果用了這個，晚上就會精神飽滿。
+很安全...[shake B]}{TAG1|B|oum|[orderline A B]
+喲近江ya！
+我們有一些好東西！
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[face B 05]/[scale A 1.6 0.3]
+[scale B 1.6 0.3]
+[setline 0.3 B A]
+[moveline A B 0 -120 0.3]
+[face A 05]
+[move A X 150 0.3]
+[rotate A -10 0.3]
+[face B 03]
+[say B]
+[shakebg]
+[se zukkoke_02]
+[effect fr syutyu a 0 0]
+如果在這樣的地方開店的話，生意一定會大增！
+請在其他地方做！[shake B][shake A]/[say A]
+[rotate A 0 0.3]
+[move A X -100 0.3]
+[face A 03]
+尼奧奧奧！ ！　[shake A]這是業務中斷！
+近江就是要在那邊開店的人！[shake A 2 5 5][se doka_01][delay 0.5 shake B 2 5 5][delay 0.6 se doka_01]}{TAG1||kaw|}{TAG1||yzm|}{TAG1||oum|}{TAG1||sin|}{TAG1||iga|}{TAG1||sim|}{TAG1||owa|}{TAG1||mik|}{TAG1||kai|}{TAG1||sag|}{TAG1||mus|}{TAG1||kaz|}{TAG1||awt|}{TAG1||hit|}{TAG1||wak|}{TAG1||kag|}{TAG1||ecg|}{TAG1||kii|}{TAG1||san|}{TAG1||iyo|}{TAG1||tos|}{TAG1||har|}{TAG1||bic|}{TAG1||bin|}{TAG1||tnb|}{TAG1||taj|}{TAG1||ina|}{TAG1||iwm|}{TAG1||oki|}{TAG1||bun|}{TAG1||ckg|}{TAG1||hiz|}{TAG1||osu|}:]]/
+[set A s_n007_r 小豆洗い]
+[randomset B r -n007 -@NOW -@NPC]
+[show A R]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[move B X -300]
+[move B X 260 0.5]
+[say A]
+[autotap]/
+[inject TAG1]/
+>>15/
+[set A s_n007_r 小豆洗い]
+[randomset B b -n007 -@NOW -@NPC]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[orderline A]
+使用萩、白子和紅豆製成的點心
+我帶了很多！/
+[show B C]
+[face A 00]
+[face B 00]
+[move B X 300]
+[setline 0.5 A B]
+[orderline A B]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[se cloth_01]
+哦，$B:A。這個和這個！
+每次都會發生！/
+[face A 02]
+[face B 01]
+[flow]
+你覺得怎麼樣？真好吃！/
+[face A 03]
+[face B 02]
+紅豆填飽肚子，就可以奮力拼搏！
+你一定會體會到紅豆的功效！[shake A]/
+>>16/
+[set A s_n007_r 小豆洗い]
+[randomset B b -n007 -@NOW -@NPC]
+[show A C]
+[face A 01]
+[show B C]
+[face B 00]
+[move B X -800]
+[serif on]
+[say A]
+[orderline A B]
+現場銷售紅豆洗...[effect fr slash 6000 0 0][shakebg][face A 05][face B 05][move B X 500 0.3][move A X 300 0.3][rotate A -20 0.3][se doka]尼奧奧奧！ ！
+……很危險！[rotate A 0 0.5]/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 03]
+[face B 04]
+[setline 0.5]
+嘿嘿$B:A！很危險！
+我還帶了一些紅豆冷糖！/
+[face A 06]
+[face B 00]
+我需要好好保護這個架子......
+畢竟裡面含有很多紅豆！/
+[face A 01]
+[face B 01]
+嗯，我有一些便宜貨！
+我去看看！/
+>>17/
+[set A s_n007_b 小豆洗い]
+[randomset B b -n007 -@NOW -@NPC]
+[randomset C b -n007 -@NOW -@NPC]
+[show A C]
+[show B R]
+[show C L]
+[face B 00]
+[face C 06]
+[face A 06]
+[move B X 100]
+[move C X -100]
+[serif on]
+[say A]
+[orderline B C A]
+[se gaya_01]
+哦~？如果你這樣看的話，每個人都是不一樣的。
+看來她對穿衣打扮很講究啊！/
+[face A 05]
+買很多東西，就會發大財！ ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+Nyufufu...我夢想中的第二家店也近在眼前了！
+休克休基！/
+>>18/
+[set A s_n007_b 小豆洗い]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[scale A 1.6]
+[move A Y -300]
+[se amb_12]
+[effect fr yuge a 0 0]
+[orderline A]
+[effect fr splash 6000 0 0]
+[se bath_02]
+[move A Y 180 0.5]
+啊啊啊啊啊啊啊啊啊。
+我去過很多地方的溫泉.../
+[face A 02]
+[flow]
+[se bath_04]
+這裡的洗澡也不錯。
+我每天都偷偷溜進去。/
+>>19/
+[set A s_n007_b 小豆洗い]
+[randomset B b -n007 -@NOW -@NPC]
+[randomset C b -n007 -@NOW -@NPC]
+[show A C]
+[show B R]
+[show C L]
+[face A 00]
+[face C 01]
+[face B 01]
+[se amb_12]
+[effect fr yuge a 0 0]
+[serif on]
+[say A]
+[orderline A B C]
+[move B X 100]
+[move C X -100]
+[serif on]
+[say A]
+[orderline B C A]
+[se gaya_01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+不需要一塊含有紅豆成分的海綿嗎？
+用這個摩擦身體時感覺很好。/
+[face A 01]
+[face B 00]
+[face C 06]
+如果你現在買，我可能會把它從你背上洗掉。
+我來為您服務！　紐福福福。/
+>>20/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[se pee_01]
+[face A 01]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[-]
+[serif on]
+[say A]
+[orderline A]
+普魯普魯特……沒錯！/
+[face A 03]
+[scale A 1.6 0.5]
+[move A Y 120 0.5]
+[se cloth_01]
+小津屋也在這裡
+我來貼海報吧！
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_01]/
+[face A 01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_01]
+相信大家都會想去購物吧！/
+>>21/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[move A X 1000]
+[move A X -1000 1]
+[face A 06]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[say A]
+[orderline A]
+嗯。
+有些人喜歡將自己與他人比較。/
+[face A 03]
+[scale A 1.6 0.3]
+[se taiko_01]
+[move A Y -100 0.3]
+但更大總比什麼都好。
+這是一個錯誤！/
+[scale A 2 0.3]
+[move A Y -80 0.3]
+比大還小！與其說是黃豆，不如說是小豆！ ！[se taiko_02]
+[shakebg]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+……但說到正事的話，
+一些會變大的東西......我會嘗試購買它。/
+>>22/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[orderline A]
+[move A Y -50]
+呼……今天賣了很多東西，
+我想我會回到小豆屋的。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哈！ ？　尼奧奧奧奧！
+沒有紙了！ ！[shake A 4 10 10]/
+>>23/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[orderline A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+嘿！/
+[face A 06]
+如果你使用一種叫做 Wushulet 的東西
+她總是讓我感到驚訝。/
+[se pee_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+....但是如果你保持溫暖
+感覺很好，我很喜歡。/
+[face A 07]
+[flow]
+呵呵，紅豆洗正在洗呢。/
+>>24/
+[set A s_n007_r 小豆洗い]
+[randomset B b -n007 -@NOW -@NPC]
+[randomset C b -n007 -@NOW -@NPC]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[orderline A]
+今天的特色產品！
+這是紅豆專門製作的紅豆枕頭。/
+[show B L]
+[move B X -300]
+[show C R]
+[move C X 150]
+[face B 00]
+[face C 05]
+[setline 0.5 B A C]
+[orderline A B C]
+數量有限，先到先得！/
+[face A 02]
+[face B 01]
+[face C 08]
+[move B XY 10 -40 0.4]
+[rotate B -10 0.3]
+[delay 0.4 move B XY -10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+哦，$B:A你要買嗎？
+有一個謎！/
+>>25/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 07]
+[serif on]
+[say A]
+[move A Y -50]
+[rotate A -20]
+[se cloth_01]
+嗚嗚嗚嗚嗚嗚嗚嗚.../
+>>26/
+[set A s_n007_r 小豆洗い]
+[show A C]
+[face A 06]
+[serif off]
+[se cloth_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+呃……我新獲得的身體會很健康的。
+嘗試了一些草藥後.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+我的心砰砰直跳，無法入睡
+發生了……！/
+[flow]
+震驚…/

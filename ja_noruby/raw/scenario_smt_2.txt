@@ -1,0 +1,2004 @@
+>>10000/
+@下野
+東山道、下野だ。[wait 1.5]貴君が主か。[wait 1.5]
+了解した。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@下野
+これより任務遂行のため、部隊に加わろう。/
+>>10001/
+@下野
+戦力の増強か。[wait 1.5]
+了解した。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@下野
+貴君の呼びかけに応えよう。/
+>>1/
+[set A s_smt_r 下野]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+主、中禅寺湖から流れる華厳の滝を知っているか。
+あの圧倒的な水量は滝行に申し分ないと思うだろう。/
+[flow]
+[face A 03]
+しかし、貴君は行くべきではない。
+遠くから眺めるだけにしておくことを推奨する。/
+[face A 01]
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……貴君の安全が最優先だからな。
+必要ならば、自分が同行させてもらおう。/
+>>2/
+[set A s_smt_r 下野]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+任務遂行のためには休息も必要だ。貴君も
+時にはゆっくり湯に浸かり、体を癒やすといい。/
+[face A 11]
+[flow]
+特に傷には川治温泉、
+火傷は鬼怒川温泉がよいと言われている。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 09]
+温泉の効能については詳しく調べてある。
+自分が案内しても構わないが。/
+>>3/
+[set A s_smt_r 下野]
+[show A C]
+[face A 10]
+[serif on]
+[talk A]
+しもつかれ……七軒の家のしもつかれを食べれば
+病気にならないと言われている素晴らしい料理だ。/
+[flow]
+[face A 01]
+任務遂行のために健康は重要だろう。
+貴君も食してみるといい。/
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[flow]
+下野国が誇るＢ級ぐるめの最高峰だ。
+食は目から……ぜひ見た目も楽しんでほしい。/
+>>4/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし -@NPC -smt]
+[show A C]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[show B L]
+[face B 00]
+[orderline A B]
+[-]
+[serif on]
+[talk A]
+ふむ……今日の掃除当番は自分、か。/
+[face B 01]
+[face A 01]
+[flow]
+……各々が仕事を持つことで責任感を持つ、
+ということか。理解した。/
+[face B 05]
+[face A 03]
+[flow]
+早速掃除に取り掛かる。[shake A]
+チリ一つない状態にしてみせよう。[effect bk waveout 6000 0 0][shakebg][move B X -150 0.5]/
+>>5/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし -@NPC -smt]
+[show A C]
+[face A 08]
+[rotate A 60]
+[move A Y -50]
+[move A X -150]
+[-]
+[show B R]
+[move B X 300]
+[move B X -200 0.5]
+[face B 00]
+[move A Y -40 0.2]
+[delay 0.3 move A Y 40 0.4]
+[delay 0.8 move A Y -40 0.2]
+[delay 1.1 move A Y 40 0.5]
+[autotap]/
+[serif on]
+[talk A]
+ふん、ふん、くっ……
+よし……ん？　$B:A。なにをしているか、だと？/
+[se cloth_01]
+[rotate A 0 0.5]
+[face B 01]
+[setline 0.5 A B]
+[face A 01]
+[flow]
+見ての通り体を鍛えているところだ。
+腕立て伏せ完了。続いて腹筋を行う。/
+[flow]
+[se zukkoke_02]
+[face B 04]
+[face A 10]
+特に用がないのなら話しかけないでもらおう。/
+>>6/
+[set A s_smt_r 下野]
+[show A C]
+[face A 01]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふむ……今日は訓練の後、少し遠出するか。
+以前から気になっていた店に行ってみるか……/
+[move A X -150 0.5]
+[delay 0.6 move A X 200 0.5]
+[delay 1.3 move A X -200 0.5]
+[delay 1.8 move A X 150 0.5]
+[autotap]/
+[face A 09]
+[flow]
+[= 餃子が評判のラーメン屋 焦がしにんにく油そば つゆだくカツ丼食堂 しみしみおでんの居酒屋 肉じゃがドカ盛り食堂]……[wait 0.3]いや
+[= 自家製福神漬けが絶品のカレー屋 おかわり無限豚汁定食屋 にぎりたてのおにぎり屋 山盛り唐揚げ定食屋 背徳タルタル盛り食堂]か……/
+[flow]
+[face A 01]
+どちらも捨てがたい……
+訓練中に決めるとしよう。/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_smt_r 下野]
+[show A C]
+[face A 11]
+[serif on]
+[talk A]
+[se wrigt_01]
+今日の店は……☆[=3 3.5 4 4.5 5]「[=店内は清潔で好印象だ。 昭和レトロな内装が味わい深い。 かうんたー席のみだが落ち着ける。 店内は年季が入っているが問題なし。 地元客で賑わう活気ある店内だ。 多少雑然としているが気にならない。 町の食堂らしい素朴な佇まいだ。 厨房の煙がもくもく立ち込める。 木の温かみを感じる佇まいだ。 換気扇が低音で唸る暑い店内。 壁の手書きの品書きに趣あり。]
+[=提供も手際よく申し分なし。 注文後すぐに運ばれてきた。 手作り感が嬉しい一品。 提供まで実にすむーず。 おばさんの愛想良し。 店主の料理への愛を感じる。 大将の職人気質が伝わる。 調理の様子が見え食欲をそそる。][=味は噂に違わず絶品だ。 期待を上回る庶民派の傑作だ。 秘伝のタレが決め手の逸品だ。 おふくろの味を彷彿とさせる。 素朴ながら深みのある味わいだ。 クセになる独特の旨味あり。 しんぷるだが計算された味だ。][face A 01]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[flow]
+[=しかし如何せん量が少々心もとない。 ただし値段の割には量が控えめだ。 惜しむらくは味が濃すぎる傾向にある。 難点は油がやや重めなことだ。 料理が熱々で出てこないところが残念。 気になるのは盛り付けが荒いことだ。 唯一の不満は行列必至の人気ぶりだ。 量も十分でこすぱが素晴らしい。 この価格でこの満足度は驚異的だ。 ぼりゅーむ満点で男性客には特に嬉しい。 味付けが絶妙で文句のつけようがない。 熱々の状態で提供される心遣いも評価したい。 見た目も美しく食欲をそそる仕上がりだ。 見た目の豪快さがいかにもでいい。 地元に愛される理由が十分に理解できる。]
+[=白米と卵を混ぜ食すと新たな味に出会える。 大盛り無料なので遠慮なく頼むべしだ。 白米の追加で炭水化物祭りが楽しめる。 途中で一味唐辛子をかけると味変で二度旨い。 途中まよねーず投入で別の料理に変身する。 もやしとっぴんぐでぼりゅーむ満点になる。 ちゃーしゅー追加すれば肉食系も大満足だ。 最後に胡椒とニンニクで男の味に仕上がる。 どんぶりに汁だくで満腹保証だ。 ねぎもりもりでさっぱりりせっと。 酢をひとまわしでさっぱり味変。 たまごとろりでまろやか旨味爆増。 追いめし投入ですうぷまで完食。 あつあつ鉄皿でおこげがうまい。 らーどをひとさじでこくマシマシ。 揚げニンニクちっぷでぱんち追加。 コショウ増量でしびれる刺激。 ばたーを溶かせば背徳のうまさ。 すりごま大量投入で香り爆発。 最後は酢でさっぱり締める。 刻み玉ねぎは多めにいれるべし。 わさび追加で一転さっぱり感。]」……と。[se cloth_01]よし。/
+[face A 01]
+[flow]
+明日はどの店に行くか……/
+>>10/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[show B R]
+[move B X 150]
+[face B 00]
+[face A 04]
+[serif on]
+[talk A]
+くっ、[shake A]この眠気は……炭水化物を摂りすぎたか。
+だがこんなときこそ訓練だ。[face A 08]/
+[face B 05]
+[move A Y -50 0.5]
+[face A 11]
+[flow]
+筋肉を動かすことで眠気は抑えられる。
+さぁ、まずは空気椅子だ………………/
+[face B 04]
+[rotate A 15 0.5]
+[move A Y -100 0.5]
+[face A 07]
+[flow]
+すやぁ……[se dosa_01]/
+>>11/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[randomset C r @地魂男児 @あやかし @NPC -smt -@NOW]
+[show A C]
+[show B R]
+[setline A B]
+[move B X 150]
+[face A 10]
+[face B 01]
+[serif on]
+[talk A]
+$B:A？　飲み会の誘い、だと？
+断る。[shake A][face A 03]自分は夜の訓練を行う必要がある。[shake A]/
+[face B 04]
+[face A 05]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……なに？　$C:Aが実験的な料理をしている、
+だと……！？[shake A]/
+[face A 03]
+[flow]
+[shake A]
+くっ、味が気になる……[shake A]
+ならば参加しよう！　行くぞ。[face B 02][face A 03]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+この体の昂り……昨日のスタミナグルメの影響か。
+正直、あまりこういうことには慣れないが……/
+[show B R]
+[face B 00]
+[setline 0.5 A B]
+[face A 10]
+[flow]
+ん？　$B:Aか……
+い、いや、なにもない！　ふ、触れるなっ。[shake A][face B 04][face A 03]/
+[move A C 0.5]
+[move B X 300 0.5]
+[face A 06]
+[flow]
+くそっ……
+自身で鎮めてみせる。/
+>>15/
+[set A s_smt_m 下野]
+[randomset B m @地魂男児 @あやかし @NPC -smt]
+[randomset C m @地魂男児 @あやかし @NPC -smt -@NOW]
+[show A C]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+[talk A]
+[shake A]
+[se doka_01]
+[delay 0.3 se katana_03]
+[delay 0.6 se zuba_01]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+ふんっ、はぁ！　[shake A]……この程度では駄目だ。
+より強く、より深く……はぁ！！！[shake A]/
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[show B R]
+[show C L]
+[move B Y -50]
+[move B X 200]
+[move C X -200]
+[rotate C -20]
+[move C Y -50]
+[orderline C B A]
+[face B 04]
+[face C 05]
+[setline 0.5 C A B]
+[face A 04]
+[flow]
+[se cloth_01]
+$B:A、$C:A、すまない。
+本気になると見境がなくなってしまうようだ……/
+>>16/
+[set A s_smt_m 下野]
+[randomset B m @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[effect fr slash 6000 0 0]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[se doka_01]
+はぁ！！[shake A]　……ふぅ。
+やはり誰もいない時間帯は気兼ねがないな。/
+[show B R]
+[face B 00]
+[setline 0.5 A B]
+[move B X 100 0.5]
+[face A 05]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+$B:A？　自分の近くにいると危ないぞ。
+…………構わないというのか？[face B 01]/
+[face A 01]
+[flow]
+ふ、助かる。
+ではお互い精一杯励もう。[face A 03][face B 03][se cloth_06]/
+>>17/
+[set A s_smt_b 下野]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[talk A]
+[-]
+[serif on]
+……体重が重くなっている。
+よし、順調に鍛錬の成果がでているようだ。/
+[face A 06]
+[flow]
+……それとも、B級ぐるめの食べ過ぎだろうか……
+——いや、まさかな。/
+>>18/
+[set A s_smt_b 下野]
+[show A C]
+[face A 11]
+[move A Y -100]
+[serif on]
+[talk A]
+[se amb_12]
+[effect fr yuge a 0 0]
+肉体を清潔に保ち、血行・発汗・代謝を促進。
+こうすることで一日の疲れを翌日に持ち越さない。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[flow]
+……ふぅ……
+やはり温泉はいい。/
+>>19/
+[set A s_smt_b 下野]
+[randomset B b @地魂男児 @あやかし @NPC -smt]
+[randomset C b @地魂男児 @あやかし @NPC -smt -@NOW]
+[show A C]
+[show B R]
+[show C L]
+[face B 00]
+[face C 00]
+[setline C A B]
+[face A 06]
+[serif on]
+[talk A]
+[orderline C B A]
+[moveline A B C 0 -50 0]
+[se amb_12]
+[se bath_02]
+[effect fr yuge a 0 0]
+今日の風呂は混み合っているな……
+こんなに密着することになるとは……/
+[flow]
+[face A 04]
+とはいえ、湯船に浸からないわけにもいかん。
+……くっ、時間をずらすべきだったか。[shake A]/
+[face A 05]
+[face B 05]
+[face C 06]
+[effect fr splash 6000 0 0]
+[se water_07]
+[flow]
+[shake A]
+……お、おい！　どこを触っている！？/
+>>20/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[face A 10]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+排泄……よし、手洗い、よし。
+万事問題なし。訓練に戻る。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[show B L]
+[move B X -300]
+[move B X 200 0.5]
+[face B 06]
+[face A 09]
+[flow]
+……む、$B:A、残念ながら個室は埋まっている。
+次はもう少し早く行動すべきだな。[shake B][face B 04][face A 11]/
+>>21/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[face A 08]
+[scale A 1.6]
+[move A Y -120]
+[se pee_01]
+[serif on]
+[talk A]
+少しも揺るがず、一点に狙いを定める。
+……これも集中力を鍛える訓練となる。/
+[show B L]
+[face B 06]
+[face A 09]
+[setline 0.5 B A]
+[scale B 1.6]
+[move B Y -120]
+[orderline B A]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+む、$B:A、乱れているぞ。
+比べれば一目瞭然だろう。/
+>>22/
+[set A s_smt_r 下野]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[scale A 1.6]
+[move A Y -120]
+[move A Y -50]
+地魂男児たるもの、ヒトとして得た肉体の
+生理現象にも効率よく対処せねばならない。/
+[flow]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……ふぅ……よし。
+ん？[shake A][face A 05]　……なぜ紙がないのだ。/
+>>23/
+[set A s_smt_r 下野]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[scale A 1.6]
+[move A Y -120]
+[move A Y -50]
+[shake A]
+くっ、自分としたことが……このように
+肉体に翻弄されるなど……あってはならない……/
+[flow]
+[face A 13]
+だが……この衝動を……肉体を制御、
+できない……ッ！[shake A]/
+[face A 06]
+[flow]
+[se cloth_06]
+[shake A 2 5 5]
+く、うぅぅッ！！/
+>>24/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし -@NPC -smt]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+寝る時間か。自分は押入れを使わせてもらう。
+狭いところでひとり……落ち着いて眠れるからな。/
+[move A X -150 0.5]
+[se fusuma_01]
+[show B L]
+[delay 0.3 move A X 200 0.3]
+[face B 05]
+[rotate B 40]
+[face A 05]
+[orderline A B]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……$B:A、これは失礼した。/
+[se fusuma_02]
+[hide B]
+[face A 09]
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+まさか先客がいたとはな……
+今日はおとなしく隅の方で眠るか。[move A X 250 0.5]/
+>>25/
+[set A s_smt_r 下野]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+すーすー……B級ぐるめ対決……
+至高か、それとも究極か……すーすー……/
+[talkend]
+楽しそうな夢を見ているようだ。/
+>>26/
+[set A s_smt_r 下野]
+[randomset B r @地魂男児 @あやかし @NPC -smt]
+[show A C]
+[show B R]
+[rotate B 30 0.5]
+[orderline B A]
+[se cloth_06]
+[move B XY -100 -100 0.5]
+[face A 07]
+[face B 07]
+[serif on]
+[say A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[shake A]
+[face A 05]
+む！？　$B:A、突然なんだ！？
+寝技の訓練か！？　受けて立つぞ。/
+[face A 10]
+[flow]
+……ん？　いや、寝ボケているだけか……
+覆いかぶさってくるとは、紛らわしい……[face A 11]/
+[face A 06]
+[waku on 0.5]
+……（どうしたものか……）/
+>>27/
+[set A s_smt_r 下野]
+[show A C]
+[face A 00]
+[autotap]/
+[serif off]
+?下野、ハレの日おめでとう！/
+[serif on]
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+貴君か。祝意は受け取ろう。
+今日はとちの葉に、さわやかな風が吹いている。/
+[face A 11]
+[flow]
+だが、自分にとっては他の日となんら変わらない。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[flow]
+朝から鍛錬を重ね、次の任務に向けて
+いつでも動けるようにしている。/
+[serif off]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+そのなかでも、何故今日をハレの日として選んだか
+……というと、大したことではないが……/
+[face A 01]
+今日は「栃木県民の日」というものらしいな。
+下野国領域は現代では「栃木県」というそうだ。/
+[face A 11]
+現代の栃木県にもいつか貴君と出かけて
+B級ぐるめを食べに行くのも悪くないだろう。/
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+さて……話はそれだけなら
+自分は鍛錬に戻るが。/
+[serif off]
+?そんな下野にこれを/
+[face A 03]
+[serif on]
+？
+ぷれぜんと、などは荷物になるだけなのだが……/
+[face A 09]
+[talkend]
+[hide A]
+[se cloth_01]
+[textcolor aruji]
+実は購買で貴重なものが入荷したと聞いて
+買ってみたのだ。/
+[talkend]
+[textcolor aruji]
+栃木県由来のものだと聞いたので
+喜んでもらえるかと思ったのだが——……/
+[show A]
+[face A 05]
+[say A]
+！！？[shake A]　こ、これは……/
+[se cloth_06]
+[face A 13]
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[textsize 42]
+け……ッ、「県民の日ゼリー」！？[se zukkoke_02]/
+[talkend]
+[face A 14]
+[se cloth_01]
+[textcolor aruji]
+下野はぐっと身を寄せ、ゼリーを持つこちらの手を
+大きな両手で包み込むようにぎゅっと握りしめた。/
+[scale A 2 0.3]
+[move A Y -100 0.3]
+[autotap]/
+[face A 03]
+[say A]
+[se taiko_01]
+これは県民の日に合わせて
+栃木県の小中学校の給食で出されるというでざーとだ！/
+[face A 01]
+[se taiko_01]
+栃木県産イチゴの甘酸っぱさを閉じ込めた
+目にも鮮やかな赤いゼリー！/
+[face A 02]
+[se taiko_01]
+その頂には少し硬めに絞られた
+ホイップクリームが鎮座している！[se taiko_02]/
+[face A 06]
+[effect off a]
+[serif off]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+噂には聞いていたが、実際に目にすることが
+できるとは……/
+[effect fr kira 6000 0 0]
+[se kira_01]
+[face A 02]
+一度食べたいと思っていたのだ。感謝する！/
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+よければこのあと、貴君と一緒に味わいたいと
+思うのだが……どうだろうか？/
+[serif off]
+?下野と県民の日ゼリーを食べる/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+ふ。ハレの日か……
+たしかに。いいものかもしれないな。/
+>>100/
+[set A s_smt_r 下野]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 下野と遠征任務]
+[-]
+[bgm home]
+[bg heya_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+今日はお休み。
+せっかくなので部屋の掃除をしていると……/
+@下野の声
+主、入るぞ。/
+[serif off]
+?下野？　どうしたの？/
+[se fusuma_01]
+[show A]
+[move A X -300]
+[face A 00]
+[-]
+[serif on]
+[say A]
+……掃除をしていたところか？
+少し、話があるのだが。/
+[serif off]
+?大丈夫。上がって。/
+[face A 11]
+[serif on]
+[say A]
+[move A X 300 0.5]
+承知した。[se fusuma_02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+主。自分をこの荘園に声聞してくれたことへの
+感謝を改めて伝えに来た。/
+[face A 08]
+[flow]
+この恩は任務の成果で返したいと思っている。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+あまり表情を変えない下野。
+だが、素直な気持ちは伝わってくる気がする。/
+[flow]
+[textcolor ARUJI]
+せっかく部屋に来てくれたのだし
+もう少し下野と交流を深めたいと思った。/
+[serif off]
+?そうだ、部屋の片付けを手伝ってもらえる？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+掃除を手伝ってもらいながらあれこれ雑談を
+するのもいいかもしれないと思ったのだ。/
+[bgm off]
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 10]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+断る。/
+[bgm fun]
+[serif off]
+?！？/
+[face A 11]
+[serif on]
+[say A]
+部屋の掃除程度、
+貴君自身で完遂してもらわねば困る。/
+[face A 03]
+[flow]
+[shake A]
+己の部屋の管理すらできず、
+我々の指揮が務まるとは思えない。/
+[serif off]
+?は、はい！/
+[face A 10]
+[serif on]
+[say A]
+……手が止まっているぞ、主。/
+[face A 05]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+いや、待て……！
+その重そうな荷物を運ぶのか？/
+[se cloth_06]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[face A 03]
+[flow]
+貸せ。……そんな持ち方では体を痛める。
+それくらいは手伝おう。/
+[serif off]
+?あ、ありがとう……/
+[hide A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+掃除の誘いを突然断られ驚いてしまったが
+重い荷物を運ぼうとすると手伝ってくれた。/
+[flow]
+[textcolor ARUJI]
+ただ嫌だというわけではなく、
+下野なりの判断基準があるのかもしれない。/
+[bgm departure]
+[show A]
+[face A 00]
+[say A]
+主。もうひとつ話がある。
+というか、こちらが本題だ。/
+[face A 09]
+[flow]
+明日の任務について、辞令を受け取ったのだが……/
+[face A 08]
+[flow]
+なぜ自分がこのような任務を命じられるのか
+真意を問いたい。/
+[serif off]
+?と、言うと？/
+[hide A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+明日の任務、それは簡単な遠征任務だ。/
+[flow]
+[textcolor ARUJI]
+たしか江戸時代の茶屋町に数日滞在し、
+歴史を見守る任務だ。/
+[flow]
+[textcolor ARUJI]
+まだ下野は荘園に来たばかりなので
+まずは慣れてもらおうという意図だった。/
+[serif off]
+[show A]
+[face A 10]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+自分がこの任務に出る理由が見つからない。[se taiko_02]/
+[face A 03]
+[flow]
+貴君は自分の地魂男児としての価値を
+理解していないようだ。/
+[flow]
+[face A 11]
+自分は地魂男児のなかでも戦闘に秀でていると
+自負している。/
+[flow]
+[face A 03]
+そもそも地魂男児は霊種、あるいは喰魂による
+歴史改変の危機を取り除くために存在している。/
+[face A 08]
+[flow]
+我が愛刀はそのために磨かれているのだ。
+故に、自分を使うのなら、戦闘へ出すべきだ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+話を聞くに、下野は戦闘が主体の任務でないことが
+不満なのだろう。/
+[show A]
+[face A 08]
+[say A]
+もし貴君が自分の性能を見誤っているのならば
+すぐに訂正したい。/
+[face A 00]
+[flow]
+修練場へ来てもらえるだろうか。/
+[serif off]
+?修練場へついていく/
+[playeryes]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg niwa_day]
+[-]
+[effect fr syutyu a 0 0]
+[se katana_01]
+[delay 0.3 se katana_03]
+[delay 1 se zuba_01]
+[wait 1]
+[-]
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 03]
+[-]
+[fadeout 1.5]
+[-]
+[effect fr slash 6000 0 0]
+[se zuba_01]
+[shakebg]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[-]
+[autotap]/
+[serif off]
+[effect off a]
+?おお～～素晴らしい……/
+[hide A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+早速修練場で下野の剣技や体術など
+戦闘能力を披露してもらった。/
+[serif off]
+[show A]
+[face A 01]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+……どうだ。この戦闘力を遊ばせておくのは
+勿体ないだろう。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+たしかに下野は戦闘向きの地魂男児だ。
+それは間違いない。/
+[flow]
+[textcolor ARUJI]
+しかし任務は戦闘が全てではないというのも
+知ってもらう必要があるかもしれない。/
+[flow]
+[bgm off]
+[textcolor ARUJI]
+そう考えていると……[wait 0.5]ぐぅ……とお腹が鳴った。/
+[serif off]
+[bgm fun]
+?お腹すいた……/
+[show A]
+[face A 09]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+たしか厨に軽食があったはずだ。/
+[talkend]
+[textcolor ARUJI]
+そこでピンときた。/
+[serif off]
+?ロクハラのフードコートで食べよう/
+[face A 10]
+[serif on]
+[say A]
+なぜわざわざ遠出する。
+そもそもフードコートとはなんだ？/
+[face A 03]
+[flow]
+荘園内で食事が可能だ。/
+[serif off]
+?知っておいた方が下野のためになるよ/
+[face A 09]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+……そこまで言うのなら、仕方ない。
+従おう。[face A 11]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+ロクハラ本部の施設の紹介も兼ねて
+案内することにした。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm off]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[bgm food]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 05]
+[say A]
+[serif on]
+[shake A 2 5 5]
+こ……これは……！！！/
+[flow]
+[shakebg]
+[scale A 1.6 0.3]
+[move A Y -150 0.3]
+[effect fr kira a 0 0]
+[se kira_01]
+うどんにそば、海外の料理まで……！？
+たこ焼きにお好み焼き……[shake A]B級ぐるめの宝庫か！？[shake A]/
+[effect off a]
+[serif off]
+?たしかにたこ焼きは御当地グルメかも/
+[face A 01]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ロクハラ本部にこのような場所があるとは……
+確かにこれは案内してもらってよかった。/
+[move A X -600 2]
+[autotap]/
+[face A 02]
+[flow]
+この香り……
+どれを食べればいいか迷ってしまうな……/
+[serif off]
+[move A X -300 0.5]
+[hide A]
+[talkend]
+[-]
+[wait 1]
+[serif on]
+[textcolor ARUJI]
+下野はフードコート内をウロウロとさまよい
+最終的にたこやきを選んだ。/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 01]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+いただきます。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[se eat_01]
+[face A 06]
+[flow]
+…………はふ、はふ……もぐもぐ……
+はふ、はふ……もぐもぐ……/
+[light def 0.5]
+[lightcolor pink]
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[flow]
+ひと口かじった瞬間、外はふわっとほどけて、
+中はとろりと溶ける……！　口当たりが実にいい。[se taiko_01]/
+[effect fr syutyu 6000 0 0]
+[face A 02]
+[flow]
+これぞ大阪のたこやき。やわトロ系だ。[shake A]
+タコの主張も見事。これは☆４だな。[se taiko_02]/
+[effect off a]
+[light off 0.5]
+[serif off]
+?下野は食べ物が好きそうだね/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+[say A]
+無論だ。
+だが得にB級ぐるめをこよなく愛している。/
+[face A 08]
+[flow]
+Ｂ級ぐるめ……それは安価で、贅沢でなく、
+庶民的でありながら気軽に食べられる料理のことだ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+食とはこのヒトの肉体にもたされた至高の贅沢。
+人類は食とともに進化してきた。まさに文化の真髄。/
+[serif off]
+?だったら、今度の遠征任務は楽しめると思う/
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+……？　…………説明を求む。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+遠征先は茶屋に滞在して歴史を見守る任務だ。/
+[flow]
+[textcolor ARUJI]
+茶屋の周りは出店も多く、
+様々な食べ物があることがわかっている。/
+[flow]
+[textcolor ARUJI]
+一般人に紛れるため、食べ歩き客として
+見守りをすることになるのだ。/
+[flow]
+[textcolor ARUJI]
+戦闘はないが、滞在中は美味しい
+ご飯が食べられるだろう。/
+[serif off]
+?でも、遠征が嫌なら、この任務は別の男児に……/
+[bgm off]
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 11]
+[say A]
+[-]
+[serif on 0.5]
+………………/
+[bgm fun]
+[face A 10]
+[flow]
+それは早計というものだ。[se taiko_03]/
+[face A 08]
+[flow]
+遠征先では歴史が大きく動くその瞬間を
+喰魂などに邪魔されないよう見守る必要がある……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[flow]
+ということは、
+忍耐といざというときの瞬発力が必要だ。/
+[face A 01]
+[flow]
+改めて考えてみると、それはまさに
+自分が持つ特性と一致している。/
+[serif off]
+?ほうほう？/
+[face A 03]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……つまり、その遠征任務、
+自分は適任ということだ。[se taiko_02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+委細承知した。
+この遠征任務、請け負おう。/
+[serif off]
+[face A 10]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+………………
+………………なんだその目は。/
+[face A 06]
+[flow]
+[shake A]
+…………言っておくが、
+ぐるめに釣られたわけではない。/
+[flow]
+……じゅるり。/
+[serif off]
+?うんうん。それじゃあよろしくね/
+[face A 01]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 2]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+その後、荘園へと戻り、
+部屋の大掃除の続きを始めた。/
+[hideall]
+[-]
+[minibg off]
+[bg heya_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif off]
+?下野、重いものを運ぶのは手伝って！/
+[show A C]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+委細承知。貴君の腰は自分が守ろう。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+下野が重いものをすべて運んでくれたおかげで
+大掃除は意外にもあっという間に終わったのだった。/
+[serif off]
+?下野、お疲れ様。ありがとう！/
+[show A]
+[face A 10]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+では自分は部屋に戻らせてもらう。
+調べ物がある。/
+[se fusuma_01]
+[move A X -300 0.5]
+[face A 09]
+[flow]
+……遠征先の時代の屋台ではどのような
+食べ物があるのか……/
+[face A 01]
+[flow]
+任務に出るからには半端な知識では
+怪しまれるだろう。確認しておかねばな。/
+[serif off]
+[move A X -500 0.6]
+[hide A]
+[-]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+[se fusuma_02]
+下野は自分が納得しないとテコでも
+動かないということはよくわかった。/
+[flow]
+[textcolor ARUJI]
+なにか頼むときは、下野が納得できる理由を
+与えてやるのがコツだと思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>201/
+[set A s_smt_r 下野]
+[set LINE s_obj_line ライン]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 下野とラブラブチョコパフェ]
+[-]
+[bgm home]
+[bg gozasyo_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 00]
+[say A]
+[serif on]
+主。来週、少し時間があるだろうか。/
+[hide A]
+[se paper_01]
+[talkend]
+[serif off]
+?下野？　来週……大丈夫だよ。/
+[textcolor ARUJI]
+[talkend]
+[serif on]
+突然下野に予定を聞かれたので、
+カレンダーを確認して答える。/
+[show A C]
+[face A 01]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+ふむ。ならば日曜午後、少し出かけられると
+嬉しい。店は自分が予約しておく…………よし。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+下野はいつの間に手に入れたのか、スマホを
+スイスイと操作し目の前で予約を取ったようだ。/
+[show A C]
+[face A 00]
+[say A]
+では、また日曜に。/
+[move A X -300 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+そう言い残し、下野は修練場へと向かった。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[wait 2]
+[bg mbg_syouen]
+[minibg syouen_watarirouka]
+[-]
+[fadeout 1.5]
+[-]
+[bgm fun]
+[autotap]/
+[place 渡り廊下 日曜日]
+[-]
+[autotap]/
+[show A C]
+[face A 10]
+[say A]
+[serif on 0.5]
+来たか。では出発するとしよう。/
+[se walk_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+下野と荘園の渡り廊下で待ち合わせをし、
+ふたりでロクハラへと向かう。/
+[bg mbg_rokuhara 0.5]
+[minibg rokuhara_rouka 0.5]
+[textcolor ARUJI]
+[flow]
+そして商業施設をスルーし、ロクハラの玄関へ。/
+[serif off]
+?あれ？　外まで行くの？/
+[show A C]
+[face A 11]
+[say A]
+[serif on]
+当然だ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+このふぅどこぉとには多くの店があるが
+専門店や個人店は少ない。/
+[flow]
+[face A 00]
+真に食を追求するのなら、
+街へ繰り出す他ないだろう。/
+[flow]
+[face A 01]
+今日の店は非常に品質が高く
+かねてより目をつけていた、めにゅーがあるのだ。/
+[hide A]
+[se walk_01]
+[minibg off 0.5]
+[bg sky_day 0.5]
+[talkend]
+[textcolor ARUJI]
+下野とふたりでロクハラの建物を出て
+駅へと向かう。/
+[textcolor ARUJI]
+[flow]
+少し歩くと駅前にあるおしゃれなスイーツ屋に
+たどり着いた。/
+[bg mbg_rokuhara 0.5]
+[minibg sky_day 0.5]
+[show A C]
+[face A 01]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+貴君を誘ったのは他でもない。
+……この店は現在季節限定のめにゅーがある。/
+[flow]
+[face A 09]
+だが何故かふたりからでしか
+予約ができなかったのだ。/
+[serif off]
+[hide A]
+[-]
+[talkend]
+[effect fr kira a 0 0]
+[se kira_01]
+[textcolor ARUJI]
+[serif on]
+[se taiko_03]
+「カップルプラン限定！
+　甘々ラブラブチョコパフェ！」/
+[effect off a]
+[textcolor ARUJI]
+[flow]
+看板にはそう書かれていた。/
+[serif off]
+[wait 0.5]
+?カップルプラン……/
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+予約の時間ぴったりだ。行くぞ。主。/
+[move A X 500 0.5]
+[se door_01]
+[minibg town_itary 0.5]
+[bg black 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+堂々とした様子で店内へと入っていく下野。
+その後ろを少し気恥ずかしく追いかける。/
+@店員
+カップルプランでご予約のお客様ですね。
+こちらの席へどうぞ。/
+[talkend]
+[textcolor ARUJI]
+店内はややファンシーで可愛らしい内装だ。/
+[show A C]
+[scale A 1.6]
+[delay 0.5 se dosa_01]
+[delay 0.5 shakebg]
+[move A Y -20 0.5]
+[move A Y -100]
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+少し場違いな感じもするが、下野は
+戸惑いを微塵も感じさせず、メニューを広げる。/
+[say A]
+[face A 01]
+[se paper_01]
+こっとんきゃんでぃとなまちょこもちが
+どのような味なのか……気になるとは思わないか？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+貴君もこれを食べるといい。
+もし追加で注文したいのなら……そうだな——/
+[flow]
+[face A 01]
+しょこらかぬれは小腹にちょうどいい。/
+[hide A]
+[talkend]
+[serif off]
+?このお店来たことあるの？/
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[se paper_01]
+[say A]
+[serif on]
+ああ。洋菓子の甘味処としては☆５をつけている。
+今日で四度目の再訪になる。/
+[flow]
+[face A 09]
+貴君の口にも合うと良いのだが。[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+……すまない。注文をいいだろうか？/
+[se pi_01]
+[color A talk]
+@店員
+はい。おまたせしました。
+いかがいたしましょう？/
+[se paper_01]
+[face A 11]
+[say A]
+このかっぷるぷらん限定の
+甘々らぶらぶちょこぱふぇをふたつ——……/
+[color A talk]
+@店員
+こちら、おふたりで一つをシェアするような
+形になりますが……/
+[face A 09]
+[say A]
+なに？　しぇあ……
+ふたつは注文できない、ということか？/
+[color A talk]
+@店員
+元々おふたりで召し上がられる前提ですので
+量も多くなっておりますが、サイズを選べます。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+さいず……大きさか。
+男ふたりだからな。一番大きいものを頼む。/
+[flow]
+[face A 10]
+主もそれで構わないか？/
+[talkend]
+[serif off]
+?小さく頷く/
+[playeryes]
+[-]
+[face A 01]
+[say A]
+[serif on]
+あと、とっぴんぐにかかおにぶと
+ぴすたちおくらっしゅを。/
+[flow]
+[face A 00]
+……それと、主。貴君は飲み物はどうする？
+オススメはほっとかふぇおれだが。/
+[hide A]
+[se paper_01]
+[talkend]
+[textcolor ARUJI]
+注文を終えた下野の慣れた様子は
+非常にスマートに感じた。/
+[serif off]
+?（下野……実はデキる男……！？）/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[wait 2]
+[bgm food]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+@店員
+おまたせしました。
+「甘々ラブラブチョコパフェ・Ｌ」でございます。/
+[effect fr kira a 0 0]
+[se kira_01]
+[talkend]
+[textcolor ARUJI]
+パフェはチョコのブラウン×イチゴのピンク。
+トップにハート型のチョコやアイスが置かれ——/
+[textcolor ARUJI]
+[flow]
+上から下までずっと甘そうだ。まさに甘々。
+そしてデカい。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+おお、きたか……これがらぶらぶちょこぱふぇ……
+名前の意味はよくわからないが、この見た目——/
+[flow]
+[face A 01]
+[se taiko_01]
+まさにB級グルメだな！/
+[effect off a]
+[talkend]
+[serif off]
+?そうかもしれない……/
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+いただきます、と手を合わせ、ふたりで
+ひとつの大きなパフェにスプーンを伸ばす。/
+[se eat_01]
+[say A]
+[face A 05]
+んん……これは……！！[shake A]/
+[quake 1]
+[show LINE]
+[scale LINE 3]
+[orderline A LINE]
+[scale A 2 0.5]
+[move A Y -150 0.5]
+[se cloth_01]
+[autotap]/
+[flow]
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 14]
+甘さは強いが、単調にならない。上のふわ甘から
+もち、ザクの順で食感が変わって手が止まらない。/
+[flow]
+[se taiko_01]
+ちょこといちごは、酸味が後味の切れを作っていて
+甘いだけで終わらないのが良い。/
+[flow]
+[face A 01]
+[se taiko_01]
+大きいさいずではあるが、量がしっかりある。
+ほろ苦い珈琲などの飲み物との食べ合わせも抜群だ。/
+[flow]
+[face A 02]
+[se taiko_02]
+この限定めにゅーは☆4.8。
+店の総合評価は変わらず☆5だ。再訪、あり。[shake A]/
+[hideall]
+[effect off a]
+[quake off]
+[se eat_01]
+[talkend]
+[serif off]
+?美味しい！/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 09]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……この季節になると不思議とどこの店も
+ちょこを使った甘味が増える。/
+[flow]
+[face A 01]
+だが同じちょことはいえ、どの店もひと手間
+ふた手間をかけ、味を追求していることに気づく。/
+[flow]
+[face A 06]
+しかし、何故ちょこなのか……
+果物のように旬があるとは思えないが……/
+[hide A]
+[talkend]
+[serif off]
+?下野、もしかしてバレンタインを知らない……？/
+[show A C]
+[face A 10]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+む、ばれんたいん……
+たしかにそういった表記を目にするが……/
+[flow]
+[face A 09]
+感謝祭のようなものかと思っていたが。/
+[talkend]
+[textcolor ARUJI]
+甘々ラブラブチョコパフェをスプーンで
+つつきながら素の表情で答える下野。/
+[textcolor ARUJI]
+[flow]
+何故か特定の言葉以外の横文字には
+疎いようだ。/
+[serif off]
+?カップルプランのラブラブパフェについて教える/
+[face A 14]
+[shake A]
+[delay 2 face A 05]
+[delay 2 fadein BLACK 1.5]
+[serif off 0.5]
+[-]
+[face A 03]
+[bgm departure]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[say A]
+[serif on]
+な……なんということだ……[shake A]/
+[flow]
+[face A 06]
+[shake A]
+か、かっぷる……とは、
+こ、恋人同士という意味だったのか……/
+[flow]
+[face A 04]
+ら、らぶらぶ、とは……
+……愛し合うさまを形容する言葉だったと……[shake A]/
+[talkend]
+[textcolor ARUJI]
+下野はぷるぷると震えている。/
+[face A 06]
+[say A]
+[shake A]
+くっ……いまになって自分の言動を思い返すと
+あまりにも……ッ！[shake A 2 10 10][face A 04]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+珍しく下野は顔を真っ赤にして動揺している。/
+[textcolor ARUJI]
+[flow]
+さっきまでのスマートさは鳴りを潜め
+うぶな男子高校生のような反応だ。/
+@店員
+こんにちは！　本日はカップルプランでのご予約
+まことにありがとうございます！/
+[se cloth_01]
+[flow]
+@店員
+このプランでは写真撮影のサービスがございます！/
+[talkend]
+[textcolor ARUJI]
+店員はポラロイドカメラを持って構える。/
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[shake A]
+い、いや、すまん。
+自分たちはその……！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+と、慌てる下野。しかしせっかくだから
+写真撮影はした方が記念になるだろう。/
+[serif off]
+?撮ろうよ。下野/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[say A]
+[serif on]
+う……し、しかし……[shake A]/
+[hide A]
+@店員
+では、おふたりこちらに座っていただいて……/
+[serif off]
+?下野の隣でできるだけ近づく/
+[show A C]
+[rotate A 10 0.5]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[scale A 2 0.5]
+[move A Y -150 0.5]
+[say A]
+[-]
+[serif on]
+！？[shake A][se zukkoke_02]/
+[color A talk]
+@店員
+もっと近づいてくださーいっ。
+いいですね！　はい、チーズ！[effect fr waveout 6000 0 0][fadein WHITE 0.2][delay 0.2 fadeout 0.3]/
+[face A 05]
+[color A talk]
+@店員
+もう一枚いきますね！　今度はおふたりで
+ハートを手で作って……/
+[face A 04]
+[say A]
+うぅっ、はぁと……こうか？/
+[talkend]
+[serif off]
+?下野とハートを作る/
+[face A 05]
+[say A]
+[serif on]
+[shake A]
+くっ、うぅ……貴君……近づきすぎだ！
+あまり、触れるな……っ。[shake A][face A 06]/
+[color A talk]
+@店員
+撮りますよーー。/
+[face A 05]
+[say A]
+[serif off]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[-]
+[shake A]
+[wait 1]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 2]
+[bg sky_sunset]
+[minibg off]
+[hideall]
+[-]
+[bgm night]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif off]
+?ごちそうさまでした/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+撮ってもらったポラロイド写真にはたくさんの
+ハートや、名前と日付を書いてデコらせてもらった。/
+[textcolor ARUJI]
+[flow]
+甘々ラブラブチョコパフェを食べ終え、
+店を出た。/
+[textcolor ARUJI]
+[flow]
+最初こそドギマギしてしまったが、下野は特に
+意図もなく純粋にパフェを食べたかっただけ——/
+[textcolor ARUJI]
+[flow]
+そうわかってからは、下野をからかうのが
+楽しくなっていたのだった。/
+[minibg sky_sunset 0.5]
+[bg black 0.5]
+[show A C]
+[say A]
+[face A 06]
+主……その、今日は、すまなかった。/
+[flow]
+[face A 10]
+だが、つ、つまり……その……貴君は
+わかったうえで——/
+[flow]
+[face A 06]
+自分に、付き合ってくれていた、
+ということか？/
+[talkend]
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[face A 09]
+[say A]
+[serif on]
+そ、そうか……か、かっぷるのフリをさせてしまい
+……迷惑をかけたな。/
+[flow]
+[face A 01]
+お詫びと言ってはなんだが……
+先程の店でていくあうとの限定菓子を買った。/
+[flow]
+[face A 06]
+よかったらもらってはくれないか。/
+[face A 00]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+下野はチョコレートの包を
+こちらに手渡す。/
+[hide A]
+[serif off]
+?バレンタインのチョコだね/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+[serif on]
+？[wait 1]
+そうだが[wait 0.2]…[wait 0.2]…[face A 10]/
+[flow]
+[face A 05]
+[shake A]
+待て、その反応は……/
+[flow]
+[se zukkoke_02]
+[face A 06]
+[shake A]
+まさか、ばれんたいんにちょこを手渡すことにも
+なにか特別な意味があるのか……！？[shake A]/
+[talkend]
+[serif off]
+?好意や感謝の気持ちを込めて、贈ったり/
+[move A Y -100 0.5]
+[face A 04]
+[say A]
+[se cloth_01]
+[-]
+[se zukkoke_02]
+[serif on]
+くそっ！！[shake A]　なんという罠だ……！！/
+[flow]
+[move A Y 100 0.5]
+[face A 11]
+いや……しかし、その……感謝ということなら
+間違ってはいない。[shake A]/
+[talkend]
+[serif off]
+?感謝だけ？/
+[face A 06]
+[say A]
+[serif on]
+そ、それは……！[shake A]/
+[se cloth_06]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[autotap]/
+[moce A Y 100 0.3]
+[flow]
+[face A 03]
+き、貴君は自分をからかっているだろう！
+顔を見ればわかる。/
+[face A 06]
+[talkend]
+[textcolor ARUJI]
+下野は照れを隠すように先を歩いていく。/
+[hide A]
+[serif off]
+[se cloth_01]
+?お返しのチョコを渡す/
+[show A C]
+[face A 05]
+[say A]
+[serif on]
+これは……貴君もちょこを……？
+…………感謝する。[face A 11]/
+[flow]
+[face A 01]
+しかも、これは手作りではないか。
+形でわかる。うむ、美味そうだ。/
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+……嬉しいものだな。たしかに良い文化だ。
+ちょこを贈り合う、というのは。/
+[serif off]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[flow]
+…………主、このあともまだ時間はあるだろうか。/
+[flow]
+[face A 00]
+少し歩いたら、行きつけの店がある。
+河川敷を少し散歩すれば腹もこなれるだろう。[face A 06]/
+[talkend]
+[serif off]
+?うなずく/
+[playeryes]
+[face A 01]
+[talkend]
+[textcolor ARUJI]
+[-]
+[serif on]
+その後、河川敷をふたりで歩いた。/
+[hide A]
+[textcolor ARUJI]
+[flow]
+[se amb_07]
+草野球をする少年たち、散歩する老夫婦。
+夕食の買い物を終えて帰る自転車のお母さん。/
+[textcolor ARUJI]
+[flow]
+高架を走り抜ける電車。
+冷たい風にほっと立ち上る白い息……/
+[textcolor ARUJI]
+[flow]
+川面に映る冬空を眺め、他愛もない話をした。/
+[fadein black 1]
+[serif off]
+[textcolor ARUJI]
+[-]
+[serif on]
+そして、下野の行きつけの店にたどり着いた。/
+[fadeout 0.5]
+[bgm comical]
+[minibg yatai_night 0.5]
+@店員
+にんにくいりますか？/
+[show A C]
+[face A 03]
+[scale A 2]
+[move A Y -270]
+[say A]
+[face A 03]
+[effect fr syutyu a 0 0]
+[se taiko_02]
+ニンニクマシマシアブラカラメ/
+[effect off a]
+[talkend]
+[serif off]
+?二、ニンニクマシマシアブラカラメ！/
+[serif on]
+[color A talk]
+@店員
+はいよ！/
+[face A 01]
+[talkend]
+[textcolor ARUJI]
+その日の下野とのお出かけは
+ジロー系ラーメンで締めることとなったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

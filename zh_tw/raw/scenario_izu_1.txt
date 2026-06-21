@@ -1,0 +1,1028 @@
+>>10000/
+@伊豆
+喲！我是東海道伊豆！[autotap]/
+[delay 3.1]
+[flow]
+[-]
+@伊豆
+我喜歡在戶外運動和在海裡游泳！　
+為什麼不和將軍一起流汗呢？/
+>>10001/
+@伊豆
+也許你會再打電話給我...[wait 1.8]
+不知道將軍喜不喜歡我…？呵呵.../
+>>1/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 00]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+將軍！這是一個節日...
+「Dontsuku Festival」是必看的！ ！/
+[face A 01]
+神轎上，就是“那邊”
+它在刺我……太強大了！ ！[shake A]/
+[move A X -50 0.1]
+[delay 0.1 move A X 200 0.2]
+[delay 0.3 move A X -200 0.2]
+[delay 0.5 move A X 100 0.1]
+[autotap]/
+[face A 02]
+所以，男人、女人、大人、小孩，每個人
+吵鬧是最好玩的！/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+讓我們和將軍一起全力以赴吧！什麼！ ！/
+>>2/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[talk A]
+[serif on]
+伊豆鄉村，不能錯過溫泉！
+這是緩解任務疲勞的最佳方式！ ！/
+[face A 02]
+我推薦的是...[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]當然還有伊藤、熱川、下田、
+一邊看瀑布一邊泡在大瀧溫泉，讓人忍不住！[shake A]/
+[face A 04]
+咔！　[shake A]有太多好地方可供選擇！[face A 01]
+如果發生這種情況，將軍！　[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]讓我們征服他們所有人吧！ ！[move A X 800 0.3]/
+[serif off]
+[move A Y 50 0.2]
+[delay 0.2 move A Y -50 0.1]
+[delay 0.4 move A Y 50 0.2]
+[delay 0.6 move A Y -50 0.1]
+[move A X -500 1.0]
+[rotate A 20 0.3]
+[-]
+[serif on]
+[face A 08]
+啊？將軍你心不在焉地做什麼？ ！[shake A][face A 02]
+讓我們準備出發吧！ ！[se walk_03][rotate A 0 0.2][move A X 500 0.5][hide A]/
+>>3/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 06]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+如果你想先於別人欣賞櫻花，
+畢竟是河津櫻。/
+[face A 01]
+與其他櫻花不同，它們在二月左右開始盛開！
+據說這是本州最快的！[shake A]/
+[face A 06]
+[scale A 1.4 0.5]
+[move A Y -100 0.5]
+這就是原因，將軍。
+第一次賞櫻花…跟我一起…/
+[face A 02]
+[move A Y 100 0.2]
+[scale A 1.0 0.2]
+呵呵，還沒決定呢！
+別忘了！/
+>>4/
+[set A s_izu_r 伊豆]
+[randomset B r @地魂男児 @あやかし -izu]
+[randomset B r @地魂男児 @あやかし -izu]
+[show A R]
+[show B L]
+[talk A]
+[face A 02]
+[face B 00]
+[move A X -250 0.3]
+[-]
+[serif on]
+呵呵，今天大家都醒得很早啊！ ！
+嘿那裡！/
+[face A 01]
+嘿！[shake A]
+我今天真想在海裡游泳！[face B 01]/
+[show C R]
+[move C X 200]
+[move C X -150 0.5]
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+那麼，我們現在就去海裡游泳吧！
+走的人的手指！ ！[shake C]/
+>>5/
+[set A s_izu_r 伊豆]
+[randomset B r @地魂男児 @あやかし -izu]
+[show A C]
+[show B R]
+[face A 07]
+[face B 00]
+[move A Y -100]
+[move B X -100 1.0]
+[-]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[-]
+[move B L 1.0]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+啊？　[esoy 0.5]這是什麼啊！ ？[move A Y 100 0.3][face A 05]　啊，我的午餐！ ？
+哦，哦...[wait 0.5][face A 01]啊，謝謝你$B:A……[face B 01]/
+[face A 09]
+[move B X -200 0.5]
+[hide B]
+呃……？[shake A]　$B:A但對我來說
+他帶午餐給你了嗎…？/
+[flow]
+親切…[wait 0.5]另外，也許.../
+[flow]
+[effect A love a 0 100]
+也許...
+我對你有興趣...！ ？就是這樣！ ？/
+>>6/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[scale A 2.0]
+[move A Y -150]
+亞巴！[shake A]
+今天天氣超好！ ！/
+[face A 01]
+[scale A 1.0]
+[move A Y 150]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+待在訓練場訓練肯定是無聊的！ ！
+大家！我們去外面做愛吧！ ！ ！[se walk_03][move A X 1000 0.3][hide A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_izu_r 伊豆]
+[show A L]
+[face A 00]
+[talk A]
+[move A X 350 1.5]
+[-]
+[serif on]
+我今天工作了...[face A 04]
+呃……睡覺前……[move A X 100 1.0]晚餐...[wait 0.5]我得吃飯.../
+[shake A]
+但是……也……[face A 07]我睏了...
+不...[rotate A -60 0.5][move A XY 50 -100 0.3]...嘎。/
+>>10/
+[set A s_izu_r 伊豆]
+[show A L]
+[face A 04]
+[talk A]
+[move A X 350 1.5]
+[-]
+[serif on]
+啊，我已經走累了…[move A Y 10 0.4][delay 0.4 move A Y -30 1.0]
+這次遠徵是不可能的了…[shake A]/
+趕快去睡覺吧...[move A X 100 1.0]……[face A 06]之前/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+這是洗澡！在沐浴中消除一天的疲勞
+它會讓你神清氣爽，讓你神清氣爽！ ！ ！ ！[se walk_03][move A X -1500 0.5][hide A]/
+>>11/
+[set A s_izu_r 伊豆]
+[randomset B r @地魂男児 @あやかし -izu -@NPC]
+[show A C]
+[show B L]
+[face A 08]
+[face B 04]
+[serif on]
+[talk A]
+啊？　$B:A，我把腿割了一點。
+保持不動。/
+[move A X -50 0.2]
+[-]
+[move A XY -10 -100 0.4]
+[rotate A 10 0.3]
+[se cloth_01]
+[face A 00]
+[face B 01]
+清理這個地方...[se water_06]
+我的特殊藥膏……這個很好。[se cloth_01]/
+[move A XY 10 100 0.3]
+[rotate A 0 0.3]
+[face A 01]
+[face B 02]
+可能會褪色一段時間，但
+照這個速度，你很快就會好起來的！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_izu_r 伊豆]
+[randomset B r @地魂男児 @あやかし -izu]
+[show A L]
+[show B R]
+[face A 01]
+[face B 00]
+[serif on]
+[setline 0 A B]
+[move A X 50 1.0]
+[-]
+[talk A]
+什麼？$B:A嗯，
+你在哪裡做？　[wait 0.5]天哪，你看，就是這樣！　[face B 06]那個！[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]/
+[face A 02]
+嗯……嘿！[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+看起來很有趣！下次我們也試試吧！/
+[face A 06]
+[move A X 50 0.5]
+對我來說[= 浜辺 森ん中 屋根の上 川辺 海ん中]！那裡沒有人，
+風景很美，有種開闊的感覺，強烈推薦！[face B 05]/
+>>15/
+[set A s_izu_m 伊豆]
+[effect fr katana 1000 300 0]
+[se doka_01]
+[wait 0.2]
+[-]
+[show A R]
+[face A 03]
+[move A Y 400]
+[se walk_04]
+[move A X -300 0.4]
+[move A Y -400 0.3]
+[-]
+[serif on]
+[talk A]
+耶！ ！　[move A X -200 0.2]耶！ ！[shake A][fadein WHITE 0.2][delay 0.2 fadeout 0.1]
+…………哈！　[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]我累了！ ！[face A 04]/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+有點刮傷了...
+今天的訓練夠了嗎？/
+[face A 02]
+那我就走了！
+吃完午餐我們就出去吧♪[move A X 500 0.5][hide A]/
+>>16/
+[set A s_izu_m 伊豆]
+[randomset B m @地魂男児 @あやかし -izu -@NPC]
+[show A R]
+[show B L]
+[move A X 100]
+[scale B 1.3]
+[move B Y -30]
+[face A 05]
+[face B 08]
+[-]
+[move B X 150 0.1]
+[fadein WHITE 0.2]
+[se katana_06]
+[delay 0.2 fadeout 0.1]
+[-]
+[serif on]
+[talk A]
+[order A 0]
+[order B 1]
+噢！[shake A]
+$B:A這傢伙的臀部動作真是太棒了…/
+[move B X -300 0.1]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.1]
+[se katana_06]
+[face A 08]
+哼……呵呵，轉移一下重心吧……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+我明白了！我們也來嘗試一下吧！ ！[face A 02]/
+>>17/
+[set A s_izu_b 伊豆]
+[randomset B b @地魂男児 @あやかし -izu]
+[show A L]
+[show B R]
+[order A 1]
+[order B 0]
+[face A 01]
+[move A X 200 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+唷，那真是令人耳目一新！[wait 0.5]
+哇哦，$B:A你現在要洗澡嗎？[face B 01]/
+[face A 02]
+今天的熱水也不錯！[wait 0.5][face B 06]
+……嗯？[face A 08]　為什麼不把它隱藏起來...？/
+[face A 00]
+哦，迪克？[wait 0.5]
+沒有必要隱藏它！[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]　[face A 02]沒人在乎！/
+>>18/
+[set A s_izu_b 伊豆]
+[randomset B b @地魂男児 @あやかし -izu]
+[show A C]
+[show B C]
+[face A 02]
+[face B 02]
+[setline 0 A B]
+[order A 1]
+[order B 0]
+[move A Y -100]
+[move B Y -100]
+[se water_06]
+[effect fr yuge a 0 0]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 00]
+[wait 0.5]
+[-]
+[move A X 50 1.0]
+[-]
+[serif on]
+[talk A]
+[face A 06]
+哦，$B:A，看。[face B 05]
+浴室裡就我們一個人。/
+[move A X 50 1.0]
+[face B 06]
+確實不好，但也沒有別人了。
+現在只能做些什麼...[wait 0.5]我們來做吧？[move A Y -10 1.0][se water_06][shake B]/
+[effect fr splash 6000 0 0]
+[move A Y 100 0.2]
+[se water_03]
+[face A 02]
+[face B 02]
+那麼，$B:A我們一起去游泳吧！ ！
+嘿嘿！ ！[se water_01][move A X -300 1.0][rotate A 30 0.3][move A Y -50 0.2][effect fr splash 6000 -200 0]/
+[face A 01]
+[move A X 100 0.5]
+[rotate A 0 0.3]
+哦，順便說一句，如果你在血液流動良好的時候游泳，
+你的血壓很容易升高，所以你需要小心。/
+[face A 02]
+[face B 02]
+[move B X -200 0.5]
+[move A X -300 0.2]
+[hide A]
+[se water_07]
+[effect fr splash 6000 0 0]
+$B:A也要小心！ ！
+哈呼！ ！ ！/
+>>19/
+[set A s_izu_b 伊豆]
+[randomset B b @地魂男児 @あやかし -izu -@NPC]
+[show A C]
+[move A Y -100]
+[face A 09]
+[move A Y 10 0.4]
+[effect fr yuge a 0 0]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+呃……我有點得意忘形了。[se water_03][move A Y 100 0.5]
+讓它冷卻一點...[move A X 100 1.0]……嗯？[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]/
+[show B L]
+[move B Y -100]
+[face A 08]
+[face B 06]
+$B:A，你的臉怎麼紅了，看起來很悲傷？[wait 0.5][move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face A 06]
+洗澡能讓你暖和起來並改善你的血液迴圈嗎？[face B 05][move A X -100 0.5]/
+哈哈~我明白了~呵呵。[move A Y -100 0.5][se water_03]
+沒關係，沒關係！[move A X -50 1.0]　喬喬喬喬~！[face B 02][se water_07][shake A][shake B 5 5 5]/
+>>20/
+[set A s_izu_r 伊豆]
+[show A L]
+[face A 02]
+[se fusuma_04]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+呃…
+感覺很清爽！ ！/
+[face A 04]
+順便在浴缸裡取暖，聽到流水聲。
+聽了它讓我想做。/
+[face A 08]
+但絕對不要在浴室裡！[shake A]
+對於愛洗澡的人來說，這是理所當然的禮儀！/
+>>21/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[se pee_01]
+哇！[shake A]　哦，[move A X -10 0.1]噢...！ ？[shake A]
+阿恰...[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[face A 04]
+精力太旺盛，結果沒達到目標……！
+不知道以後會不會生氣…[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+>>22/
+[set A s_izu_r 伊豆]
+[show A L]
+[face A 02]
+[se fusuma_04]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+嗯！
+超清爽！ ！ ！/
+[effect A kira a 0 200]
+[face A 06]
+今天也是美好的一天~♪/
+>>23/
+[set A s_izu_r 伊豆]
+[show A C]
+[move A Y -100]
+[face A 04]
+[serif on]
+[talk A]
+我在私人房間裡有很多空閒時間。
+快點恢復精神，去玩得開心吧！[shake A]/
+[face A 06]
+……我來了，所以我會盡力的。[se cloth_02]
+我想等我恢復精神之後就出去吧。[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]呵呵！/
+>>24/
+[set A s_izu_r 伊豆]
+[show A R]
+[face A 01]
+[serif on]
+[talk A]
+[effect A kira a 0 200]
+你很快就要睡覺了嗎？
+蒲團出了什麼問題？ ！ ！[move A Y 100 0.1][delay 0.1 move A Y -150 0.3][rotate A 60 0.5][move A X -200 0.7]/
+[face A 02]
+[se cloth_02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+哇！　[wait 0.5]蒲團又軟又舒服！
+今天我也會努力的...[wait 0.2]這是.../
+[effect off a]
+[face A 07]
+[move A Y -10 1.0]
+呃.../
+>>25/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+媽咪……厲害了……[shake A]
+一切都很順利……一切都很順利……/
+[talkend]
+就像在睡夢中說話一樣。/
+>>26/
+[set A s_izu_r 伊豆]
+[show A C]
+[face A 07]
+[move A Y -200]
+[-]
+[se A cloth_01]
+[move A Y 300 0.2]
+[delay 0.2 move A Y -100 0.2]
+[face A 04]
+[-]
+[serif on]
+[talk A]
+啊啊！
+我再也受不了了！/
+[face A 06]
+[talk A]
+因為大家都在睡覺
+偷偷的……呵呵！[move A Y -100 1.0][se cloth_01][-][shake A]/
+>>27/
+[set A s_izu_b 伊豆]
+[effect fr yuge a 0 0]
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+喲，將軍！/
+[serif off]
+？ 伊豆，生日快樂！ ...../
+[talkend]
+[textcolor ARUJI]
+[serif on]
+伊豆的身體有點濕
+她的頭髮和皮膚冒著熱氣。看起來他剛剛洗完澡。/
+[face A 00]
+[say A]
+[se cloth_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，像這樣嗎？我剛洗完澡！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+今天是我特別的一天
+他總是穿得像在洗澡一樣。/
+[face A 08]
+[effect A kira b 0 0]
+[se kira_01]
+畢竟今天是「11月26日」！
+我想泡很多次溫泉！/
+[serif off]
+？我喜歡泡溫泉，對吧？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[effect off b]
+[serif on]
+[say A]
+當然！畢竟，說到我國，就是溫泉。
+啊，我要跟將軍一起去泡溫泉！/
+[face A 06]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+想到這裡，我又開始想洗澡了！
+趁機把將軍打扮得像我一樣。/
+[se cloth_06]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 02]
+[flow]
+餵，將軍，把衣服脫了！/
+[talkend]
+[textcolor ARUJI]
+伊豆伸出了手。
+我驚慌失措，想要後退，但我的衣服被抓住了。/
+[face A 01]
+[say A]
+現在，我們也成為將軍吧！/
+[serif off]
+？等等！稍後我們一起洗澡……！/
+[face A 02]
+[serif on]
+說真的！ ？我做到了！
+因為這是一個承諾！/
+[talkend]
+[textcolor ARUJI]
+[scale A 1.0 0.5]
+[move A Y 120 0.5]
+[se cloth_01]
+伊豆 當你放開你的手
+他轉向我，露出燦爛的笑容。/
+[face A 01]
+[say A]
+這個莊園有溫泉，非常棒。
+傷口會很快癒合的！/
+[face A 04]
+[flow]
+我希望有更多種類的浴室。
+公共浴池好寬敞！/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+例如，有各種各樣的草藥和藥用植物。
+我還想要一些藥浴。有效嗎？/
+[face A 02]
+[flow]
+啊！下次我去問問Riku吧！
+你想睡個澡嗎？然後就是桑拿！[shake A]/
+[face A 06]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+堅持到最後一刻
+我想在花園裡的池塘裡盡我所能！/
+[talkend]
+[textcolor ARUJI]
+就這樣走來走去…
+我想我甚至會去池塘裡....../
+[serif off]
+？別著涼了.../
+[face A 00]
+[serif on]
+[say A]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+如果我感冒了，我就回去泡溫泉！
+……啊，不過也許就這樣吧……/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+因為如果你是將軍，你一定會來到我身邊。
+你會照顧我嗎？呵呵。/
+[face A 02]
+那麼，將軍，請立即跟我來。
+我們去洗澡吧！我還沒有完全沉浸其中！[se walk_03][move A X 500 0.5][hide A]/
+>>100/
+[set A s_izu_b 伊豆]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 伊豆と大浴場でお喋り]
+[-]
+[bg rouka_night]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[se walk_01]
+[talkend]
+[textcolor ARUJI]
+努力洗去今天的疲憊
+我來到了莊園的公共浴場。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[bg bath]
+[-]
+[effect fr yuge y]
+[se fusuma_03]
+[fadeout 1]
+[se amb_12]
+[-]
+[se water_06]
+[serif on]
+[-]
+[hideall]
+[-]
+[textcolor ARUJI]
+裡面已經有好幾個地魂少年了，
+每個人似乎都很放鬆，很享受。/
+[se bath_03]
+[flow]
+[textcolor ARUJI]
+我想在進入浴缸之前先清洗一下身體。
+當我坐在洗手間的時候，突然有人叫我。/
+[show A C]
+[face A 00]
+[talk A]
+啊，將軍！你的鄰居還好嗎？[face A 02]/
+[serif off]
+？ 伊豆？好的/
+[talk A]
+[scale A 1.5 0.3]
+[move A Y -150 0.5]
+[serif on]
+[se bath_03]
+哦！[wait 0.2]　[face A 01]將軍也用這個澡堂！
+這是我們第一次一起度過時光。/
+[face A 02]
+哦，你想用這個嗎？由草藥製成的肥皂。
+太棒了！[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]/
+[serif off]
+？謝謝你/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+當你把肥皂打出泡沫時
+它有一種清爽的氣味。/
+[serif off]
+？你的使命完成了嗎？/
+[serif on]
+[show A]
+[face A 04]
+[scale A 1.5]
+[move A Y -150]
+[say A]
+沒錯。今天我們奮戰了一整天。
+我真的很累了.../
+[se bath_01]
+[face A 01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+但睡前不想洗澡嗎？
+唷！感覺真好！[shake A]/
+[se bath_03]
+[textcolor ARUJI]
+[talkend]
+伊豆從桶子倒熱水澆在他身上。
+溫熱的蒸氣飄進來。/
+[face A 00]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+我還沒有和將軍進行徹底的交談。
+卡拉薩，不知怎的，我正在尋找機會！/
+[flow]
+原來，浴場也是我的花園。
+竟然可以這樣說話…[face A 09][wait 0.5]難道不是命運嗎？[shake A]/
+[serif off]
+？ 伊豆喜歡洗澡嗎？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+歐！ 伊豆說到國家
+畢竟只是個溫泉啊！/
+[face A 01]
+洗澡…尤其是如果您喜歡泡溫泉的話
+有什麼問題就問我吧！/
+[face A 00]
+哦，對了，還有這個大浴缸。
+溫泉抽得妥妥的！/
+[face A 02]
+泉水的水質非常好。
+將軍喝醉過嗎？/
+[serif off]
+？不。可以喝溫泉嗎？/
+[face A 01]
+[serif on]
+[shake A]
+麻糬！可能有點苦，但是
+這對你的身體有好處，為什麼不嘗試呢？/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+好吧，如果你願意的話！/
+[face A 00]
+啊，原來如此！
+我會不厭其煩地幫你洗背！/
+[serif off]
+？ 伊豆洗背/
+[bgm fun]
+[face A 08]
+[move A Y 50 0.5]
+[serif on]
+好吧，我們走吧！/
+[talkend]
+[se bath_05]
+[scale A 2.0 0.5]
+[move A Y -50 0.5]
+[textcolor ARUJI]
+伊豆 起泡​​沫，
+用力揉搓這個人的背部。[shake A 5 10 10]/
+[face A 02]
+[talk A]
+[se bath_05]
+擦洗！[shake A]　擦洗，擦洗！ ！[shake A 5 1 5]
+你身上有癢的地方嗎？我的天啊！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+哈~~~~~~
+將軍的背脊寬闊，令人安心。/
+[face A 02]
+[se bath_05]
+感謝您每天的辛勤工作。出色地。
+擦洗擦洗！[shake A 2 5 5]/
+[face A 02]
+[se bath_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+好吧，就是這樣！
+現在已經順利了！一般的！/
+[serif off]
+？謝謝你/
+[face A 00]
+[serif on]
+真的，往這邊轉！
+我也來洗前面！/
+[serif off]
+？只要背面就可以了。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 05]
+[serif on]
+呃，將軍，什麼事？ ？
+不要說任何有水味的話！ ！/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+也許這很尷尬？
+將軍~別擔心~！/
+[face A 02]
+你看，我完全沒問題！
+即使我下海了，我基本上也是一隻甲魚！/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+好吧，既然將軍都這麼說了，那今天就到這裡吧
+我應該只在背上做嗎？[face A 02]/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[show A]
+[scale A 1.5]
+[move A Y -150]
+[face A 00]
+[-]
+[fadeout 0.5]
+[-]
+[se bath_05]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+洗完這個背後，
+伊豆開始清洗身體。/
+[serif off]
+？烤得很好。 伊豆/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+[say A]
+對了！我在海裡游泳
+因為我喜歡在外面玩！ ！/
+[face A 02]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.3 se bath_01]
+[-]
+[hide A]
+[talkend]
+[se water_03]
+[textcolor ARUJI]
+用浴缸裡的熱水覆蓋頭部。
+讓你的身體流動伊豆。/
+[show A C]
+[face A 02]
+[move A Y -50]
+[talk A]
+[se bath_03]
+[move A Y 50 0.2]
+牛！我洗完了。
+我先去洗澡了！ ！/
+[move A X -850 0.5]
+[se water_05]
+很棒的公共浴室！　哈呼！ ！/
+[serif off]
+[hide A]
+[shakebg]
+[se water_01]
+[talkend]
+[effect fr splash 6000 -800 0]
+[wait 2]
+[-]
+[autotap]/
+？我很好.../
+[serif on]
+[talkend]
+[textcolor ARUJI]
+伊豆 和其他男孩在浴缸裡
+他們似乎玩得很開心。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[wait 1]
+[-]
+[se amb_12]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+一些地魂男孩正在洗澡。
+公共浴場有些安靜。/
+[serif off]
+？我想是時候上去了/
+[show A]
+[move A Y -100]
+[move A Y 100 0.5]
+[se water_07]
+[face A 00]
+[serif on]
+[say A]
+哦，將軍還上嗎？
+那麼，我也是！哇，我累了…[face A 04]/
+[move A Y -200 0.3]
+[hide A]
+[talkend]
+[se water_03]
+[effect fr splash 6000 0 0]
+[textcolor ARUJI]
+當我從浴缸裡出來時，我聽到身後傳來巨大的水聲。
+我回頭看看伊豆是不是又跳進浴缸了…/
+[bgm off]
+[se water_06]
+[textcolor ARUJI]
+在那裡我可以看到伊豆的背部漂浮在浴缸裡。/
+[flow]
+[textcolor ARUJI]
+他的臉完全沒入水中，
+他的身體甚至沒有抽搐一下。/
+[serif off]
+[bgm departure]
+？我快淹死了！ ？/
+[se bath_02]
+[serif on]
+[textcolor ARUJI]
+我趕緊抱起伊豆並把他放到了清洗區。/
+[flow]
+[se clolth_06]
+[textcolor ARUJI]
+有可能你喝了水
+伊豆 我用力按她的肚子，感覺到她瘦弱的肌肉有彈性。/
+[serif off]
+?檢查呼吸/
+[show A]
+[face A 07]
+[scale A 1.6]
+[move A Y -120]
+[rotate A 30]
+[serif on]
+[say A]
+………………[bgm off]
+……[wait 0.5]………………[wait 0.2]咕嚕.../
+[serif off]
+[bgm comical]
+？睡覺了！ ？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on]
+辣~...咕咕~...Mnyamnya.../
+[serif off]
+？ ……打伊豆臉頰/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+佩蒂佩奇。[shake A]/
+[say A]
+[face A 04]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嗯嗯嗯…
+嗯嗯，將軍…？[face A 08]/
+[face A 04]
+我……我累了……
+電池完全沒電了.../
+[serif off]
+？她就這樣突然睡著了！ ？/
+[say A]
+[face A 03]
+[serif on]
+呃……因為已經不可能了……
+我無法戰勝睡意......[face A 04]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 07]
+晚安，將軍…嗚嗚嗚…/
+[move A Y -100 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+伊豆 仍完全未被覆蓋。
+我在洗手間睡著了.../
+[serif off]
+？ 伊豆~，嘿嘿…/
+[fadein black 2]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+之後，無論我嘗試喚醒多少次伊豆
+沒有任何醒來的跡象…/
+[flow]
+[textcolor ARUJI]
+我請求更衣室裡的地魂男孩們的配合，
+伊豆 被帶到床上。/
+[flow]
+[textcolor ARUJI]
+我平常精力充沛，但當我達到極限時，
+伊豆 睡著了，就好像電池沒電了一樣。/
+[flow]
+[textcolor ARUJI]
+之後，走廊、客廳、訓練場等各個地方…
+有人看見他睡著了。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

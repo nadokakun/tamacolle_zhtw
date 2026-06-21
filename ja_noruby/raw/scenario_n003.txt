@@ -1,0 +1,857 @@
+>>0/
+[set A s_n003_m 羽鳥]
+[set B s_n001_m 夏人]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 羽鳥悠飛]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka_labo]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[serif on 0.5]
+声聞士として採用が決まった者は
+二週間程度の合宿が義務付けられている。/
+ここで声聞士としての基礎知識や、霊力の
+コントロールなど最低限の陰陽術を学ぶのだ。/
+勉強は朝から夜まで
+様々な講師によるマンツーマンで行われる。/
+[minibg rokuhara_kaigishitsu 0.5]
+合宿４日目、身体的にも精神的にも疲れ果て
+夜食を食べながら、うとうととしていた。/
+[fadein BLACK 1]
+[serif off 0.5]
+[-]
+[wait 0.3]
+[-]
+[fadeout 0.5]
+[-]
+[wait 1]
+[-]
+[fadein BLACK 1.5]
+[-]
+[show A C]
+[face A 01]
+[scale A 1.5]
+[move A Y -150]
+[wait 1.5]
+[-]
+[fadeout 1.0]
+[-]
+[wait 0.5]
+[-]
+[serif on]
+ふと、目を開けると
+テーブルの向かい側に少年が座っていた。/
+[serif off]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[face A 00]
+[say A]
+[name A 眼鏡の少年]
+[-]
+[serif on]
+やぁ、おはよう～。/
+[face A 02]
+[flow]
+すごくいい顔で眠ってたから、つい
+起こさずに眺めていたよぉ。/
+[serif off]
+?きみは……/
+[face A 00]
+[name A 羽鳥]
+[serif on]
+僕は羽鳥悠飛。
+突然お邪魔しちゃってごめんねぇ。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あぁ、そうだ……シュークリームはいかが？
+たくさんあるんだぁ。/
+[hide A]
+[-]
+[se cloth_01]
+[talkend]
+羽鳥はクリームたっぷりのふわふわの
+シュークリームをお皿に乗せ、差し出してきた。/
+[serif off]
+[show A C]
+[face A 04]
+[say A]
+[scale A 1.5]
+[move A Y -150]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+本当はもっと美味しいお店があるんだけど
+今日はお休みだったんだぁ……残念だねぇ……/
+[face A 01]
+これはロクハラのショップで買ったものだよぉ。
+まぁ、糖分補給には申し分ないんじゃないかな。/
+[face A 00]
+[flow]
+あと勝手に紅茶も淹れさせてもらったよぉ。
+紅茶とお菓子の組み合わせが好きなんだよねぇ。/
+[hide A]
+[serif off]
+[se eat_01]
+?美味しい……/
+[show A C]
+[face A 00]
+[say A]
+[scale A 1.5]
+[move A Y -150]
+[-]
+[serif on]
+そう？　それはよかった。
+キミはもう寝るところだったのかなぁ？/
+[serif off]
+?もう少し勉強するつもり/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+うんうん。そうだよねぇ。/
+[face A 00]
+[flow]
+少なくとも基礎の座学はそろそろ頭に入れて
+おかないといけないよねぇ。/
+[face A 01]
+[flow]
+甘いものを摂取して、頭にエネルギーが回った
+ことだろうから、勉強の続き、頑張ろうねぇ。/
+[serif off]
+[-]
+[wait 1]
+[talkend]
+[serif on 0.5]
+羽鳥は終始にこにこと穏やかな口調だが
+どこか有無を言わせない圧力を感じる。/
+[serif off]
+?きみも合宿？/
+[serif off]
+[face A 05]
+[wait 1]
+[-]
+[face A 06]
+[say A]
+[-]
+[serif on 0.5]
+……あは。僕は違うよぉ。/
+[serif off]
+[se rokuhara_06]
+[show B L]
+[move B X -1000]
+[face B 01]
+[say B]
+[orderline A B]
+[-]
+[se walk_06]
+[move B X 200 1.3]
+[moveline A B 1000 0 1]
+[-]
+[serif on]
+[scale A 1.3]
+[move A Y 30]
+*Pくん。さっき言い忘れたことが
+あったんだけど……/
+[serif off]
+[setline 1 B A]
+[move A X 100 1]
+[face A 00]
+[face B 05]
+[-]
+[serif on]
+は、羽鳥さん！？[shake B 2 5 5]
+どうしてここに……？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[say A]
+夏人くん、きみもシュークリーム食べる？
+なんだか疲れてるように見えるからねぇ。/
+[say B]
+[shake B]
+い、いや、そういうことじゃなくって……/
+[serif off]
+?ロクハラの職員？　随分若そうだけど……/
+[hide A]
+[move B C 0.5]
+[face B 04]
+[say B]
+[serif on]
+お、おほん……[shake B]
+この方は羽鳥悠飛総司令官代理。/
+[face B 03]
+特務機関ロクハラで二番目[wait 0.2]…[wait 0.2]…[wait 0.2]
+今は実質一番偉い人だよ。/
+[serif off]
+?そ、総司令官……代理……/
+[hide B]
+[-]
+[show A]
+[face A 06]
+[scale A 1.5]
+[move A Y -150]
+[say A]
+[serif on]
+う～ん、僕は責任者ってだけかなぁ。
+何年か前はただの大学教授だったからねぇ。/
+[flow]
+ここでは優秀なスタッフたちがしっかりと
+仕事をしてくれるから、任せてるよぉ。/
+[face A 01]
+キミもその一人になってくれることを
+期待してるね、*Pくん。/
+[serif off]
+?ごくり/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 50 0.5]
+[delay 0.3 hide A]
+[delay 0.2 se dosa_01]
+[serif off]
+[-]
+[wait 0.5]
+[-]
+[show A]
+[face A 00]
+[say A]
+[-]
+[serif on]
+それじゃあ夏人くん。
+*Pくんを立派な声聞士にしてあげてねぇ。/
+[face A 02]
+中途半端な状態で声聞の儀式を迎えると、[wait 0.2]
+簡単に死んじゃうからね。/
+[serif off]
+[hide A]
+[-]
+[show B C]
+[face B 05]
+[say B]
+[shake B]
+[-]
+[serif on]
+……！[shake B][face B 03]
+は、はい！/
+[serif off]
+[hide B]
+[-]
+[show A C]
+[face A 02]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+じゃあまたねぇ。*Pくん。
+会えてよかったよ～。/
+[face A 01]
+[serif off]
+[move A X -200 1]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+残りのシュークリーム
+ふたりで食べちゃってね～。/
+[serif off]
+[se walk_06]
+[se rokuhara_06]
+[hide A 1]
+[-]
+[wait 1]
+[show B C]
+[face B 10]
+[-]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[face B 04]
+[say B]
+[-]
+[serif on]
+ふぅ……緊張した……/
+[face B 12]
+[flow]
+僕もまだ話すのは数回目だけど、
+なんだか、不思議な人だよね……/
+[hide B]
+[talkend]
+それが羽鳥悠飛との出会いだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>1/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 09]
+[-]
+[serif on]
+[say A]
+*Pくん、任務には慣れてきたかなぁ？/
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+うんうん。これからも大変になっていくと
+思うけど、頑張ろうねぇ。/
+[face A 00]
+[scale A 1.6 1]
+[move A Y -100 1]
+そうだ、[= 美味しいシュークリーム いちごのタルト クリームいっぱいのショートケーキ ほろ苦さが癖になるチョコケーキ 色とりどりのマカロンの詰め合わせ 大きなバームクーヘン いただき物の手作りクッキーの詰め合わせ いい香りのアップルパイ クリームがぎっしり詰まったマリトッツォ 政府の人から届いた菓子折り]が
+あるから、よかったらみんなで食べてね。/
+[face A 02]
+ふふ、喜んでもらえて僕も嬉しいよぉ。/
+>>2/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 08]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[wait 0.5]
+[-]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[scale A 1.6 1]
+[move A Y -100 1]
+[-]
+[serif on]
+[say A]
+やぁ*Pくん。ん？　何してるのかって？
+天井を見てたんだよぉ。[face A 00]/
+[face A 09]
+ほら、あそこを見てごらん。
+……シミになってるよねぇ。/
+[face A 01]
+[flow]
+どこかに血天井があるって聞いてはいたけど、
+もしかしてあれのことかなぁ？/
+[face A 02]
+[flow]
+ふふ、大丈夫。きっともう供養されちゃってる
+はずだよぉ。きっとねぇ。/
+>>3/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 09]
+[-]
+[se paper_01]
+[serif on]
+[say A]
+次の任務の計画表、
+夏人くんに見せてもらったけど、/
+[face A 04]
+[flow]
+結構タイトなスケジュールだったねぇ。/
+[face A 00]
+きみも、地魂男児たちも完遂する
+自信はあるのかなぁ？/
+[serif off]
+[playeryes]
+[-]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+……うんうん。やるしかないもんねぇ。
+もちろん承認しておいたよぉ。頑張ってねぇ。/
+>>4/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show A C]
+[show B C]
+[face A 09]
+[face B 00]
+[setline B A]
+[say A]
+[orderline A B]
+[-]
+[serif on]
+やぁ、$B:Aはこれから任務だったねえ。
+何か不安なことはあるかい？/
+[face A 01]
+[face B 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+……うんうん、やる気は十分みたいだねぇ。/
+[face A 00]
+[face B 01]
+それじゃあ頑張ってきてねぇ。/
+[mobe B X -200 0.5]
+[hide B]
+[se walk_01]
+[autotap]
+[serif off]/
+>>5/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show A C]
+[show B R]
+[face A 02]
+[face B 00]
+[move A Y -50]
+[move B XY 150 20]
+[scale B 0.9]
+[move B X -150 1]
+[talk A]
+[-]
+[face B 01]
+[scale B 1.0 0.5]
+[move B Y -20 0.5]
+[-]
+[serif on]
+[face A 01]
+やあ。今ね、君たちが任務先で目にした美術品
+などの映像を集めたファイルを見ていたんだよぉ。/
+[face A 00]
+[face B 08]
+[move B Y -50 0.5]
+[setline 0.5 A B]
+$B:Aはこの中だと、どれが好きかな？/
+[face B 01]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[-]
+ふむふむ。なるほどねぇ。
+この[= 壁の装飾 ツボ 大仏 水墨画 浮世絵 刀 彫刻 巻物 掛け軸 屏風 祭りの衣装 神輿 褌]かぁ。/
+[face A 02]
+うん、僕もこれは
+[= 人を惑わす優雅さがあって 儚さを感じて 危うさを感じて 妖しさを感じて 人の恨みや怨念の気配を感じて 血の匂いを感じて 奥底から漂う死の香りを感じて 心臓を掴まれるような感覚があって]好きだねぇ。[face B 05][shake B]/
+>>6/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003]
+[show A C]
+[face A 09]
+[se pi_04]
+[-]
+[serif on]
+[say A]
+おや、スマホに何かメッセージが届いたねぇ。/
+[face A 03]
+[flow]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+ふむ、今日からカフェのアフターヌーンティーの
+メニューが変わるみたいだ。/
+[face A 02]
+[se kira_01]
+[effect fr kira 4000 0 0]
+これは食べに行かないとねぇ。/
+[show B R]
+[scale A 1.0 0.5]
+[move A Y 100 0.5]
+[setline 0.5 A B]
+[face B 01]
+[face A 01]
+[say A]
+[orderline A B]
+$B:A、一緒にどう？
+ついでにゆっくりと話でも。/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show A C]
+[show B C]
+[face A 05]
+[face B 04]
+[setline B A]
+[say A]
+[orderline A B]
+[-]
+[serif on]
+おやぁ？
+$B:A、随分と落ち込んでいるようだねぇ。/
+[face A 01]
+[shake B 3 0 5]
+任務での失敗？
+ああそういえばそんなことがあったねぇ。/
+[face A 09]
+[face B 08]
+でも、総合して考えるときみの判断は
+間違ってなかったと思うよぉ。/
+[face A 01]
+これからも期待しているからね。
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]/
+>>10/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show B]
+[face B 04]
+[color B talk]
+[-]
+[show A R]
+[face A 00]
+[setline 0.5 B A]
+[-]
+[serif on]
+[say A]
+$B:A、今日の訓練中なんだか集中力が
+切れていたようだけど？[face B 05][shake B]/
+[face B 04]
+[face A 09]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+ふむふむ。そうだったんだねぇ。
+もう大丈夫ならいいんだけど。/
+[face B 06]
+[face A 01]
+体調や生理現象はできるだけコントロールして、
+任務に支障が出ないようにしようねぇ。/
+>>11/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show A C]
+[face A 02]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふ～。
+仕事上がりの紅茶とケーキは格別だねぇ。/
+[show B R]
+[face A 00]
+[face B 05]
+[setline 0.5 A B]
+[say A]
+[orderline A B]
+おや、$B:Aも訓練が終わった所かい？
+よかったら食べていきなよ。/
+[face A 06]
+[face B 01]
+そんなに畏まらなくて大丈夫だよぉ。
+もう勤務時間外なんだから。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>v/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[show A C]
+[show B L]
+[setline B A]
+[move B X -600]
+[move A X -100]
+[move A X 100 1]
+[face A 09]
+[face B 06]
+[move B X 600 1.2]
+[say A]
+[-]
+[shake B]
+[serif on]
+おや、$B:A、もじもじしてどうしたのかな。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+えっ、僕に手ほどきをしてもらいたい子が
+いるって？/
+[face A 06]
+まさかそんな話を聞くとはねぇ。
+そしたら……/
+[face A 01]
+[face B 01]
+任務で成果を出したら考えてもいいって、
+その子に伝えておいてもらえるかな？/
+>>15/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 01]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[say A]
+みんな頑張ってるみたいだねぇ。
+うんうん、いいことだと思うよぉ。/
+[face A 09]
+[flow]
+任務先でまともに戦えないなら、
+地魂霊送する意味がないからねぇ。/
+[face A 01]
+もっと力をつけてね、期待してるよぉ。/
+>>16/
+[set A s_n003_m 羽鳥]
+[randomset B m -n003 -@NPC]
+[show B C]
+[face B 08]
+[shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[color B talk]
+[say A]
+[-]
+[show A C]
+[orderline A B]
+[face A 02]
+[move A X 1000]
+[moveline A B -500 0 0.5]
+[delay 0.4 setline 1 B A]
+[-]
+[serif on]
+[face B 00]
+[say A]
+$B:A、訓練がんばってるみたいだねぇ。
+うん、とてもいい動きだと思うよぉ。/
+[face A 02]
+[face B 06]
+*Pくんが$B:Aに期待してるのも
+わかるねぇ。僕も応援してるよぉ。/
+>>17/
+[set A s_n003_b 羽鳥]
+[randomset B b -n003]
+[show A C]
+[show B C]
+[face A 02]
+[face B 06]
+[setline B A]
+[-]
+[serif on]
+[say A]
+$B:A、とてもいいセンスの下着だね。
+似合っていて、思わず注目しちゃったよぉ。/
+[face A 06]
+[face B 01]
+[move B XY 10 -40 0.4]
+[rotate B -10 0.3]
+[delay 0.4 move B XY -10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+え、僕のも素敵だって？
+ありがとう。/
+[face A 01]
+肌触りで選んだものだけど、
+褒められると嬉しいものだねぇ。/
+>>18/
+[set A s_n003_b 羽鳥]
+[randomset B b -n003]
+[show A C]
+[face A 14]
+[move A Y -100]
+[se bath_02]
+[se amb_14]
+[effect fr yuge a 0 0]
+[-]
+[serif on]
+[say A]
+なかなか肩こりがとれないんだよねぇ。
+今日はゆっくりとお湯に浸かっていよう。/
+[face A 17]
+[se bath_01]
+………っ………………っ、ちょっと、のぼせて
+きちゃったなぁ……そろそろ上がらないと……/
+[show B L]
+[move B Y -100]
+[move B X -100]
+[face B 05]
+[say A]
+[orderline A B]
+ふらっ。[shake A]/
+[rotate A 15 0.5]
+[move B X 250 0.5]
+[se bath_02]
+[delay 0.5 shake A]
+[face A 16]
+[face B 04]
+あっ……$B:A、助かったよぉ……/
+[face A 11]
+[face B 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+もうちょっとこうして休んでてもいいかなぁ……
+ありがとう。/
+>>19/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003]
+[show A C]
+[show B C]
+[face A 16]
+[face B 01]
+[setline A B]
+[moveline A B 0 -100 0]
+[se bath_02]
+[se amb_14]
+[say A]
+[effect fr yuge a 0 0]
+[-]
+[serif on]
+肌つやがいい？　ありがとう。
+特別なことは何もしてないんだけどねぇ。/
+[face A 12]
+[face B 06]
+年相応に見られないことも多くて
+困っちゃうこともあるんだよねぇ……/
+>>20/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふぅ……ぶるぶるっ。[shake A 2 3 3]
+冷えるとトイレが近くなるなぁ。/
+[face A 01]
+……やはり年にはかなわないよねぇ。/
+>>21/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[randomset C m -n003 -@NPC -@NOW]
+[show A R]
+[show B L]
+[show C L]
+[face C 00]
+[move C X -200]
+[face A 01]
+[face B 00]
+[move B X 50]
+[say A]
+[orderline A C B]
+[-]
+[move A X -150 1]
+[-]
+[serif on]
+[say A]
+みんなこんなところに集まって
+楽しそうに何を話していのかなぁ。/
+[face A 00]
+もう訓練は終わった、ということかな？
+[face B 05]
+[shake B]
+[shake C]
+[face C 04]/
+[face A 01]
+[face B 06]
+[face C 06]
+交流も大事だけど、やることがあるなら
+ちゃんと持ち場に戻ろうねぇ。/
+>>22/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 09]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+……ふぅ。
+さて、今日はどの香りを使おうかな。/
+[face A 01]
+個室を出るまえに消臭剤を使うのは
+エチケットだよねぇ。/
+>>23/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 05]
+[-]
+[serif on]
+[say A]
+ん……っ！[shake A]/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+前の人の設定が強すぎるよぉ。/
+[face A 04]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[flow]
+[delay 0.5 se pi_04]
+……やはりウォシュレットの設定は、
+水流をやわらかくしておきたいものだねぇ……/
+>>24/
+[set A s_n003_r 羽鳥]
+[randomset B r -n003 -@NPC]
+[randomset C m -n003 -@NPC -@NOW]
+[show A L]
+[show B R]
+[show C R]
+[face A 01]
+[face B 00]
+[move B X 110]
+[move C X -100]
+[say A]
+[orderline A B C]
+[-]
+[move A X 150 1]
+[-]
+[serif on]
+[say A]
+やぁ、$B:Aたちは夜更しさんだねぇ。/
+[face A 00]
+[face B 05]
+[face C 05]
+明日の任務に支障がないなら
+好きなだけ起きてていいと思うよぉ/
+[shake B]
+[shake C]
+[face B 04]
+[face C 01]
+ん？　すぐ寝る？　うん、それがいいねぇ。[face A 01]
+じゃあ、おやすみなさい。/
+>>25/
+[set A s_n003_r 羽鳥]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[say A]
+すぅすぅ…………すぅすぅ…………/
+[talkend]
+ものすごく静かに眠っている。/
+>>26/
+[set A s_n003_r 羽鳥]
+[show A R]
+[face A 16]
+[move A C 1]
+[se fusuma_01]
+[-]
+[serif on]
+[say A]
+ふぅ、なんだか今日は落ち着かなくて、
+なかなか寝付けないねぇ……/
+[face A 12]
+少し気分転換して、すっきりしてこよう。[hide A][se fusuma_03]/

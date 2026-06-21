@@ -1,0 +1,825 @@
+>>10000/
+@備中
+山陽道、[wait 0.3]吉備道中国[wait 1.0]
+備中と言います！[autotap]/
+[delay 1.7]
+[flow]
+[-]
+@備中
+……兄弟が迷惑をかけてないでしょうか……？/
+>>10001/
+@備中
+あれ……[wait 0.5]僕のこと呼びました？[wait 1.5]
+吉凶、占います？/
+>>1/
+[set A s_bic_r 備中]
+[show A C]
+[face A 00]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+主、気分転換なら備中松山城へ行かれては？
+天守の標高が現存する山城で一番高いんです。/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+雲海に浮かんでいるかのように見える姿は
+それはもう美しく、幻想的だそうですよ！/
+きっと日頃の疲れも癒やされ…え？[face A 05][move A Y 10 0.1][delay 0.1 move A Y -10 0.1]　僕も一緒に？[wait 0.5]
+う、嬉しいですっ！！[face A 02][shake A]　でも……その……[face A 04]/
+[face A 06]
+僕、高いところは……苦手なんですぅ……！[shake A]/
+>>2/
+[set A s_bic_r 備中]
+[show A C]
+[face A 00]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+主！　ホタルはお好きですか？/
+[face A 01]
+[effect A kira a 0 100]
+天王八幡神社は金ボタルの生息地で、
+飛び交う黄金の光が、とってもきれいなんですよ！/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+その……もしホタルがお好きなら……
+えっと……[wait 0.5]僕と……[face A 06]あ、いや……[wait 0.5]その……[shake A][effect off a]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ぜひ、好きな方と
+行ってみてくださいね……！/
+>>3/
+[set A s_bic_r 備中]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[serif name]
+主は、備中国一宮の吉備津神社に祀られている
+吉備津彦命をご存知ですか？/
+[face A 02]
+[effect A kira a 0 100]
+彼が温羅という鬼を討った伝説が「桃太郎」の
+由来になったと言われているんですよ！/
+[face A 06]
+[effect off a]
+僕も喰魂をたくさんやっつけて、
+吉備津彦命のような立派な方に……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[face A 04]
+そ、そのためには、きちんと作戦を立てて……[shake A]
+あわわわ……緊張してきました！[move A X -50 0.1][delay 0.1 move A X 100 0.2][delay 0.3 move A X -100 0.2][delay 0.5 move A X 50 0.1]/
+>>4/
+[set A s_bic_r 備中]
+[randomset B r @地魂男児 @あやかし -bic -bin -biz -mim]
+[show A C]
+[show B C]
+[setline 0 A B]
+[move A X -200]
+[face A 00]
+[face B 01]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+$B:A、洗濯物？　一人で全部干すの
+大変でしょ、手伝うよ！[move A X 200 0.2]/
+[serif off]
+[face A 08]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[move B XY -10 -40 0.5]
+[rotate B 10 0.3]
+[delay 0.5 move B XY 10 40 0.3]
+[delay 0.6 rotate B 0 0.3]
+[-]
+[move B X -250 0.5]
+[move A X 400 0.5]
+[-]
+[move B XY -10 -40 0.5]
+[rotate B 10 0.3]
+[delay 0.5 move B Y -10 0.2]
+[delay 0.7 move B Y 10 0.2]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[move B XY 10 40 0.3]
+[delay 0.3 rotate B 0 0.3]
+[-]
+[serif on]
+よいしょ……よいしょ……っと。/
+[face A 02]
+[face B 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ふぅ……今日も良い天気！
+これならすぐに乾きそうだね！/
+[face A 01]
+$B:A、知ってる？　実は僕や兄がいると、
+いつも天気が晴れになるんだよ！[face B 01]/
+>>5/
+[set A s_bic_r 備中]
+[show A C]
+[face A 05]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+あっ！　しまった……！[shake A]
+きびだんご切らしちゃった……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0][face A 06]/
+あれがないと、非常食が必要になった時も
+困るし、いざって時に仲間を集めることも……/
+[face A 04]
+ど、どうしよう……[shake A]
+厨当番の人に頼んだら、作ってもらえるかな……/
+>>6/
+[set A s_bic_r 備中]
+[randomset B r @地魂男児 @あやかし @NPC -bic]
+[show A C]
+[move A X -800]
+[show B C]
+[face A 05]
+[face B 04]
+[talk A]
+[move B X 200 1.0]
+[delay 1.0 move B X -50 1.0]
+[-]
+[move A X 550 0.3]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+$B:A、その大荷物……どうしたの？
+……って、そんなフラフラしてたら危ないよっ/
+[face A 08]
+[move A X 50 0.3]
+ほら、無理しないで！[face B 01]　僕が手伝うからね[move A Y -50 0.2][move B Y -50 0.2]
+せーのっ！[shake A][shake B]/
+[face A 04]
+[face B 04]
+[move A Y 50 2.0]
+[move B Y 50 2.0]
+……んぎぎぎ……[shake A][shake B]
+ふ、二人でも……重いぃぃ……！　誰かぁあ！！[shake A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_bic_r 備中]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+よぉし！　明日の任務の作戦ができたぞ！
+僕が隊長に任命されたら、この作戦で……！/
+[face A 08]
+でも、実際に隊長になったとして……[move A Y -50 1.0][face A 06]
+もし失敗なんかしたら、みんなが大変なことに……[move A Y -50 1.0]/
+[face A 04]
+[shake A]
+うぅ……[move A Y -50 1.0]隊長は責任重大だよなぁ……
+やっぱり隊員の方が気が楽かなぁ……[move A Y 10 0.4][delay 0.4 move A Y -100 2.0]/
+>>10/
+[set A s_bic_r 備中]
+[show A C]
+[face A 00]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[move A X 100 0.3]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+[serif on]
+[talk A]
+あれ？
+洗濯物に誰かの下着が混じってる……/
+[face A 06]
+[shake A]
+しかも……こ、これは、すごい柄だ……[scale A 2.0 0.5][move A XY -100 -250 0.5]
+隠せるところも……[wait 0.5]す、少ない……！[shake A]/
+[face A 09]
+[effect A love a 0 300]
+い、い、いったい誰がこんなの穿いてたのかな……
+き、気になる……/
+>>11/
+[set A s_bic_r 備中]
+[randomset B r @地魂男児 @あやかし -bic -bin -biz -mim]
+[show A C]
+[show B C]
+[setline 0 A B]
+[move A X -400]
+[move A X 400 0.5]
+[face A 02]
+[face B 01]
+[order A 1]
+[order B 0]
+[talk A]
+[-]
+[serif on]
+$B:A！　おいしい夜食ありがとう！
+後の片付けや皿洗いは任せてよ！/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+料理は得意じゃないけど、
+これくらいなら手伝えるからね！[face B 02]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_bic_r 備中]
+[show A C]
+[move A X 800]
+[move A X -800 1.5]
+[face A 06]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+[serif name]
+……どきどき……
+お腹をなで合う交流か……/
+[face A 09]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+寝食を共にする地魂男児同士、それくらいの
+触れ合いは許されるのかな……/
+[face A 02]
+[move A X 100 0.2]
+ぼ、僕も誰かのをなでてみようかな……
+そしたら相手も僕をなで返して……[move A X -100 0.4]/
+[face A 06]
+[move A Y -150 0.3]
+[rotate A 10 0.3]
+や、やっぱり……僕には無理だぁっ！[shake A 5 5 5]/
+>>15/
+[set A s_bic_m 備中]
+[show A C]
+[shake A]
+[face A 03]
+[effect fr katana 2000 300 0]
+[se doka_01]
+[-]
+[shake A]
+[effect fr katana 2000 -300 0]
+[se doka_01]
+[-]
+[serif on]
+[talk A]
+てぇい！　やぁ！！
+とう！！！[move A X 100 0.1][effect fr allow 2000 0 -50][shakebg][se doka_01]/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+……よし！
+今日の訓練もバッチリこなせたぞ！/
+[face A 08]
+訓練でこんなにきちんと動けているんだ。
+大丈夫、本番でもうまくやれるはず……！[shake A]/
+>>16/
+[set A s_bic_m 備中]
+[randomset B m @地魂男児 @あやかし -bic -@NPC]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 08]
+[face B 08]
+[serif on]
+[talk A]
+いい？　$B:A。僕の合図で$B:Aは右から、
+僕は左から切りかかるんだ。[move B Y 5 0.2][delay 0.2 move B Y -10 0.6][delay 0.8 move B Y 5 0.5]/
+いくよ！
+せーーーーのっ！[move A X -600 0.3][move B X 600 0.3]/
+[serif off]
+[move A X 700 0.3]
+[move B X -700 0.3]
+[face A 05]
+[face B 05]
+[-]
+[shakebg]
+[fadein WHITE 0.1]
+[-]
+[se bomb_02]
+[move A XY -250 -100]
+[move B XY 100 -100]
+[rotate A 20]
+[rotate B -10]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[face A 04]
+[face B 04]
+[talk A]
+[shake A]
+あうーー……いてて……失敗かぁ。
+この作戦、練り直しかも……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+>>17/
+[set A s_bic_b 備中]
+[show A C]
+[face A 01]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.3]
+[-]
+[se cloth_01]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 0.3]
+[-]
+[serif on]
+[talk A]
+んしょ、んしょ……よっと。[move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]
+脱いだ服はきちんと畳まないとね。/
+[face A 05]
+あ、あれっ？[shake A]
+しまった……着替え持ってくるの忘れてた……/
+[face A 04]
+[shake A]
+うぅ、せっかく脱いだのに。
+もう一回服着て取りに戻らないと……/
+>>18/
+[set A s_bic_b 備中]
+[show A R]
+[effect A kemuri a]
+[move A X 400]
+[move A X -400 1.0]
+[face A 01]
+[-]
+[serif on]
+[talk A]
+明日の任務のためにも、
+疲れを残さないよう、肩までしっかり浸かってっと。[move A X -300 1.0][-][move A Y 10 0.4][se water_01][delay 0.4 move A Y -110 1.0]/
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ふぅ……いい湯だぁ。[se water_06]
+ひー……ふー……みー……[face A 01]/
+>>19/
+[set A s_bic_b 備中]
+[randomset B b @地魂男児 @あやかし @NPC -bic -bin -biz -mim]
+[show A C]
+[move A XY -100 -50]
+[show B R]
+[face A 09]
+[face B 00]
+[effect A kemuri a]
+[effect B kemuri b]
+[move B Y -50]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+チラッ……チラッ……/
+[talkend]
+[move B X -10 0.5]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 05]
+[-]
+[talk A]
+あ、$B:A！？[shake A]　た、たまたま視界に入っただけで
+決していやらしい気持ちで見ていたとかは……[shake A]/
+[face A 06]
+[face B 01]
+え？　石鹸を取ってほしい？/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+そ、そっか……よかったバレてなくて……
+じゃなくてっ！[face A 06]　[move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]はい、石鹸！　[move A X 100 0.2]どうぞ！！/
+>>20/
+[set A s_bic_r 備中]
+[randomset B r @地魂男児 @あやかし @NPC -bic]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅー！[effect A kira a 0 200]
+厠の掃除、完了～！/
+[face A 01]
+[move A XY -10 -150 0.4]
+[rotate A 10 0.3]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+我ながら見事にピカピカに仕上がったぞ！
+今なら頬ずりしても大丈夫なくらいキレイ！/
+[effect off a]
+[show B R]
+[move B X 300]
+[move B X -300 0.5]
+[move A X -300 0.5]
+[face A 05]
+[face B 05]
+[talk A]
+はっ$B:A！　[shake A]こ、これは……
+違うよ！　[rotate A 0 0.2][move A Y 150 0.2]実際に頬ずりしてないし！！/
+[face A 06]
+[face B 04]
+[move B X 20 1.0]
+[shake A]
+いや、決してそういう趣味ではなくて……
+そ、そんな哀れみの目で見ないで～！！！[shake A 5 5 5][face A 04]/
+>>21/
+[set A s_bic_r 備中]
+[randomset B r @地魂男児 @あやかし @NPC -bic]
+[show A C]
+[move A X -100]
+[show B R]
+[face A 09]
+[face B 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+チラ……チラ……/
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+（みんな、おしっこする時は
+　ちゃんと一歩前に出てするんだなぁ……）/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+（！？　ちょっと、見えちゃった。[face A 06]
+　違うんだ、見たくて見たわけじゃぁ！！）[shake A]/
+>>22/
+[set A s_bic_r 備中]
+[show A C]
+[move A Y -50]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅー……
+すっきりしたぁ……/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+……？
+あ、あれ……！？[shake A][face A 05]/
+[face A 05]
+あれぇ！？　落し紙がない……！
+そんなぁ！！[face A 06]　[shake A]どどどど、どうしよう！？/
+[face A 04]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+っだ、誰かーーー！！
+誰かいませんかーーーー！！　……うぅぅ。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+>>23/
+[set A s_bic_r 備中]
+[show A C]
+[face A 00]
+[move A Y -50]
+[serif on]
+[talk A]
+[serif name]
+厠の中にはいつもいろんな本が
+積んであるんだよなぁ……/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[se paper_01]
+おや……？
+おやおやおやおやおや！？/
+[face A 08]
+[se paper_01][delay 0.4 se paper_01]
+ペラ……ペラ……
+ごくり……！[shake A]/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+はっ！　いけないいけない！
+こういう頁がある本は、よ、よくないよね……/
+[face A 09]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.3 move A X -100 0.4]
+[delay 0.4 move A Y 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[se cloth_01]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+みんなの目に届かないように、このあたりに……
+隠しておこう……/
+>>24/
+[set A s_bic_r 備中]
+[show A C]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+さぁて、眠る前に
+今日一日の反省をしよう！/
+[face A 03]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+今日の戦いは……[move A Y -20 1.0][face A 08]
+動きが硬くてうまく立ち回れなかった……/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -30 1.0]
+晩御飯でも……
+僕が鍋をひっくり返したせいで……[move A Y -100 2.0]/
+[face A 04]
+[shake A]
+う……うぅ……/
+>>25/
+[set A s_bic_r 備中]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+[serif name]
+……僕だって……やれば……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+できるんです……えへへ……すぴー……[shake A]/
+[talkend]
+寝言のようだ。/
+>>26/
+[set A s_bic_r 備中]
+[show A C]
+[move A Y -50]
+[face A 05]
+[serif on]
+[talk A]
+はっ！[shake A 3 2 2]
+今、物音が聞こえたけど……/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+もしかして、
+誰か……起きてるのかな……？/
+[face A 06]
+き、気になるけど……[shake A]
+動いたら僕も起きてるのがバレてしまう……/
+>>100/
+[set A s_bic_r 備中]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 備中の得意なこと]
+[-]
+[bg rouka_day]
+[bgm home]
+[fadeout]
+[-]
+[se dosa_01]
+[wait 1.0]
+[-]
+[se walk_01]
+[fadein BLACK 0.5]
+[-]
+[bg mbg_syouen]
+[minibg syouen_monooki]
+[hideall]
+[-]
+[se fusuma_03]
+[fadeout 0.5]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+納戸から物音がしたので覗いてみると、
+中で備中が装備の手入れしていた。/
+[serif off]
+?備中に声をかける/
+[show A C]
+[face A 05]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+[serif on]
+あ、主！
+え、えっと、これは……/
+[serif off]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+備中は背筋を正してこちらを向いた。/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[talk A]
+いつでも任務に出られるようにと思って、
+装備や備品の手入れを、日課にしようと思ってます！/
+[serif off]
+?偉いね/
+[face A 02]
+[talk A]
+[shake A]
+[-]
+[serif on]
+あ、ありがとうございますっ。/
+[scale A 1.5 0.3]
+[move A Y -100 0.3]
+[face A 03]
+[flow]
+あ、あとそれから、任務での役にたつようにと
+日頃から様々な指南書を読むようにしていますし/
+[flow]
+自己鍛錬も欠かしていません！
+今朝も誰より早く朝練をこなしてきました！/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+矢継ぎ早にアピールを続ける備中。/
+[show A]
+[say A]
+[face A 05]
+あっ、す……すみません。[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+その、主と直接お話する機会があったら
+色々お伝えしたいと思っていたのですが……/
+[face A 06]
+こ、こんなに早く機会が訪れるなんて
+思ってもいなくて……/
+[talkend]
+[textcolor ARUJI]
+備中は緊張しているのか
+額に汗を浮かべている。/
+[serif off]
+?備中はがんばり屋なんだね/
+[say A]
+[face A 05]
+[serif on]
+い、いえ……そんな……！
+どちらかというと、不安で……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+えっとそうだ、ちょっとだけお待ち下さい！/
+[shake A]
+[hide A]
+[se cloth_01]
+こんなこともあろうかと
+話す内容を書き出しておいたんでした！/
+@備中
+えっと……たしかポケットの中に……
+あった！[show A][face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]/
+[face A 08]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+で、では……読み上げさせていただきます！/
+[serif off]
+?よしこい！/
+[face A 06]
+[serif on]
+はい！
+……では……んんっ。[face A 08][shake A]よし！　いきます！/
+[talkend]
+[textcolor ARUJI]
+備中は一呼吸おくと、
+意を決したように話し始める。/
+[face A 08]
+[talk A]
+[bgm departure]
+僕は兄や弟たちとは違って、ま、真面目です！
+それに、計画の立案を得意としています！/
+[face A 03]
+[scale A 2 0.5]
+[move A Y -130 0.5]
+だから……僕を主の参謀としていただければ……
+この荘園は間違いないと思います！/
+[face A 04]
+……[wait 0.5]……たぶん。/
+[face A 06]
+[shake A 3 10 10]
+[bgm off]
+はぅっ！！！[move A Y -200 2.0][delay 0.5 hide A][delay 0.5 se dosa_01][shakebg]/
+[talkend]
+[textcolor ARUJI]
+備中は突然大声を上げると、
+身体を震わせながらお腹を抱えた。/
+[serif off]
+?え、何、どうしたの？/
+[show A]
+[move A Y -100]
+[move A Y 100 1.0]
+[face A 04]
+[talk A]
+[bgm fun]
+[-]
+[serif on]
+あっ、い、いえ……計画通りにいかなかった時の
+ことを想像したら……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]お、お腹が……痛く……/
+[serif off]
+?大丈夫？/
+[scale A 2.0 1.0]
+[move A Y -150 1.0]
+[face A 06]
+[talk A]
+[-]
+[se cloth_01]
+[serif on]
+はうぅっ！！！　[shake A]お、お腹を、
+そんな優しく撫でていただけるなんて……/
+[talkend]
+[textcolor ARUJI]
+備中の丸みを帯びたお腹は、
+腹痛のせいか固く力が入っていた。/
+[face A 06]
+[talk A]
+[move A Y -100 0.5]
+うぅ……っ。[shake A]
+き、緊張して……さらに、痛く……/
+[talkend]
+[textcolor ARUJI]
+備中は汗だくで苦しそうにしている。
+顔も真っ赤だ。/
+[serif off]
+?何かできることある？/
+[scale A 1.0 0.5]
+[move A Y 250 0.5]
+[face A 02]
+[talk A]
+[-]
+[serif on]
+いえ、だ、大丈夫です、と、とても光栄です！
+……[wait 0.5]それに、う、嬉しかった……です！[effect A kira a 0 100]/
+[face A 08]
+あ、あの……頼りにしていただけるように、
+が、がんばります！[effect off a]/
+[face A 06]
+どうか、今後とも、
+よろしくおねがいします～！[shake A]/
+[fadein BLACK 2.0]
+[autotap]/
+[se walk_02]
+[hide A]
+[talkend]
+[se fusuma_01]
+[textcolor ARUJI]
+備中はお腹を抱えながら
+走って納戸を出ていった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

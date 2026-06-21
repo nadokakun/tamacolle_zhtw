@@ -1,0 +1,1356 @@
+>>0/
+((s))
+[set W s_san_m 讃岐]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n002_m 猪森]
+[set E s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m Ｂ]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 戦力強化会議]
+[-]
+[bg rouka_day]
+[-]
+[fadeout]
+[bgm home]
+[wait 1.0]
+[-]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg shirei_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[autotap]/
+((m))
+[set W s_mus_m 武蔵]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n002_m 猪森]
+[set E s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m Ｂ]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 戦力強化会議]
+[-]
+[bg rouka_day]
+[-]
+[fadeout]
+[bgm home]
+[wait 1.0]
+[-]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg shirei_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[autotap]/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n002_m 猪森]
+[set E s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m Ｂ]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 戦力強化会議]
+[-]
+[bg rouka_day]
+[-]
+[fadeout]
+[bgm home]
+[wait 1.0]
+[-]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg shirei_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[autotap]/
+((s))
+[show W C]
+[face W 01]
+[talk W]
+[serif on]
+おはようございまーす！/
+((m))
+[auto]
+おーう、おはよう～！/
+((e))
+[auto]
+おはようございます！/
+((s))
+[face W 05]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+わ、みんな早いね！　あるじさま……
+オイラたち、遅刻してないよね？/
+((m))
+[auto]
+おっ、みんな早ぇじゃねぇか！　大将……
+……オレたちが遅刻したわけじゃねぇよな？/
+((e))
+[auto]
+わ、みなさん、早いッスね！　師匠……
+オレたちが遅刻したわけでは……
+/
+[serif off]
+?まだ五分前だけどね/
+[hide W]
+[-]
+[show A C]
+[show B C]
+[face A 00]
+[face B 00]
+[setline A B]
+[wait 1.0]
+[-]
+[hideall]
+[-]
+[show E C]
+[show F C]
+[face E 00]
+[face F 00]
+[setline E F]
+[wait 1.0]
+[-]
+[autotap]/
+[hide E]
+[-]
+[show B L]
+[setline 0.3 B F]
+[face B 05]
+[talk B]
+[order B 0]
+[order F 5]
+[shake F]
+[-]
+[face F 05]
+[serif on]
+って、なんでりくがいるんだよ！[shake B]
+お子様の来るとこじゃねーんだよ！/
+[face B 03]
+[move B X 50 0.3]
+そもそもなぁ、部外者だろお前は！/
+[face F 02]
+[say F]
+[move F Y 20 0.4]
+[delay 0.6 move F Y -20 0.2]
+羽鳥さんに許可もらったもーん。/
+[face F 03]
+[flow]
+大丈夫、ちゃんとしゅひぎむとか、
+理解してるから！　壮ちゃん、心配しないで！/
+[face B 10]
+[say B]
+だーかーらー[shake B]
+壮ちゃんはやめろってーーーーの！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[se fusuma_01]
+[-]
+[fadeout 0.5]
+[-]
+[show C C]
+[show D C]
+[face C 00]
+[face D 09]
+[talk D]
+[order C 5]
+[order D 0]
+[setline C D]
+[-]
+[serif on]
+お待たせしちゃってごめんね～！
+色々とデータの確認があって……/
+[face C 01]
+[say C]
+みんなぁ、お土産だよぉ。[se dosa_01]/
+[serif off]
+[hide C]
+[hide D]
+[-]
+[show A C]
+[show B C]
+[show E C]
+[setline A B E]
+[face A 01]
+[face B 01]
+[face E 00]
+[talk A]
+[orderline A E B]
+[-]
+[serif on]
+ありがとうございます！
+いただきます！/
+[face B 09]
+[say B]
+[se cloth_02]
+おっこれは……とおりもんに黒棒……！/
+[face E 01]
+[say E]
+[move E Y 10 0.1]
+[delay 0.1 move E Y -10 0.1]
+おおっ！　博多っすか！[shake E]
+オレあの街には随分お世話になったっすよ～！/
+[se kira_01]
+[face E 02]
+[effect E kira a 0 100]
+[serif off]
+[move E Y 10 0.4]
+[delay 0.4 move E Y -10 1.0]
+[-]
+[serif on]
+九州男児の分厚く男らしい肉体……
+いいっすよねぇ。/
+[face A 04]
+[talk A]
+百太くんの言ってることはよくわからないけど[wait 0.2]…[wait 0.2]…[wait 0.2][face A 01]
+羽鳥さん、博多に行ってたんですか？/
+[serif off]
+[hideall]
+[effect off a]
+[-]
+[show C C]
+[show D C]
+[face C 01]
+[face D 11]
+[setline C D]
+[talk C]
+[-]
+[serif on]
+うんうん、ちょっと出張でねぇ。
+たくさんあるからいっぱい食べてねぇ。/
+[serif off]
+?いただきまーす/
+((s))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[face W 02]
+[talk W]
+[shake W]
+[-]
+[se kira_01]
+[effect W kira a 0 100]
+[serif on]
+美味しい～！　[face W 09]博多ってことは、筑前の
+とこかなぁ。美味しいものいっぱいあるよね。/
+((m))
+[auto]
+おぉ～っこいつぁ美味ぇじゃねぇか！　[face W 11]
+筑前のとこもいい仕事してるねぇ！/
+((e))
+[auto]
+美味しいッス！[face W 12]　博多といえば筑前ッスね。
+あのあたりも美味しい物がたくさんありますよね。/
+[hide W]
+[effect off a]
+[-]
+[show B C]
+[show F C]
+[setline B F]
+[face B 03]
+[face F 00]
+[shake F]
+[talk F]
+壮ちゃん！　僕にも一個ちょうだい！/
+[hide B]
+[hide F]
+[-]
+[show D C]
+[face D 01]
+[talk D]
+じゃあ自分も……[shake D][se dosa_01][delay 0.2 se crash_04]
+あっ！！！[face D 05][move D XY -10 -100 0.4][rotate D 10 0.3]　資料が……！/
+[hide D]
+[serif off]
+[-]
+[show B C]
+[face B 10]
+[-]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[serif on]
+[talk B]
+いのっち、相変わらずよく落とすな！
+お約束なのか……？/
+[show D L]
+[move D Y -200]
+[move D Y 100 1.0]
+[face D 10]
+[autotap]/
+[talk D]
+うぅ～……[shake D]ドジっ子キャラみたいな印象つけるの
+やめてくださいよ～……[shake D]/
+[show A R]
+[moveline D B A -200 0 1.0]
+[face A 10]
+[waku on 0.5]
+[autotap]/
+[talk A]
+（印象つけてるのは猪森さん自身では……）/
+[hideall]
+[waku off]
+[-]
+[show W C]
+[face W 01]
+[move W XY -10 -100 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 100 0.3]
+[delay 0.5 rotate W 0 0.3]
+[autotap]/
+((s))
+[say W]
+書類拾うの、オイラ手伝うよ！/
+((m))
+[auto]
+仕方ねぇ。書類拾うの手伝ってやらぁ。/
+((e))
+[auto]
+大丈夫ッスか？
+書類拾うの手伝いますよ！/
+[hide W]
+[serif off]
+[se paper_01]
+[talkend]
+[-]
+[serif on]
+書類を拾い集めていると「霊種」と
+タイプされた文字が$Wの目に飛び込んできた。/
+((s))
+[show W C]
+[face W 08]
+[talk W]
+[bgm off]
+霊[wait 0.2]…[wait 0.2]…[wait 0.2]種[wait 0.2]…[wait 0.2]…[wait 0.2]？
+これってもしかして……/
+((m))
+[auto]
+霊[wait 0.2]…[wait 0.2]…[wait 0.2]種[wait 0.2]…[wait 0.2]…[wait 0.2]？
+これってもしかしてよぉ……/
+((e))
+[auto]
+霊[wait 0.2]…[wait 0.2]…[wait 0.2]種[wait 0.2]…[wait 0.2]…[wait 0.2]？
+これってもしかして……/
+[hide W]
+[show A C]
+[show B C]
+[show E C]
+[setline A B E]
+[face A 08]
+[face B 11]
+[face E 05]
+[order A 5]
+[order B 0]
+[order E 3]
+[bgm eerie]
+[talkend]
+……！/
+[hideall]
+[-]
+[show C C]
+[face C 01]
+[talk C]
+うん。
+[wait 0.2]…[wait 0.2]…[wait 0.2]*Pくん。/
+[face C 00]
+[flow]
+きみたちのチームは既にふたつの浄化任務と、
+いくつかの歴史覚醒域の解消を果たした。/
+[face C 02]
+[flow]
+$Wくんたち、地魂男児の活躍の
+おかげだねぇ。ありがとう。/
+[hide C]
+[-]
+[show W C]
+[face W 01]
+[move W Y 20 0.4]
+[delay 0.6 move W Y -20 0.2]
+[autotap]/
+((s))
+[talk W]
+えへへ……ありがとう！　
+あるじさまと一緒に頑張ったからだね！/
+((m))
+[auto]
+なぁに、改めて言われると照れちまうぜ。
+大将と一緒に頑張ったからだなぁ！/
+((e))
+[auto]
+いえ！　自分はまだまだッス……
+師匠が、支えてくれたおかげッスよ！]/
+[hide W]
+[-]
+[show D C]
+[face D 11]
+[talk D]
+$Wくんたちが持ち帰ったあの種、のこと
+なんだけど……/
+[face D 00]
+自分たちはアレを[wait 0.5]「霊種」[wait 0.5]と名付けた。
+/
+[face D 03]
+その名の通り、超高濃度の霊力を内包している。
+外殻は結晶化した霊力の層で覆われた未知の物質。/
+[flow]
+わずか数センチの粒内に秘めた膨大な霊力……
+最終的な数値は未だ計測が終わってないんだ。/
+[face D 11]
+あの種を一体どういう経緯であやかしたちが
+手に入れたのかはわからないけど/
+[face D 00]
+[flow]
+「霊種」の強力な霊力を得たあやかしが
+歴史覚醒域を発生させ……/
+[face D 03]
+[flow]
+史実とは違う行動を取っているということは
+どうも間違いなさそうだ。/
+((s))
+[hide D]
+[-]
+[show W C]
+[face W 13]
+[talk W]
+あの種……あやかしを倒したらぽろっと
+落ちたんだ。/
+((m))
+[auto]
+あの種……あやかしを倒したらぽろりと
+落っこちやがったんだ。/
+((e))
+[auto]
+あの種……あやかしとの戦いのあと、
+弾けて落ちたんス。/
+[show D L]
+[setline 0.5 D W]
+[-]
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[face D 01]
+[autotap]/
+[talk D]
+$Wくんたちの任務のデータを解析することで
+わかってきたこともあるんだ。/
+[face D 01]
+[flow]
+[se pi_01]
+現地で「霊種」の放っていた霊力の特殊な波形を
+抽出することに成功したんだ。/
+[hide W]
+[face D 11]
+[move D C 1.0]
+[autotap]/
+[flow]
+早速これをもとに研究チーム全体で
+調査を続けているんだけど……/
+[flow]
+これまで得られている霊脈のマッピング情報と
+波形のサンプルを比較してみたところ/
+[flow]
+[se paper_01]
+調査の開始から48時間で現在類似の波形は
+3万7千456箇所確認されたんだ。/
+[hide D]
+[-]
+[bgm off]
+[show A C]
+[show B C]
+[show E C]
+[show F C]
+[setline A B E F]
+[face A 05]
+[face B 05]
+[face E 05]
+[face F 05]
+[order A 5]
+[order B 0]
+[order E 3]
+[order F 10]
+[talkend]
+@一同
+[wait 0.2]…[wait 0.2]…[wait 0.2]え？/
+((s))
+[hideall]
+[-]
+[show W C]
+[face W 05]
+[talk W]
+そんなに！？[shake W][face W 08]
+もっとたくさん任務に出なきゃ……！！/
+((m))
+[auto]
+そ、そんなにあんのか！？[shake W][face W 08]
+こりゃあもっと任務に出ねぇとな……/
+((e))
+[auto]
+そ、そんなにッスか！？[shake W][face W 08]
+師匠！　オレはいつでも出陣できます！/
+[hide W]
+[-]
+[bgm rokuhara]
+[show D C]
+[face D 09]
+[talk D]
+あっ、[shake D]もちろん、これはまだ
+霊種のサンプルが少ないことに加えて/
+[face D 12]
+[flow]
+ノイズの多い、大雑把なデータだから
+それ全部が霊種の残響ってわけじゃないんだよ！[shake D]/
+[face D 01]
+だけど大事なのは、霊種の波形を周囲の
+歴史域から観測できるかもしれないことなんだ！/
+[flow]
+この方法なら、水の波紋から中心をたどるように
+霊種の波形から歴史覚醒域を見つけ出せる……/
+[face D 08]
+より早い段階で地魂男児を送り込んで
+原因を取り除けるかもしれない！/
+[hide C]
+[hide D]
+[-]
+[show A]
+[show B]
+[setline A B]
+[face A 14]
+[face B 11]
+[say A]
+従来の方法だと確か、式神が直接歴史覚醒域に
+接触することで存在を確認してたんですよね……/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 03]
+[say B]
+ああ、今も観測チームが絶えず式神を派遣して
+各歴史域を調査してる。/
+[say A]
+[face A 04]
+広大な歴史域の中をピンポイントで
+探し当てるのは不可能だったと聞いてます。/
+[say B]
+[face B 09]
+[face A 01]
+アタリをつけて調査を行えるってことは
+だいぶ前進したんじゃねーの？/
+[hideall]
+[serif off]
+[-]
+[show E C]
+[face E 10]
+[move E Y 10 0.4]
+[delay 0.4 move E Y -10 1.0]
+[autotap]/
+[serif on]
+[talk E]
+裏方の人たちの仕事、すごいっすねぇ……
+今度取材に行きたいっす！/
+[hide E]
+[-]
+[show C C]
+[face C 00]
+[talk C]
+……そういうことで、歴史覚醒域を扱う任務が
+今後増えていきそうなんだよねぇ。/
+[face C 01]
+そこで、この荘園でも部隊の再編を考えて
+いきたいなぁと思ってるんだよぉ。/
+((s))
+[hide C]
+[-]
+[show W C]
+[face W 00]
+[talk W]
+部隊の再編？/
+((m))
+[auto]
+部隊の再編？/
+((e))
+[auto]
+部隊の再編？/
+[hide W]
+[serif off]
+[-]
+[show A C]
+[show B C]
+[setline A B]
+[face A 14]
+[face B 11]
+[talk A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+……そうか、「霊種」を原因とする
+歴史覚醒域の開放任務の他にも/
+[face A 12]
+喰魂を原因とする歴史覚醒域もあれば
+従来どおり「浄化任務」も続けないといけない。/
+[face A 14]
+任務の同時進行……複数の部隊に分かれて
+任務を行う必要があるのかな。/
+[face B 01]
+[talk B]
+ま、この荘園、地魂男児の数は多いから
+割り振るのは可能なんじゃねえか？/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[hide A]
+[hide B]
+[-]
+[show C C]
+[face C 01]
+[talk C]
+[-]
+[serif on]
+$Wくんには基本的には浄化任務を
+担当してもらうのがいいんじゃないかなぁ。/
+((s))
+[hide C]
+[-]
+[show W C]
+[face W 13]
+[talk W]
+っ！/
+((m))
+[auto]
+っ！/
+((e))
+[auto]
+っ！/
+[hide W]
+[-]
+[show C C]
+[face C 00]
+[talk C]
+今後は他の地魂男児も積極的に前線に
+出てもらいたいからねぇ。/
+[face C 01]
+[flow]
+もちろん、また$Wくんに歴史覚醒域を
+担当してもらうこともあると思うけどねぇ。/
+[hide C]
+[-]
+[show A C]
+[show B C]
+[setline A B]
+[face A 00]
+[face B 01]
+[talk B]
+他の奴らにも経験積ましてやんねぇとな。/
+[face A 01]
+[talk A]
+僕も賛成です。/
+[serif off]
+?$Wも、それで大丈夫？/
+[hide A]
+[hide B]
+[-]
+[show W C]
+[talk W]
+[face W 00]
+[-]
+[wait 1]
+[-]
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[face W 12]
+[serif on]
+……うん、大丈夫だよ！
+オイラは浄化任務に行くね！/
+((m))
+[auto]
+……あぁ、大丈夫だぜ！
+オレぁ浄化任務に行くさぁ！/
+((e))
+[auto]
+……はい。もちろんッス！
+オレは浄化任務に行きます！/
+[hide W]
+[-]
+[show A C]
+[show B C]
+[setline A B]
+[face A 01]
+[face B 01]
+[talk A]
+そうと決まれば今後の任務に適した地魂男児の
+ピックアップと育成計画について――/
+[face A 14]
+[flow]
+しっかりと話し合っていった方がいいですね。[wait 0.5]
+今日の会議の本題は、そこですね？[face A 06]/
+[hide A]
+[hide B]
+[-]
+[show C C]
+[face C 01]
+[talk C]
+そのとおりだよ～。/
+[hide C]
+[-]
+[show D C]
+[face D 01]
+[talk D]
+部隊編成については*Pくんと
+$Wくんの意見を聞きたいけど、資料もあるよ！/
+[serif off]
+[hide D]
+[move D Y 20 0.4]
+[delay 0.6 move D Y -20 0.2]
+[delay 0.4 shakebg]
+[delay 0.4 se dosa_01]
+[talkend]
+[-]
+[serif on]
+猪森は大量の資料をどっさりと机に置いた。/
+[show B C]
+[face B 10]
+[-]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[say B]
+いのっち、最先端の研究してんだからこういう所
+デジタルにしねぇ？　すげぇ量じゃねぇか。/
+[show D C]
+[setline 0.5 D B]
+[face D 08]
+[talk D]
+いやいや資料は紙に限るんですよ！
+自分は胸を張ってアナログ派ですね！/
+[show E R]
+[face E 02]
+[setline 0.5 D B E]
+[talk E]
+うわ～なんか本格的になってきたっすね～！
+今のうちに他の地魂男児たちの取材もしなきゃ！/
+((s))
+[serif off]
+[hideall]
+[waku on 0.5]
+[-]
+[bgm off]
+[show W C]
+[face W 13]
+[talk W]
+[wait 0.5]
+[-]
+[serif on]
+……/
+((m))
+[auto]
+……/
+((e))
+[auto]
+……/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[hideall]
+[bg rouka_day]
+[waku off]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[autotap]/
+((s))
+[show W C]
+[face W 13]
+[talk W]
+[bgm night]
+ふぅ……/
+((m))
+[auto]
+はぁ……/
+((e))
+[auto]
+はぁ……/
+[serif off]
+?$W/
+((s))
+[face W 05]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[serif on]
+あ、あるじさま……/
+((m))
+[auto]
+た、大将……/
+((e))
+[auto]
+し、師匠……/
+((s))
+[face W 12]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+あるじさまもお手洗い？　休憩中に行かないとね！
+今回の会議、まだ長引きそうだし！/
+((m))
+[auto]
+大将も便所か？　今のうちに行かねーと
+会議中に漏らしちまいそうだしなぁ！/
+((e))
+[auto]
+師匠は腹筋ッスか？　えっ会議が長引くから
+体動かしに来たんじゃないんスか！？/
+((s))
+[face W 04]
+[flow]
+……………………/
+((m))
+[face W 04]
+[flow]
+……………………/
+((e))
+[face W 04]
+[flow]
+……………………/
+((s))
+[serif off]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+歴史覚醒域は、強い敵と戦うことがあるよね。
+オイラ……戦いはそんなに得意じゃないし……/
+((m))
+[auto]
+歴史覚醒域は、強ぇ相手と戦うこともあるよな。
+オレぁ……ヘタレだしよぉ……/
+((e))
+[auto]
+歴史覚醒域は、強い敵と戦うこともあります。
+オレは……どんな相手だろうと全力で戦います。/
+((s))
+[face W 13]
+羽鳥さんたちもオイラのそういう性格
+わかってるから、担当から外したのかなって……/
+((m))
+[auto]
+羽鳥たちも、オレのそういうとこわかってっから
+担当から外したのかもなぁ……なんてよぉ……/
+((e))
+[auto]
+……でも、オレじゃあ力不足だから……
+だから、担当から外したのかもしれないって……/
+[serif off]
+?部隊の再編のことだね/
+((s))
+[face W 04]
+[serif on]
+……強い子もどんどん新しく声聞されてるし……
+……ちょっと落ち込んじゃう……/
+((m))
+[auto]
+頼りになる奴らもどんどん声聞されてるし
+……なんつーか、ちょっと焦るよなぁ……/
+((e))
+[auto]
+強い仲間たちもどんどん声聞されてますから
+……ちょっと焦っちゃって……/
+((s))
+[face W 08]
+……それに――/
+((m))
+[auto]
+……それによぉ――/
+((e))
+[auto]
+……それに――/
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[autotap]/
+((s))
+[face W 04]
+あるじさまの任務は、オイラがずっと一緒に
+行けるって思ってたから……オイラ……/
+((m))
+[auto]
+大将の任務には、オレがずっと一緒に
+行けるって思ってたから……オレ……/
+((e))
+[auto]
+師匠の任務には、オレがずっと一緒に
+行けるって思ってましたから……オレ……/
+[serif off]
+?$Wの手を握る/
+((s))
+[scale W 2.0 1.0]
+[move W Y -200 1.0]
+[se cloth_01]
+[-]
+[shake W]
+[face W 06]
+[-]
+[serif on]
+あ、あるじさま……っ。/
+((m))
+[auto]
+た、大将……！/
+((e))
+[auto]
+し、師匠……っ！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+((s))
+[face W 04]
+……うん、オイラ、ほんとはわかってる。
+オイラは、この荘園で、最初の地魂男児だから/
+((m))
+[auto]
+……ほんとはよぉ、オレだってわかってんだ。
+オレぁこの荘園で一番最初の地魂男児だ。/
+((e))
+[auto]
+……オレも、ほんとはわかってます。
+オレはこの荘園で一番最初の地魂男児ッスから。/
+((s))
+[face W 08]
+先輩として、みんなを送り出さないと
+いけないよね。/
+((m))
+[auto]
+先輩として、仲間を送り出さねぇと
+いけねぇよな。/
+((e))
+[auto]
+……先輩として、みんなを送り出さないと
+いけませんよね。/
+[serif off]
+?仲間を信じよう/
+((s))
+[serif on]
+……！[shake W]　うん、[face W 12]そうだね！
+オイラ、みんなを信頼してるもん。/
+((m))
+[auto]
+……！！[shake W]　あぁ、[face W 12]そうだな！
+オレぁ、仲間を信頼してるからな！/
+((e))
+[auto]
+……！[shake W]　はい！[face W 12]
+オレは、仲間を信頼してますから！/
+((s))
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[show W]
+[face W 00]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+ごめんね、あるじさま。
+こんなことで落ち込んだりして……/
+((m))
+[auto]
+わりぃな、大将。
+なんか、ヘタレちまってよぉ。/
+((e))
+[auto]
+すみません、頼りないところを
+見せてしまって……/
+((s))
+[face W 12]
+[move W Y 20 0.4]
+[delay 0.6 move W Y -20 0.2]
+もう大丈夫！　
+あるじさまが聞いてくれてよかった……！/
+((m))
+[auto]
+だけどもう大丈夫だ！
+大将が声かけてくれてよかったぜ！/
+((e))
+[auto]
+でも、もう平気です！
+やっぱり師匠はすごいッス！！/
+[hide W]
+[talkend]
+[bgm off]
+[se walk_01]
+@？？？
+世界を守る地魂男児がそんな
+ちっちぇことでくよくよしてんのかよ。/
+[serif off]
+[wait 0.5]
+[-]
+[bgm unrest]
+[show G C]
+[face G 01]
+[talk G]
+[wait 1.0]
+[-]
+[serif on]
+よぉ。/
+[serif off]
+?B/
+[serif on]
+[face G 11]
+こんな真っ昼間の人目につくとこで会うのは
+初めてかもな。/
+((s))
+[hide G]
+[-]
+[show W R]
+[face W 13]
+[talk W]
+……あるじさま、このひと、知り合い？/
+((m))
+[auto]
+……大将、こいつ知り合いか？/
+((e))
+[auto]
+師匠……この方はお知り合いですか？/
+[show G L]
+[face G 02]
+[talk G]
+オレのこと、相棒にも話してねぇのか。
+律儀なヤツだぜ。……そこは評価してやるよ。/
+[face G 08]
+[shake G]
+……しかしこの間抜け面がお前の
+お気に入りだとはな。/
+((s))
+[face W 03]
+[talk W]
+[move W X -150 0.3]
+ま、間抜け面って……！？
+それに、あるじさまにも失礼だよ！[shake W]/
+((m))
+[auto]
+ま、間抜け面ぁ！？
+オレだって気にしてんだすっとこどっこい！/
+((e))
+[auto]
+ま、間抜け面！？　
+突然そんなこと言われる筋合いないッスよ！/
+[face G 01]
+[talk G]
+そう怖い顔すんなって。
+これからは仲間になるんだからよ。/
+((s))
+[face W 13]
+[talk W]
+な、仲間……？/
+((m))
+[auto]
+仲間だとぉ……？/
+((e))
+[auto]
+仲間……？/
+[hide W]
+[hide G]
+[-]
+[show C C]
+[face C 01]
+[talk C]
+やっと来たんだねぇ。
+Bくん。/
+[show G C]
+[face G 02]
+[setline 0.5 G C]
+[talk G]
+よぉ、総司令官。/
+[face C 06]
+[talk C]
+代理だよぉ。さぁ、みんなに紹介するから。
+司令室においで。/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[hideall]
+[bg shirei_day]
+[bgm rokuhara]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show C C]
+[show G C]
+[face C 01]
+[face G 00]
+[setline G C]
+[talk C]
+彼はこのチームにオブザーバーとして
+参加することになったエージェントB。/
+[face C 00]
+地魂霊送が適切に行われていることを
+確認するために、政府から要望で……/
+[face C 06]
+[flow]
+外部組織の協力者を置くように
+指示があったんだよねぇ。/
+[hide C]
+[hide G]
+[-]
+[show A C]
+[show B C]
+[setline A B]
+[face A 14]
+[face B 11]
+[talk A]
+それって……/
+[hide A]
+[hide B]
+[serif off]
+[-]
+[show G C]
+[face G 11]
+[talk G]
+[move G Y 10 0.4]
+[delay 0.4 move G Y -10 1.0]
+[-]
+[serif on]
+オレはいわゆるなんでも屋だ。別にお前らを
+ガッチガチに監視するのが目的じゃねぇよ。/
+[face G 01]
+ロクハラには今までも色々と依頼を請けてきた。
+今回はそれが公なだけってことさ。/
+[face G 02]
+ってわけで、協力できることは協力するぜ？/
+[hide G]
+[-]
+[show A C]
+[show B C]
+[setline A B]
+[face A 00]
+[face B 11]
+[talk A]
+……/
+[face B 00]
+[talk B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+そういうことなら、ま、よろしく頼むぜ。
+オレは……/
+[serif off]
+[show G C]
+[move G X -1000]
+[moveline G A B 1000 0 1]
+[hide A]
+[hide B]
+[face G 07]
+[-]
+[serif on]
+[talk G]
+猫乃屋壮一。[wait 0.5]元声聞士で今はオペレーター。/
+[flow]
+[face G 11]
+学生時代に起こした事件が元で中退後
+仕事を点々として、一時期[wait 0.5]雲龍院家に拾われ/
+[face G 07]
+[flow]
+その後ロクハラに声聞士としてスカウトされた[wait 0.2]…[wait 0.2]…[wait 0.2]
+だったか？　タバコはやめたのか？[face G 02]/
+[serif off]
+[hide G]
+[-]
+[show B C]
+[face B 03]
+[talk B]
+[-]
+[serif on]
+……おい、てめぇ[wait 0.2]…[wait 0.2]…[wait 0.2]ペラペラ人様の過去を
+知ったような口聞いてんじゃねぇぞ……/
+[show A L]
+[se cloth_02]
+[setline 0.5 A B]
+[shake B]
+[face A 12]
+[talk A]
+猫乃屋さん、落ち着いてください。/
+[face A 03]
+エージェントB。[wait 0.2]キミがチームに加わるのは
+構わないけど、邪魔だけはしないで欲しい。/
+[hide A]
+[hide B]
+[serif off]
+[-]
+[show G C]
+[face G 07]
+[talk G]
+[move G Y 20 0.4]
+[delay 0.6 move G Y -20 0.2]
+[autotap]/
+[serif on]
+そりゃあ当然だな。お前らは世界を守るっていう
+使命を抱えてるんだ。/
+[flow]
+[face G 01]
+全てにおいて優先されるべきだろうな。/
+[hide G]
+[-]
+[show A C]
+[show B C]
+[setline A B]
+[face A 08]
+[face B 03]
+[talk A]
+……なんか、含みのある言い方だけど……/
+[hide A]
+[hide B]
+[serif off]
+[-]
+[show C C]
+[show G C]
+[face C 04]
+[face G 00]
+[setline G C]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[talk C]
+[-]
+[serif on]
+Bくぅん。できたらみんなとは仲良く
+してほしいんだけどなぁ。/
+[face G 07]
+[talk G]
+それが仕事だってんなら。/
+[hide C]
+[hide G]
+[serif off]
+[-]
+[se fusuma_03]
+[show F C]
+[face F 02]
+[talk F]
+[bgm fun]
+[-]
+[serif on]
+ただいまーー！　すっきりしたぁ～。
+ごめんね、トイレ行ってて遅くなっちゃった！/
+[face F 00]
+[flow]
+もう会議の続き始まってる～？
+僕のアイデアも聴きたいでしょ！/
+[walkend]
+[serif off]
+[hide F]
+[-]
+[show W C]
+[face W 08]
+[wait 0.5]
+[-]
+[hide W]
+[-]
+[show A C]
+[face A 08]
+[show B C]
+[face B 03]
+[setline A B]
+[wait 0.5]
+[-]
+[hideall]
+[-]
+[show D C]
+[face D 11]
+[show E C]
+[face E 09]
+[setline D E]
+[wait 0.5]
+[-]
+[hideall]
+[-]
+[show G C]
+[face G 11]
+[wait 0.5]
+[-]
+[autotap]/
+[-]
+[show F L]
+[setline 0.5 F G]
+[face F 05]
+[talk F]
+[serif on]
+あれ？　誰、このひと。/
+[hide G]
+[-]
+[show E C]
+[move E X -250]
+[setline 0.5 E F]
+[face E 01]
+[talk E]
+りくくん、ナイスタイミングっす！[shake E]
+空気が和んだっすよ～。/
+[face F 02]
+[talk F]
+[move F Y 10 0.1]
+[delay 0.1 move F Y -10 0.1]
+えっ、えへへ。なんか知らないけど、やったね！/
+((s))
+[serif off]
+[hide E]
+[hide F]
+[waku on 0.5]
+[show W C]
+[face W 13]
+[talk W]
+[-]
+[serif on]
+……/
+((m))
+[auto]
+……/
+((e))
+[auto]
+……/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

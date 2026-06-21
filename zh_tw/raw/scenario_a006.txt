@@ -1,0 +1,554 @@
+>>10000/
+@努埃
+節日在哪裡？瓦修伊！[autotap]/
+[delay 2.5]
+[flow]
+@努埃
+呃，我？
+這是Nue，這是蛇Shar-kun！/
+>>/
+/
+/
+>>1/
+/
+/
+/
+>>2/
+/
+/
+/
+>>3/
+/
+/
+/
+>>4/
+[set A s_a006_r 鵺]
+[randomset B r -a006]
+[show A C]
+[show B C]
+[face A 04]
+[setline]
+[face B 00]
+[talk A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+我正在充電。/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 02]
+[face B 01]
+我想晚上會累積很多！
+晚上我們一起玩吧！/
+>>5/
+[set A s_a006_r 鵺]
+[randomset B r -a006]
+[show A C]
+[show B C]
+[face A 01]
+[face B 05]
+[serif on]
+[say A]
+[setline]
+$B:A看看吧！[shake A]
+我可以用我的雞巴做事！/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[hide A]
+[face B 01]
+[talkend]
+[= 鵺はボールの上に立ってジャグリングを披露した。
+$B引起了熱烈的掌聲。 Nue用盡全身力氣跳了起來，碰到了天花板！
+$B我只能看到努的腰布。 Nue手裡拿著螢光燈，開啟了它。
+$B太亮了，我睜不開眼睛。 Nue是雷聲$B流入了體內
+$B我僵硬的肩膀徹底緩解了！ ]/
+[hide B]
+[-]
+[show A]
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+呵呵。
+明天我該怎麼辦？/
+>>6/
+[set A s_a006_r 鵺]
+[randomset B r -a006]
+[show A C]
+[show B C]
+[face A 00]
+[setline]
+[move A X -150]
+[move A X 150 1]
+[move B Y -50]
+[face B 04]
+[-]
+[serif on]
+[say A]
+$B:A，有什麼問題嗎？
+哼…[face A 03][face B 06]/
+[flow]
+[= 棚が壊れた？ 物置の台座が壊れた？ ほうきが壊れた？ 鍋が真っ二つになった？ 階段の板を踏み抜いた？]/
+[move B Y 50 0.3]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 05]
+如果真是這樣的話，那我的手藝就很不錯了。
+我會為你做的！/
+[move A X -200 0.5]
+[delay 0.2 move B X -100 0.3]
+[face A 01]
+[face B 02]
+$B:A你也能幫我嗎？
+那我們就一起來做吧！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_a006_r 鵺]
+[randomset B r -a006]
+[show A C]
+[show B C]
+[face A 01]
+[face B 05]
+[serif on]
+[talk A]
+[setline]
+充電完成！[shake A 3 10 10]
+讓我們釋放它吧！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 02]
+[face B 02]
+$B:A！去花園
+我們來鬧一下吧！/
+>>10/
+[set A s_a006_r 鵺]
+[randomset B r -a006 -@NPC -@あやかし]
+[show A C]
+[show B C]
+[face A 06]
+[face B 05]
+[serif on]
+[setline]
+[talk A]
+嘿嘿，$B:A為了
+阿尼基是怎樣的存在？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 04]
+[face B 00]
+因為我是一個自由的人...
+實在是不太明白樓主的意思。/
+[face A 02]
+[face B 01]
+對我來說，阿尼基是
+Aniki 您可以信賴！就是這樣的感覺！/
+>>11/
+[set A s_a006_r 鵺]
+[randomset B r -a006 -@NPC -@あやかし]
+[show A C]
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+[say A]
+晚上了！我想知道某個地方是否正在舉辦節日！/
+[show B R]
+[setline 0.5 A B]
+[face A 00]
+[face B 00]
+[talk A]
+啊，$B:A！地魂少年在過去的世界
+你可以走了，對吧？/
+[move A X 100 0.2]
+[se cloth_01]
+[face A 02]
+那就帶我去祭典吧！
+我們一起去問問Aniki吧！[shake B]
+[face B 05]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_a006_r 鵺]
+[show A C]
+[face A 03]
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[autotap]/
+[serif on]
+[say A]
+癢、刺痛……！/
+[face A 05]
+是時候戰鬥了！ ！[shake A]　巴奎恩！ ！[effect fr syutyu a 0 0][scale A 1.6 0.3][move A Y -120 0.3]/
+[effect off a]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 06]
+唉，畢竟我已經存夠了。
+當你全力以赴時，感覺棒極了！ ！/
+>>15/
+[set A s_a006_m 鵺]
+[randomset B m -a006 @地魂男児 -@NPC ]
+[randomset C m -a006 @地魂男児 -@NPC -@NOW]
+[show A C]
+[face A 03]
+[serif on]
+[say A]
+$B:A他們邀請我參加他們的訓練。
+但是……你可以隨心所欲地射擊！ ？/
+[effect fr syutyu a 0 0]
+[face A 01]
+我們走吧！我要認真的去嘗試！[shake A]/
+[show B C]
+[show C C]
+[setline B C]
+[moveline B C 1000 0 0]
+[moveline B C A -1000 0 0.3]
+[face A 02]
+[face B 08]
+[face C 05]
+[effect fr allows 4000 0 0]
+[shakebg]
+[delay 0.8 rotate C 0 0.5]
+[move C X 200 0.5]
+[rotate C -10 0.5]
+[delay 0.6 move B X 300 0.5]
+[delay 0.6 move B Y 100 0.2]
+[delay 0.8 move B Y -100 0.3]
+[delay 0.5 se bomb_01]
+[delay 0.5 effect bk bomb 4000 100 0]
+[delay 0.8 se bomb_02]
+[delay 0.8 effect fr bomb 4000 -200 -100]
+[autotap]/
+[say A]
+巴奎恩！巴奎恩！ ！
+巴巴巴巴巴坤！[face B 01]/
+[effect off a]
+[se kira_01]
+[effect A kira b 0 250]
+[scale A 1.6]
+[move A Y -120]
+[moveline A B C 1000 0 0.5]
+[hide B]
+[hide C]
+[face A 02]
+特別訓練，田野！/
+>>16/
+[set A s_a006_m 鵺]
+[randomset B m -a006 @地魂男児 -@NPC ]
+[randomset C m -a006 @地魂男児 -@NPC -@NOW]
+[show A C]
+[show B C]
+[show C C]
+[setline B A C]
+[face A 08]
+[face B 08]
+[face C 01]
+[serif on]
+[talk A]
+在特殊訓練之前，我的陰莖被撕裂了
+想要興奮嗎？[shake A]　好！[face A 01]/
+[effect fr wavein 5000 0 0]
+[shake A 5 5 5]
+[autotap]/
+[face A 03]
+[face B 05]
+[face C 05]
+[se kaminari_01]
+我要盡量讓你顫抖……！[shake A]
+巴京！[effect fr waveout 8000 0 0][shakebg][fadein WHITE 0.2][delay 0.2 fadeout 0.3][rotate B 10 0.3][move C X 50 0.3][delay 0.1 rotate C -5 0.2]/
+[shake B 10 5 5]
+[shake C 12 5 6]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[face B 01]
+[face C 02]
+你覺得怎麼樣？我很震驚！ ？/
+>>17/
+[set A s_a006_b 鵺]
+[randomset B b -a006]
+[show A C]
+[show B C]
+[face A 05]
+[face B 05]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[setline B A]
+[serif on]
+[talk A]
+啊，$B:A抱歉！[se cloth_01]
+沙坤$B:A我把毛巾放進嘴裡...[shake A][shake B]/
+[face A 03]
+[face B 04]
+[rotate A 10 0.5]
+[move A Y -50 0.5]
+嘿，沙阿君，這樣不好。[shake A]/
+[face A 05]
+[face B 06]
+[rotate A -10 0.3]
+[move A X 100 0.3]
+[shake B]
+[se cloth_06]
+啊！　[rotate A 0 0.3][move A Y 50 0.3]啊哈哈！　[face A 06]我看到了！/
+>>18/
+[set A s_a006_b 鵺]
+[randomset B b -a006]
+[se amb_12]
+[effect fr yuge a 0 0]
+[show A C]
+[show B C]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[setline A B]
+[face A 01]
+[face B 01]
+[serif on]
+[talk A]
+[se ikazuchi_01]
+布里比裡~！[shake A][fadein WHITE 0.2][delay 0.2 fadeout 0.3]　呵呵呵呵，怎麼樣？　$B:A。
+我的電浴！　/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face A 00]
+[face B 08]
+對肩膀僵硬也有效果。
+強一點嗎？/
+[face A 02]
+[face B 02]
+[se water_07]
+[effect fr splash 4000 0 0]
+布里比裡比裡~！ ！ ！[shake A 3 10 10]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]/
+>>19/
+[set A s_a006_b 鵺]
+[se amb_12]
+[effect fr yuge a 0 0]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+沙阿君！今天也把全身洗乾淨吧！/
+[face A 06]
+[se bath_05]
+嗯...[shake A 3 3 3]哈哈~！
+幹得好，沙阿君！[shake A][face A 01]/
+[face A 02]
+[flow]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+我的地方感覺很好
+我完全明白了！/
+[face A 00]
+不會留下任何殘留物，您可以輕鬆沖洗掉！[move A X 600 0.3][hide A][se water_01][shakebg][effect fr splash 4000 800 0]/
+>>20/
+[set A s_a006_r 鵺]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[serif on]
+[say A]
+啊，[shake A]小便池有目標！/
+[face A 03]
+嗯嗯...[shake A 5 5 5]巴奎恩！[effect fr syutyu a 0 0][se pee_01][shakebg][face A 02]
+嘿嘿嘿，一炮而紅啊！/
+[effect off a]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+嗯嗯嗯嗯嗯嗯。[shake A]/
+>>21/
+[set A s_a006_r 鵺]
+[randomset B r -a006]
+[randomset C r -a006 -@NOW]
+[show A R]
+[show B C]
+[show C C]
+[face A 05]
+[face B 03]
+[face C 04]
+[move A X 200]
+[move A X -200 0.5]
+[move B X -350]
+[move C X -100]
+[serif on]
+[say A]
+[orderline A B C]
+嘿！ ？居然還有這麼多人在排隊…
+我已經到極限了.../
+[face A 04]
+如果發生這種情況的話，沙阿君…
+[shake A]/
+[flow]
+[face A 06]
+……終究是不好……
+……大家快點！ ！[face A 03][face C 05][shake A 3 10 10]/
+>>22/
+[set A s_a006_r 鵺]
+[randomset B r -a006]
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+[say A]
+啊！　[shake A]沒有遺失紙張！
+嗯，福多西…[face A 04]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，沙阿君，隔壁包房裡有一張落紙。
+去拿吧！/
+[face A 08]
+[move A Y -100 0.5]
+[move A X -100 0.5]
+[rotate A -10 0.5]
+[se cloth_01]
+從下面的縫隙看去……嗯……[shake A]
+沙阿君，加油！[shake A]/
+[show B C]
+[scale B 1.6]
+[move B Y -120]
+[move B X -800]
+[moveline A B 800 0 1]
+[face B 05]
+[se cloth_01]
+[say B]
+！？[shake B 5 10 10][se dosa_01]/
+>>23/
+[set A s_a006_r 鵺]
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+[say A]
+唷，噗...[wait 0.2]
+巴庫嗚嗚！ ！[face A 03][shake A 3 10 10]/
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+哇……感覺神清氣爽啊！/
+[face A 01]
+[effect fr kira 4000 0 0]
+[se kira_01]
+看來今天你可以睡個好覺了，沙阿！/
+>>24/
+[set A s_a006_r 鵺]
+[randomset B r -a006 -@NPC]
+[show A C]
+[show B R]
+[rotate B -15]
+[move B Y -100]
+[face A 00]
+[face B 01]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+啊？
+$B:A你現在要睡覺嗎？/
+[face A 02]
+[face B 07]
+我是一個自由的人...我要出去！
+寶貝！[move A X -600 0.3][hide A 0.3][se fusuma_02][delay 0.3 shakebg][rotate B -20 0.5]/
+[serif off]
+[se kaminari_01]
+[wait 0.5]
+[delay 0.1 talkend]
+[delay 0.1 fadein WHITE 0.2]
+[delay 0.3 fadeout 0.3]
+[delay 0.3 face B 05]
+[delay 0.3 rotate B 0 0.2]
+[delay 0.3 move B Y 300 0.1]
+[delay 0.4 move B Y -200 0.2]
+[-]
+[shake B]
+[wait 1]
+[-]
+[autotap]/
+>>25/
+[set A s_a006_r 鵺]
+[show A C]
+[face A 02]
+[say A]
+[move A Y -100]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[-]
+[serif on]
+瓦修伊！瓦修伊！
+大豆大豆大豆！[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 07]
+...供應......[se cloth_01]/
+[talkend]
+就像在睡夢中說話一樣。/
+>>26/
+[set A s_a006_r 鵺]
+[randomset B r -a006]
+[show A C]
+[move A Y -100]
+[rotate A 15]
+[face A 07]
+[serif on]
+[say A]
+嗯嗯嗯…
+/
+[face A 06]
+[shake A 5 10 10]
+嘿！ ？ 「沙阿君，你在做什麼呢？」
+好癢啊！/
+[face A 01]
+[se cloth_01]
+[rotate A 0 0.5]
+[move A Y 100 0.5]
+……哈哈~睡得很好~！/
+[show B L]
+[setline 0.5 B A]
+[orderline A B]
+[face A 03]
+[face B 06]
+[say A]
+但有什麼關係呢，我今天的東西不多。/

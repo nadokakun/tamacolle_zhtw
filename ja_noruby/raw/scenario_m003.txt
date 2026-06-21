@@ -1,0 +1,1417 @@
+>>0/
+((s))
+[set W s_san_b 讃岐]
+[set A s_n001_b 夏人]
+[set B s_n000_b 猫乃屋]
+[set C s_n003_b 羽鳥]
+[set D s_n002_b 猪森]
+[set E s_n005_b りく]
+[set F s_n004_b 百太]
+[set Y s_san_m 讃岐]
+[set G s_n001_m 夏人]
+[set H s_n000_m 猫乃屋]
+[set I s_n005_m りく]
+[set J s_n004_m 百太]
+[set O s_a000_m 座敷わらし]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 裸の付き合い！]
+[-]
+[bg rouka_night]
+[-]
+[fadeout]
+[bgm night]
+[-]
+[serif on]
+[talkend]
+南海道への浄化任務を終え、
+一同は荘園の大浴場へと向かった。/
+((m))
+[set W s_mus_b 武蔵]
+[set A s_n001_b 夏人]
+[set B s_n000_b 猫乃屋]
+[set C s_n003_b 羽鳥]
+[set D s_n002_b 猪森]
+[set E s_n005_b りく]
+[set F s_n004_b 百太]
+[set Y s_mus_m 武蔵]
+[set G s_n001_m 夏人]
+[set H s_n000_m 猫乃屋]
+[set I s_n005_m りく]
+[set J s_n004_m 百太]
+[set O s_a000_m 座敷わらし]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 裸の付き合い！]
+[-]
+[bg rouka_night]
+[-]
+[fadeout]
+[bgm home]
+[-]
+[serif on]
+[talkend]
+南海道への浄化任務を終え、
+一同は荘園の大浴場へと向かった。/
+((e))
+[set W s_ecg_b 越後]
+[set A s_n001_b 夏人]
+[set B s_n000_b 猫乃屋]
+[set C s_n003_b 羽鳥]
+[set D s_n002_b 猪森]
+[set E s_n005_b りく]
+[set F s_n004_b 百太]
+[set Y s_ecg_m 越後]
+[set G s_n001_m 夏人]
+[set H s_n000_m 猫乃屋]
+[set I s_n005_m りく]
+[set J s_n004_m 百太]
+[set O s_a000_m 座敷わらし]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 裸の付き合い！]
+[-]
+[bg rouka_night]
+[-]
+[fadeout]
+[bgm home]
+[-]
+[serif on]
+[talkend]
+南海道への浄化任務を終え、
+一同は荘園の大浴場へと向かった。/
+[show I C]
+[face I 02]
+[talk I]
+あっ、兄ちゃんたち見っけー！/
+[serif off]
+?りく/
+[face I 03]
+[move I Y 10 0.4]
+[delay 0.4 move I Y -10 1.0]
+[autotap]/
+[serif on]
+御座所に顔出したんだけど
+いなかったから探したよ～。/
+[face I 00]
+学校終わって、遊びに来たんだよ！[move I Y 10 0.1][delay 0.1 move I Y -10 0.1]
+あっ、$W～！/
+((s))
+[hide I]
+[-]
+[show Y C]
+[face Y 01]
+[talk Y]
+りくくん～っ。/
+((m))
+[auto]
+おう、りく！/
+((e))
+[auto]
+りくくんっ！/
+((s))
+[face Y 12]
+[flow]
+あるじさまはいま任務が終わったところで
+疲れてるから、遊ぶのはまた今度にしよ。/
+((m))
+[auto]
+大将は丁度今任務が終わったとこだからな
+遊ぶのはまた今度にしようぜぃ。/
+((e))
+[auto]
+師匠はお疲れッスから、遊ぶのは
+また日を改めましょう。/
+[show G C]
+[setline 0.5 Y G]
+[face G 12]
+[talk G]
+$Wくんもね。
+何日もかけた任務から帰ってきたところなんだよ。/
+[hide Y]
+[hide G]
+[-]
+[show I C]
+[face I 05]
+[talk I]
+[move I Y 10 0.1]
+[delay 0.1 move I Y -10 0.1]
+そうなんだ！　[wait 0.5]どうりでなんか……みんな[face I 06]
+疲れてそうっていうか[wait 0.2]…[wait 0.2]…[wait 0.2]なんかにおう～。[move I Y 10 0.4][delay 0.4 move I Y -20 1.0]/
+[hide I]
+[-]
+[show H C]
+[face H 03]
+[talk H]
+[shake H]
+うるせぇ！　オレたちは今からやっと風呂に
+入るとこなんだ！/
+[flow]
+邪魔すんならがきんちょだって容赦
+しねぇぞ！[shake H]/
+[show J C]
+[setline 0.5 H J]
+[face J 09]
+[talk J]
+猫乃屋さん、落ち着くっす。/
+[move J Y 10 0.4]
+[delay 0.4 move J Y -10 1.0]
+[effect J kira a 0 0]
+[se kira_01]
+[autotap]/
+[face J 10]
+オレは猫乃屋さんの男臭い匂い、
+嫌いじゃないっすよ！/
+[effect off a]
+[face H 10]
+[say H]
+[shake H]
+嬉しくねーーー。/
+[serif off]
+[hide H]
+[hide J]
+[-]
+[show I C]
+[face I 06]
+[talk I]
+[-]
+[serif on]
+お風呂か～。ここの大浴場って、ちょっと
+気になってたんだよね～。/
+[face I 01]
+[scale I 1.6 0.5]
+[move I Y -100 0.5]
+僕も一緒にお風呂入ってもいい？/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[serif on]
+[face I 02]
+やったー！/
+((s))
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg bath]
+[hideall]
+[-]
+[fadeout 1.0]
+[-]
+[se amb_12]
+[place 大浴場]
+[effect fr yuge a]
+[-]
+[bgm fun]
+[show W C]
+[face W 00]
+[talk W]
+[-]
+[serif on]
+それでね、あるじさま。志之助の流しは本当に
+すごかったんだよ！/
+((m))
+[auto]
+そんでな、大将。志之助の流しは
+そりゃあすげぇのすごくねぇのって……/
+((e))
+[auto]
+師匠。それから、志之助の流しは本人は
+謙遜してましたが、本当に一流のもので……/
+((s))
+[face W 01]
+[talk W]
+そうだ！[shake W]　うまくできるかわかんないけど……
+あるじさまの背中もオイラが流し、しようか？/
+((m))
+[auto]
+なぁ、オレも武蔵国の地魂男児だ。
+よかったら大将の背中、オレが流し、するか？/
+((e))
+[auto]
+そうだ。師匠……もしよかったら、
+オレ、師匠のお背中を、流したいッス！/
+[serif off]
+?お願いする/
+[face W 00]
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[serif on]
+うん！　任せて！　
+おうどんで鍛え上げられたオイラの手さばき……/
+((m))
+[auto]
+おう！　任せろぃ！
+志之助にゃ及ばねぇかもしれねぇが……/
+((e))
+[auto]
+はい！　任せてください！
+今こそ、鍛えた筋肉を駆使して……/
+((s))
+[scale W 2.0 1.0]
+[move W Y -200 1.0]
+[face W 08]
+あるじさまを極楽につれてくよ！　えーい！[shake W][se bath_05]
+ごしごし！[shake W]　わしわし！[shake W][se bath_05]　もみもみ！[shake W]/
+((m))
+[auto]
+大将を極楽浄土に案内するぜ！　おりゃああ！[se bath_05][shake W]
+ごしごし！[shake W]　わしわし！[shake W][se bath_05]　もみもみ！[shake W]/
+((e))
+[auto]
+師匠に極上のひとときを捧げます！　失礼します！[se bath_05][shake W]
+ごしごし！[shake W]　わしわし！[shake W][se bath_05]　もみもみ！[shake W]/
+((s))
+[face W 12]
+[serif off]
+[se bath_01]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+えへへ……あるじさまの背中って、広いね。[wait 0.5]
+んっ、[shake W]肩凝ってそうだね……/
+((m))
+[auto]
+へへっ……大将の背中、広いんだなぁ……[wait 0.5]
+おっ、[shake W]肩も凝ってそうじゃねぇか。/
+((e))
+[auto]
+はぁ……っ。師匠の背中……広いッスね……[wait 0.5]
+あ、[shake W]肩も凝ってそうッスね……/
+((s))
+[face W 06]
+[move W Y -50 1.0]
+このあたりも……[shake W]んっ！[se bath_05]　[shake W]んっ！[shake W]
+どう？[move W Y 50 0.5][face W 01]　あるじさま。/
+((m))
+[auto]
+このあたり……[shake W]んっ！[se bath_05]　[shake W]んんっ！
+どうだ？[move W Y 50 0.5][face W 01]　大将……っ！/
+((e))
+[auto]
+このあたりも……[shake W]んっ！[se bath_05]　[shake W]んんっ！
+どうッスか？[move W Y 50 0.5][face W 01]　師匠……！/
+[serif off]
+?きもちー/
+((s))
+[face W 12]
+[serif on]
+えへへ、志之助が人間の肌はすべすべしてて
+気持ちいいって言ってたのわかる気がするな～。/
+((m))
+[auto]
+へへ、志之助が人間の肌はすべすべしてて
+気持ちいいって言ってたの、わかる気がするぜぃ。/
+((e))
+[auto]
+志之助が人間の肌はすべすべしてて気持ちいい
+って言ってたの、思い出しちゃいました。/
+((s))
+[serif off]
+[se bath_05]
+[move W Y -10 0.2]
+[delay 0.2 move W Y 10 0.2]
+[-]
+[move W Y -10 0.2]
+[delay 0.2 move W Y 10 0.2]
+[-]
+[move W Y -10 0.2]
+[delay 0.2 move W Y 10 0.2]
+[-]
+[move W Y -10 0.2]
+[delay 0.2 move W Y 10 0.2]
+[-]
+[serif on]
+ごしごしっごしごしっ/
+((m))
+[auto]
+ごしごしっごしごしっ/
+((e))
+[auto]
+ごしごしっごしごしっ/
+[serif off]
+?あいたた/
+((s))
+[shakebg]
+[face W 11]
+[serif on]
+あっごめんね！　[shake W]ちょっと強すぎたかも……[move W Y 10 0.4][delay 0.4 move W Y -10 1.0][se bath_01]/
+((m))
+[auto]
+おっわりぃ！　[shake W]ちょっと強くしすぎちまった。
+難しいもんだぜ……[move W Y 10 0.4][delay 0.4 move W Y -10 1.0]/
+((e))
+[auto]
+す、すみません！[shake W]
+師匠の肌に傷がついてないといいんですが……！[move W Y 10 0.4][delay 0.4 move W Y -10 1.0]/
+[hide W]
+[-]
+[se bath_03]
+[show A R]
+[show B L]
+[setline B A]
+[face A 00]
+[face B 01]
+[talk B]
+[order B 0]
+[order A 2]
+なっと。
+オレも背中流してやろうか？/
+[say A]
+[face A 03]
+あ、大丈夫です。遠慮しときます。/
+[face B 04]
+[say B]
+なんだよー背中流すのはセクハラでもなんても
+ねーだろ～？[shake B]/
+[show E R]
+[setline 0.5 B A E]
+[face A 06]
+[face E 00]
+[talk A]
+[order A 5]
+[order B 0]
+[order E 8]
+りくくん、うなじのところ、泡残ってるよ。
+ちゃんと流さなきゃ。/
+[face E 05]
+[say E]
+[move E Y 10 0.1]
+[delay 0.1 move E Y -10 0.1]
+えっほんと？
+いつもじいやがやってくれるから慣れないな～。/
+[face B 08]
+[say B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+だから何でも自分でできるようになれって
+言ってんだろ～。/
+[face E 02]
+[say E]
+夏人兄ちゃんの背中流せなくて可哀想だから
+僕の背中流してもいいよ？/
+[face B 10]
+[say B]
+絶対やんねーから。/
+[serif off]
+[se door_01]
+[show F C]
+[scale F 1.6]
+[move F Y -150]
+[delay 0.5 effect F syutyu b 0 -100]
+[move F X 1000]
+[moveline A B E F -1000 0 1.0]
+[face F 01]
+[talk F]
+[se amb_12]
+[-]
+[serif on]
+トイレ寄ってたんで、遅れちゃったっす～！
+オレもご一緒するっすよ～！/
+[serif off]
+[talkend]
+[effect off b]
+[moveline A B E F 1000 0 1.0]
+[face A 10]
+[face B 06]
+[face E 05]
+[-]
+[serif on]
+[say B]
+……なんか、服着てるときから想像してたけど
+やっぱすげー迫力だな……/
+[move E Y 10 0.4]
+[delay 0.4 move E Y -10 1.0]
+[autotap]/
+[face E 06]
+[say E]
+わぁ……今まで見た中で一番かも……（ごくり）/
+[serif off]
+[talkend]
+[scale F 1]
+[move F Y 150]
+[setline 0.5 B A E F -150 1000]
+[delay 0.3 effect F syutyu b 0 -100]
+[face F 00]
+[-]
+[say F]
+[serif on]
+えっなんすか？
+いまオレのこと呼んだっすか？/
+[face B 02]
+[say B]
+走るな走るな！　バルンバルン跳ねてっから！[shake B]/
+((s))
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[effect off b]
+[-]
+[fadeout 1.0]
+[-]
+[se bath_02]
+[wait 0.5]
+[show W C]
+[scale W 1.4]
+[move W Y -100]
+[face W 12]
+[talk W]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+はぁ～……回復するぅ～。/
+((m))
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[effect off b]
+[-]
+[fadeout 1.0]
+[-]
+[se bath_02]
+[wait 0.5]
+[show W C]
+[scale W 1.4]
+[move W Y -150]
+[face W 12]
+[talk W]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+ふぅ～……こりゃあ回復が進むぜぃ……/
+((e))
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[effect off b]
+[-]
+[fadeout 1.0]
+[-]
+[se bath_02]
+[wait 0.5]
+[show W C]
+[scale W 1.4]
+[move W Y -150]
+[face W 12]
+[talk W]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+はぁ……細かい傷が
+癒えていくのわかります……/
+[show B C]
+[face B 09]
+[scale B 1.4]
+[move B Y -150]
+[setline 0.5 W B]
+[orderline W B]
+[say B]
+地魂男児は湯に浸かると怪我が治るって
+おもしれぇよな。/
+((s))
+[face W 00]
+[say W]
+人間だって治るでしょ？
+湯治って言うもんね。/
+((m))
+[auto]
+てやんでぃ。人間だって治るじゃねぇか。
+湯治って言葉があるだろうが。/
+((e))
+[auto]
+でも、人間も治りますよね？
+湯治って言いますし！/
+[face B 10]
+[say B]
+お前たちみたいにみるみるうちに
+治癒してったりはしねぇよ。/
+[hide W]
+[hide B]
+[-]
+[se bath_04]
+[show F C]
+[scale F 1.4]
+[move F Y -150]
+[face F 08]
+[talk F]
+今回の任務、ずっと見てたっすけど、
+色々勉強になったことがあったっす！/
+[move F Y 10 0.4]
+[delay 0.4 move F Y -10 1.0]
+[autotap]/
+[face F 02]
+[flow]
+江戸時代の風呂ってのは結構いい感じっすね。
+オレも行ってみたいっすね～。/
+[show A L]
+[scale A 1.4]
+[face A 06]
+[setline 0.5 A F]
+[move A Y -150]
+[orderline A F]
+[say A]
+あんなに暗いなんて思わなかったよね。
+意外だったなぁ……/
+[face F 10]
+[say F]
+[se water_06]
+あれだけ暗いと、結構イイこともあったんじゃ
+ないっすかねぇ～？/
+[show E C]
+[face E 03]
+[talk E]
+[scale E 1.4]
+[setline 0.5 A E F]
+[move A X -150 0.5]
+[move F X 150 0.5]
+[move E Y -100]
+[orderline E A F]
+えーっ江戸時代のお風呂とか超気になる～！
+見たかったなぁ～。/
+[face E 01]
+[flow]
+やっぱり任務も見学しに行きたいな～。/
+[hide A]
+[hide F]
+[-]
+[se water_06]
+[show B C]
+[scale B 1.4]
+[setline 0.5 B E]
+[face B 10]
+[say B]
+[orderline E B]
+[move B Y -150]
+$Wの土産話だけで我慢しとけって。/
+((s))
+[serif off]
+[se amb_12]
+[show W C]
+[show A C]
+[face W 00]
+[face A 01]
+[setline W A]
+[scale W 1.4]
+[scale A 1.4]
+[move A Y -150]
+[move W Y -100]
+[moveline W A -1000 0 0]
+[moveline W A B E 1000 0 1]
+[orderline W A]
+[delay 0.5 hide B]
+[delay 0.5 hide E]
+[-]
+[say A]
+[serif on]
+$Wくん。
+今回の旅も大変だったね。/
+((m))
+[serif off]
+[se water_06]
+[show W C]
+[show A C]
+[face W 00]
+[face A 01]
+[setline W A]
+[scale W 1.4]
+[scale A 1.4]
+[move A Y -150]
+[move W Y -150]
+[moveline W A -1000 0 0]
+[moveline W A B E 1000 0 1]
+[orderline A W]
+[delay 0.5 hide B]
+[delay 0.5 hide E]
+[-]
+[say A]
+[serif on]
+$Wくん。
+今回の旅も大変だったね。/
+((e))
+[serif off]
+[se water_06]
+[show W C]
+[show A C]
+[face W 00]
+[face A 01]
+[setline W A]
+[scale W 1.4]
+[scale A 1.4]
+[move A Y -150]
+[move W Y -150]
+[moveline W A -1000 0 0]
+[moveline W A B E 1000 0 1]
+[orderline A W]
+[delay 0.5 hide B]
+[delay 0.5 hide E]
+[-]
+[say A]
+[serif on]
+$Wくん。
+今回の旅も大変だったね。/
+((s))
+[face W 12]
+[say W]
+夏人くんやあるじさまが見守ってくれてるから
+オイラたちも頑張れたんだよ。ありがとね。/
+((m))
+[auto]
+夏人や大将が見守ってくれてっからなぁ。
+こっちも頑張っちまうわけよ。ありがとな。/
+((e))
+[auto]
+師匠や夏人くんが見守ってくれてますから、
+オレも気合が入ります！　ありがとうございます！/
+((s))
+[show B R]
+[scale B 1.4]
+[move B Y -150]
+[setline 0.5 W A B]
+[delay 0.5 shake A]
+[face B 01]
+[talk B]
+[face A 14]
+[order A 5]
+[order W 10]
+[order B 0]
+たまにゃこうやって裸の付き合いってのも
+悪かねーなぁ。/
+((m))
+[show B R]
+[scale B 1.4]
+[move B Y -150]
+[setline 0.5 W A B]
+[delay 0.5 shake A]
+[face B 01]
+[talk B]
+[face A 14]
+[order A 5]
+[order W 0]
+[order B 2]
+たまにゃこうやって裸の付き合いってのも
+悪かねーなぁ。/
+((e))
+[show B R]
+[scale B 1.4]
+[move B Y -150]
+[setline 0.5 W A B]
+[delay 0.5 shake A]
+[face B 01]
+[talk B]
+[face A 14]
+[order A 5]
+[order W 0]
+[order B 2]
+たまにゃこうやって裸の付き合いってのも
+悪かねーなぁ。/
+[serif off]
+[show F R]
+[scale F 1.4]
+[move F Y -150]
+[setline 0.5 W A B -100 500]
+[-]
+[scale F 2.0 1.0]
+[move F Y -150 1.0]
+[effect F splash 4000 0 100]
+[se bath_02]
+[se water_05]
+[face W 05]
+[face A 09]
+[face B 02]
+[face F 02]
+[talk F]
+[-]
+[serif on]
+オレは毎日でもいいっすよ？
+特に先輩には密着取材っすからね！/
+((s))
+[hide A]
+[hide B]
+[move W X 150 0.3]
+[se water_05]
+[face W 11]
+[say W]
+も、百太くん！[shake W]　あるじさまに
+くっつきすぎだよぉ！/
+((m))
+[auto]
+お、おい！　百太ぁ！　大将に
+くっつきすぎなんじゃねぇかああ！？/
+((e))
+[auto]
+も、百太くん！　し、し、師匠に
+密着しすぎッスよぉ！！/
+[serif off]
+?なにかの存在感がつよい/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[se door_01]
+[-]
+[fadeout 1.5]
+[-]
+[se amb_12]
+[show C C]
+[show D C]
+[setline C D]
+[face C 00]
+[face D 00]
+[talk C]
+[-]
+[serif on]
+やぁ～。みんなお疲れ様ぁ。
+任務完了の連絡受け取ったから来たよぉ。/
+[face D 01]
+[talk D]
+お邪魔しまーす。/
+((s))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -50]
+[move B Y -100]
+[face W 01]
+[face B 00]
+[talk W]
+羽鳥さん、猪森さん！　ただいまぁ！
+無事戻ったよ～！/
+((m))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -100]
+[move B Y -100]
+[face W 01]
+[face B 00]
+[talk W]
+よぉ羽鳥！　猪森！　戻ったぜぃ！/
+((e))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -100]
+[move B Y -100]
+[face W 01]
+[face B 00]
+[talk W]
+羽鳥さん、猪森さん！
+任務、無事完了しました！/
+[face B 01]
+[talk B]
+[se water_06]
+おぉ、羽鳥さんといのっちも風呂入る気
+まんまんっすね！/
+[hide W]
+[hide B]
+[-]
+[show C C]
+[show D C]
+[setline C D]
+[face C 01]
+[face D 00]
+[talk C]
+うん、話があってきたんだけど、TPOという
+ものがあるからねぇ。/
+((s))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -50]
+[move B Y -100]
+[face W 00]
+[face B 00]
+[talk W]
+話？/
+((m))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -100]
+[move B Y -100]
+[face W 00]
+[face B 00]
+[talk W]
+話？/
+((e))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[move W Y -100]
+[move B Y -100]
+[face W 00]
+[face B 00]
+[talk W]
+話ッスか？/
+[hide W]
+[hide B]
+[serif off]
+[-]
+[show C C]
+[show D C]
+[setline C D]
+[face C 00]
+[face D 00]
+[talk C]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[-]
+[serif on]
+うん……詳しくは茂就くんの方から
+説明してもらうとして……/
+[face C 01]
+[face D 12]
+ちょっと身体と頭洗っちゃうから、
+待っててねぇ。/
+[move C X 100 1.0]
+[hide C]
+[autotap]/
+[face D 11]
+[talk D]
+[shake D]
+自分も、浸かる前に洗ったほうがいいよね……
+洗ってきまーす！[move D X 200 0.5][hide D]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[se water_01]
+[fadeout 1.0]
+[-]
+[se amb_12]
+[show D C]
+[scale D 1.4]
+[move D Y -150]
+[face D 13]
+[talk D]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[-]
+[serif on 0.5]
+はぁ～～～……[wait 0.5]徹夜明けの身体に
+お湯がしみる～～～。[se water_06]/
+[show F L]
+[scale F 1.4]
+[move F Y -150]
+[setline 0.5 F D]
+[se water_06]
+[face D 00]
+[face F 01]
+[talk F]
+猪森さんお疲れ様っす！　オレは赤熊百太っす！　
+先輩の密着取材させてもらってるっす～！/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 01]
+[say D]
+百太くん、羽鳥さんから聞いてるよ。
+よろしく！/
+[face F 02]
+[say F]
+[se kira_01]
+[effect F love b 0 200]
+猪森さんすごく良い身体っすよね。
+一度じっくりお話したいと思ってたんすよ！/
+[move F X 100 1.0]
+[se water_05]
+[face F 10]
+ぜひふたりっきりで！
+サウナ取材とかでもいいっすよ？/
+[face D 06]
+[say D]
+[shake D]
+え、ええっ！？[shake D]　サウナ！？
+一体何の取材！？/
+[talkend]
+[effect off b]
+[serif off]
+[show A L]
+[scale A 1.4]
+[move A XY -150 -150]
+[moveline A D F 150 0 1.0]
+[face A 12]
+[orderline A F D]
+[-]
+[talk A]
+[serif on]
+えっと、それより猪森さん。
+話の説明をお願いします……！/
+[face D 12]
+[face F 01]
+[say D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+あ、そ、そうだね！
+/
+[serif off]
+[hide A]
+[hide F]
+[se water_05]
+[move D X -150 1.0]
+[face D 00]
+[bgm rokuhara]
+[-]
+[serif on]
+前回の歴史覚醒域の原因となったあやかし……
+座敷わらしとの戦いの記録を解析してたんだけど、/
+[face D 01]
+[flow]
+実際に目の前で戦っていた$Wくんの
+意見も聞きたいなと思ってるんだ。/
+((s))
+[show W L]
+[scale W 1.4]
+[setline 0.5 W D]
+[move W Y -100]
+[face W 01]
+[talk W]
+うん。なんでも聞いてね！/
+((m))
+[show W L]
+[scale W 1.4]
+[setline 0.5 W D]
+[move W Y -150]
+[face W 01]
+[talk W]
+おう。なんでも聞いてくれぃ！/
+((e))
+[show W L]
+[scale W 1.4]
+[setline 0.5 W D]
+[move W Y -150]
+[face W 01]
+[talk W]
+はい！　どんなことでしょうか！
+/
+[face D 00]
+[say D]
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+ありがとう、率直に聞くけど[wait 0.2]…[wait 0.2]…[wait 0.2]
+座敷わらしは喰魂に取り憑かれていたと思う？[face D 11]/
+((s))
+[face W 08]
+[talk W]
+……/
+((m))
+[auto]
+……/
+((e))
+[auto]
+……/
+((s))
+[hide D]
+[move W X 150 1.0]
+[face W 13]
+[flow]
+どうだろう……
+あのとき……周囲に喰魂はたくさんいた。/
+((m))
+[auto]
+どうだろうな……
+あんときゃ……周りに喰魂が溢れてた。/
+((e))
+[auto]
+どうッスかね……
+あのとき……街は喰魂が溢れてました。/
+((s))
+[flow]
+でも……/
+((m))
+[flow]
+でも……/
+((e))
+[flow]
+でも……/
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[effect off a]
+[hideall]
+[waku on]
+[bg mbg_map]
+[minibg sky_storm]
+[show O]
+[face O 04]
+[-]
+[fadeout 1.0]
+[wait 1.5]
+[-]
+[autotap]/
+((s))
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[hideall]
+[waku off]
+[bg bath]
+[minibg off]
+[effect fr yuge a 0 0]
+[-]
+[fadeout 1.0]
+[-]
+[show W]
+[move W Y -50]
+[face W 08]
+[-]
+[serif on]
+座敷わらしから喰魂の気配はなかった……
+戦った感じだけど、多分、そう思う……/
+((m))
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[hideall]
+[waku off]
+[bg bath]
+[minibg off]
+[effect fr yuge a 0 0]
+[-]
+[fadeout 1.0]
+[-]
+[show W]
+[move W Y -100]
+[face W 08]
+[-]
+[serif on]
+座敷わらしから喰魂の気配はなかった……
+戦った感じに過ぎねぇが、オレぁそう思う。/
+((e))
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[hideall]
+[waku off]
+[bg bath]
+[minibg off]
+[effect fr yuge a 0 0]
+[-]
+[fadeout 1.0]
+[-]
+[show W]
+[move W Y -100]
+[face W 08]
+[-]
+[serif on]
+……座敷わらしから喰魂の気配はなかった。
+あの手応え。オレは、そう思います。/
+[show B C]
+[move B Y -100]
+[face B 11]
+[setline 0.5 W B]
+[se water_06]
+[talk B]
+……そうなのか？　てことは歴史覚醒域の核は
+座敷わらしじゃなかったってことか？/
+[show A R]
+[setline 0.5 W B A]
+[move A Y -100]
+[say A]
+[face A 08]
+いえ、座敷わらしを撃破したあと、歴史覚醒域の
+解放を確認していますから……間違いないです。/
+[hideall]
+[serif off]
+[-]
+[show D C]
+[move D Y -100]
+[face D 00]
+[talk D]
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[-]
+[serif on]
+やっぱり……
+前提としてだけど、/
+[face D 00]
+自分たちの研究では、歴史を改変する力は
+喰魂にあると考えているんだ。/
+[face D 01]
+だから浄化任務で喰魂濃度の高い歴史域に結界を
+形成し、喰魂を祓い、霊脈を守ってる。/
+[show C C]
+[face C 01]
+[setline 0.5 D C]
+[move C Y -50]
+[talk C]
+うんうん、浄化任務を取り入れてからは
+歴史覚醒域の発生をおおむね抑えているねぇ。/
+[hide C]
+[face D 11]
+[move D X 150 1.0]
+[talk D]
+だけど[wait 0.2]…[wait 0.2]…[wait 0.2]$Wくんの言うように
+座敷わらしは喰魂に汚染されてはいなかった。/
+[face D 12]
+データ解析の結果からも間違いない。
+今回は、これまでの事例では説明がつかない……/
+[face D 03]
+喰魂以外にも[wait 0.2]
+歴史を改変する要素が存在している。/
+((s))
+[show W L]
+[move W Y -50]
+[setline 0.5 W D]
+[face W 08]
+[talk W]
+喰魂以外の改変要素……/
+((m))
+[show W L]
+[move W Y -100]
+[setline 0.5 W D]
+[face W 08]
+[talk W]
+喰魂以外の改変要素……/
+((e))
+[show W L]
+[move W Y -100]
+[setline 0.5 W D]
+[face W 08]
+[talk W]
+喰魂以外の改変要素……/
+((s))
+[face W 13]
+やっぱり、あの「種」が、なんとなくだけど……
+なにかあるんじゃないかって気がする……/
+((m))
+[auto]
+やっぱあの「種」が、引っかかるんだよな。
+なにか、あるんじゃねぇかってよぉ……/
+((e))
+[auto]
+オレは、難しいことはわからないッスけど……
+あの「種」が気になります……なんとなく……/
+[show C R]
+[move C Y -50]
+[setline 0.5 W D C]
+[face C 01]
+[say C]
+そうなるよねぇ。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 11]
+[talk D]
+自分たちもその可能性を考えて$Wくんが
+回収した物について解析を進めてるんだけど/
+[flow]
+あの種についてはまだはっきりしたことは
+何も言えないかな……/
+[bgm off]
+[hideall]
+[serif off]
+[-]
+[se amb_12]
+[se bath_02]
+[bgm home]
+[show B C]
+[face B 01]
+[talk B]
+[move B Y -100]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+続報を待つしかねぇな！
+いのっちたち研究チームの解析を待ってるぜ！/
+[show A C]
+[setline 0.5 A B]
+[move A Y -100]
+[face A 01]
+[talk A]
+そうですね。僕らの方でも拾えた
+情報はどんどん上げていきます。/
+((s))
+[show W L]
+[setline 0.5 W A B]
+[move W Y -50]
+[face W 08]
+[talk W]
+オイラも、喰魂以外のものにも気をつけて
+任務がんばる！/
+((m))
+[show W L]
+[setline 0.5 W A B]
+[move W Y -100]
+[face W 08]
+[talk W]
+オレも喰魂以外のものにも気をつけて
+任務に向かうぜぃ！/
+((e))
+[show W L]
+[setline 0.5 W A B]
+[move W Y -100]
+[face W 08]
+[talk W]
+オレも、喰魂以外のものにも注意を向けて
+任務がんばります！/
+[se katana_05]
+[fadein BLACK 0.3]
+[serif off 0.3]
+[-]
+[bg black]
+[hideall]
+[bgm off]
+[-]
+[serif on]
+@猫乃屋
+わっ真っ暗だ！　停電か！？/
+[fadeout 1.0]
+[-]
+[bgm fun]
+[show F R]
+[talk F]
+[color F TALK]
+[face F 02]
+[move F C 1.0]
+へへへ……江戸時代のお風呂をイメージして
+暗くしてみたっす～！/
+[shake F]
+[light def 0.5]
+[lightcolor TALK]
+脱衣所の明かりがほんのり漏れて
+ムード抜群じゃないっすか～～～！？/
+[serif off]
+[hide F]
+[-]
+[show A C]
+[show B C]
+[setline A B]
+[scale A 1.4]
+[scale B 1.4]
+[move A Y -150]
+[move B Y -150]
+[face A 09]
+[face B 06]
+[talk A]
+[color A TALK]
+[color B TALK]
+[shake A]
+[-]
+[serif on]
+な、何のムードなのかな！？/
+[show E L]
+[se water_05]
+[scale E 1.4]
+[setline 0.5 E A B]
+[face E 02]
+[orderline A E B]
+[move E Y -100]
+[say E]
+[color E TALK]
+[color A TALK]
+[color B TALK]
+わーっ、これが江戸時代のお風呂！/
+[hide A]
+[hide B]
+[hide E]
+[sebath_02]
+[effect fr splash 4100 0 0]
+[-]
+[talkend]
+@猪森
+ぐえっ！　[se zukkoke_01]/
+[show B C]
+[face B 10]
+[scale B 1.4]
+[move B Y -150]
+[talk B]
+[color B TALK]
+いのっち大丈夫か？[wait 0.5]
+声でなんとなくずっこけたことはわかるぜ！/
+[serif off]
+[hide B]
+[-]
+[show D C]
+[scale D 1.4]
+[move D Y -250]
+[move D Y 100 1.0]
+[se bath_02]
+[face D 09]
+[talk D]
+[color D TALK]
+[-]
+[serif on]
+ちょうど湯船から上がろうとして……
+暗くて足元が見えないんです～！[shake D]/
+((s))
+[hide D]
+[serif off]
+[-]
+[se water_06]
+[show W C]
+[scale W 1.5]
+[move W Y -150]
+[face W 01]
+[talk W]
+[color W TALK]
+[-]
+[serif on]
+あるじさま、暗くてもオイラが側にいるから
+大丈夫だからね！/
+((m))
+[auto]
+大将！　暗くてもオレが側にいるからな。
+心配すんなよ！/
+((e))
+[auto]
+師匠！　暗闇の中でも、オレが側にいますから！
+いつも、側にいますから！/
+[serif off]
+?ありがとう/
+((s))
+[serif on]
+[face W 02]
+うん！！/
+((m))
+[auto]
+おう！/
+((e))
+[auto]
+はい！/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

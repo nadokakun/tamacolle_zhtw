@@ -1,0 +1,1130 @@
+>>10000/
+@周防
+喲，我是三洋堂，周防！[wait 3]
+主啊，請給我一個使命。[autotap]/
+[delay 3]
+[flow]
+[-]
+@周防
+我的身體很痛，我無法控制！/
+>>10001/
+@周防
+嘿，你又打電話給我了。[wait 3]
+如果你能依靠我，我會很高興。[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@周防
+來吧，有什麼事就告訴我吧！/
+>>1/
+[set A s_suo_r 周防]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+[serif on]
+啊？啊，呵呵。[face A 01]看莊園花園裡的小橋
+這讓我想起了祖國的錦帶橋。/
+[flow]
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+它完全由木頭建造，沒有使用一根釘子。
+錦川下面流過，景色蔚為壯觀。/
+[flow]
+[face A 02]
+……下次我們一起過橋。
+呵呵，握住主的手吧！[shake A]/
+>>2/
+[set A s_suo_r 周防]
+[show A C]
+[face A 02]
+[say A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+主啊，這個莊園裡有很多朋友。
+太有趣了。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 01]
+好吧，下次我為大家做巖國壽司。
+這是我祖國的美味。/
+[flow]
+[face A 06]
+這是一個巨大的壽司，有多層醋飯和配料。
+和大家一起吃很美味。/
+[flow]
+[face A 01]
+[shake A]
+當然，主人也要吃！/
+>>3/
+[set A s_suo_r 周防]
+[show A C]
+[face A 08]
+[say A]
+[move A Y -40 0.2]
+[delay 0.3 move A Y 40 0.4]
+[delay 0.8 move A Y -40 0.2]
+[delay 1.1 move A Y 40 0.5]
+[autotap]/
+[serif on]
+伊基尼託...[wait 0.5]噢，是主，不是嗎？
+怎麼了，工作累了嗎？[face A 01]/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 01]
+[face A 00]
+如果你想放鬆一下，推薦周防Oshima。
+顯然，它與“hawai”一詞相似。/
+[flow]
+[face A 02]
+[shake A]
+我也沉迷於那種悠閒的氛圍。
+我非常喜歡它。我們一起躺在沙灘上吧！/
+>>4/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[show B]
+[face B 04]
+[setline A B]
+[face A 11]
+[say A]
+[serif on]
+哦，$B:A發生了什麼事？
+有問題嗎？是啊是啊……然後呢？　…………[face A 08]/
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 10]
+呃……嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚……[shake A]
+我忍不住淚流滿面……！[face B 05][se zukkoke_02][shake B]/
+[flow]
+[face A 08]
+[face B 01]
+如果有什麼我能做的
+有什麼事就告訴我吧！[shake A]/
+>>5/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[bgm off]
+[serif off]
+[show A C]
+[show B R]
+[move B X 150]
+[face B 05]
+[orderline A B]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[say A]
+[se paper_03]
+[shakebg]
+[serif on]
+哇！ ？[shake A]　按鈕彈出了！ ！[shake A]/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 09]
+……我不胖吧？[shake A]　沒錯
+我剛剛獲得了更多的肌肉。是啊，安全！哈哈！[face A 02][shake A][face B 04]/
+>>6/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[face A 09]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+嗯，這個檔案可以嗎？[se paper_01]
+我想我不擅長這樣的事情....../
+[flow]
+[show B R]
+[move B X 500]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face B 05]
+[-]
+[se cloth_06]
+[setline 0.3 A B]
+[face A 01]
+抱歉，$B:A，告訴我！　
+這是編寫此檔案的正確方法嗎？/
+[flow]
+[face B 04]
+[face A 05]
+……呃，完全不一樣啊！ ？說真的...[shake A][se zukkoke_02]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[move A X 500]
+[move A X -500]
+[face A 00]
+[say A]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+我要在睡前吃點東西...
+我想知道是不是有什麼……哇！[shake A][face A 01]/
+[flow]
+[show B R]
+[face B 05]
+[setline 0.5 A B]
+[face A 02]
+這個[= 握り飯 残り物のカレー 手頃なサンドイッチ 爆弾おにぎり 夜食っぽいの 鍋の残り]板木！[shake A]
+等等，什麼？$B:A，這是你的！ ？[face A 05][se zukkoke_02]/
+[flow]
+[face B 03]
+[move B X 500 0.5]
+[face A 09]
+那太糟糕了！我還沒吃飯。
+請原諒我！[move A X 1000 0.5][shakebg]/
+>>10/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし -@NPC -suo]
+[serif on]
+[show A C]
+[face A 09]
+[say A]
+當我想到明天的任務時，我的身體感到虛弱。
+我好癢，睡不著覺…/
+[show B R]
+[face B 00]
+[flow]
+[setline 0.5 A B]
+[face A 01]
+好吧，$B:A，讓我們一起多流汗吧！　
+然後就可以安穩的睡覺！/
+>>11/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[show B]
+[face B 04]
+[setline B A]
+[face A 11]
+[say A]
+[serif on]
+哦，$B:A發生了什麼事？
+哼……哦，早餐就夠了！[face A 02][shake A]/
+[flow]
+[face B 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 06]
+我不擅長思考，但如果這個身體能做到的話，
+我會不惜一切代價。/
+[flow]
+[face A 01]
+[shake A]
+我很高興你可以依靠我。呵呵。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[face A 09]
+[say A]
+嗯，最近感覺神清氣爽。
+我沒有.../
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[flow]
+[face A 00]
+獨自一人到底有沒有極限？　
+我想知道有沒有人需要.../
+[flow]
+[show B R]
+[setline 0.5 A B]
+[face A 06]
+[face B 00]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+哇哦，$B:A，稍後
+你想一起運動嗎？呵呵呵。[face B 01]/
+>>15/
+[set A s_suo_m 周防]
+[randomset B m @地魂男児 @あやかし -@NPC -suo]
+[serif on]
+[show A C]
+[show B]
+[setline B A]
+[face B 08]
+[face A 08]
+[say A]
+[effect fr waveout 6000 0 0]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+嘿！ ！　[se crash_01]
+哦，你剛才還說你的sen很好啊！ ？[face A 00]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 02]
+[face B 01]
+你的動作也非常鼓舞人心。
+我會變得更強，保護我的朋友！/
+>>16/
+[set A s_suo_m 周防]
+[randomset B m @地魂男児 @あやかし -@NPC -suo]
+[show A C]
+[show B C]
+[move B X -1000]
+[setline 0.3 B A]
+[shakebg]
+[se doka_01]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[face B 08]
+[scale B 1.6]
+[move B Y -120]
+[say A]
+[-]
+[effect fr waveout 6000 0 0]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[-]
+[serif on]
+哈！頭！　[shake A]
+——哇！ ？[face A 05][se zukkoke_02][rotate A 15 0.3]/
+[flow]
+[face B 05]
+[face A 09]
+[move A Y -100 0.3]
+嗚嗚嗚……我以為球要塌了……
+很有幫助的是它有一個杯子......[shake A]/
+[flow]
+[face A 10]
+不過，這樣也太好了！ ！[shake A 3 10 10]/
+>>17/
+[set A s_suo_b 周防]
+[randomset B b @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[se door_01]
+[show A C]
+[move A X 500]
+[move A X -500 0.5]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[se amb_12]
+[effect fr yuge a 0 0]
+[say A]
+唷，洗了個澡真舒服。
+哦，還有像我這樣不隱瞞的人！/
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 06]
+開放是好事。呵呵，等我的身體冷卻下來
+保持這樣一段時間。/
+>>18/
+[set A s_suo_b 周防]
+[randomset B b @地魂男児 @あやかし @NPC -suo]
+[randomset C b @地魂男児 @あやかし @NPC -suo -@NOW]
+[serif on]
+[show A C]
+[show B C]
+[show C]
+[face A 01]
+[face B 00]
+[setline C A B]
+[se amb_12]
+[orderline A B C]
+[se bath_03]
+[face C 06]
+[effect fr yuge a 0 0]
+[say A]
+嘿，大家好！　我的[= 腕 太もも 尻 ふくらはぎ 下半身 上半身 胸]
+我覺得比以前厚了，看起來還不錯！ ？/
+[flow]
+[face A 06]
+[shake A]
+嘿，看，尤其是在這附近！
+哦，$B:A，請看一下！你可以觸控它！[face B 06]/
+>>19/
+[set A s_suo_b 周防]
+[randomset B b @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[show B L]
+[orderline A B]
+[face B 06]
+[move A Y -50]
+[se bath_05]
+[face A 06]
+[se amb_12]
+[effect fr yuge a 0 0]
+[say A]
+[se bath_02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+喔天哪…我猜是因為洗的刺激…
+呵呵.../
+[flow]
+[face A 05]
+啊，$B:A，不，這才是男人該做的事
+任何人都可以做到！ ？/
+[flow]
+[face B 03]
+[shake A]
+[face A 09]
+我並沒有什麼奇怪的意思！/
+>>20/
+[set A s_suo_r 周防]
+[serif on]
+[show A L]
+[face A 05]
+[move A X -600]
+[move A C 0.5]
+[se cloth_01]
+[say A]
+哇，廁所廁所！
+杯子不會掉下來...！[shake A]/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 09]
+[se pee_01]
+哈，我來得及時……哦，我走了。
+因為我的東西堆積了很多.../
+[flow]
+[face A 06]
+哈，那太好了.../
+>>21/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[show A C]
+[show B C]
+[face A 07]
+[face B 00]
+[setline A B]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[say A]
+哇，內米...
+嗯，剛起床的時候小便太難了…[face A 09][se cloth_01][shake A][face B 06]/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[flow]
+[face B 06]
+[face A 06]
+所以，大家都是一樣的！
+哈哈哈。/
+>>22/
+[set A s_suo_r 周防]
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -170]
+[face A 00]
+[say A]
+嗯……嗯……
+嘿嘿，我今天也表現的很好！/
+[flow]
+[face A 05]
+[shake A]
+[effect bk splash 6000 0 0]
+[se water_01]
+哇！水的力量好強大啊！/
+>>23/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[serif on]
+[se door_01]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+唷，包房裡空蕩蕩的。
+探險的時間很長，所以已經很辛苦了…/
+[flow]
+[se cloth_01]
+[move A X -250 0.5]
+[move A Y -50 0.5]
+[show B R]
+[face B 04]
+[move B X 200]
+[move B X -200 0.5]
+[orderline A B]
+那麼，馬上...[shake A][face A 05]
+哦，敲！ ？/
+[flow]
+[face B 06]
+[face A 10]
+[shake A]
+請稍等！ ？
+我馬上就做完，拜託了！[shake A]/
+>>24/
+[set A s_suo_r 周防]
+[randomset B r @地魂男児 @あやかし @NPC -suo]
+[show A C]
+[show B]
+[face B 04]
+[setline A B]
+[face A 11]
+[say A]
+[serif on]
+……什麼？$B:A發生了什麼事？
+睡不著？ ……是啊是啊……然後呢？[face A 08]/
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 10]
+[shake A]
+…嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚
+我別無選擇.../
+[flow]
+[orderline B A]
+[move A X 100 0.3]
+[se cloth_06]
+[face B 01]
+[face A 08]
+如果有什麼我能做的
+你什麼都可以說！[shake A][se cloth_01]/
+>>25/
+[set A s_suo_r 周防]
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 07]
+[say A]
+咕咕咕咕，咕咕咕咕，wasshoi 兄弟！[shake A 2 15 15]
+咕咕咕…/
+>>100/
+[set A s_suo_r 周防]
+[set B s_suo_b 周防]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 快活男児、周防！]
+[-]
+[bgm home]
+[bg gozasyo_day]
+[-]
+[fadeout 1.5]
+[-]
+[wait 2]
+[-]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+傍晚時分，完成今天的工作後，
+當我走向客廳時.../
+[bgm departure]
+@？？？
+哈！ ！[shakebg]
+啊啊啊！ ！ ！[shakebg][se crash_04]/
+[talkend]
+[textcolor ARUJI]
+訓練場上傳來歡快的聲音。/
+[serif off]
+？看看訓練場/
+[se fusuma_01]
+[serif off]
+[fadein black 2]
+[-]
+[minibg syurenjo]
+[bg mbg_syouen]
+[-]
+[fadeout 2]
+[-]
+[effect fr syutyu a 0 0]
+[show A C]
+[face A 03]
+[scale A 1.6]
+[move A Y -120]
+[talk A]
+[serif on]
+嗚嗚嗚！ ！ ！/
+[bgm off]
+[effect off a]
+[flow]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+——噓！
+畢竟，活動身體的感覺真好！/
+[serif off]
+[textcolor ARUJI]
+？ 周防！/
+[bgm fun]
+[serif on 0.5]
+[face A 11]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[talk A]
+噢，是主！[shake A][face A 00]
+你怎麼了，在這種地方露臉？/
+[flow]
+[face A 11]
+現在還不是訓練時間，所以這裡只有我一個人。
+你在找人嗎？/
+[serif off]
+[textcolor ARUJI]
+？因為我聽到訓練場裡有聲音…/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on 0.5]
+[face A 02]
+[talk A]
+哦，我明白了。呵呵，你的聲音太大了嗎？
+我不禁興奮起來。/
+[flow]
+[face A 01]
+我剛剛被叫到。
+我的身體很癢，我無法控制。/
+[flow]
+[face A 00]
+所以把你的身體移到這裡
+我正把它放出來。/
+[talkend]
+[hide A]
+[shakebg]
+[textcolor ARUJI]
+在 周防 旁邊的訓練稻草人中，他一邊說一邊笑。
+附著的鎧甲已經完全破損。/
+[quake 1]
+[se quake 2]
+[bgm action]
+[effect fr syutyu a 0 0]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+所以...
+讓我們全力以赴到底！/
+[flow]
+[face A 03]
+烏拉啊啊啊啊啊啊啊！ ！ ！[shake A][se doka_01]
+天啊！ ！ ！[shake A][se cloth_06][fadein WHITE 0.2][delay 0.2 fadeout 0.3]　……沒有靈魂……！ ！ ！[effect bk allow 6000 0 200][se katana_02]/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[light def 0.5]
+[lightcolor red]
+[effect bk wavein 6000 0 0]
+[autotap]/
+[flow]
+護拳・[wait 0.5]居王[wait 0.2]海洋.../
+[serif off]
+[textcolor ARUJI]
+？等等，等等！室內抽吸靈魂術！/
+[bgm off]
+[light off]
+[quake off]
+[effect off a]
+[face A 11]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+尤其是周防的全力抽取靈魂術，看起來威力非常大。
+訓練場本身可能會被炸毀。/
+[bgm fun]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[talk A]
+哦？這當然是真的。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 09]
+抱歉…當我敲門時…
+我想也沒想就放手了.../
+[flow]
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+好吧，那我就用盡全力打你吧。
+天啊！ ！ ！ ！/
+[hide A]
+[effect fr wavein 6000 -200 0]
+[serif off]
+[shakebg]
+[se crash_04]
+[delay 0.2 se wood_03]
+[quake 3]
+[-]
+[textcolor ARUJI]
+[serif on]
+[talkend]
+周防稻草人受到一擊，轟鳴一聲被吹飛。
+由於小部件散落，原有的形狀消失了。[quake off]/
+[serif off]
+[textcolor ARUJI]
+？ （我很高興我終於停下來了......）/
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+呼……我出很多汗了。
+主人，你要洗澡嗎？/
+[flow]
+[face A 01]
+咱們一邊流汗一邊繼續聊吧。/
+[serif off]
+[textcolor ARUJI]
+？ @@和P46一起去洗手間@@/
+[fadein BLACK 1.5]
+[-]
+[minibg syouen_datsuijo]
+[hideall]
+[wait 0.5]
+[effect fr yuge b]
+[-]
+[fadeout 1.5]
+[-]
+[se cloth_01]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+一到更衣室，周防就抽搐了。
+他脫下鎧甲，脫下黑色內衣。/
+[show B C]
+[face B 01]
+[scale B 1.6]
+[move B Y -120]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+不一會兒，它就變成了一隻甲魚，
+看起來他就站在那裡等我們。/
+[serif off]
+？有尊嚴.../
+[serif on]
+[face B 02]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[talk B]
+王爺，快點把衣服脫了。/
+[hide B]
+[serif off]
+[textcolor ARUJI]
+?交出毛巾洗澡/
+[serif on 0.5]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+撿起更衣室裡堆放的毛巾。
+我把它遞給了周防，他雙手叉腰站得很高。/
+[show B C]
+[face B 11]
+[scale B 1.6]
+[move B Y -120]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[talk B]
+哦，這有幫助！[face B 02]
+主人也脫衣服了嗎？那麼，我們走吧。/
+[fadein black 1.0]
+[serif off 1.0]
+[-]
+[se door_01]
+[minibg off]
+[bg bath]
+[se amb_12]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif off]
+[textcolor ARUJI]
+？把它拿下來！ ？/
+[serif on 0.5]
+[se cloth_05]
+[talkend]
+[show B C]
+[face B 00]
+[scale B 1.6]
+[move B Y -120]
+[textcolor ARUJI]
+周防輕鬆地舉起了這個身體，
+進了浴室，我坐在洗手檯邊的椅子上。/
+[flow]
+[face B 06]
+[scale B 1 0.5]
+[move B Y 120 0.5]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[talk B]
+這是因為主這麼做了。
+很輕。/
+[flow]
+[face B 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+好吧，既然我來了，那就是我了。
+我會把它從你背上洗掉！我們走吧！/
+[talkend]
+[hide B]
+[se cloth_06]
+[se bath_05]
+[textcolor ARUJI]
+這是極其痛苦的！我暫時做好了準備，但是
+考慮到擦洗的力度，出奇的溫和，而且不會造成太大傷害。/
+[show B C]
+[face B 00]
+[scale B 1.6]
+[move B Y -120]
+[talk B]
+我還沒好好自我介紹。
+我是周防。/
+[flow]
+[face B 02]
+老實說，我不擅長需要動腦子的任務。
+我會在身體上隨心所欲地成長！/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[flow]
+[face B 01]
+如果你在前線從事繁重的工作或充當盾牌，
+交給我吧！/
+[flow]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[face B 06]
+[se bath_05]
+好吧，我們也洗一下吧。/
+[serif off]
+[textcolor ARUJI]
+？我自己來做。/
+[serif on]
+[face B 11]
+[shake B]
+[talk B]
+哦，抱歉。
+樓主，你真是太害羞了。呵呵。[face B 06]/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[flow]
+[face B 09]
+即使你這樣做...
+我又癢了.../
+[bgm departure]
+[serif off]
+[textcolor ARUJI]
+?！？/
+[serif on 0.5]
+[se hitokoe_06]
+[talkend]
+[hide B]
+[se amb_12]
+[textcolor ARUJI]
+浴缸裡有幾個男孩。
+我泡在熱水裡。/
+[flow]
+[textcolor ARUJI]
+周防正在看著男孩們。
+我嘀咕道。/
+[show B C]
+[face B 06]
+[scale B 1.6 0.5]
+[move B Y -120 0.5]
+[se cloth_01]
+[talk B]
+這個莊園裡有一個人正在訓練。
+他們有很多，對吧？當我看著那具屍體.../
+[flow]
+[face B 10]
+[effect fr syutyu a 0 0]
+[se fire_01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+哇！ ！　我也是
+我開始想訓練了！ ！ ！[shake B]/
+[effect off a]
+[talkend]
+[move B Y -200 0.3]
+[hide B]
+[se cloth_06]
+[textcolor ARUJI]
+既然如此，周防就用毛巾蓋住了他的頭。
+我躺在地板上。/
+[show B C]
+[face B 01]
+[scale B 1.6]
+[rotate B 50]
+[move B Y -100]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[talk B]
+我要練腹肌，請抱緊我的腿！ ！/
+[serif off]
+[textcolor ARUJI]
+？是啊...！ ？/
+[serif on]
+[talkend]
+[hide B]
+[textcolor ARUJI]
+我很驚訝地看到周防 和一隻甲魚躺在一起。
+當我按照別人告訴我的站起來抱住雙腿時，/
+[se cloth_01]
+[serif off]
+[textcolor ARUJI]
+?踩肥皂/
+[talkend]
+[shakebg]
+[se doka_01]
+[textcolor ARUJI]
+[serif on]
+我踩到了腳邊的肥皂！ ！/
+[show B C]
+[se cloth_06]
+[face B 05]
+[scale B 1.6]
+[rotate B 50]
+[rotate B 0 0.3]
+[move B Y -320]
+[move B Y 100 0.3]
+[talk B]
+主啊！/
+[talkend]
+[fadein WHITE 0.2]
+[hide B]
+[effect off a]
+[se cloth_06]
+[textcolor ARUJI]
+我以為我的視線扭轉了
+我的眼睛變得黑白分明，感覺自己的身體在漂浮。/
+[serif off]
+[show B C]
+[face B 01]
+[scale B 1.6]
+[move B Y -120]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[fadeout 1]
+[-]
+[talk B]
+[serif on]
+嘿……你還好嗎？/
+[talkend]
+[hide B]
+[textcolor ARUJI]
+周防趕緊站起來
+我的腳滑倒了，他把我扶了起來。/
+[flow]
+[textcolor ARUJI]
+當你早些時候把我抱起來時我也感覺到了。
+這身體的厚度。/
+[flow]
+[textcolor ARUJI]
+手臂粗，胸部大，肚子肥。
+你可以從全身感受到巨大的力量。/
+[flow]
+[textcolor ARUJI]
+這不是一朝一夕開發出來的東西。/
+[bgm off]
+[serif off]
+[textcolor ARUJI]
+？謝謝你/
+[bgm fun]
+[serif on]
+[show B C]
+[face B 09]
+[scale B 1.6]
+[move B Y -120]
+[talk B]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+哎呀，那太危險了吧！呵呵。[shake B][face B 01]
+在我思考之前我的身體就開始動了。/
+[flow]
+[face B 04]
+所以可能會為你帶來一些麻煩。
+我會永遠保護我的師父和朋友。/
+[flow]
+[face B 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+我用這力量來保護大家！
+請相信我。/
+[face B 02]
+[serif off]
+[textcolor ARUJI]
+？我相信/
+[face B 11]
+[textcolor ARUJI]
+？ ……但是是時候放下它了。/
+[serif on 0.5]
+[talkend]
+[hide B]
+[textcolor ARUJI]
+赤裸的周防 像公主一樣抱著我
+我把他握在手裡。/
+[flow]
+[shakebg]
+[se cloth_01]
+[textcolor ARUJI]
+有點尷尬。/
+[show B C]
+[face B 02]
+[scale B 1.6]
+[move B Y -120]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.2]
+[delay 0.3 move B Y 10 0.1]
+[delay 0.4 move B Y -10 0.2]
+[delay 0.6 move B Y 10 0.1]
+[delay 0.7 move B Y -10 0.3]
+[autotap]/
+[talk B]
+哈哈哈，瓦里！/
+[flow]
+[move B Y -110 0.5]
+[rotate B 50 0.5]
+[face B 00]
+[se cloth_01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+好吧，下次我要做仰臥起坐，所以我就請你用腿吧！/
+[fadein black 1.5]
+[serif off 1.5]
+[-]
+[se bath_02]
+[delay 0.5 se bath_03]
+[minibg syouen_datsuijo]
+[bg mbg_syouen]
+[show B]
+[-]
+[wait 0.5]
+[-]
+[fadeout 1.5]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[autotap]/
+[serif on 0.5]
+[face B 06]
+[talk B]
+呼…
+熱水很好。/
+[flow]
+[face B 02]
+活動一下身體，去洗澡…
+我現在真的很餓！/
+[scale B 1.6 0.5]
+[move B Y -120 0.5]
+[autotap]/
+[flow]
+[face B 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+主人，我們去吃太福飯吧！ ！/
+[minibg ima 0.5]
+[effect off b]
+[talkend]
+[hide B]
+[se walk_01]
+[textcolor ARUJI]
+之後，令人驚訝的是周防又得到了第二份。
+吃完飯我就睡著了.../
+[flow]
+[textcolor ARUJI]
+就好像無論如何我都過著充實的生活。
+大佬周防。/
+[flow]
+[se amb_05]
+[minibg off 0.5]
+[bg sky_star 0.5]
+[textcolor ARUJI]
+我相信我會帶領這座莊園裡的所有人
+我確信他會走。/
+[flow]
+[textcolor ARUJI]
+我就是這麼感覺的。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

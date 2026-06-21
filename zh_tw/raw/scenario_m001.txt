@@ -1,0 +1,1123 @@
+>>0/
+((s))
+[set W s_san_m 讚岐]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n002_m 猪森]
+[set E s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 打ち上げは焼き肉だ！]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_yakiniku]
+[-]
+[fadeout]
+[bgm fun]
+[-]
+[talkend]
+[place 焼き肉処　おにく]
+[-]
+[autotap]/
+((m))
+[set W s_mus_m 武藏]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n002_m 猪森]
+[set E s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 打ち上げは焼き肉だ！]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_yakiniku]
+[-]
+[fadeout]
+[bgm fun]
+[-]
+[serif on 0.5]
+[talkend]
+特務機關六原3樓餐廳區
+　　　　　　　烤肉店 Oniku/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n002_m 猪森]
+[set E s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 打ち上げは焼き肉だ！]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_yakiniku]
+[-]
+[fadeout]
+[bgm fun]
+[-]
+[serif on 0.5]
+[talkend]
+特務機關六原3樓餐廳區
+　　　　　　　烤肉店 Oniku/
+[show B C]
+[face B 01]
+[talk B]
+[serif on 0.5]
+這裡的肉很好吃。
+今天我可以靠六原的錢過活了♪ 開銷萬歲！/
+[serif off]
+[hide B]
+[-]
+[se kira_01]
+[show W C]
+[effect W kira a 0 100]
+[face W 09]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[autotap]/
+((s))
+[serif on]
+[talk W]
+哇，選單上有看起來很美味的肉的照片。
+很多...！/
+((m))
+[serif on]
+[talk W]
+嗚嗚嗚！　照片裡的肉...
+我可以要求哪一個？ ？/
+((e))
+[serif on]
+[talk W]
+噢，點單上的任何肉類都適合搭配白米飯！[wait 0.5]
+……[face W 09]te-ke-ji 和白米有什麼不同嗎？/
+[effect off a]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[autotap]/
+((s))
+[face W 12]
+啊，師父。還有飲料選單！
+就是……這邊！[face W 01]
+[move W XY -10 -40 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 40 0.3]
+[delay 0.5 rotate W 0 0.3]
+[se paper_01]/
+((m))
+[auto]
+哦，將軍。您也想看看飲料選單嗎？
+Akoru 是後面的頁面！[face W 01]
+[move W XY -10 -40 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 40 0.3]
+[delay 0.5 rotate W 0 0.3]
+[se paper_01]/
+((e))
+[auto]
+啊，主人，您想看清酒選單嗎？
+好像有不同型別的寫作！[face W 01]
+[move W XY -10 -40 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 40 0.3]
+[delay 0.5 rotate W 0 0.3]
+[se paper_01]/
+[show B L]
+[setline 0.5 B W]
+[face B 09]
+[say B]
+哦，$W:B您應該能夠閱讀水平文字。
+它發生了。起初根本不是！/
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[autotap]/
+((s))
+[face W 12]
+[say W]
+呵呵...和我所有的朋友們
+我一邊看電視一邊學習。/
+((m))
+[auto]
+呵呵。閱讀漫畫或報紙
+我很容易就記住了。/
+((e))
+[auto]
+感謝師父借來的書，讓我學到了很多！
+我很高興認識我的主人！/
+((s))
+[face B 01]
+[face W 08]
+[flow]
+我學到了很多！
+嗯，搭配裙邊牛排…[wait 0.2]卡魯皮...[shake W 2 2 3]卡魯比...[face W 11]/
+((m))
+[auto]
+比如說，這個傢伙就是通古。這傢伙是個清酒瓶…
+這是一個完美的契合！[shake W]　你覺得怎麼樣？[face W 01]/
+((e))
+[face W 01]
+[flow]
+對了，桌子也叫高的。
+……[wait 0.2][face W 11]但蒂基吉到底是什麼…？/
+[show A L]
+[setline 0.5 A B W]
+[face A 01]
+[say A]
+我也是$W向小夥伴們瞭解更多
+這讓我感覺我不需要學習。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[say B]
+[face B 09]
+我指望你了！　哇！　$W！/
+[say A]
+[face W 01]
+[face A 13]
+[se zukkoke_02]
+[shake A 3 3 2]
+我希望 Nekonoya 也能受到啟發！/
+[hide W]
+[-]
+[show C L]
+[setline 0.5 C A B]
+[face A 00]
+[face B 01]
+[face C 00]
+[talk A]
+豬森同學還在...[shake A]
+目的地[face A 01]您想點一杯飲料嗎？/
+[face C 01]
+[say C]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+是的。我認為這很好。
+這有點令人興奮。/
+[face A 02]
+[say A]
+大家決定要喝什麼了嗎？/
+[serif off]
+[hide A]
+[hide B]
+[hide C]
+[-]
+[se walk_03]
+[show D L]
+[move D X -400]
+[face D 09]
+[talk D]
+[move D C 0.5]
+[-]
+[serif on]
+哇哦，抱歉來晚了！[shake D]
+哇！ ！ ！ ！[rotate D -30 0.3][move D XY 600 -300 0.3][se zukkoke_01][se paper_01][delay 0.2 se paper_01][hide D][shakebg]/
+[show A C]
+[face A 12]
+[talk A]
+嘿，豬森同學？
+你還好嗎！ ？/
+[hide A]
+[serif off]
+[-]
+[show D C]
+[show E C]
+[move D Y -200]
+[move D Y 200 1.0]
+[face D 10]
+[face E 04]
+[talkend]
+[setline E D]
+[order D 5]
+[order E 0]
+[-]
+[shake D]
+[serif on]
+豬森倒在地上。坐在它旁邊的移動椅上
+雲龍院瑞克也在場。/
+[say E]
+你還好嗎？豬森的哥哥。
+也許你被我的輪椅絆倒了…？/
+[face D 14]
+[say D]
+呃呃...[shake D]不，對不起，但是昨天…
+我沒有時間睡覺...[shake D]感覺頭暈.../
+[show B R]
+[face B 03]
+[setline 0.5 E D B]
+[say B]
+[order B 3]
+嘿，伊諾奇！
+你為什麼把Riku帶到這裡來？/
+[face E 12]
+[say E]
+[face E 01]
+[move E Y -10 0.1]
+[delay 0.1 move E Y -10 0.2]
+[delay 0.3 move E Y 10 0.1]
+[delay 0.4 move E Y -10 0.2]
+[delay 0.6 move E Y 10 0.1]
+[delay 0.7 move E Y -10 0.3]
+[autotap]/
+呵呵呵...
+在那裡我遇見了豬森的哥哥♪/
+[face E 03]
+嘿，我也像朋友一樣，對吧？
+為什麼不邀請我？[shake E]/
+[say B]
+你是外人！[shake B]/
+[face D 12]
+[say D]
+雖然我覺得自己是團隊的局外人...
+被打電話是好事嗎？/
+[hide B]
+[-]
+[show A R]
+[setline 0.5 E D A]
+[face A 02]
+[talk A]
+[order A 0]
+[order D 5]
+當然！豬森先生，啤酒可以嗎？　
+利庫君是蘇打水。/
+[face D 01]
+[face E 01]
+[talk D]
+是的，謝謝你！/
+((s))
+[hide A]
+[hide D]
+[hide E]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[face W 00]
+[face B 11]
+[talk B]
+$W果汁呢？
+啊，不過年齡對地魂男孩來說並不重要…/
+((m))
+[hide A]
+[hide D]
+[hide E]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[face W 00]
+[face B 11]
+[talk B]
+$W我該怎麼辦？軟性飲料或酒精...
+武藏，看來你酒量很大！/
+((e))
+[hide A]
+[hide D]
+[hide E]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[face W 00]
+[face B 11]
+[talk B]
+$W我該怎麼辦？軟性飲料或酒精...
+那麼，您是酗酒者嗎？/
+((s))
+[face B 01]
+看起來他不像人類有幾百歲了？
+我們喝一杯吧！/
+((m))
+[face B 01]
+過去，國內甚至還有武藏釀造清酒。
+不是很流行嗎？/
+((e))
+[face B 01]
+納豆不太好喝，所以對我來說還不夠。
+今天咱們多喝點吧！/
+((s))
+[face W 02]
+[say W]
+嘿嘿，無論哪一個都可以！
+讚岐據說這個國家也是清酒的發源地！/
+((m))
+[auto]
+哦，你知道得很清楚！
+當然我可以選擇任何一種方式！/
+((e))
+[auto]
+是的！我對清酒很滿意！
+它是用米做的！/
+[fadein BLACK 1.5]
+[serif off 01.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show A C]
+[face A 01]
+[talk A]
+把啤酒遞到我旁邊...
+大家都喝過酒了嗎？/
+[face A 00]
+[serif off]
+[bgm off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[autotap]/
+[serif on]
+誒~[wait 0.2]…[wait 0.2]…[wait 0.2]好了，第一個任務完成了！[se taiko_01][wait 0.2]　暨
+這是新人的歡迎會…[se taiko_02]/
+[serif off]
+[face A 02]
+[bgm fun]
+[wait 1.0]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+祝你好運！[shakebg]/
+((s))
+[hide A]
+[-]
+[serif off]
+[show W C]
+[show B C]
+[show C C]
+[show D C]
+[show E C]
+[face W 02]
+[setline 0 C D W B E]
+[face B 01]
+[face C 01]
+[face D 01]
+[face E 02]
+[order C 5]
+[order D 3]
+[order W 10]
+[order B 5]
+[order E 8]
+[talkend]
+[-]
+[serif on]
+祝你好運！ ！[shakebg]/
+((m))
+[hide A]
+[-]
+[serif off]
+[show W C]
+[show B C]
+[show C C]
+[show D C]
+[show E C]
+[face W 02]
+[scale W 0.9]
+[scale B 0.9]
+[scale C 0.9]
+[scale D 0.9]
+[scale E 0.9]
+[setline 0 C D W B E -150 1200]
+[face B 01]
+[face C 01]
+[face D 01]
+[face E 02]
+[order C 5]
+[order D 3]
+[order W 0]
+[order B 5]
+[order E 8]
+[talkend]
+[-]
+[serif on]
+祝你好運！ ！[shakebg]/
+((e))
+[hide A]
+[-]
+[serif off]
+[show W C]
+[show B C]
+[show C C]
+[show D C]
+[show E C]
+[face W 02]
+[scale W 0.9]
+[scale B 0.9]
+[scale C 0.9]
+[scale D 0.9]
+[scale E 0.9]
+[setline 0 C D W B E -150 1200]
+[face B 01]
+[face C 01]
+[face D 01]
+[face E 02]
+[order C 5]
+[order D 3]
+[order W 0]
+[order B 5]
+[order E 8]
+[talkend]
+[-]
+[serif on]
+祝你好運！ ！[shakebg]/
+[serif off]
+[hideall]
+[-]
+[show D C]
+[move D Y 50]
+[face D 02]
+[-]
+[move D Y -50 1.0]
+[se dosa_01]
+[-]
+[serif on]
+[talk D]
+噗，真好吃…/
+[show A L]
+[face A 01]
+[face D 13]
+[talk A]
+豬森先生，謝謝您的辛勤工作。對於研究團隊
+看來很忙啊.../
+[face A 04]
+[flow]
+*當P君開始執行任務時，一片混亂。
+這次恢復資料分析起來好像很難…/
+[face D 14]
+[say D]
+[shake D]
+嗯，這並不像我想像的那麼重要。
+但我想知道通宵是否會繼續…/
+[face D 13]
+但是，$W分析兒童活動資料
+作為一個歷史愛好者，當我這樣做時，我的血液沸騰了.../
+[move D Y -100 1.0]
+[face A 09]
+[face D 07]
+[autotap]/
+[flow]
+……芙拉……
+....咕嚕.../
+[serif off]
+[show W C]
+[move W X 500]
+[show B R]
+[move B X 600]
+[moveline A D W B -800 0 1.0]
+[face B 08]
+[face W 12]
+[talk B]
+[-]
+[serif on]
+伊諾基！ ！
+肉燒焦了也別睡覺！ ！/
+[serif off]
+[moveline A D W B 800 0 1.0]
+[face A 12]
+[-]
+[serif on]
+[talk A]
+非常感謝您的辛勤工作.../
+[hideall]
+[-]
+[serif off]
+[show E C]
+[face E 02]
+[talk E]
+[-]
+[move E Y 10 0.1]
+[delay 0.1 move E Y -10 0.1]
+[-]
+[serif on]
+兄弟！祝你好運！[shake E]
+如你所知，我是爸爸。[wait 0.2]G[wait 0.2]乙[wait 0.2]氮[wait 0.2]♪[wait 0.5]　是的！/
+[show C C]
+[setline 0.5 C E]
+[face C 00]
+[talk C]
+雲龍院集團是六原的主要投資者
+它是什麼？/
+[face E 09]
+[talk E]
+[move E Y 5 0.2]
+[delay 0.2 move E Y -10 0.6]
+[delay 0.8 move E Y 5 0.5]
+是的！這就是這個任務的原因？的成功
+毫不誇張地說，這一切都是我的功勞！/
+[hide C]
+[show B L]
+[setline 0.5 B E]
+[face B 03]
+[talk B]
+[order B 5]
+哈恩！[shake B]
+雖然我不知道這次任務的具體內容。/
+((s))
+[show W L]
+[setline 0.5 W B E]
+[face W 10]
+[talk W]
+[order W 10]
+[order B 5]
+[order E 8]
+致貓之屋和利庫君
+這太難了.../
+((m))
+[show W L]
+[setline 0.5 W B E]
+[face W 10]
+[talk W]
+[order W 0]
+[order B 5]
+[order E 8]
+Nekonoya 是 Rikuni
+這很難。/
+((e))
+[show W L]
+[setline 0.5 W B E]
+[face W 10]
+[talk W]
+[order W 0]
+[order B 5]
+[order E 8]
+貓之屋桑、立國
+這太難了.../
+[face B 09]
+[say B]
+唉，真是個被寵壞的小子啊。
+我得好好訓練她！/
+[hide W]
+[setline 0.5 B E]
+[face E 03]
+[say E]
+[shake E]
+啊？我根本沒有被寵壞！/
+[move E Y 10 0.4]
+[delay 0.4 move E Y -10 1.0]
+儘管我知道真相。[wait 0.5]
+小陳的[wait 0.2]是的[wait 0.2]吉[wait 0.2]哇[wait 0.2]茹[wait 0.2]……/
+[face B 02]
+[say B]
+[shake B 3 10 10]
+別這麼叫！　[wait 0.5]很多，
+我會繼續烘焙！[face B 01]　大家跟我來吧！/
+[face E 10]
+[say E]
+我想吃舌鹽，小醬！/
+[face B 10]
+[say B]
+達拉，住手！[shake B]　[face B 09]……丹鹽。
+有點生疏，是用蔥捲起來的。/
+[serif off]
+[move B Y -10 0.2]
+[delay 0.2 move B Y 10 0.2]
+[-]
+[move B Y -10 0.2]
+[delay 0.2 move B Y 10 0.2]
+[-]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[-]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[-]
+[se eat_01]
+[serif on]
+[face B 01]
+……是的！ ！ ！ ！ ！[shake B]/
+[face E 04]
+[say E]
+[shake E]
+啊，我自己吃的！/
+[face B 06]
+[say B]
+這個味道對於連頭髮都沒有的孩子來說還是不錯的。
+現在還早。/
+[face E 09]
+[say E]
+嗯！長大了一點！
+板木！[move E XY -150 -40 0.4][rotate E 10 0.3][delay 0.4 move E XY 150 40 0.3][delay 0.5 rotate E 0 0.3]/
+[face B 08]
+[say B]
+啊啊！ ！[shake B]/
+((s))
+[hide B]
+[hide E]
+[serif off]
+[-]
+[move W C 1.0]
+[show W C]
+[face W 12]
+[talk W]
+[-]
+[serif on]
+（我想知道我們是不是真的好朋友…）/
+((m))
+[auto]
+（為什麼？我們真的是好朋友不是嗎？）/
+((e))
+[auto]
+（我確信你們兩個有共同的歷史。）/
+[show B R]
+[face B 01]
+[talk B]
+你看，你心不在焉的在做什麼？[shake B]
+$W！你也應該多吃一點！/
+((s))
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[-]
+[say W]
+[order W 5]
+[order B 0]
+[shake W]
+[face W 05]
+哇，這麼多……！
+我很高興，但我感覺它會變得更重。[face W 06]/
+((m))
+[auto]
+哇，這麼好！
+越來越重了……！[face W 06]/
+((e))
+[auto]
+哇，這麼多！　白米飯就完美了！
+不過我覺得會很重...[face W 06]/
+[say B]
+[face B 09]
+你說什麼？國家越富裕，塵世靈魂男孩就越多。
+可以說他的身材很大。/
+[face B 00]
+吃得越來越多，變得越來越富有
+沒關係！/
+[show A L]
+[face A 02]
+[talk A]
+[setline 0.5 A W B]
+哈哈哈。我認為你應該毫不猶豫地吃掉它。
+$W坤。/
+((s))
+[say W]
+[order W 5]
+[order B 0]
+[order A 3]
+[face W 01]
+誒嘿嘿……和今天一樣好。
+那麼，吃飯吧！[shake W]　好吃...！[face W 09][se kira_01]/
+((m))
+[auto]
+那麼，我就相信你的話。
+嘟囔著……哈哈！[shake W]　我感覺我在吃肉！[face W 11][se kira_01]/
+((e))
+[auto]
+謝謝你...！
+嘎蘇嘎蘇！　[shake W]請再給我一份米！[face W 11][se kira_01]/
+[say A]
+[face A 01]
+啊哈哈。如果你這樣做$W孩子們也是
+看起來和我們人類沒有什麼不同，但是…/
+[flow]
+看到淨化之旅的任務後，我又想了想。
+地魂童子的實力……很可靠。/
+((s))
+[say W]
+[face W 00]
+那是.../
+((m))
+[auto]
+沒錯.../
+((e))
+[auto]
+那是.../
+((s))
+[face W 12]
+他們中的一些人曾在各自的國家生活過。
+因為很多人的感情都在裡面…/
+((m))
+[auto]
+我們當中，我們生活在自己的國家。
+因為它包含了很多人的想法…/
+((e))
+[auto]
+我們中的一些人住在那個國家
+其中包含了許多人的想法。/
+((s))
+[flow]
+所有存在於過去世界的想法
+這是我們力量的泉源！/
+((m))
+[auto]
+所有存在於過去世界的想法
+這是我們力量的泉源！/
+((e))
+[auto]
+於是，活在過去世界的種種感受
+這一切都是我們的動力來源！/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[say B]
+[face B 09]
+是啊是啊。然而，大力量很難應付。
+感謝 *P 將所有這些放在一起並聽到他的聲音。/
+[serif off]
+？謝謝你/
+[face B 01]
+[serif on]
+好的！給地球靈魂男孩和 *P
+讓我們多餵你一點吧！加了肉！[move B X 100 0.5][hide B]/
+[face A 02]
+[say A]
+[bgm journey]
+哈哈哈...[face A 01]第一次任務，
+$W坤，你怎麼樣？/
+((s))
+[face W 10]
+[say W]
+嗯……我剛來的時候也是這麼想的。
+這是一個完全不同的情況...我很著急...[shake W]/
+((m))
+[auto]
+嗯……你到達的地方就是你的最終目的地。
+我很緊張。不知不覺間，已經空了！/
+((e))
+[auto]
+剛轉學之後，我就很困惑了…
+畢竟，是值得信賴的肌肉……！[shake W]/
+[show B R]
+[setline 0.5 A W B]
+[face B 11]
+[say B]
+[order W 5]
+[order A 0]
+[order B 0]
+這也讓我們感到緊張。
+我想，精神力不可能太強。/
+[face A 12]
+[say A]
+此時，與第二分公司的通訊中斷。
+有很多事情.../
+((s))
+[face W 08]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+對了，第二個分支是怎麼回事？
+大家還好嗎？/
+((m))
+[auto]
+嘿，第二個分支怎麼了？
+還好嗎？/
+((e))
+[auto]
+說到第二家分店，怎麼樣？
+還好嗎？/
+[hide A]
+[hide B]
+[-]
+[show D L]
+[setline 0.5 D W]
+[face D 11]
+[talk D]
+是的，有些設施因地震而受損。
+有一些損壞，但損壞程度很小。/
+((s))
+[face W 12]
+[say W]
+[serif off]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+這樣就好了...
+那是一場大地震。/
+((m))
+[auto]
+那很好。
+因為震動太大了。/
+((e))
+[auto]
+聽到這我鬆了口氣。
+因為那是一場大地震.../
+[face D 08]
+[say D]
+六原的建築已做好應對各種災難的準備。
+應該是……但莊園或許是最安全的地方。/
+[show C L]
+[face C 01]
+[setline 0.5 C D W]
+[talk C]
+最終，六原總部搬到了一座莊園。
+我想知道我是否應該這樣做。/
+[show B R]
+[setline 0.5 C D W B -100 1100]
+[face B 09]
+[say B]
+我同意這一點！因為你不需要通勤！
+傳球一腳射門，對嗎？/
+[face B 10]
+我們去六原工作後
+你要去莊園嗎？/
+[face D 11]
+[say D]
+有一些技術問題需要解決。
+是的，但我們的研究部門也在考慮這一點。/
+[face D 01]
+優秀成員加入我們的研究室。
+多虧了這一點，最近發生了很多事情。/
+[hide W]
+[hide B]
+[hide C]
+[-]
+[move D C 0.5]
+[face D 00]
+說到這裡...
+/
+[face D 01]
+分析我自己和實驗室發來的資料，
+我正在向有關部門作出指示。/
+[face D 02]
+[effect D kira a 0 100]
+即使穿越時空，兩人之間的精神連結依然堅定不移。
+一直很穩定，沒有任何問題！　[shake D]我很感動！/
+[face D 11]
+[effect off a]
+在過去的世界裡，還有尚未聽到聲音的地魂童子。
+見到你我很驚訝.../
+[show C C]
+[setline 0.5 C D]
+[face C 04]
+[talk C]
+這很奇怪，不是嗎？ *P君的潛力
+也許這是一種可以使用的技術。/
+((s))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[face W 08]
+[talk W]
+但是...[wait 0.5]就像老夫子的地魂童子奧伊拉一樣。
+我完全明白這意味著什麼！/
+((m))
+[auto]
+但是，[wait 0.5]和我一樣的將軍地魂少年。
+我知道那是什麼！/
+((e))
+[auto]
+但是...[wait 0.5]就像我一樣，我師父的地魂少年
+我明白那是什麼了！/
+((s))
+[face W 01]
+所以我認為你不需要擔心任何事情！/
+((m))
+[auto]
+所以沒什麼好擔心的！/
+((e))
+[auto]
+所以沒什麼好擔心的！/
+[hide W]
+[-]
+[show C C]
+[face C 01]
+[talk C]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+是啊是啊。
+沒有什麼比擁有更多的軍事力量更好的了。/
+[face C 00]
+以後我會繼續和在當地認識的地魂男孩合作。
+我要你執行你的使命。/
+[face C 02]
+$WKun也是一樣...*P-kun也是
+你已經盡力了。謝謝。/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 04]
+這個世界正處於邊緣
+一般大眾不知道。/
+[face C 08]
+……我們如履薄冰。
+無論如何我們都必須阻止它。/
+[face C 02]
+所以你已經完成的是
+這是一件非常有價值的事。/
+[face C 09]
+只要你們吵架...
+我們將盡力支援您。/
+[hide C]
+[-]
+[show A C]
+[face A 01]
+[talk A]
+我也是一個沒有經驗的操作員，但和你們在一起
+我想繼續成長。很高興見到你。/
+[show B C]
+[face B 01]
+[talk B]
+[setline 0.5 A B]
+我也是！謝謝你的幫助，小弟！/
+[hide A]
+[hide B]
+[-]
+[show D C]
+[face D 01]
+[talk D]
+我也會盡力支援你的！/
+[hide D]
+[-]
+[show E R]
+[move E C 0.2]
+[face E 09]
+[talk E]
+我也永遠支援你！/
+[show A C]
+[show B R]
+[show C L]
+[show D C]
+[setline 0.5 C A D B E]
+[orderline E A C B D]
+[face A 01]
+[face B 01]
+[face C 01]
+[talkend]
+[-]
+[serif off]
+？非常感謝。/
+((s))
+[wait 1.0]
+[-]
+[hideall]
+[-]
+[show W C]
+[face W 02]
+[talk W]
+[serif on]
+油也，
+非常感謝！/
+((m))
+[auto]
+我也請求你的幫助！/
+((e))
+[auto]
+我也非常感謝你！/
+[hide W]
+[bgm off]
+[serif off]
+[-]
+[se pi_01]
+[delay 0.2 se pi_01]
+[delay 0.4 se pi_01]
+[wait 1.0]
+[-]
+[show A C]
+[face A 10]
+[talk A]
+[-]
+[serif on]
+不是響了嗎？/
+[show D C]
+[setline 0.5 A D]
+[face D 05]
+[talk D]
+[shake D]
+[order D 0]
+[order A 5]
+哦，是我。等一下，呃呃呃。
+就在那裡，就在這裡。[shake D][se pi_01]嗯，觀察組的報告。/
+[face D 09]
+……很緊急……
+……是的！ ？[shake D][bgm departure]/
+[face A 09]
+[say A]
+豬森先生？/
+[face D 12]
+[say D]
+……啊，那個，這個資料是……也就是說……/
+[hide A]
+[hide D]
+[-]
+[show C C]
+[face C 03]
+[talk C]
+……看來歷史覺醒區域的出現已經被確認了。/
+[face C 01]
+我的裝置上也收到了一則訊息。/
+((s))
+[hide C]
+[-]
+[show W C]
+[face W 13]
+[talk W]
+歷史覺醒區…？/
+((m))
+[auto]
+歷史覺醒區…？/
+((e))
+[auto]
+歷史覺醒區…？/
+[hide W]
+[-]
+[show C C]
+[face C 00]
+[talk C]
+稍後會詳細介紹。
+宗一君和夏人君，抱歉，你們要加班了。/
+[hide C]
+[-]
+[show A C]
+[show B C]
+[setline A B]
+[face A 08]
+[face B 11]
+[talk A]
+是的！/
+[face B 10]
+[say B]
+說實話……我喝多了……/
+[hide A]
+[hide B]
+[-]
+[show C C]
+[face C 01]
+[talk C]
+$W男孩們將等待，直到他們聯絡上他們。
+為下一個任務保持能量。/
+((s))
+[hide C]
+[show W C]
+[face W 08]
+[talk W]
+哈，是的！/
+((m))
+[auto]
+哦，哦！/
+((e))
+[auto]
+我明白了！/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

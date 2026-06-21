@@ -1,0 +1,1126 @@
+>>0/
+((s))
+[set W s_san_m 讚岐]
+[set A s_n002_m 猪森]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 猪森茂就]
+[-]
+[bg mbg_syouen]
+[minibg syouen_watarirouka]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[serif on 0.5]
+在這一天$W測試結果
+我本來應該在實驗室聽的。/
+((m))
+[set W s_mus_m 武藏]
+[set A s_n002_m 猪森]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 猪森茂就]
+[-]
+[bg mbg_syouen]
+[minibg syouen_watarirouka]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[serif on 0.5]
+在這一天$W測試結果
+我本來應該在實驗室聽的。/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n002_m 猪森]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 出会い 猪森茂就]
+[-]
+[bg mbg_syouen]
+[minibg syouen_watarirouka]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[serif on 0.5]
+在這一天$W測試結果
+我本來應該在實驗室聽的。/
+((s))
+[show W C]
+[face W 01]
+[say W]
+[move W Y 100 0.2]
+[delay 0.2 move W Y -100 0.2]
+嘿，這是我第一次進入六原大樓。
+我們快點走吧！掌握！/
+((m))
+[auto]
+這是我第一次去六原大樓。
+我們快點走吧！一般的！/
+((e))
+[auto]
+這是我第一次進入六原大樓…
+我時刻準備著！掌握！/
+[hide W]
+[talkend]
+從莊園到六原有直接連線。
+有「過廊」。/
+[serif off]
+[flow]
+[se walk_01]
+[delay 0.2 se jutsu_01]
+[fadein WHITE 1]
+[delay 1 fadeout 1.5]
+[minibg rokuhara_rouka_labo 1.5]
+[bg mbg_rokuhara 1.5]
+[-]
+[serif on]
+當你帶著一種叫做通行證的裝置穿過鳥居時，
+您可以在六原的設施內移動。/
+[serif off]
+?驚人的技術.../
+((s))
+[show W C]
+[face W 09]
+[say W]
+[serif on]
+哇。牆壁和地板都閃閃發亮！/
+((m))
+[auto]
+嗨！這裡和那裡
+不是皮卡比嗎？你打磨了多少？/
+((e))
+[auto]
+哦...！地板和牆壁都是鋼鐵製成的…！
+明白了，結構很堅固.../
+[hide W]
+[se walk_06]
+[talkend]
+六原的設施分為不同的區域。
+這一層是夏人和貓屋所屬的聽音俱樂部，/
+[flow]
+以及精神能量的使用和資料分析。
+你可以看到研究部的標誌。/
+[flow]
+這個區域是一個名為Level 5的秘密區域。
+看來一般工作人員是不被允許進入的。/
+((s))
+[show W L]
+[face W 00]
+[say W]
+奇怪的機器實在太多了…
+大家都在努力.../
+((m))
+[auto]
+唉……這麼多奇怪的機器排列著。
+每個人都在努力工作。/
+((e))
+[auto]
+裡面有很多神秘的機器…
+大家都在努力.../
+((s))
+[face W 05]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+噢，主人，等等。[se walk_07][move W X 600 0.5][hide W]/
+((m))
+[auto]
+噢，將軍，等等！　在這樣的地方
+如果你丟下我，我就會迷路！[se walk_07][move W X 600 0.5][hide W]/
+((e))
+[auto]
+師父。路很複雜，所以從我開始
+請不要離開我！[se walk_07][move W X 600 0.5][hide W]/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[se walk_06]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+?實驗室，D-13室.../
+((s))
+[show W C]
+[face W 01]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[-]
+[serif on]
+啊，在這裡。對不起。[face W 05][se rokuhara_06]
+哇　[shake W]門自己開了！/
+((m))
+[auto]
+哦，不是在這裡嗎？我妨礙你了。[face W 05][se rokuhara_06]
+哇　[shake W]門自己開了！/
+((e))
+[auto]
+就像這裡一樣。打擾一下！[face W 05][se rokuhara_06]
+哇！　[shake W]門自己開了！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[minibg rokuhara_labo]
+[se rokuhara_05]
+[-]
+[fadeout 0.5]
+[se walk_06]
+[-]
+[serif on]
+[talkend]
+白色的房間內，擺放著各種大小的機器。
+他們排列整齊。/
+@研究員
+發生了什麼事？/
+[serif off]
+?聽聽測試結果/
+[serif on]
+@研究員
+啊，那麼豬森先生。
+那邊就是豬森先生的「家」。/
+((s))
+[show W C]
+[face W 13]
+[say W]
+蘇米卡……？/
+((m))
+[auto]
+有角落嗎？/
+((e))
+[auto]
+純香……須賀……/
+[hide W]
+[serif off]
+[-]
+[se walk_06]
+[wait 0.5]
+[-]
+[serif on]
+[talkend]
+當你深入實驗室時，
+有一個角落一眼就能認出來。/
+[flow]
+[bg black 0.5]
+檔案和書籍堆得滿地都是。
+上面是已經脫掉的衣服和吃掉一半的東西。/
+[flow]
+各種機器在周圍排列成一排
+他們各自發出聲音，好像在處理什麼事情。/
+[serif off]
+？一片混亂…/
+((s))
+[show W C]
+[face W 13]
+[say W]
+[bgm off]
+[serif on]
+師父……那個……/
+((m))
+[auto]
+將軍……那個……/
+((e))
+[auto]
+師父……那個……/
+[hide W]
+[talkend]
+一堆堆凌亂堆放的歷史書籍和文獻之中
+我可以看到他寬闊的背影臉朝下趴在桌上。/
+[show A C]
+[face A 07]
+[say A]
+[name A ロクハラ研究員]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -60 1.0]
+呃.../
+[serif off]
+？嗯.../
+[face A 05]
+[bgm fun]
+[bg mbg_rokuhara 0.5]
+[move A Y 40 0.1]
+[se dosa_01]
+[delay 0.1 shake A]
+[serif on]
+是的！是的！我醒了！我醒了！
+…[wait 0.2]…[wait 0.2][face A 10]不，我只是睡了一會兒！ ！/
+((s))
+[show W C]
+[setline 0.5 W A]
+[face W 00]
+[say W]
+各位，測試結果如何？像這樣的東西
+我是來問的.../
+((m))
+[auto]
+我們，測試結果。
+我是來問你的。/
+((e))
+[auto]
+我們是來聽測試結果的！/
+[face A 06]
+[say A]
+[shake A]
+啊...$W坤尼、＊君、君……！ ？
+已經到那個時間了嗎？/
+[face A 14]
+[flow]
+抱歉，我徹夜未眠……為了等你們。
+本來以為是時候休息一下了，結果卻睡著了！/
+[face A 12]
+[move A X 100 0.5]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+測試結果是，嗯，我很確定它們就在這裡。
+我把它放在那裡...我很快就會找到它！[shake A]/
+((s))
+[face W 12]
+[say W]
+兄弟，我們一起去找你好嗎？/
+((m))
+[auto]
+從這裡找到東西需要多長時間？
+我不知道需要多久...要我幫你嗎？/
+((e))
+[auto]
+如果你告訴我那是什麼，我也會的。
+我們一起來尋找吧！/
+[face A 10]
+[say A]
+[rotate A 0 0.2]
+[move A Y 40 0.2]
+哇，別碰我！我把它放在哪裡
+看不懂……不過還是謝謝你！[face A 01]/
+[face A 10]
+[shake A]
+哦，哇！ ！
+[shakebg]
+[delay 0.3 se dosa_01]
+[se crash_01]
+[delay 0.5 se crash_04]
+[hideall]/
+((s))
+[show W C]
+[face W 10]
+[say W]
+沒關係...？
+如果你最終能幫助我的話那就更好了。/
+((m))
+[auto]
+我-你還好嗎？
+我覺得如果能幫到你就更好了。/
+((e))
+[auto]
+我、可以嗎？
+我想我還是應該幫你.../
+[show A R]
+[face W 00]
+[move A Y -150]
+[move A Y 50 1]
+[face A 09]
+[say A]
+沒關係！就算崩了，也多半是
+因為我知道哪裡發生了什麼事……！/
+[serif off]
+[face A 10]
+[shakebg]
+[face W 10]
+[delay 0.3 se dosa_01]
+[se crash_01]
+[delay 0.5 se crash_04]
+[wait 0.5]
+[autotap]/
+?……/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[bgm home]
+[show A C]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[say A]
+[name A 猪森]
+[-]
+[serif on]
+我是豬森[茂就 しげなり]。在這個研究部門
+資料管理與分析、系統運作等/
+[face A 08]
+[say A]
+[flow]
+我承擔著各種責任。
+我也在處理你的資料。/
+[serif off]
+?$W我的資料呢？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+是的，我們會設定適合您的裝置。
+這就是為什麼你需要詳細瞭解它！/
+[face A 11]
+[flow]
+根據測試中測得的靈力，身高和體重的變化
+體內的營養價值、設施的排洩…/
+[face A 01]
+[flow]
+啊！[shake A]　保密私人事務
+它太貴了，你不能輕易看到它！/
+[flow]
+我不必擔心其他人看到我
+別擔心！/
+((s))
+[show W C]
+[setline 0.5 W A]
+[face W 06]
+[say W]
+這意味著豬森先生可以看到它......
+有點尷尬啊...[shake W]/
+((m))
+[auto]
+這意味著我可以看到豬森...
+真是太尷尬了.../
+((e))
+[auto]
+豬森老師看得出來…
+有點尷尬了.../
+[face A 10]
+[say A]
+[shake A]
+啊啊啊，沒關係！
+我只把它看作資料.../
+[flow]
+嘿，我是研究員！[shake A]　當出現異常值時
+如有疑問，請聯絡相關部門。/
+[face W 11]
+[flow]
+每天的微小變化和對男孩來說很自然的事情。
+基本上，假裝沒看到秘密。[wait 0.2]…[wait 0.2]…/
+[serif off]
+?……/
+[face A 06]
+[shake A 2 5 5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+抱歉，有件事真的很奇怪。
+我說太多了……哦，發生了。
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se paper_01]/
+[face A 01]
+[se paper_01]
+這是測試結果。聽到聲音後兩人的精神力
+他的生命徵象和心理健康狀況穩定，沒有任何問題。/
+((s))
+[face W 00]
+[say W]
+那是不是說明沒有問題了呢？/
+((m))
+[auto]
+嗯，這不是問題。/
+((e))
+[auto]
+這意味著沒有什麼特別的問題。
+琴蘇？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[say A]
+是啊！太完美了！/
+[face A 02]
+[effect A kira 3000 0 0]
+[se kira_01]
+事實上，如此美麗的波形很少見！
+謝謝你給我展示了一些好東西。/
+((s))
+[face W 12]
+[say W]
+？
+雖然不太明白，但確實不錯。/
+((m))
+[auto]
+哦哦！盡可能感謝您！
+目前還好！一般的！/
+((e))
+[auto]
+我不知道這一行顯示什麼
+我不知道，但那太好了，主人！/
+[face A 00]
+[say A]
+啊，*P君，就一點點好嗎？/
+[serif off]
+？點點頭/
+[playeryes]
+[-]
+[serif on]
+[face A 01]
+$W請在門口等候。/
+((s))
+[face W 01]
+[say W]
+是的。
+師父，您就是我的故鄉！/
+((m))
+[auto]
+我們走吧。
+將軍，我在外面等。/
+((e))
+[auto]
+是的！
+主人，您出來時我會等您。/
+[serif off]
+[se walk_06]
+[move W X -200 0.5]
+[hide W]
+[-]
+[wait 0.5]
+[-]
+[move A C 1]
+[face A 00]
+[say A]
+[scale A 1.6 1]
+[move A Y -150 1]
+[-]
+[serif on]
+*P君。/
+[flow]
+您作為語音聆聽者的適合性高於平均水平。
+它優越得多。/
+[face A 01]
+……謝謝您的光臨。我很高興。
+我對此真的非常非常高興。/
+[flow]
+事實上你在這裡，
+我覺得是有意義的.../
+[face A 08]
+[flow]
+我相信是這樣。/
+[serif off]
+？是的，是的。/
+[face A 06]
+[shake A]
+[serif on]
+抱歉，我讓你吃驚了。
+…[face A 08]……好吧，我支援你！/
+[hide A 1]
+[talkend]
+那就是我與豬森重成的相遇。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>1/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[say A]
+*P-kun，謝謝你一直幫助我的研究！
+感謝您，我取得了越來越多的成果！/
+[face A 08]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+沒錯，*P君定期進行身體和精神檢查。
+如果你願意的話，下次就來我的實驗室吧！/
+[face A 02]
+[effect fr kira 4000 0 0]
+[se kira_01]
+我很期待看到什麼樣的數字會出現。/
+>>2/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 07]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[wait 0.5]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[say A]
+呵呵，[shake A]我睡著了！[face A 06]
+呃，我看到了一些尷尬的事情…/
+[face A 11]
+[se paper_01]
+……現在[= 奈良時代 室町時代 平安時代 安土桃山時代 江戸時代 戦国武将]我迷上了它
+我讀了很多書。/
+[face A 02]
+[effect fr kira 4000 0 0]
+[se kira_01]
+啊~真是太好了~...波瀾壯闊的歷史漩渦.../
+[face A 01]
+我也和地魂少年一樣在過去的世界
+我想跳進去！/
+>>3/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[say A]
+*謝謝你的辛勤工作，P君。你看起來很疲憊。
+這次的任務也很艱鉅。/
+[face A 11]
+有時事情進展不順利，我會感到沮喪。
+或許有，但是…/
+[face A 08]
+沒關係，你能行的！[shake A]
+所以相信自己...！ ！/
+[face A 12]
+我想這有點誇張了…/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+但你可以克服任何困難。
+我相信我能克服它。/
+>>4/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A R]
+[show B R]
+[move B X -300 0.5]
+[face A 00]
+[face B 00]
+[orderline A B]
+[say A]
+[-]
+[serif on]
+[move A X -10 0.1]
+啊，$B:A！
+我就任務進行了一些諮詢...[shake A][se doka_01]/
+[se zukkoke_01]
+[rotate A 50 0.2]
+[move A XY -600 -150 0.3]
+[shakebg]
+[face A 09]
+[face B 05]
+哇！/
+[face A 10]
+[rotate A 0 0.5]
+[move A Y 100 1]
+[face B 04]
+哇，材料都散架了。
+這是一個重要的東西，我將在稍後的會議中使用.../
+[face A 04]
+[se paper_01]
+[face B 01]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+哦，你能跟我一起去拿嗎？會有幫助的。[face A 02]/
+>>5/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A R]
+[show B C]
+[face A 14]
+[face B 00]
+[setline 1 A B]
+[say A]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[face B 04]
+[-]
+[serif on]
+啊？　$B:A發生了什麼事？
+呃，有什麼味道……？/
+[face A 12]
+嘿，我前天就該換襯衫和內衣的。
+但是...[face B 03]
+/
+[face A 10]
+[face B 01]
+呃...[shake A]
+嗯，我要去洗澡了！ ！ ！/
+[move A X -600 0.3]
+[hide A]
+[se walk_03]
+[-]
+[autotap]/
+>>6/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A C]
+[show B C]
+[face A 04]
+[face B 04]
+[setline A B]
+[orderline A B]
+[say A]
+[-]
+[serif on]
+嗨$B:A。我聽說你有點不舒服。
+那之後呢？/
+[face A 08]
+我花了一些時間調查$B:A排洩物和
+體液沒有發現異常！[face B 05][shake B]/
+[face A 11]
+[face B 06]
+[flow]
+然而，在某些情況下，可能需要進行詳細檢查。
+因為可能有必要/
+[face A 08]
+[flow]
+[effect A kira 4000 0 0]
+[se kira_01]
+如果您有任何疑慮，請盡快告知我。
+告訴我！白天我會在控制室或實驗室！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[setline B A]
+[orderline A B]
+[say A]
+[-]
+[serif on]
+嘿嘿$B:A，關於你們國家的歷史
+我可以問...嗎？/
+[face A 06]
+[face B 00]
+[move A X -50 0.5]
+其實，有件事我一直想知道…
+那.../
+[face A 10]
+[face B 05]
+[move A X 150 0.2]
+啊，不過最好不要問，
+能有一些浪漫也許會很好......！[shake A]/
+[face A 09]
+[face B 04]
+嗯，但我很好奇[shake A 5 10 1]....但是...[shake A 5 10 1]
+啊，我該怎麼辦啊！[shake A 5 30 1]　我很抱歉！ ！[face B 01]/
+>>10/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A R]
+[show B L]
+[rotate A -10]
+[face A 07]
+[face B 00]
+[move B X -150]
+[move B X 150 0.5]
+[talk A]
+[wait 0.5]
+[-]
+[face B 04]
+[move B X 250 1]
+[-]
+[serif on]
+咕嚕...[face A 05]哇，[rotate A 0 0.3][shake A 2 5 5]$B:A抱歉！[face A 10]/
+[face A 13]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+好吧，本週的能量飲料。
+我當時就帶著它.../
+[face A 12]
+[face B 00]
+哇，我走路的時候差點就睡著了。
+也許我應該休息一下.../
+[face A 07]
+[move A X -100 1]
+[rotate A 20 0.5]
+[-]
+[face A 09]
+[rotate A -5 0.2]
+[shake A]
+[-]
+[setline 0.5 A B]
+[-]
+[face B 01]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[-]
+啊？[face A 14]
+$B:A，你願意陪我睡嗎？/
+[face A 11]
+好吧，我想我會拜託你幫個忙…[face A 01]謝謝你。/
+>>11/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 01]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[serif on]
+[say A]
+白天我很困，但晚上
+你會感覺好多了。這很奇怪！/
+[face A 08]
+[flow]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+現在，讓我們從這裡展示我們真正的潛力！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A C]
+[show B C]
+[face A 04]
+[face B 00]
+[setline A B]
+[-]
+[serif on]
+[say A]
+$B:A，你的臉紅了，但沒關係嗎…？[face B 05][shake B]/
+[face A 06]
+[shake A]
+哦，原來是這樣！ ？/
+[face A 10]
+[flow]
+[shake A 2 5 1]
+嗯，這在健康男性中很常見。
+看看這個莊園的資料，也有類似的趨勢！/
+[flow]
+如果我不能集中註意力，我就會遇到麻煩，所以對我來說，
+我覺得定期處理一下就好了！/
+>>15/
+[set A s_n002_m 猪森]
+[randomset B m -n002 -@NPC]
+[randomset C m -n002 -@NPC -@NOW]
+[show A R]
+[show B C]
+[show C C]
+[setline B C]
+[move A X 600]
+[face A 03]
+[face B 08]
+[face C 08]
+[talk A]
+[delay 0.2 shake C]
+[move B X -100 0.3]
+[delay 0.3 shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[-]
+[move A X 150 1]
+[moveline A B C -1000 0 1]
+[-]
+[serif on]
+[say A]
+哦...哦！我懂了！/
+[face A 08]
+雖然是訓練，但可以近距離看到地魂童子的戰鬥。
+真是太棒了！/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+你可以獲得很多好的資料！/
+>>16/
+[set A s_n002_m 猪森]
+[randomset B m -n002 -@NPC]
+[show A C]
+[face A 11]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+我最近沒有得到足夠的運動。
+也許我應該偶爾活動一下身體…/
+[show B L]
+[orderline A B]
+[say A]
+[face A 12]
+[face B 00]
+[move A Y -100 0.5]
+首先，要靈活…立即…[shake A]
+嘿...[shake A]我的身體僵硬了.../
+[face A 02]
+[move B X 400 0.5]
+[face B 01]
+啊，$B:A，你能拍拍我的背嗎？[move B XY -50 -20 0.5][move A Y -50 0.5][rotate A 20 0.8][rotate B 25 0.5]
+謝謝你...[face A 05]好，好，好！ ！ ！ ！[shake A 2 50 50][face B 05][rotate B 5 0.2]/
+>>17/
+[set A s_n002_b 猪森]
+[randomset B b -n002 -@NPC]
+[show A C]
+[face A 15]
+[-]
+[serif on]
+[say A]
+……這個[= 服 下着 シャツ]也許是時候改變它了。/
+[face A 12]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+坤坤……嗯。
+嗯，可能還是沒問題。/
+>>18/
+[set A s_n002_b 猪森]
+[randomset B b -n002 -@NPC]
+[show A C]
+[show B C]
+[face A 13]
+[face B 01]
+[moveline A B 0 -100 0]
+[se fr yuge a 0 0]
+[se bath_02]
+[say A]
+[orderline A B]
+[setline B A]
+[-]
+[se amb_12]
+[serif on]
+唷。我傾向於推遲到以後再做。
+洗澡的感覺真好。/
+[face A 12]
+[face B 08]
+[se bath_04]
+想想看……你上次去那裡是什麼時候？/
+[face A 14]
+[face B 05]
+2天前……還是3天前？
+那一週……？/
+>>19/
+[set A s_n002_b 猪森]
+[randomset B b -n002 -@NPC]
+[show A C]
+[face A 13]
+[se fr yuge a 0 0]
+[se bath_02]
+[move A Y -220]
+[scale A 1.6]
+[-]
+[serif on]
+[say A]
+嗯嗯！ ！[shake A][se bath_04]
+我一直在辦公桌前工作/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se bath_02]
+[-]
+浸泡在熱水中時伸展四肢
+感覺不錯……嗯？/
+[show B L]
+[scale B 1.6]
+[move B Y -220]
+[orderline A B]
+[say A]
+[face A 11]
+[face B 00]
+這是什麼……啊？$B:A！？[face A 05][move A X 150 0.5][se bath_01]
+抱歉，不。[face A 06]沒什麼！/
+[face A 12]
+[waku on 0.5]
+（我的手被熱水燙到了！）/
+>>20/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 13]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[se pee_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+呵呵。研究期間如何上廁所
+去那裡還蠻麻煩的。/
+[face A 11]
+我想知道是否有更好的方法。
+是的，例如.../
+[face A 03]
+……塑膠瓶？
+…[wait 0.5]…[wait 0.5][face A 12]我覺得我失去了一些東西，所以我會停下來.../
+>>21/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 13]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+啊……今天之後，我會為此記下數字。
+驗證完之後，然後.../
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[se zuba_01]
+[face A 05]
+[shake A 2 10 10]
+[textsize 40]
+就在那裡！ ！ ？/
+[face A 04]
+[shake A]
+嘿嘿……卡在卡盤裡了……！/
+>>22/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[show A C]
+[face A 07]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[serif on]
+[say A]
+庫卡…/
+[talkend]
+[color A talk]
+（康康。）/
+[face A 13]
+[say A]
+啊，是的！[shake A]
+我現在就開啟……啊！
+[face A 05]
+[se door_01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[show B C]
+[orderline A B]
+[say A]
+[face B 05]
+[-]
+[move A X -200 1]
+[move B X 200 1]/
+[shakebg]
+[move A X 100 0.3]
+[move A XY 10 -40 0.1]
+[rotate A -10 0.1]
+[delay 0.1 move A XY -10 40 0.2]
+[delay 0.2 rotate A 0 0.3]
+[se door_02]
+[face A 10]
+[face B 06]
+[delay 0.3 hide B]
+哇-哇！
+我半睡半醒，抱歉！ ！[shake A]/
+>>23/
+[set A s_n002_r 猪森]
+[show A L]
+[face A 06]
+[se door_01]
+[-]
+[move A C 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 02]
+[-]
+[serif on]
+[say A]
+[effect fr kira 4000 0 0]
+[se kira_01]
+……哈哈哈哈哈哈，覺得神清氣爽。
+我很高興廁所是空的！/
+[face A 12]
+當你全神貫注於工作時，
+我會堅持到最後一刻……！/
+>>24/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……每個人看起來都很累，睡得很香。/
+[face A 01]
+地魂童子雖然是式神，但他卻是這樣睡覺的。
+吃[wait 0.2]…[wait 0.2]…[wait 0.2]我真的和人類沒有什麼不同。/
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+是啊！我們也為他們做研究吧！/
+>>25/
+[set A s_n002_r 猪森]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[say A]
+庫卡~~~姆尼亞姆尼亞…福戈。[shake A]
+……庫卡~~/
+[talkend]
+我累壞了，睡著了。/
+>>26/
+[set A s_n002_r 猪森]
+[randomset B r -n002 -@NPC]
+[randomset C r -n002 -@NPC -@NOW]
+[show A C]
+[show B C]
+[show C C]
+[orderline B A C]
+[rotate A 60]
+[rotate B -60]
+[rotate C 70]
+[face A 06]
+[face B 07]
+[face C 07]
+[moveline A B C 0 -30 0]
+[move B X 200]
+[move C X -230]
+[say A]
+[-]
+[serif on]
+本來是想小憩一下才來到這裡的，但是…
+我感覺我和每個人都更親近了！/
+[face A 10]
+呃！[shake A]
+我擔心得睡不著覺！/

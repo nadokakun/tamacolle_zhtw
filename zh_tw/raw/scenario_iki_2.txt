@@ -1,0 +1,1813 @@
+>>10000/
+@壱岐
+謝謝您的等待。我西海道壱岐！[autotap]/
+[delay 3.5]
+[flow]
+[-]
+@壱岐
+我已經準備好冒險了。[wait 2]
+指揮官，我們快點出發吧！/
+>>10001/
+@壱岐
+領導，我回來了！[wait 2]
+我剛剛到處冒險。[autotap]/
+[delay 3]
+[flow]
+[-]
+@壱岐
+我有很多東西想給你看！
+呵呵。/
+>>1/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+指揮官，怎麼了？[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+我明白了，我明白了！[face A 02]　我想去冒險！/
+[face A 01]
+[flow]
+呵呵，首先我們去壱岐kuni的兒島神社吧。
+沙地進場只出現在退潮前後！/
+[face A 07]
+[effect fr kira 6000 0 0]
+[se kira_01]
+[flow]
+一片由潮汐的節奏開啟的神聖區域…
+這是開始冒險的完美方式！[shake A][face A 09]/
+>>2/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+壱岐Saruiwa島上的形狀就像猴子在眺望大海。
+這是一塊大石頭。/
+[face A 02]
+[flow]
+……當我看到那個簡介時，我總覺得
+我感覺他在看著我。/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+壱岐也許他就是國家的守護神！　
+這是著名的日落景點，指揮官，我們一起去看看吧！[shake A]/
+>>3/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+指揮官壱岐在國內經歷了許多冒險之後。
+您想要美味的獎勵！/
+[face A 02]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[flow]
+我的推薦是海膽碗。
+輕輕一咬，就能聞到玄海的味道，呵呵。[shake A][face A 01]/
+[face A 00]
+[flow]
+啊，季節很短，所以要提前做一些研究。
+走吧！ ……要一起去吃飯嗎？[face A 07]/
+[face A 02]
+[flow]
+那麼，就讓我們一起去冒險吧！/
+>>4/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+冒險時營養也很重要。
+我們去搶一些飯糰吧！/
+[face A 02]
+[flow]
+它是用不易變質的原料製成的，並包裹著大量的海藻......
+哇，看起來很好吃…paku！　可口的！[shake A][se eat_01]/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[autotap]/
+[face A 05]
+[flow]
+帕庫帕庫……哇！　
+我忍不住全部吃掉了……呵呵。[face A 01]/
+>>5/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[show A C]
+[show B]
+[setline A B]
+[face B 00]
+[face A 01]
+[serif on]
+[talk A]
+$B:A，我已經做好充分的準備了。
+那麼，就讓我們一起去冒險吧！/
+[face A 02]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+今天你要去哪裡？　$B:A你想去的地方，
+我跟你一起去！我相信你會有一些驚人的發現！[shake A][se taiko_02]/
+>>6/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし -@NPC -iki]
+[show B]
+[face B 00]
+[-]
+[show A R]
+[move A X 600]
+[setline 0.5 B A]
+[face A 09]
+[serif on]
+[talk A]
+$B:A，我正在洗衣服，謝謝你的辛苦！
+啊？　[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]嗯，這風…[face A 11]/
+[face A 00]
+[flow]
+$B:A，現在要下雨了。
+所以我先把洗好的衣服掛起來晾乾.../
+[effect bk rain a 0 0]
+[face A 05]
+[face B 05]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[se rain_01]
+[shakebg]
+[move B X 100 0.3]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+哇，雨下得很大啊！這很危險。
+我擅長讀風。[shake A][face A 01][face B 01]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[show A C]
+[show B]
+[setline A B]
+[orderline A B]
+[face A 09]
+[face B 00]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+你看，電視上有[= トンネル ドーナツ 洞窟 穴 マンホール バウムクーヘン]我們正在做專題！
+咕咕咕！[shake A]/
+[face A 02]
+[face B 05]
+[flow]
+說到底，只是有個「坑」而已
+我太興奮了！呵呵。[shake A][se zukkoke_02]/
+>>10/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[move A Y -50]
+[serif on]
+[talk A]
+我不知道我是不是忘了什麼……嗯，這個，這個……
+帶上換洗衣物、藏寶圖和一些點心！[se cloth_01][shake A]/
+[se kira_01]
+[effect fr kira a 0 0]
+[move A Y 50 0.5]
+[face A 01]
+[flow]
+今天我的揹包又完全扁了。
+呵呵。我期待著去冒險！/
+>>11/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，是這樣。讓我們來記錄一下今天的冒險吧！/
+[se write_01]
+[face A 00]
+[flow]
+「[= 御座所 修練所 厠 湯殿 寝床 荘園の広間 銭湯 任務先 山]在[= 刺激的な 一触即発な 信じられない ヤバい すっごい 奇妙な][= 体験ができた ものを見かけちゃった 状況に遭遇した]。
+啊，[= わくわくしたぁ どきどきしたぁ はらはらしたぁ 楽しかったぁ]！ 」。[shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+……身體是這樣運作的……/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+調查這樣的事情就像一場冒險。
+可能有點有趣……！[shake A]/
+>>15/
+[set A s_iki_b 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+戰鬥不僅僅靠實力。
+利用你的小身體，快速重複做！ ！[shake A]/
+[face A 03]
+[effect fr allows 5000 100 0]
+[se syu_02]
+[delay 0.2 se syu_01]
+[shakebg]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[flow]
+且射擊準確！
+我就是這樣戰鬥的！[shake A]/
+>>16/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし -@NPC -iki]
+[show A C]
+[show B]
+[setline A B]
+[face B 08]
+[face A 10]
+[serif on]
+[talk A]
+[shakebg]
+[se doka_01]
+[move A X -200 0.3]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+哇！咕咕...$B:A、
+你好強啊……我也想變得更強……[face A 06]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+那麼，我就借用你的胸部吧。呵呵。
+好吧，再來一次！[shake A][face A 08]/
+>>17/
+[set A s_iki_b 壱岐]
+[randomset B b @地魂男児 @あやかし @NPC -iki]
+[show A C]
+[show B]
+[setline B A]
+[face B 00]
+[face A 01]
+[serif on]
+[talk A]
+呼~全身都擦完了。
+現在我們穿上內衣吧……嗯？[face A 08]/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[face B 06]
+[face A 00]
+[flow]
+$B:A，我的屁股還是濕的。
+擦洗。以前怎麼樣？/
+[face A 01]
+[face B 01]
+[flow]
+嗯，看來還可以。
+嘿，我把內褲放哪了？ ？[shake A][face A 05]/
+>>18/
+[set A s_iki_b 壱岐]
+[show A R]
+[face A 08]
+[serif on]
+[talk A]
+一知、三石……好了，我的身體放鬆了。[shake A][face A 00]
+只有當周圍沒有人的時候才可以跳進去。[move A XY -50 50 0.5]/
+[move A X -250 0.5]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -200 0.2]
+[se water_02]
+[effect fr splash 6000 -250 0]
+[autotap]/
+[face A 01]
+[flow]
+好吧，我們走吧，雅虎！ ！
+札布恩！ ！[se bath_02][shakebg]/
+>>19/
+[set A s_iki_b 壱岐]
+[randomset B b @地魂男児 @あやかし @NPC -iki]
+[randomset C b @地魂男児 @あやかし @NPC -iki -@NOW]
+[show A C]
+[face A 06]
+[show B]
+[show C]
+[face B 00]
+[face C 00]
+[setline B A C]
+[moveline B A C 0 -50 0]
+[serif on]
+[talk A]
+呃，為什麼會出現這樣的狀況…
+我無法從浴缸裡出來...[se bath_04]/
+[move B X -300 0.5]
+[rotate A 20 0.5]
+[delay 0.1 move A X -250 0.5]
+[autotap]/
+[se water_07]
+[effect fr splash 6000 -250 0]
+[face A 05]
+[flow]
+[face C 06]
+哇，$B:A，別拉我！[shake A]
+哇啊啊啊啊啊啊啊啊啊啊啊啊。[move A X -1000 0.5][move B X -1000 0.5][se water_07][shakebg]/
+>>20/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[randomset C r @地魂男児 @あやかし @NPC -iki -@NOW]
+[show A R]
+[move A X 300]
+[move A X -300 0.3]
+[show B]
+[show C]
+[setline B C -200 400]
+[face B 04]
+[face C 04]
+[face A 05]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哇，有這麼多行！ ？
+那麼，我們到外面去吧！[shake A][face A 01]/
+[face C 05]
+[face A 00]
+[flow]
+當我冒險的時候總是這樣。在山裡
+不是很好嗎？/
+[face A 12]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face C 03]
+[flow]
+呃，沒有~？
+呃，要漏了…[shake A]/
+>>21/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+今天是在莊園進行尿液檢查。
+大家都這樣。 。 。我也這樣。 。 。[cloth_01][scale A 1.6 0.5][move A Y -100 0.5]/
+[se pee_01]
+[face A 12]
+[flow]
+嗯，杯子裡的量調節起來有點困難…
+哦，溢位了！[shake A]/
+>>22/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[randomset C r @地魂男児 @あやかし @NPC -iki -@NOW]
+[show A R]
+[move A X 300]
+[move A X -300 0.3]
+[show B]
+[show C]
+[setline B C -200 400]
+[face B 04]
+[face C 04]
+[face A 05]
+[serif on]
+[talk A]
+哇今天排隊的人還真多啊…
+哎呀，我的肚子好痛，好痛…[face A 12]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+好吧，既然這樣，那就到外面去吧！
+當我冒險時總是這樣....../
+[move A X -100 0.3]
+[face A 04]
+[flow]
+我當然要停下來了…
+哈，快點輪到你了！ ！[shake A]/
+>>23/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+呼~，好清爽啊…
+啊？有本書……《成人冒險》？[face A 11]/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+[se paper_01]
+我真的很好奇這會是一場怎樣的冒險！
+……哇！[shake A][face A 05]/
+[face A 06]
+[flow]
+嗯，也有這樣的冒險…
+我不知道該怎麼辦，我太興奮了……呃。/
+>>24/
+[set A s_iki_r 壱岐]
+[show A C]
+[rotate A 20]
+[move A Y -100]
+[move A Y 100 0.5]
+[rotate A 0 0.5]
+[face A 01]
+[serif on]
+[talk A]
+嗯……因為期待明天的冒險，所以很難入睡。
+不……唉，如果我醒不來怎麼辦？/
+[face A 12]
+[flow]
+我想知道運動後是否可以睡覺...
+不，不…[shake A]/
+>>25/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 07]
+[rotate A -30]
+[move A Y -50]
+[serif on]
+[talk A]
+庫卡~，隊長，我們已經走到這一步了。
+你做到了……哇……/
+[talkend]
+看來我正在做一個美好的夢。/
+>>26/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[randomset C r @地魂男児 @あやかし @NPC -iki -@NOW]
+[show B]
+[show C]
+[show A C]
+[face A 06]
+[face B 07]
+[face C 07]
+[rotate A -60]
+[rotate B -60]
+[rotate C -60]
+[setline C A B]
+[moveline A B C 0 -50 0]
+[se cloth_01]
+[rotate A 0 0.5]
+[talk A]
+[move A Y 50 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+我的身體好像出了問題……這種時候……
+我想知道是否有人可以告訴我該怎麼做.../
+[face A 12]
+[rotate B 0 0.5]
+[se cloth_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+[face B 01]
+嘿嘿$B:A，是不是有點好……？
+既然大家都睡了，我就想出去聊聊…/
+>>100/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし -@NPC -iki]
+[randomset C r @地魂男児 @あやかし -@NPC -iki]
+[randomset D r @地魂男児 @あやかし -@NPC -iki]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 壱岐と冒険団結成]
+[-]
+[bg heya_day]
+[-]
+[fadeout 2.0]
+[-]
+[bgm home]
+[wait 1]
+[-]
+[fadein BLACK 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+今天是假期——/
+[se amb_01]
+[flow]
+[textcolor ARUJI]
+我在溫暖的陽光照進房間醒來。
+休息日在莊園度過也不錯。/
+[flow]
+[se fusuma_01]
+[bg mbg_map 0.5]
+[minibg ima 0.5]
+[textcolor ARUJI]
+當我向大廳望去時，我看到了一個大揹包。
+我看到一個小男孩坐立難安。/
+[serif off]
+？ 壱岐/
+[bgm cute]
+[show A C]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[-]
+[serif on]
+啊！早上好，主。
+今天你休息一天吧？[face A 00]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[flow]
+我以為你還在睡覺，所以我稍後再打招呼。
+我正想著要去呢。/
+[face A 02]
+[shake A]
+[flow]
+我希望主能來找我
+我太高興了！/
+[serif off]
+？你要出去嗎？/
+[face A 11]
+[serif on]
+呃呃……這個揹包？
+這是冒險的準備！[face A 02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+這是您冒險所需的東西
+裡面有很多東西。/
+[face A 00]
+[flow]
+準備好去冒險了
+我已經準備好了我需要的一切。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+有一個隨時可以出任務的男孩，確實讓人安心。/
+[serif off]
+?壱岐的揹包/
+[show A C]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[face A 01]
+[say A]
+[serif on]
+您想看一下嗎？好的！/
+[face A 07]
+[se cloth_06]
+[flow]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+這是內衣、襪子、寒冷天氣裝備的更換，
+這個那個……我們還有緊急零食！[move A XY 10 -40 0.4][rotate A -10 0.3][delay 0.4 move A XY -10 40 0.3][delay 0.5 rotate A 0 0.3][se cloth_01]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 01]
+當你需要的時候它很有用
+因為實在太好吃了吧！/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+壱岐揹包內一瞥
+我發現它是有組織的。/
+[flow]
+[textcolor ARUJI]
+所有東西都包裝得整整齊齊，沒有任何縫隙
+然而，它似乎被認為很容易訪問。/
+[serif off]
+？太棒了/
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 00]
+[shake A]
+[say A]
+[serif on]
+對了！畢竟，易於拆卸也很重要。
+我不想忘記什麼.../
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 01]
+我正在準備這個揹包
+太令人興奮了！/
+[serif off]
+？你這麼興奮嗎？/
+[face A 00]
+[serif on]
+是啊！
+說到冒險，就會有各種各樣的情況。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 08]
+有時您獨自一人在未探索的地區。
+有時候你必須去又要回來。/
+[face A 03]
+[shake A]
+[flow]
+所以我一邊準備一邊想。
+什麼時候需要一些東西...？/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[shake A]
+[flow]
+啊！我現在明白了...即使我正在準備...
+也許我正在腦子裡進行一場冒險！/
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+壱岐 使用手勢
+他高興地解釋。/
+[serif off]
+？你喜歡冒險，對吧？/
+[effect fr kira a 0 0]
+[se kira_01]
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 01]
+[say A]
+[serif on]
+是的，我喜歡它。/
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+我從未見過的景色。一些神秘的東西。
+自然和生物。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+我希望我能在艱難的道路盡頭找到類似的東西。
+它以一種我無法用言語表達的方式充滿了我的心。/
+[effect off a]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+當我看到壱岐的笑容時，我有一種感覺
+這就是有趣的地方。/
+[flow]
+[textcolor ARUJI]
+我想藉此機會向您介紹更多關於壱岐的資訊。
+我想知道。/
+[serif off]
+？想一起探索莊園嗎？/
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 05]
+[shake A]
+[say A]
+[serif on]
+呃，好吧！ ？
+耶！[face A 09]/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.4 move A Y 10 0.1]
+[delay 0.5 move A Y -10 0.2]
+[autotap]/
+[flow]
+[face A 01]
+我對莊園還不太瞭解。
+我很高興能夠和你一起去冒險！/
+[face A 09]
+[shake A]
+[flow]
+那麼，話不多說…
+舒帕蘇！ ！/
+[se fusuma_01]]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg niwa_day]
+[minibg off]
+[bgm fun]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[place 屋外修練場]
+[-]
+[autotap]/
+[show A C]
+[move A X 1000]
+[move A X -1000 0.5]
+[face A 01]
+[say A]
+[serif on]
+我感覺我即將有一個重大發現！ ！/
+[show C L]
+[move C X -300]
+[move C X 300 0.5]
+[face C 05]
+[orderline A C]
+[face A 11]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[face A 11]
+[flow]
+我想知道這是什麼...
+也許有人忘了換衣服？/
+[face C 06]
+[se cloth_01]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg mbg_syouen]
+[minibg syouen_tyubo]
+[hide C]
+[move A X -1000]
+[-]
+[fadeout 1.5]
+[-]
+[place 厨 くりや]
+[-]
+[move A X 1000 0.5]
+[autotap]/
+[face A 07]
+[say A]
+[serif on]
+聞起來不錯...我來預測今天的選單。
+如果你看這個情況，你做的是味噌湯.../
+[talkend]
+[textcolor ARUJI]
+壱岐 想像從廚房的狀態中獲得樂趣。
+好像還在流傳。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[move A X -1000]
+[minibg kawaya_day]
+[-]
+[fadeout 1.5]
+[-]
+[place 厠 かわや]
+[-]
+[move A X 800 0.5]
+[autotap]/
+[face A 00]
+[say A]
+[serif on]
+照顧得真好啊！
+哦，看哪，主啊！[face A 05][shake A]/
+[effect fr syuryu a 0 0]
+[move A X 400 0.3]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[flow]
+牆上有個洞……！
+很刺痛！ ！洞令人興奮......！/
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+但如果能看到旁邊的人就尷尬了。
+我會解決它。/
+[face A 08]
+[move A XY -10 -40 0.4]
+[rotate A -10 0.3]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+壱岐熟練地取出揹包。
+我拿出膠帶並繼續修復。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg off]
+[bg heya_day]
+[show A]
+[face A 00]
+[move A X -1000]
+[-]
+[fadeout 1.5]
+[-]
+[place 大部屋 おおべや]
+[-]
+[move A X 800 0.5]
+[se fusuma_01]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+[say A]
+[serif on]
+這張床怎麼用、怎麼睡…
+從我周圍的事物來看，我確信$B:A對了！/
+[serif off]
+？真有洞察力！/
+[face A 01]
+[serif on]
+呵呵，我想是這樣的。我要和主人一起去冒險
+也許我比平常更興奮。/
+[face A 02]
+[shake A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+這個莊園非常寬敞，值得冒險。
+主啊！/
+[bg rouka_day 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+逛完莊園，時間到了
+正當我以為就這樣結束的時候，壱岐轉頭說。/
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 01]
+[say A]
+[serif on]
+那麼，最後一次...
+我想去那些沒有人去過的地方！[shake A]/
+[serif off]
+？未探索！ ？/
+[face A 02]
+[serif on]
+我想找一間還沒有人使用的日式房間。
+如果我把行李寄存在那裡一段時間可以嗎？/
+[serif off]
+？啊，我明白了。/
+[face A 08]
+[shake A]
+[serif on]
+趁這個機會，我們來比一比吧。我和我丈夫
+誰能先找到房間？/
+[serif off]
+？獲勝者會收到你的請求嗎？/
+[bgm battle]
+[face A 09]
+[shake A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.4 move A Y 10 0.1]
+[delay 0.5 move A Y -10 0.2]
+[autotap]/
+[serif on]
+好！
+呵呵，我不會輸的！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+這是一個優勢，因為我們知道房間分配。
+我在想我是否可以拍拍你的肩膀.../
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 08]
+[say A]
+[serif on]
+任何時間都可以。
+請給我喊一聲！/
+[serif off]
+？好吧，讓我們開始吧！/
+[scale A 0.8 0.3]
+[move A Y 250 0.3]
+[effect bg waveout 5000 0 0]
+[se walk_03]
+[hide A 0.3]
+[quake 1]
+[effect fr syutyu a 0 0]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+聽到訊號，壱岐開始以最快的速度奔跑。
+我不斷路過走廊兩旁的日式房間。/
+[show A C]
+[move A X -1000]
+[move A X 500 0.3]
+[scale A 1.6]
+[move A Y -100]
+[face A 07]
+[say A]
+這裡不一樣，[wait 0.2]這裡也不同...
+……！！[face A 08][move A X 500 0.3]/
+[scale A 2 0.3]
+[move A Y -80 0.3]
+[face A 03]
+[effect off a]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[autotap]/
+[flow]
+就是這裡！ ！/
+[fadein WHITE 0.2]
+[-]
+[bgm off]
+[bg heya_day]
+[hide A]
+[quake off]
+[-]
+[delay 0.2 fadeout 1]
+[se fusuma_02]
+[talkend]
+[textcolor ARUJI]
+壱岐開啟滑動門
+這是一間全新的房間，從未被任何人使用過。/
+[serif off]
+？我輸了……太早了！/
+[serif on]
+[textcolor ARUJI]
+而且，一路上我連房間內部都沒有檢查過。
+我一下子就跑完了這一切，來到了一個空房間。/
+[bgm fun]
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 01]
+[say A]
+呵呵……房間裡沒有任何氣味，也沒有任何人的蹤跡。
+我開始尋找它。/
+[face A 02]
+[flow]
+我想這就是所謂的「讀風」吧…
+我很擅長這種事！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+壱岐的讀風能力，
+而且他似乎有一雙敏銳的觀察力。/
+[serif off]
+？那承諾呢？/
+[show A C]
+[face A 11]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[say A]
+[-]
+[serif on]
+答應……啊，原來如此！[shake A][face A 05]
+如果我贏了這場戰鬥，我想我的請求就會得到滿足。/
+[face A 01]
+[flow]
+我全神貫注於其中，根本沒有想過自己想要什麼。
+呵呵。/
+[face A 11]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+嗯，我剛剛和我的主人一起冒險了。
+不過這樣就夠了.../
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[flow]
+啊！ ……謝謝您的美好祝福。
+我想出了一個主意！/
+[serif off]
+？什麼？/
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[-]
+[serif on]
+主啊，你知道.../
+[face A 02]
+[shake A]
+[effect fr syutyu 6000 0 0]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.4 move A Y 10 0.1]
+[delay 0.5 move A Y -10 0.2]
+[autotap]/
+[flow]
+[bgm ascending]
+從今天開始，讓我們創造自己的冒險團隊吧！
+我們一起去不同的地方。[se taiko_02]/
+[serif off]
+？冒險團！ ？/
+[face A 00]
+[serif on]
+沒錯！出去到各個地方
+發現新事物，看到不一樣的風景！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+當我聽說這是一個冒險團時我很驚訝。
+壱岐很嚴重。/
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 02]
+[shake A]
+[say A]
+[serif on]
+這肯定會很有趣！
+這就是我對你的全部要求！/
+[serif off]
+？我明白了。/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.4 move A Y 10 0.1]
+[delay 0.5 move A Y -10 0.2]
+[autotap]/
+[serif on]
+耶！
+我們的冒險隊已經完成了，隊長！/
+[serif off]
+？隊長！ ？/
+[face A 02]
+[serif on]
+是的！大師是冒險團的隊長。
+我是副隊長，所有的雜務和準備工作都交給我吧！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 01]
+呵呵，我會繼續跟隊長一起去冒險的。
+我可以出來了……我太高興了！/
+[face A 00]
+[flow]
+那麼，這就是冒險團成立的證明。
+接受吧，指揮官！/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+壱岐來自一個大揹包裡。
+他遞給我一塊光滑的石頭。/
+[serif off]
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[say A]
+[-]
+[serif on]
+我今天早上在一次冒險中發現了它。
+現在，它是我最珍貴的財產。[face A 01]/
+[serif off]
+？你想要那麼重要的東西嗎？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+我對石頭瞭解不多，但它們只是石頭。
+儘管我能看到它，但我還是覺得它很有價值。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[shake A]
+[say A]
+好！今天是個重要的日子。
+今天是我和領導結緣的日子！/
+[serif off]
+？好吧。那我就好好珍惜吧/
+[face A 01]
+[serif on]
+是啊！ ……但是，[face A 11]
+這是我在莊園的門廊上發現的——/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[effect fr kira a 0 0]
+[se kira_01]
+[flow]
+繼續更多的冒險
+讓我們繼續增加我們的寶藏吧，船長！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+下次我想去這個莊園的花園探索一下。
+我想知道廣闊花園的盡頭是什麼。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 09]
+我光是想想就興奮！/
+[effect off a]
+[flow]
+[face A 08]
+我想立刻去冒險…
+首先，我們要做好準備。[face A 01]/
+[face A 02]
+[flow]
+隊長的揹包我也會準備好。
+我們去買我們需要的東西吧。/
+[hide A]
+[serif off]
+？我們走吧！/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+考慮準備你的揹包
+我已經開始興奮了。/
+[show A]
+[scale A 2]
+[move A Y -160]
+[face A 02]
+[shake A]
+[effect fr kira a 0 0]
+[se kira_01]
+[say A]
+呵呵！感謝您一直以來的支援，船長！/
+[hide A]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+一位小冒險家壱岐加入了莊園。/
+[flow]
+[textcolor ARUJI]
+懷著那份巨大的好奇心，我將永遠留在這個莊園裡。
+似乎呼吸到了新鮮空氣。/
+[flow]
+[textcolor ARUJI]
+我就是這麼想的。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[bgm off]
+[wait 1]
+[-]
+[autotap]/
+>>101/
+[set A s_iki_r 壱岐]
+[set B s_n000_r 猫乃屋]
+[set C s_n001_r 夏人]
+[set D s_n002_r 猪森]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 壱岐と風の通り道]
+[-]
+[bg shirei_day]
+[bgm home]
+[-]
+[fadeout 2.0]
+[-]
+[serif on 0.5]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+壱岐似乎已經完全習慣了這個莊園。
+他已成為執行任務時可靠的存在。/
+[serif off]
+[show D C]
+[show A C]
+[setline D A]
+[face D 01]
+[face A 01]
+[say D]
+[orderline A D]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[-]
+[serif on]
+那麼，*P君。
+祝你下次任務順利！/
+[face A 02]
+[say A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+領袖！讓我們盡力而為吧！/
+[serif off]
+？我會盡力的/
+[playeryes]
+[-]
+[hide D]
+[hide A]
+[-]
+[autotap]/
+[show C R]
+[show B]
+[setline B C]
+[orderline C B]
+[face C 01]
+[face B 03]
+[say C]
+[serif on]
+今天的戰略會議到此結束。/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[bgm departure]
+[face B 13]
+[say B]
+即使你這樣做...
+老實說，味道很難聞。/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 04]
+[say C]
+是的.../
+[show D R]
+[setline 0.5 B C D]
+[orderline C B D]
+[face D 10]
+[say D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+呃，你在說你自己嗎…？[se zukkoke_02]/
+[face B 12]
+[say B]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+不……這次不是井內。
+這是.../
+[face B 03]
+[face C 15]
+[face D 12]
+[talkend]
+[textcolor ARUJI]
+貓夜和夏人看著這一幕。/
+[bgm fun]
+[serif off]
+？這裡！ ？/
+[show A L]
+[setline 0.5 A B C D]
+[orderline A C B D]
+[face A 12]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+其實我也是這麼想的...
+指揮官，有股奇怪的味道。/
+[face C 12]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+這聞起來就像是半乾的。/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 10]
+[say B]
+最近下了很多雨...
+是濕濕的.../
+[flow]
+[face A 05]
+[face B 08]
+順便說一句，還有地魂男孩的人。
+有人穿著有點太小了。/
+[hideall]
+[-]
+[talkend]
+[textcolor ARUJI]
+確實……最近莊園一直在下雨。
+我正在室內晾衣服。/
+[flow]
+[textcolor ARUJI]
+莊園內的天氣基本上反映了現實世界的訊息。
+一切都在控制之中，所以會有這樣的時候。/
+[flow]
+[textcolor ARUJI]
+最近，即使是在莊園裡，我有時也能聞到這種味道。
+有啊，不過沒想到裡面也有我的衣服…/
+[show B C]
+[face B 10]
+[say B]
+我希望我能在外面晾衣服...
+我也覺得衣服都濕了…/
+[serif off]
+[show C R]
+[setline 0.5 B C]
+[orderline C B]
+[face C 14]
+[say C]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[-]
+[serif on]
+如果能在室內晾乾，至少通風良好。
+我認為這很好.../
+[serif off]
+[hide B]
+[hide C]
+[-]
+[show A C]
+[face A 08]
+[say A]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+有氣質嗎...
+如果莊園裡有一陣微風就好了！[face A 01]/
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[effect fr kira a 0 0]
+[se kira_01]
+[flow]
+既然如此，我們就和領隊一起探索這座莊園吧！
+我們擅長冒險，不是嗎？[shake A]/
+[effect off a]
+[serif off]
+和壱岐（？）一起去莊園冒險吧/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[bgm dungeon]
+[bg heya_day]
+[wait 1]
+[-]
+[fadeout 1.5]
+[-]
+[serif on 0.5]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+當我跟著壱岐的時候，壱岐看起來很開心，
+他來到一間面向花園的空房間。/
+[bg heya_day 0.5]
+[se fusuma_01]
+[show A C]
+[move A X -300]
+[move A X 300 0.5]
+[face A 08]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+洗好的衣服剛掛起來晾乾。
+可是外面下著雨，門卻關著…/
+[serif off]
+？當然，看起來會是半乾的.../
+[face A 00]
+[serif on]
+[say A]
+[se cloth_01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+以防萬一，請在衣物之間留出一些空間。
+好像比較容易乾.../
+[flow]
+[face A 11]
+這是數字。
+……讓我們確保這個房間裡有微風！[face A 01][shake A]/
+[serif off]
+？你能做到嗎？/
+[face A 00]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+是的，保持穩定。
+我會為風開闢一條道路。/
+[move A X -400 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+冷空氣從山邊吹下來…
+感覺入口側就是風的出口側…[move A X 800 1]/
+[move A X -400 0.5]
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[flow]
+好吧，我們先去這個走廊吧！
+領袖！/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[se fusuma_01]
+[se walk_01]
+[hideall]
+[effect bk rain c 800 0]
+[se rain_01]
+[-]
+[bg rouka_day]
+[-]
+[fadeout 1.0]
+[-]
+[se walk_01]
+[autotap]/
+[show A C]
+[face A 07]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+[shake A]
+啊。/
+[serif off]
+？你立刻注意到什麼了嗎？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[serif on]
+[say A]
+不，呵呵。
+我能聞到廚房裡的味道，我餓了。/
+[face A 08]
+[flow]
+但是...
+這意味著風正在吹過它。/
+[move A X -300 0.5]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_01]
+[autotap]/
+[flow]
+[face A 00]
+啊，風從這裡吹進來了。
+是啊，看起來感覺不錯。/
+[move A X -500 0.5]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+所以...
+啊，我想我不能透過這裡。[move A C 1]/
+[hide A]
+[serif off]
+[se fusuma_02]
+[shakebg]
+?開啟小拉門/
+[show A]
+[face A 02]
+[serif on]
+[say A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+謝謝你，船長！[shake A]
+看來我能稍微撐過去了。/
+[se cloth_01]
+[move A X -300 0.5]
+[face A 09]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+啊，如果我開啟這個視窗...哇...[se goto_01]
+你看，有一陣冷風從山上吹下來！/
+[serif off]
+[face A 08]
+[move A C 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[flow]
+[-]
+[serif on]
+然而，直到我剛剛連線的流程
+我無法很好地連線.../
+[serif off]
+？使用迴圈器？/
+[face A 05]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[shake A]
+現在，Kyuretaa...哦，關於電風扇！ ？
+就是這樣！領導者！ ！[shake A][face A 09]/
+[face A 02]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[effect fr kira a 0 0]
+[se kira_01]
+[flow]
+使用現代工具建立新流程
+你會成功的。這是個好主意！[shake A]/
+[effect off a]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm night]
+[face A 00]
+[se cloth_01]
+[delay 0.2 se goto_01]
+[wait 1]
+[se rokuhara_05]
+[-]
+[fadeout 1.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[say A]
+[serif on]
+就是這樣！　
+外面的空氣流向走廊的盡頭…/
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 02]
+啊，我現在可以輕鬆地走路了！
+我感覺你說的就是這個/
+[serif off]
+？你聽得到風聲嗎？/
+[face A 01]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+雖然不太清楚。呵呵。
+但它在冒險時也非常有用。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 00]
+有些事情是危險的，有些事情是好的。
+風會告訴你。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[flow]
+即使我在莊園裡……我也會聽風的聲音。
+「隊長，你現在在哪裡？」…/
+[face A 05]
+[shake A]
+[flow]
+天啊！
+有時？　[shake A][face A 01]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+壱岐害羞的微笑
+我就覺得很可愛。/
+[flow]
+[textcolor ARUJI]
+壱岐用於正在乾燥的房間內的通風。
+已確認。/
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+我說我聽得到風的聲音.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[flow]
+我最好的朋友對馬能聽懂動物們在說什麼。
+我想我們有點不一樣。/
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+但也許這就是原因...
+我和對馬相處的很好。/
+[se fusuma_02]
+[hide A]
+[talkend]
+[effect off c]
+[effect bk rain d]
+[bg mbg_shyouen 0.5]
+[minibg sky_cloudy 0.5]
+[textcolor ARUJI]
+壱岐 走到面向花園的走廊。
+我抬頭望著陰雨綿綿的天空。[se rain_02]/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+然而，日本卻颳起了各種風。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[flow]
+在這個有很多地魂男孩的莊園裡
+我想成為朋友並體驗各種各樣的事情。/
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[flow]
+現在，隊長，我們去探索其他房間吧！[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 00]
+還有風停滯的地方
+可能有。/
+[se cloth_01]
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off d]
+[bgm off]
+[hideall]
+[minibg off]
+[bg gozasyo_day]
+[-]
+[se amb_01]
+[fadeout 2.0]
+[-]
+[autotap]/
+[talkend]
+[place 翌日]
+[-]
+[autotap]/
+[bgm fun]
+？我的衣服沒有味道！/
+[show A C]
+[face A 07]
+[say A]
+[se cloth_01]
+[scale A 2 1.5]
+[move A Y -220 1.5]
+[autotap]/
+[serif on]
+真的嗎？嗯...
+太棒了。/
+[se cloth_01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+壱岐在這裡擦臉，摸摸肚子。
+我深吸了一口氣。/
+[face A 02]
+[say A]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+嘿嘿，隊長，味道真好。
+這對我們的冒險隊來說是一個偉大的成就！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+這可能是由於風流的改善。
+今天洗的衣服乾得很好，沒有半乾的味道。/
+[flow]
+[textcolor ARUJI]
+莊園裡的半生騷動
+至此，事情就解決了。/
+[serif off]
+？謝謝壱岐/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[say A]
+[serif on]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+呵呵。這是我們共同努力的結果！
+領袖！/
+[face A 07]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+啊，這風…
+差不多了……看來明天要放晴了！[face A 00]/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+[shake A]
+[flow]
+然後我想去一個感覺不錯的地方。
+山上一定有微風！/
+[effect off a]
+[serif off]
+？我們一起去吧！/
+[playeryes]
+[-]
+[face A 01]
+[wait 1]
+[-]
+[fadein black 1]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+之後在壱岐的建議下
+調整了莊園內的通風。/
+[flow]
+[textcolor ARUJI]
+浴缸裡根本沒有發黴。
+我很驚訝。/
+[flow]
+[textcolor ARUJI]
+壱岐的特殊讀風能力…
+看來在這個莊園一定會好好發揮的！/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

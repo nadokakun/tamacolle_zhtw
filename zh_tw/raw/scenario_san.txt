@@ -1,0 +1,647 @@
+>>10000/
+@讚岐
+我的名字是南海道[wait 1.0]我是來自四國的讚岐。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@讚岐
+師父！我相信它會有用！/
+>>10001/
+@讚岐
+師父！[wait 1.0]
+呵呵呵呵,[wait 0.7]油烏龍麵[wait 0.5]你喜歡嗎？/
+>>1/
+[set A s_san_r 讚岐]
+[show A C]
+[face A 12]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[say A]
+大師~！　
+你去過小豆島嗎？/
+[face A 00]
+你知道……在小豆島上，只有在退潮時。
+有一個辦法.../
+[face A 02]
+有一天與某位大師
+我本來想走走.../
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，好吧！ ？
+[face A 02]我很高興...這是一個承諾！/
+>>2/
+[set A s_san_r 讚岐]
+[show A C]
+[face A 12]
+[serif on]
+[talk A]
+嘿老頭。
+我想知道如果我爬上花園裡的一棵樹，我可以看到多遠。/
+[face A 00]
+來自金比羅桑
+讚岐可以看到整個平原。/
+[face A 01]
+這是我最喜歡的風景！
+我也想給大師看看。/
+[face A 02]
+我必須爬很多樓梯
+讓我們一起努力吧！/
+>>3/
+[set A s_san_r 讚岐]
+[show A C]
+[face A 01]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+秋天是我一年中最喜歡的季節！
+秋天就是食慾旺盛，就是這樣！/
+[face A 02]
+還有寒霞溪的紅葉
+很漂亮...！[face A 01]　非常令人印象深刻！/
+[face A 02]
+當我看到它時，我更加喜歡你了。
+也許我能得到它...[shake A 2]誒嘿嘿。/
+>>4/
+[set A s_san_r 讚岐]
+[randomset B r @地魂男児 -san]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+誒嘿嘿……消音器很漂亮，不是嗎？
+$B:A我被稱讚了.../
+[flow]
+[face A 00]
+我很高興，因為我剛剛得到了一個新的！
+[face A 02]呵呵。/
+>>5/
+[set A s_san_r 讚岐]
+[randomset B r @地魂男児 -san]
+[show B R]
+[show A L]
+[face A 01]
+[serif on]
+[talk A]
+好吧，我們就學別人的動作，讓自己變得更強。
+今天是$B:A我會模仿你的…！/
+[flow]
+[face A 03]
+[move B X -100 0.5]
+[move A X -100 0.5]
+首先，我們徹底檢查小習慣和動作…
+[move B XY -10 -40 0.4][rotate B 10 0.3][delay 0.4 move B XY 10 40 0.3][delay 0.5 rotate B 0 0.3][move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]嘿，既然決定了，就徹底一點吧……！[move B X 300 1.0][move A X 300 1.0]/
+>>6/
+[set A s_san_r 讚岐]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+（我餓了…）/
+[flow]
+[face A 01]
+好吧，
+[move A X 700 0.5]我們來做烏龍麵吧！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_san_r 讚岐]
+[randomset B r @地魂男児 -san]
+[show A L]
+[show B R]
+[talk A]
+[face A 00]
+[face B 01]
+[serif on]
+我想知道莊園裡可以養狗嗎？
+[face A 02]我想，如果我們大家一起養牠，那一定會非常可愛又美好。/
+[flow]
+[face A 02]
+好吧，等我長大了，我就讓金比羅桑去旅行。
+[face B 05][move B X 50 0.3][move A Y 100 0.1][delay 0.1 move A Y -100 0.2]我的夢想是讓金比拉成為一隻狗！/
+>>10/
+[set A s_san_r 讚岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+沒錯！
+明天早餐也吃烏龍麵吧！ ！/
+[face A 02]
+[move A X 300 0.4]
+好的，我現在就得準備！ ！/
+>>11/
+[set A s_san_r 讚岐]
+[randomset B r @地魂男児 -san]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+啊，已經到那個時候了。
+我很快就得去洗澡了。/
+[flow]
+[face A 00]
+我得清理一下...[wait 0.3]那麼，那個？[face A 05]！？
+[shake A 3]實在是太亂了…/
+[flow]
+[show B R]
+[talk A]
+[face B 05]
+[face A 04]
+啊...$B:A……
+[wait 0.2]嘿嘿，這是……那個……[shake A 2][face A 06]…/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_san_r 讚岐]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+油肚，
+有人告訴我它又軟又軟.../
+[move A Y -20 0.2]
+[delay 0.2 move A Y 20 0.1]
+[delay 0.4 move A Y -20 0.2]
+[delay 0.6 move A Y 20 0.1]
+……/
+[face A 12]
+[effect fr kira 2000]
+可能比烏龍麵軟。/
+>>15/
+[set A s_san_m 讚岐]
+[randomset B m @地魂男児 -san -@NPC]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[effect A syutyu 2000]
+Suishin風格的投球！ ！/
+[face A 06]
+嗯，我想知道這樣可以嗎？
+$B:A我想我會再問你的想法.../
+>>16/
+[set A s_san_m 讚岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[move A X 200 0.3]
+哎呀！[effect A bomb 2000 0 150][se bomb_02][wait 0.5]　哎呀！　[move A X -400 0.4][move A Y 100 0.2][delay 0.2 effect A allow 2000 0 150][delay 0.2 se syu_02][delay 0.2 move A Y -100 0.1][wait 0.5]嗨！ ！[se syu_04][move A X 500 0.2][wait 0.5]
+天啊！ ！[move A X -100 0.1][effect A syutyu 2000][face A 11][se bomb_01]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+噗……噗……/
+[face A 04]
+哎呀，我的喉嚨好可愛…[face A 11]
+[move A X 200 1.0]水，水在哪裡？呵呵。[rotate A -30 0.4][move A XY 40 -40 0.5][se dosa_01]/
+>>17/
+[set A s_san_b 讚岐]
+[randomset B b @地魂男児 +@あやかし -san]
+[show A C]
+[show B]
+[setline A B]
+[face A 01]
+[serif on]
+[talk A]
+呃，除此之外~
+用扇子搧風的感覺真好。/
+[flow]
+[face B 01]
+[face A 12]
+丸龜粉絲是我的驕傲！/
+>>18/
+[set A s_san_b 讚岐]
+[randomset B b @地魂男児 +@あやかし -san]
+[randomset C b -@NOW]
+[effect fr yuge A]
+[se amb_12]
+[se water_06]
+[show B R]
+[move B XY -20 -50]
+[show A C]
+[move A XY -20 -50]
+[show C L]
+[move C XY -20 -50]
+[scale A 1.5]
+[scale B 1.5]
+[scale C 1.5]
+[face A 12]
+[serif on]
+[talk A]
+[shake A 3]
+此時洗澡
+總是擠滿了.../
+[flow]
+....如果你建造許多像池塘一樣的浴室
+[face A 05]希望大家能夠放鬆心情，沉浸其中…？/
+[flow]
+[se water_03]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move B X 50 0.2]
+[face B 05]
+[face C 05]
+[face A 01]
+告訴大師吧！/
+>>19/
+[set A s_san_b 讚岐]
+[effect fr yuge A]
+[se amb_12]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+好、好、好…[se bath_05]/
+[flow]
+[face A 01]
+每個角落我都要打掃乾淨
+你珍貴的衣服會弄髒的。/
+>>20/
+[set A s_san_r 讚岐]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[shake A 3]
+現代小屋真是太棒了…
+[wait 0.2]當你離開時水會自動流動.../
+[scale A 2.0]
+[face A 02]
+[move A Y -100]
+我確信他是藉用了水神的力量。
+真是太神奇了，你竟然一直在看著我…[shake A 3 20 20]　/
+[scale A 1.0]
+[move A Y 100]
+[face A 00]
+後來到了水神
+我必須提供烏龍麵！[move A X 800 0.5]　/
+>>21/
+[set A s_san_r 讚岐]
+[show A C]
+[face A 12]
+[serif on]
+[talk A]
+[shake A 3]
+嘰嘰喳喳.../
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[face A 01]
+好的，完美！
+我得小心地把它瀝乾。/
+>>22/
+[set A s_san_r 讚岐]
+[show A L]
+[move A X -300]
+[face A 06]
+[-]
+[move A X 700 0.4]
+[delay 0.4 move A X -150 0.2]
+[-]
+[serif on]
+[talk A]
+哇哇！
+還好是空的.../
+[flow]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+唷
+還好我及時趕到了.../
+>>23/
+[set A s_san_r 讚岐]
+[randomset B r @地魂男児 -san]
+[show A C]
+[face A 01]
+[move A Y -50]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+呼…
+我傾向於在私人房間放鬆.../
+[flow]
+[show B L]
+[scale B 1.3]
+[move B Y -50]
+[order B 1]
+[order A 0]
+[move B X -500]
+[move B X 350 1.0]
+[-]
+[face A 05]
+[face B 05]
+[talkend]
+加查特/
+[talk A]
+……[wait 0.5]
+[move A X 50 0.1][move B Y 100 0.1][delay 0.1 move B Y -100 0.2][face A 10][face B 06]哇哇哇！[move B X -800 0.3]　/
+[flow]
+[shake A 5]
+[face A 11]
+（或者，我忘記鎖門了……！
+　你這個白痴！ ）/
+>>24/
+[set A s_san_r 讚岐]
+[randomset B r @地魂男児 -san]
+[show B R]
+[show A L]
+[talk A]
+[face A 01]
+[-]
+[se cloth_03]
+[order A 1]
+[order B 0]
+[move A X 300 1.0]
+[-]
+[serif on]
+戈隆[face B 05]周圍。/
+[flow]
+[face A 02]
+[face B 02]
+呵呵，$B:A上面，
+我來接手！/
+>>25/
+[set A s_san_r 讚岐]
+[show A C]
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+湯汁……湯汁……/
+[serif noname]
+[talkend]
+讚岐正在安穩地睡覺…/
+>>26/
+[set A s_san_r 讚岐]
+[randomset B r @地魂男児 -san -@NPC]
+[show A C]
+[show B]
+[setline A B]
+[se cloth_01]
+[face A 01]
+[move A Y -300]
+[move A Y 300 1.0]
+[serif on]
+[talk A]
+[face B 01]
+嗯，早安。$B:A……[face A 06]　[shake B][face B 06]
+呃！ ？[shake A 5]　/
+[flow]
+嘿，[face A 11]我剛醒...[move A Y -100 1.0]　
+尷尬.../
+/
+>>100/
+[set A s_san_r 讚岐]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[minibg tyubo]
+[-]
+[title 絆 讚岐とうどん作り]
+[-]
+[bg mbg_map]
+[-]
+[se fusuma_01]
+[fadeout]
+[-]
+[bgm home]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+讚岐說有件事他想一起做。
+我來到我們見面的廚房。/
+[show A C]
+[face A 01]
+[talk A]
+師父！
+謝謝您今天的到來！/
+[face A 12]
+[flow]
+其實我是想請師父多瞭解我。
+我想得到它，所以我想了.../
+[face A 02]
+[effect bk kira 2000]
+那麼！一想到你，我就想到烏龍麵！
+當你說烏龍麵時，你就大飽口福了！ ！/
+[face A 01]
+[flow]
+這就是為什麼我把奧伊拉特製的烏龍麵獻給主。
+盛宴！[wait 0.5][face A 04]　……那就太正常了…/
+[face A 01]
+[flow]
+今天我們一起做烏龍麵吧
+我正在考慮去做！/
+[face A 00]
+從揉烏龍麵開始，
+煮開，上菜，然後吃！/
+[face A 12]
+[flow]
+然後，
+關於烏龍麵和油，/
+[face A 01]
+[flow]
+我對師父很有感觸。
+我想我會得到它，嘿嘿。/
+[serif off]
+？好吧。/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+耶！
+那麼就讓我們立即開始吧！ ！/
+[fadein BLACK 0.5]
+[serif off]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+一邊聽讚岐的講解，一邊往麵粉裡加鹽水。
+邊攪拌邊揉捏。/
+[show A L]
+[face A 00]
+[move A C 0.5]
+[talk A]
+[serif name]
+……啊，關於老人的一些事。
+天氣乾燥。水還不夠嗎？/
+[face A 01]
+[move A X -100 0.5]
+[flow]
+試著碰觸我。
+你看，是不是很濕潤？/
+[serif off]
+？確實如此，這很難…/
+[serif on]
+[face A 00]
+[move A C 0.2]
+別擔心！
+我來揉揉油老頭！/
+[face A 01]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[flow]
+小貓……小貓……完成了！/
+[face A 12]
+[flow]
+那就讓它休息一會兒吧…
+按摩裡面，讓它休息一會兒！/
+[fadein BLACK 0.5]
+[serif off]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show A]
+[face A 02]
+現在，是時候擀麵棍了！
+我要把烏龍麵拉長！/
+[serif off]
+?良好的靈巧性/
+[face A 05]
+[serif on]
+哈！我剛剛愛上它
+我一直一個人走！/
+[face A 11]
+[sake A]
+（我想和主人一起做...
+　你這個白痴！ ）/
+[face A 06]
+那麼，
+你能幫我用擀麵棍擀一下嗎？/
+[serif off]
+？ @@站在P0@@後面/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+[se cloth_01]
+[serif on]
+我從後面纏住讚岐並抓住了棍子。
+你能感覺到自己體溫的微弱溫暖。/
+[show A]
+[face A 05]
+[scale A 1.6]
+[move A Y -110]
+[talk A]
+哇，師父！[shake A]　
+[wait 0.5][face A 12]如果他們黏在一起太多，那就很難了，對吧？呵呵。/
+[serif off]
+？ 讚岐 的手交給你了/
+[move A Y -50 1]
+[delay 1 move A Y 50 0.5]
+[delay 1.5 move A Y -60 1.5]
+[delay 3 move A Y 50 0.5]
+[autotap]/
+[serif on]
+[face A 01]
+平均分配體重的同時......哦是的。
+嗯！唷！/
+[face A 02]
+[flow]
+哈哈哈……師父你很厲害啊！
+我很驚訝！/
+[textcolor ARUJI]
+[talkend]
+讚岐 笑了。/
+[face A 01]
+[serif name]
+[talk A]
+之後，只需切割並煮即可！剪什麼
+我來辦，師傅就負責撣塵！/
+[fadein BLACK 2.0]
+[serif off]
+[-]
+[hideall]
+[minibg ima]
+[bg mbg_map]
+[-]
+[fadeout 1.0]
+[-]
+[se kira_01]
+[serif on]
+[show A]
+[face A 09]
+完成！
+我要了！ ！/
+[face A 06]
+[flow]
+……主人，怎麼了？
+油工烏龍麵。/
+[serif off]
+?非常好吃/
+[face A 02]
+[serif on]
+耶！
+油也...[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]滑行！/
+[face A 09]
+[flow]
+[se kira_01]
+[effect bk kira 2000]
+哇，又硬又耐嚼。
+好吃！我覺得比平常好吃！/
+[serif off]
+？可能是因為我們一起做到了。/
+[face A 05]
+[serif on]
+！！[wait 0.5][face A 02]　哦，原來如此！
+我確信是這樣！誒嘿嘿……真好吃！/
+[face A 01]
+我還剩下一些烏龍麵。
+我可以邀請莊園裡的所有人嗎？/
+[serif off]
+？點點頭/
+[face A 09]
+[serif on]
+耶！大家一起吃飯吧！ ！
+我很快就會回來的！ ！[move A X 300 0.5][hide A][se walk_01][se fusuma_01]/
+[talkend]
+[textcolor ARUJI]
+讚岐高興地打電話給大家。
+他離開了房間。/
+[serif off]
+[fadein black 2]
+[-]
+[textcolor ARUJI]
+[serif on]
+讚岐製作的烏龍麵的味道
+它比我吃過的任何烏龍麵都好吃。/
+[textcolor ARUJI]
+我就是這麼感覺的。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

@@ -1,0 +1,689 @@
+>>10000/
+@備後
+よぉ！　ご主人！[wait 0.7]
+ワシは山陽道の備後じゃ！[autotap]/
+[delay 2.1]
+[flow]
+[-]
+@備後
+よろしゅう頼むでぇ！[delay 2.5]/
+>>10001/
+@備後
+ご主人！　[wait 1.0]ちょうど面白い遊び思いついたとこじゃ！[wait 1.5]
+一緒に遊ぼうやぁ！[delay 2.5]/
+>>1/
+[set A s_bin_r 備後]
+[show A C]
+[face A 00]
+[move A X -100 0.2]
+[-]
+[serif on]
+[talk A]
+なあご主人、
+ご主人には好きな景色ってあるか？/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ワシは海や尾道の街を一望できる
+千光寺からの景色が好きじゃあ！/
+[face A 02]
+[move A X 150 0.2]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+本堂の裏側に鎖をつたって登る
+「修行道」があってこれも楽しいんじゃ！/
+[face A 03]
+[scale A 1.5 0.2]
+[move A XY -50 -150 0.2]
+でもワシはろーぷうぇーという奴が気になっとる。
+[face A 09]ご主人！　一緒にどうじゃ！/
+>>2/
+[set A s_bin_r 備後]
+[show A L]
+[face A 01]
+[move A X -400]
+[move A X 400 0.5]
+[-]
+[serif on]
+[talk A]
+ご主人、お疲れじゃろー！
+[move A X 250 0.8][face A 02]ごはん持ってきたけぇ！/
+[face A 08]
+ん？　[wait 0.5]ただの白ごはんじゃないでぇ！
+[face A 01][move A Y 100 0.1][delay 0.1 move A Y -100 0.2]「うずみ」じゃ！/
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ご主人の好きなもん、たっぷりうずめといたけぇ！
+[wait 0.4]へへ、礼にゃあ及ばんけぇ、早う食べぇや！/
+>>3/
+[set A s_bin_r 備後]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+ご主人！[scale A 1.5 0.5][move A Y -150 0.5][wait 0.3]　これを、[move A Y -50 0.2][delay 0.2 move A Y 50 0.2]こうして……こう[move A Y -50 0.2][delay 0.2 move A Y 50 0.2]……できた！
+[scale A 1.0 0.5][move A Y 150 0.5][face A 02]茅の輪のお守り、腰に結わえたったけぇ！/
+[face A 00]
+茅の輪を腰につけると病気にならんけぇな。
+無病息災・家内安全じゃ！/
+[face A 02]
+……ワシとおそろじゃな！
+へへへ。/
+>>4/
+[set A s_bin_r 備後]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+どっこらせっと[shake A 1]！/
+[flow]
+[face A 09]
+ご主人がゆっくり仕事できるように
+今のうちに洗濯物畳んどくんじゃー！/
+[flow]
+[face A 02]
+ふんっふふん♪[move A X 50 0.3]　ふんっふふん♪[move A X -50 0.3]　
+家事[face A 02]は楽しいのー！/
+>>5/
+[set A s_bin_r 備後]
+[randomset B b @地魂男児 -bin -@NPC]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+たいぎぃーのぉ……
+誰かワシと遊んでくれんかー……/
+[flow]
+[show B L]
+[face B 00]
+[face A 04]
+[say A]
+[move A X 100 1.0]
+遊び相手……募集中じゃー……[face B 05]
+くぁー[rotate A -80 1.0][move A XY 300 -300 1.2]……[se dosa_01][shake B]/
+>>6/
+[set A s_bin_r 備後]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[scale A 2.0]
+[move A Y -280]
+うおぉ[shake A 2]っ
+なん[scale A 1.0 0.1][move A Y 280 0.1]じゃこれ、面白そうなげぇむじゃー！/
+[flow]
+[face A 09]
+現代は新しい遊びが
+いっぱいあって楽しいのぉ！/
+[flow]
+[face A 02]
+[shake A 3]
+きっと一生遊び尽くせんじゃろなー！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_bin_r 備後]
+[randomset B b @地魂男児 -bin -@NPC]
+[show B]
+[show A C]
+[setline B A]
+[face B 00]
+[move A X 300]
+[se fusuma_01]
+[move A X -300 0.5]
+[face A 09]
+[orderline B A]
+[say A]
+[-]
+[serif on]
+うおぉぉっ！[shake A 2]
+ええ匂いじゃ！/
+[move B C 1.5]
+[autotap]/
+[flow]
+[face B 01]
+[move A X -400 0.2]
+[rotate A 10 0.2]
+[face A 02]
+今日の晩ごはんはなんじゃー！？[move A X 400 0.2][rotate A -10 0.2]
+う[face A 05]ぉおおー！　うまそうじゃー！！/
+[flow]
+[face B 02]
+[setline 0.3 A B]
+[rotate A 0 0.2]
+[face A 09]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+ワシが全部運んだる！
+早く食いたいけぇのぉ！/
+>>10/
+[set A s_bin_r 備後]
+[show A C]
+[face A 11]
+[serif on]
+[talk A]
+昨日教えてもらった遊びはもう飽きたけぇ、
+な[face A 01]んかモダンな遊び探さんと！/
+[flow]
+[face A 09]
+[move A Y 100 0.2]
+[delay 0.2 move A Y -100 0.2]
+そんで、明日はもっと楽しく
+遊ぶんじゃー！/
+>>11/
+[set A s_bin_r 備後]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+はぁー食った喰った……
+しかし今日も一日楽しかったのぉー！/
+[flow]
+[face A 11]
+任務の時は仕方ないが
+それ以外の時間は……/
+[flow]
+[effect fr kira 4000 0 0]
+[se kira_01]
+[face A 09]
+ずーーっと
+遊んでたいのぉ！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_bin_r 備後]
+[show A L]
+[face A 10]
+[talk A]
+[move A X -500]
+[-]
+[move A X 700 0.4]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif name]
+[serif on]
+こらー！　だれじゃあ！
+こんなんしよって！！/
+[flow]
+[face A 08]
+……床に何かこぼしよって……[move A X 200 1.0]
+きちんと自分で掃除せぇ。/
+[flow]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[face A 06]
+……床がべとべとじゃあ。/
+>>15/
+[set A s_bin_m 備後]
+[randomset B m @地魂男児 -bin -@NPC]
+[show A L]
+[face A 08]
+[serif on]
+[talk A]
+おんなじ訓練ばっかじゃと
+飽きるのぉ……/
+[flow]
+[show B R]
+[talk A]
+[-]
+[face A 01]
+[move A X 200 0.3]
+おっ$B:A！　新しい訓練したいんじゃけど
+なんかええ案ないけ？/
+[flow]
+[face B 01]
+……ふむふむ、[face A 02]おおさすがじゃあ！
+面白そうじゃー！！/
+>>16/
+[set A s_bin_m 備後]
+[show A C]
+[face A 11]
+[serif on]
+[talk A]
+……ふん、つまらんのぉ。/
+[flow]
+[face A 09]
+訓練もええが、
+ワシは実戦の方が好きじゃなぁ！/
+>>17/
+[set A s_bin_b 備後]
+[show A C]
+[face A 04]
+[serif on]
+[effect A yuge a 0 0]
+[talk A]
+はぁーーたいぎー 。
+この格好でも怒られんじゃろか……/
+[flow]
+[face A 02]
+どうせ男所帯じゃ！
+軒先で涼んでからでもええじゃろー！/
+>>18/
+[set A s_bin_b 備後]
+[effect fr yuge A]
+[show A C]
+[se amb_12]
+[face A 09]
+[serif on]
+[talk A]
+[move A Y -150]
+はーちー……きゅーうー……じゅーうー……[se bath_02]
+よぉーし！[face A 01]　もう出るけぇ……[move A Y 200 0.2]！/
+[flow]
+[se bath_01]
+[move A X 300 0.3]
+最後は水風呂に入って
+身体冷ますんじゃ[move A Y -200 0.5]！/
+[flow]
+[se bath_02]
+[face A 05]
+……！！！！[shake A 5]　うぅうっひやいっ！！/
+>>19/
+[set A s_bin_b 備後]
+[randomset B b @地魂男児 -bin]
+[effect fr yuge A]
+[randomset B bin]
+[show A C]
+[se amb_12]
+[face A 11]
+[serif on]
+[talk A]
+うぅーむ……$B:Aが身体の洗い方
+教えてくれたんはええが、/
+[face A 10]
+[se bath_05]
+よくわからんとこがあった……
+詳しく聞き直すか迷うが……/
+[flow]
+[face A 09]
+[se bath_02]
+ま！　ワシ、キレイ好きじゃけぇ。
+丁寧に洗っとるし、大丈夫じゃろ！[delay 0.2 se bath_03]/
+>>20/
+[set A s_bin_r 備後]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+っはー！
+爽快爽快！/
+[flow]
+[face A 09]
+……しっかり水切りして……[shake A 3]っと。
+[move A Y 30 0.1][delay 0.1 move A Y -30 0.1]すっきりじゃー！/
+>>21/
+[set A s_bin_r 備後]
+[show A C]
+[face A 06]
+[serif on]
+[se pee_01]
+[talk A]
+じょろじょろ……/
+[flow]
+[face A 10]
+どうしよ……遊びにいく約束しとったけど……
+それどころじゃないけぇ……/
+[flow]
+[shake A 5]
+もう、めちゃくちゃ暴れたい
+気分じゃあー！！/
+>>22/
+[set A s_bin_r 備後]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+うー……[shake A 2]お腹壊したみたいじゃ……うぅぅ……
+なんか遊ぶもん持ってきたらよかったのぉ……/
+[flow]
+[face A 06]
+暇じゃし……お腹はずーっと痛いし
+もう[face A 04]地獄じゃあ……この世の地獄じゃぁ……っ。/
+>>23/
+[set A s_bin_r 備後]
+[show A C]
+[face A 11]
+[serif on]
+[talk A]
+みんなが下ネタ話しとるの
+聞いてしもたけど……/
+[flow]
+[face A 10]
+ワシより小さい体なのに……
+色々と大人なんじゃな……/
+[flow]
+……なんとなく取り残された
+気分じゃのぉ……[shake A 2 20 0]/
+>>24/
+[set A s_bin_r 備後]
+[randomset B r @地魂男児 -bin -@NPC]
+[show A L]
+[show B R]
+[face B 01]
+[serif on]
+[face A 00]
+[talk A]
+$B:A！[move A Y 100 0.1][delay 0.2 move A Y -100 0.2]
+枕投げしようでぇ！/
+[flow]
+[face A 09]
+新しいるーる考えたけぇ、
+絶対面白くなるけぇの！/
+>>25/
+[set A s_bin_r 備後]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+ぐごぉおおお……[shake A 2]
+ぐごぉおおお……[shake A 2]　/
+[talkend]
+ぐっすり眠っているようだ。/
+>>26/
+[set A s_bin_r 備後]
+[randomset B r @地魂男児 -bin -@NPC]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+ワシ、どきどきして
+眠れんくなったみたいじゃ……/
+[flow]
+[show B R]
+[face B 08]
+[talk A]
+[face A 10]
+なんか、不安なんじゃろうか……
+[move A X 100 0.1][delay 0.1 move A X -100 0.2]$B…なあ、$B:A[move A X 100 0.1][delay 0.1 move A X -100 0.2]…/
+[flow]
+[face B 00]
+[move A X -100 0.4]
+[-]
+[se cloth_01]
+[order A 0]
+[order B 1]
+[move A X 250 0.6]
+……一緒に、布団入ってもええか？
+落ち着かんのじゃぁ……/
+/
+>>100/
+[set A s_bin_r 備後]
+[set B s_bin_r 備後]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 備後と遊ぼう]
+[-]
+[minibg ima]
+[bg mbg_map]
+[-]
+[bgm home]
+[fadeout 2]
+[-]
+[serif on 0.5]
+[se walk_01]
+[quake 3]
+[textcolor ARUJI]
+居間でくつろぎながらみかんを食べていると、
+廊下をどかどかと歩く足音が聞こえてきた。/
+[serif off]
+?この足音は……？/
+[se fusuma_02]
+[show A C]
+[face A 00]
+[talk A]
+[shakebg]
+[effect fr syutyu 2000]
+[quake off]
+[-]
+[serif on]
+おう、ご主人！　ここにおったんかー！
+ワシじゃあ、[wait 0.5]備後じゃ！/
+[face A 01]
+ご主人、部屋に行ってもおらんかったけぇ……
+あちこち探しとったんじゃあ！/
+[face A 00]
+[flow]
+厨房、厠に、風呂も探したけぇ！
+部屋も片っ端から覗いてきたんじゃ！/
+[face A 11]
+[flow]
+なんや着替中やら取り込み中やらで
+叱られもしたがのぉ……/
+[talkend]
+[textcolor ARUJI]
+そういえば、さっきからあちこちで悲鳴が上が
+っていたが……どうやら備後のせいだったようだ。/
+[face A 09]
+[talk A]
+いや～でも、
+こがいなとこおるとは盲点じゃったなぁ！/
+[serif off]
+?何か用事があったの？/
+[face A 11]
+[serif on]
+まぁ、何、ちゅーわけでもないが……/
+[talkend]
+[textcolor ARUJI]
+備後は頭をかきながら答える。/
+[face A 00]
+[talk A]
+ワシ、ご主人の地魂男児になったわけじゃろ。
+じゃけ、ご主人と仲良ぉしようと思って……/
+[flow]
+[face A 11]
+ワシ、ご主人のこと、まだよく知らんけぇなー。
+ご主人の趣味も、好みも全く分からんけぇ。/
+[face A 11]
+[flow]
+どがいしたらええか考えとったんじゃ。/
+[face A 01]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[delay 0.5 shakebg]
+[delay 0.5 se taiko_01]
+そこでワシは思いついた！
+相手を知るには、遊ぶんが一番じゃ！/
+[face A 09]
+[shakebg]
+[se taiko_02]
+[effect fr syutyu 2000]
+じゃけ、ご主人！　ワシと遊ぼうや！　一晩
+たーっぷり遊べばどんな人間か、よぉわかるけぇ！/
+[face A 00]
+[talk A]
+[flow]
+穴一遊びに蹴鞠に……[wait 0.2]鬼ごっこ……[wait 0.2]歌詠むんは、
+苦手じゃけぇ……[wait 0.5][face A 11]ん、どがいした？　ご主人。/
+[serif off]
+?鬼ごっこだけはわかった/
+[face A 05]
+[se zukkoke_01]
+[scale A 1.0 0.3]
+[move A Y 100 0.3]
+[-]
+[serif on]
+…………そぉか！　[wait 0.5]ご主人には
+ちぃーっと古い遊びばっかりじゃったか！/
+[face A 11]
+ここはやっぱりもっと
+モダンな遊びがええじゃろーなあ。/
+[face A 09]
+[flow]
+安心せぇ！　ワシ、ちゃーんとモダンな遊び
+仕入れてきとるけぇ！[shake A]/
+[serif off]
+?どんな遊び？/
+[bgm off]
+[effect fr syutyu a 0 0]
+[quake 1]
+[face A 03]
+[-]
+[serif on]
+これじゃ！！
+とぉお！！[shake A]/
+[scale A 2.5 0.5]
+[move A Y -350 0.5]
+[delay 0.4 shakebg]
+[delay 0.4 se dosa_01]
+[delay 0.5 hide A]
+[autotap]/
+[talkend]
+[bgm departure]
+[textcolor ARUJI]
+備後は突然こちらに向かって突進してきたかと
+思うと、太い両腕を回し抱きついてきた。/
+[serif off]
+?！？/
+[show A]
+[face A 09]
+[scale A 2.0]
+[move A Y -250]
+[se cloth_02]
+[-]
+[say A]
+[serif on]
+ご主人！　これは「ぷろれす」ちゅーやつじゃ！
+この畳の上から出たらいかんで！/
+[se doka_01]
+[talkend]
+[textcolor ARUJI]
+備後はぐいぐいと力強く、
+プニプニの体を押し付けてくる。/
+[say A]
+[face A 02]
+おおっ！　ご主人もなかなかやるのぉ！
+じゃがそんな力じゃワシは負けんけぇの！/
+[talkend]
+[textcolor ARUJI]
+熊のように大きな備後は
+押しても引いてもびくともしない。/
+[say A]
+[face A 09]
+わはは！　ワシもいくでぇ！[shake A]/
+[serif off]
+[talkend]
+[hide A]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[se crash_04]
+[shakebg]
+[-]
+[quake off]
+[effect off a]
+[serif on]
+[textcolor ARUJI]
+備後がぐっと力を込めたかと思うと
+簡単に座布団の上に倒されてしまった。/
+[show B]
+[scale B 1.6]
+[move B Y -200 0.5]
+[shakebg]
+[flow]
+[face B 03]
+[textcolor ARUJI]
+そして、仰向けになったこちらの上に
+備後がまたがり―――…………/
+[serif off]
+?わあああああ！！/
+[bgm off]
+[face B 08]
+[move B Y -10 0.2]
+[delay 0.2 move B Y 10 0.2]
+[-]
+[move B Y -10 0.2]
+[delay 0.2 move B Y 10 0.2]
+[-]
+[wait 1]
+[-]
+[serif on]
+[textcolor ARUJI]
+…………二人の荒い呼吸だけが部屋を満たす中
+しばらく見つめ合っていると……/
+[serif off]
+[face B 11]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[wait 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+備後はお腹の上にまたがったまま、
+きょとんとした顔で話しかけてきた。/
+[say B]
+[face B 10]
+…………？　なぁ、ご主人
+ぷろれすちゅーのはどがいしたら終わるんじゃ？/
+[serif off]
+[wait 1]
+[-]
+[fadein BLACK 1]
+[-]
+[hide B]
+[-]
+[fadeout 1.5]
+[-]
+[bgm fun]
+[show A]
+[face A 04]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ぷろれすならご主人と遊べるちゅーて猫乃屋に
+聞いたんじゃが、聞き込み不足じゃったのぉ……/
+[serif off]
+?ほ、他の遊びを教えてあげるね……/
+[face A 09]
+[serif on]
+[effect fr kira a 0 0]
+[se kira_01]
+[say A]
+おぉっ！　ほんまけ！？
+楽しみじゃあー！！/
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+備後とできそうな遊び、どんなのがあるかな……
+と、スイスイとタブレットで検索していると――
+[face A 05]
+[shake A]/
+[scale A 1.6 0.5]
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y -150 0.5]
+[say A]
+その板はなんじゃ～～～？？　動いとるーー！
+ワシにも触らせてくれん！？[shakebg][face A 09]/
+[serif off]
+[minibg off 2.0]
+[fadein black 2.0]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+備後が目をキラキラと輝かせるので
+タブレットを使って夜まで遊んだのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

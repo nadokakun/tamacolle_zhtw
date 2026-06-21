@@ -1,0 +1,801 @@
+>>0/
+((s))
+[set W s_san_m 讚岐]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n002_m 猪森]
+[set D s_n003_m 羽鳥]
+[set E s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_n007_m 小豆洗い]
+[set I s_n008_m アルクトス]
+[set J s_n009_m 相馬]
+[set K s_sur_m 駿河]
+[set L s_kii_m 紀伊]
+[set M s_sag_m 相模]
+[set N s_ina_m 因幡]
+[set O s_oki_m 隱岐]
+[set P s_tnb_sumo 丹波]
+[set Q s_owa_m 尾張]
+[set R s_sur_sumo 駿河]
+[set S s_objtext_anniv2024 タイトルロゴ]
+[fadein black 0]
+[bgm off]
+[-]
+[-]
+[bgm action]
+[bg black]
+[-]
+[fadeout 2.0]
+[-]
+[minibg emo_ikari 1]
+[se fire_01]
+[talkend]
+[-]
+[serif on 0.5]
+[autotap]
+/
+((m))
+[set W s_mus_m 武藏]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n002_m 猪森]
+[set D s_n003_m 羽鳥]
+[set E s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_n007_m 小豆洗い]
+[set I s_n008_m アルクトス]
+[set J s_n009_m 相馬]
+[set K s_sur_m 駿河]
+[set L s_kii_m 紀伊]
+[set M s_sag_m 相模]
+[set N s_ina_m 因幡]
+[set O s_oki_m 隱岐]
+[set P s_tnb_sumo 丹波]
+[set Q s_owa_m 尾張]
+[set R s_sur_sumo 駿河]
+[set S s_objtext_anniv2024 タイトルロゴ]
+[fadein black 0]
+[bgm off]
+[-]
+[-]
+[bgm action]
+[bg black]
+[-]
+[fadeout 2.0]
+[-]
+[minibg emo_ikari 1]
+[se fire_01]
+[talkend]
+[-]
+[serif on 0.5]
+[autotap]
+/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n002_m 猪森]
+[set D s_n003_m 羽鳥]
+[set E s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_n007_m 小豆洗い]
+[set I s_n008_m アルクトス]
+[set J s_n009_m 相馬]
+[set K s_sur_m 駿河]
+[set L s_kii_m 紀伊]
+[set M s_sag_m 相模]
+[set N s_ina_m 因幡]
+[set O s_oki_m 隱岐]
+[set P s_tnb_sumo 丹波]
+[set Q s_owa_m 尾張]
+[set R s_sur_sumo 駿河]
+[set S s_objtext_anniv2024 タイトルロゴ]
+[fadein black 0]
+[bgm off]
+[-]
+[-]
+[bgm action]
+[bg black]
+[-]
+[fadeout 2.0]
+[-]
+[minibg emo_ikari 1]
+[se fire_01]
+[talkend]
+[-]
+[serif on 0.5]
+[autotap]
+/
+[textcolor ORANGE]
+這個季節又來了。/
+[waku on 0.5]
+[minibg off 0.5]
+[bg sumo_dohyo_day 0.5]
+[effect fr waveout 4000 0 0]
+[show P L]
+[show Q R]
+[color P black]
+[color Q black]
+[rotate P -20 0.5]
+[rotate Q 20 0.5]
+[move P X -250 0.5]
+[move Q X 250 0.5]
+[scale P 1.6 0.5]
+[scale Q 1.6 0.5]
+[moveline P Q 0 -220 0.5]
+[se taiko_01]
+[textcolor ORANGE]
+人群歡呼雀躍，戒指搖曳，交換眼神。/
+[effect bk waveout 5000 0 0]
+[effect fr syutyu a 0 0]
+[quake 2]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[rotate Q 15 0.2]
+[rotate P -15 0.2]
+[move Q C 0.2]
+[move P C 0.2]
+[moveline Q P 0 -120 0.2]
+[move Q X 210 0.3]
+[move P Q -210 0.3]
+[delay 0.2 se crash_02]
+[se taiko_01]
+[flow]
+[textcolor ORANGE]
+年輕的摔角手們繃緊了被汗水和淚水浸透的馬瓦西。
+堅持你的信念和夢想。/
+[show R]
+[scale R 1.6 3]
+[color R black]
+[move R Y -120 3]
+[move P X -500 1]
+[move Q X 500 1]
+[hide P]
+[hide Q]
+[bg black 1]
+[minibg emo_ikari 1]
+[autotap]/
+[se taiko_01]
+[textcolor ORANGE]
+每一種感覺都化為熊熊燃燒的火焰
+靈魂正面碰撞！/
+[hide R]
+[quake off]
+[effect off a]
+[textcolor ORANGE]
+這次會是一場什麼樣的比賽呢？
+不知道會不會展開……！ ？/
+[bgm off]
+[serif off 0.5]
+[minibg off 0.5]
+[se kabuki_01]
+[wait 1.8]
+[waku off]
+[-]
+[effect bk syutyu a 0 0]
+[show S]
+[scale S 2]
+[move S Y -120]
+[scale S 1 0.3]
+[move S Y 120 0.3]
+[bgm ascending]
+[-]
+[wait 3]
+[-]
+[autotap]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 1]
+[-]
+[title プロローグ 第二回相撲大会始まる！]
+[-]
+[hideall]
+[wait 2]
+[effect off a]
+[bgm journey]
+[bg mbg_map]
+[minibg sumo_mihonoura]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+[autotap]/
+[se water_04]
+[place 1731年　駿河国、三保の浦]
+[-]
+[autotap]/
+((s))
+[show W C]
+[face W 00]
+[serif on]
+[say W]
+呃……大師。你能看到嗎？
+我們已經到達地點了！/
+((m))
+[auto]
+呃……將軍。你能看到嗎？
+我們已經到達地點了！/
+((e))
+[auto]
+嗯……主人！你能看到嗎？
+我們已經到達現場了！/
+((s))
+[se amb_08]
+[face W 05]
+哇，[shake W]風很大……有點冷。
+但景色多美！[face W 12]/
+((m))
+[auto]
+哦，哇。[shake W]風很大，很冷…
+但這確實是一個很好的景色！[face W 12]/
+((e))
+[auto]
+哇。[shake W]風很大……還有點冷。
+然而，這裡的景色實在是太壯觀了，一切都令人驚嘆不已！[face W 12]/
+((s))
+[move W X 200 0.5]
+[face W 01]
+[flow]
+這是三保松原！　
+果然，據說是日本三大風景之一。 駿河！/
+((m))
+[auto]
+這是三保松原！　
+果然，據說是日本三大風景之一。 駿河！/
+((e))
+[auto]
+這是美穗的松原Ssu！
+日本三大風景名勝的命名可不只是為了好玩。 駿河！/
+[show K C]
+[setline 0.5 K W]
+[face K 01]
+[say K]
+[orderline W K]
+是的！　[shake K]
+主人……你聽得到我說話嗎……！[face K 00]/
+[move K Y 5 0.2]
+[delay 0.2 move K Y -10 0.6]
+[delay 0.8 move K Y 5 0.5]
+[autotap]/
+[face K 01]
+這是我的國家，以三保松原而聞名。
+這是三保浦。/
+[face K 15]
+[flow]
+松樹點綴著海岸線。
+舞動的白浪駿河海灣藍色的大海。/
+[flow]
+[face K 01]
+還有雄偉的富士山！/
+[face K 15]
+[flow]
+我能夠向江戶時代的美穗大師展示。
+我非常感激！/
+[hide K]
+[hide W]
+[se pi_01]
+[textcolor blue]
+@夏人的聲音
+這是指揮室。是納茲託。好工作。
+良好的溝通。/
+[se pi_01]
+[textcolor blue]
+@豬森的聲音
+我的精神狀態很穩定。
+這是舉行儀式的完美場所。/
+[face C 02]
+[flow]
+[textcolor blue]
+@豬森的聲音
+我很高興駿河-kun選擇了這個地點！/
+[show K L]
+[face K 15]
+[say K]
+我很高興能幫上忙！[shake K]/
+((s))
+[show W R]
+[setline 0.5 K W]
+[face W 00]
+[say W]
+本次候選網站
+駿河 建議的。/
+((m))
+[auto]
+本次候選網站
+駿河 建議的。/
+((e))
+[auto]
+本次候選網站
+駿河 建議的。/
+[move K Y 5 0.2]
+[delay 0.2 move K Y -10 0.6]
+[delay 0.8 move K Y 5 0.5]
+[autotap]/
+[face K 06]
+[say K]
+是的。傲慢但自私
+到達莊園的時間還早…/
+[face K 01]
+[flow]
+我真誠地希望我能為您提供一些幫助。/
+[face K 08]
+這個儀式將在富士山附近的一個神聖洞穴的某個地方舉行。
+一個好地方.../
+[face K 15]
+[flow]
+作為一個地理位置優越的地方，既是聖地，也是風景區。
+謝謝您的建議！/
+[face K 02]
+[flow]
+精彩的相撲比賽可以在這裡舉行。
+我們堅持住吧！[shake K]/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[face W 01]
+[say W]
+順便一提……那些傢伙就站在那裡。
+我們計劃在這個位置建造一個土俳！/
+((m))
+[auto]
+順便說一句...我們只是站在那裡。
+我們計劃在這個地方建造一個土俳！/
+((e))
+[auto]
+順便說一句...我們只是站在那裡。
+我們計劃在這個位置建造一個環！/
+((s))
+[face W 12]
+[face K 00]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+啊，紀伊！/
+((m))
+[auto]
+哦，這不是紀伊嗎？/
+((e))
+[auto]
+啊，紀伊！/
+[show L R]
+[setline 0.5 K W L]
+[face L 01]
+[say L]
+[orderline K W L]
+哦，$W駿河。
+你和你的主人有交流嗎？/
+[face L 02]
+[flow]
+老人們現在正在製作符咒。
+沒錯。/
+[hide W]
+[hide K]
+[-]
+[show M L]
+[show N]
+[show O]
+[setline M N O 200 1200]
+[face N 10]
+[face O 09]
+[rotate O -20 0.5]
+[move O X -20 0.5]
+[setline 0.5 M L N O]
+[orderline N O M L]
+[face M 01]
+[say M]
+湘南的海不錯，但…駿河灣也不錯
+感覺很好。/
+[face M 02]
+[flow]
+嗯，我們要去dohyo場地了。
+埋葬淨化過的護身符.../
+[face N 01]
+[say N]
+一旦木材到達，柱子的建造將很快開始。
+看起來會是這樣！/
+[hideall]
+[-]
+[show K L]
+[show W]
+[setline K W]
+[face W 00]
+[face K 15]
+[say K]
+大家都在快速準備。
+太棒了！[se kira_01]/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[face W 12]
+[face K 00]
+[say W]
+這對這些傢伙來說已經是第二次了。/
+((m))
+[auto]
+嗯，這是我們第二次了。/
+((e))
+[auto]
+我們是第二次來的。/
+((s))
+[face W 01]
+[move W Y 100 0.1]
+[delay 0.1 move W Y -100 0.2]
+大家都在緊鑼密鼓的準備著！
+那麼，主人，再見！/
+((m))
+[auto]
+大家都在緊鑼密鼓的準備著！
+那麼，將軍，再見！/
+((e))
+[auto]
+大家都在緊鑼密鼓的準備著！
+那麼，師父！稍後見！/
+[say K]
+[face K 01]
+主啊，我也希望相撲比賽能夠順利舉行。
+身為管理本部的一員，我會努力的！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg off]
+[hideall]
+[bgm rokuhara]
+[bg niwa_day]
+[wait 2]
+[-]
+[fadeout 1.5]
+[-]
+[place 荘園 しょうえん]
+[-]
+[autotap]/
+[show F C]
+[scale F 1.6]
+[move F Y -120]
+[face F 01]
+[serif on]
+[say F]
+我一直在等待！ ！[shake F]
+第二次了！ ！地魂少年奉獻相撲大賽！ ！[se taiko_02]/
+[show B L]
+[scale F 1 0.5]
+[move F Y 120 0.5]
+[setline 0.5 B F]
+[face B 10]
+[orderline F B]
+[say B]
+但它仍然是準備中。/
+[hideall]
+[serif off]
+？這次我也累了。/
+[show A L]
+[show B]
+[setline A B]
+[face A 01]
+[face B 01]
+[say A]
+[serif on]
+地魂少年的數量也不斷增加。
+不要做得太過分。/
+[hideall]
+[-]
+[show C R]
+[show I]
+[setline C I]
+[face C 01]
+[face I 00]
+[say C]
+哦不。這次的靈魂轉移，也順利完成了。
+我就放心了.../
+[move I Y 5 0.2]
+[delay 0.2 move I Y -10 0.6]
+[delay 0.8 move I Y 5 0.5]
+[autotap]/
+[face I 01]
+[se pi_02]
+[say I]
+哇……傳送的靈力量好驚人啊……！
+不愧是個語音聆聽者！[effect I kira 6000 0 100][se kira_01]/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 02]
+[say C]
+對嗎？ *P君太棒了！/
+[hideall]
+[-]
+[se walk_01]
+[show J R]
+[face J 03]
+[say J]
+……嘿。/
+[serif off]
+？索馬桑來了！/
+[move J C 0.5]
+[move J Y 5 0.2]
+[delay 0.2 move J Y -10 0.6]
+[delay 0.8 move J Y 5 0.5]
+[autotap]/
+[serif on]
+[face J 06]
+[say J]
+嗯，羽鳥同學也來了…
+嗯，這樣就好了…/
+[bgm fun]
+[effect fr syutyu a 0 0]
+[se taiko_01]
+[scale J 1.6 0.3]
+[move J Y -140 0.3]
+[autotap]/
+[face J 10]
+你在做什麼！ ？/
+[face J 03]
+[se taiko_02]
+[flow]
+把所有地魂童子和綾香都送走？
+你想死嗎？ ？/
+[scale J 2 0.3]
+[move J Y -100 0.3]
+[se cloth_06]
+[autotap]/
+[face J 10]
+[flow]
+我的意思是，為什麼它成功了？ ？/
+[effect off a]
+[serif off]
+？我能做到.../
+[serif on]
+[se zukkoke_02]
+[scale J 1.6 0.5]
+[move J Y 100 0.5]
+[face J 03]
+完成了！[shake J]
+該死的！ ！這就是為什麼某人是天才......！ ！[face J 09]/
+[face J 00]
+嘿嘿，還有野豬…[wait 1]富良野阿克託斯！[face J 08][shake J]/
+[serif off]
+[show I]
+[show C]
+[show A]
+[setline C I A]
+[orderline I A C]
+[moveline C I A 1000 0 0]
+[moveline C I A J -1000 0 1]
+[face I 05]
+[face A 10]
+[face C 12]
+[-]
+[say I]
+[serif on]
+是的！[shake I]/
+[waku on 0.5]
+[face A 12]
+[say A]
+（我取消了通話…）/
+[serif off]
+[moveline C I A J 1000 0 1]
+[waku off 0.5]
+[-]
+[hide C]
+[hide A]
+[serif on]
+[face J 01]
+[say J]
+請稍後將此資料傳送給我。/
+[setline 0.5 J I]
+[move I X 100 0.5]
+[face I 01]
+[say I]
+[orderline J I]
+請交給我吧。
+布布！/
+[hide I]
+[scale J 1 0.5]
+[move J Y 140 0.5]
+[face J 04]
+[say J]
+我的意思是，這是什麼…相撲錦標賽？
+不，我知道你在做什麼。/
+[move J Y 5 0.2]
+[delay 0.2 move J Y -10 0.6]
+[delay 0.8 move J Y 5 0.5]
+[autotap]/
+[face J 11]
+換句話說，就是這樣……樟腦對抗靈脈。
+類似的事情。/
+[move J C 0.5]
+[face J 08]
+[flow]
+讓 16 個地球靈魂男孩在擂臺上互相對抗。
+漸漸的凝聚自己的靈力…/
+[face J 12]
+[flow]
+最後，透過名為Dohyo的介面
+我正在將放大的靈力注入我的靈脈之中—/
+[move J Y 10 0.4]
+[delay 0.4 move J Y -10 1.0]
+[autotap]/
+[face J 09]
+[flow]
+類似的事情。肯定有這麼多地魂小子
+這是隻有能聽到聲音的*P才能做到的事。/
+[show I R]
+[setline 0.5 J I]
+[face I 01]
+[say I]
+沒錯。我也是第一次聽到的時候
+我很驚訝！/
+[move I Y 5 0.2]
+[delay 0.2 move I Y -10 0.6]
+[delay 0.8 move I Y 5 0.5]
+[autotap]/
+[face I 14]
+[flow]
+相撲很棒，不是嗎？
+當你看著它時，它會變得非常熱。我的天啊。/
+[face J 04]
+[say J]
+然而，我選擇 Mawashi 來儲存和放大這種精神力量。
+這一切都是一個謎。/
+[face J 09]
+這個儀式背後的想法是什麼？
+我好像想到了什麼…咕噥著…/
+[hide I]
+[hide J]
+[-]
+[show A]
+[show C]
+[setline C A]
+[face C 12]
+[face A 01]
+[say C]
+不……它放大精神力，灌注其中……
+在這個過程中/
+[face C 11]
+[flow]
+有著讓地魂少年光芒四射的風格，
+而且作為一種儀式，它有著很高的親和力…/
+[face C 12]
+[flow]
+當我思考這個問題時，我終於
+我想你可能會說我學會了相撲…/
+[hideall]
+[-]
+[show G]
+[face G 08]
+[say G]
+喲。我來了並且做到了。
+當球員決定後請告訴我。/
+[show E L]
+[setline 0.5 E G]
+[face E 01]
+[say E]
+嘿，B君。我真的很興奮能觀看比賽。
+我太高興了！/
+[move G Y 5 0.2]
+[delay 0.2 move G Y -10 0.6]
+[delay 0.8 move G Y 5 0.5]
+[autotap]/
+[face G 11]
+[say G]
+好吧。非常適合消磨時間。/
+[hideall]
+[-]
+[show D]
+[face D 00]
+[say D]
+嘿大家。他們正在聚集。啊...[move D Y 10 0.1][delay 0.1 move D Y -10 0.1]
+連君和阿克託斯君也來了。[face D 01]/
+[show I L]
+[show J L]
+[face I 00]
+[setline 0.5 I J D]
+[face J 06]
+[say J]
+哈，羽鳥同學……好。是的。
+我有時間…呵呵…[face J 11][shake J]/
+[face I 01]
+[say I]
+我打擾你了。
+請把資料收集工作交給我吧。/
+[hide J]
+[hide I]
+[-]
+[show B R]
+[setline 0.5 D B]
+[face D 05]
+[face B 02]
+[say B]
+羽鳥先生！你給我這個嗎？ ？
+我做到了！ ！/
+[hide D]
+[show J L]
+[move J X -200]
+[setline 0.5 J B]
+[face J 11]
+[say J]
+[se cloth_06]
+羽鳥同學的禮物是什麼…
+貓屋宗一，我也去買一個。/
+[show H R]
+[setline 0.5 J B H]
+[face J 05]
+[face B 05]
+[face H 01]
+[say H]
+[se doka_01]
+[move H Y 100 0.1]
+[delay 0.1 move H Y -100 0.2]
+這是我送的禮物！
+休克休基！ ！/
+[say B]
+哇！紅豆洗淨！ ？[shake B]
+呃，毒？[face B 10]/
+[face H 03]
+[say H]
+[se zukkoke_02]
+你在說什麼？　[shake H]
+你會做那樣的事嗎？我要去吃它！/
+[face H 06]
+[flow]
+畢竟這座莊園是個好地方。
+我帶了一些糖果給你。/
+[face J 09]
+[say J]
+紅豆洗…這是謠言…/
+[face H 03]
+[say H]
+啊？我想這是一個很好的謠言！ ？
+我要去吃它！[shake H]/
+[show F R]
+[setline 0.5 J B H F -200 1000]
+[move F X 100 0.5]
+[face F 01]
+[say F]
+嘿，把紅豆洗乾淨！
+也給我一些甜紅豆洗吧！/
+[move H Y 10 0.4]
+[delay 0.4 move H Y -10 1.0]
+[autotap]/
+[face H 06]
+[say H]
+沒辦法了...
+我要做專門的紅豆洗！[face H 01][shake H]/
+[face F 02]
+[say F]
+哇！/
+[face B 08]
+[say B]
+仔細一看，你會發現所有的糖果都是紅豆做的…/
+[hideall]
+[-]
+[show A]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 01]
+[say A]
+*P君，今天你有VIP座位。
+坐在這裡。/
+[face A 02]
+[flow]
+現場準備工作正在有序進行中…
+我很期待這次我們會看到什麼樣的比賽。/
+[serif off]
+？我很期待。/
+[fadein BLACK 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

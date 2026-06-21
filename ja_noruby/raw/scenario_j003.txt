@@ -1,0 +1,720 @@
+>>0/
+((s))
+[set W s_san_m 讃岐]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_a011_m ぬらりひょん]
+[fadein black 0]
+[bgm off]
+[bg white]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+((m))
+[set W s_mus_m 武蔵]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_a011_m ぬらりひょん]
+[fadein black 0]
+[bgm off]
+[bg white]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_a011_m ぬらりひょん]
+[fadein black 0]
+[bgm off]
+[bg white]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+[bg white]
+[bgm will]
+[se snow_02]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor RED]
+夢――[wait 1.0]
+夢を見た/
+[textcolor RED]
+[flow]
+降り注ぐ雨[wait 0.5]
+否、矢の雨/
+[textcolor RED]
+[fadein RED 0.2]
+[delay 0.2 fadeout 0.1]
+[se yumi_02]
+[delay 0.1 se zuba_01]
+[delay 0.4 fadein RED 0.2]
+[delay 0.6 fadeout 0.1]
+[delay 0.3 se yumi_02]
+[delay 0.4 se zuba_01]
+[flow]
+親しいひと、顔見知りのひと、喚くひと、
+怯えるひと、逃げ惑うひと、諦めるひと/
+[textcolor RED]
+[flow]
+矢は全ての者に等しく降り注ぐ/
+[textcolor RED]
+[flow]
+そして、後に残るは、ただただ、屍のみ/
+[textcolor RED]
+[flow]
+血と肉と臓物にまみれ、
+鼻の奥を悪臭が刺激する/
+[textcolor RED]
+[flow]
+血で赤く染まった川の中
+一人で震えていた/
+[textcolor RED]
+[flow]
+冷たくなっていく手は
+二度と握り返してくることはなかった/
+[textcolor RED]
+[flow]
+そんな――/
+[textcolor RED]
+[flow]
+――[wait 0.5]そんな[wait 0.5]夢を見た/
+[fadein black 5]
+[serif off 3]
+[-]
+[wait 2]
+[bgm off]
+[title プロローグ 夢]
+[-]
+[autotap]/
+((s))
+[bg heya_day]
+[wait 1.0]
+[-]
+[se fusuma_01]
+[bgm home]
+[fadeout 1.5]
+[-]
+[serif on]
+[show W C]
+[face W 00]
+[talk W]
+あるじさま～準備できたよ！/
+((m))
+[auto]
+よお大将！
+オレはもう準備できてるぜ！/
+((e))
+[auto]
+師匠！　準備完了ッス！/
+((s))
+[face W 01]
+今日から新しい浄化任務だね……！
+オイラ、頑張るよ！/
+((m))
+[auto]
+今日から新しい浄化任務ってんだからよぉ、
+いてもたってもいられねぇや！/
+((e))
+[auto]
+今日から新しい浄化任務ッスからね。
+筋肉がうなります……！/
+((s))
+[face W 12]
+[serif off]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+オイラも色んな場所に行って、
+だいぶ旅慣れてきたと思うんだよね……/
+((m))
+[auto]
+へへっ、どんな旅になるかねぇ。
+大将も楽しみだろ……？/
+((e))
+[auto]
+……オレ、まだまだ未熟なところが多いッスけど
+毎日鍛えてます！/
+[move W Y 20 0.4]
+[delay 0.6 move W Y -20 0.2]
+[autotap]/
+((s))
+[face W 00]
+だから安心して見守っててね！
+あるじさま！/
+((m))
+[auto]
+ま、任務の方は
+今回もオレにどーんと任せときな！/
+((e))
+[auto]
+特に今回の任務地は……[wait 0.5]オレ、気合入れて行くので
+師匠！　見守ってて欲しいッス！/
+[serif off]
+?頼りにしてるよ/
+((s))
+[serif on]
+[face W 01]
+じゃ、行こ！/
+((m))
+[auto]
+よし、行くぜ！/
+((e))
+[auto]
+はい！　行きましょう！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[show G C]
+[face G 01]
+[talk G]
+よぉ、待ってたぜ。/
+((s))
+[show W R]
+[face W 13]
+[talk W]
+[setline 0.5 G W]
+どうしたの？　びぃ。
+こんなところで/
+((m))
+[show W R]
+[face W 13]
+[say W]
+[setline 0.5 G W]
+お？　びぃじゃねぇか。
+どうしたこんなところで？/
+((e))
+[auto]
+む、びぃ。
+どうしたんスか？　こんなところで。/
+[face G 03]
+[say G]
+どうした、じゃねぇだろ。
+オレだってお前らの「お仲間」だろ？/
+[move G Y 10 0.4]
+[delay 0.4 move G Y -10 1.0]
+[autotap]/
+[face G 11]
+せっかくだからお前の主と一緒に
+朝の散歩を楽しもうと思ったんだが……/
+((s))
+[face W 03]
+[say W]
+[move W X -50 0.3]
+むっ、オイラがいるから、
+あるじさまと二人っきりにはさせないよ！/
+((m))
+[auto]
+へっ、残念だったな！　オレが一緒にいる限り
+二人っきりにはさせねぇからな！/
+((e))
+[auto]
+残念ッスけど……オレがいるからには
+師匠と二人っきりにはさせませんよ！/
+[move G Y 10 0.1]
+[delay 0.1 move G Y -10 0.2]
+[delay 0.3 move G Y 10 0.1]
+[delay 0.4 move G Y -10 0.2]
+[delay 0.6 move G Y 10 0.1]
+[delay 0.7 move G Y -10 0.3]
+[autotap]/
+[face G 02]
+[say G]
+ハッ。怖ぇ怖ぇ。だけど$W、
+お前は玄関の鳥居前で待機だろ？　早く行けよ。/
+((s))
+[say W]
+[shake W]
+むぅ～……っ！　[se cloth_06][scale W 1.5 0.3][move W XY -150 -100 0.3][move G X -50 0.3][hide G 0.3]あるじさま！　おみやげ！　
+買ってくるからね！！　びぃにはあげないから！/
+((m))
+[auto]
+ちぇっ、今日の所は特別に外してやらぁ！[se cloth_06][scale W 1.5 0.3][move W XY -150 -100 0.3][move G X -50 0.3][hide G 0.3]
+大将、あんまりこいつに気を許すんじゃねぇぞ！/
+((e))
+[auto]
+う……っ[wait 0.58]し、師匠！[se cloth_06][scale W 1.5 0.3][move W XY -150 -100 0.3][move G X -50 0.3][hide G 0.3]　……行ってきます！
+その、びぃには気をつけてください！/
+[serif off]
+?気をつけてね/
+[hide W]
+[talkend]
+[se walk_02]
+[-]
+[serif on]
+$Wは手をふり、走っていった。/
+[show G C]
+[face G 00]
+[talk G]
+さて……ようやく二人っきりになれたな。/
+[face G 11]
+お前の周りにゃいつも誰かしら
+地魂男児がいるからな…………/
+[scale G 1.5 0.5]
+[move G Y -100 0.5]
+[flow]
+[face G 08]
+いくら鈍いお前でも、オレが何の意味もなく
+チームに参加するわけないってわかってるよな？/
+[serif off]
+?………/
+[face G 07]
+[flow]
+[serif on]
+そう警戒すんなって。安心しろよ。
+少なくとも今は、オレはお前の味方だぜ。/
+[face G 01]
+[talk G]
+[flow]
+人類の存亡がかかった任務の
+邪魔をするわけないだろ？/
+[serif off]
+?なにか目的が……？/
+[move G Y 10 0.4]
+[delay 0.4 move G Y -10 1.0]
+[autotap]/
+[face G 11]
+[serif on]
+素直に言うわけねーだろ。タコ。
+今はんなこと気にしてる場合じゃねえだろ？/
+[face G 03]
+[flow]
+お前はただ
+自分の仕事をこなしてればいいんだよ。/
+[face G 02]
+[flow]
+[move G Y 10 0.1]
+[delay 0.1 move G Y -10 0.1]
+ま、見物楽しませてもらうぜ。
+そんじゃあ司令室に行こうぜ。/
+[fadein]
+[serif off]
+[-]
+[bgm rokuhara]
+[hideall]
+[bg shirei_day]
+[-]
+[se fusuma_01]
+[fadeout]
+[-]
+[place 司令室 しれいしつ]
+[-]
+[show A C]
+[face A 00]
+[talk A]
+[serif on]
+あぁ、来たね。
+Bくんも一緒か……時間通りだね。/
+[show G L]
+[face G 01]
+[talk G]
+[setline 0.5 G A]
+お邪魔だったか？
+俺は後ろの席もらうぜ？/
+[serif off]
+[hide A]
+[-]
+[show D R]
+[mvoe D X 300]
+[face D 01]
+[talk D]
+[order D 0]
+[order G 1]
+[delay 0.2 move D X -350 0.5]
+[delay 0.5 move G X -100 0.3]
+[face G 05]
+[autotap]/
+[serif on]
+よろしくッス！　Ｂくん！
+Ｂくんには聞きたいことがいっぱいあるんス！/
+[face G 09]
+[talk G]
+[shake G]
+だからお前、圧がすげぇんだよ！
+ちょっと離れてろ。/
+[serif off]
+[show B L]
+[move B X -1000]
+[face B 08]
+[-]
+[se fusuma_01]
+[move G X 1050 0.8]
+[move D X 1000 0.8]
+[move B X 1000 0.8]
+[autotap]/
+[talk B]
+[serif on]
+おーすまんすまん！　お待た……[wait 0.5]
+げ！[shake B 2 5 3][face B 05]　羽鳥さんもいんのかよ……[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]/
+[show C R]
+[hide G]
+[hide D]
+[face C 01]
+[talk C]
+何か問題でもあるのかなぁ？/
+[face B 10]
+[talk B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+い、いえ、問題とかじゃなくって……！
+今回の任務、長旅になりそうだから、こぉ……/
+[face B 06]
+[flow]
+栄養補給食とか……
+持ってきたんすけどぉ……[move B Y 10 0.4][delay 0.4 move B Y -10 1.0]/
+[hide C]
+[-]
+[show A R]
+[face A 13]
+[talk A]
+[setline 0.5 B A]
+猫乃屋さん……
+これただのおつまみじゃないですか！/
+[face A 03]
+[effect A syutyu a 0 200]
+映画見るんじゃないんですよ！？
+緊張感がなさすぎる！[se doka_01][move A X -200 0.2]　没収！！[move A X 100 0.3][se cloth_06]/
+[face B 04]
+[say B]
+[effect off a]
+[shake B]
+ひぇ～っなっとぉ～！
+そりゃねぇよぉ～！/
+[face A 12]
+[say A]
+お見苦しいところをお見せしました……
+今回の任務について簡単に確認しておきます。/
+[say A]
+[bgm departure]
+[flow]
+[face A 14]
+座学で習ったとおり、一般的に歴史域は時代が
+遠くなるほど霊送難度があがると言われています。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 08]
+[say B]
+だな、特に平安時代以前の歴史域への霊送は
+技術的にかなり厳しいっつーことらしい。/
+[hide B]
+[serif off]
+[bg black 0.5]
+[minibg chizu_hokurikudo 0.5]
+[move A XY 300 -150 0.5]
+[scale A 1.5 0.5]
+[face A 00]
+[-]
+[say A]
+[serif on]
+今回は1180年前後……
+平安時代後期の北陸道を踏破してもらいます。/
+[flow]
+[face A 08]
+これまでで最も遠い時代への霊送……
+相当な難度だと思います。油断はできません。/
+[bg shirei_day 0.5]
+[minibg off 0.5]
+[hide A]
+[-]
+[show C]
+[say C]
+[face C 03]
+………………/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 01]
+[flow]
+茂就くんも研究室チームでサポート
+してくれてるから、頑張ろうねぇ。/
+[hide C]
+[-]
+[show A]
+[show B]
+[face A 02]
+[face B 01]
+[say A]
+[setline B A]
+そうですね。がんばりましょう！/
+[flow]
+[face A 01]
+では、任務内容と旅程の説明です。
+猫乃屋さん、お願いします。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[hide A]
+[face B 09]
+[say B]
+おう。なっとの言ったとおり、今回は
+平安時代後期の北陸道が任務地だ。/
+[hide B]
+[serif off]
+[bg mbg_syouen 0.5]
+[minibg chizu_hokurikudo 0.5]
+[wait 1]
+[se paper_01]
+[minibg chizu_hokurikudo_place 0.5]
+[wait 1]
+[-]
+[serif on]
+@猫乃屋
+現代でいうところの滋賀県琵琶湖の彦根を
+旅の開始地点として……/
+[flow]
+@猫乃屋
+ぐるっと石川・金沢を経由して
+富山、それから新潟に入る。/
+[flow]
+@猫乃屋
+糸魚川を超えた先、直江津が今回の旅の
+目的地だ。/
+[flow]
+街道としての北陸道はもっと先まで続いてんだけど、
+今回の任務では一旦ここまでで結界を張る。/
+[show B L]
+[face B 08]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[flow]
+それでも里程はおよそ300ｋｍ。場合によっちゃあ
+10日程度はかかることも覚悟しろよ。/
+[minibg off 0.5]
+[bg shirei_day 0.5]
+[show A R]
+[face A 11]
+[hide B]
+[talk A]
+観測チームの報告によると、他歴史域よりも
+高濃度の穢れが観測されているようです。/
+[flow]
+[face A 08]
+いつ歴史覚醒域となっても
+おかしくない状況だとか……/
+[flow]
+[face A 00]
+讃岐街道の時のような
+寄り道は可能な限り避けてもらいながら、/
+[face A 01]
+[flow]
+まっすぐ目的地を目指すよう
+僕らの方でもサポートしていくつもりです。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[minibg off]
+[bg shirei_day]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[shakebg]
+[se dosa_01]
+[talkend]
+夏人はいつも通り
+ドサッと大量の資料を机の上に広げた。/
+[show A C]
+[face A 12]
+[talk A]
+猪森さんに集めてもらった様々な資料です。
+ここまでで何か質問は？[face A 01]/
+[serif off]
+?大丈夫/
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[bgm ascending]
+[serif on]
+よし、それじゃあ、霊送を開始しよう。
+リングをつけるね。/
+[flow]
+[face A 08]
+今回は技術的に霊送可能な限界ギリギリの歴史域だ。
+霊送時はいつも以上に集中してね。/
+[se pi_01]
+[hide A]
+[se rokuhara_05]
+[talkend]
+[textcolor BLUE]
+システム、リンク開始……/
+[flow]
+[se rokuhara_04]
+[textcolor BLUE]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.1]
+[effect fr reiryoku R 0 170]
+霊力接続――……[wait 0.5]　……[wait 0.5][se pi_01]
+接続完了、[wait 0.5]声聞士、異常なし。/
+[show A C]
+[face A 00]
+[talk A]
+数値は安定。準備はいいかい？/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[face A 08]
+[serif on]
+[flow]
+では、羽鳥さん。/
+[hide A]
+[-]
+[show C C]
+[face C 01]
+[talk C]
+本日、一二一五をもって、[wait 0.5]
+「浄化」任務を開始！/
+[hide C]
+[show A C]
+[face A 01]
+[talk A]
+[delay 0.3 se pi_01]
+[se rokuhara_04]
+システム起動。霊力循環、
+相互連結を確認、クリア。/
+[serif off]
+[hide A]
+[-]
+[show G C]
+[face G 02]
+[talk G]
+[-]
+[serif on]
+……いつ見ても笑っちまうぜ。
+声聞術……たいした力じゃねぇか……/
+[serif off]
+[hide G]
+[-]
+[show A C]
+[face A 08]
+[talk A]
+[-]
+[serif on]
+さあ、術式を……！/
+[serif off]
+?陰陽術、展開/
+[hide A]
+[effect fr kiesou a]
+[bg black 1.5]
+[textcolor blue]
+[talkend]
+[-]
+[serif on]
+――青龍[wait 0.1]・白虎[wait 0.1]・朱雀[wait 0.1]・玄武[wait 0.1]・勾陳[wait 0.1]・
+　　帝台[wait 0.1]・文王[wait 0.1]・三台[wait 0.1]・玉女[wait 0.1]――……/
+[textcolor blue]
+陰陽術式、展開……[wait 0.5]
+霊体圧縮。[wait 0.5]識神、自己解凍/
+[bg shirei_day 0.5]
+[show A C]
+[face A 08]
+[talk A]
+霊脈境界、結界完了。[wait 0.5]
+地魂霊送―……開始！/
+[serif off]
+[se amb_02]
+[effect fr kieru b]
+[delay 1.0 fadein white 1.0]
+[-]
+[wait 4.0]
+[effect off a]
+[effect off b]
+[autotap] /
+[fadecolor BLACK 1.5]
+[serif off 1.5]
+[-]
+[waku on]
+[light def]
+[lightcolor blue]
+[bg black]
+[hideall]
+[bgm off]
+[effect off R]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[serif on 0.5]
+…………/
+[flow]
+……………………/
+[bgm unrest]
+[textcolor ORANGE]
+@影法師
+目標らしき反応を感知しました。
+ぬらりひょん様。/
+[show H]
+[face H 00]
+[say H]
+[scale H 1.6]
+[move H Y -120]
+……ようやく尻尾をつかんだか。
+座標は？/
+[textcolor ORANGE]
+@影法師
+特定が難しいですが……養和２年、越後国……
+歴史域座標、■■■-■■■■■■■……/
+[flow]
+[textcolor ORANGE]
+@影法師
+……他にも気になる反応があります。
+同領域への霊脈からの接続の痕跡がありました。/
+[move H Y 5 0.2]
+[delay 0.2 move H Y -10 0.6]
+[delay 0.8 move H Y 5 0.5]
+[autotap]/
+[face H 01]
+……奴らか。
+なに、邪魔となるならば排除するだけじゃ。/
+[textcolor ORANGE]
+@影法師
+……どうぞお気をつけて。
+ぬらりひょん様。/
+[face H 00]
+うむ。それでは行くとするか……/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

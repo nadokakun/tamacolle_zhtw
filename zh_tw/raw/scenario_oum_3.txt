@@ -1,0 +1,1457 @@
+>>10000/
+@近江
+我的名字是近江，在託桑多。[autotap]/
+[delay 1.7]
+[flow]
+[-]
+@近江
+嘿嘿，讓我在這裡發大財吧！/
+>>10001/
+@近江
+感謝您的惠顧！[autotap]/
+[delay 1.7]
+[flow]
+[-]
+@近江
+我無法支付諮詢費，但我可以獲得獎金嗎？/
+>>1/
+[set A s_oum_r 近江]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+琵琶湖真的很大！
+乍一看，簡直就是大海！/
+[face A 02]
+[flow]
+而且，與大海不同，即使游泳也不會變得黏稠。
+松原還有美麗的海灘！/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 09]
+[flow]
+[effect fr kira 4000 0 0]
+[se kira_01]
+Noubo，今年夏天我們去湖裡游泳吧！/
+>>2/
+[set A s_oum_r 近江]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+[flow]
+有適合你的地方嗎？那就是彥根城！[shake A][face A 02]
+外觀和構造確實是一流的！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 06]
+[flow]
+果然，一踏進去，我的背就挺直了一些。
+從天守閣眺望的景色也很棒！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[flow]
+城市和琵琶湖的壯麗景色...
+我也想展示給你看！/
+>>3/
+[set A s_oum_r 近江]
+[show A C]
+[effect fr kira 4000 0 0]
+[se kira_01]
+[face A 09]
+[serif on]
+[say A]
+哇，近江牛肉真好吃，孩子。/
+[face A 01]
+[flow]
+畢竟，“牛肉好吃老頭子都飛掉了”
+你說的就這麼多吧！/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[face A 05]
+[flow]
+什麼？就算你用這樣的眼神看我，也別表現得這麼奢侈啊！ ？
+為自己賺錢！ ！[shake A]/
+>>4/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[randomset C r -oum -@NOW]
+[show A C]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+好吧……我今天一大早就去市場買貨了。
+不知道能不能在前面賣商品呢♪/
+[show B R]
+[show C L]
+[move B X 300]
+[move C X -300]
+[move B X -150 0.5]
+[move C X 150 0.5]
+[scale A 1.3 0.5]
+[scale B 1.3 0.5]
+[scale C 1.3 0.5]
+[moveline A B C 0 -120 0.5]
+[face A 09]
+[face B 00]
+[face C 01]
+[autotap]/
+[orderline B C A]
+[flow]
+[say A]
+是的，是的，近江的手機銷售時間到了！/
+[face A 02]
+[face B 02]
+[face C 05]
+[shake C]
+[effect fr syutyu a 0 0]
+[se taiko_01]
+[flow]
+[= 部屋で食べられる美味しいおやつ十選！ 漫画やラノベ、現代の文化が学べる書籍たち！ 古今東西集めた便利道具や裏技集！ ちょっとむふふな道具！　一人でもお友達とでも！ お小遣いを投資にまわしてどかんと一儲け！ 居間のプレーヤーで観れる映画やアニメの円盤！ 酒にタバコ、数々の嗜好品！　取り寄せもできる！]
+[= さーさよってらっしゃい見てらっしゃい！ ポイントニ倍デーやでぇ！ 秘密のおまけもつけたるでぇ！ お得意様には裏メニューもありまっせぇ！]/
+[move C XY 10 -40 0.4]
+[rotate C -10 0.3]
+[delay 0.4 move C XY -10 40 0.3]
+[delay 0.5 rotate C 0 0.3]
+[delay 0.3 move B XY -10 -40 0.4]
+[delay 0.3 rotate B 10 0.3]
+[delay 0.7 move B XY 10 40 0.3]
+[delay 0.8 rotate B 0 0.3]
+[autotap]/
+[face A 05]
+[face B 01]
+[face C 04]
+[se taiko_02]
+[flow]
+僅限時間！
+確切地說，直到夏人半這個男孩發現為止！ ！/
+>>5/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[randomset C r -oum -@NOW]
+[show C R]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[face C 00]
+[setline B A]
+[moveline B A -600 0 0]
+[move C X 300]
+[move C X -300 0.5]
+[-]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[face C 05]
+[-]
+[moveline B A C 600 0 1]
+[-]
+[serif on]
+[say A]
+霍娜，$B:A，我保證。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[-]
+[move B X -600 0.5]
+[hide B]
+[-]
+[setline 0.8 A C]
+[-]
+[face C 00]
+[face A 01]
+[flow]
+……哦$C:A為什麼不呢？/
+[hide B]
+[face A 09]
+[face C 01]
+[flow]
+啊？你們聊了什麼？/
+[face A 06]
+[face C 04]
+[flow]
+這正如預期的那樣$C:A但我不會說。
+這是男人之間的承諾！/
+>>6/
+[set A s_oum_r 近江]
+[show A C]
+[face A 08]
+[serif on]
+[say A]
+[move A X 200 0.5]
+[flow]
+嗯，嗯。榻榻米、牆壁……還有柱子。
+這座莊園的裝潢相當令人印象深刻。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+[flow]
+輝、嗚、咪…
+好像就值這麼多錢了。/
+[move A X -200 0.2]
+[face A 06]
+[flow]
+這一點也做得非常好。
+到底是誰買的？/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[say A]
+[flow]
+普哈！我吃了，我吃了。
+休息一下吧！/
+[rotate A -60 0.5]
+[move A XY 150 -60 0.5]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+[face A 06]
+[flow]
+我有一段時間無法動彈。
+打嗝！[shake A]/
+>>10/
+[set A s_oum_r 近江]
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+唉……很抱歉我今天失敗了。
+我該買更多嗎？/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+好吧，我沒辦法！
+這就是生意如此有趣的原因！/
+[face A 08]
+[flow]
+[effect fr syutyu a 0 0]
+明天我會更加努力！ ！/
+>>11/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[randomset C r -oum -@NOW]
+[show A C]
+[show B R]
+[move B X 300]
+[setline 0.5]
+[face A 01]
+[face B 03]
+[-]
+[serif on]
+[say A]
+喲，$B:A！有什麼你需要的嗎？
+……那雙眼睛是怎麼回事？[face A 08]/
+[face A 05]
+[flow]
+………………[shake A]
+抱歉.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 04]
+[face B 04]
+[flow]
+$C:A以稍高的價格出售之間的差異是
+我會及時還你的。/
+[face A 05]
+[face B 03]
+[shake A]
+[flow]
+哦！　[move A X -100 0.1]別用那種眼神看著我！
+要有耐心！[shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_oum_r 近江]
+[randomset B r -oum -@地魂男児 -@あやかし -@NPC @ショタ]
+[show A C]
+[show B C]
+[face A 05]
+[face B 00]
+[serif on]
+[say A]
+[setline B A]
+[orderline B A]
+喔不不！[shake A][delay 0.2 move A X 150 0.1][face B 05]
+我只是買了它，以為它會很有趣，但是/
+[face A 09]
+[face B 04]
+[flow]
+嗯，對於小孩子來說還早…
+請務必妥善存放！/
+>>15/
+[set A s_oum_m 近江]
+[show A C]
+[face A 07]
+[serif on]
+[say A]
+有些人根據自己的力量和技巧進行戰鬥，
+我的戰鬥方式不同。/
+[scale A 1.6 0.2]
+[move A Y -200 0.2]
+[effect bk allow 4000 0 150]
+[face A 08]
+[flow]
+我之所以打不過任何人，是因為我的眼力好。
+觀察並捕捉對手的動作，不要錯過他們。/
+[face A 03]
+[flow]
+在生意中獲得的技能也可以在戰鬥中使用！/
+>>16/
+[set A s_oum_r 近江]
+[randomset B r -oum -@NPC]
+[randomset C r -oum -@地魂男児 -@あやかし]
+[effect fr katanas 4000 0 0]
+[se katana_01]
+[delay 0.3 se katana_03]
+[wait 0.5]
+[-]
+[shakebg]
+[effect fr waveout 2000 0 0]
+[se doka_01]
+[wait 0.3]
+[-]
+[show A R]
+[show B L]
+[move A Y -150]
+[move A Y 150 1]
+[face A 05]
+[face B 08]
+[-]
+[serif on]
+[say A]
+嗯！[shake A]　這是我的敵人！
+$B:A真的很強！[face A 02]/
+[setline 0.5]
+[face A 01]
+[face B 01]
+[flow]
+力量與技巧並存，沒什麼好說的！就是這樣
+$B:A這就是我想推薦的武器！/
+[show C R]
+[move C X 550]
+[face A 09]
+[face B 02]
+[face C 03]
+[move C X -300 1]
+[moveline A B C -100 0 1]
+[autotap]/
+[orderline A B C]
+[flow]
+$B:A這是隻有非常有能力的人才能處理的事情。
+但是...$C:A！？[shake A][face A 05]/
+[moveline A B -200 0 0.5]
+[face A 09]
+[face B 04]
+[face C 04]
+[flow]
+不，不$B:A這只是一個安排的問題！[shake A][move C X 50 0.5]
+啊啊$C:A！[face A 05][move A X 200 0.3] 　別告訴男孩！/
+>>17/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[show A L]
+[show B R]
+[face A 06]
+[face B 00]
+[serif on]
+[say A]
+啊，親愛的。[move A X 150 0.5]
+新內衣-新內衣-競技內衣。/
+[move B X -150 0.5]
+[face A 09]
+[face B 01]
+[flow]
+一切皆有可能。
+我正不厭其煩地去買一件新的。/
+>>18/
+[set A s_oum_b 近江]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[effect fr yuge a 0 0]
+[effect fr splash 4000 0 0]
+[move A Y -250 0.5]
+[delay 0.5 move A Y 80 0.4]
+[move A Y -20 0.5]
+[se bath_02]
+[-]
+[serif on]
+[say A]
+噗！ ！ ！
+這裡的洗澡真的很好！/
+[move A Y -100 3]
+[autotap]/
+[face A 06]
+[flow]
+寬敞的浴缸，香皂，
+美麗的風景，可以撫慰心靈…/
+[face A 01]
+[flow]
+出差的疲勞很快就會緩解。/
+[face A 08]
+[shake A]
+[flow]
+……哈！它閃現了！
+不知道把這裡變成公共澡堂會不會有利可圖…！ ？/
+>>19/
+[set A s_oum_r 近江]
+[show A C]
+[face A 06]
+[scale A 1.6]
+[effect fr yuge a 0 0]
+[move A Y -150]
+[se bath_01]
+[serif on]
+[say A]
+就連那些平常避之不及的地方，
+我需要把它洗乾淨並保持乾淨！[se bath_03]/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[delay 0.8 move A Y -10 0.2]
+[delay 1 move A Y 10 0.2]
+[autotap]/
+[face A 01]
+[se bath_05]
+[flow]
+賈~巴賈~巴~tto♪
+汙垢容易積聚在裂縫中。/
+>>20/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 06]
+[-]
+[se pee_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[say A]
+[flow]
+唷，滴下來了。
+……沒錯，[face A 00]稍後我得去商店檢查一下庫存。/
+[face A 09]
+[flow]
+$B:A我想您要的物品差不多到了。[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]
+喲……嘿，我們走吧！[face A 01]/
+[move A X 300 0.5]
+[hide A]
+[autotap]/
+>>21/
+[set A s_oum_r 近江]
+[show A R]
+[se door_01]
+[move A X 800]
+[move A C 0.6]
+[face A 02]
+[serif on]
+[say A]
+哇！我及時趕到了！[se pee_01][move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+呼…[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]啊？[face A 00]　向前邁出一步？/
+[effect fr syutyu a 0 0]
+[face A 03]
+[flow]
+再往前一步，肚子就碰到馬桶了！
+所以我要退一步去做。[scale A 0.8 0.5][move A Y 50 0.5]/
+>>22/
+[set A s_oum_r 近江]
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -250]
+[move A Y 100 0.3]
+[delay 0.3 shakebg]
+[-]
+[serif on]
+[say A]
+這是什麼啊！ ？
+有人的肚臍在這種地方嗎？ ？/
+[scale A 2 1]
+[move A Y -150 1]
+[autotap]/
+[flow]
+可以嗎？
+難道我真的要死了嗎？ ？/
+[scale A 1.6 0.2]
+[move A Y 150 0.2]
+[face A 03]
+[flow]
+……不，Hitomontorun 被取消了商人資格。
+庫尤[face A 04][shake A]....耐心...耐心。/
+>>23/
+[set A s_oum_r 近江]
+[show A C]
+[face A 01]
+[serif on]
+[scale A 1.6]
+[move A Y -200]
+[say A]
+多虧了這款衛洗麗，
+存放後您可以徹底清洗。/
+[face A 02]
+[flow]
+我真的很感激。
+/
+[face A 05]
+[flow]
+[move A Y 80 0.1]
+[delay 0.1 move A Y -80 0.1]
+嗨！ ！ ！ ！　
+水比平常更濃！ ？[shake A]/
+>>24/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[show A C]
+[show B C]
+[face A 09]
+[setline A B]
+[orderline B A]
+[face B 01]
+[serif on]
+[say A]
+$B:A，晚上的同伴怎麼樣？
+[= このお香を炊くとええ香りで朝までぐっすりやで！ この抱きまくらで安心安眠！　朝までぐっすりや！ あんさんが好きそうなもん見繕ってきましてん！ 甘いお菓子をたっぷり！　ダイエットは明日から！ 快適素材の下着や！　これ着たら気持ちええで～。 お肌ケア！　保湿成分たっぷりの顔パック！ いい酒と美味しいおつまみや！　気持ちよく呑も！ 様々な音を収録したASMR音源！　通やろ～？][shake A][se taiko_02]/
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[autotap]/
+[face A 01]
+[face B 06]
+[flow]
+還有很多其他的事情，但讓我們來看看。/
+>>25/
+[set A s_oum_r 近江]
+[randomset B r -oum -@NPC]
+[show A C]
+[show B C]
+[face A 07]
+[face B 04]
+[rotate A -60]
+[move A XY 100 -100]
+[move B XY -100 -100]
+[rotate B -60]
+[orderline A B]
+[-]
+[move B X -100 1]
+[rotate B 0 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[say A]
+[textsize 40]
+嗚嗚嗚嗚嗚嗚…[shake A]
+咕咕咕咕咕咕…/
+[talkend]
+近江的鼾聲$B我好像睡不著/
+>>26/
+[set A s_oum_r 近江]
+[randomset B r -oum -@NPC]
+[show A C]
+[move A X -500]
+[show B C]
+[face A 00]
+[face B 07]
+[move B XY -100 -100]
+[rotate B -60]
+[orderline B A]
+[-]
+[move A X 500 1]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[move A Y -100 0.5]
+[-]
+[serif on]
+[say A]
+[face A 01]
+哦天哪，$B:A她的睡臉真可愛。/
+[face A 05]
+[move A Y 200 0.1]
+[delay 0.1 move A Y -100 0.2]
+[flow]
+……我不必這麼說。[move A X -200 0.5][face A 06]
+為了我自己，我必須保留這些感情！/
+>>27/
+[set A s_oum_r 近江]
+[show A C]
+[face A 00]
+？ 近江，生日快樂！/
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 06]
+[serif on]
+男孩！不，當著我的面說的時候
+我雖然很尷尬！/
+[face A 08]
+....選擇特殊日子時，請考慮業務問題。
+我以為週年紀念日就可以了.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+畢竟，我不能放棄「琵琶湖」！
+這龐大的身軀也是拜琵琶湖的庇佑所賜！/
+[face A 01]
+這就是我選擇這一天的原因。
+這就是原因。/
+[face A 00]
+媽的，孩子。
+這個特別的日子真是一件大事！/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 01]
+地魂男孩們也會互相送禮物。
+每當有人的特別日子，我都會賺錢！/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 09]
+別把孩子帶回來。
+給地球靈魂男孩的特別日子禮物.../
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+是的，就在那裡！
+土魂少年收到博送的禮物非常高興。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+到...？大部頭書？/
+[face A 03]
+[effect fr syutyu a 0 0]
+好吧，我的雙手被綁住了
+別天真了！ ！[shake A 2 10 10]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[effect off a]
+真是……唉，別取笑大人了！/
+>>100/
+[set A s_oum_r 近江]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 近江の計画]
+[-]
+[bg gozasyo_night]
+[se fusuma_01]
+[fadeout]
+[bgm home]
+[-]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+從浴缸出來，
+當你回到皇宮時.../
+[flow]
+[textcolor ARUJI]
+蹲坐在辦公桌前
+我看到了一個大背和兩個小翅膀。/
+[serif off]
+？ 近江？/
+[show A C]
+[move A Y -100]
+[move A Y 100 0.6]
+[face A 00]
+[say A]
+[-]
+[serif on]
+哦！/
+[flow]
+[face A 02]
+我終於回來了
+對不起，孩子。/
+[hide A]
+[se paper_01]
+[talkend]
+[textcolor ARUJI]
+近江正在散發一些檔案。/
+[serif off]
+？那個？/
+[show A C]
+[face A 00]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[say A]
+這可是關乎這個莊園的錢。
+這是一個檔案。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+當然，Bo的檔案
+不可能是我自己親眼所見。[face A 08]/
+[face A 07]
+[flow]
+這只是我個人的觀點...
+楚所羅門也。/
+[face A 01]
+夏人半和豬森半也有一些瞭解。
+我覺得我無意中聽到了……瞧。/
+[serif off]
+[scale A 1.6 0.5]
+[move A Y -200 0.5]
+[se paper_01]
+[-]
+[hide A]
+[talkend]
+[autotap]/
+[serif off]
+?錢在身邊.../
+[serif on]
+[textcolor ARUJI]
+看著遞給我的材料，
+水電費、伙食費等各種費用/
+[textcolor ARUJI]
+[se paper_01]
+[flow]
+六原每月提供補貼
+這導致了巨大的赤字。/
+[textcolor ARUJI]
+[flow]
+我在之前從夏人那裡收到的檔案上寫下了這個號碼。
+這是一個準確的估計，幾乎與實際數字相同。/
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+哈~~現在已經快空了。
+赤字也是赤字。這是一個很大的赤字。/
+[face A 04]
+[flow]
+事實上，這個莊園，
+可能需要半年時間。/
+[scale A 1.6 0.5]
+[move A Y -200 0.5]
+[autotap]/
+[face A 09]
+[flow]
+男孩，你要做什麼？/
+[talkend]
+[serif off]
+？呃.../
+[hide A]
+[textcolor ARUJI]
+[-]
+[serif on]
+關於預算和赤字.../
+[textcolor ARUJI]
+[flow]
+這是會議上多次討論的話題，
+每次都沒有達成解決方案。/
+[show A C]
+[face A 08]
+[scale A 1.6]
+[move A Y -150]
+[textcolor ARUJI]
+[flow]
+彷彿你看得穿我的心
+近江的直視讓人心痛。/
+[face A 01]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[say A]
+……好吧，別這麼沮喪！
+沒有理由責怪這個男孩。/
+[face A 09]
+[flow]
+然而，當涉及金錢問題時，我是該領域的專家。
+我把它留給你。/
+[effect fr syutyu a 0 0]
+[se taiko_02]
+[face A 01]
+[flow]
+我今天就是來聊這個的！
+我有一個計劃！/
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+說著，近江看了看自己的肚子。
+我拍了一下。/
+[serif off]
+？畢竟，省錢？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[say A]
+[serif on]
+這大概是一個擁有地魂的少年才會說出來的話。/
+[bgm rokuhara]
+[effect fr syutyu a 0 0]
+[face A 03]
+[se taiko_01]
+[flow]
+我教你的是進攻姿勢！ ！
+不要採取防禦措施！/
+[face A 01]
+[flow]
+我無法承受這筆費用。/
+[face A 02]
+[flow]
+[se taiko_01]
+當然，吃飯、買必需品，
+生活中我們需要娛樂！/
+[face A 00]
+[flow]
+最重要的是，這座莊園裡，有著大量的地魂小子。
+減少的量很難大幅減少。/
+[effect off a]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[flow]
+雖然很可怕，但我會考慮一下。/
+[flow]
+有很多話要說
+楚科奇有很多工人。/
+[face A 02]
+[flow]
+換句話說，有人在玩耍，有人在休息。
+您所要做的就是製作一些可以使用和出售的東西！/
+[hide A]
+[serif off]
+？做？/
+[show A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 01]
+霍亞！/
+[face A 00]
+地球靈魂男孩可以創造東西
+也歡迎好人！/
+[face A 01]
+[flow]
+從某種意義上來說，就像一群能工巧匠！
+沒有理由不利用這個天賦！/
+[face A 09]
+[flow]
+製作一些東西並以合理的價格出售。
+做生意的基礎！/
+[face A 01]
+[flow]
+我在另一張紙上有一項技術。
+地魂少年名單來了！/
+[hide A]
+[se paper_01]
+[talkend]
+[textcolor ARUJI]
+當然，每個人都有自己的專長。
+當談到製作東西時.../
+[textcolor ARUJI]
+地魂男孩也有
+我相信他們會很樂意提供協助。/
+[textcolor ARUJI]
+賣掉它並用它來彌補赤字
+如果我可以——/
+[serif off]
+？也許還不錯.../
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -200]
+[say A]
+[serif on]
+好的！如果決定的話我會
+我會談論各種事情！/
+[face A 09]
+[flow]
+是的，我會以合理的價格賣給你！
+讓我們竭盡全力，以盈利為目標！男生！/
+[serif off]
+？以盈利為目標！/
+[bgm off]
+[face A 00]
+[serif on]
+啊，關於我的獎勵…/
+[face A 09]
+[bgm fun]
+[flow]
+就像您將贏得一部分銷售額一樣。
+沒關係，亞薩凱。別擔心~♪/
+[flow]
+[face A 01]
+詳細分配情況請參閱附錄 2。
+寫好了！霍娜♪[se paper_01]/
+[serif off]
+[move A X -200 1]
+[se fusuma_02]
+[hide A]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+近江 離開了宮殿，嗡嗡作響。/
+[flow]
+[textcolor ARUJI]
+近江想出了一個好計劃。
+我以為這很好，但…/
+[textcolor ARUJI]
+[flow]
+我覺得我能夠很好地駕馭它。
+並不是說我不會。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>201/
+[set A s_oum_r 近江]
+[set B s_oum_r 近江]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 近江と買い物に]
+[-]
+[bg mbg_syouen]
+[minibg ima]
+[-]
+[fadeout]
+[-]
+[autotap]/
+[talkend]
+[serif on]
+[bgm home]
+[textcolor ARUJI]
+白天，外面陽光明媚，但氣溫較低，空氣寒冷。
+當我靜靜地坐在被爐裡時…/
+[se fusuma_01]
+[show A C]
+[face A 02]
+[say A]
+孩子~對不起。
+你很快就會需要很多東西嗎？/
+[talkend]
+[textcolor ARUJI]
+近江 推著車子來到客廳。/
+[serif off]
+？你什麼意思？寒冷天氣商品？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+[say A]
+[serif on]
+恐怕並非如此。
+本間房真的很會藏起來！/
+[face A 09]
+[flow]
+[say A]
+巴倫泰即將到來。關於博。
+還有各種邀請函。/
+[talkend]
+[textcolor ARUJI]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -60 0.2]
+[delay 0.7 se dosa_01]
+近江帶著深深的微笑。
+我從車上卸下行李。/
+[move A Y 40 0.5]
+[face A 01]
+[say A]
+即使我對你這麼說，我也明白。/
+[face A 06]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[say A]
+看！這裡有一些可以成為夜間好伴侶的商品！/
+[face A 09]
+[effect fr syutyu a 0 0]
+[se taiko_02]
+[say A]
+在偉家買比在紅豆洗店買好。
+太棒了！/
+[serif off]
+[effect off a]
+？我不認為有這樣的邀請.../
+[face A 05]
+[serif on]
+[bgm fun]
+[scale A 2.0 0.3]
+[move A Y -100 0.3]
+[effect sr syutyu a 0 0]
+[se zukkoke_01]
+[quake 2]
+[say A]
+它是什麼？ ？
+博是所有地魂男孩仰慕的物件！/
+[flow]
+[say A]
+如果您正在尋找情人節，邀請函的金額將是平時的三倍。
+花了一段時間，我應該目瞪口呆......！/
+[face A 03]
+[flow]
+[effect off a]
+[quake off]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[say A]
+這很奇怪。
+一定有什麼原因。/
+[scale A 2.0 4]
+[move A Y -100 4]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+近江一邊說著，一邊看向這個方向。
+祂用祂龐大的身軀向我靠近。/
+[face A 08]
+[say A]
+嗯，但是到底是什麼。當我看到它時，我看到一張濕漉漉的臉。
+太酷了.../
+[face A 04]
+[flow]
+[say A]
+稍微打扮一下就好了
+恩查馬西農。/
+[serif off]
+?天氣冷.../
+[face A 05]
+[shake A]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[-]
+[serif on]
+說實話，最近我
+我躲在被爐下面。/
+[talkend]
+[textcolor ARUJI]
+或許我不用每天洗澡…
+不知不覺間，已經過去好幾天了。/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 03]
+[say A]
+男孩。被爐裡也許溫暖舒適，但是
+有時男人甚至不出門！/
+[face A 01]
+[say A]
+霍娜，首先我們去六原吧！/
+[serif off]
+?天氣冷.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+[say A]
+丹奈！男孩，走進Wai的斗篷裡。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[se gaya_01]
+[textcolor ARUJI]
+[serif on]
+應近江六原邀請
+我們到達了商業區。/
+[serif off]
+？ 近江裡面很溫暖~/
+[show A C]
+[face A 03]
+[say A]
+[scale A 1.6]
+[move A Y -150]
+[scale A 1.0 0.5]
+[move A Y 150 0.5]
+[-]
+[shake A]
+[-]
+[serif on]
+當你到達這裡時，暖氣已經開始工作了！
+看！一個人走！/
+[face A 00]
+[say A]
+首先我們來看看這家店吧！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+近江帶她去了一家髮廊。/
+@職員
+歡迎！/
+[show A C]
+[face A 08]
+[say A]
+大哥。這個不成熟的怪人
+我希望她有一個現代、酷的髮型。/
+[talkend]
+[say A]
+[color A talk]
+@職員
+我明白了...這是目前的長度。
+這就是所謂的現代風格。/
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[talkend]
+[se paper_01]
+[textcolor ARUJI]
+[face A 10]
+店員拿來的髮型目錄
+我連忙拿起近江翻閱起來。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+哼哼。
+如果是這樣，有什麼意義呢？/
+[face A 09]
+[say A]
+[se paper_01]
+從鑑賞家的角度來看，
+我覺得你穿起來很棒！/
+[hide A]
+[talkend]
+[color A talk]
+@職員
+哦，那太好了！我的手臂會長大！/
+[serif off]
+？故事自行進展…/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg black]
+[minibg off]
+[hideall]
+[-]
+[fadeout 1.5]
+[autotap]/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+沙基，沙基，沙基…
+恰恰！/
+[talkend]
+[textcolor ARUJI]
+工作人員非常熟練而且速度很快
+髮型變得精緻。/
+[talkend]
+[textcolor ARUJI]
+沖洗、整理並吹乾頭髮
+讓它乾燥並塗上一層薄薄的蠟。/
+[effect fr kira a 0 0]
+[se kira_01]
+@職員
+結束了。
+你覺得怎麼樣？/
+[serif off]
+？哦，那太酷了！/
+[serif on]
+@職員
+我們已經收到您的付款。
+感謝您的辛勤工作！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[effect off a]
+[se rokuhara_06]
+[hideall]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+我走到商店外面，但近江卻不見蹤影。
+當我環顧四周時.../
+[se walk_06]
+[show A C]
+[face A 02]
+[say A]
+噢，孩子！感覺清爽又清爽
+發生什麼事了？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+看完之後，我仔細看了看。
+嘿，接下來是衣服！/
+[face A 09]
+[say A]
+最好看起來像薩努邦。
+本來可能很好，但是…/
+[face A 01]
+[say A]
+嗯，這次是選擇成人衣服的問題。
+是時候根據您的洞察力來獲勝並做出決定了！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se walk_06]
+[hideall]
+[bg shop]
+[minibg off]
+[-]
+[fadeout 1.5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+由於某種原因近江帶我去了一家服裝店。
+這是一家氣氛別緻、沉穩的男裝店。/
+[talkend]
+[textcolor ARUJI]
+西裝和夾克排成一排
+……有一種成熟的氣息。/
+[show A C]
+[face A 01]
+[say A]
+沒有這個和這個的組合！[shake A][se cloth_01]
+店員，讓我試穿一下！霍雷波！/
+[hide A]
+[talkend]
+[serif off]
+? 試穿一下/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[show A C]
+[face A 06]
+[fadeout 1.5]
+[autotap]/
+[say A]
+[-]
+[serif on]
+是啊，對…不管我把它放在哪裡
+別尷尬！/
+[face A 01]
+[say A]
+店員，這也不少啊！[shake A]
+……不過我會付錢的！[face A 09]/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 02]
+[say A]
+好吧，孩子！我們去下一家店吧！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm off]
+[hideall]
+[effect off a]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+之後還有鞋店、包包、眼鏡、配件區等。
+我和近江一起去逛街、逛街。/
+[serif off]
+？我收到了很多。/
+[bgm night]
+[show A C]
+[face A 03]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+別忘了今天還錢。/
+[face A 01]
+[say A]
+我確信 Gyo-san 很快就會收到邀請。
+從Y買各種各樣的東西！/
+[face A 00]
+[say A]
+霍娜，我們快點回莊園吧。/
+[serif off]
+[face A 01]
+[move A X -200 1]
+[wait 0.5]
+[-]
+[serif on 0.5]
+[face A 06]
+[say A]
+………………
+……………………/
+[say A]
+[move A X 200 0.5]
+啊啊啊啊啊啊啊…
+我想我回家之前先把它交給Wai。/
+[face A 09]
+[say A]
+我在 Bo 剪頭髮的時候買了這個。
+到底是什麼？/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+近江害羞地包著巧克力。
+我把它拿出來。/
+[face A 07]
+[say A]
+有人說手工製作的比較好。
+我明白，但我是商人。/
+[say A]
+[face A 02]
+這是我的終極禮物！/
+[hide A]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[talkend]
+[textcolor ARUJI]
+近江 表現如常，
+拿著巧克力的手微微顫抖。/
+[serif off]
+？謝謝！/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 06]
+[say A]
+[-]
+[effect off a]
+[serif on]
+喲，我很高興你喜歡它！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+我試了一下，味道也不錯
+累了的時候吃點東西也很好啊！/
+[serif off]
+？ 近江約會很有趣/
+[quake 2]
+[effect fr syutyu a 0 0]
+[scale A 2.0 0.3]
+[move A Y -100 0.3]
+[face A 05]
+[serif on]
+[say A]
+黛黛黛，約會吧！ ？[shake A]
+不要取笑大人！ ！/
+[face A 06]
+[effect off a]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[quake off]
+哇，當一個完全變成男人的男孩告訴我時，
+果然，我也很尷尬。/
+[face A 03]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+我們趕緊回莊園吧！
+是的，是的！/
+[move A X -600 3]
+[delay 2 hide A]
+[se walk_06]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+旁邊的近江，可能很尷尬，但也很急。
+我回到了莊園。/
+[talkend]
+[textcolor ARUJI]
+我最近過著有點懶惰的生活。
+我當時也在場，但是…/
+[fadein BLACK 2.0]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+多虧了這個，我才能和近江一起度過時光
+我認為這很好。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

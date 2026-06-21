@@ -1,0 +1,882 @@
+>>10000/
+@伊予
+よぅっあるじ！[wait 0.5]　南海道、伊予、到着！[autotap]/
+[delay 3.0]
+[flow]
+@伊予
+そんじゃ、任務に行ってくるー……って、
+どこ行くか聞いてなかったぞな！/
+>>10001/
+@伊予
+あ、あるじはっけーん！　[wait 0.5]
+とーぅ！　[autotap]/
+[delay 3.0]
+[flow]
+@伊予
+さあ、遊びに行くぞな！　俺についてこーい！/
+>>1/
+[set A s_iyo_r 伊予]
+[show A C]
+[face A 01]
+[move A Y -100]
+[-]
+[move A Y 200 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+[talk A]
+よぉ！　あるじは温泉好き！？
+俺のオススメは道後温泉！/
+[face A 09]
+すっげぇ歴史が古くて日本三古湯の一つ
+なんて言われてるぞな！/
+[effect A kira a 0 100]
+[face A 02]
+泉質は肌に優しくて美容にいいし、
+溜まった疲れもとれちゃうぜ！/
+[effect off a]
+[face A 06]
+どう？　行ってみたくなってきたろ～？/
+[face A 00]
+んじゃいつ行く？　[wait 0.5]暇なら今すぐ行こうぜ！[face A 02]
+へへ！[move A X -50 0.3]　しゅっぱーーーーつ！！！[shakebg][move A X 1000 0.4]/
+>>2/
+[set A s_iyo_r 伊予]
+[show A R]
+[move A C 0.2]
+[face A 01]
+[-]
+[serif on]
+[talk A]
+あるじぃ！
+風呂行く時はこの今治のタオル使えよ！/
+[face A 02]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ほら、ふわふわで気持ちいいだろ？/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……ん？　面積が小さくて隠せないって？[face A 02]
+そんなの気にしなくて大丈ー夫！/
+[face A 09]
+なんなら隠さなくてもいいわけだし！/
+[face A 01]
+さぁ、早速一緒に風呂行こうぜ！
+へへへ……/
+>>3/
+[set A s_iyo_r 伊予]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+こたつで食べる伊予柑最高～！
+……ただ、皮剥くのがちょっと面倒ぞな。/
+[face A 04]
+誰か俺のかわりに剥いてくれないかなぁ……
+えいっ！[shake A]　えいっ！！[shake A]/
+[face A 05]
+ぞ、ぞなぁ！？[shake A]
+飛んだ汁が目に入ったぁ！！[shake A 5 20 20]/
+>>4/
+[set A s_iyo_r 伊予]
+[randomset B r @地魂男児 @あやかし @NPC -iyo]
+[show A C]
+[face A 08]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+[talk A]
+あっ、あれ！？/
+[face A 05]
+今日の料理担当の$B:Aに、
+塩と間違えて砂糖渡しちまってたぞな……/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+あちゃー……[wait 0.5]
+よし[face A 01]、次は失敗しないぞな！/
+[face A 06]
+……$B:Aに言わなくても大丈夫かな？
+たぶん気づいたよな？？/
+>>5/
+[set A s_iyo_r 伊予]
+[randomset B r @地魂男児 @あやかし @NPC -iyo]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+うお～っいい天気ぞな～！
+こんな日は……/
+[show B R]
+[face A 01]
+[face B 05]
+[talk A]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+お、$B:A！
+ちょうどいい所にいたぞな～！/
+[setline 0.5 A B]
+[face A 02]
+[face B 01]
+今日暇？
+これから虫取りに行こうぜ！/
+[move A X -300 0.2]
+[delay 0.2 move A Y 10 0.1]
+[delay 0.3 move A Y -10 0.1]
+[face A 09]
+タオルも忘れんなよ！
+虫取りの後は川で泳ぐぞな！/
+>>6/
+[set A s_iyo_r 伊予]
+[randomset B r @地魂男児 @あやかし @NPC -iyo]
+[show A R]
+[show B L]
+[face A 01]
+[face B 00]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+あ、$B:Aだ！
+よぉ$B:A、遊ぼうぜ～！！/
+[serif off]
+[face A 02]
+[face B 05]
+[move A X -1500 0.5]
+[delay 0.3 shakebg]
+[delay 0.3 se bomb_01]
+[-]
+[autotap]/
+[hide A]
+[-]
+[move B X 300 1.0]
+[show A L]
+[move A Y -100]
+[shake A]
+[face A 04]
+[face B 04]
+[-]
+[move A Y 100 1.0]
+[talk A]
+[serif on]
+いたた……
+止まれなくて壁に頭ぶつけたぞな……/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_iyo_r 伊予]
+[randomset B r @地魂男児 @あやかし @NPC -iyo]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[talk A]
+[setline A B]
+[move A X -800]
+[move A X 800 1.0]
+[-]
+[serif on]
+おっ$B:A、任務おつかれ～！
+今日もいっぱい汗かいたんだなー！/
+[face A 09]
+それじゃあ……[wait 0.5]汗流しに……[wait 0.5]行く？
+風呂、行っちゃう？[shake A]/
+[face A 02]
+[face B 02]
+いえーい！　一緒に行くぞな～！[shake A][shake B]/
+>>10/
+[set A s_iyo_r 伊予]
+[randomset B r @地魂男児 @あやかし @NPC -iyo]
+[randomset C r @地魂男児 @あやかし @NPC -iyo -@NOW]
+[show A C]
+[show B C]
+[face A 08]
+[face B 04]
+[talk A]
+[setline A B]
+[-]
+[serif on]
+$B:A、今日は暗いぞな？
+何かあったんぞなもし？/
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 04]
+……ふんふん、そりゃきついぞなもし。
+そういう気が沈んだ時の対処法、教えてやろうか？/
+[face A 06]
+それは[wait 0.2]…[wait 0.2]…[wait 0.5]
+[=「すっぱり忘れて気にしない」 「大浴場に思いっきり飛び込む」 「大浴場に伊予柑をどっさり入れて浸かる」 「冷蔵庫の中の物を好きなだけ食べる」 「荘園の中を気が済むまで全力で走り回る」 「厠の中で大声で歌う」 「全部ほったらかして寝る」 「台所で水遊びする」 「司令室の机の上で踊る」 「御座所の椅子に座ってダラダラする」 「御座所のふかふかの椅子で寝る」 「居間で座布団投げして遊ぶ」  「明日の自分に全部任せる」 「庭の川べりで泥遊びする」 「購買でムフフな本を取り寄せてもらう」 「畳の上でうつ伏せになって腰を振る」 「修練場のカカシの顔にラクガキをする」]！[shakebg][shake A][face B 05]/
+[face A 04]
+[face B 04]
+俺はこれをやって、[=夏人 あるじ 猫乃屋 $C]に3回は怒られたぞな！
+…………はぁ……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+>>11/
+[set A s_iyo_r 伊予]
+[randomset B r @地魂男児 @あやかし @NPC -iyo]
+[randomset C r @地魂男児 @あやかし @NPC -iyo -@NOW]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+飯食って、風呂入って、
+後することといえば[wait 0.2]…[wait 0.2]…[wait 0.2]そう野球拳！！[shake A]/
+[face A 02]
+[talk A]
+[show B L]
+[face B 05]
+[orderline A B]
+[move A X -200 0.2]
+[say A]
+さぁさぁ！　居間に集合ぞな！[face B 06][move A X 200 0.2][show C R][orderline A B C][face C 05][say A]
+みんな参加するぞな！！[shake A]/
+[face C 01]
+[serif off]
+[waku on 0.5]
+[-]
+[serif on]
+[face A 09]
+（ふふふ……
+　今夜こそ全員すっぽんぽんにしてやるぞな）/
+[serif off]
+[waku off 0.5]
+[-]
+[autotap]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_iyo_r 伊予]
+[se fusuma_02]
+[show A R]
+[face A 00]
+[move A C 1.0]
+[-]
+[face A 04]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+なんかこの部屋暑いぞな……
+んんっ！？[face A 03][shake A]　空調切れてんじゃんかー！/
+[shake A 2 5 5]
+……はッ！！/
+[serif off]
+[waku on 0.5]
+[face A 06]
+[-]
+[serif on]
+（このままにしておけば、みんなも暑くて
+　脱ぎだすぞなもし……？）/
+[serif off]
+[waku off 0.5]
+[-]
+[serif on]
+[face A 03]
+おし！
+耐える……俺は耐えるぞな……！[shake A]/
+>>15/
+[set A s_iyo_m 伊予]
+[se walk_04]
+[show A C]
+[move A X -1000]
+[move A X 1000 0.8]
+[face A 02]
+[-]
+[serif on]
+[talk A]
+よーし、修練場到着ぅ！
+へへっ一番乗りぃ！/
+[face A 08]
+さぁーて早速的を狙って……[shake A][face A 05]って、あれっ！？/
+[face A 03]
+[shake A]
+しまったー！
+弓忘れてきちまったぞな～！[move A X -1000 0.5]/
+>>16/
+[set A s_iyo_m 伊予]
+[randomset B m @地魂男児 @あやかし -@NPC -iyo]
+[serif on]
+[talkend]
+伊予が$Bと手合わせしている。/
+[show A C]
+[face A 08]
+[talk A]
+どりゃー！！　[se katana_01][fadein WHITE 0.2][delay 0.2 fadeout 0.3]うりゃー！！[se katana_06][move A X -300 0.2]
+そこだ！[move A X 500 0.2]　[se doka_01]猪突猛進ー！！！[shake A 3 5 5][se bomb_01]/
+[show B C]
+[face B 08]
+[setline 0.5 A B]
+はぁはぁ……
+$B:A、なかなかやるぞなもし……/
+[face A 09]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face B 01]
+お互いいっぱい汗かいたな……
+へへ、今日は風呂が楽しみぞな！/
+>>17/
+[set A s_iyo_b 伊予]
+[randomset B b @地魂男児 @あやかし @NPC -iyo]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[setline A B]
+[talk A]
+おっ$B:A！
+今から風呂ぞなもし？　じゃあ一緒に入ろうぜ！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se cloth_01]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[face A 09]
+[face B 05]
+じぃー[wait 0.2]…[wait 0.2]…[wait 0.2]
+じぃぃー[wait 0.2]…[wait 0.2]…[wait 0.2]…[wait 0.2]…[wait 0.2]/
+[face A 06]
+[face B 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、大丈夫！　俺のことは気にせず脱いじゃって！
+ほら！　早く早くっ！[shake A]/
+>>18/
+[set A s_iyo_b 伊予]
+[show A C]
+[face A 08]
+[move A Y -100]
+[serif on]
+[talk A]
+[se amb_12]
+[effect fr yuge A]
+[se bath_04]
+おお？　[wait 0.2]……おお[wait 0.2]…[wait 0.2]…[wait 0.2]お、おおお……[shake A][face A 06]/
+[face A 09]
+[move A Y -50 1.0]
+[se water_06]
+ううう[wait 0.2]…[wait 0.2]…[wait 0.2]眼福ぞなぁ[wait 0.2]…[wait 0.2]…[wait 0.2]
+でもこれは……しばらく上がれないぞな……/
+[talkend]
+伊予はのぼせているようだ。/
+>>19/
+[set A s_iyo_b 伊予]
+[show A C]
+[face A 09]
+[serif on]
+[move A Y -100]
+[talk A]
+[se amb_12]
+[effect fr yuge A]
+[se bath_04]
+じー[wait 0.2]…[wait 0.2]…[wait 0.2]/
+[face A 02]
+今日こそは、
+全員分みるまで上がらないぞな……[shake A]/
+[move A Y -50 1.0]
+[se water_06]
+ぶくぶく。/
+>>20/
+[set A s_iyo_r 伊予]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+[se pee_01]
+じょーーーー！[shake A]
+よーっし、しょんべんおわりっ！/
+[serif off]
+[move A X 100 0.2]
+[delay 0.1 shake A]
+[delay 0.3 move A C 0.1]
+[-]
+[serif on]
+[face A 05]
+って、わわわ！！/
+[face A 04]
+まだ終わってなかったぞな！
+あぶねーーーぞな……！　ふぅ……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+>>21/
+[set A s_iyo_r 伊予]
+[randomset B r @地魂男児 @あやかし @NPC -iyo]
+[show A C]
+[show B C]
+[face A 09]
+[face B 00]
+[setline A B]
+[serif on]
+[talkend]
+伊予が隣で用を足している
+$Bを見つめている。/
+[serif off]
+[talk A]
+[waku on 0.5]
+[face A 06]
+[-]
+[serif on]
+じー……
+（[=手が邪魔でよく見えないぞな…… 偶然見える時ほど燃えるぞな…… 見えそうで見えない……ぞな……]）/
+[serif off]
+[waku off 0.5]
+[-]
+[autotap]/
+>>22/
+[set A s_iyo_r 伊予]
+[randomset B r @地魂男児 @あやかし @NPC -iyo]
+[show B C]
+[face B 00]
+[wait 0.5]
+[-]
+[shakebg]
+[se doka_01]
+[delay 0.2 se doka_01]
+[delay 0.4 se doka_01]
+[face B 05]
+[-]
+[serif on]
+[talkend]
+厠の個室の中でドタドタと
+足踏みするような音が響いている。/
+[serif off]
+[move B X 800 0.5]
+[hide B]
+[show A C]
+[move A Y -50]
+[move A X -800]
+[move A X 800 0.5]
+[face A 03]
+[talk A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+はぁ……厠は暇すぎるぞな……
+早く済ませて駆け出したいぞなぁ！！[shake A]/
+[shake A 5 10 10]
+[shakebg]
+[se doka_01]
+[delay 0.2 se doka_01]
+[delay 0.4 se doka_01]
+[talkend]
+ドタドタドタドタ！！！/
+>>23/
+[set A s_iyo_r 伊予]
+[show A C]
+[face A 06]
+[move A Y -50]
+[serif on]
+[talk A]
+んん……個室だし、せっかくだから上も
+脱いじゃお……[se cloth_01]んしょ……んしょ……[shake A]/
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+……ふぅ！
+裸の開放感、たまらんぞな～。/
+[face A 05]
+[talkend]
+ガチャ……/
+[face A 09]
+[talk A]
+（だ、誰か厠に入ってきたぞな……
+　ちょっとドキドキするぞなもし……！）/
+>>24/
+[set A s_iyo_r 伊予]
+[randomset B r @地魂男児 @あやかし @NPC -iyo]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+みんな！[shake A]
+寝る前に寝間着に着替えようぜ！/
+[show B R]
+[face A 01]
+[face B 01]
+ほらほら、さっさと服脱いじゃって！
+お、$B:Aはもう脱いだ？[setline 0.5 A B]/
+[face A 09]
+[shake A]
+いいねいいね！　なんならそのまま
+パンツ一丁で寝るのもまたよしぞな！[face B 06]/
+>>25/
+[set A s_iyo_r 伊予]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+……よよいの……よい……
+へへ[wait 0.2]…[wait 0.2]…[wait 0.2]また勝ったぞな…………/
+[talkend]
+いい夢を見ているようだ。/
+>>26/
+[set A s_iyo_r 伊予]
+[randomset B r @地魂男児 @あやかし @NPC -iyo]
+[show A L]
+[show B R]
+[face A 09]
+[face B 07]
+[serif on]
+[talk A]
+[move B Y -100]
+あっ、$B:Aの寝間着、
+少しはだけてるぞな……/
+[move A X 100 1.0]
+[face A 02]
+[talk A]
+お……[shake A]もうちょっとで見えそうぞな……！/
+[move A X 50 1.0]
+[face A 06]
+$B:A、もうちょっと……
+もうちょっとだけ、寝返りうつぞなもし……！！/
+[move B X 10 0.5]
+[se cloth_01]
+[-]
+[shake A 2 10 10]
+[face A 00]
+……！！/
+>>100/
+[set A s_iyo_r 伊予]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 伊予の駆け出し]
+[-]
+[bgm home]
+[bg rouka_day]
+[-]
+[fadeout 2.0]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+トイレへ行った帰り、
+廊下で伊予に声をかけられた。/
+[show A C]
+[face A 01]
+[talk A]
+よっ！　あるじ！/
+[serif off]
+?伊予/
+[serif on]
+[face A 00]
+どこ行ってたぞな？
+飯？　風呂？　厠？/
+[serif off]
+?トイレだよ/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+そっかそっか！
+じゃあ、いま暇？　遊びにでかけね？/
+[face A 02]
+思いっきり身体動かす感じで、
+かけっことか、鬼ごっことか、水遊びとか！！/
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+どう！？[shake A]
+今日は天気もいいし、きっと楽しいぞな！/
+[talkend]
+[textcolor ARUJI]
+伊予はうきうきとしている。/
+[serif off]
+?嬉しいけど仕事が……/
+[scale A 1.0 0.5]
+[move A Y 100 0.5]
+[face A 04]
+[talk A]
+[serif on]
+そっかー[wait 0.5]…[wait 0.2]…[wait 0.2]
+じゃあそれなら――/
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[face A 01]
+あるじの仕事、俺が手伝ってやるぞな！[se taiko_02]/
+[face A 02]
+ちゃっちゃと終わらせて
+遊びにいこうぜ！/
+[talkend]
+[textcolor ARUJI]
+伊予はにっこりと笑う。/
+[serif off]
+?それならありがたい/
+[serif on]
+[face A 00]
+[talk A]
+おっ！　ほんとか！
+やったぜ！/
+[scale A 1.0 0.5]
+[move A Y 100 0.5]
+[face A 02]
+よーっし、それじゃ行ってくるぜー！
+待ってろよあるじー！！[se walk_03][move A X 1000 0.3]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+伊予は走って行ってしまった。/
+[serif off]
+?まだ何も言ってないんだけど/
+[serif on]
+[textcolor ARUJI]
+しばらく待っていたが、
+伊予は戻ってこなかった。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg gozasyo_day]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[textcolor ARUJI]
+御座所で仕事の続きをはじめて
+半刻ほどたった頃――/
+[serif off]
+[se fusuma_02]
+[show A R]
+[face A 05]
+[talk A]
+[move A C 1.0]
+[-]
+[serif on]
+あ、あるじ……はぁ、はぁ……/
+[serif off]
+?伊予、おかえり/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[serif on]
+あ、あるじ……ごめん……
+俺、ロクハラの購買まで行ったんだけど……/
+[flow]
+その[wait 0.2]…[wait 0.2]…[wait 0.2]ひょっとしてだけど、さっき俺……/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 05]
+[bgm fun]
+仕事の内容聞かずに行っちゃったかも……
+しれないぞな……はぁ、はぁ……/
+[serif off]
+?購買に行ってんだ/
+[serif on]
+[face A 03]
+なぬっ！？[shake A]
+ま、まさか購買ですらなかったのか！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+うぅ……確かにあるじ、まだ何も
+言ってなかった気がするぞな[wait 0.2]…[wait 0.2]…[wait 0.2]ふぅー！[shake A 3 5 5]/
+[talkend]
+[textcolor ARUJI]
+伊予は大きく深呼吸をした。/
+[face A 01]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+さぁ！
+気を取り直して！/
+[face A 02]
+あるじ！　今度こそ俺が手伝ってやるぞな！
+何する？　何するんだ！？/
+[serif off]
+?えーっと、そうだな……じゃあ――/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+何か頼めそうなものはないかと思い、
+「少し待ってね」と言いかけたそのとき……/
+[face A 03]
+[say A]
+[bgm departure]
+[effect fr syutyu a]
+よし！　まかせろー！
+うおりゃーーー！！！/
+[serif off]
+[scale A 2.0 0.5]
+[move A Y -200 0.5]
+[delay 0.5 shakebg]
+[delay 0.2 hide A]
+[delay 0.5 se zukkoke_01]
+[-]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+突如伊予がものすごい勢いでこちらに激突
+してきた。/
+[talkend]
+[se dosa_01]
+[shakebg]
+[effect off a]
+[textcolor ARUJI]
+ずんぐりとした伊予の体に突き飛ばされ、
+伊予もろとも床に倒れ込む。/
+[show A]
+[face A 03]
+[scale A 2.0]
+[move A Y -200]
+[say A]
+[effecgt fr syutyu a]
+あるじ！　やる気あんのかー！？
+そんなんじゃ相撲にならねーぞな！/
+[bgm off]
+[serif off]
+?一体なぜ相撲を……/
+[serif on]
+[say A]
+[bgm fun]
+[shake A]
+[face A 05]
+[effect off a]
+えっ、だってあるじ、相撲って言ったよな？
+言ってなかったっけ？　あれれ？/
+[color A talk]
+[talkend]
+[textcolor ARUJI]
+「少し待ってね」の「す」を言おうと唇から息が
+もれたくらいで、「相撲」とは言ってないのだ。/
+[serif off]
+[color A talk]
+?ちゃんと話を最後まで聞いて！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[say A]
+[face A 04]
+わ、悪かったぞな……[wait 0.5][move A Y 10 0.1][face A 01][delay 0.1 move A Y -10 0.1]
+それじゃあ、何でも言ってくれよな！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+床に寝転んだまま頼もしげに言う伊予。
+ふさふさの大きな尻尾が揺れているのが見える。/
+[serif off]
+?まずは起き上がってからだ/
+[show A]
+[scale A 2]
+[move A Y -200]
+[face A 00]
+[serif on]
+[say A]
+おっ！　たしかにそうだな！
+俺が起こしてやるぞな！　よっこらせっと！/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+伊予は太く肉厚な手で
+引っ張り上げて起こしてくれた。/
+[show A]
+[face A 00]
+[say A]
+で、何手伝う？
+ほらほら！[shake A][face A 06]　言って言って！[shake A][face A 07]　ぞなぞな！[shake A][face A 09]/
+[serif off]
+?最後まで聞ける？/
+[serif on]
+[say A]
+[face A 05]
+うっ……あるじ[wait 0.2]…[wait 0.2]…[wait 0.2]怒ってんなー[wait 0.2]…[wait 0.2]…
+ほんと悪かったと思ってるぞな。[face A 04]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[face A 02]
+誓うぞな！　あるじの話をちゃーんと最後まで
+聞いて、バリバリ仕事の手伝いをするぞな！/
+[say A]
+[flow]
+…[wait 0.2]…[wait 0.2]…[wait 0.2]…[wait 0.2][face A 04]疑われてる気がするぞな……/
+[say A]
+[face A 08]
+[flow]
+じゃあさ！　あるじが喋り終わるまで
+俺、絶対一歩もここから動かねーから！/
+[talkend]
+[hide A]
+[se paper_01]
+[textcolor ARUJI]
+そこまで言うのなら、と、手元の資料をみて、
+伊予に頼めそうな仕事を探してみる。/
+[show A]
+[face A 08]
+[textcolor ARUJI]
+[flow]
+伊予はじぃっとこちらの様子を伺っている。/
+[say A]
+[se paper_01]
+………………
+……………………っ……/
+[serif off]
+?そうだなー……/
+[face A 04]
+[talk A]
+[serif on]
+う、ううう～～～、[shake A]早く言ってくれ～！
+また駆け出したくなってきたぞな～！！/
+[face A 09]
+[say A]
+うずうず……[shake A]うずうず……！[shake A]/
+[talkend]
+[textcolor ARUJI]
+その場でバタバタと足踏みをはじめる伊予。/
+[fadein BLACK 2.0]
+[autotap]/
+[hide A]
+[textcolor ARUJI]
+その後、伊予は一生懸命手伝いをしてくれたが、
+常にこの調子だったので――/
+[textcolor ARUJI]
+伊予に頼み事をする時には、迅速かつハッキリと
+説明しなくては……と思ったのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

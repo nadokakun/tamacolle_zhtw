@@ -1,0 +1,1522 @@
+>>10000/
+@武蔵
+てやんでぇ！[wait 0.5]
+義理と人情なら日の本一！[wait 1.0]　ワンと鳴きゃ東海一！[autotap]/
+[delay 1.0]
+[flow]
+[-]
+@武蔵
+地魂男児一番の火消し、[wait 1.0]武蔵たぁ
+オレのことでぃ！/
+>>10001/
+@武蔵
+どうしたぃ？　大将。[wait 0.6]
+オレの力がもっともっと必要かい？[autotap]/
+[delay 1.2]
+[flow]
+[-]
+@武蔵
+任しときなってんだ！/
+>>1/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 08]
+[-]
+[serif on]
+[talk A]
+火消しとしては「八百屋お七」が
+江戸に火を放ったのは許せねぇけどよぉ、/
+[face A 06]
+愛しい人に会いたいという切ねぇ気持ち……
+[face A 04]くぅぅ、[shake A 3]そこだけはわかる気がするぜぃ。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+な、なんでぇ大将！
+[face A 02]意外と繊細だって言いてぇのかよぉ。/
+>>2/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[talk A]
+やっぱ芝居はいいぜぇ！[wait 0.4]　笑いあり、涙あり
+義理と人情の物語、たまんねぇや！！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 00]
+大将も今度歌舞伎にでも連れってってやらぁ！
+[wait 0.5][face A 08]なに？[wait 0.5]　ちけっと？/
+[face A 12]
+……なんだそりゃ？/
+>>3/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 08]
+[-]
+[serif on]
+[talk A]
+とうきょうたわーに、すかいつりー……/
+[face A 02]
+へ～、江戸の街も随分ハイカラになってんだなぁ！
+[wait 0.3][face A 09]まるで知らねぇ街みてぇじゃねぇか……/
+[face A 06]
+で……でもよぉ、そんな街でも
+大将が一緒なら……オレぁ……[scale A 1.5 1.3][move A Y -100 1.3]　/
+[scale A 1.0 0.2]
+[move A Y 100 0.2]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 11]
+って危ねぇ！[shake A 2]　[face A 10]つい柄にもねぇこと
+言っちまいそうだったぜ……！　[move A X 1000 0.5]気にすんなよな！/
+>>4/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+いや～、いつ見ても荘園の庭の手入れは
+見事なもんだ！　風流だねぇ～！/
+[flow]
+[face A 00]
+……誰かが手入れしてくれてんのか？
+オレも弟子入りしてぇくらいだぜ。/
+>>5/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+大将に小遣いもらっちまったぜ。
+[wait 0.4]大したことはしてねぇンだけどなぁ。/
+[face A 02]
+ま、いーさ！
+[wait 0.4]パーッと使っちまうかぁ！！[move A Y 100 0.1][delay 0.1 move A Y -100 0.2][delay 0.3 move A X 1000 0.6]　/
+>>6/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 11]
+[-]
+[shake A 3]
+[-]
+[serif on]
+[talk A]
+くぅー……[wait 0.5]売店で美味そうな田楽が
+手に入っちまったぜ。/
+[face A 01]
+[move A X 200 0.5]
+こいつを肴に一杯ひっかけたら、
+そりゃあ絶品だろうなぁ……/
+[move A X -200 0.5]
+[face A 10]
+[-]
+[face A 04]
+でも田楽だけで金は使いきっちまったんだよなぁ……
+[wait 0.6]どうすりゃいいんだ……[move A Y 10 0.4][delay 0.4 move A Y -20 1.0]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 00]
+[-]
+[serif on]
+[talk A]
+やっぱり火事は予防が大切だからな！
+[face A 07][wait 0.5]今日も夜回りするぜぃ！/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[wait 0.5]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[wait 0.5]
+[move A X 50 0.5]
+火の[wait 0.3]用心！
+[move A X 50 0.5][wait 0.5]マッチ一本、[wait 0.3]火事の元～！[move A X 50 0.5]/
+>>10/
+[set A s_mus_r 武蔵]
+[randomset B r @地魂男児 -mus -@NPC]
+[show A L]
+[show B R]
+[se fusuma_01]
+[move A X -400]
+[face A 00]
+[talk A]
+[order A 5]
+[order B 10]
+[-]
+[move A X 600 0.4]
+[serif name]
+[serif on]
+[face B 05]
+厨房ー！　邪魔するぜい！
+火元の確認さぁ！/
+[shake A 2]
+[face A 06]
+[face B 01]
+うーんいい香りだぜ！
+[wait 0.4][face A 02]……ちょびっとだけ味見してもいいだろ？/
+>>11/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 11]
+[-]
+[serif on]
+[talk A]
+かぁ～っ、辺りが暗くなってくると
+無性に人恋しくなってきやがる……/
+[face A 13]
+ちぇっ、らしくねぇや！/
+[face A 09]
+こういう時は、
+パーッと花火打ち上げちまうか！！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+う、こいつはいけねぇ……[shake A]
+オレの大砲に火がついちまったみたいだぜぃ。/
+[move A X 500 0.5]
+[se walk_11]
+は、早く厠にいかねぇと……/
+>>15/
+[set A s_mus_m 武蔵]
+[show A C]
+[face A 08]
+[-]
+[serif on]
+[talk A]
+さっすがにここで大砲
+ぶっ放すわけにゃいかねぇよなぁ。/
+[face A 01]
+今日のところは基礎訓練で茶ぁ濁すかぁ！/
+>>16/
+[set A s_mus_m 武蔵]
+[randomset B m -mus -@NPC]
+[show B]
+[show A C]
+[face A 00]
+[face B 00]
+[setline A B]
+[serif on]
+[talk A]
+ぶっ放すだけが訓練じゃねぇ。
+きちんと武器の手入れもしねぇとな！/
+[face A 01]
+[face B 01]
+まずは大砲をしっかり磨くぜぇ！
+きゅっきゅっと♪[shake A 3 0 5]/
+>>17/
+[set A s_mus_b 武蔵]
+[show A C]
+[face A 00]
+[move A Y -60]
+[-]
+[move A Y 40 0.2]
+[delay 0.3 move A Y -10 0.2]
+[-]
+[serif name]
+[serif on]
+[talk A]
+やっぱり江戸っ子は褌だよなぁ！/
+[face A 11]
+こうきゅっと[shake A 2]ケツと尻尾に
+食い込む心地がたまらねぇんだよなぁ！/
+>>18/
+[set A s_mus_b 武蔵]
+[randomset B b -mus]
+[show B L]
+[face B 00]
+[move B Y -50]
+[show A C]
+[effect fr yuge A]
+[se amb_12]
+[move A Y -50]
+[face A 00]
+[se bath_03]
+[talk A]
+[-]
+[serif on]
+さてと、身体も洗い終わったところで、
+風呂に浸かるとするか！/
+[move A Y 50 0.3]
+[delay 0.3 move A X 200 0.4]
+[face A 08]
+[se bath_02]
+[face B 05]
+オレぁ江戸っこ、ぬるい湯にゃ浸かれねぇぞ……
+[wait 0.5]っと。[move A Y -100 0.4]ざぶん…[se water_03][wait 0.1][face A 05]………[shake A 3]っっっ[face A 04]～～～！！！/
+[face A 06]
+[shake A 5]
+[face B 04]
+こ、こ、この程度じゃあまだまだぬるい方だなぁ！
+[wait 0.5]だが[face A 09]他の奴らにゃちょっと熱すぎるかもしれねぇ。/
+[face A 11]
+[se water_07]
+[face B 01]
+[move A X 800 0.5]
+……水でうめとくかぁ！
+[wait 0.3]オレぁ大丈夫なんだけどよぉ！/
+>>19/
+[set A s_mus_b 武蔵]
+[effect fr yuge A]
+[show A C]
+[face A 06]
+[se amb_12]
+[serif on]
+[talk A]
+今日は体のほてりがとれねぇな。
+元気がいいのも困りもんってなぁ。/
+[face A 11]
+[se bath_02]
+しゃーねぇ、水でも被るか！[move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3][se water_07]
+…………[face A 05]ひぃぃーっ[shake A 10 10 10]、つ、つっめてぇぇ！！/
+>>20/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+[-]
+[se pee_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+火消しのションベンは
+消防車の放水みてぇなもんだな！/
+[move A X -15 0.1]
+[delay 0.1 move A X 30 0.2]
+[delay 0.3 move A X -30 0.2]
+[delay 0.5 move A X 15 0.1]
+[face A 11]
+ふーっ
+[wait 0.5]すっきりしたぜ！/
+>>21/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+オレは地魂男児一番の火消し！
+どんな時だって狙いは外さねえぜぃ！/
+[face A 05]
+[shake A]
+……って、どわあああああああ！？/
+>>22/
+[set A s_mus_r 武蔵]
+[show A C]
+[move A Y -40]
+[face A 00]
+[serif on]
+[talk A]
+ここの惣後架が随分キレイなのは
+掃除当番が頑張ってるからだなぁ。/
+[face A 12]
+今度オレが惣後架当番になった際にゃ、心込めて
+磨かねぇとな！[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]　ふぅー……おちつくぜぃ。/
+>>23/
+[set A s_mus_r 武蔵]
+[show A C]
+[move A Y -40]
+[face A 11]
+[serif on]
+[talk A]
+……ン……あ、アオッ、[shake W]/
+[face A 09]
+[shake A]
+って、あぶねぇ。
+思わず吠えちまうところだったぜぃ……/
+>>24/
+[set A s_mus_r 武蔵]
+[randomset B r @地魂男児 -mus -@NPC]
+[show B R]
+[move B X 200]
+[show A C]
+[face A 10]
+[order A 5]
+[order B 10]
+[serif on]
+[talk A]
+寝る時になるとよぉ……[wait 0.3]百々爺[wait 0.1]に寝息を
+吸い取られねぇか[shake A 2]心配で中々眠れねぇんだ……/
+[move A X 200 0.3]
+[move B X 20 0.2]
+[face A 04]
+[face B 05]
+誰かオレと交代で眠らねぇか？
+[move A X -50 0.1][order A 0][order B 1][delay 0.1 move A X 150 0.3][delay 0.1 move B X -50 0.2][delay 0.3 rotate B -5 0.2][face A 04][wait 0.3]な？[wait 0.3]いいだろ？/
+>>25/
+[set A s_mus_r 武蔵]
+[show A C]
+[face A 13]
+[-]
+[serif on]
+[talk A]
+あーくそ……暑苦しいったらねぇぜ。[shake A]
+[wait 0.2][face A 00]……そろそろ寝静まったか？/
+[move A Y -150 0.5]
+[-]
+[face A 06]
+[se cloth_01]
+[move A X -15 0.1]
+[delay 0.1 move A X 30 0.2]
+[delay 0.3 move A X -30 0.2]
+[delay 0.5 move A X 15 0.1]
+いっちょ素っ裸になって……
+[face A 12]はーっ、落ち着くぜぇ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ぐっすり眠れそうだぜ……
+[wait 0.4][face A 07]ぐー……/
+>>26/
+[set A s_mus_b 武蔵]
+[show A C]
+[face A 06]
+[serif name]
+[serif on]
+[talk A]
+素っ裸で寝ると、
+布団のこすれが妙に気持ちいぜぃ。/
+[face A 11]
+[shake A]
+はぅっ……たまんねぇや……！/
+>>27/
+[set A s_mus_b 武蔵]
+[show A C]
+[face A 00]
+[wait 0.5]
+[-]
+?武蔵、ハレの日おめでとう！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+[say A]
+おう！　ありがとよぉ大将！[shake A]/
+[face A 00]
+今日は花火の日なんだってな。
+両国川で花火が打ち上げられた日なんだ。/
+[face A 02]
+花火っつーとやっぱり江戸の風物詩！
+オレのハレの日にゃもってこいってわけだ！/
+[face A 01]
+てなわけでちょうど今、花火の玉を作ってた
+ところだってわけよ。/
+[face A 00]
+大将は好きな花火とかあるか？
+菊や牡丹、柳もいいよなぁ。[face A 12]/
+[serif off]
+?武蔵と一緒に花火を作る/
+[face A 09]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[serif on]
+お、大将……一緒に作ってくれんのか？
+じゃあちょっと小さめのやつからな。[face A 00]/
+[face A 00]
+[flow]
+んじゃあそこにある「ホシ」を
+ここに詰めてくれるか？　隙間ができねぇようにな。/
+[serif off]
+?火薬を詰める/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[se cloth_01]
+そうそう、いい感じだぜ大将！
+結構手際がいいじゃねぇか。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[flow]
+[se goso_01]
+そんじゃあワリコを入れて……っと。
+大将、そこ押さえててくれるか？/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[autotap]/
+[flow]
+もっとこんな感じでよ……/
+[hide A]
+[se cloth_01]
+[talkend]
+武蔵がこちらの手に自分の手を重ね
+花火に添えさせた。/
+[show A]
+[face A 11]
+[say A]
+[scale A 2]
+[move A Y -220]
+へへ……っ。/
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[se cloth_01]
+[face A 02]
+こうして……[shake A]こうして……[shake A]
+出来上がりだ！[shake A]/
+[face A 06]
+…………[wait 0.5]こうして大将と一緒に花火を
+作るなんて中々できることじゃねぇや。/
+[face A 00]
+[flow]
+ありがとよ。大将。
+あんたの地魂男児でよかったぜぃ。/
+[face A 11]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+なんてな！　へへっ、打ち上げるのが
+楽しみだぜ！/
+>>100/
+[set A s_mus_r 武蔵]
+[set B s_mus_r 武蔵]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 武蔵とある夜]
+[-]
+[bg bg_rouka_night]
+[fadeout]
+[se amb_05]
+[-]
+[bgm home]
+[talkend]
+[serif on 0.5]
+[textcolor ARUJI]
+[se walk_01]
+夜中。お腹が空いたので、
+何かつまめるものを探しに厨房へ向かった。/
+[serif off]
+?ん？　明かりがついている/
+[minibg tyubo 0.5]
+[bg mbg_map 0.5]
+[textcolor ARUJI]
+[se goso_01]
+[serif on]
+冷蔵庫の前にしゃがみ込んでいる影――
+近づいてみると武蔵が何かをしているようだ。/
+[serif off]
+?武蔵/
+[show A]
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[talk A]
+[-]
+[serif on]
+おわーっ！！/
+[flow]
+[face A 09]
+た、大将！？　び、びっくりするじゃねぇか！
+突然後ろから声かけるんじゃねぇや！/
+[serif off]
+?武蔵もお腹すいたの？/
+[flow]
+[face A 06]
+[serif on]
+へっ？
+あ、違ぇよ！/
+[flow]
+[face A 00]
+オレはここの台の立て付けが悪いって
+相談されたからよぉ、/
+[flow]
+[face A 01]
+今のうちに直しちまおうと思ったとこよ！/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se dosa_01]
+[face A 00]
+ほら、ぐらぐらしてたのが
+もうしっかり安定してるだろう？/
+[face A 01]
+[flow]
+後は仮止めしてたところを締めて一丁上がりだぜ！/
+[serif off]
+?大工仕事得意なんだね/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+へへ、手先の器用さと毛並みのよさにゃあ
+ちょいと自信があるんだぜぃ！/
+[serif off]
+?毛並み……どれどれ/
+[face A 11]
+[flow]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[-]
+[serif on]
+お、おう。[wait 0.5][face A 06]
+ほら、触ってみな！/
+[talkend]
+[textcolor ARUJI]
+[se cloth_01]
+差し出された武蔵の腕に触れてみる。
+きれいに揃った毛の滑らかな感触が心地よい。/
+[flow]
+[textcolor ARUJI]
+[se cloth_05]
+しばらく撫でていると、
+武蔵の体温が手のひらにほんのりと伝わってきた。/
+[talk A]
+[face A 06]
+[shake A]
+う……ふぅ……[shake A]
+……おお、いざ触られると、照れちまうな！/
+[serif off]
+?いい毛並みだ/
+[face A 02]
+[scale A 1.0 0.5]
+[move A Y 100 0.5]
+[-]
+[serif on]
+へへっ。
+褒められても何も出やしねぇぜ。/
+[fadein BLACK 2.0]
+[serif off]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+台の修理を終えた武蔵と一緒に、
+お茶と残り物のおつまみをいただいた。/
+[textcolor ARUJI]
+[se amb_04]
+荘園の皆はもう寝てしまったのだろう。
+虫の音だけが外から聞こえてくる。/
+[serif name]
+[show B]
+[face B 01]
+[talk B]
+……なあ、大将。
+助け合える仲間っていいもんだよな。/
+[serif off]
+?？/
+[face B 00]
+[serif on]
+色んな奴が力を合わせて任務に臨んでてよ……
+オレ、何ていうかここのそういう所が好きなんだ。/
+[face A 12]
+オレぁ、頭使ったりするのは苦手だけどよ、
+大将や仲間のためなら、命張れるって思ってんだ。/
+[serif off]
+[hide B 0.5]
+[-]
+[show A 0.5]
+[scale A 1.5]
+[move A Y -100]
+[face A 08]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+武蔵は真剣な眼差しで
+まっすぐにこちらを見据える。/
+[talk A]
+中でも大将はでっかい役目を背負ってっから、
+考えたり悩んだりすることも多いと思うからよ……/
+[face A 01]
+[flow]
+そういう時は、
+オレのこと、いつでも頼ってくれよな！/
+[serif off]
+?じゃあ早速、もう少しもふもふさせてもらう/
+[shake A]
+[face A 09]
+[-]
+[serif on]
+お、おお……！[shake A]
+どーんときやがれ！[face A 06]/
+[serif off]
+[scale A 2.0 1]
+[move A Y -100 1]
+[delay 0.5 hide A]
+[delay 0.5 se dosa_01]
+[delay 0.6 se cloth_01]
+[-]
+[fadein black 0.5]
+[waku on 0.5]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+武蔵に抱きついてみるとふわふわの毛と体の
+柔らかさと、どっしりとした安定感を感じた。/
+[flow]
+[textcolor ARUJI]
+溜まった疲れが一気に癒されていくように感じる。/
+[show A]
+[scale A 2.5]
+[move A Y -100]
+[face A 11]
+[say A]
+[fadeout 0.5]
+……………………/
+[talkend]
+[textcolor ARUJI]
+武蔵の顔は見えないが、
+緊張で固まっているようだ。/
+[serif off]
+[waku off 0.5]
+?ありがとう。癒やされた/
+[scale A 1.5 0.5]
+[move A Y 50 0.5]
+[serif on]
+[say A]
+へ、へへっ。これくらいでよけりゃ
+いつでも言ってくれよ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+……つっても、めちゃくちゃ照れくせぇぜ……
+慣れねぇこと吠えるもんじゃねぇな！/
+[face A 00]
+オレぁ行くぜ！
+大将も早く寝ろよな！/
+[serif off]
+[talkend]
+[se fusuma_03]
+[hide A]
+[-]
+[minibg off 2.0]
+[bg black 2.0]
+[-]
+[serif on]
+[textcolor ARUJI]
+武蔵はお茶の残りを一気に飲み干すと、
+照れくさそうに厨房を出ていったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_mus_r 武蔵]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 武蔵とお勉強]
+[-]
+[bg bg_shirei_day]
+[fadeout]
+[-]
+[bgm home]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+ある昼下がりの司令室。/
+[se fusuma_01]
+[show A C]
+[face A 00]
+[talk A]
+よぉ大将！　茶ぁ沸かしてきたぜ。
+勉強は捗ってるか？/
+[serif off]
+?まあまあかな/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[-]
+[face A 01]
+[serif on]
+ほいお茶！　熱いからゆっくり飲めよ。
+しっかし大将も大変だよなぁ。[face A 00]/
+[flow]
+オレたちの面倒見て任務の指揮しながら
+座学の試験まで受けるとはよぉ。/
+[hide A]
+[textcolor ARUJI]
+[talkend]
+もうすぐ声聞士の定期テストがある。
+声聞士に求められる知識は多い。/
+[textcolor ARUJI]
+[flow]
+呪文の扱い以外にも、暦、歴史、地理など
+様々な分野に及ぶ。/
+[show A C]
+[scale A 1.6]
+[move A Y -200 0.5]
+[se dosa_01]
+[talk A]
+[face A 00]
+そいじゃあオレもここで勉強させてもらうぜぃ。
+地魂男児も任務に関して小てすとするんだってよ。/
+[serif off]
+?じゃあ一緒にテスト勉強しよう/
+[say A]
+[face A 02]
+[serif on]
+おうよ！/
+[serif off]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se paper_01]
+[-]
+[wait 1]
+[autotap]/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+[-]
+[serif on 0.5]
+武蔵は教科書を開くと、黙々と目を通していく。
+自分も負けじと、ノートにペンを走らせる。[se write_01]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg shirei_night]
+[bgm night]
+[-]
+[fadeout 2]
+[-]
+[serif on]
+………………/
+[textcolor ARUJI]
+どれくらい時間が経っただろうか。
+時計を見ると夜の12時を過ぎていた。/
+[serif off]
+[show A]
+[scale A 1.6]
+[move A Y -200]
+[face A 08]
+[waite 0.5]
+[-]
+[textcolor ARUJI]
+[serif on]
+ふと向かいに座る武蔵に目を向ける。/
+[se write_01]
+[flow]
+[textcolor ARUJI]
+武蔵は今も真剣な面持ちで教科書を読みながら
+ノートに要点をまとめているようだ。/
+[flow]
+[textcolor ARUJI]
+机についた腕の毛がもふっとして
+さわり心地が良さそうだ。/
+[serif off]
+?武蔵の毛を撫でる/
+[shakebg]
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+[say A]
+おわっ！？　な、なんでぇ大将！
+いきなりはびっくりするじゃねぇか！[face A 11]/
+[face A 06]
+へへ、そんなにオレの毛並みが気に入ったんなら
+一声かけてくれりゃいくらでもよぉ……！/
+[serif off]
+?武蔵って意外と真面目だよね/
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+なんでぇ今頃よぉ。
+オレぁいつだって大真面目だぜ。/
+[flow]
+大将と一緒に任務を成功させてぇって
+気持ちは誰にも負けねぇぜ。/
+[serif off]
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ちと疲れたなぁ、今日はこのへんにしとくか！[face A 00]
+ありゃ。お茶の残りはぬるくなっちまったなぁ。/
+[scale A 1.8 0.5]
+[face A 12]
+大将の勉強の調子はどうよ……
+お？　次の試験は歴史じゃなかったか？/
+[serif off]
+[se paper_01]
+?地理にも興味があって/
+[hide A]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+日本の地図を見ていて
+気づいたことがある。/
+[serif off]
+?武蔵ってつく地名は現代にもたくさんある/
+[show A]
+[face A 02]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+[-]
+[serif on]
+へぇー！　本当だな！
+昔も今も、繋がってんだなぁ。/
+[face A 00]
+[talk A]
+へへ、でもよぉ。
+オレぁ、正直うれしいぜ。/
+[serif off]
+?え？/
+[face A 00]
+[serif on]
+だってよ、大将が過去の地理や
+歴史なんかを勉強するってのはよ、/
+オレたちのことをよく知ろうとしてくれてる
+ってぇことと同じだろ？/
+[serif off]
+?確かに……そうかも/
+[face A 11]
+[serif on]
+だからよぉ……オレぁ、
+ちょっぴり感動しちまったぜ……くぅぅ！[shake A]/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 00]
+[-]
+[serif on]
+[flow]
+大将、武蔵国についてはオレが教えるからよ。/
+[flow]
+[face A 06]
+いつか、
+大将に現代の街並みを案内してもらえねぇか。/
+[face A 01]
+大将と一緒にこの時代の武蔵国を
+歩いてみてぇんだ！/
+[serif off]
+?もちろんだよ/
+[serif on]
+[face A 02]
+やったぜぃ！[shake A]/
+[textcolor ARUJI]
+[face A 05]
+[talkend]
+ぐぐ～/
+[face A 11]
+[say A]
+おわっ、こんなときに腹の虫が！[shake A]
+かっこわりぃとこ見せちまったなぁ。[face A 06]/
+[face A 00]
+よしっ、台所になんかつまみ食いにいくか。
+大将もなんか一緒に食わねぇか？/
+[serif off]
+?夜食、いいね！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+よしきた！
+ついでに新しい茶淹れてやるからよ。/
+[face A 00]
+知ってるか？　江戸時代にゃ
+茶釜で茶ぁ沸かしてたんだぜ。/
+[flow]
+茶店とかで出してたんだ。/
+[serif off]
+?武蔵なら看板息子にぴったりだね/
+[face A 02]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+武蔵はよせやい！　と照れて笑った。/
+[fadein black 2]
+[autotap]/
+[textcolor ARUJI]
+武蔵と夜食を食べて、その日は朝方まで
+一緒に勉強して過ごしたのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>202/
+[set A s_mus_r 武蔵]
+[set B s_mus_r 武蔵]
+[set C s_m005_oji 爺さん]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 武蔵と夏の香り]
+[-]
+[bg sky_day]
+[fadeout]
+[se amb_06]
+[-]
+[bgm home]
+[talkend]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+今日は武蔵とお出かけだ。/
+[textcolor ARUJI]
+[flow]
+武蔵とふたりで東京のあちこちを巡る一日。
+電車に揺られ、都心までやってきた。/
+[textcolor ARUJI]
+[flow]
+現代の東京の高層ビル郡に
+武蔵は驚きっぱなしだった。/
+[delay 0.2 bg black 0.5]
+[minibg sky_day 0.5]
+[textcolor ARUJI]
+ジュースを飲みながら少し休憩していると
+武蔵が改まった様子で小さい袋を差し出した。/
+[show A]
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[say A]
+大将にこいつをぷれぜんとだ！
+受け取ってくれるよな？[se cloth_06]/
+[serif off]
+[se cloth_01]
+?これは……？　さっきのお店で買ったの？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 02]
+おうよ。へへっ、ふれぐらんすっつーんだろ？
+手の甲とかに塗ったりしてもいいみたいだぜ。[face A 00]/
+[hide A]
+[textcolor ARUJI]
+[talkend]
+ふらっと覗いたお店で、武蔵が色々な香りに
+興味津々になっていたのを思い出した。/
+[textcolor ARUJI]
+武蔵がくれたバームタイプの練香を
+早速、手の甲に塗り込んでみる。/
+[show A]
+[say A]
+[face A 12]
+おお、爽やかな香りじゃねえか。なんでも現代じゃ
+夏の定番だとか店員が言ってたぜぃ。柑橘ぶれんど。/
+[serif off]
+?いい香り！　ありがとう。大切にするよ/
+[face A 06]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+へへっ。そう言ってもらえると
+見繕った甲斐があるってもんだぜぃ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg off]
+[bg sky_sunset]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+その後も美味しいものも食べたりしながら観光を
+楽しんでいると、あっという間に日が傾いてきた。/
+[bg black 0.5]
+[minibg sky_sunset 0.5]
+[show A C]
+[face A 00]
+[say A]
+そろそろいい時間だな……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+これからとっておきの場所に行くんだ。
+楽しみにしとけよ大将！/
+[face A 00]
+[flow]
+つってもこっから歩いてすぐだぜぃ。/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……ん？/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+武蔵について歩いていると、道端でしゃがみこむ
+おじいさんを見つけた。/
+[show A C]
+[face A 01]
+[say A]
+大丈夫か？　爺さん。
+具合でも悪いのか？/
+[show C L]
+[face C 00]
+[say C]
+[setline 0.5 C A]
+おぉ……いやすまん……
+ちょっと喉が渇いてな……休んでおったのよ……/
+[face A 04]
+[say A]
+この暑さだ。ちゃんと水分取らねぇと
+危ねぇぞ爺さん。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 12]
+[flow]
+そだ、オレがさっき自動販売機で買った
+この茶をやるぜぃ！　ほら、遠慮せず飲みな！/
+[say C]
+[move C XY 10 -40 0.4]
+[rotate C -10 0.3]
+[delay 0.4 move C XY -10 40 0.3]
+[delay 0.5 rotate C 0 0.3]
+ごく……ごく……っ。
+はぁ～～……助かったよ……/
+[face A 01]
+[say A]
+そいつぁよかったぜ！
+家は近いのか？　気をつけてな！/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[move A X 200 0.5]
+[hide A]
+[move C C 0.5]
+[say C]
+ああ、ありがとう。
+お若いおふたりさん。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif off]
+?武蔵は自然に人助けするよね/
+[show A C]
+[face A 11]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+困ってるやつぁほっとけねぇ性分なんだよなぁ！/
+[face A 08]
+けど急がねぇとな！[shake A]
+あ、[face A 05]おーい婆さん、随分重そうな荷物じゃねぇか！/
+[move A X -300 0.5]
+[textcolor ARUJI]
+[hide A]
+[talkend]
+武蔵は階段をゆっくり登ろうとするお年寄りに
+声をかけて荷物を持ってあげていた。/
+[flow]
+[textcolor ARUJI]
+急がないと、と言いながらも人助けをするのが
+とても武蔵らしいと思った。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm fun]
+[hideall]
+[minibg gendai_kawa_night]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 06]
+[say A]
+[serif on]
+ふぅー、間に合ったぜぃ。/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+[se gaya_01]
+武蔵が連れてきてくれたのは隅田川の花火大会だ。
+河川敷は大勢の観覧客で溢れかえっている。/
+[show A C]
+[face A 05]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+すげぇ人の数だぜ……
+大将、オレから離れんなよ。[face A 01]/
+[face A 00]
+日本最古の花火大会はこの隅田川で始まったんだ。
+元々は死者の弔いのために打ち上げてたんだぜぃ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+しっかし、どこもかしこもぎゅうぎゅうで
+座れるところがねぇな……/
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[autotap]/
+[flow]
+[face A 11]
+どこか空いてるところ、空いてるところ……
+せっかく大将と来たのによぉ……/
+[flow]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おっ！　あのあたり空いてそうじゃねぇか！
+大将！　こっちこっち！　助かったぜぃ～。[face A 01]/
+[hide A]
+[talkend]
+@警備スタッフ
+チケット確認しまーす。/
+[show A C]
+[face A 12]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+ちけっと？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[face A 10]
+[-]
+[fadeout 1.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on]
+はぁ～～～～～……
+ちけっとがねぇと入れねぇだなんてよぉ……/
+[serif off]
+?遠くからでも見れるよ/
+[serif on]
+[face A 04]
+けどよぉ……/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+武蔵はがっくりと肩を落とし
+しょんぼりとしている。/
+[show C C]
+[face C 00]
+[say C]
+[bgm night]
+もし。あんたら……ああ、やっぱりそうだ。
+先程は助かったよ。/
+[serif off]
+?武蔵が助けたお爺さん！/
+[serif on]
+ちょうど家に帰るとこだったんじゃが……
+あんたら花火を見に来たんか？/
+[show A C]
+[face A 13]
+[say A]
+[setline 0.5 A C]
+そのつもりだったんだけどよぉ……/
+[say C]
+花火を見るならウチに寄っていきなさい。
+すぐそこだから！/
+[move C X 250 0.5]
+[delay 0.2 move A C 0.5]
+[hide C]
+[face A 05]
+[say A]
+えっ！？　ど、どうするよ大将……
+[face A 04]/
+[serif off]
+?行ってみようか/
+[face A 01]
+[wait 0.5]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg off]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[hide A]
+[serif on]
+[se door_01]
+[talkend]
+お爺さんは隅田川のほとりのマンションの
+最上階に住んでいた。ベランダへと通される。/
+[minibg sky_star]
+[show A C]
+[face A 09]
+[say A]
+うぉぉ……こんだけ高いとさすがに
+ビビるぜぃ……大将気をつけろよな。[shake A]/
+[light def 1]
+[lightcolor red]
+[delay 1.5 light off 1]
+[delay 3 light def 0.6]
+[delay 3 lightcolor pink]
+[delay 5 light off 1]
+[delay 7 light def 0.4]
+[delay 7 lightcolor orange]
+[delay 9 light off 2]
+[delay 12 light def 1]
+[delay 12 lightcolor red]
+[delay 14 light off 2]
+[autotap]/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+[shakebg]
+[se hanabi_01]
+ドーン！　と空気が振動する音で空を見上げると
+鮮やかな大輪の花火が夜空に咲いていた。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[say A]
+おぉぉ～～！
+こいつぁ派手じゃねぇか！/
+[face A 00]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[flow]
+……大将とふたりでこんな特等席から
+花火が見れるなんてなぁ……/
+[face A 12]
+[flow]
+自分で打ち上げる花火もいいけど、
+こうして見てるのもいいよな。/
+[face A 01]
+[flow]
+やっぱり花火は夏の風物詩だしよ。/
+[hide A]
+[talkend]
+[serif off]
+?今日のハイライトだね！/
+[show A C]
+[face A 11]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+ま、まぁ、けどオレにとっちゃあ
+大将と過ごせたことがいちばん――/
+[light def 1]
+[lightcolor red]
+[delay 1.5 light off 1]
+[delay 3 light def 0.6]
+[delay 3 lightcolor pink]
+[delay 5 light off 1]
+[delay 7 light def 0.4]
+[delay 7 lightcolor orange]
+[delay 9 light off 2]
+[delay 12 light def 1]
+[delay 12 lightcolor red]
+[delay 14 light off 2]
+[se hanabi_02]
+[autotap]/
+[textcolor ARUJI]
+[face A 05]
+[talkend]
+[shakebg]
+ど～ん！/
+[textcolor ARUJI]
+[hide A]
+一際大きな花火が打ち上がったとき
+武蔵はなにか呟いた。/
+[serif off]
+?え？　ごめん、なんて？/
+[textcolor ARUJI]
+[serif on]
+花火の音でよく聞こえなかったのだ。/
+[show A C]
+[face A 09]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+えっ！　いや、その……えっとだな！[shake A]
+くそぉ～改めて言い直すのは照れくせぇぜ……[face A 06]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[flow]
+ええっと……つまりだな……[wait 0.5]
+花火もいいけどオレにとっちゃあ大将と[wait 0.2][autotap]/
+[effect fr syutyu a 0 0]
+[show C R]
+[se door_01]
+[setline 0.5 A C]
+[move C X 150 0.5]
+[orderline A C]
+[face A 05]
+[face C 00]
+[say C]
+お待たせお待たせ！　酒とつまみがあるぞ！
+刺し身もあるぞぉ～！/
+[hide A]
+[hide C]
+[-]
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+[se dosa_01]
+お爺さんはベランダに置かれたテーブルの上に
+大量の缶ビールとおつまみを置いていく。/
+[show C C]
+[face C 00]
+[say C]
+ほら、ふたりとも若いんだ。どんどん食って！
+ワシも飲むぞぉ！[shake C]/
+[hide C]
+[-]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 12]
+[say A]
+……お、おう！
+ありがとよ、爺さん！/
+[face A 11]
+くぅ～～っ！[shake A]/
+[talkend]
+[textcolor ARUJI]
+武蔵は悔しそうにしている。/
+[textcolor ARUJI]
+[hide A]
+はっきりとは聞き取れなかったが
+言いたいことは伝わってきた。/
+[serif off]
+?机の下でこっそり手を握る/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[scale A 2 0.5]
+[move A Y -120 0.5]
+[face A 09]
+[say A]
+[effect kira a 0 0]
+[se kira_01]
+[serif on]
+たっ大将……っ！/
+[face A 06]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+武蔵も照れたようにはにかみながら
+ぎゅっとこちらの手を握り返してきた。/
+[serif off]
+?（あ……この香り……）/
+[serif on]
+[textcolor ARUJI]
+手を握り少し汗ばんだからか、
+武蔵にもらった柑橘ブレンドの香りが広がった。/
+[hide A]
+[-]
+[effect off a]
+[effect fr syutyu 4000 0 0]
+[show C C]
+[face C 00]
+[say C]
+さあ、かんぱいじゃー！[shakebg][se taiko_01]/
+[show A C]
+[face A 02]
+[say A]
+[setline 0.5 A C]
+おう、かんぱーい！/
+[light def 1]
+[lightcolor red]
+[delay 1.5 light off 1]
+[delay 3 light def 0.6]
+[delay 3 lightcolor pink]
+[delay 5 light off 1]
+[delay 7 light def 0.4]
+[delay 7 lightcolor orange]
+[delay 9 light off 2]
+[delay 12 light def 1]
+[delay 12 lightcolor red]
+[delay 14 light off 2]
+[se hanabi_02]
+[autotap]/
+[hide A]
+[hide C]
+[talkend]
+[textcolor ARUJI]
+じっとりと汗がにじむ夏の夜に
+大小様々な花火が頭上で煌めいている。/
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+たーまやー！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+お爺さんの存在も含め
+忘れられない夏のいい思い出となったのだった。/
+[flow]
+[textcolor ARUJI]
+甘酸っぱい柑橘系の香り。この香りを嗅ぐたびに、
+今日のことを思い出すのだろう。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

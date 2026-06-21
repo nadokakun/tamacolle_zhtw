@@ -1,0 +1,724 @@
+>>10000/
+@肥前
+嘿主啊，[wait 0.5]我是來自西海道的肥前。[autotap]/
+[delay 3.5]
+[flow]
+[-]
+@肥前
+沒關係！　
+我會好好照顧你的，主人。/
+>>10001/
+@肥前
+哇，你看起來多酷！[autotap]/
+[delay 2.1]
+[flow]
+[-]
+@肥前
+畢竟，主需要我。/
+>>1/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+啊？樓主，我的皮膚有點粗糙。
+我馬上塗乳霜...[move A Y -10 0.2][delay 0.2 move A Y 10 0.2][-][move A Y -10 0.2][delay 0.2 move A Y 10 0.2]....好吧。/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……也許我厭倦了日常工作。
+偶爾度假一下，去泡個溫泉怎麼樣？/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+如果是推薦的溫泉的話，是的...
+「嬉野溫泉」怎麼樣？/
+[face A 02]
+被譽為「日本三大美膚溫泉」。
+對於現在的主人來說，這可能是完美的。/
+>>2/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 04]
+[move A R 1.0]
+[-]
+[move A L 1.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+距離約定的時間已經過了很久…
+主啊，我想會議還沒結束。/
+[se fusuma_01]
+[move A C 0.3]
+[face A 02]
+啊！主！/
+[face A 00]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+呵呵，我等得太累了，我就像松浦早姬一樣。
+我幾乎變成了石頭。/
+[face A 06]
+……也許這有點誇張了。
+我感到有點尷尬。[shake A]/
+[face A 02]
+無論如何，幹得好！
+我會做一些糖果和茶。/
+>>3/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+主啊，有臺階，要小心…[wait 0.2]
+那很危險！ ！[scale A 2.0 0.3][hide A][shakebg][se dosa_01]/
+[show A]
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+我已經告訴過你要小心了...[wait 0.5]正如預期的那樣
+我必須為主而存在。/
+[flow]
+就像彩虹松林保護著過去和現在的人們。[wait 0.2]
+…[wait 0.2]…[wait 0.2]天哪。[face A 06]呵呵。/
+>>4/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+啊！[shake A]　已經...[move A XY -50 -100 0.5]是不是不太好啊……！
+又有人把書落在地上了！/
+[face A 08]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+如果主和大家都跌倒了，那就很危險了。
+我需要清理它。[move A X 200 0.5][-][move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]/
+>>5/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+和這麼多人住在一起。我確實有意見
+有時我們會互相碰撞並打架。/
+[face A 08]
+盡可能地向大家呼籲，
+我必須想辦法避免問題。/
+[serif off]
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+畢竟，
+我希望每個人都能過著舒適的生活。/
+>>6/
+[set A s_hiz_r 肥前]
+[randomset B r @地魂男児 @あやかし @NPC -hiz]
+[show A C]
+[show B C]
+[face A 00]
+[face B 04]
+[serif on]
+[talk A]
+[setline B A]
+$B:A，挑剔是沒有好處的！[shake A]
+所有這些都對您非常好！/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……無論如何都不能吃嗎？唔。
+好吧，我無能為力。那我就吃它。/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[face A 01]
+[face B 00]
+喃喃自語…[shake A]……咕噥……[shake A]…
+我覺得如果吃了的話一定會很好吃。[shake A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_hiz_r 肥前]
+[randomset B r @地魂男児 @あやかし -@NPC -hiz]
+[show B]
+[face B 00]
+[-]
+[show A R]
+[move A X 150]
+[setline 0.5 B A]
+[face A 00]
+[serif on]
+[talk A]
+[se fusuma_01]
+大家！
+快到關燈的時間了！ ！[shake B][face B 05]/
+[move B X -150 0.5]
+[delay 0.2 move A C 0.5]
+[face A 01]
+[face B 01]
+[hide B]
+我知道這個遊戲很有趣，但是
+我們準備睡覺吧！/
+[flow]
+如果你還沒洗澡，就進去吧！
+如果你已經準備睡覺了，請好好刷牙！ ！/
+>>10/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+今天我們因為一場比賽吵架了。
+畢竟，最好在玩的時候決定規則。/
+[face A 07]
+呃…[wait 0.5]決定比賽的順序和時間...[wait 0.2]
+就算贏了，我也不會招惹你…[wait 0.2]不許賭博...[wait 0.2]和/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+……是的，我想是這樣的。
+讓我們製作一張海報來總結這一切！[face A 01]/
+>>11/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+就這個陣容來說…呃…[face A 07][shake A]
+哈！　[face A 05]我打哈欠了……！/
+[face A 06]
+軍事戰術書籍很難，
+讀著讀著我就覺得睏了。/
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+……這就是為什麼對每個人來說
+我一定要好好學習！好的！[shake A]/
+/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_hiz_r 肥前]
+[randomset B r @地魂男児 @あやかし @NPC -hiz]
+[show A C]
+[show B C]
+[face A 05]
+[face B 00]
+[serif on]
+[talk A]
+[setline B A]
+哇！　$B:A！？[shake A]
+已經……我很驚訝，因為他突然碰觸了我。/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+我已經習慣被人碰了鼻子，但是
+這可能是我第一次聽到。/
+[face B 01]
+……沒想到這麼癢。[shake A]/
+>>15/
+[set A s_hiz_m 肥前]
+[randomset B m @地魂男児 @あやかし -@NPC -hiz]
+[show A C]
+[move A Y -100]
+[show B R]
+[face A 05]
+[face B 05]
+[serif on]
+[talk A]
+啊，$B:A！[shake A]
+抱歉把訓練場弄亂了……！/
+[face A 04]
+[face B 00]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+砲塔狀況不佳，不得不將其拆開進行維修。
+所以，我最終把它們全部開啟了....../
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+我會盡快清理掉的...[shake A]哇哇。[face B 05][face A 05][move A X -100 0.1]
+啊啊！[shakebg][se doka_01][delay 0.2 se dosa_01]/
+[face A 06]
+…[wait 0.2]…[wait 0.2]抱歉，$B:A[wait 0.2]，你能幫我清理一下嗎？[face B 01]
+啊，謝謝你！會有幫助的！ ！[shake A]/
+>>16/
+[set A s_hiz_m 肥前]
+[randomset B m @地魂男児 @あやかし -@NPC -hiz]
+[randomset C m @地魂男児 @あやかし -@NPC -hiz -@NOW]
+[show B]
+[show C]
+[setline B C]
+[face B 08]
+[face C 08]
+[effect fr katanas 4000 0 0]
+[se katana_01]
+[delay 0.2 se katana_03]
+[shakebg]
+[shake B]
+[shake C]
+[wait 1]
+[-]
+[show A C]
+[face A 08]
+[move A X 1000]
+[moveline C B A -1000 0 1]
+[-]
+[serif on]
+[talk A]
+大家！[shake A]　當你需要雙手合十的時候
+不要太興奮而打架！/
+[face A 01]
+[effect fr kira 3000 0 100]
+相處融洽，[wait 0.3]友善點！[wait 0.3]
+別受傷！[wait 0.3]　是的！/
+>>17/
+[set A s_hiz_b 肥前]
+[show A C]
+[face A 09]
+[color A BLACK]
+[shake A 2 2 2]
+[-]
+[scale A 1.5 0.3]
+[move A Y -100 0.3]
+[talk A]
+[shakebg]
+[se bomb_01]
+[effect A syutyu a 0 200]
+[-]
+[serif on]
+就是這裡！ ！
+我又把衣服丟得到處都是了！ ！ ！/
+[scale A 2.0 0.2]
+[move A Y -100 0.2]
+把脫下來的衣服放進籃子裡
+不管我說多少次你都會明白的！ ！ ！ ！ ！[shake A 3 10 10]/
+>>18/
+[set A s_hiz_b 肥前]
+[randomset B b @地魂男児 @あやかし @NPC -hiz]
+[show A C]
+[show B C]
+[se amb_12]
+[face A 05]
+[face B 00]
+[serif on]
+[talk A]
+[setline B A]
+[effect fr yuge a 0 0]
+啊？[shake A]
+可以用鼻子把水吹掉嗎.../
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se bath_04]
+[-]
+[serif on]
+當然可以，但是...[shake A]如果你失敗了
+我有點擔心，因為我的鼻子裡面感覺刺痛。[face B 04]/
+>>19/
+[set A s_hiz_b 肥前]
+[randomset B b @地魂男児 @あやかし @NPC -hiz]
+[show A R]
+[show B L]
+[face A 06]
+[se amb_12]
+[effect fr yuge a 0 0]
+[move A Y -100 0.5]
+[se water_01]
+[face B 06]
+[move B Y -50]
+[serif on]
+[talk A]
+太！大家都在偷懶，
+別再拿你的鼻子和我的比較了！/
+>>20/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+……呼，真爽啊。[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+沒錯。我們在做的時候做一些清潔工作​​。/
+[face A 02]
+[move A X -200 0.5]
+好吧，我們先把地板擦乾淨。
+我要用拖把把它擦亮！/
+[face A 01]
+[move A X 400 0.8]
+如果地板潮濕，您可能會跌倒並受傷。
+你還應該把它擦乾！/
+>>21/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 03]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+已經！[shake A]　大家都這麼快就開玩笑了…[face A 04]
+我無法這樣放鬆和解脫。/
+[face A 08]
+“禁止觀看人們小便。”
+我必須記下這一點。/
+>>22/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 08]
+[move A Y -50]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+呼……啊，什麼？[shake A][face A 05]
+牆上有個洞！ ？/
+[face A 06]
+[shake A]
+已經！如果你旁邊有人
+你可以看到它！ ！/
+[face A 08]
+[se paper_01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+我得用一張紙把它蓋起來。/
+>>23/
+[set A s_hiz_r 肥前]
+[show A R]
+[face A 06]
+[talk A]
+[move A L 0.3]
+[se doka_01]
+[shakebg]
+[-]
+[serif on]
+我、我再也受不了了……！
+希望沒人來.../
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -60 1.0]
+[-]
+[serif on]
+我希望有一個地方可以讓我更孤獨…/
+>>24/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+嘿，大家好！
+熄燈時間到了！鑽進被窩裡！/
+[face A 00]
+明天早上也早，
+熬夜可不好！/
+[face A 02]
+大家都在嗎？
+那麼，晚安。[move A Y 20 0.4][delay 0.6 move A Y -20 0.2][-][fadein BLACK 0.3]/
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[autotap]/
+>>25/
+[set A s_hiz_r 肥前]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+嗚嗚嗚……嗚嗚……/
+[talkend]
+他睡得很熟。/
+>>26/
+[set A s_hiz_r 肥前]
+[randomset B r @地魂男児 @あやかし @NPC -hiz]
+[show A C]
+[show B C]
+[face A 07]
+[face B 07]
+[order A 0]
+[order B 5]
+[say A]
+[setline A B]
+[se cloth_01]
+[move B XY -50 -40 0.4]
+[rotate B 10 0.3]
+[-]
+[face A 05]
+[serif on]
+哇！　[shake A]$B:A那麼，你把它放在哪裡？ ？
+那不是你的鼻子！ ！ ！[shake A]/
+[face A 06]
+……所以，嘿，他正在睡覺……！ ？[shake A]
+呃……我很驚訝。這是多麼糟糕的睡眠方式…/
+/
+>>100/
+[set A s_hiz_r 肥前]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 真面目過ぎな肥前]
+[-]
+[bg black]
+[waku on]
+[minibg emo_donyori]
+[-]
+[fadeout 2.0]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+尊，[shakebg]尊…[shakebg]/
+[show A 1]
+[color A black]
+[flow]
+[textcolor ARUJI]
+一步一步，有大事正在逼近……！
+那個腫塊覆蓋了我的身體...[scale A 2.0 1][move A Y -200 1]/
+[hide A]
+[serif off]
+?……！！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se cloth_01]
+[-]
+[bg heya_day]
+[minibg off]
+[hideall]
+[-]
+[se cloth_02]
+[waku off 0.5]
+[fadeout 1]
+[se amb_01]
+[wait 1]
+[delay 0.5 bgm home]
+[-]
+[se cloth_01]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+當我猛地睜開眼睛時，我已經躺在蒲團裡了。
+我就像在做夢一樣。/
+[waku on 0.5]
+[se cloth_01]
+[textcolor ARUJI]
+當我再次嘗試閉上眼睛時…/
+@？？？
+早安，主啊！/
+[shakebg]
+[waku off 0.5]
+[se cloth_02]
+[textcolor ARUJI]
+突然，毯子被扯掉了。/
+[serif off]
+？哇！ ！ ！/
+[show A]
+[face A 01]
+[scale A 1.5]
+[move A Y -150]
+[-]
+[serif on]
+當我驚訝地抬頭一看，肥前就站在那裡。/
+[talk A]
+[se cloth_01]
+主啊，已經早上了，快起來吧！/
+[serif off]
+？ 肥前！ ……現在才早上六點啊！ ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[talk A]
+[serif on]
+是的，這是一個神清氣爽的早晨！今天天氣很好
+在花園裡移動你的身體會讓你醒來。/
+[serif off]
+？昨天熬夜了，所以還想睡覺…/
+[face A 01]
+[serif on]
+別這麼說。/
+[face A 05]
+[flow]
+哇！[scale A 1.0 0.5][move A Y 300 0.3][delay 0.3 move A Y -150 0.2]
+主啊，為什麼這樣？ ？[shake A]/
+[face A 03]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+我不認為我早上這樣做是可以的！/
+[serif off]
+？我、我才剛醒！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 04]
+這是真的嗎？這個莊園裡的所有人…
+我感覺這也太調皮了吧…/
+[face A 03]
+[flow]
+也許有些孩子是受了主的影響。
+我想知道是否有...我只是想知道。/
+[face A 02]
+[flow]
+因為對我們地球靈魂男孩來說，主是
+因為他是我比任何人都更敬佩和關心的人。/
+[serif off]
+？是這樣嗎？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face A 01]
+[-]
+[serif on]
+當然。
+我聽到了主的聲音。/
+[face A 08]
+[flow]
+但現在我已經被聽見了
+我要把這個莊園打造成一個健康、健康的莊園。/
+[face A 01]
+[flow]
+第一，幫助大家生活順利。
+我想制定一些簡單的規則。/
+[face A 08]
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+一切都是為了過著規律的生活！[se taiko_02][shakebg]/
+[serif off]
+[effect off a]
+？定期.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+是啊，有規律的生活，
+培養健康的身體和心靈。/
+[face A 00]
+首先，我希望主能成為我的榜樣。
+我相信每個人都會保護你。/
+[serif off]
+?緊貼蒲團/
+[face A 03]
+[serif on]
+別看起來那樣！　[face A 01]我每天都盡力而為
+早上六點我會來叫醒你。[se taiko_01]/
+[scale A 1.8 0.3]
+[move A Y -50 0.3]
+[autotap]/
+[flow]
+[face A 01]
+此外，熬夜對你的健康或皮膚都不好。
+我們晚上 10 點去睡覺吧。[se taiko_01]/
+[scale A 2.0 0.3]
+[move A Y -50 0.3]
+[autotap]/
+[flow]
+[face A 02]
+適度的運動對於獲得良好的睡眠也很重要。
+讓我們一起動動身體吧！　[se taiko_01]/
+[scale A 2.2 0.3]
+[move A Y -50 0.3]
+[autotap]/
+[flow]
+如果你願意的話，我可以唱一首搖籃曲給你聽。[se taiko_02][shakebg]/
+[serif off]
+[hide A]
+？哦，你為我做了很多事！ ？/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 00]
+[-]
+[serif on]
+是的，我會保護主人的健康！
+主啊，讓我們醒來吧！/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+當肥前叫醒我時，
+我的內衣與蒲團摩擦並脫落。/
+[show A]
+[face A 05]
+[say A]
+哇！ ？ ....已經...[face A 00]若主。
+交給我吧。好球！[scale A 1.6 0.5][move A Y -250 0.6][hide A]/
+[serif off]
+[se cloth_01]
+[shakebg]
+[wait 0.5]
+[-]
+[show A]
+[scale A 1.6]
+[move A Y -300]
+[move A Y 150 0.5]
+[-]
+[serif on]
+是的，這很好。我能夠正確地佩戴它。
+來吧，讓我們一起醒來，主啊。/
+[talkend]
+[textcolor ARUJI]
+不知怎的，我比平常更適合
+我感覺我可以穿。靈巧性好。/
+[face A 02]
+再次感謝您一直以來的支援！/
+[serif off]
+？是的，很高興認識你。/
+[fadein BLACK 2.0]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+之後肥前帶我出去了，我還睏。
+我最後在花園裡做體操。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

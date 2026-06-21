@@ -1,0 +1,1275 @@
+>>10000/
+@大和
+我は国のまほろば、[wait 2.0]大和。[wait 2.5]
+汝が我が主か。[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@大和
+さあ、我を父と思って甘えるが良いのだ。/
+>>10001/
+@大和
+…良いぞ。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@大和
+汝の求めに応じ、[wait 1.5]我、偉大なる父は[wait 1.7]
+さらなる力を貸すのだ。/
+>>1/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 09]
+[serif on]
+[talk A]
+奈良といえば鹿と大仏なのだ。
+汝も、かの有名な東大寺のことは知っておろう。/
+[face A 01]
+[effect bk kira A]
+共に訪れた際には、
+偉大なる父が鹿せんべいを買ってやるのだ。/
+[face A 00]
+鹿の餌やりは楽しいのだぞ。
+ふふ……誤って衣を食われぬようにな。/
+[face A 02]
+まぁそれはそれとして、今日のところは
+この茶菓子でも食ってゴロゴロするのだ。[effect off A]/
+>>2/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+主よ、このところ働き過ぎなのだ。
+食事はしっかりとっておるのか？/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+良いことを思いついたのだ！　
+我がお手製の食事をご馳走するのだ！/
+[face A 06]
+[move A X 50 0.5]
+[delay 0.5 move A X -100 1.0]
+柿の葉寿司もいいが……
+お腹に優しい茶粥も捨てがたいのだ……[move A C 0.5]/
+[face A 09]
+[scale A 1.5 1.0]
+[move A Y -180 1.0]
+さぁさぁなんでも食べたいものを言うのだ。
+父が主の望むものを作ってやるのだ！/
+>>3/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 00]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ご苦労様である。主よ。声聞士たる者
+さまざまな儀式を執り行うのだろう。/
+[face A 01]
+飛鳥坐神社で行われる「おんだ祭」にも
+なかなか面白い儀式があるのだが、知っておるか？/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+なんと観衆の目の前で天狗がお多福に
+「種つけ」をするのだ。[wait 0.5][face A 01]主は興味があるか？/
+[face A 06]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+うむうむ。良いぞ。
+男児として成長しておるのだなぁ。/
+>>4/
+[set A s_ymt_r 大和]
+[show A C]
+[move A Y -200]
+[rotate A 70]
+[face A 08]
+[rotate A 0 1.0]
+[move A XY -50 100 1.0]
+[-]
+[serif on]
+[talk A]
+ぬ……
+気付けばもうこんな時間なのだ……/
+[face A 06]
+ふぁぁ～……[shake A]
+やはり二度寝は最高なのだ……[rotate A 80 0.5][move A Y -50 0.5]/
+[face A 07]
+[se cloth_01]
+すやすや……/
+>>5/
+[set A s_ymt_r 大和]
+[randomset B r -ymt]
+[show A C]
+[show B C]
+[face A 05]
+[face B 01]
+[talk A]
+[setline 0 B A]
+[serif on]
+ん……んお……[move A Y 100 0.1][delay 0.1 move A Y -100 0.2]
+んおおおお……！[shake A]　こりゃ負けた！/
+[face A 02]
+$B:A、上手なのだ。
+父は完敗なのだ！/
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+よし、次はまったりと
+ババ抜きでもするのだ。/
+[face A 06]
+[face B 02]
+今日も一日、
+こうして部屋の中でゆーっくりと過ごすのだ。/
+>>6/
+[set A s_ymt_r 大和]
+[randomset B r -ymt]
+[show A C]
+[face A 01]
+[serif on]
+[talkend]
+大和が読書をしている。
+漢文で書かれた難しそうな書物だ。/
+[show B L]
+[face A 00]
+[face B 00]
+[talk A]
+[order A 10]
+[order B 5]
+[setline 0.5 B A]
+おぉ、どうしたのだ$B:A。
+この書が気になるか？/
+[face A 01]
+ならば貸してやろう。[move B X -50 0.5][face B 04]
+……なに？[face A 08]　難しくて読めなさそうだと？/
+[face A 02]
+はっはっは。わからぬところは、
+ちゃんと父が教えてあげるのだ。/
+[face A 06]
+[face B 01]
+さぁ、一緒にゴロゴロしながら読むのだ。[move B X 100 0.3]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_ymt_r 大和]
+[randomset B r -ymt]
+[show A R]
+[show B L]
+[order A 10]
+[order B 5]
+[face A 07]
+[face B 03]
+[move A Y -200]
+[rotate A 70]
+[face A 08]
+[-]
+[rotate A 0 1.0]
+[move A XY -50 100 1.0]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talkend]
+[color B TALK]
+…………パチッ！/
+[move A Y 100 0.5]
+[face A 05]
+[talk A]
+……$B:Aよ、見ていたのか。
+……な、何だその目は……はっ！[shake A]/
+もしや、我が朝からずっと眠っていたと
+思っておるのか？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[face A 09]
+[face B 04]
+……その通りなのだ！/
+>>10/
+[set A s_ymt_r 大和]
+[show A R]
+[face A 01]
+[move A X -150 0.5]
+[-]
+[serif on]
+[talk A]
+[serif name]
+さぁて、夕餉を済ませて遊びに来る子らのために
+遊戯の準備をしておかねばな♪/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ふむ、今日は何をしようか。
+蹴鞠は……おとついしたのだ……しかも夜なのだ……/
+[face A 02]
+てれびげぇむ……あれは盛り上がったのだ。
+それとも、体を動かすほうが喜ぶだろうか？/
+[face A 06]
+ふふふ、
+悩むのもまた楽しいのだ。/
+>>11/
+[set A s_ymt_r 大和]
+[show A L]
+[face A 04]
+[move A X 300 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+[serif name]
+一日がんばった子らのため、夜食に奈良茶飯を
+炊いたが、足りるか心配なのだ……/
+[face A 05]
+[move A X 100 1.0]
+うーむ……もし足りなくて、
+お腹を空かせてはかわいそうなのだ。/
+[face A 02]
+やはり念の為、もう一口分炊いておくのだ！[move A X -800 0.5][hide A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_ymt_r 大和]
+[randomset B r -ymt]
+[show A R]
+[move A Y -150]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 03]
+[-]
+[serif on]
+[talk A]
+ごろごろ……やる気が起きぬのだ。
+主がもっと厳しく我に命じぬからなのだ……/
+[show B L]
+[face A 01]
+[talk A]
+そう、我を働かせたくば、厳しくせねばならぬ。
+例えば……[shake A][face B 05]尻を叩くとか……/
+[face A 06]
+あ、主に尻を……叩かれる……くぅぅ……[shake A]
+一度叩かれてみたいのだ～～～！[shake A 10 10 10][face B 04]/
+[face A 05]
+はっ！！　$B:A！　いつから見ておったのだ！？
+ご、誤解なのだ……/
+>>15/
+[set A s_ymt_m 大和]
+[randomset B m -@NPC -ymt]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+……そうだ、よいよい。
+構えて…………その呼吸。よし、そこまで！/
+[face A 01]
+[show B L]
+[order A 10]
+[order B 5]
+[setline 0.5 B A]
+[talk A]
+うむ、$B:A。
+よい動きだったのだ。百点満点なのだ。/
+[face A 09]
+[face B 01]
+さて、疲れたであろう。座ってよいぞ。
+我とお茶にするのだ。/
+>>16/
+[set A s_ymt_m 大和]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+ふん！[effect fr katana 2000][se crash_01][shakebg]
+…………お？[face A 05]　壊れてしまったか。/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+うーむ。
+止まった的では簡単すぎて訓練にならんのだ。/
+>>17/
+[set A s_ymt_b 大和]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+風呂は好きであるが、脱衣所の端にある
+あの体重計というやつ……恐ろしいのだ……[shake A]/
+[face A 05]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+あれに乗ると我は精神的に辛くなるから、
+あそこには近寄らぬのだ。[move A X 300 1.0][hide A]/
+>>18/
+[set A s_ymt_b 大和]
+[randomset B b -ymt]
+[se amb_12]
+[show A C]
+[show B C]
+[face A 08]
+[face B 00]
+[effect fr yuge a 0 0]
+[serif on]
+[talk A]
+[setline]
+おい$B:A、
+まだ背中に泡が残っておるのだ。/
+[face A 01]
+[se bath_01]
+ちゃんと流してから、湯船に浸かるのだ。
+……うむ、これでいいのだ。[se bath_03][face B 01]/
+[move A Y -100 0.5]
+[move B Y -100 0.5]
+[se bath_02]
+[face A 00]
+[face B 00]
+ざぶん。/
+[face A 02]
+よいか。
+肩まで浸かって、十は数えるのだぞ。[face B 01]/
+>>19/
+[set A s_ymt_b 大和]
+[randomset B b -ymt]
+[show A C]
+[se amb_12]
+[face A 01]
+[serif on]
+[talk A]
+[effect fr yuge a 0 0]
+我の身体はもこもこであるから、
+とても泡立ちが良いのだ。/
+[face A 09]
+[se bath_04]
+なので、こうして泡立てて……よし！/
+[face A 02]
+あわあわの我の身体で
+愛しい子らを洗ってやるのだ！/
+[face A 06]
+[move A X 900 0.6]
+[show B C]
+[talk A]
+[move B X 1000]
+[face B 05]
+[order B 1]
+[order A 0]
+こらこら！　待つのだ～！！
+恥ずかしがるでなーい！！[move B X -1600 1.5][delay 0.2 move A X -1500 1.4][delay 0.8 hide A][delay 0.8 hide B]/
+>>20/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ふぅ……よいしょ……っと。
+……ぬわっ！[shake A]/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+まだ終わってなかったのだ……
+油断してあやうく着物を汚しかけたのだ……/
+>>21/
+[set A s_ymt_m 大和]
+[randomset B m -@NPC -ymt]
+[show A C]
+[show B C]
+[face A 08]
+[face B 08]
+[serif on]
+[order A 10]
+[order B 5]
+[talk A]
+[setline]
+よいか、$B:Aよ。
+戦いの前にはちゃんとおしっこに行っておくのだ。/
+[face A 01]
+[face B 01]
+……うむ、よい返事だ。[wait 0.5]
+では、父が連れションしてあげるのだ。[move A X 800 1.0][move B X 800 1.0][hideall]/
+>>22/
+[set A s_ymt_r 大和]
+[show A C]
+[move A Y -50]
+[face A 06]
+[serif on]
+[talk A]
+ふぅ……
+/
+我が子らは可愛いが、
+一人になれる個室は落ち着くのだ。/
+[face A 01]
+だから、いつもつい時間を忘れてしまうのだ。
+……さて、次はどれを読もうか……[se paper_01]/
+>>23/
+[set A s_ymt_r 大和]
+[show A C]
+[move A Y -50]
+[face A 01]
+[serif on]
+[talk A]
+さぁて、
+今日はどの本を読もうか……[se paper_01]うん？/
+[face A 05]
+……！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+こ、これは、誰が置いたのだ……！
+こんな本、父は許さんぞ……！！/
+[face A 06]
+[se paper_01]
+ぺら……ぺら……[se paper_01]/
+>>24/
+[set A s_ymt_r 大和]
+[show A R]
+[face A 04]
+[move A C 1.0]
+[-]
+[serif on]
+[talk A]
+むむ……ゴロゴロしていたら、
+布団を敷くから退けと言われたのだ……/
+[face A 01]
+布団を敷き終わったら、
+我が一番に飛び込むのだ。/
+>>25/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+……すやすや……やまとは……くにの……
+まほろば……すやすや……/
+[talkend]
+ぐっすりと眠っているようだ。/
+>>26/
+[set A s_ymt_r 大和]
+[se cloth_01]
+[se amb_05]
+[show A C]
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+父は鼻がきくので、子らの秘密に
+いろいろと気づいてしまうことがあるのだ。/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+でも、父はかわいい子らのために
+黙って寝たフリをするのだ。すやすや。[face A 07]/
+>>27/
+[set A s_ymt_r 大和]
+[show A C]
+[face A 00]
+[talk A]
+?大和、ハレの日おめでとう！/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[face A 02]
+[serif on]
+おぉ、主よ。
+可愛い我が子に祝ってもらえて嬉しいのだ。/
+[face A 01]
+今朝は早くに起きて掃除や洗濯、
+朝ごはんの準備など済ませているのだ。/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 00]
+ふふふ……今日の我はただの父ではないのだ。
+そう……とても頼りになる偉大なる父なのだ！[face A 02][se taiko_02]/
+[effect fr kira a 0 0]
+[face A 08]
+[se kira_01]
+なにせ我が今日をハレの日に選んだ理由は
+言うまでもなく、「父の日」だからなのだ。[shakebg]/
+[face A 09]
+普段から溢れ出る父性ではあるが、今日は
+さらにもう一段階上の父になろうと思ってな....../
+[face A 00]
+[effect off a]
+と、いうことでちょうどお菓子の準備もできた
+ところなのだ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+主よ、我と一緒にゴロゴロ過ごそうではないか。/
+[face A 01]
+ほれ、遠慮せず
+父の膝の上でゆーっくりしていくのだ。/
+[face A 02]
+[serif off 0.5]
+[wait 1]
+[-]
+[autotap]/
+>>100/
+[set A s_ymt_r 大和]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 大和とお話]
+[-]
+[bg heya_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+今日は休日。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+布団でゴロゴロするのも飽きてきたので、
+気分転換に外の空気を吸いに部屋を出た。/
+[se walk_01]
+[textcolor ARUJI]
+しばらく荘園内を歩きまわっていると、
+縁側に腰掛けお茶を飲んでいる大和と出会った。/
+[serif off]
+?大和/
+[serif on]
+[show A C]
+[face A 00]
+[talk A]
+おぉ、主よ、ちょうどよい所に。
+どれ、少し我と話をせぬか？/
+[face A 01]
+ほれ、茶菓子もあるぞ。
+庭でも眺めながら語ろうではないか。/
+[serif off]
+?大和と話す/
+[serif on]
+[face A 06]
+さぁここに座るのだ。/
+[talkend]
+[textcolor ARUJI]
+隣に腰掛けると、こちらの顔を
+覗き込んで微笑む大和。/
+[hide A]
+[flow]
+[textcolor ARUJI]
+大きな身体に、太く威厳のある声、
+貫禄たっぷりの顔つき……/
+[flow]
+[textcolor ARUJI]
+その存在感にあてられて少し緊張してしまう。/
+[serif off]
+?えっと……/
+[serif on]
+[show A C]
+[face A 02]
+[talk A]
+ははは、主よ、
+そのように肩に力を入れる必要はない。/
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+なぁに、主のことはまだよく知らぬが、
+これから共に荘園で生活をするゆえ――/
+[face A 01]
+お互いに理解を深めておく方が
+よいと思ってな。/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[serif on]
+[face A 00]
+改めて主よ。我は大和。/
+[face A 08]
+我は地魂男児。そして、汝は我が主。/
+[face A 06]
+[flow]
+……であるが、
+そのようなややこしいことは気にせず、/
+[face A 06]
+[flow]
+我のことは
+汝の「父」だと思って接してくれて構わぬぞ！[shakebg][se taiko_02]/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+なにせ大和とは、
+大和国のことでありながら/
+日の本、
+その全体を指す言葉でもあるのだからな！/
+[face A 02]
+ははは！/
+[serif off]
+?お、お父さん……/
+[face A 06]
+[serif on]
+うむうむ。
+素直な主、かわいらしい。/
+[face A 02]
+[effect A kira a 0 200]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+さぁ、父の胸に飛び込んで
+甘えるがいいのだ！/
+[talkend]
+[textcolor ARUJI]
+そう言って両手を広げる大和。/
+[serif off]
+[wait 1.0]
+[-]
+[effect off a]
+[face A 08]
+[talk A]
+[serif on]
+……む？
+照れんでもよいぞ！[shake A]/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+……と、言いたいところだが、無理もない。/
+[face A 04]
+我と主はまだ出会ったばかりであるからな。/
+[face A 01]
+主に本当の父親のように感じてもらえるよう
+我も努力するのだ。/
+[talkend]
+[textcolor ARUJI]
+大和は優しく微笑む。/
+[serif off]
+?たくさん話そう/
+[face A 02]
+[talk A]
+[serif on]
+おお、愛らしい主よ。
+我は嬉しいのだ！/
+[face A 06]
+[scale A 1.3 0.5]
+[move A Y -70 0.5]
+[autotap]/
+さぁ、かわいい我が子のことを
+詳しく聞かせてもらおうではないか。/
+[flow]
+好きな食べ物、それに好きな遊び、
+何でもこの偉大なる父に話すのだ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+我は話しやすくて頼りになる、
+そんな父を目指しているのだ！/
+[face A 09]
+では……ほれ。我の膝の上に座るとよいのだ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+大和は自分の膝をぽんぽんと叩く。/
+[flow]
+[textcolor ARUJI]
+緊張して胸に飛び込むことはできなかったが、
+膝の上くらいなら――……/
+[serif off]
+?じゃあ……お言葉に甘えて……/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[scale A 2.5 1]
+[move A Y -50 1]
+[delay 0.5 se dosa_01]
+[delay 0.5 hide A]
+[-]
+[textcolor ARUJI]
+[se cloth_01]
+[serif on]
+おそるおそる膝の上に座ると、お尻の下と背中に
+ほんのりと大和の温もりを感じた。/
+[show A]
+[scale A 2.5]
+[move A Y -400]
+[move A Y -100 1.5]
+[autotap]/
+[say A]
+[face A 00]
+では……そうだな……
+まずは主のことを聞かせてもらいたいのだ。[face A 02]/
+[fadein black 1]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+その日は、
+大和と茶菓子をつまみながら――/
+[flow]
+[textcolor ARUJI]
+お互いの好きなことを
+たくさん話して過ごした。/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+話している間ずっと大和が頭を撫でて
+くれていたのでとても安心した。/
+[flow]
+[textcolor ARUJI]
+最初こそ緊張していたけど、すぐに打ち解けて
+縁側でゴロゴロしながら楽しく話をしたのだった。/
+[fadeout 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[say A]
+うむうむ……主はいい子なのだ。/
+[serif off 2.0]
+[fadein black 2]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_ymt_r 大和]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 征服したい大和]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[textcolor ARUJI]
+[serif on]
+[talkend]
+食後、
+御座所に戻ろうと歩いていると――/
+[show A]
+[face A 08]
+[textcolor ARUJI]
+廊下でふんぞりかえるように
+仁王立ちしている大和がいた。/
+[serif off]
+?大和？/
+[face A 00]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+む？
+おぉぉ、主ではないか。/
+[face A 02]
+食事は済ませたか？
+お腹いっぱいになったか？/
+[serif off]
+?おなかいっぱい/
+[face A 01]
+[serif on]
+うむうむ！
+それはよかったのだ！/
+[face A 06]
+たくさん食べて、たくさんゴロゴロして
+健やかに育つのだぞ！/
+[talkend]
+[textcolor ARUJI]
+大和はにっこりと笑う。/
+[serif off]
+?大和は何してるの？/
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+うむ、実は、昨日我が子らと共に
+荘園の掃除をしていたのだが……/
+[face A 00]
+[flow]
+時間が限られていたので、
+すべての部屋には手が回らなかったのだ。/
+[shake A]
+[face A 04]
+[flow]
+我はそれがずっと気になっているのだ。
+特にまだ訪れたことのない……/
+[face A 08]
+[effect A syutyu a 0 250]
+この先の部屋のことがな！！[se taiko_02]/
+[effect off a]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+そう言って大和は
+いくつかの部屋がある廊下の先を指差す。/
+[flow]
+[textcolor ARUJI]
+この広い荘園内には様々な施設があるのだが、
+普段利用しているのはほんの一部だ。/
+[textcolor ARUJI]
+[flow]
+大和が気になっている廊下の奥の方の部屋も、
+普段は使われることなく放置されている。/
+[show A C]
+[face A 05]
+[talk A]
+まだ未踏の場所がこれだけあると思うと、
+我は征服したくてたまらぬのだ……！[shake A]/
+うずうず！[shake A]/
+[serif off]
+?一緒に行く？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[serif on]
+うむ！[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+それでこそ主なのだ！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bgm fun]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+大和はちりとりにほうき、雑巾など、
+掃除用具を持ってスタンバイ完了だ/
+[se walk_01]
+[textcolor ARUJI]
+あまり人が来ていないのか、
+奥の部屋の入口付近は少し埃っぽい。/
+[serif off]
+?ひとつめの部屋にはいる/
+[fadein BLACK 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg heya_day]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+ふすまを開け中に入る。そこは
+何の変哲もないただの和室だった。/
+[flow]
+[textcolor ARUJI]
+だが、部屋の中にはブランケットや
+丸められた座布団が置かれていた。/
+[show A]
+[face A 08]
+[say A]
+ふむ……どうやら誰かがここで
+昼寝をしたりして過ごしているのかもしれぬ。/
+[face A 06]
+[scale A 1.6 0.2]
+[move A Y -160 0.2]
+羨ましいのだ[se taiko_01]……[wait 0.2]いや、[face A 08]
+中々目の付け所がいいのだ。/
+[serif off]
+?大和は居間でお昼寝してるもんね/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 09]
+うむ。いつ何時我が子らに頼られるかも
+わからぬからな。/
+[rotate A -20 0.5]
+[move A Y -100 0.5]
+[shakebg]
+[se dosa_01]
+[autotap]/
+[face A 01]
+どれ、我も寝心地を確かめてみようか
+ごろんっと……うむ、なかなか良い！[face A 09]/
+[se kira_01]
+[face A 06]
+さあ、主も隣で寝ころんでみてはどうだ？
+ほれ、父の肩を枕に……/
+[face A 05]
+[textsize 40]
+ふぁっくしょん！！[shake A 3 20 20]/
+[rotate A 0 0.3]
+[move A Y 100 0.5]
+[face A 04]
+[delay 0.5 shake A]
+むむう！[shake A]
+あちこちに埃が溜まっているのだ。/
+[scale A 1.0 0.5]
+[se dosa_01]
+[delay 0.8 se dosa_01]
+[delay 1.5 se doka_01]
+[delay 2.2 se dosa_01]
+[move A L 0.5]
+[delay 0.5 move A X 800 1.0]
+[delay 0.5 move A Y 50 0.2]
+[delay 0.7 move A Y -50 0.3]
+[delay 1.0 move A Y 50 0.2]
+[delay 1.2 move A Y -50 0.3]
+[delay 1.3 move A X -800 1.0]
+[delay 1.3 move A Y 50 0.2]
+[delay 1.5 move A Y -50 0.3]
+[delay 1.8 move A Y 50 0.2]
+[delay 2.0 move A Y -50 0.3]
+[autotap]/
+[face A 08]
+…………まずは掃除なのだ！
+それ！　それ！！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[show A]
+[face A 02]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+ふぅ～っ。この部屋はすっかり征服したのだ。
+気持ちが良いのだ……/
+[hide A]
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+大和は部屋を征服したことで
+随分と気分が良さそうだ。/
+[show A]
+[face A 06]
+[rotate A 20 0.5]
+[move A Y -100 0.5]
+[move A X -50 0.4]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+[say A]
+さあ、これでゆっくりごろごろできるのだ。
+主、こちらへくるのだ。/
+[serif off]
+?大和と寝転ぶ/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[serif on]
+[face A 02]
+おお、主、いい子なのだ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[show A]
+[move A L]
+[move A X -500]
+[bg rouka_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[move A X 700 0.3]
+[se fusuma_02]
+[shakebg]
+[face A 05]
+[serif on]
+はっ！　思わず夕方まで過ごしてしまったのだ。
+続きの部屋を征服せねば、日が暮れてしまうのだ！/
+[hide A]
+[serif off]
+?ふたつめの部屋にはいる/
+[fadein BLACK 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg heya_day]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[show A]
+[face A 08]
+[serif on]
+むっ、これは……
+お菓子と机……それにおもちゃまで……/
+[move A Y -100 0.5]
+[rotate A 10 0.5]
+[face A 03]
+むむ、主、足元にお菓子のカスが落ちているのだ。
+踏むと痛いからじっとしているのだ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[scale A 1.6 0.5]
+[move A Y -160 0.5]
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 06]
+うむうむ。主の小さなあんよ……
+可愛らしいのだ……/
+[hide A]
+[effect off a]
+[se cloth_01]
+[textcolor ARUJI]
+[talkend]
+大和はお菓子の欠片を拾うついでに
+こちらの足を撫でた。/
+[textcolor ARUJI]
+[flow]
+確かに大きな大和に比べたらなんでも
+小さく見えるのかもしれない。/
+[show A]
+[move A Y -100]
+[move A Y 100 0.5]
+[face A 00]
+[say A]
+[se cloth_06]
+ここはどうやら我が子らの誰かが
+休憩室として使っているようなのだ。/
+[face A 08]
+[flow]
+物は少ないが、随分散らかっているのだ。
+徹底的に征服……[shake A]もとい片付けるのだ！/
+[serif off]
+?徹底的に征服する/
+[face A 02]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[show A]
+[face A 06]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[effect fr kira a 0 0]
+[se kira_01]
+[serif on]
+むっふぅ～。征服完了なのだ……
+机の位置を整え、お菓子の補充も完了したのだ。/
+[hide A]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+征服欲が満たされていくのか
+大和は非常に満足している様子だ。/
+[show A]
+[scale A 1.6]
+[move A Y -160]
+[say A]
+[face A 01]
+さあ、お楽しみのお菓子の時間なのだ。
+お茶を入れ[wait 0.2]…[wait 0.2]…[shake A][face A 04]いや、ここはガマンなのだ！/
+[bg rouka_day 0.5]
+[se fusuma_01]
+[face A 08]
+[flow]
+すべての部屋を征服してから
+ゆっくりいただくのだ！[shake A]/
+[serif off]
+[hide A]
+?最後の部屋にはいる/
+[fadein BLACK 0.5]
+[se fusuma_01]
+[-]
+[bgm unrest]
+[se walk_01]
+[bg heya_day]
+[hideall]
+[-]
+[fadeout 0.5]
+[show A]
+[face A 00]
+[serif on]
+[say A]
+ふむ……ここは誰も使っていないのか……
+いや、それにしては……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+部屋の中はガランとしているのだが、どこか
+頻繁に人が出入りしてそうな雰囲気がある。/
+[show A]
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[say A]
+[serif on]
+なにか不思議なものを感じるのだ……
+まあ良い。埃だらけなのだ。掃除を始めるのだ！[shake A]/
+[face A 01]
+まずはこの押入れの中なのだ！/
+[se fusuma_02]
+[move A X 350 1.0]
+[talkend]
+[textcolor ARUJI]
+大和は勢いよく押入れを開けた。/
+[face A 05]
+[talk A]
+[bgm off]
+[shake A]
+ぬあ！！？
+こ、これは……！！！[effect A syutyu a 0 250]/
+[effect off a]
+[move A C 0.5]
+[scale A 1.6 0.5]
+[move A Y -160 0.5]
+[bgm comical]
+しゅ、春画本！？　まさか……
+誰かが人目を忍んでここに来て……/
+[shake A]
+ひとりここでこの本を広げ
+……あれこれ楽しんでおるのか！？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+押入れの中には数冊の春画本の他に、
+道具箱のようなものも置いてあった。/
+[show A]
+[face A 08]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+どれ。
+………………（ぺらっ）[se paper_01]/
+[serif off]
+?大和……？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 09]
+うむ！　父としては我が子らがどのようなことに
+興味があるのか把握しておく必要があるのだ。/
+[face A 08]
+[scale A 1.6 0.5]
+[move A Y -160 0.5]
+……主よ。地魂男児を統べる者として、
+主も目を通すべきやもしれぬのだ。/
+[talkend]
+[hide A]
+[se paper_01]
+[textcolor ARUJI]
+大和はそう言って、数冊の本を
+手渡してきた。/
+[serif off]
+?大和と一緒に本を読む/
+[se paper_02]
+[show A]
+[face A 05]
+[say A]
+[scale A 1.6]
+[move A Y -160]
+[serif on]
+ぬお！？　このようなものが……
+父にも刺激が強いのだ。[shake A]　どれ、[face A 06]これは……
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se paper_01]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[show A]
+[face A 01]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぅ………………
+すべてのものを元の場所に戻したのだ。/
+[hide A]
+[se fusuma_03]
+[talkend]
+[textcolor ARUJI]
+大和はすべての本などを確認し終えたあと、
+そっと押し入れを閉じた。/
+[talkend]
+[flow]
+[textcolor ARUJI]
+しかし部屋はまだ埃だらけだ。/
+[serif off]
+?掃除はしなくてもいいの？/
+[show A]
+[face A 08]
+[say A]
+[serif on]
+[scale A 1.6]
+[move A Y -160]
+よいか、主よ。この部屋は
+我々は近寄らない方がよいのだ。/
+[face A 01]
+[flow]
+我が子らの誰かの憩いの場ならば
+そのままにしてやるのが親心であるのだ……/
+[face A 06]
+[flow]
+今後も皆が道を踏み外さぬよう
+共に見守っていこうではないか。/
+[serif off]
+?うなずく/
+[playeryes]
+[face A 09]
+[-]
+[face A 02]
+[serif on]
+……さあ、主！　お楽しみにお菓子の時間だ。
+お茶も入れるのだ！/
+[fadein black 2]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+そのままにされたこの奥の一角は
+今も誰かが自由に利用しているのだろう。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

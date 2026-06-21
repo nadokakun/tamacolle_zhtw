@@ -1,0 +1,1120 @@
+>>10000/
+@信濃
+託桑多，信濃。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@信濃
+吃完飯，休息一下，我就開始學習了。/
+>>10001/
+@信濃
+噢，主啊，你有什麼問題嗎？[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@信濃
+很好。[wait 1]我喜歡有上進心的人！/
+>>1/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+你有能力追隨很多地魂小子。
+你有什麼擔心嗎？我什麼都會接受。/
+[face A 00]
+信州善光寺不分宗派，不分男女。
+這是一座精美的寺廟，接待過很多人。/
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+我會成為一個可以接受這樣的學生的男人。
+我以為我想成為那樣的人。/
+>>2/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+喲，*P，你喜歡明星嗎？[wait 0.5]
+晝神溫泉周圍的星星很美麗。/
+[face A 02]
+泡完溫泉，我們一起去看星星吧。
+這可能很有趣。/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+但要注意不要讓水變冷。/
+>>3/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 09]
+[talk A]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 00]
+[-]
+[serif on]
+嘿，我現在正在編「Oyaki」。
+將您最喜歡的食材包裹在皮內並烘烤。/
+[serif off]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[face A 01]
+[-]
+[serif on]
+哦，你能幫我嗎？
+看，這就是你包裹它的方式。/
+[face A 03]
+…[wait 0.2]…[wait 0.2][face A 02]你選擇的成分看起來不錯。
+稍後可以分享給我嗎？/
+>>4/
+[set A s_sin_r 信濃]
+[serif off]
+[show A R]
+[se fusuma_01]
+[move A C 1.0]
+[face A 09]
+[serif on]
+[talk A]
+[-]
+[serif on]
+大家早餐都吃對了嗎？/
+[face A 00]
+培訓和職責，
+如果你不好好吃飯，不強健，你就不會長久。/
+>>5/
+[set A s_sin_r 信濃]
+[randomset B r @地魂男児 @あやかし @NPC -sin]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 00]
+[face B 00]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+哦，是時候照顧馬了。
+$B:A一起怎麼樣？/
+[face A 02]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+當我走的時候他們的眼睛閃閃發光
+他看起來很高興。太可愛了。[face B 02]/
+>>6/
+[set A s_sin_r 信濃]
+[randomset B r -@地魂男児 -@あやかし -@NPC -sin @ショタ]
+[show A C]
+[show B C]
+[face A 09]
+[face B 00]
+[setline A B]
+[move B Y -50]
+[serif on]
+[talk A]
+哦。$B:A，你在看什麼？/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，這是一排螞蟻。
+我注意到一個好地方。/
+[face A 00]
+[move A Y -100 1.0]
+[face B 06]
+你認為螞蟻為什麼排成一列走路？/
+[face A 02]
+即使是常見的日常場景也能教我們一些東西。
+有很多。[face B 01]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+我吃過晚餐了，但是我已經餓了…
+我要去吃剛才和小佐一起吃的御燒了。/
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[effect A kira 3000 0 200]
+[-]
+[serif on]
+呵呵...
+這對我來說是一個幸福的時刻。/
+>>10/
+[set A s_sin_r 信濃]
+[randomset B r @地魂男児 @あやかし @NPC -sin]
+[show A C]
+[face A 01]
+[mobe A Y -50]
+[serif on]
+[talk A]
+經過一天的辛苦工作後，食物很美味。
+和大家一起吃的話味道會更好。/
+[show B C]
+[face A 09]
+[face B 04]
+[move B Y -50]
+[setline 0.5 B A]
+[talk A]
+哦？[wait 0.5]　$B:A，你不擅長嗎？
+……我無能為力。/
+[serif off]
+[face A 01]
+[move A XY -50 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 50 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[face B 05]
+[-]
+[serif on]
+我很想讓你自己吃，但今天老師
+我會吃掉它。[face B 02]這只是為了今天。/
+>>11/
+[set A s_sin_r 信濃]
+[randomset B r -@地魂男児 -@あやかし -@NPC @ショタ -sin]
+[show A C]
+[show B L]
+[face A 04]
+[face B 04]
+[move B Y -100]
+[talk A]
+[move A X 100]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+哦，$B:A怎麼了，腿受傷了嗎？
+……看起來會有點痛。/
+[face A 00]
+[face B 05]
+[move A X -140 0.5]
+好吧，那就到我背上來吧。
+我會把你放在我的背上。
+/
+[serif off]
+[se cloth_06]
+[face A 01]
+[face B 01]
+[move A XY -50 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[rotate B 10 0.8]
+[move B XY 100 200 0.8]
+[-]
+[serif on]
+噢，你太擅長了。
+現在，我們回去洗澡吧。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_sin_r 信濃]
+[randomset B r @地魂男児 @あやかし -@NPC -sin]
+[show A C]
+[show B C]
+[face A 05]
+[face B 06]
+[serif on]
+[talk A]
+[setline A B]
+哦？　$B:A，發生了什麼事？[wait 0.5]
+……[face A 01]我明白了，這是身體問題。/
+[face A 06]
+[face B 04]
+好吧好吧，老師會聽的。
+我們去一個大家都離開的地方一段時間吧。/
+[serif off]
+[move A X -500 1.0]
+[delay 0.1 move B X -500 1.0]
+[-]
+[autotap]/
+>>15/
+[set A s_sin_m 信濃]
+[randomset B m @地魂男児 @あやかし @NPC -sin]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[talk A]
+[setline A B]
+哦，$B:A。這是關於訓練場的裝置。
+我試著讓它更容易使用。/
+[face A 08]
+為了讓它變得更好...
+下次能抽出時間和我聊聊嗎？/
+[face A 02]
+[face B 01]
+哦，我明白了！謝謝你！ ！/
+>>16/
+[set A s_sin_m 信濃]
+[randomset B m @地魂男児 @あやかし -@NPC -sin]
+[wait 0.2]
+[effect fr allow 3000 0 100]
+[shakebg]
+[se katana_02]
+[-]
+[show A C]
+[show B C]
+[face A 08]
+[face B 08]
+[talk A]
+[setline A B]
+[-]
+[serif on]
+[effect fr katana 3000 0 0]
+[shakebg]
+[se katana_03]
+頭！嘿！[shake B]　哦！ ！[shake A]/
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+....呼。這是一個美妙的舉動。
+目前的分數是100分。就是這樣。[face B 02]/
+>>17/
+[set A s_sin_b 信濃]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[serif name]
+哦，這是淨水器嗎？
+悟空，悟空，悟空…[shake A]/
+[face A 02]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+噗哈哈~！
+洗完澡後能夠補充水分真是太好了。/
+>>18/
+[set A s_sin_b 信濃]
+[randomset B b @地魂男児 @あやかし @NPC -sin]
+[show A C]
+[show B C]
+[se amb_12]
+[effect fr yuge a 0 0]
+[face A 02]
+[face B 01]
+[setline A B]
+[move A Y -50]
+[move B Y -50]
+[serif on]
+[talk A]
+哈哈...
+這熱水真好.../
+[face A 01]
+[face B 06]
+[se water_06]
+哦，$B:A、
+一定要注意身體保暖，好嗎？/
+>>19/
+[set A s_sin_b 信濃]
+[randomset B b @地魂男児 @あやかし -@NPC -sin]
+[show A C]
+[show B C]
+[face A 01]
+[face B 06]
+[serif on]
+[se amb_12]
+[effect fr yuge a 0 0]
+[setline A B]
+[talk A]
+好吧？因為每個人都有自己的個性
+我一點也不尷尬。/
+[face A 02]
+[face B 02]
+所以只要不隱藏就好了。
+只要你有尊嚴，就沒事。[se bath_03]/
+>>20/
+[set A s_sin_r 信濃]
+[randomset B r @地魂男児 @あやかし -@NPC -sin]
+[show A C]
+[face A 05]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+哦，百合花也閃閃發光！
+我很高興老師這麼努力地清理它。/
+[face A 02]
+昨天的任務是$B:A是的。
+以後我會誇你的。/
+>>21/
+[set A s_sin_r 信濃]
+[show A L]
+[face A 09]
+[move A X -300]
+[move A C 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se pee_01]
+[-]
+[serif on]
+[talk A]
+呼…
+這很好。出色地。/
+[face A 00]
+在大家執行任務之前，
+確保正確排尿。/
+[face A 01]
+如果你想執行任務，
+我會告訴老師。/
+>>22/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 09]
+[serif off]
+[move A Y -50]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+呼…
+有時候我會慢慢地騎著馬.../
+[face A 02]
+當我獨自一人在穀倉裡時，我的想像就會擴充套件。
+真是令人安心……等我出去後，我會再次努力的！/
+>>23/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 06]
+[se paper_01]
+[move A Y -50]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+喔……內容如此激烈的書不適合他們。
+現在還早。/
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se dosa_01]
+留著這個，
+我想我會放一本關於物理治療的教科書。/
+>>24/
+[set A s_sin_r 信濃]
+[randomset B r @地魂男児 @あやかし @NPC -sin]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[setline B A]
+[se cloth_01]
+[serif on]
+[talk A]
+哦，$B:A，我今天把蒲團曬乾了，所以
+聞起來很香，感覺也很好。/
+[face A 09]
+你知道嗎？這種氣味來自於在陽光下死亡的塵蟎。
+人們說它有味道，但實際上沒有。[face B 05]/
+[face A 02]
+事實上，汗水和皮脂會被紫外線分解。
+看起來好像有味道。[face B 01]/
+貌似有鎮靜作用[move A Y -50 1.0]
+我感覺很安全[wait 0.2]…[wait 0.2]…[wait 0.2][face A 07]咕咕咕...[face B 02]/
+>>25/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+呃……這是第二個幫助……
+呃…/
+[talkend]
+就像在睡夢中說話一樣。
+他睡得很熟。/
+>>26/
+[set A s_sin_r 信濃]
+[show A C]
+[move A Y -100]
+[move A Y 100 1.0]
+[se cloth_01]
+[face A 08]
+[-]
+[serif on]
+[talk A]
+好吧...
+我想知道沒有人嗎？ …/
+[face A 06]
+我總是說這沒什麼好尷尬的。
+畢竟我不能給我的學生看。/
+>>27/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 00]
+[-]
+[talk A]
+？ 信濃，生日快樂！/
+[serif on]
+[face A 01]
+噢，主。謝謝。
+嗯，我很高興你祝賀我。/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，是這樣。我剛做了這個
+這是禦燒……你想吃嗎？/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[face A 02]
+這是老式的紅豆沙茄子。
+用作配料時非常美味。/
+[face A 00]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+嗯，燒餅無論放什麼都好吃。
+例如，嘗試這個...也嘗試這個。
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+哈哈，看臉就夠了。
+我很高興你喜歡它。/
+[face A 01]
+說到信州，就不能錯過禦燒。
+我決定利用今天的盂蘭盆節作為一個特別的日子。/
+[face A 06]
+順便說一句[wait 0.2]…[wait 0.2]…[wait 0.2]這是我之前吃的食物裡的。
+你知道成分是什麼嗎？/
+[face A 01]
+你看起來好難啊
+如果你不介意的話，你想從現在開始嘗試在廚房做主菜嗎？/
+[face A 02]
+既然決定了，今天就來上特別課吧！
+很容易學會如何製作！[shake A]/
+>>100/
+[set A s_sin_r 信濃]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[bg rouka_day]
+[-]
+[title 絆 信濃の教室]
+[-]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+在去王宮的路上的走廊上，
+裡面有桌子、抽屜櫃和其他各種東西。/
+[serif off]
+？ （這是什麼…？）/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg heya_day]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+當我向房間裡面看去時，
+信濃正在用撣子清潔。/
+[serif off]
+？ 信濃？/
+[show A C]
+[face A 01]
+[talk A]
+[-]
+[serif on]
+哦，是你。/
+[face A 09]
+哇，這裡現在灰塵很大。
+我會去那裡。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+信濃停止清潔，
+它來到這裡了。/
+[show A C]
+[face A 02]
+[talk A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+呃，有點熱…/
+[talkend]
+[textcolor ARUJI]
+信濃一邊用袖子擦汗一邊說。
+他的手臂毛茸茸的，粗壯有力。/
+[serif off]
+？你在打掃嗎？/
+[face A 01]
+[talk A]
+[-]
+[serif on]
+啊，這個房間
+我沒有看到它被使用。/
+[face A 00]
+如果我能把它清理乾淨並借用一段時間就好了…
+我就是這麼想的。/
+[hide A]
+[talkend]
+[bg heya_day 0.5]
+[textcolor ARUJI]
+這座莊園從未被使用過。
+有很多空房間已經被廢棄了。/
+[textcolor ARUJI]
+信濃正在清理其中的一個。/
+[serif off]
+[bg rouka_day 0.5]
+？它是用來做什麼的？/
+[show A C]
+[face A 01]
+[talk A]
+[-]
+[serif on]
+呵呵，其實...[wait 0.5]
+莊園內[wait 0.3]我想建一所學校。/
+[serif off]
+？學校！/
+[face A 00]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+啊。看這裡。
+這個空房間的大小剛好，/
+[face A 01]
+[bg heya_day 0.5]
+[se fusuma_01]
+如果你在牆上貼一塊黑板，
+您不認為它非常適合課堂嗎？/
+[face A 09]
+於是我又繞到了其他空房間，
+書桌、抽屜櫃等等…/
+收集可以使用的東西
+我把它帶到這裡，但.../
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[wait 0.3]
+[-]
+[serif on]
+如果你仔細想想的話，首先
+我應該諮詢一下你的。對不起。/
+[talkend]
+[textcolor ARUJI]
+信濃抱歉地搔著頭。/
+[serif off]
+？好吧。課堂/
+[face A 02]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+真的嗎？我太高興了。/
+[face A 01]
+我們地球靈魂男孩也是如此
+有很多東西要學。/
+即使我們瞭解我們的國家，
+我對其他國家瞭解不多。/
+[serif off]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+最重要的是，關於這個身體
+我需要學習很多東西。/
+當我和一些人交談時，我發現他們過得很艱難。
+看起來這可能會發生。/
+[face A 00]
+如果我們有一個教室，我們就可以互相學習。
+我想我可能做不到。/
+[serif off]
+？點點頭/
+[playeryes]
+[-]
+[face A 01]
+[serif on]
+哦，是這樣。偶爾來一次也沒關係
+難道你在教室裡也沒有看到你的臉嗎…？/
+我們大概也是這樣。
+我投入學習中，/
+[face A 00]
+我們來自你，你來自我們
+我想知道有什麼可以學的嗎？/
+[serif off]
+？我會參加。/
+[face A 02]
+[-]
+[serif on]
+哦...[shake A]我想我會嘗試說出來。
+我懂了。我真的很高興。/
+[serif off]
+[face A 01]
+[wait 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+信濃笑了。/
+[face A 01]
+[talk A]
+那麼，*P是我的主人，同時…
+他也是我的學生。/
+我遇到困難的事情，我不明白的事情，
+有什麼事情請諮詢我。/
+[face A 02]
+我們一起來擔心吧。
+從現在開始祝你好運。/
+[serif off]
+[scale A 2.0 1.0]
+[move A Y -200 1.0]
+[delay 0.5 hide A]
+[se cloth_01]
+[-]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+信濃一邊說一邊拍了拍我的頭。
+信濃的手又大又溫暖。/
+[serif off]
+[fadein BLACK 2.0]
+[-]
+[serif on]
+之後我幫信濃打掃了一段時間，然後
+他朝王座室走去。/
+[textcolor ARUJI]
+信濃將開設什麼樣的教室？
+我現在很期待。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>202/
+[set A s_sin_r 信濃]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[bg mbg_syouen]
+[minibg syouen_watarirouka]
+[-]
+[title 絆 信濃とホタル]
+[-]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+今天是我和信濃出去的日子。/
+[textcolor ARUJI]
+晚上，我去了集合地點。
+信濃在那裡。/
+[show A C]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+噢，時機正好。太棒了。/
+[talkend]
+[textcolor ARUJI]
+信濃高興地拍頭。/
+[face A 00]
+[say A]
+那麼，我想我會立即前往那裡。/
+[hide A]
+[talkend]
+[serif off]
+？今天你要去哪裡？/
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+這是您抵達後值得期待的事。/
+[face A 00]
+嗯，我已經對外面的世界進行了適當的研究。
+今天就交給我吧。/
+[hide A]
+[bg black 0.5]
+[minibg off 0.5]
+[se paper_01]
+[talkend]
+[textcolor ARUJI]
+信濃從懷裡拿出一本記事本。/
+[textcolor ARUJI]
+[flow]
+它包括如何購買火車票和如何換乘的說明。
+這些是詳細的手寫筆記。/
+[textcolor ARUJI]
+[flow]
+火車上，我們兩個人並排坐在椅子上，相去甚遠。
+我們邊聊天邊享受到達目的地的時光。/
+[bg sky_star 0.5]
+[textcolor ARUJI]
+[flow]
+當我們騎車的時候，太陽已經越來越低了，
+當我到達時，天色已經完全黑了。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg black 0.5]
+[minibg mori_night]
+[hideall]
+[-]
+[bgm night]
+[fadeout 1.5]
+[-]
+[se amb_05]
+[autotap]/
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+天已經黑了，你要照顧好自己。
+這裡有許多過去遺留下來的自然景觀。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+在信濃手電筒的指引下
+越來越深入小森林。/
+[textcolor ARUJI]
+[flow]
+今天鎮上好像有節日。
+車站前已經有很多人了，但是…/
+[textcolor ARUJI]
+[flow]
+這是一個不同尋常的地方。/
+[show A C]
+[scale A 1.6]
+[move A Y -140]
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[say A]
+哈哈哈，我還以為你要去參加節慶呢？/
+[face A 01]
+這也不錯，但是
+這次的目的不是這個。/
+[face A 00]
+前幾天我們在莊園舉辦的夏日祭典
+不過還是很熱鬧很有趣的。/
+[face A 02]
+今天，我將在一個安靜的地方與我的主在一起。
+我要好好享受夏天了/
+[hide A]
+[se amb_05]
+[talkend]
+[se gasa_01]
+[textcolor ARUJI]
+信濃有時會彎下腰。
+向灌木叢深處窺視。/
+[show A C]
+[se amb_06]
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+哦，我能聽到水聲。在那兒
+好像有一條小溪，我想去那裡。/
+[serif off]
+關注？ 信濃/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[hide A]
+[talkend]
+[se amb_05]
+[se walk_01]
+[serif on]
+[textcolor ARUJI]
+晚上，我們兩個人在森林裡散步。/
+[textcolor ARUJI]
+森林幽暗靜謐；
+乍看之下似乎令人毛骨悚然。/
+[textcolor ARUJI]
+但我一點也不害怕，可能是因為信濃就在我旁邊。
+事實上，我有點興奮。/
+[show A C]
+[face A 00]
+[say A]
+哦，這個地方很開放，景色也不錯。
+我想坐下來休息一會兒。/
+[talkend]
+[move A Y -50 0.5]
+[textcolor ARUJI]
+信濃坐在一塊岩石上。/
+[serif off]
+?坐在我旁邊/
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[autotap]/
+[face A 01]
+[textcolor ARUJI]
+[serif on]
+當我坐在信濃旁邊時，我的手臂碰到了信濃巨大的身體。[se cloth_01]/
+[hide A]
+[se amb_05]
+[textcolor ARUJI]
+涼爽的夜風輕撫著你的臉頰。
+偶爾可以聽到貓頭鷹的叫聲。/
+[show A C]
+[face A 09]
+[say A]
+[scale A 1.6]
+[move A Y -140]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+嗯，晚上比我想像的還要冷。/
+[face A 01]
+不冷嗎？
+如果天氣冷的話，我們可以更黏在一起。/
+[serif off]
+？ @@堅持P18@@/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[face A 06]
+[serif on]
+…………！/
+[talkend]
+[face A 08]
+[textcolor ARUJI]
+信濃輕輕地將手放在我的肩膀上，
+他緊緊地擁抱著她。[se cloth_01]/
+[face A 01]
+[textcolor ARUJI]
+信濃的身體逐漸
+溫暖舒適。/
+[face A 00]
+[say A]
+嘿，看一下。
+你可以清楚地看到夏天的星星。/
+[hide A]
+[bg sky_star 0.5]
+[minibg off 0.5]
+[talkend]
+[textcolor ARUJI]
+當我看向信濃的視線之外時，
+天空佈滿了星星。/
+[textcolor ARUJI]
+[flow]
+也許是因為這裡是一片漆黑的森林，遠離人們的家。
+每一顆星星都清晰可見。/
+[serif off]
+[bg black 0.5]
+[minibg sky_star 0.5]
+[-]
+[show A C]
+[face A 08]
+[scale A 1.6]
+[move A Y -140]
+[say A]
+[-]
+[serif on]
+感謝您今天加入我。/
+[face A 00]
+[flow]
+主啊，禰對我也很重要
+就像我的一位學生一樣。/
+[face A 01]
+[flow]
+有時我會花時間看這樣的風景.../
+[flow]
+一起度過放鬆的時光，
+讓我喘口氣。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 02]
+[se cloth_01]
+……你總是盡力而為
+太好了。他是我驕傲的師父！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+信濃的大手輕輕撫摸我的頭。/
+[serif off]
+？ 信濃一如既往地謝謝你。我指望你/
+[show A C]
+[face A 02]
+[textcolor ARUJI]
+[scale A 1.6]
+[move A Y -140]
+[serif on]
+信濃害羞地笑了。/
+[hide A]
+[minibg mori_night 0.5]
+[textcolor ARUJI]
+就在這時，一道小光出現了，
+看起來就像剛剛過去一樣。/
+[light hotaru 5]
+[autotap]/
+[show A C]
+[face A 01]
+[say A]
+[se amb_06]
+哦，你出來了。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+微弱的光芒照亮了周圍，
+他們輕柔地跳舞。/
+[serif off]
+？這是一隻螢火蟲。/
+[show A C]
+[face A 01]
+[say A]
+[scale A 1.6]
+[move A Y -140]
+[serif on]
+很漂亮。/
+[face A 00]
+我想我會和你一起看這個。
+我今天邀請了你。/
+[serif off]
+?觀賞螢火蟲/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+就像我以前從未見過一樣
+很多螢火蟲—/
+[textcolor ARUJI]
+[flow]
+彷彿星空倒映在植物之中
+閃爍的螢火蟲之美讓我驚嘆不已。/
+[show A C]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -140]
+……你瘋了
+很高興看到那張臉。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+一邊說著，一邊在信濃的頭頂上輕輕地微笑。
+我拍了一張停下來的螢火蟲的照片。/
+[talkend]
+[textcolor ARUJI]
+看著和信濃的照片笑了
+我的肚子咕咕叫了。/
+[show A C]
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[say A]
+哈哈哈，走了這麼遠，你一定餓了。/
+[face A 00]
+我把午餐收拾好了，我們一起吃吧。/
+[face A 01]
+徹底擦乾雙手。
+請務必將垃圾帶回家。/
+[serif off 0.5]
+[fadein BLACK 2.0]
+[-]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[-]
+[serif on 0.5]
+和信濃一個人看到的美麗星空
+很多螢火蟲。/
+[textcolor ARUJI]
+[flow]
+成為了夏天珍貴的回憶。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

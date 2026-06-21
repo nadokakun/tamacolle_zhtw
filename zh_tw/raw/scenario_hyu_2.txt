@@ -1,0 +1,2253 @@
+>>10000/
+@日向
+這是這個...[wait 2]我是來自西海道的日向。[autotap]/
+[delay 3.5]
+[flow]
+[-]
+@日向
+喝一杯來慶祝我們的相遇怎麼樣？
+我的主人。/
+>>10001/
+@日向
+我不敢相信我們會一次又一次見面…[wait 3]
+這也許就是命運吧。[autotap]/
+[delay 3.1]
+[flow]
+[-]
+@日向
+我就是這樣的感覺。/
+>>1/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[-]
+[serif on]
+在有著天后子孫傳說的高千峰山頂，
+著名的「十坂峰」矗立於此。/
+[face A 01]
+[flow]
+飄浮在壯麗景色中的身影
+真是太神秘了。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+如果是我我會很高興
+我會護送你。/
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+但是，如果您犯了錯誤，請不要觸控它。
+你不應該受傷。/
+>>2/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 04]
+[say A]
+[orderline A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+哦？今天我嘆了很多口氣。我的主人。
+你累了嗎？/
+[face A 10]
+如果您有問題
+如果您願意，請隨時與我聯絡。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 03]
+是的……據說天照大神已經躲了起來。
+天野巖戶。[wait 0.5]你聽過這個名字嗎？/
+[face A 00]
+在高千穗的天輪戶神社，
+你可以看到天巖戶.../
+[scale A 1.6 0.5]
+[move A Y -160 0.5]
+[se cloth_06]
+[face A 02]
+你覺得怎麼樣？我們兩個要不要在裡面躲一會兒？
+請仔細地告訴我你的故事。/
+>>3/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[serif on]
+我的主人。 日向在海角
+您知道「實現願望的來棲海」嗎？/
+[face A 01]
+[flow]
+Cruz在南蠻語中是十字架的意思…
+據說，這裡是願望成真的地方。/
+[face A 11]
+[flow]
+礁石和大海的形狀結合在一起，看起來像是「葉子」這個詞。
+這是一個浪漫的地方。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+……我也有一個想要實現的願望。掌握。
+我想去那裡。請加入我們。/
+>>4/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B C]
+[face A 04]
+[face B 04]
+[say A]
+[orderline B A]
+[setline B A]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+嗯……我明白了。
+我明白了……那一定很痛。/
+[face A 10]
+[face B 00]
+[flow]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_01]
+但那張悲傷的臉，$B:A至
+它不適合你。嘿，請抬頭看看。/
+[face A 02]
+[move A X 100 0.5]
+如果你願意的話，就到這裡來吧。
+和我一起在空房間裡度過一段時間。[face B 05][shake B]/
+>>5/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B C]
+[face A 00]
+[face B 00]
+[say A]
+[orderline B A]
+[setline B A]
+[serif on]
+我們很快就可以喝茶時間了嗎？
+嘿嘿$B:A你想加入我們嗎？/
+[serif off]
+[face A 01]
+[face B 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[= ダージリン アッサム ニルギリ ウバ キーマン 高千穂の釜炒り茶 日向国の深蒸し煎茶 日向国の煎茶 日向国のほうじ茶 日向国の白折]到[= スコーン クッキー キッシュ サンドウィッチ ようかん どらやき ぜんざい あんこもち せんべい]我們來比賽吧。
+……嗯……非常好吃。/
+[face A 00]
+[face B 02]
+[flow]
+一邊品茶一邊眺望日本庭園
+不是很好嗎？/
+[shake B]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[face B 06]
+呵呵，看來你還是餓了。
+我們請您吃用當地雞肉做的南蠻雞肉嗎？/
+>>6/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[face A 06]
+[say A]
+[orderline A]
+[move A X 600]
+[move A X -600 1 0.5]
+[-]
+[serif on]
+這座莊園到處都是可愛的人。
+我不禁感到腫脹。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[show B L]
+[face A 02]
+[face B 00]
+[orderline A B]
+[say A]
+嗯……今天我該邀請誰呢？
+不追求可愛的人是不禮貌的。[face B 05][shake B]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B L]
+[face A 04]
+[face B 00]
+[move B X -600]
+[say A]
+[orderline B A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+那麼，今晚我們該喝點什麼呢……？[setline 1 B A]
+啊$B:A、[face A 11]你來到了一個好地方。/
+[face A 00]
+[face B 05]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[move A Y -160 0.5]
+[move B Y -130 0.5]
+[rotate A 10 0.5]
+[flow]
+[se cloth_01]
+[effect fr kira a 0 0]
+[se kira_01]
+你能給我看看你的臉嗎？就像那雙可愛的眼睛
+我想嘗試調製一杯顏色漂亮的雞尾酒。/
+[face A 02]
+[face B 06]
+[flow]
+[move A X -50 0.5]
+[rotate B 5 0.5]
+現在，仔細看看。
+不害羞就可以了，對吧？/
+>>10/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B C]
+[face A 09]
+[face B 08]
+[say A]
+[setline A B]
+[orderline B A]
+[serif on]
+哦？　$B:A。有什麼事讓你煩惱嗎？
+請致電。我會聽你的。[face A 10]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 04]
+嗯……我明白了……
+[= ストレスが溜まっていると？ 寝付きがわるいと？ 元気が足りないと？ 活力がほしいと？ すっきりした気分になりたいと？ 気晴らしがほしいと？ お通じが悪いと？ 食欲がないと？ 精力をつけたいと？ 大人の嗜みを知りたいと？ 紳士の真髄を知りたいと？ 大人の男になりたいと？ 美味しいごはんを食べたいと？ 仲間のことが気になっていると？]/
+[face A 10]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+您想先喝一杯嗎？
+我也剛喝酒。/
+[face A 02]
+[face B 00]
+$B:A今天推薦的雞尾酒是什麼？
+[=スウィート スパイシー ソルティー ビター スモーキー クリーミィー ジューシィー]鈉[= ホットカクテル フローズンカクテル ロングカクテル ショートカクテル フルーツカクテル テイスト]怎麼樣？/
+[face B 02]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+[face A 10]
+[shake B]
+你喜歡嗎？那很好。
+哎呀，這對一個紳士來說是很自然的事。/
+>>11/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B C]
+[face A 00]
+[face B 08]
+[say A]
+[move A X 800]
+[-]
+[setline 1 B A]
+[orderline B A]
+[-]
+[serif on]
+[face B 00]
+哦？　$B:A，睡不著？
+原來如此，我也剛睡醒。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[flow]
+其他孩子都睡熟了。
+所以，這個莊園裡就只有我們醒著。/
+[face A 02]
+[face B 08]
+[move A X -50 0.5]
+對於我們作為地球靈魂男孩來說，這是一個很好的機會。
+我們去跟大人談談好嗎？/
+[face A 01]
+[face B 06]
+……如果你察覺到別有用心怎麼辦？
+當然，這樣說話也是可以的。[face A 06]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B C]
+[face A 05]
+[face B 05]
+[say A]
+[orderline B A]
+[setline]
+[-]
+[serif on]
+哦，$B:A……[shake A]
+你的魅力現在對我來說是毒藥。/
+[face A 06]
+[face B 04]
+[flow]
+思緒在我內心氾濫
+看來一時半會兒就按耐不住了…/
+[face A 02]
+[effect A love 5000 0 150]
+[se kira_01]
+你覺得怎麼樣？作為一個紳士的品味...
+我會護送你直到最後。
+[face B 03]
+[shake B]/
+>>15/
+[set A s_hyu_m 日向]
+[show A C]
+[face A 04]
+[say A]
+[orderline A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……我沒辦法。
+我們要開始訓練了嗎？/
+[face A 08]
+[effect fr waveout 5000 0 0]
+[se doka_01]
+……哈！[shake A]　……[face A 13]塞！　[shake A]
+……[wait 0.5][face A 14]哈、哈...
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 13]
+……我已經喘不過氣了……
+好吧...現在請原諒...[move A X 200 0.5]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+……呼，我就在這附近休息一下吧。
+我們喝杯茶，四處看看吧。/
+>>16/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[face A 11]
+[say A]
+[orderline A]
+[serif on]
+大家幹得好！
+那是非常好的戰鬥力啊！/
+[show B C]
+[move B X -1000]
+[face B 01]
+[say A]
+[face A 05]
+[setline 1 B A]
+[orderline B A]
+我也要跟你一起訓練嗎…？[wait 0.5]　[face A 10]開玩笑。
+我不喜歡打架。/
+>>17/
+[set A s_hyu_b 日向]
+[show A C]
+[face A 13]
+[se door_01]
+[say A]
+[orderline A]
+[move A X 1000]
+[-]
+[move A X -1000 1]
+[-]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+哈，我不喜歡熱。
+結果我洗了個很長的澡…/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+唷
+風扇吹來的風感覺很好。/
+>>18/
+[set A s_hyu_b 日向]
+[show A C]
+[face A 10]
+[scale A 1.6]
+[move A Y -160]
+[say A]
+[se amb_12]
+[effect fr yuge a 0 0]
+[orderline A]
+[se bath_05]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[serif on]
+擦洗…擦洗…/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+呼…/
+[face A 04]
+[flow]
+可能因為我頭髮多，所以比較容易悶。
+你必須照顧好每一個角落。/
+[se bath_05]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 02]
+[flow]
+永遠像個紳士
+我想要散發出好聞的香味。/
+>>19/
+[set A s_hyu_b 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[face A 14]
+[se amb_12]
+[effect fr yuge a 0 0]
+[serif on]
+[say A]
+[orderline A]
+[rotate A -20]
+[move A Y -100]
+你什麼意思...[shake A]
+頭髮吸了水，沉甸甸的，動不了…[shake A]/
+[show B L]
+[move B X -600]
+[move B X 600 1]
+[face A 13]
+[face B 05]
+[orderline A B]
+[flow]
+$B:A、
+你能幫我擦乾身體嗎？/
+[face A 12]
+[face B 01]
+[move B XY 10 -40 0.4]
+[rotate B -10 0.3]
+好吧，首先，抓住這根頭髮並擠壓它。
+擁有它可能會更好.../
+>>20/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 06]
+[say A]
+[se pee_01]
+[orderline A]
+[scale A 1.6]
+[move A Y -160]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……呼，這種時候，我突然覺得很美妙。
+我總是想出接機線.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+嗯，我現在什麼也想不起來。
+....呼。[shake A]/
+>>21/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 06]
+[say A]
+[se pee_01]
+[orderline A]
+[scale A 1.6]
+[move A Y -160]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+....呼。/
+[face A 02]
+[flow]
+我通常是一個坐著的人，但是...
+這有一種狂野的感覺，所以還不錯。/
+>>22/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -210]
+[say A]
+[orderline A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+呼……坐下的動作真是太好了。
+這意味著你沒有走路。/
+[face A 10]
+[flow]
+我坐在 Riku Unryuin 設計的那把移動椅子上。
+我很有興趣。我絕對想體驗一下。/
+[face A 02]
+[flow]
+還有這個叫衛洗麗的東西...
+這是一項奇妙的發明，你所要做的就是坐下來。/
+>>23/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 06]
+[say A]
+[orderline A]
+[serif off]
+[move A X -600]
+[move A X 600 1]
+[se door_01]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+呼……我怎麼了……
+看來我今天真的喝醉了…/
+[face A 01]
+[flow]
+盡量不要浪費精力
+然而，滿意度仍然很高.../
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[flow]
+充分利用這些技術
+很有紳士風度啊……呵呵。/
+>>24/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A R]
+[show B]
+[face B 04]
+[face A 00]
+[move A X 600]
+[orderline B A]
+[-]
+[setline 0.5 B A]
+[-]
+[say A]
+[serif on]
+嘿，$B:A。想找睡覺的地方？
+不幸的是，這個房間已經滿了。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+但不用擔心。
+如果你不介意的話就拜託你了。你開放嗎？[shake B][face B 05]/
+>>25/
+[set A s_hyu_r 日向]
+[show A]
+[face A 07]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+嗚嗚嗚……嗚嗚……/
+[talkend]
+他的呼吸很平靜。/
+>>26/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[randomset C r -hyu @地魂男児 @あやかし -@NPC -@NOW]
+[show A C]
+[show B C]
+[show C C]
+[face A 02]
+[face B 07]
+[face C 07]
+[say A]
+[move C Y -100]
+[move B Y -80]
+[rotate B -30]
+[rotate C -30]
+[setline A B C]
+[orderline C B A]
+[-]
+[serif on]
+每個人的睡臉都那麼可愛…
+這讓我想仔細看看。
+[move A XY 10 -40 0.6]
+[rotate A -10 0.5]/
+[face A 05]
+[delay 0.3 move A XY -10 40 0.3]
+[delay 0.4 rotate A 0 0.3]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+....哎呀。[se cloth_06]/
+[face A 01]
+一位紳士，
+你不能把手放在毫無防備的人身上。/
+>>100/
+[set A s_hyu_r 日向]
+[set B s_n000_r 猫乃屋]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 日向の大人のいざない]
+[-]
+[se cloth_01]
+[bg gozasyo_night]
+[bgm home]
+[-]
+[fadeout 1.5]
+[-]
+[se amb_05]
+[wait 0.5]
+[-]
+[talkend]
+[autotap]/
+[show B C]
+[face B 01]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[serif on 0.5]
+[say B]
+[orderline B]
+…………
+沒錯。就這樣吧！/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+晚上，我來玩的貓屋和御座所。
+我很喜歡聊天。/
+[show B C]
+[face B 08]
+[say B]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+[orderline B]
+啊，我說太多了。
+我的喉嚨越來越乾了.../
+[face B 09]
+[flow]
+我想知道廚房的冰箱裡有沒有東西...
+嘿，我們走吧，小學生！/
+[serif off]
+？點點頭/
+[serif off]
+[playeryes]
+[-]
+[talkend]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se amb_05]
+[se walk_01]
+[bg rouka_night]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[textcolor ARUJI]
+[serif on]
+莊園內一片寂靜。
+我和貓也一起走在月光下的走廊上。/
+[serif off]
+?走進廚房/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[light down]
+[lightcolor orange]
+[se fusuma_01]
+[bg black]
+[minibg tyubo]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+與我的想像相反，這裡一片漆黑，
+昏暗的廚房閃爍著微弱的燈光。/
+[show B C]
+[face B 11]
+[say B]
+[orderline B]
+哦？有人在嗎？/
+[hide B]
+[-]
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[color A black]
+@？？？
+這是我的主人。
+這麼晚才見到你.../
+[hide A]
+[-]
+[talkend]
+[serif off]
+？那個聲音是…日向？/
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[-]
+[serif on]
+我記得你的聲音
+這是一種樂趣。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[say A]
+[flow]
+是的，我是日向。
+……你也對貓之屋同學做了什麼？/
+[face A 04]
+[flow]
+如果你們兩個秘密會面怎麼辦？
+我打擾你了嗎？/
+[show B R]
+[face B 05]
+[setline 0.5 A B]
+[say B]
+[orderline B A]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+呃！ ？　[shake B]不，我渴了…[face B 08]/
+[hide B]
+[-]
+[move A C 0.5]
+[face A 01]
+[say A]
+好吧，您來對地方了。/
+[face A 00]
+[flow]
+當我這麼說的時候，我也只是飽了。
+這就是我正在做的事情。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+仔細一看，日向前面
+上面放了一個小玻璃杯。/
+[show A C]
+[face A 01]
+[move A Y -60]
+[orderline A]
+[textcolor ARUJI]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+如果你把它全部喝完
+日向站起來，搖晃著他龐大的身軀。
+[move A Y -20 0.3]
+[delay 0.3 move A Y 80 0.5]
+[se cloth_01]/
+[hide A]
+[textcolor ARUJI]
+[flow]
+[se goto_01]
+在空玻璃杯中
+冰塊發出嘎吱嘎吱的聲音。/
+[show A C]
+[face A 10]
+[say A]
+[orderline A]
+這是一個很好的機會。我也會給你們兩個
+讓我為你泡一杯飲料吧。/
+[face A 00]
+[flow]
+今天……沒錯。
+我推薦的雞尾酒。/
+[move A Y -60 0.2]
+[delay 0.2 move A Y 60 0.2]
+[delay 0.4 move A Y -60 0.2]
+[delay 0.6 move A Y 60 0.2]
+[autotap]/
+[face A 01]
+[talkend]
+[textcolor ARUJI]
+日向 用美麗的雙手揮舞著搖酒器。
+嘎吱嘎吱的聲音很悅耳。/
+[hide A]
+[textcolor ARUJI]
+它以一種流暢的動作被放置在一個短腿的三角形玻璃杯中。
+他倒了一杯雞尾酒遞給我。/
+[scale A 1.6 0.5]
+[move A Y -160 0.5]
+[autotap]/
+[show A C]
+[face A 01]
+[say A]
+[se cloth_01]
+[orderline A]
+請。/
+[hide A]
+[-]
+[show B C]
+[face B 06]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[orderline B]
+哇，我從來沒有喝過這樣的烈酒！
+那我就拿下吧.../
+[face B 02]
+……哇！[shake B]
+哇……好吃！ ！ ！[shake B][effect fr kira a 0 0][se kira_01]/
+[serif off]
+？好吃！/
+[hide B]
+[-]
+[effect off a]
+[show A C]
+[face A 10]
+[say A]
+[orderline A]
+[serif on]
+那很好。/
+[bgm off]
+[flow]
+………………[wait 0.2][face A 12]
+……………………、[shake A]....呼...[shake A]/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 13]
+……嗚嗚嗚嗚嗚嗚……[wait 1]
+……噗！ ！[shake A 3 10 10][bgm fun][hide A][move A Y -200 1][delay 0.5 se dosa_01]/
+[serif off]
+?！？/
+[show A]
+[scale A 1.6]
+[move A Y -200]
+[move A Y 40 1]
+[face A 14]
+[serif on]
+……呼呼。[shake A]
+....呼.../
+[move A Y -50 0.5]
+[delay 0.5 se dosa_01]
+[delay 0.5 shakebg]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向突然重重地吸了一口氣。
+我慢慢地坐在椅子上。/
+[show A C]
+[face A 13]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[say A]
+[orderline A]
+哈哈哈……不，沒什麼。
+我只是有點累了。/
+[face A 12]
+[flow]
+什麼，搖搖搖搖也不錯
+……會消耗你的體力。/
+[show B R]
+[face B 10]
+[move B X 500]
+[move B X -500 0.3]
+[say B]
+[orderline B A]
+搖晃搖搖器沒那麼累！ ？[shake B][se zukkoke_02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[hide B]
+[face A 13]
+[say A]
+不過我保證雞尾酒的味道.....
+這也是紳士的味道……所以……Zee，Zee……/
+[serif off]
+？你還好嗎？/
+[face A 00]
+[serif on]
+[effect fr kira a 0 0]
+[se kira_01]
+謝謝您的關心。
+我的主人。/
+[face A 12]
+[serif off]
+[effect off a]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[flow]
+他被稱為“Imogara Bokuto”，他最喜歡的短語是“Yodakii”。
+雖然是我國，但是日向國家原來的等級是「中國」——/
+[face A 13]
+[flow]
+儘管如此，聲音還是以如此大的形式被聽到。
+這就是你所做的。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+[flow]
+也許這就是為什麼......我很容易疲倦。
+是的。這是不可避免的。/
+[hide A]
+[-]
+[show B C]
+[face B 01]
+[say B]
+[orderline B]
+確實……有這樣的缺點嗎？
+日向，我會要求續杯。/
+[show A C]
+[face A 12]
+[say A]
+[setline 0.5 A B]
+[orderline B A]
+我很聰明。
+下次.../
+[move A Y -60 0.2]
+[delay 0.2 move A Y 60 0.2]
+[delay 0.4 move A Y -60 0.2]
+[delay 0.6 move A Y 60 0.2]
+[autotap]/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+日向正在用盡全力。
+有節奏地搖動搖床。/
+[face A 13]
+[say A]
+嘆息……嘆息……
+請.../
+[hide A]
+[talkend]
+[serif off]
+？很抱歉讓你這麼大聲地聽到我說話。/
+[show A C]
+[face A 08]
+[say A]
+[orderline A]
+[serif on]
+你在說什麼？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+想要被這龐大的身軀包裹著
+可能就是你想的那樣。/
+[se kira_01]
+[face A 11]
+[flow]
+如果是這樣的話...
+我從來沒有這麼高興過。/
+[face A 02]
+[say A]
+[flow]
+你越想從可愛的人那裡得到
+對我來說沒有什麼大的快樂。/
+[hide A]
+[-]
+[show B C]
+[face B 06]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[say B]
+[orderline B]
+嘆息……是啊……[rotate B 20 0.5][move B Y -100 0.5][delay 0.5 se dosa_01]
+....咕...斯佩.../
+[serif off]
+？我睡著了.../
+[hide B]
+[-]
+[show A C]
+[face A 09]
+[say A]
+[orderline A]
+[serif on]
+之前給貓之屋喝的雞尾酒…
+我把酒精調得更烈了一點。/
+[face A 06]
+[bgm night]
+我的主人。
+現在只有我們兩個人。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+……那麼，我們進入成人時間吧。/
+[serif off]
+？ 日向？/
+[face A 10]
+[serif on]
+你覺得怎麼樣？這次就這樣陪我吧
+這意味著過夜。/
+[face A 02]
+[flow]
+我不會讓你感到無聊。/
+[hide A]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+日向輕輕撫摸我的手。/
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 00]
+[say A]
+[orderline A]
+當然。我想讓你感到安全.../
+[face A 02]
+[flow]
+我不會強行做任何事。
+因為我是一位紳士。/
+[scale A 2 5]
+[move A Y -130 5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+日向仍握著我的手
+他靠近他龐大的身體，慢慢地將臉靠近她。/
+[serif off]
+？休，日向...有點.../
+[face A 06]
+[say A]
+[serif on]
+如果你允許，我會做一切。
+我會護送你的……我的主人……/
+[hide A]
+[-]
+[show B C]
+[face B 05]
+[say B]
+[orderline B]
+[move B Y -200]
+[move B Y 200 0.5]
+[se cloth_06]
+恩戈...[shake B]媽的我居然睡著了…
+給我第二次幫助日向。[face B 01]/
+[face B 02]
+[flow]
+好久沒吃到這麼美味的清酒了！
+今天我們就喝一整晚吧！/
+[hide B]
+[-]
+[show A C]
+[face A 04]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[orderline A]
+……喔天哪...根本沒有。
+你是一個很慢的人。/
+[face A 02]
+[flow]
+下次，我的主人。/
+[serif off]
+?……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+帶著成熟紳士氣息的日向的步伐。
+讓我一直喝酒的原因是…/
+[flow]
+[textcolor ARUJI]
+我確信你為我調製的雞尾酒
+大概是因為我喝醉了…/
+[serif off]
+？ ……很好吃……/
+[serif on]
+[show A C]
+[face A 02]
+[orderline A]
+[textcolor ARUJI]
+當我們四目相對時，日向笑了。/
+[flow]
+[hide A]
+[textcolor ARUJI]
+那有點花花公子的笑容
+我想我必須小心，不要被捲入其中。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>101/
+[set A s_hyu_r 日向]
+[set B s_n000_r 猫乃屋]
+[set C s_n001_r 夏人]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 日向の手口]
+[-]
+[se cloth_01]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.5]
+[-]
+[wait 0.5]
+[-]
+[talkend]
+[autotap]/
+[serif on]
+[show B C]
+[face B 01]
+[say B]
+嗯，伊諾奇說她不能再走路了。
+我沒有辦法，只能把你背在背上…/
+[face B 02]
+為什麼這麼重？
+我想讓你下次也試著抱我吧！/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+一邊評論貓之屋的故事。
+我正朝客廳走去。/
+[flow]
+[textcolor ARUJI]
+會議結束後，我們聊了一會兒，
+我餓了，所以我來買一些糖果。/
+[serif off]
+？ ……那是什麼？/
+[serif on]
+[textcolor ARUJI]
+當我轉身穿過走廊時，我看到了意想不到的景象。/
+[serif off]
+[show A C]
+[show C]
+[face C 10]
+[face A 02]
+[setline C A]
+[orderline C A]
+[-]
+[wait 0.5]
+[-]
+[say A]
+[serif on 0.5]
+夏人同學，你的眼睛真是迷人啊…
+就像夏天的海一樣。/
+[hide A]
+[hide C]
+[-]
+[talkend]
+[textcolor ARUJI]
+日向和夏人在走廊的盡頭。
+日向彎下腰，將臉靠近夏人。/
+[show C]
+[face C 12]
+[say C]
+呃，啊……謝謝……？/
+[hide C]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+夏人似乎很困惑，環顧四周。
+他看起來焦躁不安。/
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -160]
+[say A]
+眼鏡後面那雙眼睛的深處
+我想看得更深入一些。/
+[face A 02]
+一張小可愛的臉，
+你能提出來嗎？/
+[show C L]
+[scale C 1.6]
+[move C Y -150]
+[setline 0.5 C A]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 06]
+[say C]
+啊？嗯……我想是這樣的……？/
+[hide C]
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+日向 告訴他，夏人抬起頭來。/
+[show A C]
+[face A 01]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+她真的很誠實，也很可愛…
+我想多瞭解你.../
+[face A 02]
+[flow]
+夏人同學，要不要跟我一起去隔壁房間休息？
+來吧，握住我的手。/
+[show C]
+[shake C]
+[say C]
+[face C 10]
+[setline 0.5 C A]
+[orderline C A]
+嗯，嗯？[shake C]/
+[hide C]
+[hide A]
+[talkend]
+[se fusuma_01]
+[textcolor ARUJI]
+日向用大手輕輕握住了夏人的手。
+開啟隔壁空房間的門…/
+[effect fr syutyu a 0 0]
+[bgm fun]
+[show B C]
+[face B 05]
+[say B]
+[quake 2]
+哦，哇！
+你想帶我進你的房間嗎？ ？/
+[effect off a]
+[quake off]
+[hide B]
+[serif off]
+？我們去幫助夏人吧。/
+[serif on]
+[se walk_03]
+[effect fr syutyu a 0 0]
+[show B C]
+[scale B 1.6]
+[move B Y -120]
+[face B 04]
+[say B]
+嘿日向！[shake B]/
+[effect off a]
+[hide B]
+[-]
+[show C C]
+[face C 05]
+[show A C]
+[face A 00]
+[setline C A]
+[orderline C A]
+[say C]
+貓店！ ？ *P君也是…/
+[say A]
+嘿，我的主人。你好。
+Nekonoya 似乎也做得很好。/
+[hide A]
+[hide C]
+[hide B]
+[talkend]
+[textcolor ARUJI]
+日向 就當什麼事都沒發生一樣
+他優雅地向我鞠躬。/
+[show B C]
+[face B 08]
+[say B]
+我是來幫你的！
+不想跟著！/
+[face B 04]
+[shake B]
+[flow]
+不要跟隨壞人
+你沒學過嗎？[shake B 2 10 10]/
+[show A C]
+[face A 00]
+[say A]
+[setline 0.5 A B]
+[orderline B A]
+討厭？我只是在談論夏人的魅力。
+只是說說而已——/
+[face A 02]
+[flow]
+夏人先生也不討厭它。
+你最近怎麼樣...?/
+[hide A]
+[hide B]
+[-]
+[show C C]
+[face C 06]
+[say C]
+啊？　[shake C]哦，不，那個…
+我不習慣這種事...[face C 12]/
+[flow]
+[face C 15]
+那個，面對面，
+或者可愛...[shake C]/
+[hide C]
+[hide A]
+[hide B]
+[talkend]
+[textcolor ARUJI]
+夏人似乎很困惑，含糊其辭。
+不過，她的臉頰卻微微泛紅。/
+[se zukkoke_02]
+[effect fr syutyu a 0 0]
+[show B C]
+[face B 05]
+[say B]
+嗯，看來事情並沒有那麼糟！ ？[shake B]/
+[effect off a]
+[face B 10]
+嘿，跟我說話
+我從來沒看過納豆這麼害羞過…[shake B]/
+[show C L]
+[setline 0.5 C B]
+[orderline C B]
+[face C 12]
+[say C]
+不，不是這樣的！
+你不用太擔心！ ？/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 04]
+[say B]
+[face C 15]
+糟了~……開始變難了……/
+[show A]
+[setline 0.5 C A B]
+[say A]
+[face A 04]
+[orderline C B A]
+可憐的內科諾亞...
+眼淚不適合可愛的你。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+[face B 05]
+[face C 04]
+我不會讓你哭泣。
+你覺得怎麼樣...？之後，在房間裡放鬆一下…/
+[effect B love a 0 100]
+[say B]
+[face B 06]
+[se kira_01]
+[face A 10]
+東姑...[shake B]呃，你真善良……我很可愛……？
+我會和日向一起去.../
+[hide A]
+[move C X 200 0.3]
+[se cloth_06]
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+[face C 09]
+[shake B]
+[say C]
+[effect off a]
+我也被吸引了不少。
+不是嗎？ ？/
+[face B 05]
+[shake B]
+[say B]
+[effect off a]
+哈！[shake B]　哦不！ ！阿布納...
+我正要跟著一個壞人…[face B 10]/
+[face B 06]
+我心裡不踏實...
+我去六原吃飯。/
+[move B X 300 0.5]
+[hide B]
+[face C 12]
+[say C]
+啊，貓屋同學，我也去。
+明天見，*P君！/
+[move C X 500 0.5]
+[se walk_03]
+[hide C]
+[-]
+[show A C]
+[face A 00]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+嗯。夏人與貓之屋
+很遺憾，因為它非常有吸引力.../
+[face A 01]
+現在我可以和我的主人交談了
+最重要的是。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向笑容很有紳士風度。/
+[serif off]
+？我認為嘗試去追求一個人是不對的，不管他們是誰。/
+[serif on]
+[show A C]
+[face A 00]
+[say A]
+哦？是這樣嗎？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+日向歪著頭。
+這個姿勢感覺異常性感。/
+[face A 08]
+[say A]
+不追求一個可愛的人是不禮貌的...
+這是紳士的愛好。/
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+他的表情很嚴肅。
+不過，很快就變成了溫柔的笑容。/
+[face A 00]
+[say A]
+但是……這是一個救贖的機會。
+我們來做吧？/
+[face A 02]
+我的主人。
+……你餓了嗎？/
+[hide A]
+[textcolor ARUJI]
+[talkend]
+當然是空的。因為我餓了
+我只是來買些糖果的。/
+[serif on]
+[show A C]
+[face A 01]
+[say A]
+[scale A 1.6]
+[move A Y -160]
+我為今晚的晚餐準備了它。
+有小吃。/
+[face A 02]
+你和你的主人怎麼樣了？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[se cloth_01]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+日向以優雅的姿態向我們伸出了手。/
+[serif off]
+？我忍不住點頭。/
+[face A 10]
+[playeryes]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se fusuma_01]
+[delay 0.5 se dosa_01]
+[hideall]
+[bg mbg_syouen]
+[minibg ima]
+[bgm food]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+日向是客廳角落的小地方。
+我準備了一張桌子。/
+[textcolor ARUJI]
+餐盤上的開胃小菜排列得很漂亮。
+什錦。然後我拿出冰鎮的玻璃杯。/
+[show A C]
+[face A 14]
+[say A]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+唷……噗……噗……
+呼…[face A 12]/
+[face A 13]
+[flow]
+對不起，我提著很重的東西，所以...[wait 0.2]
+現在沒事了。[face A 10]/
+[face A 02]
+拿你喜歡的。我們還有酒
+也提供軟性飲料。/
+[hide A]
+[serif off]
+？ Itadakimasu！/
+[serif on]
+[se eat_01]
+[textcolor ARUJI]
+[talkend]
+適量的點心可以填飽肚子。
+細膩的味道讓你忍不住瞇起眼睛。/
+[show A]
+[face A 02]
+[scale A 1.6]
+[move A Y -160]
+[say A]
+我看到師父臉上的表情，
+我很高興。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向的聲音聽起來就像在我耳邊低語。/
+[serif off]
+？我感覺很好.../
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 10]
+[say A]
+哦，我記得我追求過夏人同學和貓屋同學。
+你還擔心嗎？/
+[face A 02]
+老師你真是個可愛的人。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+我不禁被這句話震驚了。/
+[bgm night]
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 01]
+[say A]
+也許……我讓你嫉妒了？
+我對此表示歉意。/
+[face A 08]
+不過……說實話，我的主人。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+事實是...我只是想讓你關心我
+也許吧。/
+[hide A]
+[serif off]
+？嗯？/
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 01]
+[say A]
+你這樣關心我
+最重要的是，我很高興。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向的聲音溫柔而溫暖。/
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 00]
+[say A]
+地魂童子和師尊……他們的關係還不止於此。
+甚至還有…更深層的東西…/
+[se cloth_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+一隻大手輕輕地撫摸我的肩膀。/
+[light down 0.5]
+[lightcolor blue]
+[se cloth_01]
+[show A C]
+[scale A 2.0]
+[move A Y -280]
+[face A 06]
+[say A]
+我想看看你不同的表情。
+這樣想是不是很自私呢？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向的眼睛直直地盯著我。
+不自覺地，我覺得自己的心跳加快了。/
+[show A C]
+[scale A 2.0]
+[move A Y -280]
+[face A 02]
+[say A]
+你覺得怎麼樣？今晚想來一場小小的冒險嗎？
+我會護送你。/
+[hide A]
+[serif off]
+[bgm off]
+？ ……也許這也是一個接機技巧？/
+[serif on]
+[show A C]
+[face A 04]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[bgm fun]
+[light off 0.5]
+哦，你發現了嗎？
+是的，我正在努力追求你。[face A 10]/
+[talkend]
+[textcolor ARUJI]
+日向看起來有點困擾。
+不過，很快就變成了溫柔的笑容。/
+[face A 09]
+[say A]
+但是……我沒有撒過一個謊。/
+[face A 06]
+[flow]
+我的主人。
+我想多瞭解你。/
+[face A 02]
+[flow]
+這就是我的真實感受。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+我能感覺到他聲音中的真誠。/
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 02]
+[say A]
+這次……我收到了你的邀請。
+我會等你。我的主人。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+日向眨了眨眼睛，把它倒進了他的杯子裡。
+我一口氣喝完了剩下的飲料。/
+[face A 02]
+[say A]
+這樣你就得到了。/
+[hide A]
+[se fusuma_01]
+[talkend]
+[textcolor ARUJI]
+即使日向離開後，我仍然孤單一人。
+我感覺到日向的溫暖還留在我肩上的某個地方。/
+[textcolor ARUJI]
+……也許這次輪到我邀請她了。/
+[textcolor ARUJI]
+——一邊這樣想著，我一邊回到了自己的房間。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>202/
+[set A s_hyu_r 日向]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 日向とビアガーデンで]
+[-]
+[se cloth_01]
+[bg sky_sunset]
+[bgm fun]
+[-]
+[fadeout 1.5]
+[-]
+[se amb_15]
+[wait 1]
+[-]
+[bg mbg_rokuhara 0.5]
+[minibg sky_sunset 0.5]
+[-]
+[talkend]
+[show A]
+[face A 14]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[serif on 0.5]
+[say A]
+唷……噗……噗……/
+[serif off]
+？ 日向...你還好嗎？/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 13]
+[say A]
+[serif on]
+呃，是的。嗯……噗……噗……/
+[face A 12]
+[flow]
+即使是我也能走這麼長的路。
+……已經變成了。/
+[hide A]
+[bg sky_sunset 0.5]
+[minibg off 0.5]
+[-]
+[talkend]
+[textcolor ARUJI]
+新宿某飯店的屋頂有一個啤酒花園。
+今天我和日向一起出去玩。/
+[textcolor ARUJI]
+太陽開始下山，天空呈現出晚霞的顏色。
+場內似乎已經擠滿了人。/
+[se gaya_01]
+[bg black 0.5]
+[minibg sky_sunset 0.5]
+[-]
+[bgm food]
+[show A C]
+[face A 00]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，看來很忙啊。/
+[face A 13]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+雖然已經是黃昏了…
+天氣很熱……是啊。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 12]
+炎熱的季節，我想泡冰水…
+呼……呼……我終於平靜下來了。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向倒了冷蘋果酒。/
+[show A C]
+[face A 00]
+[say A]
+——你覺得怎麼樣？我的主人。
+這個場館是按照這個歐洲島嶼的形象建造的。/
+[face A 01]
+你喜歡嗎？/
+[serif off]
+？ 日向 更令人擔憂.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+哦，你真是個善良的人。我的主人。
+對於引起您的擔憂，我們深表歉意。/
+[effect fr kira a 0 0]
+[se kira_01]
+[flow]
+[face A 10]
+但現在沒關係了。在一個可愛的人面前
+我不能永遠屏住呼吸。/
+[hide A]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+我氣喘籲籲那是謊言
+已經恢復正常了。/
+[show A C]
+[face A 00]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+嗯...我們有小吃。
+您想喝一杯嗎？/
+[talkend]
+[se cloth_01]
+[hide A]
+[textcolor ARUJI]
+跟隨日向到櫃檯
+多種型別的精釀啤酒服務員一字排開。/
+[show A C]
+[face A 01]
+[say A]
+這看起來像一個啤酒花園。
+....哦？
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]/
+[talkend]
+[textcolor ARUJI]
+[hide A]
+啤酒服務生前的一個年輕人
+到處閒逛。/
+@男人
+我想知道如何使用這個.../
+[show A R]
+[move A C 1]
+[face A 00]
+[say A]
+嗯……看來你遇到麻煩了。
+我可以幫你嗎？/
+[color A talk]
+@男人
+那麼，請吧！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+好吧...讓我們從這裡開始
+你覺得怎麼樣？/
+[se rokuhara_05]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向把伺服器調整好，倒了啤酒。
+用湯匙之類的東西颳去泡沫/
+[flow]
+然後再倒一次。
+技術絕對不是業餘的。/
+[serif off]
+？有什麼技巧嗎？/
+[show A C]
+[face A 02]
+[say A]
+[serif on]
+儘管看起來像這樣，但對啤酒的研究也是如此。
+因為我們這樣做。/
+[face A 01]
+[move A X -200 0.5]
+那麼，年輕人，請吧。/
+[color A talk]
+@男人
+耶！比我喝過的任何啤酒都好
+泡沫是奶油狀的！這個人太神了！ ！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+哦，那很好。
+如果您想要更多，請告訴我們。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+男人道謝後就離開了。/
+[show A C]
+[face A 00]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[say A]
+那麼，身為主人，你該做什麼呢？
+除了酒類之外，還有軟性飲料。/
+[face A 01]
+[flow]
+請告訴我你最喜歡的口味
+我可以給你做嗎？/
+[color A talk]
+@男人
+哈嘍大家也來吧！
+這個人的啤酒太棒了！[shakebg]/
+[color A talk]
+@男人
+請也給我一杯啤酒吧！[shakebg]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 12]
+[say A]
+哦.../
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm night]
+[minibg sky_star]
+[bg black 0.5]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+最後我給大家倒了啤酒。
+順便說一句，它很受歡迎。/
+[flow]
+[textcolor ARUJI]
+天空已經完全暗下來，接近地平線
+它留下輕微的藍色調。/
+[show A C]
+[face A 00]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+呃，抱歉讓您久等了。
+主人，我們也乾杯吧。/
+[face A 11]
+[serif off]
+？乾杯！/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+[serif on]
+夏日的夜晚，響起了玻璃杯破碎的聲音。/
+[serif off]
+？ ……好吃/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+日向準備的飲料
+絕對比餐廳裡喝的味道好。/
+[show A C]
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+是的……非常好吃。/
+[face A 10]
+[flow]
+今年夏天的空氣也很好。
+根據周圍的氣氛，酒精會變得更加美味。/
+[serif off]
+？為什麼邀請我去啤酒花園？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[serif on]
+正如我之前提到的，夏季
+他是我最大的敵人。/
+[flow]
+[face A 12]
+基本上，我想在室內度過時間。
+但如果我有機會和你一起工作的話.../
+[face A 02]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+就一次，
+我想體驗一下夏天是個好主意。/
+[flow]
+[face A 06]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+我的主人。你和我。
+在享受美食和飲料的同時.../
+[face A 02]
+慢慢地
+花時間欣賞這現代夜景。/
+[face A 01]
+這景色也很美妙。
+它看起來就像一顆明亮的星星。/
+[hide A]
+[light down 0.5]
+[lightcolor blue]
+[talkend]
+[textcolor ARUJI]
+新宿的建築夜景確實很美。/
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+天熱時喝啤酒。非常好。/
+[flow]
+實際上，關於啤酒花園。
+我問貓野屋。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+他說他想在莊園裡開一個啤酒花園。
+當然，這是一種很好的文化。/
+[hide A]
+[serif off]
+如果？ 日向給我倒的話，我想大家都會喝太多了。/
+[show A]
+[face A 02]
+[serif on]
+如果是為了可愛的人
+你想要多少我就做多少。/
+[light off 0.5]
+[face A 00]
+[flow]
+即便如此.../
+[talkend]
+[hide A]
+[minibg sky_cloudy 0.5]
+[textcolor ARUJI]
+日向看著天空。不知不覺間，滿天星斗
+它被厚厚的雲層遮住了。/
+[show A C]
+[face A 00]
+[say A]
+雲朵似乎變得越來越可疑。
+……這……下雨了。/
+[hide A]
+[effect bk rain r 0 0]
+[se rain_01]
+[talkend]
+[textcolor ARUJI]
+日向話音剛落，天就下雨了。/
+[show A C]
+[face A 00]
+[say A]
+師父。這裡。/
+[se cloth_01]
+[scale A 1.6 2]
+[move A Y -150 2]
+[autotap]/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+它展開以覆蓋座椅的一部分。
+我坐在日向旁邊的遮陽傘下。/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 02]
+[serif on]
+[say A]
+....更接近。/
+[se cloth_01]
+[hide A]
+[-]
+[talkend]
+[textcolor ARUJI]
+日向大掌輕輕扶住他的肩膀。
+他把我拉向我並抱住我。/
+[light down 0.5]
+[lightcolor blue]
+[show A C]
+[scale A 2.0]
+[move A Y -220]
+[face A 02]
+[say A]
+如果你這樣做了，雨就不會襲擊你了。/
+[face A 00]
+還好，雨不是很大。
+很快就會停止。/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+感受到日向的溫暖。
+即使在炎熱的夏季，這種溫暖感覺也很特別。/
+[face A 06]
+[say A]
+畢竟，和你單獨相處比較好
+您可以享受更緊張的時間。/
+[flow]
+[face A 02]
+即使莊園內舉辦啤酒花園
+最後，就這樣單獨度過一段時光吧。/
+[move A Y -60 2]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+當我抬頭時，我看到日向瞇著眼睛，友善地微笑。
+他的臉靠得很近。/
+[serif off]
+？是的。/
+[face A 10]
+[wait 2]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[effect off r]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+過了一會兒，雨停了。地板接受充足的光線
+看起來倒影讓它看起來更有氣氛。/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 01]
+[say A]
+還好，時間還很充裕。
+主人，我們慢慢喝。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+讓我們一起度過這寶貴的時光
+我很高興。/
+[serif off]
+？非常感謝/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+我喝了很多日向做的飲料
+吃很多精美的小吃/
+[textcolor ARUJI]
+[flow]
+[fadein black 1]
+當你的胃飽了的時候
+我回到了莊園。/
+[serif off 1.5]
+[-]
+[hideall]
+[bg heya_light]
+[minibg off]
+[light off] 
+[-]
+[fadeout 1.5]
+[se fusuma_01]
+[-]
+[bgm night]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+當我回到自己的房間時，我的桌子上多了一個小盒子。
+這就像一份禮物。/
+[serif off]
+?來自誰？/
+[se cloth_01]
+[shakebg]
+[delay 0.3 se goto_01]
+[-]
+[serif on]
+[textcolor ARUJI]
+當我開啟盒子時，裡面有一個小熊圖案。
+裡面裝著啤酒杯。/
+“下次我們喝這個吧。給可愛的。”/
+[textcolor ARUJI]
+上面還附有一封信。/
+[textcolor ARUJI]
+桌上放著一個可愛的小熊形狀的啤酒杯。
+我回想起今天和日向的郊遊。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

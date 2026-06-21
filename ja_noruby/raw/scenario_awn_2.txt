@@ -1,0 +1,1837 @@
+>>10000/
+@阿波
+お呼びかい旦那！[wait 2]
+オイラは南海道の阿波！[autotap]/
+[delay 3.1]
+[flow]
+[-]
+@阿波
+雇われたからには
+た～んと踊るでよ～！/
+>>10001/
+@阿波
+ぽんぽこぽーん！[wait 1]
+へへっ、旦那の驚いた顔が見れてオイラ嬉しいでよ！[autotap]/
+[delay 4.1]
+[flow]
+[-]
+@阿波
+また化かしにくるけん、
+楽しみにしとってな♪/
+>>1/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+オイラの国の見どころといやぁ、
+もちろん阿波おどりでよ！/
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.6]
+[delay 0.9 move A X 50 0.3]
+[autotap]/
+[face A 02]
+ぞめきのリズムで、連が街を埋め尽くすんや。
+皆で一緒に跳ねるん、楽しいで～！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 12]
+[scale A 1.3 0.3]
+[move A Y -60 0.3]
+[effect fr kira a 0 0]
+[se kira_01]
+踊る阿呆に見る阿呆♪
+同じ阿呆なら踊らにゃ損損♪/
+>>2/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+[rotate A 15 0.3]
+[move A X -300 0.3]
+[delay 0.3 move A X 600 0.3]
+[delay 0.3 rotate A -15 0.6]
+[delay 0.9 rotate A 0 0.3]
+[autotap]/
+くるんくるんっ！
+これは鳴門海峡の大渦を模したターンや！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+紀伊水道と瀬戸内海がぶつかる狭間……
+それが鳴門やけん。/
+[face A 01]
+潮が走るたびに大迫力の渦ができるんや。
+旦那、一度は見にいってほしいでよぉ！/
+[rotate A 15 0.3]
+[move A X -600 0.3]
+[delay 0.3 move A X 300 0.3]
+[delay 0.3 rotate A -15 0.6]
+[delay 0.9 rotate A 0 0.3]
+[autotap]/
+[face A 11]
+さあ、もっと回転してくでー！　くるんっ！/
+>>3/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+阿波国はお遍路の発心の道場やけん、
+一番札所があるんや。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 04]
+お遍路には体力、精神、それにお銭まで
+いろんな覚悟が必要やけんど……/
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+自分を見つめ直すいい機会になるでよ！/
+[face A 02]
+[scale A 1.3 0.3]
+[move A Y -60 0.3]
+旦那も悩みがあるなら挑戦してみるとええでよ！
+もちろんオイラもついてくけん！/
+>>4/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[show B R]
+[face B 00]
+[face A 09]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+さぁて、今日のご飯は[= 焼き鮭 海苔の佃煮 塩サバ いわし丸干し 冷やっこ きんぴらごぼう コロッケ 磯辺揚げ バタートースト フレンチトースト ホットケーキ ベーコンエッグ ハムカツ 焼きそば 釜玉うどん たこ焼き お好み焼き アジフライ カキフライ からあげ ハムエッグ 厚切りベーコン スパム焼き ツナサラダ]かぁ。
+さぁ、塩・醤油・ソースをたっぷりかけて、/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[face B 05]
+すだち汁もどばどば～～っと……ん～～
+うまいでよぉ！　味付けは濃いほうが美味いんや！[shake A][se zukkoke_02]/
+>>5/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ひーふーみー……にしし、たっぷり溜まったでぇ。
+なにに使うか悩んでしまうでよ……幸せやぁ……/
+[face A 12]
+[effect fr kira a 0 0]
+[se kira_01]
+[scale A 1.3 0.3]
+[move A Y -60 0.3]
+いつかもっともっとたっぷりた～～っぷり溜まったら
+荘園をだんすほうるに改装するんや！/
+>>6/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[randomset C r @地魂男児 @あやかし @NPC -awn -@NOW]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+荘園で踊り仲間を増やすにはどうすりゃええんやろ。
+……そうや！[face A 08]/
+[effect fr ILLUSION 6000 0 0]
+[se kira_01]
+[hide A]
+[show B]
+[face B 01]
+[face A 01]
+[flow]
+@阿波
+いろんな姿に化けて踊ったら踊りが流行っとるよう
+見えるはずやけん、やってみよか！/
+[show C L]
+[face C 00]
+[move C X -200]
+[move C X 200 0.5]
+[face B 02]
+[move B X 50 0.2]
+[delay 0.2 move B X -100 0.4]
+[delay 0.6 move B X 300 0.5]
+[autotap]/
+@阿波
+ヤットサ、ヤットヤット！！
+おお、うまくいったでよ！[face B 01][face C 01]/
+>>9/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[randomset C r @地魂男児 @あやかし @NPC -awn -@NOW]
+[show C]
+[show B]
+[face C 01]
+[face B 00]
+[setline B C]
+[-]
+[se kira_01]
+[effect B ILLUSION 6000 0 100]
+[hide B]
+[show A L]
+[setline A C]
+[face C 05]
+[face A 12]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+[talk A]
+[shake A]
+ぽんぽこぽーん！[se zukkoke_05]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[move C X 1000 0.5]
+[face A 09]
+にしし、驚かせるのは楽しいでよ！/
+>>10/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[show B R]
+[face B 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+今日もよく働いたでよ！
+$B:Aもお疲れや！/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+よく働き、よく貯め、よく踊る！
+これがオイラの信念なんや！[face B 01]/
+>>11/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show B]
+[face B 04]
+[-]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[show A C]
+[face A 04]
+[move A X -1000]
+[moveline A B 1000 0 0.5]
+[-]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+なんや、$B:Aが落ち込んでるみたいやな……
+ここはオイラが……！　おーい！　$B:A！[setline 0.5 A B][face A 01]/
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.6]
+[delay 0.9 move A X 50 0.3]
+[autotap]/
+[face A 12]
+[face B 01]
+元気出すには踊るんが一番やけん
+そ～ら一緒におっどるっでよっ♪/
+>>14/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[show B]
+[setline A B]
+[face B 00]
+[face A 09]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+大きなふぐりには金運のご利益があると
+言われとるでよ。/
+[face A 06]
+[face B 05]
+オイラのふぐりにも、一触りどない！？
+安くしとくで！　へへっ。/
+[face A 02]
+[face B 06]
+[se cloth_01]
+[se kira_01]
+[effect fr kira a 0 0]
+ちゃりんちゃり～ん♪
+ほな一回だけやで！[shake A][move B XY -10 -40 0.4][rotate B 10 0.3][delay 0.4 move B XY 10 40 0.3][delay 0.5 rotate B 0 0.3]/
+>>15/
+[set A s_awn_m 阿波]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+気づいてしもた……この修練場の広さなら
+みんなで阿波踊りの舞台ができるやん！/
+[face A 02]
+[scale A 1.3 0.3]
+[move A Y -60 0.3]
+[effect fr syutyu a 0 0]
+[se taiko_01]
+ヤットサー！！/
+[effect off a]
+[face A 01]
+[scale A 1.0 0.3]
+[move A Y 60 0.3]
+修練が終わったら参加者募集してみるでよ！
+きっといっぱい集まるけん！　ニシシ……/
+>>16/
+[set A s_awn_m 阿波]
+[randomset B m @地魂男児 @あやかし @NPC -awn]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[se katana_03]
+[show A C]
+[show B]
+[setline 0.3 B A]
+[face B 08]
+[face A 08]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぅ～$B:A、さすがやなぁ。
+けど負けへんで。/
+[face A 03]
+[flow]
+鳴門海峡の鯛も、厳しい大渦のなかで泳ぎ回って
+強い骨になったんや。/
+[move A C 0.3]
+[move B X -200 0.3]
+[hide B]
+[face A 02]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[effect fr syutyu a 0 0]
+[se taiko_02]
+オイラももっともっと舞うでぇ！
+そりゃーーーっ！！/
+>>17/
+[set A s_awn_m 阿波]
+[randomset B m @地魂男児 @あやかし @NPC -awn]
+[show A]
+[show B R]
+[face B 00]
+[serif on]
+[talk A]
+オイラ、また重なったか？
+こんなに毎日踊っとるのに、なんで増えるんやろ……/
+[face B 05]
+はっ！！[shake B]　ふぐりが大きくなったんか！？[se zukkoke_02][face B 05]/
+>>18/
+[set A s_awn_b 阿波]
+[randomset B b @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+[effect fr yuge A]
+[se amb_12]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ん？　なんかお湯がぬるいなぁ……
+あっついお湯、どばどばどば～～っと！/
+[show B R]
+[move B X 400]
+[move B X -400 0.3]
+[se water_03]
+[face B 05]
+[face A 05]
+[shake A]
+えっ、熱すぎたん？　そらスマン……
+オイラにはちょうどええくらいなんやけどなぁ……/
+>>19/
+[set A s_awn_b 阿波]
+[randomset B b @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[face A 04]
+[serif on]
+[moveA Y -50]
+[talk A]
+[effect fr yuge A]
+[se amb_12]
+んん～……
+ふぐりが大きくて隅々まで洗うのが大変や……/
+[show B R]
+[face B 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+$B:A、手伝ってくれへん？
+へ、変な意味やないけん！[shake A]/
+[orderline B A]
+[move B Y -100 0.5]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[se bath_05]
+[face A 02]
+[shake A]
+ええ感じやぁ……おわぁっ！　[shake A][face A 05]
+も、もっと優しく扱ってぇや～！/
+>>20/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[show B L]
+[face B 06]
+[face A 06]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+厠が混んどるなぁ……任務中に阿呆水が漏れように、
+出せるときにすっきりしとかな。/
+[se cloth_06]
+[move A X -300 0.3]
+[move B X 600 0.3]
+[face B 05]
+[face A 09]
+……もうすぐ任務の時間やけん、
+悪いけど、先に使わせてもらうでよ！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[se pee_01]
+[face B 03]
+はぁ～～……溜まっとったなぁ～～……/
+>>21/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[randomset C r @地魂男児 @あやかし @NPC -awn -@NOW]
+[show A C]
+[show B]
+[show C]
+[face B 06]
+[face C 06]
+[setline B A C]
+[orderline A B C]
+[face A 00]
+[serif on]
+[se pee_01]
+[talk A]
+………………/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+みんなにジロジロふぐりを見られとる気がする……
+そない気になるんなら堂々と見りゃええのに。/
+[se cloth_06]
+[face A 11]
+[face B 05]
+[face C 05]
+[scale A 1.3 0.3]
+[move A Y -60 0.3]
+そんなら、ふん！！！
+これからはふんどし外して小便器に立つでよぉ！/
+>>22/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+[talk A]
+[shake A]
+ひゃあ！？[se zukkoke_02]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+ふぐりが便器についてもうた……
+油断しとるといつもひやっこくてびっくりするんや。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 04]
+とほほ……
+きれいに拭いとかんとやぁ。/
+>>23/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 06]
+[talk A]
+[se door_01]
+[move A X -300]
+[move A X 300 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+……ふぅ～～、たっぷり溜めたのをぶっぱなすと
+なんでこんなに気分ええんやろなぁ……/
+[face A 12]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+にしし、今日はご機嫌やで！/
+>>24/
+[set A s_awn_r 阿波]
+[randomset B r @地魂男児 @あやかし @NPC -awn]
+[show A C]
+[show B]
+[face B 04]
+[face A 05]
+[setline A B]
+[orderline A B]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+$B:A、眠れへんのんか？　そういうときは、
+体動かして疲れることをしたらええんや。にしし。[face A 10][face B 06]/
+[face A 12]
+[face B 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+そやけん、一緒に朝まで踊るでよ！[se zukkoke_02]/
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.6]
+[delay 0.9 move A X 150 0.5]
+[move B X 50 0.3]
+[delay 0.3 move B X -100 0.6]
+[delay 0.9 move B X 150 0.5]
+[autotap]/
+[face B 02]
+[face A 11]
+アーラエライヤッチャエライヤッチャ
+ヨイヨイヨイヨイ～！/
+>>25/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+はっちすっかさっまが……いまっにのっこせっし
+あっわおっどり……むにゃ……/
+[talkend]
+寝言のようだ。/
+>>26/
+[set A s_awn_r 阿波]
+[show A C]
+[face A 05]
+[move A Y -100]
+[move A Y 100 0.3]
+[se cloth_06]
+[serif on]
+[talk A]
+！！！？
+こ、こりゃあ阿呆水……[shake A]やない！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+なんや、せっかく溜めとったのにぃ！/
+>>100/
+[set A s_awn_r 阿波]
+[set B s_n000_r 猫乃屋]
+[randomset C r @地魂男児 @あやかし @NPC -awn -@NOW]
+[randomset D r @地魂男児 @あやかし @NPC -awn -@NOW]
+[randomset E r @地魂男児 @あやかし @NPC -awn -@NOW]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 阿波とダンスホール]
+[-]
+[bg heya_day]
+[se fusuma_01]
+[fadeout 2.0]
+[bgm home]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[se amb_01]
+[textcolor ARUJI]
+朝。
+ゆっくりとまぶたを開き、重い体を起こした。/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+着替えようと衣装棚の前に行くと
+どこか違和感がある……/
+[serif off]
+?こんなところにタンスなんてあったっけ？/
+[bgm fun]
+[effect fr syutyu a 0 0]
+[shakebg]
+[show A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 12]
+[say A]
+[se kira_01]
+[effect fr ILLUSION 6000 0 0]
+[serif on]
+ぽんぽこぽ～ん！！！/
+[serif off]
+?阿波！？/
+[face A 02]
+[effect off a]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+驚いたかい旦那ぁ！
+化かし成功や！[shake A]/
+[talkend]
+[textcolor ARUJI]
+タンスは煙をあげ、あっという間に
+阿波へとその姿を変えた。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[talk A]
+まだ荘園に来たばっかで旦那とは
+まだあんまり話せとらんけん/
+[face A 01]
+[flow]
+[scale A 1.4 0.3]
+[move A Y -80 0.3]
+[effect fr kira a 0 0]
+[se kira_01]
+オイラの得意技を見せてやりたかったんや！
+姿を変えるんは化け狸の基本やけん！/
+[effect off a]
+[serif off]
+?すごい！/
+[face A 06]
+[scale A 1.0 0.5]
+[move A Y 80 0.5]
+[serif on]
+[say A]
+へへっ、そんなに褒められると照れるでよ～。
+旦那の希望なら、どんなもんにも化けられるで。[shake A]/
+[face A 10]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+もちろん、旦那の意中の相手の姿とかでも！/
+[serif off]
+?そういうのは大丈夫/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[serif on]
+[say A]
+ありゃりゃ～。残念。
+でもなんとな～く元気がなさそうに見えたけん。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+実は昨日の夜は怖い夢を見て一度起きたため
+寝起きの割に疲労が溜まっている気がする。/
+[serif off]
+?よく眠れなくて/
+[show A]
+[face A 05]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そうなんや……
+でも大丈夫やで。[shake A][face A 00]/
+[face A 08]
+[flow]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[effect fr syutyu a 0 0]
+[se taiko_01]
+そんなときは、オイラの特技、その２や！！/
+[bgm comical]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[effect off a]
+[scale A 1.0 0.5]
+[face A 01]
+[move A Y 80 0.5]
+[talkend]
+[textcolor ARUJI]
+阿波はそういうと
+突如踊り始めた。/
+[serif off]
+?阿波！？/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 11]
+[serif on]
+[say A]
+オイラの阿波おどり見て元気出しぃ！
+踊る阿呆に見る阿呆、同じ阿呆なら踊らにゃ損損♪/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+たしかに動きにキレがある気がする。/
+[serif off]
+?これは本場の阿波踊り……/
+[se fusuma_02]
+[show B C]
+[scale B 1.6 0.5]
+[move B Y -120 0.5]
+[face B 04]
+[say B]
+[serif on]
+おい後輩～！！　聞いてくれよー！！
+もうオレショックすぎてさ～！！/
+[serif off]
+?猫乃屋さん？/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 08]
+[serif on]
+[say B]
+さっき査定があったんだけど
+今回は給料上がらねぇって……地味にショックで/
+[show A]
+[move A X -200]
+[scale A 1.6]
+[move A Y -120]
+[scale A 1 0.5]
+[scale B 1 0.5]
+[moveline A B 0 120 0.5]
+[face A 01]
+[setline 0.5 A B]
+[orderline A B]
+[face B 05]
+[flow]
+って、なに踊ってんだ！？[se zukkoke_02][shake B]/
+[move B X 200 0.5]
+[face B 08]
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.4]
+[delay 0.7 move A X 50 0.3]
+[autotap]/
+[face A 12]
+[say A]
+ヤットサー！　ヤットサー！/
+[serif off]
+?阿波は踊りが得意なんです/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 02]
+[serif on]
+[say A]
+踊れば元気になるでよ、
+一緒に踊るでよ～！　よいよい！/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 08]
+[say B]
+はは……いいよな、気楽なやつは……もうだめ
+給料上がる前提でカード使いまくったし……/
+[face B 04]
+[flow]
+便所で泣いてくるわ……[shake B]/
+[se fusuma_02]
+[move B X 800 0.5]
+[autotap]/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+ふらふらと部屋を出ていく猫乃屋。
+その後姿は心配になるほどだった。/
+[serif off]
+?猫乃屋を慰めにいく/
+[move A C 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[serif on]
+[say A]
+オイラのことは気にせんでええよ！
+ここで踊っとるけん。/
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.4]
+[delay 0.7 move A X 50 0.3]
+[autotap]/
+[face A 12]
+[flow]
+ヤットサーヤットサー！/
+[hide A]
+[se fusuma_01]
+[bg rouka_day 0.5]
+[talkend]
+[textcolor ARUJI]
+なぜ踊り続けるのかはわからないが、
+阿波を部屋に残し、猫乃屋を追った。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 2]
+[hideall]
+[bgm fun]
+[bg rouka_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show B C]
+[face B 04]
+[say B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+ぐすっ。おまえって、ほんっといい奴だよな。
+後輩……ぐすっ。/
+[serif off]
+[hide B]
+[bg heya_day 0.5]
+[se fusuma_01]
+[talkend]
+[textcolor ARUJI]
+[-]
+[wait 1]
+[serif on 0.5]
+猫乃屋を慰め、部屋に戻ると
+阿波の姿はもうなかった。/
+[show B]
+[face B 10]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+おい後輩。なんか御座所の方が
+騒がしくねぇか？/
+[serif off]
+?御座所へ行く/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg gozasyo_day]
+[-]
+[fadeout 1.5]
+[-]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 12]
+[autotap]/
+[serif on]
+[say A]
+踊る阿呆に見る阿呆！/
+[move A X 50 0.3]
+[delay 0.3 move A X -100 0.4]
+[delay 0.7 move A X 50 0.3]
+[autotap]/
+[flow]
+同じ阿呆なら踊らにゃそんそんっ。/
+[serif off]
+[show B]
+[move B X 1000]
+[moveline B A -1000 0 1]
+[face B 05]
+[say B]
+[-]
+[autotap]/
+[face B 10]
+[serif on]
+あ、阿波のやつ……まだ踊ってやがる……
+しかも——/
+[show D]
+[show C]
+[show A]
+[setline C A D]
+[orderline A C D B]
+[moveline A C D -1000 0 0]
+[serif off]
+[moveline A B C D 1000 0 0.3]
+[face A 01]
+[face C 01]
+[face D 01]
+[-]
+[se zukkoke_02]
+[serif off]
+?踊ってる人が増えてる！！/
+[hideall]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+その後もひとり、またひとりと踊りに加わり
+荘園はさながらダンスホールと化したのだった。/
+[show B]
+[face B 02]
+[-]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[autotap]/
+[say B]
+[serif on]
+なんでだろ……
+見てたらオレも踊りたくなってきたぜ……！[shake B]/
+[hide B]
+[serif off]
+?踊りに加わる/
+[show A]
+[show C]
+[show D]
+[setline C A D]
+[orderline A C D]
+[face C 01]
+[face D 01]
+[face A 02]
+[say A]
+[effect fr kira a 0 0]
+[se kira_01]
+[-]
+[serif on]
+おぉ、旦那ぁ、一緒に踊ってくれるんかぁ！
+オイラが手とり足とり腰とり教えるで！/
+[effect off a]
+[face A 01]
+[flow]
+[moveline A D C 50 0 0.3]
+[delay 0.3 moveline A D C -100 0 0.4]
+[delay 0.7 moveline A D C 50 0 0.3]
+[autotap]/
+そら、ヤットサーヤットサー！/
+[talkend]
+[textcolor ARUJI]
+みんなと踊っているとどんどんと
+楽しい気分になってきた。/
+[hideall]
+[-]
+[show B]
+[face B 14]
+[move B X -50 0.1]
+[delay 0.1 move B X 100 0.2]
+[delay 0.3 move B X -100 0.2]
+[delay 0.5 move B X 50 0.1]
+[autotap]/
+[say B]
+給料あがらねぇくらいなんだ！
+そんなことで凹んでられねぇよな！/
+[talkend]
+[textcolor ARUJI]
+猫乃屋さんならきっといつか上がります！
+そんなエールを送った。/
+[face B 02]
+[say B]
+[move B X 50 0.3]
+[delay 0.3 move B X -100 0.4]
+[delay 0.7 move B X 50 0.3]
+[autotap]/
+そうだそうだ！　ヤットサーヤットサー！！/
+[hide B]
+[-]
+[show A]
+[face A 01]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+明るい気分になれるんが、踊りのええとこや。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 11]
+いっときでも楽しくなれたら
+また頑張れるんやで♪/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+阿波の踊りにはなにか周りを
+引き付けるものがあるのかもしれない。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[say A]
+[effect fr syutyu a 0 0]
+[se taiko_02]
+おお、みんな慣れてきたなぁ。
+次はもっと激しい踊り、いくでよ～！！！[face A 12]/
+[bg sky_day 0.5]
+[hide A]
+[effect off a]
+[shakebg]
+[se fire_01]
+@みんな
+おおーー！！！/
+[talkend]
+[textcolor ARUJI]
+踊りが悩み事の解決法とは
+知らなかった。/
+[flow]
+[textcolor ARUJI]
+荘園がまたいっそう
+明るくなりそうだと思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>101/
+[set A s_awn_r 阿波]
+[set B s_awn_r 阿波]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 阿波のぬくもり]
+[-]
+[bg gozasyo_day]
+[fadeout 2.0]
+[bgm home]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[se amb_01]
+[textcolor ARUJI]
+お昼すぎ。
+御座所で雑務をこなしていたが、捗らない。/
+[flow]
+[textcolor ARUJI]
+今日はなんだか元気がない。
+どうも体が筋肉痛気味だ。/
+[flow]
+[textcolor ARUJI]
+きっと昨日はりきって掃除したからに違いない。
+そして……/
+[serif off]
+?眠い……/
+[playeryes]
+[fadein black 1]
+[autotap]/
+[serif on]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+この後猫乃屋との打ち合わせがあるが
+それまで寝てしまおうかと思い、机に突っ伏す。/
+[serif off]
+[waku on]
+[wait 0.5]
+[se fusuma_01]
+[fadeout 0.5]
+[show A C]
+[move A Y 600]
+[move A Y -600 0.3]
+[rotate A -30]
+[rotate A 20 0.4]
+[se walk_04]
+[face A 12]
+[talk A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[rotate A 0 0.2]
+[serif on]
+ヤットサーヤットサー！
+お邪魔するでよ～！/
+[move A X -300 0.4]
+[rotate A 30 0.4]
+[autotap]/
+[face A 02]
+旦那、まだ寝とるんか～？
+今日も一緒に楽しく踊るでよ～。/
+[move A X 600 0.4]
+[rotate A -30 0.4]
+[autotap]/
+[face A 00]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+っと、そのまえに……旦那が
+昼飯に来んかったけん、ご飯持ってきたでよ！/
+[hide A]
+[serif off]
+?ん～……/
+[waku off 0.5]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+顔を上げるのも億劫で、
+机に突っ伏したまま生返事をする。/
+[show A]
+[face A 09]
+[talk A]
+[se cloth_01]
+にしし。狸寝入りはオイラのほうが得意でよ。
+それっ。/
+[face A 07]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[se dosa_01]
+[move A X 100 0.5]
+[rotate A -50 0.5]
+[move A Y -100 0.5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+阿波は持ってきたご飯を作業台の上に置くと、
+隣に寝転ぶと、いびきをかきはじめた。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[talk A]
+ぐぅー……すぴぃー……
+むにゃむにゃ……/
+[serif off]
+[wait 2]
+[rotate A -20 0.5]
+[se cloth_01]
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+……旦那？/
+[talkend]
+[textcolor ARUJI]
+阿波は顔をくるりとこちらに向け直し
+様子を伺ってくる。/
+[waku off 0.5]
+[hide A]
+[serif off]
+?ごめん、だるくて食欲が……/
+[effect fr syutyu a 0 0]
+[quake 2]
+[serif on]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[move A Y -100]
+[move A Y 100 0.3]
+[talk A]
+[move A Y 20 0.1]
+[delay 0.1 move A Y -20 0.1]
+[bgm departure]
+ほわぁああ！？　[shake A]えらいこっちゃ！　
+だ、旦那、ちょっと待っててな！/
+[quake off]
+[move A X 600 0.3]
+[hide A 0.3]
+[se fusuma_03]
+[se walk_03]
+[wait 0.5]
+[talkend]
+[textcolor ARUJI]
+阿波は慌てて飛び上がると、御座所を飛び出して
+走っていくと、数分経たずすぐ戻ってきた。/
+[se fusuma_03]
+[show A C]
+[face A 05]
+[move A X 600]
+[move A X -600 0.3]
+[se walk_04]
+[-]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[talk A]
+旦那、ちょっと動かすでよ。
+んしょっと！/
+[bg rouka_day 0.5]
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_06]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+こちらの身体を軽々と持ち上げ、部屋を出る。
+阿波のふわふわの毛並みに包まれる。/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[flow]
+[textcolor ARUJI]
+大柄な体格の阿波だが、妙にすばしっこい動きで
+小刻みに揺れる感じがなんだか楽しい。/
+[fadein BLACK 1.0]
+[serif off 1.0]
+[-]
+[effect off a]
+[wait 0.5]
+[hideall]
+[bg heya_day]
+[bgm fun]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+自室に着くと、布団が敷かれていた。
+阿波が敷いてくれたのだろう。/
+[show A C]
+[face A 03]
+[talk A]
+[scale A 2]
+[move A Y -220]
+旦那になんかあったら大変やけん。
+ちゃんと寝とかないけん！　おろすで？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+阿波は優しい動きでこちらの身体を布団へおろす。
+横になると布団をそっとかけてくれた。/
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[talk A]
+オイラが寝かしつけたるでよ！
+ぽんぽん、ぽんぽこぽん……/
+[talkend]
+[textcolor ARUJI]
+阿波はとなりで横になりながら布団の上から
+お腹のあたりを優しいリズムでぽんぽんと叩く。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[wait 0.5]
+[face A 09]
+[talk A]
+ぽん、ぽん、ぽんぽこ、ぽん……
+むにゃむにゃ……/
+[serif off]
+?阿波？/
+[rotate A -20 0.5]
+[move A Y -50 0.5]
+[serif on]
+[face A 07]
+[talk A]
+すぴぃー……すぴぃー……
+むにゃむにゃ……/
+[talkend]
+[se zukkoke_02]
+[textcolor ARUJI]
+また狸寝入りかと思ったが、驚いたことに
+本当に眠っているようだ。/
+[flow]
+[textcolor ARUJI]
+お腹に手を添えられたまま、目を閉じていると、
+自然と眠ってしまった。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 2.0]
+[hideall]
+[-]
+[bgm night]
+[bg heya_light]
+[se amb_05]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+目が覚めると外は真っ暗だった。/
+[flow]
+[textcolor ARUJI]
+寝返りをうって横を見ると阿波の姿はなかった。
+ずいぶん眠ってしまったみたいだ。/
+[se fusuma_01]
+[show A C]
+[move A X -600]
+[move A X 600 1]
+[face A 00]
+[-]
+[talk A]
+お、旦那。目が覚めたみたいやなぁ。
+お茶持ってきたけん、飲む？/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[move A Y -50 0.6]
+[se cloth_01]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+様子を見に来てくれた阿波が布団の横に
+腰を下ろす。/
+[hide A]
+[serif off]
+?あ、猫乃屋さんは——/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+そういえばあのあと猫乃屋との
+打ち合わせがあったはずだ。/
+[flow]
+[textcolor ARUJI]
+だがスマホにも特に連絡は来てない。/
+[show A]
+[scale A 1.6]
+[move A Y -170]
+[face A 10]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+心配せんでもええけん。
+オイラが片付けといたで！/
+[serif off]
+?え？/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[serif on]
+[face A 11]
+[talk A]
+こうやって……ぽんぽこぽーん！！/
+[move A Y 100 0.1]
+[hide A]
+[effect fr ILLUSION 6000 0 0]
+[se kira_01]
+[talkend]
+[textcolor ARUJI]
+目の前の阿波は
+なんと自分そっくりに化けてしまった。/
+[flow]
+[textcolor ARUJI]
+まるで鏡を見てるかのようだ。
+つまり——/
+[shakebg]
+[show A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 12]
+[say A]
+[se kira_01]
+[effect fr ILLUSION 6000 0 0]
+[face A 01]
+旦那の姿に化けて、猫乃屋と話をしたけん！
+バレてもいないしバッチリやったでぇ！/
+[serif off]
+?すごい！！/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+まさかの展開に思わず笑ってしまった。
+阿波らしいナイスフォローだ。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 10]
+[talk A]
+まぁ、ちゅーても猫乃屋は焼肉処「おにく」の
+新メニューの話ばっかりしてたけん。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 09]
+ほとんど雑談やったでよ。
+これが無駄な会議ってやっちゃなぁ～。/
+[face A 02]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、必要な内容はメモに書いて
+御座所の机に貼っといたで。明日確認してな！/
+[serif off]
+?ありがとう/
+[scale A 2 0.5]
+[move A Y -220 0.5]
+[autotap]/
+[se cloth_01]
+[serif on]
+[face A 03]
+[talk A]
+……旦那、ちょっとだけ熱くなっとらん？/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+確かにじっとりしていて、寝汗もかいていたようだ。
+もしかしたら風邪っぽのかもしれない。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 11]
+[talk A]
+風邪の引き始めは、
+し～っかり休まなあかんでよ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 00]
+汗かいとるけん、新しいのに着替えんとな。
+オイラが手伝うでよ。/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[hide A]
+[autotap]/
+[se cloth_06]
+[talkend]
+[textcolor ARUJI]
+阿波はこちらの身体をごろりと転がしながら
+器用にTシャツを脱がせる。/
+[flow]
+[textcolor ARUJI]
+阿波はタンスから清潔な服を取り出し、
+これまた器用に着せてくれる。/
+[se kira_01]
+[effect fr kira a 0 0]
+[show A]
+[scale A 1.6]
+[move A Y -170]
+[face A 01]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ぽんぽこ～っと。ほいっ、これでよしっと。
+Tシャツもズボンもパンツもばっちり綺麗やで！/
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+転がされながら気づけば着替えが完了していた。
+まるで赤ちゃんにでもなった気分だ。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 10]
+[talk A]
+[se goso_01]
+あとこれはとっておきの薬や。
+ごそごそ……っと。/
+[talkend]
+[textcolor ARUJI]
+阿波は膨らんだふんどしに手を突っ込み
+がさがさ漁るとおまんじゅうを取り出した。/
+[serif off]
+?（そこって収納ができるんだ）/
+[serif on]
+[face A 02]
+[talk A]
+これはこっそり取っといた金長まんじゅうや！
+阿波の狸にちなんだ、ありがた～い甘味でよ！/
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+居間でみんなが食っとったんをキープしとったけん。
+オイラ、好きなもんは最後に残す流儀やけん。/
+[face A 08]
+[flow]
+……でも、旦那には早う元気になってもらわんと。/
+[face A 12]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+やけん、これは旦那にやるでよ。
+弱ってるときには糖分も栄養や！/
+[serif off]
+?半分こにする/
+[serif on]
+[face A 05]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[shake A]
+[se zukkoke_02]
+だ、旦那ぁ！？
+お、オイラももろてもええんかな？/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 06]
+[flow]
+[effect fr kira a 0 0]
+[se kira_01]
+[se eat_01]
+そこまで言うなら……半分こやっ。
+ん～～～っ、うまい、やっぱり好きや～～っ。/
+[hide A]
+[se eat_01]
+[effect off a]
+[-]
+[talkend]
+[textcolor ARUJI]
+阿波の大好きなおまんじゅうを食べると
+甘さと一緒に阿波の優しさもじんわりと感じた。/
+[show A]
+[scale A 1.6]
+[move A Y -170]
+[face A 00]
+[talk A]
+朝までもうちょい寝られそうか？　旦那。
+いっぱい寝た方が早く元気になるけん。/
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 02]
+せや、旦那が眠れるまで、オイラが
+ゆーーったりと、リラックスの舞を踊るでよ！/
+[talkend]
+[move A Y 220 0.5]
+[se cloth_01]
+[textcolor ARUJI]
+すくっと立ち上がる阿波。
+迫力のあるアングルで大きな玉袋が揺れる。/
+[move A Y -170 0.5]
+[face A 10]
+[talk A]
+けど、このまんま踊ったら、ちと騒がしいかも
+しれへんから……こんなんはどないや？/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[flow]
+[face A 11]
+ぽんぽこ～～～ぽんっ！/
+[se kira_01]
+[effect fr ILLUSION 6000 0 0]
+[hide A 1]
+[-]
+[talkend]
+[textcolor ARUJI]
+阿波はぼわんと変化したかと思うと、
+姿を消した。/
+[bgm off]
+[serif off]
+?阿波？　一体どこに……/
+[serif on]
+@阿波の声
+旦那！　ここや！　ここここ！
+もっと下やー！/
+[bgm comical]
+[show B]
+[scale B 0.4]
+[move B Y 150 2]
+[face B 02]
+[-]
+[effect fr syutyu a 0 0]
+[quake 2]
+[se zukkoke_02]
+[-]
+[talkend]
+[textcolor ARUJI]
+なんと阿波は人形くらいのサイズになっていた。
+声も高くなって聞こえる。/
+[effect off a]
+[quake off]
+[move B Y 5 0.1]
+[delay 0.1 move B Y -10 0.3]
+[delay 0.4 move B Y 5 0.2]
+[autotap]/
+[face B 12]
+[talk B]
+旦那！　この大きさなら、
+踊ってても邪魔にならんやろ。/
+[serif off]
+?手に持って確認してみる/
+[se cloth_01]
+[scale B 0.7 0.5]
+[rotate B 20 0.5]
+[shakebg]
+[-]
+[serif on]
+[face B 05]
+[talk B]
+[shake B 2 5 5]
+[se zukkoke_02]
+って、わーーー旦那ーーー！？/
+[talkend]
+[textcolor ARUJI]
+小さくなった阿波は手のひらで掴める大きさで
+非常に可愛く見える。/
+[flow]
+[shake B]
+[se cloth_01]
+[textcolor ARUJI]
+まぁるいお腹もほっぺたもぷにぷにとした弾力で
+人差し指で触ると不思議な感じがする。/
+[serif off]
+?すごい……/
+[serif on]
+[face B 06]
+[talk B]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+もー旦那ぁ！　あんまり触られると
+ちょっぴりドキドキしてくるけん……照れるでよ～。/
+[talkend]
+[textcolor ARUJI]
+小さくなったことに驚いてペタペタと触って
+しまったが、そう言われるとこっちも照れてしまう。/
+[face B 08]
+[scale B 0.4 0.5]
+[rotate B 0 0.5]
+[move B Y -50 0.5]
+[flow]
+[textcolor ARUJI]
+阿波をそっと床に下ろすと、
+阿波は小さな身体でてててっっと走り出す。[move B X 400 1.6]/
+[light takibi 0.6]
+[move B X -400 0.5]
+[-]
+[show A]
+[scale A 1.6]
+[color A black]
+[orderline B A]
+[flow]
+[textcolor ARUJI]
+阿波はそばに置いてある行灯の前に立つ。
+すると壁に大きな阿波の影が写った。/
+[move A X -150 0.1]
+[delay 0.1 move A X 200 0.2]
+[delay 0.3 move A X -200 0.2]
+[delay 0.5 move A X 150 0.1]
+[move B X -50 0.1]
+[delay 0.1 move B X 100 0.2]
+[delay 0.3 move B X -100 0.2]
+[delay 0.5 move B X 50 0.1]
+[autotap]/
+[face B 11]
+[talk B]
+[color A black]
+ほな、いくでよ～！
+旦那を元気づけて、ぐっすり眠らせる舞や！/
+[move B X 50 0.3]
+[rotate B -10 0.3]
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[delay 0.4 move B Y 100 0.1]
+[delay 0.5 move B Y -100 0.2]
+[delay 0.7 move B X -250 0.5]
+[delay 0.7 rotate B 10 0.5]
+[delay 1.2 move B Y 100 0.1]
+[delay 1.3 move B Y -100 0.2]
+[delay 1.5 move B Y 100 0.1]
+[delay 01.6 move B Y -100 0.2]
+[move A X 250 0.3]
+[rotate A -10 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[delay 0.7 move A X -550 0.5]
+[delay 0.7 rotate A 10 0.5]
+[delay 1.2 move A Y 100 0.1]
+[delay 1.3 move A Y -100 0.2]
+[delay 1.5 move A Y 100 0.1]
+[delay 01.6 move A Y -100 0.2]
+[autotap]/
+[face B 01]
+[flow]
+ヤットサーヤットサー、よーいよい！/
+[talkend]
+[color A black]
+[textcolor ARUJI]
+小さな阿波が踊りだすと、
+壁に写った大きな影の阿波も踊りだす。/
+[flow]
+[textcolor ARUJI]
+ふだんの阿波の舞も楽しいが、影の舞は新鮮だった。
+なんだかすごいエンタメだ。/
+[move B X 250 0.3]
+[rotate B -10 0.3]
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[delay 0.4 move B Y 100 0.1]
+[delay 0.5 move B Y -100 0.2]
+[delay 0.7 move B X -50 0.5]
+[delay 0.7 rotate B 10 0.5]
+[delay 1.2 move B Y 100 0.1]
+[delay 1.3 move B Y -100 0.2]
+[delay 1.5 move B Y 100 0.1]
+[delay 01.6 move B Y -100 0.2]
+[move A X 550 0.3]
+[rotate A -10 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[delay 0.7 move A X -250 0.5]
+[delay 0.7 rotate A 10 0.5]
+[delay 1.2 move A Y 100 0.1]
+[delay 1.3 move A Y -100 0.2]
+[delay 1.5 move A Y 100 0.1]
+[delay 01.6 move A Y -100 0.2]
+[autotap]/
+[face B 12]
+[talk B]
+[color A black]
+旦那っ、早う元気にっ、なってほしいでよっ♪
+元気になったら、また一緒に、踊るんやけん♪/
+[talkend]
+[color A black]
+[textcolor ARUJI]
+歌いながら舞う小さい阿波と大きな影を見ながら、
+またうとうとしてきた。/
+[serif off]
+?眠る/
+[fadein black 2]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.2]
+[delay 0.4 move B Y 10 0.1]
+[delay 0.5 move B Y -10 0.2]
+[move A Y 110 0.1]
+[delay 0.1 move A Y -110 0.2]
+[delay 0.4 move A Y 110 0.1]
+[delay 0.5 move A Y -110 0.2]
+[autotap]/
+[serif on]
+[face B 01]
+[talk B]
+[color A black]
+あ、それっ、ヤットサーヤットサー♪
+元気な旦那が見たいでよっ♪　それそれっ♪/
+[serif off 1.5]
+[-]
+[wait 2.0]
+[hideall]
+[-]
+[light off]
+[bgm off]
+[bg heya_day]
+[-]
+[se amb_01]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+外から差し込む太陽の光に目を覚ました。/
+[bgm home]
+[serif off]
+?あ、朝だ……/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+身体は驚くほどスッキリしている。
+糖分を取っていっぱい寝たおかげかもしれない。/
+[flow]
+[textcolor ARUJI]
+そして昨晩の阿波の影の舞を思い出した。
+阿波の明るさと思いやりに支えられた気がする。/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+そう思いながら視線を上に向けると
+こちらを覗き込む阿波と目があった。/
+[show A C]
+[scale A 2]
+[move A Y -220]
+[face A 09]
+[talk A]
+旦那。おはようさん♪
+ぐっすりよう寝とったなぁ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[bgm comical]
+[face A 02]
+[flow]
+オイラのふぐり枕の寝心地はどないやった？
+にししっ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+ふかふかで柔らかくてほんのりと温もりを感じる。
+頭の両側には阿波の大きな太ももがある。/
+[flow]
+[textcolor ARUJI]
+どうやら阿波の股の間……
+ふぐり枕で眠っていたようだ。/
+[show A C]
+[scale A 2]
+[move A Y -220]
+[face A 11]
+[talk A]
+さぁ起きたら朝ご飯や！
+今日も一日元気に踊るでよ～♪/
+[se cloth_01]
+[hide A]
+[-]
+[bg rouka_day 0.5]
+[se fusuma_01]
+[talkend]
+[textcolor ARUJI]
+阿波に起こされ、一日が始まった。
+今日は頑張れそうだ。/
+[flow]
+[textcolor ARUJI]
+そして、確かにいい寝心地だったな……と
+しみじみ思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2.0]
+[-]
+[autotap]/

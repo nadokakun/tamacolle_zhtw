@@ -1,0 +1,2882 @@
+>>10000/
+@日向
+これはこれは……[wait 2]私は西海道の日向。[autotap]/
+[delay 3.5]
+[flow]
+[-]
+@日向
+出会いを祝し、一杯いかがです？
+マイマスター。/
+>>10001/
+@日向
+何度も出会えるとは……[wait 3]
+これは運命かもしれませんねぇ。[autotap]/
+[delay 3.1]
+[flow]
+[-]
+@日向
+私はそう感じていますよ。/
+>>1/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[-]
+[serif on]
+天孫降臨の伝説をもつ高千穂峰の山頂には
+かの有名な「天の逆鉾」が立っています。/
+[face A 01]
+[flow]
+雄大な景色に浮かぶその姿は
+なんとも神秘的ですよ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+私で良ければ喜んで
+エスコートさせていただきます。/
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ただし間違ってもお触りにならぬよう。
+あなたが怪我をしてはいけませんからね。/
+>>2/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 04]
+[say A]
+[orderline A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+おや？　今日はため息が多いですね。マイマスター。
+お疲れですか？/
+[face A 10]
+もし悩み事でしたら
+私でよければ、いつでもご相談ください。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 03]
+そうですね……天照大神がお隠れになったという
+天岩戸。[wait 0.5]名前は聞いたことがおありでは？/
+[face A 00]
+高千穂の「天岩戸神社」では、
+その天岩戸を見ることができるのですが……/
+[scale A 1.6 0.5]
+[move A Y -160 0.5]
+[se cloth_06]
+[face A 02]
+いかがです？　二人で少し中に隠れてみましょうか。
+じっくりとお話を聞かせてください。/
+>>3/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[serif on]
+マイマスター。日向岬にある
+「願いが叶うクルスの海」をご存知ですか？/
+[face A 01]
+[flow]
+クルスとは南蛮の言葉で十字架……
+ここは願いが叶う場所と言われています。/
+[face A 11]
+[flow]
+岩礁と海の形が合わさって「叶」の字にみえる
+ロマンチックなスポットなんですよ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+……私にも叶えたい願いがあるのですよ。マスター。
+行ってみたいですな。是非、あなたと共に。/
+>>4/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B C]
+[face A 04]
+[face B 04]
+[say A]
+[orderline B A]
+[setline B A]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+ふむふむ……わかりますよ。
+そうですか……それは辛かったでしょうね。/
+[face A 10]
+[face B 00]
+[flow]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_01]
+しかしそのような悲しい顔、$B:Aには
+似合いませんよ。ほら、顔を上げてください。/
+[face A 02]
+[move A X 100 0.5]
+もしよければ、さぁ、こちらへ。
+誰もいない部屋で私とゆっくり過ごしましょう。[face B 05][shake B]/
+>>5/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B C]
+[face A 00]
+[face B 00]
+[say A]
+[orderline B A]
+[setline B A]
+[serif on]
+そろそろティータイムにしますか。
+おや$B:A、ご一緒にいかがですか？/
+[serif off]
+[face A 01]
+[face B 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[= ダージリン アッサム ニルギリ ウバ キーマン 高千穂の釜炒り茶 日向国の深蒸し煎茶 日向国の煎茶 日向国のほうじ茶 日向国の白折]に[= スコーン クッキー キッシュ サンドウィッチ ようかん どらやき ぜんざい あんこもち せんべい]を合わせましょう。
+……んん～……とても美味しいですね。/
+[face A 00]
+[face B 02]
+[flow]
+日本庭園を見ながらいただくお茶は
+良いものでしょう？/
+[shake B]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[face B 06]
+ふふ、その様子だとまだお腹がすいていそうですね。
+地頭鶏のチキン南蛮をごちそうしましょうか。/
+>>6/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[face A 06]
+[say A]
+[orderline A]
+[move A X 600]
+[move A X -600 1 0.5]
+[-]
+[serif on]
+この荘園はどこを見ても可愛い方にあふれていて
+ついウットリしてしまいますね。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[show B L]
+[face A 02]
+[face B 00]
+[orderline A B]
+[say A]
+さて、……今日は誰をお誘いしましょうか。
+可愛い方を口説かないのは失礼ですから。[face B 05][shake B]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B L]
+[face A 04]
+[face B 00]
+[move B X -600]
+[say A]
+[orderline B A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+さて、今晩は何を呑みましょうか……[setline 1 B A]
+あぁ$B:A、[face A 11]良いところに来てくれました。/
+[face A 00]
+[face B 05]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[move A Y -160 0.5]
+[move B Y -130 0.5]
+[rotate A 10 0.5]
+[flow]
+[se cloth_01]
+[effect fr kira a 0 0]
+[se kira_01]
+顔を見せてくれませんか？　その愛らしい瞳のように
+美しい色をしたカクテルを作ってみようかと。/
+[face A 02]
+[face B 06]
+[flow]
+[move A X -50 0.5]
+[rotate B 5 0.5]
+さあ、もっと近くで、よく見せてください。
+恥ずかしがらなくても大丈夫ですよ？/
+>>10/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B C]
+[face A 09]
+[face B 08]
+[say A]
+[setline A B]
+[orderline B A]
+[serif on]
+おや？　$B:A。悩み事があるのでは？
+お掛けください。私が話を聞きますよ。[face A 10]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 04]
+ふんふん……なるほど……
+[= ストレスが溜まっていると？ 寝付きがわるいと？ 元気が足りないと？ 活力がほしいと？ すっきりした気分になりたいと？ 気晴らしがほしいと？ お通じが悪いと？ 食欲がないと？ 精力をつけたいと？ 大人の嗜みを知りたいと？ 紳士の真髄を知りたいと？ 大人の男になりたいと？ 美味しいごはんを食べたいと？ 仲間のことが気になっていると？]/
+[face A 10]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+まずは一杯いかがですか。
+私もちょうど呑んでいたところなのです。/
+[face A 02]
+[face B 00]
+$B:Aにおすすめのカクテルは……今日は
+[=スウィート スパイシー ソルティー ビター スモーキー クリーミィー ジューシィー]な[= ホットカクテル フローズンカクテル ロングカクテル ショートカクテル フルーツカクテル テイスト]でいかがでしょう。/
+[face B 02]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+[face A 10]
+[shake B]
+お気に召しましたか。それはよかった。
+何、これくらいは紳士としては当然ですよ。/
+>>11/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B C]
+[face A 00]
+[face B 08]
+[say A]
+[move A X 800]
+[-]
+[setline 1 B A]
+[orderline B A]
+[-]
+[serif on]
+[face B 00]
+おや？　$B:A、眠れないのですか？
+そうですか、私もさきほど目が覚めてしまって。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[flow]
+他の子達はぐっすりと眠っていますよ。
+ということは、この荘園で起きているのは私達だけ。/
+[face A 02]
+[face B 08]
+[move A X -50 0.5]
+せっかくですし、地魂男児同士で
+大人の語らいと行きましょうか。/
+[face A 01]
+[face B 06]
+…………下心を感じると？
+もちろん、そのような語らいでも構いませんが。[face A 06]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[show B C]
+[face A 05]
+[face B 05]
+[say A]
+[orderline B A]
+[setline]
+[-]
+[serif on]
+ああ、$B:A……[shake A]
+あなたの魅力は今の私には目の毒です。/
+[face A 06]
+[face B 04]
+[flow]
+私の中にあふれる想いが
+今にも抑えられなくなってしまいそうです……/
+[face A 02]
+[effect A love 5000 0 150]
+[se kira_01]
+いかがでしょう？　紳士の嗜みとして……
+最後までエスコートして差し上げますよ。
+[face B 03]
+[shake B]/
+>>15/
+[set A s_hyu_m 日向]
+[show A C]
+[face A 04]
+[say A]
+[orderline A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+………………仕方ありません。
+修練を始めましょうか。/
+[face A 08]
+[effect fr waveout 5000 0 0]
+[se doka_01]
+……はぁっ！[shake A]　……[face A 13]せいっ！　[shake A]
+……[wait 0.5][face A 14]はぁ、はぁ……
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 13]
+……息が、あがってしまいました……
+では……そろそろ失礼して……[move A X 200 0.5]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+……ふぅ、私はこのあたりで休んでおきますね。
+お茶を飲みながら、見物させていただきましょう。/
+>>16/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[face A 11]
+[say A]
+[orderline A]
+[serif on]
+さすが皆さん！
+とても優秀な戦闘力ですねぇ！/
+[show B C]
+[move B X -1000]
+[face B 01]
+[say A]
+[face A 05]
+[setline 1 B A]
+[orderline B A]
+私も一緒に修行を……？[wait 0.5]　[face A 10]御冗談を。
+私は争い事は好みませんので。/
+>>17/
+[set A s_hyu_b 日向]
+[show A C]
+[face A 13]
+[se door_01]
+[say A]
+[orderline A]
+[move A X 1000]
+[-]
+[move A X -1000 1]
+[-]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+はぁ、暑いのは苦手なのですが
+ついつい長湯をしてしまいました……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+ふぅー
+扇風機の風が気持ち良いですねぇ。/
+>>18/
+[set A s_hyu_b 日向]
+[show A C]
+[face A 10]
+[scale A 1.6]
+[move A Y -160]
+[say A]
+[se amb_12]
+[effect fr yuge a 0 0]
+[orderline A]
+[se bath_05]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[serif on]
+ゴシゴシ……ゴシゴシ……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+ふぅー……/
+[face A 04]
+[flow]
+毛が多いせいか、どうしても蒸れがちなので
+隅々までしっかりとケアしなくては。/
+[se bath_05]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 02]
+[flow]
+紳士としては常に
+良い香りをまとっていたいですからねぇ。/
+>>19/
+[set A s_hyu_b 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A C]
+[face A 14]
+[se amb_12]
+[effect fr yuge a 0 0]
+[serif on]
+[say A]
+[orderline A]
+[rotate A -20]
+[move A Y -100]
+な、なんということでしょう……[shake A]
+毛が水を吸って重くて動けません……[shake A]/
+[show B L]
+[move B X -600]
+[move B X 600 1]
+[face A 13]
+[face B 05]
+[orderline A B]
+[flow]
+$B:A、
+体を拭くのを手伝ってもらえませんか？/
+[face A 12]
+[face B 01]
+[move B XY 10 -40 0.4]
+[rotate B -10 0.3]
+ま、まずは、この毛を掴んで絞って
+いただいたほうが良いかもしれません……/
+>>20/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 06]
+[say A]
+[se pee_01]
+[orderline A]
+[scale A 1.6]
+[move A Y -160]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……ふぅ、こういう時にふと、素晴らしい
+口説き文句を思いついたりするんですよねぇ……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+まぁ、今は何も思いつきませんが。
+……ふぅ。[shake A]/
+>>21/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 06]
+[say A]
+[se pee_01]
+[orderline A]
+[scale A 1.6]
+[move A Y -160]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……ふぅ。/
+[face A 02]
+[flow]
+私は本来は座ってする派なのですが……
+これはワイルドな感じがして悪くないですね。/
+>>22/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -210]
+[say A]
+[orderline A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぅ……座るという行為は実に良い。
+歩いていないということですからね。/
+[face A 10]
+[flow]
+私は雲龍院りく氏のあの動く椅子に
+非常に興味があります。ぜひ体験したいものです。/
+[face A 02]
+[flow]
+そしてこのウォシュレットというものも……
+座っているだけで済むとは、素晴らしい発明ですね。/
+>>23/
+[set A s_hyu_r 日向]
+[show A C]
+[face A 06]
+[say A]
+[orderline A]
+[serif off]
+[move A X -600]
+[move A X 600 1]
+[se door_01]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぅ……私としたことが……
+今日は酔いが回ってしまったようですな……/
+[face A 01]
+[flow]
+できるかぎり体力を消耗せず
+それでいて満足度は高く保つ……/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[flow]
+そんな技工を駆使するのも
+紳士の嗜みというものですな……ふぅ。/
+>>24/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[show A R]
+[show B]
+[face B 04]
+[face A 00]
+[move A X 600]
+[orderline B A]
+[-]
+[setline 0.5 B A]
+[-]
+[say A]
+[serif on]
+おや、$B:A。寝床をお探しですか？
+残念ですがこの部屋はもういっぱいになってしまいました。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+ですが、ご安心ください。
+私の上でよければどうぞ。あいていますよ？[shake B][face B 05]/
+>>25/
+[set A s_hyu_r 日向]
+[show A]
+[face A 07]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+すー……すー……/
+[talkend]
+寝息がとても静かだ。/
+>>26/
+[set A s_hyu_r 日向]
+[randomset B r -hyu @地魂男児 @あやかし -@NPC]
+[randomset C r -hyu @地魂男児 @あやかし -@NPC -@NOW]
+[show A C]
+[show B C]
+[show C C]
+[face A 02]
+[face B 07]
+[face C 07]
+[say A]
+[move C Y -100]
+[move B Y -80]
+[rotate B -30]
+[rotate C -30]
+[setline A B C]
+[orderline C B A]
+[-]
+[serif on]
+皆さん、寝顔もとっても愛らしいですね……
+もっと近くで見たくなってしまいます。
+[move A XY 10 -40 0.6]
+[rotate A -10 0.5]/
+[face A 05]
+[delay 0.3 move A XY -10 40 0.3]
+[delay 0.4 rotate A 0 0.3]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……おっと。[se cloth_06]/
+[face A 01]
+紳士たるもの、
+無防備な相手に手を出すわけにはいきませんね。/
+>>100/
+[set A s_hyu_r 日向]
+[set B s_n000_r 猫乃屋]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 日向の大人のいざない]
+[-]
+[se cloth_01]
+[bg gozasyo_night]
+[bgm home]
+[-]
+[fadeout 1.5]
+[-]
+[se amb_05]
+[wait 0.5]
+[-]
+[talkend]
+[autotap]/
+[show B C]
+[face B 01]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[serif on 0.5]
+[say B]
+[orderline B]
+…………
+だよなぁ～～。そんでさぁ～！/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+夜、遊びに来ていた猫乃屋と御座所で
+雑談を楽しんでいた。/
+[show B C]
+[face B 08]
+[say B]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+[orderline B]
+あーー、なんかめっちゃ喋りすぎて
+喉乾いてきたぜ……/
+[face B 09]
+[flow]
+台所の冷蔵庫になんかあるかな……
+なぁ行こうぜ後輩！/
+[serif off]
+?頷く/
+[serif off]
+[playeryes]
+[-]
+[talkend]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se amb_05]
+[se walk_01]
+[bg rouka_night]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[textcolor ARUJI]
+[serif on]
+荘園の中はすっかり静まり返っていた。
+月明かりに照らされた廊下を猫乃屋と歩いていく。/
+[serif off]
+?厨房に入る/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[light down]
+[lightcolor orange]
+[se fusuma_01]
+[bg black]
+[minibg tyubo]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+真っ暗だろうという想像に反して、
+薄暗いキッチンの中にほのかな明かりが灯っていた。/
+[show B C]
+[face B 11]
+[say B]
+[orderline B]
+お？　誰かいんのか？/
+[hide B]
+[-]
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[color A black]
+@？？？
+これはこれはマイマスター。
+こんな夜遅くにお会いするとは……/
+[hide A]
+[-]
+[talkend]
+[serif off]
+?その声は……日向？/
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[-]
+[serif on]
+声を覚えていただけるのは
+嬉しいものですね。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[say A]
+[flow]
+ええ、私は日向です。
+……猫乃屋さんもお揃いでどうされました？/
+[face A 04]
+[flow]
+もしやおふたりの密会を
+お邪魔してしまったでしょうか？/
+[show B R]
+[face B 05]
+[setline 0.5 A B]
+[say B]
+[orderline B A]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+え！？　[shake B]いや、のどが渇いたよなぁって……[face B 08]/
+[hide B]
+[-]
+[move A C 0.5]
+[face A 01]
+[say A]
+そうですか、それはいいところへ来ましたね。/
+[face A 00]
+[flow]
+かく言う私もちょうど一杯
+やっていたところなのですよ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+よく見ると日向の前には
+小さなグラスが置かれていた。/
+[show A C]
+[face A 01]
+[move A Y -60]
+[orderline A]
+[textcolor ARUJI]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+それをくいっと飲み干すと
+日向はその大きな体を揺らしながら立ち上がった。
+[move A Y -20 0.3]
+[delay 0.3 move A Y 80 0.5]
+[se cloth_01]/
+[hide A]
+[textcolor ARUJI]
+[flow]
+[se goto_01]
+空になったグラスの中で
+氷がカラリと鳴った。/
+[show A C]
+[face A 10]
+[say A]
+[orderline A]
+良い機会です。私がおふたりにも
+飲み物を作って差し上げましょう。/
+[face A 00]
+[flow]
+今日は……そうですね。
+私のおすすめのカクテルを。/
+[move A Y -60 0.2]
+[delay 0.2 move A Y 60 0.2]
+[delay 0.4 move A Y -60 0.2]
+[delay 0.6 move A Y 60 0.2]
+[autotap]/
+[face A 01]
+[talkend]
+[textcolor ARUJI]
+日向は美しい手さばきでシェーカーをふる。
+シャカシャカという音が心地良い。/
+[hide A]
+[textcolor ARUJI]
+流れるような動きで、足の短い三角形のグラスに
+カクテルを注ぐと、こちらに差し出した。/
+[scale A 1.6 0.5]
+[move A Y -160 0.5]
+[autotap]/
+[show A C]
+[face A 01]
+[say A]
+[se cloth_01]
+[orderline A]
+どうぞ。/
+[hide A]
+[-]
+[show B C]
+[face B 06]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[orderline B]
+うおっ、こんなおしゃれ酒全然飲んでねーわ！
+そんじゃいただきます……/
+[face B 02]
+……うお！[shake B]
+すげぇ……うめぇ！！！[shake B][effect fr kira a 0 0][se kira_01]/
+[serif off]
+?美味しい！/
+[hide B]
+[-]
+[effect off a]
+[show A C]
+[face A 10]
+[say A]
+[orderline A]
+[serif on]
+それはよかったです。/
+[bgm off]
+[flow]
+………………[wait 0.2][face A 12]
+……………………、[shake A]……ふぅ……[shake A]/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 13]
+……ふぅ、ふぅ……[wait 1]
+…………ぷはぁっ！！[shake A 3 10 10][bgm fun][hide A][move A Y -200 1][delay 0.5 se dosa_01]/
+[serif off]
+?！？/
+[show A]
+[scale A 1.6]
+[move A Y -200]
+[move A Y 40 1]
+[face A 14]
+[serif on]
+……ふぅ、ふぅ。[shake A]
+……ふぅーーー……/
+[move A Y -50 0.5]
+[delay 0.5 se dosa_01]
+[delay 0.5 shakebg]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+突然息を荒げた日向は
+ゆっくりと椅子に腰掛けた。/
+[show A C]
+[face A 13]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[say A]
+[orderline A]
+はぁ、はぁ……いえ、なんでもありませんよ。
+少し疲れただけです。/
+[face A 12]
+[flow]
+なに、シェーカーを振るのもそれなりに
+……体力を消耗しますのでね。/
+[show B R]
+[face B 10]
+[move B X 500]
+[move B X -500 0.3]
+[say B]
+[orderline B A]
+シェーカーを振ってそこまで疲れんの！？[shake B][se zukkoke_02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[hide B]
+[face A 13]
+[say A]
+ですが、カクテルの味は、保証しますよ……
+これも紳士の嗜み……ですからね……ぜぇ、ぜぇ……/
+[serif off]
+?大丈夫？/
+[face A 00]
+[serif on]
+[effect fr kira a 0 0]
+[se kira_01]
+お気遣いありがとうございます。
+マイマスター。/
+[face A 12]
+[serif off]
+[effect off a]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[flow]
+いもがらぼくとと呼ばれ、よだきぃが口癖の
+我が国ではありますが日向国は本来の等級は「中国」――/
+[face A 13]
+[flow]
+にもかわらず、こんなにも大きな姿で声聞
+していただいたわけです。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+[flow]
+だからでしょうか……私、非常に疲れやすいのです。
+えぇ。これは仕方のないことです。/
+[hide A]
+[-]
+[show B C]
+[face B 01]
+[say B]
+[orderline B]
+確かに……そういう弊害もあんのか。
+日向、おかわり頼むぜ。/
+[show A C]
+[face A 12]
+[say A]
+[setline 0.5 A B]
+[orderline B A]
+かしこまりました。
+次はこちらを……/
+[move A Y -60 0.2]
+[delay 0.2 move A Y 60 0.2]
+[delay 0.4 move A Y -60 0.2]
+[delay 0.6 move A Y 60 0.2]
+[autotap]/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+日向は体力を振り絞りながら
+シェーカーをリズミカルに振る。/
+[face A 13]
+[say A]
+はぁ……はぁ……
+どうぞ……/
+[hide A]
+[talkend]
+[serif off]
+?大きく声聞しちゃってごめん/
+[show A C]
+[face A 08]
+[say A]
+[orderline A]
+[serif on]
+なにを仰るのです。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+この大きな体に包まれたいと
+あなたが思った結果かもしれませんよ。/
+[se kira_01]
+[face A 11]
+[flow]
+もしそうだとしたら……
+これほど嬉しいことはないのですがね。/
+[face A 02]
+[say A]
+[flow]
+可愛い方に望まれることほど
+私にとっての大きな喜びはありませんから。/
+[hide A]
+[-]
+[show B C]
+[face B 06]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[say B]
+[orderline B]
+はぁ～……うんめぇ～……[rotate B 20 0.5][move B Y -100 0.5][delay 0.5 se dosa_01]
+……ぐごー……すぴー……/
+[serif off]
+?寝ちゃった……/
+[hide B]
+[-]
+[show A C]
+[face A 09]
+[say A]
+[orderline A]
+[serif on]
+猫乃屋さんにお渡しした先程のカクテル……
+アルコールを少し強めにしておきましたので。/
+[face A 06]
+[bgm night]
+マイマスター。
+これでふたりきりですな。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+…………では、大人の時間といきましょうか。/
+[serif off]
+?日向？/
+[face A 10]
+[serif on]
+どうです？　今度はこのまま私と
+夜を過ごす、というのは。/
+[face A 02]
+[flow]
+あなたを飽きさせはしませんよ。/
+[hide A]
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+日向はこちらの手を優しく撫でる。/
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 00]
+[say A]
+[orderline A]
+もちろん。安心していただきたいのですが――……/
+[face A 02]
+[flow]
+強引に手を出すようなことはしませんよ。
+紳士ですので。/
+[scale A 2 5]
+[move A Y -130 5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+日向はこちらの手を握ったまま
+大きな身体を寄せ、ゆっくりと顔を近づけてくる。/
+[serif off]
+?ひゅ、日向……ちょっと……/
+[face A 06]
+[say A]
+[serif on]
+許可をいただければ、私がすべて、
+エスコートして差し上げますよ……マイマスター……/
+[hide A]
+[-]
+[show B C]
+[face B 05]
+[say B]
+[orderline B]
+[move B Y -200]
+[move B Y 200 0.5]
+[se cloth_06]
+んごっ……[shake B]やべー寝てた……
+おかわりくれよー日向。[face B 01]/
+[face B 02]
+[flow]
+こんなにうめぇ酒久しぶりだぜ！
+今日は飲み明かすぞー！/
+[hide B]
+[-]
+[show A C]
+[face A 04]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[orderline A]
+……おやおや……まったく、
+間の悪いお方ですな。/
+[face A 02]
+[flow]
+続きはまた今度、マイマスター。/
+[serif off]
+?……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+大人で紳士的な雰囲気をまとう日向のペースに
+飲まれっぱなしだったのは……/
+[flow]
+[textcolor ARUJI]
+きっと作ってもらったカクテルに
+酔ったせいだろう……/
+[serif off]
+?……美味しいな……/
+[serif on]
+[show A C]
+[face A 02]
+[orderline A]
+[textcolor ARUJI]
+目が合うと日向はにっこりと微笑んだ。/
+[flow]
+[hide A]
+[textcolor ARUJI]
+そのどことなくダンディーな笑みに
+吸い込まれないよう気をつけなくては、と思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>101/
+[set A s_hyu_r 日向]
+[set B s_n000_r 猫乃屋]
+[set C s_n001_r 夏人]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 日向の手口]
+[-]
+[se cloth_01]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.5]
+[-]
+[wait 0.5]
+[-]
+[talkend]
+[autotap]/
+[serif on]
+[show B C]
+[face B 01]
+[say B]
+でさ、いのっちがもう歩けないって言うから
+仕方なくおぶってやってさ――/
+[face B 02]
+それが重かったのなんの！
+お前も今度おぶってみろって！/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+猫乃屋の話に相槌を打ちながら
+居間へと向かっていた。/
+[flow]
+[textcolor ARUJI]
+ミーティングを終え、しばらく話し込んでいたが、
+小腹が空いてきたので、お菓子を取りに来たのだ。/
+[serif off]
+?……あれは？/
+[serif on]
+[textcolor ARUJI]
+廊下を曲がると、意外な光景が目に入った。/
+[serif off]
+[show A C]
+[show C]
+[face C 10]
+[face A 02]
+[setline C A]
+[orderline C A]
+[-]
+[wait 0.5]
+[-]
+[say A]
+[serif on 0.5]
+夏人さん、あなたの瞳は実に魅力的ですね……
+まるで夏の海のようだ。/
+[hide A]
+[hide C]
+[-]
+[talkend]
+[textcolor ARUJI]
+廊下の先にいたのは日向と夏人だ。
+日向は身をかがめ、夏人に顔を寄せている。/
+[show C]
+[face C 12]
+[say C]
+えっ、あ……その、ありがとうございます……？/
+[hide C]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+夏人は戸惑っているようで、キョロキョロと
+落ち着かない様子だ。/
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -160]
+[say A]
+そのメガネの奥の瞳のその奥を
+もう少し深く、覗き込みたいですね。/
+[face A 02]
+可愛いお顔を少し、
+上げてもらえませんか？/
+[show C L]
+[scale C 1.6]
+[move C Y -150]
+[setline 0.5 C A]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 06]
+[say C]
+えっ？　えっと……こうかな……？/
+[hide C]
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+日向に言われたとおりに夏人は顔を上げる。/
+[show A C]
+[face A 01]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+実に素直でほんとうに可愛らしい方だ……
+もっと深くあなたのことを知りたい……/
+[face A 02]
+[flow]
+夏人さん、一緒にとなりの部屋で休みませんか？
+さあ、私の手を取って。/
+[show C]
+[shake C]
+[say C]
+[face C 10]
+[setline 0.5 C A]
+[orderline C A]
+えっ、えっ？[shake C]/
+[hide C]
+[hide A]
+[talkend]
+[se fusuma_01]
+[textcolor ARUJI]
+日向は大きな手で夏人の手を優しく握り
+隣の空き部屋の戸を開け――/
+[effect fr syutyu a 0 0]
+[bgm fun]
+[show B C]
+[face B 05]
+[say B]
+[quake 2]
+う、うおーーーなっとを
+部屋に連れ込もうとしてねぇか！？/
+[effect off a]
+[quake off]
+[hide B]
+[serif off]
+?夏人を助けに行こう/
+[serif on]
+[se walk_03]
+[effect fr syutyu a 0 0]
+[show B C]
+[scale B 1.6]
+[move B Y -120]
+[face B 04]
+[say B]
+おいこら日向てめーー！[shake B]/
+[effect off a]
+[hide B]
+[-]
+[show C C]
+[face C 05]
+[show A C]
+[face A 00]
+[setline C A]
+[orderline C A]
+[say C]
+猫乃屋さん！？　*Pくんも……/
+[say A]
+おや、マイマスター。こんにちは。
+猫乃屋さんもお元気そうで。/
+[hide A]
+[hide C]
+[hide B]
+[talkend]
+[textcolor ARUJI]
+日向はなにごともなかったかのように
+こちらに向かって優雅に会釈する。/
+[show B C]
+[face B 08]
+[say B]
+助けに来てやったぞ、なっと！
+ほいほいついていきそうになってんじゃねーよ！/
+[face B 04]
+[shake B]
+[flow]
+悪い大人についてっちゃだめって
+教わらなかったのかよー！[shake B 2 10 10]/
+[show A C]
+[face A 00]
+[say A]
+[setline 0.5 A B]
+[orderline B A]
+はて？　私はただ夏人さんの魅力について
+語っていただけ――/
+[face A 02]
+[flow]
+夏人さんも嫌がってはいない
+ご様子でしたが……？/
+[hide A]
+[hide B]
+[-]
+[show C C]
+[face C 06]
+[say C]
+え？　[shake C]あ、いやその……
+こういうの慣れてなくって……[face C 12]/
+[flow]
+[face C 15]
+その、面と向かって、
+か、可愛いとか――……[shake C]/
+[hide C]
+[hide A]
+[hide B]
+[talkend]
+[textcolor ARUJI]
+夏人は困惑した様子で言葉を濁す。
+しかしその頬はほんのりと赤く染まっていた。/
+[se zukkoke_02]
+[effect fr syutyu a 0 0]
+[show B C]
+[face B 05]
+[say B]
+なっと、まんざらでもなさそうじゃね！？[shake B]/
+[effect off a]
+[face B 10]
+てか、オレと話してて
+なっとがあんな照れてるの見たことねえわ……[shake B]/
+[show C L]
+[setline 0.5 C B]
+[orderline C B]
+[face C 12]
+[say C]
+だ、だからっ、そんなことないですって！
+気にし過ぎじゃないですかっ！？/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 04]
+[say B]
+[face C 15]
+くそ〜……なんかつらくなってきたぜ……/
+[show A]
+[setline 0.5 C A B]
+[say A]
+[face A 04]
+[orderline C B A]
+猫乃屋さん、かわいそうに……
+可愛いあなたに涙は似合いませんよ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+[face B 05]
+[face C 04]
+私ならあなたを泣かせたりはしません。
+どうです……？　このあと部屋でゆっくりと……/
+[effect B love a 0 100]
+[say B]
+[face B 06]
+[se kira_01]
+[face A 10]
+トゥンク……[shake B]え、優しい……オレ、可愛い……？
+オレ、日向と行くわ……/
+[hide A]
+[move C X 200 0.3]
+[se cloth_06]
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+[face C 09]
+[shake B]
+[say C]
+[effect off a]
+自分だってほいほい釣られてるじゃ
+ないですかっ！？/
+[face B 05]
+[shake B]
+[say B]
+[effect off a]
+はっ！[shake B]　やべっ！！　あぶねー……
+悪い大人についてくとこだったぜ……[face B 10]/
+[face B 06]
+なんか気持ちが落ち着かねえ……
+オレ、ロクハラの方で飯食ってくるわ。/
+[move B X 300 0.5]
+[hide B]
+[face C 12]
+[say C]
+あ、猫乃屋さん、僕も行きます。
+それじゃまた明日ね、*Pくん！/
+[move C X 500 0.5]
+[se walk_03]
+[hide C]
+[-]
+[show A C]
+[face A 00]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+ふむ。夏人さんも猫乃屋さんも
+とても魅力的でしたので残念ですが……/
+[face A 01]
+今はマイマスターとお話できて
+なによりです。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向は極めて紳士的ににこやかに微笑む。/
+[serif off]
+?だれかれ構わず口説くのはどうかと思う/
+[serif on]
+[show A C]
+[face A 00]
+[say A]
+おや？　そうでしょうか。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+日向は首を傾げる。
+その仕草が妙に色っぽく感じられる。/
+[face A 08]
+[say A]
+可愛い相手は口説かねば失礼というもの……
+これは紳士の嗜みですよ。/
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+その表情は真剣そのものだ。
+しかし、すぐに柔らかな微笑みに変わる。/
+[face A 00]
+[say A]
+ですが……ここは挽回のチャンス、と
+しましょうか。/
+[face A 02]
+マイマスター。
+……お腹はすいていませんか？/
+[hide A]
+[textcolor ARUJI]
+[talkend]
+もちろんすいている。小腹がすいたので
+お菓子を取りに来たところなのだ。/
+[serif on]
+[show A C]
+[face A 01]
+[say A]
+[scale A 1.6]
+[move A Y -160]
+今日の晩酌のために用意していた
+おつまみがあります。/
+[face A 02]
+マスターとふたりで、どうです？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[se cloth_01]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+日向は優雅な仕草で、こちらに手を差し出す。/
+[serif off]
+?思わず頷く/
+[face A 10]
+[playeryes]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se fusuma_01]
+[delay 0.5 se dosa_01]
+[hideall]
+[bg mbg_syouen]
+[minibg ima]
+[bgm food]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+日向は居間の隅に小さな
+テーブルを用意した。/
+[textcolor ARUJI]
+お皿には美しく盛り付けられたオードブルの
+盛り合わせ。そしてよく冷えたグラスを並べた。/
+[show A C]
+[face A 14]
+[say A]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+ふぅ……ふぅ……ふぅ……
+ふーーーー……[face A 12]/
+[face A 13]
+[flow]
+失礼、重いものを運んだので少々……[wait 0.2]
+もう大丈夫です。[face A 10]/
+[face A 02]
+お好きなものをどうぞ。ワインもありますし
+ソフトドリンクもご用意してあります。/
+[hide A]
+[serif off]
+?いただきます！/
+[serif on]
+[se eat_01]
+[textcolor ARUJI]
+[talkend]
+小腹を満たすのにちょうどいい量のおつまみ。
+その繊細な味わいに、思わず目を細める。/
+[show A]
+[face A 02]
+[scale A 1.6]
+[move A Y -160]
+[say A]
+マスターのその表情が見られて、
+私は嬉しいですよ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向の声が耳元で囁くように聞こえる。/
+[serif off]
+?調子のいいことを……/
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 10]
+[say A]
+おや、私が夏人さんや猫乃屋さんを口説いたことを
+まだ気にしてらっしゃるのですか？/
+[face A 02]
+かわいいひとですね、マスター。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+その言葉に、思わずドキリとしてしまう。/
+[bgm night]
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 01]
+[say A]
+もしかして……嫉妬させてしまいましたか。
+これは失礼いたしました。/
+[face A 08]
+しかし……実を言えば、マイマスター。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+本当は……あなたにかまってほしいだけ
+かもしれません。/
+[hide A]
+[serif off]
+?え？/
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 01]
+[say A]
+あなたがこうして私を気にかけてくれることが
+なによりも嬉しいのです。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向の声は柔らかく、温かい。/
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 00]
+[say A]
+地魂男児とマスター……それだけの関係ではなく
+もっとより一層……深いものを……/
+[se cloth_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+大きな手が、そっとこちらの肩に触れる。/
+[light down 0.5]
+[lightcolor blue]
+[se cloth_01]
+[show A C]
+[scale A 2.0]
+[move A Y -280]
+[face A 06]
+[say A]
+あなたのいろんな表情を見てみたい。
+そう思うのは……わがままでしょうか？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向の瞳が、真っ直ぐにこちらを見つめている。
+思わず、心臓の鼓動が早くなるのを感じる。/
+[show A C]
+[scale A 2.0]
+[move A Y -280]
+[face A 02]
+[say A]
+どうです？　今宵、少しだけ冒険してみませんか？
+私がエスコートして差し上げますよ。/
+[hide A]
+[serif off]
+[bgm off]
+?……もしかして、これもナンパの手口？/
+[serif on]
+[show A C]
+[face A 04]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[bgm fun]
+[light off 0.5]
+おや、バレてしまいましたか。
+ええ、口説かせていただいています。[face A 10]/
+[talkend]
+[textcolor ARUJI]
+日向は少し困ったような表情を浮かべる。
+しかし、すぐに柔らかな微笑みへと変わった。/
+[face A 09]
+[say A]
+ですが……嘘はひとつもついていませんよ。/
+[face A 06]
+[flow]
+マイマスター。
+あなたのことをもっと深く知りたい。/
+[face A 02]
+[flow]
+それは私の本心です。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+その声音には、確かな誠実さが感じられた。/
+[show A C]
+[scale A 1.6]
+[move A Y -160]
+[face A 02]
+[say A]
+今度は……あなたからのお誘いを
+お待ちしていますよ。マイマスター。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+日向はウインクをすると、自分のグラスに
+残っていたドリンクを一気に飲み干した。/
+[face A 02]
+[say A]
+ではこれで。/
+[hide A]
+[se fusuma_01]
+[talkend]
+[textcolor ARUJI]
+日向が立ち去ったあと、ひとりになってもまだ
+どこか日向のぬくもりが肩に残っている気がした。/
+[textcolor ARUJI]
+…………今度は自分から誘う番なのかもしれない。/
+[textcolor ARUJI]
+――そんなことを考えながら、自室へと戻るのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>201/
+[set A s_hyu_r 日向]
+[set B s_n004_r 百太]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 日向のとっておきのお返し]
+[-]
+[bgm fun]
+[-]
+[bgm home]
+[bg gozasyo_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[talkend]
+[place バレンタイン当日]
+[-]
+[autotap]/
+[serif off]
+?日向/
+[show A C]
+[face A 00]
+[say A]
+[serif on 0.5]
+これはこれはマイマスター。
+おはようございます。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 01]
+……今日も一日、健やかにお過ごしください。
+それでは——……/
+[hide A]
+[serif off]
+?日向にチョコを渡す/
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+立ち去ろうとした日向を呼び止め
+みんなに渡しているチョコをひとつ手渡した。/
+[serif off]
+[show A C]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[se cloth_01]
+[face A 10]
+[say A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+おや。これはありがとうございます。
+マイマスター。/
+[flow]
+[face A 00]
+それでは、よいバレンタインを。/
+[serif off]
+[scale A 1 0.5]
+[move A Y 150 0.5]
+[hide A]
+[-]
+?あれ！？/
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+いつもの日向なら、ここぞとばかりに
+口説いてくるかもしれないと思っていたのに/
+[textcolor ARUJI]
+[flow]
+あまりにもあっさりとした反応に
+少し肩透かしをくらってしまう。/
+[show B]
+[scale B 1.6]
+[move B Y -120]
+[move B X 500]
+[-]
+[move B X -500 0.5]
+[face B 02]
+[say B]
+先輩～。チョコどれくらいもらったんすか？/
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[delay 0.4 move B Y 100 0.1]
+[delay 0.5 move B Y -100 0.2]
+[autotap]/
+[flow]
+[face B 10]
+もしかしてそのカバンの中身、全部っすか！？
+いいっすね～！/
+[flow]
+[face B 05]
+あ……日向さんもたくさんチョコ持ってるっすね！/
+[se fusuma_01]
+[bg rouka_day 0.5]
+[scale B 1 0.5]
+[move B Y 120 0.5]
+[show A L]
+[setline 0.5 A B]
+[orderline B A]
+[face A 10]
+[say A]
+ああ、百太さん。
+ええ。あとでひとつ交換でも？/
+[face B 01]
+[say B]
+ぜひお願いするっす～！
+まだいくつか予備があるんで、もらってほしいっすね。/
+[face A 09]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+ふと、日向と軽く目があった気がしたのだが、
+そのまま百太と話しながら、歩いていってしまった。/
+[hideall 1]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm food]
+[bg heya_light]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on 0.5]
+[talkend]
+そのまま夜を迎え、一日の間に
+いろいろな男児とチョコの交換をした。/
+[textcolor ARUJI]
+[flow]
+だが、ふと考えてみると、日向からの
+チョコを受け取っていない気がする。/
+[textcolor ARUJI]
+[flow]
+とはいえ催促するのも……と思いつつ
+明日、声をかけてみようかと思いながら眠りについた。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg gozasyo_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[se paper_01]
+[serif off]
+?あ、日向は遠征任務か……/
+[textcolor ARUJI]
+[serif on 0.5]
+[talkend]
+御座所で書類に目を通していると
+日向がしばらく遠征任務に出ていることを思い出した。/
+[textcolor ARUJI]
+[flow]
+そうして一週間ほど経った朝。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[flow]
+[se paper_01]
+[serif on]
+御座所に一通の招待状が届いた。/
+[textcolor ARUJI]
+[flow]
+[se paper_01]
+表には「大切なあなたへ」
+とさらりと流れるような字で書かれていた。/
+[textcolor ARUJI]
+[flow]
+もしかして、この手紙の主は——……/
+[serif off]
+?招待状に指定された場所へ向かう/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm off]
+[bg black]
+[minibg sky_star]
+[-]
+[fadeout 1.5]
+[-]
+[wait 1]
+[minibg illumi_funsui 0.5]
+[autotap]/
+[bgm night]
+[textcolor ARUJI]
+[serif on 0.5]
+[talkend]
+そこは都内の小洒落た雰囲気のホテルだった。/
+[textcolor ARUJI]
+[flow]
+その入口には日向が立っていた。/
+[show A C]
+[face A 00]
+[say A]
+お待ちしていましたよ。マイマスター。
+さぁ、こちらへ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+いつものジェントルな雰囲気を纏う日向だ。/
+[se walk_01]
+[light down 1]
+[lightcolor orange]
+[minibg hotel_bar 1]
+[autotap]/
+[textcolor ARUJI]
+[flow]
+手を引かれながら、豪華なホテルの
+ロビーを通りながら、薄暗い空間へ。/
+[textcolor ARUJI]
+[flow]
+そこはホテルのバーだった。/
+[show A C]
+[face A 11]
+[say A]
+さ、こちらへどうぞ。
+上着を預かりましょう。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 00]
+…………ようやく、あなたとふたりきりになれた。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+日向とふたり、カウンター席に座り
+メニューに視線を落とす。/
+[show A C]
+[scale A 1.6]
+[move A Y -200]
+[face A 02]
+[say A]
+今日はあなたとゆっくり、
+言葉をかわしたいと思っていたのです。/
+[flow]
+[face A 03]
+少し任務にも出ていましたからね。/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+遅くなってしまって申し訳ありません。/
+[serif off]
+?バレンタインの日はどうしたのかなって思ってた/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+[face A 00]
+日向は小さく微笑んだ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[say A]
+ああ……不安にさせてしまいましたね。
+マイマスター。/
+[flow]
+[face A 09]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+バレンタイン……
+あの日はみながチョコを贈り合う。/
+[flow]
+[face A 06]
+あの華やかで温かな想いに満ちた時間は
+とても素晴らしい。/
+[flow]
+[face A 12]
+かくいう私もいくつものチョコを
+交換しました。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 03]
+ですが……[wait 0.5]あなたにだけは、
+渡しませんでした。/
+[flow]
+[face A 04]
+……いえ、渡すことができなかったのです。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+日向は落としていた視線を
+まっすぐこちらへ向けた。/
+[show A C]
+[scale A 2]
+[move A Y -320]
+[face A 04]
+[say A]
+あなたに贈るチョコを——……/
+[flow]
+[face A 06]
+バレンタインデーという大きなイベントの
+あの喧騒の一コマにしたくなかったのです。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[se cloth_01]
+大きな日向の手のひらがこちらの手をそっと包む。/
+[show A C]
+[scale A 2]
+[move A Y -320]
+[face A 08]
+[say A]
+あなたへの気持ちは、
+そんなに軽いものではありません。/
+[flow]
+[face A 06]
+あなたにだけは、もっと、とっておきの時間と場所で
+私の気持ちを贈りたかった。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+日向はこちらの手の甲に優しくキスを落とす。/
+[face A 02]
+[say A]
+だから、このような場を設けさせていただきました。/
+[face A 10]
+[move A Y -20 0.3]
+[delay 0.3 move A Y 80 0.5]
+[se cloth_01]
+[delay 0.5 hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+日向はバーテンに一声かけると、
+カウンターの内側へと入った。/
+[textcolor ARUJI]
+[flow]
+ひょっとしたらあらかじめ交渉してあったのかも
+しれないが、流れるような動きに驚いた。/
+[show A C]
+[scale A 1.6]
+[move A Y -200]
+[face A 01]
+[say A]
+では……あの日、あなたからいただいた
+チョコのお返しを。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+日向は迷いのない手つきで道具を揃え
+目の前でシェーカーを振った——/
+[textcolor ARUJI]
+[flow]
+その動きが妙に様になっていて、
+思わず見とれてしまう。/
+[textcolor ARUJI]
+[flow]
+注がれたチョコの香りは甘いのに
+どこかキリッとしている。/
+[textcolor ARUJI]
+[flow]
+グラスに深いブラウンのカクテルが満ち、
+縁にはピンクのハートのチョコが添えられた。/
+[effect fr kira a 0 0]
+[se kira_01]
+[textcolor ARUJI]
+[flow]
+最後に繊細な手つきで細かなグリッターを
+ちらしていく。/
+[show A C]
+[scale A 1.6]
+[move A Y -200]
+[face A 02]
+[say A]
+[se cloth_01]
+私のバレンタインカクテルです。
+どうぞ。マイマスター。/
+[effect off a]
+[hide A]
+[serif off]
+?口をつける/
+[fadein WHITE 0.2]
+[delay 0.3 fadeout 2.3]
+[autotap]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+見た目は華やかで可愛らしい。
+飲んでみると——……とても美味しい。/
+[textcolor ARUJI]
+[flow]
+甘いだけではなく、少しほろ苦いような
+大人の味のチョコカクテルだ。/
+[show A C]
+[scale A 1.6]
+[move A Y -200]
+[face A 02]
+[say A]
+お口に合いましたか？/
+[serif off]
+?頷く/
+[playeryes]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+日向はくすりと笑った。/
+[face A 04]
+[say A]
+バレンタインデー当日は、
+ほんの少しいたずらごころが過ぎたかもしれません。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 03]
+あなたの寂しそうな顔を眺めているのは
+私も辛かった。/
+[flow]
+[face A 06]
+思わずお返しのチョコを渡しそうに
+なってしまったほどです。/
+[face A 10]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……ですが、少しの苦みがあるからこそ、
+このチョコレートカクテルの味はより引き立つ。/
+[scale A 2 0.5]
+[move A Y -120 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+そうは思いませんか？　マイマスター。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+カウンター越しにこちらを覗き込む日向の視線に
+どこかドギマギしてしまう。/
+[hide A]
+[textcolor ARUJI]
+[flow]
+そして……そうか、と気づく。/
+[textcolor ARUJI]
+[flow]
+日向は今日誘うための演出として
+あえてバレンタインデーにはチョコを渡さず/
+[textcolor ARUJI]
+[flow]
+[se zukkoke_02]
+こちらを焦らした、ということだ！/
+[serif off]
+?（これが大人のテクニック……！？）/
+[show A C]
+[scale A 1.6]
+[move A Y -200]
+[face A 01]
+[say A]
+[serif on]
+さぁ、素敵な時間を過ごしましょう。/
+[flow]
+[face A 02]
+夜はまだはじまったばかりですよ。
+マイマスター。/
+[hide A 2]
+[fadein BLACK 2.0]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+カクテルを傾けながら、
+日向とふたりっきりの時間がゆっくりと流れていく。/
+[textcolor ARUJI]
+[flow]
+そうして、ホテルの暗がりで
+夜が更けていったのだった。/
+[serif off 2.0]
+[-]
+[wait 4]
+[effect off b]
+[effect off a]
+[-]
+[autotap]
+>>202/
+[set A s_hyu_r 日向]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 日向とビアガーデンで]
+[-]
+[se cloth_01]
+[bg sky_sunset]
+[bgm fun]
+[-]
+[fadeout 1.5]
+[-]
+[se amb_15]
+[wait 1]
+[-]
+[bg mbg_rokuhara 0.5]
+[minibg sky_sunset 0.5]
+[-]
+[talkend]
+[show A]
+[face A 14]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[serif on 0.5]
+[say A]
+ふぅ……ふぅ……ふぅ……/
+[serif off]
+?日向……大丈夫？/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 13]
+[say A]
+[serif on]
+えぇ、はい。まぁ……ふぅ……ふぅ……/
+[face A 12]
+[flow]
+これくらいの徒歩は、私でもなんとか
+……なりました。/
+[hide A]
+[bg sky_sunset 0.5]
+[minibg off 0.5]
+[-]
+[talkend]
+[textcolor ARUJI]
+そこは新宿のホテルの屋上にあるビアガーデン。
+今日は日向とふたりでおでかけしにきたのだ。/
+[textcolor ARUJI]
+日が沈み始め、空は夕焼け色に染まりつつある。
+会場にはすでに多くの人々が詰めかけているようだ。/
+[se gaya_01]
+[bg black 0.5]
+[minibg sky_sunset 0.5]
+[-]
+[bgm food]
+[show A C]
+[face A 00]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おや、賑わっているようですな。/
+[face A 13]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+時刻は既に夕暮れとはいえ……
+うだるように暑いですねぇ……えぇ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 12]
+暑い季節は氷水に浸かっていたいところです……
+ふぅ……ふぅーー……ようやく落ち着いてきました。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向は冷たいサイダーを流し込んだ。/
+[show A C]
+[face A 00]
+[say A]
+――いかがです？　マイマスター。
+このヨーロッパの島をイメージして作られた会場は。/
+[face A 01]
+気に入っていただけましたかな？/
+[serif off]
+?日向が気になってそれどころじゃなかった……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+おや、優しいひとですね。マイマスター。
+ご心配をおかけして申し訳ない。/
+[effect fr kira a 0 0]
+[se kira_01]
+[flow]
+[face A 10]
+しかし、もう大丈夫ですよ。かわいいひとを前に
+いつまでも息を切らせてはいられませんからねぇ。/
+[hide A]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+息も絶え絶えだったのが嘘のように
+いつものような調子に戻っている。/
+[show A C]
+[face A 00]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+んーー……タパスは揃っていますね。
+飲み物はいかがです？/
+[talkend]
+[se cloth_01]
+[hide A]
+[textcolor ARUJI]
+日向についてカウンターテーブルへ向かうと
+数種のクラフトビールサーバーが並んでいた。/
+[show A C]
+[face A 01]
+[say A]
+これぞビアガーデンという佇まいですねぇ。
+……おや？
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]/
+[talkend]
+[textcolor ARUJI]
+[hide A]
+若い男性がビールサーバーの前で
+うろうろしている。/
+@男
+これってどうやって使うんだろう……/
+[show A R]
+[move A C 1]
+[face A 00]
+[say A]
+んん……お困りのようで。
+私がお手伝いいたしましょうか？/
+[color A talk]
+@男
+え、じゃ、じゃあお願いします！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+そうですね……まずはこちらを
+いかがでしょう。/
+[se rokuhara_05]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+日向はサーバーをうまく調整しビールを注ぐと、
+泡をスプーンのようなもので削ぎ落とし、/
+[flow]
+そして再び注いでいく。
+その手つきは到底素人のものではない。/
+[serif off]
+?なんかテクってない？/
+[show A C]
+[face A 02]
+[say A]
+[serif on]
+こう見えてビールについても研究を
+しておりますので。/
+[face A 01]
+[move A X -200 0.5]
+ではお若い方、どうぞ。/
+[color A talk]
+@男
+やっべ！　今ままで飲んだどのビールよりも
+泡がクリィミィ！　このひと神すぎ！！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+おや、それはよかった。
+またご希望でしたらお声がけください。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+男は礼を言って去っていった。/
+[show A C]
+[face A 00]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[say A]
+さて、マスターはなににします？
+アルコール以外にもソフトドリンクもありますね。/
+[face A 01]
+[flow]
+お好きな味を言っていただければ
+私がお作りできますよ？/
+[color A talk]
+@男
+なぁみんなも来いって！
+このひとのビールすげぇから！[shakebg]/
+[color A talk]
+@男
+俺もビールいれてください！[shakebg]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 12]
+[say A]
+おや……/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm night]
+[minibg sky_star]
+[bg black 0.5]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+結局そのグループ全員にビールを注いであげた
+ところ、大好評だった。/
+[flow]
+[textcolor ARUJI]
+空はすっかり暗くなり、水平線の近くは
+ほんのりと青みを残している。/
+[show A C]
+[face A 00]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぅ、お待たせして申し訳ない。
+マスター、それでは私達も乾杯といきましょうか。/
+[face A 11]
+[serif off]
+?乾杯！/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+[serif on]
+夏の夜にグラスの重なる音が響いた。/
+[serif off]
+?……おいしい/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+日向の用意してくれた飲み物は
+お店で飲むよりも断然美味しく感じた。/
+[show A C]
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+ええ……とても美味しいです。/
+[face A 10]
+[flow]
+この夏の空気もまた良いですな。
+酒は周りの雰囲気で何倍にも美味しくなりますから。/
+[serif off]
+?どうしてビアガーデンに誘ってくれたの？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[serif on]
+以前も申し上げたように、夏という季節は
+私にとって大敵です。/
+[flow]
+[face A 12]
+基本的には室内で過ごしたいと思っています。
+ですがもし、あなたとご一緒する機会があるのなら……/
+[face A 02]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+たった一度だけ、
+夏を体験しても良いかと思ったのですよ。/
+[flow]
+[face A 06]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+マイマスター。あなたとふたり。
+食べ物や飲み物を楽しみながら――/
+[face A 02]
+ゆっくりと
+この現代の夜景を見て過ごす、この時間を。/
+[face A 01]
+この景色も素晴らしいものですな。
+綺羅びやかな星星のようです。/
+[hide A]
+[light down 0.5]
+[lightcolor blue]
+[talkend]
+[textcolor ARUJI]
+新宿のビルの夜景は確かに綺麗だった。/
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -150]
+[say A]
+暑い中飲むビール。なかなか良いものです。/
+[flow]
+実はビアガーデンというものについては
+猫乃屋さんにお聞きしたんですよ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+荘園でビアガーデンをやりたいとおっしゃっていて
+確かに、これは良い文化だ。/
+[hide A]
+[serif off]
+?日向が注いでくれたら、みんな飲み過ぎちゃいそう/
+[show A]
+[face A 02]
+[serif on]
+かわいいひとのためでしたら
+いくらでもお作りしますよ。/
+[light off 0.5]
+[face A 00]
+[flow]
+それにしても……/
+[talkend]
+[hide A]
+[minibg sky_cloudy 0.5]
+[textcolor ARUJI]
+日向が空を眺める。いつの間にか星空は
+厚い雲に遮られている。/
+[show A C]
+[face A 00]
+[say A]
+だんだん雲行きが怪しくなってきたような。
+……これは……降ってきましたね。/
+[hide A]
+[effect bk rain r 0 0]
+[se rain_01]
+[talkend]
+[textcolor ARUJI]
+日向がそう言うと同時に雨が振り始めた。/
+[show A C]
+[face A 00]
+[say A]
+マスター。こちらへ。/
+[se cloth_01]
+[scale A 1.6 2]
+[move A Y -150 2]
+[autotap]/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+座席の一部にかかるように広がっている
+パラソルの下へ、日向と並んで座る。/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 02]
+[serif on]
+[say A]
+……もっと、近くへ。/
+[se cloth_01]
+[hide A]
+[-]
+[talkend]
+[textcolor ARUJI]
+日向は大きな手のひらでそっと肩を抱き
+自分の方へと引き寄せ、抱え込まれた。/
+[light down 0.5]
+[lightcolor blue]
+[show A C]
+[scale A 2.0]
+[move A Y -220]
+[face A 02]
+[say A]
+こうしていれば、雨は当たりません。/
+[face A 00]
+まぁ、あまり強い雨ではありませんから
+もうすぐやむでしょう。/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+日向の温かさが伝わってくる。
+夏の暑い気温の中でも、この温かさは特別な気がする。/
+[face A 06]
+[say A]
+やはりあなたとふたりきりのほうが
+より濃厚な時間を楽しめる。/
+[flow]
+[face A 02]
+荘園でビアガーデンを開催するとしても
+最後にはこうしてふたりきり、過ごしましょうね。/
+[move A Y -60 2]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+顔を上げると、目を細め優しく微笑む日向の
+顔がすぐ近くにあった。/
+[serif off]
+?そうだね/
+[face A 10]
+[wait 2]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[effect off r]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+しばらくすると雨がやんだ。床が適度に光を
+反射して、より雰囲気が出たように思えた。/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 01]
+[say A]
+さぁ、まだ時間はたっぷりありますよ。
+ゆっくりと飲みましょう、マイマスター。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+この貴重な時間を共に過ごせて
+幸せですよ。/
+[serif off]
+?こちらこそありがとう/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+日向の作るドリンクを何杯も飲み
+おしゃれなタパスをたくさん食べ/
+[textcolor ARUJI]
+[flow]
+[fadein black 1]
+おなかいっぱいになったところで
+荘園へと戻った。/
+[serif off 1.5]
+[-]
+[hideall]
+[bg heya_light]
+[minibg off]
+[light off] 
+[-]
+[fadeout 1.5]
+[se fusuma_01]
+[-]
+[bgm night]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+部屋に戻ると机の上に小さな箱が置いてあった。
+プレゼントのようだ。/
+[serif off]
+?誰からだろう？/
+[se cloth_01]
+[shakebg]
+[delay 0.3 se goto_01]
+[-]
+[serif on]
+[textcolor ARUJI]
+箱を開けると、熊の柄が入った
+ビールグラスが入っていた。/
+「今度これで飲みましょう。かわいいひとへ」/
+[textcolor ARUJI]
+そんな手紙が添えてあった。/
+[textcolor ARUJI]
+かわいい熊の柄のビールグラスを机に置き
+今日の日向とのお出かけを思い返していたのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>27/
+[set A s_hyu_r 日向]
+[show A]
+[face A 00]
+[serif off]
+[autotap]/
+?日向、ハレの日おめでとう/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[say A]
+[face A 02]
+これはこれは、マイマスター。
+ありがとうございます。/
+[flow]
+[face A 01]
+本来誕生日というものを持たない地魂男児たちを
+祝える日を設けるというのは、マイマスター……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 11]
+なんと粋な計らいでしょう。
+それならばと、私らしい一日を選んでみました。/
+[face A 02]
+私の大きな歓びのひとつといえば……
+賢いあなたならもうおわかりですね？/
+[serif off]
+?口説くこと……？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 06]
+確かに……あなたほど可愛らしい方を眼の前にしては
+口説かない方が失礼というものです。/
+[scale A 1.6 0.5]
+[move A Y -160 0.5]
+[autotap]/
+[flow]
+[face A 02]
+もう少しその美しい瞳を私に見せてください。
+そう、少し顔をあげて……/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[autotap]/
+[serif off]
+?近い近い/
+[scale A 1.6 0.2]
+[move A Y 100 0.2]
+[autotap]/
+[serif on]
+[face A 11]
+おっと、これは失礼……しかし今日という日は
+私のもうひとつの歓びにちなんだものなのです。[face A 10]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+そう……それはあなたのような可愛らしい方に
+ぴったりの一杯を作って差し上げること。/
+[flow]
+[face A 11]
+今日は現代では「カクテルの日」
+と言われているそうです。/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……さて、マスター。ハレの日には
+男児たちの願い事をきいていただけるとか。/
+[flow]
+[face A 10]
+どうでしょう？　私にもひとつ
+わがままを言わせていただけませんか？/
+[serif off]
+?少しくらいなら……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[se cloth_01]
+[face A 11]
+さすがはマイマスター。
+……では、私とともに奥へ行きましょうか。/
+[serif off]
+?どこへ！？/
+[serif on]
+[face A 01]
+ご安心ください。怖いことはありません。
+あなたについてより深く知ること――/
+[flow]
+[face A 00]
+それは私の作るカクテルを
+より素晴らしい一杯にしてくれるのです。/
+[scale A 2 0.5]
+[move A Y -130 0.5]
+[se cloth_01]
+[autotap]/
+[flow]
+[face A 10]
+さぁ、隅から隅まで
+あなたについて教えていただけませんか。/
+[flow]
+[face A 02]
+最高の一杯をお約束しますよ。/

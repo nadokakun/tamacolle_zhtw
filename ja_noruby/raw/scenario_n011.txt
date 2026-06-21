@@ -1,0 +1,651 @@
+>>1/
+[set A s_n011_r 虎鉄丸]
+[show A C]
+[face A 08]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 1]
+[autotap]/
+[serif on]
+[talk A]
+ん～～～っ、はぁ、はぁ！
+できたぜ、家主さん……[face A 10]/
+[flow]
+[face A 03]
+[se paper_01]
+家主さんに荘園の補修頼まれてたけど、
+やっぱ声聞って苦手だぜ……って、他にも仕事！？[face A 05][shake A]/
+[flow]
+[face A 08]
+うぅ～、これもバイト代のため……よし！[shake A 3 10 10]
+もうちょっと頑張るぜ！　はぁ、はぁ、いくぜ～！[face A 10][shake A]/
+>>2/
+[set A s_n011_r 虎鉄丸]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+今日も汗かいた～。お、家主さん！[face A 00]
+えっ、そりゃあ汗だくだよ！　一日仕事したんだ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+帰りに風呂入ってくか～。駅の近くにでっかい
+風呂屋さんがあって、よく行くんだ。/
+[flow]
+[face A 01]
+[shake A]
+それもちゃんと温泉でさ！
+家主さんも一緒にどう？　さっぱりしようぜ！[face A 00]/
+>>3/
+[set A s_n011_r 虎鉄丸]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[talk A]
+ふー、今日も仕事おわったぜー。もぐもぐ……[se eat_01][shake A]
+うめー！　……あ、家主さん！　お疲れ様！[face A 00]/
+[flow]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+へへ、このフランクフルト、売店のおばちゃんに
+おまけつけてもらっちゃったんだ。/
+[flow]
+[face A 00]
+いつも食材運ぶの手伝ってるお礼って言われたけど
+そんなのいいのにね。でも腹減ってたから嬉しいぜ。/
+[flow]
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+あ、家主さんも一口食べる？
+ほいっ、太くてめっちゃうまいぜ！/
+>>4/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 01]
+[-]
+[rotate A -30 0.5]
+[move A Y -50 0.5]
+[se dosa_01]
+[serif on]
+[talk A]
+ん～、この荘園てなんか妙に居心地よくって
+仕事の休憩中、昼寝したくなっちゃうんだよな～。/
+[flow]
+[face A 00]
+[show B R]
+[face B 00]
+[setline 0.5 A B]
+[orderline B A]
+[move B Y -50 0.5]
+[sat A]
+[orderline A B]
+[-]
+[face A 01]
+お、$B:A、眠そうだね。一緒に寝る？
+ふぁあ～、オレももうちょっとだけ……[face A 07][face B 07]/
+>>5/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[se paper_03]
+[face A 05]
+[move A Y -100]
+[move A Y 100 0.3]
+[-]
+[serif on]
+[talk A]
+[shake A]
+[se cloth_02]
+うわっ、座ったらケツのとこ破けちゃった！
+どうしよ、給料日までこのままだぜ……[face A 04]/
+[flow]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 06]
+[show B R]
+[face B 00]
+[move B X 200]
+[orderline A B]
+[say A]
+見えないように内股で歩くか……
+よし……これならきっと大丈夫……[setline 1 A B][face B 05]/
+>>6/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 08]
+[move A Y -40 0.2]
+[delay 0.3 move A Y 40 0.4]
+[delay 0.8 move A Y -40 0.2]
+[delay 1.1 move A Y 40 0.5]
+[autotap]/
+[serif on]
+[talk A]
+いっちに、いっちに！　やっぱ仕事の前は
+きっちり柔軟しとかないとね。/
+[flow]
+[show B R]
+[face B 00]
+[setline 0.5 A B]
+[orderline A B]
+[-]
+[face A 01]
+お、$B:Aも任務前なの？　じゃあ一緒に体
+動かそうぜ。/
+[flow]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -120 0.5]
+[move B X -150 0.8]
+[rotate A 20 0.5]
+[move A Y -100 0.5]
+[se cloth_06]
+[face A 09]
+[face B 01]
+[se cloth_01]
+うおっ、も、もうちょっとゆっくり……って、
+わわっ、[= お腹 背中 太もも ケツ 股関節  尻尾の付け根]がぁ～！[shake A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 02]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[talk A]
+すげーうまかった～！　
+シェフをここに！[se taiko_02][shake A][face A 03]/
+[se kira_01]
+[effect fr kira a 0 0]
+[flow]
+[show B R]
+[move B X 200]
+[move B X -200 0.5]
+[face A 01]
+[face B 00]
+[talk A]
+今日の夕飯は$B:Aが作ったの？　ありがとな！
+片付けは手伝うよ！[face B 01]/
+[effect off a]
+[flow]
+[rotate B -10 0.5]
+[move B X 50 0.5]
+[move A X 100 0.5]
+[se cloth_01]
+[face A 06]
+[face B 04]
+そうだ、安くて美味いもののレシピとかない？
+あるいは残り物とか……今月カツカツでさぁ……/
+>>10/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[serif on]
+[talk A]
+夜の静かな雰囲気いいな～。それに、ここなら
+誰もいないし……/
+[flow]
+[show B R]
+[move B X 200]
+[move B X -200 0.5]
+[face A 01]
+[rotate A -20 0.5]
+[orderline A B]
+[face B 05]
+[move A X -200 0.5]
+[move A Y -50 0.5]
+[se cloth_01]
+ん～、のびのびできるぜ。[face B 06][face A 02]/
+>>11/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]
+/
+[show B R]
+[move B X 550]
+[face B 00]
+[serif on]
+[face A 04]
+[talk A]
+ん～、来月欲しいものあるから、今日はもうちょっと
+仕事したいなぁ……あ、$B:A！[setline 0.5 A B][face A 02]/
+[flow]
+[face B 01]
+[face A 01]
+[se paper_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+作って欲しいものない？　なんでも声聞するぜ！
+詳しく教えて。この申請書にさ、書いて、うんうん……/
+[flow]
+[face A 01]
+[shake A]
+へへ、なるほどな。任せてくれよ！
+いくぞ～～んん～～っ！[face A 08][face B 02][effect fr kiesou 3000 0 0]/
+[se jutsu_01]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 1]
+[autotap]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+うう、今日は声聞がうまくいかないぜ……
+集中できないっていうか……やっぱアレのせいかな……[shake A][face A 09]/
+[flow]
+[face A 06]
+この荘園、人が少ないとこあるかな？
+探しに行こっと！[move A X -1200 0.5]/
+[serif off]
+[show B L]
+[move B X -1000]
+[moveline B A 1000 0 0.5]
+[face B 05]
+[shakebg]
+[se zukkoke_01]
+[move A X -100 0.3]
+[delay 0.3 move A X 250 0.5]
+[delay 0.3 rotate A -20 0.5]
+[delay 0.3 move A Y 50 0.2]
+[delay 0.5 move A Y -150 0.2]
+[face A 05]
+[flow]
+[-]
+[serif on]
+わっ、これはその……へへっ、見なかったことに
+してくれ～！！[face A 09][shake A][se cloth_06][face B 06]/
+>>15/
+[set A s_n011_m 虎鉄丸]
+[randomset B m -n011 -@NPC]
+[randomset C m -n011 -@NPC -@NOW]
+[show A R]
+[show B C]
+[show C C]
+[setline B C]
+[move A X 800]
+[face A 05]
+[face B 08]
+[face C 08]
+[talk A]
+[delay 0.2 shake C]
+[move B X -100 0.3]
+[delay 0.3 shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[moveline A B C -1000 0 1]
+[-]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[se fire_01]
+うおぉ、あれが本気のバトルかぁ……/
+[flow]
+[face A 08]
+こうしてみんなが汗流してるの見ると、
+オレもすっげーやる気デてくるぜ。/
+[flow]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+さぁ、バイト頑張ってくるぞー！[move A X 1000 0.5][se walk_03]/
+>>16/
+[set A s_n011_m 虎鉄丸]
+[randomset B m @地魂男児 @あやかし -n011]
+[show A L]
+[show B R]
+[face A 00]
+[face B 00]
+[move A X -200]
+[move B Y -100]
+[setline 0.5 A B]
+[orderline A B]
+[-]
+[serif on]
+[talk A]
+武器の手入れってそういうふうにしてるんだ！
+オレ、最後に仕事道具の手入れしたのいつだっけ……[face A 06]/
+[flow]
+[face A 10]
+[shake A]
+[se cloth_01]
+わぁ、やっぱり油まみれだった……
+じゃあ$B:Aの隣でオレもお手入れタイムするかー。[move A Y -100 0.5][face B 01][face A 06]/
+>>17/
+[set A s_n011_b 虎鉄丸]
+[randomset B m @地魂男児 @あやかし -n011]
+[show A C]
+[face A 10]
+[scale A 1.6]
+[move A Y -120]
+[se door_01]
+[-]
+[serif on]
+[talk A]
+[se cloth_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ふぅ、すげー汗かいてベタベタしてたから
+服脱ぐの気持ちいいぜ。さっぱりしよっと！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[show B R]
+[face B 05]
+[orderline A B]
+[say A]
+[face A 06]
+あれ、今日は結構派手に汚しちゃったなぁ。
+洗濯しなきゃ……/
+[flow]
+[move A X -200 0.3]
+[se cloth_01]
+[face B 06]
+[face A 09]
+あっ、このシミはそういうのじゃなくって[shake A 3 10 10]
+仕事中に汚れてただけだから！[shake A]/
+>>18/
+[set A s_n011_b 虎鉄丸]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -160]
+[-]
+[se amb_12]
+[effect fr yuge a 0 0]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[se bath_01]
+[effect fr splash 6000 0 0]
+[-]
+[serif on]
+[talk A]
+はぁぁ～～っ。肉体労働で汗かいたあとの、
+お湯で体を洗うときの気持ちよさったらないよなぁ……/
+[flow]
+[face A 02]
+[move A Y 10 0.3]
+[delay 0.3 move A Y -10 0.3]
+体の隅々までじんわりあったまるぜぇ……
+さぁ、体洗おうっと～！/
+[move A Y -40 0.2]
+[delay 0.3 move A Y 40 0.4]
+[delay 0.8 move A Y -40 0.2]
+[delay 1.1 move A Y 40 0.5]
+[autotap]/
+[flow]
+[face A 01]
+[se bath_05]
+へへっ、今日もオレの毛並みは泡立ちがいいぜっ！/
+>>19/
+[set A s_n011_b 虎鉄丸]
+[randomset B b -n011 -@NPC]
+[randomset C b -n011 -@NPC -@NOW]
+[se amb_12]
+[effect fr yuge a 0 0]
+[show A C]
+[show B]
+[show C]
+[setline B A C]
+[orderline A B C]
+[face B 00]
+[face C 01]
+[face A 06]
+[scale A 1.6]
+[scale B 1.6]
+[scale C 1.6]
+[moveline A B C 0 -150 0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se bath_04]
+[-]
+[serif on]
+[talk A]
+なんだろ、今日は力仕事が多くて疲れたからかな……
+それとも周りにいるみんなのせいかな……/
+[flow]
+[se bath_04]
+[move A Y -50 0.5]
+[face A 04]
+ん～、どうしよ、こんな調子じゃ
+しばらく出られそうにないや。落ち着くまで待と。/
+[flow]
+[face B 08]
+[move B Y 50 0.3]
+[se bath_02]
+[face A 05]
+えっ、のぼせてるわけじゃないぜ！？[shake A 3 10 10]
+あ、ちょ、いまは、だめだって！[delay 0.5 rotate A 10 0.5][move B XY 10 -40 0.4][rotate B -10 0.3][delay 0.4 move B XY -10 40 0.3][delay 0.5 rotate B 0 0.3][effect fr splash 6000 0 0][se water_07][face C 06][delay 0.5 move A XY -50 50 0.5][delay 0.5 move B X -150 0.5][face A 09]/
+>>20/
+[set A s_n011_r 虎鉄丸]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[se pee_01]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[talk A]
+ふぅ～～～～……
+お、求人サイトからメールだ！[face A 00][se pi_01]/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[flow]
+[face A 08]
+空き時間にできるバイト、あるかな～……ん～……[wait 0.5]
+あ、やべっ、[shake A][face A 05]へんなとこにハネちゃってた！[face A 09][se zukkoke_02]/
+>>21/
+[set A s_n011_r 虎鉄丸]
+[randomset B r -n011 -@NPC]
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -120]
+[show B L]
+[move B X -200]
+[face B 00]
+[scale B 1.6]
+[move B Y -120]
+[move A X 1000]
+[move A X -1000 0.3]
+[talk A]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[se cloth_06]
+[-]
+[face A 02]
+[serif on]
+うう、あぶね、はぁ～～まにあった……
+はぁ～～、まだまだ出そう……[se pee_01]/
+[waku on 0.5]
+[face B 06]
+[flow]
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+（なんだ～、覗かれてる？
+　まぁ、ちょっとは自信あるけどさ……へへっ）[face A 01]/
+[waku off 0.5]
+[autotap]/
+>>22/
+[set A s_n011_b 虎鉄丸]
+[show A C]
+[face A 02]
+[move A X -1000]
+[scale A 1.6]
+[move A Y -120]
+[move A X 1000 0.5]
+[se water_09]
+[-]
+[se kira_01]
+[effect fr kira a 0 0]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+んん～～、
+はぁ、すっきりした～！/
+[flow]
+[effect off a]
+[face A 01]
+[shake A]
+へへっ、今日も絶好調！
+これでバッチリ仕事できそうだぜ！/
+>>23/
+[set A s_n011_b 虎鉄丸]
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[serif on]
+[talk A]
+はぁ、はぁ、なんか、今日やばいかも……
+オレももっけものだし、そういう時期なのかなぁ……/
+[move A X -800 0.5]
+[se cloth_01]
+[flow]
+[face A 02]
+ここなら、誰もいないし、へへっ……
+すっげードキドキしてきちゃったぜ……んんっ。[shake A]/
+>>24/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A C]
+[show B C]
+[face A 04]
+[face B 00]
+[setline A B]
+[orderline A B]
+[-]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+今日もバイトしんどかった～。くたくただぜ～。
+もう眠すぎ……/
+[flow]
+[rotate A -50 0.3]
+[move A Y -100 0.3]
+[face B 05]
+[face A 07]
+[se cloth_01]
+$B:A、もう限界……隣、借りるね……
+くかぁ～～……[face B 06]/
+>>25/
+[set A s_n011_r 虎鉄丸]
+[show A C]
+[face A 07]
+[rotate A -30]
+[move A Y -50]
+[-]
+[serif on]
+[talkend]
+[se pi_02]
+ピピピピッ　ピピピピッ/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[say A]
+くか～……くか～～……/
+[flow]
+[talkend]
+目覚ましがなっているが、全く起きないようだ……/
+>>26/
+[set A s_n011_r 虎鉄丸]
+[randomset B r @地魂男児 @あやかし -n011]
+[show A L]
+[show B R]
+[face A 07]
+[scale A 1.6]
+[scale B 1.6]
+[move B Y -170]
+[rotate A -30]
+[rotate B -30]
+[move A Y -170]
+[face B 07]
+[talk A]
+[-]
+[serif on]
+[se amb_05]
+くか～……ん～～～……/
+[flow]
+[face A 05]
+[se cloth_01]
+[rotate A 0 0.3]
+[move A Y 50 0.3]
+[-]
+[shake A]
+あっ、やべっ！！　み、見られたかな……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 06]
+昨日はすぐ寝ちゃったから、
+こんな元気だ……へへっ。[se cloth_01][face B 06]/

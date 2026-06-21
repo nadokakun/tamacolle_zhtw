@@ -1,0 +1,1105 @@
+>>10000/
+@志摩
+オレは東海道の志摩！[wait 1.2]
+兄ちゃんでっかいね～！[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@志摩
+あはは、わくわくする！/
+>>10001/
+@志摩
+兄ちゃん、おかわり？[autotap]/
+[delay 1]
+[flow]
+[-]
+@志摩
+山盛りで持ってくるね！/
+>>1/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ……！　兄ちゃん、ほら、親孝行星がある！
+病気の両親をかつぐ姿に見たてた星なんだって。[face A 11]/
+[face A 01]
+[flow]
+もし兄ちゃんに何かあったら、オレが
+かついであげるね。　小さくても地魂男児だもん！/
+[face A 09]
+[flow]
+だから兄ちゃん、もっと大きくなって大丈夫だよ！
+/
+[scale A 2.0 0.3]
+[move A Y -250 0.3]
+[delay 0.3 shakebg]
+[delay 0.3 se dosa_01]
+[face A 02]
+[autotap]/
+ぷにぷに、むぎゅ～！/
+>>2/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 09]
+[serif on]
+[say A]
+兄ちゃん、真珠ってきれいだよねっ。
+オレの国の英虞湾でたくさん採れるんだ！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 11]
+真珠は兄ちゃんの陰陽術にも使うでしょ？
+だからさ、ねぇ、一緒に見に行こうよ！/
+[face A 06]
+英虞湾に沈む夕日も、とってもキレイなんだよ！
+オレ、兄ちゃんと一緒に見たいな！　へへっ。/
+>>3/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+伊勢海老に、フグに、牡蠣に、あ・わ・びー！/
+[face A 09]
+[scale A 1.6 0.5]
+[move A Y -130 0.5]
+[delay 0.5 shake A]
+兄ちゃん、オレの国は御食国って言われてたんだ。
+美味しいものがいーっぱいあるんだよ！/
+[face A 02]
+[flow]
+遠慮しないでいーっぱい食べて、おっきくなって
+もらいたいな！　/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え、高級品？　そうなの！？/
+>>4/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[setline A B]
+[move A X -500]
+[rotate B 50]
+[move B Y -100]
+[face A 02]
+[face B 07]
+[-]
+[move A X 500 0.3]
+[delay 0.3 shake A]
+[-]
+[serif on]
+[say A]
+太陽さんおはよー！
+$B:Aたちもおっはよー！[shake B][face B 04]/
+[rotate B 0 0.5]
+[move B X -50 0.5]
+[move A X 600 0.5]
+[delay 0.6 move A X -600 0.6]
+[delay 1.3 move A X 600 0.6]
+[autotap]/
+[face A 10]
+[face B 01]
+起きろ起きろーっ！　あははっ！
+朝の乾布摩擦の時間だよ！　たくさん擦るよーっ！/
+>>5/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A L]
+[show B C]
+[move B Y -50]
+[face A 11]
+[face B 01]
+[shake B 3]
+[move A X -200]
+[move A X 200 0.5]
+[say A]
+[-]
+[shake A]
+[serif on]
+[face A 02]
+わぁぁ、みんないい食べっぷりだなぁ～！
+あははっ！　作りがいある～！[shake A]/
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ほらみんな、おかわりだよ！！　もっともっと
+食べて、おっきくなってね！[face B 06]/
+>>6/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[move B Y -50]
+[setline B A]
+[move A X 100]
+[move A X -100 1]
+[face A 00]
+[face B 00]
+[orderline A B]
+[-]
+[serif on]
+[say A]
+$B:A、今日のご飯どうっ？　
+美味しい？/
+[serif off]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[face B 01]
+[-]
+[face A 02]
+[serif on]
+わーーっ良かった～！
+頭撫でて撫でて～！[move A X -100 0.3][rotate A 20 0.5][move A Y -100 0.5][delay 0.5 se dosa_01]/
+[delay 0.5 rotate A 0 0.5]
+[delay 0.5 move A X 50 0.5]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[effect fr kira 4000 0 0]
+[se kira_01]
+[face A 06]
+[face B 02]
+えへへ……っ。
+嬉しい！　もっと撫でてよー！[move A X -100 0.5][rotate A 20 0.5][shake B][face A 02]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_sim_r 志摩]
+[show A C]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face A 09]
+[-]
+[serif on]
+[say A]
+よぉーし！
+今日の晩ごはんの仕込みしよ！/
+[face A 02]
+美味しいものたっくさん作って、
+みんなにおかわりしてもらうんだ、えへへ！/
+>>10/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[setline B A]
+[face A 10]
+[face B 00]
+[orderline A B]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふぁあ～、[shake A]ごはん食べた後
+すぐ寝たら、牛になるんだって……/
+[face A 07]
+[face B 05]
+[flow]
+[move A X -200 0.5]
+$B:Aも昼寝しようよぉ
+牛みたいにおっきくなってよ～むにゃむにゃ。[rotate A 20 0.5][move A Y -50 0.5]/
+>>11/
+[set A s_sim_r 志摩]
+[show A R]
+[face A 08]
+[move A X -250 1.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+夜は暗くて怖いよぉ……
+セーマンドーマン……セーマンドーマン……/
+[face A 05]
+[se animal_03]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.3 shake A]
+[-]
+[shakebg]
+[face A 04]
+ひゃあああああ！[shake A 5 10 0]　あ、ただの猫だった……[face A 05][se animal_02][wait 0.5]
+ちょっとちびっちゃったぁ！[face A 04][shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_sim_r 志摩]
+[randomset B r -sim -@地魂男児 -@あやかし -@NPC @デブ]
+[show A C]
+[show B C]
+[setline B A]
+[orderline A B]
+[face A 02]
+[face B 05]
+[scale A 1.6]
+[scale B 1.6]
+[move A Y -100]
+[move B Y -100]
+[-]
+[move A X -150 0.3]
+[rotate A 20 0.3]
+[delay 0.3 shake B]
+[face B 01]
+[delay 0.3 se dosa_01]
+[-]
+[serif on]
+[say A]
+むぎゅ～っ！/
+[face A 10]
+[face B 06]
+$B:A、おっきいね～。
+モミモミしてると安心する！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+はぁ～みんなが$B:Aみたいに
+おっきくならないかなぁ！/
+>>15/
+[set A s_sim_m 志摩]
+[randomset B m -sim -@NPC -@ショタ]
+[show B C]
+[face B 08]
+[shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[color B talk]
+[-]
+[show A C]
+[face A 05]
+[move A X 1000]
+[moveline A B -1000 0 1]
+[-]
+[serif on]
+[say A]
+わぁー！　$B:A頑張ってるー！
+おっきくて[face A 02]迫力あってカッチョいー！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 09]
+みんながもっとおっきくなれるように
+今日はたっくさんご飯作ろ！　えへへっ。/
+>>16/
+[set A s_sim_r 志摩]
+[randomset B r -sim -@地魂男児 -@NPC -@あやかし @ショタ]
+[show A C]
+[show B C]
+[face A 02]
+[face B 06]
+[setline B A]
+[orderline A B]
+[face A 02]
+[face B 05]
+[scale A 1.6]
+[scale B 1.6]
+[move A Y -100]
+[move B Y -100]
+[-]
+[move A X -150 0.3]
+[rotate A 20 0.3]
+[delay 0.3 shake B]
+[face B 01]
+[delay 0.3 se dosa_01]
+[-]
+[serif on]
+[say A]
+$B:A～！　訓練お疲れ様ー！
+むぎゅー！/
+[face A 05]
+[face B 01]
+[shake A]
+あれっ？　ちょっと大きくなった！？
+すごい！[move A X -50 0.5]　[face A 02]もっと触らせて！　むぎゅむぎゅ～！[shake B][shake A][secloth_01][face B 06]/
+>>17/
+[set A s_sim_b 志摩]
+[randomset B b -sim]
+[show A C]
+[show B C]
+[face A 10]
+[face B 06]
+[setline B A]
+[say A]
+[orderline A B]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[serif on]
+あはははっ。$B:A、顔真っ赤ー。
+のぼせちゃったの？　/
+[face A 09]
+[face B 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+オレにまかせて！　うちわで仰いであげるよ！　
+全身仰ぐから手ぬぐいどけて！[face B 06]　涼しくなーれー♪/
+>>18/
+[set A s_sim_b 志摩]
+[show A C]
+[face A 10]
+[move A Y -100]
+[serif on]
+[se amb_12]
+[effect fr yuge a 0 0]
+[say A]
+いーち、にーい、
+さーん……/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 04]
+あうー……もう無理ぃ……/
+>>19/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -100]
+[serif on]
+[se amb_12]
+[effect fr yuge a 0 0]
+[say A]
+[se bath_05]
+あははは！[shake A]　にょろにょろの先っぽから
+水が出てきて、小さな滝みたい！　ぷはぁ！[se bath_01]/
+[face A 06]
+浴びるの楽しいし、すごく気持ちいよ～！
+お尻も洗っちゃおっと……んっ。
+[move A Y -50 0.5]
+[rotate A 10 0.5]/
+[effect fr syutyu 3000 0 0]
+[face A 10]
+[shakebg]
+[scale A 2.5 0.5]
+[move A Y -150 0.5]
+ぷっ、あははは！[shake A 2]
+くすぐったい～あはははっ！[shake A 5]/
+>>20/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[face A 01]
+[face B 06]
+[setline A B]
+[orderline A B]
+[serif on]
+[say A]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 100 0.2]
+[delay 0.7 move A X -100 0.2]
+[delay 0.9 move A X 50 0.1]
+[autotap]/
+おしっこおしっこ♪
+あれっ？　$B:Aどうしたの？/
+[face A 05]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、もしかしてオレのしっぽが
+ちんこに当たっちゃってた？/
+[move A X 100 0.1]
+[delay 0.1 move A X -100 0.2]
+[delay 0.3 move A X 100 0.1]
+[delay 0.4 move A X -100 0.2]
+[shake B]
+[autotap]/
+[face A 02]
+[face B 06]
+えいっ！　えいっ！　くすぐったい？
+あはははっ。[shake A]/
+>>21/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[face A 09]
+[face B 00]
+[setline B A]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -100 0]
+[orderline A B]
+[se pee_01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[say A]
+[face A 05]
+[face B 05]
+わっ、床濡らしちゃった！　後で掃除しなきゃ。[face A 03]
+今日はおしっこやりにくいな～、変なの！/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[shake B]
+[face A 10]
+[face B 06]
+あ、$B:Aもオレとおんなじだー！　
+あはははっ。/
+>>22/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 11]
+[move A Y -50]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[say A]
+あ、次の献立思いついた！
+メモメモ……/
+[face A 05]
+[shake A]
+あっ！　あははははは！[face A 10][shake A 2 5 5]
+落し紙にじゃ破れちゃって上手く書けないや！/
+>>23/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 05]
+[move A Y 100 0.2]
+[delay 0.2 move A Y -100 0.2]
+[-]
+[say A]
+[serif on]
+うひゃ！　[face A 06]……この間教えてもらったこと
+試してみたけど、なんか変な感じ～……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+こんなの全然慣れそうにないなぁ……
+みんな大人だなー！　[shake ]また聞いてみよっと！[face A 01]/
+>>24/
+[set A s_sim_r 志摩]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+ううっ……[shake A]真っ暗になる前に寝なきゃ……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -100 1.5]
+[autotap]/
+[face A 07]
+ぐー……すぴー……/
+>>25/
+[set A s_sim_r 志摩]
+[show A C]
+[serif on]
+[talk A]
+[face A 10]
+わー……おっきぃ～……
+あはは…………[wait 0.5]ぐー……[face A 07]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -50 1.5]
+[autotap]/
+[talkend]
+楽しい夢を見ているようだ。/
+>>26/
+[set A s_sim_r 志摩]
+[randomset B r -sim]
+[show A C]
+[show B C]
+[face A 03]
+[face B 01]
+[rotate B 40]
+[move B Y -100]
+[setline B A]
+[orderline A B]
+[-]
+[serif on]
+[say A]
+普通に寝るの飽きちゃった……[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+そうだ[face A 09]、$B:Aの上で寝ていい？/
+[move A Y 120 0.1]
+[delay 0.1 move A Y -100 0.2]
+[rotate A 40 0.3]
+[move A X -250 0.3]
+[delay 0.3 shakebg]
+[delay 0.3 se dosa_01]
+[autotap]/
+[face A 10]
+[shake B]
+よっと！　ふぁあ～～、[shake A][face B 06]上にのって
+ぎゅーって体押し付けてると気持ちいいー。/
+[face A 06]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+あれ、オレドキドキしてきちゃった！
+え、$B:Aも？[face A 02]　あははっ、不思議だね！/
+/
+>>100/
+[set A s_sim_r 志摩]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 志摩のおつまみ]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[wait 2]
+[-]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg mbg_syouen]
+[minibg tyubo]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+小腹が空いたので、何かつまめるものを
+拝借しようと厨房へとやってきた。/
+[face A 01]
+[textcolor ARUJI]
+中に入ると洗い物を
+している小さな姿をみつけた。/
+[serif off]
+?志摩？/
+[show A C]
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[say A]
+[serif on]
+わっ、兄ちゃん！
+/
+[talkend]
+[textcolor ARUJI]
+声をかけると驚いて飛び上がる志摩。/
+[face A 01]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 10]
+[say A]
+あはは！
+びっくりした～！/
+[face A 02]
+厨まで来てくれたんだ！　嬉しい～っ！/
+[face A 11]
+[talkend]
+[serif off]
+?何かつまめるものでもないかと思って/
+[face A 00]
+[say A]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[-]
+[effect fr kira 4000 0 0]
+[se kira_01]
+[serif on]
+お腹すいたの！？
+それなら、オレが作ってあげるよ！/
+[face A 09]
+[flow]
+新鮮なサザエがどっさりあるから、
+つぼ焼きにしてあげる！！/
+[serif off]
+?料理できるんだ/
+[face A 01]
+[serif on]
+えへへ！！/
+[face A 00]
+[flow]
+志摩国は御食国の一つ！　昔、朝廷や
+皇室に美味しいものをいーっぱい届けてたんだよ！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 09]
+[flow]
+だから料理はまかせて、兄ちゃん！/
+[serif off]
+?楽しみ/
+[face A 06]
+[scale A 1.8 0.5]
+[move A Y -50 0.5]
+[-]
+[serif on]
+じー……/
+[face A 01]
+[flow]
+兄ちゃんは、食べるの好きそうだよね……/
+[face A 02]
+[flow]
+オレよりこんなにおっきいもん！
+むぎゅー！[scale A 2.5 0.5][move A Y -200 0.5][hide A][delay 0.5 shakebg][delay 0.5 se dosa_01]/
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+志摩が抱きついてきた。
+毛並みがフサフサで気持ちいい。/
+[serif off]
+[show A C]
+[scale A 2.0]
+[move A Y -150]
+[scale A 1.5 0.5]
+[move A Y 50 0.5]
+[face A 09]
+[say A]
+[-]
+[serif on]
+兄ちゃんのためならオレ、
+いくらでもご飯作ってあげるよ！/
+[face A 00]
+[flow]
+いつも1日どれくらい食べる？/
+[face A 01]
+[flow]
+5食？　6食？
+7食でもいいよっ！　献立考えるの楽しいし！/
+[serif off]
+?さ、3食かな……/
+[face A 05]
+[serif on]
+え？[shake A]
+……兄ちゃんひょっとして少食なの？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+何やら残念そうな志摩。/
+[serif off]
+[show A C]
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[say A]
+…………へー、
+現代は3食が普通なんだ。/
+[face A 03]
+えー！[shake A]　もっともっーと食べて、
+もーーっとでっかくなってほしいな！/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+兄ちゃんがでっかくなるように、オレ、
+美味しいのいーーっぱい作るからね！！/
+[face A 09]
+[talkend]
+[textcolor ARUJI]
+志摩は目を輝かせる。/
+[effect off a]
+[serif off]
+?あ、ありがとう……/
+[face A 02]
+[say A]
+[serif on]
+へへ、これからよろしくね！　[shake A]むぎゅー！[scale A 2.5 0.5][move A Y -350 0.5][hide A][delay 0.5 shakebg][delay 0.5 se dosa_01]/
+[talkend]
+[textcolor ARUJI]
+そう言って志摩は再び抱きついてきた。/
+[show A C]
+[face A 11]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[say A]
+さあ、火がいい感じになってきたなー。
+サザエ焼くぞ～！/
+[face A 00]
+[flow]
+兄ちゃんは、何個食べる？/
+[face A 01]
+[flow]
+おつまみだから……10個くらい？
+あはは！[shake A][face A 02]　それとも20個くらい！？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+小腹のおつまみ程度では済まなくなりそうだ、と
+覚悟を決めたのだった……/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_sim_r 志摩]
+[set B s_sim_r 志摩]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 真夜中の志摩]
+[-]
+[bg rouka_night]
+[-]
+[se fusuma_01]
+[fadeout 1.0]
+[-]
+[se amb_04]
+[serif on 0.5]
+[textcolor ARUJI]
+夜中に目が覚めて喉が乾いていたので、
+水でも飲もうと厨房へと向かった。/
+[flow]
+[textcolor ARUJI]
+夜中の荘園は昼間の喧騒と打って変わって、
+みな寝静まり、虫の音だけが聞こえてくる。/
+[se wood_04]
+[textcolor ARUJI]
+ギシッと、
+自分の足音が真っ暗な廊下に響いた。/
+[textsize 40]
+[quake 2]
+[bgm eerie]
+[effect fr syutyu a 0 0]
+@？？？
+んひゃーーーーーーーーーーーッ！！！！！/
+[serif off]
+[quake off]
+?！！？/
+[show B]
+[talkend]
+[color B black]
+[-]
+[quake1]
+[serif on]
+[textsize 40]
+@？？？
+ひいい！
+おばけーーーーー！！！　来ないで……っ！！/
+[bgm off]
+[serif off]
+[effect off a]
+?……その声は、志摩？/
+[show A 1]
+[face A 05]
+[orderline A B]
+[-]
+[bgm night]
+[-]
+[hide B]
+[bg rouka_night]
+[serif on 0.5]
+[say A]
+……あ、に、兄ちゃん！？
+兄ちゃんー！！！[face A 04][shake A]/
+[serif off]
+[scale A 2.0 0.3]
+[move A Y -250 0.3]
+[delay 0.3 shakebg]
+[delay 0.3 se dosa_01]
+[face A 10]
+[-]
+[serif on]
+むぎゅーーっ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+思い切り抱きつく志摩。/
+[show A C]
+[face A 10]
+[scale A 2]
+[move A Y -250]
+[scale A 1.6 0.5]
+[move A Y 120 0.5]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[say A]
+いい所に来てくれたよ～！
+早く、おしっこ、おしっこ～っ！！[shake A]/
+[serif off]
+?おしっこ……？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 09]
+うん！　おしっこしたくなって
+目が覚めたんだけど……/
+[face A 04]
+[flow]
+廊下は真っ暗だし、誰もいないし、
+部屋のみんな起きてくれないし……！！/
+[face A 06]
+[flow]
+一人で行くのは怖くて、
+どうしようって思ってたんだ……/
+[face A 04]
+わーー！[shake A]
+兄ちゃんに会えてよかったよぉ！/
+[shake A 10 5 5]
+[autotap]/
+[face A 05]
+ぷるぷるっ……/
+[face A 06]
+[flow]
+で、でも……
+びっくりしたせいで漏れちゃいそう……/
+[face A 04]
+[scale A 1.8 0.5]
+[move A Y -60 0.5]
+ねぇ……[se cloth_01]
+厠まで、一緒にいこ？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+志摩は涙目でこちらを見る。/
+[serif off]
+?いいよ/
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -130]
+[say A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+やったぁ！/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+喜んだ志摩は手をぎゅっと握ってきた。
+志摩の小さな手は少し震えていた。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[se walk_01]
+[show A C]
+[face A 04]
+[say A]
+[scale A 1.6]
+[move A Y -130]
+[-]
+[serif on]
+……うぅぅ……[shake A]
+に、兄ちゃんは暗いの怖くないの？[face A 03]/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 01]
+いいなぁ……
+やっぱりおっきいからかなぁ……/
+[face A 02]
+[flow]
+オレ、おっきな兄ちゃん大好きだよ！/
+[face A 06]
+[flow]
+おっきいのって、すごく安心するし、
+わくわくするよね！　モミモミ！[shake A][se cloth_01]/
+[talkend]
+[textcolor ARUJI]
+小動物のような志摩に比べたら
+この荘園の者は誰でも大きい方だろう。/
+[say A]
+[face A 09]
+兄ちゃんもっともっと大きくなってほしいなー。
+そしたら……安心だもんね。/
+[serif off]
+?そういうものかなー/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+ピッタリとくっついた志摩と話しながら
+トイレへと向かう。/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[autotap]/
+?トイレに着いたよ/
+[talkend]
+[show A C]
+[scale A 1.6]
+[move A Y -130]
+[face A 03]
+[textcolor ARUJI]
+[-]
+[serif on]
+志摩は相変わらずピッタリとこちらに
+くっついたままぷるぷると震えている。/
+[serif off]
+?行けそう？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[say A]
+[-]
+[serif on]
+う、うん……中も暗いね……
+ねぇ、ここで待っててね。/
+[face A 03]
+[flow]
+オレが戻るまで、絶対、
+ぜーーったいどこにも行かないでよ！？[shake A]/
+[serif off]
+?約束/
+[face A 06]
+[playeryes]
+[-]
+[wait 1]
+[say A]
+[serif on]
+へへっ、兄ちゃんありがと！[face A 02]
+兄ちゃんがいてくれるなら……オレ、頑張れそう！/
+[face A 08]
+じゃ、じゃあ、行ってくるからね！　
+……よーし……/
+[serif off]
+[face A 03]
+[scale A 1.0 1]
+[move A Y 130 1]
+[delay 1 move A X -400 1.5]
+[delay 2 hide A]
+[se wood_04]
+[-]
+[talkend]
+[delay 0.5 se door_01]
+[textcolor ARUJI]
+[serif on]
+真っ暗なトイレの中に
+びくびくしながら入っていく志摩。/
+[serif off]
+[bg black 0.5]
+[-]
+[show A R]
+[face A 03]
+[move A X 300]
+[move A X -500 1.5]
+[-]
+[shake A]
+[-]
+[serif on]
+[say A]
+うぅ……/
+[move A X -200 1.5]
+[delay 1.5 move A X 200 2.0]
+[delay 3.8 move A X -100 1.5]
+[autotap]/
+[face A 08]
+せーまん……どーまん……
+電気、電気どこだっけ……/
+[hide A]
+[bgm off]
+[se goto_01]
+[talkend]
+[textcolor ARUJI]
+カタン……/
+[textcolor ARUJI]
+何かが倒れたような物音がした。/
+[bgm fun]
+[show A C]
+[scale A 2.5]
+[move A Y -300]
+[quake 2]
+[effect fr syutyu a 0 0]
+[face A 04]
+[say A]
+[textsize 40]
+っぎゃーーーーーーーー！！！！！！！
+っわーーーー！！！/
+[hide A]
+[-]
+[show B R]
+[face B 04]
+[move B X 300]
+[move B X -1800 0.6]
+[delay 0.8 move B X 2100 0.8]
+[delay 1.8 scale B 1.6 0.5]
+[delay 1.8 move B Y -130 0.5]
+[delay 1.8 move B X -2100 0.9]
+[autotap]/
+[flow]
+[textsize 40]
+んぎゃ～～～！！！/
+[serif off]
+[hide B]
+[bg rouka_night 0.5]
+[effect off a]
+[quake off]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+夜の荘園内に志摩の叫び声が響く。/
+[textcolor ARUJI]
+[flow]
+志摩が用を足すまでには
+まだまだ時間がかかりそうだ。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

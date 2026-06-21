@@ -1,0 +1,1907 @@
+>>10000/
+@遠江
+ふあぁ～あ。お、呼んだか？　[wait 4]
+おらは東海道、遠江だに！[autotap]/
+[delay 3]
+[flow]
+[-]
+@遠江
+主、……いや兄弟！　[wait 2]
+今日から盃ひとつの仲だら、よろしく頼むな！/
+>>10001/
+@遠江
+お、また呼んだな？　兄弟。[autotap]/
+[delay 3]
+[flow]
+[-]
+@遠江
+おらは受けた恩は返すからよ。　
+ケツ持ちは任せるだに！/
+>>1/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+兄弟。遠州のからっ風って知ってるだら？
+冬に吹く海風で、すんげー寒いんだら。[face A 04][shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+けどあの風を感じたら、絶対おらの国を
+忘れらんなくなるぜ。/
+[face A 10]
+[flow]
+兄弟も一度吹かれてみるといいだら。
+おらがとなりで支えてるからよ！/
+>>2/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+おらの国の浜名湖は日本最大級の汽水湖なんだら。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+現代じゃいろんな水遊びができるし、
+食い物もうめぇに。/
+[face A 10]
+[flow]
+それに赤鳥居越しに眺める夕日は絶景だら。
+兄弟、一緒に見に行こうぜ！/
+>>3/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 10]
+[serif on]
+[say A]
+おらの自慢はもちろん「うなぎ」だら！
+兄弟はうなぎは好きか？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+浜名湖のうなぎはぶっとくて
+脂が乗ってふっくらしててうめぇに。/
+[face A 06]
+[flow]
+[shake A]
+それと、うなぎを使った夜のお菓子ってのも
+あるらしいな。/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+へへっ、食ってみてぇに。/
+>>4/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[face A 09]
+[serif on]
+[say A]
+ふぁあ〜。[shake A]いい天気だに。/
+[rotate A 10 0.5]
+[move A Y -100 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+こんな日はなにもしねぇで風を感じてるのが
+いっちゃん気持ちいいだら。/
+[show B R]
+[face B 00]
+[face A 09]
+[setline 0.5 A B]
+[face A 10]
+[flow]
+ん〜。$B:Aもここでごろごろしまいか？
+空を見てると時間を忘れちまうに。/
+[face B 05]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ、あの雲……[= うなぎ お魚 兄弟 たいやき $B:A うさぎ カメ 浜名湖]の形だに！[se taiko_02]/
+>>5/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[show B]
+[setline A B]
+[face B 05]
+[face A 12]
+[serif on]
+[say A]
+[orderline A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ん？　$B:A、おらの髪がまた伸びたって？
+すぐ伸びちまうんだら〜。[face B 01]/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[se cloth_06]
+[face B 02]
+[face A 11]
+でも切るのは面倒だに。こうして縛っときゃ……
+……っと、これで良しだら。[face A 02]/
+>>6/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[se fusuma_01]
+[face A 07]
+[move A X 500]
+[move A X -500 0.5]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+[say A]
+お、厨にうまそうなもんがあるだら。
+……おぉ、うめぇに！[face A 10][move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3][se eat_01]/
+[show B L]
+[move B X -400]
+[setline 0.5 B A]
+[face B 03]
+[face A 05]
+[say A]
+[orderline A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……$B:A！　料理の途中だっただら？
+つまみ食いしてすまんに……[shake A][face A 04]/
+[face A 06]
+[face B 04]
+[move A X -100 0.5]
+[rotate A 5 0.5]
+[se cloth_06]
+いい匂いがしてたから、つい手が出ちまっただら
+……も、もう一口だけいいだら？/
+>>7/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[show B R]
+[setline A B]
+[face A 00]
+[face B 00]
+[serif on]
+[say A]
+[orderline A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おい、$B:A！　
+一緒に釣りやらまいか？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face B 01]
+[face A 10]
+[flow]
+糸垂らして風を感じて、ぼーーっとしてるのが
+気持ちいいんだに。/
+[face A 07]
+魚が釣れなくても
+気にすることねぇだら。/
+>>8/
+/
+/
+>>9/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 01]
+[say A]
+[se amb_05]
+[rotate A 30]
+[move A Y -50]
+[se cloth_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+夜風が気持ちいいに〜。
+昼間寝てたからまだ眠くねぇだら。/
+[face A 07]
+[flow]
+ふー、今日はこのまま朝まで
+星でも眺めてようかに。/
+>>10/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A L]
+[move A X -400]
+[show B R]
+[face B 04]
+[setline 0.5 A B]
+[orderline A B]
+[face A 12]
+[-]
+[serif on]
+[say A]
+$B:A、元気ねぇな。そうだなぁ……
+一緒にうなぎでも食いに行かまいか？/
+[face A 10]
+[face B 01]
+[flow]
+うまいもん食えば、きっと元気になるだら。/
+>>11/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[show B R]
+[face B 00]
+[setline 0.5 A B]
+[orderline A B]
+[face A 00]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+$B:A、なに咥えてるかって？
+これは長楊枝だに〜。[face A 02]/
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -120 0.5]
+[move A X 150 0.5]
+[rotate B -5 0.5]
+[se cloth_06]
+[autotap]/
+[face A 10]
+[face B 05]
+おら、こいつを咥えてると落ち着くんだら。
+$B:Aもほら、咥えてみまいか？/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[face B 06]
+[shake B]
+間接きす？　ははっ、気にすることねぇに！/
+>>12/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 09]
+[serif on]
+[rotate A 30]
+[move A Y -100]
+[say A]
+ぐごご、ぐごご……[shake A]んっ、[face A 11]ふ〜、よく寝て元気だに。
+そろそろ起きるかぁ……/
+[rotate A 0 0.3]
+[move A Y 100 0.3]
+[face A 05]
+[se cloth_06]
+おわっ、もう夜だら！？　寝過ぎちまった！[shake A]
+任務に遅れそうだら〜！[move A X -500 0.3][se walk_03][hide A]/
+>>13/
+/
+/
+>>14/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[face A 04]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+うーん、体がうずうずすんなぁ……/
+[show B R]
+[face B 05]
+[setline 0.5 A B]
+[orderline A B]
+[face A 02]
+[flow]
+こういう時ぁサクっと発散しちまうのが早ぇだに。
+$B:Aもどうだら？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[face B 06]
+[flow]
+なーに、こんなの普通のことだに。/
+>>15/
+[set A s_tou_m 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[face A 08]
+[effect fr katanas 6000 0 0]
+[se doka_01]
+[delay 0.3 se katana_03]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[shake A]
+[-]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふぅ〜。バテてきたに……
+ちょっと休むだら。よいしょっと。[move A Y -100 0.5][rotate A 30 0.5][se dosa_01][face A 07]/
+[show B R]
+[face B 05]
+[move B X 300]
+[move B X -300 0.5]
+[orderline A B]
+回復のために、少し昼寝すっか〜。
+ぐごご〜〜……[face A 09][shake A]/
+>>16/
+[set A s_tou_m 遠江]
+[randomset B m @地魂男児 @あやかし -tou]
+[show A C]
+[show B C]
+[face B 00]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[effect fr allow 6000 0 0]
+[se katana_03]
+[setline 0.3 A B]
+[orderline A B]
+[face A 08]
+[move A X -100 0.3]
+[move B X 100 0.3]
+[-]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+はぁ、はぁ……今日もよくやっただら。
+汗かいたに。暑いからここで脱いじまうか？[face B 05][se zukkoke_02][shake B]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[face B 06]
+[flow]
+へへ、男同士だら。恥ずかしがるこたぁねぇに！/
+>>17/
+[set A s_tou_b 遠江]
+[randomset B b @地魂男児 @あやかし -tou]
+[show A R]
+[move A X 300]
+[se door_01]
+[show B C]
+[face B 00]
+[setline 0.5 B A]
+[orderline A B]
+[face A 02]
+[-]
+[serif on]
+[say A]
+ふぅ、風呂でさっぱりしたに〜。
+お、$B:A。[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]/
+[face B 05]
+[se cloth_06]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -120 0.5]
+[autotap]/
+[face A 01]
+[flow]
+体重計は素っ裸で乗るほうが正確に測れるに！
+ちょっと持っててくれに。/
+[rotate B 10 0.5]
+[face B 06]
+[face A 12]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+どれどれ……
+おお、おら、前より重くなっただら！[shake A]/
+>>18/
+[set A s_tou_b 遠江]
+[randomset B b @地魂男児 @あやかし -tou]
+[show A C]
+[show B R]
+[face B 00]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -170 0]
+[setline B A]
+[move B X -150]
+[orderline A B]
+[face A 12]
+[effect fr yuge a 0 0]
+[se amb_12]
+[serif on]
+[say A]
+[se bath_05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え、洗い方が足りてないだに？
+そうかぁ？[face A 11]/
+[move A Y 100 0.5]
+[se cloth_01]
+[face A 10]
+[face B 05]
+じゃあ、おらのこと洗ってくれに。
+おらここで立ってるからよ。全身頼むだら〜！/
+>>19/
+[set A s_tou_b 遠江]
+[randomset B b @地魂男児 @あやかし -tou]
+[show A C]
+[effect fr yuge a 0 0]
+[se amb_12]
+[scale A 1.6]
+[move A Y -170]
+[se bath_04]
+[face A 04]
+[serif on]
+[say A]
+ん〜。のぼせちまったに……ふらふらするだら……
+おら、ここでしばらく横になってるに……[rotate A 30 0.5][se bath_04][move A Y -70 0.5]/
+[show B L]
+[scale B 1.6]
+[move B Y -120]
+[move B X 300 0.5]
+[se water_07]
+[effect fr splash 6000 0 0]
+[orderline A B]
+[face A 05]
+[face B 00]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[shake A]
+ふぎゃっ！？[face B 05][move B X 100 0.3]
+$B:Aに[= お尻 足 おなか]踏まれただら……[face A 12]/
+[face A 04]
+[flow]
+今日はもう寝るに……うぅ……[move A Y -100 0.5][face B 04][shake B][se bath_04]/
+>>20/
+[set A s_tou_r 遠江]
+[randomset B b @地魂男児 @あやかし -tou]
+[randomset C b @地魂男児 @あやかし -tou -@NOW]
+[show B L]
+[show C L]
+[move B X -300]
+[move C X -100]
+[moveline B C 0 -120 0]
+[scale B 1.6]
+[scale C 1.6]
+[face B 04]
+[face C 03]
+[show A R]
+[move A X 500]
+[move A X -500 0.5]
+[face A 05]
+[orderline B C A]
+[serif on]
+[say A]
+くぅぅー。厠が並んでるだら……[shake A]
+普段は外で済ませる事も多いから我慢は苦手だに……[move B X -300 0.5][hide B][move C X -200 0.5][face A 04]/
+[se water_09]
+[shakebg]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[se cloth_06]
+[setline 0.3 C A 200 800]
+[face C 05]
+[move C X -150 0.3]
+[rotate C 10 0.3]
+[orderline A C]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+お、空いただらっ！[shake A][se pee_01]　ふぅ〜……
+……すっきりだに〜。[face B 06]/
+>>21/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[show B R]
+[face B 05]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[setline A B]
+[orderline A B]
+[se pee_01]
+[face A 00]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ふぅ、ん？　$B:Aどうしただら？　
+はは、狙い外しちまったか？[face A 02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[face B 06]
+難しいよなぁ。
+ほら、おらも同じだからわかるだに。へへっ。/
+>>22/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -170]
+[serif on]
+[say A]
+ふぅ〜。すっきりしたに。そんでこのボタンを
+ぽちっと……/
+[effect bk splash 6000 0 0]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ん〜〜〜、ははっ。この機械から水が出んの
+いっつも面白いだら！[shake A]/
+>>23/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[move A X -100]
+[move A X 100 0.5]
+[face A 04]
+[scale A 1.6]
+[move A Y -120]
+[se water_09]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+あぶねぇ、漏れそうだったに……
+ふ〜〜……これでゆっくり眠れそうだら。/
+[face A 11]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+それにしても、ふんどし履き直すのがめんどいに
+……寝床までならこのままで行っても平気だら。/
+[show B R]
+[move B X 500]
+[face B 05]
+[scale B 1.6]
+[move B Y -120]
+[setline 0.5 A B]
+[orderline A B]
+[face A 05]
+[se zukkoke_02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+……わっ$B:A！[shake A]
+暗い廊下でなにしてんだに！？　びっくりしたぁ。/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[face B 06]
+[flow]
+あ、おらの格好……？
+はは、男同士だら。気にしないでくれに！/
+>>24/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[show A C]
+[show B R]
+[face B 04]
+[setline A B]
+[orderline A B]
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふぁ〜……今日もいい一日だっただに。
+$B:A、どうしただら？[face A 00]　おらが臭うに……？/
+[face A 04]
+[face B 03]
+昼間に汗かいたからなぁ……[shake A]
+わーかったって、風呂入ってくるだら〜。[face A 12][move A X -500 0.5][se fusuma_01][hide A]/
+>>25/
+[set A s_tou_r 遠江]
+[show A C]
+[rotate A 30]
+[face A 09]
+[serif on]
+[say A]
+ぐごごご〜。ぐごごごご〜〜〜……
+んん〜……もっとうなぎ食うだら……ぐご〜。[shake A]/
+[talkend]
+[face A 07]
+遠江は大きないびきをかいて
+うなぎを食べる夢を見ているようだ。/
+>>26/
+[set A s_tou_r 遠江]
+[randomset B r @地魂男児 @あやかし -tou]
+[randomset C r @地魂男児 @あやかし -tou -@NOW]
+[show A C]
+[show C L]
+[show B R]
+[face B 07]
+[rotate C 30]
+[move C Y -100]
+[rotate B 30]
+[face C 07]
+[move B Y -100]
+[face A 04]
+[rotate A 30]
+[rotate A 0 0.5]
+[se cloth_01]
+[move A Y -100]
+[move A Y 100 0.5]
+[serif on]
+[orderline B A]
+[say A]
+体が火照っちまって眠れねぇに。
+ちょっと発散すっかぁ。/
+[face A 06]
+[move A Y -50 0.5]
+みんな寝てっか……？　ま、起きてても
+誰も気にしねぇだら。男ならそんなもんだに〜。[face A 07]/
+>>27/
+[set A s_tou_r 遠江]
+[show A C]
+[face A 00]
+?遠江、ハレの日おめでとう！/
+[face A 02]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+おっ、兄弟！　ありがとうに。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+今日はな、「森のまつり」の開催日だに！
+ま、現代じゃ日付がちょっとズレるらしいけどよ。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 10]
+[flow]
+昔っからず〜〜っと、11月1日に始まってきたから
+気持ちは変わらねぇ。この日はおらのハレの日だに！/
+[serif off]
+?遠江の国のお祭り？/
+[face A 01]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+へへ、もちろんそうだに！　太鼓はドドン！　[shake A][se taiko_02]
+屋台がゴロゴロ軋んで、石松囃子も鳴り響くに！[shake A][se taiko_01]/
+[face A 03]
+[flow]
+「やらまいか！」[shake A]のかけ声とともに
+黒光りの屋台を押し当てて力比べするに。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 07]
+あんまり激しいから、喧嘩祭りとも言われてんだら。
+へへ、想像するだけで血がぐわぁって騒ぐんだら。/
+[face A 08]
+[flow]
+……おら、のんびりしてるのが好きだけどよ、
+誰かを守るための喧嘩なら、いつだって買うに！/
+[talkend]
+遠江はそう言うと握りこぶしを
+作って見せた。/
+[face A 01]
+[say A]
+この拳で守ってみせるに。へへ、りっぱだら？
+ほら、兄弟も握ってみろや。/
+[serif off]
+?握りこぶしを差し出す/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 08]
+[autotap]/
+[serif on]
+[se cloth_01]
+[talkend]
+すると、遠江は拳をこちらの拳に当て
+ぐっと力を込めた。/
+[flow]
+遠江の拳の力強さと、暖かさが伝わってくる。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+へへっ。兄弟の拳を感じるに。　
+気持ちが伝わった感じがするな！/
+[face A 01]
+[flow]
+もしももめ事が起きたら
+おらが前に立って守ってやるだら。/
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+さぁ、祭りへ繰り出そうぜ、兄弟！
+夜の空気をふたりで味わうに！/
+>>100/
+[set A s_tou_r 遠江]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 遠江と盃]
+[-]
+[minibg syouen_watarirouka]
+[bg mbg_syouen]
+[se walk_01]
+[-]
+[fadeout 2.0]
+[-]
+[bgm home]
+[serif on 0.5]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+今日はロクハラ本部で長い会議があった。
+座りっぱなしだったせいか体が石のようだ。/
+[flow]
+[textcolor ARUJI]
+荘園へ戻る途中、静かな渡り廊下を歩いていると
+……どこからか地響きのような音が聞こえてきた。/
+[shakebg]
+@？？？
+ごぉお……/
+[serif off]
+?なんだろう……/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+音のする方へ行くと、池のほとりの芝生に
+ひときわ大きな影があった。/
+[minibg off 0.5]
+[bg niwa_day 0.5]
+[show A]
+[rotate A 30]
+[move A Y -100]
+[face A 09]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ぐぉおお、ぐごご……/
+[talkend]
+[textcolor ARUJI]
+ずんぐりした体を芝生に投げ出し、仰向けで
+大の字になり、大きないびきをかいている。/
+[bgm fun]
+[serif off]
+?遠江！？/
+[say A]
+[serif on]
+[face A 07]
+んぁ～、[shake A]ぐごご……[face A 09]/
+[talkend]
+[textcolor ARUJI]
+何度話しかけても、遠江は豪快ないびきを
+響かせたまま眠り続けている。/
+[serif off]
+?遠江の頬をつついてみる/
+[scale A 1.6 0.5]
+[move A Y -70 0.5]
+[autotap]/
+[serif on]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+遠江～と声をかけながら、
+頬を指でぷにっとつついてみた。/
+[se cloth_01]
+[shake A]
+[say A]
+[face A 07]
+んん～、すぅ～、ぐがぁ……[shake A]/
+[talkend]
+[textcolor ARUJI]
+もちもちとした分厚い頬を何度ぷにぷにと
+つついてもやはり遠江は眠り続けている。/
+[serif off]
+?遠江の体を揺らしてみる/
+[se cloth_01]
+[shake A 3 5 1]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+着物からはだけたおなかに手を当て
+さするように揺らしてみる。/
+[se cloth_01]
+[shake A]
+[flow]
+[textcolor ARUJI]
+遠江のおなかに吸い付くように柔らかく指が沈んだ。
+揺らすとたぷたぷとゆっくり動く。/
+[hide A]
+[serif off]
+?もうちょっと激しく……/
+[se cloth_06]
+[shakebg]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+しばらく揺らしていると「びくんっ！」
+と遠江の体が震えた。/
+[show A]
+[move A Y -100]
+[rotate A 30]
+[se cloth_01]
+[face A 07]
+[say A]
+んん～？　誰だに……
+主かぁ？[face A 00]/
+[rotate A 0 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+ふあぁ～ぁ……
+おら、寝ちまってただら。/
+[face A 00]
+[se cloth_01]
+[move A Y 100 0.5]
+[talkend]
+[textcolor ARUJI]
+遠江がのそのそと上体を起こすと
+どっしりした影が陽を遮り、大きな影ができる。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]
+/
+[say A]
+[face A 01]
+さっき挨拶に行こうと思ったけど、会議だって
+いうから、ここでのんびり待ってたに。/
+[flow]
+[face A 02]
+そんで気づいたら寝ちまってたみたいだら。
+主が起こしてくれてよかったぜ。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+それにしてもここ、いい風が吹くだに。
+いい昼寝場所見つけちまったな。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[se amb_13]
+[face A 10]
+主も遠慮せんで隣、座ってみるだら。/
+[talkend]
+[textcolor ARUJI]
+のびのびとした遠江の様子を見ているとなんだか
+羨ましくなって、誘いに乗ってみた。/
+[serif off]
+?隣に座る/
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+[se dosa_01]
+芝生に腰を下ろすと、
+涼しい風が頬を撫でていく。/
+[se amb_13]
+[face A 10]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ふぁあ～、おら、自然の中が一番好きだに。
+今日は風が気持ちいいに～。/
+[flow]
+[face A 07]
+おらの国の風も好きだけどここの風は
+あったかくて優しい感じがするに。/
+[serif off]
+?確かに気持ちいいね/
+[face A 01]
+[serif on]
+[say A]
+主もそう思うだら？
+へへ。こうするともっといいに！/
+[rotate A 40 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[se dosa_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+遠江は芝生に再び寝転んだ。
+つられるようにして遠江の隣に寝転ぶ。/
+[light def 0.5]
+[lightcolor blue]
+[shakebg]
+[se dosa_01]
+[bg sky_day 0.5]
+[flow]
+[textcolor ARUJI]
+眼の前には一面の青空。こんなふうにただただ
+空を眺めたのはいつぶりだろう。/
+[flow]
+[se amb_10]
+[textcolor ARUJI]
+この空は声聞術による投影とのことだが
+そうは思えないほどの自然な青空。/
+[flow]
+[textcolor ARUJI]
+そしてゆっくり流れる大きな雲。
+凝り固まっていた体がほぐれていくのを感じる。/
+@遠江
+こうやって雲を見てると、
+いろんな形に見えてくるよなぁ……/
+@遠江
+ほらあの雲、うなぎの形に見えるに！
+あっちの雲は金平糖だに。あと、あれは——……/
+[talkend]
+[waku on 0.5]
+[textcolor ARUJI]
+遠江の話を聞きながらぼーっとしていると
+ぽかぽかした陽気にまぶたが重くなっていった。/
+@遠江
+…………/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[lightcolor orange]
+[wait 2]
+[bg sky_sunset]
+[bgm night]
+[-]
+[se amb_03]
+[fadeout 1.5]
+[-]
+[waku off 0.5]
+[-]
+[autotap]/
+[serif off]
+?はっ、もう夕方！？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+気づけば夕焼けが紅く水面を染めていた。
+体には遠江の外套がかけられていた。/
+[minibg sky_sunset 0.5]
+[bg mbg_syouen 0.5]
+[se cloth_01]
+[show A]
+[face A 12]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おっ。主、起きたに？　どうよ。
+外で眠るのも気持ちいいだら？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+たしかに、気持ちよく眠れたからか
+ずいぶんと体は軽くなっていた。/
+[show A]
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+おらは先に目が覚めたから
+こうして釣りしてたに。/
+[hide A]
+[se water_06]
+[talkend]
+[textcolor ARUJI]
+遠江は釣り竿を手に、糸を垂らしていた。
+バケツは空っぽだが、なんとなく機嫌はよさそうだ。/
+[show A]
+[face A 07]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+釣れなくても構わんに。風と水音を感じて
+ぼーーっとしてるのが一番だら。/
+[face A 11]
+[flow]
+……けど日も傾いてきたし……しまいにすっか。/
+[hide A]
+[se cloth_01]
+[serif off]
+?荘園に戻ろうか/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg sky_star]
+[bg black]
+[hideall]
+[lightcolor blue]
+[-]
+[fadeout 1.5]
+[-]
+[se amb_05]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+ほとんど寝ていただけだが、なんだかとても
+贅沢な時間を過ごしたような気がする。/
+[show A]
+[face A 02]
+[say A]
+今日はありがとな、主！
+おら、主とゆっくりと過ごして見たかったに。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+こうして一緒にいて、同じ風を感じて……
+主になら背中を預けられる。そう思ったに。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+最後に……[wait 0.5]
+もうちょっとだけいいだら？/
+[face A 10]
+[flow]
+おらと盃、交わしてくれに。
+これはおらにとって大切な儀式だに。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 01]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+遠江はごそごそと服に手を突っ込むと
+掌ほどの徳利と小さなお猪口を取り出した。/
+[serif off]
+?そんなものが入ってたんだ/
+[face A 07]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+へへ、旅人は何でも持ち歩くもんだぜ。
+主、まずはおらの盃を受けてくれに。/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+遠江は徳利の蓋を外し
+お猪口へ少し注いでこちらへ差し出す。/
+[serif off]
+?受け取る/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+お猪口を両手で受けとると
+酒のほのかに甘い香りがただよう。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[effect fr syutyu 6000 0 0]
+[say A]
+[se taiko_02]
+さぁ一気に飲み干してくれに！/
+[hide A]
+[serif off]
+?飲む/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+口に含むと、風のような爽快さが喉を抜けた。
+意外なほど爽やかな口当たりだ。/
+[show A]
+[face A 10]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+次はおらにも頼むに。
+たっぷり注いでくれな。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+同じお猪口いっぱいに注ぎ返し、遠江へ渡す。/
+[serif off]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[say A]
+[se cloth_06]
+[serif on]
+んくっ……[wait 0.5]ぷはぁ！[face A 06]
+これで主とおらは盃ひとつの仲だら！/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 08]
+[shake A]
+主……[wait 0.2]これからは兄弟と呼ばせてもらうぜ！
+兄弟、これからよろしく頼むに！/
+[effect off a]
+[serif off]
+?こちらこそ、よろしくね/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[serif on]
+[say A]
+ふぅ～へへっ、嬉しいに！
+んじゃ、おら星空見ながらもう一眠りするだに。/
+[serif off]
+?また寝るの！？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[face A 07]
+[serif on]
+夜風と星は最高の子守唄だら。/
+[rotate A 30 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[face A 07]
+[talkend]
+[textcolor ARUJI]
+遠江は再び芝生にゴロンと横たわる。/
+[rotate A 20 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[face A 02]
+兄弟、困ったらいつでも頼ってくれに。
+何があっても、ケツはおらが持つだら！[shake A]/
+[rotate A 40 0.5]
+[flow]
+[face A 07]
+そんじゃ、おやすみだに。/
+[serif off]
+?おやすみ、遠江/
+[serif on]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+荘園へ戻ろうとすると、すぐに大きないびきが
+後ろから響いてきた。/
+[flow]
+[textcolor ARUJI]
+遠江は豪胆でマイペース。
+しかし、どこか頼もしく感じた。/
+[bg sky_star 0.5]
+[minibg off 0.5]
+[se amb_13]
+[flow]
+[textcolor ARUJI]
+心地よい夜風に吹かれ、遠江の寝息を聞きながら
+これからの生活が楽しみになったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>202/
+[set A s_tou_bath 遠江]
+[set AA s_tou_r 遠江]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 遠江と海水浴へ]
+[-]
+[light def]
+[lightcolor blue]
+[bg sky_day]
+[se walk_01]
+[-]
+[se amb_15]
+[fadeout 2.0]
+[-]
+[bgm home]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+[autotap]/
+[textcolor ARUJI]
+晴れ渡る青い空。
+じりじりと照りつける夏の陽射し。/
+[flow]
+[textcolor ARUJI]
+遠くには、綿のように白い雲がもくもくと
+浮かんでいる。/
+[bg mbg_rokuhara 0.5]
+[minibg sky_day 0.5]
+[show AA C]
+[face AA 02]
+[say AA]
+[move AA Y 10 0.1]
+[delay 0.1 move AA Y -10 0.1]
+兄弟！[shake AA]　もうすぐ到着だに！
+多分この道を通って——……あっ！[face AA 00]/
+[move AA Y 100 0.1]
+[delay 0.1 move AA Y -100 0.2]
+[delay 0.4 move AA Y 100 0.1]
+[delay 0.5 move AA Y -100 0.2]
+[autotap]/
+[face AA 10]
+[effect fr kira a 0 0]
+[se kira_01]
+[flow]
+到着ーーー！！！！
+海だらーー！！！/
+[effect off a]
+[hide AA]
+[light off 0.5]
+[minibg hamabe 0.5]
+[se amb_17]
+[talkend]
+[textcolor ARUJI]
+白い砂浜。青い空。広がる水平線——……/
+[flow]
+[textcolor ARUJI]
+今日は遠江とふたりで海に来ていた。/
+[flow]
+[textcolor ARUJI]
+海水浴場が空いているうちに行こうと
+遠江から誘われたのだ。/
+[serif off]
+[show AA C]
+[face AA 01]
+[say AA]
+[move AA Y 10 0.4]
+[delay 0.4 move AA Y -10 1.0]
+[-]
+[serif on]
+今日は風が穏やかだら。
+陽射しもあったけぇし泳ぐのにちょうどいいに！/
+[hide AA]
+[serif off]
+?荷物はこのあたりに置いておこうか/
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+砂浜にレジャーシートを敷いて
+ドリンクなどの荷物を置く。/
+[show AA]
+[face AA 06]
+[say AA]
+[move AA Y 100 0.1]
+[delay 0.1 move AA Y -100 0.2]
+[delay 0.4 move AA Y 100 0.1]
+[delay 0.5 move AA Y -100 0.2]
+[autotap]/
+なあ兄弟！　そろそろいいだら？
+へへっ。それっ！/
+[move AA Y -150 0.3]
+[se cloth_06]
+[hide AA]
+[talkend]
+[textcolor ARUJI]
+遠江はこちらの準備を待てないとばかりに
+着ていた服をぱぱっと脱ぎ始める。/
+[show A]
+[face A 02]
+[flow]
+[textcolor ARUJI]
+あっという間に服を脱いで、遠江は
+ふんどし一丁になってしまった。/
+[flow]
+[textcolor ARUJI]
+白い砂浜の上、
+褐色の肌に陽が反射して眩しい。/
+[face A 03]
+[say A]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+さぁ泳ぐぞ兄弟！[se walk_04]/
+[bgm fun]
+[serif off]
+?遠江、ふんどし！？/
+[face A 00]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ん？　なんかおかしいのか？
+兄弟はふんどしじゃないら？/
+[serif off]
+?水着だよ/
+[face A 11]
+[serif on]
+[say A]
+水着……？/
+[talkend]
+[hide A]
+[se cloth_01]
+[shakebg]
+[textcolor ARUJI]
+ズボンを下ろし、
+中に履いてきていた水着を見せる。/
+[show A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[say A]
+へぇ～現代にはそういうのがあるだら？
+んじゃ、つぎは着てくるに！/
+[flow]
+[face A 10]
+ま、今日は持ってないからよ。
+泳ごうぜ、兄弟！/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[face A 01]
+[se cloth_06]
+[talkend]
+[textcolor ARUJI]
+ふんどしで泳ぐ人もいなくはないのかも……
+などと思っていると、遠江に手を掴まれた。/
+[flow]
+[textcolor ARUJI]
+がっしりとして、大きい手のひらに引かれ
+ぐんぐんと海へ向かって進んでいく。/
+[face A 02]
+[say A]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[move A X 300 0.5]
+さぁ、行くに～！[shake A]/
+[serif off]
+?わかったら引っ張らないで～！？/
+[face A 10]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+へへっ、早く海に入りたいに！/
+[hide A]
+[se water_05]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+サラサラとした砂の感触から、
+水を含んだ砂に変わり、ついに波に足が触れた。/
+[effect fr splash 6000 0 0]
+[se water_07]
+[show A C]
+[face A 10]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[shake A]
+おぉっ、ひゃっこいな！[shake A]/
+[hide A]
+[se water_05]
+[talkend]
+[textcolor ARUJI]
+足首を冷たい水が抜けていく。
+気温が高いこともあり、海の冷たさが心地よい。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[say A]
+[move A Y -50 0.3]
+ふぅ～、気持ちいいに～！
+おし、兄弟、もう少し奥いくぞ～。/
+[effect fr splash 6000 0 0]
+[se water_03]
+[move A Y -100 0.5]
+[move A X -300 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+遠江は勢いよく水の中へと入っていく。
+ふんどし一丁のため遠江のおしりは丸見えだ。/
+[flow]
+[textcolor ARUJI]
+ちょっと周りが気になってしまったが
+意外と誰も気にしてないようだ。/
+[se water_06]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[move A Y -100]
+[move A Y 150 0.3]
+[delay 0.3 move A Y -50 0.2]
+[effect fr splash 4000 0 0]
+[shake A]
+ぷはぁっ！　
+全身水に浸かるとまた気持ちがいいだに！/
+[flow]
+[face A 06]
+それに遊べるうえに体も洗えるから
+海ってやつは一石二鳥だに！/
+[serif off]
+?お風呂の代わりにはならないと思うよ！？/
+[se zukkoke_02]
+[face A 05]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+えっ、じゃあこのあとまた風呂に入るだら？
+兄弟はきれい好きだに～。/
+[face A 01]
+[flow]
+ま、いいや。
+遊ぼうぜ兄弟！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[se amb_17]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+持ってきていたスイカ柄のビーチボールを
+打ち合ったり意味もなく追いかけっこをしたり……/
+[flow]
+[textcolor ARUJI]
+子どものように水を蹴って遊ぶ遠江につられて
+思わず笑ってしまった。/
+[flow]
+[textcolor ARUJI]
+それと同時に、おおきな体なのに
+よくそんなに動けるものだと驚かされたのだった。/
+[show A C]
+[face A 10]
+[scale A 1.6]
+[move A Y -120]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[se cloth_06]
+[say A]
+兄弟！　そんな動きじゃおらを捕まえられねぇぞ！
+ほらっ！　ほらほらっ！！[shakebg]/
+[bgm off]
+[effect fr syutyu a -300 -100]
+[hide A]
+[se water_03]
+@子ども
+わぁーーっ！！？/
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+遠江と遊んでいると、遠くで子どもの声が響いた。/
+[bgm departure]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[shake A]
+だに！？[shake A]
+いけねぇ！　兄弟、ここで待ってろよ。[face A 08]/
+[se water_01]
+[effect fr splash 6000 0 0]
+[move A X -800 0.5]
+[rotate A 40 0.3]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+遠江は突然踵を返すと
+勢いよく沖に向かって泳ぎだした。/
+[hide A]
+[serif off]
+?遠江！？/
+[minibg off 0.5]
+[bg r003_sea 0.5]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+遠江の先を見ると、ちいさな子どもが浮き輪に
+しがみつきながら沖へと流されていくのが見えた。/
+[effect fr syutyu a 0 0]
+[flow]
+[textcolor ARUJI]
+遠江はそのむちむちの体からは考えられないほど
+素早く潜るように水を切って進んでいく。/
+[show A C]
+[face A 02]
+[move A Y -100]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[move A Y 100 0.5]/
+[se water_06]
+[say A]
+[effect fr splash 6000 0 0]
+[se water_03]
+ぷはっ！　おらが来たからもう大丈夫だぞ。/
+[effect off a]
+[bg mbg_rokuhara 0.5]
+[minibg hamabe 0.5]
+[se water_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+遠江は子どもの浮き輪を引き寄せ
+砂浜へと泳ぎ戻ってきた。/
+@子ども
+お兄ちゃん……
+ありがとうございます、わぁぁあん。/
+[serif off]
+[bgm home]
+[show A C]
+[face A 00]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+この辺は流れがきついことがあるから
+人の多いところで遊ぶに。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+子どもは返事をすると砂浜にいた友達の
+元へと駆け寄っていった。/
+[show A C]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+ふぅ。よかったよかった。/
+[serif off]
+?遠江、かっこよかった！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 10]
+[serif on]
+[say A]
+[effect fr kira a 0 0]
+[se kira_01]
+こんくらい、なんともねぇら！/
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+笑って肩をすくめる遠江の姿が
+とても頼もしく見えた。/
+[face A 11]
+[say A]
+遠州の海は波が激しいし
+ウドって呼ばれてる離岸流も多いんだに。/
+[flow]
+[face A 01]
+だから少しでも波が穏やかなこの時期に
+兄弟と来たかったに。/
+[face A 02]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ま、もし兄弟が流されても
+おらが助けるから安心するに！/
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+さぁ、まだまだ遊ぶに！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg sky_day]
+[minibg off]
+[hideall]
+[bgm night]
+[-]
+[se amb_17]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+ひとしきり遊んでから、ふたり
+海から上がった。/
+[flow]
+[textcolor ARUJI]
+潮風に吹かれ、濡れた遠江のムチムチした体を
+伝う水滴が煌めいている。/
+[serif off]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふ～、はしゃいだらくたくただに。
+いやぁ、おひさまがあったけぇな。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+隣に並んで砂浜に座ると、優しい陽射しが
+海で冷えた体をじんわりと温めてくれる。/
+[flow]
+[textcolor ARUJI]
+塩の香り、波の音、風に混じる笑い声。
+すべてが混ざり合って不思議な安らぎに包まれる。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+兄弟、これ使うか？
+おらの国の……遠州綿紬の手ぬぐいだに。/
+[serif off]
+?ありがとう/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+色とりどりの縞模様がきれいだ。
+お言葉に甘えて体を拭わせてもらった。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 10]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そうそう、首に巻くのもいいに。
+お、似合ってるぞ、兄弟！[shake A]　へへ。/
+[bg mbg_rokuhara 0.5]
+[minibg hamabe 0.5]
+[se dosa_01]
+[move A Y -20 0.5]
+[rotate A 50 0.5]
+[talkend]
+[textcolor ARUJI]
+遠江はそう言うとごろんと寝返り
+腕を頭の後ろでくみ、空を仰ぐ。/
+[flow]
+心なしか頬を赤らめ
+微笑んでいるように見えた。/
+[face A 06]
+[say A]
+兄弟もここ、並んでみるら。/
+[flow]
+[face A 11]
+あ、枕になるもんねぇし……
+おらの腕枕でもいいだら？/
+[serif off]
+?遠江の腕枕に頭を乗せる/
+[scale A 2 0.5]
+[move A Y -50 0.5]
+[autotap]/
+[face A 01]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+遠江の隣で横になって、腕枕に頭を乗せると、
+ぷにっとした感覚を後頭部で感じた。/
+[hide A]
+[minibg off 0.5]
+[bg sky_day 0.5]
+[autotap]/
+[say A]
+……こうやって、兄弟におらの国を……
+おらの国の風を感じてほしかったに。/
+[flow]
+だから一緒に来られてよかったに。
+今日のことはきっとずっと忘れんだら！/
+[se amb_13]
+[talkend]
+[textcolor ARUJI]
+爽やかな海風が体を吹き抜けていく。/
+[flow]
+[textcolor ARUJI]
+濡れた体はいつの間にか乾いていて
+風がさらさらと体を撫でるようで心地よかった。/
+[serif off]
+?いい風だね/
+[bg mbg_syouen 0.5]
+[minibg hamabe 0.5]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ああ。冬はもっと強い風が吹くからよ。
+いつかそっちの風も浴びに来るに！/
+[serif off]
+?いいね、また来るよ！/
+[face A 02]
+[serif on]
+[say A]
+[shake A]
+おう！/
+[se dosa_01]
+[move A Y -20 0.5]
+[rotate A 50 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+[flow]
+ん～～……
+気持ちいいだらぁ……ふああ～～……/
+[talkend]
+[textcolor ARUJI]
+遠江は大きなあくびをしながら
+足先をピンと伸ばし、ぐぐぐっと伸びをする。/
+[flow]
+[textcolor ARUJI]
+潮の匂いを感じながら爽やかな風に吹かれ
+優しい波音を聴いていると……/
+[serif off]
+?（気持ちいいなぁ……）/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+遠江につられたのか
+どんどん眠くなってしまうのだった。/
+[waku on 1]
+[fadein BLACK 1.5]
+[serif off 0.5]
+[-]
+[minibg ogg]
+[hideall]
+[bg heya_day]
+[bgm fun]
+[wait 1]
+[-]
+[waku off 1]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif off]
+?ヒリヒリするね……/
+[show AA C]
+[face AA 06]
+[say AA]
+[move AA Y 10 0.4]
+[delay 0.4 move AA Y -10 1.0]
+[-]
+[serif on]
+ああ、お湯がしみるから
+しばらく風呂は遠慮するに……/
+[face AA 07]
+[talkend]
+[textcolor ARUJI]
+あのあと、砂浜で何時間も眠ってしまい
+お互いに真っ黒に日焼けしてしまった。/
+[scale AA 1.6 0.5]
+[move AA Y -120 0.5]
+[face AA 06]
+[autotap]/
+[say AA]
+[move AA Y 10 0.1]
+[delay 0.1 move AA Y -10 0.1]
+兄弟見ろよ、おらのふんどし焼けだに！
+くっきりだら。/
+[move AA Y 10 0.1]
+[delay 0.1 move AA Y -10 0.2]
+[delay 0.3 move AA Y 10 0.1]
+[delay 0.4 move AA Y -10 0.2]
+[delay 0.6 move AA Y 10 0.1]
+[delay 0.7 move AA Y -10 0.3]
+[autotap]/
+[flow]
+[face AA 10]
+ははは、兄弟も水着履いてたとこだけは
+白いだら。/
+[move AA Y 20 0.4]
+[delay 0.6 move AA Y -20 0.2]
+[autotap]/
+[face AA 12]
+[flow]
+[se cloth_01]
+お、もうここ、皮むけてきたら？
+おらもほら、このへんむけてきちまった。/
+[serif off]
+?遠江のもむいてあげる/
+[face AA 05]
+[serif on]
+[say AA]
+[move AA Y 10 0.1]
+[delay 0.1 move AA Y -10 0.1]
+んわっ！？　[shake AA]へへっ。
+くすぐってぇなぁ。[face AA 02]/
+[face AA 06]
+[flow]
+[move AA Y 10 0.1]
+[delay 0.1 move AA Y -10 0.1]
+よーし、おらも兄弟のをむいてやるに。
+優しくするからよぉ！[shake AA]/
+[talkend]
+[textcolor ARUJI]
+ふたりでお互いの皮をむきあいながら
+海にでかけた日のことを思い出していた。/
+[flow]
+[textcolor ARUJI]
+遠江にもらった手ぬぐいは
+今も大切にしまっているのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

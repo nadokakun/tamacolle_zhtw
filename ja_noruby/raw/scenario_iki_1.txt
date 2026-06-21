@@ -1,0 +1,1213 @@
+>>10000/
+@壱岐
+お待たせっ。オレ、西海道、壱岐！[autotap]/
+[delay 3.5]
+[flow]
+[-]
+@壱岐
+冒険の準備はできてるよ。[wait 2]
+さあ早く出発しようよ、団長！/
+>>10001/
+@壱岐
+団長、ただいま！[wait 2]
+ちょうどあちこち冒険してきたところだよ。[autotap]/
+[delay 3]
+[flow]
+[-]
+@壱岐
+見せたいものいっぱいあるんだ！
+へへっ。/
+>>1/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+団長、うずうずして、どうしたの？[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+そっか、わかった！[face A 02]　そろそろ冒険したいんだ！/
+[face A 01]
+[flow]
+へへ、じゃあまずは、壱岐国の小島神社に行こうよ。
+干潮の前後だけ砂の参道がすーっと現れるんだ！/
+[face A 07]
+[effect fr kira 6000 0 0]
+[se kira_01]
+[flow]
+潮のリズムで開かれる神域……
+まさに冒険のはじまりにぴったりだよね！[shake A][face A 09]/
+>>2/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+壱岐島の猿岩は、海を見張る猿の横顔みたいな
+おっきな岩なんだ。/
+[face A 02]
+[flow]
+……オレ、あの横顔を見ると、なんだかいつも
+見守ってくれてる気がするんだよね。/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+壱岐国の守り神なのかも！　
+夕日の名所だから、団長、一緒に見に行こうよ！[shake A]/
+>>3/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+団長、壱岐国でたっぷり冒険したあとは
+美味しいご褒美が欲しいよね！/
+[face A 02]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[flow]
+オレのオススメはウニ丼だよ。
+一口で玄界灘の香りが広がるんだ、へへっ。[shake A][face A 01]/
+[face A 00]
+[flow]
+あっ、旬の時期が短いから、事前調査してから
+行ってね！　……一緒に食べに行く？[face A 07]/
+[face A 02]
+[flow]
+それじゃあまずは、冒険に出発だね！/
+>>4/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+冒険には栄養補給も大事だからね。
+おにぎりを握っていこうっと！/
+[face A 02]
+[flow]
+傷みづらい具材で、海苔もたっぷり巻いて……
+わぁー美味しそう……ぱくっ！　うまぁ～～！[shake A][se eat_01]/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[autotap]/
+[face A 05]
+[flow]
+ぱくっぱく……わっ！　
+思わず全部食べちゃった……へへっ。[face A 01]/
+>>5/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[show A C]
+[show B]
+[setline A B]
+[face B 00]
+[face A 01]
+[serif on]
+[talk A]
+$B:A、準備も万全だね。
+それじゃあ冒険に出発しよう！/
+[face A 02]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+今日はどこに行く？　$B:Aの行きたいとこ、
+一緒に行くよ！　きっとすごい発見ができるはず！[shake A][se taiko_02]/
+>>6/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし -@NPC -iki]
+[show B]
+[face B 00]
+[-]
+[show A R]
+[move A X 600]
+[setline 0.5 B A]
+[face A 09]
+[serif on]
+[talk A]
+$B:A、洗濯物してたんだね、おつかれさま！
+ん？　[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]ん～～、この風……[face A 11]/
+[face A 00]
+[flow]
+$B:A、これから雨が降るよ。
+だから洗濯物干すのは後で……/
+[effect bk rain a 0 0]
+[face A 05]
+[face B 05]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[se rain_01]
+[shakebg]
+[move B X 100 0.3]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+って、わーー大雨だ！　危なかったね。
+オレ、風を読むのは得意なんだ。[shake A][face A 01][face B 01]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[show A C]
+[show B]
+[setline A B]
+[orderline A B]
+[face A 09]
+[face B 00]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+見てみて、テレビで[= トンネル ドーナツ 洞窟 穴 マンホール バウムクーヘン]の特集やってるよ！
+くぅ～～っ！[shake A]/
+[face A 02]
+[face B 05]
+[flow]
+やっぱり「穴」が空いてるってだけで
+ワクワクしちゃうなぁ～！　えへへっ。[shake A][se zukkoke_02]/
+>>10/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[move A Y -50]
+[serif on]
+[talk A]
+忘れ物はないかな……んーと、これと、これと……
+着替えに宝の地図に、おやつもちょっと入れてっと！[se cloth_01][shake A]/
+[se kira_01]
+[effect fr kira a 0 0]
+[move A Y 50 0.5]
+[face A 01]
+[flow]
+オレのリュック、今日もパンパンになっちゃった。
+へへっ。冒険に行くのが楽しみだなぁ！/
+>>11/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、そうだ。今日の冒険の記録をつけようっと！/
+[se write_01]
+[face A 00]
+[flow]
+「[= 御座所 修練所 厠 湯殿 寝床 荘園の広間 銭湯 任務先 山]で[= 刺激的な 一触即発な 信じられない ヤバい すっごい 奇妙な][= 体験ができた ものを見かけちゃった 状況に遭遇した]。
+あー、[= わくわくしたぁ どきどきしたぁ はらはらしたぁ 楽しかったぁ]！」っと。[shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+……体って、こんな仕組みがあるんだ……/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+そういうのを調べるのも、冒険みたいで
+ちょっとおもしろいかも……！[shake A]/
+>>15/
+[set A s_iki_b 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+戦いは力比べだけじゃないんだ。
+小さい体を活かして、素早く何度も！！[shake A]/
+[face A 03]
+[effect fr allows 5000 100 0]
+[se syu_02]
+[delay 0.2 se syu_01]
+[shakebg]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[flow]
+そして正確に射抜く！
+これがオレの戦い方さ！[shake A]/
+>>16/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし -@NPC -iki]
+[show A C]
+[show B]
+[setline A B]
+[face B 08]
+[face A 10]
+[serif on]
+[talk A]
+[shakebg]
+[se doka_01]
+[move A X -200 0.3]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+うわぁあっ！　くぅ……$B:A、
+すっごく強いや……オレももっと強くなりたい……[face A 06]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+だから、胸を借りるよ。へへっ。
+さぁ、もう一回だぁ！[shake A][face A 08]/
+>>17/
+[set A s_iki_b 壱岐]
+[randomset B b @地魂男児 @あやかし @NPC -iki]
+[show A C]
+[show B]
+[setline B A]
+[face B 00]
+[face A 01]
+[serif on]
+[talk A]
+ふぅ～～全身拭き終わったぁ～。
+さぁ下履きを穿こっと……あれ？[face A 08]/
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[face B 06]
+[face A 00]
+[flow]
+$B:A、まだおしりのとこ濡れてるよ。
+ごしごしっと。前はどう？/
+[face A 01]
+[face B 01]
+[flow]
+ん～、大丈夫そうだね。
+あれっ、オレ下履きどこ置いたっけ！？[shake A][face A 05]/
+>>18/
+[set A s_iki_b 壱岐]
+[show A R]
+[face A 08]
+[serif on]
+[talk A]
+いっちに、さんし……よーし、体がほぐれたぞ。[shake A][face A 00]
+飛び込みは誰もいないときだけならしてもいいんだ。[move A XY -50 50 0.5]/
+[move A X -250 0.5]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -200 0.2]
+[se water_02]
+[effect fr splash 6000 -250 0]
+[autotap]/
+[face A 01]
+[flow]
+さぁ、いっくぞーー、やっほー！！
+ざぶーん！！[se bath_02][shakebg]/
+>>19/
+[set A s_iki_b 壱岐]
+[randomset B b @地魂男児 @あやかし @NPC -iki]
+[randomset C b @地魂男児 @あやかし @NPC -iki -@NOW]
+[show A C]
+[face A 06]
+[show B]
+[show C]
+[face B 00]
+[face C 00]
+[setline B A C]
+[moveline B A C 0 -50 0]
+[serif on]
+[talk A]
+あれ、なんでこんなことになっちゃったんだろ……
+お風呂から上がれないよ……[se bath_04]/
+[move B X -300 0.5]
+[rotate A 20 0.5]
+[delay 0.1 move A X -250 0.5]
+[autotap]/
+[se water_07]
+[effect fr splash 6000 -250 0]
+[face A 05]
+[flow]
+[face C 06]
+わっ、$B:A、引っ張らないでってばぁ！[shake A]
+わぁああ～～～～～～～～。[move A X -1000 0.5][move B X -1000 0.5][se water_07][shakebg]/
+>>20/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[randomset C r @地魂男児 @あやかし @NPC -iki -@NOW]
+[show A R]
+[move A X 300]
+[move A X -300 0.3]
+[show B]
+[show C]
+[setline B C -200 400]
+[face B 04]
+[face C 04]
+[face A 05]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え、こんなに並んでるの！？
+じゃあ、外でしてこよっと！[shake A][face A 01]/
+[face C 05]
+[face A 00]
+[flow]
+冒険のときは、いつもそうだしね。山のなかなら
+いいでしょ？/
+[face A 12]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face C 03]
+[flow]
+え、だめ～？
+うぅ、漏れちゃうよぉ……[shake A]/
+>>21/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+今日は荘園の尿検査だね。
+みんなやってるなぁ……じゃあ、オレも……[cloth_01][scale A 1.6 0.5][move A Y -100 0.5]/
+[se pee_01]
+[face A 12]
+[flow]
+ん～～カップにするのって加減がむずかし……
+あっ、こぼれちゃったぁ！[shake A]/
+>>22/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[randomset C r @地魂男児 @あやかし @NPC -iki -@NOW]
+[show A R]
+[move A X 300]
+[move A X -300 0.3]
+[show B]
+[show C]
+[setline B C -200 400]
+[face B 04]
+[face C 04]
+[face A 05]
+[serif on]
+[talk A]
+わーー、今日もこんなに並んでる……
+うぅ～、お腹痛くて苦しい……[face A 12]/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+よし、こういうときは、外でしてこよっと！
+冒険のときは、いつもそうだし――……/
+[move A X -100 0.3]
+[face A 04]
+[flow]
+なんて、さすがにやめとくから……
+は、はやく順番きてー！！[shake A]/
+>>23/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+ふぅ～～、すっきり……
+ん？　本がある……「大人の冒険」？[face A 11]/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+[se paper_01]
+どんな冒険だろ、すっごい気になる！
+…………うわぁ！[shake A][face A 05]/
+[face A 06]
+[flow]
+えっ、こういう冒険もあるんだ……
+どうしよう、どきどきしてきちゃったぁ……うぅっ。/
+>>24/
+[set A s_iki_r 壱岐]
+[show A C]
+[rotate A 20]
+[move A Y -100]
+[move A Y 100 0.5]
+[rotate A 0 0.5]
+[face A 01]
+[serif on]
+[talk A]
+ん～……明日の冒険が楽しみで、なかなか寝付け
+ないや……はぁ、起きれなかったらどうしよう。/
+[face A 12]
+[flow]
+ちょっと運動したら眠れるかな……
+んしょ、んしょ……[shake A]/
+>>25/
+[set A s_iki_r 壱岐]
+[show A C]
+[face A 07]
+[rotate A -30]
+[move A Y -50]
+[serif on]
+[talk A]
+くか～～、団長、オレたち、こんなところまで
+来れたんだね……すやぁ……/
+[talkend]
+いい夢を見ているようだ。/
+>>26/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし @NPC -iki]
+[randomset C r @地魂男児 @あやかし @NPC -iki -@NOW]
+[show B]
+[show C]
+[show A C]
+[face A 06]
+[face B 07]
+[face C 07]
+[rotate A -60]
+[rotate B -60]
+[rotate C -60]
+[setline C A B]
+[moveline A B C 0 -50 0]
+[se cloth_01]
+[rotate A 0 0.5]
+[talk A]
+[move A Y 50 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+なんか体が変だなぁ……こういうときは
+どうすればいいか、誰か教えてくれるかな……/
+[face A 12]
+[rotate B 0 0.5]
+[se cloth_01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+[face B 01]
+ねぇ$B:A、ちょっといい……？
+みんな寝てるから、外で相談したいんだけど……/
+>>100/
+[set A s_iki_r 壱岐]
+[randomset B r @地魂男児 @あやかし -@NPC -iki]
+[randomset C r @地魂男児 @あやかし -@NPC -iki]
+[randomset D r @地魂男児 @あやかし -@NPC -iki]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 壱岐と冒険団結成]
+[-]
+[bg heya_day]
+[-]
+[fadeout 2.0]
+[-]
+[bgm home]
+[wait 1]
+[-]
+[fadein BLACK 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on 0.5]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+今日は休日――/
+[se amb_01]
+[flow]
+[textcolor ARUJI]
+部屋に差し込む温かな日差しで目が覚めた。
+仕事のない日を荘園で過ごすのも悪くない。/
+[flow]
+[se fusuma_01]
+[bg mbg_map 0.5]
+[minibg ima 0.5]
+[textcolor ARUJI]
+広間をのぞき込むと、大きなリュックを
+ごそごそやっている小さな男児の姿が目に入った。/
+[serif off]
+?壱岐/
+[bgm cute]
+[show A C]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[-]
+[serif on]
+あ！　主さん、おはよう。
+今日はお休みだったよね。[face A 00]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[flow]
+まだ寝てると思ったから後で挨拶に
+行こうと思ってたんだ。/
+[face A 02]
+[shake A]
+[flow]
+主さんから来てくれるなんて
+オレ、嬉しいよ！/
+[serif off]
+?出かけるところ？/
+[face A 11]
+[serif on]
+えっ、あ……このリュック？
+これは、冒険の準備だよ！[face A 02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+ここには冒険に必要なものが
+いっぱい入ってるんだ。/
+[face A 00]
+[flow]
+いつでも冒険に出かけられるように
+必要なものはしっかり準備してるんだよ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+確かにいつでも任務に出られる男児は心強い。/
+[serif off]
+?壱岐のリュックを覗いてみる/
+[show A C]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[face A 01]
+[say A]
+[serif on]
+見てみる？　いいよ！/
+[face A 07]
+[se cloth_06]
+[flow]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+これが着替えの下履きで、靴下、防寒具、
+あれとこれと……非常食のお菓子もあるよ！[move A XY 10 -40 0.4][rotate A -10 0.3][delay 0.4 move A XY -10 40 0.3][delay 0.5 rotate A 0 0.3][se cloth_01]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 01]
+いざっていうとき役立つし、
+すっごくおいしいから！/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+壱岐のリュックの中は一目見て
+整理されているのがわかった。/
+[flow]
+[textcolor ARUJI]
+すべてのものが隙間なく綺麗に詰め込まれ
+それでいてアクセスしやすく考えられているようだ。/
+[serif off]
+?すごいね/
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 00]
+[shake A]
+[say A]
+[serif on]
+でしょ！　やっぱり取り出しやすさも大事だし
+忘れ物はしたくないし……/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 01]
+このリュックに準備をしてると
+すっごくわくわくしてくるんだ！/
+[serif off]
+?そんなにわくわくするの？/
+[face A 00]
+[serif on]
+うん！
+冒険ってさ、いろんな状況があるよね。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 08]
+ときには前人未踏の地に、自分の身ひとつで
+行って帰ってこなきゃいけないときだってある。/
+[face A 03]
+[shake A]
+[flow]
+だから準備をしながら想像するんだ。
+どんなときになにが必要になるか……ってさ！/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[shake A]
+[flow]
+あっ！　いまわかったけど……準備してるときも
+頭の中で冒険に行ってるのかも！/
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+壱岐は身振り手振りを使って
+楽しそうに力説してくる。/
+[serif off]
+?好きなんだね、冒険が/
+[effect fr kira a 0 0]
+[se kira_01]
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 01]
+[say A]
+[serif on]
+うん、大好きだよ。/
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+見たことのない景色。不思議なもの。
+自然の姿、生き物たち。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+困難な道のりの先でそんなものを見つけたらさ
+言葉で言い表せられないくらい胸が満たされるんだ。/
+[effect off a]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+壱岐の笑顔を見ているとなんだか
+こちらまで楽しくなってくる。/
+[flow]
+[textcolor ARUJI]
+せっかくなのでもう少し壱岐のことを
+知りたくなった。/
+[serif off]
+?荘園のなかを一緒に冒険してみる？/
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 05]
+[shake A]
+[say A]
+[serif on]
+えっ、いいの！？
+やったぁ！[face A 09]/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.4 move A Y 10 0.1]
+[delay 0.5 move A Y -10 0.2]
+[autotap]/
+[flow]
+[face A 01]
+オレ、まだ荘園のなか詳しくないから
+主さんと一緒に冒険できるの嬉しいよ！/
+[face A 09]
+[shake A]
+[flow]
+それじゃあ早速……
+しゅっぱーつ！！/
+[se fusuma_01]]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg niwa_day]
+[minibg off]
+[bgm fun]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[place 屋外修練場]
+[-]
+[autotap]/
+[show A C]
+[move A X 1000]
+[move A X -1000 0.5]
+[face A 01]
+[say A]
+[serif on]
+大発見の予感だ～！！/
+[show C L]
+[move C X -300]
+[move C X 300 0.5]
+[face C 05]
+[orderline A C]
+[face A 11]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[face A 11]
+[flow]
+これなんだろ……
+誰かが忘れてった着替えかな？/
+[face C 06]
+[se cloth_01]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg mbg_syouen]
+[minibg syouen_tyubo]
+[hide C]
+[move A X -1000]
+[-]
+[fadeout 1.5]
+[-]
+[place 厨 くりや]
+[-]
+[move A X 1000 0.5]
+[autotap]/
+[face A 07]
+[say A]
+[serif on]
+いいにおい……今日の献立を予想するぞ。
+この様子だと、作ってるのは味噌汁とー…/
+[talkend]
+[textcolor ARUJI]
+壱岐は厨の様子から楽しそうに想像を
+巡らせているようだ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[move A X -1000]
+[minibg kawaya_day]
+[-]
+[fadeout 1.5]
+[-]
+[place 厠 かわや]
+[-]
+[move A X 800 0.5]
+[autotap]/
+[face A 00]
+[say A]
+[serif on]
+すっごくきれいに手入れされてるよね！
+あっ、見て主さん！[face A 05][shake A]/
+[effect fr syuryu a 0 0]
+[move A X 400 0.3]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[flow]
+壁に穴が空いてる……！
+うずうずっ！！　穴ってわくわくするよね……！/
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+でも、隣が見えちゃうと恥ずかしいから
+補修しとくね。/
+[face A 08]
+[move A XY -10 -40 0.4]
+[rotate A -10 0.3]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+壱岐は手慣れた動きでリュックから
+テープを取り出し、補修を進めた。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg off]
+[bg heya_day]
+[show A]
+[face A 00]
+[move A X -1000]
+[-]
+[fadeout 1.5]
+[-]
+[place 大部屋 おおべや]
+[-]
+[move A X 800 0.5]
+[se fusuma_01]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+[say A]
+[serif on]
+この寝床の使い方、寝相の感じ……
+周りに置かれてる物からして、きっと$B:Aだね！/
+[serif off]
+?洞察力ある～！/
+[face A 01]
+[serif on]
+へへ、そうかな。主さんと冒険に出てるから
+いつもよりはりきっちゃってるのかも。/
+[face A 02]
+[shake A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+この荘園、すごく広くて冒険しがいがあるね。
+主さん！/
+[bg rouka_day 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+荘園のなかを一通り歩き回ってそろそろ
+終わりかなと思っていると、壱岐が振り返り言った。/
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 01]
+[say A]
+[serif on]
+じゃあ、せっかくだし最後に――……
+前人未踏の場所に行ってみたい！[shake A]/
+[serif off]
+?前人未踏！？/
+[face A 02]
+[serif on]
+誰もまだ使ってない和室を見つけたいなって。
+そこにちょっと荷物置かせてもらってもいいかな。/
+[serif off]
+?ああ、なるほど/
+[face A 08]
+[shake A]
+[serif on]
+せっかくだし競争してみようよ。主さんとオレ、
+どっちが先に部屋を見つけられるか！/
+[serif off]
+?勝った方がお願いを聞いてもらうとか？/
+[bgm battle]
+[face A 09]
+[shake A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.4 move A Y 10 0.1]
+[delay 0.5 move A Y -10 0.2]
+[autotap]/
+[serif on]
+いいよ！
+へへっ、負けないぞ～！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+部屋割は把握しているからこちらが有利。
+肩叩きでもしてもらおうかな、と考えていると――/
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 08]
+[say A]
+[serif on]
+いつでもいいよっ。
+かけ声おねがい！/
+[serif off]
+?じゃあ、よーいスタート！/
+[scale A 0.8 0.3]
+[move A Y 250 0.3]
+[effect bg waveout 5000 0 0]
+[se walk_03]
+[hide A 0.3]
+[quake 1]
+[effect fr syutyu a 0 0]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+合図とともに壱岐が全力で駆け出した。
+廊下に並ぶ和室をどんどんと通り過ぎていく。/
+[show A C]
+[move A X -1000]
+[move A X 500 0.3]
+[scale A 1.6]
+[move A Y -100]
+[face A 07]
+[say A]
+ここは違う、[wait 0.2]ここも違う……
+……！！[face A 08][move A X 500 0.3]/
+[scale A 2 0.3]
+[move A Y -80 0.3]
+[face A 03]
+[effect off a]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[autotap]/
+[flow]
+ここだぁーー！！/
+[fadein WHITE 0.2]
+[-]
+[bgm off]
+[bg heya_day]
+[hide A]
+[quake off]
+[-]
+[delay 0.2 fadeout 1]
+[se fusuma_02]
+[talkend]
+[textcolor ARUJI]
+壱岐がふすまを開けると
+そこは誰にも使われていない新品の部屋だった。/
+[serif off]
+?負けた……早すぎ！/
+[serif on]
+[textcolor ARUJI]
+しかも途中の部屋は中の確認もせず
+一気に走り抜けて空き部屋にたどり着いたのだ。/
+[bgm fun]
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 01]
+[say A]
+へへへ……ひとの匂いや気配がしない部屋を
+探すようにしたんだ。/
+[face A 02]
+[flow]
+風を読むっていうのかな……
+こういうの得意なんだ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+壱岐の風を読む力、
+そして観察眼は確かなようだ。/
+[serif off]
+?約束はどうする？/
+[show A C]
+[face A 11]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[say A]
+[-]
+[serif on]
+約束……あ、そうだった！[shake A][face A 05]
+勝負に勝ったらお願いを聞いてもらえるんだっけ。/
+[face A 01]
+[flow]
+オレ、夢中でお願い事全然考えてなかったや。
+へへ。/
+[face A 11]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+ん～～、オレ、主さんと冒険ができただけで
+十分なんだけど……/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[flow]
+あっ！　……すっごくいいお願いを
+思いついちゃった！/
+[serif off]
+?なになに？/
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[-]
+[serif on]
+主さん、あのね……/
+[face A 02]
+[shake A]
+[effect fr syutyu 6000 0 0]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.4 move A Y 10 0.1]
+[delay 0.5 move A Y -10 0.2]
+[autotap]/
+[flow]
+[bgm ascending]
+今日からオレたちの冒険団を作ろうよ！
+色々な場所に一緒に行くんだ。[se taiko_02]/
+[serif off]
+?冒険団！？/
+[face A 00]
+[serif on]
+そうだよ！　いろんなところに出かけて
+新しいものを発見したり色んな景色を見たりさ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+冒険団と聞いたときは驚いたが
+壱岐は大真面目だ。/
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 02]
+[shake A]
+[say A]
+[serif on]
+きっとすごく楽しいよ！
+オレのお願いはこれしかないよ！/
+[serif off]
+?わかったよ。/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.4 move A Y 10 0.1]
+[delay 0.5 move A Y -10 0.2]
+[autotap]/
+[serif on]
+やったぁ！
+オレたちの冒険団結成だね、団長っ！/
+[serif off]
+?団長！？/
+[face A 02]
+[serif on]
+そう！　主さんが冒険団の団長で
+オレは副団長、雑用や準備は任せてね！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 01]
+へへ、これからも団長といろんな冒険に
+出られるんだ……オレすっごく嬉しいよ！/
+[face A 00]
+[flow]
+それじゃあ、これは、冒険団結成の証。
+受け取ってよ、団長！/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+壱岐は大きなリュックの中から
+つるつるとした石を渡してくれた。/
+[serif off]
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[say A]
+[-]
+[serif on]
+今朝冒険中に見つけたんだ。
+いまのところ、オレの一番の宝物。[face A 01]/
+[serif off]
+?そんな大事なものをいいの？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+石については詳しくないが、ただの石ころに
+見えつつ、なんとなく貴重なものな気がする。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[shake A]
+[say A]
+いいよ！　今日は大事な日だもん。
+団長とオレの、絆を結んだ日だからね！/
+[serif off]
+?わかった。それじゃあ、大切にするね/
+[face A 01]
+[serif on]
+うん！　…ていっても、[face A 11]
+これ荘園の縁側で見つけたものだから――/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[effect fr kira a 0 0]
+[se kira_01]
+[flow]
+もっと冒険に行って、
+どんどん宝物を増やしていこうね、団長！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+次はこの荘園の庭を探検したいなぁ。
+広大な庭の果てに、何があるんだろう。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 09]
+考えるだけでもわくわくしてくるよ！/
+[effect off a]
+[flow]
+[face A 08]
+早速冒険に行きたいところだけど……
+まずは準備だね。[face A 01]/
+[face A 02]
+[flow]
+団長のリュックもオレがしっかり準備するからさ
+必要なものを買い出しに行こうよ。/
+[hide A]
+[serif off]
+?行こう！/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+自分のリュックの準備を考えて
+既にわくわくし始めていた。/
+[show A]
+[scale A 2]
+[move A Y -160]
+[face A 02]
+[shake A]
+[effect fr kira a 0 0]
+[se kira_01]
+[say A]
+へへっ！　これからもよろしくね、団長っ！/
+[hide A]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+小さな冒険家、壱岐が荘園の一員に加わった。/
+[flow]
+[textcolor ARUJI]
+その大きな好奇心で、この荘園にいつまでも
+新しい風を吹き込んでくれそうだ。/
+[flow]
+[textcolor ARUJI]
+そんなふうに思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[bgm off]
+[wait 1]
+[-]
+[autotap]/

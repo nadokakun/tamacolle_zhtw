@@ -1,0 +1,1123 @@
+>>0/
+((s))
+[set W s_san_m 讃岐]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n002_m 猪森]
+[set E s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 打ち上げは焼き肉だ！]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_yakiniku]
+[-]
+[fadeout]
+[bgm fun]
+[-]
+[talkend]
+[place 焼き肉処　おにく]
+[-]
+[autotap]/
+((m))
+[set W s_mus_m 武蔵]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n002_m 猪森]
+[set E s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 打ち上げは焼き肉だ！]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_yakiniku]
+[-]
+[fadeout]
+[bgm fun]
+[-]
+[serif on 0.5]
+[talkend]
+特務機関ロクハラ　３F　レストランエリア
+　　　　　　　焼き肉処　おにく/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n003_m 羽鳥]
+[set D s_n002_m 猪森]
+[set E s_n005_m りく]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 打ち上げは焼き肉だ！]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_yakiniku]
+[-]
+[fadeout]
+[bgm fun]
+[-]
+[serif on 0.5]
+[talkend]
+特務機関ロクハラ　３F　レストランエリア
+　　　　　　　焼き肉処　おにく/
+[show B C]
+[face B 01]
+[talk B]
+[serif on 0.5]
+ここの肉うめぇんだよな～。
+今日はロクハラの金で食えるんだ♪　経費万歳！/
+[serif off]
+[hide B]
+[-]
+[se kira_01]
+[show W C]
+[effect W kira a 0 100]
+[face W 09]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[autotap]/
+((s))
+[serif on]
+[talk W]
+わぁ～っ献立に美味しそうなお肉の写真が
+いっぱい……！/
+((m))
+[serif on]
+[talk W]
+うおぉおっ！　こ、この写真の肉……
+どれ頼んでもいいのか！？/
+((e))
+[serif on]
+[talk W]
+おぉ、注文表のどの肉も白飯が進みそうッス！[wait 0.5]
+……[face W 09]てぃーけーじーってのは白飯とは違うんスか？/
+[effect off a]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[autotap]/
+((s))
+[face W 12]
+あ、あるじさま。ドリンクめにゅーもあるよ！
+あるこぉるのは……こっち！[face W 01]
+[move W XY -10 -40 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 40 0.3]
+[delay 0.5 rotate W 0 0.3]
+[se paper_01]/
+((m))
+[auto]
+お、大将。ドリンクめにゅうも見るか？
+あるこぉるは後ろのぺぇじだぜ！[face W 01]
+[move W XY -10 -40 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 40 0.3]
+[delay 0.5 rotate W 0 0.3]
+[se paper_01]/
+((e))
+[auto]
+あ、師匠、お酒のめにゅう見ますか？
+かくてるも種類があるみたいッスよ！[face W 01]
+[move W XY -10 -40 0.4]
+[rotate W 10 0.3]
+[delay 0.4 move W XY 10 40 0.3]
+[delay 0.5 rotate W 0 0.3]
+[se paper_01]/
+[show B L]
+[setline 0.5 B W]
+[face B 09]
+[say B]
+お、$W:Bお前けっこー横文字読めるように
+なったよな～。最初は全然だったのによ！/
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[autotap]/
+((s))
+[face W 12]
+[say W]
+えへへ……仲間のみんなと一緒に
+テレビとか観ながら勉強してるんだ。/
+((m))
+[auto]
+へへっ。漫画やら新聞やら読んでると
+結構簡単に覚えちまったぜぃ。/
+((e))
+[auto]
+師匠に借りた本のおかげで結構覚えてきました！
+師匠のことも知れて嬉しいッス！/
+((s))
+[face B 01]
+[face W 08]
+[flow]
+結構覚えてきたよ！
+えーっと、ハラミと……[wait 0.2]かるぴ……[shake W 2 2 3]かるび……[face W 11]/
+((m))
+[auto]
+例えばこいつはとんぐだろ。こいつは徳利……
+と見せかけてぴっちゃあだ！[shake W]　どうよ！[face W 01]/
+((e))
+[face W 01]
+[flow]
+ちなみに机はてぇぶるとも言うんスよね。
+……[wait 0.2][face W 11]でもてぃーけーじーってのは一体……/
+[show A L]
+[setline 0.5 A B W]
+[face A 01]
+[say A]
+僕も$Wくんたちを見習ってもっと
+勉強しないとって思わされるなぁ。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[say B]
+[face B 09]
+頼りにしてるぜ！　なっと！　$W！/
+[say A]
+[face W 01]
+[face A 13]
+[se zukkoke_02]
+[shake A 3 3 2]
+猫乃屋さんも刺激受けてくださいよ！/
+[hide W]
+[-]
+[show C L]
+[setline 0.5 C A B]
+[face A 00]
+[face B 01]
+[face C 00]
+[talk A]
+猪森さんがまだだけど……[shake A]
+先[face A 01]に飲み物注文しちゃいます？/
+[face C 01]
+[say C]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+うん。いいと思うよぉ。
+なんだかわくわくするねぇ～。/
+[face A 02]
+[say A]
+みんな、飲み物決まった？/
+[serif off]
+[hide A]
+[hide B]
+[hide C]
+[-]
+[se walk_03]
+[show D L]
+[move D X -400]
+[face D 09]
+[talk D]
+[move D C 0.5]
+[-]
+[serif on]
+わわわ、遅れてすみませぇーん！[shake D]
+どわーーーー！！！！[rotate D -30 0.3][move D XY 600 -300 0.3][se zukkoke_01][se paper_01][delay 0.2 se paper_01][hide D][shakebg]/
+[show A C]
+[face A 12]
+[talk A]
+い、猪森さん？
+大丈夫ですか！？/
+[hide A]
+[serif off]
+[-]
+[show D C]
+[show E C]
+[move D Y -200]
+[move D Y 200 1.0]
+[face D 10]
+[face E 04]
+[talkend]
+[setline E D]
+[order D 5]
+[order E 0]
+[-]
+[shake D]
+[serif on]
+床に倒れる猪森。その横には移動式チェアに座る
+雲龍院りくがいた。/
+[say E]
+大丈夫？　猪森の兄ちゃん。
+もしかして僕の車椅子につまずいちゃった……？/
+[face D 14]
+[say D]
+う、うぅ……[shake D]ううん、ごめんね、ちょっと昨日は
+寝てる暇がなくて……[shake D]フラフラで……/
+[show B R]
+[face B 03]
+[setline 0.5 E D B]
+[say B]
+[order B 3]
+おい、いのっち！
+何でりく連れてきてんだよ！/
+[face E 12]
+[say E]
+[face E 01]
+[move E Y -10 0.1]
+[delay 0.1 move E Y -10 0.2]
+[delay 0.3 move E Y 10 0.1]
+[delay 0.4 move E Y -10 0.2]
+[delay 0.6 move E Y 10 0.1]
+[delay 0.7 move E Y -10 0.3]
+[autotap]/
+へっへっへ～……
+そこで猪森の兄ちゃんに会ったんだ♪/
+[face E 03]
+ねぇ僕も仲間みたいなもんでしょ？
+何で誘ってくれなかったの～？[shake E]/
+[say B]
+お前は部外者だろっ！[shake B]/
+[face D 12]
+[say D]
+チーム的には自分も部外者な気がするけど……
+呼ばれちゃってよかったのかな？/
+[hide B]
+[-]
+[show A R]
+[setline 0.5 E D A]
+[face A 02]
+[talk A]
+[order A 0]
+[order D 5]
+当然ですよ！　猪森さんはビールで大丈夫です？　
+りくくんは、ソーダね。/
+[face D 01]
+[face E 01]
+[talk D]
+うん、ありがとう！/
+((s))
+[hide A]
+[hide D]
+[hide E]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[face W 00]
+[face B 11]
+[talk B]
+$Wには、ジュースか？
+あ、でも地魂男児に年齢なんて関係ないか……/
+((m))
+[hide A]
+[hide D]
+[hide E]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[face W 00]
+[face B 11]
+[talk B]
+$Wはどうする？　ソフトドリンクか酒か……
+武蔵、酒強そうだよなぁ！/
+((e))
+[hide A]
+[hide D]
+[hide E]
+[-]
+[show W C]
+[show B C]
+[setline W B]
+[face W 00]
+[face B 11]
+[talk B]
+$Wはどうする？　ソフトドリンクか酒か……
+って、お前結構酒豪だっけ？/
+((s))
+[face B 01]
+こう見えて人間換算で数百歳ってことだろ？
+酒いっちまうか！/
+((m))
+[face B 01]
+昔は武蔵国なんかでも酒造りとか
+盛んだったんじゃねぇの？/
+((e))
+[face B 01]
+なっとは酒弱ぇから物足りねぇんだ。
+今日はたっぷり飲もうぜ！/
+((s))
+[face W 02]
+[say W]
+オイラどっちでもいいよ！
+讃岐国は清酒発祥の地とも言われてるしね！/
+((m))
+[auto]
+おぉ、よく知ってんじゃねぇか！
+もちろんオレぁ、どっちでもいける口だぜ！/
+((e))
+[auto]
+はい！　オレは日本酒だと嬉しいッス！
+お米からできてますからね！/
+[fadein BLACK 1.5]
+[serif off 01.5]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show A C]
+[face A 01]
+[talk A]
+ビールを隣にまわして……っと
+みんな、飲み物いきました？/
+[face A 00]
+[serif off]
+[bgm off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[autotap]/
+[serif on]
+え～[wait 0.2]…[wait 0.2]…[wait 0.2]では、初任務完了！[se taiko_01][wait 0.2]　兼
+新人歓迎会ということで……[se taiko_02]/
+[serif off]
+[face A 02]
+[bgm fun]
+[wait 1.0]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+かんぱ～い！[shakebg]/
+((s))
+[hide A]
+[-]
+[serif off]
+[show W C]
+[show B C]
+[show C C]
+[show D C]
+[show E C]
+[face W 02]
+[setline 0 C D W B E]
+[face B 01]
+[face C 01]
+[face D 01]
+[face E 02]
+[order C 5]
+[order D 3]
+[order W 10]
+[order B 5]
+[order E 8]
+[talkend]
+[-]
+[serif on]
+かんぱーい！！[shakebg]/
+((m))
+[hide A]
+[-]
+[serif off]
+[show W C]
+[show B C]
+[show C C]
+[show D C]
+[show E C]
+[face W 02]
+[scale W 0.9]
+[scale B 0.9]
+[scale C 0.9]
+[scale D 0.9]
+[scale E 0.9]
+[setline 0 C D W B E -150 1200]
+[face B 01]
+[face C 01]
+[face D 01]
+[face E 02]
+[order C 5]
+[order D 3]
+[order W 0]
+[order B 5]
+[order E 8]
+[talkend]
+[-]
+[serif on]
+かんぱーい！！[shakebg]/
+((e))
+[hide A]
+[-]
+[serif off]
+[show W C]
+[show B C]
+[show C C]
+[show D C]
+[show E C]
+[face W 02]
+[scale W 0.9]
+[scale B 0.9]
+[scale C 0.9]
+[scale D 0.9]
+[scale E 0.9]
+[setline 0 C D W B E -150 1200]
+[face B 01]
+[face C 01]
+[face D 01]
+[face E 02]
+[order C 5]
+[order D 3]
+[order W 0]
+[order B 5]
+[order E 8]
+[talkend]
+[-]
+[serif on]
+かんぱーい！！[shakebg]/
+[serif off]
+[hideall]
+[-]
+[show D C]
+[move D Y 50]
+[face D 02]
+[-]
+[move D Y -50 1.0]
+[se dosa_01]
+[-]
+[serif on]
+[talk D]
+ぷはぁ、美味しい～……/
+[show A L]
+[face A 01]
+[face D 13]
+[talk A]
+猪森さん、お疲れ様です。研究チームの方は
+慌ただしそうですね……/
+[face A 04]
+[flow]
+*Pくんの任務開始のときのゴタゴタで
+データの復旧とか今回の解析とか大変だとか……/
+[face D 14]
+[say D]
+[shake D]
+いやー、思ったほど大事じゃなかったよ。
+でも徹夜は続いてるかな……/
+[face D 13]
+でも、$Wくんたちの活躍のデータを解析
+してると、歴史好きとして血が騒ぐというか――/
+[move D Y -100 1.0]
+[face A 09]
+[face D 07]
+[autotap]/
+[flow]
+……ふらぁ……
+……ぐぅ……/
+[serif off]
+[show W C]
+[move W X 500]
+[show B R]
+[move B X 600]
+[moveline A D W B -800 0 1.0]
+[face B 08]
+[face W 12]
+[talk B]
+[-]
+[serif on]
+いのっちーーー！！
+肉焼けたのに寝るなー！！/
+[serif off]
+[moveline A D W B 800 0 1.0]
+[face A 12]
+[-]
+[serif on]
+[talk A]
+ほんと、お疲れ様です……/
+[hideall]
+[-]
+[serif off]
+[show E C]
+[face E 02]
+[talk E]
+[-]
+[move E Y 10 0.1]
+[delay 0.1 move E Y -10 0.1]
+[-]
+[serif on]
+兄ちゃん！　かんぱ～い！[shake E]
+わかってると思うけど、僕はパ[wait 0.2]ト[wait 0.2]ロ[wait 0.2]ン[wait 0.2]♪[wait 0.5]　だよ！/
+[show C C]
+[setline 0.5 C E]
+[face C 00]
+[talk C]
+雲龍院グループはロクハラの大口の出資元
+なんだよね～。/
+[face E 09]
+[talk E]
+[move E Y 5 0.2]
+[delay 0.2 move E Y -10 0.6]
+[delay 0.8 move E Y 5 0.5]
+そう！　だから今回の任務？の成功は
+僕のおかげと言っても、過言じゃないよね！/
+[hide C]
+[show B L]
+[setline 0.5 B E]
+[face B 03]
+[talk B]
+[order B 5]
+ハーン！[shake B]
+任務の内容も知らねぇくせに。/
+((s))
+[show W L]
+[setline 0.5 W B E]
+[face W 10]
+[talk W]
+[order W 10]
+[order B 5]
+[order E 8]
+猫乃屋さん、りくくんには
+厳しめだよね……/
+((m))
+[show W L]
+[setline 0.5 W B E]
+[face W 10]
+[talk W]
+[order W 0]
+[order B 5]
+[order E 8]
+猫乃屋は、りくには
+厳しいよなぁ。/
+((e))
+[show W L]
+[setline 0.5 W B E]
+[face W 10]
+[talk W]
+[order W 0]
+[order B 5]
+[order E 8]
+猫乃屋さん、りくには
+厳しいッスよね……/
+[face B 09]
+[say B]
+おぉ、こういう甘やかされて育ったガキは
+きちんと躾けておかねーとな！/
+[hide W]
+[setline 0.5 B E]
+[face E 03]
+[say E]
+[shake E]
+え～？　僕全然甘やかされてないよ！/
+[move E Y 10 0.4]
+[delay 0.4 move E Y -10 1.0]
+ほんとはわかってるくせにな～。[wait 0.5]
+壮ちゃんの[wait 0.2]い[wait 0.2]じ[wait 0.2]わ[wait 0.2]る[wait 0.2]……/
+[face B 02]
+[say B]
+[shake B 3 10 10]
+その呼び方すんじゃねぇ～っ！　[wait 0.5]ったく、
+どんどん焼くからな！[face B 01]　みんなついてこいよ～！/
+[face E 10]
+[say E]
+タン塩食べたいなー壮ちゃん！/
+[face B 10]
+[say B]
+だぁらやめろっての！[shake B]　[face B 09]……タン塩な。
+ちょいレアめでネギと一緒にくるくるっと巻いて、/
+[serif off]
+[move B Y -10 0.2]
+[delay 0.2 move B Y 10 0.2]
+[-]
+[move B Y -10 0.2]
+[delay 0.2 move B Y 10 0.2]
+[-]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[-]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[-]
+[se eat_01]
+[serif on]
+[face B 01]
+……うんめぇ～！！！！！[shake B]/
+[face E 04]
+[say E]
+[shake E]
+あーっ自分で食べた！/
+[face B 06]
+[say B]
+この味は毛も生えてないガキには
+まだ早いんだっつーの。/
+[face E 09]
+[say E]
+むー！　ちょっとくらい生えてるよーだ！
+いただき！[move E XY -150 -40 0.4][rotate E 10 0.3][delay 0.4 move E XY 150 40 0.3][delay 0.5 rotate E 0 0.3]/
+[face B 08]
+[say B]
+あーーー！！[shake B]/
+((s))
+[hide B]
+[hide E]
+[serif off]
+[-]
+[move W C 1.0]
+[show W C]
+[face W 12]
+[talk W]
+[-]
+[serif on]
+（ほんとは仲がいいのかな……）/
+((m))
+[auto]
+（なんでぇ。ほんとは仲良しなんじゃねぇか）/
+((e))
+[auto]
+（きっとお二人にはお二人の歴史があるんスね）/
+[show B R]
+[face B 01]
+[talk B]
+ほら何ぼーっとしてんだ！[shake B]
+$W！　お前ももっと食え！/
+((s))
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[-]
+[say W]
+[order W 5]
+[order B 0]
+[shake W]
+[face W 05]
+わわっこんなにいっぱい……っ！
+嬉しいけど、オイラさらに重くなりそう。[face W 06]/
+((m))
+[auto]
+うおっこんなにいいのかよ！
+ますます重くなっちまうなぁ……！[face W 06]/
+((e))
+[auto]
+わわ、こんなに！　白米がすすみます！
+でも、オレ、重くなりそうッス……[face W 06]/
+[say B]
+[face B 09]
+何言ってんだ。地魂男児は元が豊かな国ほど
+図体がデカイって言うじゃねぇか。/
+[face B 00]
+どんどん食べてどんどん豊かになりゃあ
+いいんじゃねーの！/
+[show A L]
+[face A 02]
+[talk A]
+[setline 0.5 A W B]
+ははは。遠慮せず食べたらいいと思うよ。
+$Wくん。/
+((s))
+[say W]
+[order W 5]
+[order B 0]
+[order A 3]
+[face W 01]
+えへへ……今日くらいいいよね。
+じゃあ、食べちゃうね！[shake W]　美味しい……っ！[face W 09][se kira_01]/
+((m))
+[auto]
+おう、じゃあお言葉に甘えるぜ。
+もぐもぐ……はぁ～！[shake W]　肉食になった気分だぜぃ！[face W 11][se kira_01]/
+((e))
+[auto]
+ありがとうございます……！
+ガツガツッ！　[shake W]ご飯、おかわりお願いします！[face W 11][se kira_01]/
+[say A]
+[face A 01]
+あはは。　こうしてると$Wくんたちも
+僕たち人間と変わらないように見えるけど……/
+[flow]
+浄化巡歴の任務を見てて改めて思ったよ。
+地魂男児の強さ……頼もしいよ。/
+((s))
+[say W]
+[face W 00]
+それは……/
+((m))
+[auto]
+そりゃあよぉ……/
+((e))
+[auto]
+それは……/
+((s))
+[face W 12]
+オイラたちの中には、それぞれの国で生きてきた
+たくさんのひとたちの想いが宿ってるから……/
+((m))
+[auto]
+オレたちの中にゃ、それぞれの国で生きた
+大勢のひとたちの想いが宿ってるからさぁ……/
+((e))
+[auto]
+オレたちの中には、その国その国で生きた
+たくさんのひとたちの想いが宿ってます。/
+((s))
+[flow]
+過去の世界に生きた、全ての想いが
+オイラたちの力の源なんだ！/
+((m))
+[auto]
+過去の世界に生きた、全ての想いが
+オレたちの力の源ってわけよ！/
+((e))
+[auto]
+だから、過去の世界に生きた、色んな想いが
+全部、オレたちに力の源なんスよ！/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[say B]
+[face B 09]
+うんうん。けど、大きな力は扱いが難しい。
+まとめあげて声聞した*Pもお手柄だよな。/
+[serif off]
+?ありがとうございます/
+[face B 01]
+[serif on]
+よし！　地魂男児と*Pに
+もっと食わせてやろうぜ！　肉追加だ～！[move B X 100 0.5][hide B]/
+[face A 02]
+[say A]
+[bgm journey]
+ははは……[face A 01]初めての任務、
+$Wくんはどうだった？/
+((s))
+[face W 10]
+[say W]
+うーん……現地に着いたら思ってたのと
+全然違う状況だったから……すごく不安だった……[shake W]/
+((m))
+[auto]
+うーん……着いた所が終着点ってのは
+結構焦ったよなぁ。気がつけば空だったしよぉ！/
+((e))
+[auto]
+転送直後は、結構どたばたしちゃいましたね……
+やっぱり、信じられるのは筋肉ッスね……！[shake W]/
+[show B R]
+[setline 0.5 A W B]
+[face B 11]
+[say B]
+[order W 5]
+[order A 0]
+[order B 0]
+あれは俺たちも焦ったぜ。
+霊力が強すぎるってのも考えもんだなぁ。/
+[face A 12]
+[say A]
+あのときは第二支部との通信が途絶したりと
+色々ありましたからね……/
+((s))
+[face W 08]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+そうだ、第二支部って、どうなったの？
+みんな、大丈夫だった？/
+((m))
+[auto]
+そいやぁよぉ、第二支部って、どうなったんだ？
+大丈夫だったのかよ？/
+((e))
+[auto]
+第二支部、といえば、どうだったんス？
+大丈夫だったんスか？/
+[hide A]
+[hide B]
+[-]
+[show D L]
+[setline 0.5 D W]
+[face D 11]
+[talk D]
+うん、地震の影響でいくつか施設内に
+損傷があったけど、損害は軽微な方だったよ。/
+((s))
+[face W 12]
+[say W]
+[serif off]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+それならよかった……
+大きな地震だったもんね。/
+((m))
+[auto]
+そりゃあよかったぜぃ。
+すげぇ揺れだったからなぁ。/
+((e))
+[auto]
+それを聞いて安心しました。
+大きな地震でしたからから……/
+[face D 08]
+[say D]
+ロクハラの建物はあらゆる災害を想定している
+はずなんだけど……荘園が一番安全かもね。/
+[show C L]
+[face C 01]
+[setline 0.5 C D W]
+[talk C]
+そのうちロクハラ本部ごと荘園に引っ越し
+しちゃおうかなぁ～。/
+[show B R]
+[setline 0.5 C D W B -100 1100]
+[face B 09]
+[say B]
+それ賛成っす！　だって通勤なくなるじゃん！
+通行手形で一発っしょ？/
+[face B 10]
+俺たちわざわざロクハラに出勤してから
+荘園に行ってんだぜ？/
+[face D 11]
+[say D]
+技術的にクリアしないといけない問題がいくつか
+あるけど、研究室の部署ではそれも検討中ですよ。/
+[face D 01]
+研究室にも優秀なメンバーが入ってきて
+くれたんで、最近一気にいろいろ進んでます。/
+[hide W]
+[hide B]
+[hide C]
+[-]
+[move D C 0.5]
+[face D 00]
+そういえば……
+/
+[face D 01]
+自分、研究室の方で送られてくるデータの解析と、
+関係各部署に指示を出したりとかしてたんだけど/
+[face D 02]
+[effect D kira a 0 100]
+時代を越えても二人の霊的なつながりは揺らぐ
+ことなく安定していたよ！　[shake D]感動しちゃったな！/
+[face D 11]
+[effect off a]
+まだ声聞されてない地魂男児と、過去の世界で
+出会ったのは驚いたけど……/
+[show C C]
+[setline 0.5 C D]
+[face C 04]
+[talk C]
+不思議だよねぇ。*Pくんの潜在能力の
+為せる技なのかもねぇ。/
+((s))
+[hide C]
+[hide D]
+[-]
+[show W C]
+[face W 08]
+[talk W]
+でも……[wait 0.5]オイラと同じ、あるじさまの地魂男児
+なんだってのは、オイラわかったよ！/
+((m))
+[auto]
+でもよ、[wait 0.5]オレと同じ、大将の地魂男児
+なんだってのは、オレにはわかったぜ！/
+((e))
+[auto]
+でも……[wait 0.5]オレと同じく、師匠の地魂男児
+なんだって、オレにはわかりました！/
+((s))
+[face W 01]
+だから何も心配いらないと思う！/
+((m))
+[auto]
+だから、何も心配いらねぇよ！/
+((e))
+[auto]
+だから、何も心配ありませんよ！/
+[hide W]
+[-]
+[show C C]
+[face C 01]
+[talk C]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+うんうん。
+戦力は多いに越したことはないからねぇ。/
+[face C 00]
+今後も現地で出会った地魂男児とは協力して
+任務を遂行していってほしいなぁ。/
+[face C 02]
+$Wくんもそうだけど……*Pくんも
+頑張ってくれたね。ありがとう。/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 04]
+この世界がギリギリの状況にあることを
+一般の人たちは知らない。/
+[face C 08]
+……僕たちは薄氷の上を歩いているんだ。
+どんな手を使ってでも食い止めないといけない。/
+[face C 02]
+だから、きみたちの成し遂げたことは
+本当に価値のある素晴らしいことなんだ。/
+[face C 09]
+きみたちが戦ってくれる限り……
+僕たちも全力でサポートするよぉ。/
+[hide C]
+[-]
+[show A C]
+[face A 01]
+[talk A]
+僕も未熟なオペレーターだけど、キミたちと一緒に
+成長していきたいと思ってるよ。よろしくね。/
+[show B C]
+[face B 01]
+[talk B]
+[setline 0.5 A B]
+俺もな！　よろしく頼むぜ後輩！/
+[hide A]
+[hide B]
+[-]
+[show D C]
+[face D 01]
+[talk D]
+自分も、後方支援頑張るよ！/
+[hide D]
+[-]
+[show E R]
+[move E C 0.2]
+[face E 09]
+[talk E]
+僕も、いつも応援してるよ～！/
+[show A C]
+[show B R]
+[show C L]
+[show D C]
+[setline 0.5 C A D B E]
+[orderline E A C B D]
+[face A 01]
+[face B 01]
+[face C 01]
+[talkend]
+[-]
+[serif off]
+?こちらこそ、よろしくお願いします/
+((s))
+[wait 1.0]
+[-]
+[hideall]
+[-]
+[show W C]
+[face W 02]
+[talk W]
+[serif on]
+オイラも、
+よろしくお願いしますっ！/
+((m))
+[auto]
+オレも、よろしく頼むぜぃ！/
+((e))
+[auto]
+オレからも、よろしくお願いします！/
+[hide W]
+[bgm off]
+[serif off]
+[-]
+[se pi_01]
+[delay 0.2 se pi_01]
+[delay 0.4 se pi_01]
+[wait 1.0]
+[-]
+[show A C]
+[face A 10]
+[talk A]
+[-]
+[serif on]
+なんか、鳴ってません？/
+[show D C]
+[setline 0.5 A D]
+[face D 05]
+[talk D]
+[shake D]
+[order D 0]
+[order A 5]
+わ、自分だ。ちょっと待って、えっとえっとえっと
+あった、ここだ。[shake D][se pi_01]えーと、観測チームからの報告。/
+[face D 09]
+……緊急……って
+……ええ！？[shake D][bgm departure]/
+[face A 09]
+[say A]
+猪森さん？/
+[face D 12]
+[say D]
+……あ、えっと、このデータ、は……つまり……/
+[hide A]
+[hide D]
+[-]
+[show C C]
+[face C 03]
+[talk C]
+……歴史覚醒域の発生が確認されたみたいだねぇ。/
+[face C 01]
+僕の端末にも連絡が来たよぉ。/
+((s))
+[hide C]
+[-]
+[show W C]
+[face W 13]
+[talk W]
+歴史覚醒域……？/
+((m))
+[auto]
+歴史覚醒域……？/
+((e))
+[auto]
+歴史覚醒域……？/
+[hide W]
+[-]
+[show C C]
+[face C 00]
+[talk C]
+詳しいことは後でだねぇ。
+壮一くん、夏人くん、悪いけど残業になるよぉ。/
+[hide C]
+[-]
+[show A C]
+[show B C]
+[setline A B]
+[face A 08]
+[face B 11]
+[talk A]
+はい！/
+[face B 10]
+[say B]
+マジか……酒飲みすぎたぁ……/
+[hide A]
+[hide B]
+[-]
+[show C C]
+[face C 01]
+[talk C]
+$Wくんたちは連絡があるまでは待機。
+次の任務に向けて英気を養っておいてねぇ。/
+((s))
+[hide C]
+[show W C]
+[face W 08]
+[talk W]
+は、はい！/
+((m))
+[auto]
+お、おう！/
+((e))
+[auto]
+り、了解ッス！/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

@@ -1,0 +1,2537 @@
+>>0/
+((s))
+[set W s_san_m 讃岐]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n002_m 猪森]
+[set D s_n003_m 羽鳥]
+[set E s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_n007_m 小豆洗い]
+[set I s_n008_m アルクトス]
+[set J s_n009_m 相馬]
+[set K s_sur_m 駿河]
+[set L s_kii_m 紀伊]
+[set M s_sag_m 相模]
+[set N s_ina_m 因幡]
+[set O s_oki_m 隠岐]
+[set P s_tnb_sumo 丹波]
+[set Q s_owa_m 尾張]
+[set R s_sur_sumo 駿河]
+[set S s_objtext_anniv2024 タイトルロゴ]
+[fadein black 0]
+[bgm off]
+[-]
+[-]
+[bgm action]
+[bg black]
+[-]
+[fadeout 2.0]
+[-]
+[minibg emo_ikari 1]
+[se fire_01]
+[talkend]
+[-]
+[serif on 0.5]
+[autotap]
+/
+((m))
+[set W s_mus_m 武蔵]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n002_m 猪森]
+[set D s_n003_m 羽鳥]
+[set E s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_n007_m 小豆洗い]
+[set I s_n008_m アルクトス]
+[set J s_n009_m 相馬]
+[set K s_sur_m 駿河]
+[set L s_kii_m 紀伊]
+[set M s_sag_m 相模]
+[set N s_ina_m 因幡]
+[set O s_oki_m 隠岐]
+[set P s_tnb_sumo 丹波]
+[set Q s_owa_m 尾張]
+[set R s_sur_sumo 駿河]
+[set S s_objtext_anniv2024 タイトルロゴ]
+[fadein black 0]
+[bgm off]
+[-]
+[-]
+[bgm action]
+[bg black]
+[-]
+[fadeout 2.0]
+[-]
+[minibg emo_ikari 1]
+[se fire_01]
+[talkend]
+[-]
+[serif on 0.5]
+[autotap]
+/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n001_m 夏人]
+[set B s_n000_m 猫乃屋]
+[set C s_n002_m 猪森]
+[set D s_n003_m 羽鳥]
+[set E s_n004_m 百太]
+[set F s_n005_m りく]
+[set G s_n006_m B]
+[set H s_n007_m 小豆洗い]
+[set I s_n008_m アルクトス]
+[set J s_n009_m 相馬]
+[set K s_sur_m 駿河]
+[set L s_kii_m 紀伊]
+[set M s_sag_m 相模]
+[set N s_ina_m 因幡]
+[set O s_oki_m 隠岐]
+[set P s_tnb_sumo 丹波]
+[set Q s_owa_m 尾張]
+[set R s_sur_sumo 駿河]
+[set S s_objtext_anniv2024 タイトルロゴ]
+[fadein black 0]
+[bgm off]
+[-]
+[-]
+[bgm action]
+[bg black]
+[-]
+[fadeout 2.0]
+[-]
+[minibg emo_ikari 1]
+[se fire_01]
+[talkend]
+[-]
+[serif on 0.5]
+[autotap]
+/
+[textcolor ORANGE]
+再びやってきたこの季節。/
+[waku on 0.5]
+[minibg off 0.5]
+[bg sumo_dohyo_day 0.5]
+[effect fr waveout 4000 0 0]
+[show P L]
+[show Q R]
+[color P black]
+[color Q black]
+[rotate P -20 0.5]
+[rotate Q 20 0.5]
+[move P X -250 0.5]
+[move Q X 250 0.5]
+[scale P 1.6 0.5]
+[scale Q 1.6 0.5]
+[moveline P Q 0 -220 0.5]
+[se taiko_01]
+[textcolor ORANGE]
+ひしめく声援、揺れる土俵、交わる視線。/
+[effect bk waveout 5000 0 0]
+[effect fr syutyu a 0 0]
+[quake 2]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[rotate Q 15 0.2]
+[rotate P -15 0.2]
+[move Q C 0.2]
+[move P C 0.2]
+[moveline Q P 0 -120 0.2]
+[move Q X 210 0.3]
+[move P Q -210 0.3]
+[delay 0.2 se crash_02]
+[se taiko_01]
+[flow]
+[textcolor ORANGE]
+汗と涙に滲むまわしを締め、若き力士たちは
+己の信念と夢を抱いて立ち上がる。/
+[show R]
+[scale R 1.6 3]
+[color R black]
+[move R Y -120 3]
+[move P X -500 1]
+[move Q X 500 1]
+[hide P]
+[hide Q]
+[bg black 1]
+[minibg emo_ikari 1]
+[autotap]/
+[se taiko_01]
+[textcolor ORANGE]
+それぞれの想いが燃える炎となり
+魂と魂が正面からぶつかり合う！/
+[hide R]
+[quake off]
+[effect off a]
+[textcolor ORANGE]
+果たして、今回はどのような試合が
+繰り広げられるのであろうか……！？/
+[bgm off]
+[serif off 0.5]
+[minibg off 0.5]
+[se kabuki_01]
+[wait 1.8]
+[waku off]
+[-]
+[effect bk syutyu a 0 0]
+[show S]
+[scale S 2]
+[move S Y -120]
+[scale S 1 0.3]
+[move S Y 120 0.3]
+[bgm ascending]
+[-]
+[wait 3]
+[-]
+[autotap]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 1]
+[-]
+[title プロローグ 第二回相撲大会始まる！]
+[-]
+[hideall]
+[wait 2]
+[effect off a]
+[bgm journey]
+[bg mbg_map]
+[minibg sumo_mihonoura]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+[autotap]/
+[se water_04]
+[place 1731年　駿河国、三保の浦]
+[-]
+[autotap]/
+((s))
+[show W C]
+[face W 00]
+[serif on]
+[say W]
+えっと……あるじさま。見えてるかな？
+現地に到着してるよ～！/
+((m))
+[auto]
+えーっと……大将。見えてるかー？
+現地に到着してるぜぃ！/
+((e))
+[auto]
+えっと……師匠！　見えてますか？
+現地に到着してます！/
+((s))
+[se amb_08]
+[face W 05]
+わわっ、[shake W]風が強くて……少し寒いね。
+でも、すっごくいい景色！[face W 12]/
+((m))
+[auto]
+って、うおおおっ。[shake W]風が強くて……寒ぃ……
+でも、めちゃくちゃいい景色だぜ！[face W 12]/
+((e))
+[auto]
+わわっ。[shake W]風が強くて……少し肌寒いッスね。
+でも、それを吹き飛ばすほどの絶景ッス！[face W 12]/
+((s))
+[move W X 200 0.5]
+[face W 01]
+[flow]
+ここが三保の松原！　
+さすが日本三景って言われるだけはあるね。駿河！/
+((m))
+[auto]
+ここが三保の松原！　
+さすが日本三景って言われるだけはあるな。駿河！/
+((e))
+[auto]
+ここが三保の松原ッス！
+日本三景の名は伊達じゃないッスね。駿河！/
+[show K C]
+[setline 0.5 K W]
+[face K 01]
+[say K]
+[orderline W K]
+はい！　[shake K]
+上様……聞こえておりますでしょうか……！[face K 00]/
+[move K Y 5 0.2]
+[delay 0.2 move K Y -10 0.6]
+[delay 0.8 move K Y 5 0.5]
+[autotap]/
+[face K 01]
+こちらが拙者の国、三保の松原で有名な
+三保の浦でござりまする。/
+[face K 15]
+[flow]
+海岸線を彩る松の木々。
+白波踊る駿河湾の青い海。/
+[flow]
+[face K 01]
+そしてそびえ立つ雄大な富士山！/
+[face K 15]
+[flow]
+江戸時代の三保を上様にお見せできて
+拙者、感激にござります！/
+[hide K]
+[hide W]
+[se pi_01]
+[textcolor blue]
+@夏人の声
+こちら司令室。夏人だよ。お疲れ様。
+通信良好。/
+[se pi_01]
+[textcolor blue]
+@猪森の声
+霊的状態は安定してるね。
+儀式を行うのにちょうどいい場所だ。/
+[face C 02]
+[flow]
+[textcolor blue]
+@猪森の声
+駿河くんに場所を選んでもらえてよかったよ！/
+[show K L]
+[face K 15]
+[say K]
+お役に立てて何よりでござりまする！[shake K]/
+((s))
+[show W R]
+[setline 0.5 K W]
+[face W 00]
+[say W]
+今回の候補地
+駿河が提案してくれたんだったね。/
+((m))
+[auto]
+今回の候補地
+駿河が提案してくれたんだよな。/
+((e))
+[auto]
+今回の候補地
+駿河が提案してくれたんスよね。/
+[move K Y 5 0.2]
+[delay 0.2 move K Y -10 0.6]
+[delay 0.8 move K Y 5 0.5]
+[autotap]/
+[face K 06]
+[say K]
+はい。僭越ながら拙者
+まだ荘園に来て日が浅く……/
+[face K 01]
+[flow]
+少しでもお役に立てればとの一心でござる。/
+[face K 08]
+今回の儀式は、富士山付近の霊穴でどこか
+良い場所を……ということで/
+[face K 15]
+[flow]
+霊場としても景色としても好立地の場所として
+進言させていただき申した次第でござりまする！/
+[face K 02]
+[flow]
+ここでならば素晴らしき相撲大会を
+開催できましょう！[shake K]/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[face W 01]
+[say W]
+ちなみに……ちょうどオイラたちが立ってる
+この場所に土俵を建築予定だよ！/
+((m))
+[auto]
+ちなみに……ちょうどオレらが立ってる
+この場所に土俵を建築予定だぜ！/
+((e))
+[auto]
+ちなみに……ちょうどオレたちが立ってる
+この場所に土俵を建築予定する予定ッス！/
+((s))
+[face W 12]
+[face K 00]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+あっ、紀伊！/
+((m))
+[auto]
+おっ、紀伊じゃねぇか。/
+((e))
+[auto]
+あっ、紀伊！/
+[show L R]
+[setline 0.5 K W L]
+[face L 01]
+[say L]
+[orderline K W L]
+おぉ、$Wに駿河。
+主たんと通信中かな？/
+[face L 02]
+[flow]
+おっちゃんたちは今御札を作っているところ
+だぞぉ。/
+[hide W]
+[hide K]
+[-]
+[show M L]
+[show N]
+[show O]
+[setline M N O 200 1200]
+[face N 10]
+[face O 09]
+[rotate O -20 0.5]
+[move O X -20 0.5]
+[setline 0.5 M L N O]
+[orderline N O M L]
+[face M 01]
+[say M]
+湘南の海もいいけど……駿河湾も
+気持ちいいな。/
+[face M 02]
+[flow]
+ぼ、僕たちは、これから土俵予定地に
+清めた御札を埋めたり、するんだ……/
+[face N 01]
+[say N]
+柱の建築はもうすぐ、木材が届いてからに
+なるみたいだぜ！/
+[hideall]
+[-]
+[show K L]
+[show W]
+[setline K W]
+[face W 00]
+[face K 15]
+[say K]
+みなてきぱきと準備していて
+すごいでござるな！[se kira_01]/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[face W 12]
+[face K 00]
+[say W]
+オイラたちは二回目だしね。/
+((m))
+[auto]
+まぁオレたちは二回目だしな。/
+((e))
+[auto]
+オレたちは二回目ッスからね。/
+((s))
+[face W 01]
+[move W Y 100 0.1]
+[delay 0.1 move W Y -100 0.2]
+みんな着々と準備をすすめちゃうよ！
+それじゃああるじさま、またあとでね～！/
+((m))
+[auto]
+みんな着々と準備を進めてるぜぃ！
+それじゃ大将、またあとでな～！/
+((e))
+[auto]
+みんな着々と準備を進めています！
+それでは師匠！　またのちほど！/
+[say K]
+[face K 01]
+上様、拙者も相撲大会が滞りなく開催できるよう
+運営本部の一員として尽力して参りまする！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg off]
+[hideall]
+[bgm rokuhara]
+[bg niwa_day]
+[wait 2]
+[-]
+[fadeout 1.5]
+[-]
+[place 荘園 しょうえん]
+[-]
+[autotap]/
+[show F C]
+[scale F 1.6]
+[move F Y -120]
+[face F 01]
+[serif on]
+[say F]
+待ってましたーー！！[shake F]
+第二回！！　　地魂男児奉納相撲大会！！[se taiko_02]/
+[show B L]
+[scale F 1 0.5]
+[move F Y 120 0.5]
+[setline 0.5 B F]
+[face B 10]
+[orderline F B]
+[say B]
+まだ準備中だけどな。/
+[hideall]
+[serif off]
+?今回も疲れたー/
+[show A L]
+[show B]
+[setline A B]
+[face A 01]
+[face B 01]
+[say A]
+[serif on]
+地魂男児も増えてるからね。
+無理しないでね。/
+[hideall]
+[-]
+[show C R]
+[show I]
+[setline C I]
+[face C 01]
+[face I 00]
+[say C]
+いやぁ。今回も無事に霊送完了して
+ほっとしたよ……/
+[move I Y 5 0.2]
+[delay 0.2 move I Y -10 0.6]
+[delay 0.8 move I Y 5 0.5]
+[autotap]/
+[face I 01]
+[se pi_02]
+[say I]
+わぁ……この霊力の送信量、すごいですね……！
+さすが声聞士さんですっ！[effect I kira 6000 0 100][se kira_01]/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 02]
+[say C]
+そうでしょ？　*Pくんはすごいんだよ！/
+[hideall]
+[-]
+[se walk_01]
+[show J R]
+[face J 03]
+[say J]
+……おい。/
+[serif off]
+?相馬さんが来てくれた！/
+[move J C 0.5]
+[move J Y 5 0.2]
+[delay 0.2 move J Y -10 0.6]
+[delay 0.8 move J Y 5 0.5]
+[autotap]/
+[serif on]
+[face J 06]
+[say J]
+まぁ、羽鳥さんも来るっていうからな……
+いや、それはいいとして……/
+[bgm fun]
+[effect fr syutyu a 0 0]
+[se taiko_01]
+[scale J 1.6 0.3]
+[move J Y -140 0.3]
+[autotap]/
+[face J 10]
+お前なにやってんだ！？/
+[face J 03]
+[se taiko_02]
+[flow]
+地魂男児とあやかしを全員霊送するとか
+死ぬ気か！？/
+[scale J 2 0.3]
+[move J Y -100 0.3]
+[se cloth_06]
+[autotap]/
+[face J 10]
+[flow]
+ていうかなんで成功してんだ！？/
+[effect off a]
+[serif off]
+?できちゃいました……/
+[serif on]
+[se zukkoke_02]
+[scale J 1.6 0.5]
+[move J Y 100 0.5]
+[face J 03]
+できちゃいましたじゃねぇよ！[shake J]
+くそっ！！　これだから天才ってやつは……！！[face J 09]/
+[face J 00]
+おい猪も――……[wait 1]富良野アルクトス！[face J 08][shake J]/
+[serif off]
+[show I]
+[show C]
+[show A]
+[setline C I A]
+[orderline I A C]
+[moveline C I A 1000 0 0]
+[moveline C I A J -1000 0 1]
+[face I 05]
+[face A 10]
+[face C 12]
+[-]
+[say I]
+[serif on]
+はいっ！[shake I]/
+[waku on 0.5]
+[face A 12]
+[say A]
+（声掛けキャンセルした……）/
+[serif off]
+[moveline C I A J 1000 0 1]
+[waku off 0.5]
+[-]
+[hide C]
+[hide A]
+[serif on]
+[face J 01]
+[say J]
+あとで今回のデータこっちにも送っとけよ。/
+[setline 0.5 J I]
+[move I X 100 0.5]
+[face I 01]
+[say I]
+[orderline J I]
+任せてくださいっ。
+ぶいぶいっ！/
+[hide I]
+[scale J 1 0.5]
+[move J Y 140 0.5]
+[face J 04]
+[say J]
+っていうか、なんなんだよ……相撲大会って。
+いや、やってることはわかる。/
+[move J Y 5 0.2]
+[delay 0.2 move J Y -10 0.6]
+[delay 0.8 move J Y 5 0.5]
+[autotap]/
+[face J 11]
+つまりはあれだろ……霊脈に対するカンフル剤
+みたいなもんだ。/
+[move J C 0.5]
+[face J 08]
+[flow]
+１６名の地魂男児を土俵の上でぶつけあうことで
+霊力を徐々に集約させて……/
+[face J 12]
+[flow]
+最後に土俵というインターフェイスを通して
+霊脈に増幅させた霊力を打ち込んでる――/
+[move J Y 10 0.4]
+[delay 0.4 move J Y -10 1.0]
+[autotap]/
+[face J 09]
+[flow]
+ってとこか。確かにこの数の地魂男児を
+声聞してる*Pにしかできねぇことではあるが。/
+[show I R]
+[setline 0.5 J I]
+[face I 01]
+[say I]
+そうなんです。オレも初めて聞いたときは
+びっくりしちゃいましたよ！/
+[move I Y 5 0.2]
+[delay 0.2 move I Y -10 0.6]
+[delay 0.8 move I Y 5 0.5]
+[autotap]/
+[face I 14]
+[flow]
+相撲、いいですよねー。
+見てると結構熱くなっちゃいますよ。ほにょ～ん。/
+[face J 04]
+[say J]
+しかしその霊力保存・増幅器にまわしを選ぶ
+あたりが謎だ。/
+[face J 09]
+一体どういう発想でこの儀式を
+思いつくんだよ……ぶつぶつ……/
+[hide I]
+[hide J]
+[-]
+[show A]
+[show C]
+[setline C A]
+[face C 12]
+[face A 01]
+[say C]
+いやー……霊力を増幅させて流し込む……
+っていうプロセスに/
+[face C 11]
+[flow]
+地魂男児が白熱するスタイルで、
+かつ儀式として親和性が高く……/
+[face C 12]
+[flow]
+って考えていくと最終的に
+相撲にたどり着くっていうか……/
+[hideall]
+[-]
+[show G]
+[face G 08]
+[say G]
+よぉ。来てやったぞ。
+今回の選手が決まったら教えろよ。/
+[show E L]
+[setline 0.5 E G]
+[face E 01]
+[say E]
+おっ、Bくん。観戦する気まんまんっすね。
+嬉しいっす！/
+[move G Y 5 0.2]
+[delay 0.2 move G Y -10 0.6]
+[delay 0.8 move G Y 5 0.5]
+[autotap]/
+[face G 11]
+[say G]
+まあ。暇潰しにはちょうどいいしな。/
+[hideall]
+[-]
+[show D]
+[face D 00]
+[say D]
+やぁみんな～。集まってるねぇ。あ……[move D Y 10 0.1][delay 0.1 move D Y -10 0.1]
+聯くんとアルクトスくんも来てくれたんだねぇ。[face D 01]/
+[show I L]
+[show J L]
+[face I 00]
+[setline 0.5 I J D]
+[face J 06]
+[say J]
+は、羽鳥さん……まぁ。はい。
+時間があったんで……へへっ……[face J 11][shake J]/
+[face I 01]
+[say I]
+お邪魔してますっ。
+データ収集は任せてくださいっ。/
+[hide J]
+[hide I]
+[-]
+[show B R]
+[setline 0.5 D B]
+[face D 05]
+[face B 02]
+[say B]
+羽鳥さん！　これ差し入れっすかー！？
+やったぜ！！/
+[hide D]
+[show J L]
+[move J X -200]
+[setline 0.5 J B]
+[face J 11]
+[say J]
+[se cloth_06]
+なにっ羽鳥さんの差し入れ……
+猫乃屋壮一、オレももらうぞ。/
+[show H R]
+[setline 0.5 J B H]
+[face J 05]
+[face B 05]
+[face H 01]
+[say H]
+[se doka_01]
+[move H Y 100 0.1]
+[delay 0.1 move H Y -100 0.2]
+それはオレからの差し入れだぞぉ！
+しょきしょき！！/
+[say B]
+うげっ小豆洗い！？[shake B]
+え、毒？[face B 10]/
+[face H 03]
+[say H]
+[se zukkoke_02]
+なに言ってんだお前！　[shake H]
+そんなことするか！　食っちゃるぞぉ！/
+[face H 06]
+[flow]
+一応ここの荘園はお得意さまだからな。
+お菓子を持ってきてやったんだぞぉ。/
+[face J 09]
+[say J]
+小豆洗い……こいつが噂の……/
+[face H 03]
+[say H]
+あぁん？　いい噂なんだろうなぁ！？
+食っちゃるぞぉ！[shake H]/
+[show F R]
+[setline 0.5 J B H F -200 1000]
+[move F X 100 0.5]
+[face F 01]
+[say F]
+ねー小豆洗いー！
+僕にも小豆洗いの甘いのちょうだい！/
+[move H Y 10 0.4]
+[delay 0.4 move H Y -10 1.0]
+[autotap]/
+[face H 06]
+[say H]
+しょうがねえやつだな……
+小豆洗い特製おしるこをやるぞぉ！[face H 01][shake H]/
+[face F 02]
+[say F]
+わぁい！/
+[face B 08]
+[say B]
+よく見たら全部小豆由来のお菓子じゃねぇか……/
+[hideall]
+[-]
+[show A]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 01]
+[say A]
+*Pくん、今日はきみはVIP席だよ。
+ここに座って。/
+[face A 02]
+[flow]
+現地での準備も進んでるね……
+今回はどんな試合が見られるか楽しみだね。/
+[serif off]
+?楽しみ。/
+[fadein BLACK 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>1/
+[set A s_sur_m 駿河]
+[set B s_kaw_m 河内]
+[set C s_yzm_m 和泉]
+[set D s_owa_m 尾張]
+[set E s_mus_m 武蔵]
+[set F s_awt_m 安房]
+[set G s_smu_m 下総]
+[set H s_ecg_m 越後]
+[set I s_ecz_m 越前]
+[set J s_iyo_m 伊予]
+[set K s_iwm_m 石見]
+[set L s_taj_m 但馬]
+[set M s_biz_m 備前]
+[set N s_hiz_m 肥前]
+[set O s_hyu_m 日向]
+[set Y s_iga_m 伊賀]
+[set P s_tnb_m 丹波]
+[set Q s_oki_m 隠岐]
+[set R s_kaz_m 上総]
+[set S s_ymt_m 大和]
+[set T s_bun_m 豊後]
+[set U s_ina_m 因幡]
+[set V s_kii_m 紀伊]
+[set W s_sag_m 相模]
+[set X s_izu_m 伊豆]
+[set Z s_kai_m 甲斐]
+[set sin s_sin_m 信濃]
+[fadein black 0]
+[bgm off]
+[-]
+[-]
+[bgm journey]
+[bg mbg_map]
+[minibg sumo_honbu]
+[-]
+[fadeout 2.0]
+[-]
+[talkend]
+[autotap]/
+[show R C]
+[show S C]
+[setline R S]
+[face R 01]
+[face S 01]
+[talk R]
+[serif off]
+[move R Y 10 0.4]
+[delay 0.4 move R Y -10 1.0]
+[-]
+[serif on 0.5]
+本部の設営は大体完了でしょうか？/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face S 02]
+[say S]
+みな手際が良いのだ。
+我安心して昼寝ができそうなのだ。/
+[show T R]
+[move T X 300]
+[setline 0.5 R S T]
+[face T 01]
+[say T]
+救護室の準備も思いの外早く終わったのにゃ。
+駿河が荷解きを手伝ってくれたおかげにゃ。/
+[move R Y 5 0.2]
+[delay 0.2 move R Y -10 0.6]
+[delay 0.8 move R Y 5 0.5]
+[autotap]/
+[face R 02]
+[say R]
+駿河さん、
+テントの設置も助かりました。/
+[hideall]
+[-]
+[show A C]
+[face A 01]
+[talk A]
+いえ！　拙者は新参者でありますゆえ
+少しでもお役に立てればと！/
+[face A 08]
+[flow]
+拙者、この相撲大会を盛り上げるために
+粉骨砕身、身を粉にして働いてみせまする！/
+[face A 00]
+[flow]
+……ということで、他になにか
+できることはございますか？/
+[hide A]
+[-]
+[show R L]
+[face R 01]
+[say R]
+そうですね……本部周りはあとは隠岐さんと
+進行の台本の打ち合わせくらいでしょうか……/
+[show Q C]
+[face Q 06]
+[setline 0.5 R Q]
+[orderline R Q]
+[say Q]
+は、はい……すぐに終わらせますっ。/
+[hideall]
+[-]
+[show N L]
+[show S C]
+[show A R]
+[setline N S A]
+[face N 01]
+[face S 02]
+[face A 01]
+[orderline A N S]
+[say S]
+では駿河よ。他の者たちを手伝ってきては
+どうなのだ？/
+[face A 02]
+[say A]
+なるほど……それはよい考えでござるな！
+では拙者、行ってまいりまする！/
+[se walk_03]
+[move A X 1000 0.5]
+[hide A]
+[setline 0.5 N S]
+[face N 02]
+[say N]
+気をつけてね。
+怪我とかしないようにねー！/
+[hideall]
+[-]
+[show R C]
+[show Q C]
+[setline R Q]
+[face R 02]
+[face Q 00]
+[talk R]
+駿河さんは本当に働き者ですね。/
+[face Q 06]
+[say Q]
+本当に。声聞されたばかりなのにすごいです……
+ぼ、僕なんて、今でも恥ずかしくて……うっ……[shake Q]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg sumo_mihonoura]
+[-]
+[fadeout 1.5]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[show U C]
+[face U 02]
+[say U]
+[serif on 0.5]
+御札はこれで完成だぜ！/
+[show V L]
+[setline 0.5 V U]
+[face V 01]
+[say V]
+[orderline U V]
+術式に必要な供え物も準備できたぞぉ！/
+[show W R]
+[setline 0.5 V U W]
+[face W 00]
+[say W]
+[orderline W U V]
+じ、じゃあ……儀式の準備をして
+始めようか……/
+[moveline V U W -300 0 0.5]
+[show A R]
+[face A 01]
+[say A]
+[orderline W A U V]
+術師の皆さま、調子はどうでござるか！/
+[face V 02]
+[say V]
+[setline 0.5 V U W A]
+おお。駿河か。お疲れちゃんだぞぉ。
+本部の手伝いをしとるんだってなぁ。/
+[move U Y 100 0.1]
+[delay 0.1 move U Y -100 0.2]
+[delay 0.4 move U Y 100 0.1]
+[delay 0.5 move U Y -100 0.2]
+[autotap]/
+[face U 01]
+[say U]
+こっちは順調なんだぜ！/
+[face A 02]
+[say A]
+よかったでござるよ。なにか必要なことがあったら
+拙者にお申し付けくだされ！/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+[face W 01]
+[say W]
+うん、でも、大丈夫……
+じゃあ、儀式を始めるから……/
+[face A 01]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、お邪魔いたした。
+頑張ってくだされ！/
+[moveline V U W -1000 0 1]
+[move A C 0.5]
+[hide V]
+[hide U]
+[hide W]
+[face A 03]
+[serif off]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+術師の皆さまは着々と進められておられる……
+拙者ではお役に立てそうにないでござるな……/
+[face A 01]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+むっ。武蔵殿！/
+[hide A]
+[-]
+[show E]
+[face E 01]
+[say E]
+お？　どした駿河。
+さっきはテントの設営手伝ってくれてありがとな！/
+[show A L]
+[setline 0.5 A E]
+[face A 02]
+[say A]
+いえ！　武蔵殿こそどうされたのでござるか？
+おひとりで、かような場所で……/
+[face A 00]
+[se cloth_01]
+[flow]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+これは……木材を切り出しているのでござるか？/
+[move E Y 5 0.2]
+[delay 0.2 move E Y -10 0.6]
+[delay 0.8 move E Y 5 0.5]
+[autotap]/
+[face E 02]
+[say E]
+ああ。大会のときにみんなが座って観戦できる
+ようにベンチを作っておこうと思ってよぉ。/
+[face E 01]
+[flow]
+こういう大工仕事は得意だからな！/
+[face A 05]
+[say A]
+なんと……！[shake A]　器用でござるな……
+拙者に手伝えることはないでござるか？[face A 01]/
+[face E 12]
+[say E]
+あ、んじゃあ木材を管理してる
+備中たちのところに行ってさ……/
+[move E Y 20 0.4]
+[delay 0.6 move E Y -20 0.2]
+[autotap]/
+[face E 01]
+[flow]
+これっくらいの大きさの端材をいくつか
+もらってきてもらえねぇか？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+木を運ぶのでござるか。
+それならお安い御用でござる！　すぐに！！/
+[serif off]
+[hide E]
+[move A X 1000 1]
+[face A 08]
+[-]
+[move A X -2000]
+[-]
+[show X R]
+[face X 01]
+[say X]
+[move X C 0.5]
+[-]
+[serif on]
+おっ、駿河兄ちゃん見っけー！[move A X 2000 0.5][se walk_03]/
+[face X 05]
+[move X Y 10 0.1]
+[delay 0.1 move X Y -10 0.1]
+[flow]
+[se zukkoke_02]
+っておおーい！　どこ行くの！？　[shake X]
+めっちゃ急いでるじゃん！/
+[setline 0.5 X A]
+[face A 01]
+[say A]
+むっ、伊豆でござるか。拙者、武蔵殿の
+お手伝い中でござるよ！/
+[face X 01]
+[say X]
+そーなんだ。じゃ、オレもついてこっと！/
+[face A 15]
+[say A]
+手伝い感謝でござるよ。伊豆。/
+[move X X 200 0.3]
+[se walk_03]
+[moveline A X 1000 0 1]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 2]
+[-]
+[fadeout 1.5]
+[-]
+[setline 1 A X]
+[face A 06]
+[face X 04]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[say A]
+[-]
+[serif on 0.5]
+はぁ、はぁ、なかなか重かったでござる……/
+[say X]
+[move X XY -10 -40 0.4]
+[rotate X 10 0.3]
+[delay 0.4 move X XY 10 40 0.3]
+[delay 0.5 rotate X 0 0.3]
+[se crash_03]
+よいしょっと！　これだけ運ぶだけでも
+大変だぜぇ……/
+[show E L]
+[setline 0.5 E A X]
+[face E 02]
+[say E]
+おっ！　わりぃな！
+助かるぜぃ！　これで立派なベンチができらぁ！/
+[hideall]
+[-]
+[show Z C]
+[face Z 08]
+[say Z]
+おいおい。この程度でヘバってんのか？/
+[show A L]
+[face A 05]
+[setline 0.5 A Z]
+[say A]
+か、甲斐殿っ！？[shake A]　あの運んでいる木の量……
+拙者の倍以上を軽々と……/
+[se crash_03]
+[move Z XY -10 -40 0.4]
+[rotate Z 10 0.3]
+[delay 0.4 move Z XY 10 40 0.3]
+[delay 0.5 rotate Z 0 0.3]
+[autotap]/
+[face Z 01]
+[say Z]
+上総だったらもっとすげーぞ？/
+[face A 11]
+[say A]
+さ、さようでござるか……[shake A]/
+[face Z 02]
+[say Z]
+もう一往復もすりゃあ必要分は
+運び終わりそうだぜ。武蔵。/
+[show E L]
+[move E X -200]
+[setline 0.5 E A Z]
+[face E 02]
+[orderline Z E A]
+[say E]
+おお。甲斐もありがとな！
+頼りになるぜぃ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face Z 00]
+[face A 06]
+[say A]
+か、甲斐殿……拙者もお手伝いを……/
+[face Z 03]
+[say Z]
+オレだけで充分だってーの。
+他のことやってろよ。/
+[move Z X 500 0.5]
+[hide Z]
+[face A 08]
+[say A]
+……はっ！[shake A]　承知いたした！　では、
+拙者は手伝えることを探してくるでござる！/
+[hide E]
+[hide A]
+[-]
+[show X ]
+[scale X 1.6]
+[move X Y -120]
+[face X 04]
+[say X]
+[serif off]
+[move X Y 10 0.4]
+[delay 0.4 move X Y -10 1.0]
+[-]
+[serif on]
+は～駿河兄ちゃんは真面目だな～……
+せっかく兄ちゃんが好きな相撲大会じゃん。/
+[face X 01]
+[flow]
+お祭りっ！[shake X][se taiko_01]　どんつくっ！[shake X][se taiko_01]　って感じで
+楽しめばいいのにさ！/
+[face X 02]
+[flow]
+さっき土佐なんかめっちゃ酒飲んでたぜ！/
+[face X 01]
+[flow]
+駿河兄ちゃんも働いてばっかじゃなくて
+みんなと一緒に楽しんでもいーんじゃね？/
+[show A L]
+[setline 0.5 A X]
+[scale A 1.6]
+[move A Y -120]
+[orderline X A]
+[face A 12]
+[say A]
+それは違うでござるよ。伊豆。
+拙者はまだまだ地魂男児としてひよっこ。/
+[face A 03]
+[flow]
+今は研鑽を積まれた皆さまのため、
+縁の下の力持ちになるときなのでござる！/
+[face A 08]
+[flow]
+たとえ拙者がどれだけ相撲を好きであろうが――/
+[face A 03]
+[flow]
+ときとして、
+分をわきまえることこそ必要なのでござるよ。/
+[se walk_01]
+[move A X -500 0.5]
+[hide A]
+[serif off]
+[-]
+[scale X 1 0.5]
+[move X Y 120 0.5]
+[show E R]
+[face X 08]
+[face E 00]
+[setline 0.5 X E]
+[say X]
+[-]
+[move X Y 10 0.4]
+[delay 0.4 move X Y -10 1.0]
+[-]
+[serif on]
+駿河兄ちゃんってー
+ほんっとそういう固いとこあるよなー。/
+[face X 02]
+[flow]
+武蔵、こんな兄ちゃんだけど
+よろしくやってくれよな。/
+[move E Y 5 0.2]
+[delay 0.2 move E Y -10 0.6]
+[delay 0.8 move E Y 5 0.5]
+[autotap]/
+[face E 02]
+[say E]
+はは。もちろんだぜ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[waku on 0.5]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[se water_04]
+[-]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[serif on 0.5]
+[textcolor blue]
+[talkend]
+……拙者は地魂男児として上様に
+呼び出していただいたばかり……/
+[flow]
+[face A 08]
+[textcolor blue]
+先に声聞された先輩方はすでに
+大きく成長しておられる！/
+[flow]
+[textcolor blue]
+三保の浦を舞台に執り行われる相撲大会……
+皆さまをお支えするのが今の拙者の役目！/
+[flow]
+[minibg off 0.5]
+[bg sky_day 0.5]
+[textcolor blue]
+[hide A]
+まだ挨拶のできていない地魂男児たちも
+たくさんいるでござるが/
+[flow]
+[textcolor blue]
+……拙者の真心を皆さまにお伝えできれば/
+[flow]
+[textcolor blue]
+きっと仲間として、
+快く迎えていただけるはずでござる！/
+[flow]
+[textcolor blue]
+拙者、頑張るでござる！！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[autotap]/
+[wait 2]
+[-]
+[waku off]
+[bg mbg_map 0.5]
+[bgm ascending]
+[hideall]
+[minibg sumo_honbu]
+[-]
+[fadeout 2.0]
+[-]
+[show R C]
+[face R 01]
+[serif on 0.5]
+[talk R]
+みなさんお疲れさまです。運営本部の上総です。
+準備を進めていただきありがとうございます。/
+[face R 02]
+[flow]
+今回はこの駿河国三保の浦での
+大会開催となりました。/
+[move R Y 5 0.2]
+[delay 0.2 move R Y -10 0.6]
+[delay 0.8 move R Y 5 0.5]
+[autotap]/
+[face R 01]
+[flow]
+しっかり準備をして楽しい大会にしましょうね。
+では、本部長の大和さん、お願いします。/
+[hide R]
+[-]
+[show S C]
+[face S 01]
+[say S]
+うむ。みなご苦労なのだ。/
+[face S 02]
+[flow]
+これより、第二回地魂男児大相撲大会の
+出場者の厳正なる選出を行うのだ。/
+[face S 01]
+[flow]
+熾烈なトーナメントを勝ち抜いた者は
+「福男児」の栄光を得るのだ。[se taiko_02]/
+[face S 02]
+[flow]
+「福男児」は前回の「福男児」と奉納試合を行い
+土俵に渦巻く霊気を霊脈へと流し込むのだ。/
+[face S 01]
+[flow]
+そうすることで霊脈の活性化が期待できる
+ということなのだ。/
+[move S L 0.5]
+[show P R]
+[face S 02]
+[face P 00]
+[orderline P S]
+[say S]
+では、前大会の優勝者、福男児の丹波にも
+コメントを頼むのだ。/
+[face P 06]
+[say P]
+え、やだ……[shake P]/
+[face S 05]
+[say S]
+やだとかではないのだ！[shake S][se zukkoke_02]/
+[hide S]
+[move P C 0.5]
+[face P 00]
+[say P]
+えと……みんな、頑張ってね……
+自分らしく、のびのび試合してほしいな……/
+[show Q R]
+[face Q 01]
+[orderline P Q]
+[say Q]
+では、福男児の丹波くんに、今大会の
+出場者のクジを引いてもらいます！/
+[move P Y 5 0.2]
+[delay 0.2 move P Y -10 0.6]
+[delay 0.8 move P Y 5 0.5]
+[autotap]/
+[face P 00]
+[say P]
+じゃあ……引いてくね……/
+[hide Q]
+[hide P]
+[-]
+[minibg sumo_mihonoura 0.5]
+@丹波
+一人目……和泉！[se taiko_01][show C C][face C 05]/
+[face C 09]
+[say C]
+うおぉぉお！　一番！
+優勝目指すぜ！！[se fire_01][shake C]/
+[hide C]
+[-]
+@丹波
+二人目……石見！[se taiko_01][show K C][face K 00]/
+[face K 02]
+[say K]
+おっ穴掘りで足腰は鍛えとるけぇ
+相撲も負ける気せんよ！/
+[hide K]
+[-]
+@丹波
+三人目……越後！[se taiko_01][show H C][face H 01]/
+[face H 08]
+[say H]
+はい！　全力で挑みたいと思います！/
+[hide H]
+[-]
+@丹波
+四人目……下総！[se taiko_01][show G C][face G 08]/
+[face G 02]
+[say G]
+きたぜきたぜ！　喧嘩上等だオラァ！[shake G][face G 03]/
+[hide G]
+[-]
+@丹波
+五人目……武蔵！[se taiko_01][show E C][face E 05]/
+[face E 02]
+[say E]
+おしっ！　やってやろうじゃねぇか！/
+[hide E]
+[-]
+@丹波
+六人目……伊予！[se taiko_01][show J C][face J 05]/
+[move J Y 100 0.1]
+[delay 0.1 move J Y -100 0.2]
+[delay 0.4 move J Y 100 0.1]
+[delay 0.5 move J Y -100 0.2]
+[autotap]/
+[face J 03]
+[say J]
+ぞなー！？　一回戦の相手は誰だーー！？
+すっぽんぽんにしてやるぞなー！/
+[hide J]
+[-]
+@丹波
+七人目……但馬！[se taiko_01][show L C][face L 05]/
+[say L]
+ええっ俺！？　今回は丹波もいないし
+純粋に組み合わせを堪能しようと思ってたのに！[face L 03]/
+[hide L]
+[-]
+@丹波
+八人目……河内！[se taiko_01][show B C][face B 05]/
+[face B 09]
+[say B]
+まかせときぃ！　笑いの渦に引きずり込んだるわ！
+って、そういう場と違うっちゅーねん！[face B 02][shake B]/
+[hide B]
+[-]
+@丹波
+九人目……安房！[se taiko_01][show F C][face F 01]/
+[face F 08]
+[say F]
+おや、これは合法的に触り放題ということかな？
+ふふっ。自分を抑えられそうにない。/
+[show B R]
+[move B X 500]
+[move B X -400 0.3]
+[rotate B 10 0.3]
+[se zukkoke_02]
+[face B 03]
+[say B]
+いや、そこは自制せぇや！/
+[hide B]
+[hide F]
+[-]
+@丹波
+十人目……備前！[se taiko_01][show M C][face M 08]/
+[face M 14]
+[say M]
+ってことは合法的に触り放題ってこと？
+全力全開ド派手にいくぜ！/
+[show B L]
+[move B X -500]
+[move B X 400 0.3]
+[se zukkoke_02]
+[rotate B -10 0.3]
+[face B 05]
+[say B]
+なんやねんこの流れ！　真面目に相撲せぇ！！/
+[face B 03]
+[flow]
+笑いとりにいく宣言したウチに二連続で
+ツッコませるんやない！！[shake B]　かすむやろ！[shake B]/
+[hide M]
+[hide B]
+[-]
+@丹波
+十一人目……肥前！[se taiko_01][minibg sumo_honbu 0.5][show N C][face N 05]/
+[say N]
+わぁっ僕！？[shake N]　本部での仕事は
+誰かにお願いしないとだね……[face N 06]/
+[hide N]
+[-]
+@丹波
+十二人目……尾張！[se taiko_01][minibg sumo_mihonoura 0.5][show D C][face D 08]/
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.2]
+[delay 0.3 move D Y 10 0.1]
+[delay 0.4 move D Y -10 0.2]
+[delay 0.6 move D Y 10 0.1]
+[delay 0.7 move D Y -10 0.3]
+[autotap]/
+[face D 02]
+[say D]
+エクセレンテ！！　ふははははは！！！
+相撲の神が微笑んだようだな！！/
+[hide D]
+[-]
+@丹波
+十三人目……伊賀！[se taiko_01][show Y C][face Y 04]/
+[face Y 01]
+[say Y]
+……逆に考えれば直接尾張を消す
+いい機会とも言えますね……/
+[hide Y]
+[-]
+@丹波
+十四人目……越前！[se taiko_01][show I C][face I 08]/
+[face I 01]
+[say I]
+ったく。こちとら病み上がりだぜ？
+まあいい。魅せてやんよ。/
+[hide I]
+[-]
+@丹波
+十五人目……日向！[se taiko_01][show O C][face O 12][shake O]/
+[move O Y 5 0.2]
+[delay 0.2 move O Y -10 0.6]
+[delay 0.8 move O Y 5 0.5]
+[autotap]/
+[face O 13]
+[say O]
+Oh my god……/
+[hide O]
+[-]
+@丹波
+最後……十六人目……駿河！[se taiko_01][show A C][face A 05][minibg sumo_honbu 0.5]/
+[face A 05]
+[say A]
+……ッ！！！！/
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[face A 14]
+[flow]
+[se zukkoke_01]
+な、なんと！？
+拙者が試合に……！？/
+[hideall]
+[effect off a]
+[minibg sumo_mihonoura 0.5]
+[-]
+[talkend]
+[se gaya_01]
+[textcolor ARUJI]
+ざわざわ……/
+@外野の声
+おっちゃん、今年も出場ならず！！/
+@外野の声
+二回連続じゃなくて助かったにゃ……/
+@外野の声
+オレも選手になりたかったんだぜ……/
+[show A L]
+[show X R]
+[setline A X]
+[face A 05]
+[face X 02]
+[say X]
+駿河兄ちゃん！　呼ばれたじゃん！
+おめでと！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[say A]
+い、伊豆……そうでござるが……/
+[move X X 300 0.5]
+[hide X]
+[show E L]
+[setline 0.5 E A]
+[face E 02]
+[say E]
+おう駿河。お互い呼ばれたな！/
+[face A 01]
+[say A]
+む、武蔵殿！/
+[move E Y 5 0.2]
+[delay 0.2 move E Y -10 0.6]
+[delay 0.8 move E Y 5 0.5]
+[autotap]/
+[face E 01]
+[say E]
+東海道組は人数が多いとはいえ
+尾張・伊賀・駿河・下総・安房・オレ……と/
+[face E 10]
+[flow]
+六人もいんのか。/
+[face A 06]
+[say A]
+大国の武蔵殿とご一緒できるとは……
+光栄でござります！/
+[face E 09]
+[say E]
+いや、そんなたいしたもんじゃねぇって。[shake E]/
+[hideall]
+[-]
+[minibg sumo_honbu 0.5]
+[show N L]
+[show R C]
+[show S]
+[setline R S N]
+[face N 00]
+[face R 01]
+[face S 08]
+[say N]
+[orderline N R S]
+今回の行司はどうしよう？/
+[move R Y 5 0.2]
+[delay 0.2 move R Y -10 0.6]
+[delay 0.8 move R Y 5 0.5]
+[autotap]/
+[face R 02]
+[say R]
+そうですね……私に考えがあります。
+あとで頼みに行ってみますね。/
+[hide N]
+[hide S]
+[show Q L]
+[face R 01]
+[face Q 06]
+[setline 0.5 Q R]
+[say R]
+[orderline Q R]
+私と隠岐さんは解説実況など
+今回も担当できそうですね。/
+[face Q 02]
+[say Q]
+はいっ。今回もよろしくおねがいしますっ[shake Q]/
+[hide Q]
+[hide R]
+[-]
+[show S C]
+[face S 02]
+[say S]
+あー……前回同様、まだ土俵周りの
+建設が済んでいないのだ。/
+[face S 01]
+[flow]
+土俵建設班は心して取り掛かるように。
+ご安全に、なのだ。[shake S]/
+[face S 02]
+[flow]
+そして出場者は試合まで稽古を積み
+大会に備えるのだ！/
+[move S L 0.5]
+[show R C]
+[show sin R]
+[face R 01]
+[face sin 01]
+[say R]
+土俵完成の翌日から大会を開催します。
+みなさん、頑張ってくださいね。/
+[move sin Y 20 0.4]
+[delay 0.6 move sin Y -20 0.2]
+[autotap]/
+[face sin 02]
+[say sin]
+出場者にはこのあと、まわしを渡すぞぉ。/
+[move S Y 5 0.2]
+[delay 0.2 move S Y -10 0.6]
+[delay 0.8 move S Y 5 0.5]
+[autotap]/
+[face S 02]
+[say S]
+うむ。ということで……一時解散なのだ！/
+[minibg sumo_mihonoura 0.5]
+[hideall]
+[-]
+[show A C]
+[show X C]
+[setline A X]
+[face A 06]
+[face X 08]
+[say X]
+兄ちゃん……どしたんだよ。
+複雑そーな顔してさ。/
+[face A 06]
+[say A]
+いや、拙者……本部のしごとを
+精一杯頑張ろうと思っていたのでござるが……/
+[face A 10]
+[flow]
+こうなってしまってはどうしたものかと……/
+[face X 05]
+[say X]
+えーそんなの他の人に任せとけばいーじゃん！
+選手なんだから、試合の方が大事だって！/
+[face A 05]
+[say A]
+さ、左様でござるが、運営のお仕事も大事で
+ござるよっ！？/
+[hide X]
+[-]
+[move A C 0.5]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 10]
+[flow]
+はわわ……困ったでござるぅ……[shake A]/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>2/
+[set A s_sur_m 駿河]
+[set B s_kaw_sumo 河内]
+[set C s_yzm_sumo 和泉]
+[set D s_owa_sumo 尾張]
+[set E s_mus_sumo 武蔵]
+[set F s_awt_sumo 安房]
+[set G s_smu_m 下総]
+[set H s_ecg_sumo 越後]
+[set I s_ecz_sumo 越前]
+[set J s_iyo_sumo 伊予]
+[set K s_iwm_sumo 石見]
+[set L s_taj_sumo 但馬]
+[set M s_biz_sumo 備前]
+[set N s_hiz_sumo 肥前]
+[set O s_hyu_sumo 日向]
+[set P s_tnb_m 丹波]
+[set Q s_kai_m 甲斐]
+[set R s_oum_m 近江]
+[set S s_bic_m 備中]
+[set T s_bin_m 備後]
+[set U s_har_m 播磨]
+[set V s_nag_m 長門]
+[set X s_izu_m 伊豆]
+[set Y s_ina_m 因幡]
+[set Z s_iga_sumo 伊賀]
+[set A2 s_sur_sumo 駿河]
+[set G2 s_smu_sumo 下総]
+[set mik s_mik_m 三河]
+[fadein black 0]
+[bgm off]
+[-]
+[light takibi]
+[bg mbg_map]
+[bgm journey]
+[minibg sky_star]
+[-]
+[se water_04]
+[fadeout 2.0]
+[-]
+[wait 1.5]
+[minibg sumo_camp_night 1]
+[-]
+[autotap]/
+[show A C]
+[show G C]
+[setline A G]
+[face A 00]
+[face G 01]
+[talk A]
+[-]
+[serif on 0.5]
+おお……これが拙者のまわし……
+新品でかなり固いでござるな……/
+[face G 02]
+[say G]
+バリバリだぜぇ！[shake G]/
+[hideall]
+[-]
+[se taiko_01]
+[show Q C]
+[face Q 01]
+[say Q]
+おら、お前らそこ並べ。先輩であるこのオレが
+まわしの付け方見てやんよ。/
+[move Q R 0.5]
+[show A L]
+[face A 06]
+[say A]
+か、甲斐殿……拙者まわしをつけるのは
+心得がござるゆえ……[move A X -100 0.5]/
+[setline 0.5]
+[se cloth_06]
+[face Q 01]
+[say Q]
+[orderline Q A]
+[rotate A 10 0.5]
+[move Q X -300 0.5]
+いいからほら、貸してみろ！
+引っ張ってやるよ！/
+[face A 05]
+[say A]
+ひ、ひぃぃっ！[shake A]/
+[face Q 06]
+[say Q]
+なんて声出してんだよ。まるでオレが
+いじめてるみてぇじゃねぇかよ！　オラオラ！！[face Q 02][shake Q]/
+[move Q Y -100 0.5]
+[rotate Q 5 0.5]
+[se cloth_06]
+[face A 13]
+[shake A]
+[say A]
+うひぃいい！[shake A]　もう限界でござる、
+お、お許しくださりませぇ！！[shake A]/
+[show X R]
+[face X 01]
+[say X]
+[orderline X Q A]
+駿河兄ちゃん、甲斐相手だと弱腰なんだよなー。
+甲斐が今回の対戦相手にいなくてよかったな！/
+[hideall]
+[-]
+[show G L]
+[show E R]
+[face G 06]
+[face E 00]
+[setline G E]
+[say G]
+おい！　
+どうやってまわしつければいいんだよ！/
+[move E Y 10 0.4]
+[delay 0.4 move E Y -10 1.0]
+[autotap]/
+[face E 02]
+[say E]
+駿河の見てなかったのかぁ？　
+持っててやるからよぉ。/
+[move E X -100 0.2]
+[face E 05]
+[flow]
+[se zukkoke_02]
+って、尻尾の根本、太っっ！！[shake E 2 10 10]
+たしかにどうやってしめるんだこれ……[face E 10]/
+[move E X 200 0.5]
+[hide E]
+[show R L]
+[setline 0.5 R G]
+[scale R 1.6 0.5]
+[scale G 1.6 0.5]
+[moveline R G 0 -120 0.5]
+[autotap]/
+[face R 02]
+[orderline G R]
+[say R]
+ワイに任せぇ。うさべい。
+脱がすでぇ。/
+[se cloth_06]
+[shake G]
+[move R XY 10 -240 0.4]
+[rotate R -10 0.3]
+[delay 0.4 move R XY -10 140 0.3]
+[delay 0.5 rotate R 0 0.3]
+[face G 05]
+[say G]
+わっ、いきなりなにすんだよ！
+恥ずいじゃねーか！[face G 09][shake G]/
+[hide G]
+[move R C 0.5]
+[move R Y -120 0.5]
+[move R Y -10 0.2]
+[delay 0.2 move R Y 10 0.2]
+[delay 0.4 move R Y -10 0.2]
+[delay 0.6 move R Y 10 0.2]
+[autotap]/
+[face R 01]
+[say R]
+[se cloth_01]
+まぁ見てなはれ。こうしてこうして……
+こうすればええんや。/
+[face R 02]
+[flow]
+ほ～れ、ちゃんとしっぽを巻くように
+まわしをつけられたやろ？/
+[hide R]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[show G2]
+[face G2 02]
+[say G2]
+おおっすげぇ！[shake G]　確かに近江なら尻尾の形
+似てるし、前回試合に出てたもんな。/
+[face G2 01]
+[flow]
+[effect off a]
+んん、ちょっとひんやりして変な感じだけど
+……ちゃんとつけられたぜ！　近江サンキュな！/
+[show R L]
+[setline 0.5 R G2]
+[face R 02]
+[say R]
+ええてええて。同じ龍として
+応援しとるでぇ！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show K L]
+[show Y C]
+[show L R]
+[setline K L Y]
+[face K 02]
+[face Y 01]
+[face L 00]
+[orderline K L Y]
+[say K]
+[-]
+[serif on]
+どがぁかね。おらたちのまわしは。/
+[move Y Y 5 0.2]
+[delay 0.2 move Y Y -10 0.6]
+[delay 0.8 move Y Y 5 0.5]
+[autotap]/
+[face Y 02]
+[say Y]
+ふたりともよく似合ってるんだぜ！/
+[face L 03]
+[say L]
+[serif off]
+[move L Y 10 0.4]
+[delay 0.4 move L Y -10 1.0]
+[-]
+[serif on]
+なんか……俺なんかが16人のうちの
+ひとりになんかなっちゃって良いのかな……/
+[show P R]
+[move P X 200]
+[setline 0.5 K L Y P]
+[face P 02]
+[say P]
+大丈夫。
+うん。優勝目指して、頑張ってね。/
+[hide P]
+[hide Y]
+[-]
+[setline 0.5 K L]
+[face K 02]
+[say K]
+今回はおらと但馬も山陰道代表じゃけぇね
+戦うことになったら手加減はせんよ。/
+[move L Y 5 0.2]
+[delay 0.2 move L Y -10 0.6]
+[delay 0.8 move L Y 5 0.5]
+[autotap]/
+[face L 09]
+[say L]
+う、うん……俺も頑張る……/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[show M L]
+[show S C]
+[show T R]
+[setline M S T]
+[orderline M S T]
+[move M X -500]
+[face M 02]
+[face S 00]
+[face T 00]
+[-]
+[move M X 500 0.5]
+[autotap]/
+[serif on]
+[say M]
+備中、備後見て見て～。似合ってる？
+信濃先生につけてもらっちゃった。/
+[move S Y 5 0.2]
+[delay 0.2 move S Y -10 0.6]
+[delay 0.8 move S Y 5 0.5]
+[autotap]/
+[face S 01]
+[say S]
+兄さん。バッチリだよ！
+似合ってる！/
+[face T 11]
+[say T]
+なんじゃ。ワシがまわしつけるの手伝うたるのに
+つまらんのー。/
+[face T 09]
+[flow]
+[move T Y 10 0.1]
+[delay 0.1 move T Y -10 0.1]
+ま。前回はワシが出場じゃったが
+今回はアニキの番じゃなぁ。応援しとるけぇな！/
+[move M X -50 0.1]
+[delay 0.1 move M X 100 0.2]
+[delay 0.3 move M X -100 0.2]
+[delay 0.5 move M X 50 0.1]
+[autotap]/
+[face M 12]
+[say M]
+えー可愛いこと言ってくれるじゃん！
+いい子だなぁ備後は。/
+[serif off]
+[show U R]
+[show V L]
+[setline 0 V U -200 500]
+[moveline T M S 400 0 0.5]
+[face U 02]
+[face V 01]
+[-]
+[setline 0.5 V U M]
+[hide T]
+[hide S]
+[say U]
+[-]
+[serif on]
+わうぅ！　山陽道の代表なのです！
+備前くん！　頑張って欲しいのです！/
+[move V Y 5 0.2]
+[delay 0.2 move V Y -10 0.6]
+[delay 0.8 move V Y 5 0.5]
+[autotap]/
+[face V 02]
+[say V]
+備前。お前なら優勝……いや、日本一……いや
+宇宙一の力士になれる！！/
+[face V 03]
+[flow]
+[se taiko_02]
+いや、なってみせるんだ！！[shake V]/
+[face M 05]
+[say M]
+[se zukkoke_02]
+そこまではならねぇよ！？[shake M 2 15 15]/
+[move M Y 5 0.2]
+[delay 0.2 move M Y -10 0.6]
+[delay 0.8 move M Y 5 0.5]
+[autotap]/
+[face M 14]
+[flow]
+でもまあ、せっかく出場するんだから
+優勝はしたいよな。/
+[hide U]
+[hide V]
+[hide M]
+[-]
+[show S L]
+[show T]
+[face T 05]
+[face S 08]
+[setline S T]
+[say S]
+[orderline S T]
+おお……兄さんがいつになくやる気に……/
+[hide S]
+[hide T]
+[-]
+[show M]
+[face M 03]
+[say M]
+だってさぁ！　なーんかみんなオレのこと
+勘違いしてるみたいなんだよな。/
+[face M 13]
+[flow]
+えっちなことにしか興味ないと思われてる
+気がするんだよな。/
+[serif off]
+[hide M]
+[-]
+[show T]
+[show S]
+[show U]
+[show V]
+[setline U V S T]
+[orderline V S U T]
+[face S 08]
+[face T 11]
+[face V 12]
+[face U 08]
+[say S]
+[wait 1]
+[-]
+[serif on 0.5]
+それはそうなのでは？/
+[face T 06]
+[say T]
+アニキはそうじゃろ。/
+[face V 09]
+[say V]
+オレには理解できんが……海の任務で
+なにやら異名を付けられたそうじゃないか。/
+[move U Y 5 0.2]
+[delay 0.2 move U Y -10 0.6]
+[delay 0.8 move U Y 5 0.5]
+[autotap]/
+[say U]
+わうぅ？　[shake U]備前くんは刀を3つも使ってて
+かっこいいのですぅ！[face U 02]/
+[face U 06]
+[flow]
+僕もいつか槍を47本持ちたいのですぅ……/
+[hide T]
+[hide S]
+[hide V]
+[-]
+[show M]
+[face M 13]
+[say M]
+[setline 0.5 U M]
+[orderline M U]
+[rotate M 5 0.5]
+[move M Y -10 0.2]
+[delay 0.2 move M Y 10 0.2]
+[delay 0.4 move M Y -10 0.2]
+[delay 0.6 move M Y 10 0.2]
+[autotap]/
+[se cloth_01]
+オレを信じてくれるのは播磨だけだぜ……
+ヨシヨシ。ナデナデ。モミモミ。/
+[face U 05]
+[shake U]
+[say U]
+わうぅ！？　揉み方が変なのですぅ！[face U 09][shake U]/
+[moveline U M -300 0 0.5]
+[show S R]
+[face S 04]
+[say S]
+やっぱり自業自得だと思うよ……/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[se cloth_01]
+[-]
+[fadeout 1.5]
+[-]
+[se cloth_06]
+[autotap]/
+[show N L]
+[show O R]
+[face N 02]
+[face O 12]
+[say N]
+[serif on]
+これでよし。日向くん。
+ばっちりキマってるよ！/
+[face O 13]
+[say O]
+…………[shake O]……私、辞退することは……
+できませんか……？[shake O]/
+[serif off]
+[hideall]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[show B L]
+[show C C]
+[setline B C]
+[face B 02]
+[face C 02] 
+[-]
+[wait 3]
+[-]
+[hide B]
+[hide C]
+[-]
+[show J C]
+[show H C]
+[show I R]
+[setline J H I]
+[orderline J H I]
+[face J 02]
+[face H 02]
+[face I 02]
+[se kira_01]
+[-]
+[wait 2]
+[autotap]/
+[hideall]
+[effect off a]
+[-]
+[show F C]
+[face F 09]
+[say F]
+[-]
+[serif on]
+どうやらみな、まわしをつけ終わったようだね。
+どれお兄さんがそのお尻を撫でてあげよう。/
+[show E C]
+[face E 05]
+[face F 01]
+[say E]
+[setline 0.4 E F]
+[orderline E F]
+うおっ！[se cloth_06]
+いきなり鷲掴みにするんじゃねぇやい！[move E X -100 0.5]/
+[hide F]
+[-]
+[show A2 L]
+[setline 0.5 A2 E]
+[face A2 11]
+[face E 00]
+[say A2]
+はぁ……/
+[move E Y 10 0.4]
+[delay 0.4 move E Y -10 1.0]
+[autotap]/
+[face E 13]
+[say E]
+なんでぇ駿河。さっきから浮かない顔してよぉ。
+まわし姿、様になってるぜぃ？/
+[face A2 06]
+[say A2]
+武蔵殿……ありがとうでござる……
+いえ……/
+[face A2 08]
+[flow]
+拙者今大会は、
+本部の仕事に精一杯取り組むつもりでござった……/
+[face A2 03]
+[flow]
+なぜなら、この奉納試合は地魂男児たちが
+これまでの研鑽を霊力としてぶつけ合い――/
+[face A2 04]
+[flow]
+極限まで霊力を高め合っていく過程が
+大事でござろう。/
+[face A2 06]
+[flow]
+まだ大会に参加したことのない先輩方もいるなか
+声聞から日の浅い拙者にこのような晴れ舞台は――/
+[face E 05]
+[say E]
+おいおい駿河。お前そんなこと考えてたのかよ。
+だいたい地魂男児に先輩も後輩も――……[face E 10]/
+[move A2 Y 5 0.2]
+[delay 0.2 move A2 Y -10 0.6]
+[delay 0.8 move A2 Y 5 0.5]
+[autotap]/
+[face A2 13]
+[say A2]
+[se zukkoke_02]
+うぅっ、きっとなぜ拙者のような青二才が
+試合に出るのだと思われているはずでござる～！/
+[show Q L]
+[setline 0.5 Q A2 E]
+[face Q 02]
+[orderline Q E A2]
+[say Q]
+[face A2 05]
+だったら辞退すりゃいいじゃねーか。
+空いた枠にはオレが出てやんよ。/
+[face E 03]
+[say E]
+おい、甲斐。/
+[show O L]
+[show N R]
+[face O 09]
+[face N 00]
+[serif off]
+[setline O N]
+[moveline O N -1000 0 0]
+[moveline O N E A2 Q 1000 0 1]
+[hide Q]
+[hide E]
+[-]
+[serif on]
+[say O]
+……おや、いま辞退がどうのと
+聞こえた気がしますが……/
+[face N 01]
+[say N]
+そう？　気の所為じゃないかな？/
+[serif off]
+[scale A2 1.6]
+[move A2 Y -120]
+[moveline O N A2 -1000 0 1]
+[-]
+[hide O]
+[hide N]
+[face A2 08]
+[say A2]
+[-]
+[serif on]
+……や、やめませぬ！[shake A2]
+選んでもらえた御恩、むげにするわけには！[face A2 10]/
+[face A2 08]
+[flow]
+それに……拙者は足柄山の大熊の化身！
+相撲ほど心躍るモノはないでござる！/
+[show B L]
+[move A2 X 450 0.3]
+[move B X -300]
+[move B X 250 0.3]
+[rotate B -10 0.3]
+[orderline B A2]
+[se zukkoke_02]
+[face B 05]
+[say B]
+[orderline A2 B]
+大熊やなくてどう見てもレッパンやろ！
+……何の話かしらんけども。[face B 03]/
+[move B X -1000 0.5]
+[hide B]
+[move A2 X -450 0.5]
+[face A2 03]
+[say A2]
+試合に出れる喜びはもちろんござる。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A2 11]
+[flow]
+……しかし、
+どのような気持ちで挑めばよいのやら……/
+[hideall]
+[-]
+[bgm fun]
+[show D C]
+[face D 02]
+[say D]
+[scale A2 1.6]
+[move A2 Y -120]
+[move A2 Y 10 0.1]
+[delay 0.1 move A2 Y -10 0.2]
+[delay 0.3 move A2 Y 10 0.1]
+[delay 0.4 move A2 Y -10 0.2]
+[delay 0.6 move A2 Y 10 0.1]
+[delay 0.7 move A2 Y -10 0.3]
+[autotap]/
+はっはっは。どうした辛気臭い顔をして。/
+[face D 01]
+見よ！　オレ様の回し姿を……まさに我が正装。
+この締め心地がたまらん！　みゃ！？[move D X -200 0.3][se doka_01][face D 09]/
+[show Z R]
+[face Z 11]
+[say D]
+[face D 03]
+貴様……伊賀！　あからさまに手裏剣を
+眉間に投げるでない！[shake D]/
+[face Z 11]
+[say Z]
+手が滑りました。/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 08]
+[say D]
+ふんっ前回はセコい手を使って失敗したようだが
+今回はそうはいかんぞ？/
+[face Z 03]
+[say Z]
+チッ……[shake Z]今回は三河２号を参加させるつもり
+だったのに……/
+[se zukkoke_02]
+[effect fr syutyu a 0 0]
+[face D 09]
+[say D]
+ええい。神聖な土俵を愚弄する気か！？
+正々堂々と戦わぬか！/
+[show A2 C]
+[scale A2 0.8 0.5]
+[scale D 0.8 0.5]
+[scale Z 0.8 0.5]
+[moveline A2 D Z 0 100 0.5]
+[setline 0.5 D A2 Z]
+[face A2 06]
+[say A2]
+[orderline Z D A2]
+い、伊賀殿……因縁があるのはわかりまするが……
+決着は試合で堂々とつけるでござるよ！/
+[move Z Y 5 0.2]
+[delay 0.2 move Z Y -10 0.6]
+[delay 0.8 move Z Y 5 0.5]
+[autotap]/
+[face D 04]
+[face Z 04]
+[say Z]
+[effect off a]
+……いいでしょう。駿河に免じて
+ここは引きましょう。/
+[face Z 08]
+[flow]
+尾張……試合で決着をつけましょう。/
+[face Z 02]
+[flow]
+無事に大会当日を迎えられると
+いいですね。/
+[hide A2]
+[face D 09]
+[say D]
+[se zukkoke_02]
+[move D X 100 0.2]
+夜道に気をつけろ的な脅し文句じゃないのか
+それは！？[shake D]/
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.2]
+[delay 0.3 move D Y 10 0.1]
+[delay 0.4 move D Y -10 0.2]
+[delay 0.6 move D Y 10 0.1]
+[delay 0.7 move D Y -10 0.3]
+[autotap]/
+[face D 02]
+[face Z 03]
+不安で朝までしか眠れぬわ。はっはっは。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[se cloth_01]
+[show A2 L]
+[move A2 X 500]
+[move A2 X -500 0.5]
+[face A2 00]
+[say A2]
+[-]
+[serif on]
+明日は朝から稽古でござるな……
+拙者はこちらの天幕を使わせてもらっても？/
+[show D R]
+[setline 0.5 A2 D]
+[face D 10]
+[say D]
+おい駿河。オレ様も貴様と同じテントに
+入らせろ。/
+[face D 04]
+[flow]
+１日中伊賀と同じテントでは流石に
+ジ・エンドだ！/
+[face A2 06]
+[say A2]
+拙者はかまいませぬが……
+三河殿もよろしいでござるか？[show mik][move mik Y -100][rotate mik 10][move mik Y 100 0.5][se cloth_01][rotate mik 0 0.5][orderline A D mik][face mik 01]/
+[face D 09]
+[say D]
+[move D X 100 0.3]
+[se zukkoke_02]
+のぉおおお！！！　何故オレ様にはこうも
+敵が多いのだ！！？[shake D]/
+[face D 05]
+[flow]
+[shake D]
+というか……駿河……よくよく考えたら貴様も
+あれか……ほんのり三河派か！？　徳川勢力か！？/
+[face A2 10]
+[say A2]
+お、尾張殿！？　落ち着いてくだされ。[shake A2]/
+[se cloth_06]
+[move D X 1000 0.5]
+[hide D]
+[face D 03]
+[say D]
+[shake A2]
+ええいこんなところで寝てられるか！
+オレ様は別のテントで寝る！！/
+[hideall]
+[-]
+[show G2 R]
+[move G2 X 300]
+[move G2 X -300 0.5]
+[face G2 02]
+[say G2]
+おうおう！　まわし一丁で過ごすのも
+気持ちよくなってきたぜ！/
+[move G2 Y 10 0.4]
+[delay 0.4 move G2 Y -10 1.0]
+[autotap]/
+[face G2 08]
+[flow]
+ってどうしたんだ尾張のやつ。
+なんか北陸道のテントに潜り込んでったぞ。/
+[face G2 06]
+[flow]
+加賀なら守ってくれるとかなんとか。/
+[show Z L]
+[face Z 04]
+[say Z]
+情けない男ですね。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

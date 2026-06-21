@@ -1,0 +1,1221 @@
+>>10000/
+@筑前
+俺は黒田節の筑前ばい！　[wait 3]
+槍も唄も天下一！　[autotap]/
+[delay 3.1]
+[flow]
+[-]
+@筑前
+ま、西海道のリーダーみたいなもんちゃね♪　[wait 3]
+よろしく頼むばい！/
+>>10001/
+@筑前
+祭りん気配ばーい！　[wait 3]……ってなんや主やったと？　
+仕事やったらお断りばい！　[autotap]/
+[delay 6.1]
+[flow]
+[-]
+@筑前
+ばってん、祭りんときゃ喜んで行っちゃるけんね！/
+>>1/
+[set A s_ckz_r 筑前]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+よ～、主！　主は祭りば好いとーと？[face A 09]
+やったら、こんど一緒に「博多どんたく」行くばい！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 14]
+ただし、半端な踊りで参加するんは許さんけん！
+[face A 08]やるっち決めたら全力で挑むばい！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 15]
+[effect fr syutyu 6000 0 0]
+[se taiko_01]
+さぁ主、練習練習〜！！[shake A]/
+>>2/
+[set A s_ckz_r 筑前]
+[show A C]
+[face A 10]
+[serif on]
+[talk A]
+主、腹減っとっちゃろ？
+俺がテキトーに、がめ煮ば作っちゃるばい！/
+[face A 05]
+んー？　主～、がめ煮ば知らんと？
+[face A 01]まぁ、他所じゃ筑前煮っち言うらしかね。[face A 12]/
+[face A 01]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そや！　ここは「がめ」ってことで、
+昔風にスッポンでも入れてみよか！[face A 15]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 16]
+精力つくばい〜っ！
+へへっ。/
+>>3/
+[set A s_ckz_r 筑前]
+[show A C]
+[face A 09]
+[serif on]
+[talk A]
+三大住吉っち言われる住吉神社に、
+三大八幡宮ん筥崎宮！[shake A]/
+[face A 15]
+どっちもバリ御利益あるばい！！
+バリバリばい！[shake A]/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 10]
+[flow]
+やけん主、祭り行こうや！
+ずーっと健康で、いっぱい遊べますようにって！[face A 11]/
+>>4/
+[set A s_ckz_r 筑前]
+[randomset B r @地魂男児 @あやかし -ckz -@NOW -@NPC]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+朝飯ごちそうさん〜！[face A 15]
+さーて、今日はなにして遊ぼうかいな〜。/
+[face A 05]
+[show B R]
+[face B 09]
+[move B X 600]
+[setline 0.3 A B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+あっ、$B:A！　一緒に遊ぼうや！
+[face A 02]面倒臭か掃除なんて後回しやけん！　レッツゴー！[shake A][face B 01]/
+>>5/
+[set A s_ckz_r 筑前]
+[randomset B r @地魂男児 -@あやかし -ckz -@NOW @NPC]
+[show A C]
+[face A 13]
+[serif on]
+[show B]
+[move B X 600]
+[talk A]
+ふぁー、小腹減ったばい。[shake A][-][setline 0.5 A B]
+お、[face A 01]$B:A、ちょうどよかとこにおったばい。/
+[face A 08]
+[face B 05]
+[shake B]
+[flow]
+駄賃やるけん、購買で饅頭ば
+買うてきてくれんね！　よかろ～？[face A 15][face B 04]/
+>>6/
+[set A s_ckz_r 筑前]
+[randomset B r @地魂男児 -@あやかし -ckz -@NOW @NPC]
+[show A C]
+[face A 14]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+む〜、$B:Aに次の任務の打ち合わせに
+呼ばれてしもうたばい……せからしか～。/
+[face A 16]
+[flow]
+[scale A 1.3 0.3]
+[move A Y -50 0.3]
+そや！　酒ばたーんと持っていこ！
+酔い潰して仕事んこと忘れさせちゃろ！[shake A]/
+>>7/
+/
+8/
+>>/
+/
+/
+>>9/
+[set A s_ckz_r 筑前]
+[randomset B r @地魂男児 -@あやかし -ckz -@NOW -@NPC]
+[show A C]
+[face A 13]
+[rotate A -30 0.3]
+[move A Y -150 0.3]
+[serif on]
+[talk A]
+[se dosa_01]
+はー、遊びつかれたばい。
+俺もう今日は絶対動かんけんねー！！[shake A]/
+[show B L]
+[move B X 200 0.3]
+[face A 05]
+[face B 08]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あっ、[shake A]$B:A！　なんで引っ張っと！？[rotate A 3 0.3][se cloth_06]
+あっ、あ、あーーーーーー！！！[move B X -900 1][move A X -800 1][rotate A 20 0.4]/
+>>10/
+[set A s_ckz_r 筑前]
+[randomset B r @地魂男児 -@あやかし -ckz -@NOW @NPC]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+はっ！！！
+どこからか祭囃子が聞こえてくるたい！/
+[face A 09]
+[effect fr syutyu a 0 0]
+よっしゃ！
+俺も飛び入りで参加するばい！！！　おりゃー！！[move A X -1000 0.3]/
+[effect off a]
+[show B L]
+[move B X -1000]
+[setline 0.5 B A]
+[face B 01]
+[face A 05]
+[flow]
+……って、$B:A？　祭りばどこ行ったと？
+え？　[= 稽古……？ 任務……？ 宿題……？ 任務の報告……？ 掃除当番……？][face A 03][shake A]/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face B 03]
+[face A 04]
+うわーーん、罠やったばーい！[shake A]/
+>>11/
+[set A s_ckz_r 筑前]
+[randomset B r @地魂男児 @あやかし -ckz -@NOW @NPC]
+[show A C]
+[face A 36]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ひぃ〜っく。
+ひと遊び終わったあとの一杯はうまか〜！/
+[show B R]
+[setline 0.5]
+[face B 00]
+[talk A]
+[face A 21]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+お、$B:A、ちょうどよかとこに！
+おーい、こっち来んね〜！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 29]
+[face B 05]
+[flow]
+早よここ座らんね！　そうそう。
+[face A 35]せっかくやけん、一杯付き合うてんやい〜！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_ckz_r 筑前]
+[randomset B r @地魂男児 @あやかし -ckz -@NOW @NPC]
+[show A C]
+[face A 14]
+[serif on]
+[talk A]
+ふむふむ……なるほど……
+おお！　$B:Aもなかなか……！[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 16]
+[flow]
+よう見とったら
+みんな、なかなかよかケツしとーね。/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 09]
+山笠の締め込みがよう似合うっちゃろーや〜。[shake A]/
+>>15/
+[set A s_ckz_m 筑前]
+[randomset B m @地魂男児 @あやかし -ckz -@NOW -@NPC]
+[randomset C m @地魂男児 @あやかし -ckz -@NOW -@NPC]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[scale A 1.6]
+[move A Y -100]
+[se doka_01]
+[effect bk waveout 6000 -200 0]
+[shakebg]
+こらぁ！　どうしたぁ！！　$B:A！[shake A]
+ほれ、ちゃんと前ば見んね！！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[effect bk waveout 6000 200 0]
+[shakebg]
+[se doka_01]
+[face A 13]
+あ〜、だめだめ！　$C:A！
+腰が入っとらんけんまだまだばい！！/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[show B L]
+[show C R]
+[face B 03]
+[face C 03]
+[move B X -200]
+[move C X 200]
+[move B X 100 0.5]
+[move C X -100 0.5]
+[talk A]
+[face A 02]
+[flow]
+ははは！
+横から口出しするだけっちゅうのも楽しいもんばい！/
+>>16/
+[set A s_ckz_r 筑前]
+[randomset B m @地魂男児 @あやかし -ckz -@NOW -@NPC]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[rotate A -30]
+[move A Y -100 0.5]
+ふあぁ……修練場の隅っこは昼寝にぴったりばい。
+そいじゃあみんな頑張りぃね～。[face A 07]/
+[effect fr slash 5000 100 0]
+[face A 05]
+[rotate A 0 0.3]
+[move A X -200 0.3]
+[move A Y 100 0.3]
+[show B R]
+[face B 05]
+[move B X 200]
+[move B X -200 0.2]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+って、わぁあっ！　$B:A！[face A 10]
+危なかっちゃろーもん！　わぁあー！[shake A][shakebg][se doka_01][move A X -500 0.3][face B 04][face A 04]/
+>>17/
+[set A s_ckz_b 筑前]
+[randomset B b @地魂男児 @あやかし -ckz -@NOW @NPC]
+[show A C]
+[show B]
+[setline A B]
+[face A 00]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+$B:A～、風呂上がったら俺と一杯飲もうや！/
+[face A 06]
+[flow]
+「ひとりや飲まむ友なしにして」
+っち言うけんね！　[face A 02]今晩は楽しくなるばい！[face B 01]/
+>>18/
+[set A s_ckz_b 筑前]
+[randomset B b @地魂男児 @あやかし -ckz -@NOW @NPC]
+[randomset C b @地魂男児 @あやかし -ckz -@NOW @NPC]
+[effect fr yuge A]
+[se amb_12]
+[se bath_01]
+[show A C]
+[show B]
+[show C]
+[scale A 1.6]
+[scale B 1.6]
+[scale C 1.6]
+[moveline A B C 0 -120 0]
+[setline C A B]
+[move C X -100]
+[move B X 100]
+[face B 01]
+[face C 00]
+[face A 01]
+[serif on]
+[talk A]
+みんな知っとーと？　風呂に入っとると
+血行ばようなって疲れが取れるんばい。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[flow]
+[face B 06]
+[face C 06]
+やけん、しっかり浸からないかんたい。
+それ、いーち、にー、さーん……/
+[move B X 200 0.5]
+[se bath_02]
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、こら$B:A！　まだ早か！！　[shake A]
+風呂も全力で入らんね！　待たんねー！[shake A][move B X 600 0.4][se water_07]/
+>>19/
+[set A s_ckz_b 筑前]
+[randomset B b @地魂男児 @あやかし -ckz -@NOW @NPC]
+[randomset C b @地魂男児 @あやかし -ckz -@NOW @NPC]
+[effect fr yuge A]
+[se amb_12]
+[se bath_01]
+[show A C]
+[show B C]
+[scale A 1.6]
+[move A Y -120]
+[face A 14]
+[scale B 1.6]
+[move B Y -120]
+[serif on]
+[face B 00]
+[setline A B]
+[talk A]
+犬、猫、虎、象……風呂に入りよると
+いろんな男児がおるっちわかるばい。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]
+/
+[face A 06]
+[flow]
+[face B 08]
+もちろん俺は犬でもあり、
+狐でもあり、猫でもあるたい。/
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[se bath_02]
+[autotap]/
+[face A 05]
+[face B 05]
+[shake A]
+きゃふんっ！/
+[face A 03]
+[shake A]
+いま誰かしっぽ踏んだっちゃろうもん！
+犬みたいな声でちゃったばい……[face A 04][face B 01]/
+>>20/
+[set A s_ckz_r 筑前]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+あ〜〜〜！[shake A][se xloth_01]
+いちいち締め込み外すの面倒ばい〜。/
+[se cloth_06]
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+もう裸んごたっちゃね。/
+>>21/
+[set A s_ckz_r 筑前]
+[show A C]
+[face A 16]
+[scale A 1.6]
+[move A Y -120]
+[se pee_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.5]
+[autotap]/
+[serif on]
+[talk A]
+ふああぁぁ～～～……/
+[face A 11]
+[flow]
+[effect fr kira 6000 0 0]
+[se kira_01]
+しこたま飲んだけん、とまらんちゃね〜。
+爽快爽快♪/
+>>22/
+[set A s_ckz_r 筑前]
+[randomset B r @地魂男児 @あやかし -ckz -@NOW @NPC]
+[show A C]
+[face A 05]
+[move A X 1000]
+[move A X -1000 0.4]
+[delay 0.3 se door_02]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[serif on]
+[talk A]
+はぁ……はぁ……あぶなか～～
+$B:Aに見つかるとこやったばい。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 13]
+[flow]
+ほとぼり冷めるまでここでゆっくり
+しとくしかなかね。うんうん。/
+>>23/
+[set A s_ckz_r 筑前]
+[set B s_ckz_b 筑前]
+[show A C]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+[talk A]
+う〜〜ん。
+個室ん中、ちょっち暑か～……/
+[face A 09]
+[flow]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+こういうときは……上も脱いどくばい！
+[se cloth_06][hide A][show B][scale B 1.6][move B Y -120]/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 16]
+[say B]
+[flow]
+個室で全裸んなっとーと、
+ちょっちいけん気分になるばい……へへへ。/
+>>24/
+[set A s_ckz_r 筑前]
+[show A C]
+[face A 15]
+[serif on]
+[talk A]
+うひひ！　俺は寝る前の
+こん一杯が楽しみで生きとーっちゃけん。/
+[face A 00]
+[flow]
+これだけは誰にも止められんちゃ♪[effect fr kira a 0 0][se kira_01]
+ッカー！[shake A][face A 29]　うまかー！[shake A]/
+>>25/
+[set A s_ckz_r 筑前]
+[show A C]
+[face A 07]
+[rotate A -30]
+[serif on]
+[talk A]
+むにゃ……ば……バリカタァ……/
+[talkend]
+とんこつラーメンの夢をみているのだろうか？/
+>>26/
+[set A s_ckz_r 筑前]
+[randomset B r @地魂男児 @あやかし -ckz -@NOW @NPC]
+[show A C]
+[face A 12]
+[serif on]
+[talk A]
+[move A Y -100]
+[move A Y 100 0.5]
+[se cloth_01]
+うーん。あんまし我慢しすぎも
+ストレス溜まって身体によくなか……/
+[show B R]
+[rotate B -30]
+[move B Y -100]
+[face B 06]
+[face A 10]
+[flow]
+[talke A]
+$B:A、起きとっちゃろ？
+ストレス発散、付き合わんね！　へへっ。[rotate B 0 0.5][move B Y 100 0.5][se cloth_01]/
+[face A 16]
+[face B 01]
+[move A X -200 0.5]
+[se fusuma_01]
+[flow]
+ひとりよりふたりの方がスッキリするけんね！
+んじゃあ庭いこや！[move A X -700 0.5][move B X -1000 1][se fusuma_01]/
+>>27/
+[set A s_ckz_r 筑前]
+[show A C]
+[face A 00]
+?筑前、ハレの日おめでとう！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+[effect fr kira a 0 0]
+[se kira_01]
+[-]
+[serif on]
+[say A]
+主ー！　祝ってもらえて嬉しかぁ！
+ついにこの日が来たばい。/
+[effect off a]
+[face A 15]
+[flow]
+今日は博多っこにとっちゃ一年でいっちゃん
+大事な日たい。/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+俺んハレの日ば今日しかなかったっちゃ！
+……ばってん主、その格好はなんね……？[face A 14][shake A]/
+[face A 13]
+[effect fr syutyu a 0 0]
+[se taiko_01]
+[shake A]
+[flow]
+ッカー！　今日がなんの日か知らんと！？
+今日は博多祇園山笠の追い山の日ばい！[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[effect off a]
+[face A 03]
+博多っこはこの日に思いっきり舁くために
+一年生きてきとうばい。/
+[face A 09]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[se cloth_06]
+[flow]
+こんな日に普段着やとか論外ばい！
+ほらはよ脱がんね！[shake A]　いや、俺が脱がしたるばい！[shake A][se cloth_01]/
+[serif off]
+?ええー！？/
+[shakebg]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[se cloth_06]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 16]
+[talkend]
+[textcolor orange]
+[se cloth_06]
+[serif on]
+みるみるうちに筑前に服を脱がされてしまった！/
+[serif on]
+[face A 11]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+なに恥ずかしがっとーと？
+男同士やろーもん！　堂々とせんね！[shake A]/
+[scale A 2 0.3]
+[move A Y -100 0.3]
+[autotap]/
+[face A 06]
+[se cloth_01]
+[flow]
+ほら、足上げて足上げて！[shake A]
+こうして股の間に通して、腰ばぐっと上げて！[move A XY 10 -40 0.4][rotate A -10 0.3][delay 0.4 move A XY -10 40 0.3][delay 0.5 rotate A 0 0.3][se cloth_06][shakebg]/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 15]
+[flow]
+ぎゅーって思いっきり締めるばい！
+これで良し！　っと！　ほら、鏡ば見んね！/
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[face A 08]
+[flow]
+これはふんどしやなか。締め込みばい。
+これが博多祇園山笠の正装っちゃ！/
+[face A 11]
+[effect fr kira a 0 0]
+[se kira_01]
+うん。主、ばり格好良か！[shake A]
+男前ばい！　それでこそ俺の主ばいっ♪/
+[effect off a]
+[face A 15]
+[flow]
+さぁ、そろそろ山笠ば舁く時間ばい。
+主、俺の流に入らんねっ！/
+[serif off]
+?今日はとことん筑前に付き合う/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+くぅ～～～っ！[shake A 2]
+今日は最高の一日になりそうばい♪/
+[serif off]
+[face A 11]
+[wait 1]
+[-]
+[autotap]/
+>>100/
+[set A s_ckz_r 筑前]
+[set B s_n000_r 猫乃屋]
+[set C s_n001_r 夏人]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 筑前のご褒美]
+[-]
+[bg gozasyo_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+厨の料理担当をしていた男児から
+日本酒がまた消えてしまったと連絡があった。/
+[flow]
+[textcolor ARUJI]
+最近毎日のように補充をしているのだが
+いつの間にかなくなっているという。/
+[flow]
+[textcolor ARUJI]
+お酒好きな地魂男児は何名か心当たりがあるが……/
+[serif off]
+?もしや……/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[autotap]/
+[serif off]
+?筑前、入るよ/
+[se fusuma_01]
+[bg heya_day 0.5]
+[-]
+[bgm comical]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おっ、主～。よかとこにきたばい！
+主も呑むっちゃろ？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+部屋に入ると案の定、筑前の横には
+何本もの調理酒の瓶が転がっていた。/
+[show A]
+[face A 36]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+あんまり美味しくはないけど
+結構酔えるたい。よか気分ばーい。/
+[serif off]
+?調理酒飲んじゃダメだよ/
+[face A 33]
+[serif on]
+[say A]
+[shake A]
+え～。主は細かい男っちゃね。
+ふああ……/
+[face A 21]
+[flow]
+俺は今日はもう寝るばい。
+主も隣で来てもよかばい。俺が温めちゃるけんね。/
+[face A 27]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -100 1.0]
+[delay 0.4 rotate A 30 1]
+[autotap]/
+[flow]
+ってことで、ふぁああ……
+おやすみぃ～～……くかぁ～……/
+[serif off]
+?……/
+[fadein BLACK 1.0]
+[-]
+[serif off 1.0]
+[hideall]
+[bg rouka_day]
+[-]
+[fadeout 1.0]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+また別のある日の出来事。/
+[show A C]
+[face A 12]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+えー任務？　俺はパスばい。
+俺ん代わりに筑後に行かせたらよかばい。/
+[face A 15]
+[flow]
+きっと活躍できるっち言うて
+喜ぶはずばい。っちゅうことで、俺はこいで～。/
+[serif off]
+?筑前の任務だよ/
+[se cloth_06]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 05]
+[serif on]
+[say A]
+わ、こらっ！　主！
+引っ張るっちゃなか！/
+[rotate A 30 0.5]
+[quake 1]
+[effect fr syutyu a 0 0]
+[face A 03]
+むぎぎぎ！/
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+筑前の服を引っ張るも、
+ものすごい抵抗で全く動かない。/
+[flow]
+[textcolor ARUJI]
+その姿はまるで散歩を拒否する犬のようだ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[quake off]
+[effect off a]
+[rotate A 0 0.3]
+[face A 14]
+[say A]
+[se cloth_06]
+言うとくけど、俺は主ん思いどおりになると
+思ったら大間違いばい！/
+[face A 12]
+[flow]
+[shake A]
+やりたくないことはぜーーーったいやらんけん！
+とくに仕事や任務なんかつまらんっちゃもん！/
+[face A 09]
+[flow]
+俺は最高の祭りのために
+全体力を溜めとるんばい。/
+[serif off]
+?他の男児からも、筑前が協力してくれないって…/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 15]
+[serif on]
+[say A]
+苦情なんか言わせとけばよかばい！
+俺は行かんっちゃ行かんばい！/
+[face A 09]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[flow]
+こんなことしとる場合やなかと！
+はよ遊びに行かんと！　んじゃねー！/
+[move A X 800 0.5]
+[hide A]
+[fadein BLACK 1.0]
+[-]
+[serif off 1.0]
+[hideall]
+[bg shirei_day]
+[-]
+[bgm rokuhara]
+[-]
+[fadeout 1.0]
+[-]
+[autotap]/
+[serif off]
+?……こんな感じなんです/
+[show C C]
+[show B]
+[setline B C]
+[orderline C B]
+[face C 04]
+[face B 10]
+[serif on]
+[say C]
+うーーん。それは困ったね……/
+[face B 08]
+[say B]
+どっかで聞いたような話だな……/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 03]
+[flow]
+ま、一応、地魂男児は声聞士が呼び出したもんだし
+逆に霊脈に返すこともできるとは思うけどよ……/
+[serif off]
+?つまり、筑前の声聞を解くってこと……？/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 14]
+[serif on]
+[say C]
+たしかに……彼を維持している間、
+きみの霊力を消費しているわけだし……/
+[face C 12]
+[flow]
+それに任務に出てくれないとなると……/
+[effect fr syutyu a 0 0]
+[show A C]
+[face A 05]
+[move A X -1000]
+[moveline A B C 1000 0 0.3]
+[sae fusuma_03]
+[orderline B C A]
+[say A]
+[se cfusuma_03]
+[bgm departure]
+ちょちょちょ……
+ちょっと待たんねーーー！！/
+[effect off a]
+[serif off]
+?あ、筑前。/
+[face A 14]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+い、いまの話……たまたま聞いてしまったばい……
+お、俺を霊脈に返すっち言うとった？/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[face A 05]
+[say A]
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+[serif on]
+えーーーー！！！
+そんなぁー！[shake A 3 10 10]/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[effect off a]
+[face A 04]
+[flow]
+俺、まだこの現世に声聞されてから
+全然楽しいこと体験できてなか！/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 03]
+[flow]
+今消されるのは困るったい！　横暴ばい！/
+[scale B 1.6]
+[move B Y -120]
+[setline 0.5 A B]
+[orderline A B]
+[face B 08]
+[say B]
+お前がちゃんと任務に出ればいいんだよ！/
+[face A 14]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+それとこれとは話が別ばい……/
+[serif off]
+?羽鳥さんに相談するしか……/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 04]
+[serif on]
+[say B]
+羽鳥さんの耳に入ったら速攻で霊脈に
+返されちまうぜ……/
+[face A 04]
+[say A]
+[shake A]
+ひぃっ！[se zukkoke_02]/
+[setline 0.5 A B C]
+[scale C 1.6]
+[move C Y -120]
+[orderline A C B]
+[face C 12]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+可哀相だけど……
+仕方ないかもしれませんね……/
+[serif off]
+?不本意ながら……/
+[face A 03]
+[serif on]
+[say A]
+[bgm fun]
+くぅぅ……！！　[shake A 2 8 8]わかった！　
+わかったばい！　任務に出たらいいっちゃろ！/
+[scale A 1 0.5]
+[scale B 1 0.5]
+[scale C 1 0.5]
+[moveline A B C 0 120 0.5]
+[autotap]/
+[face B 01]
+[say B]
+おっ！　やっぱ地魂男児は地魂男児だぜ。
+どこかのアイツとは違うよなぁ。/
+[hide B]
+[hide C]
+[move A C 0.5]
+[face A 10]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……ただでやるとは言うとらんばい。
+交換条件にさせてもらうばい！/
+[serif off]
+?交換条件？/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+[say A]
+もちろんご褒美ばい！/
+[face A 12]
+[flow]
+遠くまで任務に行って、たくさん戦って
+走らないかんちゃもん。/
+/
+[face A 10]
+[flow]
+ご褒美くらいあってもいいと思うばい。
+一度任務に出ると、主が俺にご褒美をくれるんばい♪/
+[serif off]
+?ご褒美……どんなもの？/
+[face A 16]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+もちろん……主が体で払ってもらってもよか。[se taiko_02]/
+[face A 06]
+[flow]
+ばってん、俺が一番好いとーんは
+ずばり！　祭りばい！[se taiko_02]/
+[face A 09]
+[flow]
+[effect fr kira a 0 0]
+[se kira_01]
+１任務、１祭りでどうね！/
+[effect off a]
+[hide A]
+[show B]
+[show C]
+[setline B C]
+[orderline C B]
+[face C 10]
+[face B 05]
+[say B]
+[shake B]
+ま、まつり～～～！？
+それじゃあ荘園が毎日祭りだらけになっちまうぜ。/
+[face C 12]
+[say C]
+[shake C]
+そんな予算もないしなぁ……
+やっぱりこれは……/
+[serif off]
+?羽鳥さんに相談するしか……/
+[show A L]
+[face A 05]
+[move A X -400]
+[setline 0.3 A B C]
+[orderline A C B]
+[serif on]
+[say A]
+[se zukkoke_02]
+ええ！？[shake A 2 5 5]　も、もうちょっとねばらんね！
+ばってん祭りは外せんばい……くぅぅ……！[face A 04]/
+[face B 09]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+じゃあ、今晩のおかずは大根をたくさん使って
+大根祭りってのはどーよ！　グッドアイデア！[shake B]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 12]
+[say A]
+そういう子ども騙しには踊らされんばい。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[flow]
+うーーーん……そいじゃあ、こればい！
+任務から帰ったら、日本酒を一本！　どうばい！[se taiko_02]/
+[se rokuhara_04]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 14]
+[say C]
+それも予算を超えるかなぁ……/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 05]
+[say A]
+[shake A]
+ええ！？　予算増やさんね！
+俺を任務に出したくなか！？/
+[hideall]
+[serif off]
+?羽鳥さんに……/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[serif on]
+[say A]
+[se zukkoke_02]
+[effect fr syutyu a 0 0]
+それなら！　と、とんこつラーメン！！
+任務から帰ったらとんこつラーメン！！/
+[hide A]
+[effect off a]
+[serif off]
+?それくらいなら……/
+[show C]
+[show B]
+[setline B C]
+[orderline C B]
+[face B 00]
+[face C 02]
+[serif on]
+[say C]
+そうだね。普通の食費に収まりそうかな。/
+[face B 01]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+はい決まり～♪
+交渉成立ってことで！/
+[hideall]
+[-]
+[show A]
+[face A 13]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+ひとまずはそれで手を打つばい。
+……はぁぁ……任務行きたくなか……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 14]
+[flow]
+言うとくけど、これは思いっきり妥協しとるばい。
+もし祭りん任務がある場合は、絶対俺を呼ばんね！/
+[face A 01]
+[flow]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+もし、祭りん任務なら思いっきり活躍するたい。
+安心して任せちゃらんね。/
+[serif off]
+?約束する/
+[show B L]
+[show C R]
+[face B 01]
+[face C 01]
+[move B X -200]
+[move C X 200]
+[move B X 100 0.5]
+[move C X -100 0.5]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[orderline A B C]
+[autotap]/
+[face A 09]
+[serif on]
+[say A]
+[effect fr kira a 0 0]
+[se kira_01]
+さぁ、そうと決まれば決起会といくばい。
+新しい門出に……かんぱーーい！/
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+荘園にまたひとり、お酒好きな男児が加わった。
+ちょっと……いや、かなり手がかかりそうだ。/
+[flow]
+[textcolor ARUJI]
+ひとまずは任務に出てくれるようになったので
+安心したのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

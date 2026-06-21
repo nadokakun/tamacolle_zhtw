@@ -1,0 +1,2342 @@
+>>10000/
+@丹波
+我是丹波。[wait 2]
+你哥哥是主要的……對嗎？[autotap]/
+[delay 2]
+[flow]
+[-]
+@丹波
+很高興認識你。/
+>>10001/
+@丹波
+噢，兄弟…[wait 1]
+就算我再怎麼誇獎你，也沒有什麼結果…/
+>>1/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 01]
+[talk A]
+[serif on]
+[serif name]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+喲喲喲喲...喲喲...[wait 0.5]
+嗯……我想大概是這樣的……/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+喲喲喲喲...喲[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]...德...甘翔...
+是啊，看起來效果會很好……呵呵。/
+[face A 02]
+[move A Y 30 0.4]
+[delay 0.6 move A Y -30 0.2]
+啊，喲喲，dekansho~！[move A Y 30 0.4][delay 0.6 move A Y -30 0.2]
+……[wait 0.5]就是這樣[shake A 3][face A 05]啊，兄弟！ ？/
+[face A 06]
+[move A X -30 0.1]
+[delay 0.1 move A X 70 0.2]
+[delay 0.3 move A X -70 0.2]
+[delay 0.5 move A X 30 0.1]
+也許你剛才正在看…？
+呃……尷尬了……/
+>>2/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 00]
+[talk A]
+[serif name]
+[serif on]
+丹波國家的一宮，出雲大神宮
+據說這裡以相親聞名…/
+[face A 04]
+[flow]
+我……我不考慮相親之類的事情。
+我實在不懂.../
+[face A 01]
+[flow]
+如果你弟弟想去的話...
+你可以帶我一起去.../
+>>3/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 00]
+[serif on]
+[serif name]
+[talk A]
+龜岡盆地，從秋天到春天
+常有霧.../
+[face A 04]
+[flow]
+丹波這叫霧…[wait 0.5]
+整個區域都變得模糊了…[face A 01][wait 0.5]我非常喜歡它。/
+>>4/
+[set A s_tnb_r 丹波]
+[show A C]
+[move A Y -100]
+[face A 04]
+[talk A]
+[serif on]
+[serif name]
+……謝謝你的早餐。[move A Y 100 0.5]
+今天之後我沒有什麼特別的事情要做.../
+[face A 01]
+好吧，我們去倉庫吧。
+做仰臥起坐和俯臥撐...[move A X 300 0.5][hide A]/
+>>5/
+[set A s_tnb_r 丹波]
+[randomset B r @地魂男児 @あやかし -tnb]
+[show A L]
+[face A 08]
+[talk A]
+[serif on]
+[serif name]
+孫孫……這是什麼味道？
+執行緒...[move A X 100 0.5][face A 07]……我想就是這樣了……很快……[move A X 200 0.5]/
+[show B C]
+[face A 05]
+[face B 05]
+[se dosa_01]
+[move A X -200 0.2]
+[move B X 50 0.2]
+[talk A]
+哇，$B:A！ ？對不起。
+味道很好聞，所以我很感興趣…/
+[face A 04]
+[face B 01]
+@丹波
+啊？沐浴乳...?
+但是……啊，我明白了……/
+[face A 01]
+[talk A]
+（$B:A與氣味混合在一起
+　我還是第一次聞到）/
+>>6/
+[set A s_tnb_r 丹波]
+[randomset B r @地魂男児 @あやかし -tnb]
+[show A C]
+[face A 04]
+[talk A]
+[serif on]
+[serif name]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+我有麻煩了...
+由於某種原因$B:A我被邀請成為培訓夥伴.../
+[face A 03]
+[move A X -200 0.6]
+嗯……比我還多
+我想我已經找到合適的伴侶...[move A X -150 0.5][hide A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 04]
+[talk A]
+[serif name]
+[serif on]
+好吧……我想是因為我今天一整天都有任務。
+我的身體聞起來很流汗.../
+[face A 06]
+就是這樣，兄弟。
+萬一大家都注意到了怎麼辦.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+呃...
+我想快點換衣服並洗衣服。/
+>>10/
+[set A s_tnb_r 丹波]
+[randomset B r @地魂男児 @あやかし -tnb -wak -sim]
+[show A L]
+[face A 00]
+[talk A]
+[serif name]
+[serif on]
+陽光明媚……聞起來有栗子的味道。
+啊，$B:A是不是脫皮了.../
+[face A 05]
+[show B R]
+[talk A]
+[move B X 200]
+[move A X 50 0.5]
+啊？ Sunsun……啊，那些栗子……
+貌似已經損壞了.../
+[face A 04]
+[move A X -50 0.7]
+好吧，也許我應該正確地告訴你...
+我該怎麼辦……但是……/
+[serif off]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -20 0.1]
+[delay 0.3 move B Y 15 0.5]
+[face B 01]
+[shake A]
+[face A 05]
+[move A X 100 0.3]
+[-]
+[serif on]
+啊...
+我吃了它.../
+>>11/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 01]
+[talk A]
+[serif name]
+[serif on]
+呵呵。我在戰鬥中竭盡全力
+哥哥誇我.../
+[face A 02]
+畢竟我每天都這樣做
+我想知道我的肌肉訓練的結果是否正在顯現。/
+明天我們也一起努力吧…
+我想我會嘗試增加一點負載......呵呵。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_tnb_r 丹波]
+[randomset B r @地魂男児 @あやかし -tnb]
+[show A C]
+[show B L]
+[face A 00]
+[face B 00]
+[talk A]
+[serif on]
+[move B R 1.0]
+啊，[face A 05]今天的洗衣任務是$B:A什麼...
+我想知道我是否應該問...我該怎麼辦.../
+[waku on 0.5]
+[face A 04]
+如果你能幫我洗一下就好了。
+……看內衣有點困難…/
+[face A 00]
+[move B X 150 0.5]
+[hide B]
+但如果一次全部洗掉
+我不知道哪一個是我的.../
+[waku off]
+[face A 04]
+嗯，我該怎麼辦.../
+>>15/
+[set A s_tnb_m 丹波]
+[show A C]
+[move A Y -200]
+[face A 03]
+[talk A]
+[serif name]
+[-]
+[serif on]
+[move A Y 200 1.0]
+嘆息……嘆息……[wait 0.5]
+（抱歉……我又讀錯了……）/
+[face A 08]
+（下次我不會再輸了...[wait 0.5]為了變得更強...
+　只有練習...！ ）/
+[face A 08]
+再來一次！[effect fr katana][shakebg][shake A][se doka_01][-][move A XY 200 -100 0.3][delay 0.5 move A XY -200 100 0.8]
+再來一次……！/
+[effect fr katana]
+[shakebg]
+[shake A]
+[se doka_01]
+[-]
+[move A XY -300 -100 0.3]
+[delay 0.4 move A XY 300 100 0.8]
+再來一次……！[effect fr katana][se katana_02][shakebg][move A Y -50][move A Y 50 1.0]
+再來一次.../
+>>16/
+[set A s_tnb_m 丹波]
+[show A C]
+[face A 04]
+[talk A]
+[serif name]
+[serif on]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+嘆息...
+小朋友又在訓練場上吵吵鬧鬧了…/
+[face A 03]
+[flow]
+這裡不是遊樂場.../
+[face A 08]
+[flow]
+我無能為力。
+等大家都回家後我就回來。/
+>>17/
+[set A s_tnb_b 丹波]
+[show A C]
+[face A 06]
+[talk A]
+[serif name]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[serif on]
+呃...
+更衣室的味道……讓我頭暈……/
+[flow]
+各種氣味混合在一起
+每個人的汗水……肥皂、毛巾……/
+[face A 01]
+[flow]
+不知怎的...
+它也有成人的味道。/
+[face A 06]
+[flow]
+嗯...[shake A]
+鼻子太大也不好/
+>>18/
+[set A s_tnb_b 丹波]
+[randomset B b @地魂男児 @あやかし -tnb -@ショタ -bin -taj -har]
+[se amb_12]
+[show B]
+[face B 00]
+[scale B 1.6]
+[move B Y -140]
+[show A C]
+[move A X 1000]
+[talk A]
+[effect A yuge A]
+[effect B yuge B]
+[wait 0.5]
+[face A 05]
+[move A Y -100]
+[moveline A B -1000 0 1]
+[-]
+[serif on]
+嘆息...
+像大人一樣的人真的很酷.../
+[face A 06]
+那個大背...
+我真的很佩服.../
+[flow]
+[se bath_02]
+[move A Y -150 1.0]
+泡沫。/
+>>19/
+[set A s_tnb_b 丹波]
+[effect fr yuge A]
+[show A L]
+[face A 06]
+[talk A]
+[se amb_12]
+[se bath_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+呼…
+熱水很好。是時候該上去了。/
+[move A C 0.6]
+[se bath_02]
+[-]
+[move A Y -80 0.2]
+[rotate A -10 0.1]
+[delay 0.2 move A Y 80 0.2]
+[delay 0.2 rotate A 0 0.2]
+[face A 05]
+[se cloth_06]
+[talkend]
+啜飲。/
+[face A 06]
+[shake A]
+[say A]
+啊……！
+哇哇哇。/
+[face A 09]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+我、我剛剛把毛巾掉了…
+沒有人看著你...？/
+>>20/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 00]
+[talk A]
+[serif name]
+[serif on]
+當我旁邊有人的時候
+因為這讓我緊張.../
+[face A 01]
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+爭取這樣沒人在身邊的時刻，
+我得緩解一下自己.../
+>>21/
+[set A s_tnb_r 丹波]
+[show A L]
+[move A X -200]
+[face A 00]
+[talk A]
+[serif on]
+[serif name]
+…………/
+[face A 04]
+[move A X 100 0.6]
+嗯...
+從來不缺人。也許我應該有一個私人房間....../
+>>22/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 05]
+[talk A]
+[serif name]
+[serif on]
+啊，香燒起來了。
+哇……好香啊……/
+[face A 01]
+[flow]
+打掃得很乾淨，感覺很舒服。
+當我做清潔工作時，我也會盡力而為.../
+[face A 00]
+[move A Y -100 0.5]
+努吉努吉。/
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+呼…/
+>>23/
+[set A s_tnb_r 丹波]
+[randomset B r @地魂男児 @あやかし -tnb]
+[show A C]
+[face A 00]
+[talk A]
+[serif name]
+[serif on]
+[move A Y -100]
+圖恩……有什麼……
+聞起來很奇怪.../
+[face A 05]
+[flow]
+我之前在那兒$B:A……？/
+[face A 06]
+[shake A]
+哇，我的心在狂跳…/
+>>24/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 02]
+[talk A]
+[serif name]
+[move A Y 10 0.4]
+[serif on]
+[delay 0.4 move A Y -10 1.0]
+哇……這個被子很軟，摸起來很舒服……
+晚安.../
+>>25/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 07]
+[talk A]
+[serif name]
+[serif on]
+嗚嗚嗚嗚嗚嗚.../
+>>26/
+[set A s_tnb_r 丹波]
+[randomset B r @地魂男児 @あやかし -tnb]
+[show A C]
+[face A 04]
+[talk A]
+[serif on]
+呼……從早上開始我就很忙了……
+睡個午覺吧...[rotate A -30 0.4][move A XY 40 -30 0.5]/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+啊，這味道…$B:A野田...
+我想知道這是什麼…我有點緊張…/
+>>27/
+[set A s_tnb_r 丹波]
+[show A C]
+[face A 00]
+[talk A]
+？ 丹波，快樂的一天！/
+[face A 05]
+[serif on]
+哇[shake A]兄弟[wait 0.2]…[wait 0.2]…[wait 0.2]謝謝你。[face A 02]/
+[face A 01]
+嘿，人在生日的時候就會長大一歲。
+……對吧？/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+額，我也想知道是不是我也是這樣…
+我想知道我是不是長大了一點…？/
+[face A 00]
+[flow]
+我的力量已經增強不少，任務也表現得很好。
+我開始能夠做到了.../
+[face A 08]
+[flow]
+此外，[se taiko_02]還有Dekansho舞蹈...
+我正在偷偷練習。/
+[face A 01]
+今天是德觀修節。
+每個人都跟著 Dekansho Bushi 跳舞。/
+[face A 02]
+我國流傳下來的一個重要節日。
+……這就是為什麼我決定今天是我特別的一天。/
+[move A X 100 0.5]
+[face A 04]
+Dekansho舞蹈是連小孩都可以享受的舞蹈.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[flow]
+……但是我
+我想以成熟、清脆的舞蹈為目標。/
+[serif off]
+？讓他們給你表演舞蹈/
+[move A C 0.5]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[serif on]
+[face A 05]
+你、你會看一下嗎？
+雖然有點尷尬...[face A 06]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+這是我選擇的特別日子...
+明白了.../
+[move A Y -10 0.5]
+[delay 0.5 move A Y 10 1]
+[delay 1.5 move A Y -10 0.5]
+[delay 2 move A Y 10 0.5]
+[move A X -150 0.5]
+[delay 0.5 move A X 300 0.5]
+[delay 1 move A X -300 0.5]
+[delay 1.5 move A X 150 0.5]
+[autotap]/
+[face A 02]
+喲喲dekansho~！/
+[talkend]
+丹波揮舞著雙手，輕快地跳舞。
+他們向我們展示了Dekansho Bushi舞蹈。/
+[serif off]
+？感覺不錯！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 06]
+[say A]
+哦，真的嗎？看起來做得正確嗎？
+好.../
+[face A 00]
+[flow]
+但是……還沒有。這樣我才能跳得更好
+我想練習。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+沒錯，我的哥哥也是德官將武士。
+你想跳舞嗎？/
+[serif off]
+？讓我們來嘗試一下/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[serif on]
+[face A 02]
+哈哈，兄弟，這不是真的。
+過來吧。/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[autotap]/
+[face A 01]
+我會支援你...
+我們一起來試試吧。/
+[face A 02]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+當你可以的時候
+今晚我們一起跳舞吧。/
+>>100/
+[set A s_tnb_r 丹波]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 丹波とお喋り]
+[-]
+[bg bg_gozasyo_day]
+[fadeout]
+[-]
+[bgm home]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+當我在王宮裡寫報告的時候，我看到走廊上有什麼東西。
+我注意到一個巨大的身影。/
+[serif off]
+[bg rouka_day 0.5]
+[-]
+[show A C]
+[face A 07]
+[talk A]
+[serif on]
+噗噗……有大人的味道……
+這是你哥哥的工作單位嗎？/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+[se walk_01]
+那是丹波。這可能是有事可做。
+我前往丹波。/
+[show A]
+[face A 05]
+[say A]
+啊，兄弟…/
+[serif off]
+與 ?丹波 聊聊/
+[say A]
+[face A 04]
+[serif on]
+呃……不，不……/
+[se walk_01]
+[move A X 50 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+說著，丹波趕緊
+離開.../
+[shakebg]
+[effect fr syutyu 2000]
+[serif off]
+[bgm fun]
+？呃！ ？等等，為什麼？/
+[show A]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[say A]
+[serif on]
+我不想打擾你哥哥的工作.../
+[face A 00]
+[shake A]
+而且，還有一個比我更強大、更有用的人。
+我想我們應該談談.../
+[serif off]
+？ @@我想和P20交談@@/
+[serif on]
+[face A 05]
+[say A]
+哦，真的嗎？
+那麼...[face A 01]/
+[serif off]
+[talkend]
+[se fusuma_01]
+[hide A]
+[bg gozasyo_day 0.5]
+[textcolor ARUJI]
+[-]
+[bgm home]
+[serif on]
+[se cloth_01]
+丹波走到房間裡，坐直了身體。
+豐滿的雙腿顯得有些侷促。/
+[serif off]
+？ 丹波，你應該放鬆一點。/
+[show A]
+[face A 06]
+[scale A 1.5]
+[move A Y -100]
+[say A]
+[serif on]
+是這樣嗎？我想知道這是不是成年人都會做的事情。
+因為我在想...[shake A][se cloth_01]/
+[face A 00]
+兄弟，你知道.../
+[face A 06]
+[talkend]
+[textcolor ARUJI]
+丹波開始說話，咕噥著。[shake A]/
+[face A 01]
+[say A]
+嗯，我
+我有件事想和弟弟談談。/
+[serif off]
+？發生什麼事了？/
+[face A 04]
+[talk A]
+[serif on]
+這個莊園裡，各種各樣的人都有…
+我……我喜歡安靜地度過時光……/
+[face A 00]
+[flow]
+所以諸如房間分配和值班之類的事情......
+如果可能的話，我更願意和成年人在一起。/
+[face A 06]
+當你和成年人在一起時，他們會感到平靜。
+我可以感到安全.../
+[talkend]
+丹波看了一眼。/
+[serif off]
+？ 丹波有成熟的一面。/
+[face A 06]
+[talk A]
+[shake A]
+[serif on]
+啊？我、我……我還有很長的路要走。
+雖然我還不能說我已經是成年人了.../
+[face A 00]
+[flow]
+我想快點長大，所以請不要大驚小怪。
+我會認真對待我的訓練！/
+[serif off]
+[flow]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+[face A 01]
+其實我一直在加強鍛煉，增強肌肉…
+你看，我的手臂又粗了一些！[face A 02]/
+[textcolor ARUJI]
+[talkend]
+丹波 做了二頭肌。我本來就有粗手臂
+當然，也有一些部分是胖乎乎的。/
+[serif off]
+？ @@觸控P20最厚的部分@@/
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[-]
+[face A 06]
+[shake A]
+[-]
+[serif on]
+[say A]
+嘿！噢，兄弟…
+我有點驚訝……好癢……[face A 02]/
+[textcolor ARUJI]
+[talkend]
+[face A 03]
+擠壓時，堅韌、有彈性、堅牢。
+就像我能感覺到我的核心/
+？真是令人佩服！/
+[face A 05]
+[shake A]
+[say A]
+[serif on]
+哈！ ？啊，謝謝……謝謝，呵呵……[face A 02]/
+[face A 01]
+當哥哥稱讚我時，我有一種感覺。
+我很高興.../
+[face A 07]
+我想盡快成為像你一樣的人...
+即使在這個房間裡我也能聞到大人的味道…[shake A]/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+我有點擔心房間裡會不會有異味。
+丹波可能欣賞作為一個成年人的意義。/
+[serif off]
+[show A]
+[face A 00]
+[scale A 1.5]
+[move A Y -100]
+[-]
+[move A Y -30 0.2]
+[delay 0.2 move A Y 130 0.5]
+[-]
+[serif on]
+[say A]
+嗯，那我就先走了…
+謝謝你，兄弟，今天。/
+[face A 01]
+如果你不介意的話，想想之前發生的事…
+還有，今後也請多多關照……！[face A 02]/
+[move A X 100 0.4]
+[hide A]
+[talkend]
+[se fusuma_02]
+[-]
+[textcolor ARUJI]
+[bg bg_black 2.0]
+丹波看起來很尷尬
+說完就離開了。/
+[textcolor ARUJI]
+[flow]
+我不知道我是否能做到，但我感覺自己像個成年人了。
+我想如果我能告訴你就好了。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_tnb_r 丹波]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 負けず嫌いな丹波]
+[-]
+[bg bg_heya_light]
+[fadeout]
+[bgm night]
+[-]
+[se fusuma_01]
+[show A]
+[face A 00]
+[-]
+[say A]
+[serif on 0.5]
+兄弟……我為你帶來了任務報告。
+啊，我好像很忙…？/
+[talkend]
+[hide A]
+[se jara_01]
+[textcolor ARUJI]
+我透過六原購物買了《奧賽羅》。
+我只是想自己把黑板排好。/
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[face A 01]
+[say A]
+第一次看到這個...
+我想知道這是不是適合現代成年人的遊戲.../
+[effect fr kira a 0 0]
+[se kira_01]
+看起來有點有趣...
+兄弟，你能教我怎麼做嗎？ …/
+[serif off]
+[hideall]
+？ @@我會教P20@@規則。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[effect off a]
+[-]
+[autotap]/
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[face A 08]
+[fadeout 1.0]
+[-]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+……咕咕，還有……這樣嗎？[shake A]
+這是個好地方嗎...
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+[talkend]
+[textcolor ARUJI]
+丹波很快就想出了怎麼玩。
+但是.../
+[say A]
+[face A 05]
+[shake A]
+啊啊啊，關於這個…
+不……啊……/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+嗯，我輸了…/
+[talkend]
+[textcolor ARUJI]
+也許是因為我現在才想起
+看來我的能力比我還要好。/
+[say A]
+....呃.../
+[face A 03]
+……[wait 0.5]兄弟，再來一次。/
+[talkend]
+[textcolor ARUJI]
+丹波的眼神充滿了鬥志。
+這是一種你無法輕易拒絕的氛圍。/
+[face A 04]
+[flow]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，對了……這次我可以先走嗎？
+之前我哥是第一，我輸了…/
+[serif off]
+？好吧。/
+[bgm battle]
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+那麼，我們走吧。/
+[serif off]
+[talkend]
+[textcolor ARUJI]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+丹波一舉一動，
+我一邊仔細思考，一邊把黑色的石頭拋在了一邊。/
+[face A 03]
+[talk A]
+[serif name]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[say A]
+接下來是赫吉科…[wait 1.0]……好吧，下次吧……[move A Y -10 0.4][delay 0.4 move A Y 10 1.0][wait 0.5][face A 02]在這裡！
+呵呵，結果還好……！/
+[talkend]
+[textcolor ARUJI]
+黑石的丹波似乎在比賽中佔了上風…但是。/
+[serif off]
+？我明白了/
+[face A 05]
+[talk A]
+[shake A]
+[say A]
+[se taiko_02]
+[-]
+[serif on]
+啊啊啊！[shake A]
+不，那裡.../
+[talkend]
+[shakebg]
+[hide A]
+[textcolor ARUJI]
+棋盤上的黑色棋子紛紛變成白棋。/
+[serif off]
+[effect fr syutyu a 0 0]
+[show A]
+[scale A 1.5]
+[move A Y -100]
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[face A 06]
+[talk A]
+[-]
+[serif on]
+[shake A]
+[say A]
+啊，那個也是……！ ？[wait 0.5]
+啊啊啊…[wait 0.5]………[wait 0.5]………/
+[hide A]
+[talkend]
+[bgm off]
+[effect off a]
+[textcolor ARUJI]
+丹波無法扭轉局面，
+遊戲結束了。/
+[serif off]
+？ （我又贏了）/
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[face A 03]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[say A]
+[serif on]
+哈哈哈哈，媽的…/
+[face A 09]
+[bgm battle]
+噢，兄弟！[shake A]　我想再做一次.../
+[serif off]
+？呃？/
+[shakebg]
+[serif on]
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[effect fr syutyu 2000]
+我不能就這麼失敗了……哥哥，再試一次吧！[shakebg][se taiko_02]/
+[serif off]
+？ （也許我應該讓你贏......）/
+[bg black 0.5]
+[minibg emo_donyori 0.5]
+[serif on]
+兄弟，
+如果你故意輸了，我不會原諒你的…/
+[flow]
+[face A 08]
+就像成年人一樣，
+跟我來一場認真的戰鬥吧……！/
+[hide A]
+[serif off]
+?……/
+[quake 1]
+[show A]
+[scale A 1.6]
+[move A Y -100]
+[bg heya_light 0.5]
+[minibg off 0.5]
+[face A 09]
+[-]
+[serif on]
+[effect fr syutyu a 0 0]
+啊！兄弟，你為什麼這樣？
+你知道我的弱點.../
+[flow]
+[face A 06]
+哦，不，等等...[shake A]
+啊啊啊[shake A 3 5 5]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[quake off]
+[effect off a]
+[scale A 1.0]
+[move A Y 100]
+[bgm night]
+[face A 04]
+[wait 1]
+[-]
+[fadeout 1.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on 0.5]
+我又輸了...
+大哥，你真是太棒了…/
+[face A 06]
+我想要像大人一樣
+我已經訓練了很多，但是.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+像這樣玩也需要你訓練你的大腦。
+非常……困難……[face A 04]/
+[serif off]
+？很快丹波就會變得更強/
+[face A 05]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[-]
+[serif on]
+真的嗎？[shake A]
+……你真的這麼認為嗎？/
+[flow]
+[face A 01]
+那麼，告訴我變強的秘訣吧…
+為什麼這麼強？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+當然，也有技巧和理論。
+是的，但是…/
+[serif off]
+？ @@也許是因為我在想P20@@/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[shake A]
+[face A 05]
+[serif on]
+[say A]
+哈！
+B、關於我…？/
+[serif off]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……那麼，我也是……
+我不知道如果我想起我的兄弟，我是否可以變得更堅強。/
+[face A 07]
+[flow]
+………………/
+[talkend]
+[textcolor ARUJI]
+丹波看起來他閉著眼睛在想什麼。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+…………蘇……/
+[serif off]
+[shakebg]
+？不要突然聞到房間裡的味道……！ ？/
+[shakebg]
+[face A 06]
+[say A]
+[serif on]
+是的，這很重要。[shake A]
+我想多瞭解你的兄弟.../
+[flow]
+[face A 08]
+為了擊敗你的兄弟，你需要了解他。
+如果你不去思考的話，那是沒有好處的…/
+[face A 02]
+感覺下次一定能贏...
+兄弟，我們再戰吧。/
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[face A 01]
+正如所承諾的，這是一場嚴肅的競爭。
+在我獲勝之前我不會放棄...[face A 02]/
+[fadein black 2]
+[autotap]/
+[quake off]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+[-]
+黑白棋會與丹波 比賽嗎？
+我想知道它會持續多久.../
+[textcolor ARUJI]
+雖然我這麼想，但這段時間是和丹波一起度過的
+感覺非常有趣。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>201/
+[set A s_tnb_r 丹波]
+[set B s_n005_r りく]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 丹波と甘いにおい]
+[-]
+[bgm home]
+[bg gozasyo_day]
+[fadeout]
+[-]
+[autotap]/
+[show A C]
+[face A 00]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on 0.5]
+我想這就是報告的全部.../
+[serif off]
+？謝謝。謝謝你們的辛勤勞動，丹波/
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+是的。
+那麼……回頭見，兄弟。/
+[hide A]
+[serif off]
+？ ……啊，對了，我想送給丹波——/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+當我開啟抽屜抬起頭時…我聽到了這個聲音。
+就好像我沒有註意到一樣，丹波已經消失了。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm fun]
+[bg rouka_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 00]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+坤坤...
+啊……又是那個味道……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+巧克力的甜香撲鼻而來…
+從本週以來我到處都聞到了這種氣味。/
+[flow]
+[face A 04]
+……我感覺今天的人比平常多了。
+即使在皇宮裡，也有巧克力的味道…/
+[show B C]
+[setline 0.5 A B]
+[orderline A B]
+[face B 02]
+[say B]
+啊，丹波。 丹波也去廚房嗎？/
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+利庫……呃……
+嘴裡含著巧克力…/
+[face B 13]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+啊，謝謝你！
+呵呵。[face B 02]/
+[effect fr kira a 0 0]
+[se kira_01]
+[face B 12]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+大家做的剩下的巧克力
+我明白了！/
+[face B 14]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+……啊，萬一丹波也會在這之後出現呢。
+你要送別人巧克力嗎？/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 12]
+呵呵，因為今天是情人節啊！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[effect off a]
+[face A 04]
+[say A]
+情人節.../
+[face B 02]
+[say B]
+我必須送巧克力給我愛的人。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 09]
+但最新的流行趨勢是褲子！
+很多人都會送褲子當禮物！/
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，對了…巧克力和內褲…
+但為什麼是內褲呢？/
+[face B 13]
+[say B]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[autotap]/
+嗯，我不知道！但你什麼時候穿的褲子？
+收到後你會不會很高興呢？/
+[face B 12]
+我想這種文化會變得更加流行！/
+[face B 12]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+我還買了很多我喜歡的褲子。
+從現在起我會把它整齊地包起來。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 09]
+我想今晚送禮物給大家！
+呵呵，我很期待呢。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[say A]
+呃…
+……你不需要我，對吧？/
+[face B 03]
+[say B]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+呃，真可惜。 丹波 穿在你身上也會很好看。/
+[face B 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+啊，那你會把丹波給誰呢？/
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊？我、我……沒什麼特別的……
+……我沒有人可以給…/
+[face B 11]
+[say B]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+是這樣嗎？這太令人驚訝了。/
+[face B 02]
+選擇褲子當禮物時
+請隨時打電話給我。/
+[serif off]
+[move B X 500 0.5]
+[hide B]
+[face A 04]
+[move A C 0.5]
+[-]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+…………/
+[face A 06]
+情人節啊啊啊/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm food]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[move A X -1000]
+[face A 00]
+[-]
+[move A X 1000 1]
+[fadeout 1.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[say A]
+[serif on]
+…………/
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+不知怎的，我最後來到了六原商店…
+陽光明媚…充滿了巧克力的味道…/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 07]
+雖然是同一種巧克力，但味道卻各有不同…/
+[face A 08]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+這個……有很濃的奶味。[move A X -200 0.3]這是
+開心果，我猜...[move A X 400 0.3][face A 05]哇哦，裡面有酒精…/
+[move A X -200 0.5]
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，這是…丹波栗子巧克力…
+我不敢相信有這樣的事情存在.../
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[autotap]/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+…………/
+[face A 01]
+收到它你會高興嗎？/
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+....哦！/
+[talkend]
+@職員
+是的，您想要哪一款？/
+[face A 06]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+嗯……這個……拜託。/
+[hide A]
+[talkend]
+@職員
+是給你家用的嗎？
+是送禮物的嗎？/
+[show A C]
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+呃……？/
+[face A 04]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+啊，呃……嗯……
+……家用的……/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[move A X 1000]
+[-]
+[fadeout 1.5]
+[-]
+[move A X -1000 0.7]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[say A]
+[serif on]
+……如果是送禮物的話就更好了……/
+[se cloth_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+丹波內含一顆栗子巧克力。
+一個有點簡單的小盒子——/
+[textcolor ARUJI]
+[flow]
+作為禮物贈送有點不雅觀。/
+[show A C]
+[face A 04]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+……我在想我是否真的應該自己吃……/
+[face A 08]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……嗯，我想...
+我想送給弟弟.../
+[face A 03]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+沒錯.../
+[fadein WHITE 0.2]
+[-]
+[hide A]
+[minibg off]
+[bg rouka_day]
+[show B]
+[scale B 1.6]
+[move B Y -120]
+[waku on]
+[light dream]
+[face B 12]
+[-]
+[delay 0.2 fadeout 0.3]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[say B]
+我還買了很多我喜歡的褲子。
+從現在起我會把它整齊地包起來。/
+[fadein WHITE 0.2]
+[-]
+[hide B]
+[light off]
+[waku off]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[delay 0.2 fadeout 0.3]
+[autotap]/
+[waku off 0.5]
+[light off]
+[show A C]
+[face A 01]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+……Riku說他會自己包起來。
+……我也試試……/
+[serif off]
+[fadein BLACK 1.5]
+[move A X -600 0.5]
+[hide A]
+[-]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+丹波 在六原廠購買包裝紙。
+他開始獨自做木製品。/
+[serif off 1.5]
+[-]
+[hideall]
+[minibg off]
+[bgm night]
+[bg gozasyo_night]
+[-]
+[fadeout 1.5]
+[-]
+[place 御座所]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on]
+[talkend]
+[se pi_01]
+完成業務聯絡。/
+[textcolor ARUJI]
+[flow]
+我操作了終端，完成了向貓之屋的報告。/
+[se fusuma_01]
+[shakebg]
+[show A C]
+[face A 00]
+[move A X -500]
+[move A X 500 0.5]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+歐尼桑……呃……能給我一點時間嗎？/
+[serif off]
+？ 丹波？好的/
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+啊，嗯……兄弟……
+嗯……沒什麼，但是……呃……/
+[face A 06]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+如果你喜歡就吃這個吧。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+[se cloth_01]
+丹波把包裹藏在了身後。
+我把它放在這裡。/
+[serif off]
+?接收/
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+丹波被紅色包裝紙小心地包裹著
+他遞給我一個可愛的小盒子。/
+[show A C]
+[face A 06]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+嗯，今天是送巧克力當禮物的日子。
+因為我聽到.../
+[face A 04]
+但僅此而已...到時候見。/
+[serif off]
+？ 丹波。謝謝/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+呃，呃…/
+[face A 04]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+內容和我買的一樣。
+不要期望太多。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+內容就在文字裡
+我突然想到，也許這個包裝是…/
+[serif off]
+？ 丹波 包裹了嗎？/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+由於某種原因，摺痕有點鬆動，或者更確切地說，它沒有對齊。
+這賦予它一種只有手工製品才能實現的溫暖感覺。/
+[show A C]
+[face A 06]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，呃……很奇怪……？/
+[face A 04]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+我在研究的時候嘗試過...
+很難，因為我不習慣.../
+[face A 06]
+對不起，兄弟…/
+[serif off]
+？一點也不奇怪，謝謝。/
+[serif on]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+真的嗎？/
+[serif off]
+？拍拍你的頭/
+[scale A 2 0.5]
+[move A Y -220 0.5]
+[autotap]/
+[face A 06]
+[serif on]
+啊.../
+[talkend]
+[textcolor ARUJI]
+[serif on]
+丹波的頭看起來很鬱悶
+我會輕輕地撫摸你。/
+[textcolor ARUJI]
+[flow]
+[se cloth_01]
+他的光頭摩擦著他的手掌。/
+[face A 07]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+大哥……蘇……/
+[serif off]
+?給予一些回報/
+[se cloth_01]
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+呃，你也給我巧克力了嗎…？
+他給我準備好了。而且這是手工製作的嗎？[shake A]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+丹波是無情的嗎？
+看起來他的臉頰都紅了。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+....謝謝你。我也來嚐嚐！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 07]
+嗚嗚嗚…/
+[face A 04]
+對我來說，巧克力的味道是甜甜的…
+不過看起來真的很好吃.../
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+這有點幼稚，但我喜歡它。
+我的意思是…我很尷尬，但是…/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+但是……巧克力的味道和我哥哥的味道……
+我真的很喜歡它，也許.../
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+呵呵，我很期待…/
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+說完，丹波笑了。/
+[face A 01]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+哥哥……我會回來的。
+一個人在房間裡…我想快點吃東西…呵呵。/
+[serif off]
+？是的，謝謝。/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+很快再見，兄弟。/
+[move A X -300 0.5]
+[hide A]
+[se fusuma_01]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+丹波辛苦包裝的巧克力。/
+[textcolor ARUJI]
+[flow]
+首先，將其放在包裝中，
+我拍了很多照片和影片。/
+[textcolor ARUJI]
+[flow]
+並且從裡面出來了，
+一個大栗子，上面裹著巧克力。/
+[textcolor ARUJI]
+[flow]
+感覺丹波的善意正在傳遞。
+味道很豐富。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>202/
+[set A s_tnb_r 丹波]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 丹波と食べ歩き]
+[-]
+[bg black]
+[minibg yatai_night]
+[light def]
+[lightcolor orange]
+[fadeout]
+[-]
+[autotap]/
+[bgm home_summer]
+[talkend]
+[show A]
+[face A 05]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on 0.5]
+[say A]
+哇.../
+[talkend]
+[textcolor ARUJI]
+[hide A]
+我和丹波一起去參加了夏日祭典。 丹波 是
+當他們看到排列整齊的許多攤位時，他們的眼睛閃閃發亮。/
+[textcolor ARUJI]
+從丹波一向冷靜的神態來看，
+我現在可以從他臉上的表情感受到一個男孩的純真。/
+[serif off]
+？我猜盂蘭盆舞場地就在後面？/
+[show A]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+是啊...
+嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚給嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚給於嗚嗚嗚嗚嗚嗚嗚嗚嗚·嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚給嗚嗚嗚嗚嗚嗚嗚嗚嗚·嗚嗚嗚嗚嗚給嗚嗚嗚給嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚到嗚嗚嗚·嗚嗚嗚嗚嗚嗚嗚嗚嗚（嗚嗚嗚嗚嗚嗚給嗚嗚嗚嗚嗚嗚嗚嗚嗚（嗚嗚嗚嗚嗚嗚（嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚給嗚嗚嗚嗚嗚嗚嗚嗚給嗚嗚嗚嗚又嗚嗚[face A 05]/
+[move A X -300 0.5]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 07]
+我想知道那是什麼味道……這是……炸雞嗎？
+……我想知道這……氣味是什麼……[move A X 300 0.5]/
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+這是一種甜美而幸福的味道…/
+[effect off a]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊。[shake A]/
+[talkend]
+[textcolor ARUJI]
+丹波對各種氣味感到好奇。
+他把注意力轉向我，露出驚訝的表情。/
+[face A 06]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……我像個孩子一樣玩得很開心…/
+[serif off]
+？我真的不在乎。/
+[face A 04]
+[serif on]
+哦，不...
+真是尷尬啊…/
+[fadein white 0.5]
+[serif off 0.5]
+[-]
+[light dream]
+[waku on]
+[hideall]
+[minibg off]
+[bgm home]
+[bg rouka_day]
+[-]
+[fadeout 0.5]
+[-]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+當我邀請丹波參加一個節日時，她說：“不！”
+我以為他們會拒絕，但…/
+[show A]
+[face A 00]
+[say A]
+……好吧。/
+[talkend]
+[textcolor ARUJI]
+令人驚訝的是，他同意了。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[say A]
+....我喜歡盆舞...
+兄弟，你也願意跟我跳舞嗎？/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+於是我就來和丹波跳舞了——/
+[fadein white 0.5]
+[serif off 0.5]
+[-]
+[bgm home_summer]
+[minibg yatai_night]
+[waku off]
+[bg black]
+[light def]
+[lightcolor ORANGE]
+[-]
+[fadeout 0.5]
+[-]
+[autotap]/
+[show A]
+[face A 00]
+[say A]
+[serif on]
+……這是法蘭克福。[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+啊，這個香料的味道……是咖哩……[move A X 500 1]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+丹波被各種氣味所吸引。
+進店看看吧/
+[textcolor ARUJI]
+[se cloth_01]
+[shakebg]
+丹波圓滾滾的身體擠過人群
+就像一艘破浪的小船。/
+[show A]
+[face A 02]
+[say A]
+....看起來很好吃.../
+[hide A]
+[shakebg]
+@老人
+嘿，歡迎。咖哩是中/大號
+我們該選擇哪一個呢？/
+[show A]
+[face A 05]
+[say A]
+啊？[shake A]　不...
+我……那個……/
+[serif off]
+?一件大事/
+[hide A]
+[serif on]
+@老人
+是的！/
+[show A]
+[face A 06]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+哦，兄弟……我……
+我不是說我想吃.../
+[face A 04]
+[flow]
+就像乞討一樣…自私…
+我不是孩子。/
+[serif off]
+？我只是想自己吃。/
+[face A 05]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊？你哥哥……？
+……既然如此，那也好……[face A 00]/
+[face A 07]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，這味道…/
+[hide A]
+@店主
+歡迎。巧克力香蕉怎麼樣？/
+[show A]
+[face A 02]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+巧克力...香蕉...看起來很好吃...
+嗯，啊，但是……那個……[face A 06][shake A]/
+[serif off]
+？請來一個？/
+[hide A]
+[serif on]
+@店主
+是的！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm food]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+每次丹波在店裡逛逛的時候都會被香味吸引。
+如果我去買菜的話.../
+[textcolor ARUJI]
+[flow]
+我的手已經滿了。/
+[textcolor ARUJI]
+丹波通常吃多少食物？
+這個金額合適嗎？/
+[show A]
+[face A 00]
+[say A]
+兄弟……買了這麼多吃的。
+不會跳舞嗎？/
+[serif off]
+？我想該吃飯了... 丹波 怎麼樣？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[serif on]
+……沒辦法，我也吃吧。
+我會幫助你。/
+[serif off]
+？有幫助/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+[effect fr kira a 0 0]
+[se kira_01]
+太好吃了啊兄弟
+但我能吃這麼多嗎…？[face A 06]/
+[talkend]
+[face A 00]
+[effect off a]
+[textcolor ARUJI]
+如果你問
+丹波吃得很飽。/
+[textcolor ARUJI]
+只看你有多幸福
+我很高興我來了。/
+[serif off]
+？我的臉頰上有醬汁/
+[face A 06]
+[say A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊...[shake A]
+....謝謝你.../
+[serif off]
+？我也請你喝一杯。/
+[face A 01]
+[wait 1]
+[talkend]
+[hide A]
+[textcolor ARUJI]
+[-]
+[serif on]
+一邊看著丹波，一邊點頭。
+當我走向前面不遠的商店時.../
+[textcolor ARUJI]
+[bgm departure]
+[se gaya_01]
+[quake 1]
+突然，一大群人從旁邊衝了進來。
+看起來就像有神轎經過。/
+[textcolor ARUJI]
+[flow]
+由於無法逆流而行，他們就被帶走了。/
+[textcolor ARUJI]
+[flow]
+伴隨著節慶的熱鬧與人群，
+感覺周圍的溫度突然升高了。/
+[serif off]
+？ 丹波tsu/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+丹波的臉已經走遠了…
+然後他就消失在人群中了。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se gaya_01]
+[wait 3]
+[hideall]
+[quake off]
+[-]
+[bgm home_summer]
+[fadeout 1.5]
+[-]
+[playerno]
+[-]
+[autotap]/
+[serif off]
+？我該怎麼辦.../
+[talkend]
+[textcolor ARUJI]
+[serif on]
+我終於能夠擺脫困境了。
+看起來他已經來到了幾個街區之外。/
+[textcolor ARUJI]
+[se gaya_01]
+人還蠻多的...
+不知道丹波是否還在那裡等著…/
+[show A]
+[face A 01]
+[say A]
+兄弟/
+[talkend]
+[textcolor ARUJI]
+當我轉身時，丹波就在那裡。/
+[textcolor ARUJI]
+[flow]
+身材龐大，容易俯視
+它給你一種安全感，就像燈塔一樣。/
+[serif off]
+？ 丹波，你來了。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+[serif on]
+……嗯……哥哥的氣味
+因為我已經越走越遠了。/
+[serif off]
+？氣味…………/
+[face A 01]
+[serif on]
+我永遠不會忘記你的氣味。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+……無論你走多遠
+我會找到它。/
+[talkend]
+[textcolor ARUJI]
+丹波 說並微笑著。/
+[face A 06]
+[say A]
+……但是不要離開我…/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[se cloth_01]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+丹波正在往下看
+我握住了這隻手。/
+[face A 02]
+[say A]
+我們一起去買一杯飲料吧。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+然後，直到您到達商店
+我和丹波手牽手，他臉紅了。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm food]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A]
+[face A 00]
+[say A]
+[serif on]
+[scale A 1.6]
+[move A Y -120]
+啊……甜香……
+這是我剛來的時候就聞到的味道…/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+一邊走路一邊喝酒
+丹波的眼前出現了一家棉花糖店。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……嗯……嗯……但是……
+甜甜的……像個孩子一樣……/
+[serif off]
+？我想吃棉花糖。/
+[face A 05]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，兄弟……？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+……也許
+即使是現在……對我來說……？/
+[hide A]
+@老人
+有嚮導！我該怎麼處理這個包？/
+[talkend]
+[textcolor ARUJI]
+當你把目光轉向一邊時
+有很多動漫圖案的包包。/
+[serif off]
+？ 丹波，您可以選擇。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[say A]
+[serif on]
+哦，但是……我明白了……
+嗯...[face A 08]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+想了一會兒之後…/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[autotap]/
+[face A 06]
+[say A]
+嗯……兄弟……這很好。/
+[hide A]
+@老人
+是的！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm night]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+丹波正開心地咬著棉花糖。/
+[show A]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+嗯嗯[shake A]...好吃...
+謝謝你，兄弟.../
+[talkend]
+[hide A]
+[textcolor ARUJI]
+丹波選擇的棉花糖袋是
+看起來就像一部英雄動漫。/
+[show A]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+這太酷了.../
+[face A 01]
+[flow]
+有一天我也會這樣
+我想成為一個堅強而優秀的成年人.../
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，但是…對大家來說…
+我選擇了這張照片...這是一個秘密。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+只在哥哥面前
+所以。[wait 0.2]對。誒嘿嘿。[face A02]/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+丹波 不久前找到了我
+我覺得他看起來夠像英雄了。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+嗯，老大哥……直到盆舞會。
+還有時間.../
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[autotap]/
+[face A 06]
+……其實，再多一點就好了
+一股甜甜的味道讓我很好奇…/
+[serif off]
+？一起吃飯吧！/
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[wait 2]
+[-]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+之後丹波決定了我的興趣。
+我感覺他開始乞求我。/
+[show A]
+[scale A 2]
+[move A Y -220]
+[face A 02]
+[say A]
+兄弟，我們一起來欣賞盂蘭盆舞吧！/
+[talkend]
+[textcolor ARUJI]
+今年夏天，兩人一起度過了節慶。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

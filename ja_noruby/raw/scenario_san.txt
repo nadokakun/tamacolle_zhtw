@@ -1,0 +1,647 @@
+>>10000/
+@讃岐
+オイラは南海道、[wait 1.0]四国の讃岐だよ。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@讃岐
+あるじさま！　オイラきっと役に立つよ！/
+>>10001/
+@讃岐
+あるじさま！[wait 1.0]
+へへっ、[wait 0.7]オイラのおうどん[wait 0.5]気に入ってくれたのかな？/
+>>1/
+[set A s_san_r 讃岐]
+[show A C]
+[face A 12]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[say A]
+あるじさま～！　
+小豆島って、行ったことある？/
+[face A 00]
+あのね……小豆島に、引き潮の時にだけ
+できる道があって……/
+[face A 02]
+いつかあるじさまと一緒に
+歩いてみたいなぁって、思ってたんだ……/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え、いいの！？
+[face A 02]オイラうれしい……約束だよっ！/
+>>2/
+[set A s_san_r 讃岐]
+[show A C]
+[face A 12]
+[serif on]
+[talk A]
+ねぇあるじさま。
+庭の木に登ったらどこまで見えるかなぁ。/
+[face A 00]
+こんぴらさんからなら
+讃岐平野が全部見えちゃうんだよ。/
+[face A 01]
+オイラの大好きな景色なんだ！
+あるじさまにも見せたいなぁ。/
+[face A 02]
+いっぱい階段上らないといけないから
+いっしょに頑張ろうね！/
+>>3/
+[set A s_san_r 讃岐]
+[show A C]
+[face A 01]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[talk A]
+オイラが一年で一番好きな季節は秋だよ！
+食欲の秋、だからね！/
+[face A 02]
+それとね、寒霞渓の紅葉が
+きれいなんだ……！[face A 01]　大迫力だよ！/
+[face A 02]
+見たらオイラのこと、もっと好きになって
+もらえるかも……[shake A 2]えへへ。/
+>>4/
+[set A s_san_r 讃岐]
+[randomset B r @地魂男児 -san]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+えへへ……マフラー、キレイだねって、
+$B:Aに褒められた……/
+[flow]
+[face A 00]
+新調したばっかだったから嬉しいなー！
+[face A 02]へへへ。/
+>>5/
+[set A s_san_r 讃岐]
+[randomset B r @地魂男児 -san]
+[show B R]
+[show A L]
+[face A 01]
+[serif on]
+[talk A]
+よーっし、強くなるために他人の動きを参考にしよう。
+今日は$B:Aのモノマネしちゃうよ……！/
+[flow]
+[face A 03]
+[move B X -100 0.5]
+[move A X -100 0.5]
+まずは細かい癖や動きから、完璧に調べる……
+[move B XY -10 -40 0.4][rotate B 10 0.3][delay 0.4 move B XY 10 40 0.3][delay 0.5 rotate B 0 0.3][move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]オイラ、やるとなったら徹底的だよ……！[move B X 300 1.0][move A X 300 1.0]/
+>>6/
+[set A s_san_r 讃岐]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+（お腹空いたなぁ……）/
+[flow]
+[face A 01]
+よぉし、
+[move A X 700 0.5]おうどん捏ねてこよ！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_san_r 讃岐]
+[randomset B r @地魂男児 -san]
+[show A L]
+[show B R]
+[talk A]
+[face A 00]
+[face B 01]
+[serif on]
+荘園で犬、飼えないかなぁ……
+[face A 02]みんなで育てたら絶対可愛いし、いいと思うんだぁ。/
+[flow]
+[face A 02]
+それでね、育ったら、こんぴらさんに旅をさせる。
+[face B 05][move B X 50 0.3][move A Y 100 0.1][delay 0.1 move A Y -100 0.2]こんぴら犬にするのがオイラの夢！/
+>>10/
+[set A s_san_r 讃岐]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+そうだ！
+明日の朝ごはんも、おうどんにしよっと！！/
+[face A 02]
+[move A X 300 0.4]
+よ～し、今のうちに準備しておかなきゃ！！/
+>>11/
+[set A s_san_r 讃岐]
+[randomset B r @地魂男児 -san]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+あ、もうこんな時間だ。
+そろそろお風呂入らなきゃだよね。/
+[flow]
+[face A 00]
+片付けしなきゃ……[wait 0.3]って、あれ[face A 05]！？
+[shake A 3]ものすごく散らかってる……/
+[flow]
+[show B R]
+[talk A]
+[face B 05]
+[face A 04]
+あ……$B:A……
+[wait 0.2]こ、これは……そのぉ…[shake A 2][face A 06]…/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_san_r 讃岐]
+[show A C]
+[face A 06]
+[serif on]
+[talk A]
+オイラのお腹、
+ぷにぷにで柔らかいって言われたけど……/
+[move A Y -20 0.2]
+[delay 0.2 move A Y 20 0.1]
+[delay 0.4 move A Y -20 0.2]
+[delay 0.6 move A Y 20 0.1]
+……/
+[face A 12]
+[effect fr kira 2000]
+確かに、おうどんより柔らかいかも。/
+>>15/
+[set A s_san_m 讃岐]
+[randomset B m @地魂男児 -san -@NPC]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[effect A syutyu 2000]
+水神式投球ーー！！/
+[face A 06]
+うーん、こんな感じでいいのかなぁ？
+$B:Aにまた感想聞いてみようかな……/
+>>16/
+[set A s_san_m 讃岐]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+[move A X 200 0.3]
+えい！[effect A bomb 2000 0 150][se bomb_02][wait 0.5]　えい！　[move A X -400 0.4][move A Y 100 0.2][delay 0.2 effect A allow 2000 0 150][delay 0.2 se syu_02][delay 0.2 move A Y -100 0.1][wait 0.5]やあ！！[se syu_04][move A X 500 0.2][wait 0.5]
+おりゃーーー！！[move A X -100 0.1][effect A syutyu 2000][face A 11][se bomb_01]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ふぅ……ふぅ……/
+[face A 04]
+オイラ、喉、かわいちゃった……[face A 11]
+[move A X 200 1.0]お水、お水は、どこぉ……はぅう。[rotate A -30 0.4][move A XY 40 -40 0.5][se dosa_01]/
+>>17/
+[set A s_san_b 讃岐]
+[randomset B b @地魂男児 +@あやかし -san]
+[show A C]
+[show B]
+[setline A B]
+[face A 01]
+[serif on]
+[talk A]
+ふぅ、ほかほか～
+団扇で扇ぐと気持ちいいね～。/
+[flow]
+[face B 01]
+[face A 12]
+丸亀うちわ、オイラの自慢なんだ～！/
+>>18/
+[set A s_san_b 讃岐]
+[randomset B b @地魂男児 +@あやかし -san]
+[randomset C b -@NOW]
+[effect fr yuge A]
+[se amb_12]
+[se water_06]
+[show B R]
+[move B XY -20 -50]
+[show A C]
+[move A XY -20 -50]
+[show C L]
+[move C XY -20 -50]
+[scale A 1.5]
+[scale B 1.5]
+[scale C 1.5]
+[face A 12]
+[serif on]
+[talk A]
+[shake A 3]
+この時間帯のお風呂は
+いつもぎゅうぎゅう……/
+[flow]
+……溜池みたいにお風呂をいくつも作れば
+[face A 05]みんなゆったり浸かれるんじゃ……？/
+[flow]
+[se water_03]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[move B X 50 0.2]
+[face B 05]
+[face C 05]
+[face A 01]
+あるじさまに言ってみよ！/
+>>19/
+[set A s_san_b 讃岐]
+[effect fr yuge A]
+[se amb_12]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+よいしょよいしょ……[se bath_05]/
+[flow]
+[face A 01]
+隅々までキレイにしなきゃ、
+大切な洋服が汚れちゃうもんね。/
+>>20/
+[set A s_san_r 讃岐]
+[show A C]
+[face A 05]
+[serif on]
+[talk A]
+[shake A 3]
+現代の厠はすごい……
+[wait 0.2]離れたら自動で水が流れるんだ……/
+[scale A 2.0]
+[face A 02]
+[move A Y -100]
+きっと水神さまの力を借りてるんだ。
+ずっと見守ってくれてるなんて……すごい……[shake A 3 20 20]　/
+[scale A 1.0]
+[move A Y 100]
+[face A 00]
+あとで厠の水神さまに
+おうどんをお供えしておかなきゃ！[move A X 800 0.5]　/
+>>21/
+[set A s_san_r 讃岐]
+[show A C]
+[face A 12]
+[serif on]
+[talk A]
+[shake A 3]
+ぷるぷる……っと/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[face A 01]
+よし、ばっちり！
+よ～く水切りしないとね。/
+>>22/
+[set A s_san_r 讃岐]
+[show A L]
+[move A X -300]
+[face A 06]
+[-]
+[move A X 700 0.4]
+[delay 0.4 move A X -150 0.2]
+[-]
+[serif on]
+[talk A]
+わ、わっ！
+よかった、空いてた……/
+[flow]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ふぅ
+ま、間に合ったぁ……/
+>>23/
+[set A s_san_r 讃岐]
+[randomset B r @地魂男児 -san]
+[show A C]
+[face A 01]
+[move A Y -50]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅ……
+個室ってついついゆっくりしちゃうよね……/
+[flow]
+[show B L]
+[scale B 1.3]
+[move B Y -50]
+[order B 1]
+[order A 0]
+[move B X -500]
+[move B X 350 1.0]
+[-]
+[face A 05]
+[face B 05]
+[talkend]
+ガチャッ/
+[talk A]
+……[wait 0.5]
+[move A X 50 0.1][move B Y 100 0.1][delay 0.1 move B Y -100 0.2][face A 10][face B 06]わ、わ、わーーーっ！[move B X -800 0.3]　/
+[flow]
+[shake A 5]
+[face A 11]
+（か、鍵掛け忘れてた……！
+　オイラのばかばかー！）/
+>>24/
+[set A s_san_r 讃岐]
+[randomset B r @地魂男児 -san]
+[show B R]
+[show A L]
+[talk A]
+[face A 01]
+[-]
+[se cloth_03]
+[order A 1]
+[order B 0]
+[move A X 300 1.0]
+[-]
+[serif on]
+ごろん[face B 05]ごろ～ん。/
+[flow]
+[face A 02]
+[face B 02]
+へへ、$B:Aの上、
+乗っかっちゃうよ～！/
+>>25/
+[set A s_san_r 讃岐]
+[show A C]
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[serif on]
+[talk A]
+すーぴー……すーぴー……/
+[serif noname]
+[talkend]
+讃岐は安らかな寝息をたてている……/
+>>26/
+[set A s_san_r 讃岐]
+[randomset B r @地魂男児 -san -@NPC]
+[show A C]
+[show B]
+[setline A B]
+[se cloth_01]
+[face A 01]
+[move A Y -300]
+[move A Y 300 1.0]
+[serif on]
+[talk A]
+[face B 01]
+ん～、おはよ、$B:A……[face A 06]　[shake B][face B 06]
+え！？[shake A 5]　/
+[flow]
+ね、[face A 11]寝起きだし……[move A Y -100 1.0]　
+恥ずかしい……/
+/
+>>100/
+[set A s_san_r 讃岐]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[minibg tyubo]
+[-]
+[title 絆 讃岐とうどん作り]
+[-]
+[bg mbg_map]
+[-]
+[se fusuma_01]
+[fadeout]
+[-]
+[bgm home]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+讃岐が一緒にやりたいことがあるというので、
+集合場所の厨房へとやってきた。/
+[show A C]
+[face A 01]
+[talk A]
+あるじさま！
+今日は来てくれてありがとう！/
+[face A 12]
+[flow]
+実は、あるじさまにオイラのことをもっと知って
+もらいたくて、色々考えてみたんだ……/
+[face A 02]
+[effect bk kira 2000]
+で！　オイラと言えば、おうどん！
+おうどんと言えばオイラ！！/
+[face A 01]
+[flow]
+だから、あるじさまにオイラ特製おうどんを
+ごちそう！[wait 0.5][face A 04]　……だと、普通すぎるから……/
+[face A 01]
+[flow]
+今日は一緒におうどん作りを
+しようと思ってるんだ！/
+[face A 00]
+おうどんをこねる所からはじめて、
+ゆでて、盛り付けて、食べる！/
+[face A 12]
+[flow]
+そしたら、
+おうどんのことも、オイラのことも、/
+[face A 01]
+[flow]
+あるじさまにたくさん感じて
+もらえるんじゃないかなって、えへへ。/
+[serif off]
+?いいよ/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+やったー！
+じゃあ早速はじめていくよ！！/
+[fadein BLACK 0.5]
+[serif off]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+讃岐の説明を聞きながら、小麦粉に食塩水を
+混ぜながら揉んでいく。/
+[show A L]
+[face A 00]
+[move A C 0.5]
+[talk A]
+[serif name]
+……あ、あるじさまの、ちょっと
+ぱさぱさだね。水が足りてないかな？/
+[face A 01]
+[move A X -100 0.5]
+[flow]
+オイラの触ってみて。
+ほら、しっとりしてるでしょ？/
+[serif off]
+?ほんとだ、難しいね……/
+[serif on]
+[face A 00]
+[move A C 0.2]
+心配しないで！
+オイラがあるじさまのもこねこねしてあげるよ！/
+[face A 01]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[flow]
+こねこね……こねこね……できた！/
+[face A 12]
+[flow]
+それじゃあちょっとねかして…………
+中もみをして、またちょっとねかせるよ！/
+[fadein BLACK 0.5]
+[serif off]
+[-]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[show A]
+[face A 02]
+さあ、いよいよ麺棒の登場！
+おうどんをのばしていくよ～！/
+[serif off]
+?手際がいいね/
+[face A 05]
+[serif on]
+はっ！　つい夢中になって
+一人でどんどん進めちゃってた！/
+[face A 11]
+[sake A]
+（あるじさまと一緒に作りたいのに……
+　オイラのばかばか！）/
+[face A 06]
+えっと、それじゃあ、
+麺棒で伸ばすの、一緒にやってくれる？/
+[serif off]
+?讃岐のうしろに立つ/
+[textcolor ARUJI]
+[hide A]
+[talkend]
+[se cloth_01]
+[serif on]
+讃岐を後ろから包むようにして、棒を握った。
+ほのかにあたたかな体温が伝わってくる。/
+[show A]
+[face A 05]
+[scale A 1.6]
+[move A Y -110]
+[talk A]
+わぁ、あるじさま！[shake A]　
+[wait 0.5][face A 12]あんまりくっつくと、やりづらいよ？　へへ。/
+[serif off]
+?讃岐の手に自分の手を重ねる/
+[move A Y -50 1]
+[delay 1 move A Y 50 0.5]
+[delay 1.5 move A Y -60 1.5]
+[delay 3 move A Y 50 0.5]
+[autotap]/
+[serif on]
+[face A 01]
+体重を均等にかけながら……そうそう。
+ふぅ～んっ！　ふぅぅ～んっと！/
+[face A 02]
+[flow]
+はぁ、はぁ……あるじさま、すごく上手だね！
+オイラびっくりだよ！/
+[textcolor ARUJI]
+[talkend]
+讃岐はニッコリ笑った。/
+[face A 01]
+[serif name]
+[talk A]
+後は、切って茹でるだけ！　切るのは
+オイラがやるから、あるじさまは打ち粉係ね！/
+[fadein BLACK 2.0]
+[serif off]
+[-]
+[hideall]
+[minibg ima]
+[bg mbg_map]
+[-]
+[fadeout 1.0]
+[-]
+[se kira_01]
+[serif on]
+[show A]
+[face A 09]
+できたーーーー！
+いただきまーす！！/
+[face A 06]
+[flow]
+……あるじさま、ど、どうかな？
+オイラたちのおうどん。/
+[serif off]
+?すごく美味しい/
+[face A 02]
+[serif on]
+わーい！
+オイラも……[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]ずるずるずる～！/
+[face A 09]
+[flow]
+[se kira_01]
+[effect bk kira 2000]
+ふぁああコシがしっかりしてもちもちしてて
+美味しい～！　いつもより美味しくできた気がするよ！/
+[serif off]
+?きっと、一緒に作ったからだね/
+[face A 05]
+[serif on]
+！！[wait 0.5][face A 02]　そ、そうだね！
+きっとそうだよ！　えへへ……美味しいねっ！/
+[face A 01]
+おうどん、まだ余ってるから、
+荘園のみんなも呼んできていいかな？/
+[serif off]
+?うなずく/
+[face A 09]
+[serif on]
+やったぁ！　みんなで食べよー！！
+すぐ戻ってくるね！！[move A X 300 0.5][hide A][se walk_01][se fusuma_01]/
+[talkend]
+[textcolor ARUJI]
+讃岐は嬉しそうに皆を呼びに
+部屋を出ていった。/
+[serif off]
+[fadein black 2]
+[-]
+[textcolor ARUJI]
+[serif on]
+讃岐と一緒に作ったうどんの味は
+今まで食べたどのうどんよりも美味しかった。/
+[textcolor ARUJI]
+そんな気がしたのだった。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

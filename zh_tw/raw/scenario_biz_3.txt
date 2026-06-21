@@ -1,0 +1,2164 @@
+>>10000/
+@備前
+賈賈安！
+山陽路備前，閃亮登場！[autotap]/
+[delay 3.0]
+[flow]
+[-]
+@備前
+讓我們以巔峰為目標吧！
+大正！/
+>>10001/
+@備前
+巴巴安！
+我們又來了！[autotap]/
+[delay 3.0]
+[flow]
+[-]
+@備前
+畢竟，將軍您有眼睛！/
+>>1/
+[set A s_biz_r 備前]
+[show A C]
+[face A 02]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+噢，將軍！
+那就好，咱們也把將軍脫了吧！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 14]
+嗯？你真著急。
+不要嘗試任何奇怪的事情！/
+[face A 01]
+今年的裸體祭典“西大寺Eyo”
+我也想參加！/
+[face A 11]
+那你為什麼不跟將軍一起去呢？
+讓我們一起練習，脫穎而出！/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[se cloth_01]
+[autotap]/
+[face A 09]
+那麼，就這樣吧！
+讓我們華麗地脫掉衣服吧！/
+>>2/
+[set A s_biz_r 備前]
+[show A C]
+[face A 11]
+[serif on]
+[say A]
+[effect fr kira a 0 0]
+[se kira_01]
+有哪些值得推薦的景點？
+「岡山後樂園」！/
+[face A 01]
+[flow]
+花、紅葉等季節風景
+真是個可以盡情享受的好去處♪/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 00]
+嗯，將軍，
+趕緊跟我一起去看看吧！/
+>>3/
+[set A s_biz_r 備前]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+在黑島，在退潮時漂浮在牛窗海岸
+沙路會突然出現！/
+[face A 06]
+這是某種能量點嗎？
+話說回來，利光好像常去那裡吧？/
+[face A 14]
+……你願意跟我一起去嗎？
+將軍明白了！ ！我太激動了。[face A 11][shake A][se cloth_06]/
+>>4/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW]
+[show A C]
+[face A 03]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+哈...我沒有時間...去做。
+我想知道這是否是一件有趣的事。/
+[face A 11]
+讓我們來一場華麗的爆炸吧！[shake A 3 10 10]　變得更加令人興奮
+不過我希望它很有趣。[face A 04]/
+[face A 01]
+[show B R]
+[face B 00]
+[move B X 600]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦！　$B:A，發現了！
+嘿！ ！來玩得開心吧~♪[setline 0.5 A B][face B 01]/
+>>5/
+[set A s_biz_r 備前]
+[show A C]
+[face A 05]
+[move A X 1000]
+[move A X -1000 0.5]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[serif on]
+[say A]
+哈哈哈……哦不！
+我即將被派去執行清潔任務。/
+[face A 13]
+我想我不擅長那種緩慢的工作。
+/
+>>6/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW]
+[show A C]
+[face A 05]
+[show B]
+[setline A B]
+[face B 04]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+[say A]
+哇！ ？[shake A]　$B:A所以，
+上次的戰鬥，你有經歷過那樣的困擾嗎？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+呃……真可愛啊……
+像這樣[= かわいい イケてる カッコいい]諾妮莎~好吧，耀西.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 01]
+下次，要多依賴一個人！
+是啊是啊。/
+[face A 12]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se paper_01]
+[shake B]
+[face B 05]
+啊，不相關，但這個檔案...
+把它交給納茲託。嗯，很高興認識你！
+[move A X -1000 0.5]
+[delay 0.2 move A X -200 0.5]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_biz_r 備前]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+呃……說真的……[shake A]
+這漫畫真的看得我哭了…/
+[face A 04]
+這就是我
+[= お涙頂戴モノ 悲恋モノ 感動系 人情モノ 動物モノ 悲しい話 ハッピーエンド]我無力……祖比。[shake A]/
+>>10/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW -hyu -awt -min]
+[show A C]
+[show B C]
+[move A X -500]
+[move A X 300 0.5]
+[face A 00]
+[face B 00]
+[-]
+[se cloth_01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+[say A]
+好的$B:A！
+感謝您今天的辛勤工作！/
+[shake A]
+[face A 05]
+[face B 05]
+[shake B]
+哇，我很驚訝！[shake A]
+啥，你驚訝什麼？　這個太可怕了！[setline 0.5]/
+[face A 06]
+[face B 06]
+啊？屁股？我擦了擦。是的。
+看起來擦起來很舒服。/
+[face A 10]
+[move A X 100 0.5]
+[move B X 50 0.5]
+[se cloth_01]
+[face B 03]
+它不會減少。那挺好的。
+你也可以摸我的屁股♪/
+>>11/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW]
+[show A C]
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[serif on]
+[say A]
+呵呵呵！我今天做得很好！
+就連將軍也非常稱讚！ ！/
+[move A X -400 0.5]
+[se fusuma_01]
+[face A 01]
+[say A]
+所以……我要去打擾廚房了~♪
+輪到我煮飯了...$B:A或者！[show B][move B X -1000][setline 0.5 B A][face B 00]/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face B 01]
+[face A 02]
+今天是慶祝我的巨大成功。
+他會為你做的！好的！ ！/
+[face A 09]
+[flow]
+[face B 02]
+好吧，今天的晚餐是巴拉蘇什！什麼！
+我自找的！[shake B]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW]
+[show A R]
+[move A C 0.5]
+[face A 00]
+[serif on]
+[say A]
+[show B L]
+[facE B 00]
+這海報是什麼啊…[face A 08]
+「為了保護莊園道德，禁止觸控」？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 14]
+[face B 05]
+嗯，這是否意味著你不該碰對方的身體？
+既然如此，我就拍拍你的衣服吧！/
+[face A 09]
+[face B 06]
+什麼？$B:A！　如果是這樣的話也沒關係。[shake A]
+澤澤……呵呵……[shake B][se cloth_01]/
+>>15/
+[set A s_biz_r 備前]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+啊~！[shake A]
+你的頭髮都因為訓練而亂了！/
+[face A 03]
+我不厭其煩地把它設定得很完美！
+呃…[shake A]我稍後會修復它！
+[move A X 600 0.5]
+[hide A]
+[se fusuma_01]/
+>>16/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW -@NPC]
+[show A C]
+[show B C]
+[setline B A]
+[effect fr katanas 6000 0 0]
+[shake A]
+[shake B]
+[se katana_01]
+[delay 0.3 se katana_02]
+[face A 08]
+[face B 08]
+[-]
+[serif on]
+[say A]
+[face A 05]
+呃，好吧。$B:A……
+真是太強了……媽的。/
+[move B X -600 0.5]
+[hide B]
+[face B 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+沒辦法。成為最好的
+我是不是應該稍微加強一下訓練…/
+>>17/
+[set A s_biz_b 備前]
+[randomset B b @地魂男児 -biz -@NOW]
+[show A C]
+[show B C]
+[setline B A]
+[face B 00]
+[face A 00]
+[serif on]
+[say A]
+[effect fr kira a 0 0]
+[se kira_01]
+我買了一些漂亮的內衣！
+看看吧！[shake A]　閃閃發光的超酷內衣！/
+[face A 11]
+[shake A]
+[face B 01]
+咕咕咕！
+我期待著出浴後將腳踩在腳上的那一刻！/
+[face A 01]
+[face B 00]
+我太興奮了，無法控制自己…
+快點洗個澡♪
+[move A X 1000 0.5]
+[move B X 900 0.7]
+[se door_01]/
+>>18/
+[set A s_biz_b 備前]
+[randomset B b @地魂男児 -biz -@NOW]
+[effect fr yuge A]
+[se amb_12]
+[se door_01]
+[show A C]
+[move A X -1000]
+[move A X 1000 0.6]
+[face A 01]
+[serif on]
+[say A]
+[se door_01]
+好的！ ！[shake A]
+我最常洗澡了！/
+[face A 11]
+死了死了死了♪[shake A]　
+今天真是太好了，[shake A]天哪♪/
+[show B]
+[move B X -1000]
+[setline 1 B A]
+[orderline A B]
+[talkend]
+[face B 04]
+[textcolor ARUJI]
+我聽到備前喧鬧的歌聲。$B哈
+我悄悄關上了門。
+[move B X -800 0.5]
+[se door_02]/
+>>19/
+[set A s_biz_b 備前]
+[randomset B b @地魂男児 -biz -@NOW]
+[effect fr yuge A]
+[se amb_12]
+[show A C]
+[show B]
+[setline A B]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -160 0]
+[face A 06]
+[face B 00]
+[serif on]
+[say A]
+$B:A，就是這樣
+就不能再往邊緣走一點嗎？/
+[face A 14]
+[face B 05]
+[move A X 50 0.5]
+[se bath_04]
+沒關係，沒人能看到我。
+那個區域很難看到♪/
+[face A 10]
+[face B 06]
+嘿，這不是很好嗎？[shake A]
+一生的願望！請！[shake A]/
+>>20/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW]
+[show A C]
+[show B]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[setline B A]
+[move A X 600]
+[move A X -600 0.5]
+[face B 00]
+[face A 00]
+[orderline A B]
+[serif on]
+[say A]
+喲，$B:A！
+讓我們一起做愛吧！[shake A][se cloth_01]/
+[face A 09]
+[se pee_01]
+[face B 06]
+今天也進展順利！
+……哦，$B:A看來你也過得很好！/
+>>21/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW]
+[show A C]
+[show B]
+[face A 00]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[setline A B]
+[orderline A B]
+[face B 00]
+[face A 00]
+[serif on]
+[say A]
+[se pee_01]
+唉……連這種日常的排洩行為都多了
+我認為這很有趣，這很好。/
+[face A 02]
+[face B 05]
+例如，取決於您投入的金額
+可獲得各種獎品！銅！ ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[face B 01]
+如果是這樣的話我
+希望能給你更多~♪/
+>>22/
+[set A s_biz_r 備前]
+[show A C]
+[face A 00]
+[serif on]
+[move A X -600]
+[move A X 600 0.5]
+[effect fr kira a 0 0]
+[se kira_01]
+[say A]
+噢，shuretto，saikko！ ！ ！
+感覺真的很清爽。/
+[face A 11]
+我現在已經完美美麗了！ ！ ！
+我不會不好意思向任何人展示它♪/
+>>23/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW]
+[show A C]
+[face A 06]
+[serif on]
+[say A]
+[se clolth_01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+呼…
+穿上內衣.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 13]
+嘆息……嘆息……
+我似乎無法平靜.../
+[face A 10]
+[effect A love a 0 100]
+[se kira_01]
+可能是因為今天內褲太緊了…
+我覺得我想把它展示給某人.../
+[face A 09]
+哎呀，$B:A來給大家看看吧♪
+順便說一下$B:A我也給你看看，哎呀！
+[move A X 1000 0.6]
+[se fusuma_01]/
+>>24/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+呃！　[shake A]幾乎所有的蒲團都已經填滿了！ ？
+我喜歡中間那個！[face A 04]　在中間！[shake A]/
+[show B R]
+[face B 01]
+[move B XY 100 -150]
+[rotate B -50]
+[move B XY -100 100 0.5]
+[rotate B -10 0.5]
+[se cloth_01]
+[orderline B A]
+[face A 01]
+啊？[shake A]$B:A你會把它給我嗎？ ？嚴重地！ ？
+謝謝你。但是……這很糟糕。[face A 06]/
+[face A 10]
+[face B 05]
+[move A XY 50 -60 0.3]
+[rotate A -30 0.3]
+[rotate B -50 0.3]
+[move B Y -60 0.3]
+[se cloth_06]
+好吧，那我們就抱在一起睡吧！
+這件事就這麼解決了！/
+>>25/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW]
+[show A C]
+[face A 07]
+[serif on]
+[say A]
+嗯...$B:A……
+呵呵……觸感……太好了……/
+[talkend]
+他睡著了，臉上帶著幸福的表情。/
+>>26/
+[set A s_biz_r 備前]
+[randomset B r @地魂男児 -biz -@NOW]
+[show A C]
+[face A 00]
+[show B]
+[setline A B]
+[orderline B A]
+[rotate B -30]
+[rotate A -10]
+[moveline A.B 0 -100]
+[serif on]
+[say A]
+什麼？$B:A。今天是不是有點冷？[shake A]
+所以，如果我們共用同一個蒲團就好了，對吧？/
+[face A 02]
+[face B 01]
+[se cloth_01]
+[rotate A -25 0.5]
+[move A X 120 0.5]
+呵呵，謝謝。
+……啊，好溫暖啊。/
+[face A 09]
+[face B 06]
+[move A X 30 0.5]
+[se cloth_01]
+我可以多碰觸你嗎？[shake B]
+你能摸摸我柔軟的肌膚嗎？/
+>>27/
+[set A s_biz_r 備前]
+[show A C]
+[face A 00]
+[-]
+[autotap]/
+？ 備前，快樂的一天！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+[serif on]
+將軍！
+謝謝！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 09]
+[effect fr kira a 0 0]
+[se kira_01]
+嘿，將軍，這是我特別的一天。
+那為什麼不舉辦一場華麗的派對呢？/
+[effect off a]
+[face A 11]
+畢竟，今天，二月的第三個星期六，就是這樣。
+男人最刺激的戰場－西大寺Eyo開幕日！[se taiko_02][shake A]/
+[face A 10]
+[effect fr kira a 0 0]
+[se kira_01]
+每個人都裹著腰布，四處走動，想看看幸運者的寶座。
+我們來比賽吧！/
+[face A 14]
+[se taiko_01]
+這就是為什麼這座莊園裡的每個人都像西大寺英陽一樣。
+讓我們過一個節日吧！不是很好嗎？/
+[face A 13]
+[effect off a]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+因為備後是禦好燒日，大家在一起。
+吃禦好燒.../
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 06]
+贊吉正在做很多烏龍麵。
+我也想做一個與兔兒節相關的活動！[se cloth_01]/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 12]
+[talkend]
+備前 用手臂摟住這個說，
+搖動臀部並乞求。/
+[serif off]
+？但我可能還來不及準備好。/
+[face A 13]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+嘿……嗯，沒錯。我明白。
+然後把它變得非常小....../
+[face A 01]
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+今天是“腰布日”，因為它似乎是一個裸體的節日。
+每個人只穿一件腰布。就是這樣！[se taiko_02]/
+[face A 09]
+[shake A]
+[flow]
+然後你就可以立即開始了！/
+[effect off a]
+[serif off]
+？你確定...？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+[serif on]
+好的！我會第一時間釋出到公告欄！
+啊，將軍已經換上腰布了！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 09]
+[se cloth_01]
+沒錯。我認為這適合將軍。
+我借給你吧！我很期待看到將軍披著腰布！/
+[face A 01]
+好吧，待會兒見！/
+[move A X 500 0.5]
+[autotap]/
+>>100/
+[set A s_biz_r 備前]
+[set B s_n001_r 夏人]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[bg rouka_day]
+[-]
+[title 絆 備前と連れション？]
+[-]
+[bgm home]
+[fadeout 2]
+[-]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+今天晚些時候我要和夏人等人開會。
+當我沿著走廊走向指揮室時.../
+[se cloth_06]
+[shakebg]
+@？？？
+我找到了！　大正！/
+[talkend]
+[textcolor ARUJI]
+突然，有人從後面抱住了我。
+這聲音…/
+[serif off]
+？ 備前？/
+[bgm fun]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[se cloth_01]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[face A 01]
+[serif on]
+[say A]
+你還記得我吧！
+幹得好，我的將軍！/
+[talkend]
+[textcolor ARUJI]
+當我回頭時，我看到了一件帶有花卉圖案的校服。
+一件在風中搖曳的黃色斗篷吸引了我的注意。/
+[flow]
+[textcolor ARUJI]
+在那裡，有一個矮胖的男人。
+其中有備前，一個擁有耀眼大腿的地魂少年。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[face A 03]
+我找了一下。因為他並不在王座。
+你現在要去哪裡？我們來陪我玩一會兒吧。[face A 01]/
+[serif off]
+？我現在要去指揮室。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[serif on]
+[say A]
+呃……指揮室？工作？
+很無聊.../
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+那麼，就在我去指揮室之前。
+讓我們一起玩得開心吧！/
+[talkend]
+[textcolor ARUJI]
+雖然我被邀請了，
+我現在真的不想尿尿。/
+[serif off]
+？現在可以了嗎？/
+[face A 05]
+[shake A]
+[serif on]
+[say A]
+是啊！ ？[shake A 3 5 5][se zukkoke_02]/
+[face A 13]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……也許來自我的弟弟們
+你在聽什麼嗎？關於我.../
+[serif off]
+?？/
+[face A 12]
+[serif on]
+[say A]
+不，看...來自備中 和備後...
+我不知道你是否聽說過關於我的傳聞。/
+[face A 06]
+[flow]
+好吧，如果你什麼也沒聽到，也沒關係♪
+那我們去上廁所吧！我們走吧！
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[se cloth_06]
+[shakebg]/
+[hide A]
+[effect fr syutyu a 0 0]
+[se walk_02]
+[talkend]
+[textcolor ARUJI]
+備前半強行抽回了我的手。
+前往廁所。/
+[serif off]
+？ （嗯，我想有一個同伴是件好事…）/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[effect off a]
+[hideall]
+[bg mbg_syouen]
+[minibg kawaya_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[serif on]
+[say A]
+啊，好像沒人啊。
+那麼，最深的那一層！/
+[hide A]
+[talkend]
+[se door_01]
+[shakebg]
+[minibg a003_soukouka 0.5]
+[textcolor ARUJI]
+備前握著我的手
+我走進最裡面的包廂，鎖上了門。/
+[serif off]
+？為什麼是私人房間？ ？/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊？你有什麼驚訝的？
+並不是說這很正常！[face A 06]/
+[face A 00]
+[flow]
+我們都是男人。
+想在自己的私人房間裡做點有趣的事嗎？/
+[serif off]
+？我不知道我會不會！ ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+[say A]
+我會做的。我們來試試吧。
+看，將軍正坐在馬桶座上。哦，是的。[move A Y 50 0.5][se cloth_01][shakebg]/
+[face A 14]
+[flow]
+……那麼將軍您首先想做什麼？/
+[serif off]
+？然後...告訴我有關備前的事/
+[face A 00]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+那我呢？最好的方法就是親自讓他們知道...
+好吧，讓我自我介紹一下。/
+[face A 01]
+[flow]
+我是吉比國尼的長子。
+備中、備後、美作是我的弟弟。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 09]
+[flow]
+不過，我認為他們正在盡力而為。
+我當然是最強、最華麗、最酷的！/
+[face A 01]
+[flow]
+他的劍技在兄弟之中，不，甚至在地魂少年之中。
+我想沒有人可以接近我。/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 11]
+[flow]
+因為我真的很刺眼。[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+雙手叉腰站立
+備前自豪地微笑。距離很近。/
+[say A]
+[effect off a]
+[face A 09]
+嗯，它可能看起來很小，但是
+無論如何，我是長子。/
+[effect fr love a 0 0]
+[se kira_01]
+[face A 10]
+[flow]
+不，不，不…
+我在很多方面都是成年人了，對吧？/
+[talkend]
+[se cloth_01]
+[effect off a]
+[textcolor ARUJI]
+[shake A]
+說話間，備前正在一間小包房裡。
+他靠得如此之近，以至於他們的肚子幾乎要碰在一起了。/
+[flow]
+[textcolor ARUJI]
+[shakebg]
+[se goto_01]
+我本能地想要向後退，但是
+我的背部剛好碰到了馬桶座圈上的水箱。/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[delay 0.5 shake A]
+[se cloth_06]
+[autotap]/
+[bgm departure]
+[face A 14]
+[say A]
+嘿，將軍。/
+[move A Y 600 2]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+備前在我張開的雙腿之間
+他把一隻腳伸了進去，身體向前傾。/
+[textcolor ARUJI]
+[flow]
+備前的純白襪子，豐滿
+小牛.../
+[textcolor ARUJI]
+[flow]
+而且，它在我彎曲的膝蓋深處，從我的短褲中伸出。
+我可以看到她豐滿的大腿。/
+[textcolor ARUJI]
+[flow]
+從那些光滑的腳上
+它的威力如此之大，你幾乎可以感覺到自己的體溫。/
+[face A 10]
+[move A Y -600 0.5]
+[say A]
+口頭介紹就夠了，對吧？
+從今以後，我要向將軍講述我的事。/
+[scale A 3 5]
+[move A Y -200 5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+在無法逃脫的私人房間裡
+備前 距離漸漸拉近——…/
+[serif off]
+？哇！/
+[bgm off]
+[hide A]
+[serif on]
+@夏人的聲音
+*P君？你還好嗎？
+我聽到一個聲音.../
+[talkend]
+[textcolor ARUJI]
+包廂外傳來夏人的聲音。/
+[show A]
+[face A 03]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+嘿，你找到了嗎？
+贊南。/
+[face A 12]
+[bgm fun]
+[flow]
+沒什麼。
+那麼，就正常帶他出去吧。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[se cloth_01]
+備前慢慢地拉上褲子的拉鍊。
+開始光柵。/
+[serif off]
+？請使用小便器！ ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 13]
+[serif on]
+[say A]
+呃……我明白了。/
+[hide A]
+[talkend]
+[se door_01]
+[minibg kawaya_day 0.5]
+[textcolor ARUJI]
+備前無奈地開啟了包廂。
+兩人並肩站在小便鬥前解手。
+[se pee_01]
+[delay 0.3 se pee_01]/
+[flow]
+[bg rouka_day 0.5]
+[minibg off 0.5]
+[textcolor ARUJI]
+帶著一臉困惑的夏人前往指揮室。
+路上.../
+[show A]
+[say A]
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+那麼，將軍，我就走了。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 10]
+[flow]
+如果你想再做一次，就給我喊吧！
+這次我們一定要堅持到最後！　/
+[face A 06]
+呵呵呵呵,[shake A]再見！/
+[move A X 600 0.5]
+[show B L]
+[face B 17]
+[hide A]
+[se walk_03]
+好吧，直到最後…*P君
+果然……！ ！ ！[shake B]/
+[serif off]
+?…………/
+[fadein BLACK 2.0]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+之後解釋一切
+我很高興夏人的誤會得到了解決，但是…/
+[textcolor ARUJI]
+據說是吉備國的長子
+看起來還蠻調皮的…/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>101/
+[set A s_biz_r 備前]
+[set B s_n002_r 猪森]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[bg mbg_syouen]
+[minibg ima]
+[-]
+[title 絆 備前のスキンシップ]
+[-]
+[bgm home]
+[fadeout 2]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+吃完飯，我看著走廊上掛著的磁磚。
+我只是看了一下而已。/
+[textcolor ARUJI]
+[flow]
+每日公告均釋出於此。
+其中一個引起了我的注意。/
+[textcolor ARUJI]
+[se taiko_02]
+「備前-kun。別太揉屁股了。」/
+[serif off]
+?？？？/
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[se cloth_01]
+[bgm fun]
+噢，將軍！　嘿！　
+看起來你今天也表現得很好。嗯，擦起來的感覺真好。/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+備前站在我身邊時毫不猶豫
+我伸手抓住她的屁股，開始按摩。/
+[serif off]
+？啊，我明白了.../
+[show A]
+[face A 05]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[shake A]
+[se zukkoke_02]
+[serif on]
+哇，多麼意想不到的反應！
+當我的屁股被摩擦時，我感覺“啊，我明白了！” ？/
+[face A 09]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊，連將軍都被蹭的感覺真好。
+這是否意味著你已經注意到了？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+那樣的話我也會更調皮的…/
+[serif off]
+?指向海報/
+[move A X -200 0.5]
+[face A 03]
+[say A]
+[serif on]
+[bgm departure]
+啊？什麼？[shake A]
+……是啊！ ！ ？[face A 05]　這張海報是什麼？ ！/
+[talkend]
+[textcolor ARUJI]
+備前看到海報後震驚了。/
+[move A X 200 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[say A]
+罵我的名字太可怕了……嗅嗅。
+就好像我是個變態一樣…/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 13]
+大家都看到了這張海報，我...
+我該擺出什麼樣的表情/
+[face A 14]
+[bgm off]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嗯，但如果他們認為你是個變態的話。
+這是否意味著您可以隨意觸控它......？/
+[serif off]
+？這就是重點。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 13]
+[say A]
+[serif on]
+[bgm fun]
+呃？　/
+[face A 03]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嘿嘿，你不這麼揉屁股嗎？
+我想這絕對是我的想像。/
+[hide A]
+[waku on 0.5]
+[talkend]
+[textcolor ARUJI]
+回想起來，備前 被用作問候語。
+他摸我的屁股。/
+[flow]
+[textcolor ARUJI]
+有時他輕輕地碰我，有時他撫摸我。
+有時他們會擠壓它，擠壓它。/
+[serif off]
+[waku off 0.5]
+？我不認為這是我的想像.../
+[show A]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+好吧，說真的！ ？[se zukkoke_02]
+我自己都沒意識到.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 13]
+……我明白了。那我就不再揉你的屁股了。
+……雖然很可惜，但我卻無能為力…/
+[face A 04]
+[flow]
+這是我自己的溝通方式......
+如果被禁的話我就放棄了/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+備前悲傷地低下頭。/
+[show A]
+[face A 14]
+[say A]
+相反.../
+[scale A 1.6 0.3]
+[move A X 400 0.3]
+[move A Y -120 0.3]
+[hide A]
+[se cloth_06]
+[talkend]
+[textcolor ARUJI]
+備前從背後抱住。
+我將雙手放在雙胸上。[shakebg][se cloth_01]/
+[serif off]
+？ 備前？/
+[show A R]
+[face A 09]
+[scale A 2]
+[move A Y -220]
+[say A]
+[serif on]
+[bgm departure]
+當然，別碰我的屁股！[shake A]
+所以我就滿足於我的胸部！媽媽媽媽！[shake A]/
+[flow]
+[face A 10]
+畢竟，它只說“沒有屁股”！
+如果是胸部就好了。/
+[face A 09]
+一扇新的大門也可能為將軍開啟！
+看，看。[shake A]/
+[hide A]
+[serif off]
+？這裡！/
+[bgm off]
+[show A]
+[face A 05]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+將軍，怎麼了，你這麼生氣嗎…[face A 06]/
+[bgm fun]
+[face A 14]
+你還好嗎？
+按摩乳房嗎？/
+[serif off]
+?…………/
+[scale A 1.0 0.5]
+[move A Y 120 0.5]
+[face A 13]
+[say A]
+[serif on]
+它是什麼？大家都擔心太多了。
+好像不會減少。/
+[flow]
+[face A 06]
+這個莊園……還有人在做著更危險的事。
+看起來有很多。/
+[face A 03]
+因為我因我的眩光而引人注目，
+受到這樣的警告是不公平的！ ？/
+[serif off]
+？我想是這樣.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[say A]
+[serif on]
+啊啊。無論如何，下次，“別按摩我的乳房。”
+甚至還有一張海報這麼說。很痛苦。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 09]
+如果發生這種情況，我可能只能滿足於將軍。
+我猜這是一隻手。媽媽媽媽媽媽~。/
+[serif off]
+？ 「多餘」的部分不是問題嗎？/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 11]
+[say A]
+[serif on]
+過度意味著浮華，對嗎？
+耀眼和浮華是最適合我的！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[effect off a]
+只是和我的朋友有親密關係
+但我想知道。/
+[face A 03]
+那麼，到什麼程度呢？
+沒關係！ ？/
+[hide A]
+[serif off]
+?先檢查較輕的部件。/
+[show A]
+[bgm dungeon]
+[face A 08]
+[say A]
+[serif on]
+光...[shake A]例如，在任務戰鬥結束後，
+他拍拍我的肩膀，好像在說我累了。/
+[serif off]
+？沒關係/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+[say A]
+[serif on]
+然後當你睡覺時，蒲團就在你旁邊。
+我會用手臂摟住你，撫摸你的臉頰。/
+[serif off]
+？就這樣吧……？/
+[face A 09]
+[say A]
+[serif on]
+洗澡的時候、清洗身體的時候
+他們到處互相觸控。/
+[serif off]
+[bgm off]
+？我不會！ ？/
+[bgm fun]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+哈！ ？[shake A]　突然你就out了！ ？
+一般不嚴格！ ？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 13]
+還有大約 3 到 4 個即將到來。
+我正想問.../
+[face A 05]
+哇！ ？[shake A]　將軍待我如同不懂人心。
+我看著你就像看著一個怪物...[face A 04][shake A]/
+[serif off]
+？為什麼不只在特殊場合才會這樣做呢？/
+[face A 08]
+[say A]
+[serif on]
+在特殊場合......也就是說，當你想要觸控時
+只有當你真正興奮的時候！ ？[shake A][face A 05]/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+平常想不碰他都很難…
+將軍這麼說，我就明白了……我就忍了！[face A 08]/
+[face A 02]
+從現在開始，只在特殊場合
+我要擦你的屁股！/
+[hide A]
+[serif off]
+？我想知道這是否會發生......？/
+[bg rouka_day 0.5]
+[minibg off 0.5]
+[show B C]
+[face B 01]
+[say B]
+[-]
+[serif on]
+啊，*P君。也許只是一點點。
+有件事我想確認一下.../
+[show A R]
+[move A X 200]
+[move A X -250 0.5]
+[face A 01]
+[se cloth_06]
+[face B 05]
+[say A]
+[orderline A B]
+哇哦，$B:A！早上幹得好！　
+好好睡覺。按摩。
+[shake B]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+[face B 10]
+[say B]
+[shake B]
+哇，備前-君。
+哦，別揉肚子了。[shake B 3 10 10]/
+[face A 09]
+[say A]
+呵呵，再來一次吧！
+再見！/
+[talkend]
+[move A X -500 0.5]
+[hide A]
+[face B 06]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+[say B]
+我想知道現在怎麼樣了...
+我想知道這是什麼樣的宣告.../
+[hide B]
+[talkend]
+[textcolor ARUJI]
+我覺得我以某種方式接受了錯誤的建議。
+我決定去看看情況。/
+[fadein BLACK 2.0]
+[autotap]/
+[textcolor ARUJI]
+過了一會兒，備前的通知
+它不再出版。/
+[textcolor ARUJI]
+[flow]
+我可能已經到了邊緣。
+我想……我就是這麼想的。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>201/
+[set A s_biz_r 備前]
+[set B s_n000_r 猫乃屋]
+[set C s_n001_r 夏人]
+[set D s_n005_r りく]
+[set J s_n004_r 百太]
+[randomset E r @地魂男児 @あやかし -biz -@NOW]
+[randomset F r @地魂男児 @あやかし -biz -@NOW]
+[randomset G r @地魂男児 @あやかし -biz -@NOW]
+[randomset H b @地魂男児 @あやかし -biz -@NOW]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 備前の秘密のパーティー]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[autotap]/
+[serif off]
+？這裡？/
+[serif off]
+[fadein WHITE 0.2]
+[-]
+[bg gozasyo_day]
+[waku on]
+[-]
+[delay 0.2 fadeout 0.3]
+[serif on]
+[se paper_01]
+[textcolor ARUJI]
+那天，一份『邀請函』到達了王宮。
+寄件者是備前。/
+[textcolor ARUJI]
+舉辦一場秘密巧克力派對
+據說，已經邀請了好幾個人了。/
+[serif off]
+[fadein WHITE 0.2]
+[-]
+[bg rouka_day]
+[waku off]
+[-]
+[delay 0.2 fadeout 0.3]
+[serif on]
+[textcolor ARUJI]
+當我沿著走廊走時，低沉的低音穿過地板震動。/
+[textcolor ARUJI]
+拉門上有一個「巧克力派對場地」。
+已張貼招牌。/
+[serif off]
+?開啟拉門/
+[textcolor ARUJI]
+[bg heya_light 0.5]
+[se fusuma_01]
+[bgm off]
+[-]
+[serif on 0.5]
+當我開啟拉門時，首先映入眼簾的是
+一個巨大的巧克力噴泉。還有.../
+[show A C]
+[face A 02]
+[bgm fun]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+嘿嘿！大家動作要敏捷一點！
+嘿嘿！[shake A]/
+[hide A]
+[-]
+[show E]
+[show F]
+[show G]
+[setline E F G]
+[face E 06]
+[face F 01]
+[face G 04]
+[talkend]
+[textcolor ARUJI]
+許多地球靈魂男孩和ayakashi
+她拿著一把毛茸茸的扇子跳舞。/
+[hideall]
+[-]
+[show B C]
+[show C]
+[setline B C]
+[orderline C B]
+[face B 01]
+[say B]
+[face C 12]
+你不累嗎？/
+[move C Y -10 0.2]
+[delay 0.2 move C Y 10 0.2]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.2]
+[autotap]/
+[face C 09]
+[say C]
+嘿嘿...
+貓咪屋小姐的舞蹈能力真是令人驚訝…/
+[move B X -50 0.1]
+[delay 0.1 move B X 100 0.2]
+[delay 0.3 move B X -100 0.2]
+[delay 0.5 move B X 50 0.1]
+[autotap]/
+[face B 02]
+[say B]
+當然有。瞧，瞧！/
+[hide B]
+[hide C]
+[-]
+[show A C]
+[move A X -400]
+[move A X 400 0.5]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[se cloth_01]
+[say A]
+現在，讓我們變得更華麗！激烈的！
+搖動你的臀部！我們開始做吧！ ！/
+[serif off]
+[hide A]
+?拉緊拉門/
+[se fusuma_02]
+[bg rouka_day 0.5]
+[-]
+[wait 1]
+[bg heya_light 0.2]
+[se fusuma_03]
+[show A]
+[face A 11]
+[shakebg]
+[se fusuma_02]
+[scale A 1.6 0.4]
+[move A Y -120 0.4]
+[autotap]/
+[say A]
+[serif on]
+將軍！我一直在等待！
+進來吧，進來吧！/
+[talkend]
+[hide A]
+[se cloth_01]
+[textcolor ARUJI]
+備前牽著我的手
+邀請他進房間。/
+[show B C]
+[show C]
+[face B 01]
+[setline B C]
+[orderline C B]
+[say B]
+[face C 04]
+哦，小學生。你來了嗎？
+這真的很令人興奮。/
+[move C Y -10 0.2]
+[delay 0.2 move C Y 10 0.2]
+[delay 0.4 move C Y -10 0.2]
+[delay 0.6 move C Y 10 0.2]
+[autotap]/
+[say C]
+[face C 12]
+嘆息……嘆息……我確定
+泡沫時代也曾發生過這樣的事嗎？/
+[face C 04]
+[flow]
+但為什麼要讓我跳舞...
+我不知道，但是.../
+[show D L]
+[move D X -400]
+[setline 0.5 D B C]
+[face D 01]
+[say D]
+太棒了！好玩~！ ！
+小陳！是這樣的！ ？/
+[face B 02]
+[say B]
+哦。裡庫比那更好
+你跳舞跳得很好！/
+[hide B]
+[hide C]
+[hide D]
+[-]
+[show A]
+[face A 12]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+什麼是現代舞音樂？
+非常好，我喜歡它！/
+[talkend]
+[hide A]
+[se gaya_01]
+[textcolor ARUJI]
+房間裡充滿了甜美的巧克力香味和歡快的音樂。
+我感覺自己被一種獨特的熱氣包圍著。/
+[show A]
+[face A 01]
+[say A]
+大家！謝謝您今天的到來！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[flow]
+將軍到了，重頭戲來了
+讓我們開始吧！開火！/
+[talkend]
+[hide A]
+[light def 0.5]
+[lightcolor orange]
+[textcolor ARUJI]
+[se rokuhara_05]
+備前操作手邊的遙控器。
+房間四面八方放置的爐灶開始升溫。/
+[show C R]
+[bgm comical]
+[face C 17]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[say C]
+哈！ ？[shake C]　爐子！ ？
+我已經跳得滿頭大汗了！ ？/
+[show A]
+[face A 09]
+[say A]
+因為天熱的時候比較刺激。
+每個人都應該盡可能脫掉衣服！/
+[hide C]
+[serif off]
+？和桃田一樣的想法…/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+[serif on]
+是的。畢竟這是桃田的主意。
+有人向我尋求建議。/
+[show J R]
+[setline 0.5 A J]
+[face J 02]
+[say J]
+這可是先進的技術啊！/
+[hide J]
+[move A C 0.5]
+[-]
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[effect fr syutyu a 0 0]
+[se taiko_02]
+[say A]
+所以，今天是巧克力裸體節！ ！[se taiko_01]/
+[talkend]
+[hide A]
+[se gaya_01]
+[textcolor ARUJI]
+噢噢！ ！一陣歡呼起來。[shakebg]/
+[effect off a]
+[show F R]
+[show A C]
+[move A X -300]
+[move A X 300 0.4]
+[face A 01]
+[face F 06]
+[say A]
+[orderline A H F]
+$F:A，看起來好熱！不要退縮！/
+[show H L]
+[face H 06]
+[move H X -500]
+[moveline H A F 500 0 0.5]
+[face A 02]
+[move A X -350 0.5]
+[se cloth_06]
+[orderline A H F]
+[flow]
+哇哦，$H:A、
+脫了很多衣服！[shake A]/
+[face A 14]
+[hide F]
+[hide H]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+你看，將軍也來了！/
+[serif off]
+？跳舞/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 11]
+[effect fr kira a 0 0]
+[se kira_01]
+[say A]
+[serif on]
+偉大的將軍！這舞跳得真好啊！
+嘿嘿嘿，多了！/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+或許是因為這個空間太熱了，我感到頭暈目眩。
+也許正因為如此，我才奇怪地不尷尬。/
+[textcolor ARUJI]
+揮舞扇子跳舞是相當困難的。
+甚至還很有趣。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[effect off a]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[say A]
+[bgm departure]
+[-]
+[serif on]
+哈哈……哈哈……好吧！
+接下來是巧克力浸泡時間！/
+[face A 09]
+[flow]
+每個人都穿著輕便的衣服和巧克力。
+讓我們把它塗在你的皮膚上吧！/
+[show C C]
+[show B]
+[setline B C 600 1100]
+[orerline A C B]
+[face B 05]
+[face C 05]
+[say C]
+哈！ ？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[hide B]
+[hide C]
+[face A 01]
+[say A]
+看，你可以用這把刷子製作一個巧克力噴泉。
+擦掉巧克力.../
+[face A 02]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[flow]
+就像人體彩繪或帶有翅膀的墨水。
+讓我們把它畫在你的身上吧！[se picha_02]/
+[face A 01]
+[flow]
+畢竟這是一個裸體的節慶。
+大家應該一起享受吃巧克力的樂趣！/
+[serif off]
+？這太過分了吧！ ？/
+[talkend]
+[textcolor ARUJI]
+[hide A]
+[se gaya_01]
+[serif on]
+整個會場瀰漫著一種困惑的氣氛。/
+[show A]
+[face A 13]
+[say A]
+為什麼大家都這麼尷尬…
+那我就給你看一個樣本！這樣——[face A 08]/
+[talkend]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se picha_01]
+[textcolor ARUJI]
+[face A 14]
+備前熟練地用刷子舀出巧克力。/
+[face A 09]
+[say A]
+好吧，那就把這塊巧克力放進我肚子裡吧…
+呵呵，雖然有點癢，但……怎麼辦！ ？[shake A]/
+[hide A]
+[-]
+[bgm off]
+[show B C]
+[face B 05]
+[say B]
+啊，那很危險！/
+[talkend]
+[hideall]
+[se doka_01]
+[textcolor ARUJI]
+備前一轉身，就有一個巧克力噴泉。
+震動很大。/
+[show A]
+[face A 05]
+[say A]
+[scale A 1.6]
+[move A Y -70]
+[effect fr syutyu a 0 0]
+[quake 1]
+[rotate A 30]
+哇！/
+[hide A]
+[effect off a]
+[quake off]
+[talkend]
+[textcolor ARUJI]
+[se crash_01]
+[shakebg]
+[se zukkoke_01]
+[delay 0.3 se crash_02]
+[serif off]
+[wait 1.5]
+[-]
+[autotap]/
+[show B C]
+[face B 10]
+[show C]
+[face C 05]
+[setline B C]
+[say B]
+[bgm fun]
+[serif on]
+嘿，你還好嗎！ ？
+嗯，就是這個…/
+[face C 09]
+[say C]
+哇，停止音樂！[shake C]/
+[hideall]
+[se gaya_01]
+[talkend]
+[textcolor ARUJI]
+備前迅速抓住了即將倒下的巧克力噴泉。
+雖然我支援他，但巧克力還是撒得到處都是。/
+[show A]
+[face A 05]
+[textcolor ARUJI]
+而備前本人也用巧克力矇住了頭。
+他的全身都沾滿了巧克力。/
+[show B R]
+[face B 10]
+[say B]
+在它倒下之前你能把它扶起來真是太棒了！
+但我最終灑了很多巧克力....../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[say A]
+我做到了……啊……我做到了……/
+[serif off]
+？我們先把它清理乾淨。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[say A]
+[serif on]
+抱歉.../
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm off]
+[bg rouka_night]
+[se bath_02]
+[lightcolor blue]
+[-]
+[wait 4]
+[se bath_03]
+[-]
+[fadeout 1.5]
+[-]
+[se amb_05]
+[autotap]/
+[textcolor ARUJI]
+[serif on]
+[talkend]
+清理完畢後，隊伍解散。
+洗完澡，神清氣爽，我沿著走廊走去…/
+[serif off]
+？那是……備前？/
+[textcolor ARUJI]
+[bgm night]
+[serif on]
+備前坐在門廊上仰望月亮。/
+[show A C]
+[face A 04]
+[say A]
+啊……將軍。/
+[talkend]
+[textcolor ARUJI]
+當我走近時，備前看起來一反常態地沮喪。
+從他的表情來看，他似乎有點淚流滿面。/
+[hide A]
+[serif off]
+?坐在我旁邊/
+[show A]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+將軍……對不起。
+我……我為今天做了很多準備。/
+[face A 04]
+[flow]
+音樂裝置、巧克力噴泉等
+我和Riku還有桃田聊過…/
+[talkend]
+[textcolor ARUJI]
+備前 說話時抱著膝蓋。/
+[face A 13]
+[say A]
+但是……就這樣，中途取消了。
+——這也浪費了巧克力…/
+[serif off]
+？結局令人失望。/
+[face A 04]
+[say A]
+[serif on]
+是啊.../
+[hide A]
+[talkend]
+[textcolor ARUJI]
+噴泉裡剩下的所有巧克力
+顯然他們分發給六原員工並吃了。/
+[textcolor ARUJI]
+[flow]
+我摔倒的時候有很多巧克力。
+看來是溢位來了/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 13]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+唉……我想讓將軍玩得開心。
+這就是聚會的目的。/
+[serif off]
+？很有趣/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+哦，真的嗎？/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+至少像泡沫時代
+我相信我非常享受這種非凡的感覺。/
+[serif off]
+?備前的頭被輕輕撫摸。/
+[se cloth_01]
+[textcolor ARUJI]
+[se cloth_01]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[serif on]
+我輕輕地將手放在備前的頭上，撫摸著。
+備前尷尬地低下了眼睛。[shake A]/
+[face A 02]
+[say A]
+呵呵……將軍的手好溫暖。/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+備前的頭髮可能是因為她洗澡了。
+沒有像平常一樣設定/
+[flow]
+[textcolor ARUJI]
+現在它變得柔軟、濕潤、滴水。/
+[face A 13]
+[say A]
+一般.../
+[talkend]
+[textcolor ARUJI]
+[hide A]
+[se cloth_01]
+備前把她的屁股滑到這裡。
+我們的皮膚緊緊地貼在一起。/
+[show A]
+[scale A 2]
+[move A Y -220]
+[face A 06]
+[effect fr yuge a 0 0]
+[textcolor ARUJI]
+來自備前洗澡後的身體
+輕微的蒸氣升起。/
+[flow]
+[textcolor ARUJI]
+還是有一點巧克力的香味
+我感覺我正在漸行漸遠。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 12]
+[se cloth_01]
+[textcolor ARUJI]
+備前看著我，
+我把臉靠近它，就像一隻貓用鼻子蹭我的手。/
+[face A 06]
+[say A]
+我很高興將軍對我這麼好。
+呵呵，謝謝你.../
+[face A 13]
+[flow]
+……事實上，聚會的感覺很不一樣。
+我想要。/
+[face A 12]
+[flow]
+歡樂、活潑、又甜蜜的氣氛…
+那麼，事情似乎就會朝好的方向發展…/
+[serif off]
+?正如三劍客所料。你的理想很高。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[say A]
+[serif on]
+……對吧？如果是這樣的氣氛的話
+我想知道我是否也可以自然地將這個送給她....../
+[talkend]
+[hide A]
+[se cloth_01]
+[textcolor ARUJI]
+話雖如此，備前 堅持了
+閃閃發光的金色心形巧克力。/
+[flow]
+[textcolor ARUJI]
+月光下卻出乎意料
+看起來像是平靜的光芒。/
+[serif off]
+？謝謝。 備前好像是這樣。/
+[show A]
+[scale A 2]
+[move A Y -220]
+[face A 02]
+[effect fr kira b 0 0]
+[se kira_01]
+[say A]
+[serif on]
+呵呵，我猜是這樣的！
+眩光是我的典型特徵，對嗎？呵呵呵。/
+[talkend]
+[textcolor ARUJI]
+吹來的夜風應該是冷的，但是
+站在門廊上的兩人之間的距離，卻出奇地溫暖。/
+[face A 14]
+[effect off b]
+[say A]
+……下次還想再辦一次復仇派對。
+這一次，氣氛會很甜蜜。/
+[serif off]
+?請注意巧克力繪畫節。/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[say A]
+[serif on]
+哈哈，我明白了！下次我會穿得更時尚
+我會想出一個大家都可以享受的「脫衣服專案」！/
+[face A 01]
+[flow]
+將軍，請再次加入我們！/
+[talkend]
+[textcolor ARUJI]
+備前臉上又恢復了平常無憂無慮的笑容。/
+[textcolor ARUJI]
+[hide A]
+[se cloth_01]
+備前 從金鼠兔包裝取出的巧克力
+它的質地鬆脆，味道鮮美。/
+[bg sky_star 0.5]
+[textcolor ARUJI]
+[flow]
+我確信未來將會有很多樂趣和興奮。
+我猜他會被捲入其中。/
+[textcolor ARUJI]
+[flow]
+備前天真又調皮的笑容
+從旁邊看的時候也是這麼想的。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

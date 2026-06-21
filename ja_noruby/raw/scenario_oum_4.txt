@@ -1,0 +1,1702 @@
+>>10000/
+@近江
+ワイが東山道の近江や。[autotap]/
+[delay 1.7]
+[flow]
+[-]
+@近江
+ほな、ここらで一財産築かせてもらいまっせ！/
+>>10001/
+@近江
+坊、毎度ご贔屓に！[autotap]/
+[delay 1.7]
+[flow]
+[-]
+@近江
+顧問料はまけられんが、おまけはつけたるで？/
+>>1/
+[set A s_oum_r 近江]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+琵琶湖はほんまごっつデカイでぇ！
+一見、海にしか見えんもんな！/
+[face A 02]
+[flow]
+しかも、海と違うて泳いでもベタベタせんのや。
+松原のキレイな浜辺もあるで！/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 09]
+[flow]
+[effect fr kira 4000 0 0]
+[se kira_01]
+のぅ坊、この夏は湖水浴行こか！/
+>>2/
+[set A s_oum_r 近江]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+[flow]
+ワイの目にかなった場所？　そりゃ彦根城やな！[shake A][face A 02]
+見た目も造りもほんま一級品やで！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 06]
+[flow]
+さすがのワイも中に入ると少し背筋が伸びるがな。
+天守からの眺めもええで！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[flow]
+街や琵琶湖の雄大な景色……
+坊にも見せてやりたいわぁ！/
+>>3/
+[set A s_oum_r 近江]
+[show A C]
+[effect fr kira 4000 0 0]
+[se kira_01]
+[face A 09]
+[serif on]
+[say A]
+いやぁ～、近江牛の美味さは半端ないでぇ、坊。/
+[face A 01]
+[flow]
+なんせ、「大老の首が飛ぶほど美味い牛」なんて
+言われとるくらいや！/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+[face A 05]
+[flow]
+なんや？　そんな目で見ても奢りはせんで！？
+自分でしっかり稼ぎなはれ！！[shake A]/
+>>4/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[randomset C r -oum -@NOW]
+[show A C]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+さてさて……今朝も早うから市場で仕入れてきた
+商品たち、軒先で販売させてもらおうかいなぁ♪/
+[show B R]
+[show C L]
+[move B X 300]
+[move C X -300]
+[move B X -150 0.5]
+[move C X 150 0.5]
+[scale A 1.3 0.5]
+[scale B 1.3 0.5]
+[scale C 1.3 0.5]
+[moveline A B C 0 -120 0.5]
+[face A 09]
+[face B 00]
+[face C 01]
+[autotap]/
+[orderline B C A]
+[flow]
+[say A]
+はいはい、近江の移動販売の時間やでぇ！/
+[face A 02]
+[face B 02]
+[face C 05]
+[shake C]
+[effect fr syutyu a 0 0]
+[se taiko_01]
+[flow]
+[= 部屋で食べられる美味しいおやつ十選！ 漫画やラノベ、現代の文化が学べる書籍たち！ 古今東西集めた便利道具や裏技集！ ちょっとむふふな道具！　一人でもお友達とでも！ お小遣いを投資にまわしてどかんと一儲け！ 居間のプレーヤーで観れる映画やアニメの円盤！ 酒にタバコ、数々の嗜好品！　取り寄せもできる！]
+[= さーさよってらっしゃい見てらっしゃい！ ポイントニ倍デーやでぇ！ 秘密のおまけもつけたるでぇ！ お得意様には裏メニューもありまっせぇ！]/
+[move C XY 10 -40 0.4]
+[rotate C -10 0.3]
+[delay 0.4 move C XY -10 40 0.3]
+[delay 0.5 rotate C 0 0.3]
+[delay 0.3 move B XY -10 -40 0.4]
+[delay 0.3 rotate B 10 0.3]
+[delay 0.7 move B XY 10 40 0.3]
+[delay 0.8 rotate B 0 0.3]
+[autotap]/
+[face A 05]
+[face B 01]
+[face C 04]
+[se taiko_02]
+[flow]
+期間限定！
+正確には坊や夏人はんにバレるまでや！！/
+>>5/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[randomset C r -oum -@NOW]
+[show C R]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[face C 00]
+[setline B A]
+[moveline B A -600 0 0]
+[move C X 300]
+[move C X -300 0.5]
+[-]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+[face C 05]
+[-]
+[moveline B A C 600 0 1]
+[-]
+[serif on]
+[say A]
+ほな、$B:A、約束やで。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[-]
+[move B X -600 0.5]
+[hide B]
+[-]
+[setline 0.8 A C]
+[-]
+[face C 00]
+[face A 01]
+[flow]
+……おぉ$C:Aやないか。/
+[hide B]
+[face A 09]
+[face C 01]
+[flow]
+ん？　なんの話しとったかって？/
+[face A 06]
+[face C 04]
+[flow]
+それはさすがの$C:Aでも言われんがな。
+これは男と男の約束やからなぁ！/
+>>6/
+[set A s_oum_r 近江]
+[show A C]
+[face A 08]
+[serif on]
+[say A]
+[move A X 200 0.5]
+[flow]
+ふーむ、ふむふむ。畳に壁……そして柱。
+この荘園の装飾、中々のモンやなぁ。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+[flow]
+ひぃ、ふぅ、みぃ……
+こんくらいの値打ちはありそうやな。/
+[move A X -200 0.2]
+[face A 06]
+[flow]
+あっちのもええ出来やなぁ。
+いったい誰が仕入れたんや？/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[show A C]
+[face A 02]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[say A]
+[flow]
+ぷはー！　食った食った。
+ちぃと休憩～！/
+[rotate A -60 0.5]
+[move A XY 150 -60 0.5]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+[face A 06]
+[flow]
+もうしばらく動かれへんでこれはー。
+げぷー！[shake A]/
+>>10/
+[set A s_oum_r 近江]
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+はぁ……今日は失敗してもたなー。
+もっと多く仕入れとくべきやったか。/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+まぁ、しゃーないわ！
+これやから商売は面白いんや！/
+[face A 08]
+[flow]
+[effect fr syutyu a 0 0]
+明日はもっと攻めたるでぇ！！/
+>>11/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[randomset C r -oum -@NOW]
+[show A C]
+[show B R]
+[move B X 300]
+[setline 0.5]
+[face A 01]
+[face B 03]
+[-]
+[serif on]
+[say A]
+よぉ、$B:A！　なんか用でっか？
+……なんやその目は？[face A 08]/
+[face A 05]
+[flow]
+………………[shake A]
+すんまへん……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 04]
+[face B 04]
+[flow]
+$C:Aにちょーっぴり高く売りつけた分の差額は、
+きちーっとお返ししますわ。/
+[face A 05]
+[face B 03]
+[shake A]
+[flow]
+ああ！　[move A X -100 0.1]そんな目ぇで見つめんといてーや！
+堪忍してぇなー！[shake A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_oum_r 近江]
+[randomset B r -oum -@地魂男児 -@あやかし -@NPC @ショタ]
+[show A C]
+[show B C]
+[face A 05]
+[face B 00]
+[serif on]
+[say A]
+[setline B A]
+[orderline B A]
+あかんあかん！[shake A][delay 0.2 move A X 150 0.1][face B 05]
+ついおもろいかと思って仕入れてしもたけど、/
+[face A 09]
+[face B 04]
+[flow]
+こりゃ、チビ共にはまだ早いわ……
+ちゃんとしまっとかんと！/
+>>15/
+[set A s_oum_m 近江]
+[show A C]
+[face A 07]
+[serif on]
+[say A]
+力の強さや、技の数で戦う輩もおるが、
+ワイの戦い方は違う。/
+[scale A 1.6 0.2]
+[move A Y -200 0.2]
+[effect bk allow 4000 0 150]
+[face A 08]
+[flow]
+ワイが誰にも負けんのは目ぇの良さやでぇ。
+相手の動きを逃さずよう見て捉える。/
+[face A 03]
+[flow]
+商いで鍛えた目が戦いにも活かせるんや！/
+>>16/
+[set A s_oum_r 近江]
+[randomset B r -oum -@NPC]
+[randomset C r -oum -@地魂男児 -@あやかし]
+[effect fr katanas 4000 0 0]
+[se katana_01]
+[delay 0.3 se katana_03]
+[wait 0.5]
+[-]
+[shakebg]
+[effect fr waveout 2000 0 0]
+[se doka_01]
+[wait 0.3]
+[-]
+[show A R]
+[show B L]
+[move A Y -150]
+[move A Y 150 1]
+[face A 05]
+[face B 08]
+[-]
+[serif on]
+[say A]
+んほぉ！[shake A]　こりゃ敵わんわぁ！
+$B:Aほんまにお強い！[face A 02]/
+[setline 0.5]
+[face A 01]
+[face B 01]
+[flow]
+力と技、共に備わってて言うことなしや！　そんな
+$B:Aにオススメしたいのがコチラの武具！/
+[show C R]
+[move C X 550]
+[face A 09]
+[face B 02]
+[face C 03]
+[move C X -300 1]
+[moveline A B C -100 0 1]
+[autotap]/
+[orderline A B C]
+[flow]
+$B:Aくらいデキる男でなきゃ扱えん代物なんや
+が……って$C:A！？[shake A][face A 05]/
+[moveline A B -200 0 0.5]
+[face A 09]
+[face B 04]
+[face C 04]
+[flow]
+いや、$B:Aと手合わせしとっただけやがな！[shake A][move C X 50 0.5]
+ああーっ$C:A！[face A 05][move A X 200 0.3] 　坊には内緒にしってーな！/
+>>17/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[show A L]
+[show B R]
+[face A 06]
+[face B 00]
+[serif on]
+[say A]
+あー、おほん。[move A X 150 0.5]
+新しい下着ー新品の下着ー勝負下着ー。/
+[move B X -150 0.5]
+[face A 09]
+[face B 01]
+[flow]
+なんでもありまっせー。
+せっかくやから新調してみぃひんかー。/
+>>18/
+[set A s_oum_b 近江]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[effect fr yuge a 0 0]
+[effect fr splash 4000 0 0]
+[move A Y -250 0.5]
+[delay 0.5 move A Y 80 0.4]
+[move A Y -20 0.5]
+[se bath_02]
+[-]
+[serif on]
+[say A]
+ぷっっは～！！！
+ここの風呂は、ほんまええもんですな！/
+[move A Y -100 3]
+[autotap]/
+[face A 06]
+[flow]
+広々とした湯船に香りのいい石鹸、
+心を和ますキレイな景色……/
+[face A 01]
+[flow]
+任務の疲れがスーッととれますわぁ～。/
+[face A 08]
+[shake A]
+[flow]
+……はっ！　閃いたでぇ！
+ここを銭湯にしたら儲かるんやないか……！？/
+>>19/
+[set A s_oum_r 近江]
+[show A C]
+[face A 06]
+[scale A 1.6]
+[effect fr yuge a 0 0]
+[move A Y -150]
+[se bath_01]
+[serif on]
+[say A]
+普段しまってるところも、
+よう洗ってキレイにせんとなぁ！[se bath_03]/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[delay 0.8 move A Y -10 0.2]
+[delay 1 move A Y 10 0.2]
+[autotap]/
+[face A 01]
+[se bath_05]
+[flow]
+ジャ～バジャ～バ～っと♪
+谷間は汚れがたまりがちやからな～。/
+>>20/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 06]
+[-]
+[se pee_01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[say A]
+[flow]
+ふぅー、じょろじょろーっと。
+……そや、[face A 00]後で売店で仕入れの確認せんと。/
+[face A 09]
+[flow]
+$B:Aに頼まれとったブツも届いとる頃合いやなぁ。[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]
+よ……っと。ほな、行こ！[face A 01]/
+[move A X 300 0.5]
+[hide A]
+[autotap]/
+>>21/
+[set A s_oum_r 近江]
+[show A R]
+[se door_01]
+[move A X 800]
+[move A C 0.6]
+[face A 02]
+[serif on]
+[say A]
+はわ～！　間に合うた～！[se pee_01][move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+ふぅ～……[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]ん？[face A 00]　一歩前へ？/
+[effect fr syutyu a 0 0]
+[face A 03]
+[flow]
+一歩前にでたら腹が便器についてまうがな！
+というわけで、下がってやらせてもらいます。[scale A 0.8 0.5][move A Y 50 0.5]/
+>>22/
+[set A s_oum_r 近江]
+[show A C]
+[face A 05]
+[scale A 1.6]
+[move A Y -250]
+[move A Y 100 0.3]
+[delay 0.3 shakebg]
+[-]
+[serif on]
+[say A]
+なんやこれ！？
+こんな所に誰かのへそくりかいな！？/
+[scale A 2 1]
+[move A Y -150 1]
+[autotap]/
+[flow]
+もろうてええんか？
+ワイがもろうてええのんか！？/
+[scale A 1.6 0.2]
+[move A Y 150 0.2]
+[face A 03]
+[flow]
+……いや、ひとのモンとるんは商人失格や。
+くぅぅ[face A 04][shake A]……我慢……我慢。/
+>>23/
+[set A s_oum_r 近江]
+[show A C]
+[face A 01]
+[serif on]
+[scale A 1.6]
+[move A Y -200]
+[say A]
+このうぉしゅれっとのおかげで、
+収納されとるとこまできれ～に洗えるわけや。/
+[face A 02]
+[flow]
+ほんまありがたいでぇ。
+/
+[face A 05]
+[flow]
+[move A Y 80 0.1]
+[delay 0.1 move A Y -80 0.1]
+ンヒィッ！！！！　
+いつもより水、強ない！？[shake A]/
+>>24/
+[set A s_oum_r 近江]
+[randomset B r -oum]
+[show A C]
+[show B C]
+[face A 09]
+[setline A B]
+[orderline B A]
+[face B 01]
+[serif on]
+[say A]
+$B:A、夜のお供にどないやー？
+[= このお香を炊くとええ香りで朝までぐっすりやで！ この抱きまくらで安心安眠！　朝までぐっすりや！ あんさんが好きそうなもん見繕ってきましてん！ 甘いお菓子をたっぷり！　ダイエットは明日から！ 快適素材の下着や！　これ着たら気持ちええで～。 お肌ケア！　保湿成分たっぷりの顔パック！ いい酒と美味しいおつまみや！　気持ちよく呑も！ 様々な音を収録したASMR音源！　通やろ～？][shake A][se taiko_02]/
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[autotap]/
+[face A 01]
+[face B 06]
+[flow]
+ほかにも色々あるが、見てかんせー。/
+>>25/
+[set A s_oum_r 近江]
+[randomset B r -oum -@NPC]
+[show A C]
+[show B C]
+[face A 07]
+[face B 04]
+[rotate A -60]
+[move A XY 100 -100]
+[move B XY -100 -100]
+[rotate B -60]
+[orderline A B]
+[-]
+[move B X -100 1]
+[rotate B 0 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[say A]
+[textsize 40]
+グゴオオーーーォ…………フゴッ……[shake A]
+グギゴゴゴゴオオォォ……/
+[talkend]
+近江のイビキで$Bは眠れないようだ。/
+>>26/
+[set A s_oum_r 近江]
+[randomset B r -oum -@NPC]
+[show A C]
+[move A X -500]
+[show B C]
+[face A 00]
+[face B 07]
+[move B XY -100 -100]
+[rotate B -60]
+[orderline B A]
+[-]
+[move A X 500 1]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[move A Y -100 0.5]
+[-]
+[serif on]
+[say A]
+[face A 01]
+おやまぁ、$B:Aの寝顔のかわええこと。/
+[face A 05]
+[move A Y 200 0.1]
+[delay 0.1 move A Y -100 0.2]
+[flow]
+……っていかんいかん。[move A X -200 0.5][face A 06]
+こういう気持ちは坊のためにとっとかんと！/
+>>27/
+[set A s_oum_r 近江]
+[show A C]
+[face A 00]
+?近江、ハレの日おめでとう！/
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 06]
+[serif on]
+坊！　いやー面と向かって言われると
+照れてまうがな〜！/
+[face A 08]
+……ハレの日選ぶときに商いに関する
+記念日でもええかと思ったんやけど……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+やっぱりワイにとっては「琵琶湖」は捨てられへん！
+このでっかい体も琵琶湖の恵みのおかげでっせ！/
+[face A 01]
+そんなわけでこの日を選ばせてもらった
+ちゅーわけですわ。/
+[face A 00]
+しっかし、坊。
+このハレの日ちゅーのは中々ええ催しですな！/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 01]
+地魂男児の間でも贈り物を贈り合ったりしとるから
+誰かのハレの日になるたんびにワイも儲かるわけや！/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 09]
+坊もどないでっしゃろ。
+地魂男児へのハレの日の贈り物にひとつ……/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+はいまいどあり〜！
+坊に贈り物もらえる地魂男児は幸せもんですな〜。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……へ？　ワイに？/
+[face A 03]
+[effect fr syutyu a 0 0]
+そ、そないな手ぇで籠絡されるほど
+ワイはウブやないでぇ！！[shake A 2 10 10]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[effect off a]
+ほんまに……お、大人をからかうもんやないで！/
+>>100/
+[set A s_oum_r 近江]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 近江の計画]
+[-]
+[bg gozasyo_night]
+[se fusuma_01]
+[fadeout]
+[bgm home]
+[-]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+風呂からあがって、
+御座所に戻ってくると――/
+[flow]
+[textcolor ARUJI]
+机の前にうずくまるように座っている
+大きな背中と小さな2つの翼が目に入った。/
+[serif off]
+?近江？/
+[show A C]
+[move A Y -100]
+[move A Y 100 0.6]
+[face A 00]
+[say A]
+[-]
+[serif on]
+おっ！/
+[flow]
+[face A 02]
+よーやく帰ってきはったわ。
+ごめんやす、坊。/
+[hide A]
+[se paper_01]
+[talkend]
+[textcolor ARUJI]
+近江はいくつかの書類を広げている。/
+[serif off]
+?それは？/
+[show A C]
+[face A 00]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[say A]
+これはこの荘園の金回りに関する
+資料ですわ。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+もちろん、坊の書類を
+勝手に見たわけやない。[face A 08]/
+[face A 07]
+[flow]
+あくまでもワイ独自の見立て……
+ちゅーところや。/
+[face A 01]
+夏人はんや猪森はんにも軽ぅ～く
+聞き取りした感じやけんど～……ほれ。/
+[serif off]
+[scale A 1.6 0.5]
+[move A Y -200 0.5]
+[se paper_01]
+[-]
+[hide A]
+[talkend]
+[autotap]/
+[serif off]
+?金回り……/
+[serif on]
+[textcolor ARUJI]
+手渡された資料を見ると、
+光熱費や食費といった様々な経費が/
+[textcolor ARUJI]
+[se paper_01]
+[flow]
+ロクハラから毎月支給される補助金を
+大きく上回り、大量の赤字を生み出している。/
+[textcolor ARUJI]
+[flow]
+その数字は以前夏人からもらった資料に書いて
+あった数字とほぼ同じ、正確な見立てだった。/
+[show A C]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+は～～もうあきまへんわ。
+赤字も赤字。大赤字やわ。/
+[face A 04]
+[flow]
+このままやとこの荘園、
+半年ももたんかもしれへんで。/
+[scale A 1.6 0.5]
+[move A Y -200 0.5]
+[autotap]/
+[face A 09]
+[flow]
+坊、どないしますん？/
+[talkend]
+[serif off]
+?う……/
+[hide A]
+[textcolor ARUJI]
+[-]
+[serif on]
+予算と赤字については――/
+[textcolor ARUJI]
+[flow]
+会議で何度か議題にもなっていたが、
+毎度解決には至っていなかった。/
+[show A C]
+[face A 08]
+[scale A 1.6]
+[move A Y -150]
+[textcolor ARUJI]
+[flow]
+こちらの心を見透かすような
+真っ直ぐな近江の視線が痛い。/
+[face A 01]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[say A]
+……まぁまぁそんな凹まんといて！
+坊を責めとるワケやないんよ。/
+[face A 09]
+[flow]
+ただ金回りのことならその道の専門家たる
+このワイに任しときぃと。/
+[effect fr syutyu a 0 0]
+[se taiko_02]
+[face A 01]
+[flow]
+今日はその話をしにきたんや！
+ワイにええ計画がありまっせ！/
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+そう言って近江は自分のお腹を
+ポンと叩いた。/
+[serif off]
+?やっぱり、節約？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[say A]
+[serif on]
+そら並の地魂男児が言いそうなことでっせ。/
+[bgm rokuhara]
+[effect fr syutyu a 0 0]
+[face A 03]
+[se taiko_01]
+[flow]
+ワイが教えるんは、攻めの姿勢や！！
+守りに入ったらあかん！/
+[face A 01]
+[flow]
+経費がかかるんはしゃあない。/
+[face A 02]
+[flow]
+[se taiko_01]
+飯食ったり必要な物買ったりはもちろん、
+生きる上で娯楽なんかも必要や！/
+[face A 00]
+[flow]
+何よりこの荘園の地魂男児は数が多い。
+減る分を大きく減らすんは難しい。/
+[effect off a]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[flow]
+ほやけんど、考えてみるんや。/
+[flow]
+数が多い言うことは
+働き手も多いちゅうこっちゃ。/
+[face A 02]
+[flow]
+つまり遊んどったり暇しとる人手を
+使って、売るもん作りだしゃあええんや！/
+[hide A]
+[serif off]
+?作る？/
+[show A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 01]
+ほや！/
+[face A 00]
+地魂男児たちはものづくりが
+得意な連中もようけおる！/
+[face A 01]
+[flow]
+ある意味熟練の職人集団みたいなもんや！
+この才能を活用しない手はない！/
+[face A 09]
+[flow]
+ええもん作って、ええ値段で売る。
+商売の基本や！/
+[face A 01]
+[flow]
+別紙にええ技持った
+地魂男児を一覧にしてあるで！/
+[hide A]
+[se paper_01]
+[talkend]
+[textcolor ARUJI]
+たしかにそれぞれの得意分野で
+モノを作るとなれば――/
+[textcolor ARUJI]
+地魂男児たちも
+喜んで手伝ってくれるに違いない。/
+[textcolor ARUJI]
+それを売って赤字の補填にあてる
+ことができれば――/
+[serif off]
+?いいかもしれない……/
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -200]
+[say A]
+[serif on]
+よし！　そうと決まればワイが
+色々話つけてきますわ！/
+[face A 09]
+[flow]
+ええ値段で売りつけてくるでぇ！
+頑張って黒字目指そうな！　坊！/
+[serif off]
+?黒字目指そう！/
+[bgm off]
+[face A 00]
+[serif on]
+あ、ワイの報酬に関してやけど――/
+[face A 09]
+[bgm fun]
+[flow]
+売上の一部を当ててもらうチュー感じで
+大丈夫やさかい。心配せんとってな～♪/
+[flow]
+[face A 01]
+詳しい取り分なんかは別紙その二に
+書いてあるで！　ほな♪[se paper_01]/
+[serif off]
+[move A X -200 1]
+[se fusuma_02]
+[hide A]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+鼻歌交じりに近江は御座所をあとにした。/
+[flow]
+[textcolor ARUJI]
+近江が良い計画を考えてくれて
+よかったと思ったけど――/
+[textcolor ARUJI]
+[flow]
+なんだかうまく乗せられた気が
+しないでもない。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_oum_r 近江]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 近江と鉄板焼]
+[-]
+[se rokuhara_03]
+[wait 0.5]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_yakiniku]
+[fadeout]
+[bgm home]
+[-]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+今日は近江の誘いでロクハラにある
+「焼き肉処おにく」へとやってきた。/
+@店員
+「いらっしゃいませ。ご予約の近江様ですね。
+　こちらへどうぞ」/
+[textcolor ARUJI]
+店員の案内で奥の個室へと向かう。/
+[show A C]
+[face A 01]
+[say A]
+ほな、坊、そこ座って。
+今日は坊が主役やさかい！/
+[serif off]
+?今日なんか特別な日だっけ？/
+[face A 02]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+何言うてはるんや！
+坊と過ごす毎日が記念日や！！/
+[face A 00]
+[flow]
+坊はワイらの荘園の宝なんやから。/
+[scale A 1.6 0.5]
+[move A Y -200 0.5]
+[autotap]/
+[face A 06]
+今日はな、日頃の疲れを労おう思て、
+この席を用意させてもろたんですわ。/
+[serif off]
+?なんだかわからないけど、ありがとう/
+[hide A]
+[talkend]
+[serif on]
+@板前
+「本日のお肉はこちらになります」/
+[textcolor ARUJI]
+シェフが分厚い肉の塊を持ってきて、見せてきた。
+きれいなサシが入ったいかにも高級そうな肉だ。/
+[show A C]
+[scale A 1.6]
+[move A Y -200]
+[face A 09]
+[say A]
+坊、これワイが手配した、近江牛ですわ。/
+[serif off]
+?近江牛の塊！/
+[face A 00]
+[serif on]
+和牛の中でも長い、400年以上の歴史が
+ありましてな。/
+[face A 06]
+[flow]
+現代では三大和牛のひとつ、
+言われてますわな。/
+[face A 01]
+[flow]
+これから坊には、この近江牛を使った鉄板焼を
+めいっぱい堪能してもらお思とります。/
+[face A 00]
+ほな、板前はん、よろしゅう頼んます。/
+[hide A]
+[talkend]
+@板前
+「かしこまりました」/
+[serif off]
+?楽しみだなぁ/
+[textcolor ARUJI]
+[serif on]
+思わず笑みがこぼれる。/
+[serif off]
+[show A C]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[face A 01]
+[say A]
+[-]
+[serif on]
+……坊がそない笑顔になってくれて
+ワイも嬉しいですわ。/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[flow]
+いやぁ、人が喜ぶことをすると気持ちがええ。
+ワイまで幸せになってまいますわ～！/
+[flow]
+他人の幸せもワイの幸せ！　特に坊には
+たっぷり幸せになってもらいたいですわぁ！/
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -200 0.5]
+さぁ、坊の杯に飲み物を注ぎまひょ！
+ささっ、ささっ！/
+[talkend]
+[textcolor ARUJI]
+なんとも不自然に媚びる近江。/
+[serif off]
+[bgm off]
+[effect off a]
+?……で、本題は？/
+[face A 05]
+[say A]
+[shake A 2 10 10]
+[serif on]
+[bgm fun]
+うほっ！？/
+[scale A 1.0 0.5]
+[move A Y 200 0.5]
+[autotap]/
+[face A 06]
+[flow]
+……さ、さすが坊。
+これが接待やとお見通しでっか……/
+[face A 09]
+いや何、例の地魂男児たちの
+作ったものを販売する話ですわ。/
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[face A 07]
+[flow]
+地魂男児たちに頼んどったもんが
+いくつか出来上がってきましてな。/
+[face A 01]
+[flow]
+これがなかなか質が良いんですわ。
+そのまま普通に売ってもええんですが――/
+[effect fr syutyu a 0 0]
+[se taiko_01]
+[face A 02]
+[flow]
+ここはどーんと、ねっとしょっぷでも開いて
+全国展開してまおかと思いまして。/
+[effect off a]
+[face A 07]
+[flow]
+さすがにその旨、坊には筋通しとく
+べきやろと思ったんですわ。/
+[face A 01]
+[se taiko_02]
+売上があれば荘園も助かるし、こうしてまた
+美味しいもん食べにこれまっせ！/
+[serif off]
+?近江の顔をじっと見つめる/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+[serif on]
+坊……[wait 0.5]「ほんまはただ自分の小遣いが欲しい
+だけやろ？」[wait 0.5]　っちゅー目をしとりますな。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+ほうどすにゃ。
+その通りですわ。/
+[talkend]
+[textcolor ARUJI]
+驚いたことに
+近江は正直に認めた。/
+[scale A 1.6 0.3]
+[move A Y -200 0.3]
+[autotap]/
+[se taiko_02]
+[effect fr syutyu a 0 0]
+[face A 03]
+[say A]
+ほなけんど、近江商人は三方良し！/
+[face A 01]
+[flow]
+[se taiko_01]
+買い手も売り手も作り手も、
+全員が幸せになるのが本物の商いですわ！/
+[face A 08]
+[flow]
+ほやさかいワイはここに宣言しますわ！/
+[face A 08]
+[se taiko_01]
+作り手の地魂男児たちも、買い手の
+お客さんも、売り手のワイも――/
+[face A 03]
+[flow]
+[se taiko_01]
+そして、坊も！/
+[se taiko_02]
+[effect bk waveout 3000 0 0]
+[shakebg]
+全員ワイが幸せにしゃんす！！
+商いのちからで！！/
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+真っ直ぐにこちらを見据える近江。/
+[hide A]
+[textcolor ARUJI]
+近江の言葉に偽りはない。そう感じた。
+ならば……/
+[serif off]
+?よし、幸せにしてもらお/
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+ふふん、坊ならわかってくれる思っとりました。
+ほんなら、乾杯しまひょか！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+その日は最高の近江牛の鉄板焼に
+舌鼓を打ちながら――/
+[textcolor ARUJI]
+近江とは商売以外のことも
+たくさんお喋りしたのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>201/
+[set A s_oum_r 近江]
+[set B s_oum_r 近江]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 近江と買い物に]
+[-]
+[bg mbg_syouen]
+[minibg ima]
+[-]
+[fadeout]
+[-]
+[autotap]/
+[talkend]
+[serif on]
+[bgm home]
+[textcolor ARUJI]
+昼間、外は快晴だが気温は低く、空気の冷たさに
+こたつの中でじっとしていると……/
+[se fusuma_01]
+[show A C]
+[face A 02]
+[say A]
+坊～。ごめんやす～。
+そろそろ色々入用なんちゃいまっか？/
+[talkend]
+[textcolor ARUJI]
+荷車を引いた近江が居間にやってきた。/
+[serif off]
+?なんのこと？　防寒グッズ？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+[say A]
+[serif on]
+そないなもんとちゃいますがな。
+ほんま坊ははぐらかすんが上手なんやから！/
+[face A 09]
+[flow]
+[say A]
+もうすぐばれんたいんやがな。坊のことや。
+色々とお誘いもあるんとちゃいますのん。/
+[talkend]
+[textcolor ARUJI]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -60 0.2]
+[delay 0.7 se dosa_01]
+近江はにやにっと含みのある笑みを浮かべながら
+荷車から荷物をおろした。/
+[move A Y 40 0.5]
+[face A 01]
+[say A]
+みなまで言わんでもわかっとるがな。/
+[face A 06]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[say A]
+ほれ！　夜のお供になりそうなグッズでっせ！/
+[face A 09]
+[effect fr syutyu a 0 0]
+[se taiko_02]
+[say A]
+小豆洗いはんのとこよりワイのとこで買うたほうが
+お買い得でっせ！/
+[serif off]
+[effect off a]
+?そんな誘いはないと思うけど……/
+[face A 05]
+[serif on]
+[bgm fun]
+[scale A 2.0 0.3]
+[move A Y -100 0.3]
+[effect sr syutyu a 0 0]
+[se zukkoke_01]
+[quake 2]
+[say A]
+なんですと！？
+坊は地魂男児たちの憧れの的ですやん！/
+[flow]
+[say A]
+ばれんたいんならいつもの三倍増しでお誘いが
+かかり、ワイはがっぽがっぽのはずやのに……！/
+[face A 03]
+[flow]
+[effect off a]
+[quake off]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[say A]
+これはおかしいで。
+何か原因があるはずですわ。/
+[scale A 2.0 4]
+[move A Y -100 4]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+そう言いながら近江はこちらを覗き込むように
+大きな体を寄せてくる。/
+[face A 08]
+[say A]
+んーーしかしなんや坊。よう見たら湿気た顔
+しとるなぁ……/
+[face A 04]
+[flow]
+[say A]
+ちょっと身なり整えた方が
+ええんとちゃいますのん。/
+[serif off]
+?寒くて……/
+[face A 05]
+[shake A]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[-]
+[serif on]
+実を言うと最近はずっと
+こたつに引きこもっていた。/
+[talkend]
+[textcolor ARUJI]
+お風呂も毎日入らなくてもいいかも……と
+気づけば数日経過することもざらだった。/
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[face A 03]
+[say A]
+坊。こたつの中は暖かくて快適かもしれんが、
+男は時には外にもでなあきまへん！/
+[face A 01]
+[say A]
+ほな、まずはロクハラいきまひょ！/
+[serif off]
+?寒い……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[serif on]
+[say A]
+だんない！　坊、ワイの外套の中に入りぃ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[talkend]
+[se gaya_01]
+[textcolor ARUJI]
+[serif on]
+近江に誘われるまま、ロクハラの
+商業エリアへと辿り着いた。/
+[serif off]
+?近江の中、あったかい～/
+[show A C]
+[face A 03]
+[say A]
+[scale A 1.6]
+[move A Y -150]
+[scale A 1.0 0.5]
+[move A Y 150 0.5]
+[-]
+[shake A]
+[-]
+[serif on]
+ここまで来たら暖房も効いとるで！
+ほれ！　一人で歩きぃ！/
+[face A 00]
+[say A]
+そんでまずはここの店や！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+近江が連れてきたのは、美容院だった。/
+@店員
+いらっしゃいませ！/
+[show A C]
+[face A 08]
+[say A]
+お兄はん。このイマイチ垢抜けへん坊を
+今風のイケてる髪型にしてほしいんですわ。/
+[talkend]
+[say A]
+[color A talk]
+@店員
+なるほど……今の長さ的にはこの辺が
+いわゆる今風ですね。/
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[talkend]
+[se paper_01]
+[textcolor ARUJI]
+[face A 10]
+店員さんが持ってきたヘアカタログを
+近江はパッと取り上げ、目を通していく。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+ふんふんふん。
+ほんならこれでどないですやろ。/
+[face A 09]
+[say A]
+[se paper_01]
+ワイの目利き的には
+ごっつ似合うと思うで！/
+[hide A]
+[talkend]
+[color A talk]
+@店員
+ああ、いいですね！　腕がなります！/
+[serif off]
+?勝手に話が進んでいく……/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg black]
+[minibg off]
+[hideall]
+[-]
+[fadeout 1.5]
+[autotap]/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+シャキ、シャキ、シャキ……
+チャッチャッ！/
+[talkend]
+[textcolor ARUJI]
+店員の腕は良く、みるみるうちに
+垢抜けた髪型になっていく。/
+[talkend]
+[textcolor ARUJI]
+髪を流し、仕上げをし、ドライヤーで
+乾かして、軽くワックスをなじませていく。/
+[effect fr kira a 0 0]
+[se kira_01]
+@店員
+終わりました。
+いかがでしょうか？/
+[serif off]
+?おお、イケてる！/
+[serif on]
+@店員
+お代は既にいただいております。
+お疲れ様でした！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[effect off a]
+[se rokuhara_06]
+[hideall]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+お店の外に出るが、近江の姿がない。
+キョロキョロと辺りを見渡していると……/
+[se walk_06]
+[show A C]
+[face A 02]
+[say A]
+おぉー坊！　さっぱりしはってええ感じ
+なんとちゃいますのん。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+このあともちゃーんと見繕いましたがな。
+ほな、お次は服やな！/
+[face A 09]
+[say A]
+さぬぼんあたりに見立ててもろたほうが
+良かったかもしれんけど……/
+[face A 01]
+[say A]
+まあ今回は大人な服選びやさかい、
+ワイの目利きで勝負といきまひょか！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[se walk_06]
+[hideall]
+[bg shop]
+[minibg off]
+[-]
+[fadeout 1.5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+何故か近江の案内で服のお店へ。
+シックで落ち着いた雰囲気の紳士服のお店だ。/
+[talkend]
+[textcolor ARUJI]
+ずらりと並ぶスーツやジャケット
+……大人な雰囲気が漂う。/
+[show A C]
+[face A 01]
+[say A]
+これとこれの合わせなんかどないや！[shake A][se cloth_01]
+店員さん、試着させてもらうで！　ほれ坊！/
+[hide A]
+[talkend]
+[serif off]
+?着てみる/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[show A C]
+[face A 06]
+[fadeout 1.5]
+[autotap]/
+[say A]
+[-]
+[serif on]
+ええやないかー……こりゃどこに出しても
+恥ずかしないで！/
+[face A 01]
+[say A]
+店員さん、これもろてくで！[shake A]
+……ちゃんとお金は払いますがな！[face A 09]/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[autotap]/
+[face A 02]
+[say A]
+よし、坊！　次の店行こか！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm off]
+[hideall]
+[effect off a]
+[bg mbg_rokuhara]
+[minibg rokuhara_rouka]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+その後、靴の店、カバン、メガネ、小物売場など
+近江とショッピングをしたり、眺めて回った。/
+[serif off]
+?いっぱいもらっちゃった/
+[bgm night]
+[show A C]
+[face A 03]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+今日のお代はツケにしときまっせ。/
+[face A 01]
+[say A]
+これからぎょーさんお誘いが来るはずやから
+ワイからいろいろ買うてや！/
+[face A 00]
+[say A]
+ほなそろそろ荘園戻ろか。/
+[serif off]
+[face A 01]
+[move A X -200 1]
+[wait 0.5]
+[-]
+[serif on 0.5]
+[face A 06]
+[say A]
+………………
+……………………/
+[say A]
+[move A X 200 0.5]
+あーーーえーと……
+帰る前にワイから先に渡しとこかな。/
+[face A 09]
+[say A]
+さっき坊が髪切っとる間に買ったもん
+なんやけどー。/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+近江は照れくさそうにチョコの包みを
+差し出した。/
+[face A 07]
+[say A]
+手作りの方がええって言う人がおるんも
+わかっとるが、ワイは商人ですわ。/
+[say A]
+[face A 02]
+これはワイなりの最上級の贈りもんでっせ！/
+[hide A]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[talkend]
+[textcolor ARUJI]
+近江はいつものようにおどけて見せるが、
+チョコを差し出した手はわずかに震えている。/
+[serif off]
+?ありがとう！/
+[show A]
+[scale A 1.6]
+[move A Y -150]
+[face A 06]
+[say A]
+[-]
+[effect off a]
+[serif on]
+よ、喜んでもらえてよかったわ！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+試食したら味もよかったから
+疲れたときにでも食べるとええで！/
+[serif off]
+?近江とのデート楽しかった/
+[quake 2]
+[effect fr syutyu a 0 0]
+[scale A 2.0 0.3]
+[move A Y -100 0.3]
+[face A 05]
+[serif on]
+[say A]
+ででで、デートぉ！？[shake A]
+大人をからかうもんやないでぇ！！/
+[face A 06]
+[effect off a]
+[scale A 1.6 0.5]
+[move A Y 100 0.5]
+[quake off]
+もー、すっかりええ男になった坊に言われると
+さすがのワイも照れてまうわー。/
+[face A 03]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+ほなさっさと荘園戻るで！
+はよはよ！/
+[move A X -600 3]
+[delay 2 hide A]
+[se walk_06]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+照れてるのか急ぎ足の近江と並んで
+荘園へと戻った。/
+[talkend]
+[textcolor ARUJI]
+最近はちょっとズボラな生活をしてしまって
+いたけど……/
+[fadein BLACK 2.0]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+そのおかげで近江と一緒の時間が過ごせて
+よかったと思ったのだった。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

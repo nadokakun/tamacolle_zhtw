@@ -1,0 +1,1472 @@
+>>10000/
+@山城
+我是來自京都的畿內的山城dosu。[wait 4]
+嗯，媽媽是個傾聽者。[autotap]/
+[delay 3.0]
+[flow]
+[-]
+@山城
+我第一眼無法拒絕你，但……好吧，我會處理的。
+這就是一個高貴之人的責任！呵呵！[autotap]/
+[delay 9.0]
+[flow]
+[-]
+@山城
+……就這麼決定了！/
+>>10001/
+@山城
+你怎麼又打電話給我了？　
+我沒有任何可以隨便稱呼的社會地位，但是…[autotap]/
+[delay 5.0]
+[flow]
+[-]
+@山城
+嗯，奧馬哈漢有特別許可。
+誒嘿嘿…[wait 4]喲，我很樂意這麼做！/
+>>1/
+[set A s_yms_r 山城]
+[show A C]
+[face A 14]
+[-]
+[serif on]
+[talk A]
+天哪，京都可看的東西真多。
+你不知道該去哪裡嗎？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+如果你這樣做，首先，伏見稻荷土蘇。哼。
+全國各地稻荷神社的主神社都有不同的等級。/
+[face A 16]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+穿過朱紅色的千本鳥居，
+就連周圍的空氣都給人一種凝重的感覺。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 13]
+[flow]
+這是我這個高人特意帶路的地方。
+我可以走得很好，但我不會說它很累。/
+[face A 16]
+嘿，我們走吧！/
+>>2/
+[set A s_yms_r 山城]
+[show A C]
+[face A 14]
+[say A]
+[serif on]
+我泡了一些茶，但是我可以買點米飯嗎？
+……如果跟那種茶混在一起，那就沒意思了。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+我們有精選的宇治抹茶和新鮮的八橋。
+我以為你教會了我首都的味道。哼。/
+[face A 09]
+[flow]
+嘿，別害羞。
+很容易就能嚐到它的味道。 ……不適用。[move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face A 16]/
+>>3/
+[set A s_yms_r 山城]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 08]
+[say A]
+[serif on]
+嗨，你看過祗園祭嗎？
+首都的節日完全不同。/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+花車排列整齊的景象真是壯觀，當你聽到音樂聲時，
+感覺京都的夏天已經到來了。/
+[face A 02]
+[flow]
+如果你來看的話，我會帶你參觀。
+但在此之前，我需要你決定一個 oshihoko！/
+[face A 14]
+[flow]
+「[= 長刀鉾 函谷鉾 綾傘鉾 菊水鉾 月鉾 四条傘鉾 鶏鉾 放下鉾 岩戸山 船鉾 北観音山 南観音山 大船鉾]“莫伊什”[= 占出山 霰天神山 山伏山 油天神山 蟷螂山 保昌山 伯牙山 白楽天山 木賊山 孟宗山 郭巨山 芦刈山 橋弁慶山 浄妙山 鯉山 鈴鹿山 黒主山 役行者山 八幡山 鷹山]” 也[= 雅や。 風流や。 かっこええ。 通や。 おもろい。]
+您一定能找到您喜歡的 Yamahoko！/
+>>4/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms -@NPC]
+[set C s_yms_r 山城]
+[show A C]
+[face A 14]
+[move A Y -50]
+[-]
+[serif on]
+[talk A]
+唷...茶和風景。實在是太優雅了.../
+[serif off]
+[waku on 0.3]
+[show C]
+[move C XY 200 50 0.5]
+[face C 05]
+[color C blue]
+[color A talk]
+[-]
+[face A 14]
+[serif on]
+（天哪，我的腿好麻……！
+ 現在只要稍微移動一毫米，就完了……！ ）[face C 04]/
+[hide C]
+[serif off]
+[waku off 0.3]
+[-]
+[show B L]
+[face B 00]
+[move B X -300]
+[move B X 300 0.5]
+[se fusuma_01]
+[say A]
+[serif on]
+[face A 06]
+啊，$B:A，邀請參加比賽？我很高興雖然
+現在方便了.../
+[face A 05]
+[move B X -200 0.5]
+[move A X -150 0.5]
+[rotate A 20 0.5]
+[se cloth_06]
+[flow]
+嘿，等一下，別拉我。
+啊啊啊啊啊啊啊啊啊！ ！ ！[shake A 3 30 30][face A 12]/
+>>5/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 01]
+[move A Y -60]
+[-]
+[serif on]
+山城攤開書，拿畫筆，
+他正在筆記本上流暢地寫著信。/
+[show B R]
+[move B X 300]
+[move B X -300 0.5]
+[se fusuma_01]
+[talk A]
+[face B 00]
+[face A 08]
+啊，$B:A。我現在不能放開你。正如你所看到的
+我正在寫作中。很容易把它拋在後面。/
+[move B X 300 0.5]
+[hide B]
+[se fusuma_02]
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+……不適用。我在優雅的氛圍中寫作…
+有一種高貴的氣息…看起來很棒！[effect fr kira 6000 0 0][face A 02][se taiko_02]/
+>>6/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 00]
+[move A X 500]
+[move A X -500 1]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+[talk A]
+這座莊園的花園，氣氛非常優雅。
+但是……我想要多一點顏色。/
+[face A 13]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+如果在這個角落放一張河床，是不是看起來很神奇呢？
+在那裡吃一頓飯不是很好嗎？/
+[show B R]
+[face B 05]
+[move B X 300]
+[move B X -100 0.5]
+[rotate B 20 0.5]
+[face A 02]
+[say A]
+[flow]
+……下次不問問小鐵丸吧？順便說一下
+我希望他們能做出像 Manor Delta 這樣的東西。哼。/
+>>7/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[show B]
+[face B 01]
+[setline A B]
+[face A 05]
+[talk A]
+[-]
+[serif on]
+呃，烘乾衣服……真是一件苦差事。
+其實，這跟我做的一點都不像…/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+[flow]
+呃，不過沒關係。難道只是這次嗎？/
+[move A X 500 0.5]
+[se cloth_01]
+[delay 0.5 move A XY 10 -40 0.4]
+[delay 0.5 rotate A -10 0.3]
+[delay 0.9 move A XY -10 40 0.3]
+[delay 1 rotate A 0 0.3]
+[move B X -300 0.5]
+[autotap]/
+[say A]
+[face A 08]
+[flow]
+撫平皺紋並考慮通風。
+整理一下，好看一點/
+[move A X -500 0.5]
+[se cloth_01]
+[delay 0.5 move A XY -10 -40 0.4]
+[delay 0.5 rotate A 10 0.3]
+[delay 0.9 move A XY 10 40 0.3]
+[delay 1 rotate A 0 0.3]
+[move B X 300 0.5]
+[autotap]/
+[se kira_01]
+[effect fr kira a 0 0]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face B 02]
+是的，它乾得很好。哼。/
+>>/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[randomset C r @地魂男児 @あやかし -yms @NPC -@NOW]
+[show A C]
+[face A 01]
+[move A Y -50]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[move A X 250 0.5]
+[show B]
+[show C]
+[face B 01]
+[face C 00]
+[move B X -500]
+[move C X -500]
+[setline 0.5 C B -100 500]
+[orderline A B C]
+[-]
+[serif on]
+[talk A]
+啊？[face A 10]　喝茶有什麼不同的方法嗎？
+我、你這麼說我覺得很尷尬…/
+[face A 01]
+[face B 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+這是我優雅地享受茶的一種特殊方式。
+大家坐在那裡，我教你們一些東西。/
+[move B Y -50 0.4]
+[move C Y -50 0.4]
+[se dosa_01]
+[face A 02]
+[face B 01]
+[face C 04]
+[talkend]
+之後，山城開始了長長的便便。/
+>>9/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[show B]
+[setline A B]
+[face A 01]
+[face B 00]
+[-]
+[se amb_05]
+[serif on]
+[talk A]
+白天的熱鬧還不錯，晚上的優雅更了
+Mondosu 可以更秘密地享用。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 14]
+[face B 01]
+[flow]
+調暗燈光，散發一縷香菸…
+當我這樣做時，我的心開始崩潰。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face A 13]
+[face B 02]
+[flow]
+默默地享用你的米飯。
+嗯，感覺很好，不是嗎？/
+>>10/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 14]
+[move A Y -50]
+[-]
+[serif on]
+[talk A]
+今晚的月亮是那麼的清澈、美麗。/
+[show B L]
+[move B X -500]
+[move B X 500 0.5]
+[say A]
+[face B 00]
+[face A 14]
+啊，$B:A不過單獨看也沒什麼問題...
+如果米飯來了，我旁邊就會有空位。/
+[setline 0.5 B A]
+[move B Y -50 0.5]
+[se dosa_01]
+[face A 01]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+嘿，坐那兒吧。是的，月亮。我們有餃子和茶。
+就悠閒地看一看吧。/
+>>11/
+[set A s_yms_r 山城]
+[show A C]
+[face A 03]
+[-]
+[serif on]
+[talk A]
+身為一個高尚的人，睡前我忍不住要做好準備。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[se cloth_01]
+[say A]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+明天的裝潢就是這樣……或者說，這個會更好看。
+衣服起皺是絕對不允許的，只要做好準備就可以省去很多麻煩。/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 09]
+……嘿嘿，就完美了。/
+>>12/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[randomset C r @地魂男児 @あやかし -yms @NPC -@NOW]
+[se horror_02]
+[show A C]
+[show B C]
+[show C C]
+[setline B A C]
+[orderline A B C]
+[face A 09]
+[face B 05]
+[face C 06]
+[-]
+[serif on]
+山城聚集所有人並向他們講述可怕的故事。/
+[say A]
+[face A 13]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……如今，首都充滿了古老的鬼故事。
+剩下的我來承擔。哼。[shake A]/
+[face A 08]
+[flow]
+接下來我們該聊什麼...[wait 0.5][face A 05][shake A]嗨！ ？[se doka_01][face B 05][face C 05]
+多麼響亮的聲音啊！ ？[face A 15][se horror_05]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+[shake A 3]
+[face B 04]
+[face C 04]
+[flow]
+這只是風的聲音，是的…
+好了，今天的鬼故事就到這裡！/
+>>13/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 04]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[serif on]
+[talk A]
+……我發現自己在晚上思考很多奇怪的事情。
+關於明天，關於未來…/
+[show B L]
+[scale B 1.6]
+[move B Y -120]
+[setline 0.5 B A]
+[face B 05]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+啊，$B:A！發生了什麼事？在這樣的時刻。
+我？嗯，這沒有什麼問題。/
+[face A 10]
+[face B 00]
+[flow]
+……但是當我看到奧馬曼的臉時，
+我覺得很輕鬆。[face A 09]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 16]
+[face B 01]
+跟我聊一會兒吧。/
+>>14/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 06]
+[-]
+[serif on]
+[talk A]
+我，我總是努力讓自己看起來優雅又高貴。
+沒辦法.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+[flow]
+嗯……今天感覺很奇怪……/
+[show B R]
+[face B 00]
+[move B X 300]
+[setline 0.5 A B]
+[say A]
+[face A 05]
+哇$B:A，我、我現在不能來！[shake A][face A 15]
+從來沒有人看過我這樣的臉……嗯！[move A X -800 0.5]/
+>>15/
+[set A s_yms_r 山城]
+[-]
+[effect fr allows 6000 0 0]
+[effect fr syutyu a 0 0]
+[se jutsu_01]
+[wait 1]
+[-]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[-]
+[show A C]
+[face A 09]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[waku on 0.5]
+[serif on]
+[talk A]
+（呵呵！不愧是我……連動作都完美。
+　就這麼決定了大家一定很欣賞我優雅的外表。 ）/
+[effect off a]
+[waku off 0.3]
+[scale A 1 0.3]
+[move A Y 120 0.3]
+[se zukkoke_02]
+[face A 05]
+就是這樣！ ？不，這裡沒有人…/
+>>16/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[randomset C r @地魂男児 @あやかし -yms @NPC -@NOW]
+[show A C]
+[face A 08]
+[-]
+[serif on]
+[talk A]
+光靠個人強大，資本是無法保護的。
+我們需要做的就是合作。/
+[show B L]
+[show C R]
+[face B 08]
+[face C 08]
+[move B X -200]
+[move C X 200]
+[setline 0.5 B A C]
+[talk A]
+[face A 11]
+[flow]
+$B:A、$C:A，你願意跟我一起練習協作嗎？
+很開心！那麼，我們走吧！/
+>>17/
+[set A s_yms_b 山城]
+[randomset B b @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 06]
+[-]
+[serif on]
+[talk A]
+呃……我不太擅長脫衣服…
+除非你穿上高貴設計的衣服，否則你將無法保持你的尊嚴.../
+[show B R]
+[move A Y -100 0.5]
+[face A 04]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+[face B 05]
+[talk A]
+……呃，總算心情平靜了……
+呃.../
+>>18/
+[set A s_yms_b 山城]
+[randomset B b @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 16]
+[scale A 1.6]
+[move A Y -120]
+[effect fr yuge b 0 0]
+[se amb_12]
+[-]
+[serif on]
+[talk A]
+啊啊啊啊啊啊啊熱水啊…
+看起來快要融化了…/
+[show B L]
+[face B 01]
+[scale B 1.6]
+[move B Y -120]
+[face A 05]
+[setline 0.5 B A]
+[effect fr splash 6000 0 0]
+[flow]
+[se water_07]
+啊，$B:A哦！ ？[shake A]
+哈，讓你看一件羞恥的事……！ ！[face A 15]/
+>>19/
+[set A s_yms_b 山城]
+[randomset B b @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[show B R]
+[face A 00]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[move B X 200]
+[move B X -200 0.5]
+[effect fr yuge b 0 0]
+[se amb_12]
+[talk A]
+[-]
+[serif on]
+[se bath_03]
+$B:A，你能把它洗到我背上嗎？　快點。
+我會請你乖一點。/
+[move B X -40 0.5]
+[se bath_05]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+……嗯嗯……
+你真的很擅長.../
+[face A 06]
+[flow]
+好吧，我不介意你繼續這樣…
+嗯。[shake A][se bath_05]/
+>>20/
+[set A s_yms_r 山城]
+[show A C]
+[face A 14]
+[scale A 1.6]
+[move A Y -120]
+[se pee_01]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+是的，聞起來很香。清潔也非常徹底。
+我不想讓值班女孩稍後稱讚我。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 02]
+[flow]
+我真的很感謝這種考慮。
+唷。感覺很清爽！/
+>>21/
+[set A s_yms_r 山城]
+[set C s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[show B R]
+[face B 01]
+[face A 00]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[move B X 200]
+[setline 0.5 A B]
+[talk A]
+[-]
+[serif on]
+[face A 05]
+嘿，蓋伊，跟我來吧！ ？[se zukkoke_02]
+好吧好吧，我真的不在乎！ ？/
+[se pee_01]
+[face A 06]
+[face B 00]
+[show C]
+[face 04]
+[setline C B]
+[scale C 1.6]
+[move C Y -120]
+[move C XY -200 100 0.5]
+[color C blue]
+[face C 04]
+[color A talk]
+[serif off]
+[waku on 0.3]
+[-]
+[serif on]
+（呃，呃……我不敢相信我會在你旁邊小便……
+ 我很尷尬而且很緊張...）/
+[serif off]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[hide C]
+[waku off 0.3]
+[-]
+[say A]
+[face A 05]
+[shake A]
+[serif on]
+[se zukkoke_02]
+哇哦，剛才看的時候覺得很奇怪！ ？/
+>>22/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+呼呼，我的胃終於平靜下來了…
+霍納，漫畫，動漫，Sumaho！[face A 01][se taiko_02][shakebg]/
+[say A]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+在私人的房間裡，沒有人會打擾我的優雅美。
+天堂已經消失了。呵呵！/
+[talkend]
+康康克/
+[se zukkoke_02]
+[say A]
+[face A 05]
+哈，進來了！ ！[shake A 3 30 30]/
+>>23/
+[set A s_yms_r 山城]
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[serif on]
+[talk A]
+呼……呃……這是什麼奇怪的感覺……
+如果我這個高貴的人第二天就生氣了那就太可惜了…/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+喔不，冷靜…冷靜…/
+[say A]
+[face A 12]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+嗯...[shake A]
+我、我已經不能出去了……！/
+>>24/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A L]
+[face A 07]
+[se fusuma_01]
+[move A X -300]
+[move A X 300 1]
+[-]
+[serif on]
+[talk A]
+嗯...Mnyamunya...蒲團...Pofu...[move A X 300 0.5][rotate A -25 0.5][move A Y -100 0.5][se dosa_01]
+我已經睡著了.../
+[show B L]
+[move B X -200]
+[move B X 200 0.5]
+[face B 05]
+[face A 16]
+[talk A]
+$B:A是啊，我們一起睡吧…/
+[say A]
+[move A Y 100 0.3]
+[face A 05]
+[rotate A 0 0.2]
+[se cloth_06]
+[face B 06]
+……哈！ ！　我們走吧！截至目前，
+嗯，你知道，我只是半睡半醒！ ！[shake A 2 40 20][face A 15]/
+>>25/
+[set A s_yms_r 山城]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[talk A]
+嗯……我的身分高貴……
+媽媽.../
+[talkend]
+就像在睡夢中說話一樣。/
+>>26/
+[set A s_yms_r 山城]
+[randomset B r @地魂男児 @あやかし -yms @NPC]
+[show A C]
+[show B]
+[face B 07]
+[setline A B]
+[rotate A -35]
+[rotate B -35]
+[moveline A B 0 -50 0]
+[face A 07]
+[orderline B A]
+[-]
+[rotate A 0 1]
+[move A Y 50 1]
+[se cloth_01]
+[face A 11]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+我半夜就醒了…嗯…
+假裝半睡半醒$B:A我們鑽進被窩裡吧…[face A 06]/
+[rotate A -30 0.5]
+[move A XY 100 -50 0.5]
+[say A]
+[face A 16]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[se cloth_01]
+那麼溫暖又柔軟…
+而且，這樣也讓我安心了……Gyuu……[shake A][face A 07]/
+>>100/
+[set A s_yms_r 山城]
+[set B s_n000_r 猫乃屋]
+[set C s_n001_r 夏人]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[title 絆 はんなり雅な山城]
+[-]
+[bgm home]
+[bg shirei_day]
+[-]
+[fadeout 1.5]
+[-]
+[wait 2]
+[-]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[show B]
+[show C]
+[setline]
+[face C 01]
+[face B 01]
+[orderline C B]
+[autotap]/
+[talkend]
+[serif on 0.5]
+[say B]
+我覺得有點餓了。
+我們去客廳買點糖果好嗎？/
+[hideall]
+[se fusuma_01]
+[se walk_01]
+[bg mbg_syouen 0.5]
+[minibg ima 0.5]
+[-]
+[talkend]
+[textcolor ARUJI]
+見面後，與貓咪也和夏人
+我走向客廳。/
+[show A]
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[textcolor ARUJI]
+當我開啟客廳的門時，
+山城 在泡茶。/
+[serif off]
+？ 山城/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 14]
+[talk A]
+[serif on]
+什麼，奧馬哈拉卡？
+很容易醒來。/
+[face A 01]
+[flow]
+這是一個我可以泡茶只是為了好玩的地方。
+為什麼不喝一杯呢？/
+[hide A]
+[-]
+[show B]
+[show C]
+[face B 09]
+[face C 02]
+[setline]
+[orderline C B]
+[say B]
+噢桑奎。
+好吧，我想我會相信你的話。/
+[hideall]
+[-]
+[se cloth_01]
+[show A C]
+[face A 14]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+泡茶的樣子是正宗的。
+頗有幾分優雅的氣息。/
+[hide A]
+[-]
+[show B]
+[show C]
+[setline]
+[face B 13]
+[face C 00]
+[orderline C B]
+[moveline B C 0 -100 0]
+[say B]
+……嘿，山城畢竟和其他男生在一起了。
+氣氛不同。/
+[talk C]
+[face C 01]
+是啊……平安京畢竟在那裡。
+這就是京都的氣息嗎…/
+[face B 02]
+[flow]
+也許你的舉止也能體現出你的品味。
+我不知道。/
+[hide B]
+[hide C]
+[-]
+[talkend]
+[textcolor ARUJI]
+一定。 山城總是平靜開朗
+我認為它散發著優雅和高貴的氣息。/
+[show A C]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[talk A]
+呵呵。當然。
+慌亂是離優雅最遠的事。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 14]
+[flow]
+我以輕鬆的心態對待一切
+京城的味道剛剛好。哼。/
+[face A 13]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+我有一些茶。
+與茶點心一起輕鬆享用。/
+[hide A]
+[-]
+[show B]
+[show C]
+[setline]
+[face B 01]
+[face C 02]
+[orderline C B]
+[moveline B C 0 -100 0]
+[say B]
+哦 itadakimasu！/
+[serif off]
+[show A C]
+[move A XY -600 -100]
+[setline 0.5 A B C]
+[move A Y 100 1]
+[se cloth_01]
+[face A 01]
+[talk A]
+[-]
+[serif on]
+嘿，我要去洗手一下。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 13]
+[flow]
+享受茶本來的香氣
+很容易享受。/
+[move A X -600 1]
+[se fusuma_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+說完，我又擺出了一個漂亮的姿勢站了起來。
+他緩緩開啟拉門，離開了房間。/
+[face B 01]
+[face C 00]
+[setline 0.5 B C]
+[say B]
+不，不是那樣的
+努力保持冷靜並生活！/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 01]
+[say C]
+不是很好嗎？
+請瞄準它。/
+[hide B]
+[hide C]
+[-]
+[talkend]
+[textcolor ARUJI]
+現在想想，我也想去廁所。
+我記得。我對茶很好奇，不過我先去解一下。/
+[serif off]
+?去倉庫/
+[se fusuma_01]
+[bg rouka_day 0.5]
+[minibg off 0.5]
+[-]
+[show A]
+[face A 01]
+[scale A 0.7]
+[move A Y 100]
+[-]
+[serif on]
+[textcolor ARUJI]
+當我正要走向馬廄時，我突然聽到走廊盡頭傳來了聲音。
+我看到山城正在停下來。/
+[serif off]
+[face A 10]
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[-]
+[move A X -800 0.3]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+山城環顧四周，環顧四周。
+突然我衝了過去。/
+[serif off]
+[hide A]
+？呃！ ？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+瞬間，我就跑進走廊了。
+看來他進了糞坑是毫無疑問的。/
+[serif off]
+?去倉庫/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[bg mbg_syouen]
+[minibg kawaya_day]
+[-]
+[fadeout 0.5]
+[-]
+[autotap]/
+[bgm comical]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 10]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[-]
+[say A]
+[serif on]
+哈哈哈哈……啊，好危險啊……
+啊，一會兒我的優雅容顏就要露出來了…/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 11]
+[se cloth_01]
+解開繩子啊啊啊啊啊啊啊啊啊啊啊啊！[shake A]/
+[serif off]
+？你還好嗎？/
+[se zukkoke_02]
+[face A 05]
+[shake A]
+[talk A]
+[serif on]
+哈啊啊啊！ ？啊啊啊主啊！ ？
+奧馬罕，你在做什麼？ ？/
+[serif off]
+？去上廁所.../
+[face A 10]
+[talk A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哦，什麼...
+...科洪。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+那樣的話，就結束了。
+我只是來這裡洗手。/
+[hide A]
+[serif off]
+?增加業務/
+[se pee_01]
+[wait 2]
+[-]
+[show A R]
+[face A 10]
+[move A X 200]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+這是我旁邊的小便鬥。
+山城正在水槽邊默默地洗手。/
+[move A X -200 1]
+[face A 10]
+[talk A]
+……呃……[shake A 2 3 3]/
+[face A 03]
+[flow]
+哦，早安，我們回房間吧。
+我需要多長時間才能緩解自己？/
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+山城 就是這樣。
+奇怪的是，我堅持洗手。/
+[talkend]
+[textcolor ARUJI]
+如果你仔細觀察，你會發現雙腿的大腿正在摩擦在一起。
+我正坐立不安。[shake A]/
+[move A C 0.5]
+[serif off]
+？ 山城不是尿尿嗎？/
+[face A 15]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[talk A]
+[serif on]
+[se zukkoke_02]
+到！ ？什麼，你在說什麼啊！ ？[shake A]/
+[face A 03]
+[flow]
+我只是來洗手的。
+我已經說過很多遍了！/
+[serif off]
+？但是剛才.../
+[hide A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+無論怎麼看走廊突然奔跑的身影，
+他似乎很驚慌，似乎已經到了忍耐的極限。/
+[show A C]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[face A 05]
+[talk A]
+[se zukkoke_02]
+嘿，看！ ？
+我只想趕緊洗手…/
+[face A 15]
+[flow]
+自從我泡茶以來，我已經接近極限了。
+沒辦法啊……！/
+[serif off]
+？希望沒事.../
+[face A 12]
+[shake A 3 5 5]
+[talk A]
+[serif on]
+呃！嗚嗚嗚！ ！
+我、我不能去……！ ！嗚嗚嗚！[shake A]/
+[move A X 150 0.5]
+[rotate A -10 0.5]
+[move A Y -50 0.5]
+[face A 04]
+[talkend]
+[textcolor ARUJI]
+山城雙手放在水槽上，面對鏡子。
+我在顫抖。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+大概已經接近極限了。/
+[bgm night]
+[serif off]
+[rotate A 0 1]
+[move A X -150 1]
+[move A Y 50 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 10]
+[talk A]
+....哦，奧馬哈。
+不告訴任何人？/
+[serif off]
+？點點頭/
+[playeryes]
+[-]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[-]
+[face A 03]
+[talk A]
+[serif on]
+真的嗎？還有貓屋半和夏人半？/
+[serif off]
+？我不會說。/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 06]
+[talk A]
+[serif on]
+……如果你是認真的，我就說一點…
+我來自畿內地區，這裡也包括京都的首都山城。/
+[face A 08]
+[flow]
+毫不誇張地說，日本是代表日本的國家。
+……我總是努力表現得高貴、優雅、優雅。/
+[face A 10]
+[flow]
+但是……我真的很不耐煩又孤獨，
+我不擅長害怕.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -100 1.0]
+[autotap]/
+[face A 04]
+感覺腿麻了就想哭/
+[talkend]
+[textcolor ARUJI]
+山城的聲音越來越小。/
+[face A 06]
+[talk A]
+[move A Y 190 0.1]
+[delay 0.1 move A Y -100 0.2]
+但如果你這樣給我看...
+我覺得每個人都很可悲。/
+[face A 11]
+[flow]
+這就是為什麼我如此尷尬
+我不能給你看。[shake A]/
+[bgm departure]
+[face A 04]
+[shake A 3 5 5]
+……啊……太可怕了……
+我已經到了極限了……我快堅持不住了……！/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[shake A]
+[face A 12]
+啊啊啊啊。/
+[se door_01]
+[show B R]
+[setline 0.5 A B]
+[orderline A B]
+[face B 09]
+[say B]
+哦，山城，初級。你在這兒嗎？
+我也會玩得很開心的。/
+[face A 05]
+[shake A]
+[say A]
+！？/
+[talkend]
+[textcolor ARUJI]
+不幸的是，貓野屋及時出現。/
+[se cloth_06]
+[move A X -200 0.3]
+[delay 0.3 move A X 50 0.4]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[move B X 200 0.3]
+[delay 0.2 scale B 1.6 0.6]
+[delay 0.2 move B Y -120 0.6]
+[delay 0.3 move B X -200 0.4]
+[orderline B A]
+[serif off]
+？我有一個關於任務的問題要問.../
+[se zukkoke_02]
+[face B 05]
+[talk B]
+[serif on]
+哈！ ？現在！ ？/
+[se walk_01]
+[hide A]
+[hide B]
+[-]
+[talkend]
+[textcolor ARUJI]
+我立刻把貓咪之屋拉出了圍欄。
+山城 抽出時間解手。/
+[show A C]
+[face A 03]
+[shake A]
+[say A]
+……！！/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se door_01]
+[hideall]
+[bg rouka_day]
+[minibg off]
+[wait 2]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[autotap]/
+[bgm fun]
+[show B C]
+[scale B 1.6]
+[move B Y -120]
+[face B 04]
+[talkend]
+[textcolor ARUJI]
+浴室外，貓乃屋詢問下一次任務的隊伍組成。
+我透過與會員協商贏得了時間。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 10]
+[talk B]
+……哦，哦。沒關係。
+那我就當順本吧…/
+[serif off]
+[move B X -500 0.3]
+[se walk_03]
+[hide B]
+[-]
+[show A C]
+[move A X -400]
+[move A X 400 1]
+[face A 10]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+山城 似乎取代了 Nekonoya。/
+[face A 13]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+…………歐洪。
+就好像我很體貼你一樣。/
+[face A 14]
+[talkend]
+[textcolor ARUJI]
+山城再次神氣凝重。/
+[talkend]
+[textcolor ARUJI]
+顯然山城不想破壞他的高貴形象。
+他似乎每天都在非常努力地工作。/
+[talkend]
+[textcolor ARUJI]
+我以為如果能更自然一點就好了…
+我也想尊重山城的想法…/
+[serif off]
+？這樣的事情怎麼樣？/
+[hide A]
+[textcolor ARUJI]
+[serif on]
+我想在大家面前成為一個優雅的山城。
+但這可能會很困難。/
+[textcolor ARUJI]
+所以當只有我和你的時候
+我建議你嘗試展示自己。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[talk A]
+[serif on]
+呃……哦，只有你和奧馬哈在一起的時候？/
+[serif off]
+？我不會告訴任何人。/
+[face A 10]
+[talk A]
+[serif on]
+……即使你突然說不是這樣的。
+我有麻煩了.../
+[face A 06]
+[flow]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+但是……確實如此……它早些時候也對我有幫助。/
+[face A 10]
+[flow]
+我有一個可以輕鬆交談的人。
+……也許不會痛。/
+[shake A]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+呵呵。/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[autotap]/
+[face A 03]
+[flow]
+啊，但是我不得不說，當著大家的面。
+我會像以前一樣優雅。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 13]
+[flow]
+米飯也應該搭配得當。
+哼。/
+[face A 01]
+[talkend]
+[textcolor ARUJI]
+當然，正如我的主人所期望的那樣，
+無論他是否理解這個故事，他似乎都很滿意。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[flow]
+[say A]
+……餵，我們回去吧。對大家來說，
+如果我告訴你京城的茶的味道，我會不知所措。/
+[move A Y 5 0.3]
+[delay 0.3 move A Y -5 0.5]
+[face A 16]
+....早安。我期待您的繼續支援。/
+[move A X 300 1]
+[face A 01]
+[hide A]
+[se walk_01]
+[talkend]
+[textcolor ARUJI]
+說完，山城優雅地走了出去。
+跟著他回到客廳。/
+[talkend]
+[textcolor ARUJI]
+優雅大氣的背後，
+看來山城真的很努力。/
+[talkend]
+[textcolor ARUJI]
+我希望我能成為山城心靈安息的地方。
+我就是這麼想的。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[bgm off]
+[wait 1]
+[-]
+[autotap]/

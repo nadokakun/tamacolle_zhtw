@@ -1,0 +1,1272 @@
+>>10000/
+@和泉
+オレは畿内、[wait 0.7]和泉！[autotap]/
+[delay 1.0]
+[flow]
+[-]
+@和泉
+オレ、[wait 0.2]仲間を守るために強くなりたいんだ！[wait 1.4]
+よろしくな！/
+>>10001/
+@和泉
+ああ、オレを信じてくれ！[wait 1.5]
+最強になってやるぜ、主さん！/
+>>1/
+[set A s_yzm_r 和泉]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -100]
+[-]
+[serif on]
+[say A]
+伊勢国で身罷った日本武尊の霊が白鳥になって
+最後に降り立ったのが和泉国一宮の「大鳥大社」！[shake A]/
+[face A 11]
+[flow]
+主さんも知ってると思うけど、日本武尊は古事記や
+日本書紀に登場する伝説の英雄だぜ！/
+[face A 01]
+[flow]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+景行天皇の第二皇子で熊襲をやっつけたり東国でも
+戦って――[wait 0.2]伊勢神宮の草薙剣を―――[wait 0.2]あと――/
+[face A 03]
+……って、ねぇ！　[shake A 3 10 10]主さん、聞いてる！？
+ここからがイイところなんだから！！/
+>>2/
+[set A s_yzm_r 和泉]
+[show A C]
+[face A 09]
+[se fire_01]
+[effect fr syutyu a 0 0]
+[move A Y -150]
+[delay 0.2 move A Y 250 0.1]
+[delay 0.3 move A Y -100 0.2]
+[-]
+[serif on]
+[say A]
+祭りといえばだんじり祭！
+中でも「岸和田だんじり祭」は必見だぜ！/
+[move A X -200 0.2]
+[delay 0.2 shake A]
+ドデカイ地車が超スピードで曲がる
+「やりまわし」はもう、めっちゃめちゃ豪快！！/
+[face A 02]
+[effect off a]
+[move A X 200 0.2]
+[delay 0.3 shake A]
+あの迫力は間近で味わわなきゃ！！
+主さんもナマで見てくれよな！！！[shake A]/
+>>3/
+[set A s_yzm_r 和泉]
+[show A C]
+[face A 00]
+[-]
+[serif on]
+[say A]
+古墳の中でも「大仙陵古墳」は
+日本最大の前方後円墳！！[shake A]/
+[face A 01]
+[shake A 2 5 5]
+くぅぅ～！　もうカッコよすぎて、
+見るたびに思わず痺れちゃうぜ！！！/
+[face A 09]
+[scale A 1.6 1]
+[se fire_02]
+[move A Y -100 1]
+オレ……いつか主さんに、これに負けないくらい
+でっけぇ古墳作るから！[shake A]　楽しみにしてて！！！/
+>>4/
+[set A s_yzm_r 和泉]
+[show A C]
+[face A 08]
+[move A X -1000]
+[-]
+[move A X 1100 0.5]
+[rotate A -20 0.5]
+[-]
+[shake A 2]
+[-]
+[rotate A 0 0.2]
+[move A XY -100 -50 0.3]
+[se dosa_01]
+[-]
+[face A 01]
+[serif on]
+[say A]
+[shake A]
+ヨッシャアア！　昼飯だ！　いっただきまーす！！[shake A]
+もぐもぐ……[wait 0.2]……う！？[shake A]
+[face A 05]
+[effect bk allow 3000 0 0]/
+[face A 04]
+[shake A]
+うううう……これは……西洋唐辛子……
+いわゆる、[wait 0.2]ぴーまん……！！！！[shake A 2 10 10]/
+[flow]
+[se eat_01]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+もぐもぐ……もぐもぐ…………[se eat_01]うぅうぅ！！[shake A]
+絶対負けねぇ……！！！！[shake A 1 15 15]/
+>>5/
+[set A s_yzm_r 和泉]
+[randomset B r -ysm -@NPC]
+[show A C]
+[face A 09]
+[move A Y -200]
+[se fire_02]
+[-]
+[shakebg]
+[move A Y 200 0.5]
+[se cloth_06]
+[serif on]
+[say A]
+よし！　今日もオレが一番に起きたぜ！
+庭に出て特訓だー！！/
+[show B L]
+[face A 01]
+[move B X -1000]
+[face B 00]
+[serif off]
+[color B talk]
+[-]
+[move A X -800 0.5]
+[-]
+[moveline A B 1000 0 1]
+[-]
+[face A 05]
+[shake A]
+[serif on]
+あれ！？/
+[flow]
+$B:Aがもう起きてる……！？[face A 04]
+くそぅ、悔しいぜ！！　明日は負けない！！！[shake A]/
+>>6/
+[set A s_yzm_r 和泉]
+[randomset B r -ysm -@NPC]
+[randomset C r -ysm -@NPC -@NOW]
+[serif on]
+[show A]
+[show B]
+[setline A B]
+[face A 01]
+[face B 01]
+[say A]
+くぅ～！　いい天気だぜ！
+$B:A、[face A 09]ちょっと時間ある？/
+[face A 02]
+[face B 05]
+[se fire_01]
+今日は一緒に[= 修練場 庭 風呂場 居間 便所 屋根裏 主さんの部屋 人目につかない場所]で
+[= 猛特訓 鬼ごっこ 神話ごっこ $C:Aから聞いた遊び 大掃除 イタズラ 楽しいこと]しない！？[shake A]/
+[face B 01]
+[face A 01]
+やったー！　[shake A]そうと決まれば
+早速行こうぜー！！/
+[move A X 800 0.4]
+[move B X 600 0.5]
+[hideall]
+[autotap]/
+>>7/
+[set A s_yzm_r 和泉]
+[show A L]
+[face A 02]
+[move A X -300]
+[-]
+[move A C 0.5]
+[-]
+[serif on]
+[say A]
+朝練に洗濯、荘園の掃除も終わりー！！
+よし、遊ぶぜぇ！！！/
+[face A 01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+さ～て、
+今日はどの神話ごっこしようかなぁ～！/
+[face A 00]
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+やっぱ激アツの「天孫降臨」にしようかなぁ……
+日本武尊の「熊襲遠征」も捨てがたいぜ！！[face A 02]/
+>>8/
+/
+/
+>>9/
+[set A s_yzm_r 和泉]
+[randomset B r -yzm]
+[show A C]
+[face A 08]
+[shakebg]
+[scale A 1.6]
+[move A Y -100]
+[effect fr syutyu a 0 0]
+[-]
+[serif on]
+[say A]
+書庫で神話の本も読みたい！　特訓もしたい！！
+だから、今日は本を読みながら特訓してみたけど、/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[effect off a]
+特訓でかいた汗で本を汚しちゃって、
+$B:Aにめっちゃ叱られちゃったぜ……/
+[face A 09]
+[shake A]
+よし！！　明日は絶対に汚さないように
+特訓するぜ！！　うおおおお、燃えるぜぇ！！！[se fire_01]/
+>>10/
+[set A s_yzm_r 和泉]
+[randomset B r -yzm]
+[show A C]
+[show B R]
+[face A 10]
+[face B 01]
+[orderline A B]
+[say A]
+[-]
+[serif on]
+食後の甘味にはやっぱりみかん！！/
+[face A 08]
+[face B 00]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+むき……[wait 0.2]むき……[wait 0.2]むき……[wait 0.2]
+こうやって、剥いてる時間も楽しいぜ！[shake A]/
+[face B 02]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -100 0.5]
+[move B X 150 0.5]
+この白いのをキレーに全部とるのは至難の技。
+ふふふふ[face A 09]……燃えてくるぜ……！！[shake A][se fire_01]/
+>>11/
+[set A s_yzm_r 和泉]
+[show A C]
+[face A 04]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+今日の戦いでは、オレが弱いばっかりに、
+仲間に傷を負わせちまった……ちくしょう……/
+[face A 08]
+オレ……[shake A]
+もっともっと強くならなきゃ……/
+[face A 09]
+[se fire_01]
+いや、絶対に強くなる！！[shake A]
+よし！！　明日は今までの倍特訓するぞ！！！/
+[serif off]
+[move A X 600 0.3]
+[se walk_03]
+[hide A]
+[shakebg]
+[-]
+[wait 0.5]
+[-]
+[autotap]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_yzm_r 和泉]
+[randomset B r -yzm]
+[show A C]
+[face A 06]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+さっき風呂場でここにタッチされたけど、
+これって新しい特訓なのかな……？/
+[face A 11]
+よし！[shake A]
+オレもやろ！！/
+[serif off]
+[show B R]
+[color B talk]
+[face A 01]
+[face B 00]
+[move B X 300]
+[moveline A B -300 0 1]
+[orderline A B]
+[-]
+[serif on]
+おーい、$B:A！/
+[move A X 350 0.5]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[shake B]
+[face B 05]
+[se cloth_06]
+そぉれターッチ！！！/
+>>15/
+[set A s_yzm_m 和泉]
+[effect fr katana 3000 0 0]
+[se katana_02]
+[shakebg]
+[show A C]
+[face A 08]
+[move A XY -200 200]
+[move A X 200 0.5]
+[move A Y 100 0.3]
+[delay 0.3 move A Y -320 0.2]
+[delay 0.6 move A Y 20 0.5]
+[rotate A -179 0.3]
+[delay 0.3 rotate A -350 0.3]
+[delay 1 rotate A 0 0.5]
+[delay 0.5 se walk_04]
+[-]
+[serif on]
+[say A]
+[face A 02]
+よっしゃー！！[shake A]
+ここで特訓してるときがいちばん好きな時間だぜ！/
+[face A 08]
+今日こそ新☆必殺技、習得してやるぜ！！/
+[face A 09]
+[effect fr syutyu 4000 0 0]
+うおりゃああああ！[scale A 1.6 0.2][move A Y -150 0.2]
+白鳥とるねーど！！！[shakebg][se crash_01]/
+>>16/
+[set A s_yzm_m 和泉]
+[randomset B m -yzm -@NPC]
+[effect fr katanas 3000 0 0]
+[show A C]
+[show B C]
+[setline A B]
+[face A 09]
+[face B 08]
+[shakebg]
+[se katana_02]
+[delay 0.2 se katana_03]
+[efect fr katanas 3000 0 0]
+[shakebg]
+[-]
+[serif on]
+[say A]
+どりゃあああああ！
+そこだ！　和泉さんだぁぁああ！！！！/
+[serif off]
+[se crash_03]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[effefct fr allow 4000 0 0]
+[move A X 400 0.3]
+[move B X -300 0.4]
+[-]
+[shake B]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+はぁ……はぁ……和泉サンダーを受けるなんて、
+$B:A、すっげぇ強ぇな！　最高の特訓だったぜ！！[face A 10][face B 01]/
+[flow]
+[setline 0.5 B A]
+じゃあもう一戦……って、[move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face A 05]もうこんな時間！？[face B 00]
+こんなんじゃ全然足りないよー！！/
+[face A 02]
+[face B 01]
+よーし！　明日も$B:Aと特訓していいか、
+主さんに聞いてこよ！！！[shkae A]/
+[serif off]
+[se walk_03]
+[move A X 800 0.5]
+[hide A]
+[-]
+[wait 0.5]
+[-]
+[autotap]/
+>>17/
+[set A s_yzm_b 和泉]
+[se door_01]
+[show A R]
+[face A 01]
+[move A X -200 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+湯船に浸かって疲労回復完了ー！！！　そして、
+風呂上がりの牛乳で身体をもっと強くするぜ！！/
+[face A 08]
+[rotate A -10 0.2]
+[move A X 20 0.2]
+ゴク……ゴク[rotate A -15 0.2][move A X 20 0.2]……ゴク……[rotate A -20 0.3][move A X 20 0.2][wait 0.5]ぷはぁっ！！[rotate A 0 0.3][move A X -60 0.2]
+もう一本おかわり！！！[face A 10][shake A]/
+>>18/
+[set A s_yzm_b 和泉]
+[show A C]
+[face A 10]
+[scale A 1.4]
+[move A Y -100]
+[effect fr yuge a 0 0]
+[se amb_12]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se bath_04]
+[serif on]
+[say A]
+ふぅ～～～！
+風呂で今日一日の疲れが一気に回復したぜ！！/
+[face A 09]
+[se fire_01]
+ってことで、上がったら
+もうひとっ走りしてこよーっと！！/
+>>19/
+[set A s_yzm_b 和泉]
+[randomset B b -yzm -kii -oum]
+[effect fr yuge a 0 0]
+[se amb_12]
+[show A C]
+[face A 01]
+[-]
+[serif on]
+[say A]
+ここの湯船は広くて水練にもってこいだぜ！
+さっそくはじめちゃお！！　[effect fr splash 4000 0 0][move A Y 100 0.1][delay 0.1 move A Y -300 0.2][delay 0.2 hide A][shakebg][se bath_02]ばしゃーん！！！/
+[se bath_01]
+[talkend]
+ざぶざぶ……ざぶざぶ……
+…………ゴツン！！！[se doka_01][shakebg]/
+[serif off]
+[show B C]
+[show A]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[rotate B 5]
+[setline A B]
+[move A Y -200]
+[move A X -150]
+[move B X 50]
+[face A 05]
+[face B 04]
+[-]
+[effect fr splash 4000 0 0]
+[move A Y 200 0.3]
+[se water_03]
+[-]
+[shakebg]
+[serif on]
+[shake B]
+[say A]
+いてて……あ、$B:Aぶつかってごめん！！
+わわわ、すっげぇ痛そうじゃん！　大丈夫！？[move A X 100 0.3]/
+[face A 06]
+[rotate B 10 1]
+[move B Y -100 1]
+[se bath_04]
+[face B 06]
+え？　そ、そんなとこに……！？
+ほんとごめん……っ。[shake B]/
+>>20/
+[set A s_yzm_r 和泉]
+[show A C]
+[face A 09]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[se fire_01]
+[shakebg]
+[serif on]
+[say A]
+しょんべんするときは、
+周りにはねないようにするのが男のマナーだぜ！/
+[face A 08]
+[flow]
+オレ、毎日特訓してるから超得意だもんね！/
+[face A 08]
+[se pee_01]
+…[shake A]……[shake A]…！[shake A 2 4 4]/
+[face A 10]
+[effect fr kira 4000 0 0]
+[se kira_01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+ふー！　バッチリ！！/
+>>21/
+[set A s_yzm_r 和泉]
+[show A C]
+[face A 11]
+[scale A 1.6]
+[move A Y -150]
+[se pee_01]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+[say A]
+……そういえば、イザナミのしょんべんから
+ミヅハノメとワクムスビが産まれたんだよなぁ。/
+[face A 06]
+[flow]
+オレのしょんべんからは
+なんか産まれたりしないのかなぁ。/
+>>22/
+[set A s_yzm_r 和泉]
+[randomset B r -yzm]
+[show A C]
+[face A 06]
+[move A Y -50]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふー！　個室の中は暇だけど、こういうときに
+できる特訓も$B:Aに教えてもらったんだ！/
+[face A 09]
+[se fire_01]
+よーっし、やるぞー！！[shake A]/
+>>23/
+[set A s_yzm_r 和泉]
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -200]
+[-]
+[serif on]
+[say A]
+…[wait 0.2]…[wait 0.2]ふぅー！[shake A]/
+[face A 10]
+[scale A 1.0 0.5]
+[move A Y 200 0.5]
+よっしゃ、今日もすっきりしたぜ！
+これで明日も特訓がんばれるぜ！！[shake A]/
+>>24/
+[set A s_yzm_r 和泉]
+[show A C]
+[face A 11]
+[se cloth_06]
+[shakebg]
+[-]
+[serif on]
+[say A]
+よっし布団敷き完了～！
+今日の特訓も絶好調だったなー！！/
+[face A 02]
+[rotate A -80 0.5]
+[move A XY 150 10 0.5]
+[delay 0.3 shakebg]
+[se dosa_01]
+そんじゃおやす……[face A 07]ぐぅ……/
+>>25/
+[set A s_yzm_r 和泉]
+[show A C]
+[face A 07]
+[-]
+[serif on]
+[say A]
+ちのいけ……[shake A]すぷらひゅ……むにゃむにゃ……
+……で……とどめ……/
+[face A 09]
+[se zukkoke_01]
+[effect fr syutyu a 0 0]
+[scale A 2 0.3]
+[move A Y -200 0.3]
+[shakebg]
+和泉サンダーッ！！！！[shake A][wait 0.5]
+…………[face A 07][effect off a]ぐぅ。/
+>>26/
+[set A s_yzm_r 和泉]
+[randomset B r -yzm]
+[show A C]
+[show B C]
+[orderline A B]
+[move A XY -100 -60]
+[face A 06]
+[face B 07]
+[-]
+[serif on]
+[say A]
+あ……$B:Aの[= 鍛え抜かれた腕 たくましい腕 ぷにぷにの胸 ぷにぷにのお腹 やわらかいお腹 やわらかい腕 やわらかい胸 いい感じのお腹 いい感じの腕 もみ心地のいいお腹 もみ心地のいい胸 もみ心地のいい腕]……
+枕にするとすごく気持ちいぃ……[shake A]/
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+すや……/
+/
+>>100/
+[set A s_yzm_r 和泉]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 和泉の早朝特訓]
+[-]
+[bg heya_day]
+[fadeout 1.5]
+[bgm home]
+[-]
+[wait 2]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[autotap]/
+[serif on 0.5]
+@？？？
+うりゃーーーー！！
+とりゃーーーーーーー！！/
+[textcolor ARUJI]
+早朝だというのに、
+修練場から元気な声が聞こえてくる。/
+[serif off]
+?こんな早くに誰だろう？/
+[serif on]
+[textcolor ARUJI]
+気になって修練場の扉を開け
+中を覗いてみると――/
+[se fusuma_01]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[hideall]
+[-]
+[effect fr syutyu a 0 0]
+[show A C]
+[bgm off]
+[scale A 1.6]
+[move A Y -100]
+[face A 03]
+[say A]
+[quake 3]
+[-]
+[fadeout 0.5]
+[serif on]
+[textsize 40]
+どりゃーー！！！
+和泉スーパーーキィーーっく！！/
+[serif off]
+?！？/
+[textcolor ARUJI]
+[se zukkoke_01]
+[hide A]
+[shakebg]
+[talkend]
+[textsize 45]
+[serif on]
+どかーーん！！！！/
+[quake off]
+[show A C]
+[face A 05]
+[say A]
+[effect off a]
+あ！！！　主さん！！！！[shake A][fadein BLACK 1][delay 0.5 se dosa_01]/
+[serif off]
+[-]
+[wait 2]
+[hideall]
+[-]
+[serif on]
+@声
+……主さん……主さん……
+主さん！！/
+[serif off]
+[fadeout 2]
+?はっ……ここは……？/
+[show A C]
+[bgm home]
+[face A 01]
+[scale A 1.6]
+[move A Y -100]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+あ、主さん！
+よかったー！　目を覚ましたーー！！/
+[scale A 2.5 0.5]
+[move A Y -250 0.5]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+[hide A]
+[delay 0.5 se cloth_01]
+[textcolor ARUJI]
+[talkend]
+安堵の表情を浮かべて和泉が抱きついてきた。/
+[serif off]
+?和泉/
+[se cloth_04]
+[show A C]
+[scale A 1.6]
+[move A Y -200]
+[move A Y 200 0.3]
+[scale A 1.0 0.5]
+[face A 08]
+[say A]
+[-]
+[serif on]
+主さんごめん！/
+[face A 06]
+オレ、特訓につい夢中になっちゃって……
+大丈夫？　怪我してない？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+そう言われれば、
+少し頭の後ろがズキズキと痛む。/
+[show A C]
+[face A 05]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+[say A]
+あっ！[shake A]
+頭にたんこぶできちゃってる……/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ほんとごめん……うぅ……[shake A]/
+[talkend]
+[textcolor ARUJI]
+和泉は今にも泣き出しそうだ。/
+[serif off]
+?大丈夫だよ。気にしないで/
+[face A 06]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+はぁ……
+こんなんじゃ主さんやみんなを守れないよ……/
+[face A 08]
+[bg black 1]
+オレはまだまだ弱い。
+……今のままじゃダメなんだ。/
+[face A 03]
+[bgm off]
+[minibg emo_ikari 0.5]
+みんなを守れる力を……
+そう、もっと強い力が必要なんだ……！[se quake_01]/
+[serif off]
+?（そうなる？）/
+[effect fr syutyu a 0 0]
+[face A 09]
+[bgm fun]
+[quake 2]
+[light down]
+[lightcolor red]
+[serif on]
+[scale A 2.0 0.5]
+[move A Y -100 0.5]
+[se fire_01]
+だからもっと、もっともーっと特訓して……！！
+うおおおおおお！！　やるぞぉおおおお！！！[shake A]/
+[talkend]
+[textcolor ARUJI]
+和泉が燃えている。/
+[effect off a]
+[quake off]
+[light off]
+[bg rouka_day 0.5]
+[minibg off 0.5]
+[serif off]
+[hide A]
+?和泉は早い時間から特訓してるんだね/
+[show A C]
+[face A 11]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+うん！
+朝起きたらまっさきにここに来るんだ！/
+[face A 02]
+[flow]
+誰かいれば手合わせしたり、一人だと筋トレとか、
+あとは必殺技の特訓！　なんでもやるぜ！/
+[serif off]
+?（必殺技……）/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+そうだ！　主さんってさ、
+よくみんなに助言したりしてるんだろ！？/
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -100 0.5]
+よかったらオレにも色々教えてくれない？
+オレ、本気で強くなりたいんだ！！/
+[face A 08]
+やる気だけは誰にも負けないぜ！！！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+和泉の目は真剣そのものだ。/
+[serif off]
+?いいよ。少しずつやっていこう/
+[show A C]
+[face A 00]
+[say A]
+[scale A 1.6]
+[move A Y -100]
+[serif on]
+ほんと！？[shake A 2 5 5]/
+[move A Y 100 0.5]
+[scale A 1 0.5]
+[-]
+[shake A 6 15 15]
+[autotap]/
+[face A 09]
+[effect fr syutyu a 0 0]
+うおおおぉ！！
+オレの中の炎が熱く燃えてるぜ！！/
+[face A 01]
+[effect off a]
+へへ、ありがとな主さん！/
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、あとそうだ……その……今更だけどさ
+これから……よろしく！！/
+[face A 01]
+オレ、主さんや地魂男児のみんなを守れるように、
+超強くなってみせるから！！/
+[serif off]
+?がんばろう/
+[hide A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+[se cloth_06]
+和泉と固い握手を交わす。/
+[show A C]
+[face A 11]
+[say A]
+じゃあまずは、オレの戦い方とか、
+動き、よく見ててよ！/
+[face A 01]
+[flow]
+そんでどこが足りないか、教えて！/
+[face A 03]
+[shake A]
+[effect fr syutyu a 0 0]
+うおおおおおおおお！！
+いくぜ！　和泉スーパーキーーーック改！！！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+咆哮し、全力で必殺技（？）を繰り出す和泉。/
+[textcolor ARUJI]
+その日の午前中は、和泉の特訓に
+みっちりと付き合うことになったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>202/
+[set A s_yzm_r 和泉]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 和泉と夏の思い出]
+[-]
+[bg black]
+[minibg yatai_night]
+[bgm food]
+[-]
+[fadeout 1]
+[-]
+[autotap]/
+[talkend]
+[serif on 0.5]
+[textcolor ARUJI]
+今日は和泉と一緒に浴衣に着替えて
+近所のお祭りにやってきた。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[say A]
+主さんみてみて！　すっごい人！
+それにお店もいっぱい！！/
+[face A 09]
+[se fire_01]
+[shake A]
+ロクハラの近くでこんな大掛かりな祭りがある
+なんてさー！！　くぅぅ燃えるぜぇ！/
+[hide A]
+[se gaya_01]
+[talkend]
+[textcolor ARUJI]
+街の一帯はお祭り一色で大盛りあがりだ。/
+[flow]
+[textcolor ARUJI]
+たくさんの出店が軒を連ね、
+祭囃子があちこちから聞こえる。/
+[show A C]
+[face A 11]
+[say A]
+[move A Y 100 0.2]
+[delay 0.2 move A Y -100 0.2]
+あ、オレたちみたいに浴衣を着てる人もいる！
+あ、あんな小さい子どもまで！[move A X 100 0.3]/
+[face A 00]
+[move A X -100 0.5]
+厳かな儀式がある祭事もいいけど、
+こういう楽しいお祭りもオレ大好きなんだ！/
+[hide A]
+[talkend]
+[serif off]
+?はぐれないように気をつけないと/
+[show A C]
+[face A 02]
+[say A]
+[serif on]
+大丈夫、主さんはオレが守るから！/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 11]
+さあオレの手を握って！
+ぜったいに離さないから！！/
+[serif off]
+?手を握る/
+[face A 01]
+[talkend]
+[shake A]
+[se cloth_05]
+[-]
+[serif on]
+[textcolor ARUJI]
+手を握ると、和泉はニコっと笑って
+力強く握り返してきた。/
+[face A 00]
+[say A]
+まずは何食べる？
+オレ、小銭多めに用意してあるから任せて！/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 11]
+一応祭り会場の地図ももらっておいたんだ。
+……はい、これ主さんの分！[se paper_01]/
+[face A 01]
+何か気になる場所があったらオレに
+言ってね！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+和泉は意外なほどしっかりしていて、
+なんだか頼もしく思えた。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+しばらくは和泉と色んな食べ物を食べて過ごした。
+すると軽快な民謡が流れ、人々が踊りだした。/
+[show A C]
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[say A]
+見てみて主さん！　オレたちも踊ろ！！[shake A]/
+[say A]
+[serif off]
+?え、でも振り付けとかどうやったら……/
+[serif on]
+[face A 02]
+大丈夫！[shake A]　周りの人を見ながら
+一緒にやればすぐできるようになるから！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 06]
+えっと最初はこう、こうっと。
+それから……こうかな！/
+[face A 00]
+主さんも、オレの真似してみて！/
+[serif off]
+?和泉の動きに合わせてみる/
+[serif on]
+[face A 01]
+そうそう、うまいよ主さん！/
+[face A 08]
+[scale A 2 0.5]
+[move A Y -100 0.5]
+もうちょっとだけ、
+こう、手の角度をこうして……/
+[face A 11]
+[serif on]
+[se cloth_01]
+[textcolor ARUJI]
+[talkend]
+和泉は手を取りコツを教えてくれる。
+ふと、しばらくこちらを見ていた和泉は――/
+[face A 10]
+[say A]
+へへ、なんか主さんとふたりっきりなんて
+なんかすごく不思議な気分だぜ。/
+[hide A]
+[textcolor ARUJI]
+[talkend]
+和泉はニッコリと笑顔を浮かべこちらを覗き込む。
+石鹸のような爽やかなニオイがふわっと香った。/
+[show A]
+[scale A 2]
+[move A Y -240]
+[scale A 1.6 0.5]
+[move A Y 120 0.5]
+[face A 11]
+[say A]
+[se cloth_01]
+あっ、えっと……
+それじゃあ、その感じで、踊ろ！[face A 02][shake A]/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+和泉に教わったコツを確かめながら
+再び音楽に合わせて和泉と一緒に踊る。/
+[textcolor ARUJI]
+同じ動きをしていると、
+なんだか心が通い合っているように感じられた。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 02]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふー！　主さん、そろそろ休憩しよっか！/
+[face A 08]
+……あれ？
+なんだろ、みんな移動してく……/
+[hide A]
+[se gaya_01]
+[talkend]
+[textcolor ARUJI]
+突然周りから歓声が上がり、
+たくさんの山車がやってきた。/
+[flow]
+[textcolor ARUJI]
+祭りもいよいよクライマックスのようだ。/
+[effect fr syutyu a 0 0]
+[show A C]
+[face A 09]
+[se fire_01]
+[say A]
+うおおおお、山車だ山車だ！[shakebg]
+この山車みるのが一番楽しみだったんだ！！/
+[face A 08]
+[flow]
+この山車は江戸時代から続くやつなんだけど――/
+[face A 01]
+[flow]
+神様とか伝説にちなんだ装飾がしてあるのもある
+らしくて、絶対見逃せないんだ！！！/
+[quake 1]
+[face A 09]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+うおーーー！/
+[face A 02]
+主さん、あの山車の彫刻みてみて！
+スサノオとヤマタノオロチかな！？[shake A]　かっけぇー！/
+[hide A]
+[quake off]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+大興奮の和泉を見ながら、
+早くも今日は来てよかったと思った。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[bgm night]
+[fadeout 1.5]
+[-]
+[serif on]
+[autotap]/
+[textcolor ARUJI]
+山車が帰ると、人もずいぶんと少なくなった。
+祭りは終わりが近いみたいだ。/
+[show A C]
+[face A 01]
+[say A]
+ふう～、楽しかったね！
+主さん！/
+[face A 11]
+オレ、現代の祭りに来るのは
+今日が初めてだったけど――/
+[face A 00]
+現代でもこうして祭りがちゃんと続いてて、
+オレすごくうれしかったんだ。/
+[face A 10]
+主さん……オレ、祭り本当に大好き！/
+[face A 06]
+その、だから……今日、初めての祭りを……
+主さんとふたりで、来れてよかった……なって。/
+[face A 10]
+オレ、初めては……
+主さんと一緒に行きたかったから……！/
+[face A 00]
+そうだ……あのさ、これ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+和泉が手渡してきたのは勾玉のお守りだった。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[say A]
+出店で見つけたやつなんだけど、
+よかったら受け取ってくれないかな！/
+[serif off]
+[se cloth_01]
+[hide A]
+[talkend]
+?勾玉を首から下げてみる/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[say A]
+[serif on]
+うん、ばっちり！
+似合ってるよ、主さん！/
+[face A 11]
+[flow]
+勾玉ってさ、ほんと長い歴史があって、
+古墳なんかからも出土してたりするんだぜ！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[flow]
+ずーっと昔から、色んな人の祈りや願いに
+寄り添ってきたのかもね。/
+[face A 10]
+……だからオレもそんなふうに、
+ずーっと、主さんのそばにいたいなって！/
+[face A 06]
+[shake A]
+ってちょっとキザっぽいかな……/
+[serif off]
+?ありがとう。和泉/
+[serif on]
+[face A 05]
+……っ！[shake A 3 10 10]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+へへ……っ！
+なんか、めっちゃ照れるぜ！/
+[face A 11]
+でもさ……[wait 0.3]
+これは本当にほんと。/
+[face A 08]
+……主さん。/
+オレ、主さんを……
+それにこの世界を、絶対に守るから！！/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[wait 0.5]
+[face A 01]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[serif on]
+[face A 05]
+あ！[shake A]
+主さん、出店が閉店間際で割引してるよ！[face A 09]/
+[face A 02]
+[flow]
+オレ、荘園のみんなにお土産買っていこうかな。
+さあ、見に行こうよ！[face A 10]/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+和泉に手を引かれ、
+祭りの喧騒の中へと戻っていく。[se gaya_01]/
+[textcolor ARUJI]
+今日は和泉といい夏の思い出ができたのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

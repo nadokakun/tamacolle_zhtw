@@ -1,0 +1,1283 @@
+>>10000/
+@土佐
+南海道、土佐だ。[autotap]/
+[delay 2.3]
+[flow]
+[-]
+@土佐
+敵は全て貫く！[wait 1.5]
+それが俺の征く道だ。/
+>>10001/
+@土佐
+さぁ何度でも俺を呼べ…[autotap]/
+[delay 3.1]
+[flow]
+[-]
+@土佐
+俺はそのたびに強くなる！/
+>>1/
+[set A s_tos_r 土佐]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+最後の清流と呼ばれる四万十川に、
+水の美しい青さが際立つ仁淀川。/
+[face A 00]
+どちらも誇るべき立派な川だが、
+主、訪れたことはあるのか？/
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+安心しろ。
+もしないならば、俺が案内してやろう！/
+[face A 08]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+まさか、俺の誘いを断ったりは
+……[wait 0.5][face A 03]しないよな？/
+>>2/
+[set A s_tos_r 土佐]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+はっはっは！　ヒック……[shake A]
+主よ、俺は酒ならばいくらでも飲めるぞ！/
+[face A 09]
+ん、なんだその目は？
+俺が下戸だと疑っているのか……？/
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+よしわかった。
+ならば、ここで「どろめ祭り」といくか。/
+[face A 09]
+[effect fr syutyu 3000 0 0]
+男は一升一気飲みだ！
+もちろん俺は余裕だ。はっは……ヒック！[shake A 2 10 10]/
+>>3/
+[set A s_tos_r 土佐]
+[show A R]
+[se fusuma_01]
+[face A 00]
+[say A]
+[move A C 1]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+ふぅー……ん？　主か。
+俺は酔い醒ましに外に出てきたところだ。/
+[face A 09]
+ブルッ……[shake A]今夜は随分と涼しいな。
+ん……ふぅーっ！　[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]いい気分だ。/
+[face A 01]
+[flow]
+こういう日は龍河洞を思い出す。
+あそこはいつ行っても涼しくていい。/
+[face A 02]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+どうだ？　今から行ってみないか？
+そこで晩酌の続きと行こうじゃないか！/
+>>4/
+[set A s_tos_r 土佐]
+[randomset B r @地魂男児 @あやかし @NPC -tos -n006]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふぅ……運動したら喉がかわいたな……
+何か飲み物があったか……/
+[show B R]
+[setline 0.5 A B]
+[face A 00]
+[face B 01]
+[say A]
+$B:A。[= 冷たい麦茶 ほっとみるく 紅茶 珈琲 煎茶 天然水 葡萄ジュース]を用意してくれたのか。
+……助かる。ちょうど喉が乾いていたところだ。/
+[face A 01]
+[face B 00]
+ありがたく頂戴するとしよう。
+……ごくっ、[move A Y 20 0.2]ごくっ[move A Y -10 0.1][delay 0.1 move A Y 20 0.2]……ぷはーーー[move A Y -30 1]……/
+[waku on 0.5]
+[face A 05]
+（……酒でないと味がしないな。）
+/
+>>5/
+[set A s_tos_r 土佐]
+[randomset B r @地魂男児 @あやかし -@NPC -tos]
+[show A L]
+[show B R]
+[face A 08]
+[face B 00]
+[move B Y -60]
+[move A X 100 1]
+[se fusuma_01]
+[say A]
+[-]
+[serif on]
+おい、$B:A。[face B 05][shake B]随分とくつろいでいるようだな。
+今日は任務や仕事はないのか？/
+[serif off]
+[shake B]
+[face B 00]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face A 01]
+[-]
+[serif on]
+そうか。ならば、修練場に行ったらどうだ。
+俺もこのあと行くつもりだ。/
+[rotate B -10 0.5]
+[move B Y -50 0.5]
+[face A 08]
+[face B 01]
+……なに？[shake A]
+あとで行けたら行くだと？/
+[face A 03]
+[face B 05]
+[rotate B 0 0.2]
+[move A X 250 0.3]
+[move B XY 100 110 0.3]
+中途半端な物言いはやめろ！[shake A]
+行くか行かないのかハッキリしろ！！[face B 04]/
+>>6/
+[set A s_tos_r 土佐]
+[randomset B r @地魂男児 -@あやかし -@NPC -tos]
+[show A L]
+[show B R]
+[move B Y -50]
+[move A X 100 0.5]
+[se fusuma_01]
+[face A 08]
+[face B 05]
+[say A]
+[orderline B A]
+[-]
+[serif on]
+$B:A！　この前の手合わせの決着が
+まだついていなかったな！/
+[face A 01]
+[face B 00]
+どうだ？　これから修練場で一勝負……/
+[move B Y 50 0.5]
+[setline 0.5 A B]
+[face A 08]
+[face B 08]
+フン、いい返事だ。
+行くぞ！！/
+[move A X -350 0.5]
+[move B X -300 0.5]
+[se fusuma_01]
+[hideall]
+[autotap]/
+>>7/
+/
+/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_tos_r 土佐]
+[show A C]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ふぅ……
+風も穏やかで静かないい夜だ。/
+[face A 09]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+……グビッ。/
+[face A 02]
+こうやって、
+一人で月見酒というのもオツなものだな。/
+>>10/
+[set A s_tos_r 土佐]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[effect fr syutyu 5000 0 0]
+お、今日の晩飯は鰹のタタキか。
+フッ、いいぞ！[shake A][face A 03]/
+[face A 09]
+[move A Y -50 0.3]
+[se dosa_01]
+やはり鰹はタタキに限るな。[shake A]
+土佐造りはまさに絶品！[shake A]　薬味とタレも美味い！[shake A]/
+[face A 01]
+[se eat_01]
+……もぐもぐ……
+ふぅ………[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]………美味すぎるな……[effect fr kira 2000 0 0][se kira_01]/
+>>11/
+[set A s_tos_r 土佐]
+[randomset B r @地魂男児 @あやかし -@NPC -tos]
+[show A C]
+[show B C]
+[face A 00]
+[face B 00]
+[setline A B]
+[serif on]
+[say A]
+$B:A、貴様も訓練を終えたところか。
+ふふ、横目で見ていたが中々いい動きだったぞ。/
+[face A 02]
+[face B 01]
+貴様とも一度じっくり話してみたいな。
+どうだ、このあと俺と飲まないか？/
+[face A 01]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+フッ……よし、今日はとことん付き合え！[shake A][face A 03]
+なんなら朝まで付き合ってもらうぞ！！
+[face B 05]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_tos_r 土佐]
+[randomset B r @地魂男児 @あやかし -@NPC -tos]
+[show A L]
+[face A 06]
+[move A C 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+う……うーむ……
+体が妙にうずくな……どうにも落ち着かん……/
+[face A 09]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そうだ……いまなら酒の勢いに任せて
+[= 描きかけの絵を完成させるか…… $B:Aあたりを床に誘って…… 普段言えない感謝を$B:Aに…… 主の部屋に押し入ってそのまま…… 主にオレの鍛えた肉体を見せに…… $B:Aの匂いを思う存分嗅いで……]/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……いや、やめておこう。
+追い酒をして紛らわすか……[move A X 200 0.5][hide A]/
+>>15/
+[set A s_tos_m 土佐]
+[show A C]
+[face A 03]
+[serif on]
+[say A]
+[scale A 1.6 0.3]
+[move A Y -100 0.3]
+[shakebg]
+[effect fr allow 3000 0 0]
+[se doka_01]
+[delay 0.3 se crash_01]
+[effect fr syutyu 4000 0 0]
+はーーーーッ！！！/
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+フン、もう壊れてしまったか。
+この程度の硬さのカカシではもう訓練にならんな。/
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+……フッ。
+俺も日々強くなっているということか。/
+>>16/
+[set A s_tos_m 土佐]
+[randomset B m -tos]
+[show A C]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+うーむ。[se cloth_01]
+……ふむ……ふふふ。[face A 01]/
+[show B R]
+[move B X 400]
+[move B X -200 0.8]
+[face A 00]
+[face B 00]
+[orderline B A]
+[say A]
+$B:A。触ってみろ。オレの肉体を。
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]/
+[face A 01]
+[rotate A 5 0.5]
+[move A X -100 0.5]
+[scale A 1.6 0.5]
+[scale B 1.6 0.5]
+[moveline A B 0 -120 0.5]
+[move B X -200 0.6]
+[face B 01]
+日々の任務と鍛錬のおかげか、
+かなり鍛え上げられてきているだろう。
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]/
+[face A 02]
+[face B 02]
+ふふ。
+もっと触ってもいいぞ？
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[-]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]/
+>>17/
+[set A s_tos_r 土佐]
+[show A C]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ぷはーっ！/
+[face A 09]
+やはり風呂上がりには酒だな！！[shake A]/
+>>18/
+[set A s_tos_b 土佐]
+[randomset B b @地魂男児 @あやかし @NPC -tos]
+[randomset C b -@NOW]
+[show A C]
+[show B C]
+[show C C]
+[effect fr yuge a 0 0]
+[se amb_12]
+[moveline A B C 0 -100 0]
+[setline B A C]
+[orderline A B C]
+[face A 06]
+[face B 01]
+[face C 01]
+[-]
+[serif on]
+[say A]
+フン、ガヤガヤとやかましいな。/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se bath_04]
+まったく……
+たまには一人でゆっくり浸かりたいものだ。/
+>>19/
+[set A s_tos_r 土佐]
+[randomset B r @地魂男児 @あやかし @NPC -tos]
+[randomset C b -@NOW]
+[effect fr yuge a 0 0]
+[se amb_12]
+[show B C]
+[face B 00]
+[move B Y -100]
+[se bath_05]
+[shake B 5 3 3]
+[wait 1]
+[-]
+[show C R]
+[face C 00]
+[move C X 1000]
+[moveline B C -1000 0 1]
+[-]
+[move C XY 10 -40 0.4]
+[rotate C 10 0.3]
+[delay 0.4 move C XY -10 40 0.3]
+[delay 0.5 rotate C 0 0.3]
+[delay 0.2 se bath_01]
+[-]
+[face C 01]
+[delay 1 se bath_03]
+[wait 0.6]
+[move C XY -10 -40 0.4]
+[rotate C 10 0.3]
+[delay 0.4 move C XY 10 40 0.3]
+[delay 0.5 rotate C 0 0.3]
+[-]
+[show A C]
+[scale A 1.6]
+[move A Y -150]
+[move A X 1000]
+[move C X -200 1]
+[moveline C A -1000 0 1]
+[face A 05]
+[-]
+[hide B]
+[hide C]
+[serif on]
+[say A]
+ん……なんだ……？[se bath_04]
+なぜだ……？[shake A]/
+[face A 06]
+今日は周りの奴らが妙に雄々しく感じる……
+飲みすぎたか……？[shake A]/
+[move A Y 100 0.3]
+[se water_03]
+[effect fr splash 4000 0 0]
+……水で顔を洗ってくるか。/
+>>20/
+[set A s_tos_r 土佐]
+[show A C]
+[se pee_01]
+[face A 05]
+[serif on]
+[say A]
+……お？　おおお！？　うおっ！[se pee_01][shake A]
+おおおお……[se pee_01]/
+[face A 06]
+くそ、飲みすぎたか……
+勢いが止まらん……！/
+>>21/
+[set A s_tos_r 土佐]
+[randomset B r @地魂男児 @あやかし @NPC -tos]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[setline A B]
+[se pee_01]
+[say A]
+うむ。
+我ながら立派なモノだな。/
+[face A 00]
+[face B 05]
+[shake B]
+……？/
+[face A 09]
+[face B 06]
+何を驚いている？
+……ふふ、気にせずもっと見るといい。[shake B]/
+>>22/
+[set A s_tos_r 土佐]
+[show A C]
+[face A 01]
+[serif on]
+[say A]
+[move A Y -50]
+ふぅ。
+さて今日は、これから修練場に行って……/
+[face A 05]
+……！？[shake A]
+紙が……ない……だ……と！？/
+[face A 03]
+[effect fr syutyu 3000 0 0]
+[scale A 1.6 0.1]
+[move A Y -100 0.1]
+お、おい！　誰か！！
+紙を！　だ、誰か紙を……！！！[shake A]/
+>>23/
+[set A s_tos_m 土佐]
+[set B s_tos_b 土佐]
+[show A R]
+[move A X 200]
+[move A X -200 0.5]
+[face A 00]
+[serif on]
+[say A]
+訓練が長引いてしまった。
+……風呂の前に便所だ。/
+[move A C 0.5]
+[se door_01]
+[face A 08]
+どうせこのあと風呂に入るからな……
+汗で濡れた服は先に脱いでしまうか。/
+[shake A]
+[se cloth_01]
+[hide A]
+[-]
+[wait 0.5]
+[show B C]
+[scale B 1.6]
+[move B Y -130]
+[face B 01]
+[say B]
+[effect fr kira 2000 0 0]
+[se kira_01]
+……ふ、我ながら今日も存分に
+鍛え上げたものだ。/
+[move B Y -100 0.5]
+！！！[face B 06][shake B 5 8 8]　便座が……[face B 05]冷たい……！！[shake B]/
+>>24/
+[set A s_tos_r 土佐]
+[show A C]
+[face A 07]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[shake A]
+[face A 05]
+[-]
+[serif on]
+[say A]
+……はっ！
+なんだ……まだ夜ではないか……/
+[face A 07]
+[move A Y -50 1]
+[se cloth_01]
+…………
+……………………/
+[face A 03]
+[move A Y 50 0.3]
+[se cloth_06]
+眠れん……
+こういう時は寝酒だ。酒……酒はどこだ……[move A X 400 0.5][hide A]/
+>>25/
+[set A s_tos_r 土佐]
+[show A C]
+[face A 07]
+[serif on]
+[say A]
+グゴゴゴゴゴ……酒…………[shake A]
+……もう一杯……グゴゴゴォ……[shake A]/
+>>26/
+[set A s_tos_r 土佐]
+[show A C]
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se cloth_01]
+[serif on]
+[say A]
+…………
+………………/
+[face A 09]
+主が恋しくなる……
+まさか俺にも……そんな夜があるとはな……/
+>>27/
+[set A s_tos_r 土佐]
+[show A C]
+[face A 00]
+?土佐、ハレの日おめでとう！/
+[face A 01]
+[say A]
+[serif on]
+ふ、主か。
+ちょうどいいところに来た。/
+[face A 00]
+この箸を持て。
+……違う。[face A 03][shake A]三本持て。そうだ。[face A 08]/
+[scale A 1.6 0.3]
+[effect fr syutyu a 0 0]
+[move A Y -160 0.3]
+[face A 01]
+ではいくぞ……！[shake A]
+……「いらっしゃい」！！[face A 03][shake A][se cloth_06]/
+[serif off]
+?？？？/
+[effect off a]
+[face A 05]
+[serif on]
+なんだその顔は……
+まさか箸拳を知らんのか。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+やれやれ。
+……ということは今日が何の日かも知らんわけだ。/
+[face A 00]
+まあいい。お前は箸を出さなかったから
+不戦敗とでもするか。[shake A][face A 03]さあ罰杯だ。酒を飲め！/
+[serif off]
+?ええー/
+[face A 01]
+[serif on]
+いいか主 。今日は「日本酒の日」であり、
+「箸拳大会」の開催日でもあるのだ！/
+[face A 02]
+主は初めてだから情けをかけてやるとしよう。
+俺がみっちりとルールを教えてやる。/
+[face A 01]
+他の奴らも集めて大会にしようじゃないか。
+酒をしこたま用意せねばな！[shake A]/
+[flow]
+[face A 09]
+今日ぐらいはどれだけ呑んでも
+許されるだろう！/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 00]
+[-]
+[serif on]
+…………主。/
+[face A 01]
+……勝負は手を抜いたりはしないぞ。
+お前の酒を俺に飲ませてみろ！[face A 03][shake A][se taiko_02]/
+[scale A 1.0 0.5]
+[move A Y 160 0.5]
+[face A 01]
+……早く居間に集合だ！　遅れるなよ主！/
+>>100/
+[set A s_tos_r 土佐]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 土佐とお喋り]
+[-]
+[se cloth_01]
+[bg heya_day]
+[bgm home]
+[-]
+[serif on 0.5]
+[talkend]
+@？？？
+おい、起きろ。主。/
+[se cloth_06]
+[textcolor ARUJI]
+眠っていると突然誰かに乱暴に
+揺り起こされた。/
+[serif off]
+?えっ？　ええ？/
+[show A C]
+[face A 08]
+[waku on]
+[scale A 1.6]
+[move A Y -150]
+[-]
+[se amb_01]
+[fadeout 1]
+[waku off 2.5]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+目を開けると土佐が立っていた。/
+[face A 00]
+[say A]
+[scale A 1 0.5]
+[move A Y 150 0.5]
+起きたか。/
+[serif off]
+?土佐？　どうして、てか今何時？/
+[face A 08]
+[serif on]
+明け六つだ。
+そんなことよりも話がある。/
+[face A 03]
+俺を任務に出せ。[shakebg][se taiko_01]/
+[face A 08]
+[scale A 1.3 0.3]
+[move A Y -70 0.3]
+貴様は任務をまっとうさせるために
+俺を呼んだのだろう。[shakebg][se taiko_01]/
+[face A 03]
+だったらお前のすることは
+俺を任務に出すことだ。/
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.3]
+[move A Y -80 0.3]
+さぁ命じろ！[shake A][se taiko_02]/
+[hide A]
+[effect off a]
+[serif off]
+?今日は任務ないよ/
+[show A]
+[effect fr syutyu a 0 0]
+[serif on]
+[face A 05]
+何……！？[shakebg][se zukkoke_02]/
+[face A 03]
+では、今日一日俺に
+どうしろというのだ！？/
+[hide A]
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+ふと、思い出したが、土佐は
+荘園に来てからまだ日が浅い。/
+[textcolor ARUJI]
+なので一度土佐とゆっくり話そうと
+思っていたのだった。/
+[serif off]
+?土佐とお喋りする/
+[show A C]
+[face A 00]
+[say A]
+[wait 1]
+[-]
+[serif on 0.5]
+……それは命令か？/
+[face A 06]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+わかった。いいだろう。/
+[move A Y -100 0.5]
+[hide A]
+[delay 0.5 shakebg]
+[delay 0.5 se dosa_01]
+[talkend]
+[textcolor ARUJI]
+土佐はどさりと床に腰を下ろす。/
+[serif off]
+?それじゃあ――/
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+待て。[shake A]
+話をするなら、これが必要だろう。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[shakebg]
+[se dosa_01]
+ドンっと土佐が床に置いたのは
+日本酒の大瓶。/
+[serif off]
+?朝から！？/
+[show A C]
+[face A 03]
+[say A]
+[scale A 1.6]
+[move A Y -150]
+[serif on]
+酒が入らずに話などしてられるか。/
+[face A 00]
+主よ。命じろ。「飲め」と。/
+[serif off]
+?……飲め/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[wait 1]
+[show A C]
+[face A 01]
+[bgm fun]
+[-]
+[fadeout 1]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[say A]
+[serif on]
+ぐびぐびぐび……ぷはーーーッ！[shake A]/
+[serif off]
+[face A 02]
+[move A Y -0 0.1]
+[delay 0.1 move A Y -10 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.3]
+[-]
+[serif on]
+はっはっは、酒はいい！
+さぁ主よ、話の続きをしようではないか。/
+[serif off]
+?すごい勢いで飲むなぁ/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+しかし酒を飲み始めてからの土佐は
+ピリピリとした感じがなくなり――/
+[textcolor ARUJI]
+[flow]
+少し話しやすい雰囲気になったような
+気がする。/
+[show A C]
+[face A 09]
+[say A]
+……主よ。貴様は、
+俺を侮っているのではないだろうな。/
+[serif off]
+?えっ、どういうこと？/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+俺はここに声聞されてから日が浅い。/
+[face A 03]
+[flow]
+故に、任務を任せるにはまだ早いなどと
+甘い考えを抱いていやしないか！？[shake A]/
+[serif off]
+?いやいや、そんなことは……/
+[face A 08]
+[scale A 1.6 0.3]
+[move A Y -150 0.3]
+[serif on]
+いいか、主。
+俺は自分の力には絶対の自信がある。[shake A]/
+[face A 01]
+[flow]
+なんせ任務を遂行するだけの力を
+十二分に持っているのだからな！/
+[face A 03]
+[flow]
+見ろ、この肉体を。フンッ！！[shake A]/
+[face A 08]
+[talkend]
+[textcolor ARUJI]
+土佐はグッと腕に力を込め、
+力こぶを見せてきた。/
+[textcolor ARUJI]
+[flow]
+触れてみるとその感触は――/
+[serif off]
+?かたい……カチカチだ……/
+[face A 01]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+ふ、中々のものだろう。/
+[face A 03]
+毛並みも他の地魂男児には負けん。
+特にここだぁ！[shakebg][effect fr syutyu a 0 0][scale A 2.0 0.3]/
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+そう言って土佐は胸元の毛を指差した。
+触れてみるとその感触は――/
+[serif off]
+?ふさふさで柔らかい……/
+[move A Y -100 0.5]
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 01]
+[say A]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+ふふ、そうだろうそうだろう。/
+[serif off]
+[bgm off]
+[effect off a]
+[hide A]
+[se rokuhara_07]
+[-]
+[wait 0.5]
+[-]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+その時、突然スマホのアラームが鳴った。/
+[textcolor ARUJI]
+見たいTV番組があったので、
+忘れないようにと設定しておいたのだが――/
+[serif off]
+?（後で見逃し配信で見ればいいか）/
+[show A C]
+[face A 08]
+[textcolor ARUJI]
+[serif on]
+アラームを止めると、土佐が何やら
+真剣な面持ちでこちらを見ている。/
+[say A]
+……主よ、何か予定があったのか？/
+[serif off]
+?うん。でも大したことじゃないから大丈夫/
+[face A 03]
+[scale A 1.3 0.5]
+[move A Y -50 0.5]
+[effect fr syutyu a 0 0]
+[bgm departure]
+[serif on]
+おい、まさか、取りやめるつもりか？/
+[face A 06]
+[scale A 1.6 0.5]
+[move A Y -70 0.5]
+一度決めたことを途中で投げ出すような
+男なのか、貴様は……！？[shake A]/
+[serif off]
+?でも、土佐とお喋りするって言ったし……/
+[serif on]
+[face A 03]
+[quake 2]
+[scale A 2 0.3]
+[move A Y -80 0.3]
+ならば両方やればいいだろうが！！！[se zukkoke_02]/
+[serif off]
+?ひぃ！/
+[fadein BLACK 2.0]
+[-]
+[hide A]
+[quake off]
+[effect off a]
+[talkend]
+[serif on 0.5]
+[textcolor ARUJI]
+その後、土佐の気迫に押される形で、
+二人でTV番組を見ることになった。/
+[textcolor ARUJI]
+[flow]
+……のだが、同時に酔った土佐との
+お喋りも続けたため――/
+[textcolor ARUJI]
+[flow]
+番組の内容はほとんど
+頭に入ってこなかったのだった。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_tos_r 土佐]
+[set B s_obj002_m 画伯1]
+[set C s_obj003_m 画伯2]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 土佐は何犬？]
+[-]
+[bg gozasyo_day]
+[bgm home]
+[-]
+[fadeout]
+[-]
+[autotap]
+/
+[serif on 0.5]
+[textcolor ARUJI]
+今日は地魂男児を対象とした面談。/
+[flow]
+[textcolor ARUJI]
+それは地魂男児のメンタルチェックのほか、
+生活の中での問題点や任務での希望など――/
+[flow]
+[textcolor ARUJI]
+様々な要望を取りまとめたりするために
+定期的に行われている。/
+[serif off]
+?で、土佐は最近どう？/
+[show A C]
+[face A 01]
+[-]
+[say A]
+[serif on 0.5]
+特に何の問題もないな。/
+[face A 00]
+[flow]
+適切に任務を与えてもらえていると思う。/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+しかし不真面目なやつが多くて足を引っ張られて
+いると感じることがよくあるがな。/
+[face A 00]
+[flow]
+正直、軽い任務なら俺一人で行ったほうが
+効率がいいと思うぞ。/
+[talkend]
+[textcolor ARUJI]
+真面目ではあるが、とても頑固な土佐は
+他の地魂男児と上手くやれているのだろうか……/
+[hide A]
+[textcolor ARUJI]
+[se paper_01]
+そう思い資料に目を落とす。/
+[serif off]
+?（同じ犬科の方が相性がいいとかあるかな）/
+[serif on]
+[textcolor ARUJI]
+そしてふと思った。/
+[serif off]
+?土佐って、一応土佐犬？/
+[show A C]
+[face A 08]
+[say A]
+[-]
+[wait 0.5]
+[-]
+[serif on]
+なんだ突然。
+俺の見た目の話をしているのか？/
+[face A 03]
+[scale A 1.6 0.3]
+[move A Y -100 0.3]
+[effect fr syutyu a 0 0]
+[quake 2]
+俺を誰だと思っている！
+土佐だ！　土佐犬に決まっている！[se taiko_02]/
+[effect off a]
+[quake off]
+[serif off]
+?土佐犬ってもっと闘犬っぽくない？/
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふむ、貴様は土佐犬をよく知らんようだな。/
+[face A 03]
+そのペンを貸してみろ！
+土佐犬というのはこういう……/
+[hide A]
+[talkend]
+[se write_01]
+[textcolor ARUJI]
+土佐はそう言ってメモ帳に何かを描き始めた。/
+[show A C]
+[face A 03]
+[say A]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+見ろ、これが土佐犬だ。/
+[hide A]
+[talkend]
+[serif off]
+[se paper_01]
+?……？？？/
+[bg black 0.5]
+[bgm eerie]
+[minibg emo_donyori 0.5]
+[se taiko_03]
+[show B C]
+[move B X 200]
+[scale B 2.0]
+[rotate B 60]
+[wait 1]
+[-]
+[move B XY -100 150 5]
+[scale B 1.0 5]
+[rotate B 90 5]
+[autotap]/
+[textcolor ARUJI]
+[serif on]
+メモ帳に描かれたのは何かよくわからないぐにゃぐにゃ
+と歪んだ線の集合体だった。/
+[serif off]
+[bgm fun]
+?あっここが……目……？　これが口かな？/
+[hide B]
+[show A]
+[scale A 1.6]
+[effect fr syutyu a 0 0]
+[quake 3]
+[move A Y -100]
+[bg gozasyo_day 0.5]
+[minibg off 0.5]
+[face A 05]
+[say A]
+[se taiko_01]
+[textsize 40]
+[serif on]
+違う！！/
+[face A 03]
+[flow]
+[textsize 40]
+ここが前足で、ここが鼻だ！
+そしてこれが尻尾だ。[se taiko_02]/
+[serif off]
+[hide A]
+[se paper_01]
+[effect off a]
+[quake off]
+[show B]
+[move B XY -100 100]
+[rotate B -30]
+[rotate B -80 1]
+[delay 1 rotate B -50 0.5]
+[bg black 0.5]
+[minibg emo_donyori 0.5]
+[-]
+[move B XY -50 -50 1]
+[scale B 1.5 1]
+[-]
+[wait 1.5]
+[-]
+[talkend]
+?あ、全身だったんだっ/
+[hide B]
+[-]
+[show A C]
+[minibg off 0.5]
+[bg gozasyo_day 0.5]
+[face A 06]
+[say A]
+[-]
+[serif on]
+く……ッ！[shake A]/
+[face A 03]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[se paper_01]
+もう一度描く！[se write_01]
+こうして[shake A]……こうすれば[shake A]、わかるか！[shake A 2]/
+[hide A]
+[serif off]
+[-]
+[bgm eerie]
+[bg black 0.5]
+[minibg emo_donyori]
+[show C]
+[move C X -100]
+[rotate C -30]
+[scale C 2.0]
+[move C Y -50]
+[wait 1.5]
+[-]
+[move C XY 100 -100 6]
+[rotate C 10 6]
+[scale C 3 6]
+[move C Y -200 6]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+そこにはタコのような、
+得体のしれないクリーチャーが描かれていた。/
+[textcolor ARUJI]
+[wait 0.5]
+[flow]
+口元のようなものがにぃぃっと笑っているのが
+なんとも言えぬ不気味さを放っている。/
+[minibg off 0.5]
+[bg gozasyo_day 0.5]
+[wait 1]
+[bgm off]
+[serif off]
+?……画伯とお呼びしても？/
+[hide C]
+[show A C]
+[face A 05]
+[say A]
+[bgm fun]
+[serif on]
+き、貴様、バカにしているだろう！[shake A 1 5 5][se doka_01]/
+[talkend]
+[textcolor ARUJI]
+机を叩いて抗議する土佐。/
+[face A 03]
+[say A]
+よく見てみろ！/
+[show C R]
+[show B R]
+[rotate B 10 0.5]
+[orderline C B]
+[move B X -150 0.5]
+[move C X 50 0.8]
+[se paper_01]
+[rotate C -10 0.8]
+[scale B 1.6]
+[scale C 1.6]
+[move A L 0.5]
+[flow]
+こちらを向いて尾を振っている姿が
+しっかり描けているだろうが！/
+[face A 06]
+おい何を笑っている。
+ちゃんと俺の絵を見ろ！！[shake A]/
+[hideall]
+[-]
+[talkend]
+[textcolor ARUJI]
+せっかくなので土佐犬について
+スマホで調べてみる。/
+[textcolor ARUJI]
+[flow]
+すると、昔土佐犬と呼ばれていた犬は、現代では
+四国犬と呼ばれていることがわかった。/
+[show A C]
+[face A 08]
+[say A]
+土佐犬が現代では四国犬……？/
+[face A 06]
+チッ！　ややこしいな！[shake A]
+現代の土佐犬はどんな面をしている！？/
+[talkend]
+[textcolor ARUJI]
+土佐犬……正確には土佐闘犬の写真を
+スマホに表示して土佐に手渡した。/
+[serif off]
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[-]
+[se zukkoke_01]
+[shake A 3]
+[face A 03]
+[-]
+[serif on]
+[say A]
+……！？　なんだこれは！
+全然違うではないか！！/
+[serif off]
+?せっかくだからこれ見ながら描いてみたら？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[face A 08]
+[-]
+[serif on]
+いいだろう！[se write_01][shake A 3]/
+[serif off]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+[face A 02]
+…………よし、できたぞ！[se paper_01]　どうだ！！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+土佐の何とも言えない個性的な絵が気になって
+しまい、その後も何枚か描いてもらった。[se write_01]/
+[fadein BLACK 2.0]
+[autotap]/
+[textcolor ARUJI]
+[se write_02]
+[delay 0.3 se paper_01]
+[flow]
+土佐画伯による大量の作品が出来上がったところで、
+その日の面談は終了したのだった。/
+[se write_01]
+[se paper_02]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

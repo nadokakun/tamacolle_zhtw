@@ -1,0 +1,1993 @@
+>>10000/
+@下総
+おうおうおうおう！[wait 1.5]
+下総だ！！！[autotap]/
+[delay 1.6]
+[flow]
+[-]
+@下総
+ナメてっと怪我すんぞ、先公！[wait 2.5]
+夜露死苦だオラぁ！/
+>>10001/
+@下総
+この鞄の赤てぇぷが見えねぇのかぁ？[wait 4.5]
+喧嘩上等だオラァ！/
+>>1/
+[set A s_smu_r 下総]
+[show A C]
+[face A 10]
+[serif on]
+[say A]
+先公。寂しいけどよ……
+楽しい時間ってあっという間だよな……/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[autotap]/
+[face A 08]
+オレ思うんだ、陸と海、どっちも制覇するには
+一日じゃ全然足りねぇって！[shakebg][se taiko_01]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+あとよ、オレ一人じゃ気づけねぇこととか
+先公なら気づいてくれるかもしんねぇ……/
+[face A 02]
+だから先公も「ねんぱす」取ろうぜ！
+その方がぜってーいいって！/
+>>2/
+[set A s_smu_r 下総]
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+よぉ、先公！
+なんだよ、果物でも食いてえって顔してんな！/
+[face A 06]
+……オレ、いい農園いっぱい知ってるからよ。
+オレの国に梨狩り、一緒に行かねぇ……？/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+やりぃ！
+んじゃ特別にオレの族車に乗せてってやるよ！/
+[face A 01]
+あんまり遅せぇと先行っちまうぞ。
+早く準備しとけよな！[shake A]/
+>>3/
+[set A s_smu_r 下総]
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+オレんとこの一宮「香取神宮」は
+全国の香取神社の総本社なんだぜ。/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[effect fr kira 6000 0 0]
+[se kira_01]
+[autotap]/
+[face A 02]
+つまりは総長ってことよ！！！
+な、カッケェだろ？/
+[face A 01]
+朱塗りの楼門もキマってんだ、見たら痺れるぜ？
+先公がどうしてもっつーなら連れてってやるぜ！/
+>>4/
+[set A s_smu_r 下総]
+[randomset B r @地魂男児 @あやかし -@NPC -smu -sin -hiz]
+[randomset C r -@地魂男児 -@あやかし @NPC sin hiz -smu -n006 -@NOW]
+[show A L]
+[move A C 0.5]
+[face A 08]
+[say A]
+[serif on]
+ったく、だりーぜ。朝から特訓とかよぉ。
+……おっし、フケちまうか！！[shake A][face A 01]/
+[show B R]
+[setline 0.5 A B]
+[face A 03]
+[face B 05]
+[orderline A B]
+おう$B:A、[= 商店街 てーまぱーく 公園 便所 食堂 売店]行くぞオラァ！
+お前も来いや！[shakebg][se zukkoke_02]/
+[show C L]
+[move C X -500]
+[face C 05]
+[face A 01]
+[face B 04]
+[orderline A B C]
+あ？　へーきへーき！
+先公たちもそこまでは追ってこねぇって！！[move C X 300 0.5]/
+>>5/
+[set A s_smu_r 下総]
+[show A C]
+[face A 07]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぁ～あ……今日は休みかよ。暇だぜぇ。
+こういうときは、愛車の整備すっか！/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[move A X 200 0.3]
+お、外はいい風吹いてんな！
+ついでにちょっと転がしてくっか！[shake A]/
+>>6/
+[set A s_smu_r 下総]
+[randomset B r @地魂男児 @あやかし -@NPC -smu]
+[show A C]
+[face A 02]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふー、食った食った！
+ここの飯はほんとうめぇよな。[effect fr kira 4000 0 0][se kira_01]/
+[show B R]
+[orderline A B]
+[face A 01]
+[face B 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+よぉ、飯当番は$B:Aか！
+今日の飯もすっげー「[= でんじゃらす でらいとふる どりーみー でざゔ でぃざいあぶる どっごー]」、だったぜ！[se zukkoke_01][face B 05][shake B]/
+[face A 08]
+[face B 04]
+それを言うなら「でりしゃす」……？
+こまけーことは知らねーよ！[face A 05]　悪いかオラァ！[shake A]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_smu_r 下総]
+[randomset B r @地魂男児 @あやかし -@NPC -smu -kag -hiz]
+[show A C]
+[face A 08]
+[say A]
+[serif on]
+ったく、夜だってのに
+真面目なやつらが働いてらぁ。/
+[show B C]
+[setline 0.5 A B]
+[orderline A B]
+[face A 00]
+[face B 08]
+あ？　オレは手伝わねーぞ！
+文句があんなら拳で語れやオラァ！！[face A 03][shake A][face B 05]/
+[serif off]
+[face A 08]
+[face B 03]
+[scale A 1.6 0.2]
+[scale B 1.6 0.2]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[rotate B 15 0.2]
+[rotate A -15 0.2]
+[move B C 0.2]
+[move A C 0.2]
+[moveline B A 0 -120 0.2]
+[move B X 210 0.3]
+[move A X -210 0.3]
+[delay 0.2 se crash_02]
+[-]
+[quake off]
+[se cloth_06]
+[fadein WHITE 0.2]
+[scale A 1.0 0.3]
+[scale B 1.0 0.3]
+[moveline A B 0 120 0.3]
+[setline 0.3 A B -100 1100]
+[move A X -100 0.3]
+[move B X 100 0.3]
+[rotate A 0 0.1]
+[rotate B 0 0.1]
+[delay 0.2 fadeout 0.3]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[autotap]/
+[serif on]
+……！！！
+……いい拳だぜ。$B:A見どころあんじゃねーか。/
+[face A 01]
+[face B 01]
+しかたねぇ、オレも手を貸してやるよ！/
+>>10/
+[set A s_smu_r 下総]
+[show A C]
+[face A 01]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[serif on]
+[orderline A]
+フンフンジャカジャカジャンジャン♪
+音楽はやっぱ洋楽にかぎるぜ。/
+[face A 02]
+[effect fr kira 5000 0 0]
+[se kira_01]
+何言ってるかわかんねぇけど
+最高にかっこいいぜ！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+～～～♪　たまんねぇ！
+この良さがわかんねぇやつはお子様だな！/
+>>11/
+[set A s_smu_r 下総]
+[randomset B r @地魂男児 @あやかし -@NPC -smu -sin -bun]
+[show A C]
+[show B C]
+[face A 03]
+[setline A B]
+[face B 04]
+[say A]
+[serif on]
+[orderline A B]
+なんだぁ？ おい、$B:A！
+シケた面してんじゃねえぞオラァ！[shake A]/
+[face A 09]
+[face B 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……あ？　ヘマした？　イチイチ気にすんな！
+オレだって毎日先公に叱られてらぁ。[shake A][face A 11]/
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+けど気分変えてーならよ、ちいと出ようぜ。
+オレの族車で二尻させてやっからよ！[face B 01]/
+[face A 02]
+[face B 02]
+めんどくせぇことなんて、強え振動を感じながら
+風に当たってたら全部忘れちまうぜ！/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_smu_r 下総]
+[show A C]
+[face A 06]
+[say A]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[serif on]
+[orderline A]
+はぁ、はぁ……[wait 0.5]くそぉ！[shake A][face A 03]
+今日は身体が熱持っちまって落ち着かねぇ……！/
+[face A 09]
+先公も仕事がいっぱいあるとかなんだかで
+ぜんぜんオレにかまってくれねぇしよぉ……/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 03]
+くそぉ、先公……あんまり放っとくと
+オレ、他のやつのとこに行っちまうかんな！/
+[face A 11]
+くっそぉ〜……[move A X -300 0.5][hide A]/
+>>15/
+[[:{TAG1|B|def|[face A 01]
+[face B 01]
+骨のあるやつで気に入ったぜ。
+よし、一緒に飯行こうぜ！　ダチ公！}{TAG1|B|kaz|[face B 01]
+[face A 02]
+[effect fr kira 4000 0 0]
+[se kira_01]
+やっぱ$B:Aは強えな……オレも次は負けねぇぞ！
+さぁ兄弟で飯行こうぜ、$B:A！}{TAG1|B|awt|[face B 01]
+[face A 02]
+[effect fr kira 4000 0 0]
+[se kira_01]
+やっぱ$B:Aは強えな……オレも次は負けねぇぞ！
+さぁ兄弟で飯行こうぜ、$B:A！}{TAG1|B|hit|[face B 01]
+[face A 02]
+[effect fr kira 4000 0 0]
+[se kira_01]
+やっぱ$B:Aは強えな……オレも次は負けねぇぞ！
+んじゃ飯行こうぜ！　$B:A！}{TAG1||oum|}{TAG1||sin|}{TAG1||iga|}{TAG1||sim|}{TAG1||owa|}{TAG1||mik|}{TAG1||kai|}{TAG1||sag|}{TAG1||mus|}{TAG1||kaz|}{TAG1||awt|}{TAG1||hit|}{TAG1||wak|}{TAG1||kag|}{TAG1||ecg|}{TAG1||kii|}{TAG1||san|}{TAG1||iyo|}{TAG1||tos|}{TAG1||har|}{TAG1||bic|}{TAG1||bin|}{TAG1||tnb|}{TAG1||taj|}{TAG1||ina|}{TAG1||iwm|}{TAG1||oki|}{TAG1||bun|}{TAG1||ckg|}{TAG1||hiz|}{TAG1||osu|}:]]/
+[set A s_smu_m 下総]
+[randomset B r @地魂男児 @あやかし -@NPC -smu]
+[show A C]
+[show B C]
+[setline A B]
+[effect fr allows 6000 0 0]
+[se doka_01]
+[delay 0.3 se cloth_06]
+[shakebg]
+[face A 03]
+[face B 08]
+[shake A]
+[delay 0.3 shake B]
+[-]
+[effect fr slash 4000 0 0]
+[se zukkoke_01]
+[move A X -100 0.2]
+[move B X 50 0.3]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[say A]
+[serif on]
+[orderline A B]
+はぁ……はぁ……！　いい拳だな……
+$B:A……なかなかやんじゃねぇか……！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[inject TAG1]/
+>>16/
+[set A s_smu_m 下総]
+[randomset B m @地魂男児 @あやかし -@NPC -smu -kaz -awt]
+[show A C]
+[show B L]
+[face A 05]
+[move B X -400 1]
+[face B 00]
+[delay 0.3 shake A]
+[orderline A B]
+[-]
+[setline 0.3]
+[say A]
+[serif on]
+あ？　おい$B:A、テッメェ！[face B 05]
+今、完全にオレにガン飛ばしたろ！[shake B]/
+[effect fr syutyu a 0 0]
+[se zukkoke_02]
+[face A 03]
+[face B 04]
+いい度胸じゃねぇか。
+こうなったらタイマンだオラァ！/
+>>17/
+[set A s_smu_b 下総]
+[randomset B b @地魂男児 @あやかし -@NPC -smu]
+[show A C]
+[show B C]
+[face A 02]
+[face B 00]
+[say A]
+[se amb_08]
+[scale A 1.6]
+[move A Y -120]
+[move B X 300]
+[orderline A B]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ひゅー！！　いい風だぜ！！
+すげーな、この扇風機ってやつはよ。/
+[face A 01]
+[face B 01]
+機械でも風に当たるのはいいもんだぜ。
+これで毛もすぐ乾くぜ！/
+[move A Y 50 0.3]
+[se cloth_01]
+[face A 06]
+[face B 05]
+[move B X 100 0.5]
+[move A X -100 0.5]
+この辺とか結構乾きにくいんだよなぁ……[shake B]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 06]
+足の下もちゃんと乾かさねえとな！
+あ～～気持ちいいぜ！/
+>>18/
+[set A s_smu_b 下総]
+[show A C]
+[face A 11]
+[effect fr yuge a 0 0]
+[se amb_12]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+[orderline A]
+いてて……[shake A]湯が傷にしみるぜ……
+今日もバカやっちまったなぁ……/
+[effect fr syutyu 5000 0 0]
+[se taiko_02]
+[face A 03]
+けどこれがオレの生きる道だ！
+明日も駆け抜けてくぜぇ！/
+>>19/
+[set A s_smu_b 下総]
+[randomset B b @地魂男児 @あやかし -@NPC -smu]
+[randomset C b @地魂男児 @あやかし -@NPC -smu -@NOW]
+[show A C]
+[show B R]
+[show C L]
+[face A 06]
+[face B 00]
+[face C 00]
+[moveline A B C 0 -120 0]
+[scale A 1.3]
+[scale B 1.3]
+[scale C 1.3]
+[move C X -150]
+[move B X 50]
+[say A]
+[effect fr yuge a 0 0]
+[se amb_12]
+[serif on]
+[orderline A B C]
+[se bath_01]
+おいおい……ちくしょお……
+なにげにマブい奴らが多いじゃねぇか……[se bath_03]/
+[move C Y 50 0.5]
+[delay 0.5 move C X -400 0.5]
+[se bath_02]
+[face A 09]
+え、あいつ、あ、あんなに！？[shake A]
+おぉ、すげぇ……[hide C][face A 06]/
+[effect bk splash 4000 0 0]
+[se bath_04]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 10]
+……ってうわっ！　つい見とれちった！　やべ、
+[= 族車 タイマン 単車 走り 先公 特攻]のことでも考えて落ち着かねーと……/
+>>20/
+[set A s_smu_r 下総]
+[randomset B r @地魂男児 @あやかし -@NPC -smu -kaz -awt]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[setline A B]
+[say A]
+[serif on]
+[orderline A B]
+おうダチ公、連れションだ！
+一人でしてもつまんねーからな。/
+[se pee_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 06]
+お？　ずいぶんと快調じゃねえか！
+オレもほら、調子いいぜ。[shake A]/
+>>21/
+[set A s_smu_r 下総]
+[randomset B r @地魂男児 @あやかし -@NPC -smu]
+[show A C]
+[show B C]
+[setline A B]
+[face A 08]
+[face B 00]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[say A]
+[serif on]
+[orderline A B]
+なんだこの張り紙？
+……あ？　このオレに一歩前に出ろだぁ？[shake A]/
+[effect fr syutyu a 0 0]
+[face A 03]
+[face B 05]
+上等じゃねぇかこの野郎！！[se taiko_02]
+一番遠いとこからぶっぱなすぜオラァ！/
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[delay 0.5 shake A]
+[orderline B A]
+[move B X 150 0.5]
+[-]
+[se pee_01]
+[face A 01]
+[face B 01]
+じょろろろっと～♪　
+案外うまくいくもんだな！/
+[face A 05]
+[face B 05]
+……ってうぉおお、や、やべ、やべ！[shake A 3 5 5]/
+>>22/
+[set A s_smu_r 下総]
+[randomset B r @地魂男児 @あやかし -@NPC -smu]
+[show B C]
+[move B X 500]
+[move B X -500 0.5]
+[face B 04]
+[serif on]
+[orderline B]
+厠にコンコンとノックの音が響いた。/
+[show A L]
+[face A 03]
+[scale A 1.6]
+[move A Y -120]
+[move A X -500]
+[move A X 500 0.3]
+[rotate A -10]
+[se zukkoke_02]
+[face B 05]
+[quake 1]
+[orderline A B]
+[say A]
+あ！？
+人が入ってんのがわかんねーのかコラァ！/
+[rotate A 0 0.5]
+[move A X 100 0.5]
+[move B X 800 0.5]
+[hide B]
+[quake off]
+[face A 01]
+ったく終わるまで待てっつーの……
+ふぅ～……！　スッキリだぜ。/
+>>23/
+[set A s_smu_r 下総]
+[show A C]
+[face A 06]
+[say A]
+[scale A 1.6]
+[move A Y -150]
+[serif on]
+[orderline A]
+ちくしょぉ……
+出しても全然スッキリしねぇ……/
+[face A 10]
+まだ溜まってんのか？
+ったくどうすりゃいいんだよぉ……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 11]
+先公に聞いてみるか……？
+いや、恥ずいしやめよ……くそぉ！[shake A]/
+>>24/
+[set A s_smu_r 下総]
+[randomset B r @地魂男児 @あやかし -@NPC -smu -hiz -kaz -bun]
+[randomset C r @地魂男児 @あやかし -@NPC -smu -hiz -kaz -bun -@NOW]
+[show A C]
+[show B C]
+[show C C]
+[face A 03]
+[face B 01]
+[face C 01]
+[say A]
+[setline B A C]
+[serif on]
+[orderline A B C]
+おいテメェら！
+今日は枕投げで勝負すんぞコラァ！/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 02]
+[face B 02]
+[face C 05]
+勝った順に寝床を決めんだ。
+逃げ出すシャバ僧は問答無用で庭送りだからな！/
+>>25/
+[set A s_smu_r 下総]
+[show A C]
+[face A 07]
+[scale A 1.6]
+[rotate A 30]
+[move A Y -100]
+[say A]
+[se cloth_01]
+[serif on]
+[orderline A]
+……んん、先公ぉ……
+どこ行くんだよぉ……むにゃむにゃ……[shake A]/
+[talkend]
+下総はぐっすり眠っているようだ。/
+>>26/
+[set A s_smu_r 下総]
+[show A C]
+[face A 05]
+[say A]
+[se cloth_01]
+[move A Y -150]
+[move A Y 50 1]
+[orderline A]
+[-]
+[serif on]
+ふー、身体が昂ぶって眠れやしねぇ……
+こういうときに集団部屋だと困っちまうぜ……/
+[face A 11]
+[se cloth_01]
+[move A Y 100 0.5]
+しゃーねぇ、抜け出すか。
+周りのやつらを起こさねぇようにと……/
+[move A X -200 0.5]
+[se fusuma_01]
+[face A 02]
+……はぁ～！
+夜風を感じながらぶっ放すぜ！[move A X -500 0.5][hide A][deray 0.5 se fusuma_02]/
+>>27/
+[set A s_smu_r 下総]
+[show A C]
+[face A 00]
+[move A Y -100]
+[say A]
+[-]
+[autotap]/
+?下総、ハレの日おめでとう！/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 01]
+[move A Y 100 0.4]
+[serif on]
+おぉ先公！　いいトコに来たじゃねぇか！
+へへ、ありがとな！[shake A]/
+[face A 00]
+[effect off a]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、ちょっと待てよ。
+今触ると先公に汚れがうつっちまう。/
+[move A X -200 0.5]
+[-]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[autotap]/
+[talkend]
+[se cloth_01]
+下総は濡れたタオルで手を拭った。/
+[serif off]
+[hide A]
+?何してたの？/
+[serif on]
+[show A C]
+[face A 01]
+[say A]
+へへ。そりゃあアレに決まってんだろ？/
+[effect fr syutyu a 0 -150]
+[face A 02]
+見ろよ！　オレのチューニングした
+愛車をよぉ！[se taiko_02]/
+[talkend]
+[hide A]
+下総の指さした方には小さな乗り物があった。
+派手に装飾されたそれは実に下総好みに見える。/
+[serif off]
+[effect off a]
+?おぉ！　いいね！/
+[show A C]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[say A]
+だろ～！　なんたって今日は8月19日で
+８１９の日！/
+[face A 02]
+[flow]
+こいつで荘園中を走り回ろうと思ってさ。
+イジってたってわけ。/
+[face A 01]
+サイズは小さめだけど、充分走れるぜ。/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+これから試しに転がそうと思うんだけどよぉ……
+その……/
+[face A 03]
+[shake A]
+せ、先公も二尻させてやんよ！　
+へへん。[shake A]喜べよな！[face A 01]/
+[scale A 1.6 0.3]
+[move A Y -100 0.3]
+[se cloth_06]
+[autotap]/
+[face A 00]
+一緒に風感じようぜ！
+ほら、早く後ろ乗れよ！/
+[hide A]
+[serif off]
+?乗れるかな？/
+[talkend]
+[se cloth_01]
+[wait 0.5]
+[-]
+[serif on]
+愛車にまたがる下総の後ろにまわり腰を下ろすと
+下総のずんぐりとした胴に腕を回した。/
+[serif on]
+[show A C]
+[scale A 1.6]
+[move A Y -100]
+[face A 09]
+[say A]
+……なにそんな遠慮がちに掴んでんだよ。/
+[face A 06]
+[shake A]
+も、もっとぎゅって掴まっとけよ！　先公。
+振り落とされても知らねぇぞ？/
+[serif off]
+?しっかり掴む/
+[se cloth_06]
+[face A 01]
+[scale A 2 0.2]
+[move A Y -80 0.2]
+[-]
+[serif on]
+[shake A]
+へへっ、そんじゃあ出発だオラァ！！！[shake A][face A 02]/
+>>100/
+[set A s_smu_r 下総]
+[set B s_n001_r 夏人]
+[set C s_n000_r 猫乃屋]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 下総のたまり場]
+[-]
+[bgm home]
+[bg shirei_day]
+[fadeout 1]
+[-]
+[serif on 0.5]
+[show B C]
+[face B 01]
+[say B]
+で、えっと次の資料は……[se paper_01]
+あ、まだもらってなかったかな。/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+司令室での打ち合わせ中、
+資料を御座所に忘れてきたことに気づいた。/
+[serif off]
+?御座所に資料を取りに行く/
+[show C C]
+[face C 11]
+[say C]
+[serif on]
+あとでいいんじゃね？/
+[hide C]
+[talkend]
+[textcolor ARUJI]
+とはいえ司令室から御座所はそんなに
+離れてもいない。/
+[textcolor ARUJI]
+すぐに戻ると伝え、御座所へと向かった。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[wait 1]
+[-]
+[se fusuma_01]
+[-]
+[bg gozasyo_day 0.5]
+[-]
+[delay 0.3 se fusuma_03]
+[-]
+[bgm fun]
+[autotap]/
+[show A C]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -220]
+[move A Y 200 0.1]
+[delay 0.1 move A Y -100 0.2]
+[serif on]
+おー、なかなかいい見晴らしじゃねーか！
+さっすが特等席だなー。庭も見えるし……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[se dosa_01]
+[autotap]/
+[face A 01]
+ここに座ればもっと遠くまで見えそうだな！
+こりゃたまり場にちょうどいいな！/
+[talkend]
+[textcolor ARUJI]
+御座所に置かれた作業机の上に
+どっかりと腰掛ける地魂男児がいた。/
+[hide A]
+[serif off]
+?あのー……/
+[effect fr syutyu a 0 0]
+[show A]
+[face A 03]
+[say A]
+[serif on]
+あぁ？　やっと来たか！　遅せーぞ先公ォ！　
+オレは下総だオラァ！[shake A][se taiko_02]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[flow]
+一足遅かったみてぇだな。
+わりぃけど、今日からここはオレの縄張りだ！/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[face A 03]
+……なにポカンとしてんだ。
+ナメた面してんじゃねぇぞオラァ！[shake A]/
+[serif off]
+[effect off a]
+?よろしくね下総/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[serif on]
+お、おー。まぁよろしくしてやんよ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[se cloth_01]
+机の上に置かれた書類を見つけ手を伸ばすと、
+やわらかな感触に行く手を阻まれた。/
+[show A C]
+[face A 08]
+[scale A 2]
+[move A Y -50]
+[textcolor ARUJI]
+[flow]
+下総がずいっと胸を張り
+目の前に立ちはだかっていた。/
+[textcolor ARUJI]
+[flow]
+書類に伸ばした手はむちむちかつふさふさの
+下総のやわらかなお腹に押し返されたのだ。/
+[scale A 1.6 0.5]
+[move A Y -70 0.5]
+[face A 00]
+[say A]
+なんだよ……ここに何かほしいものでもあんのか？
+だったら、誠意を見せてもらわねーとな！/
+[serif off]
+?誠意っていうと……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+そだなー荘園の外思いっきり走ってみてぇよなー。
+でっかい単車とかいいかもな！/
+[move A X 250 0.3]
+[rotate A -10 0.3]
+[face A 00]
+[flow]
+……いや、それよりギラギラした
+めたるのちぇーんとか……/
+[move A X -500 0.3]
+[rotate A 10 0.3]
+[face A 02]
+[flow]
+いやいや、待てよ。
+有名遊園地の限定ぬいぐるみとか〜？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+もちろんどれも持っていない。/
+[show A C]
+[face A 05]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ったく、なんだよ。
+しけてんなー先公のくせによぉ。/
+[serif off]
+?その「先公」って？/
+[face A 03]
+[serif on]
+[bgm departure]
+あぁ！？　先公は先公だろ！[shake A]/
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+この荘園にゃ先公っぽいやつらが何人か
+いるみてぇだけどよ……/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 02]
+[flow]
+主はオレたちを管理するのが仕事なんだろ。
+ならオレの先公ってことよ！/
+[face A 08]
+[talkend]
+[textcolor ARUJI]
+下総は拳を強く握り
+ぐっと顔を寄せてきた。/
+[say A]
+[bg black 0.5]
+[minibg emo_ikari 0.5]
+言っとくけどよぉ、オレは他のヤワな奴ら
+みてぇに簡単に懐柔しねぇからな！/
+[face A 03]
+[effect fr syutyu a 0 0]
+[se fire_01]
+[light def 0.5]
+[lightcolor red]
+[flow]
+気に入らねぇやつは誰だろうが
+ぶっとばす！　喧嘩ならいくらでも買うぜオラァ！[shake A]/
+[scale A 2 0.5]
+[move A Y -50 0.5]
+[face A 08]
+[talkend]
+[textcolor ARUJI]
+そう言いながら、下総はさらに近づく。
+鋭い瞳が目前に迫り、熱気が頬に伝わってくる。/
+[bg gozasyo_day 0.5]
+[minibg off 0.5]
+[effect off a]
+[light off 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[say A]
+……ふんっ/
+[hide A]
+[shakebg]
+[se dosa_01]
+[talkend]
+[bgm home]
+[textcolor ARUJI]
+ひとしきりこちらを見つめると満足したのか
+下総は再びどっしりと机の上に腰掛けた。/
+[show A C]
+[face A 01]
+[say A]
+[bgm fun]
+で、どうすんだ？　先公！
+何かほしいんじゃねーのか？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[se rokuhara_01]
+そのとき、スマホの通知が鳴った。
+猫乃屋からのメッセージだ。/
+[textcolor blue]
+@メッセージ
+『便所？
+　資料見つからなかったら次回でもいいぜー』/
+[textcolor ARUJI]
+下総のお尻の下から資料を入手するのは
+難しいかもしれない。/
+[textcolor ARUJI]
+[flow]
+とりあえず司令室の会議に
+戻ることにしたほうがよさそうだ。/
+[serif off]
+?ごめんね。会議があるから続きは後でね/
+[show A]
+[face A 05]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[move A X -1000]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[autotap]/
+[move A X 600 0.5]
+[say A]
+[se fusuma_03]
+[serif on]
+[bgm departure]
+えっ、ちょちょ、ちょっと
+待ちやがれ！　オラァ！[shake A]/
+[serif off]
+?！？/
+[move A X 250 0.3]
+[scale A 2 0.3]
+[move A Y -130 0.3]
+[hide A]
+[se cloth_06]
+[delay 0.3 shakebg]
+[delay 0.3 se doka_01]
+[delay 0.3 fadein black 0.4]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+[talkend]
+振り返ると下総が飛びかかってきた。
+お腹に下総の突進を受けたまま廊下に倒れ込む。/
+[show A C]
+[face A 09]
+[scale A 1.6]
+[move A Y -120]
+[fadeout 0.5]
+[se cloth_01]
+[say A]
+せっかくオレと喋ってたのに
+いきなりひとりにすんのかよ！/
+[face A 10]
+[flow]
+お、オレのこと……
+見捨てんのかよ先公ォ！/
+[face A 04]
+[talkend]
+[textcolor ARUJI]
+先程までの威勢の良さとは打って変わって
+下総はお腹にまたがったまま涙目になっている。/
+[shake A 3]
+[autotap]/
+[textcolor ARUJI]
+[flow]
+ぷるぷると震えながら、すがるような瞳で
+こちらを見つめる下総に声をかけた。/
+[hide A]
+[serif off]
+?絶対見捨てないよ、下総/
+[bgm fun]
+[show A C]
+[face A 09]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+っ！！[shake A]/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[flow]
+ほ、ほんとか……！？[shake A]　約束だかんな！！[shake A]/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[effect off a]
+[serif on]
+……ッチ、は、はずいとこ見せちまったぜ……/
+[talkend]
+[se cloth_01]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[textcolor ARUJI]
+下総は照れくさそうに立ち上がり
+指で鼻の頭のあたりを擦っている。/
+[hide A]
+[serif off]
+?いいタックルだったよ、頼りになりそうだね/
+[serif on]
+[textcolor ARUJI]
+喧嘩っ早そうだけど、特に戦闘任務では
+きっと活躍してくれるだろう。/
+[show A C]
+[face A 01]
+[say A]
+そ、そうか……？　へへっ。
+そういや、これ……ほしかったんだろ？/
+[face A 03]
+[flow]
+仕方ねえ……やるよ！
+ほら、持っていきやがれオラァ！[shake A]/
+[se paper_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+下総は机の上にあった書類をこちらに手渡した。/
+[show A C]
+[face A 01]
+[say A]
+……言っとくけど、これから先公のこと
+たくさん困らせてやっからな！　覚悟しとけよ！/
+[face A 11]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[flow]
+……だけど、あんまオレのこと放っとくなよな。/
+[face A 03]
+[flow]
+そこんとこ夜露死苦頼むぞオラァ！
+じゃあな！！[shake A]/
+[se walk_02]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+下総は嵐のように去っていった。/
+[textcolor ARUJI]
+[flow]
+反抗的で気難しく扱いづらいタイプかと思ったが
+意外とそうでもないのかもしれない。/
+[textcolor ARUJI]
+[flow]
+司令室へと向かいながら、また下総と
+ゆっくり話してみたいと思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>101/
+[set A s_smu_r 下総]
+[set C s_n000_r 猫乃屋]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 ふたりのたまり場]
+[-]
+[bgm home]
+[bg rouka_day]
+[fadeout 1]
+[-]
+[serif on 0.5]
+[autotap]/
+[textcolor ARUJI]
+ようやく今日の会議が終わった。/
+[textcolor ARUJI]
+[flow]
+連日の霊送と会議でやや疲れ気味で
+御座所に戻ると……/
+[se fusuma_01]
+[bg gozasyo_day 0.5]
+[show A C]
+[face A 01]
+[scale A 1.6]
+[move A Y -100]
+[say A]
+[bgm fun]
+[orderline A]
+おぉ先公！　お疲れー。/
+[hide A]
+[-]
+[talkend]
+[textcolor ARUJI]
+御座所の椅子に座って漫画を読んでいる
+下総がいた。/
+[serif off]
+?任務から帰ったところでしょ？/
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[serif on]
+んだよ、風呂は混んでるから後にしたんだよ。
+荘園に帰ったらまずはここに来ねぇとなっ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+なんたってオレのたまり場だし。/
+[face A 00]
+[talkend]
+[textcolor ARUJI]
+下総の肌はあちこち擦り傷だらけだ。
+今日も任務を頑張ってきたのだろう。/
+[hide A]
+[textcolor ARUJI]
+[flow]
+下総は任務終わりや、休みの日にはよく御座所に
+やってきてのんびり過ごしていくことが多い。/
+[show A C]
+[face A 01]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[orderline A]
+そうだ、これこれ…
+[se cloth_01]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+下総は懐から猫のぬいぐるみを取り出し
+机の上にふたつ並べた。/
+[textcolor ARUJI]
+[flow]
+最近では私物を持ち込むことも多いが
+ぬいぐるみは初めてだ。/
+[serif off]
+?どこで手に入れたの？/
+[show A C]
+[face A 09]
+[say A]
+[orderline A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ？　な、なんだよ！[shake A]
+ちゃんと外出申請してんだろっ！[face A 03]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+[flow]
+……ゲーセンで取ってきたんだよ。
+クレーンゲームにこいつらがいたからさ。/
+[serif off]
+?欲しいの取れちゃうんだ、すごいね/
+[face A 01]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+へへっ、まーな！/
+[face A 00]
+オレ、あのゲーム結構得意なんだぜ。
+先公も欲しいのあったら取ってやんよ。/
+[face A 02]
+[flow]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+だから今度一緒にゲーセン行こうぜ！
+あのジャカジャカ音がうるせー感じがいいんだよな！/
+[face A 01]
+こういうプライズっての？
+色々あるんだぜ！/
+[serif off]
+?ぬいぐるみ可愛いね/
+[face A 06]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+えっ、そ、そうだろ？　へへ……っ。
+結構可愛いんだよな。[face A 01]/
+[face A 02]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+嬉しそうにぬいぐるみを指で突く下総。
+オラついていながら意外と可愛いものが好きなのだ。/
+[hide A]
+[textcolor ARUJI]
+[flow]
+とはいえ何故それを御座所の机の上に置くのか……
+もしや……/
+[serif off]
+?これ、もしかしてプレゼント？/
+[show A C]
+[face A 09]
+[say A]
+[orderline A]
+[serif on]
+ああ？　ちげーよ！[shake A]
+でもま、似たようなもんか。[face A 06]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+こいつらはここに置いていってやるよ。
+だってここはオレのたまり場だからな！/
+[face A 02]
+[flow]
+好きなものを持ってきてオレの縄張りだって
+わかるようにしとかねーと！/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[flow]
+……なんだよ、先公だって、こういうの飾るの
+嫌いじゃねーだろ……？/
+[serif off]
+?まあ、別にいいけど……/
+[face A 02]
+[serif on]
+やりぃ！[move A Y 100 0.1][delay 0.1 move A Y -100 0.2]
+やっぱさーたまり場って居心地よくしねーとな！/
+[face A 01]
+[flow]
+訓練とかもフケて、ツレとダラダラ漫画見たり
+シケモク蒸したりしてさぁ！/
+[face A 02]
+[flow]
+先公もそういうのどうよ！
+たまには仕事もほったらかしてさぁ！/
+[serif off]
+?でも任務待機しとかなきゃ……/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 01]
+[serif on]
+んだよ、今日くらいいいじゃん！
+たまにはワルになっちまえばさ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+確かに今すぐにやる仕事はないし……
+下総の誘いはとても魅力的に感じた。/
+[serif off]
+?いいかも……/
+[show A C]
+[face A 02]
+[say A]
+[orderline A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おっマジ！？
+やったぜ！！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm home]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show C R]
+[move C C 0.5]
+[se fusuma_01]
+[face C 09]
+[say C]
+[orderline C]
+[serif on]
+おーい、*P～。
+さっきの会議で共有し忘れてたことがあるってよ。/
+[face C 01]
+[flow]
+伝えておいてくれってなっとが……/
+[hide C]
+[-]
+[bgm departure]
+[effect fr syutyu a 0 0]
+[quake 1]
+[show A C]
+[face A 03]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[orderline A]
+あぁん？　なにか用かよ猫乃屋ぁ！/
+[talkend]
+[textcolor ARUJI]
+下総とふたり、地面に座り込み、
+シケモクを咥えギロリと睨みを効かせてみる。/
+[hide A]
+[-]
+[effect off a]
+[quake off]
+[show C C]
+[face C 05]
+[say C]
+[orderline C]
+うおっ！　[move C Y 10 0.1][delay 0.1 move C Y -10 0.1]てめぇら、こんなとこで吸うなよ！/
+[face C 06]
+[flow]
+で、でも、なんかこういうの懐かしいなぁ……
+お、オレも久々に一本もらおうかな……/
+[serif off]
+?猫乃屋に一本渡す/
+[face C 01]
+[move C XY -10 -40 0.4]
+[rotate C 10 0.3]
+[delay 0.4 move C XY 10 40 0.3]
+[delay 0.5 rotate C 0 0.3]
+[serif on]
+さんきゅ！　……っておい[shake C][face C 04]
+これタバコチョコじゃねーか！/
+[face C 08]
+[flow]
+っつーか何やってんだお前らっ！？/
+[serif off]
+?今日は、不良なので……/
+[show A L]
+[setline 0.5 A C]
+[face A 03]
+[say A]
+[orderline A C]
+[serif on]
+そういうこった！
+オレと先公はこのたまり場でツルんでんだ。/
+[face A 01]
+[face C 10]
+[flow]
+漫画読んだり、だべったりお菓子食べたりして
+ダラダラしてんだよ！/
+[face A 03]
+[flow]
+先公も今は仕事の話はお断りだってよ！
+おらっ向こう行けよ猫乃屋っ！/
+[moveline A C 100 0 0.5]
+[face C 04]
+[move C X -30 0.5]
+[say C]
+な、なんだそれ～羨ましいじゃねぇかよ～。
+くぅ～……[shake C]/
+[moveline A C 200 0 0.5]
+[se fusuma_04]
+[hide C]
+[shakebg]
+[talkend]
+[bgm off]
+[textcolor ARUJI]
+猫乃屋は心底羨ましそうな顔をしながら
+下総に追い出されていった。/
+[textcolor ARUJI]
+[hide A]
+[flow]
+少し可哀想だった気がするので、
+後で連絡してあげよう。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 1]
+[-]
+[fadeout 1.5]
+[-]
+[serif on]
+[show A C]
+[bgm food]
+[face A 01]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[orderline A]
+へへっ、先公。このお菓子美味いぜ。
+食ってみろよ。/
+[serif off]
+?……辛ッ！/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+[serif on]
+あははは！　ひっかかってやんの！
+それ超激辛なんだよな！　ははは！/
+[serif off]
+?こっちのは甘くて美味しい/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[move A X -100 0.3]
+[face A 01]
+[serif on]
+だろ～～～？　先公もわかる口じゃねーか！/
+[move A X 100 0.3]
+[face A 09]
+先公今何巻読んでる？　あ！[shake A][face A 05]
+それ、次オレが読むから、早く読み終えろよ！[face A 11][shake A]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+お菓子を食べたり、漫画を読んだり。
+下総と過ごすのも結構楽しいものだ。/
+[show A C]
+[face A 01]
+[say A]
+[effect fr kira a 0 0]
+[se kira_01]
+[scale A 1.6]
+[move A Y -120]
+[orderline A]
+ここ、オレと先公のふたりのたまり場、だよな！
+へへっ。/
+[serif off]
+?そうだね/
+[face A 02]
+[wait 2]
+[-]
+[hide A 1]
+[effect off a]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+たまにこうして下総とふたりで悪い子に
+なってしまうのもいいような気がしたのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>201/
+[set A s_smu_r 下総]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 下総のイタズラ]
+[-]
+[se fusuma_01]
+[bgm home]
+[bg rouka_day]
+[fadeout 1]
+[-]
+[se walk_01]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+会議が終わり、廊下を歩いていると
+下総の後ろ姿が目に入った。/
+[serif off]
+[show A C]
+[face A 08]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[move A X 300 0.5]
+[hide A]
+[-]
+[serif on 0.5]
+[orderline A]
+[textcolor ARUJI]
+下総は廊下の角を曲がり、
+裏庭へと向かっているようだ。/
+[hide A]
+[flow]
+[textcolor ARUJI]
+ちょうど下総を探していたので、声をかけようと
+思い、あとを追った。/
+[serif off]
+?下総、何してるんだろう……？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg niwa_day]
+[wait 1]
+[-]
+[fadeout 1.5]
+[-]
+[show A C]
+[face A 00]
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[say A]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 04]
+[-]
+[serif on]
+[orderline A]
+んーっと、この辺だったよな……/
+[face A 01]
+[bgm departure]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+お、あったあった。火災報知器！！
+この辺で炎を燃やせば……へっへっへ……/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[effect fr syutyu a 0 0]
+[quake 2]
+[face A 03]
+いくぜぇ……！！/
+[serif off]
+[effect off a]
+[quake off]
+?火気厳禁！/
+[scale A 1 0.3]
+[move A Y 120 0.3]
+[face A 05]
+[serif on]
+[bgm fun]
+[se zukkoke_02]
+げっ！[shake A]　先公！？
+まだ何もしてねぇのに来たのかよ！[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 06]
+んだよ。会議中だって聞いたから驚かせて
+先公を呼び出してやろうと思ってたのによぉ。/
+[serif off]
+?イタズラしちゃだめだよ/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[serif on]
+はいはい。わかったっつーの！
+未遂だろ未遂！/
+[face A 02]
+[flow]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+それとも今からでもなんか困らせてやろーかー？
+へへへ。オラッオラッ。[shake A]/
+[se syu_04]
+[delay 0.4 se syu_04]
+[move A Y 100 0.1]
+[shakebg]
+[delay 0.4 shakebg]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 01]
+[talkend]
+[textcolor ARUJI]
+下総はシュッシュっとジャブを繰り出し
+こちらのお腹に軽く当ててくる。/
+[scale A 1.0 0.5]
+[move A Y 120 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[say A]
+にしても、先に来ちまうなんてずりーよな。
+オレの計画が丸つぶれじゃねーかよ。/
+[face A 06]
+[flow]
+先公、このあとは暇なのか？
+だ、[shake A]だったらよぉ……ちょっと付き合えよ！/
+[serif off]
+?下総と散歩する/
+[serif on]
+[face A 01]
+っしゃ！　んじゃあついてこいよ！
+へへっ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+ウキウキしているのか跳ねるように歩く下総の
+隣に並び歩調を合わせて庭を歩く。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A R]
+[move A L 1]
+[face A 00]
+[say A]
+[-]
+[serif on]
+[orderline A]
+このあたりだったら、誰も来ねーかな……
+…………[shake A]/
+[move A C 1]
+[face A 06]
+[flow]
+……えーっと、先公。
+そのー……えーっと……/
+[talkend]
+[textcolor ARUJI]
+下総はこちらに向き直り、
+なにか言おうとしているようだ。/
+[face A 11]
+[say A]
+[shake A]
+……せっ、先公はなんであんなとこにいたんだよ。
+なんか用事でもあったのか？/
+[serif off]
+?下総に声をかけようかと思って/
+[face A 05]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おっ、オレに……？
+一体なんなんだよ。お小言はお断りだぜ！[face A 03][shake A]/
+[serif off]
+?任務、頑張ってたね/
+[serif on]
+[face A 09]
+！！！[shake A 4 5 5]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+素行の悪そうな下総だが、任務では一生懸命だ。
+つい先日も下総は隊長として活躍していた。/
+[serif off]
+?下総を褒める/
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[wait 1]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[wait 1]
+[-]
+[face A 01]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[wait 0.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+任務で頑張っていたところや、上手くできたところ
+良かったと思うところを丁寧に伝えた。/
+[face A 02]
+[say A]
+[serif on]
+んだよ。
+そんなに褒められたら照れるじゃねーかよ。/
+[face A 01]
+[flow]
+へへっ。ま、カズ兄もいたし、
+他のやつらも仕事したしよ……/
+[face A 00]
+[flow]
+でもオレ、結構いい隊長だったろ？
+なんだかんだうまくやれたと思うんだよなぁ！/
+[face A 02]
+[flow]
+それによ、ちゃんと見ててくれたんだな、先公！/
+[bgm night]
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……あーあのさ……/
+[face A 00]
+[flow]
+なんで先公を呼び出そうと思ったかっていうとさ。/
+[se cloth_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+…………これ、渡したかったんだよな。/
+[textcolor ARUJI]
+[talkend]
+下総は照れくさそうにポケットから
+包を取り出した。[se cloth_01]/
+[textcolor ARUJI]
+[face A 10]
+下総はしばらく躊躇っていたが、意を決したように
+無造作にくるまれた包をこちらに寄越してきた。/
+[hide A]
+[serif off]
+?包を開ける/
+[playeryes]
+[se cloth_01]
+[light def]
+[lightcolor blue]
+[-]
+[effect fr kira a 0 0]
+[se kira_01]
+[serif on]
+[textcolor ARUJI]
+そこにはチョコの箱がふたつ入っていた。/
+[effect off a]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[say A]
+[orderline A]
+それ、任務先で手に入れてきたやつと
+下総国のお茶が入ってるとかいう現代で選んだやつ。/
+[face A 01]
+[flow]
+先公にやるよ。/
+[hide A]
+[-]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+それはレトロな雰囲気の古びたチョコと
+下総国のさしま茶が練り込まれたチョコだった。/
+[serif off]
+?お返しのチョコをあげる/
+[show A C]
+[face A 05]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[orderline A]
+[-]
+[serif on]
+えっ！[shake A]　な、なんでもうお返しなんか
+用意してんだよ！　て、[shake A]照れ橋ってやつか！？[se zukkoke_02]/
+[serif off]
+?（テレパシーのことかな？）/
+[fadein WHITE 0.3]
+[serif off 0.3]
+[-]
+[hideall]
+[waku on]
+[light off]
+[bg shop]
+[-]
+[fadeout 0.5]
+[-]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+実はちょうど下総にチョコを渡そうと
+探してたところだったのだ。/
+[textcolor ARUJI]
+[flow]
+購買で動物の形のチョコを見つけたので
+みんなへ作った手作りのチョコと一緒に渡した。/
+[fadein white 0.3]
+[serif off 0.3]
+[-]
+[hideall]
+[waku off]
+[bg niwa_day]
+[light def]
+[lightcolor blue]
+[-]
+[fadeout 0.5]
+[-]
+[show A C]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[effect fr kira a 0 0]
+[se kira_01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[say A]
+[orderline A]
+おおおっ！　このチョコ、めちゃくちゃ可愛い
+じゃねーか！　食べるのもったいねーぜ！/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[flow]
+[effect off a]
+こっちのチョコは……先公の手作りなのか……！
+へへっ、んじゃあ遠慮なく食べるぜ！/
+[se eat_02]
+[face A 02]
+[shake A 2 5 5]
+[talkend]
+[textcolor ARUJI]
+ガリガリとチョコに齧り付く下総。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[se kira_01]
+[effect fr love a 0 0]
+[face A 01]
+[say A]
+うんめぇー！！　最高だぜ！/
+[serif off]
+?このあと部屋で一緒に食べない？/
+[face A 00]
+[serif on]
+[effect off a]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+んんっ、むぐっ。[shake A]
+先公の部屋で……ってことかぁ？[face A 09]/
+[face A 06]
+[flow]
+しゃ、[shake A]しゃーねーな。行ってやるよ。/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 01]
+[flow]
+その代わり、しばらくは帰んねーからな！
+へへっ！/
+[fadein BLACK 1.5]
+[talkend]
+[delay 3 se dosa_01]
+[textcolor ARUJI]
+[delay 1 se fusuma_01]
+その後、部屋でお茶を淹れ
+下総のくれたチョコをふたりで味わった。/
+[textcolor ARUJI]
+[se cloth_01]
+[flow]
+下総はまだ動物チョコを食べるのが
+惜しいようで、机の上に飾っていた。[hide A]/
+[textcolor ARUJI]
+楽しそうな下総とふたりで
+甘い時間を過ごしたのだった。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

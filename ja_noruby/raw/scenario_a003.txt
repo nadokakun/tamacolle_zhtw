@@ -1,0 +1,605 @@
+>>10000/
+@あかなめ
+オイラあかなめ。[autotap]/
+[delay 2]
+[flow]
+[-]
+@あかなめ
+風呂入る代わりに
+オイラを呼んでくれると嬉しいなぁ。/
+>>1/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 00]
+昔の風呂場はねぇ、垢がたっぷりついてて
+[face A 02]最高だったんだぁ……はぁ……
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]/
+[flow]
+[face A 03]
+今の人間はキレイ好きすぎるよねぇ。
+もっと垢まみれになってよぉ！[shake A]/
+[se lick_01]
+[scale A 1.6 2]
+[move A Y -120 2]
+[autotap]/
+[face A 06]
+……あんちゃんはどうかなぁ……？/
+>>2/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 02]
+オイラねぇ、熟成された垢が大好きなんだぁ！
+あんちゃんも、いい匂いするねぇ……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+あー、話してたらお腹すいてきちゃったぁ。
+よかったら舐めさせてよぉ〜。[face A 06]/
+>>3/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 01]
+ねぇねぇ、知ってるぅ？
+[face A 00]日本の温泉って垢の味が全然違うんだよぉ。/
+[flow]
+[face A 02]
+草津の湯は硫黄の香りがすごくてピリッとするし
+有馬の金泉は塩辛いんだぁ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[flow]
+オイラね、日本全国の温泉巡りしてみたいなぁ……
+垢の味比べツアー……あんちゃんもどう？　えへへ……/
+>>4/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+うぅ〜ん、お日様まぶしすぎだよねぇ。
+オイラ夜の方が好きだよぉ/
+[face A 06]
+[effect fr kira a 0 0]
+でも、昼間の汗ってすっごく美味しそうだよねぇ。
+誰か汗かいてる人いないかなぁ……/
+>>5/
+[set A s_a003_r あかなめ]
+[randomset B r -a003 @地魂男児 @あやかし @NPC]
+[show A]
+[say A]
+[move A L 1]
+[autotap]/
+[serif on]
+[face A 02]
+今日はあったかくて気持ちいいよぉ。
+日向ぼっこ最高だねぇ！/
+[show B R]
+[face B 00]
+[move B X 200]
+[face A 06]
+こんなにあったかいと……あ！　[shake A]やっぱり！
+$B:A汗かいてる！　ちょっと近づいてみよっと♪[move A X 250 0.5]/
+>>6/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[se fusuma_01]
+[move A X 600]
+[move A X -600 0.5]
+[autotap]/
+[serif on]
+[face A 02]
+[efect fr love a 0 0]
+えへへ、広間の押入れから
+誰かが隠してた春画見つけちゃったぁ♪/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[se paper_01]
+わぁ、みんな楽しそうだなぁ……
+絵の中に入れたらなぁ……舐めたいなぁ♪/
+>>7/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし -a003]
+[show A]
+[show B]
+[setline A B]
+[face B 00]
+[say A]
+[autotap]/
+[serif on]
+[face A 05]
+え……[= お風呂 厠 台所 修練所 廊下 洗面台]掃除の時間？[shake A]
+ちょっと待ってぇ！[shake A]/
+[face A 06]
+[face B 05]
+オイラが先に舐めてからじゃないと
+もったいないよぉ！！！[shake A][move B X 100 0.5]/
+>>8/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC -a003]
+[show A]
+[show B]
+[face B 04]
+[move A X -1000]
+[say A]
+[-]
+[setline 1 A B]
+[autotap]/
+[serif on]
+[face A 00]
+$B:A、どうしたの？
+高いところの物？　ならオイラに任せて！/
+[effect fr slash 6000 -200 0]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 02]
+[se lick_01]
+[face B 05]
+ぺろぺろ～ん！
+ほら、取れた取れた！　オイラの舌、便利でしょ♪[shake B][face B 01]/
+[face A 06]
+（ついでに、ついてた垢
+　舐めさせてもらったけどねぇ、えへへ）/
+>>9/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし -a003]
+[show A]
+[show B]
+[face B 00]
+[move A Y -50]
+[move B X 1000]
+[move B R 1]
+[orderline A B]
+[-]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+[say A]
+[autotap]/
+[serif on]
+[face A 01]
+$B:A、ありがと～。そっかぁ……
+晩ごはんは垢じゃなくて[= お茶漬け おにぎり 梅干し 焼き魚 味噌汁 納豆 冷奴 漬物 煮物 茶碗蒸し おでん そうめん 天ぷら 炊き込みご飯 ぜんざい わらび餅 どら焼き 大福 ようかん おはぎ たい焼き]なんだぁ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[se eat_01]
+[face B 01]
+いただきま〜す♪　わぁ、これもおいしいねぇ！
+でも……本当は垢が食べたいんだけどねぇ～[face A 04][face B 04]/
+>>10/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC -a003]
+[show B]
+[show A]
+[say A]
+[face B 00]
+[setline B A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 02]
+[face B 01]
+えへへ、今日見つけた垢の形が
+[= ハート 星 三日月 花 葉っぱ うさぎ ねこ 富士山 雲]みたいで可愛かったぁ/
+[face A 06]
+[shake A]
+[face B 05]
+[se cloth_01]
+こうやって袋に入れて集めてるんだよぉ。
+オイラのお宝コレクション、渡さないからねぇ！[shake B]/
+>>11/
+[set A s_a003_r あかなめ]
+[show A]
+[move A X -1000]
+[move A C 1]
+[se fusuma_01]
+[say A]
+[autotap]/
+[serif on]
+[face A 02]
+さぁて、夜はオイラの活動時間だよぉ！
+今夜はどんな美味しい垢に出会えるかなぁ。/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 06]
+わくわくが止まらないよぉ！
+オイラのぺろぺろタイムだよ〜♪/
+>>12/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[move A X -200 0.5]
+[autotap]/
+[serif on]
+[face A 03]
+うぅ〜ん、最近みんなキレイすぎて
+オイラのごはんが減ってるよぉ……/
+[face A 05]
+このままじゃオイラ餓死しちゃう……/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そうだぁ！
+みんなの石鹸隠しちゃおうかなぁ。えへへ♪[face A 06]/
+>>13/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 06]
+はぁ〜、先輩が分けてくれた風呂桶の垢
+すっごく美味しかったなぁ……/
+[face A 04]
+今日見つけた垢も悪くないけど
+やっぱり先輩のほうが……思い出補正かなぁ？/
+>>14/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC  -a003]
+[show B R]
+[show A]
+[scale B 1.6]
+[move B Y -120]
+[move A X -300]
+[orderline B A]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 09]
+うわぁ、$B:A、すごくいい匂いがするよぉ.……
+んん……舐めたい舐めたい舐めたいよぉ……[shake A]/
+[face A 02]
+[move A XY 100 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se lick_01]
+ちょっとだけ……ぺろり♪
+んんっ！　[= スパイシー！ デリシャス！ 濃厚！ 脳直！ こういうのもイイ！ たまんないよぉ！ しゅごいっ！ もっと奥の方までっ！ もっと欲しいよぉ！ 美味しいっっ！][shake A][face A 06][shake B][face B 05]/
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[face B 06]
+[face A 05]
+[move A X -20 0.1]
+あっ、えへへ……見つかっちゃったぁ……！
+逃げろ〜〜っ！[face A 06][move A X -800 0.3]/
+>>15/
+[set A s_a003_m あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 02]
+[shake A]
+[se lick_01]
+えへへ、今日も舌のトレーニングだよぉ！
+えいっ、えいっ！　……お、[= 3 4 5 10]メートル届いたぁ！[shake A]/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]/
+[face A 06]
+これで遠くの垢も舐め放題だよぉ！
+誰も逃げられないぞ〜♪/
+>>16/
+[set A s_a003_r あかなめ]
+[randomset B m -a003 -@NOW -@NPC]
+[randomset C m -a003 -@NOW -@NPC]
+[show A R]
+[show B C]
+[show C C]
+[setline B C]
+[move A X 600]
+[face A 05]
+[face B 08]
+[face C 08]
+[talk A]
+[delay 0.2 shake C]
+[move B X -100 0.3]
+[delay 0.3 shake B]
+[effect fr katanas 3000 -150 0]
+[se katana_02]
+[delay 0.2 se doka_01]
+[-]
+[moveline A B C -1000 0 1]
+[-]
+[say A]
+[autotap]/
+[serif on]
+おおぉ！　こんな激しい戦い、すごいなぁ！
+みんな汗びっしょりだねぇ。がんばれ〜！　/
+[face A 06]
+[waku on 0.5]
+（えへへ、これは熟成された最高の垢が
+　期待できそうだなぁ♪　楽しみぃ♪）/
+[waku off 0.5]
+[autotap]/
+>>17/
+[set A s_a003_b あかなめ]
+[randomset B b @地魂男児 @あやかし @NPC -a003]
+[show B]
+[show A]
+[say A]
+[face B 00]
+[setline A B]
+[orderline A B]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 09]
+でぇへ……みんなの服のにおい、たまんないよぉ。
+わぁ、$B:Aの汗を吸った[= 下履き 肌着 運動服 靴 靴下 インナー パンツ] 、すごそう…。/
+[move B X 600 0.5]
+[hide B]
+[se door_01]
+[serif off]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 03]
+[move A C 0.5]
+……お風呂に行っちゃった……
+これで誰も見てないよねぇ？　ごくり……/
+[face A 02]
+[scale A 1.6 0.2]
+[move A Y -220 0.2]
+いっただきまーす！[shake A]　ちゅるちゅるちゅる♪
+んあああ〜〜美味しいよぉ……！[se kira_01]　ちゅるちゅるっ♪[shake A]/
+>>18/
+[set A s_a003_b あかなめ]
+[show A]
+[say A]
+[effect fr yuge a 0 0]
+[se amb_12]
+[autotap]/
+[serif on]
+[face A 03]
+みんなが湯船に入ってる間がチャンスだよぉ♪
+椅子にも風呂桶にも、垢がたっぷり！/
+[face A 02]
+[se kira_01]
+[effect fr kira a 0 0]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[se lick_01]
+ぺろぺろ…んちゅんちゅ…あぁ、最高だよぉ！[se picha_01]
+誰にも邪魔されないしねぇ♪
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+>>19/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC -a003]
+[show A]
+[show B]
+[move A X -1000]
+[face B 00]
+[move B X 1000]
+[move B X -1000 0.5]
+[se door_01]
+[delay 0.5]
+[move B Y -50 0.3]
+[delay 0.5 se bath_01]
+[delay 0.8 se bath_03]
+[say A]
+[effect fr yuge a 0 0]
+[se amb_12]
+[-]
+[orderline B A]
+[setline 0.3 A B]
+[face A 05]
+[face B 05]
+[autotap]/
+[serif on]
+あ〜$B:A！　
+身体洗わないでよぉ！　もったいないよぉ！/
+[face A 06]
+[face B 06]
+[move A X 200 0.5]
+そのままそこに座っててよ。
+オイラが全部舐めてあげるからねぇ♪/
+[face A 02]
+[se lick_01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+ぺろぺろ〜〜ん！[shake B][face B 05]/
+>>20/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 09]
+便器の垢も捨てたもんじゃないんだよねぇ。
+むふふ……/
+[face A 00]
+誰もいないよねぇ……？
+よーし、便器の縁をぺろぺろしちゃおぉ！/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 02]
+ピカピカになったらみんな嬉しいみたいだし
+これってお互いにいいことだよねぇ～ぺろぺろ！[se lick_01][shake A]/
+>>21/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC -a003]
+[show B]
+[face B 00]
+[show A]
+[setline]
+[orderline B A]
+[se pee_01]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 09]
+わぁ〜$B:A、いい感じだなぁ……
+おいしい垢隠してそう〜……/
+[move A X -40 0.5]
+[delay 0.6 move A X -40 0.5]
+[delay 1.2 move A X -40 0.5]
+[autotap]/
+[face A 01]
+こんな状況で我慢しろっていう方が無理だよねぇ！
+こっそり……こっそり……ちゅるっ、ぺろぺろ……
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se lick_01]
+[shake B]
+[face B 05]/
+[move B X -600 0.3]
+[hide B]
+[face A 05]
+[shake A]
+あっ、逃げないでよぉ！
+みんな喜んでくれるから大丈夫だよぉ！[move A X -600 0.3][hide A]/
+>>22/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[autotap]/
+[serif on]
+[face A 09]
+隣に誰か入ってる……
+ドアの隙間から覗いちゃおぉ……[move A X -400 0.5]/
+[face A 02]
+[move A Y -50 0.5]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+終わったらすぐに舐めに行くんだぁ！/
+>>23/
+[set A s_a003_r あかなめ]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[autotap]/
+[serif on]
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あれ？　隣の人、トイレでなにしてるんだろぉ……
+オイラもなんだかうずうずしてきたなぁ……/
+[se kira_01]
+[effect fr kira a 0 0]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+一緒にやっちゃおうかなぁ？
+えへへ、楽しそうだよね～♪/
+>>24/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[face A 03]
+はぁ〜、寝床って埃っぽいだけで全然垢ないんだぁ…
+せっかく来たのに、舐めるとこもないし…/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+がっかりだよぉもう……
+眠くなっちゃった…すやすやぁ
+[move A Y -100 1]
+[rotate A -20 0.5]
+[se dosa_01]/
+>>25/
+[set A s_a003_r あかなめ]
+[show A]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[face A 02]
+[se lick]
+ぺろぺろ……美味しいよぉ……
+天国だぁ……/
+[talkend]
+[textcolor ARUJI]
+いい夢を見ているようだ。/
+>>26/
+[set A s_a003_r あかなめ]
+[randomset B r @地魂男児 @あやかし @NPC -a003]
+[show B R]
+[rotate B 10]
+[move B Y -100]
+[show A L]
+[face A 00]
+[face B 07]
+[move A X -300]
+[move A X 300 0.5]
+[say A]
+[orderline B A]
+[-]
+[autotap]/
+[serif on]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、$B:A寝てるぅ！　チャーンス！
+そ〜っと近づいて……えへへ。[move A X 100 1]/
+[face A 01]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+大丈夫、起きてない……このまま[se lick_01]
+ゆっくり舐めちゃお……んん、寝汗もいい味出てる……[shake B]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+んふふ……全身舐めちゃお……じっくり、
+ぺろぺろ……[se lick_01]ちゅるちゅる……ぺろぺろ……/

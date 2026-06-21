@@ -1,0 +1,2071 @@
+>>10000/
+@相模
+ぼ、僕は東海道の相模。[autotap]/
+[delay 3.5]
+[flow]
+[-]
+@相模
+……あの、[wait 1]研究の続きがしたいから、
+ほっといてくれるかな…/
+>>10001/
+@相模
+……あの、[wait 1]僕には、構わないで……/
+>>1/
+[set A s_sag_r 相模]
+[show A C]
+[face A 04]
+[say A]
+[serif on]
+……か、鎌倉幕府の……始まりは1192年って……
+お、思ってる人が多いみたいだけど……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+それは頼朝が征夷大将軍に任じられた年
+なんだ……/
+[face A 01]
+だから……あ、主は間違えないでね。/
+>>2/
+[set A s_sag_r 相模]
+[show A C]
+[face A 04]
+[serif on]
+[say A]
+ぼ、ぼくの国の自慢の景色、金沢八景……
+だけど、もう浮世絵でしか見られないんだ。/
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+主にも見せたかったな……
+……あっ、[face A 05][shake A]い、いやその……だから……/
+[face A 09]
+ぼ、ぼくは絵が描けないから……
+できるだけ、言葉で、伝えるね……/
+>>3/
+[set A s_sag_r 相模]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え？　あ、あの……江ノ島の写真集を見てたんだ……
+と、とってもいい場所だよ。[face A 09]/
+[face A 00]
+昔は本土とつながってなかったから、
+引き潮の時にだけ、渡れたんだ……でも/
+[face A 09]
+今ならいつでも歩いて行けるね。　/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、主……
+一緒に行ったら、し、しらす丼、食べようね……！/
+>>4/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A L]
+[face A 03]
+[move A C 1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+ん……もうこんな時間なんだ……
+太陽が眩しい……どうりで眠いと、思った……/
+[show B R]
+[setline 0.5 A B]
+[talk A]
+[face A 00]
+[face B 01]
+あ、$B:A、おはよう……
+元気そうだね……[face A 04]/
+[move A X 600 2]
+[delay 1.5 hide A]
+[autotap]/
+[face A 01]
+[face B 05]
+ぼ、ぼくはそろそろ寝るところ……
+おやすみ……/
+>>5/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[face A 04]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+う……頭がクラクラする……
+この感じと症状、たぶん……低血圧なんだな……/
+[show B R]
+[move B X 200]
+[move B X -50 0.5]
+[moveline A B -200 0 1]
+[talk A]
+[face A 03]
+[face B 01]
+[say A]
+い、今は誰も、話しかけてこないでほしいな……
+[face B 05]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]/
+[move A X -300 0.5]
+[hide A]
+[autotap]/
+>>6/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag -@NPC]
+[show A C]
+[face A 03]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on][say A]
+お昼ごはん作りを頼まれちゃった……
+りょ、料理って、興味ないんだけどな……/
+[show B L]
+[move B X -200]
+[move B X 200 0.5]
+[face A 01]
+[face B 00]
+[talk A]
+あ、$B:A……今日のお昼ごはん
+作ってくれないかな……[move B Y 5 0.2][delay 0.2 move B Y -10 0.6][delay 0.8 move B Y 5 0.5][face B 01]うん、助かるよ……[face A 02]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[face A 07]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[face A 08]
+[serif on]
+[say A]
+ふぁあ……やっと元気になってきたな……/
+[show B R]
+[face B 00]
+[talk A]
+[setline 0.5 A B]
+あ、$B:A。ゆ、夕食の時間……？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+わ、わかった。　でもぼく、研究の続きが
+気になるから……終わったら食べに行くね…[face B 05]…[shake B]/
+[move A X -400 1]
+[hide A]
+[delay 0.3 hide B]
+[-]
+[talkend]
+[= $Bは相模のぶんの夕食にラップをかけてあげた。 $Bが気づくと相模のぶんの夕食は
+食べられてしまっていた！ その後$Bは相模に食事を運んであげた。]/
+>>10/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[show B C]
+[setline A B]
+[face A 06]
+[face B 05]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[serif on]
+[talk A]
+あ、$B:A……ちょっといいかな……
+こういう実験に付き合ってほしいんだけど……/
+[face A 05]
+[face B 04]
+[shake B]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+え？　……ど、どうして断るのかな……
+なにか理由があるの……？/
+[move B X -50 0.1]
+[delay 0.1 move B X 100 0.2]
+[delay 0.3 move B X -100 0.2]
+[delay 0.5 move B X 50 0.1]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[face B 08]
+……え……それってつまり……
+[= これから主に頼まれて反復横跳びの練習ってこと？ 健康のために18時以降は断食中ってこと……？ $B:Aは犬の方が好きってこと……？ 毎晩踊りの練習してるってこと……？ いまきわどい下着を履いてるってこと……？ 胃が壊れるほどご飯を食べすぎたってこと……？]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 01]
+そうなんだ……か、変わってるね……
+ぼ、僕も試してみようかな……/
+[talkend]
+相模は$Bの言い訳を
+すっかり信じてしまったようだ。/
+>>11/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[face A 06]
+[serif on]
+[say A]
+ぼくの新しい研究が、か、完成した……！
+だ、誰かに試してもらいたいな……/
+[show B R]
+[face A 01]
+[face B 00]
+[move B X 300]
+[setline 0.5 A B]
+[talk A]
+あ、$B:A、ちょ、ちょっとだけ
+協力してくれないかな……この薬を飲んで……
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]/
+[delay 1 shakebg]
+[delay 1 se dosa_01]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -110 1.0]
+[autotap]/
+[face A 05]
+[face B 05]
+[talkend]
+相模に渡された[= 真っ赤な 奇妙な いい香りの どろりとした 白濁の] 薬を飲むと
+$Bは[= ドキドキが止まらなくなってしまった。 汗が溢れてむわっとしてきた。 幻覚相手に恥ずかしい話をはじめた。 何でもいいから食べたくなってきた。 体が痺れて動けなくなってしまった！]/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 10]
+[say A]
+お、思ったより効果が強かったみたい……
+もう少し調整してこようっと……[move A X -300 0.5][hide A]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+はぁ……っ！[shake A]　きょ、今日は
+体の感覚が、す、鋭いみたい……[face A 02]/
+[face A 10]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+こういうときは、自分の体で
+もっと、色々実験しなきゃ……！/
+[face A 06]
+あう、[shake A]んんっ……[shake A]お、面白いな……
+[face A 02]/
+[show B R]
+[move B X 100]
+[face A 05]
+[face B 05]
+[scale B 1.6]
+[move B Y -120]
+[setline 0.5 A B]
+[talk A]
+あ、$B:A……
+きみも、試してみる……？[face A 06][face B 06][shake B]/
+>>15/
+[set A s_sag_m 相模]
+[randomset B m @地魂男児 -sag]
+[show A C]
+[show B C]
+[move A X 1000]
+[face A 00]
+[face B 08]
+[effect fr katanas 5000 0 0]
+[se doka_01]
+[delay 0.3 se katana_02]
+[delay 0.3 shakebg]
+[shakebg]
+[-]
+[moveline B A -1000 0 1]
+[-]
+[serif on]
+[say A]
+$B:Aが訓練してる……ぼく、と、特訓はあんまり
+好きじゃないから、$B:Aのデータをとろう……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+……　……　ふむふむ、なるほどね……
+このデータをこれまでと比較すると……/
+[face A 02]
+[face B 04]
+[= もう少し伸びそう……
+ぼくがなにか薬を作ってあげようかな…… わぁ、こんなに大きく伸びてる……！　
+ぼくがあげた薬が効いたのかな…… うん、順調……
+つ、次にデータとるのが楽しみだな……]/
+>>16/
+[set A s_sag_m 相模]
+[show A C]
+[face A 02]
+[serif on]
+[say A]
+[se paper_01]
+……本で読んだこの戦法、面白いかも……
+こ、こんど僕が隊長になれたら、試してみよう……/
+[face A 01]
+ど、どんな結果になったとしても
+実戦データがとれれば、有用だよね……！/
+>>17/
+[set A s_sag_b 相模]
+[randomset B b @地魂男児 -sag]
+[show A C]
+[show B C]
+[setline A B]
+[face A 05]
+[face B 00]
+[serif on]
+[talk A]
+あっ、$B:A、少し成長してる！？[shake A]
+すぐ記録しなきゃ……！/
+[face A 10]
+[face B 05]
+[move A X 150 0.2]
+[shake B]
+ねぇ$B:A……
+か、体を測らせてもらってもいいかなっ！？/
+[face A 06]
+[move A X 100 0.2]
+[move B X 200 0.5]
+[face B 04]
+だ、大丈夫……すぐ終わるから……
+じっとしてて……ね……？/
+>>18/
+[set A s_sag_b 相模]
+[serif on]
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 10]
+[effect fr yuge A]
+[se amb_12]
+[move A Y -50]
+[say A]
+うーん……
+メガネが曇って、よく見えないや……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+じっくり観察できるいい機会なのに……/
+[face A 10]
+[= 曇らない眼鏡 目が良くなる薬 長時間水中に潜っていられる薬]を
+開発しなきゃね……/
+>>19/
+[set A s_sag_b 相模]
+[randomset B b @地魂男児 -sag]
+[show A]
+[show B]
+[scale A 1.6]
+[face B 10]
+[scale B 1.6]
+[face A 06]
+[face B 01]
+[setline A B]
+[effect fr yuge A]
+[se amb_12]
+[moveline  A B 0 -180 0]
+[talk A]
+[serif on]
+……ふむふむ……
+熱いと違って見えるんだ……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[move A X 50 0.5]
+[shake B]
+[face B 06]
+[se water_06]
+寒いと縮こまるし、ヒトの体って面白いなぁ……
+忘れないように、じっくり観察しなきゃ……！/
+>>20/
+[set A s_sag_r 相模]
+[show A C]
+[move A X 800]
+[move A X -800 0.5]
+[face A 06]
+[say A]
+[serif on]
+はやく、はやくっ、あっ、ああっ……[shake A]
+はぁ……ふぅ…………間に合った……[face A 01]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[se pee_01]
+け、研究に集中してると尿意のこと
+忘れちゃうんだよね……/
+>>21/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[se pee_01]
+[face A 02]
+[serif on]
+[say A]
+人体ってすごく興味深いけど……
+やっぱりいちばん気になる部位があるよね……！/
+[show B L]
+[move A X -200 0.5]
+[move B X -400]
+[face B 00]
+[-]
+[setline 0.5 B A]
+[face A 06]
+[face B 05]
+[talk A]
+ねぇ、$B:A、見せてもらえるかな……
+そ、そう言わないで……大事な記録だから……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[face B 06]
+[shake B]
+ふふ、ありがとう……
+興味深いカタチだね……！/
+>>22/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[face A 01]
+[move A Y -50]
+[serif on]
+[say A]
+……ふぅ……そうだ、今日はこの本を読もう……
+新しい知識……面白いな……[se paper_01]/
+[show B R]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[move B X 200]
+[delay 0.3 move B X -200 0.5]
+[delay 0.8 shakebg]
+[face B 04]
+[orderline A B]
+[talkend]
+コンコンコン/
+[face A 00]
+[say A]
+[se paper_01]
+は、入ってるよ……/
+[shake B]
+[talkend]
+[se paper_01]
+個室が空かないという苦情がくる時は、
+相模がこもっていることが多いようだ。/
+>>23/
+[set A s_sag_r 相模]
+[show A C]
+[move A Y -50]
+[face A 00]
+[serif on]
+[say A]
+うぅ……
+ぜんぜん厠から出られないなぁ……/
+[face A 04]
+試作品の薬を自分の体で試してみたら
+[= な、なんか、お腹壊しちゃった…… まだおしっこが止まらないや…… 足が痺れて動けない…… 吐き気がすごいや……][shake A]/
+[face A 03]
+薬が効いて、体は元気になってるけど……
+こ、こんな副作用はつらいなぁ……/
+>>24/
+[set A s_sag_r 相模]
+[show A C]
+[face A 07]
+[move A Y -100]
+[wait 0.5]
+[-]
+[se cloth_01]
+[move A Y 100 0.5]
+[face A 03]
+[serif on]
+[say A]
+布団を敷いてはみたけど、
+やっぱり目が冴えて眠れないや……/
+[face A 02]
+研究の続きしよ……/
+[serif off]
+[move A X 300 0.5]
+[hide A]
+[se fusuma_01]
+[autotap]/
+>>25/
+[set A s_sag_r 相模]
+[show A]
+[rotate A -40]
+[face A 07]
+[say A]
+[serif on]
+[move A Y -100]
+………………
+ぐ、ぐー……ぐ、ぐー……/
+[talkend]
+相模は眠っているようだ。/
+>>26/
+[set A s_sag_r 相模]
+[randomset B r @地魂男児 -sag]
+[show A C]
+[show B C]
+[face A 07]
+[face B 07]
+[serif on]
+[rotate B -40]
+[rotate A -40]
+[setline A B]
+[moveline A B -100]
+[talk A]
+[-]
+[se cloth_01]
+[face A 10]
+[rotate A 0 0.5]
+[move A Y 100 0.5]
+みんなぐっすり寝てる……
+ぼくの調合した安眠薬、よく効いてるみたい……/
+[move A X 100 0.5]
+[delay 0.3 move A Y -100 0.3]
+[delay 0.3 rotate A -10 0.3]
+[face A 06]
+[se cloth_02]
+ね、寝てる間に、いろいろ調べさせてもらうね……
+ふんふん……研究の参考になるなぁ……[effect A kira a  0 0][se kira_01]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[rotate A 0 0.5]
+[move A X 100 0.5]
+……ついでに体も計測しちゃおう
+ふふ……またデータが増えた……/
+>>100/
+[set A s_sag_r 相模]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 相模の興味]
+[-]
+[bg gozasyo_night]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[wait 1.5]
+[-]
+[fadein BLACK 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_night]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[-]
+[se fusuma_01]
+[fadeout]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+[talkend]
+深夜、トイレに行こうと部屋を出て、
+寝静まった荘園の廊下を歩いていく。/
+[textcolor ARUJI]
+すると、空き部屋のひとつから明かりが
+漏れていた。誰かいるのだろうか。/
+[serif off]
+?覗いてみる/
+[serif on]
+[textcolor ARUJI]
+戸を開けようと近づくと、
+ふとぬるりとした感触を足の裏で感じ――/
+[textcolor ARUJI]
+ツルッ！
+どてーーーーーん！！！
+[shakebg]
+[se dosa_01]/
+[textcolor ARUJI]
+[flow]
+そのまま滑ってずっこけてしまった。/
+[serif off]
+?いてて……/
+[light def]
+[lightcolor orange]
+[se fusuma_01]
+[serif on]
+@？？？
+……だ、誰？/
+[show A C]
+[face A 05]
+[textcolor ARUJI]
+尻もちをついていると、
+部屋の戸が開き、相模がでてきた。/
+[say A]
+あ、主……/
+[face A 00]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+な、なんでこんなところに……
+座ってるの……/
+[serif off]
+?廊下がなんかぬるぬるしてて/
+[serif on]
+[face A 05]
+あ……[shake A]/
+[face A 01]
+そ、それ……
+僕の試作品だったんだけど……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+うーん、さっき試した時に、
+こ、こぼしちゃってたのかなぁ……/
+[serif off]
+?このぬるぬる、相模が作ったの？/
+[serif on]
+[face A 01]
+あっ[shake A]……ぼ……僕、いろいろなものを
+研究してるんだ……/
+[move A XY 10 -140 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+これは、ずっと乾かない潤滑液……/
+[face A 10]
+荘園の子が欲しがってるやつなんだけど……
+うん……うまくいってるみたいだね。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+床についた粘液に触れながら
+相模は怪しげな笑みを浮かべている。/
+[show A C]
+[face A 00]
+[say A]
+それじゃあ主、い、今ちょっと手が離せないから……
+ぼ、僕は部屋に戻るね…………じゃあね。[face A 04]/
+[move A X -300 0.5]
+[se fusuma_01]
+[hide A]
+[se walk_01]
+[-]
+[wait 0.5]
+[-]
+[bg heya_light 0.5]
+[talkend]
+[light off 0.5]
+[effect fr yuge a 0 0]
+[textcolor ARUJI]
+相模の入った部屋を覗いてみる。/
+[flow]
+[textcolor ARUJI]
+壁には所狭しと図面が広げられており、
+机の上にも機材や書籍が積まれている。/
+[flow]
+[textcolor ARUJI]
+大きな鍋の中でぐつぐつ煮られているのは
+先程のどろどろした液体のようだ。/
+[flow]
+[textcolor ARUJI]
+どうやらここで様々な「研究」を
+しているようだ。/
+[textcolor ARUJI]
+そういえば、相模の研究結果はロクハラに
+評価されており――/
+[flow]
+[textcolor ARUJI]
+声聞士へ支給される道具にも役立てるため
+協力を求めていると、猪森から聞いていた。/
+[show A C]
+[face A 03]
+[say A]
+[scale A 1.6]
+[move A Y V-120]
+あれ、数値が大きすぎるなあ……ということは……
+でもそう仮定するなら、もっと……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+うん……薬の効能を
+もう少し上げられそう……/
+[talkend]
+[textcolor ARUJI]
+何やらぶつぶつ呟きながら、真剣な面持ちで
+研究に没頭する相模。/
+[textcolor ARUJI]
+研究者としては猪森と
+気が合うところもあるのかもしれない。/
+[hide A]
+[serif off]
+?相模は研究熱心なんだなあ/
+[show A C]
+[face A 05]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+……あれ？[shake A]
+あ、主まだいたんだ……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[flow]
+ぼ、ぼくは一人で、研究するのが好きなんだ……
+だから、あんまり、かまわないで……/
+[face A 01]
+……でも、別に……
+主が見ていたかったら見ててもいいけど……/
+[face A 01]
+道具に触ったり邪魔はしないでね……/
+[face A 02]
+[talkend]
+[textcolor ARUJI]
+邪魔さえしなければ
+側で見てること自体は嫌がってはいないようだ。/
+[textcolor ARUJI]
+しばらく静かに後ろから相模を観察していたが、
+ふと、トイレに行きたかったのを思い出した。/
+[hide A]
+[serif off]
+?相模、ちょっとトイレ行ってくるね/
+[show A C]
+[face A 04]
+[say A]
+[serif on]
+だ、だから話しかけないで……って
+と、[shake A]トイレ……？[face A 05][shake A 2 5 5]/
+[face A 06]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[effect bk wavein 1000 0 0]
+[shakebg]
+[bgm departure]
+い、今から行くの！？[shake A]
+じゃあ、一緒に行っていい！？[shake A]/
+[move A X -300 0.4]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[flow]
+[se goso_01]
+あ、ちょっと待って！
+今準備するから！！　すぐ終わるから！！[shake A][se cloth_01]/
+[hide A]
+[talkend]
+[serif off]
+?なんだ突然この食いつき具合……/
+[show A C]
+[scale A 1.6]
+[move A Y -220]
+[move A Y 100 0.5]
+[face A 02]
+[say A]
+[effect A kira b 0 100]
+[serif on]
+[se kira_01]
+ぼ、ぼく、生き物のカラダにすごく興味あるんだ……！
+あ、主の体はどんなかな……/
+[serif off]
+?何？　どういうこと！？/
+[face A 06]
+[serif on]
+研究対象の体をよく知っておけば
+開発する薬の効果もあがるし……/
+[face A 01]
+[flow]
+任務に出たときは、敵の体を調べて
+弱点を考えることもできるから……/
+[hide A]
+[talkend]
+[serif off]
+?なるほど……？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[show A C]
+[face A 06]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[effect off b]
+[serif on]
+でもやっぱり……一番気になるのは
+男子として大事な部分だよね……/
+[face A 02]
+[flow]
+カタチとか、大きさとか、硬さとか
+気になっちゃうよね……/
+[serif off]
+?！？/
+[face A 06]
+[serif on]
+この荘園のみんなのことは記録してあるんだけど
+や、やっぱり自分の主のことは知ってないとね……！/
+[scale A 2.2 0.3]
+[move A Y -150 0.3]
+[face A 02]
+く、くらべっこでもいいよ！[shake A]
+そういうのも……好きだから……[face A 06]/
+[serif off]
+?だめー！！/
+[hide A]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+どれだけ断ろうとも付いてこようとする相模。
+万事休すか――いや……/
+[serif off]
+[bgm off]
+?……他の「研究」についても教えて/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+えっ、僕の研究が気になるの……？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[bgm home]
+そ、そうだね……まだ構想段階だけど、[move A X 300 0.3]例えば
+これは魂守を変質させようとしてるもので……/
+[move A X -400 0.3]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+こ、こっちの霊具は体の機能を高めるんだ！
+でもまだ良い術式が組めてなくて……/
+[face A 10]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そうだ[wait 0.2]……[wait 0.2]こっちをこうして[wait 0.2]……[wait 0.2]それから……/
+[textcolor ARUJI]
+[talkend]
+相模は嬉しそうに語りだし、
+やがて夢中で考え事をし始めたので――/
+[hide A]
+[textcolor ARUJI]
+[fusuma_02]
+[light def 0.5]
+[effect off a]
+[lightcolor orange]
+[bg rouka_night 0.5]
+気づかれぬよう、静かに部屋を
+あとにしたのだった。/
+[textcolor ARUJI]
+[fadein black 2]
+あの好奇心やこだわりが、相模の優れた
+研究成果につながるのだろう。/
+[textcolor ARUJI]
+一人でゆったり小便器の前に立ちながら
+そう思ったのだった。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_sag_r 相模]
+[set B s_n007_r 小豆洗い]
+[set C s_n005_r りく]
+[set D s_n004_r 百太]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 相模の研究]
+[-]
+[bg rouka_day]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+午後からの仕事の前に少し休憩をしようと思い
+廊下を歩いていると……/
+[serif off]
+?あ、相模と小豆洗い……？/
+[show A C]
+[show B C]
+[setline A B]
+[face A 00]
+[face B 01]
+[say B]
+[orderline A B]
+[serif on]
+相模、例のブツは手に入れてきたぞ。
+しょきしょき……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+……うん、うん……確かに。
+小豆洗い、あ、ありがとう……お代はこれ……[se cloth_01]/
+[face B 02]
+[say B]
+[move B XY -10 -40 0.4]
+[rotate B 10 0.3]
+[delay 0.4 move B XY 10 40 0.3]
+[delay 0.5 rotate B 0 0.3]
+おう！　毎度だぞ！
+この資金で小豆の地位向上間違いナシだぞぉ！/
+[face B 04]
+[flow]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+それにしても、珍味に生薬、
+ぬるぬるの海産物まで……/
+[face B 03]
+[flow]
+こんなにいろいろなものが必要なのかぁ？
+仕入れには苦労してるんだぞぉ……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 10]
+[say A]
+い、いつも新しい刺激を探してるんだ。
+小豆洗いには、助けられてるよ……/
+[hide A]
+[hide B]
+[talkend]
+[serif off]
+?相模、小豆洗いからなにか買い物したの？/
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[serif on]
+あ、主……うん……研究に必要なもの。
+で、でも荘園の予算は使ってないから……/
+[face A 01]
+[flow]
+あ、安心して欲しいな……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+相模の後ろには小豆洗いから購入したと思われる
+木箱がいくつも積み上げられていた。/
+[serif off]
+?（あんなに大量に……お金はどこから……）/
+[show A C]
+[show B R]
+[scale B 1.6]
+[move B Y -120]
+[move B X 200]
+[move B X -200 0.5]
+[face A 00]
+[face B 03]
+[say B]
+[orderline B A]
+[serif on]
+おいおい旦那ぁ！　今は商談中だぞぉ！
+いくら旦那でも順番は守ってもらわないと！/
+[face B 01]
+[flow]
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+相模もオレのちょっとしたお得意様なんだぞ。
+食っちゃるぞぉ！[shake B][face B 03]/
+[scale B 1 0.5]
+[move B Y 120 0.5]
+[setline 0.5 A B]
+[face B 00]
+[flow]
+[delay 0.4 orderline A B]
+相模には他にもオススメしたい物が
+あるんだぞ！　しょきしょき！/
+[face A 06]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+えっ、ほんと……？
+じゃ、じゃあもっとすごいの、見せて……！！/
+[move B Y 100 0.1]
+[delay 0.1 move B Y -100 0.2]
+[delay 0.4 move B Y 100 0.1]
+[delay 0.5 move B Y -100 0.2]
+[autotap]/
+[face B 03]
+[say B]
+ほら旦那！　行った行った！　しょきしょき！/
+[hide A]
+[hide B]
+[-]
+[talkend]
+[textcolor ARUJI]
+小豆洗いに追い払われてしまった。/
+[textcolor ARUJI]
+[flow]
+相模は興味津々でいろいろな品を
+見ているようだ。/
+[serif off]
+?（ときどき相模の様子を気にしてみるか……）/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm fun]
+[bg mbg_syouen]
+[minibg ima]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+別の日。
+居間に入るとりくと相模がお喋りしていた。/
+[show A C]
+[show C C]
+[setline C A]
+[face A 00]
+[face C 00]
+[orderline C A]
+[serif off]
+?相模、りく？/
+[face C 02]
+[say C]
+[serif on]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+お、兄ちゃん！
+お邪魔してるよ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 04]
+[say A]
+……あ、主……僕たちいま意見交換中なんだ。
+邪魔、しないで欲しいな……/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 09]
+[say C]
+そうそう！
+邪魔しないでよねー！/
+[serif off]
+?なんの話をしてるの？/
+[face A 10]
+[serif on]
+[say A]
+な、なにってそれは――……/
+[effect fr syutyu a 0 0]
+[move A X 50 0.5]
+[rotate A -5 0.5]
+[move C X 150 0.3]
+[se cloth_06]
+[scale A 1.6 0.3]
+[scale C 1.6 0.3]
+[moveline A C 0 -120 0.3]
+[face A 05]
+[face C 05]
+[say C]
+[bgm comical]
+[orderline A C]
+待って待って！[shake C]
+兄ちゃんには秘密！/
+[move C X -50 0.1]
+[delay 0.1 move C X 100 0.2]
+[delay 0.3 move C X -100 0.2]
+[delay 0.5 move C X 50 0.1]
+[autotap]/
+[effect off a]
+[face C 03]
+[flow]
+兄ちゃんに知られると壮ちゃんとか
+じいやとかにまで情報がまわって……/
+[face C 04]
+[flow]
+ぼ、ぼくの立場が危うくなっちゃうから！！/
+[setline 0.5 C A]
+[face A 04]
+[say A]
+[rotate A 0 0.5]
+[move A X -20 0.5]
+そ、そうなんだ……わ、わかった。
+出資者の意向は汲むよ。/
+[hide A]
+[hide C]
+[-]
+[talkend]
+[serif off]
+?雲龍院家はロクハラに資金提供してくれてるんだっけ/
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[serif on]
+それもあるけど……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+りくが僕の研究道具とか、ひ、必要な物資調達の
+ための資金を用意してくれてるんだ。/
+[face A 02]
+[flow]
+す、すごく助かってるんだな……
+その代わり、いろいろ調べてあげてるんだ……/
+[show C L]
+[scale A 1.6 0.3]
+[scale C 1.6 0.3]
+[moveline A C 0 -120 0.3]
+[move C X -300]
+[move C C 0.3]
+[se cloth_06]
+[shakebg]
+[rotate A -10 0.5]
+[move A X 200 0.5]
+[face C 04]
+[face A 05]
+[say C]
+[orderline A C]
+[bgm comical]
+さ、相模～～！？　も～！　兄ちゃんには
+なんでも喋っちゃうんだから……！/
+[rotate A 0 0.5]
+[setline 0.5 C A]
+[face C 06]
+[flow]
+ぼくと相模の関係も秘密だってば！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+わ、わかった……/
+[hide A]
+[hide C]
+[talkend]
+[serif off]
+?（ははぁ。ここから出た資金だったんだな）/
+[show A C]
+[show C C]
+[setline C A]
+[face A 03]
+[face C 03]
+[say A]
+[serif on]
+[orderline C A]
+じゃあ、主、そういうわけだから。
+ばいばい……/
+[talkend]
+[serif off]
+?じゃあ、また……/
+[se fusuma_03]
+[bg rouka_day 0.5]
+[minibg off 0.5]
+[hide A]
+[hide C]
+[serif on]
+[textcolor ARUJI]
+りくと相模の圧力に居間から
+追い出されてしまった。/
+@相模の声
+それで、りくが欲しがってたデータは……
+これだよ。/
+@りくの声
+おおっ！　兄ちゃんのってこういう感じなんだ！
+すごいね……ありがと！/
+[serif off]
+?…………/
+[serif on]
+[textcolor ARUJI]
+なにか聞こえた気がしたけど、
+聞こえなかったことにしよう……/
+[serif off]
+?（もう少し相模の様子を気にかけておくか……）/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg niwa_night]
+[hideall]
+[bgm home]
+[-]
+[se amb_05]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+それからまた別の日のこと。/
+[serif off]
+?あ、あれは……/
+[show D C]
+[face D 02]
+[say D]
+[orderline D]
+[serif on]
+相模くん！　今日も協力するっすよぉ！/
+[show A C]
+[setline 0.5 A D]
+[face A 10]
+[say A]
+[orderline A D]
+変な人、どうも……
+貴重なデータ、取らせてもらうね……/
+[serif off]
+?相模、今日は百太と？/
+[face A 00]
+[face D 00]
+[bgm fun]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+あ、主……んん、おはよ……/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 06]
+[say D]
+もう夜っすけどね！/
+[face A 04]
+[say A]
+僕、研究ではまず自分の体で
+試すことにしてるんだけど……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+たまにこの変な人にも実験台になって
+もらってるんだ……/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 04]
+[say D]
+一向に名前を覚えてもらえないのが
+残念っす～。/
+[face D 10]
+[move D Y 100 0.1]
+[delay 0.1 move D Y -100 0.2]
+[flow]
+でも相模くんの研究、ものすごいっすよ！
+オレ、何枚も新しい扉開いてもらってるっす！/
+[face A 02]
+[say A]
+ぼ、僕もこんな大きさのデータは
+そうそう取れないから……とっても面白いんだな！[shake A]/
+[scale D 1.6 0.5]
+[move D Y -120 0.5]
+[hide A]
+[face D 06]
+[say D]
+よかったら先輩と一緒に実験に参加したい
+ところっすけど……どっすか？/
+[serif off]
+?い、いまは忙しいから……/
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[face D 10]
+[serif on]
+そっすか～。残念っす！
+また今度暇があるときにっすね～。/
+[show A L]
+[move A X -200]
+[move A X 250 0.5]
+[face A 10]
+[say A]
+[orderline D A]
+そ、それじゃあ変な人……
+向こうの部屋に来てくれるかな……/
+[scale D 1 0.5]
+[move D Y 120 0.5]
+[delay 0.4 orderline A D]
+[face D 01]
+[say D]
+えへへ、今日も楽しみっす！/
+[moveline D A -1000 0 1]
+[se fusuma_01]
+[hide A]
+[hide D]
+[talkend]
+[serif off]
+?（こうやって研究は深まっていくのか……）/
+[serif on]
+[textcolor ARUJI]
+相模と百太の背中を見送った。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg sky_star]
+[hideall]
+[bgm off]
+[light def]
+[light blue]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[serif on]
+そんなことがあり、また数日経ったある日の夜。
+今日も任務や会議で疲れきっていた。/
+[se fusuma_01]
+[bg heya_night 0.5]
+[textcolor ARUJI]
+[flow]
+[se cloth_01]
+転がり込むように布団に入ると……/
+@相模の声
+あ、主、起きてる？
+い、いま大丈夫かな？/
+[serif off]
+?相模？　大丈夫だよ/
+[se fusuma_01]
+[show A L]
+[face A 01]
+[move A C 0.5]
+[say A]
+[orderline A]
+[serif on]
+よ、よかった……
+主にも研究の成果を見せようと思って……/
+[face A 06]
+[flow]
+ついに……完成したんだ！[shake A]
+だから、見てほしくて……！[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[flow]
+[bgm fun]
+ちゃんと変な人でも試したんだ。
+とっておきのコト、主にもしてあげるからね。/
+[hide A]
+[talkend]
+[serif off]
+?え……結構です……/
+[serif on]
+[textcolor ARUJI]
+なんだか嫌な予感しかしない。/
+[show A C]
+[face A 05]
+[say A]
+[orderline A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+えっ、あ、主は何度も僕に話しかけてくれるから
+研究のこと、興味あるのかと思ってたのにな……/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[face A 10]
+[flow]
+そんなに怖がらなくても、大丈夫……[se cloth_01]
+ただ、すごく気持ちいいだけだから……/
+[talkend]
+[textcolor ARUJI]
+相模は手の中にツボを抱えたまま
+こちらに迫ってくる。/
+[serif off]
+?ちょ、ちょっと待――/
+[move A Y -100 0.5]
+[shakebg]
+[se cloth_01]
+[face A 02]
+[say A]
+[serif on]
+服、汚れちゃうから……ぬ、脱がすね……
+じっと、しててね……/
+[talkend]
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[color A talk]
+[hide A]
+[textcolor ARUJI]
+相模はこちらに馬乗りになって
+てきぱきと服を脱がせていく。[shakebg][se cloth_01]/
+[serif off]
+?わーーーー！？/
+[shakebg]
+[se cloth_06]
+[wait 0.5]
+[-]
+[serif on]
+[se dosa_01]
+[delay 0.5 se cloth_01]
+[textcolor ARUJI]
+抵抗しようとするも、相模も立派な地魂男児。
+あっという間にパンツ一枚にされてしまった。[shakebg]/
+[show A C]
+[scale A 2]
+[move A Y -220]
+[face A 06]
+[say A]
+[orderline A]
+主、観念してじっとしててね……
+い、いくよ……ふふ……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[delay 0.8 hide A]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+[se picha_05]
+相模は体の上でツボを傾ける。
+とろりとした液体がお腹や胸のあたりに落ちてくる。/
+[textcolor ARUJI]
+[flow]
+[se picha_01]
+冷たい感触に体が震えるが、そんなことは
+気にせず、相模は手のひらで塗り拡げていく。[delay 0.5 se picha_02]/
+[show A C]
+[face A 06]
+[scale A 2]
+[move A Y -220]
+[se picha_01]
+[say A]
+[orderline A]
+大丈夫だよ、主……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[se picha_01]
+相模は全身くまなく液体を伸ばしていく。
+とろとろの液体が全身に刷り込まれ――……/
+[serif off]
+?わぁあああーーーー！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm night]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[se kira_01]
+[effect fr kira a 0 0]
+[serif off]
+?す、すごいスッキリしてる……！！！/
+[serif on]
+[textcolor ARUJI]
+相模に塗り込まれた液体は
+時間の経過とともにサラサラになり、/
+[textcolor ARUJI]
+[flow]
+不思議なことに、乾いた後には
+体の疲れが取れていたのだ。/
+[show A C]
+[face A 10]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[orderline A]
+か、体を癒やすリフレッシュオイルを
+つ、作ったんだ……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[flow]
+主の計測データから、必要な成分量も
+調整してあるよ。/
+[face A 02]
+[flow]
+少しでも、疲れが取れてるといいんだけど……[move A Y 10 0.1][delay 0.1 move A Y -10 0.1]
+あ、鎮静効果もある、から、もう眠いかな……？/
+[hide A]
+[-]
+[talkend]
+[textcolor ARUJI]
+確かに体がぽかぽかとしてきて、
+そのまままどろみつつあった。/
+[serif off]
+?今日は……よく眠れそう……/
+[effect off a]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[se cloth_01]
+[face A 01]
+[say A]
+[orderline A]
+[serif on]
+う、うまく効いたみたいだね……よかった。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[flow]
+あ、主にはいつも助けてもらってるから……
+お返ししたかったんだ。/
+[hide A]
+[talkend]
+[serif off]
+?（相模、こんなに優しい子だったのか……）/
+[serif on]
+[textcolor ARUJI]
+部屋に籠もり研究に没頭していると思っていたから
+皆と交流してこれを仕上げていたことにも驚いた。/
+[textcolor ARUJI]
+[flow]
+……そう思いながらうとうとして意識が飛びそうになる。
+ふすまが開く音がして、相模が部屋を出ようとする。/
+[show A C]
+[face A 00]
+[say A]
+[orderline A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+あ、そうだ……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+去り際に相模が呟いた。/
+[show A C]
+[face A 06]
+[say A]
+[orderline A]
+も、もっといいものもあるから、
+今度持ってくるね……/
+[face A 10]
+[flow]
+変な人も大絶賛のとっておきの研究成果だから
+きっと満足できるよ……へ、えへへ……/
+[fadein BLACK 5.0]
+[autotap]/
+[face A 02]
+[flow]
+じゃあ、おやすみ……/
+[move A X -300 0.5]
+[se fusuma_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+楽しみにしていいのだろうか……
+一抹の不安を感じながら、眠りについたのだった……/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>202/
+[set A s_sag_r 相模]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 相模と展望台で]
+[-]
+[bg gozasyo_day]
+[-]
+[bgm home]
+[fadeout 1]
+[-]
+[wait 1.5]
+[-]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[se fusuma_01]
+[fadeout]
+[autotap]/
+[textcolor ARUJI]
+[serif on 0.5]
+今日は相模と出かける日。/
+[textcolor ARUJI]
+しかし約束の時間になっても、
+集合場所に相模が現れない。/
+[textcolor ARUJI]
+相模の部屋に行ってみると――/
+[serif off]
+[se fusuma_01]
+[bg heya_day 0.5]
+[-]
+[show A C]
+[face A 07]
+[rotate A 10]
+[move A Y -50]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+[serif on]
+ぐぅ……ぐぅ……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+異様に散らかっている部屋の中で
+物に埋もれるようにして相模が寝ていた。/
+[serif off]
+?相模/
+[serif on]
+[show A C]
+[face A 07]
+[rotate A 10]
+[scale A 1.6]
+[move A Y -170]
+[say A]
+ん。/
+[shake A]
+[face A 03]
+[talkend]
+[textcolor ARUJI]
+声をかけると相模はぱちっと目を開けた。/
+[face A 05]
+[say A]
+あ、あれ……主……？/
+[se cloth_01]
+[move A Y 50 0.5]
+[rotate A 0 0.5]
+[autotap]/
+[face A 04]
+んん……お、おはよう…………
+も、もう、出かける時間だったかな……/
+[face A 03]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+んん～……研究に集中してたらいつの間にか
+寝てて……あれ、時間過ぎちゃってた……？/
+[serif off]
+?ちゃんと寝てる？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+[face A 01]
+ん……に、2時間くらいは寝た、
+かも……ふあああ……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -100 1.0]
+[autotap]/
+[face A 07]
+……………………/
+[move A Y 100 0.3]
+[se cloth_06]
+[face A 03]
+[talkend]
+[textcolor ARUJI]
+突然がばっと起き上がる相模。/
+[face A 01]
+[say A]
+ご、5分だけ、待ってほしいな……/
+[move A X -600 0.5]
+[hide A]
+[se cloth_01]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 1]
+[-]
+[bgm journey]
+[bg sky_sunset]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[textcolor ARUJI]
+[talkend]
+[serif on]
+[se amb_06]
+準備を終え、相模とふたりで
+目的地の鎌倉へとやってきた。/
+[bg black 0.5]
+[minibg sky_sunset 0.5]
+[se gaya_01]
+[show A C]
+[face A 08]
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[autotap]/
+[textcolor ARUJI]
+現地は祭り会場へ向かう人でいっぱいだ。
+相模は辺りをキョロキョロと見回している。/
+[serif off]
+?相模は人間観察が好きなんだっけ/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[say A]
+[serif on]
+うん……で、でも、今日は研究は、いいんだ。
+えっと……こ、こっち……/
+[move A X -400 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+祭りには寄らず相模の案内で山を登り始める。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[say A]
+きょ、今日は、主と出かけられるって聞いて……
+何しようか迷ったんだけど……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[flow]
+ぼ、ぼくの国に来てもらうのが、
+いいかなって……思ったんだ。/
+[face A 04]
+[flow]
+でも……お祭りで騒がしいところにいるより……
+離れたところから見てるほうが、いいよね。/
+[face A 02]
+相模国は、武蔵国の……隣でしょ？
+遠くにある、賑やかな街を眺めてるほうが、好き。/
+[face A 09]
+[flow]
+きっと……
+夜でも、小さな灯りが、あちこちに見えるんだ。/
+[face A 01]
+[flow]
+そんな景色を一緒に見ようかなって……
+現代だとどんなふうに見えるのかも興味あるから……/
+[serif off]
+?楽しみ/
+[face A 09]
+[wait 1]
+[-]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm night]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+相模と一緒にしばらく山を登り進むと、
+展望台へと出た。/
+[textcolor ARUJI]
+[flow]
+確かにここからなら、祭りの会場や夜の町並み、
+辺り一帯の景色が一望できそうだ。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[say A]
+ま、まだ下の景色は見ないでね……/
+[hide A]
+[fadein black 1]
+[talkend]
+[textcolor ARUJI]
+相模について展望台の一番高いところへと
+登っていく。[se walk_01]/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 10]
+[say A]
+@相模の声
+ついた……あ、主、こっち……！！[shake A]
+あっ、ま、まだ見ちゃダメだよ。/
+[face A 06]
+@相模の声
+じゃあ、み、みっつ数えたら、一緒に見ようね……/
+[face A 10]
+@相模の声
+……いち、に……さん！/
+[serif off]
+[bg black]
+[minibg sky_star]
+[light down]
+[lightcolor orange]
+[face A 05]
+[-]
+[fadeout 2]
+[-]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+相模とともに顔を上げる。/
+[say A]
+わぁ……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+街の明かりは宝石のように明るく輝いていた。
+天気もよかったので、遠くの灯りまでよく見える。/
+[show A C]
+[face A 05]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+こ、これが現代の景色なんだ…………/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+相模は目を見開いて街を眺めている。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[say A]
+…………す、すごくきれいだ。/
+[face A 09]
+[flow]
+え、江戸の街より……キラキラ、してるねっ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[flow]
+現代は……こ、こ、こんなにいろんな場所が
+明るいんだね……！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+展望台に腰掛けて祭りの様子や夜景を眺める。
+気づけば周りに人が増えてきた。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[say A]
+あ、主、ほら、見て……！！/
+[light def 1]
+[lightcolor red]
+[delay 1.5 light off 1]
+[delay 3 light def 0.6]
+[delay 3 lightcolor pink]
+[delay 5 light off 1]
+[delay 7 light def 0.4]
+[delay 7 lightcolor orange]
+[delay 9 light off 2]
+[delay 12 light def 1]
+[delay 12 lightcolor red]
+[delay 14 light off 2]
+[se hanabi_02]
+[autotap]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+相模が指差す方向に花火が上がった。
+色鮮やかな花火が街を人を照らす。/
+[serif off]
+?きれいだね/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 09]
+[say A]
+[serif on]
+きょ、今日は、花火があるって聞いてたんだ……/
+[face A 06]
+[flow]
+そんなに期待してたわけじゃなかったんだけど……
+そ、想像してたより、すごいね……！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+とても興奮している様子の相模。
+それからしばらく二人並んで花火を眺めた。/
+[show A C]
+[face A 08]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+…………/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+突然相模が何かを無言で手渡してきた。/
+[serif off]
+?これは？/
+[show A C]
+[face A 01]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+な、ナスのお守り……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+ガラスでできた小さな茄子に
+鈴がついた小さなお守りだった。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[say A]
+今日つきあってくれたお礼……
+あ、主に持っていて……ほしいんだ……/
+[serif off]
+?ありがとう。大切にする/
+[serif on]
+[face A 02]
+……/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[se hanabi_02]
+[light def 1]
+[lightcolor red]
+[delay 1.5 light off 1]
+[delay 3 light def 0.6]
+[delay 3 lightcolor pink]
+[delay 5 light off 1]
+[delay 7 light def 0.4]
+[delay 7 lightcolor orange]
+[delay 9 light off 2]
+[delay 12 light def 1]
+[delay 12 lightcolor red]
+[delay 14 light off 2]
+[autotap]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+いよいよ花火も大詰めという時、
+とんと相模が肩にもたれかかってきた。/
+[show A C]
+[face A 07]
+[scale A 1.6]
+[move A Y -120]
+[textcolor ARUJI]
+うとうとして今にも眠ってしまいそうだ。/
+[serif off]
+?肩を抱く/
+[say A]
+[serif on]
+[se cloth_01]
+[scale A 2 1]
+[move A Y -120 1]
+ん……ぐぅ……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+寝不足だったのだろう、
+相模はすぐに眠ってしまった。/
+[show A C]
+[face A 07]
+[say A]
+[scale A 2]
+[move A Y -240]
+あるじ……楽しい……ね……
+すぅ……/
+[talkend]
+[textcolor ARUJI]
+そんな相模のぬくもりがあたたかくて、
+花火が終わってもしばらくそのまま抱いていた。/
+[fadein BLACK 2.0]
+[textcolor ARUJI]
+いい夏の思い出ができた。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

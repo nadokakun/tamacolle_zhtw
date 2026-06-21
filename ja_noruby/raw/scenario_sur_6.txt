@@ -1,0 +1,3053 @@
+>>10000/
+@駿河
+拙者は東海道、駿河。
+足柄山の大熊の姿にて現界致した。[autotap]/
+[delay 6.5]
+[flow]
+[-]
+@駿河
+……さて、レッパン、とは何のことでござるか？/
+>>10001/
+@駿河
+上様、再び呼んでくださりありがたく存じまする。[autotap]/
+[delay 4.5]
+[flow]
+[-]
+@駿河
+そびえ立つ富士の如く、日の本一となりましょう！/
+>>1/
+[set A s_sur_r 駿河]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+拙者の国の名所といえば、やはり富士山でござる！
+甲斐殿もきっとそう申しまするが……/
+[flow]
+[face A 01]
+駿河国と、甲斐国からでは
+趣の違う富士の姿が見られるのでござります！/
+[face A 15]
+どちらからの姿もそれぞれ美しいもの。拙者としては、
+ぜひ三保の松原からご覧いただきたく存じまする！/
+>>2/
+[set A s_sur_r 駿河]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+拙者の時代には伝説の存在でございました、
+桜色に輝く幻のエビ……サクラエビとやら。/
+[effect fr kira 6000 0 0]
+[se kira_01]
+[face A 02]
+現代では我が国の宝であり、春になれば
+桜色に染まるの天日干場は絶景と聞き申した。/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 11]
+せ、拙者もそのような絶景を拝見したく存じまする！
+上様、よろしければご一緒に参りませぬか？[shake A]/
+>>3/
+[set A s_sur_r 駿河]
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+上様、拙者の国には徳川家康公を祀る
+久能山東照宮がございまする。/
+[face A 03]
+黄金に輝く社殿、精緻な彫刻、そして周囲の自然と
+調和した佇まい……/
+[effect fr kira 6000 0 0]
+[se kira_01]
+[face A 02]
+まさに日本建築の粋でござりまする！/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……う、つい熱くなってしまいましたが……いつか
+上様を拙者が案内させていただきとうござります！/
+>>4/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 @あやかし -sur]
+[show A C]
+[show B R]
+[face B 05]
+[face A 08]
+[serif on]
+[talk A]
+せい、[shake A][se doka_01]せいっ！[shake A][se doka_01]　$B:A、[face A 00]
+拙者は竹刀で布団をたたいていたでござるよ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 15]
+[face B 01]
+修行にもなり、布団も柔らかくできて
+一石二鳥でござろう！/
+>>5/
+[set A s_sur_r 駿河]
+[set C s_sur_b 駿河]
+[randomset B r @地魂男児 -sur]
+[show A C]
+[show B]
+[setline A B]
+[face A 00]
+[face B 04]
+[serif on]
+[talk A]
+$B:A、どうしたでござるか？
+ふむ……なるほど、それは深刻でござるな。[face A 08]/
+[face A 08]
+ならば、拙者、
+真摯に向き合わせていただきまする！[shake A][se cloth_06][hide A][show C][setline C B][face C 08][face B 05]/
+[say C]
+[face C 01]
+さあ、どうぞ存分にお話を……
+む？　どうなされた？[face C 12]/
+[face C 15]
+[flow]
+なぜ脱いだのか……？
+服を脱ぐのは拙者の真心の証でござるよ！[face B 06]/
+>>6/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 -sur]
+[show A C]
+[face A 00]
+[serif on]
+[show B R]
+[move B X 300]
+[move B X -300 0.5]
+[face B 00]
+[talk A]
+ごしごし……ごしごしと……おお！？[shake A][face A 05]
+$B:Aではござらんか。[face A 15]/
+[face A 01]
+[faced B 01]
+拙者、太刀の手入れをしていたところでござる。
+良い刀は毎日磨かねばなりますまい！/
+>>7/
+[set A s_sur_r 駿河]
+[show A C]
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+はぁ……拙者、木の上で寝てみたいという
+気持ちはあるのでござるが……/
+[face A 13]
+拙者が登ればきっと枝が折れるでござろう……
+せめて木の根元で昼寝をしたいでござる！[shake A]/
+>>8/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 @NPC @あやかし -sur]
+[show A C]
+[show B R]
+[setline A B]
+[face B 00]
+[face A 03]
+[serif on]
+[talk A]
+ときに優しく、ときに強く……
+茶を立てるにも、魂を込めねばなりませぬ。/
+[face A 01]
+[face B 02]
+$B:A、いかがでござるか？
+拙者の茶を味わっていただけてうれしいでござるよ！/
+>>9/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 @NPC @あやかし -sur]
+[show A C]
+[show B]
+[setline A B]
+[face A 00]
+[serif on]
+[talk A]
+[face B 00]
+目を瞑ると心に浮かんでくるのは、
+やはり富士山の景色でござるなぁ。/
+[face A 01]
+[face B 01]
+[flow]
+故郷の美しさとは、なぜここまで心を捉えるのか。
+$B:Aの話も聞きたいでござる！[shake A][face A 02]/
+>>10/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 @NPC @あやかし -sur]
+[show A C]
+[show B]
+[setline B A]
+[face A 01]
+[serif on]
+[face B 01]
+[talk A]
+$B:A、本日も一日ご苦労でござった。
+こちらは富士山の麓で育まれたお茶、ご堪能下され。/
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[autotap]/
+[face A 02]
+[face B 02]
+この香り高き茶で心身ともおくつろぎ下され。
+明日はまた新たな一日。共に励んでまいりましょう！/
+>>11/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 @NPC @あやかし -sur]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+今日は静岡おでんをふるまうでござるよ！
+$B:A、一本いかがでござるか？[show B R][move B X 200][move B X -200 0.5][face B 00]/
+[face B 01]
+[se eat_01]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+[autotap]/
+[setline 0.5]
+[face A 02]
+おお、口に合ったようでござるなぁ！[shake A]/
+[face A 07]
+[face B 02]
+これは黒はんぺん。
+現代の拙者の国で流行りの旨いものでござるよ！/
+>>12/
+/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_sur_r 駿河]
+[show A C]
+[face A 09]
+[talk A]
+[move A X -500]
+[move A X 500 0.5]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[serif on]
+[face A 11]
+むむ、この、体の昂りは……
+そういう時期なのでござろうか……/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 10]
+はぁ、はぁ……いや、武士たるもの
+このような衝動に負けてはならぬ……！[shake A]/
+>>15/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 @あやかし -@NPC -sur]
+[show A C]
+[show B]
+[setline A B]
+[face A 08]
+[face B 08]
+[effect fr katanas 6000 0 0]
+[shakebg]
+[se katana_01]
+[delay 0.3 se katana_03]
+[shake A]
+[-]
+[autotap]/
+[face A 01]
+[serif on]
+[face B 00]
+[say A]
+……なんと軽やかでいて力強い突き……
+$B:A、流石でござるよ。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 15]
+拙者もなんとか受けることができ申した。
+お互いに成長したでござるな。/
+>>16/
+[set A s_sur_m 駿河]
+[show A C]
+[face A 06]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[serif on]
+[talk A]
+はぁ、はぁ……いい稽古でござった。
+道着が汗でぐっしょりでござるよ。/
+[face A 11]
+それにしても……なんというか……
+修行の後は体が昂ってしまいがちでござる……/
+[face A 08]
+[shake A]
+きっちりと自分を律せねば……
+たくましき武士となるため……！　[shake A]はわわっ。[face A 10]/
+>>17/
+[set A s_sur_b 駿河]
+[randomset B b @地魂男児 @NPC @あやかし -sur]
+[show A L]
+[show B R]
+[move A C 0.5]
+[face A 00]
+[talk A]
+[face B 00]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+ふう、体を拭き終わったところで
+今日も体重計に乗ってみるでござる……むむ！？[face A 05][shake A]/
+[effect fr syutyu a 0 0]
+[face B 05]
+[se taiko_01]
+[face A 14]
+[shake A]
+体重が……少し増えていたでござる！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[effect off a]
+[effect fr kira 6000 0 0]
+[se kira_01]
+[face B 02]
+目標は富士山のように大きな体。
+もっともっと励まねば！/
+>>18/
+[set A s_sur_b 駿河]
+[randomset B b @地魂男児 -sur]
+[show A C]
+[show B]
+[setline A B]
+[face A 00]
+[serif on]
+[talk A]
+[se amb_12]
+[effect fr yuge a 0 0]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -180 0]
+壁の富士山の絵……
+なんと素晴らしい眺めでござろうか。/
+[face A 03]
+皆裸になり、何も隠すことなく
+真心を見せ合う……/
+[face A 15]
+[se water_06]
+[face B 01]
+この湯殿は心地よさの極地でござるなぁ。
+$B:A、ずっと浸かっていたいでござるよ！/
+>>19/
+[set A s_sur_b 駿河]
+[randomset B b @地魂男児 -sur]
+[show A C]
+[show B]
+[face B 00]
+[setline A B]
+[move A X -300]
+[move A X 300 0.5]
+[face A 01]
+[talk A]
+[-]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+おや、[= タオル 洗面器 石鹸]を落としておられますぞ。
+さぁ、お受取りくだされ。$B:A。/
+[face A 05]
+[shake A]
+[face B 06]
+はわっ！？　拙者も腰に巻いていたタオルを
+いつの間にやら落としていたでござる。これは不覚！[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+まあ、隠さなくとも構いませぬが。
+これがありのままの拙者でござるよ！/
+>>20/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 -sur]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+さて、厠掃除はあとこの小便器だけでござるな。/
+[show B R]
+[move B X 400]
+[move B X -400 0.5]
+[face A 01]
+[face B 00]
+[move A X -200 0.5]
+[orderline B A]
+おおっ、$B:A、どうごこちらへ！
+終わったらすぐに拙者が綺麗に掃除するでござる。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 06]
+なぁに、遠慮することはござりませぬ。
+ささ、ごゆっくりと用を足してくだされ！/
+>>21/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 -sur]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+ふわぁぁ、目が覚めたばかりで
+まだ頭がぼーっとするでござるよ……はぁ……/
+[show B]
+[setline 0.5]
+[face B 06]
+[face A 12]
+[say A]
+おや、$B:A、そんなに見つめて
+どうしたでござるか？　……はわ、これはっ！？[face A 14][shake A]/
+[face A 10]
+[shake A]
+[move A Y -100 0.5]
+[se cloth_01]
+せ、拙者、富士山のようになりたいとはいえ
+これは違うでござる……！　うぅっ。[shake A]/
+>>22/
+[set A s_sur_r 駿河]
+[show A C]
+[face A 00]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+[talk A]
+ふぅ、終わったでござる！　さあ、紙を……
+なっ！？[shake A][face A 05]　か、紙がないでござる！！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 03]
+いや武士として、いかなる時も冷静にならねば……
+しかし、どうすれば？/
+[face A 13]
+[shake A]
+だ、誰かおりませぬかーー！[shake A]/
+>>23/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 @あやかし -@NPC -sur]
+[show A C]
+[face A 11]
+[scale A 1.6]
+[move A Y -120]
+[serif on]
+[talk A]
+……はぁ、はぁ……
+……ふぅ、落ち着いたでござる……むむむ……/
+[se door_01]
+[face A 06]
+[scale A 1 0.5]
+[move A Y 120 0.5]
+……しかし、拙者としたことが……
+はぁ、まだまだ未熟者でござる……$B:A！？[show B R][setline 0.5][face B 00][face A 05][say A]/
+[face A 10]
+[shake A]
+せ、拙者の顔が赤い？[shake A]
+修行の……修行の最中でござったゆえ！[shake A]/
+>>24/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 @あやかし -@NPC -sur]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+今日の任務では、拙者も活躍できたでござる！
+$B:Aにも褒めてもらえたでござるが……/
+[face A 06]
+嬉しくてなかなか寝付けないでござる……！
+このままでは、明日に支障が！[shake A]/
+>>25/
+[set A s_sur_r 駿河]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+むにゃむにゃ……これが、富士の頂きからの景色。
+……絶景でござるなぁ……/
+[talkend]
+よく眠っているようだ。/
+>>26/
+[set A s_sur_r 駿河]
+[randomset B r @地魂男児 @あやかし @NPC -sur]
+[show A C]
+[rotate A 30]
+[move A X -150]
+[face A 07]
+[serif on]
+[talk A]
+すー、すー……んんっー……
+ごろんごろん……[rotate A -30 0.5][move A X 200 0.5][se cloth_01][move A Y -100 0.5]/
+[show B R]
+[move A X -100 0.5]
+[move B Y -100]
+[move B Y 100 0.5]
+[se cloth_06]
+[face B 06]
+[face A 07]
+[say A]
+[rotate A -20 0.5]
+[orderline A B]
+ん……おお、$B:Aでござるか……
+拙者、そちらまで寝ながら転がったでござるな……/
+[face A 14]
+[rotate A 0 0.3]
+[cloth_06]
+[move A X -100 0.3]
+[face B 03]
+はっ！？　も、申し訳ありませぬ！　
+そのようなところを掴むつもりは……！　[shake A]/
+[face A 06]
+[face B 04]
+たまたまでござるよ！/
+>>27/
+[set A s_sur_r 駿河]
+[show A C]
+[face A 00]
+[-]
+[autotap]/
+
+?駿河、ハレの日おめでとう！/
+[face A 02]
+[serif on]
+[say A]
+これは……上様！
+ありがとうござりまする！/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+実は今日は……拙者にとって、
+大事な日なのでござりまする。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+上様ならば……
+今日がなんの日かお分かりになるのでは……？/
+[face A 15]
+[flow]
+ヒントは語呂合わせでござりまする！/
+[talkend]
+語呂合わせ……
+今日は2月23日だ。/
+[serif off]
+?2・2・3……ふ・じ・さん？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[effect fr kira a 0 0]
+[se kira_01]
+[serif on]
+[say A]
+おお！！
+上様、さすがでござりまする！[se taiko_02]/
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そう、拙者の最も尊敬する霊峰、富士。
+その富士にちなんだ記念日でありまする。/
+[effect off a]
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[flow]
+富士山の日……現代でもこのようにして
+富士が多くの人々に愛されていて、幸せにござります。/
+[face A 00]
+[flow]
+今も昔も……日本に生きる者にとって特別な
+山なのでござりましょう。それが誇らしくありまする。/
+[face A 02]
+それが誇らしくありまする。
+ふんす！[shake A][face A 00]/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 15]
+拙者、富士山のように立派な男になるのが
+夢でござりますゆえ！/
+[face A 06]
+ここに声聞されてから、少しは夢に
+近づけていると良いのですが……/
+[serif off]
+?確かめてみる/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[-]
+[face A 14]
+[shake A 2 5 5]
+[se cloth_01]
+[-]
+[talkend]
+[serif on]
+駿河に触れると、温かな体がびくんと震えた。/
+[face A 09]
+[shake A]
+[talk A]
+はわわ、上様！？　お、お手柔らかに……！
+拙者、まだまだでござりまする……[face A 11]/
+[face A 10]
+[talkend]
+[se cloth_01]
+駿河の肌は暖かく、力強い感触がある。
+にぎにぎすると、駿河は耐えるように力を込めた。[shake A]/
+[serif off]
+?固いし、がっちりしてる！/
+[face A 06]
+[talk A]
+[-]
+[serif on]
+そ、そうでござりますか！？
+拙者、嬉しく思いまする！[shake A]/
+[effect off a]
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+上様、拙者、いつの日か富士山のような
+真に大きく逞しき武士になりまする。/
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+それまでどうかおそばに置いてくださりませ。/
+[serif off]
+?それまでと言わず、すっといて欲しい/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 05]
+[shake A]
+[serif on]
+は、はい！
+もちろんでござりまする！[face A 02]/
+>>100/
+[set A s_sur_r 駿河]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 駿河のお茶]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+縁側の奥に丸い影が見えた。
+何やらうずくまってもぞもぞと動いている。/
+[textcolor ARUJI]
+近づいてみると、しましまの尻尾が見えた。/
+[serif off]
+?駿河/
+[show A C]
+[face A 05]
+[shake A]
+[serif on]
+[se cloth_06]
+[talk A]
+はっ！　上様でござりますか！
+集中しておりました、申し訳ありませぬ。/
+[talkend]
+[textcolor ARUJI]
+見ると、床には敷布の上に日本刀が置かれていた。
+その刃先は研がれていたのか、輝いている。/
+[serif off]
+?刀の手入れをしていたの？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 15]
+[serif on]
+[talk A]
+はい！　この刀は、任務をこなすため……そして
+上様を守るのに必要な力にござりまする。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+いかなるときも力を発揮できるよう
+こうしてしっかりと手入をしておりまする。/
+[flow]
+[face A 08]
+このあと油を塗るところでござりました。/
+[serif off]
+?見ていてもいい？/
+[face A 05]
+[shake A]
+[serif on]
+[talk A]
+上様、拙者の刀にご興味が……？
+もちろんでござります！　すぐに終えまするゆえ。[face A 02]/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+[se cloth_01]
+駿河の動作はその大きな丸い体からは
+想像もつかないほど滑らかで品がある。/
+[textcolor ARUJI]
+流れるような動きで油を塗り
+日本刀を鞘に納めた。/
+[show A]
+[face A 01]
+[talk A]
+[serif on]
+これにて完了にござりまする。
+上様。お待たせして申し訳ありませぬ。/
+[face A 00]
+ところで……
+拙者になにかご用事でござりますか？/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 15]
+どのようなことでもお力をお貸し致しまする。
+なんでもお任せくださりませ！/
+[serif off]
+[effect off a]
+?ちょっと駿河のことが知りたいなって/
+[face A 05]
+[shake A]
+[serif on]
+[talk A]
+なんと、さようでござりましたか！
+で、では……そうでござりますな……/
+[face A 01]
+やはり拙者のことをわかっていただくには
+あれが一番。さあ、厨へお越しくだされ。/
+[move A X -800 1]
+[hide A]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm food]
+[bg mbg_syouen]
+[minibg tyubo]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A]
+[face A 01]
+[talk A]
+[serif on]
+上様、ようこそお越しくださり申した。
+では…/
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[se cloth_06]
+[autotap]/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+まずは服を脱ぎ申す！！/
+[serif off]
+?！？/
+[hide A]
+[talkend]
+[se cloth_01]
+[serif on]
+[textcolor ARUJI]
+駿河は突然上着をまくり、
+上半身をはだけさせた。/
+[textcolor ARUJI]
+ずんぐりとしたムチムチの肌を
+惜しげもなくさらしている。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[talk A]
+これでよしでござる！/
+[face A 05]
+[shake A]
+……う、上様！？[shake A]
+なぜそんなに驚いたようなお顔を？/
+[serif off]
+?いきなり脱ぐから！/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+[talk A]
+おわっ、驚かせてしまいましたか……
+申し訳ございませぬ！/
+[face A 11]
+この身一つで、相手と真摯に向かい合う。
+拙者、そのような心持ちになると、つい服を……/
+[serif off]
+?そうなんだ……/
+[face A 06]
+[serif on]
+[talk A]
+上様を驚かせるつもりはござりませぬ。
+今日は服を着ておきましょう……[se cloth_01]/
+[face A 01]
+それでは、気を取り直して、取り掛かりまする。/
+[hide A]
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+駿河は慣れた手つきで茶器を準備し始めた
+その所作は刀を扱う時と同じく丁寧だ。/
+[textcolor ARUJI]
+[se pee_01]
+お湯を注ぐと、日本茶のいい香りが漂ってきた。/
+[show A]
+[face A 01]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[se goto_02]
+[talk A]
+上様、こちらが駿河国の煎茶でござりまする。/
+[face A 00]
+[flow]
+拙者の国で古くから愛されてきたお茶でございまして、
+現代では静岡茶と呼ばれるものだそうでござります。/
+[face A 15]
+大切に手入れをし、丹精込めて育てられた
+お茶葉でござります。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+火傷しないように注意しながら、お茶を一口飲む。/
+[serif off]
+?美味しい！/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+[serif on]
+[talk A]
+お口にあいましたでしょうか。
+拙者、嬉しゅうござります。/
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+普段何気なく飲んでるお茶よりも
+なんだか深みがある……ような気がする。/
+[face A 15]
+[shake A]
+[talk A]
+おお、上様……茶柱が立っておりまする！！/
+[face A 01]
+拙者のお茶も、上様に飲んでいただけて
+きっと喜んでおりまするな。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+確かに立派ににょっきりと１本の茶柱が
+立っている。これは縁起が良さそうだ。/
+[serif off]
+?駿河、これからも淹れてもらえるかな/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[shake A]
+[serif on]
+[talk A]
+もちろんでござりまする！/
+[face A 00]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+いつでも美味しく淹れられるよう
+日々腕を磨いておきまする！/
+[bgm night]
+[textcolor ARUJI]
+[talkend]
+[face A 03]
+駿河は一呼吸置くと、真剣な表情で続けた。/
+[face A 08]
+[talk A]
+上様、拙者の刀も、このお茶も、
+まさに武士の魂そのものにござります。/
+[flow]
+日々の手入れあってこそ、輝くのでござります。/
+[face A 01]
+そして拙者自身もまた同じこと。
+日々鍛錬に励んでいく所存でござりまする。/
+[face A 08]
+このお茶のように、いざというときには輝きを放ち
+上様を必ずお守りいたしまする。[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+それが拙者にとって
+最も大切なことでござりまする！/
+[effect off a]
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……なので、拙者のことを知っていただくため
+お茶をお淹れいたし申した。/
+[face A 11]
+少し回りくどかったでござりますな。
+申し訳ござりませぬ。/
+[serif off]
+?ううん、ありがとう、駿河/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[shake A]
+[serif on]
+[talk A]
+はい！　ぜひ拙者を頼りにしてくださりませ！/
+[face A 01]
+この大熊の姿に似合うべく、
+力強くお守りいたしまする。/
+[serif off]
+[bgm off]
+?大熊って……？/
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[autotap]/
+[face A 15]
+[serif on]
+[talk A]
+[bgm fun]
+はい、この力強い大きな身体は
+足柄山の大熊のものでござりましょう！/
+[talkend]
+[textcolor ARUJI]
+駿河は胸を張ってそう主張するが
+その姿は、どちらかというと――/
+[serif off]
+?たぶん、レッパン……レッサーパンダかも！/
+[face A 12]
+[serif on]
+[talk A]
+レッパン……でござりますか？　/
+[face A 13]
+[se zukkoke_02]
+申し訳ござりませぬ、
+拙者、その生き物は存じませぬ……[shake A]/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 04]
+[se cloth_01]
+確かに、熊の尾には
+このような縞々は無いような……/
+[face A 10]
+ですが、胸にはしかとツキノワグマの模様が
+ありまするが……はて……/
+[serif off]
+?胸に模様が……？/
+[face A 01]
+[shake A]
+[serif on]
+[talk A]
+おわっ、服を着たままでは見えませぬな……
+では、ここはやはり脱ぎまする！/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[autotap]/
+[face A 02]
+上様には何も隠すことなどございませぬ。
+拙者の模様を見てくだされ！/
+[talkend]
+[se clolth_06]
+[hide A]
+[textcolor ARUJI]
+そう言って再び駿河は上着をはだけさせていく。/
+[serif off]
+[se zukkoke_02]
+?脱がなくていいから！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg black]
+[minibg off]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+それからしばらく、美味しいお茶を飲みながら、
+駿河の模様をしっかり見せてもらったのだった。/
+[textcolor ARUJI]
+[flow]
+駿河は少し変なところ……というか脱ぎ癖があるが、
+根は真面目で、誠実な武士のようだ。/
+[textcolor ARUJI]
+[flow]
+きっとあの大きな体と愛嬌で
+これからも力を貸してくれるだろう。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>101/
+[set A s_sur_r 駿河]
+[set B s_sur_sumo 駿河]
+[set LINE s_obj_line ライン]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 駿河と相撲]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[wait 1]
+[-]
+[fadein BLACK 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg heya_day]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[autotap]/
+?駿河、いる？/
+[textcolor ARUJI]
+[serif on 0.5]
+駿河を探しながら部屋を覗き込んだ。/
+[show A C]
+[face A 05]
+[se cloth_06]
+[move A Y -100]
+[-]
+[move A Y 110 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+こ、これは！　上様！
+いかがなされましたか！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+駿河は任務後の自分の荷物をまとめている
+ところのようだ。/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+畳まれた布類や着替え、刀などの道具が
+丁寧に並べられていた。/
+[serif off]
+?福男児、おめでとう！　駿河！/
+[talk A]
+[show A]
+[face A 06]
+[shake A]
+[serif on]
+う、上様！？　[shake A]か、かようなお褒めのお言葉
+身に余る光栄でござりまする……！！[face A 09]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 03]
+[flow]
+……拙者、この大会を経て、多くの仲間の
+みなさまと絆を交わし申した。/
+[face A 00]
+[flow]
+いまではすっかりみなさまに仲間として認めて
+いただけたように感じておりまする。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 11]
+[flow]
+しばらくは拙者が優勝などと……
+信じられぬ心持ちでござりましたが——/
+[move A XY -10 -140 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 140 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se cloth_06]
+[autotap]/
+[face A 02]
+いまはこのとろふぃいが誇らしゅうござりまする！/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……と、こう申し上げますると
+面映ゆい気持ちでござりまするな。/
+[talkend]
+[textcolor ARUJI]
+駿河は荷物の横に置かれた、福男児に贈られる
+大きな盃を手に持ち、はにかんだ。/
+[serif off]
+?みんな個性的な相撲だったね/
+[talk A]
+[bgm fun]
+[se zukkoke_02]
+[face A 14]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+そ、それは……
+脱衣無限相撲のことでござりまするか！？[shake A]/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[face A 10]
+[flow]
+それとも伊賀殿の分身相撲……いや但馬殿の
+こぴぃ相撲……備前殿のお色気相撲……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 03]
+[flow]
+みな驚きもあり、全力でのぶつかり合いの試合
+ばかりでござりましたが……/
+[face A 01]
+[flow]
+どの試合も拙者にとっては
+宝のような思い出ばかりでござりまする。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+駿河の荷物のなかに、
+まわしが大事に畳まれていた。/
+[flow]
+[textcolor ARUJI]
+駿河にまわしを触ってみてもいいかと尋ねると
+二つ返事で頷いてくれた。/
+[serif off]
+?駿河のまわしを手に取る/
+[playeryes]
+[se cloth_01]
+[light def 0.5]
+[lightcolor blue]
+[-]
+[wait 1.5]
+[-]
+[textcolor ARUJI]
+[serif on 0.5]
+駿河のまわしは霊力を帯び、使い終わってなお
+どこか、しっとりとしている。/
+[serif off]
+?これに包まれていたんだね/
+[serif on]
+[show A]
+[talk A]
+[face A 10]
+[shake A]
+は、はわわ……さ、さようでござりまする！[shake A]/
+[face A 11]
+[flow]
+このまわしは拙者にとって、
+とても大切なものになり申した。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[flow]
+これを身につけるだけで、あの緊張感や高揚感
+いまも思い出しまする。/
+[light off 0.5]
+[serif off]
+?駿河は相撲が好きなんだってね/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 02]
+[serif on]
+もちろんでござりまする！　なにせ拙者、
+足柄山の大熊でござりますゆえ！　ふんす！[shake A]/
+[talkend]
+[textcolor ARUJI]
+駿河は鼻をならし胸を張り、
+あくまでも大熊だと言い張る。/
+[se cloth_01]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[talk A]
+[face A 00]
+もしや……上様も相撲がお好きなので
+ござりまするかっ？/
+[face A 09]
+[flow]
+…………上様。拙者、その……[shake A]
+ひとつ、お願いがござりまするぅ……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+福男児のお祝いに
+ひとつお願いを叶えてあげてもいいかもしれない。/
+[serif off]
+?なんでも言って！/
+[show A]
+[scale A 2]
+[move A Y -220]
+[talk A]
+[face A 08]
+[effect fr syutyu a 0 0]
+[-]
+[bgm departure]
+[serif on]
+[se taiko_01]
+拙者、上様と相撲がしとうござりまする！/
+[serif off]
+?！？/
+[hide A]
+[talkend]
+[effect off a]
+[textcolor ARUJI]
+[serif on]
+たくましく太ましい駿河を相手に相撲なんて
+相手になるのだろうか……/
+[flow]
+[textcolor ARUJI]
+そう不安になったものの、ここは
+潔く挑戦することにした。/
+[flow]
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[wait 0.5]
+[se cloth_06]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+思い切って服を脱ぐと、
+駿河が稽古用の真新しいまわしを持ってきた。[show A][scale A 1.6][move A Y -120]/
+[move A Y -100 0.5]
+[se cloth_01]
+[talk A]
+[shkaebg]
+[face A 01]
+拙者がお手伝いいたしまする。/
+[talkend]
+[fadein BLACK 1.5]
+[se cloth_01]
+[textcolor ARUJI]
+お互いにまわしをつけるのを手伝い合い
+あっという間に準備ができた。/
+[serif off]
+[hide A]
+[show B]
+[scale B 1.6]
+[move B Y -120]
+[talk B]
+[face B 08]
+[-]
+[bgm battle_excited]
+[fadeout 1.5]
+[-]
+[serif on]
+では、
+拙者が手取り足取り教えてさしあげまする！/
+[serif off]
+?よ、よろしくおねがいします……/
+[talkend]
+[textcolor ARUJI]
+[face B 01]
+[serif on]
+ふたり並んで柔軟体操から始まり
+駿河のまわしに手をかけ基本の動きを教わる。/
+[effect bk wavein 6000 0 0]
+[se cloth_06]
+[quake 2]
+[effect fr syutyu a 0 0]
+[rotate B 10 0.3]
+[scale B 2 0.3]
+[move B Y -100 0.3]
+[face B 00]
+[show LINE]
+[rotate LINE 00]
+[scale LINE 3]
+[orderline B LINE]
+[autotap]/
+[se cloth_01]
+[face B 08]
+[flow]
+[textcolor ARUJI]
+何度も身体をぶつけ合い
+畳の上で相撲を取る。/
+[se doka_01]
+[delay 0.3 se cloth_06]
+[flow]
+[shake B]
+[face B 02]
+[textcolor ARUJI]
+全身汗びっしょりになりながらも駿河のやわらかな
+胸やお腹に体をぶつけ、相撲を楽しんだのだった。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[light off]
+[wait 1.0]
+[quake off]
+[hideall]
+[bg heya_light]
+[effect off a]
+[-]
+[bgm off]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+それからしばらくして——……/
+[serif off]
+[bgm night]
+?もう限界だー/
+[textcolor ARUJI]
+[serif on]
+お互い疲れ果て、大の字で畳の上に
+寝転んでいた。/
+[show B C]
+[face B 06]
+[rotate B 40]
+[move B Y -100]
+[talk B]
+上様……ありがとうござりまする。
+拙者、上様と裸で汗をかき、幸せでござりました！/
+[se cloth_01]
+[rotate B 0 0.5]
+[move B Y 100 0.5]
+[autotap]/
+[face B 01]
+[flow]
+今日はこのくらいにいたしましょう。/
+[talkend]
+[hide B]
+[textcolor ARUJI]
+地魂男児たちの試合に比べればお遊びのような
+練習試合だったが/
+[flow]
+[textcolor ARUJI]
+全身を使った相撲はかなり疲れるものだった。/
+[serif off]
+?でも、楽しかった/
+[light def 0.5]
+[lightcolor blue]
+[show B]
+[scale B 1.6]
+[move B Y -120]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[face B 09]
+[-]
+[talk B]
+[serif on]
+次の相撲大会ではまた誰かが福男児と
+なるのでござりまするな……/
+[face B 11]
+[flow]
+そしてまた次も、その次も……/
+[face B 00]
+[flow]
+きっといつまでも歴史が紡がれてゆくので
+ござりましょう。/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 01]
+[flow]
+拙者もその一部になれたと思うと
+幸せにござりまする。/
+[face B 00]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+そういえば……いつか荘園にも
+土俵を作ってはいかがでござりましょうか！/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 02]
+きっとみなも喜ぶかと思いまする！/
+[hide B]
+[talkend]
+[textcolor ARUJI]
+たしかに、地魂男児が増えてきて、
+修練場も手狭になってきたかもしれない。/
+[flow]
+[textcolor ARUJI]
+修練場での訓練以外に、土俵での相撲でも
+訓練ができるだろう。/
+[serif off]
+?いいかも、考えておくよ/
+[show B]
+[scale B 1.6]
+[move B Y -120]
+[talk B]
+[face B 14]
+[shake B]
+[serif on]
+はわわ……っ！　ありがとうござりまする！[shake B]/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 02]
+[flow]
+拙者は毎日でも土俵に立ちまする！
+上様とも、ぜひ土俵で相撲をいたしましょう！/
+[scale B 2 0.5]
+[move B Y -100 0.5]
+[se cloth_01]
+[autotap]/
+[face B 00]
+[flow]
+上様。本日は拙者と相撲を取っていただき
+感謝の念に耐えませぬ！/
+[face B 03]
+[flow]
+拙者……上様とも裸になり、真摯に向き合い
+……絆を深めたく思っておりました。/
+[face B 02]
+[effect fr kira a 0 0]
+[se kira_01]
+拙者の願いが叶い、とても嬉しく思いまする！/
+[effect off a]
+[face B 15]
+[move B Y -100 0.5]
+[se cloth_06]
+[flow]
+では、汗で濡れたまわしは拙者が片付けて
+おきまする。/
+[se cloth_01]
+[move B Y -10 0.2]
+[delay 0.2 move B Y 10 0.2]
+[delay 0.4 move B Y -10 0.2]
+[delay 0.6 move B Y 10 0.2]
+[autotap]/
+[face B 01]
+[flow]
+上様はこのまま浴場で汗を流して
+くださりませ。/
+[face B 02]
+[se cloth_01]
+[move B Y -100 1]
+[fadein black 1.5]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+そうして駿河にまわしを解かれ、
+そのまま大浴場へと駆け込んだのだった。/
+[flow]
+[se amb_12]
+[textcolor ARUJI]
+心地よい疲れの中、また駿河と相撲を取るのが
+楽しみになったのだった。/
+[serif off 2.0]
+[-]
+[se bath_03]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[se bath_02]
+[wait 1]
+[-]
+[autotap]/
+>>201/
+[set A s_sur_r 駿河]
+[set AA s_sur_bath 駿河]
+[set B s_n001_r 夏人]
+[set C s_n004_r 百太]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 駿河とおりじなるちょこ]
+[-]
+[bg rouka_day]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+バレンタインシーズン。
+荘園はにわかに騒がしくなる。/
+[textcolor ARUJI]
+[flow]
+あちらこちらでチョコを作る
+地魂男児たちの姿があるのだ。/
+[bg shirei_day 0.5]
+[show B C]
+[face B 01]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+え？　どんなチョコが人気か？/
+[show A L]
+[face A 09]
+[setline 0.5 A B]
+[orderline A B]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+はい。
+拙者、なにぶんかような現代の流行り物には疎く……/
+[face A 08]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+なかなか良き案が思い浮かばなくて
+困っておりまする。/
+[face B 00]
+[say B]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+うーん……プレゼントしてもらったら
+なんでも嬉しいとは思うけど……/
+[face B 15]
+[flow]
+正直、僕もあんまり詳しくはないんだよね。
+羽鳥さんならスイーツは詳しいと思うけど……/
+[face B 04]
+[flow]
+このシーズンはあちこちに出かけてて
+捕まえられないかも……/
+[face B 02]
+[flow]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+あ、例えば自分の国ゆかりのものだと
+いいんじゃないかな？/
+[face A 05]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+自分の国ゆかりのもの……なるほど……
+そういうことでござったか。/
+[face A 03]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+実は先日、甲斐殿に釘を刺されてござります。
+上様に「富士山ちょこだけは絶対に渡すな」と……[se zukkoke_02]/
+[face B 10]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+そうなんだ……/
+[face A 10]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+うむむ……いや、情報ありがたく存じまする！
+拙者、もうしばらく悩んでみまする。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hide B]
+[bg rouka_day]
+[scale A 1.6]
+[move A C]
+[move A Y -120]
+[move A X 1000 0.1]
+[-]
+[fadeout 1.5]
+[-]
+[move A X -1000 1]
+[autotap]/
+[face A 08]
+[say A]
+[serif on]
+富士山ちょこではなく、
+拙者おりじなるのちょこ……/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+[flow]
+うむむぅ……/
+[serif off]
+[show C R]
+[move C X 800]
+[setline 1 A C]
+[orderline A C]
+[face C 02]
+[say C]
+[shakebg]
+[bgm fun]
+[-]
+[serif on]
+駿河くん、いたいた！　夏人くんに聞いたっすよ！
+チョコのこと、まだ悩んでるっすか？/
+[face A 01]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+これは百太殿！/
+[face A 03]
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+はい……拙者らしいちょこ……
+やはりお茶でござろうか……/
+[scale C 1.6 0.5]
+[move C Y -120 0.5]
+[setline 0.5 A C]
+[face C 08]
+[say C]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[se cloth_01]
+それもいいと思うんすけど……
+オリジナルのチョコを作るなら——/
+[face C 02]
+[flow]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+シリコンで形を取るってのはどうっすか？
+駿河くん自身をプレゼントできちゃうっすよ！[se taiko_02]/
+[face A 05]
+[say A]
+[shake A]
+せ、拙者自身を……ぷれぜんと！？/
+[face C 10]
+[say C]
+[se cloth_01]
+[move C XY -10 -40 0.4]
+[rotate C 10 0.3]
+[delay 0.4 move C XY 10 40 0.3]
+[delay 0.5 rotate C 0 0.3]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[autotap]/
+オレも結構やる手なんすけど、ここに成形グッズが
+残ってるんで、使ってくださいっす！/
+[face C 01]
+[flow]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+きっと駿河くんならいい形が取れると思うっすよ！/
+[face C 10]
+[flow]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+それと……もし作ったら
+オレにもひとつもらえると嬉しいっす！/
+[face A 15]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+こ、これは……感謝いたしまする！[shake A]/
+[move C X 1000 1]
+[mvoe A X 200 0.5]
+[face A 12]
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+……なるほど、鋳型を作って、そこにちょこを
+流し込むというわけでござるな。/
+[face A 09]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+拙者自身をぷれぜんと……ごくり……[shake A]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg mbg_syouen]
+[minibg syouen_tyubo]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[se paper_01]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+駿河はオリジナルチョコ作成ツールの説明書を
+開きながらぶつぶつと呟いていた。/
+[show A C]
+[face A 08]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+ふむふむ……
+作り方はだいたいわかったでござる。/
+[face A 11]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+しかし指をかたどろうかと思ったでござるが……
+指だけってちょっと変でござろうか……/
+[face A 06]
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -30 0.6]
+[autotap]/
+肉球はどうでござろうか……
+あるいは手全体……/
+[face A 14]
+[flow]
+[move A Y 35 0.1]
+[delay 0.1 move A Y -10 0.1]
+いや、さすがに拙者の拳だと
+大きすぎるかもしれませぬな……/
+[face A 13]
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+どれも決め手にかけまする……
+真剣さが足りないのやもしれませぬな。/
+[shakebg]
+[effect fr syutyu a 0 0]
+[show AA]
+[scale AA 1.6 0.3]
+[move AA Y -120 0.3]
+[se cloth_06]
+[orderline AA A]
+[delay 0.2 hide A]
+[face A 08]
+[flow]
+[say AA]
+かくなるうえは………………
+まずはとにかく服を脱ぎ！！/
+[face AA 14]
+[shake AA]
+[flow]
+……はっ……
+思いついたでござる——……！！[se zukkoke_02]/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg off]
+[bgm food]
+[effect off a]
+[hideall]
+[bg heya_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+@駿河の声
+上様、駿河にござりまする。/
+[hide A]
+[talkend]
+[serif off]
+[textcolor ARUJI]
+?駿河？　入って/
+[se fusuma_01]
+[show A C]
+[face A 08]
+[say A]
+[serif on]
+失礼いたしまする。/
+[face A 11]
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+ほ、本日は上様に献上いたしたきモノが
+ござりまする。/
+[move A Y -150 0.5]
+[se cloth_01]
+[face A 06]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+つまらぬ物ではござりまするが……
+お受け取りくださると大変嬉しく……っ！[shake A]/
+[se cloth_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+駿河は正座したまま頭を深く下げ、畳の上を
+すべらせるように小さな箱をこちらへ差し出した。/
+[serif off]
+?ありがとう！　開けていい？/
+[show A C]
+[move A Y -150]
+[move A Y 100 0.5]
+[face A 06]
+[say A]
+[serif on]
+もちろんでございまする！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+手のひらに乗るほどの箱の包装を解き
+ふたを開けてみると……[se cloth_01]/
+[effect fr kira a 0 0]
+[textcolor ARUJI]
+[se kira_01]
+[flow]
+そこには小さな丸いチョコがいくつか入っている。/
+[textcolor ARUJI]
+[flow]
+よく見ると、ただ丸いだけではなく、
+穴のようなものも見える。/
+[effect off a]
+[serif off]
+?不思議な形だ……/
+[textcolor ARUJI]
+[serif on]
+表面は少しザラザラしたテクスチャがあり
+ふたつの穴がある。まるで犬の鼻のような……/
+[show A C]
+[move A X 200 0.5]
+[face A 09]
+[scale A 1.6]
+[move A Y -120]
+[talkend]
+[textcolor ARUJI]
+[flow]
+手にとって見ていると、恥ずかしそうに
+俯く駿河の顔が目に入った。/
+[serif off]
+?あ、この形って……！/
+[face A 06]
+[say A]
+[shake A]
+[serif on]
+は、はい！　拙者の鼻にござりまする！[se taiko_02]/
+[face A 11]
+[move A X -200 0.5]
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+しりこんで形をとるのでござりまするが、
+失敗してはいけないと思い、/
+[face A 06]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+いくつも作らせていただき申した。/
+[face A 15]
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+鼻の質感まで精細に再現されたと
+思っておりまする！/
+[serif off]
+?比べてみる/
+[scale A 2 0.5]
+[move A Y -120 0.5]
+[se cloth_01]
+[say A]
+[-]
+[serif on]
+[face A 14]
+う、上様っ！？　は、はわわわ……っ。[shake A]/
+[face A 10]
+[talkend]
+[textcolor ARUJI]
+右手で駿河の鼻先に触れ、
+チョコの質感と比べてみる。/
+[se cloth_01]
+[textcolor ARUJI]
+[flow]
+本物は押すとぷにぷにとしているものの
+たしかに表面のテクスチャ感は似ている。/
+[serif off]
+?すごいね！/
+[scale A 1.6 0.5]
+[move A Y 120 0.5]
+[se cloth_01]
+[face A 06]
+[say A]
+[serif on]
+喜んでいただけて大変嬉しゅうござりまする！/
+[face A 11]
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+実は……おりじなるのちょこを作るにあたり
+なにを作ればよいのやら、なかなか思いつかず……/
+[face A 03]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+百太殿には拙者ならきっと良い形が取れると
+激励いただいていたのではござりまするが……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+百太がなにを期待していたのかはわからないが
+結果的にかなりオリジナリティがあるだろう。/
+[textcolor ARUJI]
+[flow]
+自分の鼻の形のチョコというのは
+いままで見たことがない。/
+[serif off]
+?いただきます！/
+[se lick_01]
+[show A C]
+[face A 09]
+[say A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+駿河の鼻先の形をしたチョコを舐めてみる。
+舌を這わせると、駿河がぴくりと震えた。[shake A]/
+[face A 10]
+[say A]
+[shake A]
+は、はわわ……な、何故か不思議と……
+こそばゆい気がいたしまする……/
+[se lick_01]
+[talkend]
+[textcolor ARUJI]
+そんなふうに言われると、不思議と駿河の
+鼻先を舐めているような……/
+[textcolor ARUJI]
+[flow]
+不思議な感覚になってくる。/
+[face A 11]
+[say A]
+[shake A]
+はうぅぅ……っ。う、上様……
+その……こちらを見ながらですと……/
+[face A 10]
+[flow]
+[shake A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そぉ……はうっ……ううぅぅ……
+い、いっそひと思いにぃっ！/
+[serif off]
+?食べちゃう/
+[se eat_02]
+[hide A]
+[say A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+ぱくっと口に放り込んでチョコを堪能する。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 14]
+[say A]
+[shake A]
+はわ！？　ひ、ひとくちで……！！[se zukkoke_02]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+駿河は自分の
+マズルを両手で押さえ震えている。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[say A]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+…………お味はいかがでござりましょうか。/
+[serif off]
+?美味しかったよ！/
+[face A 01]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+駿河はほっとした様子でにっこりと笑った。/
+[hide A]
+[textcolor ARUJI]
+[flow]
+あとふたつ、同じ鼻のチョコがある。
+まだまだ楽しめそうだ。/
+[serif off]
+?駿河にもお返しのチョコを渡す/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 14]
+[say A]
+[shake A]
+[serif on]
+はわ！？　こ、これは……！！/
+[face A 15]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+上様の手作りちょこれいとでござりまするか！？/
+[face A 10]
+[shake A]
+[flow]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+せ、せ、拙者、恐悦至極にござりまするぅ！/
+[move A Y -100 0.5]
+[scale A 1 1]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+駿河は頭を地面にこすりつけ
+渡したチョコの箱を高く掲げ後退る。/
+[serif off]
+?コーヒーを淹れて、一緒に食べよう/
+[show A C]
+[move A Y -100]
+[move A Y 100 0.5]
+[se cloth_01]
+[face A 06]
+[say A]
+[serif on]
+よ、よろしいのでござりましょうか……！/
+[shake A]
+[show AA]
+[scale AA 1.6 0.5]
+[move AA Y -120 0.5]
+[face AA 15]
+[talk AA]
+[hide A]
+[flow]
+[se cloth_06]
+[autotap]/
+では、僭越ながら、この駿河、
+上様の珈琲ぶれいくにお供させていただきまする！/
+[serif off]
+?なんで脱いだの！？/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+今度自分もどこか型取りでもして
+オリジナルチョコをお返しプレゼントしたい——/
+[textcolor ARUJI]
+[flow]
+そんなふうに思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[autotap]/
+>>202/
+[set A s_sur_r 駿河]
+[set B s_n000_r 猫乃屋]
+[set C s_n001_r 夏人]
+[set D s_n004_r 百太]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[-]
+[title 絆 駿河と屋台のお手伝い]
+[-]
+[bg mbg_syouen]
+[bgm home]
+[minibg syouen_watarirouka]
+[-]
+[fadeout 1.0]
+[-]
+[talkend]
+[autotap]/
+[show A]
+[face A 01]
+[serif on]
+[say A]
+上様！[shake A]　お待ちしており申した！
+まだまだ陽射しがありまする。どうぞこちらへ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+[flow]
+しかし今日は外でお仕事とのことで
+ござりまするが……一体……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+今朝、突然猫乃屋から連絡があり
+雑務の手伝いに呼び出されたのだ。/
+[flow]
+[textcolor ARUJI]
+地魂男児の手も借りたいというので
+ちょうど任務報告に来ていた駿河を誘ったのだ。/
+[flow]
+[textcolor ARUJI]
+スマホに着信があり、確認すると
+猫乃屋から集合場所が送られてきていた。/
+[serif off]
+?それじゃあ行こう。駿河/
+[show A]
+[face A 01]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+承知いたしました！
+なにはともあれ、行ってみましょう！/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg black]
+[minibg yatai_night]
+[bgm home_summer]
+[-]
+[fadeout 1.5]
+[-]
+[se walk_01]
+[autotap]/
+[talkend]
+[serif on 0.5]
+[textcolor ARUJI]
+ロクハラからしばらく歩き森の近くの
+赤い大鳥居をくぐる。/
+[flow]
+[textcolor ARUJI]
+参道を進んでいくと、色とりどりの提灯が連なり
+祭りの準備を進める人々の活気ある声で溢れている。/
+[se gaya_01]
+[show B C]
+[face B 01]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+よぅ後輩！　それに駿河！
+来てくれたか。わざわざ悪かったな。/
+[show A L]
+[face A 15]
+[setline 0.5 A B]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[orderline A B]
+これは……お祭りの屋台でござりまするか！？/
+[hideall]
+[talkend]
+[textcolor ARUJI]
+猫乃屋に指示された場所はお祭りの屋台が
+ずらりと並ぶ通りだった。/
+[show B C]
+[face B 00]
+[say B]
+ああ。地域との交流も大事だからなー。
+ロクハラでも近所の祭りに屋台出してんだ。/
+[face B 04]
+[flow]
+今年は俺と他の何人かが担当になったんだが
+みんな会議だとかいって来れなくなってよ……[shaek B]/
+[face B 08]
+[flow]
+つーことで、任務で忙しいのはわかってっけど
+ちょっと手伝ってもらえたらなーってさ。/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 09]
+[flow]
+こういうのはみんなでわいわい
+やるほうが楽しいしよ。/
+[show A L]
+[setline 0.5 A B]
+[face A 00]
+[say A]
+なるほど……力仕事ならお任せくだされ！
+拙者、お役に立ってみせまする！[shake A][face A 02]/
+[serif off]
+?なんのお店やるんですか？/
+[face A 00]
+[face B 01]
+[say B]
+[serif on]
+今年はやきそばだ！[shake B]
+材料はこの辺のクーラーボックスにどっさりだ。/
+[face B 10]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[flow]
+これ運んでくるだけで結構たいへん
+だったんだよな……/
+[hide B]
+[move A C 0.5]
+[face A 01]
+[say A]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+おお！　焼きそば屋台でありまするか。
+これは楽しくなりそうでござる！　/
+[face A 08]
+[flow]
+焼きそばといえば現代では拙者の国でも
+いわゆるびぃ級ぐるめとして有名でござりますゆえ……/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+そちらに負けぬ焼きそばを
+焼いてごらんにみせましょう！[se taiko_02]/
+[hide A]
+[-]
+[show B]
+[face B 01]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+おおーめっちゃ頼りになるじゃねーか！
+さすが駿河だぜ！　後輩も、ナイス人選！[shake B]/
+[face B 00]
+[flow]
+んじゃあ駿河は調理担当な。
+作り方は大丈夫か？/
+[serif off]
+[show A]
+[scale A 1.6]
+[move A XY -1000 -120]
+[moveline A B 1000 0 1]
+[face A 08]
+[-]
+[serif on]
+[say A]
+[shake A]
+いえ！　まったく知りませぬ！[shake A][se taiko_02]/
+[se zukkoke_02]
+[serif off]
+?堂々と！？/
+[scale A 1 0.5]
+[move A Y 120 0.5]
+[setline 0.5 A B]
+[face B 08]
+[say B]
+[face A 06]
+[serif on]
+しゃーねーなぁ。
+まあそう難しいもんじゃねぇよ。まずは食材を——[move B XY -10 -40 0.4][rotate B 10 0.3][se cloth_01]/
+[bgm off]
+[minibg emo_kiduki 0.1]
+[face B 05]
+[move A X -300 0.5]
+[move B C 0.5]
+[hide A]
+[scale B 1.6 0.3]
+[move B Y -280 0.3]
+[se katana_03]
+んおッ！？[shake B 2 5 5]/
+[serif off]
+[se zukkoke_02]
+?猫乃屋さんが停止した！？/
+[minibg yatai_night 0.5]
+[show A L]
+[move A X 100 0.5]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[say A]
+[orderline B A]
+[face B 12]
+[serif on]
+ね、猫乃屋殿？
+いかがされたでござるか……？/
+[face B 13]
+[say B]
+[shake B]
+や、やべ……こ、これはやべぇ……[shake B]
+あっ！[face B 05]　ま、間違いねぇ……これは……！！[shake B]/
+[bgm comical]
+[face B 04]
+[face A 14]
+腰やっちまった！！！[shake B 2 5 5][se zukkoke_02]/
+[serif off]
+?えーーーー！？/
+[face A 10]
+[say A]
+[move A X -100 0.5]
+[move B X -50 0.6]
+[se cloth_01]
+[serif on]
+と、とりあえずこちらに座ってくだされ！
+腰は要と申しまする。/
+[face B 08]
+[say B]
+[shake B]
+あっ！　だめだめ！　もっと優しく！
+ゆ、ゆっくりぃ～～……っうっうっ！！[face B 04]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 09]
+[say A]
+い、いかがいたしましょう……
+これでは屋台の準備どころでは……/
+[hideall]
+[talkend]
+[textcolor ARUJI]
+腰を痛めた猫乃屋をこのままにしておく
+わけにはいかないだろう……ここは——……/
+[serif off]
+?駿河。猫乃屋さんをロクハラに運んで/
+[show A]
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+えっ！？　しかし……
+上様をお一人にしておくわけには参りませぬ！[face A 08]/
+[show B R]
+[move B Y -100]
+[orderline B A]
+[rotate B 20]
+[face B 10]
+[say B]
+[shake B]
+そ、そもそも連れてくったって
+どうやって、いてっ、いてて……[se zuba_01][fadein WHITE 0.2][delay 0.2 fadeout 0.3][face B 05]/
+[face B 04]
+[flow]
+いてぇよぉ……[shake B]/
+[serif off]
+?駿河に命じる/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 11]
+[say A]
+[serif on]
+……わかり申した。
+上様の命とあらば、この駿河、かならずや！[shake A]/
+[face A 08]
+[se cloth_06]
+[move B X -150 0.5]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[delay 0.4 move B XY 10 80 0.3]
+[delay 0.5 rotate B -50 0.3]
+[flow]
+すぐに戻りまする！！
+猫乃屋殿、参りまするぞ！/
+[face B 05]
+[say B]
+[shake B]
+うおっ！　お、お姫様だっこぉ！？/
+[se walk_03]
+[serif off]
+[move A X -1000 0.5]
+[move B X -1000 0.5]
+[hide A]
+[hide B]
+[se cloth_06]
+[talkend]
+[-]
+[serif on]
+[textcolor ARUJI]
+駿河に猫乃屋を運んでもらっている間に
+テキパキと屋台の準備を進めていく。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm home_summer]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A C]
+[face A 08]
+[move A X 300]
+[move A X -300 0.5]
+[se cloth_01]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[say A]
+[serif on]
+上様！　駿河、ただいま戻り申した！
+猫乃屋殿はロクハラの救護室へお連れいたしました。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 13]
+[flow]
+しかし……手の空いている者がおらず
+店は拙者たちでやるように、とのことでござりまする。[se zukkoke_02]/
+[serif off]
+?えー！？/
+[face A 11]
+[say A]
+[se paper_01]
+[serif on]
+夏人殿があらかじめ作っていた焼きそばの
+作り方マニュアルを渡され申した。/
+[face A 08]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+このとおりに焼きそばを焼けばよい……
+とのことでありまするが……/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+手順を確認しているうちに夕方に差し掛かっている。
+祭りの開始までもう時間がない……/
+[serif off]
+?やるしかないのか……/
+[show A]
+[face A 03]
+[say A]
+[serif on]
+はい。拙者、既に覚悟を決めておりまする。
+自身の荷物から秘密兵器を持ってまいりました。[face A 08][se taiko_02]/
+[serif off]
+?秘密兵器！？/
+[face A 02]
+[say A]
+[se cloth_06]
+[effect fr kira a 0 0]
+[se kira_01]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[serif on]
+じゃじゃん！　拙者の国の名物、桜えびで
+ござりまする！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[effect off a]
+[face A 08]
+[flow]
+これを入れたらもっと美味しいかと
+思うのでありまするが……/
+[serif off]
+?たしかに、駿河らしい焼きそばでいいかも！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 06]
+[say A]
+[serif on]
+拙者らしい焼きそばでありまするか……
+…………/
+[hide A]
+[se gaya_01]
+@客
+すみませーん。焼きそば、もう買えますかー？/
+[bgm departure]
+[show A]
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[shake A]
+はっ！　ただいま準備いたしまする！
+上様、焼いていきましょう！[face A 08]/
+[hide A]
+[serif off]
+?焼きそば作りを手伝う/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+あらかじめ切られていた具材を焼き
+マニュアル通りに焼きそばを作っていく。/
+[flow]
+[textcolor ARUJI]
+そしてアクセントに桜えびをパラパラ。/
+[flow]
+[textcolor ARUJI]
+駿河はその焼きそばを紙の容器に山の形に盛り付け
+周囲に青のり、上にマヨネーズを乗せた。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[ace A 08]
+[say A]
+特性、富士山焼きそばでござりまする！
+いかがでござりましょう！[shake A]/
+[serif off]
+?おお、富士山の姿に見えなくもない！/
+[hide A]
+[se gaya_01]
+[serif on]
+@客
+えーこれめっちゃ映えそう！
+写真撮ってもいいですか？/
+@客
+めっちゃ富士山じゃん！！/
+@客
+３つくれ！/
+[show A]
+[face A 01]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+おおっ！　皆さまに喜んでいただけて……
+拙者嬉しく思いまする！/
+[face A 15]
+[flow]
+さぁさぁいらっしゃいませ！
+富士山焼きそばでござるよー！！/
+[hide A]
+[se gaya_01]
+[talkend]
+[textcolor ARUJI]
+珍しいその盛り付けが人目を呼ぶようで
+客が賑わいはじめた。/
+[se taiko_01]
+[flow]
+[textcolor ARUJI]
+やぐらの太鼓が強くなる。笛が高く伸び
+歓声がかぶさる。/
+[flow]
+[textcolor ARUJI]
+富士山焼きそばを作っては売り、作っては売り
+祭りに来る人もピークに差し掛かった頃——/
+[serif off]
+[bgm home_summer]
+[se cloth_01]
+[show B C]
+[move B X 500]
+[move B X -500 1]
+[face B 10]
+[-]
+[serif on]
+[say B]
+い、いてて……も、戻ったぜ……！　[shake B]
+任せっきりにしちまって悪かったな……/
+[face B 02]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+って、すげー盛況じゃねぇか！[se zukkoke_02]/
+[show A L]
+[face A 12]
+[say A]
+[setline 0.5 A B]
+猫乃屋殿！
+無理は禁物でござるよ！？[shake A]/
+[hideall]
+[-]
+[show C]
+[face C 01]
+[show D]
+[face D 00]
+[setline C D]
+[say C]
+ごめんね。僕も仕事が終わったから
+手伝いにきたよ！/
+[say D]
+[face D 01]
+オレも取材がてら手伝っちゃうっすよぉ！/
+[show B L]
+[face B 09]
+[move B X -200]
+[rotate B -20 0.5]
+[serif off]
+?みんな……！/
+[rotate B 0 0.5]
+[setline 0.5 B C D]
+[orderline C D B]
+[face B 01]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[serif on]
+駿河の富士山焼きそばか……いいじゃねーか！
+どんどん焼いてけー！　いてて！！[shake B][face B 05]/
+[face C 03]
+[say C]
+[face B 04]
+猫乃屋さんは無理しないで、
+後ろで座っててください。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[wait 1]
+[-]
+[fadeout 1.5]
+[-]
+[wait 0.5]
+[-]
+[se fire_01]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+?あちちっ/
+[show A]
+[face A 05]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+上様！？　[shake A]
+やけどでござりまするか！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+[flow]
+皆様、拙者、上様の手当をいたしまする！
+ここは任せても大丈夫でござろうか！/
+[hide A]
+[serif off]
+?これくらい大丈夫だけど……/
+[show B]
+[show D]
+[show C]
+[setline C B D]
+[face C 01]
+[face D 01]
+[face B 01]
+[orderline C D B]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[serif on]
+いや、ずっと任せっぱなしだったしな。
+ちょっと休憩してきてくれよ。/
+[face B 09]
+[flow]
+ありがとな、駿河、*P。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 2]
+[minibg sky_star]
+[bgm night]
+[hideall]
+[light def]
+[lightcolor blue]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show A]
+[face A 09]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+上様、その……
+先ほどのやけどの具合はいかがでござりまするか？/
+[hide A]
+[serif off]
+?指を駿河に見せる/
+[talkend]
+[serif on]
+[textcolor ARUJI]
+指先が小さくほんのりとピンクになっていただけで
+ひどい火傷ではないようだ。/
+[show A]
+[face A 05]
+[say A]
+[scale A 1.6]
+[move A Y -120]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+こ、これは……！！[shake A]
+赤く腫れて……/
+[face A 11]
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.5]
+[hide A 1]
+[autotap]/
+[se cloth_01]
+ぺろっ/
+[se zukkoke_02]
+[serif off]
+?！？/
+[se cloth_06]
+[quake 2]
+[effect fr syutyu a 0 0]
+[show A]
+[scale A 2]
+[move A Y -220]
+[face A 14]
+[scale A 1 0.3]
+[move A Y 220 0.3]
+[rotate A 20 0.3]
+[effect bk waveout 6000 0 0]
+[say A]
+[serif on]
+はっ！？　も、申し訳ありませぬ！
+拙者、ほ、本能的に……その……！[shake A]/
+[rotate A 0 0.5]
+[face A 09]
+[flow]
+上様によくなってもらいたい一心で……
+申し訳ござりませぬーー！！[face A 10][shake A]/
+[quake off]
+[effect off a]
+[serif off]
+?別にいいよっ/
+[hide A]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+駿河が突然指を舐めてきたので驚いたが
+きっとこちらのことを想ってのことだろう。/
+[flow]
+[textcolor ARUJI]
+慌てるさまがとても愛らしく見えた。/
+[show A]
+[face A 06]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+ううっ、かたじけのうござりまする……
+案内によるとこの先に厠がござりまする。/
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+水で冷やしましょう！/
+[face A 00]
+[move A X -1000 0.5]
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[move A X 2000]
+[se amb_05]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[fadeout 1.5]
+[-]
+[move A X -1000 0.5]
+[face A 11]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+[autotap]/
+[se water_07]
+[textcolor ARUJI]
+手洗い場で冷たい水をしばらく
+患部に当てていた。/
+[hide A]
+[serif off]
+?もう大丈夫そう/
+[show A]
+[face A 13]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+よかったでござりまする！
+拙者、安心いたし申した。[shake A]/
+[face A 09]
+[flow]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+はっ……その……
+上様、拙者……少々お時間をいただきたく——/
+[serif off]
+?わかる。用を足しちゃおう/
+[face A 06]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+これは、上様もでござりましたか！　へへ……
+では、お隣失礼いたしまする！[shake A][face A 02]/
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[hide A]
+[se cloth_06]
+[minibg rokuhara_wc_night 0.5]
+[talkend]
+[textcolor ARUJI]
+ずっと外で働きっぱなしで
+生理現象がきていたのだ。/
+[flow]
+[textcolor ARUJI]
+この祭りに来て、初めての
+ゆったりとした落ち着いた時間だった。/
+[serif off]
+[se pee_01]
+[wait 1]
+[flow]
+[textcolor ARUJI]
+[serif on]
+聞こえるのは、ふたりの水音にまぎれて
+遠くから小さく笛の音、それに太鼓——/
+[flow]
+[se amb_04]
+[textcolor ARUJI]
+ときおり聞こえる誰かの笑い声。
+この厠は屋台などの表通りから離れているのだろう。/
+[flow]
+[textcolor ARUJI]
+ここだけぽっかり空いた穴の中のように
+とても静かだ。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 09]
+[flow]
+[textcolor ARUJI]
+ふと隣を見ると、駿河と目があった。
+その頬を少し染めているように見えた。/
+[flow]
+[textcolor ARUJI]
+なんとなくそわそわするような夏の空気が
+漂っている。/
+[serif off]
+?ふたりきりなのは今日はじめてだね/
+[face A 14]
+[say A]
+[serif on]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そうでござりまするな……
+屋台ではずっと忙しくしておりましたし……/
+[face A 10]
+[se pee_01]
+[flow]
+な、なんだか、こそばゆく感じまする！[shake A]/
+[talkend]
+[textcolor ARUJI]
+駿河はプルプルと体を震わせている。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[say A]
+拙者、今日は上様と一緒に精一杯働いて
+こうしてともに過ごせて……[wait 0.2]幸せでござりまする。[face A 01]/
+[talkend]
+[textcolor ARUJI]
+確かに大変ではあったけど、駿河と一緒だったから
+こんなに楽しめたのかもしれない。/
+[serif off]
+?駿河、今日はありがとう/
+[face A 15]
+[-]
+[wait 2]
+[-]
+[talkend]
+[serif on 0.5]
+[textcolor ARUJI]
+駿河はニッコリと微笑んだ。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[face A 06]
+[move A X 1000]
+[minibg yatai_night]
+[-]
+[fadeout 1.5]
+[-]
+[move A X -1000 1]
+[face A 01]
+[say A]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[serif on]
+ふぅ～、すっきりしたでござりまする。
+それでは、屋台に戻りましょうか！/
+[serif off]
+?帰る前になにか食べてく？/
+[hide A]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+ずらりと並ぶ屋台。
+そういえばお腹も空いてきていた。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 15]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+拙者が選んでよいのでしたら
+あれが気になっておりまする！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+駿河が指さしたのは綿あめの袋だった。/
+[serif off]
+?食べてみる？　お菓子だけど/
+[se cloth_01]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+ひとつ購入して、袋から取り出すと
+白いフワフワが駿河の眼の前に現れた。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 14]
+[say A]
+[se cloth_01]
+これを食べるでござるか……はむっ。[shake A]
+……はわわっ、ふわふわでござりまする！[shake a][face A 02]/
+[talkend]
+[textcolor ARUJI]
+見ると駿河の鼻先に小さく綿あめがついていた。/
+[serif off]
+?綿あめを取ってあげる/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[face A 14]
+[-]
+[shake A]
+[-]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+駿河の鼻先にふんわりとついていた
+綿あめをつまみ、パクっと食べる。/
+[flow]
+[textcolor ARUJI]
+甘くて、懐かしい味がした。/
+[face A 10]
+[say A]
+はわわっ、上様！？[shake A]
+は、恥ずかしゅうござりまする……/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[flow]
+でも、すごく甘くて美味しゅうござりまする！
+上様も一緒に召し上がってくださりませ！/
+[talkend]
+[textcolor ARUJI]
+嬉しそうな駿河とふたりで
+大きな綿あめを分け合って食べた。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[effect off a]
+[hideall]
+[wait 1]
+[bg gozasyo_night]
+[minibg off]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+その後、富士山焼きそばは無事完売。/
+[flow]
+[textcolor ARUJI]
+後日発行された社報には
+汗で光る駿河と自分の姿が写っていた。/
+[flow]
+[textcolor ARUJI]
+駿河と過ごした特別な夏の証として
+この社報は大事にとっておこうと思った。/
+[flow]
+[textcolor ARUJI]
+屋台を切り盛りしてから二人で静かに過ごした時間/
+[flow]
+[textcolor ARUJI]
+今年の夏祭りの記憶はいつまでも
+色褪せることはないだろうと、そう思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

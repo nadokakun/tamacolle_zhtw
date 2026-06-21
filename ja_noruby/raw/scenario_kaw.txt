@@ -1,0 +1,675 @@
+>>10000/
+@河内
+ウチは畿内の河内！[wait 1.7]
+ヒョウのように獰猛やねんで！　にゃー！[autotap]/
+[delay 3]
+[flow]
+[-]
+@河内
+…ん？　今笑うとこやで…？/
+>>10001/
+@河内
+ウチは畿内の河内！　ヒョウのように……[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@河内
+前聞いたって？[wait 2]
+天丼やん！　て、ん、ど、ん！/
+>>10000/
+@河内
+ウチは畿内の河内！[wait 1.7]
+ヒョウのように獰猛やねんで！　にゃー！[autotap]/
+[delay 3]
+[flow]
+[-]
+@河内
+…ん？　今笑うとこやで…？/
+>>10001/
+@河内
+ウチは畿内の河内！　ヒョウのように……[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@河内
+前聞いたって？[wait 2]
+天丼やん！　て、ん、ど、ん！/
+>>1/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 00]
+[serif on]
+[talk A]
+…大将なんか調べもん？
+全国の「楽しいお祭り」？/
+[face A 01]
+そんなん枚岡神社の「お笑い神事」に決まりやん！
+大笑いして厄落して新年の幸せを願うんやで！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 02]
+ま、ウチと一緒におったら年がら年中
+お笑い神事中みたいなもんやけどな！[face A 06]　/
+[face A 05]
+…って何でそない湿気た顔しとんねーん！[face A 04][scale A 1.5 0.3][move A Y -100 0.3][-][shake A 3]/
+>>2/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 05]
+[move A Y -200]
+[-]
+[move A Y 300 0.3]
+[delay 0.3 move A Y -100 0.2]
+[-]
+[serif on]
+[talk A]
+な、なんや大将！　そないな目で見て…
+[wait 0.3][face A 03]ウチはやるときはやるで！　結束力も発揮するし！/
+[face A 01]
+なんたって、河内国では15kmに渡る
+大和川の付け替えも八ヶ月でやってしもたんやで！/
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[face A 06]
+そんな河内国に住む人々の思いが宿っとるんやから
+できる男に決まっとるわな。/
+[scale A 1.0 0.2]
+[move A Y 50 0.2]
+[face A 01]
+[-]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ちゅーわけで全力でお笑いのネタ
+探しに行ってくるわ！[move A X -900 0.3]/
+>>3/
+[set A s_kaw_r 河内]
+[show A L]
+[face A 00]
+[move A X -600]
+[move A X 600 1.0]
+[-]
+[serif on]
+[talk A]
+なぁ大将、今の大阪の街には
+[face A 06]えらい美味いもんがあるらしいやん？（ちらちら）/
+[scale A 1.2 0.3]
+[move A XY 100 -30 0.3]
+ほらほら、丸っこいやつでー。[scale A 1.5 0.3][move A XY 100 -50 0.3][wait 0.3]中にー、
+[wait 0.3]具が入っとってー。[scale A 1.8 0.3][move A XY 50 -50 0.3][face A 02][wait 0.3]「た」から始まるー……/
+[scale A 2.0 0.1]
+[move A Y -40 0.1]
+[face A 02]
+[textsize 40]
+そう！[wait 0.1]　玉袋！[wait 0.5]　って、[face A 03][scale A 3.0 0.1][move A Y -250 0.1]ちゃうわー！[se zukkoke_02][shake A 5 10 10][effect fr syutyu a 0 0]
+中に入っとる具って、[face A 06][scale A 4.0 0.1][move A Y -250 0.1][shakebg]金玉かーい！[shake A 5 10 10][se taiko_02]/
+[scale A 1.0 0.3]
+[effect off a]
+[move A Y 670 0.3]
+たこ焼きやん！[wait 0.3]　たーこーやーき！
+[move A Y 10 0.4][delay 0.4 move A Y -10 1.0][face A 04]何妙なボケかましとんねん。/
+[face A 01]
+ちゅーわけで、今度たこぱやろな！
+約束やで！/
+>>4/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 03]
+[serif name]
+[serif on]
+[talk A]
+なんでやねん[move A X 50 0.3][delay 0.3 shake A 2][se dosa_01]！
+……[face A 04]あかんな……/
+[flow]
+こんなヌルッヌルのツッコミ誰も笑えへんわ……
+[move A X -50 0.3]腰のひねり、手の角度をもう少し……こう……/
+[flow]
+[face A 03]
+なんでやねん[move A X 100 0.2][delay 0.2 shakebg][se doka_01]！
+おっ！[face A 01]　今のは割りかしええ音鳴ったでぇ！/
+>>5/
+[set A s_kaw_r 河内]
+[randomset B r @地魂男児 @あやかし @NPC -kaw]
+[show A C]
+[face A 01]
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -150 0.8]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+おーい！　どこ行ったんやー？
+こっちか？　ここか？　[face A 04]餌持ってきたのに～。/
+[serif off]
+[show B R]
+[talk A]
+[move A X 50 0.2]
+[face A 00]
+[-]
+[face B 05]
+[serif on]
+おっ$B:A！
+猫見かけんかった？/
+[face A 06]
+[face B 00]
+[flow]
+[= ハチワレ 黒いやつ 三毛のべっぴんさん 茶トラのふてぶてしいやつ ずんぐりしたボス猫 白いやつ しゅっとしたやつ まだ子猫]なんやけど……/
+[serif off]
+[face B 04]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[face A 04]
+[-]
+[serif on]
+そうかぁ……でもウチは諦めへんで……あの猫[face A 06]を
+モッフモフナデナデするまでは！！[shake A][face B 01]/
+>>6/
+[set A s_kaw_r 河内]
+[randomset B r @地魂男児 @あやかし @NPC -kaw]
+[show A R]
+[face A 00]
+[move A X 400]
+[move A X -400 0.5]
+[se fusuma_01]
+[-]
+[serif on]
+[say A]
+おお、なんやうまそうなもん作っとるやん。[move A C 0.5][face A 06]
+ふひひ、一口だけ……[move A XY -10 -40 0.4][rotate A 10 0.3][delay 0.4 move A XY 10 40 0.3][delay 0.5 rotate A 0 0.3]ぱくっ！　[face A 02]……うまぁ！！[se kira_01][effect fr kira 4000 0 0]/
+[show B R]
+[face B 04]
+[face A 05]
+[move A X -300 0.1]
+[say A]
+って、$B:A！！[shake A]　ちゃ、ちゃうねん、これは
+つまみ食いやなくて、これは猫の餌やねん！[shake A 2 5 5]/
+[face A 02]
+[move A X 150 0.5]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+うち、ネコやから～っ。[effect A love 4000 0 0][se zukkoke_02]
+なんつって！[face B 03][face A 01]/
+[face A 05]
+[move B X 400 0.5]
+[hide B]
+[se fusuma_04]
+[shake A]
+おわ、待って待ってーー！[move A X 800 0.5][se fusuma_02][hide A]
+大将にはナイショにしといてぇ！/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+全然眠れへんなー。
+ウチ夜行性やからなぁ！/
+[flow]
+[face A 01]
+ま、軽く汗流してきたら眠れるやろ。/
+>>10/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 02]
+[serif on]
+[talk A]
+しゃきーん！
+夜は猫の時間や！/
+[flow]
+[face A 03]
+今晩こそ猫の集会所
+見つけたるでぇ…！！[shake A 5]/
+>>11/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 06]
+[talk A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+今日は絶好調やったで……
+我ながら最高のツッコミがキマっとったわ。/
+[face A 02]
+[scale A 1.5 0.3]
+[move A Y -100 0.3]
+[effect A suyutyu a 0 100]
+この調子でお笑いの天下を取るんや！
+それ「なんでやねん！」[move A X 200 0.2][delay 0.2 se doka_01][delay 0.2 shakebg][delay 0.2 shake A]/
+[move A X -400 0.3]
+[delay 0.3 shakebg]
+[delay 0.3 shake A]
+[delay 0.3 se doka_01]
+[autotap]/
+もいっちょ「なんでやねん！」/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+うー…なーんかイライラするでぇ…
+色々たまっとるんかなぁ…/
+[flow]
+[face A 06]
+こうなったらしゃーなしや
+こっそり抜けて、誰もおらんとこいこ！[move A X -1000 0.5]/
+>>15/
+[set A s_kaw_m 河内]
+[show A C]
+[face A 03]
+[serif on]
+[talk A]
+[move  A X 100 0.1]
+……なんでやねん！　[move A X -100 0.1][shakebg][se dosa_01]どないやねん！
+んなわけあるかいな！　[move A X 100 0.1][se dosa_01][shakebg]言うとるやん[move A X -100 0.1][se doka_01][shakebg]！/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……ふぅー……　ツッコミ百連打。
+手ぇ[face A 01]痛なってきたし今日はここまでにしとこか！/
+>>16/
+[set A s_kaw_m 河内]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+ツッコミの練習したいけど
+たまには剣の腕も磨いとかんとな。/
+[flow]
+[face A 04]
+大将に見限られてしもたら
+元も子もあらへんもんな～！[shake A]/
+>>17/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 02]
+[-]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[serif on]
+[talk A]
+っっぷはーーー！！！[shake A]/
+[flow]
+[face A 01]
+ここで飲む牛乳が
+いっちゃんうまいわー！/
+>>18/
+[set A s_kaw_b 河内]
+[show A C]
+[face A 06]
+[se amb_12]
+[move A Y -100]
+[effect fr yuge a 0 0]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[se water_03]
+[move A Y 100 0.3]
+[delay 0.3 shake A]
+[face A 05]
+[-]
+[serif on]
+[talk A]
+…あっ！　めっちゃおもろいネタ
+思いついてしもた…！/
+[flow]
+[se water_07]
+[move A X 900 1.0]
+[face A 02]
+やっぱ湯船に浸かっとると
+ええネタ降ってくるわぁ～！[effect off a]/
+>>19/
+[set A s_kaw_b 河内]
+[randomset B r @地魂男児 @あやかし -@NPC -kaw]
+[show A C]
+[face A 00]
+[se amb_12]
+[effect fr yuge a 0 0]
+[serif on]
+[talk A]
+$B:Aに乳大きいって言われたわ……
+ほんまかな……/
+[flow]
+[face A 05]
+おっ！　寄せてみたら確かに
+何か挟めそうやん！　[shake A 5 3 3]おぉ、揺れる揺れる…！/
+[flow]
+[face A 06]
+これ何かのネタに使えへんかな…！/
+>>20/
+[set A s_kaw_r 河内]
+[show A L]
+[move A X -800]
+[face A 05]
+[serif on]
+[talk A]
+あーーっ[move A X 1000 0.4]漏れる漏れる！
+っふー！　[face A 03]間に合うたー！[se pee_01]/
+[flow]
+[face A 05]
+[shake A 5]
+っておわーーー！　[move A X -200 0.1]何変な方向飛んどるねん！
+……[face A 04]後で掃除しとこ……/
+>>21/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+ぷるぷるーん[shake A 1]！
+ぷるぷるるーん！　[shake A 1]ぴゅっぴゅ♪/
+[flow]
+[face A 02]
+しっこ切るときに
+ぶるんぶるん揺らすの楽しいわー！/
+[flow]
+[face A 01]
+ぷるぷるーん[shake A 1]！
+ぷるぷるるーん[shake A 1]！　ぴっぴ♪/
+>>22/
+/
+/
+>>23/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 06]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅー……
+今日はえらい調子ええ思てたけど……/
+[flow]
+[face A 03]
+こっちも調子ええんかい！[shake A 3 10 10]/
+>>24/
+[set A s_kaw_r 河内]
+[randomset B r @地魂男児 @あやかし @NPC -kaw]
+[show A C]
+[show B C]
+[setline A B]
+[face A 04]
+[face B 00]
+[serif on]
+[talk A]
+猫と一緒に寝たいねんけどなぁ……
+お布団[face A 02]に入ってくる猫とか夢みたいやん。[face B 01]/
+[serif off]
+[move A XY -10 -80 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[-]
+[serif on]
+[face A 06]
+餌を布団に置いとったら
+隣に来てくれへんかなぁ……[face B 05][shake B]/
+>>25/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+あ……あかんあかん……[shake A]
+なんでやねん！！[shake A 3 10 10]/
+[flow]
+[talkend]
+……寝言のようだ/
+>>26/
+[set A s_kaw_r 河内]
+[show A C]
+[face A 07]
+[serif on]
+[move A Y -100]
+[talk A]
+……へへへ……むにゃむにゃ……
+……！！　[shake A 2][face A 05]はっ！！！/
+[flow]
+[move A Y 100 1.0]
+[se cloth_01]
+[face A 04]
+や、やってもた……！[shake A 1]
+布団についてもた！！/
+[flow]
+[face A 06]
+[move A X -200 1.5]
+み、皆が起きる前に
+なんとか処理せな……/
+>>100/
+[set A s_kaw_r 河内]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[bg gozasyo_night]
+[-]
+[title 絆 河内登場]
+[-]
+[bgm home]
+[fadeout 2]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+御座所で仕事を終え、風呂にでも行こうと
+思って立ち上がったその時――/
+[serif off]
+[-]
+[show A C]
+[face A 09]
+[say A]
+[move A Y -200]
+[move A Y 300 0.1]
+[delay 0.1 move A Y -100 0.2]
+[effect fr syutyu a 0 0]
+[shakeb]
+[-]
+[se zukkoke_02]
+[textsize 40]
+[serif on]
+じゃーーーん！！/
+[face A 01]
+[textsize 40]
+まいど！　河内でーす！！[shake A]/
+[face A 00]
+[effect off a]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+いやー大将！
+今日もお疲れ様やで！/
+[face A 11]
+[flow]
+ウチもこの荘園にね、呼んでもろてから
+まだ日ぃも浅いっちゅーことで、/
+[face A 01]
+[flow]
+今日は名前だけでも
+覚えて帰ってもろたら……と思うとるで！/
+[serif off]
+?河内？/
+[se zukkoke_02]
+[shake A]
+[face A 05]
+[-]
+[serif on]
+……って、もう覚えてくれとるやん！！！/
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+いきなり最初の目標達成してしもーたわ～！
+ありがたい話やで～～！[scale A 1.6 0.5][move A Y -120 0.5]/
+[talkend]
+[hide A]
+[se cloth_02]
+[textcolor ARUJI]
+そう言って河内は両手で握手をしてきた。/
+[serif off]
+?河内とお喋りする/
+[fadein BLACK 1]
+[serif off 1]
+[-]
+[hideall]
+[-]
+[show A]
+[face A 01]
+[fadeout 1.5]
+[-]
+[serif on]
+[say A]
+[-]
+[serif on]
+大将、ウチのために時間作ってくれて
+ほんまおおきにな！/
+[face A 11]
+[bgm departure]
+ウチ、地魂男児として呼び出して
+もらえたことに運命的なものを感じとんねん！！/
+[face A 03]
+せやから、ウチもこの荘園で一番目指す！
+必ずてっぺん取る！！[shake A 2 5 3]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+……ちゅーて決意を新たにしたわけやねん。/
+[serif off]
+?てっぺん？/
+[face A 09]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[minibg emo_ikari 0.5]
+[bg black 0.5]
+[se fire_01]
+[-]
+[se quake_01]
+[serif on]
+そや！[shake A]　お笑いのてっぺんや！
+誰もが目指すお笑い地魂男児界の最高峰！/
+[scale A 1.8 0.5]
+[move A Y -50 0.5]
+[flow]
+[textsize 40]
+地魂男児イチ、おもろい男になるねん！！/
+[hide A]
+[bg gozasyo_night 0.5]
+[minibg off 0.5]
+[talkend]
+[textcolor ARUJI]
+拳を握り決意に燃えている様子の河内。/
+[serif off]
+?なるほど/
+[bgm off]
+[se zukkoke_02]
+[show A C]
+[face A 05]
+[say A]
+[scale A 2 0.2]
+[move A Y -200 0.2]
+[quake 3]
+[effect fr syutyu a 0 0]
+[-]
+[serif on]
+[textsize 40]
+って、ツッコまんかーい！！！！/
+[flow]
+[bgm fun]
+真顔で[face A 08]「なるほど」[wait 0.2]…[wait 0.2]…[wait 0.2]
+っておかしいやろ！[face A 05][shake A]　逆に新しいわ！/
+[face A 03]
+[quake off]
+[scale A 1.0 0.5]
+[move A Y 200 0.5]
+地魂男児の本来のお仕事はなんですか～？
+ちゅー話や！！/
+[face A 03]
+[move A X 200 0.3]
+[se doka_01]
+[delay 0.3 shake A]
+そもそもお笑い地魂男児界ってなんやねん！
+ウチくらいしかおらんわ！！/
+[face A 04]
+[effect off a]
+[move A X -200 0.5]
+まー、それはそれで寂しいねん
+けどもやなぁ……ぐすん！
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.4]/
+[talkend]
+[textcolor ARUJI]
+河内は涙を拭うような仕草をする。/
+[serif off]
+?応援するよ/
+[face A 05]
+[serif on]
+[say A]
+……！[shake A]/
+[face A 06]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+た、大将……ボケ殺しの上
+純粋な反応…………/
+[face A 10]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+ウチがスベったちゅーことは、
+よーわかったで。/
+[flow]
+今日は河内のボケ倒れ披露しよ、思っとったのに……
+すべり倒れてしもたやん……[face A 04]/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+ええか！　大将！
+ウチが必ず大将を笑い死にさせたるで～！/
+[face A 09]
+覚悟しときぃや～！！/
+[serif off]
+?楽しみ/
+[face A 03]
+[serif on]
+くぅっ余裕かい……！[shake A]
+ほな！[rotate A -20 0.5]　ありがとございましたー！/
+[move A X -800 0.8]
+[se fusuma_01]
+[hide A]
+[autotap]/
+[talkend]
+[textcolor ARUJI]
+河内はお辞儀をすると、
+御座所の外へハケていった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

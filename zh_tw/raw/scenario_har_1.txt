@@ -1,0 +1,547 @@
+>>10000/
+@播磨
+嘿，我是來自山陽路的播磨...[autotap]/
+[delay 3.3]
+[flow]
+[-]
+@播磨
+哇……那個……[wait 3.2]
+我會盡力的。/
+>>10001/
+@播磨
+一如既往，謝謝我的丈夫......！[autotap]/
+[delay 2.8]
+[flow]
+[-]
+@播磨
+這個！　[delay 0.8]真是大骨頭小點心啊！
+太好吃了！/
+>>1/
+[set A s_har_r 播磨]
+[show A C]
+[face A 00]
+[talk A]
+[serif on]
+大石神社...看起來像是漂浮著的
+它以其神秘的巨石而聞名....../
+[face A 06]
+當我聽到“王子神社”這個名字時...
+我有點煩躁.../
+歐志子...[face A 09]歐志子...[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]
+哇.../
+>>2/
+[set A s_har_r 播磨]
+[show A C]
+[face A 01]
+[talk A]
+[serif on]
+掌握！ 播磨的素麵是
+即使在今天也很有名！咳咳！/
+[face A 02]
+尤其是吃的時候脆脆的口感。
+非常溫馨！攪拌♪[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]/
+>>3/
+[set A s_har_r 播磨]
+[show A C]
+[face A 00]
+[talk A]
+[serif on]
+主人是姬路城，
+你見過嗎？/
+[face A 01]
+它是如此美麗且建造精良！
+特別推薦櫻花季期間！/
+[face A 06]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+沒錯！這座莊園也將被改造成姬路城的樣子。
+這不是個好主意嗎...！ ？哇！[shake A]/
+>>4/
+[set A s_har_r 播磨]
+[show A C]
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+哇...有人，我可以怎麼幫助我的丈夫？
+你知道什麼關於...哇.../
+[face A 03]
+如果你能告訴我...
+我就把這塊粗骨頭給你……哇……/
+>>5/
+[set A s_har_r 播磨]
+[randomset B r @地魂男児 -har -@NPC]
+[show A C]
+[face A 08]
+[talk A]
+[serif on]
+$B:A，不只是戰鬥，還有訓練和莊園工作。
+我很高興你竭盡全力......！[wait 0.5]　哈！[move A Y 10 0.1][delay 0.1 move A Y -10 0.1][face A 05]/
+[shakebg]
+也許$B:A也給主人
+難道你不想得到很多讚美嗎…？/
+[face A 02]
+[effect fr kira 2000]
+我確信是的！
+我們找到彼此了！就是這樣！[shake A]/
+>>6/
+[set A s_har_r 播磨]
+[show A C]
+[serif off]
+[face A 01]
+[talk A]
+[move A X 100 0.5]
+[-]
+[serif on]
+呵呵，今天為我師父，
+我起了個大早，努力打掃花園！/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[move A X -100 0.3]
+啊……那是我的主人……
+哇...[shake A]嗚嗚嗚……哇……[shake A]/
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+....我去了...
+嘆氣...我應該打個招呼.../
+>>7/
+>>8/
+>>9/
+[set A s_har_r 播磨]
+[randomset B r @地魂男児 -har]
+[show A C]
+[face A 08]
+[talk A]
+[serif on]
+白天$B:A我得到了幫助...！
+哇...[shake A]我必須好好地感謝你。[move A Y 20 0.4][delay 0.6 move A Y -20 0.2]/
+[face A 06]
+嗯，你比較喜歡哪根骨頭？
+畢竟，越厚……不，越硬……哇。[shake A]/
+>>10/
+[set A s_har_r 播磨]
+[show A C]
+[face A 03]
+[talk A]
+[serif on]
+哇...[shake A]因為我昨晚聽到一個可怕的故事
+我遇到了麻煩，因為我晚上不能去尿尿......！/
+[face A 02]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+今晚我會利用這個反射並在避難所裡睡覺！
+在我看來，這是個好主意！[move A X -600 0.5][hide A]/
+>>11/
+[set A s_har_r 播磨]
+[randomset B r @地魂男児 -har]
+[show A C]
+[show B C]
+[face A 02]
+[face B 00]
+[talk A]
+[setline 0 B A]
+[serif on]
+哇！
+我已經制定了明天的清潔計劃！/
+[face A 07]
+[move A X 200 0.5]
+[delay 0.5 move A X -100 0.5]
+首先，把榻榻米全部拆掉，搬到外面去！　[face B 05]如果是這樣的話
+上面的垃圾也全部丟到外面了！/
+[face A 02]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+為此，我決定今天把房間裡的所有傢俱都搬到花園裡。
+放出來吧！沒有浪費！/
+[move B X -100 1.0]
+[delay 0.5 move A X -300 0.5]
+[-]
+[face A 00]
+[face B 04]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+所以，$B:A、
+我要你從現在開始幫助我！/
+>>12/
+>>13/
+>>14/
+[set A s_har_r 播磨]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+哇...[shake A]
+我最近沒吃骨頭玩具了。/
+[face A 09]
+非常厚、硬、大的東西。
+我想吃它.../
+[shake A]
+哇……太缺了……/
+>>15/
+[set A s_har_m 播磨]
+[randomset B m @地魂男児 -har -@NPC]
+[show A C]
+[face A 02]
+[talk A]
+[serif on]
+仔細觀察每個人的動作，找出他們的弱點！
+分析是我的專長！哇！[shake A]/
+[face A 08]
+嗯嗯...
+$B:A哈.../
+[shakebg]
+[effect fr syutyu A]
+[= 可愛すぎる！！ ごはんを食べすぎる！！ 余所見をする！！ いい匂いがする！！ セクシーすぎる！！ 一人でおしっこに行けない！！ 僕のことをナデナデしたくてたまらない！！ ご主人さまのことが大好きすぎる！！ 掛け声がカッコよすぎる！！][wait 0.5]
+然而，這是一個弱點！/
+[face A 07]
+[effect off A]
+……也許吧！/
+>>16/
+[set A s_har_m 播磨]
+[randomset B m @地魂男児 -har -@NPC]
+[show A C]
+[face A 04]
+[talk A]
+[serif on]
+好吧，儘管我雙手合十，我還是尿了…[fadein WHITE 0.2][se doka_01][delay 0.2 fadeout 0.1][shake BG][se doka_01]
+啊啊，$B:A，博迪不行！ ！/
+[face A 09]
+哇！ ！[shake A]/
+>>17/
+[set A s_har_b 播磨]
+[randomset B b @地魂男児 -har]
+[show A C]
+[face A 06]
+[talk A]
+[serif on]
+哇？　[move A XY -100 -50 0.5][rotate A 30 0.5]坤坤……坤坤…
+哦，這衣服$B:A它屬於！/
+[face A 02]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+比平常聞起來好聞！
+坤君，讓我再聞一下…/
+>>18/
+[set A s_har_b 播磨]
+[show A C]
+[move A Y -100]
+[face A 03]
+[talk A]
+[se amb_12]
+[effect fr yuge A]
+[serif on]
+哇...[shake A]哎呀，我感覺我要尿尿了…
+我該上去一次嗎.../
+[face A 09]
+但如果動了，就會漏水…
+我該怎麼辦啊……哇……[shake A]/
+就算在洗澡的時候也可以做...
+哇...[move A Y -100 1.0][face A 04][se bath_04]/
+>>19/
+[set A s_har_b 播磨]
+[effect fr yuge A]
+[se amb_12]
+[show A C]
+[move A Y -100]
+[face A 09]
+[talk A]
+[serif on]
+當我看到一些看起來像蟲子的東西時
+我很好奇……一瞥。/
+[face A 06]
+[se bath_04]
+哇...
+這尾巴真好看[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+>>20/
+[set A s_har_r 播磨]
+[show A C]
+[face A 07]
+[talk A]
+[serif on]
+呼…
+哇，原來是在柱子上啊…/
+[face A 06]
+[flow]
+我第一次去的地方
+我想尿尿，但又忍住了…/
+>>21/
+[set A s_har_r 播磨]
+[serif off]
+[show A C]
+[face A 04]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[serif on]
+[talk A]
+[serif on]
+哇...
+我只是沒能及時趕到.../
+[face A 03]
+照這個速度，碩士
+我不能成為一隻忠誠的狗……哇……[shake A]/
+>>22/
+[set A s_har_r 播磨]
+[show A C]
+[face A 06]
+[talk A]
+[serif on]
+哇！　[shake A]聞起來好香！
+沖洗後的水...[move A Y -150 0.5][rotate A 30 0.5]顏色鮮豔，味道好聞…/
+[face A 07]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[-]
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+坤坤……哈！ ！[face A 05][wait 0.5][move A XY 300 150 0.3][rotate A 0 0.3]
+我、我的鼻子卡在馬桶座圈了…哇[face A 04]……[shake A]/
+>>23/
+[set A s_har_r 播磨]
+[show A C]
+[face A 06]
+[talk A]
+[serif on]
+哇...[shake A]
+家裡的清潔刷…厚度真不錯…/
+[face A 04]
+我的慾望真大啊……哇……[shake A]
+但絕對不衛生…哇…[shake A]/
+[face A 09]
+但是，我的願望是如此強烈……哇……[shake A]
+但是，衛生方面……哇……[shake A]/
+>>24/
+[set A s_har_r 播磨]
+[randomset B m @地魂男児 -har -@NPC]
+[show A C]
+[show B]
+[setline A B]
+[face B 00]
+[face A 02]
+[talk A]
+[serif on]
+哇！[shake A]
+我睡前好好尿尿了！/
+[face A 06]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+現在你再也不用擔心半夜醒來尿尿了！
+……但為了確定我會再去一次。[move A X -600 0.5][hide A][face B 01][se fusuma_01]/
+>>25/
+[set A s_har_r 播磨]
+[show A C]
+[face A 07]
+[talk A]
+[serif on]
+哇……給主人吧……
+被稱讚了……呵呵……[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]呃。/
+[talkend]
+就像在睡夢中說話一樣。/
+>>26/
+[set A s_har_r 播磨]
+[show A C]
+[face A 06]
+[talk A]
+[serif on]
+嗯……嗯……
+睡前咀嚼骨頭時我會感到平靜。/
+[face A 07]
+但有時候跟老公一起
+我想做...[rotate A -70 1.0][move A XY 50 -100 1.0]呃...[move A Y -50 1.0]/
+/
+>>100/
+[set A s_har_r 播磨]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[title 絆 播磨の誓い]
+[-]
+[bg black]
+[bgm home]
+[-]
+[serif on 0.5]
+[talkend]
+[se water_04]
+賈魯奧奧。/
+[bg mbg_syouen 0.5]
+[minibg kawaya_day 0.5]
+[textcolor ARUJI]
+我在廁所裡處理完事情，就回到了自己的房間。
+當你開啟入口門時.../
+[serif off]
+[-]
+[se door_01]
+[fadeout 0.5]
+[-]
+[serif on]
+[show A C]
+[textcolor ARUJI]
+[face A 01]
+播磨站在那裡。/
+[serif off]
+？我很驚訝！ 播磨？/
+[face A 02]
+[talk A]
+[serif on]
+哇！[shake A]
+老師，我一直在等您！/
+[face A 06]
+我看到你老公的背影 所以[move A X -30 0.1][delay 0.1 move A X 60 0.1][delay 0.2 move A X -60 0.1][delay 0.3 move A X 30 0.1]
+嗯……我想打個招呼……哇……/
+[serif off]
+？你一直在這裡等嗎？/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+哇...[shake A]
+嗯，很快就一切順利了！/
+[face A 02]
+為了你丈夫的緣故
+我對這個級別的伴侶完全沒問題！/
+[talkend]
+[textcolor ARUJI]
+咳咳！ 播磨 看起來很有自信。/
+[face A 06]
+[move A X -10 0.4]
+[delay 0.4 move A X 10 0.4]
+[-]
+[move A X -10 0.4]
+[delay 0.4 move A X 10 0.4]
+[talk A]
+那麼……今天就這樣……
+我有一樣東西想送給您，主人！[face A 00]/
+[serif off]
+？你想送什麼？/
+[face A 08]
+[serif on]
+從此以後，在這座莊園裡，我將無比的
+我打算活躍起來！/
+我想發下這個誓言並且想了很多.../
+[face A 06]
+[effect bk kira3000]
+如果你願意的話，我選擇的誓言的證明，
+如果您能接受，我會很高興！/
+[talkend]
+[textcolor ARUJI]
+播磨 坐立不安。
+我正在聽這裡發生了什麼事。/
+[serif off]
+？好吧。它是什麼？/
+[face A 02]
+[talk A]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[serif on]
+哇！[shake A]　非常感謝！
+嗯，就是這樣！[scale A 1.5 0.7][move A Y -150 0.7]/
+[talkend]
+[bgm off]
+[textcolor ARUJI]
+播磨遞給他一根木棍。/
+[serif off]
+?！？/
+[talkend]
+[textcolor ARUJI]
+[bgm fun]
+[serif on]
+怎麼看都像是從附近撿來的。
+那隻是一根木棍。/
+[talk A]
+[se kira_01]
+[effect fr kira 2000]
+請看一下！這個又厚又硬
+這是一根很難握住的棍子！/
+[face A 06]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+上面有一點我的牙齒印記
+這就是為什麼！　[wait 0.5]可以嗎？我就是這麼想的.../
+[serif off]
+?！？？/
+[face A 01]
+[serif on]
+你老公也是，
+如果你願意的話我想讓你嘗試吸吮它！/
+[face A 02]
+雖然沒有骨頭零食那麼好吃，但是
+我想這會很有趣！哇！[shake A]/
+[serif off]
+？啊……謝謝你……/
+[face A 06]
+[talk A]
+[serif on]
+哇！[effect fr kira 2000][shake A]　我很高興你喜歡它！/
+[face A 01]
+為了幫助我的主人，
+我會盡力的！/
+[face A 00]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+親愛的師父：
+非常感謝！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+播磨低下了頭。/
+[serif off]
+[show A]
+[face A 05]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[-]
+[talk A]
+[serif on]
+哦！
+哇...[shake A 10]/
+[talkend]
+[textcolor ARUJI]
+播磨突然顫抖起來。/
+[face A 09]
+[talk A]
+我……我在金庫門前等著，所以……
+情況變得更糟了……！/
+我、我要去尿尿！ ！[move A Y 100 0.1][move A X 800 0.3][delay 0.1 move A Y -100 0.2][-][hide A][se door_02]/
+[talkend]
+[textcolor ARUJI]
+說著，播磨立刻看向了我。
+我走進廁所。/
+[fadein BLACK 0.3]
+[serif off]
+[-]
+[hideall]
+[bg rouka_day]
+[minibg off]
+[-]
+[fadeout 0.3]
+[-]
+[serif on]
+[textcolor ARUJI]
+我看著播磨給我的木棍。/
+[serif off]
+？我該怎麼辦…？/
+[fadein BLACK 2]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+想了想，播磨的誓言證明就在辦公桌抽屜裡。
+決定將其保留在後面。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

@@ -1,0 +1,1540 @@
+>>10000/
+@信濃
+東山道、信濃だ。[autotap]/
+[delay 1.5]
+[flow]
+[-]
+@信濃
+飯食って休憩したら、勉強始めっぞぉー/
+>>10001/
+@信濃
+お、主、質問か？[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@信濃
+いいぞ。[wait 1]やる気のあるやつは大好きだ！/
+>>1/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+お前はたくさんの地魂男児を従える身だぁ。
+悩みはないか？　俺が何でも受け止めてやるぞぉ。/
+[face A 00]
+信州の善光寺は、宗派や男女の区別なく
+人々を受け入れてきた立派な寺院でなぁ。/
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+俺もそんな風に、どんな生徒も受け止められる男に
+なりたいって思ってんだぁ。/
+>>2/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+よぉ、*P、星は好きかぁ？[wait 0.5]
+昼神温泉の辺りは星がきれいなんだぞぉ。/
+[face A 02]
+温泉入った後に、みんなで星空観察なんてしたら
+楽しいかもなぁ。/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+でも、湯冷めには気をつけるんだぞぉ。/
+>>3/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 09]
+[talk A]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y -10 0.4]
+[delay 0.4 move A Y 10 1.0]
+[-]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[face A 00]
+[-]
+[serif on]
+よぉ、今「おやき」をこさえてるところだぁ。
+皮の中に好きな具を包んで焼くんだぞぉ。/
+[serif off]
+[scale A 1.5 0.5]
+[move A Y -100 0.5]
+[face A 01]
+[-]
+[serif on]
+お、手伝ってくれるのか？
+ほら、こうやって包むんだぞぉ。/
+[face A 03]
+…[wait 0.2]…[wait 0.2][face A 02]お前の選んだ具もうまそうだなぁ～。
+あとで俺にも分けてくれるか？/
+>>4/
+[set A s_sin_r 信濃]
+[serif off]
+[show A R]
+[se fusuma_01]
+[move A C 1.0]
+[face A 09]
+[serif on]
+[talk A]
+[-]
+[serif on]
+みんな、朝メシはちゃんと食ったかぁ？/
+[face A 00]
+訓練も任務も、
+ちゃんと食って力つけねぇと持たねぇぞぉ～。/
+>>5/
+[set A s_sin_r 信濃]
+[randomset B r @地魂男児 @あやかし @NPC -sin]
+[show A C]
+[show B C]
+[setline 0 A B]
+[face A 00]
+[face B 00]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+お、馬の世話の時間だな。
+$B:Aも一緒にどうだ？/
+[face A 02]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+あいつら、俺が行くと目ぇキラキラさせて
+嬉しそうにしてんだ。かわいいぞぉ。[face B 02]/
+>>6/
+[set A s_sin_r 信濃]
+[randomset B r -@地魂男児 -@あやかし -@NPC -sin @ショタ]
+[show A C]
+[show B C]
+[face A 09]
+[face B 00]
+[setline A B]
+[move B Y -50]
+[serif on]
+[talk A]
+お。$B:A、なに見てんだ？/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おお、アリの行列かぁ。
+いいところに目をつけたなぁ。/
+[face A 00]
+[move A Y -100 1.0]
+[face B 06]
+アリはどうして一列になって歩いてると思う？/
+[face A 02]
+ありふれた日常の光景でも、勉強になることは
+いっぱいあんだぞぉ。[face B 01]/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 04]
+[serif on]
+[talk A]
+晩飯は食ったが、もう腹減ってきたなぁ……
+さっきこさえといたおやき食うかぁ。/
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[effect A kira 3000 0 200]
+[-]
+[serif on]
+ふふふ……
+これは俺だけの至福の時だぁ。/
+>>10/
+[set A s_sin_r 信濃]
+[randomset B r @地魂男児 @あやかし @NPC -sin]
+[show A C]
+[face A 01]
+[mobe A Y -50]
+[serif on]
+[talk A]
+一日頑張った後のメシはうめぇ。
+みんなと一緒に食うと、よりうめぇんだよなぁ。/
+[show B C]
+[face A 09]
+[face B 04]
+[move B Y -50]
+[setline 0.5 B A]
+[talk A]
+お？[wait 0.5]　$B:A、それ苦手なのかぁ？
+……仕方ねぇなぁ。/
+[serif off]
+[face A 01]
+[move A XY -50 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 50 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[face B 05]
+[-]
+[serif on]
+本当は自分で食ってほしいけど、今日は先生が
+食ってやるぞぉ。[face B 02]今日だけだぞぉ。/
+>>11/
+[set A s_sin_r 信濃]
+[randomset B r -@地魂男児 -@あやかし -@NPC @ショタ -sin]
+[show A C]
+[show B L]
+[face A 04]
+[face B 04]
+[move B Y -100]
+[talk A]
+[move A X 100]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+おぉ、$B:A、どうしたぁ、足怪我したのか？
+……こりゃ少し痛みそうだなぁ。/
+[face A 00]
+[face B 05]
+[move A X -140 0.5]
+よぉし、じゃあ背中に乗れ。
+おぶってってやっから。
+/
+[serif off]
+[se cloth_06]
+[face A 01]
+[face B 01]
+[move A XY -50 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[rotate B 10 0.8]
+[move B XY 100 200 0.8]
+[-]
+[serif on]
+お、上手だなぁ。
+さあ、早く戻って風呂に入っぞー。/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_sin_r 信濃]
+[randomset B r @地魂男児 @あやかし -@NPC -sin]
+[show A C]
+[show B C]
+[face A 05]
+[face B 06]
+[serif on]
+[talk A]
+[setline A B]
+お？　$B:A、どうした？[wait 0.5]
+……[face A 01]そうかそうか、身体の悩みかぁ。/
+[face A 06]
+[face B 04]
+よしよし、先生が聞いてやるぞぉ。
+ちょっとみんなのいないところいくかぁ。/
+[serif off]
+[move A X -500 1.0]
+[delay 0.1 move B X -500 1.0]
+[-]
+[autotap]/
+>>15/
+[set A s_sin_m 信濃]
+[randomset B m @地魂男児 @あやかし @NPC -sin]
+[show A C]
+[show B C]
+[face A 01]
+[face B 00]
+[serif on]
+[talk A]
+[setline A B]
+おぉ、$B:A。修練場の備品についてだけどよぉ。
+もっと使いやすくなるように考えてみたんだ。/
+[face A 08]
+もっとよくするために……
+今度俺と話し合う時間作ってもらえるかぁ？/
+[face A 02]
+[face B 01]
+おぉ、そうかぁ！　ありがとなぁ！！/
+>>16/
+[set A s_sin_m 信濃]
+[randomset B m @地魂男児 @あやかし -@NPC -sin]
+[wait 0.2]
+[effect fr allow 3000 0 100]
+[shakebg]
+[se katana_02]
+[-]
+[show A C]
+[show B C]
+[face A 08]
+[face B 08]
+[talk A]
+[setline A B]
+[-]
+[serif on]
+[effect fr katana 3000 0 0]
+[shakebg]
+[se katana_03]
+とう！　やぁ！[shake B]　ほう！！[shake A]/
+[face A 01]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+……ふぅ。見事な動きだなぁ。
+今のは100点だったぞぉ。その調子だぁ。[face B 02]/
+>>17/
+[set A s_sin_b 信濃]
+[show A C]
+[face A 01]
+[serif on]
+[talk A]
+[serif name]
+おお、これは浄水器かぁ。
+ごくっ、ごくっ、ごく……っ[shake A]/
+[face A 02]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ぷはぁ～！
+湯上がりに水分補給ができていいんだなぁ。/
+>>18/
+[set A s_sin_b 信濃]
+[randomset B b @地魂男児 @あやかし @NPC -sin]
+[show A C]
+[show B C]
+[se amb_12]
+[effect fr yuge a 0 0]
+[face A 02]
+[face B 01]
+[setline A B]
+[move A Y -50]
+[move B Y -50]
+[serif on]
+[talk A]
+っはぁー……
+いい湯だなぁ……/
+[face A 01]
+[face B 06]
+[se water_06]
+おぉ、$B:A、
+しっかり身体温めるんだぞ～？/
+>>19/
+[set A s_sin_b 信濃]
+[randomset B b @地魂男児 @あやかし -@NPC -sin]
+[show A C]
+[show B C]
+[face A 01]
+[face B 06]
+[serif on]
+[se amb_12]
+[effect fr yuge a 0 0]
+[setline A B]
+[talk A]
+いいかぁ？　みんなそれぞれ個性があるんだから
+ちっとも恥ずかしくないんだぞぉ。/
+[face A 02]
+[face B 02]
+だから隠さなくても大丈夫だぞぉ。
+堂々としてれば大丈夫だからなぁ。[se bath_03]/
+>>20/
+[set A s_sin_r 信濃]
+[randomset B r @地魂男児 @あやかし -@NPC -sin]
+[show A C]
+[face A 05]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+おぉ、厠もピッカピカだな！
+一生懸命掃除してくれて先生うれしいぞぉ。/
+[face A 02]
+昨日の当番は$B:Aだったよなぁ。
+あとで褒めてやんねぇとな。/
+>>21/
+[set A s_sin_r 信濃]
+[show A L]
+[face A 09]
+[move A X -300]
+[move A C 1.0]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[se pee_01]
+[-]
+[serif on]
+[talk A]
+ふぅ～……
+これでよし。っと。/
+[face A 00]
+みんなも任務の前には、
+ちゃんと小便をしておくんだぞぉ。/
+[face A 01]
+もし任務の途中で行きたくなったら、
+先生に言うんだぞぉ。/
+>>22/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 09]
+[serif off]
+[move A Y -50]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+ふぅ～……
+たまにはゆーっくり馬に乗りてぇなぁ……/
+[face A 02]
+厠で一人でいると、想像が膨らんで
+癒やされるんだよなあ……出たらまたがんばっぞ！/
+>>23/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 06]
+[se paper_01]
+[move A Y -50]
+[serif on]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+おお……こんな激しい内容の本はあいつらには
+まだ早いだろぉ。/
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se dosa_01]
+こいつは預かっておいて、
+保体の教科書を代わりに置いとくかぁ。/
+>>24/
+[set A s_sin_r 信濃]
+[randomset B r @地魂男児 @あやかし @NPC -sin]
+[show A C]
+[show B C]
+[face A 01]
+[face B 01]
+[setline B A]
+[se cloth_01]
+[serif on]
+[talk A]
+おぉ、$B:A、今日は布団干したから、
+いい香りで気持ちいいなー。/
+[face A 09]
+知ってっか？　この匂いは太陽の光で死んだダニの
+匂いって言われてっけど、実はそうじゃねぇんだ。[face B 05]/
+[face A 02]
+本当は、汗や皮脂が紫外線で分解された
+匂いらしいんだ。[face B 01]/
+安静効果もあるらしいから、[move A Y -50 1.0]
+こんなに安心すんだなぁ[wait 0.2]…[wait 0.2]…[wait 0.2][face A 07]ぐごぉぉ……[face B 02]/
+>>25/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 07]
+[serif on]
+[talk A]
+ぐ～……おかわりだぞぉ……
+ぐ～ぐ～……/
+[talkend]
+寝言のようだ。
+ぐっすりと眠っている。/
+>>26/
+[set A s_sin_r 信濃]
+[show A C]
+[move A Y -100]
+[move A Y 100 1.0]
+[se cloth_01]
+[face A 08]
+[-]
+[serif on]
+[talk A]
+よし……
+誰もいねぇかなぁ……？/
+[face A 06]
+いつも恥ずかしいことじゃねえって言ってっけど
+やっぱりこりゃ生徒には見せられねぇよなぁ。/
+>>27/
+[set A s_sin_r 信濃]
+[show A C]
+[face A 00]
+[-]
+[talk A]
+?信濃、ハレの日おめでとう！/
+[serif on]
+[face A 01]
+おお、主。ありがとなぁ。
+いやぁーお前に祝ってもらえて嬉しいぞぉ。/
+[face A 00]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+お、そうだ。これはさっき作った
+おやきなんだけどよ……食うか？/
+[scale A 1.6 0.5]
+[move A Y -150 0.5]
+[face A 02]
+これは昔ながらのあんことナスを
+具材にしてっから美味ぇぞ～。/
+[face A 00]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+まぁおやきは何入れたって美味ぇんだけどな。
+例えばこっちの……こっちも食ってみろ。
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[face A 02]
+はは、お前のその顔見りゃ充分だ。
+喜んでもらえて嬉しいぞぉ。/
+[face A 01]
+信州といやぁやっぱりおやきは外せねぇからなぁ。
+今日のお盆おやきの日をハレの日にさせてもらった。/
+[face A 06]
+ちなみに[wait 0.2]…[wait 0.2]…[wait 0.2]さっき食べたやつに入ってた
+具材はなにかわかるか？/
+[face A 01]
+そう難しい顔すんな。
+よかったらこれから厨房で主も作ってみるか？/
+[face A 02]
+そうと決まりゃあ今日は特別授業といくかぁ！
+なぁに作り方は簡単に覚えられるさ！[shake A]/
+>>100/
+[set A s_sin_r 信濃]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[bg rouka_day]
+[-]
+[title 絆 信濃の教室]
+[-]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+御座所に向かう途中の廊下に、
+机や箪笥やら色々物が置かれていた。/
+[serif off]
+?（なんだこれ……？）/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[se fusuma_01]
+[-]
+[se walk_01]
+[bg heya_day]
+[hideall]
+[-]
+[fadeout 0.5]
+[-]
+[serif on]
+[textcolor ARUJI]
+部屋の中を覗いてみると、
+信濃がはたきを使って掃除していた。/
+[serif off]
+?信濃？/
+[show A C]
+[face A 01]
+[talk A]
+[-]
+[serif on]
+おぉ、お前かぁ。/
+[face A 09]
+わりぃ、ここは今埃っぽいから、
+俺がそっち行くぞぉ。/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[se walk_01]
+[bg rouka_day]
+[hideall]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+信濃は掃除の手をとめると、
+のそのそとこちらにやってきた。/
+[show A C]
+[face A 02]
+[talk A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+ふぅ、ちっと暑いなぁ……/
+[talkend]
+[textcolor ARUJI]
+そう言って袖で汗をぬぐう信濃。
+毛深く太い腕がたくましい。/
+[serif off]
+?掃除してるの？/
+[face A 01]
+[talk A]
+[-]
+[serif on]
+あぁ、この部屋、
+使われてねぇみてぇだったからなぁ。/
+[face A 00]
+掃除して、ちょーっと借りられたら……
+ってぇ思ったんだ。/
+[hide A]
+[talkend]
+[bg heya_day 0.5]
+[textcolor ARUJI]
+この荘園には、使われることなく
+放置されている空き部屋がたくさんある。/
+[textcolor ARUJI]
+信濃が掃除をしていたのはその一つだった。/
+[serif off]
+[bg rouka_day 0.5]
+?何に使うの？/
+[show A C]
+[face A 01]
+[talk A]
+[-]
+[serif on]
+へへ、実は……[wait 0.5]
+荘園の中に[wait 0.3]学校を作りたくてなぁ。/
+[serif off]
+?学校！/
+[face A 00]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[serif on]
+あぁ。ほら見てくれよ。
+この空き部屋は広さもちょうどいいし、/
+[face A 01]
+[bg heya_day 0.5]
+[se fusuma_01]
+壁に黒板でも置いたら、
+教室にぴったりと思わねぇか？/
+[face A 09]
+だから他の空き部屋もまわって、
+机やら箪笥やら……/
+使えそうなものを集めて
+ここに持ってきちまってっけど……/
+[face A 04]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[wait 0.3]
+[-]
+[serif on]
+よくよく考えたら、まず最初に
+お前に相談すべきだったなぁ。すまねぇ。/
+[talkend]
+[textcolor ARUJI]
+申し訳なさそうな表情で頭をかく信濃。/
+[serif off]
+?いいよ。教室/
+[face A 02]
+[talk A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+ほんとかぁ？　嬉しいぞぉ。/
+[face A 01]
+俺たち地魂男児も
+学ぶことはたくさんあるからなぁ。/
+自分たちの国のことは知ってても、
+他の国のことまではなかなかしらねぇし。/
+[serif off]
+[face A 08]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+何より、この肉体についても
+色々勉強する必要はあるしなぁ。/
+何人かと話してたら、結構苦労してる
+こともあるみたいだったからよぉ。/
+[face A 00]
+教室がありゃあお互いに勉強し合うことが
+できんじゃねぇかと思ったんだ。/
+[serif off]
+?うなずく/
+[playeryes]
+[-]
+[face A 01]
+[serif on]
+お、そうだ。たまにでいいからよぉ、
+お前も教室に顔ださねぇか……？/
+その方がきっと俺たちも
+勉強に身が入るし、/
+[face A 00]
+俺たちはお前から、お前は俺たちから
+学ぶことがあるんじゃねぇかなぁ？/
+[serif off]
+?参加するよ/
+[face A 02]
+[-]
+[serif on]
+おぉ……[shake A]言ってみるもんだなぁ。
+そうかぁ。俺ぁほんとに嬉しいぞぉ。/
+[serif off]
+[face A 01]
+[wait 0.5]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+信濃はにっこりと笑った。/
+[face A 01]
+[talk A]
+それじゃあ、*Pは俺の主であると同時に……
+俺の生徒でもあるわけだなぁ。/
+困ったこと、わからねぇこと、
+何でも相談してくれぇ。/
+[face A 02]
+一緒に悩んでやっからなぁ。
+これからよろしくな。/
+[serif off]
+[scale A 2.0 1.0]
+[move A Y -200 1.0]
+[delay 0.5 hide A]
+[se cloth_01]
+[-]
+[talkend]
+[serif on]
+[textcolor ARUJI]
+そう言って信濃が頭を撫でてきた。
+信濃の手は大きくてあたたかかった。/
+[serif off]
+[fadein BLACK 2.0]
+[-]
+[serif on]
+それから少しの間、信濃の掃除を手伝ってから
+御座所へと向かったのだった。/
+[textcolor ARUJI]
+信濃がどんな教室を開くのか、
+今から楽しみだ。/
+[serif off 2.0]
+[-]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_sin_r 信濃]
+[set B s_n001_r 夏人]
+[set C s_n005_r りく]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[bg gozasyo_night]
+[-]
+[title 絆 信濃の提灯学校]
+[-]
+[se fusuma_01]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[talk B]
+[show B C]
+[face B 01]
+おまたせ。
+遅くなってごめんね。/
+[face B 00]
+[flow]
+で、相談したいことって何かな？/
+[show A L]
+[face A 01]
+[say A]
+[setline 0.5 A B]
+[order B 5]
+[order A 0]
+おぉ、夏人、よく来てくれたなぁ。
+実はなぁ……/
+[hideall]
+[-]
+[textcolor ARUJI]
+[serif on]
+[talkend]
+先日、信濃からある提案を受け
+少し２人で話し合ったのだが――/
+[textcolor ARUJI]
+[flow]
+ロクハラ本部との交渉が必要なため、今日は
+夏人に御座所まで来てもらったのだった。/
+[show A]
+[show B]
+[setline A B]
+[face A 01]
+[face B 00]
+[talk A]
+荘園に学校を開いてんだけどよぉ。
+そのことについての話なんだ。/
+[face B 01]
+[say B]
+信濃さんの教室のことは聞いてるよ！
+面白い試みだよね。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+おお、そうかぁ、うれしいぞぉ！　……でな
+授業を進める中で必要なものが色々出てきてよぉ。/
+[face A 08]
+[flow]
+早速揃えようとは思ったんだが
+ちぃとこの荘園の予算じゃ足りなくてなぁ……/
+[face A 01]
+[move A XY -10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[se paper_01]
+[flow]
+ロクハラの経費で落としてもらえねぇかって
+主と話していたんだ。これ見てくれねぇか？/
+[hideall]
+[-]
+[talkend]
+[textcolor ARUJI]
+[se paper_01]
+信濃は必要な備品が書き込まれた
+資料を夏人に手渡した。/
+[show B]
+[face B 11]
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[say B]
+[se paper_01]
+なるほど、そういう話か……
+見せてもらうね、ふむふむ……なるほど……/
+[face B 14]
+[se rokuhara_04]
+[move B Y 20 0.4]
+[delay 0.6 move B Y -20 0.2]
+まず黒板、それに書籍類、文具類、知的遊具等……
+確かにこの荘園の予算からオーバーしてるね。/
+[flow]
+[se paper_01]
+[face B 12]
+う～ん困ったな……実はね、ただでさえ
+この荘園は地魂男児の数が多いでしょ？/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 09]
+[flow]
+みんなよく食べるから
+食費だけでも結構な額になってるんだよね……/
+[serif off]
+?生活費が怖いです/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 01]
+[serif on]
+まぁ、*Pくんの仕事ぶりが優秀なこともあって
+食費に関しては考慮してもらえてるんだけど……/
+[face B 12]
+[flow]
+この荘園への予算は現状でも
+結構多めに配分されているんだ。/
+[show A L]
+[setline 0.5 A B]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[say A]
+はは、俺も飯はかなり食う方だからなぁ。/
+[talk B]
+[face B 14]
+だから、信濃さんの要望を申請することは
+できるけど……正直通らないんじゃないかな……/
+[face B 12]
+授業は任務に直接関係あるわけじゃないから
+経費に認められるか難しいかもしれないし……/
+[serif off]
+[hideall]
+?うーん……やっぱりかー……/
+[show A]
+[face A 08]
+[bgm night]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[serif on]
+[talk A]
+主、夏人、ちょっといいか。
+話してぇことがあるんだ。/
+[serif off]
+?信濃？/
+[serif on]
+[face A 01]
+[flow]
+俺たち地魂男児たちは意思を持ってるだろ？
+それはつまり、単なる武器じゃねえってことだ。/
+[face A 00]
+[flow]
+俺たちは人と同じように考え、
+それぞれが自分で判断して任務を遂行する。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 09]
+[flow]
+その思考の根幹になるのは、俺はよぉ
+学びなんじゃねえかなぁって思うんだ。/
+[flow]
+[face A 01]
+修練所で刀を振るだけが俺たちの成長じゃねえと
+思うんだよなぁ。主、夏人、どう思う？/
+[face A 00]
+[flow]
+[talkend]
+[textcolor ARUJI]
+信濃は落ち着いていて、それでいて
+真剣な面持ちで思いを語った。/
+[serif off]
+?そういうこともあるかも/
+[hide A]
+[-]
+[show B]
+[face B 14]
+[serif off]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[say B]
+[serif on]
+学びによって任務の成功率が上がるか……
+それに地魂男児とはいえ、小さい子もいるし……/
+[face B 01]
+うん、信濃さんの気持ちよくわかったよ。
+僕も……勉強は好きだったし、大事だと思う。/
+[face B 02]
+個人的にも応援したくなってきちゃったよ！
+だけど申請が通るかは別だからなぁ……[face B 12]/
+[face B 01]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+あ、いいことを思いついた！
+きみたちに身体を使って仕事してもらおうかな。/
+[serif off]
+?！？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bgm off]
+[bg mbg_rokuhara]
+[minibg rokuhara_wc]
+[-]
+[fadeout 1.5]
+[-]
+[place ロクハラ研究室フロア]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[se bath_05]
+[textcolor ARUJI]
+１日の任務が終わった後……
+ロクハラ本部の夜のトイレに荒い呼吸が響く――/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[move A X -50 0.3]
+[delay 0.4 move A X 100 0.6]
+[delay 1.1 move A X -100 0.6]
+[delay 1.8 move A X 50 0.3]
+[autotap]/
+[say A]
+[bgm fun]
+[se bath_05]
+くぅ、ふぅ……おぉぉ……
+はぁ、はぁ、これでどうだ？/
+[serif off]
+?信濃……もっと！/
+[serif on]
+[face A 08]
+[se bath_05]
+くっ、んおおおっ！[shake A]　はぁっ、はぁっ！　
+いくぞっ主ぃっ！[shake A][face A 06]/
+[talkend]
+[textcolor ARUJI]
+信濃とふたり、ロクハラ本部の全ての階の
+トイレを次々と掃除していった。/
+[hide A]
+[se kira_01]
+[effect fr kira a 0 0]
+[textcolor ARUJI]
+やはり地魂男児は力が強いのだろう、信濃が
+モップで擦ると床がどんどん綺麗になっていく。/
+[minibg rokuhara_rouka_labo 0.5]
+@研究員
+おぉ……あれって*Pさんのとこの
+地魂男児の信濃じゃない？/
+@研究員
+めっちゃ頼りになるね！
+ありがてぇ……/
+[effect off a]
+[show B]
+[face B 02]
+[say B]
+うん、十分かな！　任務外の清掃活動……
+君たちの活躍は本部も十分わかると思う。/
+[face B 01]
+これで経費の申請もだいぶ
+通りやすくなったんじゃないかな。お疲れ様！/
+[show A R]
+[setline 0.5 B A]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+俺にはこれくらい朝飯前さ。
+主、働かせちまってすまねえな。/
+[serif off]
+?大丈夫だよ/
+[serif on]
+[face A 02]
+ありがとなぁ。
+これで皆に勉強させてやれるといいなぁ。/
+[serif off]
+?信濃、結構熱いんだね/
+[serif on]
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+そうかぁ？　俺は生徒のためなら肉体労働だって
+議論だって、何でもおしまねぇぞぉ。/
+[say B]
+[face B 02]
+立派な先生だね。
+こんな先生に勉強習いたかったな！/
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[say A]
+[face A 02]
+はは、恥ずかしいなぁ。
+夏人、お前も生徒として来ていいんだぞ？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[minibg off]
+[bg rouka_day]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[place 荘園 しょうえん]
+[-]
+[autotap]/
+[show A]
+[show B]
+[show C]
+[face B 01]
+[face C 01]
+[face A 01]
+[say C]
+[setline B A C]
+[orderline C A B]
+[serif on]
+わぁ、これって……！/
+[hideall]
+[effect fr kira a 0 0]
+[se kira_01]
+[bg heya_day 0.5]
+[talkend]
+[textcolor ARUJI]
+信濃の経費の申請が通り
+教室には黒板が備え付けられていた。/
+[show A]
+[show B]
+[show C]
+[face B 02]
+[face C 12]
+[face A 01]
+[say B]
+[setline B A C]
+[orderline C A B]
+黒板があると、教室感がぐっと出るね。
+なんだか学生に戻った気分だよ。/
+[move C Y 100 0.1]
+[delay 0.1 move C Y -100 0.2]
+[delay 0.4 move C Y 100 0.1]
+[delay 0.5 move C Y -100 0.2]
+[autotap]/
+[face C 02]
+[say C]
+すごーい、僕もここで
+勉強するー！　ねぇ、いいでしょー？/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+ああ、もちろんいいぞぉ！
+さぁ本格的に授業の始まりだぞぉ！/
+[hide C]
+[hide B]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[light def 0.5]
+[lightcolor blue]
+[flow]
+……ここでみんなと共に色んなことを学ぶんだ。
+楽しみだなぁ……/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[face A 01]
+主……ありがとうな。/
+[se cloth_01]
+[talkend]
+[textcolor ARUJI]
+信濃はニカっと笑って
+握った手を差し出してきた。/
+[serif off]
+?信濃とグータッチする/
+[face A 02]
+[shake A]
+[se cloth_06]
+[wait 2]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+信濃の教室でどんな授業が行われるのか
+今から楽しみだ。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>202/
+[set A s_sin_r 信濃]
+[serif off]
+[bgm off]
+[fadein BLACK 0]
+[bg mbg_syouen]
+[minibg syouen_watarirouka]
+[-]
+[title 絆 信濃とホタル]
+[-]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[serif on 0.5]
+[talkend]
+[autotap]/
+[textcolor ARUJI]
+今日は信濃とお出かけの日。/
+[textcolor ARUJI]
+夕方、待ち合わせ場所にいくと
+信濃がいた。/
+[show A C]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+おお時間ぴったりだ。えらいぞぉ。/
+[talkend]
+[textcolor ARUJI]
+嬉しそうに頭を撫でる信濃。/
+[face A 00]
+[say A]
+じゃあ早速向かうとするかぁ。/
+[hide A]
+[talkend]
+[serif off]
+?今日はどこに行くの？/
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+それは着いてからのお楽しみだぁ。/
+[face A 00]
+なぁに、外のことはちゃんと調べてあるからなぁ。
+今日は俺に任せてくれなぁ。/
+[hide A]
+[bg black 0.5]
+[minibg off 0.5]
+[se paper_01]
+[talkend]
+[textcolor ARUJI]
+信濃はふところからメモ帳を取り出した。/
+[textcolor ARUJI]
+[flow]
+中には電車のきっぷの買い方や乗り換えの手順
+などが、細かく手書きでメモされている。/
+[textcolor ARUJI]
+[flow]
+電車では二人並んで椅子に座り、しばらく他愛も
+ない話をしながら、目的地までの時間を楽しんだ。/
+[bg sky_star 0.5]
+[textcolor ARUJI]
+[flow]
+乗っている間に日はどんどん傾き、
+着いた頃には辺りはすっかり暗くなっていた。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bg black 0.5]
+[minibg mori_night]
+[hideall]
+[-]
+[bgm night]
+[fadeout 1.5]
+[-]
+[se amb_05]
+[autotap]/
+[show A C]
+[face A 01]
+[say A]
+[serif on]
+暗いから足元気をつけてな～。
+ここらへんは昔っからの自然が結構残ってんだ。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+明かりを手にした信濃の案内で
+小さな森を奥へ奥へと進んでいく。/
+[textcolor ARUJI]
+[flow]
+今日は街で祭りが行なわれているようで、
+駅前にはぱらぱらと人がいたが――/
+[textcolor ARUJI]
+[flow]
+ここはその人並みからは外れた場所だ。/
+[show A C]
+[scale A 1.6]
+[move A Y -140]
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[say A]
+ははは、祭りに行くと思ったろ？/
+[face A 01]
+それも悪くねぇんだが、
+今回の目的はそっちじゃねえんだ。/
+[face A 00]
+この前荘園でやった夏祭りも
+にぎやかで面白かったけどなぁ。/
+[face A 02]
+今日は主と二人、静かな場所で、
+夏を楽しむつもりだぞぉ。/
+[hide A]
+[se amb_05]
+[talkend]
+[se gasa_01]
+[textcolor ARUJI]
+信濃は時折かがんだりして
+茂みの奥を覗き込んでいる。/
+[show A C]
+[se amb_06]
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+お、水音が聞こえるなぁ。あっちの方に
+小川があるみてぇだから行ってみるか。/
+[serif off]
+?信濃についていく/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[hide A]
+[talkend]
+[se amb_05]
+[se walk_01]
+[serif on]
+[textcolor ARUJI]
+二人で夜の森を散策する。/
+[textcolor ARUJI]
+森は暗くて静かで、
+一見不気味にも思えるかもしれない。/
+[textcolor ARUJI]
+でも、信濃が隣りにいる安心からか全然怖くない。
+むしろなんだかワクワクしてる。/
+[show A C]
+[face A 00]
+[say A]
+おお、この辺は開けてて見晴らしがいいなぁ。
+ちょっと座って休むかぁ。/
+[talkend]
+[move A Y -50 0.5]
+[textcolor ARUJI]
+信濃が岩の上に腰掛けた。/
+[serif off]
+?隣に座る/
+[scale A 1.6 0.5]
+[move A Y -140 0.5]
+[autotap]/
+[face A 01]
+[textcolor ARUJI]
+[serif on]
+信濃の隣に座ると、大きな信濃の体に腕が触れた。[se cloth_01]/
+[hide A]
+[se amb_05]
+[textcolor ARUJI]
+ひんやりとした夜風が頬を撫でる。
+時折ホーホーと鳴くフクロウの声が聞こえる。/
+[show A C]
+[face A 09]
+[say A]
+[scale A 1.6]
+[move A Y -140]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+うーん、夜になると思ったより冷えるなぁ。/
+[face A 01]
+寒くねえかぁ？
+寒かったらもっとくっついていいからなぁ。/
+[serif off]
+?信濃にくっつく/
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[face A 06]
+[serif on]
+…………！/
+[talkend]
+[face A 08]
+[textcolor ARUJI]
+信濃がそっとこちらの肩に手をかけ、
+自身の方へとグッと抱き寄せた。[se cloth_01]/
+[face A 01]
+[textcolor ARUJI]
+信濃の体はじんわりと
+あたたかくて心地良い。/
+[face A 00]
+[say A]
+ほら、見てみろ。
+夏の星がよく見えるぞぉ。/
+[hide A]
+[bg sky_star 0.5]
+[minibg off 0.5]
+[talkend]
+[textcolor ARUJI]
+信濃の視線の先に目をやると、
+そこには満天の星空があった。/
+[textcolor ARUJI]
+[flow]
+人家から離れ、真っ暗な森の中だからか、
+一つ一つの星がはっきりと見える。/
+[serif off]
+[bg black 0.5]
+[minibg sky_star 0.5]
+[-]
+[show A C]
+[face A 08]
+[scale A 1.6]
+[move A Y -140]
+[say A]
+[-]
+[serif on]
+今日は付き合ってくれてありがとうなぁ。/
+[face A 00]
+[flow]
+主、俺にとっちゃお前も大事な
+生徒のひとりみたいなもんだからなぁ。/
+[face A 01]
+[flow]
+たまにゃこうやってゆっくり景色を眺めたり――/
+[flow]
+のんびり一緒に過ごして、
+息抜きしたりさせてやりてぇんだ。/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 02]
+[se cloth_01]
+……お前はいつも本当によく頑張って
+偉いぞぉ。俺の自慢の主だ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+信濃の大きな手がワシワシと頭を撫でてくる。/
+[serif off]
+?信濃もいつもありがとう。頼りにしてる/
+[show A C]
+[face A 02]
+[textcolor ARUJI]
+[scale A 1.6]
+[move A Y -140]
+[serif on]
+信濃は照れたように笑った。/
+[hide A]
+[minibg mori_night 0.5]
+[textcolor ARUJI]
+そのとき、小さな光がひとつ、
+すぐそばをかすめたように見えた。/
+[light hotaru 5]
+[autotap]/
+[show A C]
+[face A 01]
+[say A]
+[se amb_06]
+お、出てきてくれたな。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+周囲にポツポツと淡い光が灯り、
+それらがふわあっと舞った。/
+[serif off]
+?ホタルだ/
+[show A C]
+[face A 01]
+[say A]
+[scale A 1.6]
+[move A Y -140]
+[serif on]
+きれいなもんだろぉ。/
+[face A 00]
+これをお前と一緒に見てぇなぁと思って、
+今日は誘ったんだあ。/
+[serif off]
+?ホタルをじっと眺める/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[serif on]
+今までに見たことないような
+たくさんのホタル――/
+[textcolor ARUJI]
+[flow]
+まるで星空を草木に映したかのように
+光瞬くホタルの美しさに息を呑んだ。/
+[show A C]
+[face A 02]
+[say A]
+[scale A 1.6]
+[move A Y -140]
+……お前が夢中になってる
+その顔が見れてよかったなぁ。/
+[talkend]
+[hide A]
+[textcolor ARUJI]
+そう言って優しく微笑む信濃の頭の上に
+止まったホタルの写真を撮った。/
+[talkend]
+[textcolor ARUJI]
+信濃と一緒に写真を見て笑っていると
+お腹がぐーっと鳴った。/
+[show A C]
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.1]
+[delay 0.7 move A Y -10 0.3]
+[autotap]/
+[say A]
+ははは、たくさん歩いて腹減ったろ。/
+[face A 00]
+弁当こさえてきたから一緒に食おうな。/
+[face A 01]
+しっかり手を拭いてなあ。
+ゴミはちゃんと持ってかえるんだぞぉ。/
+[serif off 0.5]
+[fadein BLACK 2.0]
+[-]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[-]
+[serif on 0.5]
+信濃と二人っきりで見たきれいな星空と
+たくさんのホタル。/
+[textcolor ARUJI]
+[flow]
+夏の大切な思い出になった。/
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/

@@ -1,0 +1,1810 @@
+>>0/
+((s))
+[set W s_san_m 讚岐]
+[set A s_n000_m 猫乃屋]
+[set B s_n001_m 夏人]
+[set C s_n002_m 猪森]
+[set D s_n004_m 百太]
+[set E s_n008_m アルクトス]
+[set F s_n009_m 相馬]
+[set G s_n010_m 太育]
+[set GG s_n010_m ？？？]
+[set H s_m020_m 芳野]
+[fadein black 0]
+[bgm off]
+[-]
+[title 幕間 新風の兆し]
+[-]
+[bg shirei_day]
+[bgm fun]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+((m))
+[set W s_mus_m 武藏]
+[set A s_n000_m 猫乃屋]
+[set B s_n001_m 夏人]
+[set C s_n002_m 猪森]
+[set D s_n004_m 百太]
+[set E s_n008_m アルクトス]
+[set F s_n009_m 相馬]
+[set G s_n010_m 太育]
+[set GG s_n010_m ？？？]
+[set H s_m020_m 芳野]
+[fadein black 0]
+[bgm off]
+[-]
+[title 幕間 新風の兆し]
+[-]
+[bg shirei_day]
+[bgm fun]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n000_m 猫乃屋]
+[set B s_n001_m 夏人]
+[set C s_n002_m 猪森]
+[set D s_n004_m 百太]
+[set E s_n008_m アルクトス]
+[set F s_n009_m 相馬]
+[set G s_n010_m 太育]
+[set GG s_n010_m ？？？]
+[set H s_m020_m 芳野]
+[fadein black 0]
+[bgm off]
+[-]
+[title 幕間 新風の兆し]
+[-]
+[bg shirei_day]
+[bgm fun]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+((s))
+[show W C]
+[face W 05]
+[scale W 1.6]
+[move W Y -120]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on 0.5]
+[say W]
+哇…/
+((m))
+[auto]
+哇.../
+((e))
+[auto]
+哇.../
+[hide W]
+[bg rouka_day 0.5]
+[se gaya_01]
+[talkend]
+那天一早，就有大批工程師前往莊園。
+它來了。/
+[flow]
+摧毀指揮室附近的幾個房間並取出大型裝置。
+看起來他們正在搬東西或做一些重大的建築工作。/
+[shakebg]
+[show A R]
+[face A 01]
+[move A X 300]
+[say A]
+[setline 0.5 W A]
+[orderline W A]
+好的。一個人還小$W！最後
+看起來迷你實驗室的計畫正在開始向前邁進。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+[flow]
+這個專案看起來需要相當長的時間。/
+((s))
+[show W L]
+[setline 0.5 W A]
+[face W 10]
+[say W]
+什麼？ ？
+我聽不清楚你說話！ ！/
+((m))
+[auto]
+啊啊！ ？什麼？ ？
+我根本聽不到！ ！/
+((e))
+[auto]
+是的，那是什麼？ ？
+我聽不清楚你說話！ ！/
+[serif off]
+[hideall]
+[-]
+[se fusuma_01]
+[show F C]
+[move F X -200]
+[move F X 200 1]
+[face F 00]
+[say F]
+[-]
+[move F Y 10 0.1]
+[delay 0.1 move F Y -10 0.1]
+[-]
+[serif on]
+哦。/
+[hide F]
+[serif off]
+?索馬桑/
+[show F]
+[face F 06]
+[say F]
+[serif off]
+[move F Y 10 0.4]
+[delay 0.4 move F Y -10 1.0]
+[-]
+[serif on]
+啊……好吧……好吧，我會照顧你的。/
+[face F 09]
+[flow]
+佈置各種裝置、設計、製作安排。
+最後，是時候預覽動作了。/
+[show D L]
+[move D X -1000]
+[moveline D F 1000 0 0.5]
+[orderline F D]
+[face D 02]
+[bg shirei_empty 0.5]
+[-]
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[say D]
+哇，我根本停不下來拍照！[shake D]
+這是做什麼用的？[move D XY -10 -40 0.4][rotate D 10 0.3][delay 0.4 move D XY 10 40 0.3][delay 0.5 rotate D 0 0.3][fadein WHITE 0.2][delay 0.2 fadeout 0.3]/
+[se cloth_06]
+[effect fr syutyu a 0 0]
+[setline 0.3 D F]
+[face D 05]
+[face F 03]
+[say F]
+那是個人的！別碰我，赤隈桃太！[shake F]
+我告訴你，我打算住在這裡。[shake F]/
+[move F X -300 0.5]
+[move D X 250 0.5]
+[face F 01]
+[face D 10]
+[effect off a]
+[flow]
+哦，我想我可以在沙發上睡覺和醒來。/
+((s))
+[show W R]
+[setline 0.5 F D W]
+[orderline F W D]
+[face W 10]
+[say W]
+你應該和小伊醬一起睡在蒲團上。/
+((m))
+[auto]
+嘿嘿。您應該在蒲團上正確睡覺。/
+((e))
+[auto]
+和小依醬一起睡在蒲團裡
+還是睡覺比較好。/
+[color W talk]
+[se pi_01]
+[textcolor blue]
+@輝夜姬的聲音
+即使老師在二分院的時候
+這就是我的生活。/
+[face D 01]
+[say D]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+輝夜君也來了！/
+[face F 09]
+[say F]
+影像投影裝置尚未安裝。
+不過，這只是音訊……好吧，我很快就會安裝它。/
+[face F 00]
+[flow]
+由於施工，一段時間會比較吵。
+請耐心等待。/
+[serif off]
+[bg rouka_day 0.5]
+[show E]
+[show C]
+[setline E C]
+[moveline E C 1000 0 0]
+[moveline E C F D W -1000 0 1]
+[orderline F E W D]
+[face E 01]
+[-]
+[hide D]
+[hide F]
+[hide W]
+[say E]
+[move E Y 10 0.4]
+[delay 0.4 move E Y -10 1.0]
+[-]
+[serif on]
+啊，聲音監聽器！　你原來在這裡！/
+[hideall]
+[-]
+[show W]
+[show F]
+[show D]
+[setline F D W]
+[orderline W D F]
+[face W 00]
+[face D 00]
+[face F 09]
+[delay 0.5 move F X -500 1]
+[delay 0.8 hide F]
+[autotap]/
+((s))
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+我會走路。豬森先生。
+這個行李怎麼樣？/
+((m))
+[auto]
+嘿阿克託斯。豬森。
+這個行李怎麼樣？/
+((e))
+[auto]
+Arctos，豬森先生。
+這個行李……？/
+((s))
+[show E R]
+[show C R]
+[move C X 300]
+[move E X 100]
+[setline 0.5 D W E C]
+[face E 12]
+[face C 01]
+[say E]
+[orderline W E C D]
+[effect fr kira a 0 0]
+[se kira_01]
+呵呵，我和豬森老師在迷你實驗室的第二區。
+您現在將擁有自己的辦公桌！/
+((m))
+[show E R]
+[show C R]
+[move C X 300]
+[move E X 100]
+[setline 0.5 D W E C]
+[face E 12]
+[face C 01]
+[say E]
+[orderline E W C D]
+[effect fr kira a 0 0]
+[se kira_01]
+呵呵，我和豬森老師在迷你實驗室的第二區。
+您現在將擁有自己的辦公桌！/
+((e))
+[show E R]
+[show C R]
+[move C X 300]
+[move E X 100]
+[setline 0.5 D W E C]
+[face E 12]
+[face C 01]
+[say E]
+[orderline E W C D]
+[effect fr kira a 0 0]
+[se kira_01]
+呵呵，我和豬森老師在迷你實驗室的第二區。
+您現在將擁有自己的辦公桌！/
+[effect off a]
+[face E 01]
+[face W 12]
+[face D 01]
+[flow]
+所以今天我要提早一點！/
+[hide W]
+[hide D]
+[se fusuma_01]
+[bg shirei_empty 0.5]
+[setline 0.5 E C]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 08]
+[face E 00]
+[say C]
+嗯，我確信這就是房間。
+你能讓我用它嗎...？/
+[show A L]
+[setline 0.5 A E C]
+[orderline E C A]
+[face A 01]
+[say A]
+如果您想大幅改變佈局，請聯絡環境聽證科。
+或許可以提出請求。/
+[face C 01]
+[say C]
+[move C Y 10 0.1]
+[delay 0.1 move C Y -10 0.1]
+當然。這也是一隻手吧？/
+[move E Y 5 0.2]
+[delay 0.2 move E Y -10 0.6]
+[delay 0.8 move E Y 5 0.5]
+[autotap]/
+[face E 01]
+[say E]
+我最近在環境聽證部門交了一位朋友。
+我去問問吧！　/
+[face E 07]
+[say E]
+趕緊把行李寄存在這裡吧。
+我要把它留在那裡嗎？/
+[show D R]
+[se cloth_01]
+[moveline A E C -150 0 0.5]
+[move D X 150 0.5]
+[face D 10]
+[orderline E C A D]
+[say D]
+豬森同學也會搬家嗎？
+那是很多行李。[face C 05][shake C]/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 11]
+[say C]
+我在總部還有一個座位。
+我沒有太多行李要帶。/
+[flow]
+[face C 01]
+這都是富良野君的。/
+[face E 04]
+[say E]
+豬森先生的辦公桌是…
+清理起來要花很多時間.../
+[face C 10]
+[face A 08]
+[say C]
+呃...[shake C]/
+[face E 02]
+[say E]
+[shake E]
+我負責這個迷你實驗室。
+我會把事情安排得井井有條！/
+[serif off]
+[hide E]
+[hide C]
+[hide D]
+[-]
+[bg rouka_day 0.5]
+[move A C 0.5]
+[face A 10]
+[say A]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+嗯，到處都在施工。
+太吵了，我不能用指揮室開會。/
+[face A 00]
+[flow]
+沒錯，夏人想讓你見見一個人。
+他說他在那兒。我們在走廊等吧。/
+((s))
+[show W]
+[setline 0.5 W A]
+[face W 00]
+[say W]
+你想見的人嗎？我想知道這是誰。/
+((m))
+[auto]
+你想讓我見誰？
+是誰？/
+((e))
+[auto]
+你想讓我見誰……我想知道是誰。/
+[hide A]
+[hide W]
+[-]
+[show E C]
+[show C C]
+[setline E C]
+[orderline E C]
+[face E 01]
+[face C 01]
+[say E]
+那麼，我和豬森同學就放下東西吧。/
+[face E 02]
+[flow]
+[move E Y 10 0.1]
+[delay 0.1 move E Y -10 0.1]
+哦，我稍後會跟相馬同學打個招呼。
+我們走吧！豬森先生！/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 12]
+[say C]
+呃，是的……我想知道我是否能見到你……/
+[face E 14]
+[say E]
+稍後見！ ！/
+[serif off]
+[se walk_01]
+[move E X -800 0.5]
+[move C X -800 0.5]
+[hideall]
+[-]
+[se zukkoke_01]
+[shakebg]
+[effect fr syutyu a -400 0 0]
+[serif on]
+@豬森的尖叫聲
+哇！ ！ ！[se crash_03]/
+((s))
+[effect off a]
+[-]
+[show W C]
+[face W 10]
+[say W]
+它發出了美妙的聲音…
+我想知道還好嗎.../
+((m))
+[auto]
+聲音很大……但我假裝沒聽見。
+我相信一切都會好起來的。/
+((e))
+[auto]
+它發出了美妙的聲音…
+可以嗎.../
+[serif off]
+[show F R]
+[se fusuma_01]
+[setline 0.5 W F]
+[orderline W F]
+[face F 09]
+[say F]
+[-]
+[serif on]
+豬森去了嗎…/
+((s))
+[say W]
+[face W 11]
+我需要躲起來！ ？[se zukkoke_02][shake W]/
+((m))
+[auto]
+你躲起來了嗎？ ？/
+((e))
+[auto]
+我想知道你去了哪裡
+它被隱藏了！ ？/
+[face F 10]
+[say F]
+嗯，我又不是躲起來了！[shake F]
+我準備了很多事情.../
+[face W 10]
+[face F 06]
+[flow]
+我剛出來抽根菸。/
+[hide W]
+[show A R]
+[setline 0.5 F A]
+[face A 11]
+[move F Y 10 0.4]
+[delay 0.4 move F Y -10 1.0]
+[autotap]/
+[face F 08]
+[flow]
+但是……貓谷宗一。
+你們也在做一項乏味的工作。/
+[flow]
+[face F 00]
+這麼大的莊園的主人是誰？/
+[face A 01]
+[say A]
+馬裡也累了。就是這樣
+看來真的會很難了。我支援你。/
+[bgm off]
+[face F 08]
+[say F]
+…………/
+[face F 03]
+[flow]
+[move F Y 10 0.1]
+[delay 0.1 move F Y -10 0.1]
+……嘿，等一下。/
+[face A 00]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+啊？怎麼了，親愛的？/
+[bgm comical]
+[scale A 1.6 0.3]
+[scale F 1.6 0.3]
+[moveline A F 0 -120 0.3]
+[rotate A -10 0.3]
+[rotate F -10 0.3]
+[move F X100 0.3]
+[face F 10]
+[face A 05]
+[se cloth_06]
+[orderline F A]
+[say F]
+[effect fr syutyu a 0 0]
+我以為這是我的幻覺，但畢竟
+「烏瑪奇」是指我嗎？ ？/
+[face F 03]
+[flow]
+[shake F]
+那叫什麼名字？生來如此
+我從來沒有被邀請過！ ？[se zukkoke_02]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[effect off a]
+[rotate A 0 0.5]
+[rotate F 0 0.5]
+[face A 01]
+[say A]
+好吧，我想不出更好的暱稱了。
+你也可以叫我Rencchi。/
+[face F 04]
+[say F]
+我不想突然被叫到我的名字。/
+[face A 09]
+[say A]
+Inocchi 和 Umacchi 很平衡，對嗎？/
+[face F 10]
+[say F]
+多麼平衡啊！[shake F]
+我的意思是，我希望這不是暱稱！ ？[se zukkoke_02]/
+[face F 03]
+[flow]
+拋棄姓氏。這很好。
+簡單就是最好的。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+[say A]
+我明白了，我明白了。
+如果你不喜歡Umacchi，可以試試Somacchi。是的，決定了。/
+[move F Y 10 0.4]
+[delay 0.4 move F Y -10 1.0]
+[autotap]/
+[face F 04]
+[say F]
+媽的……我討厭死了，但夠了……
+比烏瑪奇還好/
+[hide A]
+[move F C 0.5]
+[move F Y -120 0.5]
+[face F 03]
+[flow]
+我要回我的房間了。研究仍在繼續。/
+[serif off]
+？謝謝你的辛勤工作，索馬基。/
+[effect fr syutyu a 0 0]
+[quake 2]
+[face F 10]
+[serif on]
+[say F]
+停下來！ ！ ！[shake F][se zukkoke_02]/
+[effect off a]
+[quake off]
+[scale F 1.0 0.3]
+[move F Y 120 0.3]
+[-]
+[face F 03]
+[show D R]
+[setline 0.5 F D]
+[move F X -50 0.5]
+[move D X -150 0.5]
+[se cloth_01]
+[rotate D 10 0.5]
+[orderline F D]
+[face D 02]
+[say D]
+索馬桑，我有幾句話要說。
+有件事想請教你！/
+[color D talk]
+[se pi_01]
+[textcolor blue]
+@輝夜姬的聲音
+老師，危險啊請撤離。/
+[face F 10]
+[say F]
+輝夜警告！ ？[shake F]/
+[serif off]
+[se fusuma_02]
+[face F 03]
+[se walk_03]
+[face D 05]
+[move F X -800 0.5]
+[hide F]
+[delay 0.3 move D X -600 0.5]
+[fadein BLACK 1.0]
+[-]
+[bgm off]
+[hideall]
+[wait 2]
+[bgm home]
+[-]
+[fadeout 1.0]
+[-]
+[autotap]/
+[show B C]
+[face B 01]
+[say B]
+[-]
+[serif on 0.5]
+啊，*P君！/
+((s))
+[hide B]
+[-]
+[show W C]
+[show A]
+[setline A W]
+[orderline W A]
+[face W 01]
+[face A 11]
+[say W]
+夏人君！/
+((m))
+[auto]
+夏人！/
+((e))
+[auto]
+夏人君！/
+[serif off]
+[show B R]
+[setline 0.5 A W B]
+[orderline W B A]
+[face B 12]
+[say B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+啊？我以為你會先來.../
+[face A 08]
+[say A]
+哦，現在。為什麼你一個人？/
+[face A 10]
+[flow]
+你要我讓你等一下，所以我就跟我的學弟一起去了。$W到
+我讓他在走廊等。/
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[autotap]/
+[face B 04]
+[say B]
+[shake B]
+嗯……我跟你一起來的，但是來來去去的人太多了。
+一切都很激烈……在我意識到之前，我們就分開了……/
+((s))
+[say W]
+[face W 00]
+你說想讓我見的那個人？/
+((m))
+[auto]
+是那個叫你來見我們的人嗎？/
+((e))
+[auto]
+這就是你說要我們見的人嗎？/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[face A 00]
+[face B 01]
+[face W 13]
+我該去找找嗎？莊園很大。
+……如果迷路的話可能會很困難…/
+((m))
+[auto]
+或許我應該去找一下。莊園很大
+……你確定你迷路了嗎？/
+((e))
+[auto]
+或許我應該去找一下。
+莊園很大，如果迷路了，那就麻煩了。/
+[serif off]
+？點點頭/
+((s))
+[playeryes]
+[-]
+[bgm departure]
+[hide A]
+[hide B]
+[face W 01]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[-]
+[serif on]
+是的。
+那麼，我們就向風道走去吧！/
+((m))
+[auto]
+哦。
+那麼，我們要前往通風道嗎？/
+((e))
+[auto]
+是的！
+現在讓我們前往通風道。/
+[move W X 500 0.5]
+[hide W]
+[talkend]
+$W當他拐過走廊的轉角時…/
+((s))
+[serif off]
+[show W]
+[scale W 1.6]
+[move W Y -120]
+[face W 05]
+[say W]
+[se doka_01]
+[shake W 3 10 10]
+[se fall]
+[show H]
+[orderline H W]
+[scale H 1.6]
+[move H Y -120]
+[color H black]
+[move H XY 500 100]
+[move H X -500 0.3]
+[delay 0.4 rotate W 30 0.3]
+[delay 0.4 move W X -200 0.3]
+[delay 0.4 move H X -300 -0.5]
+[delay 0.4 move H Y 100 0.3]
+[delay 0.7 move H Y -400 0.3]
+[rotate H 180 1]
+[face W 11]
+[-]
+[move W Y -200 0.5]
+[hideall]
+[se zukkoke_02]
+[-]
+[serif on]
+哇！ ！/
+((m))
+[auto]
+哇！ ！/
+((e))
+[auto]
+哇！ ！/
+[talkend]
+$W撞到某物
+我摔倒在地。/
+[serif off]
+?$W。你還好嗎？/
+((s))
+[se cloth_01]
+[show W]
+[face W 10]
+[say W]
+[move W Y -100]
+[move W Y 100 0.5]
+[-]
+[serif on]
+伊塔塔……是啊。
+有東西擊中了我的臉.../
+((m))
+[auto]
+那是……啊。
+有東西擊中了我的頭.../
+((e))
+[auto]
+伊塔塔……是的。
+有東西撞到我的頭了.../
+((s))
+[face W 05]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[flow]
+嗯…我想知道這是什麼…/
+((m))
+[auto]
+嗯……這是什麼？/
+((e))
+[auto]
+嗯……這到底是什麼……？/
+[serif off]
+[hide W]
+[-]
+[show H]
+[face H 00]
+[move H Y 100 2.0]
+[delay 2.0 move H Y -50 1.0]
+[wait 0.5]
+[-]
+[show W L]
+[setline 0.5 W H]
+[orderline H W]
+[face W 05]
+[-]
+[shake W]
+[-]
+[autotap]/
+[show A L]
+[show B]
+[setline B A -500 -100]
+[setline 0.5 B A W H]
+[orderline H W B A]
+[face A 01]
+[face B 00]
+[say A]
+[-]
+[serif on]
+$W，你還好嗎？我不能嘲笑伊諾奇。
+嗯？[shake A][face B 11]　這個圓圓的東西是什麼？[face B 05]/
+[face B 12]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+啊！這是 - ……！ ！/
+[bgm off]
+[effect fr syutyu a 0 0]
+[color B talk]
+[face A 05]
+[face B 11]
+[face W 00]
+[se walk_03]
+@？？？
+啊啊！ ！我終於找到了！ ！/
+[bgm cute]
+[effect off a]
+[serif off]
+[hideall]
+[se walk_02]
+[-]
+[bg white 0.5]
+[show GG]
+[face GG 11]
+[scale GG 2]
+[move GG Y 300]
+[move GG Y -500 2]
+[-]
+[wait 1]
+[-]
+[hide GG]
+[-]
+[name G ？？？]
+[show G]
+[face G 11]
+[serif on]
+[move G Y 10 0.4]
+[delay 0.4 move G Y -10 1.0]
+[autotap]/
+[say G]
+喲皮！
+萬一碰到傻子怎麼辦……！/
+[bg rouka_day 0.5]
+[scale G 1.6 0.3]
+[move G Y -120 0.3]
+[effect fr syutyu a 0 0]
+[face G 10]
+[se cloth_06]
+[flow]
+真的很抱歉！　
+請不要被禁止！ ！/
+[hide G]
+[effect off a]
+[-]
+[show B]
+[show A]
+[show W]
+[setline B W A]
+[orderline W A B]
+[face W 00]
+[face A 00]
+[face B 12]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+B-禁令？我不會。不用擔心。/
+[show GG R]
+[show H R]
+[moveline GG H 100 0 0]
+[move H Y -100]
+[rotate H -10]
+[setline 0.5 B W A -100 600]
+[orderline H GG W A B]
+[face GG 05]
+[say GG]
+啊，夏人同學！對不起！　約比
+它飛走了，當我尋找它時，已經太晚了…[face GG 04][shake GG]/
+((s))
+[face W 01]
+[say W]
+夏人君，這個孩子會不會是…/
+((m))
+[auto]
+夏人。也許這個人.../
+((e))
+[auto]
+夏人君。也許這個孩子.../
+[face B 01]
+[say B]
+是的。今天想見的人是…
+啊，也許我應該請你自我介紹一下。/
+[hideall]
+[-]
+[show G]
+[face G 00]
+[say G]
+[name G 太育]
+[move G Y 10 0.1]
+[delay 0.1 move G Y -10 0.1]
+是的！[shake G]
+我的名字是龜石大育，新聲音聆聽者！[face G 01]/
+[face G 02]
+[flow]
+我只是平裝本的新手，目前正在接受訓練。
+感謝您的支援！/
+((s))
+[hide G]
+[-]
+[show W]
+[show B]
+[show A]
+[face W 05]
+[setline B W A]
+[face A 05]
+[face B 01]
+[say W]
+[orderline W B A]
+[effect fr syutyu a 0 0]
+語音監聽器...這意味著...
+就像老主人一樣…！ ！　驚人的！[face W 02]/
+((m))
+[auto]
+語音監聽器是什麼意思？
+就跟將軍一樣……！ ！太棒了！[face W 02]/
+((e))
+[auto]
+語音監聽器是什麼意思？
+就像我的主人一樣…！ ！　哇！[face W 02]/
+[hideall]
+[-]
+[show G]
+[effect off a]
+[face G 00]
+[say G]
+[scale G 1.6 0.3]
+[move G Y -120 0.3]
+[effect fr kira a 0 0]
+[se kira_01]
+難道是……*P先生？
+哇！ ！[shake G]　我真的很想認識你！ ！[shake G]/
+[effect off a]
+[face G 02]
+[flow]
+前輩！感謝您的幫忙！/
+[serif off]
+?很高興認識你/
+((s))
+[show W L]
+[scale W 1.6]
+[move W Y -120]
+[setline 0.5 W G]
+[face W 01]
+[serif on]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[orderline W G]
+我是讚岐！
+他是主人的地魂童子。很高興見到你。/
+((m))
+[show W L]
+[scale W 1.6]
+[move W Y -120]
+[setline 0.5 W G]
+[face W 01]
+[serif on]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[orderline G W]
+我是武藏。
+他是將軍的地魂童子。很高興見到你。/
+((e))
+[show W L]
+[scale W 1.6]
+[move W Y -120]
+[setline 0.5 W G]
+[face W 01]
+[serif on]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[orderline G W]
+我是越後ssu！
+師父的地魂童子蘇。感謝您的支援！/
+[face W 00]
+[face G 06]
+[say G]
+[effect fr kira a 0 0]
+[se kira_01]
+哇這是真的...[shake G]/
+[move G Y 5 0.2]
+[delay 0.2 move G Y -10 0.6]
+[delay 0.8 move G Y 5 0.5]
+[autotap]/
+[face G 02]
+[effect off a]
+[flow]
+還有我的前輩們$W關於坤太
+我聽了很多夏人同學的故事！/
+[move G X -50 0.1]
+[delay 0.1 move G X 100 0.2]
+[delay 0.3 move G X -100 0.2]
+[delay 0.5 move G X 50 0.1]
+[autotap]/
+[face G 10]
+[flow]
+我們兩位
+太嚴重了，我太緊張了！/
+((s))
+[hide G]
+[move W X 250 0.5]
+[face W 10]
+[say W]
+拒絕……？[shake W]　呃……很難的現代單字
+也許我不知道...[face W 04]/
+((m))
+[auto]
+拒絕……？[shake W]　呃...很難的現代單字
+我不知道...！ ！[face W 04]/
+((e))
+[auto]
+拒絕……？[shake W]　呃...很難的現代詞
+我不明白！[face W 04]/
+[show A L]
+[setline 0.5 A W]
+[orderline W A]
+[face A 10]
+[say A]
+別擔心。我也不知道。[shake A]/
+((s))
+[face W 05]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+哦，等等……那麼大育就是一個語音聆聽者？
+……也許這個毛茸茸的孩子是…/
+((m))
+[auto]
+哦，等等……那麼大育就是一個語音聆聽者？
+……也許是這個漂浮著的毛茸茸的東西…/
+((e))
+[auto]
+哦，等等... Taiiku 是一個語音監聽器。
+這個毛茸茸的漂浮孩子是…不會吧…/
+[serif off]
+[hideall]
+[-]
+[show H]
+[move H Y 200 0.5]
+[rotate H -10 0.5]
+[-]
+[se cloth_01]
+[move H Y -50 0.5]
+[show G]
+[face G 01]
+[orderline H G]
+[move G Y 10 0.1]
+[delay 0.1 move G Y -10 0.1]
+[-]
+[serif on]
+[say G]
+是的。這是我的朋友Yoppi...
+不，/
+[face G 02]
+[flow]
+這是《地魂少年》裡的四糸乃！/
+((s))
+[moveline H G 250 0 0.5]
+[show W L]
+[face W 05]
+[say W]
+地魂少年！[shake W]　哇……我完全沒看懂……
+看來太僕不是在這座莊園裡。[face W 12]/
+((m))
+[auto]
+地魂少年！ ！[shake W]　嘿嘿，我根本沒看懂。
+我在這個莊園裡沒有看到太普。[face W 12]/
+((e))
+[auto]
+畢竟他是地魂少年啊！[shake W]　我根本沒注意到。
+這是我在我的莊園裡看不到的血統。[face W 12]/
+[show A L]
+[orderline H W G A]
+[move A X -150]
+[move W X 100 0.5]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[face A 00]
+[autotap]/
+[say A]
+嗯，它只是一個聆聽靈魂聲音的聆聽者。
+因為這意味著將它捆綁起來並給它命名....../
+[flow]
+[face A 00]
+外觀因語音收聽者而異。
+我會做的。/
+[flow]
+[face A 08]
+與綾香不同，我聽到的是地魂少年的聲音。
+但這就是困難所在。/
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[face W 00]
+[say W]
+沒錯。
+很高興認識你。耶皮。/
+((m))
+[auto]
+沒錯。
+很高興認識你。耶皮。/
+((e))
+[auto]
+沒錯。
+感謝您的支援。耶皮。/
+[face H 00]
+[name H ヨッピー]
+[say H]
+………………/
+[serif off]
+[face G 04]
+[say G]
+[move H Y 10 0.4]
+[delay 0.4 move H Y -10 1.0]
+[move G Y 10 0.4]
+[delay 0.4 move G Y -10 1.0]
+[-]
+[serif on]
+這傢伙實在太安靜了。
+他只是偶爾跟我說話.../
+[face G 08]
+[flow]
+但他總是在我的頭上
+我不認為他們討厭我.../
+[show B L]
+[hide A]
+[move B X -200]
+[move B X 50 0.5]
+[face B 00]
+[say B]
+是的。所以，和*P君$W昆尼
+我想得到一些建議。/
+((s))
+[say W]
+[face W 05]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+建議？/
+((m))
+[auto]
+建議？/
+((e))
+[auto]
+建議？/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 14]
+[say B]
+是的。大育君現在正在訓練中…
+其實這之後，還有一場講座要彌補。/
+[flow]
+[face B 01]
+我只有一點時間……但我真的必須這麼做
+我帶他們來這裡是因為他們說他們想見他們。/
+[hideall]
+[-]
+[talkend]
+[textcolor aruji]
+順便說一下，我也在接受語音聆聽者的訓練。
+在訓練營裡，我從早到晚都接受密集的講座。/
+[flow]
+[textcolor aruji]
+我幾乎沒有空閒時間。
+我記得。/
+[serif off]
+？懷舊.../
+[show G]
+[show H]
+[orderline H G]
+[move H Y 150]
+[face G 08]
+[serif on]
+[say G]
+我在練習中聽到了 Yoppi 的聲音.../
+[face G 10]
+[flow]
+[shake G]
+我考試得了紅分……補考了那麼多。
+那是什麼？太難了.../
+[move G Y 10 0.4]
+[delay 0.4 move G Y -10 1.0]
+[move H Y 10 0.4]
+[delay 0.4 move H Y -10 1.0]
+[autotap]/
+[face G 04]
+[flow]
+我學習真的很糟.../
+[show A L]
+[orderline H G A]
+[face A 01]
+[say A]
+我的學弟學妹現在也在準備考試。/
+[serif off]
+?讓我們一起努力吧.../
+[face G 01]
+[serif on]
+[say G]
+[move H Y 10 0.1]
+[delay 0.1 move H Y -10 0.1]
+[move G Y 10 0.1]
+[delay 0.1 move G Y -10 0.1]
+[effect fr kira a 0 0]
+[se kira_01]
+是的！ ！我的學長也在準備考試...
+我也會盡力的！/
+((s))
+[hideall]
+[-]
+[effect off a]
+[show W]
+[face W 00]
+[say W]
+[orderline W H G]
+那麼...adbaysu 是什麼？
+你想聽嗎？你說的是為了考試而唸書嗎？/
+((m))
+[hideall]
+[-]
+[effect off a]
+[show W]
+[face W 00]
+[say W]
+[orderline H G W]
+那麼……阿多拜蘇是什麼意思？
+你聽到了嗎？你說的是為了考試而唸書嗎？/
+((e))
+[hideall]
+[-]
+[effect off a]
+[show W]
+[face W 00]
+[say W]
+[orderline H G W]
+嗯...adbayis 是什麼意思？
+你想聽嗎？你說的是為了考試而唸書嗎？/
+[show G R]
+[show H R]
+[orderline H G W]
+[rotate H -10]
+[move H Y 150]
+[face G 03]
+[say G]
+嗯，當然...
+我——……/
+[hide H]
+[hide W]
+[face G 11]
+[flow]
+[effect fr syutyu a 200 0]
+[scale G 1.6 0.3]
+[move G Y -120 0.3]
+[se taiko_01]
+加深與地魂男孩作為好友的聯絡，並吸入阿恩的氣息。
+我希望能夠在任務中盡我所能！/
+[face G 10]
+[flow]
+當我問夏人先生時，他告訴我他和他的前輩$W昆哈
+他們說這是一個驚人的組合.../
+((s))
+[effect off a]
+[hide G]
+[show W]
+[face W 06]
+[say W]
+呃呃呃……我好尷尬……[shake W]/
+((m))
+[auto]
+嗚嗚嗚嗚嗚嗚嗚嗚嗚！嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚嗚！[shake W]/
+((e))
+[auto]
+呃呃呃，我有點尷尬…[shake W]/
+[move W X -150 0.5]
+[show G R]
+[show H R]
+[orderline H G]
+[rotate H -10]
+[move H Y 150]
+[face G 03]
+[say G]
+[move H Y 10 0.1]
+[delay 0.1 move H Y -10 0.1]
+[move G Y 10 0.1]
+[delay 0.1 move G Y -10 0.1]
+我怎樣才能做到這一點？
+他們會成為好朋友嗎？/
+[bgm off]
+[talkend]
+大育一臉嚴肅地看著我。/
+[hideall]
+[serif off]
+？我想這與信任有關。/
+[bgm relationship]
+[show G]
+[scale G 1.6]
+[move G Y -120]
+[face G 06]
+[-]
+[serif on 0.5]
+[say G]
+信任.../
+[serif off]
+[hide G]
+[-]
+[show B]
+[face B 01]
+[say B]
+[move B Y 10 0.4]
+[delay 0.4 move B Y -10 1.0]
+[-]
+[serif on]
+當然…*P君，作為一個聲音聆聽者，$W坤沃
+我所能做的就是相信他並派他去執行他的使命。/
+[flow]
+[face B 02]
+仍然$W我相信你會沒事的
+我總是這麼說。/
+((s))
+[hide B]
+[-]
+[show W]
+[scale W 1.6]
+[move W Y -120]
+[face W 12]
+[say W]
+師父.../
+((m))
+[auto]
+一般.../
+((e))
+[auto]
+師父.../
+((s))
+[face W 00]
+[flow]
+師父也相信我。
+當我想到這一點時……我覺得我應該盡力而為。/
+((m))
+[auto]
+將軍也相信我。
+現在想想……我可以盡心盡力了。/
+((e))
+[auto]
+我也覺得我的師父相信我，在等我。
+……即使是困難的事情你也可以克服。/
+((s))
+[serif off]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+[face W 01]
+所以，我想這是同一件事....../
+((m))
+[auto]
+所以……我可能也是這樣。/
+((e))
+[auto]
+所以我...也許是同一件事。/
+[serif off]
+[hide W]
+[-]
+[show G]
+[show H]
+[rotate H 10]
+[face G 06]
+[say G]
+[orderline H G]
+[move H XY 50 -100]
+[move H Y 10 0.4]
+[delay 0.4 move H Y -10 1.0]
+[move G Y 10 0.4]
+[delay 0.4 move G Y -10 1.0]
+[-]
+[serif on]
+相信我.../
+[face G 04]
+[move H Y 50 0.5]
+[se cloth_01]
+[flow]
+Yoppi……他根本不會說話。
+我還是不知道你在想什麼.../
+[face H 00]
+[say H]
+…………/
+[show A L]
+[orderline H G A]
+[face A 01]
+[say A]
+好吧。我想我還在上課。
+從現在開始我們會有很多機會互相認識。/
+[face A 12]
+[flow]
+但是，我可以說的一件事是，我聽到了地魂童子的聲音。
+什麼是語音監聽器？/
+[flow]
+[face A 09]
+這和單純的駕駛式神完全不同。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 15]
+無論如何，讓我們一起度過很多時間。/
+[face G 01]
+[say G]
+[effect fr kira a 0 0]
+[se kira_01]
+是的！ ！/
+[show B R]
+[setline 0.5 A G B]
+[orderline H G B A]
+[effect off a]
+[face G 08]
+[face B 01]
+[face A 09]
+[flow]
+……那個，夏人同學，這個人……/
+[face B 02]
+[say B]
+是貓之屋。操作員和前語音聽眾。/
+[bgm off]
+[face A 05]
+[face G 05]
+[say G]
+[move H Y 10 0.1]
+[delay 0.1 move H Y -10 0.1]
+[move G Y 10 0.1]
+[delay 0.1 move G Y -10 0.1]
+啊，性騷擾…/
+[quake 1]
+[bgm comical]
+[face A 04]
+[say A]
+[face B 05]
+[effect fr syutyu a 0 0]
+噢噢噢！ ！ ！[shake A 3 10 10]
+您向新人灌輸什麼樣的東西？ ！ ！[se cloth_06]/
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[face A 14]
+[flow]
+我隨口說了一句聽起來很深奧的話，但是
+這簡直就是性騷擾兄弟的胡言亂語！[se zukkoke_02]/
+[effect off a]
+[quake off]
+[face A 04]
+[face B 06]
+[face G 10]
+[say G]
+不，即使他是一個性騷擾的兄弟。
+你說了一些非常好聽的話/
+[flow]
+[face G 02]
+已經銘刻在我的心裡了！真的嗎！[shake G]/
+[serif off]
+[bgm fun]
+[se rokuhara_07]
+[face B 00]
+[say B]
+[move B Y 10 0.1]
+[delay 0.1 move B Y -10 0.1]
+[-]
+[serif on]
+啊……已經快到下一堂課的時間了。/
+[face G 10]
+[say G]
+[shake G]
+哇……這攻擊時間太長了！/
+[hide A]
+[hide B]
+[face G 00]
+[scale G 1.6 0.5]
+[scale H 1.6 0.5]
+[move H Y -100 0.5]
+[moveline G H 0 -130 0.5]
+[se cloth_01]
+[flow]
+高階。$W坤。就算只有片刻我們也能相見
+說實話，我真的很高興！/
+[face G 01]
+[flow]
+[effect fr kira a 0 0]
+[se kira_01]
+我真的很努力，就像我的前輩一樣。
+我會提升自己的等級，成為排名者！/
+[effect off a]
+[flow]
+[face G 02]
+祝你好運，約皮！/
+((s))
+[hideall]
+[-]
+[show W]
+[face W 12]
+[say W]
+講課……師傅也辛苦了。
+我就是這麼說的，祝你好運。/
+((m))
+[auto]
+課堂講授……將軍也說很難。
+祝你好運！/
+((e))
+[auto]
+課堂教學...我的老師也說很難。
+正如我所說...請盡力而為。/
+[show G R]
+[show H R]
+[face G 11]
+[orderline H G W]
+[say G]
+[move H Y 150]
+[move H Y 10 0.4]
+[delay 0.4 move H Y -10 1.0]
+[move G Y 10 0.4]
+[delay 0.4 move G Y -10 1.0]
+嗯...
+真的要記住的事情太多了…/
+[flow]
+[face G 10]
+我還有學校作業.../
+((s))
+[face W 05]
+[say W]
+學校？/
+((m))
+[auto]
+學校？/
+((e))
+[auto]
+學校？/
+[face G 01]
+[say G]
+[move H Y 10 0.1]
+[delay 0.1 move H Y -10 0.1]
+[move G Y 10 0.1]
+[delay 0.1 move G Y -10 0.1]
+哦，我已經18歲了！
+白天是學生，放學後是語音治療師！就是這樣的感覺！[se taiko_02]/
+[hideall]
+[-]
+[show A]
+[show B]
+[setline A B]
+[orderline B A]
+[face A 05]
+[face B 04]
+[say A]
+[se zukkoke_02]
+[effect fr syutyu a 0 0]
+朱，18歲～～～～～！ ？[shake A 3 15 15]
+正如所料，它的音調完美.../
+[effect off a]
+[face B 03]
+[say B]
+貓店。這就是重點！[shake B]/
+[face A 04]
+[say A]
+是的！對不起！[shake A]/
+[hide A]
+[move B C 0.5]
+[face B 01]
+[say B]
+那麼，謝謝兩位。
+大育君也是一位很有前途的聲音聆聽者…/
+[flow]
+[face B 02]
+我想我們可能會再次見面
+請教我各種事。/
+[show H R]
+[move H Y 150]
+[show G R]
+[face G 02]
+[say G]
+[orderline H G B]
+[effect fr kira a 0 0]
+[se kira_01]
+當時，作為基爾門，
+感謝您的支援！/
+[effect off a]
+[face B 01]
+[say B]
+那我就帶太久君去宿舍吧。
+我會把它發給你。/
+((s))
+[serif off]
+[se walk_01]
+[move G X 400 0.5]
+[move B X 400 0.5]
+[move H X 400 0.5]
+[hide G]
+[hide B]
+[hide H]
+[show W]
+[show A]
+[setline A W]
+[moveline A W -1000 0 0]
+[moveline A W 1000 0 1]
+[face W 12]
+[face A 00]
+[say W]
+[-]
+[serif on]
+再見！[shake W]
+…………[wait 0.2][face W 10]我想知道吉魯門是什麼.../
+((m))
+[auto]
+到時候見！ ！[shake W]
+…………[wait 0.2][face W 10]吉爾門是什麼…？/
+((e))
+[auto]
+保重！ ！[shake W]
+…………[wait 0.2][face W 10]我想知道吉爾曼是什麼.../
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[say A]
+我想我的後輩終於有了後輩了。
+非常感人。/
+((s))
+[face W 00]
+[say W]
+大育和約皮卡.../
+((m))
+[auto]
+大育和約皮卡.../
+((e))
+[auto]
+大育和Yoppi.../
+((s))
+[face W 12]
+[flow]
+有時我聽不懂你在說什麼
+我很高興他是個誠實的孩子。掌握。/
+((m))
+[auto]
+但我不知道該說什麼。
+他看起來是個誠實的人。將軍，對你有好處。/
+((e))
+[auto]
+有時我不明白你在說什麼。
+我很高興她是一個如此誠實的女孩。掌握！/
+[serif off]
+？點點頭/
+[playeryes]
+[-]
+[face A 11]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[serif on]
+啊，對了，小學生。
+我今天有時間。/
+[face A 01]
+[flow]
+阿克託斯和索瑪的歡迎會
+我會按住烤肉，所以請邀請我。/
+[flow]
+[face A 09]
+當然還有伊諾奇。/
+[serif off]
+？相馬桑，我想知道你是否會來…/
+[face A 14]
+[serif on]
+[say A]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+這取決於你來管理！
+嗯，我去預約一下！/
+((s))
+[serif off]
+[se walk_03]
+[move A X -800 0.5]
+[hide A]
+[-]
+[move W C 0.5]
+[scale W 1.6 0.5]
+[move W Y -120 0.5]
+[face W 00]
+[say W]
+[-]
+[serif on]
+更多關於 Soma-san 走路時的資訊
+我很高興認識你。/
+((m))
+[auto]
+您還可以輕鬆見到阿克託斯和索瑪。
+看來又要熱鬧起來了。/
+((e))
+[auto]
+我希望很快就能見到阿克託斯和索馬桑。
+我很高興。/
+((s))
+[face W 12]
+[flow]
+Taiiku也是……像某個大師一樣。
+我希望你成為一個好的聲音傾聽者.../
+((m))
+[auto]
+Taiiku那傢伙……看看將軍。
+我希望他成為一個好的聲音傾聽者。/
+((e))
+[auto]
+Taiiku 也…照顧他的主人並成為一個優秀的聲音傾聽者。
+我希望你能做到。/
+((s))
+[face W 00]
+[flow]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+那...只要我一走
+我們去打個招呼吧！/
+((m))
+[auto]
+奧希。那麼，阿克託斯和其他人。
+我要過去打個招呼嗎？/
+((e))
+[auto]
+那麼……阿克託斯和其他人。
+我們去打個招呼吧！/
+[serif off]
+？點點頭/
+[playeryes]
+[face W 02]
+[-]
+[hide W]
+[talkend]
+[-]
+[serif on 0.5]
+我還有一個後輩，他是一個有聲音的人。
+雖然我有點小高興.../
+[flow]
+我會更加努力，
+我恢復了平靜。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/

@@ -1,0 +1,1644 @@
+>>0/
+((s))
+[set W s_san_m 讃岐]
+[set A s_n011h_m 虎鉄丸]
+[set AA s_n011k_m 虎鉄丸]
+[set B s_n001_m 夏人]
+[set C s_n000_m 猫乃屋]
+[set D s_n008_m アルクトス]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 環境声聞課のおしごと]
+[-]
+[bg rouka_day]
+[-]
+[bgm home]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+((m))
+[set W s_mus_m 武蔵]
+[set A s_n011h_m 虎鉄丸]
+[set AA s_n011k_m 虎鉄丸]
+[set B s_n001_m 夏人]
+[set C s_n000_m 猫乃屋]
+[set D s_n008_m アルクトス]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 環境声聞課のおしごと]
+[-]
+[bg rouka_day]
+[-]
+[bgm home]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+((e))
+[set W s_ecg_m 越後]
+[set A s_n011h_m 虎鉄丸]
+[set AA s_n011k_m 虎鉄丸]
+[set B s_n001_m 夏人]
+[set C s_n000_m 猫乃屋]
+[set D s_n008_m アルクトス]
+[fadein BLACK 0]
+[bgm off]
+[-]
+[title 幕間 環境声聞課のおしごと]
+[-]
+[bg rouka_day]
+[-]
+[bgm home]
+[-]
+[fadeout 2.0]
+[-]
+[autotap]/
+[se gaya_01]
+[show W C]
+[face W 05]
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[talk W]
+[serif on]
+わー今日は荷物がたくさんだね！/
+((m))
+[auto]
+っかー……今日は荷物がたくさんだなぁ。/
+((e))
+[auto]
+わぁ……今日は荷物がたくさんッスね！/
+[hideall]
+[talkend]
+[serif noname]
+[textcolor ARUJI]
+ミニ研究室の準備は着々と進んでいる。
+設備工事も済み、大物機材が運び込まれている。/
+((s))
+[show W C]
+[face W 00]
+[talk W]
+みにらぼ、結構準備が進んできた気がするね、
+あるじさま。/
+((m))
+[auto]
+みにらぼはいよいよ準備も大詰めって感じ
+じゃねぇか大将。/
+((e))
+[auto]
+みにらぼ、準備が進んできてますね。
+師匠。/
+[playeryes]
+[autotap]/
+[hideall]
+[talkend]
+[se walk_01]
+[serif noname]
+[textcolor ARUJI]
+そうだね、と頷いていると
+視界の端に何かが映った。/
+[serif off]
+?えっ……？/
+[show AA]
+[color AA black]
+[-]
+[wait 1]
+[-]
+[hide AA]
+[-]
+[autotap]/
+((s))
+[show W C]
+[face W 00]
+[shake W]
+[talk W]
+[serif on]
+あるじさま、どうしたの？/
+((m))
+[auto]
+大将。どうしたんでぃ。/
+((e))
+[auto]
+師匠？　どうしたんスか？/
+[serif off]
+?いま、あやかしか、もっけものが……/
+((s))
+[face W 05]
+[say W]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[serif on]
+え？　どこ？
+機材を運び込んでるお手伝いの人しかいないよ……/
+((m))
+[auto]
+あん？　どこだぁ？
+機材を運んでる手伝いのやつらしかいねぇぞ。/
+((e))
+[auto]
+え？　どこッスか？　機材を運んでくれてる
+お手伝いの人しか見当たらないッスけど……/
+((s))
+[face W 12]
+[move W Y 10 0.1]
+[delay 0.1 move W Y -10 0.1]
+[flow]
+あ、あるくとすがいたよ！
+あるくとすー！！[move W X 300 0.5]/
+((m))
+[auto]
+お、ありゃあアルクトスじゃねぇか！
+おーい！　アルクトスー！/
+((e))
+[auto]
+あ、あれはアルクトスッスよ、師匠！
+アルクトスー！！/
+[serif off]
+[show D C]
+[move D X 1000]
+[face D 01]
+[moveline D W -1000 0 1]
+[-]
+[move D Y 5 0.2]
+[delay 0.2 move D Y -10 0.6]
+[delay 0.8 move D Y 5 0.5]
+[autotap]/
+[talk D]
+[serif on]
+あ、声聞士さん、$Wさん～！
+こんばんはです！　ぶいぶいっ！[shake D]/
+[setline 0.5 W D]
+[flow]
+[face D 02]
+この勢いならミニ研究所ももうすぐ稼働
+できそうですねっ。/
+[flow]
+[face D 00]
+そうだ、今日はここで友だちと待ち合わせ
+してるんですっ！　あとで紹介しますね。/
+[talkend]
+[color W talk]
+[color D talk]
+[face W 00]
+[se walk_01]
+@スタッフ
+すんませーん、これはどうしましょう？/
+[face D 12]
+[face W 12]
+[talk D]
+あ、ここに置いてください。
+あとで研究所の者でセッティングしちゃいますっ。/
+[serif off]
+[show B]
+[show C R]
+[setline B C]
+[moveline B C 1000 0 0]
+[moveline B C D W -1000 0 1]
+[face C 01]
+[face B 01]
+[say C]
+[orderline B C]
+[bgm fun]
+[-]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[serif on]
+やーご苦労ご苦労！
+搬入やってくれるのめっちゃ助かるぜ！/
+[face B 02]
+[talk B]
+こういう力仕事、自分たちですることが多いから
+今回は人員用意してもらえて助かりましたね。/
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[autotap]/
+[face C 10]
+[say C]
+この荷物量、運んでたら確実に腰いわすわ。/
+((s))
+[show W L]
+[setline 0.5 W B C]
+[orderline W B C]
+[face W 10]
+[say W]
+地魂男児たちだと、壊しちゃったら困るしね。
+あんまり機械とか詳しくないし……/
+((m))
+[auto]
+地魂男児たちだと、壊しちまうかもしれねぇしな。
+機械とかって詳しくねぇし……/
+((e))
+[auto]
+地魂男児たちだと、壊しちゃったら困りますしね。
+機械とかにも疎いですし……/
+[bgm off]
+[hideall]
+[talkend]
+[textcolor ARUJI]
+[se se_crash_01]
+[se zukkoke_01]
+[shakebg]
+そのとき、廊下の向こうで
+ガシャーンバキバキバキ……と激しい音が響いた。/
+((s))
+[bgm departure]
+[show C C]
+[show D]
+[show W]
+[show B]
+[setline D W B C]
+[orderline W B D C]
+[face B 05]
+[face W 05]
+[face D 05]
+[face C 05]
+[shake C]
+[say C]
+な、なんだぁ！？/
+((m))
+[bgm departure]
+[show C C]
+[show D]
+[show W]
+[show B]
+[setline D W B C]
+[orderline B W D C]
+[face B 05]
+[face W 05]
+[face D 05]
+[face C 05]
+[shake C]
+[say C]
+な、なんだぁ！？/
+((e))
+[bgm departure]
+[show C C]
+[show D]
+[show W]
+[show B]
+[setline D W B C]
+[orderline B W D C]
+[face B 05]
+[face W 05]
+[face D 05]
+[face C 05]
+[shake C]
+[say C]
+な、なんだぁ！？/
+[hideall]
+[-]
+[talkend]
+@スタッフ
+す、すみません……重心が寄っちゃって、
+角曲がるときに目測を誤って……/
+[textcolor ARUJI]
+[flow]
+大きな機材の搬入中に、荘園の柱と廊下の一部を
+巻き込んでしまったらしい。/
+((s))
+[show W C]
+[face W 10]
+[scale W 1.6]
+[move W Y -120]
+[talk W]
+[serif off]
+[move W Y 10 0.4]
+[delay 0.4 move W Y -10 1.0]
+[-]
+[serif on]
+わぁ……障子がバキバキだぁ……/
+((m))
+[auto]
+はは……障子がバッキバキだぜぃ……/
+((e))
+[auto]
+わぁ……障子が粉々ッスね……/
+[hideall]
+[talkend]
+[se gaya_01]
+@スタッフ
+すみません本当に……
+とりあえず本部に連絡して……/
+[show D C]
+[face D 10]
+[talk D]
+こっちでやっときますよ！
+機材の破損がないかも、オレが確認しときますっ。[face D 01][shake D]/
+((s))
+[show W L]
+[setline 0.5 W D]
+[face W 12]
+[talk W]
+誰も怪我とかはしてなさそう？/
+((m))
+[auto]
+誰も怪我してねぇか？/
+((e))
+[auto]
+怪我してるひとはいなさそうッスか？/
+[show B R]
+[setline 0.5 W D B]
+[face B 01]
+[talk B]
+荘園の破損はあとにして、とりあえず
+機材の搬入終わらせちゃいましょう。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[bgm off]
+[hideall]
+[se gaya_01]
+[bg rouka_night]
+[wait 2]
+[-]
+[se amb_05]
+[fadeout 1.5]
+[-]
+[autotap]/
+[show C C]
+[face C 01]
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[talk C]
+[serif on]
+おーし、これで最後か？
+搬入スタッフのみんな、お疲れ様ー！/
+[color C talk]
+[face C 05]
+[se walk_03]
+@？？？
+待って待ってー！！/
+[hide C]
+[-]
+[show A]
+[bgm cute]
+[move A X 500]
+[move A X -500 0.5]
+[face A 10]
+[se walk_01]
+[flow]
+[-]
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+@？？？
+よいしょよいしょ……これで本当に最後っと！
+この機材は一旦こっちに運んじゃうぜ！/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[flow]
+[face A 06]
+@？？？
+ふー、結構重たいものも多かったなぁ……
+力仕事って気持ちいいぜ！/
+[hide A]
+[-]
+[show D C]
+[face D 02]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[talk D]
+あ、虎鉄丸さん、いらっしゃい！/
+[show A R]
+[setline 0.5 D A]
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[talk A]
+よっ、アルクトスー！
+もうすぐ仕事終わるから、待っててくれよなー。/
+[serif off]
+?お友達？/
+[face A 00]
+[face D 00]
+[say D]
+[serif on]
+あ、はい！　さっき言った
+待ち合わせしてるお友達ですっ！　ぶいっ！[shake D][face D 01]/
+[flow]
+[face D 00]
+虎鉄丸さん。せっかくだから紹介しちゃいます。
+こっちが——……/
+[face A 05]
+[shake A]
+[say A]
+あ、もしかしてこの荘園の家主さん！？/
+[face A 01]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.2]
+[delay 0.3 move A Y 10 0.1]
+[delay 0.4 move A Y -10 0.2]
+[autotap]/
+[flow]
+家主さん、はじめまして。
+オレ、椋虎鉄丸だぜ！　よろしくな！/
+[serif off]
+?よろしくね/
+((s))
+[face A 00]
+[show W L]
+[setline 0.5 W D A]
+[orderline W A D]
+[face W 01]
+[talk W]
+[serif on]
+オイラは讃岐だよ。
+よろしくね！/
+((m))
+[auto]
+オレは武蔵だ。
+よろしくな、虎鉄丸！/
+((e))
+[auto]
+オレは越後ッス。
+よろしくおねがいしますj！/
+((s))
+[face W 00]
+[flow]
+虎鉄丸は、引っ越し屋さん？/
+((m))
+[auto]
+虎鉄丸は、引っ越し屋か？/
+((e))
+[auto]
+虎鉄丸は、引越し屋さんッスか？/
+[face D 05]
+[shake D]
+[say D]
+違いますよ、虎鉄丸さんはれっきとした——……/
+[face D 10]
+[flow]
+[se zukkoke_02]
+あれったしかに……そういえばなんで
+虎鉄丸さんが荷物運んでるんです！？/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 01]
+[say A]
+もちろんバイトの掛け持ちだぜ！/
+[flow]
+[face A 02]
+引っ越し手伝ったら、バイト代出してくれるって
+いうからさ～。へへっ、タイミングいいよなっ。/
+[effect off a]
+[color A talk]
+[color W talk]
+[color D talk]
+[se walk_01]
+@スタッフ
+小僧、なかなか力持ちだったなぁ。
+給料弾むよう上に言っとくぜ。/
+[face A 01]
+[move A Y 100 0.1]
+[delay 0.1 move A Y -100 0.2]
+[delay 0.4 move A Y 100 0.1]
+[delay 0.5 move A Y -100 0.2]
+[autotap]/
+[talk A]
+やったぜー！　また声かけてくれよ～！
+いつでもやるからさ！/
+[face D 00]
+[face W 00]
+[color A talk]
+[color W talk]
+[color D talk]
+[se walk_01]
+@スタッフ
+じゃあ搬入はこれで完了です。
+お疲れ様でしたー。/
+[serif off]
+?おつかれさまー/
+[move A X 1000 1]
+[-]
+[move D X 800 0.3]
+[face D 10]
+[moveline A D W -1000 0 0.5]
+[-]
+[say D]
+[serif on]
+[se zukkoke_02]
+って、なんで虎鉄丸さんも帰ろうと
+してるんですか！？　オレとの約束はー！？/
+[face A 05]
+[talk A]
+あ、そうだった！　あぶねあぶね。
+今日はアルクトスに呼ばれたんだった！[shake A]/
+[serif off]
+[show C C]
+[move C X 1000]
+[moveline A D C -1000 0 1]
+[face C 09]
+[-]
+[serif on]
+[talk C]
+おーい$W。手伝ってくれ。
+この壊れた障子と床板、あぶねぇからどかすぞ。[se cloth_01][setline 0.5 W C][face W 12]/
+[serif off]
+[moveline A D C W 1000 0 1]
+[face D 00]
+[face A 08]
+[-]
+[say D]
+[serif on]
+あ、虎鉄丸さんなら廊下と障子の破損、
+直せるんじゃないですか？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 03]
+[say A]
+まあ……これくらいならできなくはないけど……
+疲れるしなぁ～……バイト代出るならいいぜ。[face A 01]/
+[face D 01]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[say D]
+どうせ補修も研究室の方で手配しないと
+いけないことなので、ちゃんとお支払いしますよ！/
+[face A 02]
+[move A Y 50 0.1]
+[delay 0.1 move A Y -50 0.1]
+[say A]
+やりぃ！
+んじゃあこの申請書に記入よろ！[se paper_01]/
+((s))
+[hideall]
+[-]
+[show W]
+[face W 05]
+[shake W]
+[talk W]
+あ、虎鉄丸って……[wait 0.2]大工さん！？/
+((m))
+[auto]
+あ、わかった！
+虎鉄丸、お前……大工だろ！/
+((e))
+[auto]
+あっ、虎鉄丸って……大工さんッスか！？/
+[hide W]
+[-]
+[show A]
+[face A 08]
+[light def 0.5]
+[lightcolor blue]
+[say A]
+[effect fr kiesou b 0 0]
+[bgm ascending]
+んじゃあ、集中するから——……
+………………んん……っ/
+[se quake_1]
+[face A 08]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[effect fr syutyu a 0 0]
+[flow]
+石は礎となし梁は骨——[wait 0.5]
+気脈を綴じて形を固むる——……/
+((s))
+[hide A]
+[-]
+[show W]
+[show B]
+[show C]
+[setline B W C]
+[face W 05]
+[face B 05]
+[face C 05]
+[shake W]
+[talk W]
+えっ！？　これって……
+あるじさまと同じような——/
+((m))
+[auto]
+えっ！？　こいつぁ……
+大将と同じような――/
+((e))
+[auto]
+えっ！？　これって……
+師匠と同じような――/
+[serif off]
+[hideall]
+[-]
+[show A]
+[face A 08]
+[scale A 1.6]
+[move A Y -120]
+[-]
+?陰陽術！？/
+[effect fr syutyu c 0 0]
+[effect bk waveout 6000 0 0]
+[se jutsu_01]
+[face A 10]
+[say A]
+[serif on]
+はあ！！/
+[serif off]
+[fadein WHITE 0.2]
+[-]
+[hide A]
+[effect off b]
+[effect off c]
+[-]
+[delay 0.2 fadeout 1]
+[effct fr kira a 0 0]
+[se kira_01]
+[wait 2]
+[-]
+[effect off a]
+[show C]
+[show B]
+[show W]
+[setline B W C]
+[face B 05]
+[face W 05]
+[face C 05]
+[orderline W B C]
+[say C]
+[-]
+[serif on]
+おお！！　廊下の床板と障子、それに柱まで
+全部綺麗に元通りじゃねぇか！！/
+[face B 02]
+[shake B]
+[say B]
+すごい……！/
+[hideall]
+[-]
+[show A C]
+[face A 10]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[talk A]
+はぁ……はぁ……しんど……
+やっぱりオレ、肉体労働のほうがむいてるぜ……/
+[show C L]
+[setline 0.5 C A]
+[face C 01]
+[orderline A C]
+[say C]
+おーよくやったな虎鉄丸、だっけ？
+たいした力じゃねぇか！/
+[flow]
+[face C 09]
+[face A 06]
+いまのは……環境声聞だな。
+お前環境声聞課所属なのか？/
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 10]
+[say A]
+ま、まあ、オレはただのバイトだけどね……
+はぁ、はぁ……/
+((s))
+[bgm rokuhara]
+[show W L]
+[setline 0.5 W C A]
+[orderline W A C]
+[face W 05]
+[talk W]
+環境声聞……って？
+っていうか……虎鉄丸は、声聞士なの！？/
+((m))
+[auto]
+環境声聞……？
+てか、虎鉄丸は声聞士なのか！？/
+((e))
+[auto]
+環境声聞……
+あ、ていうか虎鉄丸は声聞士なんスか！？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[say A]
+はぁ、はぁ……バイト声聞士だけどな。
+あーー、やっと息整ってきた……はぁ～～……/
+[hideall]
+[-]
+[show D]
+[face D 00]
+[talk D]
+虎鉄丸さんが所属してる環境声聞課は荘園内の
+建築物の管理と運用を担当してるんです。/
+((s))
+[show W R]
+[move W X 300]
+[setline 0.5 D W]
+[orderline W D]
+[face W 13]
+[say W]
+え、じゃあ荘園の建物は、オイラたちみたいに
+声聞されたものなの？/
+((m))
+[auto]
+ん？　じゃあ荘園の建物は、オレたちみたいに
+声聞されたものってことか？/
+((e))
+[auto]
+え、じゃあ荘園の建物は、オレたちみたいに
+声聞されたものってことッスか？/
+[show B L]
+[move B X -300]
+[setline 0.5 B D W]
+[orderline W B D]
+[face B 14]
+[say B]
+たしかに……読んだことある気がする。
+環境声聞士についての資料が確か……っ。[se rokuhara_04][shake B][face B 12]/
+[face D 00]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[say D]
+荘園という位相空間内では、声聞された無機物は
+霊力供給なしで安定して存在し続けられるんですっ。/
+[flow]
+[face D 02]
+この建物も何人もの環境声聞士が
+時間をかけて作ったらしいですよっ！/
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[autotap]/
+[face D 14]
+[flow]
+人の叡智と努力の結晶……すごいですよねぇ……
+ほにょ～～～ん…………/
+[show A]
+[face W 10]
+[face B 02]
+[move A X 1000]
+[move A X -750 0.5]
+[se cloth_06]
+[move W X 200 0.5]
+[face A 01]
+[orderline A W B D]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+あっ、出た！　ほにょ～～ん！
+アルクトスのほにょ～ん、一日一回は見たいよな！/
+((s))
+[face W 08]
+[say W]
+そういえば空も本物じゃないって
+聞いたことある……それも陰陽術なの？/
+((m))
+[auto]
+そういやあ空も本物じゃねぇって
+聞いたことあるな……それも陰陽術なのか？/
+((e))
+[auto]
+そういえば空も本物じゃないって
+聞いたことあります。それも陰陽術なんスか？/
+[hideall]
+[-]
+[show C]
+[face C 01]
+[say C]
+荘園の空は外見だけ声聞されてて
+実際に星があるわけじゃねーんだ。/
+[flow]
+[face C 09]
+だけど、荘園の建物は内部構造まで含めて
+正確に声聞してるってわけだ。/
+[show B L]
+[setline 0.5 B C]
+[orderline B C]
+[face B 01]
+[say B]
+だから荘園内は現実空間の建物となにも
+変わらないんですね……/
+[flow]
+[face B 14]
+さっきみたいにぶつかれば傷もつくわけか。/
+[show W]
+[setline 0.5 B W C]
+[orderline W B C]
+[face W 00]
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[say W]
+へぇ～……あっじゃあじゃあこの荘園
+よく水道の蛇口が壊れたりするけど――/
+((m))
+[auto]
+へぇ～……んじゃあこの荘園、
+よく水道の蛇口が壊れたりするけどよぉ――/
+((e))
+[auto]
+はぁ～……じゃあその、この荘園
+よく水道の蛇口が壊れたりしますけど――/
+((s))
+[flow]
+[face W 12]
+修理しに来てくれてるのって
+虎鉄丸みたいなひとなの？/
+((m))
+[auto]
+修理しに来てくれてんのは
+虎鉄丸みたいなやつらなのか？/
+((e))
+[auto]
+修理しに来てくれてるのは
+虎鉄丸みたいなひとたちなんスか？/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[face B 14]
+[say B]
+ん～、ちょっとした不具合や故障は
+事務の人とかが来ることが多いんじゃないかなぁ。/
+[flow]
+[face B 01]
+一度声聞すれば、現実のものと変わらないから
+普通に修理だってできるからね。/
+[flow]
+[face B 15]
+環境声聞士もそんなに多いわけじゃないし……/
+((s))
+[face W 00]
+[say W]
+あるじさまや太育みたいに地魂男児を
+声聞するひともいれば——/
+((m))
+[auto]
+大将や太育みたいに地魂男児を
+声聞するやつもいれば――/
+((e))
+[auto]
+師匠や太育みたいに地魂男児を
+声聞するひともいれば――/
+((s))
+[flow]
+[face W 08]
+猫乃屋さんみたいに
+あやかしを声聞するひともいて——/
+((m))
+[auto]
+猫乃屋みてぇに
+あやかしを声聞するやつもいて――/
+((e))
+[auto]
+猫乃屋さんのように
+あやかしを声聞するひともいて――/
+((s))
+[flow]
+[face W 12]
+観測ちーむみたいに小さい鳥みたいなのを
+声聞するひともいたりは聞いてたけど——……/
+((m))
+[auto]
+観測チームみてぇに小せぇ鳥みたいな式神を
+声聞するやつもいるって聞いてたが――/
+((e))
+[auto]
+観測チームみたいに小さい鳥のような式神を
+声聞するひともいると聞いていましたが――/
+[face W 02]
+[move W Y 100 0.1]
+[delay 0.1 move W Y -100 0.2]
+[delay 0.4 move W Y 100 0.1]
+[delay 0.5 move W Y -100 0.2]
+[autotap]/
+((s))
+[flow]
+[face W 02]
+虎鉄丸みたいに建物を声聞するひとも
+いるんだ……！！　声聞って、なんかすごいね！/
+((m))
+[auto]
+虎鉄丸みてぇに建物を声聞するやつもいんのか！
+声聞って、すげぇな！！/
+((e))
+[auto]
+虎鉄丸みたいに建物を声聞するひとも
+いるんスね！　声聞って、すごいッスね！/
+[hideall]
+[-]
+[show A]
+[face A 00]
+[say A]
+まぁね、ここって機密事項が多いから
+一般の業者入れられないだろ？/
+[flow]
+[face A 01]
+だから環境声聞課が大掛かりな改装や
+建築は請け負ってるんだ。/
+[face A 04]
+でもオレ、あんまり声聞が
+得意ってわけじゃないんだよなぁ。/
+[flow]
+[face A 06]
+こういう精神集中とかってしんどくて
+すぐヘトヘトになっちゃってさ……/
+[flow]
+[face A 01]
+でも、あんまりできるひとがいないみたいだから
+やめさせられる心配もないし……/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 02]
+時給の他に声聞一回ごとにお手当が出るのが
+おいしいんだよな～～……/
+((s))
+[show W R]
+[setline 0.5 A W]
+[face W 12]
+[say W]
+お金のためのお仕事って感じなんだね。
+伊賀みたいな感じかな？/
+((m))
+[auto]
+給料のための仕事ってことだな。
+伊賀みてぇなもんか。/
+((e))
+[auto]
+お給料のためのお仕事なんスね。
+伊賀みたいな感じっすね。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 08]
+[say A]
+……オレ一人暮らしだからさ、
+生活ほんとキツくて……/
+[flow]
+[face A 01]
+バイトいくつもかけもちして
+なんとかやってるんだ！[shake A]/
+[serif off]
+?だから引っ越しもやってたんだね/
+[face A 02]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+そういうこと！/
+[serif off]
+[hideall]
+[-]
+[bgm fun]
+[show D]
+[face D 08]
+[-]
+[serif off]
+[move D Y 10 0.4]
+[delay 0.4 move D Y -10 1.0]
+[-]
+[serif on]
+[say D]
+虎鉄丸さん、今日呼んだのは――[wait 0.5]
+オレの部屋の間取りを2畳分増やして欲しいんです。[se taiko_02][scale D 1.6 0.5][move D Y -120 0.5]/
+[flow]
+[face D 12]
+[move D X 150 0.5]
+[move D XY 10 -40 0.4]
+[rotate D -10 0.3]
+[delay 0.4 move D XY -10 40 0.3]
+[delay 0.5 rotate D 0 0.3]
+[se cloth_01]
+少しこっちの廊下側に拡張する感じでー。
+えへへ……/
+[show A L]
+[setline 0.5 A D]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[say A]
+[se zukkoke_02]
+えっ、マジ！？　それすげー大掛かりなんだけど
+……オレ、できるかなぁ……[face A 04]/
+[face D 12]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[say D]
+しっかりお手当つけるように
+申請しときますっ！　ぶいぶいっ！/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+お、すげーやる気でる言葉！/
+[hideall]
+[effect off a]
+[-]
+[show C]
+[show B]
+[setline B C]
+[orderline B C]
+[face C 08]
+[face B 04]
+[serif off]
+[move C Y 10 0.4]
+[delay 0.4 move C Y -10 1.0]
+[say C]
+[-]
+[serif on]
+おいおい大丈夫なのかアルクトス～。/
+[face B 12]
+[say B]
+やっぱり研究室は予算の付き方が
+違うんでしょうか……/
+[face C 04]
+[say C]
+ウチは大体全部お手製・自力だもんなぁ。
+くぅぅ～世知辛いぜ！[shake C]/
+[show D L]
+[move D X -200]
+[se cloth_06]
+[setline 0.3 D B C]
+[face D 01]
+[say D]
+いや～、今日は現場監督任せられてますから
+多少の職権乱用なんでもござれです！　ぶいっ！[shake D]/
+((s))
+[show W L]
+[move W X -500]
+[setline 0.3 W D B C -200 1200]
+[moveline W D B C 300 0 0.3]
+[face W 11]
+[orderline W D B C]
+[say W]
+[se zukkoke_02]
+全然ぶいっじゃなくない！？[shake W]/
+((m))
+[auto]
+全然ぶいっじゃなくねぇ！？/
+((e))
+[auto]
+全然ぶいっじゃないッスよね！？/
+[hideall]
+[-]
+[show A]
+[face A 00]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+えーっと……
+それじゃあ始めるぞ～～……/
+[serif off]
+?虎鉄丸、頑張れ！/
+[face A 01]
+[say A]
+[serif on]
+家主さんにも応援されちゃったぜ……
+じゃ、やってみるかぁ……/
+[move A X -50 0.1]
+[delay 0.1 move A X 100 0.2]
+[delay 0.3 move A X -100 0.2]
+[delay 0.5 move A X 50 0.1]
+[autotap]/
+[flow]
+[face A 08]
+[se cloth_01]
+うーん、この規模になると触媒がいるな。
+これとこれを揃えて……/
+[face A 03]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[effect fr syutyu a 0 0]
+[flow]
+よし！！　いくぞぉ！！/
+[fadein WHITE 0.2]
+[serif off 0.2]
+[-]
+[bg heya_light]
+[wait 0.2]
+[se jutsu_01]
+[hide A]
+[delay 0.2 fadeout 1.0]
+[effect off a]
+[light off]
+[-]
+[shakebg]
+[effct fr kira b 0 0]
+[se kira_01]
+[-]
+[wait 1]
+[autotap]/
+((s))
+[show W C]
+[face W 05]
+[show D]
+[show B]
+[show C]
+[setline W D B C]
+[orderline W B C D]
+[face B 05]
+[face C 05]
+[face D 02]
+[shake W]
+[talk W]
+[serif on]
+すごい、一旦壁が消えたと思ったら
+奥に新しい壁ができた！　畳も増えてる！/
+((m))
+[auto]
+すげぇ、一度壁が消えたと思ったら
+奥に新しい壁ができてるじゃねぇか！/
+((e))
+[auto]
+すごい！　壁が消えたと思った次の瞬間には
+奥に部屋ができてました！/
+[face C 13]
+[shake C]
+[say C]
+位相空間限定の能力とはいえ……
+こいつぁすげぇな……/
+[hideall]
+[-]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 04]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[say A]
+うぅ、やっば、すげー霊力使った～……
+もうすっからかんだ……しんど……クラクラする……/
+[fadein WHITE 0.5]
+[delay 0.5 fadeout 1]
+[autotap]/
+[bgm off]
+[face A 10]
+[flow]
+ううぅ、ふあぁあああーーーー……/
+((s))
+[serif off]
+[-]
+[move A Y -200 0.5]
+[se dosa_01]
+[hide A]
+[-]
+[show W C]
+[face W 05]
+[shake W]
+[talk W]
+[serif on]
+大丈夫！？/
+((m))
+[auto]
+大丈夫か！？/
+((e))
+[auto]
+大丈夫ッスか！？/
+[hide W]
+@虎鉄丸
+うぅぅ……/
+[bgm cute]
+[serif off]
+[show AA]
+[scale A 1.6]
+[move AA Y -320]
+[move AA Y 200 1]
+[se cloth_01]
+[face AA 10]
+[-]
+[move AA Y 5 0.2]
+[delay 0.2 move AA Y -10 0.6]
+[delay 0.8 move AA Y 5 0.5]
+[autotap]/
+[flow]
+[say AA]
+[serif on]
+てて……だ、大丈夫……/
+((s))
+[scale AA 1 0.5]
+[move AA Y 120 0.5]
+[show W R]
+[setline 1 AA W]
+[face W 05]
+[say W]
+あっ、虎鉄丸……その姿……！/
+((m))
+[auto]
+あっ、虎鉄丸……その姿は……！/
+((e))
+[auto]
+あっ、虎鉄丸……その姿は……！/
+[serif off]
+?！？　さっき見た獣って……/
+((s))
+[face W 12]
+[say W]
+[serif on]
+[face AA 05]
+え？　あ……さっきあるじさまが見たって
+言ってた「あやかしか、もっけもの」って……/
+((m))
+[auto]
+え？　ああ、さっき大将が見たって言ってた
+「あやかしか、もっけもの」って――……/
+((e))
+[auto]
+あっ、なるほど！　さっき師匠が見たっていう
+「あやかしか、もっけもの」って――/
+((s))
+[face W 00]
+[flow]
+虎鉄丸のことだったの？
+虎鉄丸って、もっけものだったんだ……！/
+((m))
+[auto]
+虎鉄丸のことだったんだな！
+虎鉄丸って、もっけものだったのかよ！/
+((e))
+[auto]
+虎鉄丸のことだったんスね！
+虎鉄丸って、もっけものだったんスね！/
+[say AA]
+[face AA 10]
+ば、バレちまったぜ……[shake AA]/
+[hideall]
+[-]
+[show C]
+[show B R]
+[setline B C]
+[face B 10]
+[face C 05]
+[shake B]
+[orderline B C]
+[talk B]
+え？　もっけもの？/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 01]
+[say C]
+なっとには視えてねぇか。/
+[face B 04]
+[say B]
+うぅ……仲間外れになってる気分……[shake B]/
+((s))
+[show W L]
+[move W X -150]
+[face W 12]
+[say W]
+（あるくとすの姿もちゃんとは
+　視えてないんだよね、夏人くん……）/
+((m))
+[auto]
+（夏人、アルクトスの姿も
+　人間に視えてるんだっけな……）/
+((e))
+[auto]
+（夏人くん、アルクトスの姿も
+　見抜けてないんでしたっけ……）/
+[hideall]
+[-]
+[show D L]
+[show AA]
+[setline D AA]
+[orderline AA D]
+[face D 05]
+[say D]
+[face AA 04]
+虎鉄丸さん、大丈夫ですか！？
+すみません……オレ、気軽にお願いしちゃって……[shake D]/
+[flow]
+[face D 15]
+環境声聞がそんなに霊力を使うなんて知らなくて
+……姿も保てないほどだなんて……うぅっ。[shake D]/
+[face AA 05]
+[say AA]
+わわ、ちょっと気が抜けちゃったぜ！[shake AA]
+大丈夫、明日になればまた溜まってると思うから。/
+[effect fr kiesou b 0 0]
+[move AA Y 10 0.4]
+[delay 0.4 move AA Y -10 1.0]
+[autotap]/
+[flow]
+[face AA 08]
+とりあえず霊力を整えて——…………
+ふぅーーー……/
+[fadein WHITE 0.2]
+[-]
+[se jutsu_01]
+[effect off b]
+[-]
+[delay 0.2 fadeout 1]
+[autotap]/
+((s))
+[show W R]
+[setline 0.5 D AA W]
+[orderline AA W D]
+[face W 12]
+[say W]
+あ、人間の姿に戻ったよ。
+もう大丈夫。/
+((m))
+[auto]
+おお。ばっちり人間の姿だぜぃ。
+もう大丈夫だ。/
+((e))
+[auto]
+あっ、人間の姿に戻りましたね。
+もう大丈夫ッスよ！/
+[face AA 01]
+[move AA Y 5 0.2]
+[delay 0.2 move AA Y -10 0.6]
+[delay 0.8 move AA Y 5 0.5]
+[autotap]/
+[say AA]
+ふぅ、あっぶねー！/
+[serif off]
+?まだもっけものの姿で視えてる/
+[se zukkoke_02]
+[face AA 05]
+[face W 05]
+[face D 05]
+[shake AA]
+[say AA]
+[serif on]
+えっ、オレの姿視えちゃってるの！？/
+[move AA Y 10 0.4]
+[delay 0.4 move AA Y -10 1.0]
+[autotap]/
+[face AA 04]
+[flow]
+オレ、人に化けるのだけは
+ちょっと自信あったんだけどなぁ……ちぇっ。/
+((s))
+[face W 12]
+[say W]
+オイラは人間に視えてるよ！
+虎鉄丸、すごいよ！　さすが声聞士だね。/
+((m))
+[auto]
+オレにゃあ人間に視えてるぜぃ！
+虎鉄丸、やるじゃねぇか。さすが声聞士だな！/
+((e))
+[auto]
+オレには人間に視えてます！
+虎鉄丸、さすが声聞士ッスね！　すごいッスよ！/
+[face AA 01]
+[say AA]
+へへっ、そうかな。
+けど家主さんには視えちゃってるんだろ。[face AA 06]/
+[hide W]
+[hide D]
+[flow]
+ちょっと悔しいぜ。
+…………[face AA 03]/
+[scale AA 2 0.5]
+[move AA Y -220 0.5]
+[se cloth_01]
+[autotap]/
+[flow]
+[face AA 06]
+でも、オレの姿見ても
+全然変な顔しないんだな。家主さん。/
+[serif off]
+?なんというか、その、いいかんじだと思う！/
+[face AA 02]
+[move AA Y 10 0.1]
+[delay 0.1 move AA Y -10 0.2]
+[delay 0.3 move AA Y 10 0.1]
+[delay 0.4 move AA Y -10 0.2]
+[delay 0.6 move AA Y 10 0.1]
+[delay 0.7 move AA Y -10 0.3]
+[autotap]/
+[say AA]
+[serif on]
+ほんとか！？
+へへ、なんか嬉しいな。/
+[flow]
+[face AA 00]
+よーし、じゃあ家主さんの荘園、
+オレがもっといい感じにしてやるよ！/
+((s))
+[hide AA]
+[-]
+[show W]
+[show D]
+[setline D W]
+[face D 00]
+[face W 01]
+[say W]
+りふぉーむってやつ？
+楽しみだね、あるじさま！/
+((m))
+[auto]
+りふぉーむってやつか？
+いいじゃねぇか、大将！　楽しみだな！/
+((e))
+[auto]
+りふぉーむってやつッスね。
+楽しみッスね、師匠！/
+[face D 12]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[say D]
+虎鉄丸さんなら声聞士さんのこと
+気に入ると思ってました～。/
+[se fusuma_02]
+[bg rouka_night 0.5]
+[show AA]
+[scale AA 1.6]
+[move AA Y -120]
+[hide W]
+[hide D]
+[scale AA 1 0.5]
+[move AA Y 120 0.5]
+[face AA 05]
+[say AA]
+って、わぁ！？[shakebg]
+もうこんな時間だ！[face AA 10]/
+[flow]
+[face AA 08]
+ロクハラはあがって……
+もう次のバイト行かなきゃ～！/
+[flow]
+[face AA 01]
+あ、家主さん、じゃあ部屋のことで
+なんかあったら言ってね！/
+[flow]
+[face AA 00]
+そんな得意じゃないけど……
+バイト代と、家主さんのために頑張るぜ！/
+[move AA Y 100 0.1]
+[delay 0.1 move AA Y -100 0.2]
+[delay 0.4 move AA Y 100 0.1]
+[delay 0.5 move AA Y -100 0.2]
+[autotap]/
+[face AA 02]
+[se cloth_01]
+[flow]
+じゃ～な～！/
+[move AA X 1000 0.3]
+[serif off]
+[-]
+[show D L]
+[show W]
+[show B]
+[show C]
+[setline W D B C]
+[orderline W B C D]
+[face W 00]
+[face B 01]
+[face C 01]
+[face D 01]
+[say D]
+[-]
+[serif on]
+虎鉄丸さん、またこんどお出かけしましょう！[shake D]/
+[move W Y 100 0.1]
+[delay 0.1 move W Y -100 0.2]
+[delay 0.4 move W Y 100 0.1]
+[delay 0.5 move W Y -100 0.2]
+[autotap]/
+((s))
+[face W 12]
+[say W]
+虎鉄丸、またね～！/
+((m))
+[auto]
+虎鉄丸、またな～！/
+((e))
+[auto]
+虎鉄丸、お気をつけてー！/
+[hideall]
+[-]
+[talkend]
+[textcolor ARUJI]
+虎鉄丸は手を振りながら去っていった。/
+[show D]
+[face D 00]
+[say D]
+オレ、虎鉄丸さんとはよくご飯食べに
+出かけるんです。/
+[flow]
+[face D 14]
+声聞士さんも$Wさんも、
+今度一緒に行きましょう！/
+[flow]
+[face D 02]
+もちろん猫乃屋さんと夏人さんも！/
+[hide D]
+[-]
+[show B]
+[show C]
+[setline B C]
+[face B 01]
+[face C 01]
+[say C]
+おうもちろんだぜ！
+若い声聞士には焼肉おごってやらねぇとだしな！/
+[flow]
+[face C 09]
+あの新人の……太育のやつも呼んで
+今度肉やろうぜ！　なっ！[shake C]/
+[move B Y 5 0.2]
+[delay 0.2 move B Y -10 0.6]
+[delay 0.8 move B Y 5 0.5]
+[autotap]/
+[say B]
+[face B 02]
+いいですね。ご馳走になります！/
+[move C Y 5 0.2]
+[delay 0.2 move C Y -10 0.6]
+[delay 0.8 move C Y 5 0.5]
+[autotap]/
+[face C 01]
+[say C]
+おーし！　そうと決まれば予約予約っと……
+…………あ、給料日のあとでもいい？[shake C][face C 10]/
+[hideall]
+[serif off]
+?環境声聞士か～/
+[talkend]
+[textcolor ARUJI]
+[serif on]
+研修の座学のときに聞いた気もするが同じ声聞士
+でも、様々な分野があるのだと改めて思った。/
+[show W C]
+[face W 01]
+[move W Y 5 0.2]
+[delay 0.2 move W Y -10 0.6]
+[delay 0.8 move W Y 5 0.5]
+[autotap]/
+((s))
+[talk W]
+虎鉄丸と知り合えて嬉しいね、あるじさま！
+今度のご飯も楽しみだね！/
+((m))
+[auto]
+虎鉄丸と知り合えてよかったな、大将！
+今度の焼肉も楽しみだな！/
+((e))
+[auto]
+虎鉄丸と知り合えて嬉しいッスね、師匠！
+今度の焼肉も楽しみッスね！/
+[show D R]
+[setline 0.5 W D]
+[face D 01]
+[move D Y 10 0.1]
+[delay 0.1 move D Y -10 0.1]
+[orderline W D]
+[say D]
+虎鉄丸さんもオレほどじゃないですけど
+たくさん食べますよ～。/
+[flow]
+[face D 14]
+オレも負けてられないですっ！
+みんなでいっぱい食べましょう！[shake D]/
+[serif off]
+?おー！/
+[hideall]
+[bg sky_star 0.5]
+[-]
+[wait 1]
+[-]
+[serif on]
+@猫乃屋
+あ、食べ放題プランにしとくな。/
+[hideall]
+[talkend]
+[textcolor ARUJI]
+環境声聞士の椋虎鉄丸と知り合いになった。/
+[textcolor ARUJI]
+[flow]
+部屋の改装をしたいことがあったら
+相談してみようかなと思ったのだった。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[-]
+[autotap]/

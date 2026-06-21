@@ -1,0 +1,2180 @@
+>>10000/
+@長門
+你終於叫到我的名字了主要的。[wait 2.5]
+山陽路長門。
+[autotap]/
+[delay 2.5]
+[flow]
+[-]
+@長門
+讓我們從這裡開始我們的故事吧！/
+>>10001/
+@長門
+你又來找我嗎？正如所料，主。
+[autotap]/
+[delay 4.0]
+[flow]
+[-]
+@長門
+你隱藏的力量……我會把它展現出來。
+現在，握住這隻手！/
+>>1/
+[set A s_nag_r 長門]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+這裡的花園也相當大。
+我不希望你對這樣的事情感到滿意。/
+[effect fr syutyu a 0 0]
+[face A 03]
+說到大風景，那就是「千疊敷」！
+一望無際的天空和雄偉的日本海是必看景點。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[effect off a]
+在開滿時令鮮花的美麗草地上放鬆身心。
+海風一定會淨化你的身心。/
+[face A 00]
+你覺得怎麼樣？
+你會想去那裡的。/
+>>2/
+[set A s_nag_r 長門]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+元乃隅神社共有 123 座鳥居。
+聽說他們在排隊。這是一個龐大的數字.../
+[face A 01]
+請在大鳥居門頂的供養箱內進行供養。
+看來只要把它丟進去，你的願望就會實現。/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 08]
+難道主有什麼願望想要實現嗎…？
+我有…/
+>>3/
+[set A s_nag_r 長門]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+主。現在，秋芳堂的《百舞薩拉》
+我正在看照片。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+這個巨大洞穴內的鐘乳石結構...
+就像地下的梯田一樣，對吧？/
+[face A 02]
+幾千年……不，數萬年
+這是大自然創造的美。/
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 00]
+我不禁感嘆我們是多麼的渺小…
+感覺很浪漫.../
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哈！ ？　[shake A]你想跟我一起去嗎？所以...？
+不，那個……我……[face A 09]/
+[face A 04]
+[shake A]
+嗯，我並不是害怕黑暗的地方或類似的東西。
+不！明白了！我想我們應該一起去！　/
+>>4/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 -nag -@NOW]
+[show A R]
+[show B R]
+[face A 00]
+[face B 04]
+[serif on]
+[say A]
+[move B XY 100 -100]
+[orderline B A]
+[move A X -150 0.5]
+[rotate A 10 0.5]
+啊？我覺得很奇怪很亂......
+$B:A你整理好你的工具了嗎？不，不用擔心。[face A 01]/
+[move A X -500 1.4]
+[rotate A -10 0.3]
+[delay 0.3 rotate A 0 0.3]
+[delay 0.6 rotate A 10 0.3]
+[delay 0.9 rotate A 0 0.4]
+[autotap]/
+[face A 08]
+抱歉，但我會暫時離開。
+嘿嘿嘿…[shake B][face B 05]/
+[face A 02]
+[face B 02]
+呵呵……我很擅長經過這種地方！/
+[face A 00]
+[face B 00]
+辦完事後
+我稍後會回來幫你解決事情。[move A X -400 0.5]/
+>>5/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 -nag -@NOW]
+[show A L]
+[face A 03]
+[serif on]
+[se fusuma_01]
+[move A C 0.5]
+[say A]
+$B:A我……我不懂你在說什麼。
+為什麼你這麼反對？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 08]
+我是對的。
+$B:A這也有利於…我認為…[face A 12]/
+[face A 03]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+……你這麼說……嗯，有一點……
+也許這很難…但是…[face A 04]/
+[face A 06]
+……啊，我一會兒去看看你。/
+>>6/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 -nag -@NOW]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+前幾天執行任務時，$B:A的
+精彩的戰鬥風格給我留下了深刻的印象.../
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+呵呵，看來自己又長大了。/
+[face A 00]
+對於那種人
+這就像能夠支援你一樣。/
+>>7/
+/
+/
+>>8/
+/
+/
+>>9/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @NPC @あやかし -nag -@NOW]
+[show A C]
+[face A 00]
+[show B]
+[setline A B]
+[face B 00]
+[serif on]
+[say A]
+[orderline A B]
+它是什麼？$B:A？
+……我今天更活躍了……？/
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哼，你的阿諛奉承是起不到什麼作用的。/
+[face A 02]
+[move A X 100 0.5]
+[face B 02]
+……首先，它有什麼好處？
+咱們喝杯茶，聽聽詳情。/
+>>10/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @NPC @あやかし -nag -@NOW]
+[show A C]
+[face A 08]
+[serif on]
+[talkend]
+長門 坐在辦公桌前寫信。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 02]
+[say A]
+好吧，這個怎麼樣…$B:A……
+我相信你會得到回應。/
+[face A 01]
+[effect fr kira a 0 0]
+[se kira_01]
+以書面形式傳達重要的字詞。
+我就是這樣做的。/
+>>11/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @あやかし -nag -@NOW]
+[show A C]
+[show B]
+[setline A B]
+[face A 00]
+[face B 00]
+[serif on]
+[say A]
+$B:A，看那顆星星…
+我們也希望能夠像那樣閃閃發光。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+[face B 01]
+呵呵，我做得到。如果是我和你的話。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+所以，已經這麼久了…
+當你思考宇宙時，你會情不自禁地忘記時間。[face A 00][face B 00]/
+>>12/
+/
+/
+>>13/
+/
+/
+>>14/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @あやかし -nag -@NOW]
+[show A C]
+[face A 08]
+[move A X 600]
+[move A C 1]
+[se fusuma_01]
+[-]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[say A]
+…………任務期間，$B:A到
+我看到了一個大男人的身影…/
+[face A 06]
+[shake A]
+我的心劇烈地跳動……就像洶湧的大海。
+這就是敬畏的感覺嗎……我按捺不住了……！[shake A]/
+[talkend]
+長門看起來很興奮。/
+>>15/
+[set A s_nag_m 長門]
+[randomset B m @地魂男児 @あやかし -nag -@NOW]
+[effect fr katanas 5000 0 0 ]
+[se katana_01]
+[delay 0.3 se katana_02]
+[wait 0.5]
+[show A C]
+[show B]
+[setline A B]
+[face A 08]
+[face B 08]
+[serif on]
+[orderline A B]
+[-]
+[say A]
+嘆息……嘆息……
+$B:A，你舉起了雙臂…/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+[face B 00]
+不過……如果我把聲音提高到這個程度的話，
+他離大人物還差得很遠。/
+[face A 03]
+[face B 08]
+現在，另一場戰鬥！ ！[shake A][shake B]/
+>>16/
+[set A s_nag_m 長門]
+[show A C]
+[face A 08]
+[serif on]
+[say A]
+呼……我想今天也進展順利……
+但還沒有。/
+[face A 01]
+瞄準就像槍上刻著的櫻花圖案。
+美麗有力的射擊.../
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[autotap]/
+[face A 13]
+這就是長州男孩的驕傲。[se taiko_01]/
+>>17/
+[set A s_nag_r 長門]
+[set C s_nag_b 長門]
+[randomset B b @地魂男児 @NPC @あやかし -nag -@NOW]
+[show A C]
+[show B R]
+[face B 06]
+[face A 00]
+[serif on]
+[say A]
+[orderline A B]
+嗯……你害羞被看見嗎？
+將自己與他人比較是最愚蠢的行為。/
+[face A 03]
+我把衣服脫下來，偷偷地藏起來。
+我不會做任何娘娘腔的事！[shake A]/
+[face B 05]
+[move B X 100 0.4]
+[face A 01]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[show C]
+[orderline A C B]
+[face C 01]
+[scale C 1.6 0.3]
+[move C Y -120 0.3]
+[say C]
+[se cloth_06]
+[hide A]
+[shakebg]
+如果你是男人，就把衣服脫了！ ！/
+>>18/
+[set A s_nag_b 長門]
+[randomset B b @地魂男児 @NPC @あやかし -nag -@NOW]
+[effect fr yuge A]
+[se amb_12]
+[show A C]
+[face A 00]
+[serif on]
+[move A Y -60]
+[say A]
+[se bath_04]
+呼……熱水真好……
+/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 01]
+[bath_04]
+當你在寬敞的浴室裡舒展雙腿時…嗯…
+感覺真好啊……嗯……/
+[move A Y -50 0.5]
+[face A 07]
+嗚嗚嗚……嗚……
+/
+[show B R]
+[face B 04]
+[move B Y -50]
+[move B X 200]
+[move B X -200 0.5]
+[face A 05]
+[move A Y 60 0.1]
+[delay 0.1 move A Y -10 0.1]
+[orderline A B]
+[say A]
+哈！　$B:A！？
+抱歉...熱水的舒適度只是...[face A 06][face B 00]/
+>>19/
+[set A s_nag_r 長門]
+[randomset B b @地魂男児 @NPC @あやかし -nag -@NOW]
+[effect fr yuge A]
+[se amb_12]
+[show A C]
+[show B R]
+[setline B A]
+[face A 12]
+[face B 00]
+[serif on]
+[say A]
+[orderline A B]
+掃視……掃視……/
+[face A 06]
+[face B 05]
+……我明白了。
+對於大人物來說，可能會發生很多事情.../
+[move A Y -10 0.2]
+[delay 0.2 move A Y 10 0.2]
+[delay 0.4 move A Y -10 0.2]
+[delay 0.6 move A Y 10 0.2]
+[autotap]/
+[face A 03]
+[face B 06]
+[se cloth_01]
+我不能這樣做...
+我也必須成為一個大男人……！/
+>>20/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 -@NPC @あやかし -nag -@NOW]
+[randomset C r @地魂男児 -@NPC @あやかし -nag -@NOW]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+[se pee_01]
+呼……我可以在這裡放鬆一下…
+/
+[show B]
+[show C]
+[setline B C]
+[moveline B C 300 0 0]
+[move A X -200 0.5]
+[face A 05]
+[waku on 0.5]
+（嗯？　$B:A和$C:A是不是……？ ）/
+[face A 01]
+（嗯...[=次の任務 厨の献立 厠の掃除 茶会の準備 庭園の手入れ 畑の手入れ 季節の行事 主の仕事の手伝い]故事關於
+　看來他們是…）/
+[face A 02]
+（他們都是非常熱情的人。
+　我不能輸…）/
+[face A 00]
+[waku off 0.5]
+[setline 0.5 B A C]
+[orderline B C A]
+[face B 05]
+[face C 01]
+我被你的熱情所鼓舞。
+謝謝你。/
+>>21/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @NPC @あやかし -nag -@NOW]
+[show A C]
+[show B]
+[scale A 1.6]
+[scale B 1.6]
+[moveline A B 0 -120 0]
+[setline B A]
+[orderline A B]
+[face B 00]
+[se pee_01]
+[face A 00]
+[serif on]
+[say A]
+…………/
+[face A 06]
+……大男人不關心別人。
+……不過我想看…[face A 12][move A X -50 0.5]/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+……！
+我明白了...[face A 06]/
+>>22/
+[set A s_nag_r 長門]
+[show A C]
+[face A 00]
+[serif on]
+[say A]
+呼……看來今天沒有什麼健康問題啊。
+讓我們開始吧。/
+[fadein black 0.5]
+[serif off 0.5]
+[se bath_05]
+[wait 0.5]
+[-]
+[scale A 1.6]
+[move A Y -120]
+[wait 1]
+[-]
+[fadeout 0.5]
+[effect fr kira a 0 0]
+[se kira_01]
+[face A 02]
+[-]
+[serif on]
+……這樣就好了。
+我把包廂內部擦得閃閃發亮。/
+[face A 01]
+真正的大人物是
+不要忘記密切注意細節！/
+>>23/
+[set A s_nag_r 長門]
+[show A C]
+[face A 06]
+[serif on]
+[say A]
+絕對……就是我一下子就愛上的腫！
+一切都從信件開始......！[shake A]/
+[face A 03]
+那個話題出現了
+我似乎無法冷靜下來。/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+……這種時候，我在私人房間裡感覺不安全。/
+>>24/
+[set A s_nag_r 長門]
+[randomset B r @地魂男児 @NPC @あやかし -nag -@NOW -sim]
+[show A C]
+[face A 04]
+[serif on]
+[say A]
+[move A X 200]
+[move A X -200 0.5]
+睡前要不要去趟洗手間？ …
+……天已經黑了……/
+[show B L]
+[move B X -100]
+[setline 0.5 B A]
+[face A 11]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[shake A]
+[face B 00]
+[orderline A B]
+[say A]
+嘿...[move A X 150 0.1]什麼？[shake A]它是什麼？$B:A或者！
+哦，我只是因為你突然露出臉而感到驚訝……！[shake A][face A 10]/
+[face A 06]
+[face B 01]
+…………$B:A。[move A X -100 0.5]
+你想跟我一起去嗎？　廁…[face A 10]/
+>>25/
+[set A s_nag_r 長門]
+[show A C]
+[face A 07]
+[serif on]
+[say A]
+……你……千歲……
+……莫莫……蘇亞蘇亞。/
+[talkend]
+長門 看來睡得很香。/
+>>26/
+[set A s_nag_r 長門]
+[show A C]
+[face A 05]
+[serif on]
+[say A]
+[scale A 1.6]
+[move A Y -220]
+[move A Y 100 0.5]
+[se cloth_06]
+……哈啊啊……[shake A]
+我做了一個多麼美好的夢想。我無法平靜...[face A 06]/
+[face A 08]
+該死……我以為這樣的事情會很糟糕。
+....如果英雄也喜歡顏色.../
+[face A 06]
+[shake A]
+也許這也是為了成為一個大男人
+有必要嗎...？ ？/
+>>100/
+[set A s_nag_r 長門]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 長門とデカい話]
+[-]
+[se fusuma_01]
+[-]
+[bgm home]
+[se walk_01]
+[bg gozasyo_day]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[talkend]
+[-]
+[autotap]/
+[serif on 0.5]
+[textcolor ARUJI]
+黃昏的時候，它被放在了皇宮的辦公桌上。
+我注意到一封信。/
+[textcolor ARUJI]
+字跡工細，字跡散發出柔和的光芒。
+它脫穎而出。/
+[textcolor ARUJI]
+“我在花園的櫻花樹下等你。”/
+[serif off]
+?去花園/
+[serif on]
+[textcolor ARUJI]
+由美麗的字母引導，感動你的心
+我向花園走去。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[bg niwa_day]
+[light down]
+[lightcolor orange]
+[-]
+[se walk_01]
+[fadeout 1.5]
+[-]
+[se amb_13]
+[autotap]/
+[show A]
+[face A 08]
+[-]
+[wait 1]
+[hide A 1]
+[-]
+[serif on 0.5]
+[textcolor ARUJI]
+在櫻花樹下認真看護你的槍
+我看到長門 這樣做了。/
+[flow]
+[se cloth_01]
+[textcolor ARUJI]
+他的手部動作很小心，
+這就像處理一件珍貴的寶藏。/
+[serif off]
+？ 長門/
+[show A C]
+[face A 00]
+[say A]
+[serif on]
+[bgm cute]
+……主？
+我猜你讀過這封信。/
+[face A 01]
+很抱歉打電話給你。
+我想和你好好談談，只有我們兩個人。/
+[face A 02]
+……沒錯……首先，
+我感謝你聆聽我的聲音。/
+[serif off]
+？我很高興你來了。/
+[face A 01]
+[say A]
+[serif on]
+……嗯。/
+[flow]
+[face A 09]
+……我們還沒有太多交流。
+我也和其他地魂男孩交談過。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+看來你是被愛著的。
+主角受歡迎是好事。/
+[bgm off]
+[face A 09]
+但是.../
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[se taiko_02]
+[face A 03]
+[bgm departure]
+我不會像其他人一樣寵壞你！/
+[hide A]
+[serif off]
+?！？/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+長門展示他手中的槍
+它顯示在這裡。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[face A 03]
+這把槍不僅僅是一件武器。
+/
+[face A 08]
+[flow]
+長州氏的驕傲…愛國者的思念
+它包含在這裡。/
+[face A 03]
+你既可以感受到悲傷，也可以感受到成就感。/
+[serif off]
+？ 長門…/
+[face A 12]
+[say A]
+[serif on]
+[bgm off]
+[se taiko_01]
+不，還不只這些。傾注在這把槍裡的想法
+這是跨越時空迴響的靈魂的呼喊。/
+[face A 13]
+[se taiko_01]
+我們有這樣的感情和未來的名字
+劃著小船，駛向浩瀚的大海…/
+[face A 02]
+[effect fr kira a 0 0]
+[se kira_01]
+[se taiko_02]
+這裡不僅僅有武器。人類的夢想
+這是一場革命的黎明，承載著所有的希望…/
+[serif off]
+？ 長門？/
+[face A 00]
+[say A]
+[serif on]
+[effect off a]
+[bgm fun]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+哎呀……尺度是不是有點太大了？
+這就是所謂的浪漫。/
+[serif off]
+？規模不算太大！ ？/
+[face A 02]
+[say A]
+[serif on]
+做大就好了！[shake A]/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 01]
+作為一個男人，作為一個人…
+越大越好...對嗎？/
+[talkend]
+[textcolor ARUJI]
+長門點頭。/
+[say A]
+[bgm dungeon]
+[face A 09]
+無論如何……你都是我的主人。
+合適嗎？我想知道你的決心。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+槍管上漂浮著精緻的櫻花圖案
+它在夕陽的照耀下閃閃發光。/
+[show A]
+[face A 08]
+[se cloth_01]
+[textcolor ARUJI]
+突然長門舉起了槍。/
+[hide A]
+[flow]
+[textcolor ARUJI]
+它的動作很流暢，彷彿經歷了很多年。
+就好像它已經根深蒂固在我心裡了。/
+[flow]
+[textcolor ARUJI]
+當我看向槍口所指的地方時，我看到了一對小動物的父母和孩子。
+我看到你慢慢地走。/
+[serif off]
+？ 長門！ ？/
+[fadein WHITE 0.2]
+[delay 0.2 fadeout 0.3]
+[textcolor ARUJI]
+[se gun_01]
+[serif on]
+還沒等他提高聲音，長門就悄悄扣下了板機。/
+[textcolor ARUJI]
+[se wood_02]
+伴隨著一聲尖銳的聲音，蘋果樹枝上樹了
+子彈穿過。/
+[textcolor ARUJI]
+[se dosa_01]
+[shakebg]
+小動物撿起掉落的蘋果
+我開始愉快地吃飯。/
+[show A]
+[face A 08]
+[say A]
+明治維新期間，許多人為新世界而努力。
+我冒著生命危險。/
+[face A 00]
+那種感覺存在於我的身體和這把槍裡。
+我猜他會留在那裡。/
+[face A 03]
+這就是為什麼，
+我只想將這種力量用於我認可的事情。/
+[face A 08]
+主啊。你為何而戰？
+你想用這個力量來保護什麼？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+我思考了一下長門的問題。
+答案立刻浮現在腦海中。/
+[flow]
+[textcolor ARUJI]
+「保護歷史」……這就是我的職責。
+但說的太多了.../
+[serif off]
+？這……太大了……/
+[face A 05]
+[serif on]
+[bgm off]
+[textcolor ARUJI]
+長門聽了這句話，耳朵抽動了一下。/
+[show A]
+[face A 05]
+[shake A]
+[bgm fun]
+[say A]
+....什麼...？很大嗎...?
+多大、有多大？/
+[serif off]
+？我很猶豫要不要大聲說出來....../
+[face A 06]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[say A]
+[serif on]
+[se cloth_06]
+哦，嘿！請告訴我，拜託…！
+這麼大的東西……！ ！[shake A]/
+[hide A]
+[serif off]
+？ ……保護歷史/
+[effect fr syutyu a 0 0]
+[show A]
+[face A 05]
+[scale A 2.0 0.3]
+[move A Y -220 0.3]
+[say A]
+[serif on]
+....！[shake A 3 15 15]/
+[talkend]
+[textcolor ARUJI]
+長門愣了一下，臉上露出驚訝的表情。/
+[effect off a]
+[say A]
+[face A 10]
+……歷史……歷史……！ ？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 00]
+……多麼宏大的故事啊……
+哈哈.../
+[bgm night]
+[light def 0.5]
+[lightcolor orange]
+[talkend]
+[textcolor ARUJI]
+在夕陽的映襯下，長門顯得更加端莊。/
+[say A]
+[face A 01]
+歷史是一種累積。很多人都竭盡全力去做一件事
+我們現在的歷史是由我們的目標的累積所創造的。/
+[face A 02]
+……這才是最有價值的。
+我想是的。/
+[face A 08]
+歷史是一首宏大的宇宙交響曲。
+那是無數星辰奏出的銀河和諧聲。/
+[face A 13]
+每一個音符都代表著人們的思想和行動。
+這也是時代的氣息…/
+[serif off]
+？也許又開始了？/
+[face A 08]
+[say A]
+[serif on]
+壯麗的動作，是震撼大地的磅礡心跳。
+它的迴響跨越了時間和空間…/
+[face A 13]
+就像巨大的海浪一樣…/
+[face A 01]
+你說你會保護它。/
+[serif off]
+？ （我不太明白，但現在）我點點頭。/
+[playeryes]
+[-]
+[face A 00]
+[say A]
+[serif on]
+保護歷史意味著什麼？
+意思是繼承過去的一切思想。/
+[face A 01]
+這是一個巨大的責任。但是...
+我開始想要相信你能做到。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+長門的語氣開始展現一絲溫柔。/
+[show A]
+[se cloth_01]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+其他地球靈魂男孩都被你吸引了。
+我感覺我懂了。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+它在你內心
+我想有些東西會吸引每個人。/
+[face A 00]
+它的魅力。我覺得我開始一點一點地看到它。/
+[face A 08]
+主啊。在帶領我們地球靈魂男孩時，
+你認為最重要的是什麼？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+最重要的是…當然
+畢竟.../
+[serif off]
+？心...我猜/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+我的心……沒事……
+但它到底懷著什麼樣的心呢……？/
+[serif off]
+？ （什麼樣的……！？）/
+[face A 08]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+長門正用嚴肅的眼神看著這一幕。
+凝視。 ——我在等待答案。/
+[flow]
+[textcolor ARUJI]
+什麼.../
+[hide A]
+[serif off]
+？大？/
+[effect fr syutyu a 0 0]
+[show A]
+[face A 13]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+[se kira_01]
+哦！ ！一顆大心！ ！
+沒錯！　你知道！ ！/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[effect off a]
+好吧，我決定了！
+我會接受你為我的主人。/
+[face A 13]
+我們將共同開創一個新時代。
+我覺得和你在一起我可以爬到任何高度。/
+[talkend]
+[textcolor ARUJI]
+長門連忙伸出右手。/
+[serif off]
+？非常感謝！/
+[hide A]
+[se cloth_01]
+[shakebg]
+[serif on]
+[textcolor ARUJI]
+與長門強烈握手。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 01]
+[say A]
+我一定會實現主人的夢想。
+然而，正如我一開始所說的，你被寵壞了。/
+[face A 09]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+看來大家都太甜了。
+至少有一個這樣的男孩不好嗎？/
+[talkend]
+[face A 02]
+[textcolor ARUJI]
+長門 笑著說。/
+[say A]
+[face A 00]
+……主啊，變大一點吧……
+我喜歡大男人。/
+[face A 01]
+[flow]
+是的，這.../
+[se cloth_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+長門從口袋裡拿出一封信。
+我把它遞了過去。/
+[show A]
+[scale A 2]
+[move A Y -220]
+[say A]
+如果您喜歡，請閱讀。/
+[se walk_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+說完長門就先回去了。/
+[serif off]
+？讀信/
+[serif on]
+[se paper_01]
+[textcolor ARUJI]
+當我開啟信時，裡面是漂亮的書法。
+它是這樣拼寫的。/
+「如果我們準備好像櫻花一樣散落在一起，
+　願我們看見新世界的曙光。 」/
+[textcolor ARUJI]
+[se paper_01]
+長門可能是個有點不尋常的男孩，但是
+我覺得他是我可以信任的人。/
+[textcolor ARUJI]
+我和長門的未來日子
+我很期待。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[autotap]/
+>>101/
+[set A s_nag_r 長門]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 長門の苦手なもの]
+[-]
+[se fusuma_01]
+[-]
+[bgm home]
+[bg gozasyo_day]
+[-]
+[delay 0.3 se fusuma_03]
+[fadeout 0.5]
+[-]
+[talkend]
+[-]
+[autotap]/
+[show A C]
+[face A 08]
+[serif on]
+[talk A]
+這是本次任務的報告。/
+[face A 04]
+…………/
+[serif off]
+？ 長門？你還好嗎？/
+[textcolor ARUJI]
+[talkend]
+[hideall]
+[se paper_01]
+[-]
+[serif on]
+長門遞出檔案時的表情。
+不知怎的，它看起來很黑。/
+[show A C]
+[face A 08]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talk A]
+……不，沒關係。
+我已經把報告給你了。/
+[serif off]
+[move A X -300 0.5]
+[hide A]
+[se fusuma_01]
+[-]
+[talkend]
+[textcolor ARUJI]
+[wait 0.2]
+[-]
+[se paper_01]
+[serif on]
+當我檢視檔案時，我用刷子把它刷得很光滑。
+它是用工整的字母寫的。/
+[flow]
+[textcolor ARUJI]
+[se paper_01]
+看來他完成了自己的使命，沒有遇到任何危險…/
+[serif off]
+？ 長門，你累嗎？/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[wait 0.5]
+[hideall]
+[bgm night]
+[bg rouka_night]
+[-]
+[se amb_05]
+[fadeout 1.5]
+[-]
+[se goto_01]
+[wait 0.3]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+當我半夜醒來，走過走廊時，
+有輕微的聲音。/
+[flow]
+[textcolor ARUJI]
+當我朝著聲音傳來的方向走去時，訓練場還在。
+我注意到燈亮了。/
+[serif off]
+?我們去訓練場吧/
+[se fusuma_01]
+[-]
+[bg black 0.5]
+[minibg syurenjo 0.5]
+[-]
+[show A]
+[face A 08]
+[-]
+[effect fr waveout 6000 100 -100]
+[delay 1 effect fr waveout 6000 -150 50]
+[se gun_01]
+[delay 1 se gun_02]
+[shakebg]
+[wait 0.5]
+[-]
+[hide A]
+[-]
+[serif on]
+[textcolor ARUJI]
+當你開啟門時，有明亮的燈光
+長門正在自己練習射擊。/
+[serif off]
+？ 長門/
+[effect fr syutyu a 0 0]
+[bgm departure]
+[show A C]
+[scale A 1.6 0.3]
+[move A Y -120 0.3]
+[face A 11]
+[serif on]
+[talk A]
+哇！ ？[shake A][se zukkoke_02]/
+[effect off a]
+[face A 03]
+[flow]
+天哪……突然發生什麼事了！[shake A]/
+[serif off]
+？這太令人驚訝了！ ？/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 12]
+[talk A]
+[serif on]
+[bgm night]
+我並不感到驚訝。/
+[face A 09]
+無論我往哪裡看，我都會感到驚訝。
+我想我已經半睡半醒了。主要的。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+我正這麼說，但我聽到一個聲音說：“哇！？”
+我本來是給你的。/
+[serif off]
+？發生什麼事了？　這麼晚了/
+[show A]
+[face A 04]
+[-]
+[say A]
+[serif on]
+……我能說什麼，沒錯…/
+[face A 04]
+[flow]
+在今天的任務中，我多次遇到了仇鬼。
+訂婚了。所以，我開始思考很多。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[flow]
+[face A 12]
+房間裡的人都已經睡著了。
+我無法開啟燈。/
+[face A 01]
+[flow]
+所以我決定獨自在這裡訓練。/
+[serif off]
+？你害怕鬼嗎？/
+[face A 09]
+[say A]
+[serif on]
+不。[shake A][se taiko_01]/
+[serif off]
+？你只是喊我這麼驚訝嗎？/
+[face A 06]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[talk A]
+[serif on]
+因為我全神貫注！突然有聲音從背後傳來
+可能是我被叫出來後反應有點誇張吧！[shake A]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+……這並不可怕！/
+[serif off]
+？是的/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 12]
+[say A]
+[serif on]
+絕對……夠了。
+我只是想盡快完成它。/
+[face A 08]
+[flow]
+[se cloth_01]
+我想我會保管我的槍並返回我的房間。
+[move A XY 10 -40 0.4]
+[rotate A -10 0.3]
+[delay 0.4 move A XY -10 40 0.3]
+[delay 0.5 rotate A 0 0.3]/
+[bgm off]
+[face A 05]
+[talkend]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[textcolor ARUJI]
+砰！ ！[shakebg][se doka_01]/
+[hide A]
+[bgm tensioned]
+[textcolor ARUJI]
+我一看，發現訓練場門口有一把掃帚。
+他摔倒了。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[move A X 200 0.3]
+[face A 11]
+[say A]
+[se zukkoke_02]
+哇！ ！ ！[shake A 3 10 10]
+這是怎麼回事！ ？[shake A]/
+[face A 10]
+[flow]
+嘿，掃帚是單獨的嗎？
+你怎麼跌倒了！ ？[shake A]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+當我們進入訓練場時，我感覺我們就撞到了一起。
+由於時差的關係，可能已經崩潰了。/
+[serif off]
+？畢竟很可怕/
+[show A]
+[face A 09]
+[say A]
+[serif on]
+不。[shake A][se taiko_01]/
+[face A 10]
+[flow]
+主啊……請不要讓我太難過。
+……呼，我平靜下來了。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0][face A 12]/
+[face A 00]
+[flow]
+好吧，我們快點回家吧。
+王爺，請回房間吧。/
+[se cloth_01]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+跟著長門清理槍站了起來。
+離開訓練場。/
+[serif off]
+?關掉訓練場的燈/
+[fadein BLACK 0.5]
+[serif off 0.5]
+[-]
+[bgm off]
+[minibg off 0.1]
+[-]
+[fadeout 0.5]
+[-]
+[autotap]/
+[serif on]
+[textcolor ARUJI]
+當我咔噠一聲關掉訓練場的燈時，
+該地區被黑暗籠罩。/
+[effect fr syutyu a 0 0]
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 11]
+[bgm departure]
+[say A]
+哇！不要突然關燈！[shake A][se zukkoke_02]/
+[effect off a]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+雖然我剛剛關了燈，但我還是很生氣。
+似乎有點不合理。/
+[serif off]
+？這很可怕。抱歉/
+[bgm tensioned]
+[show A]
+[face A 09]
+[say A]
+[serif on]
+不。[shake A][se taiko_01]
+並非如此。/
+[move A X 120 0.5]
+[face A 10]
+[flow]
+媽的……走廊不是也漆黑一片嗎……
+剛才月亮出來了...[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[hide A]
+[se wood\04]
+[talkend]
+[textcolor ARUJI]
+當長門小心翼翼地走過走廊時，傳來一聲吱吱聲…
+地板吱吱作響。/
+[serif off]
+？ （試著威脅我）/
+[textcolor ARUJI]
+[serif on]
+長門走在漆黑的走廊上時的背影
+假裝成鬼，掩飾自己。/
+[effect fr syutyu a 0 0]
+[show A C]
+[scale A 2]
+[move A Y -220]
+[face A 11]
+[bgm departure]
+[se zukkoke_01]
+[say A]
+[textsize 40]
+拜拜啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！ ！ ！ ！ ！[shake A 5 20 20]/
+[hide A]
+[effect off a]
+[talkend]
+[textcolor ARUJI]
+反應遠遠超出了我的預期。
+長門但他的眼裡含著淚。/
+[flow]
+[bgm night]
+[textcolor ARUJI]
+不出所料，我開始為她感到難過。/
+[bg rouka_night 0.5]
+[light def 0.5]
+[lightcolor blue]
+[show A]
+[move A Y -100]
+[face A 04]
+[say A]
+嗚嗚嗚…[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+[serif off]
+？對不起，長門/
+[face A 06]
+[say A]
+[serif on]
+主啊…
+N-別擔心.../
+[serif off]
+？我會拍拍你的頭。/
+[se cloth_01]
+[move A Y 100 0.5]
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+嗯……主啊……/
+[talkend]
+[face A 06]
+[textcolor ARUJI]
+長門鬆了一口氣地瞇起眼睛。/
+[serif off]
+？拍拍你的喉嚨/
+[hide A]
+[textcolor ARUJI]
+[serif on]
+像對待貓一樣用指尖放在喉嚨下方。
+我會給它一個脆脆的打擊。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 03]
+[say A]
+別把我當貓一樣對待！ ！[shake A][se zukkoke_02]/
+[serif off]
+？我覺得這感覺很好.../
+[face A 06]
+[say A]
+[serif on]
+嗯，這當然還不錯。[shake A]不過還不錯
+這不是問題！我也有驕傲啊！[shake A][face A 03]/
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[autotap]/
+[face A 10]
+[flow]
+還假裝是鬼
+我很驚訝.../
+[face A 03]
+[flow]
+哇，果然是壇之浦平家的復仇鬼啊。
+就算你來了我也不知道！[move A Y 10 0.4][delay 0.4 move A Y -10 1.0][se horror_05]/
+[serif off]
+？平家的復仇鬼魂？/
+[se horror_01]
+[face A 12]
+[say A]
+[serif on]
+你可能知道“Earless Hoichi”。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 04]
+[flow]
+死後仍留遺憾，無法成佛的靈魂…
+描繪了這種復仇之魂的故事。/
+[face A 10]
+[flow]
+復仇之魂……呃……那個……
+並不是我擅長，而是……還不止於此……/
+[face A 12]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+今天的任務結束後，它在我國丹努拉沉沒。
+我無法將平家從我的腦海中抹去。/
+[face A 08]
+[flow]
+還有關於主.../
+[face A 12]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+長門看起來有些落寞，移開了視線。
+我又看了看他們。[face A 08]/
+[face A 08]
+[say A]
+聽說聖主有巨大的靈力。
+盛者必衰。總有一天會失去電力。/
+[face A 09]
+[flow]
+主所擁有的力量不一定永遠持續。
+這就是力量…/
+[face A 03]
+[flow]
+所以主。不要僅僅依靠實力。/
+[serif off]
+？ 長門…/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+[serif on]
+……沒關係。/
+[face A 01]
+[flow]
+如果你是個真正的大人物就好了
+我會永遠支援你。/
+[serif off]
+[hide A]
+?長門的手放在肩膀上/
+[face A 00]
+[scale A 2 0.5]
+[move A Y -100 0.5]
+[se cloth_01]
+[autotap]/
+[textcolor ARUJI]
+[serif on]
+[se cloth_01]
+[talkend]
+長門一開始還微微顫抖，可能是因為緊張。
+當我把手放在上面時，它逐漸變得溫暖而柔軟。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+——那我就走了。
+樓主，早點睡覺，別感冒了。/
+[move A X 200 0.5]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+長門背對著你，向前走了幾步。
+它突然停了下來。/
+[show A C]
+[move A X 200]
+[delay 0.2 move A X -200 0.5]
+[face A 10]
+[say A]
+[serif off]
+[-]
+[serif on]
+…………/
+[face A 06]
+[flow]
+我可以使用那個房間嗎？
+本來想開燈睡覺的/
+[serif off]
+？別太怕！ ？/
+[face A 03]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+不！ ！[shake A][se taiko_02]
+這……那……不一樣啊！[shake A][face A 10][se zukkoke_01]/
+[serif off]
+？您可以隨意使用它。晚安長門/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+[serif on]
+…………[wait 0.5]謝謝你。主要的。
+晚安。/
+[serif off]
+[move A X -400 1]
+[delay 0.5 hide A 0.5]
+[se fusuma_01]
+[-]
+[wait 0.5]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+你有沒有感覺有點心煩意亂？
+令人驚訝的是，他似乎很怕鬼。/
+[bg sky_star 1]
+[autotap]/
+[flow]
+[textcolor ARUJI]
+包括那部分，長門的背影太糟糕了
+我覺得它很可愛。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
+>>201/
+[set A s_nag_r 長門]
+[bgm off]
+[serif off]
+[fadein BLACK 0]
+[-]
+[title 絆 長門のドデカいチョコ]
+[-]
+[se walk_01]
+[bg rouka_day]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[bgm departure]
+[textsize 40]
+[serif on 0.5]
+@長門的聲音
+媽的，這可不好啊！ ！ ！ ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+當我經過廚房時，
+我聽到某種尖叫聲。/
+[serif off]
+？看看廚房/
+[se fusuma_01]
+[bg mbg_syouen 0.5]
+[minibg tyubo 0.5]
+[-]
+[place 厨 くりや]
+[-]
+[show A R]
+[face A 03]
+[say A]
+[serif on]
+該死的！　[shake A]一個更大、更浪漫的宇宙
+雖然很想表達自己……但好像還不夠……！/
+[serif off]
+？ 長門，怎麼了？/
+[talkend]
+[serif on]
+[move A C 0.3]
+[face A 12]
+[se cloth_06]
+[textcolor ARUJI]
+[bgm fun]
+當我呼喚她時，她穿上了粉紅色的圍裙。
+長門轉過身來。/
+[face A 08]
+[say A]
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+主啊…
+您來對地方了。看。/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+長門前面，排列著各種大小的圓形巧克力。
+他用一張神秘的臉盯著他們。/
+[serif off]
+？你在做巧克力嗎？/
+[show A]
+[face A 04]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+哦。這是正確的。
+但進展並不順利.../
+[scale A 1.6 0.5]
+[move A Y -120 0.5]
+[autotap]/
+[face A 06]
+雖然還在製作過程中…
+主啊，我想聽聽禰的意見。/
+[face A 00]
+[flow]
+[bgm off]
+你知道主題，對吧？/
+[serif off]
+[bgm dungeon]
+[wait 1.5]
+[-]
+[serif on 0.5]
+[talkend]
+[textcolor ARUJI]
+我被問了一個很難的問題。/
+[hide A]
+[textcolor ARUJI]
+桌上排列著各種大小的巧克力。
+就是這樣。/
+[serif off]
+?透過改變尺寸來享受質感——/
+[show A]
+[face A 09]
+[scale A 1.6]
+[move A Y -120]
+[-]
+[wait 1]
+[-]
+[autotap]/
+[serif off]
+不是嗎？ --/
+[face A 03]
+[say A]
+[serif on]
+請好好思考一下。/
+[serif off]
+?提示/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 12]
+[say A]
+[serif on]
+我把巧克力比喻成某些東西.../
+[hide A]
+[talkend]
+[textcolor ARUJI]
+把球體想像成某種東西，
+長門 可能會做的事情.../
+[serif off]
+？規模龐大——/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+哦，這麼大……什麼！ ？[face A 00]/
+[serif off]
+？很浪漫.../
+[face A 13]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+沒錯！好吧……再多一點！ ！
+祝你好運！ ！[shake A]/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+就在我來到這裡呼喚你之前，
+我記住了長門的話。/
+[serif off]
+[fadein WHITE 0.2]
+[-]
+[waku on]
+[show A R]
+[face A 03]
+[-]
+[fadeout 0.3]
+[-]
+[serif on]
+[say A]
+[serif on]
+[textcolor blue]
+「可惡！　[shake A]一個更大、更浪漫的宇宙
+　雖然很想表達自己……但好像還不夠……！ 」/
+[serif off]
+[fadein WHITE 0.2]
+[-]
+[hideall]
+[waku off]
+[-]
+[fadeout 0.3]
+[-]
+[serif off]
+？這是一顆行星……直接說，它是太空。/
+[bgm fun]
+[show A]
+[effect fr syutyu a 0 0]
+[face A 13]
+[scale A 2.0 0.5]
+[move A Y -220 0.5]
+[say A]
+[serif on]
+正如主所期望的！ ！作為擁有相同願望的人
+我相信你會明白的！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[effect off a]
+看到幸福的長門，我拍了拍胸口，鬆了一口氣。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 12]
+[say A]
+然而，這還不足以成為一個宇宙。
+巧克力還在排隊。/
+[face A 06]
+你認為我該做什麼？行星狀巧克力
+如果你製作大約 1000 個，它會看起來像一個星係嗎？/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+這可能不是問題。/
+[textcolor ARUJI]
+如果再這樣下去，廚房就會堆滿圓形的巧克力。
+我需要盡快做點什麼.../
+[serif off]
+長門想要表達一個什麼樣的宇宙？/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 06]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[say A]
+[serif on]
+沒錯……就這樣……星雲正在擴散。
+就好像無數的星星在閃爍。[face A 01]/
+[talkend]
+[textcolor ARUJI]
+這就像想像一個真實的宇宙。
+這似乎是非常困難的。/
+[serif off]
+照片中看到的宇宙可能非常豐富多彩。/
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+什麼？　
+………………當然……[face A 12]/
+[serif off]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+長門 盯著一塊簡單的棕色圓形巧克力。
+陷入沉思。/
+[serif off]
+[move A X 50 0.1]
+[bgm departure]
+[minibg emo_kiduki 0.1]
+[bg black 0.1]
+[delay 0.2 minibg tyubo 1.0]
+[delay 0.2 bg mbg_syouen 1.0]
+[face A 05]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[-]
+[serif on]
+[textcolor ARUJI]
+他的臉色頓時變得驚愕起來。超越那些眼睛
+這可能是宇宙宏偉的反映。/
+[move A X -50 0.5]
+[autotap]/
+[face A 08]
+[say A]
+我明白了……宇宙不只是漆黑一片。
+一片火紅的星雲，一條閃耀在青金石上的光帶…/
+[face A 01]
+[flow]
+千萬顆星星創造出的壯麗景色…
+一首美妙的曲子，跨越時空。/
+[face A 02]
+[flow]
+宇宙本身就像一場壯麗的運動。
+永遠蔓延，深入！ ！[shake A]/
+[face A 13]
+[effect fr kira a 0 0]
+[se kira_01]
+真是浪漫極了！ ！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[effect off a]
+看到一半我還沒明白，但是
+長門看來他頓悟了。/
+[serif off]
+？如何用一塊巧克力來表現背景？/
+[show A]
+[face A 02]
+[scale A 1.6]
+[move A Y -120]
+[say A]
+[serif on]
+樓主……你的眼光真好！你還在
+他是那個和我一起走過路的人。/
+[face A 01]
+基於棋盤漂浮一個星球...
+光是想想我的心就​​在狂跳！ ！/
+[face A 13]
+[effect fr syutyu a 0 0]
+[se taiko_01]
+有什麼可以用的嗎...！ ？
+也請你們尋求主！[shake A]/
+[effect off a]
+[serif off]
+?搜查廚房/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[se gasa_01]
+[-]
+[se cloth_01]
+[delay 2 se door_03]
+[hideall]
+[hide A]
+[wait 2]
+[bgm food]
+[se goto_01]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[effect fr kira a 0 0]
+[se kira_01]
+[textcolor ARUJI]
+有很多彩色的巧克力筆
+我決定使用它。/
+[show A C]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+[effect off a]
+還有新的刷子。主啊，讓我們開始用這個來繪畫吧。
+你能幫我嗎？/
+[serif off]
+？當然/
+[rotate A 20 0.5]
+[move A Y -50 0.5]
+[face A 08]
+[say A]
+[serif on]
+[talkend]
+[textcolor ARUJI]
+長門 和我一起為地球塗上巧克力色。
+說實話，還蠻有手藝的。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 00]
+[say A]
+你喜歡大理石圖案嗎…這樣怎麼樣？
+感覺粉紅色在旋轉……你覺得怎麼樣？[face A 13][rotate A 0 0.3][move A Y 50 0.3][se cloth_06]/
+[hide A]
+[serif off]
+？看起來像一顆行星！這個怎麼樣？/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 02]
+[move A Y 10 0.1]
+[delay 0.1 move A Y -10 0.1]
+[say A]
+[serif on]
+哦！主！　這真是個壯舉！
+斑駁的圖案很漂亮，就像木星一樣！/
+[hide A]
+[talkend]
+[textcolor ARUJI]
+透過他們的共同努力，一個又一個新的行星被創造出來。
+它誕生了！/
+[textcolor ARUJI]
+[flow]
+接下來，融化剩餘的巧克力筆，
+將其倒入桶中。/
+[serif off]
+[show A]
+[face A 08]
+[move A Y 20 0.4]
+[delay 0.6 move A Y -20 0.2]
+[-]
+[say A]
+[serif on]
+看來銀河的層次能夠很好的表達出來…
+噴灑看起來像星塵的彩色噴霧.../
+[talkend]
+[textcolor ARUJI]
+粉紅巧克力呈對角交叉，形狀像星雲。
+五顏六色的噴霧星塵在那裡閃閃發光。/
+[face A 00]
+[say A]
+好吧，我們把星球巧克力放在這裡吧！
+主啊！ ！[shake A]/
+[hide A]
+[serif off]
+？兩個人將行星排列在一起。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[move A XY -10 -40 0.4]
+[rotate A 10 0.3]
+[delay 0.4 move A XY 10 40 0.3]
+[delay 0.5 rotate A 0 0.3]
+[face A 01]
+[-]
+[se cloth_01]
+[say A]
+[serif on]
+……哼，有一件事…
+那邊還有一件事.../
+[hide A]
+[talkend]
+[textcolor ARUJI]
+長門 我小心翼翼地把巧克力放好…/
+[show A]
+[scale A 2]
+[move A Y -220]
+[face A 13]
+[effect fr syutyu a 0 0]
+[se taiko_02]
+[say A]
+....哦！ ！主啊，看哪！ ！[shake A]/
+[effect off a]
+[fadein WHITE 2]
+[delay 2.5 fadeout 3]
+[light def 0.5]
+[lightcolor yellow]
+[autotap]/
+[hide A]
+[effect fr kira b 0 0]
+[se kira_01]
+[bgm relationship]
+[talkend]
+[textcolor ARUJI]
+曾經有一種普通的圓形棕色巧克力。
+廚房排隊.../
+[textcolor ARUJI]
+[flow]
+然而，追求浪漫的大師們並沒有放棄自己的夢想。
+這些巧克力在你手中會改變。/
+[textcolor ARUJI]
+[flow]
+巧克力球以前是純棕色的，現在被塗成了彩色的。
+表達星球的大理石圖案。/
+[textcolor ARUJI]
+[flow]
+明亮的巧克力棒讓人想起銀河系
+噴灑星塵噴霧.../
+[textcolor ARUJI]
+[flow]
+巧克力星球充滿活力、壯麗
+漂浮在太空中。/
+[fadein WHITE 2]
+[delay 2.5 fadeout 3]
+[autotap]/
+[textcolor ARUJI]
+[flow]
+天啊！/
+[textcolor ARUJI]
+[flow]
+只是一塊圓形的巧克力是由工匠製作出來的
+我重生了！/
+[serif off]
+[effect off b]
+？戲劇性的！這是一個令人驚嘆的巧克力立體模型......！/
+[show A]
+[face A 08]
+[-]
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[-]
+[bgm night]
+[effect fr syutyu a 0 0]
+[scale A 1.6 0.3]
+[face A 13]
+[move A Y -120 0.3]
+[autotap]/
+[say A]
+[serif on]
+這個名字是「行星和恆星的巧克力星系」。[se taiko_02]/
+[light off 0.5]
+[face A 06]
+[serif off]
+[effect off a]
+[move A Y 10 0.4]
+[delay 0.4 move A Y -10 1.0]
+[-]
+[serif on]
+…………/
+[face A 00]
+主啊……今天謝謝你。
+我很感激。/
+[face A 06]
+其實我本來是打算完成之後交給主的。
+然而，我最終得到了一切方面的幫助。/
+[move A Y 5 0.2]
+[delay 0.2 move A Y -10 0.6]
+[delay 0.8 move A Y 5 0.5]
+[autotap]/
+[face A 01]
+我很高興能創造出如此美妙的巧克力。
+……是的，我很高興，但是…/
+[face A 13]
+最重要的是，我知道我正在與主一起做這件事。
+太有趣了。/
+[move A Y 20 0.4]
+[se cloth_06]
+[hide A]
+[talkend]
+[textcolor ARUJI]
+[se cloth_01]
+長門從胸口拿出一張卡片。/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+這似乎是一個現代事件......
+不久前我就在考慮這張卡。/
+[face A 01]
+[flow]
+這個“行星和恆星的巧克力星系”
+請大家一起接受。/
+[hide A]
+[serif off]
+?收到巧克力和卡片/
+[talkend]
+[se cloth_01]
+[textcolor ARUJI]
+[serif on]
+卡片的縮寫
+其中包含著長門的感激之情。/
+[effect fr kira a 0 0]
+[se kira_01]
+[se paper_01]
+[textcolor ARUJI]
+「我能夠分享創造甜蜜星系的喜悅，
+　我謹表示誠摯的謝意。 」/
+[textcolor ARUJI]
+[flow]
+「除此之外，心中懷著遠大的夢想，
+　讓我們一起走在星辰之路上吧。 ――長門”/
+[show A]
+[scale A 1.6]
+[move A Y -120]
+[face A 00]
+[say A]
+[effect off a]
+今天謝謝你。主要的。
+下次，我們就一起製作更美味的巧克力吧！/
+[serif off]
+[face A 02]
+[wait 2]
+[-]
+[talkend]
+[textcolor ARUJI]
+[serif on 0.5]
+說著說著，追浪漫的拓海笑了。/
+[fadein BLACK 1.5]
+[serif off 1.5]
+[-]
+[hideall]
+[minibg ima]
+[-]
+[fadeout 1.5]
+[-]
+[autotap]/
+[serif on]
+[talkend]
+[textcolor ARUJI]
+之後…大師的處女作
+“行星和恆星的巧克力星系”/
+[textcolor ARUJI]
+[flow]
+它將在客廳展示一次。
+這讓很多地魂少年都震驚了。/
+[textcolor ARUJI]
+我想繼續支援長門
+我就是這麼想的。/
+[fadein BLACK 2.0]
+[serif off 2.0]
+[-]
+[wait 2]
+[effect off b]
+[effect off a]
+[-]
+[wait 1]
+[-]
+[autotap]/
