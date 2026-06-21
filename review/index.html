@@ -3,330 +3,424 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tamacolle 翻譯校對器</title>
+  <title>Tamacolle 翻譯校對工具</title>
   <style>
     :root {
-      --bg: #f6f1e8;
-      --panel: #fffaf2;
-      --ink: #1f1a17;
-      --muted: #73675c;
-      --line: #dccfbe;
+      --bg: #f3eee5;
+      --panel: #fffaf3;
+      --line: #d8ccbd;
+      --ink: #1d1814;
+      --muted: #6c6258;
       --accent: #0f766e;
-      --accent-soft: #d6f0ec;
-      --warn: #9a3412;
-      --jp: #5b3b1f;
-      --zh: #173a63;
+      --accent-2: #1d4ed8;
+      --danger: #b45309;
+      --success: #166534;
+      --shadow: 0 12px 32px rgba(61, 42, 27, 0.08);
     }
+
     * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
       color: var(--ink);
       background:
-        radial-gradient(circle at top left, #fffdf8, transparent 28%),
-        linear-gradient(180deg, #efe6d7 0%, var(--bg) 35%, #efe8dc 100%);
+        radial-gradient(circle at top left, rgba(255,255,255,0.88), transparent 28%),
+        linear-gradient(180deg, #ece3d6 0%, var(--bg) 38%, #efe8dd 100%);
+    }
+
+    button, input, select, textarea {
+      font: inherit;
+      color: inherit;
+    }
+
+    .app {
+      display: grid;
+      grid-template-rows: auto 1fr;
       min-height: 100vh;
     }
-    .app {
-      max-width: 1600px;
-      margin: 0 auto;
-      padding: 20px;
-      display: grid;
-      gap: 16px;
-    }
+
     .toolbar {
-      background: rgba(255, 250, 242, 0.92);
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      padding: 16px;
-      display: grid;
-      gap: 12px;
       position: sticky;
       top: 0;
-      backdrop-filter: blur(10px);
       z-index: 5;
+      display: grid;
+      gap: 10px;
+      padding: 12px 16px;
+      background: rgba(255, 250, 243, 0.95);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(12px);
+      box-shadow: var(--shadow);
     }
-    .titlebar {
-      display: flex;
-      justify-content: space-between;
-      gap: 12px;
+
+    .toolbar-top,
+    .toolbar-bottom {
+      display: grid;
+      gap: 10px;
       align-items: center;
-      flex-wrap: wrap;
     }
-    h1 {
-      margin: 0;
-      font-size: 24px;
-      font-weight: 700;
+
+    .toolbar-top {
+      grid-template-columns: minmax(200px, 280px) 160px 1fr auto auto auto;
     }
+
+    .toolbar-bottom {
+      grid-template-columns: minmax(180px, 1fr) minmax(180px, 1fr) 140px auto auto auto auto 220px;
+    }
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .title strong {
+      font-size: 20px;
+    }
+
     .meta {
       color: var(--muted);
       font-size: 13px;
     }
-    .controls {
+
+    .main {
       display: grid;
-      grid-template-columns: minmax(220px, 1.4fr) minmax(180px, 0.8fr) auto auto auto;
-      gap: 10px;
-      align-items: center;
-    }
-    input, select, button {
-      width: 100%;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 10px 12px;
-      font: inherit;
-      color: var(--ink);
-      background: #fffdfa;
-    }
-    button {
-      cursor: pointer;
-      background: var(--panel);
-    }
-    button:hover {
-      border-color: var(--accent);
-    }
-    .toggle {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-    .status {
-      display: flex;
+      grid-template-columns: 320px 1fr 1fr;
       gap: 14px;
-      flex-wrap: wrap;
-      font-size: 13px;
-      color: var(--muted);
+      padding: 14px;
+      min-height: 0;
     }
-    .status strong {
-      color: var(--ink);
-    }
-    .panes {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-      min-height: 72vh;
-    }
-    .pane {
-      background: rgba(255, 250, 242, 0.95);
+
+    .panel {
+      min-height: 0;
+      background: rgba(255, 250, 243, 0.96);
       border: 1px solid var(--line);
-      border-radius: 10px;
+      border-radius: 16px;
+      box-shadow: var(--shadow);
       overflow: hidden;
       display: grid;
       grid-template-rows: auto 1fr;
-      min-height: 0;
     }
-    .pane header {
+
+    .panel header {
       padding: 12px 14px;
       border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,0.42);
       display: flex;
       justify-content: space-between;
+      gap: 10px;
       align-items: center;
-      background: rgba(255,255,255,0.45);
     }
-    .pane header strong {
-      font-size: 15px;
+
+    .panel header strong {
+      font-size: 16px;
     }
-    .pane header span {
+
+    .side-tools {
+      display: grid;
+      gap: 10px;
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 9px 11px;
+      background: #fffdf8;
+    }
+
+    button {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 9px 12px;
+      background: #fffdf8;
+      cursor: pointer;
+    }
+
+    button:hover {
+      border-color: var(--accent);
+    }
+
+    .button-strong {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .button-alt {
+      background: var(--accent-2);
+      border-color: var(--accent-2);
+      color: #fff;
+    }
+
+    .button-warn {
+      background: #fff4e5;
+      border-color: #f0c48b;
+      color: #8a4b10;
+    }
+
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
       color: var(--muted);
-      font-size: 12px;
+      font-size: 13px;
     }
+
+    .file-list {
+      overflow: auto;
+      min-height: 0;
+      padding: 8px;
+      display: grid;
+      gap: 8px;
+      align-content: start;
+    }
+
+    .file-item {
+      text-align: left;
+      display: grid;
+      gap: 4px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.6);
+    }
+
+    .file-item strong {
+      font-size: 14px;
+      word-break: break-word;
+    }
+
+    .file-item span {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .file-item.is-active {
+      border-color: var(--accent);
+      background: rgba(15, 118, 110, 0.08);
+    }
+
+    .pill {
+      display: inline-flex;
+      width: fit-content;
+      border-radius: 999px;
+      padding: 3px 8px;
+      font-size: 12px;
+      background: #f0ebe4;
+    }
+
+    .pill.is-done {
+      background: #dcfce7;
+      color: var(--success);
+    }
+
+    .pill.is-todo {
+      background: #fef3c7;
+      color: var(--danger);
+    }
+
+    .pill.is-modified {
+      background: #dbeafe;
+      color: var(--accent-2);
+    }
+
     .content {
       overflow: auto;
       min-height: 0;
+      padding: 8px 0;
     }
-    .lines {
-      margin: 0;
-      padding: 0;
-      list-style: none;
+
+    .line-list {
+      display: grid;
     }
-    .line {
+
+    .line-row {
       display: grid;
       grid-template-columns: 72px 1fr;
       gap: 12px;
       padding: 8px 14px;
-      border-bottom: 1px solid rgba(220, 207, 190, 0.45);
+      border-bottom: 1px solid rgba(216, 204, 189, 0.55);
       align-items: start;
-      line-height: 1.6;
-      white-space: pre-wrap;
-      word-break: break-word;
     }
-    .line:hover {
-      background: rgba(214, 240, 236, 0.4);
-    }
+
     .line-no {
       color: var(--muted);
       font-variant-numeric: tabular-nums;
       user-select: none;
+      padding-top: 8px;
     }
-    .jp .line-text { color: var(--jp); }
-    .zh .line-text { color: var(--zh); }
-    .hint {
-      padding: 32px 20px;
-      text-align: center;
+
+    .line-text {
+      white-space: pre-wrap;
+      line-height: 1.7;
+      word-break: break-word;
+      padding: 4px 0;
+    }
+
+    .line-input-wrap {
+      display: grid;
+      gap: 4px;
+    }
+
+    .line-input {
+      min-height: 34px;
+      resize: none;
+      line-height: 1.6;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .save-state {
+      font-size: 12px;
       color: var(--muted);
     }
-    .hidden { display: none !important; }
+
+    .save-state[data-pending="true"] {
+      color: var(--danger);
+    }
+
+    .empty {
+      color: var(--muted);
+      text-align: center;
+      padding: 32px 20px;
+    }
+
+    .toast {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      max-width: 420px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      color: #fff;
+      background: rgba(29, 24, 20, 0.9);
+      box-shadow: var(--shadow);
+    }
+
+    .toast[data-type="success"] {
+      background: rgba(22, 101, 52, 0.92);
+    }
+
+    .toast[data-type="error"] {
+      background: rgba(153, 27, 27, 0.92);
+    }
+
+    @media (max-width: 1400px) {
+      .main {
+        grid-template-columns: 280px 1fr 1fr;
+      }
+      .toolbar-top {
+        grid-template-columns: 1fr 140px repeat(4, auto);
+      }
+      .toolbar-bottom {
+        grid-template-columns: 1fr 1fr 120px repeat(4, auto) 180px;
+      }
+    }
+
     @media (max-width: 1100px) {
-      .controls { grid-template-columns: 1fr 1fr; }
-      .panes { grid-template-columns: 1fr; }
-      .content { max-height: 46vh; }
+      .toolbar {
+        position: static;
+      }
+      .toolbar-top {
+        grid-template-columns: 1fr 1fr;
+      }
+      .toolbar-bottom {
+        grid-template-columns: 1fr 1fr;
+      }
+      .main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 220px 42vh 42vh;
+      }
+      .title {
+        grid-column: 1 / -1;
+      }
+      .stats {
+        grid-column: 1 / -1;
+      }
     }
   </style>
 </head>
 <body>
   <div class="app">
     <section class="toolbar">
-      <div class="titlebar">
-        <div>
-          <h1>Tamacolle 翻譯校對器</h1>
-          <div class="meta">左側為去除 ruby 的日文基準，右側為繁中譯文，支援同步卷軸與逐檔切換。</div>
+      <div class="toolbar-top">
+        <div class="title">
+          <strong>Tamacolle 翻譯校對工具</strong>
+          <span class="meta">右側可直接編輯，按 Enter 儲存。首次啟動會在本機建立中文快照。</span>
         </div>
-        <div class="meta" id="datasetMeta"></div>
+        <label><input id="syncToggle" type="checkbox" checked> 同步卷軸</label>
+        <div class="stats">
+          <span>檔案 <strong id="fileCount">0</strong></span>
+          <span>已校對 <strong id="proofreadCount">0</strong></span>
+          <span>已修改 <strong id="modifiedCount">0</strong></span>
+        </div>
+        <button id="refreshBtn" type="button">重新整理</button>
+        <button id="syncRemoteBtn" class="button-warn" type="button">同步雲端</button>
+        <button id="pushBtn" class="button-strong" type="button">推送 GitHub</button>
       </div>
-      <div class="controls">
-        <input id="searchInput" type="search" placeholder="搜尋檔名，例如 scenario_n000_7">
-        <select id="fileSelect"></select>
-        <button id="prevBtn" type="button">上一個</button>
-        <button id="nextBtn" type="button">下一個</button>
-        <label class="toggle"><input id="syncToggle" type="checkbox" checked>同步卷軸</label>
+
+      <div class="toolbar-bottom">
+        <input id="replaceFind" type="text" placeholder="快速取代: 尋找">
+        <input id="replaceTo" type="text" placeholder="快速取代: 取代成">
+        <select id="replaceScope">
+          <option value="current">目前檔案</option>
+          <option value="all">所有檔案</option>
+        </select>
+        <label><input id="caseSensitive" type="checkbox" checked> 大小寫區分</label>
+        <label><input id="useRegex" type="checkbox"> Regex</label>
+        <button id="replacePreviewBtn" type="button">預覽</button>
+        <button id="replaceRunBtn" type="button">全部取代</button>
+        <input id="commitMessage" type="text" placeholder="提交訊息，可留空">
       </div>
-      <div class="status">
-        <div><strong id="currentFile">-</strong></div>
-        <div>總檔案數：<strong id="fileCount">0</strong></div>
-        <div>日文行數：<strong id="jpLines">0</strong></div>
-        <div>譯文行數：<strong id="zhLines">0</strong></div>
-      </div>
+
+      <div class="meta" id="replaceStatus">快速取代會先顯示預覽，正式執行時會建立本機備份。</div>
+      <div class="meta" id="gitSummary">讀取中...</div>
     </section>
 
-    <section class="panes">
-      <article class="pane jp">
-        <header><strong>日文基準</strong><span>已去除 ruby</span></header>
-        <div class="content" id="jpPane"><div class="hint">載入中…</div></div>
-      </article>
-      <article class="pane zh">
-        <header><strong>繁中譯文</strong><span>目前翻譯成品</span></header>
-        <div class="content" id="zhPane"><div class="hint">載入中…</div></div>
-      </article>
-    </section>
+    <main class="main">
+      <aside class="panel">
+        <header>
+          <strong>檔案清單</strong>
+          <span id="currentFile">尚未選擇檔案</span>
+        </header>
+        <div class="side-tools">
+          <input id="fileSearch" type="search" placeholder="搜尋檔名">
+          <select id="proofreadFilter">
+            <option value="all">全部檔案</option>
+            <option value="todo">只看未校對</option>
+            <option value="done">只看已校對</option>
+            <option value="modified">只看已修改</option>
+          </select>
+          <div class="stats">
+            <button id="markDoneBtn" class="button-alt" type="button">標記已校對</button>
+            <button id="markTodoBtn" type="button">取消校對</button>
+          </div>
+          <div class="meta" id="currentMeta"></div>
+        </div>
+        <div class="file-list" id="fileList"></div>
+      </aside>
+
+      <section class="panel">
+        <header>
+          <strong>日文原文</strong>
+          <span>ja_noruby/raw</span>
+        </header>
+        <div class="content" id="jpPane"></div>
+      </section>
+
+      <section class="panel">
+        <header>
+          <strong>中文翻譯</strong>
+          <span>zh_tw/raw</span>
+        </header>
+        <div class="content" id="zhPane"></div>
+      </section>
+    </main>
   </div>
-  <script src="./review-data.js"></script>
-  <script>
-    const data = window.TAMACOLLE_REVIEW_DATA || { files: [] };
-    const fileSelect = document.getElementById("fileSelect");
-    const searchInput = document.getElementById("searchInput");
-    const prevBtn = document.getElementById("prevBtn");
-    const nextBtn = document.getElementById("nextBtn");
-    const syncToggle = document.getElementById("syncToggle");
-    const currentFile = document.getElementById("currentFile");
-    const fileCount = document.getElementById("fileCount");
-    const jpLines = document.getElementById("jpLines");
-    const zhLines = document.getElementById("zhLines");
-    const datasetMeta = document.getElementById("datasetMeta");
-    const jpPane = document.getElementById("jpPane");
-    const zhPane = document.getElementById("zhPane");
 
-    let filteredFiles = [...data.files];
-    let currentIndex = 0;
-    let syncing = false;
-
-    function buildLines(lines) {
-      const list = document.createElement("ol");
-      list.className = "lines";
-      lines.forEach((text, index) => {
-        const item = document.createElement("li");
-        item.className = "line";
-        const no = document.createElement("span");
-        no.className = "line-no";
-        no.textContent = index + 1;
-        const body = document.createElement("span");
-        body.className = "line-text";
-        body.textContent = text;
-        item.append(no, body);
-        list.appendChild(item);
-      });
-      return list;
-    }
-
-    function renderCurrentFile() {
-      const entry = filteredFiles[currentIndex];
-      if (!entry) {
-        currentFile.textContent = "找不到檔案";
-        jpPane.innerHTML = '<div class="hint">沒有符合搜尋條件的檔案。</div>';
-        zhPane.innerHTML = '<div class="hint">沒有符合搜尋條件的檔案。</div>';
-        jpLines.textContent = "0";
-        zhLines.textContent = "0";
-        return;
-      }
-
-      currentFile.textContent = entry.name;
-      jpLines.textContent = String(entry.jp.length);
-      zhLines.textContent = String(entry.zh.length);
-
-      jpPane.innerHTML = "";
-      zhPane.innerHTML = "";
-      jpPane.appendChild(buildLines(entry.jp));
-      zhPane.appendChild(buildLines(entry.zh));
-      jpPane.scrollTop = 0;
-      zhPane.scrollTop = 0;
-      fileSelect.value = entry.name;
-    }
-
-    function syncScroll(source, target) {
-      if (!syncToggle.checked || syncing) return;
-      const maxSource = source.scrollHeight - source.clientHeight;
-      const ratio = maxSource > 0 ? source.scrollTop / maxSource : 0;
-      const maxTarget = target.scrollHeight - target.clientHeight;
-      syncing = true;
-      target.scrollTop = ratio * Math.max(maxTarget, 0);
-      requestAnimationFrame(() => { syncing = false; });
-    }
-
-    function refreshFileList() {
-      fileSelect.innerHTML = "";
-      filteredFiles.forEach((entry) => {
-        const option = document.createElement("option");
-        option.value = entry.name;
-        option.textContent = entry.name;
-        fileSelect.appendChild(option);
-      });
-      fileCount.textContent = String(filteredFiles.length);
-      if (currentIndex >= filteredFiles.length) currentIndex = 0;
-      renderCurrentFile();
-    }
-
-    searchInput.addEventListener("input", () => {
-      const keyword = searchInput.value.trim().toLowerCase();
-      filteredFiles = keyword
-        ? data.files.filter((entry) => entry.name.toLowerCase().includes(keyword))
-        : [...data.files];
-      currentIndex = 0;
-      refreshFileList();
-    });
-
-    fileSelect.addEventListener("change", () => {
-      currentIndex = Math.max(filteredFiles.findIndex((entry) => entry.name === fileSelect.value), 0);
-      renderCurrentFile();
-    });
-
-    prevBtn.addEventListener("click", () => {
-      if (!filteredFiles.length) return;
-      currentIndex = (currentIndex - 1 + filteredFiles.length) % filteredFiles.length;
-      renderCurrentFile();
-    });
-
-    nextBtn.addEventListener("click", () => {
-      if (!filteredFiles.length) return;
-      currentIndex = (currentIndex + 1) % filteredFiles.length;
-      renderCurrentFile();
-    });
-
-    jpPane.addEventListener("scroll", () => syncScroll(jpPane, zhPane));
-    zhPane.addEventListener("scroll", () => syncScroll(zhPane, jpPane));
-
-    datasetMeta.textContent = `資料建立時間：${data.generatedAt || "-"}`
-    fileCount.textContent = String(filteredFiles.length);
-    refreshFileList();
-  </script>
+  <div class="toast" id="toast" hidden></div>
+  <script src="./app.js"></script>
 </body>
 </html>

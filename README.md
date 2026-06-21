@@ -45,7 +45,19 @@ repo-root/
 ### `review/`
 
 校對工具。  
-若 GitHub Pages 已啟用，可以直接用：
+
+本機啟動入口：
+
+- [review/start-review.ps1](review/start-review.ps1)
+- [review/index.html](review/index.html)
+
+啟動後預設開在：
+
+```txt
+http://127.0.0.1:8767/
+```
+
+若 GitHub Pages 已啟用，也可以放在：
 
 ```txt
 https://你的帳號.github.io/你的repo/review/
@@ -117,6 +129,12 @@ https://example.github.io/tamacolle-translation/review/
 - `userscript/tamacolle_scenario_zh_tw_mount.user.js`
 
 之後進入 Tamacolle 頁面，就會從 GitHub Pages 讀取翻譯劇本，不需要再開本機伺服器。
+
+## 校對工具快速入口
+
+- 啟動腳本：[review/start-review.ps1](review/start-review.ps1)
+- 校對工具目錄：[review/](review/)
+- 本機校對網址：`http://127.0.0.1:8767/`
 
 ## 注意事項
 
