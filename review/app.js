@@ -35,6 +35,7 @@ const state = {
   bootstrap: null,
   autoGrowQueue: new Set(),
   autoGrowRaf: 0,
+  renderTimer: 0,
 };
 
 const elements = {
@@ -829,6 +830,10 @@ function createCompareRow(lineNo, jpLine, zhLine) {
 async function renderScenario() {
   const scenario = state.currentScenario;
   const renderToken = ++state.renderToken;
+  if (state.renderTimer) {
+    clearTimeout(state.renderTimer);
+    state.renderTimer = 0;
+  }
   if (!scenario) {
     elements.currentFile.textContent = "尚未選取檔案";
     elements.currentMeta.textContent = "";
@@ -844,21 +849,46 @@ async function renderScenario() {
   elements.comparePane.innerHTML = "";
   elements.comparePane.appendChild(list);
 
-  const batchSize = maxLines > 12000 ? 120 : 240;
-  for (let start = 0; start < maxLines; start += batchSize) {
+  const firstBatchSize = maxLines > 12000 ? 40 : 80;
+  const batchSize = maxLines > 12000 ? 80 : 160;
+
+  function appendRange(start, size) {
     if (renderToken !== state.renderToken) {
-      return;
+      return start;
     }
     const fragment = document.createDocumentFragment();
-    const end = Math.min(start + batchSize, maxLines);
+    const end = Math.min(start + size, maxLines);
     for (let index = start; index < end; index += 1) {
       fragment.appendChild(createCompareRow(index + 1, scenario.jp[index] ?? "", scenario.zh[index] ?? ""));
     }
     list.appendChild(fragment);
     elements.currentMeta.textContent = `日文 ${scenario.jp.length} 行 | 中文 ${scenario.zh.length} 行 | 已載入 ${end}/${maxLines}`;
-    await new Promise((resolve) => requestAnimationFrame(resolve));
+    return end;
   }
-  elements.currentMeta.textContent = `日文 ${scenario.jp.length} 行 | 中文 ${scenario.zh.length} 行`;
+
+  let rendered = appendRange(0, firstBatchSize);
+  if (renderToken !== state.renderToken) {
+    return;
+  }
+
+  const appendDeferred = () => {
+    if (renderToken !== state.renderToken) {
+      return;
+    }
+    rendered = appendRange(rendered, batchSize);
+    if (rendered < maxLines) {
+      state.renderTimer = setTimeout(appendDeferred, 0);
+      return;
+    }
+    state.renderTimer = 0;
+    elements.currentMeta.textContent = `日文 ${scenario.jp.length} 行 | 中文 ${scenario.zh.length} 行`;
+  };
+
+  if (rendered < maxLines) {
+    state.renderTimer = setTimeout(appendDeferred, 0);
+  } else {
+    elements.currentMeta.textContent = `日文 ${scenario.jp.length} 行 | 中文 ${scenario.zh.length} 行`;
+  }
 }
 
 async function loadScenario(name) {
