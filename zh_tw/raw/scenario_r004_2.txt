@@ -22,19 +22,19 @@
 [delay 0.2 move A Y 10 0.2]
 [-]
 [serif on 0.5]
-嘆氣……嘆氣……是我……
-這是我的錯.../
+哈……哈……是我……
+難道是我的問題嗎.../
 [face A 13]
 [shake A]
-為什麼你對我這麼生氣...[move A Y -30 0.2]像這樣...[move A Y -30 0.2]
-這絕對是錯的…！ ！ ！/
+為什麼我總是被罵...[move A Y -30 0.2]這樣的事情...[move A Y -30 0.2]
+這樣的事，絕對不正常吧…！ ！ ！/
 [shake A]
 這個工作...[scale A 2.0 0.3][move A Y -100 0.3][-][face A 15][effect fr syutyu a 0 100]
-不是全黑了嗎？ ！ ！[shake A][-][effect off a][effect fr syutyu b 0 400][shakebg][minibg off 0.3][bg sky_sunset 0.5][scale A 2.5 0.3][move A Y -1000 0.5][delay 0.5 fadein WHITE 1.0]/
+根本是黑心企業吧 ーーーーー！！ ！[shake A][-][effect off a][effect fr syutyu b 0 400][shakebg][minibg off 0.3][bg sky_sunset 0.5][scale A 2.5 0.3][move A Y -1000 0.5][delay 0.5 fadein WHITE 1.0]/
 [serif off 1.0]
 [-]
 [bgm off]
-[title プロローグ 社畜として生きる]
+[title 序章 社畜的生活]
 [-]
 [effect off b]
 [hideall]
