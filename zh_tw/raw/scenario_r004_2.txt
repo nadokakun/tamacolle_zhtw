@@ -47,14 +47,14 @@
 [serif on]
 [talkend]
 [textcolor BLUE]
-很久以前了。
-我精力充沛，工作努力。/
+很久以前。
+我工作努力，而且效率很高。/
 [show B L]
 [color B BLACK]
 [move B C 1.0]
 [textcolor BLUE]
-今天我們運載了100個靈魂。
-承載死者的靈魂。[wait 0.5]這就是我的工作。/
+今天我們運送了100個靈魂。
+運送死者的靈魂。[wait 0.5]這就是我的工作。/
 [show A C]
 [order A 1]
 [order B 0]
@@ -65,7 +65,7 @@
 [talk A]
 [move A Y 10 0.4]
 [delay 0.4 move A Y -10 1.0]
-呼……不過我最近真的很忙……/
+呼……不過最近真的忙翻了……/
 [face A 11]
 [talkend]
 [textcolor BLUE]
@@ -74,8 +74,8 @@
 [face A 12]
 [move A X 300 0.5]
 [textcolor BLUE]
-走這邊，走這邊。[move A X -500 0.8]
-已經很難了。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
+一下跑去這邊，一下跑去那邊。[move A X -500 0.8]
+真的是快要累死了。[move A Y 10 0.4][delay 0.4 move A Y -10 1.0]/
 [serif off]
 [show T L]
 [rotate T -90]
