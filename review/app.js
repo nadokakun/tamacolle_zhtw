@@ -3,11 +3,15 @@ const state = {
   filteredFiles: [],
   currentName: "",
   currentScenario: null,
-  syncScroll: true,
   savingLine: new Set(),
+  sidebarCollapsed: false,
 };
 
 const elements = {
+  main: document.querySelector(".main"),
+  sidebarPanel: document.getElementById("sidebarPanel"),
+  toggleSidebarBtn: document.getElementById("toggleSidebarBtn"),
+  reopenSidebarBtn: document.getElementById("reopenSidebarBtn"),
   fileSearch: document.getElementById("fileSearch"),
   proofreadFilter: document.getElementById("proofreadFilter"),
   fileList: document.getElementById("fileList"),
@@ -16,12 +20,10 @@ const elements = {
   modifiedCount: document.getElementById("modifiedCount"),
   currentFile: document.getElementById("currentFile"),
   currentMeta: document.getElementById("currentMeta"),
-  syncToggle: document.getElementById("syncToggle"),
   refreshBtn: document.getElementById("refreshBtn"),
   syncRemoteBtn: document.getElementById("syncRemoteBtn"),
   pushBtn: document.getElementById("pushBtn"),
   commitMessage: document.getElementById("commitMessage"),
-  gitSummary: document.getElementById("gitSummary"),
   replaceFind: document.getElementById("replaceFind"),
   replaceTo: document.getElementById("replaceTo"),
   replaceScope: document.getElementById("replaceScope"),
@@ -33,7 +35,28 @@ const elements = {
   jpPane: document.getElementById("jpPane"),
   zhPane: document.getElementById("zhPane"),
   toast: document.getElementById("toast"),
+  progressModal: document.getElementById("progressModal"),
+  progressTitle: document.getElementById("progressTitle"),
+  progressMessage: document.getElementById("progressMessage"),
+  progressLog: document.getElementById("progressLog"),
+  progressSpinner: document.getElementById("progressSpinner"),
+  progressCloseBtn: document.getElementById("progressCloseBtn"),
 };
+
+function applySidebarState() {
+  elements.main.classList.toggle("is-sidebar-collapsed", state.sidebarCollapsed);
+  elements.sidebarPanel.classList.toggle("is-collapsed", state.sidebarCollapsed);
+  elements.toggleSidebarBtn.textContent = state.sidebarCollapsed ? "展開" : "收起";
+  elements.toggleSidebarBtn.setAttribute("aria-expanded", String(!state.sidebarCollapsed));
+  elements.reopenSidebarBtn.classList.toggle("is-visible", state.sidebarCollapsed);
+  elements.reopenSidebarBtn.setAttribute("aria-expanded", String(!state.sidebarCollapsed));
+}
+
+function toggleSidebar() {
+  state.sidebarCollapsed = !state.sidebarCollapsed;
+  localStorage.setItem("tamacolle-review-sidebar-collapsed", state.sidebarCollapsed ? "1" : "0");
+  applySidebarState();
+}
 
 function showToast(message, type = "info") {
   elements.toast.textContent = message;
@@ -43,6 +66,36 @@ function showToast(message, type = "info") {
   showToast.timer = setTimeout(() => {
     elements.toast.hidden = true;
   }, 2600);
+}
+
+function setProgressState({
+  title,
+  message,
+  log = "",
+  closable = false,
+  busy = true,
+}) {
+  elements.progressTitle.textContent = title;
+  elements.progressMessage.textContent = message;
+  elements.progressSpinner.hidden = !busy;
+  elements.progressCloseBtn.hidden = !closable;
+
+  if (log) {
+    elements.progressLog.hidden = false;
+    elements.progressLog.textContent = log;
+  } else {
+    elements.progressLog.hidden = true;
+    elements.progressLog.textContent = "";
+  }
+}
+
+function openProgressModal(config) {
+  setProgressState(config);
+  elements.progressModal.hidden = false;
+}
+
+function closeProgressModal() {
+  elements.progressModal.hidden = true;
 }
 
 async function api(path, options = {}) {
@@ -116,7 +169,40 @@ function updateMeta(summary) {
   elements.fileCount.textContent = String(summary.fileCount);
   elements.proofreadCount.textContent = String(summary.proofreadCount);
   elements.modifiedCount.textContent = String(summary.modifiedCount);
-  elements.gitSummary.textContent = `分支 ${summary.git.branch} | ${summary.git.dirty ? "有未提交修改" : "工作樹乾淨"}`;
+}
+
+function syncRowPairHeight(jpRow, zhRow) {
+  if (!jpRow || !zhRow) {
+    return;
+  }
+
+  jpRow.style.minHeight = "";
+  zhRow.style.minHeight = "";
+  const height = Math.max(jpRow.offsetHeight, zhRow.offsetHeight);
+  jpRow.style.minHeight = `${height}px`;
+  zhRow.style.minHeight = `${height}px`;
+}
+
+function syncRenderedRowHeights() {
+  const jpRows = Array.from(elements.jpPane.querySelectorAll(".line-row"));
+  const zhRows = Array.from(elements.zhPane.querySelectorAll(".line-row"));
+  const count = Math.min(jpRows.length, zhRows.length);
+
+  for (let index = 0; index < count; index += 1) {
+    syncRowPairHeight(jpRows[index], zhRows[index]);
+  }
+}
+
+function markCurrentFileModified() {
+  const current = state.files.find((file) => file.name === state.currentName);
+  if (!current || current.modified) {
+    return;
+  }
+
+  current.modified = true;
+  const modifiedCount = state.files.filter((file) => file.modified).length;
+  elements.modifiedCount.textContent = String(modifiedCount);
+  renderFileList();
 }
 
 function renderScenario() {
@@ -171,11 +257,14 @@ function renderScenario() {
     const saveState = document.createElement("span");
     saveState.className = "save-state";
     saveState.textContent = "已儲存";
+    saveState.dataset.state = "saved";
 
     input.addEventListener("input", () => {
       saveState.textContent = "未儲存";
       saveState.dataset.pending = "true";
+      saveState.dataset.state = "pending";
       autoGrow(input);
+      requestAnimationFrame(() => syncRowPairHeight(jpRow, zhRow));
     });
 
     input.addEventListener("keydown", async (event) => {
@@ -205,6 +294,7 @@ function renderScenario() {
 
   elements.jpPane.appendChild(jpList);
   elements.zhPane.appendChild(zhList);
+  requestAnimationFrame(syncRenderedRowHeights);
 }
 
 function autoGrow(textarea) {
@@ -220,6 +310,7 @@ async function saveLine(lineNo, input, saveState) {
 
   state.savingLine.add(key);
   saveState.textContent = "儲存中...";
+  saveState.dataset.state = "saving";
 
   try {
     await api("/api/save-line", {
@@ -234,10 +325,18 @@ async function saveLine(lineNo, input, saveState) {
     state.currentScenario.zh[lineNo - 1] = input.value;
     saveState.textContent = "已儲存";
     delete saveState.dataset.pending;
+    saveState.dataset.state = "saved";
+    markCurrentFileModified();
     showToast(`第 ${lineNo} 行已儲存`, "success");
-    await refreshSummary(false);
+    requestAnimationFrame(() => {
+      const lineIndex = lineNo - 1;
+      const jpRow = elements.jpPane.querySelectorAll(".line-row")[lineIndex];
+      const zhRow = elements.zhPane.querySelectorAll(".line-row")[lineIndex];
+      syncRowPairHeight(jpRow, zhRow);
+    });
   } catch (error) {
     saveState.textContent = "儲存失敗";
+    saveState.dataset.state = "error";
     showToast(error.message, "error");
   } finally {
     state.savingLine.delete(key);
@@ -320,48 +419,88 @@ async function runReplace() {
 }
 
 async function syncRemote() {
-  const result = await api("/api/sync-remote", { method: "POST", body: "{}" });
-  showToast(result.stdout || "已完成同步", "success");
-  await refreshSummary(true);
-  if (state.currentName) {
-    await loadScenario(state.currentName);
+  openProgressModal({
+    title: "同步雲端中",
+    message: "正在從 GitHub 拉取最新內容，請稍候...",
+    busy: true,
+    closable: false,
+  });
+
+  try {
+    const result = await api("/api/sync-remote", { method: "POST", body: "{}" });
+    setProgressState({
+      title: "同步完成",
+      message: "已完成雲端同步。",
+      log: [result.stdout, result.stderr].filter(Boolean).join("\n\n"),
+      busy: false,
+      closable: true,
+    });
+    showToast(result.stdout || "已完成同步", "success");
+    await refreshSummary(true);
+    if (state.currentName) {
+      await loadScenario(state.currentName);
+    }
+  } catch (error) {
+    setProgressState({
+      title: "同步失敗",
+      message: error.message,
+      busy: false,
+      closable: true,
+    });
+    showToast(error.message, "error");
   }
 }
 
 async function pushChanges() {
-  const result = await api("/api/git-push", {
-    method: "POST",
-    body: JSON.stringify({ message: elements.commitMessage.value }),
+  openProgressModal({
+    title: "推送 GitHub 中",
+    message: "正在整理變更、提交並推送到 GitHub，請稍候...",
+    busy: true,
+    closable: false,
   });
-  showToast(result.commitCreated ? "已提交並推送到 GitHub" : "沒有新變更，但已嘗試推送", "success");
-  await refreshSummary(true);
-}
 
-function wireScrollSync() {
-  let locked = false;
-  const sync = (source, target) => {
-    if (!state.syncScroll || locked) {
-      return;
-    }
-    locked = true;
-    const maxSource = Math.max(source.scrollHeight - source.clientHeight, 1);
-    const maxTarget = Math.max(target.scrollHeight - target.clientHeight, 1);
-    target.scrollTop = (source.scrollTop / maxSource) * maxTarget;
-    requestAnimationFrame(() => {
-      locked = false;
+  try {
+    const result = await api("/api/git-push", {
+      method: "POST",
+      body: JSON.stringify({ message: elements.commitMessage.value }),
     });
-  };
+    const logParts = [];
+    if (result.message) {
+      logParts.push(`提交訊息: ${result.message}`);
+    }
+    if (result.stdout) {
+      logParts.push(result.stdout);
+    }
+    if (result.stderr) {
+      logParts.push(result.stderr);
+    }
 
-  elements.jpPane.addEventListener("scroll", () => sync(elements.jpPane, elements.zhPane));
-  elements.zhPane.addEventListener("scroll", () => sync(elements.zhPane, elements.jpPane));
+    setProgressState({
+      title: "推送完成",
+      message: result.commitCreated ? "已提交並推送到 GitHub。" : "沒有新變更，但已完成推送檢查。",
+      log: logParts.join("\n\n"),
+      busy: false,
+      closable: true,
+    });
+    showToast(result.commitCreated ? "已提交並推送到 GitHub" : "沒有新變更，但已嘗試推送", "success");
+    await refreshSummary(true);
+  } catch (error) {
+    setProgressState({
+      title: "推送失敗",
+      message: error.message,
+      busy: false,
+      closable: true,
+    });
+    showToast(error.message, "error");
+  }
 }
 
 function bindEvents() {
+  elements.toggleSidebarBtn.addEventListener("click", toggleSidebar);
+  elements.reopenSidebarBtn.addEventListener("click", toggleSidebar);
+  elements.progressCloseBtn.addEventListener("click", closeProgressModal);
   elements.fileSearch.addEventListener("input", renderFileList);
   elements.proofreadFilter.addEventListener("change", renderFileList);
-  elements.syncToggle.addEventListener("change", () => {
-    state.syncScroll = elements.syncToggle.checked;
-  });
   elements.refreshBtn.addEventListener("click", async () => {
     await refreshSummary(true);
     if (state.currentName) {
@@ -377,8 +516,9 @@ function bindEvents() {
 }
 
 async function init() {
+  state.sidebarCollapsed = localStorage.getItem("tamacolle-review-sidebar-collapsed") === "1";
+  applySidebarState();
   bindEvents();
-  wireScrollSync();
   const summary = await refreshSummary(false);
   if (summary.files[0]) {
     await loadScenario(summary.files[0].name);

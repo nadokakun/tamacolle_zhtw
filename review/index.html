@@ -60,7 +60,7 @@
     }
 
     .toolbar-top {
-      grid-template-columns: minmax(200px, 280px) 160px 1fr auto auto auto;
+      grid-template-columns: minmax(200px, 320px) 1fr auto auto auto;
     }
 
     .toolbar-bottom {
@@ -90,6 +90,24 @@
       min-height: 0;
     }
 
+    .main.is-sidebar-collapsed {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .sidebar-reopen {
+      display: none;
+      position: fixed;
+      left: 14px;
+      top: 150px;
+      z-index: 6;
+      box-shadow: var(--shadow);
+      background: rgba(255, 250, 243, 0.96);
+    }
+
+    .sidebar-reopen.is-visible {
+      display: inline-flex;
+    }
+
     .panel {
       min-height: 0;
       background: rgba(255, 250, 243, 0.96);
@@ -115,6 +133,24 @@
       font-size: 16px;
     }
 
+    .panel-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .collapse-btn {
+      padding: 6px 10px;
+      line-height: 1;
+      min-width: 0;
+      white-space: nowrap;
+    }
+
+    .sidebar-panel.is-collapsed {
+      display: none;
+    }
+
     .side-tools {
       display: grid;
       gap: 10px;
@@ -128,6 +164,11 @@
       border-radius: 10px;
       padding: 9px 11px;
       background: #fffdf8;
+    }
+
+    input[type="checkbox"] {
+      width: auto;
+      margin: 0;
     }
 
     button {
@@ -166,6 +207,14 @@
       gap: 12px;
       color: var(--muted);
       font-size: 13px;
+    }
+
+    .toggle-inline {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+      color: var(--ink);
     }
 
     .file-list {
@@ -238,9 +287,9 @@
 
     .line-row {
       display: grid;
-      grid-template-columns: 72px 1fr;
-      gap: 12px;
-      padding: 8px 14px;
+      grid-template-columns: 44px 1fr;
+      gap: 10px;
+      padding: 6px 12px;
       border-bottom: 1px solid rgba(216, 204, 189, 0.55);
       align-items: start;
     }
@@ -249,19 +298,22 @@
       color: var(--muted);
       font-variant-numeric: tabular-nums;
       user-select: none;
-      padding-top: 8px;
+      padding-top: 7px;
+      text-align: right;
     }
 
     .line-text {
       white-space: pre-wrap;
-      line-height: 1.7;
+      line-height: 1.6;
       word-break: break-word;
-      padding: 4px 0;
+      padding: 6px 0;
     }
 
     .line-input-wrap {
       display: grid;
-      gap: 4px;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
+      align-items: center;
     }
 
     .line-input {
@@ -270,15 +322,31 @@
       line-height: 1.6;
       overflow: hidden;
       background: #fff;
+      padding: 8px 12px;
     }
 
     .save-state {
       font-size: 12px;
       color: var(--muted);
+      white-space: nowrap;
+      align-self: center;
+      padding: 6px 0;
     }
 
     .save-state[data-pending="true"] {
       color: var(--danger);
+    }
+
+    .save-state[data-state="saved"] {
+      color: var(--muted);
+    }
+
+    .save-state[data-state="saving"] {
+      color: var(--accent-2);
+    }
+
+    .save-state[data-state="error"] {
+      color: #991b1b;
     }
 
     .empty {
@@ -307,12 +375,88 @@
       background: rgba(153, 27, 27, 0.92);
     }
 
+    .progress-modal[hidden] {
+      display: none;
+    }
+
+    .progress-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 20;
+      display: grid;
+      place-items: center;
+      padding: 20px;
+      background: rgba(29, 24, 20, 0.26);
+      backdrop-filter: blur(4px);
+    }
+
+    .progress-card {
+      width: min(560px, 100%);
+      display: grid;
+      gap: 12px;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255, 250, 243, 0.98);
+      box-shadow: var(--shadow);
+    }
+
+    .progress-card h2 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .progress-message {
+      color: var(--muted);
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .progress-log {
+      max-height: 240px;
+      overflow: auto;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fffdf8;
+      color: var(--ink);
+      font-size: 13px;
+      line-height: 1.55;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .progress-actions {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .spinner {
+      width: 18px;
+      height: 18px;
+      border: 2px solid rgba(15, 118, 110, 0.2);
+      border-top-color: var(--accent);
+      border-radius: 999px;
+      animation: spin 0.8s linear infinite;
+    }
+
+    .progress-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
     @media (max-width: 1400px) {
       .main {
         grid-template-columns: 280px 1fr 1fr;
       }
       .toolbar-top {
-        grid-template-columns: 1fr 140px repeat(4, auto);
+        grid-template-columns: 1fr repeat(3, auto) auto;
       }
       .toolbar-bottom {
         grid-template-columns: 1fr 1fr 120px repeat(4, auto) 180px;
@@ -339,6 +483,11 @@
       .stats {
         grid-column: 1 / -1;
       }
+      .sidebar-reopen {
+        top: auto;
+        bottom: 20px;
+        left: 20px;
+      }
     }
   </style>
 </head>
@@ -350,7 +499,6 @@
           <strong>Tamacolle 翻譯校對工具</strong>
           <span class="meta">右側可直接編輯，按 Enter 儲存。首次啟動會在本機建立中文快照。</span>
         </div>
-        <label><input id="syncToggle" type="checkbox" checked> 同步卷軸</label>
         <div class="stats">
           <span>檔案 <strong id="fileCount">0</strong></span>
           <span>已校對 <strong id="proofreadCount">0</strong></span>
@@ -368,21 +516,25 @@
           <option value="current">目前檔案</option>
           <option value="all">所有檔案</option>
         </select>
-        <label><input id="caseSensitive" type="checkbox" checked> 大小寫區分</label>
-        <label><input id="useRegex" type="checkbox"> Regex</label>
+        <label class="toggle-inline"><input id="caseSensitive" type="checkbox" checked><span>大小寫區分</span></label>
+        <label class="toggle-inline"><input id="useRegex" type="checkbox"><span>Regex</span></label>
         <button id="replacePreviewBtn" type="button">預覽</button>
         <button id="replaceRunBtn" type="button">全部取代</button>
         <input id="commitMessage" type="text" placeholder="提交訊息，可留空">
       </div>
 
       <div class="meta" id="replaceStatus">快速取代會先顯示預覽，正式執行時會建立本機備份。</div>
-      <div class="meta" id="gitSummary">讀取中...</div>
     </section>
 
+    <button id="reopenSidebarBtn" class="collapse-btn sidebar-reopen" type="button" aria-expanded="false">展開檔案列表</button>
+
     <main class="main">
-      <aside class="panel">
+      <aside class="panel sidebar-panel" id="sidebarPanel">
         <header>
-          <strong>檔案清單</strong>
+          <div class="panel-title">
+            <strong>檔案清單</strong>
+            <button id="toggleSidebarBtn" class="collapse-btn" type="button" aria-expanded="true">收起</button>
+          </div>
           <span id="currentFile">尚未選擇檔案</span>
         </header>
         <div class="side-tools">
@@ -421,6 +573,19 @@
   </div>
 
   <div class="toast" id="toast" hidden></div>
+  <div class="progress-modal" id="progressModal" hidden>
+    <div class="progress-card">
+      <div class="progress-head">
+        <div class="spinner" id="progressSpinner"></div>
+        <h2 id="progressTitle">處理中</h2>
+      </div>
+      <div class="progress-message" id="progressMessage">請稍候...</div>
+      <div class="progress-log" id="progressLog" hidden></div>
+      <div class="progress-actions">
+        <button id="progressCloseBtn" type="button" hidden>關閉</button>
+      </div>
+    </div>
+  </div>
   <script src="./app.js"></script>
 </body>
 </html>

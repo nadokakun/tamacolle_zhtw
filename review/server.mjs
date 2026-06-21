@@ -162,7 +162,7 @@ async function runGit(args, options = {}) {
 async function getGitStatus() {
   const [branchResult, statusResult] = await Promise.all([
     runGit(["rev-parse", "--abbrev-ref", "HEAD"]),
-    runGit(["status", "--short", "--", "zh_tw/raw", "review/proofread-status.json"]),
+    runGit(["status", "--short"]),
   ]);
 
   const lines = statusResult.stdout ? statusResult.stdout.split(/\r?\n/) : [];
@@ -428,7 +428,7 @@ async function syncRemote() {
     throw new Error("本機有未提交的翻譯或校對標記，請先提交或推送後再同步。");
   }
 
-  const pullResult = await runGit(["pull", "--ff-only", "origin", "main"]);
+  const pullResult = await runGit(["pull", "--ff-only", "--autostash", "origin", gitStatus.branch]);
   return {
     ok: true,
     stdout: pullResult.stdout,
@@ -439,16 +439,33 @@ async function syncRemote() {
 async function pushChanges(payload) {
   const message = String(payload.message || "").trim() || `review: update translations ${new Date().toISOString().slice(0, 19)}`;
   const statusBefore = await getGitStatus();
+  const branch = statusBefore.branch || "main";
 
-  await runGit(["add", "zh_tw/raw", "review/proofread-status.json"]);
+  await runGit(["add", "-A"]);
 
-  const staged = await runGit(["status", "--short", "--", "zh_tw/raw", "review/proofread-status.json"]);
+  const staged = await runGit(["status", "--short"]);
   const hasChanges = Boolean(staged.stdout);
 
   let commitCreated = false;
   if (hasChanges) {
     await runGit(["commit", "-m", message]);
     commitCreated = true;
+  }
+
+  let rebaseResult = { stdout: "", stderr: "" };
+  try {
+    rebaseResult = await runGit(["pull", "--rebase", "--autostash", "origin", branch]);
+  } catch (error) {
+    const stdout = error.stdout?.trim?.() || "";
+    const stderr = error.stderr?.trim?.() || "";
+    throw new Error(
+      [
+        "推送前自動整合遠端變更失敗。",
+        "請先處理 rebase 衝突後再重試。",
+        stdout,
+        stderr,
+      ].filter(Boolean).join("\n\n"),
+    );
   }
 
   const pushResult = await runGit(["push", "origin", "HEAD"]);
@@ -460,8 +477,8 @@ async function pushChanges(payload) {
     message,
     before: statusBefore,
     after: statusAfter,
-    stdout: pushResult.stdout,
-    stderr: pushResult.stderr,
+    stdout: [rebaseResult.stdout, pushResult.stdout].filter(Boolean).join("\n\n"),
+    stderr: [rebaseResult.stderr, pushResult.stderr].filter(Boolean).join("\n\n"),
   };
 }
 
