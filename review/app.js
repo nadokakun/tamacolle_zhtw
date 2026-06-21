@@ -1386,6 +1386,43 @@ function bindEvents() {
   document.getElementById("markDoneBtn").addEventListener("click", () => setProofread(true));
   document.getElementById("markTodoBtn").addEventListener("click", () => setProofread(false));
 
+  // Intercept config submits before the legacy handler so the modal never gets stuck open.
+  elements.configForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    event.stopImmediatePropagation();
+
+    try {
+      const nextConfig = {
+        ...state.repoConfig,
+        owner: elements.configOwner.value.trim() || DEFAULT_REPO_CONFIG.owner,
+        repo: elements.configRepo.value.trim() || DEFAULT_REPO_CONFIG.repo,
+        branch: elements.configBranch.value.trim() || DEFAULT_REPO_CONFIG.branch,
+        token: elements.configToken.value.trim(),
+      };
+
+      const changed = ["owner", "repo", "branch", "token"].some((key) => nextConfig[key] !== state.repoConfig[key]);
+      state.repoConfig = nextConfig;
+      saveRepoConfig();
+      updateRepoSummary();
+      elements.configStatus.textContent = "設定已儲存。";
+      closeConfigModal();
+
+      if (changed) {
+        try {
+          await putMeta("bootstrap", null);
+          state.bootstrap = null;
+        } catch (error) {
+          console.error("Failed to reset bootstrap cache after config change.", error);
+        }
+      }
+
+      showToast("GitHub 設定已更新", "success");
+    } catch (error) {
+      closeConfigModal();
+      showToast(error.message || "儲存設定時發生錯誤", "error");
+    }
+  }, { capture: true });
+
   elements.configForm.addEventListener("submit", async (event) => {
     event.preventDefault();
 
