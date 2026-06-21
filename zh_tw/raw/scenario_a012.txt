@@ -210,7 +210,7 @@ $B:A，你也這麼認為嗎？　
 [set A s_a012_r 青行燈]
 [randomset B r @地魂男児 @あやかし -a012]
 [randomset C r 
-地球靈魂男孩 
+地魂男兒 
 綾香-a012-
 NOW]
 [show A C]

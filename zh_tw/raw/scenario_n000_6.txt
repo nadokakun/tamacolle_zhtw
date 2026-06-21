@@ -1544,7 +1544,7 @@ Nekonoya看起來真的很高興。
 [talkend]
 [textcolor ARUJI]
 Nekonoya 戴著聖誕帽並提供糖果等。
-他四處走動，將它們分發給地球靈魂男孩。/
+他四處走動，將它們分發給地魂男兒。/
 [serif off]
 ？是貓屋聖誕老公公！/
 [show B L]

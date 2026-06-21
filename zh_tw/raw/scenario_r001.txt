@@ -2470,7 +2470,7 @@ $W一邊聽著村民們的故事，
 [setline R C W B S]
 [move R X -50]
 [move S X 50]
-@地球靈魂男孩
+@地魂男兒
 ……/
 ((m))
 [show W C]
@@ -2494,7 +2494,7 @@ $W一邊聽著村民們的故事，
 [move C X -50]
 [move R X -100]
 [move S X 50]
-@地球靈魂男孩
+@地魂男兒
 ……/
 ((e))
 [show W C]
@@ -2518,7 +2518,7 @@ $W一邊聽著村民們的故事，
 [move C X -50]
 [move R X -100]
 [move S X 50]
-@地球靈魂男孩
+@地魂男兒
 ……/
 [hideall]
 [-]
@@ -4819,7 +4819,7 @@ $W是我們。/
 嘿嘿，這次我穿得好好的了。
 應該不會害羞吧……！/
 [talkend]
-@地球靈魂男孩
+@地魂男兒
 …[wait 0.2]…[shake R][wait 0.2]！！！[shake W]
 …[wait 0.2]…[wait 0.2]、[shake C][wait 0.2]…[shake S][wait 0.2]…[wait 0.2]…[wait 0.2]…[wait 0.2]！！[shake B]/
 ((s))
@@ -7576,7 +7576,7 @@ Nagare 戴著帽子遮住眼睛
 [orderline W B C]
 [setline C W B]
 一邊看地圖一邊前往神聖的洞穴
-地球靈魂男孩。/
+地魂男兒。/
 ((s))
 [say W]
 嘿，大家還好嗎？/
@@ -10110,7 +10110,7 @@ $W還有幾個地魂少年入侵了城堡。
 移除歷史覺醒區核心的作用。/
 [flow]
 [talkend]
-還有甲斐 和其他地球靈魂男孩.../
+還有甲斐 和其他地魂男兒.../
 [serif off]
 [effect fr chiri c 0 0]
 [fadein WHITE 0.2]
@@ -10179,7 +10179,7 @@ $W還有幾個地魂少年入侵了城堡。
 [-]
 [serif on]
 [talkend]
-地球靈魂男孩在屋頂上奔跑。
+地魂男兒在屋頂上奔跑。
 我將削減移動的雜質。/
 [show B L]
 [effect off c]

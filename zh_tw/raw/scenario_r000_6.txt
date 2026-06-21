@@ -1812,7 +1812,7 @@ $W我覺得真的還好.../
 [hideall]
 [-]
 [se zukkoke_02]
-@地球靈魂男孩
+@地魂男兒
 太好了。/
 ((s))
 [effect fr kira a 0 0]
@@ -12553,7 +12553,7 @@ $W-！ ！　[shake E]我後面有個大佬
 [face E 08]
 [face F 08]
 [shakebg]
-@地球靈魂男孩
+@地魂男兒
 ！？/
 [serif off]
 [hideall]
@@ -14233,7 +14233,7 @@ $W……時間到了……/
 [flow]
 歷史上就是這樣寫的。/
 [flow]
-透過地球靈魂男孩的工作
+透過地魂男兒的工作
 歷史被儲存下來。/
 [fadein BLACK 2.5]
 [serif off 2.5]
@@ -14411,7 +14411,7 @@ $W……時間到了……/
 [orderline L G C I]
 [-]
 [serif on]
-@地球靈魂男孩
+@地魂男兒
 ……/
 [serif off]
 [hideall]
@@ -14454,7 +14454,7 @@ $W……時間到了……/
 [move J Y -130 0.5]
 [minibg emo_donyori 0.5]
 [bg black 0.5]
-也許甚至在我們地球靈魂男孩中
+也許甚至在我們地魂男兒中
 你叛逆了...[shake J]我還是有一些感觸.../
 [serif off]
 [show B C]

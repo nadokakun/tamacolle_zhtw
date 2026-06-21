@@ -1527,7 +1527,7 @@ $B:A，就是這樣
 [face G 04]
 [talkend]
 [textcolor ARUJI]
-許多地球靈魂男孩和ayakashi
+許多地魂男兒和ayakashi
 她拿著一把毛茸茸的扇子跳舞。/
 [hideall]
 [-]

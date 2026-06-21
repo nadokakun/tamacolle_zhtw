@@ -1453,7 +1453,7 @@
 [hideall]
 [minibg honnohji_syoumen_day 0.5]
 [se gaya_01]
-最終，地球靈魂男孩
+最終，地魂男兒
 我進入了白河六勝寺的寺院。/
 [serif off]
 [place 白河・六勝寺]

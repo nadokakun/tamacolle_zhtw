@@ -1652,7 +1652,7 @@ $W:A。
 [move B Y 10 0.1]
 [delay 0.1 move B Y -10 0.1]
 $W:B！　
-奧拉會支援你的！/
+俺會支援你的！/
 [move W Y 5 0.2]
 [delay 0.2 move W Y -10 0.6]
 [delay 0.8 move W Y 5 0.5]
@@ -2129,7 +2129,7 @@ $W:B！　
 [setline 0.5 W B]
 [face B 06]
 [say B]
-也許奧拉被靈脈吸引了。
+也許俺被靈脈吸引了。
 我有這樣的感覺。/
 [move W Y 10 0.1]
 [delay 0.1 move W Y -10 0.2]
@@ -2873,7 +2873,7 @@ $T和$S按照能登 告訴我的去做。
 [face B 00]
 [say B]
 嗯。所以...大概現在
-我們能夠弄清楚奧拉和其他人在哪裡。/
+我們能夠弄清楚俺和其他人在哪裡。/
 [move W Y -10 0.2]
 [delay 0.2 move W Y 10 0.2]
 [delay 0.4 move W Y -10 0.2]

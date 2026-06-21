@@ -13833,7 +13833,7 @@ $ID_aite:ID_jibun，我覺得你也很強...
 沒錯。
 無論如何……我都會全力一擊！/[face ID_jibun 01]
 [say ID_jibun]
-奧拉莫哈！嗯，我想是時候了。 }:]]/
+俺莫哈！嗯，我想是時候了。 }:]]/
 [[:{PRE_CMT_TAJ_2024||def|[face ID_jibun 05]
 [say ID_jibun]
 嗯，這是我的對手！ ？[shake ID_jibun]　錦標賽桌
@@ -14494,7 +14494,7 @@ $ID_aite:ID_jibun，真的很強！/[move ID_jibun Y 5 0.2]
 [effect fr kira a 0 0]
 [se kira_01]
 交給我吧！當我們成為幸運兒時，
-我要確保所有的地球靈魂男孩都有自己的故事和模糊！/[effect off a]
+我要確保所有的地魂男兒都有自己的故事和模糊！/[effect off a]
 [say ID_aite]
 [face ID_aite 06]
 [move ID_aite Y 10 0.1]
@@ -28712,7 +28712,7 @@ $ID_aite:ID_jibun，我覺得你也很強...
 沒錯。
 無論如何……我都會全力一擊！/[face ID_jibun 01]
 [say ID_jibun]
-奧拉莫哈！嗯，我想是時候了。 }:]]/
+俺莫哈！嗯，我想是時候了。 }:]]/
 [[:{PRE_CMT_TAJ_2024||def|[face ID_jibun 05]
 [say ID_jibun]
 嗯，這是我的對手！ ？[shake ID_jibun]　錦標賽桌
@@ -29373,7 +29373,7 @@ $ID_aite:ID_jibun，真的很強！/[move ID_jibun Y 5 0.2]
 [effect fr kira a 0 0]
 [se kira_01]
 交給我吧！當我們成為幸運兒時，
-我要確保所有的地球靈魂男孩都有自己的故事和模糊！/[effect off a]
+我要確保所有的地魂男兒都有自己的故事和模糊！/[effect off a]
 [say ID_aite]
 [face ID_aite 06]
 [move ID_aite Y 10 0.1]

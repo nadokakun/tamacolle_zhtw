@@ -1258,7 +1258,7 @@ Nekonoya的抱怨毫無價值。/
 [talkend]
 [serif on]
 [textcolor ARUJI]
-為地球靈魂男孩和六原的所有人提供的巧克力
+為地魂男兒和六原的所有人提供的巧克力
 我以為我成功了。/
 [textcolor ARUJI]
 [flow]

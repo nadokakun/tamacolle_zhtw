@@ -2197,7 +2197,7 @@
 [orderline not Q3 LINE]
 [flow]
 但是……還沒有！ ！
-照這樣下去……我就使用奧拉的必殺技了！[face not 01]/[rotate not 40 0.3]
+照這樣下去……我就使用俺的必殺技了！[face not 01]/[rotate not 40 0.3]
 [talkend]
 [se cloth_06]
 [autotap]/[serif on]
@@ -4642,7 +4642,7 @@
 [orderline not Q3 LINE]
 [flow]
 但是……還沒有！ ！
-照這樣下去……我就使用奧拉的必殺技了！[face not 01]/[rotate not 40 0.3]
+照這樣下去……我就使用俺的必殺技了！[face not 01]/[rotate not 40 0.3]
 [talkend]
 [se cloth_06]
 [autotap]/[serif on]
@@ -8211,7 +8211,7 @@ B-batten，它對我不再起作用了！[face ckz 14]/[rotate ckz -20 0.3]
 [face T 10]
 [talk T]
 [shake T]
-嘿，駿河！奧拉努卡！
+嘿，駿河！俺努卡！
 為什麼不把伊豆從擂臺上拿出來讓他睡呢？ {SUMO2|B|kii|[place 紀伊vs喰魂]
 [bgm departure]
 [show kii L]
@@ -10742,7 +10742,7 @@ B-batten，它對我不再起作用了！[face ckz 14]/[rotate ckz -20 0.3]
 [face T 10]
 [talk T]
 [shake T]
-嘿，駿河！奧拉努卡！
+嘿，駿河！俺努卡！
 為什麼不把伊豆從擂臺上拿出來讓他睡呢？ {SUMO2||定義|[place 紀伊vs喰魂]
 [bgm departure]
 [show kii L]

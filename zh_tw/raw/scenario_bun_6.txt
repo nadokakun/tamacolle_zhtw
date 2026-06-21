@@ -1190,7 +1190,7 @@ $B:A也許我只是半睡半醒…/
 [autotap]/
 [serif on]
 [textcolor ARUJI]
-我想我應該檢查一下地球靈魂男孩。
+我想我應該檢查一下地魂男兒。
 當我在花園裡散步時，我發現了豐後。/
 [textcolor ARUJI]
 [flow]

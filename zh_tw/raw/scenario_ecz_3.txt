@@ -1495,7 +1495,7 @@ $W…[wait 0.1]…[wait 0.1]你是隊長[wait 0.1]…[wait 0.1]…
 [autotap]/
 [textcolor ARUJI]
 [serif on 0.5]
-越前被允許參觀，還有幾個地球靈魂男孩。
+越前被允許參觀，還有幾個地魂男兒。
 我去找正在睡覺的越前。/
 [textcolor ARUJI]
 [flow]

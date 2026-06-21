@@ -614,7 +614,7 @@
 [move J C 0.5]
 [face J 08]
 [flow]
-讓 16 個地球靈魂男孩在擂臺上互相對抗。
+讓 16 個地魂男兒在擂臺上互相對抗。
 漸漸的凝聚自己的靈力…/
 [face J 12]
 [flow]
@@ -1839,7 +1839,7 @@ Oh my god……/
 [face Q 06]
 [say Q]
 大聲什麼！就像我一樣
-別顯得你在欺負我！奧拉奧拉！ ！[face Q 02][shake Q]/
+別顯得你在欺負我！俺俺！ ！[face Q 02][shake Q]/
 [move Q Y -100 0.5]
 [rotate Q 5 0.5]
 [se cloth_06]
@@ -1986,7 +1986,7 @@ Oh my god……/
 [setline 0.5 K L]
 [face K 02]
 [say K]
-這次奧拉和但馬也是山陰路的代表。
+這次俺和但馬也是山陰路的代表。
 如果說到戰鬥，我也不會鬆懈。/
 [move L Y 5 0.2]
 [delay 0.2 move L Y -10 0.6]
