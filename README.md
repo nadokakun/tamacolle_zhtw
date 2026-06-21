@@ -1,15 +1,12 @@
-# Tamacolle 公開 GitHub Repo 發佈包
+# Tamacolle ZH-TW Repo
 
-這份資料夾是給公開 GitHub repository 使用的版本，內容包含：
+這個 repo 目前包含三個主要用途：
 
-- 繁體中文翻譯劇本
-- 去除 ruby 的日文原稿
-- 同步卷軸校對工具
-- GitHub Pages 用的 userscript 輸出
+- `zh_tw/raw/`：中文翻譯原始檔
+- `ja_noruby/raw/`：去除 ruby 標記後的日文原文
+- `review/`：可放在 GitHub Pages 的翻譯校對工具
 
-## 建議 repo 結構
-
-將整個資料夾內容放到 GitHub repo 根目錄：
+## 目錄
 
 ```txt
 repo-root/
@@ -18,126 +15,95 @@ repo-root/
 ├─ build_userscript_for_github_pages.cmd
 ├─ ja_noruby/
 │  └─ raw/
-│     └─ scenario_*.txt
 ├─ review/
+│  ├─ app.js
 │  ├─ index.html
-│  └─ review-data.js
+│  ├─ proofread-status.json
+│  ├─ server.mjs
+│  └─ start-review.ps1
 ├─ userscript/
-│  ├─ tamacolle_scenario_zh_tw_manifest.json
-│  └─ tamacolle_scenario_zh_tw_mount.user.js
 └─ zh_tw/
    └─ raw/
-      └─ scenario_*.txt
 ```
 
-## 各資料夾用途
+## 線上校對工具
 
-### `zh_tw/raw/`
+校對工具入口：
 
-繁體中文翻譯完成版。  
-油猴腳本會從這裡讀取 `scenario_*.txt`。
+- `review/index.html`
 
-### `ja_noruby/raw/`
-
-去除 ruby 標記、只保留正文的日文版。  
-適合人工校對與比對翻譯。
-
-### `review/`
-
-校對工具。  
-
-本機啟動入口：
-
-- [review/start-review.ps1](review/start-review.ps1)
-- [review/index.html](review/index.html)
-
-啟動後預設開在：
+如果這個 repo 已啟用 GitHub Pages，工具網址會是：
 
 ```txt
-http://127.0.0.1:8767/
+https://nadokakun.github.io/tamacolle_zhtw/review/
 ```
 
-若 GitHub Pages 已啟用，也可以放在：
+這個版本已改成「前端直接讀寫 GitHub」：
+
+- 首次開啟會把中日文檔案下載到瀏覽器本機快取
+- 右側可以直接編輯翻譯，按 `Enter` 儲存到本機快取
+- 可搜尋中文內容、快速取代、標記校對完成
+- 可從 GitHub 重新同步
+- 可直接把修改推送回 repo
+
+## GitHub Pages 使用方式
+
+### 1. 啟用 Pages
+
+在 GitHub repo 的 `Settings -> Pages`：
+
+1. Source 選擇目前 repo 的 branch
+2. 資料夾選擇 `/ (root)`
+3. 儲存後等待 GitHub 發佈
+
+完成後即可透過：
 
 ```txt
-https://你的帳號.github.io/你的repo/review/
+https://<owner>.github.io/<repo>/review/
 ```
 
-### `userscript/`
+開啟校對工具。
 
-GitHub Pages 掛載用的 userscript 與 manifest。
+### 2. 首次使用
 
-## 發佈到 GitHub Pages
+首次打開工具時會：
 
-GitHub 官方文件：
+1. 從 GitHub 讀取檔案樹
+2. 下載 `ja_noruby/raw` 與 `zh_tw/raw` 的 scenario 檔
+3. 建立瀏覽器本機快取
 
-- [What is GitHub Pages?](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
-- [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+之後再次開啟會優先使用本機快取，因此速度會快很多。
 
-建議流程：
+### 3. 推送修改
 
-1. 建立一個公開 repo
-2. 把這個資料夾內容推上去
-3. 在 GitHub Pages 設定中，將發佈來源設為該 repo 的 branch
-4. 啟用後會得到：
+因為 GitHub Pages 只能託管靜態頁面，無法在伺服器端執行 `git push`，所以推送採用 GitHub API。
 
-```txt
-https://你的帳號.github.io/你的repo/
-```
+請在工具右上角的 `GitHub 設定` 填入：
 
-## 重新產生 GitHub Pages 版 userscript
+- `Owner`
+- `Repository`
+- `Branch`
+- `Personal Access Token`
 
-因為每個人的 GitHub Pages 網址不同，所以要依自己的 repo 網址重新生成一次 userscript。
+建議使用 Fine-grained PAT，至少提供目標 repo 的：
 
-直接執行：
+- `Contents: Read and write`
 
-[build_userscript_for_github_pages.cmd](C:/Users/Nadoka/Documents/Codex/2026-06-21/files-mentioned-by-the-user-conversation/outputs/tamacolle_github_public_repo/build_userscript_for_github_pages.cmd)
+權杖只會存到你目前瀏覽器的 local storage，不會寫進 repo。
 
-它會請你輸入：
+## 校對狀態
 
-- GitHub 帳號
-- repo 名稱
+校對完成狀態儲存在：
 
-然後自動把 `userscript/tamacolle_scenario_zh_tw_mount.user.js` 重建成對應你自己 Pages 網址的版本。
+- `review/proofread-status.json`
 
-## GitHub Pages 完成後的路徑
+當你在工具內標記「已校對」後，狀態會先存在瀏覽器本機快取；按下 `推送 GitHub` 後，才會一併提交到 repo。
 
-如果帳號是 `example`，repo 是 `tamacolle-translation`，那麼：
+## 本機啟動版
 
-### 翻譯劇本
+repo 仍保留舊的本機 Node.js 啟動方式：
 
-```txt
-https://example.github.io/tamacolle-translation/zh_tw/raw/scenario_a001.txt
-```
+- `review/start-review.ps1`
+- `review/server.mjs`
 
-### 去 ruby 日文稿
-
-```txt
-https://example.github.io/tamacolle-translation/ja_noruby/raw/scenario_a001.txt
-```
-
-### 校對工具
-
-```txt
-https://example.github.io/tamacolle-translation/review/
-```
-
-## 安裝 userscript
-
-重新生成後，將這份匯入 Tampermonkey：
-
-- `userscript/tamacolle_scenario_zh_tw_mount.user.js`
-
-之後進入 Tamacolle 頁面，就會從 GitHub Pages 讀取翻譯劇本，不需要再開本機伺服器。
-
-## 校對工具快速入口
-
-- 啟動腳本：[review/start-review.ps1](review/start-review.ps1)
-- 校對工具目錄：[review/](review/)
-- 本機校對網址：`http://127.0.0.1:8767/`
-
-## 注意事項
-
-- repo 必須公開，這樣 GitHub Pages 與外部讀取才會最省事
-- 若你改了 GitHub 帳號名、repo 名稱、子路徑，請重新生成 userscript
-- 若新增 `scenario_*.txt`，只要更新 `zh_tw/raw/` 後重新 push 到 GitHub 即可
+但現在主要建議使用 GitHub Pages 版本，這樣在其他電腦上只要打開網址即可使用。
