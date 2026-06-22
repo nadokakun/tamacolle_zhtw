@@ -105,7 +105,7 @@
 嘿，這是怎麼回事？[rotate B 10 0.5][shake B][se cloth_06][face B 01]/
 [face A 01]
 [face B 02]
-……你笑得那麼開心
+……看你笑得那麼開心
 俺也覺得很高興呢！[shake A][shake B]/
 >>7/
 /

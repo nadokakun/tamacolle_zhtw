@@ -22,7 +22,7 @@
 [delay 0.2 move A Y 10 0.2]
 [-]
 [serif on 0.5]
-哈……哈……是我……
+哈……哈……難道……
 難道是我的問題嗎.../
 [face A 13]
 [shake A]
@@ -92,7 +92,7 @@
 [-]
 [serif on]
 [textcolor BLUE]
-首先，從死人身上提取靈魂是一門手藝。/
+而且，從死人身上提取靈魂可不容易。/
 [move A X -250 0.5]
 [move T X 200 0.5]
 [-]
@@ -111,15 +111,15 @@
 [delay 0.4 move A XY 10 40 0.3]
 [delay 0.5 rotate A 0 0.3]
 [textcolor BLUE]
-首先，那個人一定會死。
-檢查。/
+首先要先好好的檢查，那個人是不是
+真的死了。/
 [face A 02]
 [se paper_01]
 [move A Y 10 0.1]
 [delay 0.1 move A Y -10 0.1]
 [textcolor BLUE]
-看看手邊的炎魔町上有沒有那個人的名字。
-檢查。[wait 0.3]耀西！/
+然後檢查閻魔帳上有沒有他的名字。
+[wait 0.3]很好！/
 [face A 01]
 [move A Y -50 0.2]
 [wait 0.3]
@@ -138,8 +138,8 @@
 [rotate T -90 0.1]
 [se dosa_01]
 [textcolor BLUE]
-如果沒有錯誤的話，把屍體放到車上，
-我沒完沒了地向三途川走去。[se zuru_01][move A X -200 1.0][delay 1.2 move A X -200 1.0][delay 1.5 hide A][delay 1.5 hide T][delay 0.2 move T X -200 1.0][delay 1.4 move T X -200 1.0]/
+如果沒有問題的話，再把屍體放到車上，
+向遙遠的三途川走去。[se zuru_01][move A X -200 1.0][delay 1.2 move A X -200 1.0][delay 1.5 hide A][delay 1.5 hide T][delay 0.2 move T X -200 1.0][delay 1.4 move T X -200 1.0]/
 [fadein BLACK 0.5]
 [serif off 0.5]
 [-]
@@ -174,8 +174,8 @@
 [-]
 [serif on]
 [textcolor BLUE]
-所以，當你來到三途川的入口處時，
-將繩子綁在屍體上。/
+然後，當你來到三途川的入口處時，
+將繩子牢牢綑在屍體上。/
 [move A X 400 0.5]
 [rotate T -60 0.5]
 [-]
@@ -191,10 +191,10 @@
 [face A 01]
 [textcolor BLUE]
 然後，抓住屍體的頭…
-拉緊一點...[move A X 10 1.0][rotate A -40 0.5]拉更多...[shake A 3 5 1][shake T]/
+拉緊一點...[move A X 10 1.0][rotate A -40 0.5]用力地拉緊一點...[shake A 3 5 1][shake T]/
 [textcolor BLUE]
 這時，將腳放在屍體的肩膀上，踩在上面。
-訣竅是牢牢抓住眼球。/
+訣竅就是要用力抓住眼睛那一帶。/
 [move A X -200 0.5]
 [move T X -200 0.5]
 [rotate A -10 0.5]
